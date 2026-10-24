@@ -785,13 +785,6 @@ Ruling (2024-07-26): The token copies exactly what was printed on the original c
 Cost: {1}{w} | Type: Instant | Color identity: W | Commander: legal
 Text: Destroy target enchantment and all other enchantments with the same name as that enchantment.
 
-## Echoing Cavern
-Cost: — | Type: Land — Cave | Color identity: colorless | Commander: legal
-Text: As this land enters, choose a creature type.
-  {T}: Add {C}.
-  {T}: Add one mana of any color. Spend this mana only to cast spells of the chosen type.
-  Exhaust — {4}, {T}: Seek a card of the chosen type.
-
 ## Echoing Courage
 Cost: {1}{g} | Type: Instant | Color identity: G | Commander: legal
 Text: Target creature and all other creatures with the same name as that creature get +2/+2 until end of turn.
@@ -1161,20 +1154,10 @@ Cost: {3}{u} | Type: Enchantment | Color identity: U | Commander: legal
 Text: Whenever you cast an artifact spell, create a 1/1 colorless Thopter artifact creature token with flying.
 Ruling (2017-02-09): Efficient Construction's triggered ability resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered.
 
-## Effie, Fast Learner
-Cost: {1}{g}{w} | Type: Legendary Creature — Human Survivor | Color identity: GW | P/T: 3/3 | Commander: legal
-Text: Enlist
-  Survival — At the beginning of your second main phase, if Effie is tapped, put a +1/+1 counter on each tapped creature you control. Then seek a Survivor card with mana value less than or equal to the number of tapped creatures you control.
-
 ## Efflorescence
 Cost: {2}{g} | Type: Instant | Color identity: G | Commander: legal
 Text: Put two +1/+1 counters on target creature.
   Infusion — If you gained life this turn, that creature also gains trample and indestructible until end of turn.
-
-## Effluence Devourer
-Cost: {b}{r}{g} | Type: Creature — Crocodile | Color identity: BGR | P/T: 4/3 | Commander: legal
-Text: Whenever you sacrifice Effluence Devourer or another creature, it perpetually gains "{2}, Exile this card from your graveyard: Create an X/X green Ooze creature token, where X is this card's power. Activate only as a sorcery."
-  Blitz {B}{R}{G} (If you cast this spell for its blitz cost, it gains haste and "When this creature dies, draw a card." Sacrifice it at the beginning of the next end step.)
 
 ## Effortless Master
 Cost: {2}{u}{r} | Type: Creature — Orc Monk | Color identity: RU | P/T: 4/3 | Commander: legal
@@ -2943,10 +2926,6 @@ Ruling (2020-11-10): Opponents who have left the game aren't counted when determ
 Ruling (2020-11-10): The tokens copy only what's on the original card. Effects that modified that creature when it was previously on the battlefield won't be copied.
 Ruling (2023-07-28): If an effect stops a token from attacking a specific player, that token can attack any player, planeswalker, or battle, or not attack at all. If the effect stops the token from attacking a specific player unless a cost is paid, you don't have to pay that cost unless you want to attack that player.
 
-## Elvish Elegy
-Cost: {b/g} | Type: Kindred Sorcery — Elf | Color identity: BG | Commander: legal
-Text: Mill three cards, then each creature card in your graveyard perpetually gets +1/+1. You may put an Elf or land card from among the milled cards into your hand.
-
 ## Elvish Eulogist
 Cost: {g} | Type: Creature — Elf Shaman | Color identity: G | P/T: 1/1 | Commander: legal
 Text: Sacrifice this creature: You gain 1 life for each Elf card in your graveyard.
@@ -3925,18 +3904,9 @@ Text: Whenever Emmara becomes tapped, create a 1/1 white Soldier creature token 
 Ruling (2018-10-05): Emmara's ability is a triggered ability, not an activated ability. It doesn't allow you to tap Emmara whenever you want; rather, you need some other way of tapping it, such as by attacking.
 Ruling (2018-10-05): For the ability to trigger, Emmara has to actually change from untapped to tapped. If an effect attempts to tap Emmara, but it was already tapped at the time, this ability won't trigger.
 
-## Emmara, Voice of the Conclave
-Cost: {1}{g}{w} | Type: Legendary Creature — Elf Cleric | Color identity: GW | P/T: 2/3 | Commander: legal
-Text: Convoke
-  When Emmara, Voice of the Conclave enters, draft a card from Emmara, Voice of the Conclave's spellbook.
-
 ## Emmessi Tome
 Cost: {4} | Type: Artifact — Book | Color identity: colorless | Commander: legal
 Text: {5}, {T}: Draw two cards, then discard a card.
-
-## Emperor Apatzec Intli IV
-Cost: {r}{g}{w} | Type: Legendary Creature — Human Noble | Color identity: GRW | P/T: 3/4 | Commander: legal
-Text: Whenever another creature enters under your control, that creature perpetually gains haste if its power is 4 or greater. If its toughness is 4 or greater, you gain 4 life. If its mana value is 4 or greater, seek a creature card.
 
 ## Emperor Crocodile
 Cost: {3}{g} | Type: Creature — Crocodile | Color identity: G | P/T: 5/5 | Commander: legal
@@ -3976,11 +3946,6 @@ Ruling (2018-01-19): If no card is revealed, most likely because that player's l
 Ruling (2018-01-19): In some unusual cases, noncreature permanents may explore. For example, if the creature card returned by Defossilize is somehow not a creature once it's on the battlefield, it can still explore. You'll take all the same actions, and you may end up putting a +1/+1 counter on the permanent. (Note that some effects target a creature, and those effects would still require a legal target to have it explore.)
 Ruling (2018-01-19): Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
 Ruling (2018-01-19): Some spells or abilities might cause a creature to explore multiple times in a row. If you reveal a nonland card when a creature explores and leave it on top of your library, then the creature explores again immediately afterwards, you'll reveal the same card again.
-
-## Emporium Thopterist
-Cost: {1}{u} | Type: Creature — Vedalken Artificer | Color identity: U | P/T: 1/1 | Commander: legal
-Text: Thopters you control get +2/+0.
-  At the beginning of your upkeep, conjure a card named Ornithopter into your hand.
 
 ## Empowered Autogenerator
 Cost: {4} | Type: Artifact | Color identity: colorless | Commander: legal
@@ -4394,11 +4359,6 @@ Text: {2}, {T}: Draw a card. Activate only if you control three or more lands wi
 ## Endless Cockroaches
 Cost: {1}{b}{b} | Type: Creature — Insect | Color identity: B | P/T: 1/1 | Commander: legal
 Text: When this creature dies, return it to its owner's hand.
-
-## Endless Corridor
-Cost: {1}{w} | Type: Enchantment — Room | Color identity: W | Commander: legal
-Faces: Solitary Study // Endless Corridor (split)
-Text: When you unlock this door, conjure a duplicate of this card into your hand. When you do, target creature you control gains first strike until end of turn.
 
 ## Endless Detour
 Cost: {g}{w}{u} | Type: Instant | Color identity: GUW | Commander: legal
@@ -6697,12 +6657,6 @@ Ruling (2023-04-14): If you cast more than one of the exiled cards, you choose t
 Ruling (2023-04-14): In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any spells or permanents you control from Etali's ability are exiled.
 Ruling (2023-04-14): Losing the game because a player (preferably an opponent) has ten or more poison counters is a rule of the game. Etali, Primal Sickness doesn't have to still be on the battlefield when someone (preferably an opponent) gets their tenth poison counter.
 
-## Etali, Primal Garden
-Cost: {6}{g} | Type: Legendary Creature — Elder Dinosaur | Color identity: G | P/T: 7/7 | Commander: legal
-Text: Actualize — This spell costs {1} less to cast for each spell you've cast this game that wasn't from your starting deck.
-  Trample
-  Whenever Etali enters or attacks, conjure a random Dinosaur card into exile. You may cast that card this turn without paying its mana cost.
-
 ## Etali, Primal Sickness
 Cost: — | Type: Legendary Creature — Phyrexian Elder Dinosaur | Color identity: GR | P/T: 11/11 | Commander: legal
 Faces: Etali, Primal Conqueror // Etali, Primal Sickness (transform)
@@ -6944,11 +6898,6 @@ Cost: {3}{g}{g} | Type: Creature — Elk Spirit | Color identity: G | P/T: 3/3 |
 Text: Trample
   When this creature enters, you may search your library and/or graveyard for a card named Vivien, Nature's Avenger, reveal it, and put it into your hand. If you search your library this way, shuffle.
 
-## Ethereal Escort
-Cost: {2}{w} | Type: Creature — Spirit | Color identity: W | P/T: 3/3 | Commander: legal
-Text: Lifelink
-  Whenever this creature enters or attacks, choose a card in your hand. It perpetually gains lifelink.
-
 ## Ethereal Forager
 Cost: {4}{u}{u} | Type: Creature — Elemental Whale | Color identity: U | P/T: 3/3 | Commander: legal
 Text: Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
@@ -6959,10 +6908,6 @@ Ruling (2020-04-17): If Ethereal Forager leaves the battlefield while its trigge
 Ruling (2021-03-19): Because delve isn't an alternative cost, it can be used in conjunction with alternative costs, such as flashback. It can also be used to pay for additional costs that include generic mana.
 Ruling (2021-03-19): Delve doesn't change a spell's mana cost or mana value. For example, Treasure Cruise's mana value is 8 even if you exiled three cards to cast it.
 Ruling (2021-03-19): You can exile cards to pay only for generic mana, and you can't exile more cards than the generic mana requirement of a spell with delve. For example, you can't exile more than seven cards from your graveyard to cast Treasure Cruise unless an effect has increased its cost.
-
-## Ethereal Grasp
-Cost: {2}{u} | Type: Instant | Color identity: U | Commander: legal
-Text: Tap target creature. That creature perpetually gains "This creature doesn't untap during your untap step" and "{8}: Untap this creature."
 
 ## Ethereal Guidance
 Cost: {2}{w} | Type: Sorcery | Color identity: W | Commander: legal
@@ -7152,11 +7097,6 @@ Ruling (2022-06-10): You must still follow any relevant timing rules for the per
 Cost: — | Type: Land | Color identity: B | Commander: legal
 Text: {T}, Pay 1 life: Add {B}. Put a hatchling counter on this land.
   When this land is put into a graveyard from the battlefield, for each hatchling counter on it, create a 1/1 black Insect creature token with flying.
-
-## Eumidian Lifeseed
-Cost: {g} | Type: Artifact | Color identity: G | Commander: legal
-Text: When this artifact enters, draft a card from Eumidian Lifeseed's spellbook.
-  {T}: Add one mana of any color. Spend this mana only to activate abilities of land sources.
 
 ## Eumidian Terrabotanist
 Cost: {1}{g} | Type: Creature — Insect Druid | Color identity: G | P/T: 2/3 | Commander: legal
@@ -7840,12 +7780,6 @@ Text: Imprint — When this enchantment enters, exile target nonland permanent.
 Ruling (2011-06-01): If the exiled card somehow leaves exile, the last ability will no longer have any effect.
 Ruling (2011-06-01): In a Commander game, a player may put their commander in the command zone once exclusion ritual's triggered ability has finished resolving. If this happens, Exclusion Ritual's last ability will have no effect.
 
-## Excogitator Sphinx
-Cost: {2}{u}{u} | Type: Creature — Sphinx Detective | Color identity: U | P/T: 4/4 | Commander: legal
-Text: Flying
-  Whenever one or more creatures you control deal combat damage to a player, investigate.
-  {1}, Sacrifice a Clue: Seek an instant or sorcery card.
-
 ## Excommunicate
 Cost: {2}{w} | Type: Sorcery | Color identity: W | Commander: legal
 Text: Put target creature on top of its owner's library.
@@ -8113,11 +8047,6 @@ Ruling (2026-03-20): When you proliferate, you can choose any permanent that has
 Ruling (2026-03-20): While proliferating multiple times, players can't respond between proliferating the first time and proliferating the second time, and so on.
 Ruling (2026-03-20): You don't have to choose every permanent or player that has a counter—only the ones you want to add counters to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
 
-## Expansive Reapplication
-Cost: {x}{g}{u} | Type: Instant | Color identity: GU | Commander: legal
-Text: X can't be 0.
-  Counter target spell. Conjure a random creature card with mana value X onto the battlefield.
-
 ## Expedite
 Cost: {r} | Type: Instant | Color identity: R | Commander: legal
 Text: Target creature gains haste until end of turn.
@@ -8172,10 +8101,6 @@ Ruling (2016-01-22): You can't put more than one +1/+1 counter on any one target
 ## Expedition Skulker
 Cost: {1}{b} | Type: Creature — Vampire Rogue | Color identity: B | P/T: 2/2 | Commander: legal
 Text: This creature has deathtouch as long as you control another Rogue. (Any amount of damage it deals to a creature is enough to destroy it.)
-
-## Expedition Supplier
-Cost: {2}{w} | Type: Creature — Human Warrior | Color identity: W | P/T: 2/2 | Commander: legal
-Text: Whenever one or more Humans and/or Warriors you control enter, conjure a card named Utility Knife onto the battlefield. This ability triggers only once each turn.
 
 ## Expel
 Cost: {2}{w} | Type: Instant | Color identity: W | Commander: legal
@@ -8360,12 +8285,6 @@ Text: Create an X/X blue and red Weird creature token, where X is the number of 
 Ruling (2020-06-23): Because Experimental Overload is still on the stack while it's resolving, it doesn't count towards the value of X.
 Ruling (2020-06-23): The value of X is determined only as Experimental Overload resolves. The Weird's power and toughness don't change if the number of instant and sorcery cards in your graveyard changes.
 Ruling (2020-06-23): You exile Experimental Overload even if you don't return a card to your hand.
-
-## Experimental Pilot
-Cost: {u} | Type: Creature — Human Pilot | Color identity: U | P/T: 1/2 | Commander: legal
-Text: Ward {2}
-  {U}, Discard two cards: Draft a card from Experimental Pilot's spellbook.
-  Experimental Pilot crews Vehicles as though its power were 2 greater.
 
 ## Experimental Synthesizer
 Cost: {r} | Type: Artifact | Color identity: R | Commander: legal

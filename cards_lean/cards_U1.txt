@@ -187,11 +187,6 @@ Cost: {3}{u}{b}{b} | Type: Legendary Creature — Elder Sphinx | Color identity:
 Text: Flying
   When Uldaros Theorix enters, if you cast him, exile up to one target nonland card of each card type from your graveyard. Copy those cards. You may cast any number of spells with total mana value 6 or less from among the copies without paying their mana costs. (Permanent spells cast this way become tokens.)
 
-## Ulder Ravengard, Marshal
-Cost: {1}{r}{w} | Type: Legendary Creature — Human Noble Soldier | Color identity: RW | P/T: 3/3 | Commander: legal
-Text: When Ulder Ravengard, Marshal enters the battlefield, another target nontoken creature you control gains double team until end of turn.
-  Whenever Ulder Ravengard attacks, conjure a duplicate of another target nontoken attacking creature into your hand.
-
 ## Ulna Alley Shopkeep
 Cost: {2}{b} | Type: Creature — Goblin Warlock | Color identity: B | P/T: 2/3 | Commander: legal
 Text: Menace (This creature can't be blocked except by two or more creatures.)
@@ -545,11 +540,6 @@ Cost: {2}{w} | Type: Instant | Color identity: W | Commander: legal
 Text: Creatures you control gain indestructible until end of turn.
   Addendum — If you cast this spell during your main phase, put a +1/+1 counter on each of those creatures and they gain vigilance until end of turn.
 
-## Unbreakable Remnant
-Cost: {w} | Type: Creature — Spirit Soldier | Color identity: W | P/T: 2/1 | Commander: legal
-Text: Escape — {1}{W}, Exile two other cards from your graveyard.
-  When you cast this spell from your graveyard, all cards you own named Unbreakable Remnant perpetually get +1/+1.
-
 ## Unbreathing Horde
 Cost: {2}{b} | Type: Creature — Zombie | Color identity: B | P/T: 0/0 | Commander: legal
 Text: This creature enters with a +1/+1 counter on it for each other Zombie you control and each Zombie card in your graveyard.
@@ -774,10 +764,6 @@ Cost: {4}{b}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Target player loses 1 life, discards a card, then sacrifices a permanent of their choice.
   Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)
 
-## Undercity Plunder
-Cost: {1}{b} | Type: Sorcery | Color identity: B | Commander: legal
-Text: Target opponent discards a card. Then they may discard an additional card. If they don't, conjure a duplicate of a random card from their library into your hand. It perpetually gains prismatic.
-
 ## Undercity Scavenger
 Cost: {3}{b} | Type: Creature — Ogre Warrior | Color identity: B | P/T: 3/3 | Commander: legal
 Text: When this creature enters, you may sacrifice another creature. If you do, put two +1/+1 counters on this creature, then scry 2.
@@ -918,10 +904,6 @@ Text: If you would draw a card, instead look at the top three cards of your libr
 Cost: {4}{u}{u} | Type: Creature — Giant Rogue | Color identity: U | P/T: 5/6 | Commander: legal
 Text: Flash (You may cast this spell any time you could cast an instant.)
   This creature enters tapped.
-
-## Undersimplify
-Cost: {1}{u} | Type: Instant | Color identity: U | Commander: legal
-Text: Choose target spell. If it's a creature spell, it perpetually gets -2/-0. Counter that spell unless its controller pays {2}.
 
 ## Undertaker
 Cost: {1}{b} | Type: Creature — Human Spellshaper | Color identity: B | P/T: 1/1 | Commander: legal
@@ -1067,10 +1049,6 @@ Text: Target nontoken creature you control gets +2/+0 and gains double team unti
 Cost: {3}{u}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
   Draw three cards, then discard a card.
-
-## Unexpected Conversion
-Cost: {2}{u} | Type: Sorcery | Color identity: U | Commander: legal
-Text: Draw two cards. Then you may exile an instant or sorcery card from your hand. If you do, search your hand and library for any number of cards with the same name, exile them, then shuffle. Seek an instant or sorcery card for each card exiled from your hand this way.
 
 ## Unexpected Fangs
 Cost: {1}{b} | Type: Instant | Color identity: B | Commander: legal
@@ -1517,11 +1495,6 @@ Text: Trample
 Cost: {1}{w} | Type: Creature — Human | Color identity: W | P/T: 1/1 | Commander: legal
 Text: Whenever another creature you control dies, put a +1/+1 counter on this creature.
 
-## Unsavory Kitchen
-Cost: {2}{r} | Type: Enchantment — Room | Color identity: R | Commander: legal
-Faces: Crude Abattoir // Unsavory Kitchen (split)
-Text: Whenever a source you control deals noncombat damage to a creature, choose a creature card in your hand. It perpetually gets +2/+0 and gains haste.
-
 ## Unscrupulous Agent
 Cost: {1}{b} | Type: Creature — Elf Detective | Color identity: B | P/T: 1/1 | Commander: legal
 Text: When this creature enters, target opponent exiles a card from their hand.
@@ -1966,12 +1939,6 @@ Cost: {4}{g}{u}{r} | Type: Legendary Creature — Spirit Dragon | Color identity
 Text: Flying, trample
   Whenever Ureni enters or attacks, look at the top eight cards of your library. You may put a Dragon creature card from among them onto the battlefield. Put the rest on the bottom of your library in a random order.
 
-## Ureni's Counsel
-Cost: {6}{u} | Type: Sorcery | Color identity: RU | Commander: legal
-Text: This spell costs {1} less to cast for each Dragon card in your library.
-  Seek a Dragon card.
-  Harmonize {8}{R}{R}
-
 ## Ureni's Rebuff
 Cost: {1}{u} | Type: Sorcery | Color identity: U | Commander: legal
 Text: Return target creature to its owner's hand.
@@ -2036,12 +2003,6 @@ Text: This creature enters with four healing counters on it.
   Remove a healing counter from this creature: Prevent the next 1 damage that would be dealt to this creature this turn.
   {2}{W}: Put a healing counter on this creature.
 
-## Ursine Guide
-Cost: {2}{g} | Type: Creature — Bear Druid | Color identity: G | P/T: 3/3 | Commander: legal
-Faces: Ursine Guide // Ranger's Merit (prepare)
-Text: This creature enters prepared.
-  Whenever you cast a spell that isn't from your starting deck, conjure a card named Bear Cub onto the battlefield. This creature becomes prepared.
-
 ## Ursine Monstrosity
 Cost: {2}{g} | Type: Creature — Bear Mutant | Color identity: G | P/T: 3/3 | Commander: legal
 Text: Trample
@@ -2097,11 +2058,6 @@ Text: Choose two —
   • Create a tapped Powerstone token.
   • Create a tapped 0/0 colorless Construct artifact creature token with "This token gets +1/+1 for each artifact you control."
   • Scry 1, then draw a card.
-
-## Urza's Construction Drone
-Cost: {3} | Type: Artifact Creature — Construct | Color identity: colorless | P/T: 3/3 | Commander: legal
-Text: When Urza's Construction Drone enters, conjure cards named Urza's Mine, Urza's Power Plant, and Urza's Tower into your library, then shuffle.
-  Whenever Urza's Construction Drone attacks or dies, seek an Urza's land card.
 
 ## Urza's Engine
 Cost: {5} | Type: Artifact Creature — Juggernaut | Color identity: colorless | P/T: 1/5 | Commander: legal

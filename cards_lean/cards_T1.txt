@@ -237,11 +237,6 @@ Text: Haste
   Prevent all noncombat damage that would be dealt to other creatures you control.
   {R}{W}: Tajic gains first strike until end of turn.
 
-## Tajic, Legion's Valor
-Cost: {2}{r}{w} | Type: Legendary Creature — Human Soldier | Color identity: RW | P/T: 1/1 | Commander: legal
-Text: Indestructible, haste
-  At the beginning of combat on your turn, put a +1/+1 counter on Tajic, Legion's Valor. Then conjure a card with mana value equal to the number of +1/+1 counters on it from Tajic, Legion's Valor's spellbook onto the battlefield. It gains haste until end of turn and attacks this combat if able.
-
 ## Tajuru Archer
 Cost: {2}{g} | Type: Creature — Elf Archer Ally | Color identity: G | P/T: 1/2 | Commander: legal
 Text: Whenever this creature or another Ally you control enters, you may have this creature deal damage to target creature with flying equal to the number of Allies you control.
@@ -474,13 +469,6 @@ Text: Each player with fewer cards in hand than the player with the most cards i
 Cost: {2}{u} | Type: Creature — Faerie Noble | Color identity: U | P/T: 1/3 | Commander: legal
 Text: Flying
   Whenever you attack with one or more Faeries, draw a card, then discard a card. When you discard a card this way, put a +1/+1 counter on target Faerie you control.
-
-## Talion's Throneguard
-Cost: {2}{u}{u} | Type: Creature — Faerie Wizard | Color identity: U | P/T: 4/2 | Commander: legal
-Text: Flash
-  Bargain
-  Flying
-  When Talion's Throneguard enters, return up to one target spell or nonland permanent to its owner's hand. If Talion's Throneguard was bargained, that card perpetually gains "This spell costs {2} more to cast."
 
 ## Talion, the Kindly Lord
 Cost: {2}{u}{b} | Type: Legendary Creature — Faerie Noble | Color identity: BU | P/T: 3/4 | Commander: legal
@@ -1085,10 +1073,6 @@ Cost: {3}{g} | Type: Sorcery | Color identity: G | Commander: legal
 Text: As an additional cost to cast this spell, you may pay {1}{G} any number of times.
   You gain 3 life plus an additional 3 life for each additional {1}{G} you paid.
 
-## Tasteful Offering
-Cost: {1}{b} | Type: Sorcery | Color identity: B | Commander: legal
-Text: You get a two-time boon with "Whenever you sacrifice one or more permanents, seek a nonland card." Create a Food token.
-
 ## Taster of Wares
 Cost: {2}{b} | Type: Creature — Goblin Warlock | Color identity: B | P/T: 3/2 | Commander: legal
 Text: When this creature enters, target opponent reveals X cards from their hand, where X is the number of Goblins you control. You choose one of those cards. That player exiles it. If an instant or sorcery card is exiled this way, you may cast it for as long as you control this creature, and mana of any type can be spent to cast that spell.
@@ -1227,10 +1211,6 @@ Text: Nightbound (If a player casts at least two spells during their own turn, i
 ## Tavern Swindler
 Cost: {1}{b} | Type: Creature — Human Rogue | Color identity: B | P/T: 2/2 | Commander: legal
 Text: {T}, Pay 3 life: Flip a coin. If you win the flip, you gain 6 life.
-
-## Tawnos Endures
-Cost: {w} | Type: Instant | Color identity: W | Commander: legal
-Text: Exile target creature. It gains "At the beginning of your upkeep, if this card is exiled, it perpetually gets +1/+1, then you may put it onto the battlefield."
 
 ## Tawnos's Coffin
 Cost: {4} | Type: Artifact | Color identity: colorless | Commander: legal
@@ -1483,10 +1463,6 @@ Text: If you would draw a card except the first one you draw in each of your dra
 Cost: {2}{w} | Type: Enchantment | Color identity: UW | Commander: legal
 Text: {W}, Sacrifice an enchantment: Destroy target enchantment.
   {3}{U}{U}: Counter target enchantment spell.
-
-## Teferi's Contingency
-Cost: {w}{u}{u} | Type: Instant | Color identity: UW | Commander: legal
-Text: Counter target spell. Each card in its controller's graveyard, hand, and library with the same name as that spell perpetually gains "This spell costs {2} more to cast."
 
 ## Teferi's Curse
 Cost: {1}{u} | Type: Enchantment — Aura | Color identity: U | Commander: legal
@@ -2263,11 +2239,6 @@ Text: As an additional cost to cast this spell, sacrifice a creature.
 Cost: {2}{g} | Type: Sorcery | Color identity: G | Commander: legal
 Text: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if you control seven or more lands and/or Treefolk, create a 3/4 green Treefolk creature token with reach. (It can block creatures with flying.)
 
-## Tend to the Kiln
-Cost: {1}{r} | Type: Enchantment | Color identity: R | Commander: legal
-Text: When this enchantment enters, all non-Elemental instant and sorcery cards you own perpetually become Elemental kindreds in addition to their other types.
-  Whenever you cast an Elemental spell, put a flame counter on this enchantment. Then if it has three or more flame counters on it, remove them, conjure a card named Flamebraider onto the battlefield, and it gains haste and "At the beginning of the end step, sacrifice this creature."
-
 ## Tender Wildguide
 Cost: {1}{g} | Type: Creature — Possum Druid | Color identity: G | P/T: 2/2 | Commander: legal
 Text: Offspring {2} (You may pay an additional {2} as you cast this spell. If you do, when this creature enters, create a 1/1 token copy of it.)
@@ -2616,11 +2587,6 @@ Cost: {2}{g} | Type: Creature — Cat | Color identity: G | P/T: 2/1 | Commander
 Text: Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
   Landfall — Whenever a land you control enters, put a +1/+1 counter on this creature.
 
-## Territorial Strike
-Cost: {1}{b}{g} | Type: Sorcery | Color identity: BG | Commander: legal
-Text: As an additional cost to cast this spell, you may behold a Dragon creature.
-  Destroy target nonland permanent. If a Dragon creature was beheld, it perpetually gets +2/+2.
-
 ## Territorial Witchstalker
 Cost: {1}{g} | Type: Creature — Wolf | Color identity: G | P/T: 2/3 | Commander: legal
 Text: Defender
@@ -2837,12 +2803,6 @@ Text: Increment (Whenever you cast a spell, if the amount of mana you spent is g
 Cost: {2}{w} | Type: Creature — Illusion | Color identity: W | P/T: 0/3 | Commander: legal
 Text: When this creature enters, put a +1/+1 counter on target creature you control.
 
-## Teyo, Aegis Adept
-Cost: {2}{w}{w} | Type: Legendary Planeswalker — Teyo | Color identity: W | Loyalty/Defense: 4 | Commander: legal
-Text: [+1]: Up to one target creature's base power perpetually becomes equal to its toughness. It perpetually gains "This creature can attack as though it didn't have defender."
-  [−2]: Conjure a card named Lumbering Lightshield onto the battlefield.
-  [−6]: You get an emblem with "At the beginning of your end step, return target white creature card from your graveyard to the battlefield. You gain life equal to its toughness."
-
 ## Teyo, Diamondblade Mage
 Cost: {3}{b} | Type: Legendary Creature — Human Warlock | Color identity: B | P/T: 3/1 | Commander: legal
 Text: Flash
@@ -2868,13 +2828,6 @@ Text: You have hexproof. (You can't be the target of spells or abilities your op
 Cost: {2}{w}{b} | Type: Legendary Creature — Human Advisor | Color identity: BW | P/T: 2/4 | Commander: legal
 Text: If a creature dying causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
   Creature tokens you control have vigilance and lifelink.
-
-## Teysa of the Ghost Council
-Cost: {2}{w}{b} | Type: Legendary Creature — Spirit Advisor | Color identity: BW | P/T: 0/5 | Commander: legal
-Text: Starting intensity 0
-  When Teysa enters, create a 1/1 white and black Spirit creature token with flying. Teysa intensifies by 1.
-  Spirits you control get +X/+0, where X is Teysa's intensity.
-  At the beginning of your end step, you may exile Teysa. If you do, at the beginning of your next upkeep, return Teysa to the battlefield under its owner's control and it gains haste.
 
 ## Teysa, Envoy of Ghosts
 Cost: {5}{w}{b} | Type: Legendary Creature — Human Advisor | Color identity: BW | P/T: 4/4 | Commander: legal
@@ -3218,12 +3171,6 @@ Cost: — | Type: Land | Color identity: colorless | Commander: legal
 Text: This land enters tapped.
   {1}, {T}: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. Return this land to its owner's hand at the beginning of the next cleanup step.
 
-## Thayan Evokers
-Cost: {2}{u} | Type: Creature — Human Wizard | Color identity: U | P/T: 1/1 | Commander: legal
-Text: Double team
-  When Thayan Evokers enters the battlefield, conjure a card named Lightning Bolt into your hand, then discard a card.
-  Whenever you conjure one or more cards, put a +1/+1 counter on Thayan Evokers.
-
 ## The Abyss
 Cost: {3}{b} | Type: World Enchantment | Color identity: B | Commander: legal
 Text: At the beginning of each player's upkeep, destroy target nonartifact creature that player controls of their choice. It can't be regenerated.
@@ -3399,12 +3346,6 @@ Cost: {u} | Type: Legendary Artifact | Color identity: U | Commander: legal
 Text: You may choose not to untap The Blackstaff of Waterdeep during your untap step.
   Animate Walking Statue — {1}{U}, {T}: Another target nontoken artifact you control becomes a 4/4 artifact creature for as long as The Blackstaff of Waterdeep remains tapped. Activate only as a sorcery.
 
-## The Bloodbile Swarm
-Cost: {3}{b}{r} | Type: Legendary Creature — Elemental Insect | Color identity: BR | P/T: 6/6 | Commander: legal
-Text: Ward—Sacrifice a Blood artifact.
-  Other creatures are Blood artifacts in addition to their other types and have "{1}, {T}, Discard a card, Sacrifice this creature: Draw a card."
-  Whenever a player sacrifices a nontoken creature or discards a creature card, exile it. It perpetually gains prismatic. You may cast it until the end of your next turn.
-
 ## The Bloodsky Massacre
 Cost: {1}{b}{r} | Type: Enchantment — Saga | Color identity: BR | Commander: legal
 Text: (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
@@ -3540,13 +3481,6 @@ Text: (As this Saga enters and after your draw step, add a lore counter. Sacrifi
   I — Destroy up to one target nonland permanent.
   II, III — Each opponent loses 2 life.
   IV — Create Galactus, a legendary 16/16 black Elder Alien creature token with flying, trample, and "Whenever Galactus attacks, destroy target land."
-
-## The Conundrum of Bowls
-Cost: {2}{u}{u} | Type: Enchantment — Saga | Color identity: U | Commander: legal
-Text: (As this Saga enters and after your draw step add a lore counter. Sacrifice after III.)
-  I — Seek a card with mana value less than the number of cards in your hand.
-  II — Seek a card with mana value greater than the number of cards in your hand.
-  III — Count the number of cards in your hand. You may cast a spell with mana value equal to that number from your hand without paying its mana cost.
 
 ## The Core
 Cost: — | Type: Legendary Land | Color identity: colorless | Commander: legal
@@ -4030,11 +3964,6 @@ Text: (As this Saga enters and after your draw step, add a lore counter.)
   II — Distribute seven +1/+1 counters among any number of target creatures you control.
   III — Until end of turn, creatures you control gain "{1}: This creature fights target creature you don't control." Exile this Saga, then return it to the battlefield (front face up).
 
-## The Grand Goatnapper
-Cost: {2}{b}{r} | Type: Legendary Creature — Goblin Rogue | Color identity: BR | P/T: 3/4 | Commander: legal
-Text: Spells you cast have affinity for Goats.
-  {T}: Another target non-Goat creature perpetually becomes a Goat in addition to its other types. Then conjure a card named Goatnap into your hand. Activate only as a sorcery.
-
 ## The Great Aurora
 Cost: {6}{g}{g}{g} | Type: Sorcery | Color identity: G | Commander: legal
 Text: Each player shuffles all cards from their hand and all permanents they own into their library, then draws that many cards. Each player may put any number of land cards from their hand onto the battlefield. Exile The Great Aurora.
@@ -4105,11 +4034,6 @@ Text: (As this Saga enters and after your draw step, add a lore counter. Sacrifi
   I — For each opponent, gain control of up to one target nonlegendary creature that player controls for as long as this Saga remains on the battlefield.
   II — Draw a card for each creature you control but don't own.
   III — Starting with you, each player chooses a creature. Destroy each creature chosen this way.
-
-## The Hourglass Coven
-Cost: {4}{b}{b} | Type: Legendary Creature — Hag Warlock | Color identity: B | P/T: 3/3 | Commander: legal
-Text: When The Hourglass Coven enters the battlefield, draft a card from The Hourglass Coven's spellbook twice, then put those cards onto the battlefield.
-  Other Warlocks you control get +1/+1.
 
 ## The Howling Abomination
 Cost: {3}{r}{g} | Type: Legendary Creature — Human Beast Warrior | Color identity: GR | P/T: 5/5 | Commander: legal
@@ -4537,13 +4461,6 @@ Faces: The Everflowing Well // The Myriad Pools (transform)
 Text: (Transforms from The Everflowing Well.)
   {T}: Add {U}.
   Whenever you cast a permanent spell using mana produced by The Myriad Pools, up to one other target permanent you control becomes a copy of that spell until end of turn.
-
-## The Mystical Archive
-Cost: — | Type: Land | Color identity: colorless | Commander: legal
-Text: As this land enters, draft a card from The Mystical Archive's spellbook and exile it face down.
-  {T}: Add {C}.
-  {1}, {T}: Add two mana in any combination of colors. Spend this mana only to cast spells that aren't from your starting deck.
-  {2}, {T}: Put a card exiled with this land into its owner's hand.
 
 ## The Necrobloom
 Cost: {1}{w}{b}{g} | Type: Legendary Creature — Plant | Color identity: BGW | P/T: 2/7 | Commander: legal
@@ -5349,12 +5266,6 @@ Text: Trample
   When Themberchaud enters, he deals X damage to each other creature without flying and each player, where X is the number of Mountains you control.
   You may exert Themberchaud as he attacks. When you do, he gains flying until end of turn. (An exerted creature won't untap during your next untap step.)
 
-## Thendar, the Overminer
-Cost: {2}{r}{r} | Type: Legendary Creature — Kavu Pirate | Color identity: R | P/T: 4/4 | Commander: legal
-Text: Menace
-  Whenever a nonbasic land is put into a graveyard from the battlefield, its controller conjures a card named Wastes onto the battlefield tapped.
-  At the beginning of your end step, if you control two or more tapped creatures, destroy up to one target nonbasic land.
-
 ## Theoretical Duplication
 Cost: {2}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Whenever a nontoken creature an opponent controls enters this turn, create a token that's a copy of that creature.
@@ -5592,10 +5503,6 @@ Text: Equipped creature gets +1/+2.
   Equip Detective {1}
   Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 
-## Third Little Pig
-Cost: {1}{b/g} | Type: Creature — Boar | Color identity: BG | P/T: 2/2 | Commander: legal
-Text: Whenever you conjure one or more other cards, Third Little Pig perpetually gets +1/+1. This ability also triggers if Third Little Pig is in your graveyard.
-
 ## Third Path Iconoclast
 Cost: {u}{r} | Type: Creature — Human Monk | Color identity: RU | P/T: 2/1 | Commander: legal
 Text: Whenever you cast a noncreature spell, create a 1/1 colorless Soldier artifact creature token.
@@ -5809,11 +5716,6 @@ Cost: {3}{r} | Type: Creature — Lizard Warrior | Color identity: GR | P/T: 2/2
 Text: Devour 2 (As this creature enters, you may sacrifice any number of creatures. It enters with twice that many +1/+1 counters on it.)
   {G}: This creature gains trample until end of turn.
 
-## Thorna and Twigtooth
-Cost: {1}{r}{w}{b} | Type: Legendary Creature — Giant Treefolk | Color identity: BRW | P/T: 6/7 | Commander: legal
-Text: Thorna and Twigtooth enters with two -1/-1 counters on it.
-  Whenever Thorna and Twigtooth attacks, remove all counters from target creature you control. Each opponent loses X life, you gain X life, and the topmost creature card in your library perpetually gets +X/+X, where X is the number of counters removed this way.
-
 ## Thornado
 Cost: {2}{g} | Type: Instant | Color identity: G | Commander: legal
 Text: Destroy target creature with flying.
@@ -6002,20 +5904,10 @@ Cost: {u} | Type: Creature — Beast | Color identity: U | P/T: 1/1 | Commander:
 Text: Flying
   Your maximum hand size is reduced by two.
 
-## Thought Partition
-Cost: {w} | Type: Sorcery | Color identity: W | Commander: legal
-Text: Target opponent reveals all nonland cards in their hand. You may choose one of those cards. If you do, it perpetually becomes white and its mana cost perpetually becomes {5}.
-
 ## Thought Prison
 Cost: {5} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: Imprint — When this artifact enters, you may have target player reveal their hand. If you do, choose a nonland card from it and exile that card.
   Whenever a player casts a spell that shares a color or mana value with the exiled card, this artifact deals 2 damage to that player.
-
-## Thought Rattle
-Cost: {u}{b} | Type: Sorcery | Color identity: BU | Commander: legal
-Text: Target opponent reveals each nonland card in their hand. You choose one of those cards. Exile that card.
-  Threshold — If seven or more cards are in your graveyard, seek a Rat card. It perpetually gains "This spell costs {1} less to cast."
-  You gain 1 life for each Rat card in your hand.
 
 ## Thought Reflection
 Cost: {4}{u}{u}{u} | Type: Enchantment | Color identity: U | Commander: legal
@@ -6108,12 +6000,6 @@ Text: Each player sacrifices a land of their choice for each card in your hand.
 Cost: {b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Target player reveals their hand. You choose a nonland card from it. That player discards that card. You lose 2 life.
 
-## Thoughtsteal Sprites
-Cost: {1}{u} | Type: Creature — Faerie Rogue | Color identity: U | P/T: 2/1 | Commander: legal
-Text: Flying
-  Double team
-  Whenever you cast a spell during an opponent's turn, draft a card from Thoughtsteal Sprites's spellbook, then discard a card. This ability triggers only once each turn.
-
 ## Thoughtweft Charge
 Cost: {1}{g} | Type: Instant | Color identity: G | Commander: legal
 Text: Target creature gets +3/+3 until end of turn. If a creature entered the battlefield under your control this turn, draw a card.
@@ -6135,12 +6021,6 @@ Cost: {2}{w}{w} | Type: Creature — Kithkin Soldier | Color identity: W | P/T: 
 Text: First strike, vigilance
   Champion a Kithkin (When this enters, sacrifice it unless you exile another Kithkin you control. When this leaves the battlefield, that card returns to the battlefield.)
   This creature can block any number of creatures.
-
-## Thoughtweft's Call
-Cost: {w} | Type: Sorcery | Color identity: W | Commander: legal
-Text: Choose one —
-  • Seek a Kithkin card. At the beginning of the next end step, if that card is in your hand, exile it.
-  • Creature cards in your hand perpetually get +1/+1.
 
 ## Thousand Moons Crackshot
 Cost: {1}{w} | Type: Creature — Human Soldier | Color identity: W | P/T: 2/2 | Commander: legal
@@ -6466,10 +6346,6 @@ Text: Spree (Choose one or more additional costs.)
 ## Three Tragedies
 Cost: {3}{b}{b} | Type: Sorcery — Arcane | Color identity: B | Commander: legal
 Text: Target player discards three cards.
-
-## Three Tree Battalion
-Cost: {3}{w} | Type: Instant | Color identity: W | Commander: legal
-Text: Look at the top six cards of your library. You may put a creature card with mana value 3 or less from among them onto the battlefield, then conjure a duplicate of that card onto the battlefield. The duplicate perpetually has base power and toughness 1/1. Put the rest on the bottom of your library in a random order.
 
 ## Three Tree City
 Cost: — | Type: Legendary Land | Color identity: colorless | Commander: legal
@@ -7151,11 +7027,6 @@ Cost: {4}{r} | Type: Creature — Dragon Warrior | Color identity: R | P/T: 4/3 
 Text: Haste
   Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)
 
-## Tiana, Angelic Mechanic
-Cost: {1}{r}{w} | Type: Legendary Creature — Angel Artificer | Color identity: RW | P/T: 3/2 | Commander: legal
-Text: Flying
-  When Tiana, Angelic Mechanic or another legendary creature you control crews a Vehicle, that Vehicle perpetually gets +1/+0.
-
 ## Tiana, Ship's Caretaker
 Cost: {3}{r}{w} | Type: Legendary Creature — Angel Artificer | Color identity: RW | P/T: 3/3 | Commander: legal
 Text: Flying, first strike
@@ -7188,12 +7059,6 @@ Cost: {r}{r} | Type: Legendary Planeswalker — Tibalt | Color identity: R | Loy
 Text: [+1]: Draw a card, then discard a card at random.
   [−4]: Tibalt deals damage equal to the number of cards in target player's hand to that player.
   [−6]: Gain control of all creatures until end of turn. Untap them. They gain haste until end of turn.
-
-## Tibalt, Wicked Tormentor
-Cost: {3}{r}{r} | Type: Legendary Planeswalker — Tibalt | Color identity: R | Loyalty/Defense: 3 | Commander: legal
-Text: [+1]: Add {R}{R}. Draft a card from Tibalt, Wicked Tormentor's spellbook, then exile it. Until end of turn, you may cast that card.
-  [+1]: Tibalt, Wicked Tormentor deals 4 damage to target creature or planeswalker unless its controller has Tibalt deal 4 damage to them. If they do, you may discard a card. If you do, draw a card.
-  [−X]: Create X 1/1 red Devil creature tokens with "When this creature dies, it deals 1 damage to any target."
 
 ## Tibor and Lumia
 Cost: {2}{u}{r} | Type: Legendary Creature — Human Wizard | Color identity: RU | P/T: 3/3 | Commander: legal
@@ -7387,11 +7252,6 @@ Text: At the beginning of combat on your turn, you may move a counter from targe
 ## Tidy Conclusion
 Cost: {3}{b}{b} | Type: Instant | Color identity: B | Commander: legal
 Text: Destroy target creature. You gain 1 life for each artifact you control.
-
-## Tiefling Outcasts
-Cost: {r} | Type: Creature — Tiefling Peasant | Color identity: R | P/T: 1/1 | Commander: legal
-Text: Double team (When this creature attacks, conjure a duplicate into your hand, then both of them perpetually lose double team.)
-  Other Demons, Devils, Imps, and Tieflings you control get +1/+0.
 
 ## Tifa Lockhart
 Cost: {1}{g} | Type: Legendary Creature — Human Monk | Color identity: G | P/T: 1/2 | Commander: legal
@@ -7840,10 +7700,6 @@ Text: Sacrifice a creature. When you do, all creatures get -X/-X until end of tu
 Cost: {3}{g} | Type: Legendary Creature — Squirrel Hero | Color identity: G | P/T: 2/4 | Commander: legal
 Text: If you would create one or more tokens, instead create those tokens plus an additional Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.")
   At the beginning of your end step, if you gained life this turn, draw a card.
-
-## Tireless Angler
-Cost: {2}{u} | Type: Creature — Human Rogue | Color identity: U | P/T: 2/4 | Commander: legal
-Text: Whenever an Island or Swamp enters the battlefield under your control, draft a card from this creature's spellbook.
 
 ## Tireless Hauler
 Cost: {4}{g} | Type: Creature — Human Werewolf | Color identity: G | P/T: 4/5 | Commander: legal
@@ -8314,12 +8170,6 @@ Text: {1}, Sacrifice another creature: Draw cards equal to the sacrificed creatu
 Cost: {1}{g} | Type: Creature — Human Soldier | Color identity: G | P/T: 3/1 | Commander: legal
 Text: Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
 
-## Tomakul Phoenix
-Cost: {1}{r}{r} | Type: Creature — Phoenix | Color identity: R | P/T: 2/2 | Commander: legal
-Text: Flying, haste
-  When Tomakul Phoenix dies, it perpetually gets +2/+2.
-  At the beginning of combat on your turn, you may pay {X}{R}, where X is Tomakul Phoenix's power. If you do, return it from your graveyard to the battlefield.
-
 ## Tomakul Scrapsmith
 Cost: {2}{r} | Type: Creature — Human Artificer | Color identity: R | P/T: 2/1 | Commander: legal
 Text: When this creature enters, mill three cards. You may put an artifact card from among the cards milled this way into your hand. If you don't, put a +1/+1 counter on this creature. (To mill a card, put the top card of your library into your graveyard.)
@@ -8406,12 +8256,6 @@ Cost: {1}{r} | Type: Sorcery | Color identity: R | Commander: legal
 Text: Tome Blast deals 2 damage to any target.
   Flashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
-## Tome of Gadwick
-Cost: {u} | Type: Artifact — Book Equipment | Color identity: U | Commander: legal
-Text: Equipped creature gets +1/+0 and has ward {1}.
-  Whenever equipped creature attacks, conjure a random card from Tome of Gadwick's spellbook into your hand.
-  Equip {1}
-
 ## Tome of Legends
 Cost: {2} | Type: Artifact — Book | Color identity: colorless | Commander: legal
 Text: This artifact enters with a page counter on it.
@@ -8422,10 +8266,6 @@ Text: This artifact enters with a page counter on it.
 Cost: {5} | Type: Artifact — Book | Color identity: colorless | Commander: legal
 Text: Whenever you cast a multicolored spell, draw a card.
   {T}: Add one mana of any color.
-
-## Tome of the Infinite
-Cost: {2}{u} | Type: Legendary Artifact — Book | Color identity: U | Commander: legal
-Text: {U}, {T}: Conjure a random card from Tome of the Infinite's spellbook into your hand. It perpetually gains prismatic.
 
 ## Tome Raider
 Cost: {2}{u} | Type: Creature — Faerie | Color identity: U | P/T: 1/1 | Commander: legal
@@ -8618,11 +8458,6 @@ Cost: {w} | Type: Creature — Spirit | Color identity: W | P/T: 1/1 | Commander
 Text: Flying
   When this creature enters, tap target creature an opponent controls.
   Delirium — At the beginning of each opponent's upkeep, if there are four or more card types among cards in your graveyard, tap target creature that player controls.
-
-## Topsoil Turner
-Cost: {2}{g} | Type: Creature — Treefolk Druid | Color identity: G | P/T: 2/4 | Commander: legal
-Text: Reach
-  When this creature enters, each Forest and Treefolk card in your hand perpetually gains "{T}: Add {G}{G}."
 
 ## Tor Giant
 Cost: {3}{r} | Type: Creature — Giant | Color identity: R | P/T: 3/3 | Commander: legal
@@ -9257,11 +9092,6 @@ Cost: {1}{g} | Type: Sorcery | Color identity: GU | Commander: legal
 Text: Reveal the top four cards of your library. Put a creature card from among them into your hand and the rest into your graveyard.
   Flashback {2}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
-## Trackhand Trainer
-Cost: {u} | Type: Creature — Merfolk | Color identity: U | P/T: 1/2 | Commander: legal
-Text: {3}{U}{U}: Draw a card.
-  Exhaust — {U}: Conjure a card named Training Grounds onto the battlefield.
-
 ## Tractor Beam
 Cost: {2}{u}{u} | Type: Enchantment — Aura | Color identity: U | Commander: legal
 Text: Enchant creature or Spacecraft
@@ -9733,10 +9563,6 @@ Text: Spree (Choose one or more additional costs.)
 Cost: {x}{u}{r} | Type: Instant | Color identity: RU | Commander: legal
 Text: Traumatic Critique deals X damage to any target. Draw two cards, then discard a card.
 
-## Traumatic Prank
-Cost: {2}{r} | Type: Sorcery | Color identity: R | Commander: legal
-Text: Gain control of target creature until end of turn. Untap that creature. It perpetually gains haste, "This creature can't block," and "At the beginning of your upkeep, this creature deals 1 damage to you."
-
 ## Traumatic Revelation
 Cost: {1}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Target opponent reveals their hand. You may choose a creature or battle card from it. If you do, that player discards that card. If you don't, incubate 3. (Create an Incubator token with three +1/+1 counters on it and "{2}: Transform this token." It transforms into a 0/0 Phyrexian artifact creature.)
@@ -9813,11 +9639,6 @@ Text: Search your library for up to X basic land cards, where X is the greatest 
 Cost: {g} | Type: Sorcery | Color identity: G | Commander: legal
 Text: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
   Delirium — If there are four or more card types among cards in your graveyard, instead search your library for a creature or land card, reveal it, put it into your hand, then shuffle.
-
-## Traverse Valley
-Cost: {g} | Type: Sorcery | Color identity: G | Commander: legal
-Text: Kicker—Forage.
-  Seek a nonbasic land card. If this spell was kicked, put that card onto the battlefield tapped.
 
 ## Trawler Drake
 Cost: {2}{u} | Type: Creature — Phyrexian Drake | Color identity: U | P/T: 0/0 | Commander: legal
@@ -10686,10 +10507,6 @@ Cost: {2}{u}{u} | Type: Creature — Spirit | Color identity: U | P/T: 3/4 | Com
 Text: Flying
   At the beginning of your end step, tap all lands you control.
 
-## Trove Mage
-Cost: {2}{u} | Type: Creature — Human Wizard | Color identity: U | P/T: 2/2 | Commander: legal
-Text: When Trove Mage enters, seek an artifact card from among the top ten cards of your library, then shuffle.
-
 ## Trove of Temptation
 Cost: {3}{r} | Type: Enchantment | Color identity: R | Commander: legal
 Text: Each opponent must attack you or a planeswalker you control with at least one creature each combat if able.
@@ -11075,10 +10892,6 @@ Text: Landfall — Whenever a land you control enters, this creature deals 1 dam
 Cost: {2}{w}{u}{u} | Type: Legendary Creature — Human Knight | Color identity: UW | P/T: 3/3 | Commander: legal
 Text: Flying
   Whenever you cast an instant or sorcery spell, create a 1/1 white Soldier creature token.
-
-## Turbocharged Escape
-Cost: {3}{w}{w} | Type: Sorcery | Color identity: W | Commander: legal
-Text: Destroy all non-Vehicle creatures. Then choose a Vehicle you control. It perpetually becomes an artifact creature.
 
 ## Turbulent Crater
 Cost: — | Type: Land — Swamp Mountain | Color identity: BR | Commander: legal

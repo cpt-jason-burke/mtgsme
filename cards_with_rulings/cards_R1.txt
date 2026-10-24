@@ -106,10 +106,6 @@ Cost: {2}{r} | Type: Instant | Color identity: R | Commander: legal
 Text: Destroy two target artifacts.
 Ruling (2004-10-04): Must target two different artifacts.
 
-## Racketeer Boss
-Cost: {r}{g} | Type: Creature — Cat Warrior | Color identity: GR | P/T: 3/2 | Commander: legal
-Text: When Racketeer Boss enters, choose up to two creature and/or planeswalker cards in your hand. They perpetually gain "When you cast this spell, create a Treasure token and this spell perpetually loses this ability."
-
 ## Rackling
 Cost: {4} | Type: Artifact Creature — Phyrexian Construct | Color identity: colorless | P/T: 2/2 | Commander: legal
 Text: At the beginning of each opponent's upkeep, this creature deals X damage to that player, where X is 3 minus the number of cards in their hand.
@@ -145,11 +141,6 @@ Text: Ward {1}
 Ruling (2023-06-16): A creature that is both a Beast and a Bird still only gets one instance of ward {1} from Radagast, Wizard of Wilds's first ability.
 Ruling (2023-06-16): If Radagast, Wizard of Wilds is a Beast or a Bird, it will have two instances of ward {1}.
 Ruling (2023-06-16): Radagast, Wizard of the Wilds's last triggered ability will resolve before the spell that caused it to trigger resolves. It will resolve even if the spell that caused it to trigger is countered or has otherwise left the stack.
-
-## Raddic, Tal Zealot
-Cost: {2}{w}{b} | Type: Legendary Creature — Human Knight | Color identity: BW | P/T: 4/4 | Commander: legal
-Text: Hexproof from white and from black
-  Whenever one or more Knights you control attack, draft a card from Raddic, Tal Zealot's spellbook.
 
 ## Radha's Firebrand
 Cost: {1}{r} | Type: Creature — Human Warrior | Color identity: R | P/T: 3/1 | Commander: legal
@@ -2031,10 +2022,6 @@ Cost: {3}{w} | Type: Creature — Human Soldier Ranger | Color identity: W | P/T
 Text: When this creature enters, you may search your library for up to two creature cards with mana value 1 or less, reveal them, put them into your hand, then shuffle.
 Ruling (2017-03-14): You may choose to find zero, one, or two creature cards in your library. Each card you find must have mana value 1 or less.
 
-## Ranger Squadron
-Cost: {4}{w}{w} | Type: Creature — Cat Ranger | Color identity: W | P/T: 3/4 | Commander: legal
-Text: Flying, double team (When this creature attacks, conjure a duplicate into your hand, then both of them perpetually lose double team.)
-
 ## Ranger's Firebrand
 Cost: {r} | Type: Sorcery | Color identity: R | Commander: legal
 Text: Ranger's Firebrand deals 2 damage to any target. The Ring tempts you.
@@ -2171,13 +2158,6 @@ Ruling (2019-10-04): If you really want, you can choose zero modes for Rankle's 
 Ruling (2019-10-04): In a Two-Headed Giant game, Rankle's second mode causes each team to lose 1 life twice.
 Ruling (2019-10-04): You can choose a mode even if some or all players will be unaffected.
 Ruling (2019-10-04): You can't choose a mode more than once.
-
-## Rankle, Pitiless Trickster
-Cost: {1}{b}{b} | Type: Legendary Creature — Faerie Rogue | Color identity: B | P/T: 1/3 | Commander: legal
-Text: Flying
-  Rankle has lifelink and haste as long as an opponent controls no creatures.
-  When Rankle enters, you may pay 1 life. When you do, each player discards a card and sacrifices a creature.
-  Whenever a player discards a card, Rankle perpetually gets +1/+0.
 
 ## Ransack
 Cost: {3}{u} | Type: Sorcery | Color identity: U | Commander: legal
@@ -2389,15 +2369,6 @@ Ruling (2022-06-10): You can choose two commanders that are the same color or co
 ## Rasaad, Dragon Monk
 Cost: {2}{w}{u} | Type: Legendary Creature — Human Monk | Color identity: UW | P/T: 4/4 | Commander: legal
 Text: When Rasaad, Dragon Monk dies, create two 1/1 blue Faerie Dragon creature tokens with flying.
-
-## Rasaad, Monk of Selûne
-Cost: {2}{w} | Type: Legendary Creature — Human Monk | Color identity: W | P/T: 2/2 | Commander: legal
-Text: Specialize {5}
-  When Rasaad, Monk of Selûne enters, exile target creature an opponent controls until this creature leaves the battlefield.
-
-## Rasaad, Radiant Monk
-Cost: {2}{w}{w} | Type: Legendary Creature — Human Monk | Color identity: W | P/T: 4/4 | Commander: legal
-Text: When this creature specializes, target creature card exiled with this creature perpetually loses all abilities and has base power and toughness 1/1.
 
 ## Rasaad, Shadow Monk
 Cost: {2}{w}{b} | Type: Legendary Creature — Human Monk | Color identity: BW | P/T: 4/4 | Commander: legal
@@ -2990,10 +2961,6 @@ Text: When this creature enters, you gain 4 life.
 Cost: {2}{b}{b} | Type: Creature — Phyrexian Horror | Color identity: B | P/T: 6/6 | Commander: legal
 Text: Corrupted — When this creature enters, sacrifice a creature unless an opponent has three or more poison counters.
 
-## Ravenous Pursuit
-Cost: {1}{g} | Type: Sorcery | Color identity: G | Commander: legal
-Text: Target creature you control deals damage equal to its power to target creature you don't control. Choose a creature card in your hand. It perpetually gets +X/+X, where X is the amount of excess damage dealt this way.
-
 ## Ravenous Rats
 Cost: {1}{b} | Type: Creature — Rat | Color identity: B | P/T: 1/1 | Commander: legal
 Text: When this creature enters, target opponent discards a card.
@@ -3263,12 +3230,6 @@ Ruling (2010-03-01): If Razor Boomerang is no longer on the battlefield by time 
 Ruling (2010-03-01): If the targeted creature is an illegal target by the time the equipped creature's ability resolves, the entire ability doesn't resolve. Razor Boomerang remains on the battlefield unattached.
 Ruling (2010-03-01): The source of the damage is Razor Boomerang, not the equipped creature. However, the equipped creature's ability is what targets the permanent or player. If Razor Boomerang is equipped to a red creature, for example, the ability couldn't target a creature with protection from red. It could target a creature with protection from artifacts, but all the damage would be prevented.
 Ruling (2010-03-01): Unattaching Razor Boomerang is a cost to activate the equipped creature's ability.
-
-## Razor Demon
-Cost: {1}{b}{b} | Type: Creature — Demon | Color identity: B | P/T: 7/7 | Commander: legal
-Text: When you cast this spell, target opponent drafts a card from Razor Demon's spellbook. They may cast that card without paying its mana cost.
-  Flying
-  Ward—Discard a card.
 
 ## Razor Golem
 Cost: {6} | Type: Artifact Creature — Golem | Color identity: colorless | P/T: 3/4 | Commander: legal
@@ -4258,11 +4219,6 @@ Ruling (2025-11-17): If the target creature is an illegal target as Reckless Ran
 Cost: {1}{r} | Type: Creature — Satyr | Color identity: R | P/T: 2/1 | Commander: legal
 Text: {R}, Sacrifice this creature: Destroy target artifact.
 
-## Reckless Ringleader
-Cost: {r} | Type: Creature — Goblin Rogue | Color identity: R | P/T: 1/1 | Commander: legal
-Text: Haste
-  When Reckless Ringleader enters the battlefield, choose a creature card in your hand. It perpetually gains haste.
-
 ## Reckless Scholar
 Cost: {2}{u} | Type: Creature — Human Wizard | Color identity: U | P/T: 2/1 | Commander: legal
 Text: {T}: Target player draws a card, then discards a card.
@@ -4448,11 +4404,6 @@ Ruling (2008-04-01): If the spell is countered or doesn't resolve for any reason
 Ruling (2008-04-01): If you have only nonland cards in your library, you reveal your entire library (one card at a time), rearrange it however you like, and then clash.
 Ruling (2008-04-01): If you win the clash, the spell moves from the stack to your hand as part of its resolution. It never hits the graveyard. If you don't win the clash, the spell is put into the graveyard from the stack as normal.
 Ruling (2008-04-01): You put the revealed nonland cards on the bottom of your library before you clash.
-
-## Recruit Instructor
-Cost: {r}{w} | Type: Creature — Mouse Warrior | Color identity: RW | P/T: 1/1 | Commander: legal
-Text: Whenever Recruit Instructor attacks, draft a card from Recruit Instructor's spellbook.
-  Valiant — Whenever Recruit Instructor becomes the target of a spell or ability you control for the first time each turn, create a 1/1 white Mouse creature token.
 
 ## Recruit the Worthy
 Cost: {w} | Type: Instant | Color identity: W | Commander: legal
@@ -4844,10 +4795,6 @@ Ruling (2024-02-02): If the spell you cast has {X} in its mana cost, you must ch
 Ruling (2024-02-02): If you cast a spell "without paying its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, such as that of Demand Answers, those must be paid to cast the card.
 Ruling (2024-02-02): If you don't want to cast the copy, you can choose not to; the copy ceases to exist the next time state-based actions are checked.
 Ruling (2024-02-02): You cast the copy while Reenact the Crime is resolving and still on the stack. You can't wait to cast it later in the turn.
-
-## Reezug, the Bonecobbler
-Cost: {1}{b} | Type: Legendary Creature — Spirit Artificer | Color identity: B | P/T: 1/3 | Commander: legal
-Text: {T}: Target creature card in your graveyard perpetually becomes an artifact. You may cast that card this turn. (It loses all other card types.)
 
 ## Referee Squad
 Cost: {2}{u} | Type: Creature — Homunculus | Color identity: U | P/T: 2/2 | Commander: legal
@@ -5686,10 +5633,6 @@ Text: Until end of turn, target artifact or creature becomes a Dinosaur artifact
 Ruling (2023-11-10): Relic's Roar overwrites all previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply afterward will overwrite this effect.
 Ruling (2023-11-10): The artifact or creature retains its abilities and colors, if any.
 
-## Relics of the Rubblebelt
-Cost: {2}{g} | Type: Sorcery | Color identity: G | Commander: legal
-Text: Draft a card from Relics of the Rubblebelt's spellbook twice, then put one of those cards onto the battlefield tapped.
-
 ## Relief Captain
 Cost: {2}{w}{w} | Type: Creature — Kor Knight Ally | Color identity: W | P/T: 3/2 | Commander: legal
 Text: When this creature enters, support 3. (Put a +1/+1 counter on each of up to three other target creatures.)
@@ -5808,12 +5751,6 @@ Ruling (2022-02-18): Each transforming double-faced card in this set is cast fac
 Ruling (2022-02-18): If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Azusa's Many Journeys, the chapter III ability will cause it to be exiled and then remain in exile.
 Ruling (2022-02-18): The back face of a transforming double-faced card usually has a color indicator that defines its color.
 Ruling (2022-02-18): The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
-
-## Remnants of Beleren
-Cost: {1}{u} | Type: Artifact | Color identity: U | Commander: legal
-Text: If you would empower Jace, you may instead put that many loyalty counters on a Jace you control.
-  {T}: Empower Jace 1.
-  {1}{U}, {T}: Draft a card from the Beleren Spellbook.
 
 ## Remorseful Cleric
 Cost: {1}{w} | Type: Creature — Spirit Cleric | Color identity: W | P/T: 2/1 | Commander: legal
@@ -6324,10 +6261,6 @@ Ruling (2021-02-05): The Kaldheim set doesn't have any cards with mana costs tha
 Ruling (2021-02-05): The check of whether Replicating Ring has eight or more night counters on it happens only as part of the resolution of the triggered ability. If Replicating Ring picks up its eighth night counter at another time, you won't immediately create Replicated Rings. You'll have to wait until the next time the triggered ability resolves.
 Ruling (2021-02-05): The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
 
-## Replicating Terror
-Cost: {1}{b} | Type: Instant | Color identity: B | Commander: legal
-Text: Each opponent sacrifices a nontoken creature. For each creature sacrificed this way, conjure a duplicate of it into your graveyard.
-
 ## Replication Specialist
 Cost: {4}{u} | Type: Creature — Moonfolk Artificer | Color identity: U | P/T: 3/4 | Commander: legal
 Text: Flying
@@ -6755,11 +6688,6 @@ Cost: {1}{w} | Type: Creature — Human Soldier | Color identity: W | P/T: 1/1 |
 Text: Flash (You may cast this spell any time you could cast an instant.)
   When this creature enters, create a 1/1 white Soldier creature token.
 
-## Resolute Rejection
-Cost: {1}{w} | Type: Instant | Color identity: W | Commander: legal
-Text: Target tapped creature perpetually loses all abilities, then Resolute Rejection deals 4 damage to it.
-  Cycling {2}
-
 ## Resolute Rider
 Cost: {w/b}{w/b}{w/b}{w/b} | Type: Creature — Human Knight | Color identity: BW | P/T: 4/2 | Commander: legal
 Text: {W/B}{W/B}: This creature gains lifelink until end of turn.
@@ -6862,11 +6790,6 @@ Text: Return target permanent to its owner's hand.
 Ruling (2022-12-08): The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (because, for example, it has been countered, or all of its targets have become illegal), the cycling ability will still resolve, and you'll draw a card.
 Ruling (2022-12-08): When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
 Ruling (2022-12-08): You can cycle this card even if there are no legal targets for the triggered ability.
-
-## Resourceful Collector
-Cost: {1}{r}{g} | Type: Creature — Raccoon Druid | Color identity: GR | P/T: 3/3 | Commander: legal
-Text: Haste
-  At the beginning of your end step, a random non-Food permanent card in your graveyard perpetually becomes a Food artifact in addition to its other types and gains "{2}, Exile this artifact: You gain 3 life." You may play that card for as long as it's in your graveyard.
 
 ## Resourceful Defense
 Cost: {2}{w} | Type: Enchantment | Color identity: W | Commander: legal
@@ -8398,12 +8321,6 @@ Ruling (2024-04-12): Toxic doesn't change the amount of combat damage a creature
 Cost: {2}{g} | Type: Creature — Spider | Color identity: G | P/T: 1/4 | Commander: legal
 Text: Reach (This creature can block creatures with flying.)
 
-## Ribald Shanty
-Cost: {r} | Type: Instant — Chorus | Color identity: R | Commander: legal
-Text: Starting intensity 2
-  Ribald Shanty deals damage equal to its intensity to target creature or planeswalker.
-  All Chorus cards you own intensify by 1.
-
 ## Ribbon Snake
 Cost: {1}{u}{u} | Type: Creature — Snake | Color identity: U | P/T: 2/3 | Commander: legal
 Text: Flying
@@ -8475,10 +8392,6 @@ Ruling (2017-04-18): Riches's effect lasts indefinitely. It doesn't wear off dur
 Ruling (2017-04-18): Split cards with aftermath have a new frame treatment—the half you can cast from your hand is oriented the same as other cards you'd cast from your hand, while the half you can cast from your graveyard is a traditional split card half. This frame treatment is for your convenience and has no rules significance.
 Ruling (2017-04-18): While not on the stack, the characteristics of a split card are the combination of its two halves. For example, Destined // Lead is a green and black card, it is both an instant card and a sorcery card, and its mana value is 6. This means that if an effect allows you to cast a card with mana value 2 from your hand, you can't cast Destined. This is a change from the previous rules for split cards.
 Ruling (2017-07-14): Once you've started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
-
-## Richlau, Headmaster
-Cost: {1}{w}{u} | Type: Legendary Creature — Human Advisor | Color identity: UW | P/T: 2/4 | Commander: legal
-Text: At the beginning of your end step, you may pay {1}. When you do, target artifact card in your graveyard perpetually gains "This spell costs {1} less to cast." If it's a creature or Vehicle card, it perpetually gets +2/+2. Put it into your library second from the top.
 
 ## Rick Jones, Destined Sidekick
 Cost: {g} | Type: Legendary Creature — Human Advisor | Color identity: G | P/T: 0/3 | Commander: legal
@@ -9063,11 +8976,6 @@ Ruling (2006-07-15): Rimescale Dragon's last ability affects all permanents with
 Cost: {3}{u}{u} | Type: Creature — Giant Warrior | Color identity: U | P/T: 4/5 | Commander: legal
 Text: Ward {3} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.)
 Ruling (2021-07-23): If a player casts a spell that targets multiple permanents their opponent controls with ward, each of those ward abilities will trigger. If that player doesn't pay for all of them, the spell will be countered.
-
-## Rimewall Protector
-Cost: {1}{u}{u} | Type: Creature — Giant Wizard | Color identity: U | P/T: 3/4 | Commander: legal
-Text: Ward {1}
-  When Rimewall Protector enters the battlefield, each other Giant or Wizard you control and each Giant or Wizard card in your hand perpetually gains ward {1}.
 
 ## Rimewind Cryomancer
 Cost: {3}{u} | Type: Creature — Human Wizard | Color identity: U | P/T: 2/3 | Commander: legal
@@ -10266,17 +10174,6 @@ Text: {1}{B/G}: This creature gains deathtouch until end of turn.
 Cost: — | Type: Land | Color identity: colorless | Commander: legal
 Text: When this land enters, sacrifice it. When you do, search your library for a basic Swamp, Mountain, or Forest card, put it onto the battlefield tapped, then shuffle and you gain 1 life.
 
-## Riveteers Provocateur
-Cost: {b}{r} | Type: Creature — Lizard Warrior | Color identity: BR | P/T: 3/1 | Commander: legal
-Text: Menace
-  When this creature enters, choose a creature card in your hand without blitz. It perpetually gains blitz. The blitz cost is equal to its mana cost.
-  Blitz {B}{R} (If you cast this spell for its blitz cost, it gains haste and "When this creature dies, draw a card." Sacrifice it at the beginning of the next end step.)
-Ruling (2022-04-29): If a creature enters the battlefield as a copy of or becomes a copy of a creature whose blitz cost was paid, the copy won't have haste, won't be sacrificed, and its controller won't draw a card when it dies.
-Ruling (2022-04-29): If you choose to pay the blitz cost rather than the mana cost, you're still casting the spell. It goes on the stack and can be responded to and countered. You can cast a creature spell for its blitz cost only if you could cast that creature spell. Most of the time, this means during your main phase when the stack is empty.
-Ruling (2022-04-29): If you pay the blitz cost to cast a creature spell, that permanent will be sacrificed only if it's still on the battlefield when that triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is.
-Ruling (2022-04-29): The triggered ability that lets its controller draw a card triggers when it dies for any reason, not just when you sacrifice it during the end step.
-Ruling (2022-04-29): You don't have to attack with the creature with blitz unless another ability says you do.
-
 ## Riveteers Requisitioner
 Cost: {1}{r} | Type: Creature — Lizard Rogue | Color identity: R | P/T: 3/1 | Commander: legal
 Text: When this creature dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
@@ -10399,12 +10296,6 @@ Ruling (2023-02-04): If a player or permanent has more than one kind of counter 
 Ruling (2023-02-04): Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
 Ruling (2023-02-04): To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
 Ruling (2023-02-04): You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
-
-## Roalesk, Prime Specimen
-Cost: {2}{g}{u} | Type: Legendary Creature — Human Mutant | Color identity: GU | P/T: 4/5 | Commander: legal
-Text: Flying
-  Whenever Roalesk, Prime Specimen or another permanent you control is turned face up, you may pay {X}. If you do, if X is 1 or more, conjure a duplicate of a random creature card with mana value X into your hand. Cloak it. It gains "{G/U}: Turn this creature face up" for as long as it remains face down.
-  Disguise {G}{U}
 
 ## Roamer's Routine
 Cost: {2}{g} | Type: Sorcery | Color identity: G | Commander: legal
@@ -11728,10 +11619,6 @@ Text: Equipped creature gets +1/+2, has reach, and can't be blocked by more than
   Equip {3}
 Ruling (2024-02-02): If the equipped creature also has menace, it can't be blocked at all.
 
-## Rope Line Attendant
-Cost: {g}{w} | Type: Creature — Cat Citizen | Color identity: GW | P/T: 2/2 | Commander: legal
-Text: When Rope Line Attendant enters the battlefield, creature cards in your hand perpetually gain "When this creature enters the battlefield, create a 1/1 green and white Citizen creature token."
-
 ## Rorix Bladewing
 Cost: {3}{r}{r}{r} | Type: Legendary Creature — Dragon | Color identity: R | P/T: 6/5 | Commander: legal
 Text: Flying, haste
@@ -11942,11 +11829,6 @@ Cost: {4}{b} | Type: Creature — Insect | Color identity: B | P/T: 3/5 | Comman
 Text: When this creature enters, exile target creature card from a graveyard. You gain life equal to that card's toughness.
 Ruling (2014-07-18): Rotfeaster Maggot's ability is mandatory. If you are the only player with creature cards in your graveyard, you must target one of them.
 
-## Rothga, Bonded Engulfer
-Cost: {2}{g}{g} | Type: Legendary Creature — Phyrexian Beast | Color identity: G | P/T: 4/4 | Commander: legal
-Text: Trample
-  When Rothga, Bonded Engulfer enters, you get a one-time boon with "When you cast a creature spell, it perpetually gets +X/+X, where X is its power."
-
 ## Rotisserie Elemental
 Cost: {r} | Type: Creature — Elemental | Color identity: R | P/T: 1/1 | Commander: legal
 Text: Menace
@@ -12108,11 +11990,6 @@ Ruling (2024-02-02): You can exile a card in your hand using suspend any time yo
 Cost: {3}{w}{w} | Type: Sorcery | Color identity: W | Commander: legal
 Text: You may cast this spell as though it had flash if you pay {2} more to cast it. (You may cast it any time you could cast an instant.)
   Destroy all creatures. They can't be regenerated.
-
-## Routeway Moose
-Cost: {1}{g} | Type: Creature — Elk Mount | Color identity: G | P/T: 3/3 | Commander: legal
-Text: Whenever this creature attacks while saddled, seek a land card and put it onto the battlefield tapped.
-  Saddle 2
 
 ## Rover Blades
 Cost: {3} | Type: Artifact — Equipment Vehicle | Color identity: colorless | P/T: 2/2 | Commander: legal
@@ -12844,12 +12721,6 @@ Cost: {4} | Type: Artifact Creature — Construct | Color identity: colorless | 
 Text: Trample
   When this creature attacks or blocks, sacrifice it at end of combat.
 
-## Runaway Growth
-Cost: {3}{g} | Type: Enchantment — Aura | Color identity: G | Commander: legal
-Text: Starting intensity 1
-  Enchant land
-  Whenever enchanted land is tapped for mana, its controller adds an additional amount of {G} equal to this enchantment's intensity. Then this enchantment intensifies by 1.
-
 ## Runaway Steam-Kin
 Cost: {1}{r} | Type: Creature — Elemental | Color identity: R | P/T: 1/1 | Commander: legal
 Text: Whenever you cast a red spell, if this creature has fewer than three +1/+1 counters on it, put a +1/+1 counter on this creature.
@@ -13006,11 +12877,6 @@ Faces: Rune-Tail, Kitsune Ascendant // Rune-Tail's Essence (flip)
 Text: When you have 30 or more life, flip Rune-Tail.
 Ruling (2005-06-01): Each Ascendant is legendary in both its unflipped and flipped forms. This means that effects that look for legendary creature cards, such as Time of Need and Captain Sisay, can find an Ascendant.
 
-## Runeblade Raiser
-Cost: {b} | Type: Creature — Human Warrior | Color identity: B | P/T: 2/1 | Commander: legal
-Text: This creature enters tapped.
-  When this creature dies, return it to the battlefield under its owner's control. It perpetually loses this ability.
-
 ## Runeboggle
 Cost: {2}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Counter target spell unless its controller pays {1}.
@@ -13022,11 +12888,6 @@ Cost: {1}{r} | Type: Creature — Wolf | Color identity: R | P/T: 2/2 | Commande
 Text: {3}{R}, {T}: This creature deals damage equal to the number of Wolves and Werewolves you control to target opponent.
 Ruling (2021-11-19): If you control a creature that is both a Wolf and a Werewolf, it's counted only once for Runebound Wolf's ability.
 Ruling (2021-11-19): Runebound Wolf's activated ability counts the number of Wolves and Werewolves you control at the time it resolves, not at the time it was activated.
-
-## Runecarved Obelisk
-Cost: {4} | Type: Artifact | Color identity: colorless | Commander: legal
-Text: {T}: Add {C}{C}. Put two charge counters on Runecarved Obelisk.
-  {T}, Sacrifice Runecarved Obelisk: Seek a card with the highest mana value among cards in your library with mana value X or less, where X is the number of charge counters on Runecarved Obelisk.
 
 ## Runechanter's Pike
 Cost: {2} | Type: Artifact — Equipment | Color identity: colorless | Commander: legal

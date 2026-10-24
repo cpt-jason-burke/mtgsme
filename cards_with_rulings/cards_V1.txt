@@ -83,11 +83,6 @@ Cost: {5}{g}{w} | Type: Creature — Beast | Color identity: GW | P/T: 6/6 | Com
 Text: {1}: Regenerate target creature with power 5 or greater.
 Ruling (2009-02-01): This ability checks the targeted creature's power only at the time the ability is activated and at the time it resolves. The regeneration shield it creates will work no matter what that creature's power is at the time it would be destroyed.
 
-## Val, Marooned Surveyor
-Cost: {2}{r}{g/w} | Type: Legendary Creature — Human Scout | Color identity: GRW | P/T: 3/3 | Commander: legal
-Text: Vigilance
-  Whenever you discover, investigate, scry, surveil, or seek one or more cards, Val deals 2 damage to each opponent and you gain 2 life.
-
 ## Valakut Awakening
 Cost: {2}{r} | Type: Instant | Color identity: R | Commander: legal
 Faces: Valakut Awakening // Valakut Stoneforge (modaldfc)
@@ -253,12 +248,6 @@ Text: Flying, lifelink
 Ruling (2024-09-20): The spells you cast using the permission granted by Valgavoth's last ability have an alternative cost that's paying life equal to their mana value. You can't choose to pay their mana cost and may not pay any other alternative costs. You may still pay for additional costs, such as kicker costs, and you may pay mana for those as normal. If the spell has mandatory additional costs, you must pay those.
 Ruling (2024-09-20): You follow all timing rules for spells cast and lands played using the permission granted by Valgavoth's last ability.
 
-## Valgavoth, the Lifeline
-Cost: {2}{w} | Type: Legendary Creature — Insect Angel | Color identity: W | P/T: 2/4 | Commander: legal
-Text: Flying
-  Whenever you gain life, creature cards in your hand and graveyard perpetually get +1/+1.
-  As long as you've gained life this turn, you may cast creature spells from your graveyard. If you cast a spell this way, that creature enters with a finality counter on it.
-
 ## Valiant Batrider
 Cost: {2}{w} | Type: Creature — Human Knight | Color identity: W | P/T: 3/3 | Commander: legal
 Text: Flying
@@ -269,12 +258,6 @@ Cost: {5}{w}{w} | Type: Creature — Shapeshifter | Color identity: W | P/T: 3/3
 Text: This spell costs {1} less to cast for each creature type among creatures you control. This effect can't reduce the amount of mana this spell costs by more than {5}.
   Changeling (This card is every creature type.)
   Double strike
-
-## Valiant Emberkin
-Cost: {1}{r}{w} | Type: Enchantment Creature — Mouse Glimmer | Color identity: RW | P/T: 1/2 | Commander: legal
-Text: Haste
-  Whenever this creature enters or attacks, target creature you control perpetually gets +1/+0.
-  If a creature you control becoming the target of a spell or ability causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
 
 ## Valiant Endeavor
 Cost: {4}{w}{w} | Type: Sorcery | Color identity: W | Commander: legal
@@ -289,11 +272,6 @@ Ruling (2021-07-23): Some effects may modify the result of a die roll. This may 
 Ruling (2021-07-23): The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
 Ruling (2021-07-23): Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.
 Ruling (2021-07-23): While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
-
-## Valiant Farewell
-Cost: {1}{w} | Type: Instant | Color identity: W | Commander: legal
-Text: Target creature you control gets +2/+0 until end of turn. When that creature leaves the battlefield this turn, you get a boon with "When you cast your next creature spell, it perpetually gets +2/+0."
-  Draw a card.
 
 ## Valiant Guard
 Cost: {w} | Type: Creature — Human Soldier | Color identity: W | P/T: 0/3 | Commander: legal
@@ -1134,13 +1112,6 @@ Ruling (2026-08-21): Only the current controller of a prepared creature can cast
 Ruling (2026-08-21): Preparation cards can be cast only with their base characteristics.
 Ruling (2026-08-21): While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
 
-## Variable Solutions
-Cost: {x}{g} | Type: Sorcery | Color identity: G | Commander: legal
-Text: If X is 1, seek a basic land card and put it onto the battlefield tapped.
-  If X is 2, each opponent sacrifices an artifact of their choice.
-  If X is 3, conjure a random creature card with mana value X onto the battlefield.
-  If X is 4 or more, you gain 2 life. Then do all of the above.
-
 ## Varina, Lich Queen
 Cost: {1}{w}{u}{b} | Type: Legendary Creature — Zombie Wizard | Color identity: BUW | P/T: 4/4 | Commander: legal
 Text: Whenever you attack with one or more Zombies, draw that many cards, then discard that many cards. You gain that much life.
@@ -1834,11 +1805,6 @@ Ruling (2021-04-16): Each creature with lifelink dealing combat damage causes a 
 Ruling (2021-04-16): If you gain an amount of life "for each" of something, that life is gained as one event and the ability will trigger only once.
 Ruling (2021-04-16): You may only pay {B} once for each life gain event.
 
-## Veko, Death's Doorkeeper
-Cost: {w}{b} | Type: Legendary Creature — Spirit Cleric | Color identity: BW | P/T: 1/3 | Commander: legal
-Text: Extort
-  {T}, Sacrifice a non-Spirit creature: Return target creature card from your graveyard to your hand. It perpetually becomes a Spirit, has base power and toughness 1/1, and gains "You may pay {W/B} rather than pay this spell's mana cost." Activate only as a sorcery.
-
 ## Vela the Night-Clad
 Cost: {4}{u}{b} | Type: Legendary Creature — Human Wizard | Color identity: BU | P/T: 4/4 | Commander: legal
 Text: Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)
@@ -2512,11 +2478,6 @@ Ruling (2023-07-28): A permanent card is an artifact, battle, creature, enchantm
 Cost: {3}{g} | Type: Sorcery | Color identity: G | Commander: legal
 Text: Search your library for a basic land card and put it onto the battlefield tapped. Search your library and graveyard for a card named Nissa, Nature's Artisan, reveal it, put it into your hand, then shuffle.
 
-## Verdant Dread
-Cost: {1}{g} | Type: Enchantment | Color identity: G | Commander: legal
-Text: Whenever Verdant Dread or another permanent you control named Verdant Dread enters, manifest dread.
-  {3}{G}{G}: Conjure a card named Verdant Dread onto the battlefield. Activate only as a sorcery.
-
 ## Verdant Eidolon
 Cost: {3}{g} | Type: Creature — Spirit | Color identity: G | P/T: 2/2 | Commander: legal
 Text: {G}, Sacrifice this creature: Add three mana of any one color.
@@ -2571,10 +2532,6 @@ Cost: {1}{g} | Type: Instant | Color identity: G | Commander: legal
 Text: Until end of turn, target creature gains "When this creature dies, return it to its owner's hand."
   Draw a card.
 Ruling (2017-09-29): If the target creature is an illegal target by the time Verdant Rebirth resolves, the entire spell doesn't resolve. You won't draw a card.
-
-## Verdant Rejuvenation
-Cost: {6}{g}{g} | Type: Sorcery | Color identity: G | Commander: legal
-Text: Seek X creature, enchantment, and/or planeswalker cards, where X is the highest mana value among creatures you control. Put those cards onto the battlefield.
 
 ## Verdant Succession
 Cost: {4}{g} | Type: Enchantment | Color identity: G | Commander: legal
@@ -2865,11 +2822,6 @@ Ruling (2022-09-09): The token copies exactly what was printed on the original a
 Ruling (2022-09-09): The token isn't legendary, and this exception is copiable. If something else copies the token later, that copy also won't be legendary. If you control two or more permanents with the same name but only one is legendary, the "legend rule" doesn't apply.
 Ruling (2022-09-09): The triggered ability of Vesuvan Duplimancy triggers only if you cast a spell that targets a single artifact or a single creature and nothing else. The ability will resolve before the spell that caused it to trigger, and a token will be created even if the spell you cast was countered or permanent it was targeting is now an illegal target.
 
-## Vesuvan Mist
-Cost: {1}{u} | Type: Instant | Color identity: BU | Commander: legal
-Text: Kicker {1}{B}
-  Return target nontoken, nonland permanent to its owner's hand. If this spell was kicked, conjure a duplicate of that card into your hand. It perpetually gains prismatic.
-
 ## Vesuvan Shapeshifter
 Cost: {3}{u}{u} | Type: Creature — Shapeshifter | Color identity: U | P/T: 0/0 | Commander: legal
 Text: As this creature enters or is turned face up, you may choose another creature on the battlefield. If you do, until this creature is turned face down, it becomes a copy of that creature, except it has "At the beginning of your upkeep, you may turn this creature face down."
@@ -2926,10 +2878,6 @@ Text: {3}{W}: Target Human gains double strike until end of turn.
 Cost: {w}{w} | Type: Creature — Human Knight | Color identity: W | P/T: 2/2 | Commander: legal
 Text: Vigilance (Attacking doesn't cause this creature to tap.)
 
-## Veteran Charger
-Cost: {2}{g} | Type: Creature — Centaur Soldier | Color identity: G | P/T: 2/2 | Commander: legal
-Text: When Veteran Charger enters the battlefield, choose a creature card in your hand. It perpetually gets +2/+2.
-
 ## Veteran Dungeoneer
 Cost: {3}{w} | Type: Creature — Human Warrior | Color identity: W | P/T: 3/4 | Commander: legal
 Text: When this creature enters, venture into the dungeon. (Enter the first room or advance to the next room.)
@@ -2938,11 +2886,6 @@ Text: When this creature enters, venture into the dungeon. (Enter the first room
 Cost: {g} | Type: Creature — Human Soldier Scout | Color identity: G | P/T: 1/1 | Commander: legal
 Text: When this creature dies, each player may search their library for up to two basic land cards, put them onto the battlefield, then shuffle.
 Ruling (2008-04-01): The player whose turn it is searches their library (or chooses not to), then each other player in turn order does the same. Then the player whose turn it is shuffles their library (if that player searched), then each other player in turn order does the same.
-
-## Veteran Ghoulcaller
-Cost: {1}{b} | Type: Creature — Human Rogue | Color identity: B | P/T: 2/2 | Commander: legal
-Text: Menace
-  Whenever a card in your graveyard is put into your hand, conjure a duplicate of that card into your hand.
 
 ## Veteran Guardmouse
 Cost: {3}{r/w} | Type: Creature — Mouse Soldier | Color identity: RW | P/T: 3/4 | Commander: legal
@@ -3135,11 +3078,6 @@ Text: Flying
 Ruling (2008-10-01): Paying cumulative upkeep is always optional. If it's not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can't be made. For example, if a permanent with "cumulative upkeep {1}" has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice the permanent.
 Ruling (2022-12-08): Paying cumulative upkeep is always optional. If it's not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can't be made. For example, if Vexing Sphinx has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either discard four cards or sacrifice it.
 
-## Vexyr, Ich-Tekik's Heir
-Cost: {g}{w}{u} | Type: Legendary Creature — Phyrexian Artificer | Color identity: GUW | P/T: 3/4 | Commander: legal
-Text: Whenever you seek one or more cards, create a 3/3 colorless Phyrexian Golem artifact creature token.
-  Golems you control have vigilance.
-
 ## Veyran, Voice of Duality
 Cost: {1}{u}{r} | Type: Legendary Creature — Efreet Wizard | Color identity: RU | P/T: 2/2 | Commander: legal
 Text: Magecraft — Whenever you cast or copy an instant or sorcery spell, Veyran gets +1/+1 until end of turn.
@@ -3167,36 +3105,6 @@ Ruling (2022-06-10): If your Commander deck has two commanders, you can include 
 Ruling (2022-06-10): If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
 Ruling (2022-06-10): Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won't usually be a creature anyway).
 Ruling (2022-06-10): You can choose two commanders that are the same color or colors.
-
-## Vhal, Eager Scholar
-Cost: {2}{u} | Type: Legendary Creature — Human Wizard | Color identity: U | P/T: 2/2 | Commander: legal
-Text: Specialize {5}
-  {T}: Draw a card, then discard a card. Put a study counter on Vhal, Eager Scholar.
-
-## Vhal, Scholar of Creation
-Cost: {2}{g}{u} | Type: Legendary Creature — Human Wizard | Color identity: GU | P/T: 4/4 | Commander: legal
-Text: When this creature specializes, remove all study counters from it. Seek two creature cards with mana value less than or equal to the number of study counters removed this way. Put one of them onto the battlefield and shuffle the other into your library.
-  {T}: Draw a card, then discard a card.
-
-## Vhal, Scholar of Elements
-Cost: {2}{u}{r} | Type: Legendary Creature — Human Wizard | Color identity: RU | P/T: 4/4 | Commander: legal
-Text: When this creature specializes, remove all study counters from it. When you do, Vhal, Scholar of Elements deals that much damage to target creature or planeswalker an opponent controls.
-  {T}: Draw a card, then discard a card.
-
-## Vhal, Scholar of Mortality
-Cost: {2}{u}{b} | Type: Legendary Creature — Human Wizard | Color identity: BU | P/T: 4/4 | Commander: legal
-Text: When this creature specializes, remove all study counters from it. When you do, put target creature card with mana value less than or equal to the number of study counters removed this way from a graveyard onto the battlefield under your control.
-  {T}: Draw a card, then discard a card.
-
-## Vhal, Scholar of Prophecy
-Cost: {2}{u}{u} | Type: Legendary Creature — Human Wizard | Color identity: U | P/T: 4/4 | Commander: legal
-Text: When this creature specializes, remove all study counters from it. Look at that many cards from the top of your library. Put one of those cards into your hand and the rest on the bottom of your library in a random order.
-  {T}: Draw a card, then discard a card.
-
-## Vhal, Scholar of Tactics
-Cost: {2}{w}{u} | Type: Legendary Creature — Human Wizard | Color identity: UW | P/T: 4/4 | Commander: legal
-Text: When this creature specializes, remove all study counters from it. When you do, distribute that many +1/+1 counters among any number of target creatures.
-  {T}: Draw a card, then discard a card.
 
 ## Vhati il-Dal
 Cost: {2}{b}{g} | Type: Legendary Creature — Human Warrior | Color identity: BG | P/T: 3/3 | Commander: legal
@@ -3552,31 +3460,6 @@ Ruling (2026-08-21): Only the current controller of a prepared creature can cast
 Ruling (2026-08-21): Preparation cards can be cast only with their base characteristics.
 Ruling (2026-08-21): While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
 
-## Viconia, Disciple of Arcana
-Cost: {1}{u}{b} | Type: Legendary Creature — Elf Cleric | Color identity: BU | P/T: 3/4 | Commander: legal
-Text: When this creature specializes, choose up to one target creature card and up to one target instant or sorcery card from among cards exiled with this creature. Conjure a duplicate of each of those cards into your hand. The duplicates perpetually gain prismatic.
-  {1}: Exile target card from a graveyard.
-
-## Viconia, Disciple of Blood
-Cost: {1}{b}{b} | Type: Legendary Creature — Elf Cleric | Color identity: B | P/T: 3/4 | Commander: legal
-Text: When this creature specializes, conjure a duplicate of target creature card exiled with this creature into your hand. The duplicate perpetually gains prismatic and "When this creature enters, each opponent loses 2 life and you gain 2 life."
-  {1}: Exile target card from a graveyard.
-
-## Viconia, Disciple of Rebirth
-Cost: {1}{w}{b} | Type: Legendary Creature — Elf Cleric | Color identity: BW | P/T: 3/4 | Commander: legal
-Text: When this creature specializes, conjure a duplicate of target creature card exiled with this creature into your hand. The duplicate perpetually gains prismatic. If it has mana value 3 or less, you may put it onto the battlefield.
-  {1}: Exile target card from a graveyard.
-
-## Viconia, Disciple of Strength
-Cost: {1}{b}{g} | Type: Legendary Creature — Elf Cleric | Color identity: BG | P/T: 3/4 | Commander: legal
-Text: When this creature specializes, conjure a duplicate of target creature card exiled with this creature into your hand. The duplicate perpetually gets +2/+2 and gains prismatic.
-  {1}: Exile target card from a graveyard.
-
-## Viconia, Disciple of Violence
-Cost: {1}{b}{r} | Type: Legendary Creature — Elf Cleric | Color identity: BR | P/T: 3/4 | Commander: legal
-Text: When this creature specializes, conjure a duplicate of target creature card exiled with this creature into your hand. The duplicate perpetually gets +1/+0 and gains haste and prismatic.
-  {1}: Exile target card from a graveyard.
-
 ## Viconia, Drow Apostate
 Cost: {2}{b} | Type: Legendary Creature — Elf Cleric | Color identity: B | P/T: 2/3 | Commander: legal
 Text: At the beginning of your upkeep, if there are four or more creature cards in your graveyard, return a creature card at random from your graveyard to your hand.
@@ -3591,11 +3474,6 @@ Ruling (2022-06-10): If your Commander deck has two commanders, you can include 
 Ruling (2022-06-10): If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
 Ruling (2022-06-10): Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won't usually be a creature anyway).
 Ruling (2022-06-10): You can choose two commanders that are the same color or colors.
-
-## Viconia, Nightsinger's Disciple
-Cost: {1}{b} | Type: Legendary Creature — Elf Cleric | Color identity: B | P/T: 2/3 | Commander: legal
-Text: Specialize {2}
-  {1}: Exile target card from a graveyard.
 
 ## Victim of Night
 Cost: {b}{b} | Type: Instant | Color identity: B | Commander: legal
@@ -3797,11 +3675,6 @@ Ruling (2024-11-08): If you copy a kicked spell on the stack, the copy is also k
 Ruling (2024-11-08): If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
 Ruling (2024-11-08): The kicker ability doesn't let you pay a kicker cost more than once.
 Ruling (2024-11-08): To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
-
-## Vigorous Farming
-Cost: {2}{g} | Type: Enchantment | Color identity: G | Commander: legal
-Text: Lands you control enter the battlefield untapped.
-  At the beginning of your end step, the topmost land card in your library perpetually gains "Whenever this land is tapped for mana, add an additional {G}."
 
 ## Vigorspore Wurm
 Cost: {5}{g} | Type: Creature — Wurm | Color identity: G | P/T: 6/4 | Commander: legal
@@ -5304,10 +5177,6 @@ Text: Lifelink
 Cost: {6}{u} | Type: Creature — Rabbit Beast | Color identity: U | P/T: 6/6 | Commander: legal
 Text: 
 
-## Vladimir and Godfrey
-Cost: {2}{w} | Type: Legendary Creature — Zombie Knight | Color identity: W | P/T: 3/2 | Commander: legal
-Text: Rejuvenation — {2}{W}: Return Vladimir and Godfrey from your graveyard to the battlefield tapped. It perpetually gets +1/+1. Activate only if you control a 1/1 creature.
-
 ## Vnwxt, Verbose Host
 Cost: {1}{u} | Type: Legendary Creature — Homunculus | Color identity: U | P/T: 0/4 | Commander: legal
 Text: Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
@@ -5396,10 +5265,6 @@ Ruling (2024-11-08): To determine a spell's total cost, start with the mana cost
 ## Vodalian Soldiers
 Cost: {1}{u} | Type: Creature — Merfolk Soldier | Color identity: U | P/T: 1/2 | Commander: legal
 Text: 
-
-## Vodalian Tide Mage
-Cost: {1}{g}{u} | Type: Creature — Merfolk Wizard | Color identity: GU | P/T: 3/3 | Commander: legal
-Text: Whenever one or more other nontoken creatures you control deal combat damage to a player, choose one of those creatures. Conjure a duplicate of the chosen creature into your hand.
 
 ## Vodalian War Machine
 Cost: {1}{u}{u} | Type: Creature — Wall | Color identity: U | P/T: 0/4 | Commander: legal
@@ -5641,12 +5506,6 @@ Ruling (2015-08-25): For spells with {X} in their mana costs, use the value chos
 Ruling (2015-08-25): The mana value of a face-down creature spell or a face-down creature is 0. Void Winnower will stop face-down creature spells from being cast and face-down creatures from blocking.
 Ruling (2015-08-25): Yes, your opponent can't even. We know.
 
-## Voidcalled Devotee
-Cost: {1}{b}{b} | Type: Creature — Human Soldier | Color identity: B | P/T: 3/3 | Commander: legal
-Text: Haste
-  Whenever this creature attacks, conjure a card named Cantor of the Refrain into your graveyard.
-  Warp {1}{B}
-
 ## Voidforged Titan
 Cost: {4}{b} | Type: Artifact Creature — Robot Warrior | Color identity: B | P/T: 5/4 | Commander: legal
 Text: Void — At the beginning of your end step, if a nonland permanent left the battlefield this turn or a spell was warped this turn, you draw a card and lose 1 life.
@@ -5789,15 +5648,6 @@ Ruling (2021-02-05): Snow isn't a type of mana. If an effect says you may spend 
 Ruling (2021-02-05): Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don't spend any snow mana to cast them; their additional effects simply won't do anything.
 Ruling (2021-02-05): The Kaldheim set doesn't have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn't apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
 Ruling (2021-02-05): The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
-
-## Volatile Orbit
-Cost: {r}{g} | Type: Enchantment | Color identity: GR | Commander: legal
-Text: When this enchantment enters, if you control a Planet, this enchantment deals 4 damage to any target.
-  {1}{R}{G}, Sacrifice this enchantment: Conjure a card of your choice from the Planets Spellbook onto the battlefield tapped with eight charge counters on it. Activate only as a sorcery.
-
-## Volatile Rift
-Cost: {r/g}{r/g} | Type: Enchantment | Color identity: GR | Commander: legal
-Text: Vivid — Whenever a creature card is put into your hand from your library, it perpetually gets +X/+0, where X is the number of colors among permanents you control.
 
 ## Volatile Rig
 Cost: {4} | Type: Artifact Creature — Construct | Color identity: colorless | P/T: 4/4 | Commander: legal
@@ -6258,11 +6108,6 @@ Ruling (2008-10-01): Creatures in the same band must all attack the same player 
 Ruling (2008-10-01): If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
 Ruling (2008-10-01): Paying cumulative upkeep is always optional. If it's not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can't be made. For example, if a permanent with "cumulative upkeep {1}" has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice the permanent.
 Ruling (2009-10-01): If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it.
-
-## Vona de Iedo, the Antifex
-Cost: {2}{w}{b}{b} | Type: Legendary Creature — Vampire Cleric Knight | Color identity: BW | P/T: 4/2 | Commander: legal
-Text: Menace
-  When Vona de Iedo enters, destroy target nonland, nontoken permanent an opponent controls. Then you may discard a card. If you do, conjure a duplicate of that permanent into your hand, and the duplicate perpetually gains prismatic.
 
 ## Vona's Hunger
 Cost: {2}{b} | Type: Instant | Color identity: B | Commander: legal
@@ -6844,9 +6689,3 @@ Text: Flying
   Whenever a card is put into an opponent's graveyard from anywhere, put a +1/+1 counter on this creature.
 Ruling (2005-10-01): The ability doesn't care why a card goes to your opponent's graveyard — only that it does. The ability triggers when a card is put into your opponent's graveyard from the stack (a spell resolves, fails to resolve, or is countered), from the battlefield (a permanent is destroyed or sacrificed), from the player's hand (a card is discarded), from the player's library (from a Millstone-like effect), or from any other zone.
 Ruling (2005-10-01): This ability triggers only on cards, so it won't trigger when a token is put into your opponent's graveyard.
-
-## Vv'viza, Orbital Overseer
-Cost: {1}{g}{w}{u} | Type: Legendary Creature — Jellyfish Advisor | Color identity: GUW | P/T: 4/4 | Commander: legal
-Text: Flying, Vigilance
-  When Vv'viza enters, conjure a card of your choice from the Planets Spellbook onto the battlefield.
-  Whenever you attack, create a Lander token. It becomes a 2/1 artifact creature and gains flying.

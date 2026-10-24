@@ -255,12 +255,6 @@ Text: Trample
 Cost: {1}{g}{g} | Type: Creature — Human Druid | Color identity: G | P/T: 1/1 | Commander: legal
 Text: Whenever an opponent casts an instant spell other than the first instant spell that player casts each turn, this creature deals 4 damage to that player.
 
-## Ichor Aberration
-Cost: {1}{u}{b} | Type: Creature — Phyrexian Horror | Color identity: BU | P/T: 3/3 | Commander: legal
-Text: Flying, Defender
-  As long as Ichor Aberration's power is 7 or greater, it can attack as though it didn't have defender.
-  Whenever you proliferate, if Ichor Aberration is in your graveyard or on the battlefield, Ichor Aberration perpetually gets +1/+1. You may cast it from your graveyard this turn.
-
 ## Ichor Drinker
 Cost: {b} | Type: Creature — Phyrexian Vampire | Color identity: B | P/T: 1/1 | Commander: legal
 Text: Lifelink
@@ -962,11 +956,6 @@ Cost: {1}{u}{b} | Type: Legendary Creature — Human Rogue Wizard | Color identi
 Text: Imoen, Occult Trickster can't be blocked.
   Whenever Imoen deals combat damage to a player, you may exile an instant or sorcery card from your graveyard. If you do, create a 2/2 black Zombie creature token.
 
-## Imoen, Trickster Friend
-Cost: {1}{u} | Type: Legendary Creature — Human Rogue Wizard | Color identity: U | P/T: 2/1 | Commander: legal
-Text: Specialize {5}. This ability costs {3} less to activate if there are two or more instant and/or sorcery cards in your graveyard.
-  Imoen, Trickster Friend can't be blocked as long as it's attacking alone.
-
 ## Imoen, Wily Trickster
 Cost: {1}{u}{u} | Type: Legendary Creature — Human Rogue Wizard | Color identity: U | P/T: 3/2 | Commander: legal
 Text: Imoen, Wily Trickster can't be blocked.
@@ -1049,11 +1038,6 @@ Text: Paradox — Impending Flux deals X damage to each opponent and each creatu
 Cost: {3}{w} | Type: Creature — Dinosaur | Color identity: W | P/T: 3/3 | Commander: legal
 Text: Flying
   When this creature enters, another target creature you control gets +1/+1 and gains flying until end of turn.
-
-## Imperial Blademaster
-Cost: {1}{r}{w} | Type: Creature — Human Samurai | Color identity: RW | P/T: 2/3 | Commander: legal
-Text: Double strike
-  Whenever a Samurai or Warrior you control attacks alone, draft a card from Imperial Blademaster's spellbook.
 
 ## Imperial Ceratops
 Cost: {4}{w} | Type: Creature — Dinosaur | Color identity: W | P/T: 3/5 | Commander: legal
@@ -1303,10 +1287,6 @@ Text: As an additional cost to cast this spell, sacrifice an artifact or creatur
 Cost: {2}{r} | Type: Sorcery | Color identity: R | Commander: legal
 Text: Improvised Weaponry deals 2 damage to any target. Create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
 
-## Improvising Aerialist
-Cost: {1}{w} | Type: Creature — Human Survivor | Color identity: W | P/T: 3/2 | Commander: legal
-Text: Survival — At the beginning of your second main phase, if Improvising Aerialist is tapped, Improvising Aerialist and the top creature card in your library without flying perpetually gain flying.
-
 ## Imps' Taunt
 Cost: {1}{b} | Type: Instant | Color identity: B | Commander: legal
 Text: Buyback {3} (You may pay an additional {3} as you cast this spell. If you do, put this card into your hand as it resolves.)
@@ -1471,10 +1451,6 @@ Text: {1}{R}: This creature gets +1/+0 until end of turn.
 Cost: {2}{r}{r} | Type: Instant | Color identity: R | Commander: legal
 Text: As an additional cost to cast this spell, sacrifice an artifact.
   Incendiary Sabotage deals 3 damage to each creature.
-
-## Incessant Provocation
-Cost: {3}{r} | Type: Sorcery | Color identity: R | Commander: legal
-Text: Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. It perpetually gains "This creature attacks each combat if able."
 
 ## Inchblade Companion
 Cost: {w} | Type: Artifact Creature — Equipment Insect | Color identity: W | P/T: 1/1 | Commander: legal
@@ -1711,11 +1687,6 @@ Cost: {4}{g}{w} | Type: Enchantment — Aura | Color identity: GW | Commander: l
 Text: Enchant creature
   Enchanted creature gets +4/+4 and has first strike, and all creatures able to block it do so.
   Umbra armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)
-
-## Indris, the Hydrostatic Surge
-Cost: {4}{u}{r} | Type: Legendary Creature — Otter Incarnation | Color identity: RU | P/T: 5/5 | Commander: legal
-Text: When Indris, the Hydrostatic Surge enters, conjure four cards named Lightning Bolt into your library. They perpetually gain storm. Then shuffle.
-  Whenever you cast an instant or sorcery spell, draw a card.
 
 ## Induce Despair
 Cost: {2}{b} | Type: Instant | Color identity: B | Commander: legal
@@ -1999,12 +1970,6 @@ Text: If you've been dealt damage by two or more creatures this turn, you may pa
 ## Infest
 Cost: {1}{b}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: All creatures get -2/-2 until end of turn.
-
-## Infestation
-Cost: {3}{b}{b} | Type: Creature — Elemental Incarnation | Color identity: B | P/T: 6/5 | Commander: legal
-Text: Wither
-  When this creature enters, conjure a card named Blowfly Infestation onto the battlefield. Then put a -1/-1 counter on each creature.
-  Evoke—{1}{B}{B}, Pay 3 life.
 
 ## Infestation Expert
 Cost: {4}{g} | Type: Creature — Human Werewolf | Color identity: G | P/T: 3/4 | Commander: legal
@@ -2402,10 +2367,6 @@ Cost: — | Type: Land | Color identity: RU | Commander: legal
 Text: This land enters tapped unless you control a planeswalker.
   {T}: Add {U} or {R}.
 
-## Innovative Metatect
-Cost: {w}{u} | Type: Creature — Phyrexian Artificer | Color identity: UW | P/T: 1/3 | Commander: legal
-Text: Whenever one or more artifact creatures you control deal combat damage to a player, seek a nonland card with mana value 2 or less.
-
 ## Inordinate Rage
 Cost: {1}{r} | Type: Instant | Color identity: R | Commander: legal
 Text: Target creature gets +3/+2 until end of turn. Scry 1.
@@ -2427,11 +2388,6 @@ Text: Enchantment spells you cast cost {1} less to cast.
 Cost: {1} | Type: Artifact Creature — Construct | Color identity: colorless | P/T: 0/2 | Commander: legal
 Text: When this creature enters, scry 1.
   Exile this creature: Create a 1/1 white Human creature token.
-
-## Inquisitor Captain
-Cost: {3}{w} | Type: Creature — Human Cleric | Color identity: W | P/T: 3/3 | Commander: legal
-Text: Vigilance
-  When this creature enters, if you cast it and there are twenty or more creature cards with mana value 3 or less among cards in your graveyard, hand, and library, seek two creature cards with mana value 3 or less. Put one of them onto the battlefield and shuffle the other into your library.
 
 ## Inquisitor Eisenhorn
 Cost: {2}{u}{b} | Type: Legendary Creature — Human Inquisitor | Color identity: BU | P/T: 2/3 | Commander: legal
@@ -2716,11 +2672,6 @@ Text: When this creature enters, you gain 4 life.
 Cost: {4}{w}{w} | Type: Creature — Human Soldier | Color identity: W | P/T: 1/4 | Commander: legal
 Text: Whenever another creature you control with power 2 or less enters, you gain 1 life and draw a card.
 
-## Inspiring Easel
-Cost: {u}{r} | Type: Artifact | Color identity: RU | Commander: legal
-Text: {T}: Add one mana of any color. Spend this mana only to cast an instant or sorcery spell.
-  {T}: Choose an instant or sorcery card in your hand. It perpetually incorporates {U}{R} and gains "When you cast this spell, copy it. You may choose new targets for the copy." Activate only as a sorcery.
-
 ## Inspiring Leader
 Cost: {2}{w} | Type: Legendary Enchantment — Background | Color identity: W | Commander: legal
 Text: Commander creatures you own have "Creature tokens you control get +2/+2."
@@ -2893,11 +2844,6 @@ Cost: {6}{u}{u} | Type: Creature — Elemental Fractal | Color identity: U | P/T
 Text: Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
   Ward {3}
   When this creature enters, look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in a random order.
-
-## Interdisciplinary Studies
-Cost: {2}{u} | Type: Instant | Color identity: U | Commander: legal
-Text: Seek a multicolored card.
-  Learn.
 
 ## Interface Ace
 Cost: {1}{w} | Type: Artifact Creature — Robot Pilot | Color identity: W | P/T: 0/4 | Commander: legal
@@ -4114,12 +4060,6 @@ Text: This land enters tapped.
 Cost: {1}{r} | Type: Legendary Creature — Goblin Warrior | Color identity: R | P/T: 1/1 | Commander: legal
 Text: Whenever an opponent casts a Spirit or Arcane spell, Ishi-Ishi deals 2 damage to that player.
 
-## Ishkanah, Broodmother
-Cost: {3}{g} | Type: Legendary Creature — Spider | Color identity: BG | P/T: 3/5 | Commander: legal
-Text: Reach
-  Other Spiders you control get +1/+2.
-  {1}{B/G}, Exile two cards from your graveyard: Draft a card from Ishkanah, Broodmother's spellbook.
-
 ## Ishkanah, Grafwidow
 Cost: {4}{g} | Type: Legendary Creature — Spider | Color identity: BG | P/T: 3/5 | Commander: legal
 Text: Reach
@@ -4472,10 +4412,6 @@ Text: {T}: Add {U} or {R}.
 Cost: {3} | Type: Artifact | Color identity: RU | Commander: legal
 Text: {T}: Add {U} or {R}.
   {U/R}{U/R}{U/R}{U/R}, {T}, Sacrifice this artifact: Draw two cards.
-
-## Izzet Polarizer
-Cost: {u}{r} | Type: Creature — Lizard Wizard | Color identity: RU | P/T: 2/1 | Commander: legal
-Text: When Izzet Polarizer dies, conjure a card named Ionize or a card named Electrolyze into your hand. (Your choice is not revealed to other players.)
 
 ## Izzet Signet
 Cost: {2} | Type: Artifact | Color identity: RU | Commander: legal

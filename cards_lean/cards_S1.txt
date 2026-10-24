@@ -548,12 +548,6 @@ Cost: {7}{u}{u} | Type: Creature — Dragon Turtle | Color identity: U | P/T: 7/
 Text: This spell costs {1} less to cast for each card you own in exile and in your graveyard that's an instant card, a sorcery card, or a card that has an Adventure.
   Ward {4} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {4}.)
 
-## Saint Elenda
-Cost: {4}{w}{w}{w} | Type: Legendary Creature — Vampire Cleric | Color identity: W | P/T: 4/7 | Commander: legal
-Text: Lifelink
-  When Saint Elenda enters, conjure a card of your choice from Saint Elenda's spellbook into your hand. You may cast that card this turn without paying its mana cost.
-  At the beginning of your end step, if you gained life this turn, create an X/X white Avatar creature token, where X is the amount of life you gained this turn.
-
 ## Saint Traft and Rem Karolus
 Cost: {u}{r}{w} | Type: Legendary Creature — Spirit Human | Color identity: RUW | P/T: 3/4 | Commander: legal
 Text: Whenever Saint Traft and Rem Karolus becomes tapped, create a 1/1 red Human creature token if this is the first time this ability has resolved this turn. If it's the second time, create a 1/1 blue Spirit creature token with flying. If it's the third time, create a 4/4 white Angel creature token with flying.
@@ -610,13 +604,6 @@ Text: At the beginning of your upkeep, add {G}. Until end of turn, you don't los
 Cost: {1}{u}{r} | Type: Legendary Creature — Squid Pirate | Color identity: RU | P/T: 3/3 | Commander: legal
 Text: Each creature you control with an exhaust ability has haste.
   Whenever you activate an exhaust ability that isn't a mana ability, copy it. You may choose new targets for the copy.
-
-## Salacinder and Soot, Rascals
-Cost: {2}{u}{r} | Type: Legendary Creature — Elemental | Color identity: RU | P/T: 3/3 | Commander: legal
-Text: Prowess, Trample
-  When Salacinder and Soot enters and whenever you cast an Elemental spell, choose one —
-  • Conjure a card named Rite of Flame into your hand.
-  • Conjure a card named Take Inventory into your hand.
 
 ## Salivating Gremlins
 Cost: {2}{r} | Type: Creature — Gremlin | Color identity: R | P/T: 2/3 | Commander: legal
@@ -719,10 +706,6 @@ Text: This creature gets +1/+0 for each artifact card in your graveyard.
 Cost: {4}{b}{b} | Type: Artifact Creature — Golem | Color identity: B | P/T: 6/4 | Commander: legal
 Text: You may sacrifice three artifacts rather than pay this spell's mana cost.
   Exile three artifact cards from your graveyard: Return this card from your graveyard to your hand.
-
-## Salvaged Imitations
-Cost: {x}{r}{g} | Type: Sorcery | Color identity: GR | Commander: legal
-Text: For each number between 1 and X, conjure a random artifact card with that mana value onto the battlefield. X can't be 0.
 
 ## Salvaged Manaworker
 Cost: {2} | Type: Artifact Creature — Construct | Color identity: colorless | P/T: 1/3 | Commander: legal
@@ -1110,11 +1093,6 @@ Text: Choose one —
 Cost: {2}{w} | Type: Instant | Color identity: W | Commander: legal
 Text: Sandblast deals 5 damage to target attacking or blocking creature.
 
-## Sandcloud Harbinger
-Cost: {2}{w} | Type: Creature — Elemental Horse | Color identity: W | P/T: 2/4 | Commander: legal
-Text: When Sandcloud Harbinger enters, conjure three cards named Sunscorched Desert into the top ten cards of each player's library at random.
-  Whenever a player plays a Desert, that player draws a card and you gain 3 life.
-
 ## Sandcrafter Mage
 Cost: {2}{w} | Type: Creature — Human Wizard | Color identity: W | P/T: 2/2 | Commander: legal
 Text: When this creature enters, bolster 1. (Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)
@@ -1332,11 +1310,6 @@ Text: Flying, lifelink
 Cost: {1}{w} | Type: Creature — Vampire Guest | Color identity: W | P/T: 3/1 | Commander: legal
 Text: This creature has lifelink as long as you control a stickered permanent.
 
-## Sanguine Soothsayer
-Cost: {1}{b} | Type: Creature — Bat Cleric | Color identity: B | P/T: 2/2 | Commander: legal
-Text: Flying, lifelink
-  Whenever this creature attacks, conjure a card named Sanguine Bond into the top fifteen cards of your library at random. It perpetually gains "You may pay {0} rather than pay this spell's mana cost" and "When this permanent enters, draw a card."
-
 ## Sanguine Spy
 Cost: {2}{b} | Type: Creature — Vampire Rogue | Color identity: B | P/T: 2/3 | Commander: legal
 Text: Menace, lifelink
@@ -1377,10 +1350,6 @@ Text: wHeN YoU pLAnESWalK tO tHIs pLAnE, eACh pLAyER cHoOSeS a nOnBlACk cREaTuRE
 Cost: {1}{w} | Type: Legendary Creature — Human Pilot | Color identity: W | P/T: 3/1 | Commander: legal
 Text: As long as an artifact creature you control is attacking, prevent all damage that would be dealt to Sanwell.
   Whenever Sanwell becomes tapped, exile the top six cards of your library. You may cast a Vehicle or artifact creature spell from among them. Then put the rest on the bottom of your library in a random order.
-
-## Sap Vitality
-Cost: {b}{b} | Type: Instant | Color identity: B | Commander: legal
-Text: Sap Vitality deals 3 damage to target creature or planeswalker. Choose a creature card in your hand. It perpetually gets +3/+0.
 
 ## Sapling Nursery
 Cost: {6}{g}{g} | Type: Enchantment | Color identity: G | Commander: legal
@@ -1522,21 +1491,11 @@ Text: First strike, trample
 Cost: {1}{r} | Type: Creature — Minotaur Barbarian | Color identity: R | P/T: 0/4 | Commander: legal
 Text: As long as it's your turn and you control four or more Mountains, this creature gets +X/+0, where X is the number of Mountains you control.
 
-## Sarevok the Usurper
-Cost: {3}{b} | Type: Legendary Creature — Human Knight | Color identity: B | P/T: 3/3 | Commander: legal
-Text: Specialize {3}
-  At the beginning of combat on your turn, target creature you control gets +X/+0 until end of turn, where X is the number of creature cards in your graveyard.
-
 ## Sarevok's Tome
 Cost: {4} | Type: Artifact — Book | Color identity: colorless | Commander: legal
 Text: When this artifact enters, you take the initiative.
   {T}: Add {C}. If you have the initiative, add {C}{C} instead.
   {3}, {T}: Exile cards from the top of your library until you exile a nonland card. You may cast that card without paying its mana cost. Activate only if you've completed a dungeon.
-
-## Sarevok, Deadly Usurper
-Cost: {3}{b}{b} | Type: Legendary Creature — Human Knight | Color identity: B | P/T: 4/4 | Commander: legal
-Text: When this creature specializes, seek a creature card and put it into your graveyard, then conjure two duplicates of it into your graveyard.
-  At the beginning of combat on your turn, target creature you control gets +X/+0 until end of turn, where X is the number of creature cards in your graveyard.
 
 ## Sarevok, Deathbringer
 Cost: {3}{b} | Type: Legendary Creature — Human Knight | Color identity: B | P/T: 3/4 | Commander: legal
@@ -1659,12 +1618,6 @@ Cost: {3}{r}{r} | Type: Legendary Planeswalker — Sarkhan | Color identity: R |
 Text: [+1]: Until end of turn, Sarkhan becomes a legendary 4/4 red Dragon creature with flying, indestructible, and haste. (He doesn't lose loyalty while he's not a planeswalker.)
   [−3]: Sarkhan deals 4 damage to target creature.
   [−6]: You get an emblem with "At the beginning of your draw step, draw two additional cards" and "At the beginning of your end step, discard your hand."
-
-## Sarkhan, Wanderer to Shiv
-Cost: {3}{r} | Type: Legendary Planeswalker — Sarkhan | Color identity: R | Loyalty/Defense: 4 | Commander: legal
-Text: [+1]: Dragon cards in your hand perpetually gain "This spell costs {1} less to cast," and "You may pay {X} rather than pay this spell's mana cost, where X is its mana value."
-  [+1]: Conjure a card named Shivan Dragon into your hand.
-  [−2]: Sarkhan, Wanderer to Shiv deals 3 damage to target creature.
 
 ## Sarpadian Empires, Vol. VII
 Cost: {3} | Type: Artifact — Book | Color identity: colorless | Commander: legal
@@ -2204,11 +2157,6 @@ Text: This land enters tapped.
   {T}: Add {C}.
   {T}: Add {R} or {W}. This land deals 1 damage to you.
 
-## Scalar Scholar
-Cost: {g}{u} | Type: Creature — Salamander Wizard | Color identity: GU | P/T: 2/2 | Commander: legal
-Text: Increment
-  When this creature enters, each card you own with {X} in its mana cost perpetually gains "This spell costs {1} less to cast."
-
 ## Scald
 Cost: {1}{r} | Type: Enchantment | Color identity: R | Commander: legal
 Text: Whenever a player taps an Island for mana, this enchantment deals 1 damage to that player.
@@ -2306,17 +2254,6 @@ Text: Flying
 Cost: {2}{b} | Type: Instant | Color identity: B | Commander: legal
 Text: Affinity for Lizards (This spell costs {1} less to cast for each Lizard you control.)
   Target creature gets +2/+0 and gains lifelink and indestructible until end of turn.
-
-## Scalesoul Gnome
-Cost: {3}{r}{w} | Type: Artifact Creature — Gnome | Color identity: RW | P/T: 3/5 | Commander: legal
-Text: Trample, Haste
-  Whenever Scalesoul Gnome deals combat damage to a player, discover X, where X is that damage.
-  Whenever you play a card from exile, conjure a duplicate of it into your hand.
-
-## Scalespeaker Shepherd
-Cost: {2}{g} | Type: Creature — Human Druid | Color identity: G | P/T: 2/1 | Commander: legal
-Text: When Scalespeaker Shepherd enters, draft a card from Scalespeaker Shepherd's spellbook.
-  Dinosaur spells you cast cost {1} less to cast.
 
 ## Scalestorm Summoner
 Cost: {2}{r} | Type: Creature — Human Warlock | Color identity: R | P/T: 3/3 | Commander: legal
@@ -2730,10 +2667,6 @@ Text: {T}: Add {C}.
 Cost: {u}{b} | Type: Legendary Creature — Human Scientist Villain | Color identity: BU | P/T: 2/2 | Commander: legal
 Text: Pay 2 life: Copy target activated or triggered ability you control from an artifact source. You may choose new targets for the copy. Activate only during your turn and only once each turn. (Mana abilities can't be targeted.)
 
-## Scintillating Encore
-Cost: {w/b} | Type: Instant | Color identity: BW | Commander: legal
-Text: Target creature you control perpetually gets +2/+0. When that creature dies this turn, return it to the battlefield tapped under its owner's control.
-
 ## Scion of Calamity
 Cost: {3}{g}{g} | Type: Creature — Dinosaur | Color identity: G | P/T: 5/5 | Commander: legal
 Text: Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)
@@ -2770,11 +2703,6 @@ Text: Flash
 Cost: {2}{r} | Type: Creature — Vampire Noble | Color identity: R | P/T: 3/1 | Commander: legal
 Text: Whenever this creature or another nontoken Vampire you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
   {R}, Sacrifice two artifacts: Exile the top card of your library. You may play that card this turn.
-
-## Scion of Shiv
-Cost: {2}{r}{r} | Type: Creature — Dragon | Color identity: R | P/T: 3/3 | Commander: legal
-Text: Flying
-  {2}{R}: Scion of Shiv perpetually gets +1/+0.
 
 ## Scion of Stygia
 Cost: {2}{u} | Type: Creature — Tiefling Shaman | Color identity: U | P/T: 2/1 | Commander: legal
@@ -2958,11 +2886,6 @@ Text: Exile target creature card from your graveyard. Create X 1/1 white Bird cr
 Cost: {4}{u}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Delirium — This spell costs {2} less to cast if there are four or more card types among cards in your graveyard.
   Draw three cards.
-
-## Scour the Scene
-Cost: {w}{u} | Type: Enchantment | Color identity: UW | Commander: legal
-Text: When Scour the Scene enters, create a 2/2 white and blue Detective creature token.
-  Whenever you sacrifice an artifact, choose a creature card in your hand or a creature you control. It perpetually gets +1/+0.
 
 ## Scoured Barrens
 Cost: — | Type: Land | Color identity: BW | Commander: legal
@@ -3416,11 +3339,6 @@ Text: Flying
 ## Scrubland
 Cost: — | Type: Land — Plains Swamp | Color identity: BW | Commander: legal
 Text: ({T}: Add {W} or {B}.)
-
-## Scrutiny of the Guildpact
-Cost: {1}{w} | Type: Enchantment | Color identity: W | Commander: legal
-Text: When Scrutiny of the Guildpact enters, you may choose a creature card in your hand. If you do, that card perpetually incorporates {W} and gains "When you cast this spell, create a 2/2 white and blue Detective creature token."
-  Multicolored creatures you control get +1/+1.
 
 ## Scryb Ranger
 Cost: {1}{g} | Type: Creature — Faerie Ranger | Color identity: G | P/T: 1/1 | Commander: legal
@@ -3889,11 +3807,6 @@ Text: Whenever you gain life, you may pay {2}. If you do, this enchantment deals
 Cost: {2}{r} | Type: Sorcery | Color identity: R | Commander: legal
 Text: Choose a color. Searing Rays deals damage to each player equal to the number of creatures of that color that player controls.
 
-## Searing Soloist
-Cost: {2}{r}{r} | Type: Creature — Orc Bard | Color identity: R | P/T: 3/3 | Commander: legal
-Text: When this creature enters, conjure a card named Aria of Flame onto the battlefield.
-  If a red source you control would deal damage to a permanent or player, it deals that much damage plus 1 instead.
-
 ## Searing Spear
 Cost: {1}{r} | Type: Instant | Color identity: R | Commander: legal
 Text: Searing Spear deals 3 damage to any target.
@@ -4053,12 +3966,6 @@ Text: Return any number of cards with different mana values from your graveyard 
 Cost: — | Type: Artifact Land | Color identity: U | Commander: legal
 Text: {T}: Add {U}.
 
-## Seatower Imprisonment
-Cost: {2}{w}{w} | Type: Enchantment — Aura | Color identity: W | Commander: legal
-Text: Enchant creature or planeswalker you don't control
-  When this enchantment enters, conjure a card named Soldiers of the Watch onto the battlefield.
-  Enchanted permanent can't attack or block, and its activated abilities can't be activated.
-
 ## Secluded Courtyard
 Cost: — | Type: Land | Color identity: colorless | Commander: legal
 Text: As this land enters, choose a creature type.
@@ -4097,10 +4004,6 @@ Text: Counter target spell that's the second spell cast this turn.
 ## Second Harvest
 Cost: {2}{g}{g} | Type: Instant | Color identity: G | Commander: legal
 Text: For each token you control, create a token that's a copy of that permanent.
-
-## Second Little Pig
-Cost: {1}{w/b} | Type: Creature — Boar | Color identity: BW | P/T: 2/3 | Commander: legal
-Text: {2}{W/B}{W/B}: Second Little Pig perpetually becomes a Boar Spirit with base power and toughness 4/4 and gains flying. Activate only if Second Little Pig isn't a Spirit.
 
 ## Second Sight
 Cost: {2}{u} | Type: Instant | Color identity: U | Commander: legal
@@ -4407,10 +4310,6 @@ Cost: {w}{b} | Type: Instant | Color identity: BRW | Commander: legal
 Faces: Hide // Seek (split)
 Text: Search target opponent's library for a card and exile it. You gain life equal to its mana value. Then that player shuffles.
 
-## Seek New Knowledge
-Cost: {1}{u} | Type: Instant | Color identity: U | Commander: legal
-Text: Seek two nonland cards, then put a card from your hand on the bottom of your library.
-
 ## Seek the Beast
 Cost: {1}{r} | Type: Instant — Adventure | Color identity: GR | Commander: legal
 Faces: Questing Druid // Seek the Beast (adventure)
@@ -4508,11 +4407,6 @@ Text: {T}: Add {C}.
 ## Seething Pathblazer
 Cost: {2}{r} | Type: Creature — Elemental Warrior | Color identity: R | P/T: 2/2 | Commander: legal
 Text: Sacrifice an Elemental: This creature gets +2/+0 and gains first strike until end of turn.
-
-## Seething Skitter-Priest
-Cost: {2}{w}{b} | Type: Creature — Phyrexian Cleric | Color identity: BW | P/T: 3/3 | Commander: legal
-Text: Toxic 1
-  When Seething Skitter-Priest enters, creatures you control and creature cards in your hand perpetually gain "When this creature dies, create a 1/1 colorless Phyrexian Mite artifact creature token with toxic 1 and 'This creature can't block.'"
 
 ## Seething Song
 Cost: {2}{r} | Type: Instant | Color identity: R | Commander: legal
@@ -4826,10 +4720,6 @@ Text: {1}{W}, Sacrifice this creature: Creatures you control get +1/+1 until end
 Cost: {3}{w}{w} | Type: Creature — Human Cleric | Color identity: W | P/T: 3/4 | Commander: legal
 Text: {T}: Exile target creature card from a graveyard. That card deals damage equal to its power to this creature.
 
-## Selfless Germinator
-Cost: {g} | Type: Creature — Treefolk Druid | Color identity: G | P/T: 2/1 | Commander: legal
-Text: Exhaust — {1}: Conjure a card named Seed of Hope into your hand.
-
 ## Selfless Glyphweaver
 Cost: {2}{w} | Type: Creature — Human Cleric | Color identity: BW | P/T: 2/3 | Commander: legal
 Faces: Selfless Glyphweaver // Deadly Vanity (modaldfc)
@@ -4924,11 +4814,6 @@ Text: Whenever another creature enters, its controller may draw a card if its po
 Cost: {3} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: Imprint — When this artifact enters, you may exile a nonland card from your hand.
   Spells you cast that share a card type with the exiled card cost {2} less to cast.
-
-## Semblance Scanner
-Cost: {2}{u} | Type: Artifact Creature — Equipment Shapeshifter | Color identity: U | P/T: 3/2 | Commander: legal
-Text: Whenever Semblance Scanner or equipped creature deals combat damage to a player, if it's not a token, conjure a duplicate of it into your hand.
-  Reconfigure {1} ({1}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)
 
 ## Semester Foreseer
 Cost: {3}{u} | Type: Creature — Human Wizard | Color identity: UW | P/T: 3/4 | Commander: legal
@@ -5705,10 +5590,6 @@ Text: Choose one or both —
 Cost: {2}{b}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Exile target creature. Put two loyalty counters on a planeswalker you control.
 
-## Settle the Wilds
-Cost: {2}{g} | Type: Sorcery | Color identity: G | Commander: legal
-Text: Seek a basic land card and put it onto the battlefield tapped. Then seek a permanent card with mana value equal to the number of lands you control.
-
 ## Settle the Wreckage
 Cost: {2}{w}{w} | Type: Instant | Color identity: W | Commander: legal
 Text: Exile all attacking creatures target player controls. That player may search their library for that many basic land cards, put those cards onto the battlefield tapped, then shuffle.
@@ -5779,10 +5660,6 @@ Cost: {3}{b} | Type: Creature — Horror | Color identity: B | P/T: */* | Comman
 Text: As this creature enters, choose a player.
   Sewer Nemesis's power and toughness are each equal to the number of cards in the chosen player's graveyard.
   Whenever the chosen player casts a spell, that player mills a card.
-
-## Sewer Plague
-Cost: {2}{b} | Type: Instant | Color identity: B | Commander: legal
-Text: Target creature an opponent controls perpetually gets -2/-2 and gains "At the beginning of each upkeep, this creature perpetually gets -1/-1."
 
 ## Sewer Rats
 Cost: {b} | Type: Creature — Rat | Color identity: B | P/T: 1/1 | Commander: legal
@@ -6063,12 +5940,6 @@ Text: Deathtouch
 Cost: {3}{b} | Type: Legendary Creature — Human Elf Cleric | Color identity: B | P/T: 3/4 | Commander: legal
 Text: {1}{B}, {T}, Sacrifice another creature: Draw X cards, where X is that creature's power.
   Choose a Background (You can have a Background as a second commander.)
-
-## Shadowheart, Sharran Cleric
-Cost: {1}{b} | Type: Legendary Creature — Human Elf Cleric | Color identity: B | P/T: 2/2 | Commander: legal
-Text: Deathtouch
-  Specialize {2}. Activate only if a player has 13 or less life.
-  At the beginning of your end step, Shadowheart, Sharran Cleric deals 1 damage to each player.
 
 ## Shadowmage Infiltrator
 Cost: {1}{u}{b} | Type: Creature — Human Wizard | Color identity: BU | P/T: 1/3 | Commander: legal
@@ -6626,11 +6497,6 @@ Text: {2}{B}, Sacrifice a creature: Each other player sacrifices a creature.
 Cost: {1}{r/w} | Type: Instant | Color identity: RW | Commander: legal
 Text: Exile target artifact.
 
-## Shattering Finale
-Cost: {1}{b} | Type: Sorcery | Color identity: B | Commander: legal
-Text: Casualty 1 (As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell and you may choose a new target for the copy.)
-  Target creature an opponent controls perpetually gets -0/-3.
-
 ## Shattering Pulse
 Cost: {1}{r} | Type: Instant | Color identity: R | Commander: legal
 Text: Buyback {3} (You may pay an additional {3} as you cast this spell. If you do, put this card into your hand as it resolves.)
@@ -6786,11 +6652,6 @@ Text: Hideaway 4 (When this land enters, look at the top four cards of your libr
   {T}: Add {U}.
   {U}, {T}: You may play the exiled card without paying its mana cost if a library has twenty or fewer cards in it.
 
-## Shellfish Scholar
-Cost: {1}{u} | Type: Creature — Rat Wizard | Color identity: U | P/T: 2/2 | Commander: legal
-Text: Whenever Shellfish Scholar or another Rat you control enters, conjure a card named Think Twice into your graveyard.
-  Threshold — {T}: Spells you cast from your graveyard this turn cost {2} less to cast. Activate only if seven or more cards are in your graveyard.
-
 ## Shellshock
 Cost: {x}{r} | Type: Instant | Color identity: R | Commander: legal
 Text: For each opponent, choose up to one target creature that player controls. Shellshock deals X damage to each of those creatures. You create a Mutagen token for each creature dealt damage this way. (They're artifacts with "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery.")
@@ -6879,11 +6740,6 @@ Faces: Sheoldred // The True Scriptures (transform)
 Text: Menace
   When Sheoldred enters, each opponent sacrifices a nontoken creature or planeswalker of their choice.
   {4}{B}: Exile Sheoldred, then return it to the battlefield transformed under its owner's control. Activate only as a sorcery and only if an opponent has eight or more cards in their graveyard.
-
-## Sheoldred's Assimilator
-Cost: {1}{b} | Type: Creature — Phyrexian Horror | Color identity: B | P/T: 3/1 | Commander: legal
-Text: Menace
-  Whenever Sheoldred's Assimilator enters or attacks, exile up to one target card from a graveyard. If a card is exiled this way, you may conjure a duplicate of that card into the top five cards of your library at random.
 
 ## Sheoldred's Edict
 Cost: {1}{b} | Type: Instant | Color identity: B | Commander: legal
@@ -7635,11 +7491,6 @@ Text: Flying
 Cost: {3}{b} | Type: Creature — Surrakar | Color identity: B | P/T: 3/3 | Commander: legal
 Text: Whenever this creature deals combat damage to a player, if you control an Island, you may draw a card.
 
-## Shoreline Scout
-Cost: {u} | Type: Creature — Merfolk Scout | Color identity: U | P/T: 1/1 | Commander: legal
-Text: When Shoreline Scout enters the battlefield, you may exile a Merfolk card or a land card from your hand. If you do, conjure a card named Tropical Island into your hand.
-  As long as another Merfolk or an Island entered the battlefield under your control this turn, Shoreline Scout gets +1/+0.
-
 ## Shorikai, Genesis Engine
 Cost: {2}{w}{u} | Type: Legendary Artifact — Vehicle | Color identity: UW | P/T: 8/8 | Commander: legal
 Text: {1}, {T}: Draw two cards, then discard a card. Create a 1/1 colorless Pilot creature token with "This token crews Vehicles as though its power were 2 greater."
@@ -8079,10 +7930,6 @@ Text: When this creature enters, each player discards a card.
 Cost: {8}{b} | Type: Creature — Zombie | Color identity: B | P/T: 3/6 | Commander: legal
 Text: Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
   When this creature enters, return target creature card from your graveyard to your hand.
-
-## Sibsig's Artisan
-Cost: {1}{b} | Type: Creature — Human Artificer | Color identity: B | P/T: 3/2 | Commander: legal
-Text: Renew — {1}{B}{B}, Exile this card from your graveyard: Put three +1/+1 counters on target creature you control. It perpetually gains this ability. Activate only as a sorcery.
 
 ## Sibylline Soothsayer
 Cost: {2}{r} | Type: Creature — Human Warlock | Color identity: R | P/T: 3/2 | Commander: legal
@@ -8535,11 +8382,6 @@ Text: Create a 2/2 white Soldier creature token. (Then shuffle this card into it
 Cost: {2}{g} | Type: Instant | Color identity: G | Commander: legal
 Text: Put a +1/+1 counter on target creature you control, then each modified creature you control deals damage equal to its power to target creature you don't control. (Equipment, Auras you control, and counters are modifications.)
 
-## Signature Spells
-Cost: {4}{u}{u} | Type: Enchantment | Color identity: U | Commander: legal
-Text: When Signature Spells enters the battlefield, seek two instant and/or sorcery cards with mana value 3, then exile them.
-  At the beginning of your upkeep, you may copy a card exiled with Signature Spells. You may cast the copy without paying its mana cost.
-
 ## Signpost Scarecrow
 Cost: {4} | Type: Artifact Creature — Scarecrow | Color identity: colorless | P/T: 2/4 | Commander: legal
 Text: Vigilance
@@ -8611,11 +8453,6 @@ Text: {4}, {T}, Sacrifice this artifact: It deals 3 damage to target creature.
 Cost: {u} | Type: Sorcery | Color identity: U | Commander: legal
 Text: Return target creature to its owner's hand.
   Flashback {4}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
-
-## Silent Extraction
-Cost: {g}{u} | Type: Instant | Color identity: GU | Commander: legal
-Text: Choose target spell. Counter that spell unless its controller pays {2}.
-  Threshold — If seven or more cards are in your graveyard, seek a creature card with the same mana value as the chosen spell.
 
 ## Silent Gravestone
 Cost: {1} | Type: Artifact | Color identity: colorless | Commander: legal
@@ -8819,10 +8656,6 @@ Text: Mill four cards, then put up to two land cards from among them into your h
 Cost: {2}{g}{u} | Type: Creature — Elf Citizen | Color identity: GU | P/T: 3/2 | Commander: legal
 Text: When this creature enters, draw a card, then discard a card. If you discard a land card this way, put it from your graveyard onto the battlefield tapped.
   Landfall — Whenever a land you control enters, you may pay {1}{G}{U}. If you do, return this card from your graveyard to your hand.
-
-## Silvanus's Invoker
-Cost: {2}{g} | Type: Creature — Dragon Druid | Color identity: G | P/T: 3/2 | Commander: legal
-Text: Conjure Elemental — {8}: Untap target land you control. It becomes an 8/8 Elemental creature with trample and haste until end of turn. It's still a land.
 
 ## Silvar, Devourer of the Free
 Cost: {3}{b}{r} | Type: Legendary Creature — Cat Nightmare | Color identity: BR | P/T: 4/2 | Commander: legal
@@ -9193,11 +9026,6 @@ Cost: {1}{g}{w} | Type: Sorcery | Color identity: GRW | Commander: legal
 Faces: Pure // Simple (split)
 Text: Destroy all Auras and Equipment.
 
-## Simple Subtraction
-Cost: {1}{u} | Type: Instant | Color identity: BU | Commander: legal
-Faces: Zimone the Calculating // Simple Subtraction (prepare)
-Text: Target creature perpetually gets -3/-0.
-
 ## Simplify
 Cost: {g} | Type: Sorcery | Color identity: G | Commander: legal
 Text: Each player sacrifices an enchantment of their choice.
@@ -9314,10 +9142,6 @@ Text: At the beginning of combat on your turn, each opponent loses 1 life and yo
 Cost: {b} | Type: Enchantment — Aura | Color identity: B | Commander: legal
 Text: Enchant creature
   Whenever enchanted creature attacks or blocks, its controller loses 2 life.
-
-## Sinister Reflections
-Cost: {1}{u} | Type: Instant | Color identity: U | Commander: legal
-Text: Conjure a duplicate of each of up to two target nontoken creatures you control into your hand.
 
 ## Sinister Sabotage
 Cost: {1}{u}{u} | Type: Instant | Color identity: U | Commander: legal
@@ -9625,11 +9449,6 @@ Text: Menace
 Cost: {4}{g}{u} | Type: Legendary Creature — Dragon Ranger | Color identity: GU | P/T: 4/4 | Commander: legal
 Text: Flying
   Whenever Skanos, Blue Dragon Vassal attacks, another target attacking creature gains flying and gets +X/+0 until end of turn, where X is Skanos's power.
-
-## Skanos, Dragon Vassal
-Cost: {4}{g} | Type: Legendary Creature — Dragon Ranger | Color identity: G | P/T: 4/4 | Commander: legal
-Text: Specialize {4}
-  Whenever Skanos, Dragon Vassal attacks, another target attacking creature gets +X/+0 until end of turn, where X is Skanos's power.
 
 ## Skanos, Green Dragon Vassal
 Cost: {4}{g}{g} | Type: Legendary Creature — Dragon Ranger | Color identity: G | P/T: 6/6 | Commander: legal
@@ -10183,12 +10002,6 @@ Cost: {4}{g} | Type: Creature — Elemental | Color identity: G | P/T: 3/3 | Com
 Text: Devour 1 (As this creature enters, you may sacrifice any number of creatures. It enters with that many +1/+1 counters on it.)
   When this creature enters, draw a card for each creature it devoured.
 
-## Skullpiercer Gnat
-Cost: {g}{u} | Type: Creature — Phyrexian Insect | Color identity: GU | P/T: 1/1 | Commander: legal
-Text: Flying
-  Toxic 1
-  Whenever Skullpiercer Gnat deals combat damage to a player, a random nonland card in that player's hand perpetually gains "When you cast this spell, you get a poison counter."
-
 ## Skullport Merchant
 Cost: {2}{b} | Type: Creature — Dwarf Citizen | Color identity: B | P/T: 1/4 | Commander: legal
 Text: When this creature enters, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
@@ -10527,11 +10340,6 @@ Cost: {4}{u}{u} | Type: Creature — Drake | Color identity: U | P/T: 3/4 | Comm
 Text: Flash (You may cast this spell any time you could cast an instant.)
   Flying
 
-## Skyline Savior
-Cost: {1}{w}{w} | Type: Creature — Angel | Color identity: W | P/T: 3/4 | Commander: legal
-Text: Flying
-  When this creature enters, return a permanent you control to its owner's hand. If it's a non-Angel creature card, it perpetually gets +1/+1, gains flying, and becomes an Angel in addition to its other types.
-
 ## Skyline Scout
 Cost: {1}{w} | Type: Creature — Human Scout | Color identity: W | P/T: 2/1 | Commander: legal
 Text: Whenever this creature attacks, you may pay {1}{W}. If you do, it gains flying until end of turn.
@@ -10686,11 +10494,6 @@ Text: This land enters tapped.
   {T}: Add {C}.
   {T}: Add {G} or {U}. This land deals 1 damage to you.
 
-## Skyshroud Lookout
-Cost: {1}{g} | Type: Creature — Elf Archer | Color identity: G | P/T: 1/1 | Commander: legal
-Text: Reach
-  When this creature enters, seek an Elf card.
-
 ## Skyshroud Poacher
 Cost: {2}{g}{g} | Type: Creature — Human Rebel | Color identity: G | P/T: 2/2 | Commander: legal
 Text: {3}, {T}: Search your library for an Elf permanent card, put it onto the battlefield, then shuffle.
@@ -10831,11 +10634,6 @@ Text: Flying
 ## Skywise Teachings
 Cost: {3}{u} | Type: Enchantment | Color identity: U | Commander: legal
 Text: Whenever you cast a noncreature spell, you may pay {1}{U}. If you do, create a 2/2 blue Djinn Monk creature token with flying.
-
-## Skywriter Djinn
-Cost: {3}{u} | Type: Creature — Djinn | Color identity: U | P/T: 3/4 | Commander: legal
-Text: Flying
-  Domain — When Skywriter Djinn enters, conjure a random card from Skywriter Djinn's spellbook into your hand. Then if you have fewer cards in hand than the number of basic land types among lands you control, repeat this process.
 
 ## Slab Hammer
 Cost: {2} | Type: Artifact — Equipment | Color identity: colorless | Commander: legal
@@ -10983,12 +10781,6 @@ Text: Destroy target green creature. It can't be regenerated.
 Cost: {3}{w} | Type: Creature — Human Soldier | Color identity: W | P/T: 3/2 | Commander: legal
 Text: When this creature enters, you may destroy target Vampire, Werewolf, or Zombie.
 
-## Slayer's Bounty
-Cost: {w} | Type: Legendary Artifact — Clue | Color identity: W | Commander: legal
-Text: When Slayer's Bounty enters the battlefield, look at the creature cards in target opponent's hand.
-  Whenever you sacrifice Slayer's Bounty or another Clue, draft a card from Slayer's Bounty's spellbook.
-  {2}, Sacrifice Slayer's Bounty: Draw a card.
-
 ## Slayer's Cleaver
 Cost: {3} | Type: Artifact — Equipment | Color identity: colorless | Commander: legal
 Text: Equipped creature gets +3/+1 and must be blocked by an Eldrazi if able.
@@ -11095,11 +10887,6 @@ Text: Look at the top two cards of your library. Put one of them into your hand 
 Cost: {u} | Type: Instant | Color identity: U | Commander: legal
 Text: Change the text of target spell or permanent by replacing all instances of one color word with another. (For example, you may change "target black spell" to "target blue spell." This effect lasts indefinitely.)
 
-## Sleuth Instructor
-Cost: {1}{w} | Type: Creature — Elephant Detective | Color identity: W | P/T: 3/2 | Commander: legal
-Text: Disguise {1}{W}
-  Whenever Sleuth Instructor or another permanent you control is turned face up, seek a non-Elephant creature card with mana value 3 or less and cloak it. This ability triggers only once.
-
 ## Slice and Dice
 Cost: {4}{r}{r} | Type: Sorcery | Color identity: R | Commander: legal
 Text: Slice and Dice deals 4 damage to each creature.
@@ -11184,10 +10971,6 @@ Text: Whenever Slimefoot and Squee enters or attacks, create a 1/1 green Saproli
 ## Slimefoot's Survey
 Cost: {4}{g} | Type: Sorcery | Color identity: G | Commander: legal
 Text: Domain — Search your library for up to two land cards that each have a basic land type, put them onto the battlefield tapped, then shuffle. Look at the top X cards of your library, where X is the number of basic land types among lands you control. Put up to one of them on top of your library and the rest on the bottom of your library in a random order.
-
-## Slimefoot, Thallid Transplant
-Cost: {b}{g} | Type: Legendary Creature — Fungus | Color identity: BG | P/T: 2/2 | Commander: legal
-Text: Whenever a Swamp or Forest enters under your control, draft a card from Slimefoot, Thallid Transplant's spellbook.
 
 ## Slimefoot, the Stowaway
 Cost: {1}{b}{g} | Type: Legendary Creature — Fungus | Color identity: BG | P/T: 2/3 | Commander: legal
@@ -11397,12 +11180,6 @@ Text: {3}: Search your library for a Sliver card, reveal that card, put it into 
 ## Sliver Queen
 Cost: {w}{u}{b}{r}{g} | Type: Legendary Creature — Sliver | Color identity: BGRUW | P/T: 7/7 | Commander: legal
 Text: {2}: Create a 1/1 colorless Sliver creature token.
-
-## Sliver Weftwinder
-Cost: {w}{u}{b}{r}{g} | Type: Legendary Creature — Sliver | Color identity: BGRUW | P/T: 7/7 | Commander: legal
-Text: Sliver cards in your hand have warp {3}.
-  Sliver creatures you control have "When this creature enters, conjure a random card from the Slivers Spellbook into the top five cards of your library at random, then draw a card."
-  Warp {3}
 
 ## Sliversmith
 Cost: {2} | Type: Artifact Creature — Spellshaper | Color identity: colorless | P/T: 1/1 | Commander: legal
@@ -11640,19 +11417,6 @@ Text: Lifelink
 Cost: {4}{b}{b} | Type: Creature — Elemental | Color identity: B | P/T: 3/3 | Commander: legal
 Text: Flying
   Creatures with flying your opponents control get -1/-1.
-
-## Smog Smasher
-Cost: {4}{r} | Type: Creature — Mutant Berserker | Color identity: R | P/T: 4/4 | Commander: legal
-Text: Menace
-  Start your engines!
-  Whenever one or more creatures you control deal combat damage to a player, conjure a duplicate of target nontoken creature into exile.
-  Max speed — At the beginning of combat on your turn, put all cards exiled with this creature onto the battlefield. They gain haste. Sacrifice them at the beginning of the next end step.
-
-## Smogbelcher Chariot
-Cost: {2}{b} | Type: Artifact — Vehicle | Color identity: B | P/T: 3/3 | Commander: legal
-Text: Menace, deathtouch, lifelink
-  Whenever Smogbelcher Chariot attacks, target creature that crewed it this turn perpetually gains your choice of menace, deathtouch, or lifelink.
-  Crew 3
 
 ## Smogsteed Rider
 Cost: {2}{b}{b} | Type: Creature — Human Wizard | Color identity: B | P/T: 2/2 | Commander: legal
@@ -11923,11 +11687,6 @@ Text: Reach
 Cost: {5}{g} | Type: Sorcery | Color identity: G | Commander: legal
 Text: Converge — Create two 0/0 green and blue Fractal creature tokens. Put X +1/+1 counters on each of them and you gain X life, where X is the number of colors of mana spent to cast this spell.
 
-## Snarlfang Vermin
-Cost: {b} | Type: Creature — Rat | Color identity: B | P/T: 2/1 | Commander: legal
-Text: Whenever Snarlfang Vermin deals combat damage to a creature, if that creature is still on the battlefield, suspect that creature. It perpetually gains this ability.
-  Whenever a suspected creature an opponent controls dies while Snarlfang Vermin is in your graveyard, that opponent loses 1 life.
-
 ## Snarling Gorehound
 Cost: {b} | Type: Creature — Dog | Color identity: B | P/T: 1/1 | Commander: legal
 Text: Menace
@@ -12043,10 +11802,6 @@ Text: {T}: Add {C}.
 Cost: {3}{g} | Type: Enchantment — Aura | Color identity: G | Commander: legal
 Text: Enchant creature
   Enchanted creature gets -X/-Y. If that creature is attacking, X is the number of snow lands defending player controls. Otherwise, X is the number of snow lands its controller controls. Y is equal to X or to enchanted creature's toughness minus 1, whichever is smaller.
-
-## Snowborn Simulacra
-Cost: {x}{u}{u} | Type: Sorcery | Color identity: U | Commander: legal
-Text: Conjure a duplicate of each of X target nontoken permanents into your hand. Those cards perpetually gain prismatic. If X is 5 or more, you may put one of them from your hand onto the battlefield.
 
 ## Snowfall
 Cost: {2}{u} | Type: Enchantment | Color identity: U | Commander: legal
@@ -12387,10 +12142,6 @@ Text: Put two +1/+1 counters on target creature. Untap it.
 Cost: {3} | Type: Artifact Creature — Soldier | Color identity: W | P/T: 1/3 | Commander: legal
 Text: {1}{W}, Sacrifice this creature: It deals 3 damage to target attacking or blocking creature.
 
-## Soldiers of the Watch
-Cost: {1}{w} | Type: Creature — Human Soldier | Color identity: W | P/T: 2/1 | Commander: legal
-Text: Double team (When this creature attacks, conjure a duplicate into your hand, then both of them perpetually lose double team.)
-
 ## Solemn Doomguide
 Cost: {3}{b}{b} | Type: Creature — Tiefling Cleric | Color identity: B | P/T: 4/5 | Commander: legal
 Text: Flying
@@ -12456,11 +12207,6 @@ Text: At the beginning of your upkeep, sacrifice this enchantment unless you dis
   Skip your draw step.
   You have shroud. (You can't be the target of spells or abilities.)
   Prevent all damage that would be dealt to you.
-
-## Solitary Defiance
-Cost: {2}{u} | Type: Enchantment | Color identity: U | Commander: legal
-Text: As long as you control exactly one creature, that creature has vigilance and ward {2}.
-  Whenever a creature you control attacks alone, seek two nonland cards, then discard a card.
 
 ## Solitary Hunter
 Cost: {3}{g} | Type: Creature — Human Warrior Werewolf | Color identity: G | P/T: 3/4 | Commander: legal
@@ -12641,15 +12387,6 @@ Cost: {3}{g}{g} | Type: Instant | Color identity: G | Commander: legal
 Text: Choose up to two target permanent cards in your graveyard. Roll a d20 and add the total mana value of those cards.
   1—14 | Return those cards to your hand.
   15+ | Return those cards to your hand. You gain life equal to their total mana value.
-
-## Song of Point Prime
-Cost: {1}{b} | Type: Sorcery | Color identity: B | Commander: legal
-Text: Each opponent sacrifices a creature of their choice.
-  Conjure a card named Cantor of the Refrain into your graveyard.
-
-## Song of Seasons
-Cost: {1}{r}{g} | Type: Sorcery | Color identity: GR | Commander: legal
-Text: Seek a Mountain card, a Forest card, and a non-Mountain, non-Forest land card. Put one of them onto the battlefield and put one of them into your graveyard.
 
 ## Song of Serenity
 Cost: {1}{g} | Type: Enchantment | Color identity: G | Commander: legal
@@ -13236,10 +12973,6 @@ Text: Flying
 Cost: {3} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: {5}, {T}, Sacrifice this artifact: Exile target creature card from your graveyard. Create a token that's a copy of that card, except it's 1/1, it's a Spirit in addition to its other types, and it has flying. Create a black Zombie creature token with power equal to that card's power and toughness equal to that card's toughness.
 
-## Soul Servitude
-Cost: {2}{b} | Type: Instant | Color identity: B | Commander: legal
-Text: Target player sacrifices a nontoken creature of their choice. When they do, you may discard a card. If you do, conjure a duplicate of the sacrificed creature into your hand. It perpetually gains prismatic.
-
 ## Soul Shatter
 Cost: {2}{b} | Type: Instant | Color identity: B | Commander: legal
 Text: Each opponent sacrifices a creature or planeswalker with the greatest mana value among creatures and planeswalkers they control.
@@ -13251,13 +12984,6 @@ Text: {W}, Exile a creature card from your graveyard: You gain 1 life.
 ## Soul Shred
 Cost: {3}{b}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Soul Shred deals 3 damage to target nonblack creature. You gain 3 life.
-
-## Soul Shredder
-Cost: {2} | Type: Artifact — Vehicle | Color identity: colorless | P/T: 2/2 | Commander: legal
-Text: Haste
-  Whenever one or more other creatures die, Soul Shredder perpetually gets +1/+1. This ability also triggers if Soul Shredder is in your graveyard.
-  Crew 1
-  {1}, Sacrifice two creatures: Return Soul Shredder from your graveyard to the battlefield. Activate only as a sorcery.
 
 ## Soul Snare
 Cost: {w} | Type: Enchantment | Color identity: W | Commander: legal
@@ -13513,12 +13239,6 @@ Text: Destroy all nonartifact permanents.
 Cost: {b} | Type: Instant | Color identity: B | Commander: legal
 Text: Target creature you control gets +X/+0 until end of turn, where X is the number of creature cards in your graveyard. Sacrifice that creature at the beginning of the next end step.
 
-## Soulstealer Axe
-Cost: {1} | Type: Artifact — Equipment | Color identity: colorless | Commander: legal
-Text: Equipped creature has trample.
-  Whenever equipped creature deals combat damage to a player, seek a card with mana value equal to that damage.
-  Equip {2}
-
 ## Soulstinger
 Cost: {3}{b} | Type: Creature — Scorpion Demon | Color identity: B | P/T: 4/5 | Commander: legal
 Text: When this creature enters, put two -1/-1 counters on target creature you control.
@@ -13695,11 +13415,6 @@ Text: Exile target artifact or creature, then return that card to the battlefiel
 Cost: {2}{g}{w}{u} | Type: Creature — Cat Citizen | Color identity: GUW | P/T: 4/4 | Commander: legal
 Text: When this creature enters, target creature an opponent controls can't attack or block until your next turn.
   {2}, Exile this card from your hand: Target land gains "{T}: Add {G}, {W}, or {U}" until this card is cast from exile. You may cast this card for as long as it remains exiled.
-
-## Spara's Bodyguard
-Cost: {g}{w}{u} | Type: Creature — Rhino Warrior | Color identity: GUW | P/T: 3/3 | Commander: legal
-Text: When Spara's Bodyguard enters the battlefield, you may choose a creature card in your hand. If you do, it perpetually gains "This creature enters the battlefield with an additional shield counter on it." Otherwise, put a shield counter on Spara's Bodyguard. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
-  At the beginning of each combat, Spara's Bodyguard gets +1/+1 until end of turn for each shield counter among other creatures you control.
 
 ## Spara's Headquarters
 Cost: — | Type: Land — Forest Plains Island | Color identity: GUW | Commander: legal
@@ -13907,10 +13622,6 @@ Cost: {2} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: Sacrifice a creature: Put a charge counter on this artifact.
   {1}, Remove two charge counters from this artifact: Create a 2/2 colorless Spawn artifact creature token.
 
-## Spawning Pod
-Cost: {2}{g} | Type: Artifact | Color identity: G | Commander: legal
-Text: {1}, {T}, Sacrifice a creature: Seek a creature card with mana value equal to 1 plus the sacrificed creature's mana value and put that card onto the battlefield. That creature is a Phyrexian in addition to its other types. Activate only as a sorcery.
-
 ## Spawning Pool
 Cost: — | Type: Land | Color identity: B | Commander: legal
 Text: This land enters tapped.
@@ -13996,11 +13707,6 @@ Text: When this Spacecraft enters, return up to two target non-Spacecraft creatu
 Cost: {1}{u}{r} | Type: Creature — Bird Shaman | Color identity: RU | P/T: 2/2 | Commander: legal
 Text: Flying
   Instant and sorcery spells you cast with mana value 5 or greater cost {1} less to cast.
-
-## Spectacle of Destruction
-Cost: {1}{b} | Type: Enchantment | Color identity: B | Commander: legal
-Text: Whenever one or more creatures die, put a wreck counter on this enchantment.
-  At the beginning of your upkeep, if this enchantment has one or more wreck counters on it, remove a wreck counter from it and seek a nonland card.
 
 ## Spectacle Summit
 Cost: — | Type: Land | Color identity: RU | Commander: legal
@@ -14337,15 +14043,6 @@ Text: Flying
 Cost: {1}{r}{g}{g} | Type: Creature — Beast | Color identity: GR | P/T: 5/5 | Commander: legal
 Text: This spell can't be countered.
   Creature spells you control with power 5 or greater can't be countered.
-
-## Spellchain Scatter
-Cost: {r} | Type: Instant | Color identity: RU | Commander: legal
-Text: Kicker {U}
-  When you next cast an instant or sorcery spell this turn, conjure a duplicate of that spell into your hand. If this spell wasn't kicked, discard the duplicate at the beginning of your next end step.
-
-## Spelldrain Assassin
-Cost: {u}{b}{r} | Type: Creature — Vampire Assassin | Color identity: BRU | P/T: 3/3 | Commander: legal
-Text: When Spelldrain Assassin enters the battlefield, choose an instant or sorcery card in your hand. It perpetually gains casualty 2. (As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell and you may choose a new target for the copy.)
 
 ## Spelleater Wolverine
 Cost: {2}{r} | Type: Creature — Wolverine | Color identity: R | P/T: 3/2 | Commander: legal
@@ -15228,12 +14925,6 @@ Cost: {2}{w}{u} | Type: Creature — Human Soldier | Color identity: UW | P/T: 3
 Text: Flying
   When this creature enters, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.
 
-## Spire Phantasm
-Cost: {2}{u}{u} | Type: Creature — Gargoyle Illusion | Color identity: U | P/T: 3/2 | Commander: legal
-Text: Reveal this card as you draft it. The next time a player drafts a card from this booster pack, guess that card's name. Then that player reveals the drafted card.
-  Flying
-  When this creature enters, if you guessed correctly for a card named Spire Phantasm, draw a card.
-
 ## Spire Serpent
 Cost: {4}{u} | Type: Creature — Serpent | Color identity: U | P/T: 3/5 | Commander: legal
 Text: Defender
@@ -15403,12 +15094,6 @@ Text: Whenever one or more tokens you control enter, this creature becomes prepa
 ## Spirited Companion
 Cost: {1}{w} | Type: Enchantment Creature — Dog | Color identity: W | P/T: 1/1 | Commander: legal
 Text: When this creature enters, draw a card.
-
-## Spirited Simulacrum
-Cost: {4} | Type: Artifact Creature — Robot | Color identity: colorless | P/T: 2/1 | Commander: legal
-Text: When this creature enters, seek a land card and put it onto the battlefield tapped.
-  When this creature leaves the battlefield, seek a nonland card.
-  Warp {4}
 
 ## Spiritmonger
 Cost: {3}{b}{g} | Type: Creature — Beast | Color identity: BG | P/T: 6/6 | Commander: legal
@@ -15870,12 +15555,6 @@ Cost: {1}{w} | Type: Artifact — Vehicle | Color identity: W | P/T: 3/2 | Comma
 Text: When this Vehicle enters, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)
   Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)
 
-## Spotlight Falcon
-Cost: {2}{w}{w} | Type: Artifact Creature — Bird | Color identity: W | P/T: 4/3 | Commander: legal
-Text: As an additional cost to cast this spell, you may collect evidence 5.
-  Flying
-  When Spotlight Falcon enters, if evidence was collected, conjure a card named Spotlight Falcon into your hand.
-
 ## Spotted Griffin
 Cost: {3}{w} | Type: Creature — Griffin | Color identity: W | P/T: 2/3 | Commander: legal
 Text: Flying
@@ -16114,12 +15793,6 @@ Text: When this creature enters, create a 1/1 white Kor Warrior creature token f
 ## Squad Rallier
 Cost: {3}{w} | Type: Creature — Human Scout | Color identity: W | P/T: 3/4 | Commander: legal
 Text: {2}{W}: Look at the top four cards of your library. You may reveal a creature card with power 2 or less from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
-
-## Squadron Carrier
-Cost: {2}{w} | Type: Artifact — Spacecraft | Color identity: W | P/T: 4/4 | Commander: legal
-Text: Spacecraft you control have "Exhaust — {W}: Conjure a card named Starfighter Pilot onto the battlefield."
-  Station
-  10+ | Creatures you control have flying.
 
 ## Squadron Hawk
 Cost: {1}{w} | Type: Creature — Bird | Color identity: W | P/T: 1/1 | Commander: legal
@@ -16540,11 +16213,6 @@ Text: First strike, Lifelink
 Cost: {1}{w} | Type: Creature — Human Soldier | Color identity: W | P/T: 0/3 | Commander: legal
 Text: Defender
   Other creatures you control with defender get +0/+2.
-
-## Stalwart Speartail
-Cost: {1}{r}{g} | Type: Creature — Dinosaur | Color identity: GR | P/T: 4/4 | Commander: legal
-Text: Enrage — Whenever Stalwart Speartail is dealt damage, other Dinosaurs you control and Dinosaur cards in your hand and library perpetually get +1/+1.
-  Whenever Stalwart Speartail attacks, Stalwart Speartail deals 1 damage to each creature and each planeswalker.
 
 ## Stalwart Successor
 Cost: {1}{b}{g} | Type: Creature — Human Warrior | Color identity: BG | P/T: 3/2 | Commander: legal
@@ -16984,11 +16652,6 @@ Text: Flash (You may cast this spell any time you could cast an instant.)
 Cost: {3}{u} | Type: Enchantment | Color identity: U | Commander: legal
 Text: Prevent all combat damage that would be dealt to and dealt by creatures you control.
 
-## Static Discharge
-Cost: {1}{r} | Type: Sorcery | Color identity: R | Commander: legal
-Text: Starting intensity 3
-  This sorcery deals damage equal to its intensity to any target. Then cards you own named Static Discharge intensify by 1.
-
 ## Static Net
 Cost: {3}{w} | Type: Enchantment | Color identity: W | Commander: legal
 Text: When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield.
@@ -17112,12 +16775,6 @@ Text: Untap target creature. It gets +1/+4 and gains reach until end of turn.
 Cost: {2}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
   Draw a card.
-
-## Steady Tortoise
-Cost: {4}{g} | Type: Creature — Turtle | Color identity: GR | P/T: 3/3 | Commander: legal
-Faces: Steady Tortoise // Harried Dash (adventure)
-Text: Ward {2}
-  Whenever you attack, Steady Tortoise perpetually gets +1/+1. This ability also triggers if Steady Tortoise is in exile.
 
 ## Steal Artifact
 Cost: {2}{u}{u} | Type: Enchantment — Aura | Color identity: U | Commander: legal
@@ -17848,11 +17505,6 @@ Text: Flash
   Flying
   This creature has hexproof as long as you haven't cast a spell this turn.
 
-## Stoic Star-Captain
-Cost: {1}{w} | Type: Creature — Human Pilot | Color identity: W | P/T: 2/3 | Commander: legal
-Text: Each creature you control crews Vehicles and stations permanents as though its power were 2 greater.
-  Exhaust — {1}{W}: Seek a Spacecraft card.
-
 ## Stoke Genius
 Cost: {1}{r} | Type: Sorcery — Adventure | Color identity: R | Commander: legal
 Faces: Hearth Elemental // Stoke Genius (adventure)
@@ -18490,11 +18142,6 @@ Text: Trample
 Cost: {b}{r} | Type: Creature — Human Knight | Color identity: BR | P/T: 2/2 | Commander: legal
 Text: Menace
   At the beginning of your upkeep, each player draws a card and loses 1 life.
-
-## Stormforged Armor
-Cost: {1}{r}{r} | Type: Legendary Artifact — Equipment | Color identity: R | Commander: legal
-Text: Equipped creature has "Whenever this creature attacks, conjure a card named Ball Lightning onto the battlefield tapped and attacking."
-  Equip—Pay 3 life.
 
 ## Stormfront Pegasus
 Cost: {1}{w} | Type: Creature — Pegasus | Color identity: W | P/T: 2/1 | Commander: legal
@@ -19772,13 +19419,6 @@ Text:
 Cost: {1}{u} | Type: Creature — Elemental Soldier | Color identity: U | P/T: 1/3 | Commander: legal
 Text: When this creature dies, draw a card.
 
-## Summitfest Closing Ceremony
-Cost: {3}{u}{r} | Type: Instant | Color identity: RU | Commander: legal
-Text: Starting intensity 3
-  Covercast — Whenever you cast another instant or sorcery spell, if five or more mana was spent to cast it, this card intensifies.
-  Add X {U} and X {R}, where X is this spell's intensity.
-  Draw a card.
-
 ## Summon the School
 Cost: {3}{w} | Type: Kindred Sorcery — Merfolk | Color identity: W | Commander: legal
 Text: Create two 1/1 blue Merfolk Wizard creature tokens.
@@ -20212,12 +19852,6 @@ Text: Destroy target land. Its controller may search their library for a basic l
 Cost: {g/w}{g/w} | Type: Instant | Color identity: GW | Commander: legal
 Text: Destroy target artifact or enchantment, then populate. (Create a token that's a copy of a creature token you control.)
 
-## Sundering Sentinel
-Cost: {2}{r}{r}{w}{w} | Type: Artifact Creature — Construct | Color identity: RW | P/T: 6/7 | Commander: legal
-Text: Starting intensity 2
-  When this creature enters, it deals X damage to any target and you gain X life, where X is this creature's intensity. Then it intensifies.
-  At the beginning of your end step, exile this creature. At the beginning of your next upkeep, return it to the battlefield under its owner's control. It gains haste.
-
 ## Sundering Stroke
 Cost: {6}{r} | Type: Sorcery | Color identity: R | Commander: legal
 Text: Sundering Stroke deals 7 damage divided as you choose among one, two, or three targets. If at least seven red mana was spent to cast this spell, instead Sundering Stroke deals 7 damage to each of those permanents and/or players.
@@ -20243,15 +19877,6 @@ Text:
 Cost: — | Type: Land | Color identity: RW | Commander: legal
 Text: This land enters tapped unless you control two or more other lands.
   {T}: Add {R} or {W}.
-
-## Sune's Intervention
-Cost: {4}{w}{w} | Type: Instant | Color identity: W | Commander: legal
-Text: Choose one or more —
-  • Create two 2/2 white Knight creature tokens.
-  • Seek a nonland permanent card with mana value 3 or less.
-  • Destroy target artifact.
-  • Destroy target enchantment.
-  • Target player gains 3 life.
 
 ## Sunfall
 Cost: {3}{w}{w} | Type: Sorcery | Color identity: W | Commander: legal
@@ -20547,10 +20172,6 @@ Text: This creature doesn't untap during your untap step.
 Cost: {w} | Type: Creature — Bird | Color identity: W | P/T: 1/1 | Commander: legal
 Text: Flying
 
-## Suntail Squadron
-Cost: {2}{w}{w} | Type: Instant | Color identity: W | Commander: legal
-Text: Conjure a card named Suntail Hawk into your hand. If you have fewer than seven cards in hand, repeat this process.
-
 ## Suntouched Myr
 Cost: {3} | Type: Artifact Creature — Myr | Color identity: colorless | P/T: 0/0 | Commander: legal
 Text: Sunburst (This creature enters with a +1/+1 counter on it for each color of mana spent to cast it.)
@@ -20696,13 +20317,6 @@ Text: Flying
 Cost: {2}{g} | Type: Enchantment | Color identity: G | Commander: legal
 Text: Whenever a creature you control enters, put a quest counter on this enchantment. Put a +1/+1 counter on that creature. If this enchantment has five or more quest counters on it, instead put two +1/+1 counters on that creature.
 
-## Support Skyforge
-Cost: {3}{w}{u} | Type: Artifact — Vehicle | Color identity: UW | P/T: 4/4 | Commander: legal
-Text: Flying, Vigilance
-  When this Vehicle enters, create four 1/1 colorless Servo artifact creature tokens.
-  Whenever this Vehicle attacks, draft a card from Support Skyforge's spellbook. That card perpetually becomes an artifact creature.
-  Crew 4
-
 ## Supportive Parents
 Cost: {2}{g} | Type: Creature — Human Citizen | Color identity: G | P/T: 3/3 | Commander: legal
 Text: Tap two untapped creatures you control: Add one mana of any color.
@@ -20810,13 +20424,6 @@ Text: This creature can't be blocked by green creatures.
 Cost: {1} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: This artifact enters with six charge counters on it.
   {1}, {T}, Remove a charge counter from this artifact: Put a charge counter on target artifact.
-
-## Surge of Acclaim
-Cost: {1}{u} | Type: Instant | Color identity: U | Commander: legal
-Text: Choose one. If you have max speed, choose both instead.
-  • Seek a card with start your engines!
-  • Seek a nonland card.
-  Jump-start
 
 ## Surge of Brilliance
 Cost: {1}{u} | Type: Instant | Color identity: U | Commander: legal
@@ -21277,12 +20884,6 @@ Text: Flying
 Cost: {1}{b} | Type: Creature — Rat | Color identity: B | P/T: */1 | Commander: legal
 Text: Swarm of Rats's power is equal to the number of Rats you control.
 
-## Swarm Saboteur
-Cost: {1}{b} | Type: Creature — Human Ninja | Color identity: B | P/T: 2/2 | Commander: legal
-Text: Ninjutsu {B}
-  Deathtouch
-  Whenever this creature deals combat damage to a player, conjure a card named Virus Beetle into your hand.
-
 ## Swarm Shambler
 Cost: {g} | Type: Creature — Fungus Beast | Color identity: G | P/T: 0/0 | Commander: legal
 Text: This creature enters with a +1/+1 counter on it.
@@ -21526,10 +21127,6 @@ Text: This creature gets +3/+0 as long as there are ten or more cards in a singl
 Cost: {2}{u} | Type: Enchantment | Color identity: U | Commander: legal
 Text: Whenever an opponent casts a spell from their hand, you may reveal the top card of your library. If it shares a card type with that spell, counter that spell and that opponent may cast the revealed card without paying its mana cost.
 
-## Swine Rebellion
-Cost: {2}{g} | Type: Sorcery | Color identity: G | Commander: legal
-Text: If you control three or more Boars with different names, conjure each card from the Three Pigs spellbook onto the battlefield. If you control two or fewer Boars with different names, conjure two cards of your choice from the Three Pigs spellbook into your hand, then put one of them onto the battlefield.
-
 ## Swinging Ship
 Cost: — | Type: Artifact — Attraction | Color identity: colorless | Commander: legal
 Text: Visit — After the first combat phase this turn, there's an additional combat phase. At the beginning of that combat, untap all creatures that attacked this turn.
@@ -21556,12 +21153,6 @@ Text: Choose one or both —
 ## Switcheroo
 Cost: {4}{u} | Type: Sorcery | Color identity: U | Commander: legal
 Text: Exchange control of two target creatures.
-
-## Switchgrass Grazer
-Cost: {2}{r}{r} | Type: Creature — Horse Mount | Color identity: R | P/T: 4/4 | Commander: legal
-Text: Haste
-  Whenever Switchgrass Grazer attacks, it deals 1 damage to any target. If Switchgrass Grazer is saddled and a creature was dealt damage this way, that creature perpetually gains "This creature can't block" and "Damage isn't removed from this creature during cleanup steps."
-  Saddle 1
 
 ## Swooping Lookout
 Cost: {w} | Type: Artifact Creature — Phyrexian Construct | Color identity: W | P/T: 1/2 | Commander: legal
@@ -21770,11 +21361,6 @@ Text: {1}: This creature's power becomes the toughness of target creature blocki
 ## Sworn Guardian
 Cost: {1}{u} | Type: Creature — Merfolk Warrior | Color identity: U | P/T: 1/3 | Commander: legal
 Text: 
-
-## Sworn to the Legion
-Cost: {4}{w}{w} | Type: Enchantment | Color identity: W | Commander: legal
-Text: When Sworn to the Legion enters the battlefield, nontoken creatures you control perpetually gain double team. (When a creature with double team attacks, conjure a duplicate into your hand, then both of them perpetually lose double team.)
-  Whenever you cast a creature spell, it perpetually gains double team.
 
 ## Sycorax Commander
 Cost: {2}{b}{r} | Type: Creature — Alien Soldier | Color identity: BR | P/T: 4/2 | Commander: legal
@@ -22064,11 +21650,6 @@ Text: Trample
 Cost: {3}{w} | Type: Creature — Bird | Color identity: W | P/T: 2/3 | Commander: legal
 Text: Flying
   Afterlife 1 (When this creature dies, create a 1/1 white and black Spirit creature token with flying.)
-
-## Syndicate Recruiter
-Cost: {2}{u}{b} | Type: Creature — Vampire Rogue | Color identity: BU | P/T: 4/5 | Commander: legal
-Text: Flying, ward {1}
-  When Syndicate Recruiter enters the battlefield, mill four cards. Then if there are five or more mana values among cards in your graveyard, conjure a card named Dig Up the Body into your hand.
 
 ## Syndicate Trafficker
 Cost: {1}{b} | Type: Creature — Aetherborn Rogue | Color identity: B | P/T: 3/1 | Commander: legal

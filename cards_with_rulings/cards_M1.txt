@@ -72,12 +72,6 @@ Text: Whenever a creature you control with power 2 or less attacks, it gains sku
 Ruling (2024-03-08): Similarly, the power of the creature attacking you is checked only when MacCready's second ability triggers. Once it triggers, the creature's controller will lose 2 life and you'll gain 2 life when the ability resolves, regardless of whether or not its power is still 4 or greater at that time or whether or not it's still on the battlefield.
 Ruling (2024-03-08): The power of your attacking creature is checked only when MacCready's first ability triggers. Once it triggers, the creature will gain skulk until end of turn when the ability resolves, regardless of whether or not its power is still 2 or less at that time.
 
-## Mace of Disruption
-Cost: {1}{w} | Type: Artifact — Equipment | Color identity: W | Commander: legal
-Text: Equipped creature gets +0/+2 and has protection from Demons and from Devils.
-  Whenever equipped creature attacks, it perpetually gets +1/+0 if it has the same name as another creature you control or a creature card in your graveyard.
-  Equip {1}
-
 ## Mace of the Valiant
 Cost: {2}{w} | Type: Artifact — Equipment | Color identity: W | Commander: legal
 Text: Equipped creature gets +1/+1 for each charge counter on this Equipment and has vigilance. (Attacking doesn't cause it to tap.)
@@ -2005,12 +1999,6 @@ Text: Trample
   Whenever a player casts a spell, put a +1/+1 counter on this creature.
 Ruling (2015-06-22): Managorger Hydra's last ability will resolve before the spell that caused it to trigger.
 
-## Managorger Phoenix
-Cost: {r}{r} | Type: Creature — Phoenix | Color identity: R | P/T: 2/2 | Commander: legal
-Text: Flying
-  Managorger Phoenix can't block.
-  Whenever you cast a spell, if Managorger Phoenix is in your graveyard, put a flame counter on Managorger Phoenix for each {R} in that spell's mana cost. If Managorger Phoenix has five or more flame counters on it, return it to the battlefield and it perpetually gets +1/+1.
-
 ## Manakin
 Cost: {2} | Type: Artifact Creature — Construct | Color identity: colorless | P/T: 1/1 | Commander: legal
 Text: {T}: Add {C}.
@@ -2247,10 +2235,6 @@ Text: This land enters tapped.
   As this land enters, choose a color other than green.
   {T}: Add {G} or one mana of the chosen color.
 
-## Manor Guardian
-Cost: {2}{b} | Type: Creature — Demon | Color identity: B | P/T: 4/3 | Commander: legal
-Text: When Manor Guardian dies, each player seeks a nonland card with mana value 2 or less. (To seek a card, put one at random from your library into your hand.)
-
 ## Manor Skeleton
 Cost: {1}{b} | Type: Creature — Skeleton | Color identity: B | P/T: 1/1 | Commander: legal
 Text: Haste
@@ -2356,10 +2340,6 @@ Cost: {2}{g} | Type: Sorcery | Color identity: G | Commander: legal
 Text: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Bolster 1. (Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)
 Ruling (2014-11-24): Bolster itself doesn't target any creature, though some spells and abilities that bolster may have other effects that target creatures. For example, you could put counters on a creature with protection from white with Abzan Skycaptain's bolster ability.
 Ruling (2014-11-24): You determine which creature to put counters on as the spell or ability that instructs you to bolster resolves.
-
-## Mapping the Maze
-Cost: {1}{u} | Type: Instant | Color identity: U | Commander: legal
-Text: Choose an instant or sorcery card in your hand or graveyard. That card perpetually incorporates {U} and gains "When you cast this spell, draw a card." Then return a multicolored instant or sorcery card from your graveyard to your hand.
 
 ## Maraleaf Pixie
 Cost: {g}{u} | Type: Creature — Faerie | Color identity: GU | P/T: 2/2 | Commander: legal
@@ -2687,11 +2667,6 @@ Text: As an additional cost to cast this spell, you may exile any number of blac
 Ruling (2022-02-18): The mana value of March of Wretched Sorrow while it's on the stack is the value chosen for X plus 1, no matter how much mana you actually paid to cast it.
 Ruling (2022-02-18): You may exile more cards than necessary for March of Wretched Sorrow's first ability, but you can't reduce the mana it costs to less than {B} this way.
 
-## March Toward Perfection
-Cost: {b} | Type: Sorcery | Color identity: B | Commander: legal
-Text: You get a one-time boon with "When you cast a Phyrexian creature spell, that creature enters with an additional +1/+1 counter and deathtouch counter on it."
-  Draft a card from March Toward Perfection's spellbook.
-
 ## Marchesa's Decree
 Cost: {3}{b} | Type: Enchantment | Color identity: B | Commander: legal
 Text: When this enchantment enters, you become the monarch.
@@ -2893,12 +2868,6 @@ Ruling (2014-11-24): If a creature enters the battlefield as a copy of or become
 Ruling (2014-11-24): If you choose to pay the dash cost rather than the mana cost, you're still casting the spell. It goes on the stack and can be responded to and countered. You can cast a creature spell for its dash cost only when you otherwise could cast that creature spell. Most of the time, this means during your main phase when the stack is empty.
 Ruling (2014-11-24): If you pay the dash cost to cast a creature spell, that card will be returned to its owner's hand only if it's still on the battlefield when its triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is.
 Ruling (2014-11-24): You don't have to attack with the creature with dash unless another ability says you do.
-
-## Mardu Thunderkite
-Cost: {r}{w}{b} | Type: Creature — Dragon | Color identity: BRW | P/T: 2/4 | Commander: legal
-Text: Flying
-  Mobilize 1
-  When this creature enters, creatures you control perpetually gain your choice of menace, lifelink, or haste.
 
 ## Mardu Warshrieker
 Cost: {3}{r} | Type: Creature — Orc Shaman | Color identity: BRW | P/T: 3/3 | Commander: legal
@@ -3346,11 +3315,6 @@ Ruling (2021-04-16): If the next spell you cast has {X} in its mana cost, you mu
 Ruling (2021-04-16): If you cast a spell for another cost "rather than pay its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Draconic Intervention, those must be paid to cast the card.
 Ruling (2021-04-16): Marshland Bloodcaster's ability affects the next spell you cast after the ability has resolved. If you cast any spells in response to the ability, those spells are cast as normal.
 
-## Marshland Hordemaster
-Cost: {b}{r} | Type: Creature — Lizard Warlock | Color identity: BR | P/T: 2/2 | Commander: legal
-Text: Whenever this creature or another Lizard you control enters, this creature perpetually gains battle cry.
-  Whenever this creature or another Lizard you control dies, target opponent loses 1 life and you gain 1 life.
-
 ## Marshmist Titan
 Cost: {6}{b} | Type: Creature — Giant | Color identity: B | P/T: 4/5 | Commander: legal
 Text: This spell costs {X} less to cast, where X is your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)
@@ -3529,10 +3493,6 @@ Ruling (2024-09-20): Once one of Marvin's abilities has been activated, it doesn
 Cost: {3}{u}{b} | Type: Legendary Creature — Octopus Rogue | Color identity: BU | P/T: 1/8 | Commander: legal
 Text: Whenever Marvo attacks, clash with defending player. (Each clashing player reveals the top card of their library, then puts that card on their choice of the top or bottom. A player wins if their card had a greater mana value.)
   Whenever you win a clash, draw a card. Then you may cast a spell from your hand with mana value 8 or less without paying its mana cost.
-
-## Marwyn's Kindred
-Cost: {x}{2}{g}{g} | Type: Sorcery | Color identity: G | Commander: legal
-Text: Conjure a card named Marwyn, the Nurturer and X cards named Llanowar Elves onto the battlefield.
 
 ## Marwyn, the Clearcutter
 Cost: {r} | Type: Legendary Creature — Elf Warrior | Color identity: R | P/T: 2/1 | Commander: legal
@@ -4137,11 +4097,6 @@ Text: Choose one —
   • Put a card you own from outside the game into your hand.
 Ruling (2018-01-19): In a casual game, a card you choose from outside the game comes from your personal collection. In a tournament event, a card you choose from outside the game must come from your sideboard. You may look at your sideboard at any time.
 Ruling (2018-01-19): There are many important moments in the story, but the most crucial—called "story spotlights"—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
-
-## Masterpiece Vault
-Cost: {3} | Type: Artifact | Color identity: colorless | Commander: legal
-Text: When this artifact is put into a graveyard from the battlefield, draft a card from Masterpiece Vault's spellbook and put it onto the battlefield. When an Equipment enters this way, attach it to up to one target creature you control.
-  {5}: Sacrifice this artifact.
 
 ## Masterwork of Ingenuity
 Cost: {1} | Type: Artifact — Equipment | Color identity: colorless | Commander: legal
@@ -5078,10 +5033,6 @@ Cost: {2}{r}{r} | Type: Sorcery | Color identity: R | Commander: legal
 Text: Destroy target land. Melt Terrain deals 2 damage to that land's controller.
 Ruling (2011-01-01): If the targeted land is an illegal target by the time Melt Terrain resolves, the spell won't resolve. No damage will be dealt.
 
-## Melt Through
-Cost: {r} | Type: Instant | Color identity: R | Commander: legal
-Text: Melt Through deals 2 damage to any target. If it's a creature, it perpetually gains "As long as this creature is on the battlefield, damage isn't removed from it during cleanup steps."
-
 ## Meltdown
 Cost: {x}{r} | Type: Sorcery | Color identity: R | Commander: legal
 Text: Destroy each artifact with mana value X or less.
@@ -5459,11 +5410,6 @@ Ruling (2013-04-15): The spell with cipher is encoded on the creature as part of
 Ruling (2013-04-15): You cast the copy of the card with cipher during the resolution of the triggered ability. Ignore timing restrictions based on the card's type.
 Ruling (2013-04-15): You choose the creature as the spell resolves. The cipher ability doesn't target that creature, although the spell with cipher may target that creature (or a different creature) because of its other abilities.
 
-## Mentor of Evos Isle
-Cost: {2}{u} | Type: Creature — Bird Wizard | Color identity: U | P/T: 2/1 | Commander: legal
-Text: Flying
-  When this creature enters, choose a creature card in your hand. It perpetually gains flying.
-
 ## Mentor of the Meek
 Cost: {2}{w} | Type: Creature — Human Soldier | Color identity: W | P/T: 2/2 | Commander: legal
 Text: Whenever another creature you control with power 2 or less enters, you may pay {1}. If you do, draw a card.
@@ -5477,20 +5423,11 @@ Text: When you cast this spell, copy it if you control a planeswalker, Cleric, D
   Scry 1, then draw a card.
 Ruling (2021-04-16): The triggered ability will trigger when you cast Mentor's Guidance no matter what permanents you control. As that ability tries to resolve, it will check to see if you control at least one permanent with the listed type or subtypes. If you do, Mentor's Guidance will be copied once, not once for each of those permanents. If you don't control a qualifying permanent at that time, the triggered ability won't resolve and it won't copy Mentor's Guidance.
 
-## Mephidross Slime
-Cost: {1}{b}{g} | Type: Creature — Phyrexian Ooze | Color identity: BG | P/T: 3/3 | Commander: legal
-Text: Trample
-  When Mephidross Slime dies, conjure a card named Mephidross Slime into your graveyard. Perpetually double the power and toughness of Mephidross Slime and that card, then shuffle them into their owner's library.
-
 ## Mephidross Vampire
 Cost: {4}{b}{b} | Type: Creature — Vampire | Color identity: B | P/T: 3/4 | Commander: legal
 Text: Flying
   Each creature you control is a Vampire in addition to its other creature types and has "Whenever this creature deals damage to a creature, put a +1/+1 counter on this creature."
 Ruling (2004-12-01): The triggered ability Mephidross Vampire grants to each creature you control triggers on any damage dealt to any creature, not just combat damage.
-
-## Mephit's Enthusiasm
-Cost: {1}{r} | Type: Sorcery | Color identity: R | Commander: legal
-Text: This sorcery deals 4 damage to target creature or planeswalker. If excess damage was dealt this way, note that excess damage, then you get a one-time boon with "When you cast a creature spell, it perpetually gets +X/+0, where X is the noted number."
 
 ## Mephitic Draught
 Cost: {1}{b} | Type: Artifact | Color identity: B | Commander: legal
@@ -7816,11 +7753,6 @@ Ruling (2024-04-12): A card, spell, or permanent is an outlaw if it has the Assa
 Ruling (2024-04-12): If an ability refers to an outlaw or whether a player controls an outlaw, it's referring only to permanents with one or more of the creature types specified above. Notably, it's not referring to any spell or card not on the battlefield. However, other abilities may refer to an "outlaw spell" or "outlaw card" in a zone other than the battlefield. Those abilities refer to spells and cards with one or more of the specified creature types.
 Ruling (2024-04-12): Outlaw is not a creature type. If an effect asks you to choose a creature type, you can't choose outlaw.
 
-## Mine Security
-Cost: {1}{r} | Type: Creature — Kavu Soldier | Color identity: R | P/T: 3/1 | Commander: legal
-Text: Trample
-  When this creature enters, conjure a card named Flametongue Kavu into the top eight cards of your library at random. It perpetually gains "You may pay {0} rather than pay this spell's mana cost."
-
 ## Mine Worker
 Cost: {2} | Type: Artifact Creature — Assembly-Worker | Color identity: colorless | P/T: 2/1 | Commander: legal
 Text: {T}: You gain 1 life. If you control creatures named Power Plant Worker and Tower Worker, you gain 3 life instead.
@@ -8047,12 +7979,6 @@ Text: When Minsc enters, create Boo, a legendary 1/1 red Hamster creature token 
   {X}: Until end of turn, target creature you control has base power and toughness X/X and becomes a Giant in addition to its other types. Activate only as a sorcery.
 Ruling (2021-07-23): Minsc has asked us (repeatedly) to let you know that Boo is the only miniature giant space hamster in the Realms.
 Ruling (2021-07-23): The activated ability will overwrite any previous effects that set the creature's power and toughness to specific values. Effects that otherwise modify the target creature's power and toughness will still apply no matter when they took effect. The same is true for +1/+1 counters.
-
-## Minthara of the Absolute
-Cost: {2}{w}{b} | Type: Legendary Creature — Elf Cleric | Color identity: BW | P/T: 2/4 | Commander: legal
-Text: Starting intensity 0
-  Creatures you control get +X/+0, where X is Minthara of the Absolute's intensity.
-  Whenever one or more permanents you control leave the battlefield, cards you own named Minthara of the Absolute intensify by 1. This ability triggers only once each turn.
 
 ## Minthara, Merciless Soul
 Cost: {2}{w}{b} | Type: Legendary Creature — Elf Cleric | Color identity: BW | P/T: 2/2 | Commander: legal
@@ -8759,10 +8685,6 @@ Ruling (2020-01-24): In a Two-Headed Giant game, each opposing team loses 2 life
 Ruling (2020-01-24): In a Two-Headed Giant game, this ability triggers no more than once during each opposing team's turn.
 Ruling (2020-01-24): This ability triggers only on your very first spell during an opponent's turn, not the first spell after the card is on the battlefield. If you cast a spell before it's on the battlefield (including if you cast this card somehow during an opponent's turn), the ability won't trigger.
 Ruling (2020-01-24): You scry 1 just once, no matter how many opponents are dealt damage.
-
-## Mischievous Lookout
-Cost: {w}{b} | Type: Enchantment Creature — Rat Glimmer | Color identity: BW | P/T: 2/1 | Commander: legal
-Text: Once during each of your turns, you may cast a noncreature, non-Aura permanent spell from your graveyard. If you do, it perpetually becomes a 2/1 Rat creature in addition to its other types.
 
 ## Mischievous Mystic
 Cost: {1}{u} | Type: Creature — Human Wizard | Color identity: U | P/T: 2/1 | Commander: legal
@@ -9558,12 +9480,6 @@ Ruling (2011-06-01): You don't reveal any of the other cards or the order in whi
 ## Mitotic Slime
 Cost: {4}{g} | Type: Creature — Ooze | Color identity: G | P/T: 4/4 | Commander: legal
 Text: When this creature dies, create two 2/2 green Ooze creature tokens. They have "When this token dies, create two 1/1 green Ooze creature tokens."
-
-## Mitotic Ultimus
-Cost: {7}{g}{g} | Type: Legendary Creature — Ooze Giant | Color identity: G | P/T: 8/8 | Commander: legal
-Text: This spell costs {X} less to cast, where X is the greatest power among creatures you control.
-  Trample
-  When Mitotic Ultimus dies, conjure two cards named Mitotic Slime onto the battlefield.
 
 ## Mizzium Meddler
 Cost: {2}{u} | Type: Creature — Vedalken Wizard | Color identity: U | P/T: 1/4 | Commander: legal
@@ -10896,12 +10812,6 @@ Ruling (2025-07-25): If one target becomes illegal before Monoist Circuit-Feeder
 Ruling (2025-07-25): If you can't choose both a creature you control and a creature an opponent controls as targets at the time Monoist Circuit-Feeder's last ability is put onto the stack, the ability will be removed from the stack and none of its effects will occur.
 Ruling (2025-07-25): The value of X is calculated only once, as Monoist Circuit-Feeder's last ability resolves.
 
-## Monoist Gravliner
-Cost: {1}{b} | Type: Artifact — Spacecraft | Color identity: B | P/T: 2/3 | Commander: legal
-Text: Whenever a creature stations this Spacecraft, that creature perpetually gains deathtouch and lifelink.
-  Station
-  6+ | Flying, Deathtouch, Lifelink
-
 ## Monoist Sentry
 Cost: {b} | Type: Artifact Creature — Robot | Color identity: B | P/T: 4/1 | Commander: legal
 Text: Defender
@@ -11462,11 +11372,6 @@ Cost: {5}{w} | Type: Creature — Human Knight | Color identity: W | P/T: 4/4 | 
 Text: When this creature dies, return any number of other creature cards with total power X or less from your graveyard to the battlefield, where X is this creature's power. Exile this card.
 Ruling (2021-09-24): If Moorland Rescuer is exiled from its owner's graveyard in response to its triggered ability, the creature cards will still be returned to the battlefield.
 Ruling (2021-09-24): Moorland Rescuer's ability uses the power Moorland Rescuer had when it was last on the battlefield, not its power in the graveyard.
-
-## Moradin's Disciples
-Cost: {3}{w} | Type: Creature — Dwarf Cleric | Color identity: W | P/T: 2/3 | Commander: legal
-Text: Double team (When this creature attacks, conjure a duplicate into your hand, then both of them perpetually lose double team.)
-  Whenever Moradin's Disciples attacks, tap target creature defending player controls.
 
 ## Morale
 Cost: {1}{w}{w} | Type: Instant | Color identity: W | Commander: legal
@@ -12062,11 +11967,6 @@ Text: {3}{G}{G}, Exile this card from your graveyard: Create two 2/2 green Bear 
 Cost: {w} | Type: Creature — Human Cleric | Color identity: W | P/T: 1/1 | Commander: legal
 Text: {T}: Target creature you control gains protection from the color of your choice until end of turn.
 
-## Mothlight Processionist
-Cost: {1}{w} | Type: Creature — Human Cleric | Color identity: W | P/T: 2/2 | Commander: legal
-Text: Enchantment spells you cast have convoke.
-  Eerie — Whenever an enchantment you control enters and whenever you fully unlock a Room, conjure a card named Mothlight Processionist into your hand. Discard that card at the beginning of the next end step.
-
 ## Mothrider Cavalry
 Cost: {2}{w}{w} | Type: Creature — Human Samurai | Color identity: W | P/T: 2/2 | Commander: legal
 Text: This spell costs {2} less to cast if you have no other creature cards in hand or if the only other creature cards in your hand are named Mothrider Cavalry.
@@ -12091,11 +11991,6 @@ Text: Enchant creature
   Whenever you visit an Attraction, you may attach this Aura to target tapped creature.
 Ruling (2022-10-07): If the target creature has become untapped as the last ability tries to resolve, Motion Sickness stays attached to the creature it's already on.
 Ruling (2022-10-07): Taking a break and looking at the horizon is said to help those suffering with motion sickness. It won't remove the enchantment, but it can't really hurt either.
-
-## Motivated Muralist
-Cost: {1}{r} | Type: Creature — Dwarf Bard | Color identity: R | P/T: 2/1 | Commander: legal
-Text: Improvise
-  When this creature enters, conjure a card named Inspiring Statuary into your hand.
 
 ## Motivated Pony
 Cost: {4}{g} | Type: Creature — Horse | Color identity: G | P/T: 3/3 | Commander: legal
@@ -13051,11 +12946,6 @@ Ruling (2025-11-17): If an effect causes a creature with changeling to lose all 
 Ruling (2025-11-17): Mutable Explorer's last ability creates a token that's a copy of the card Mutavault in the Oracle card reference. Official text for Mutavault can be found using the Gatherer card database at Gatherer.Wizards.com.
 Ruling (2025-11-17): The subtype Shapeshifter that appears on the type line is mostly there to reinforce the flavor. A creature card with changeling is just as much a Kithkin, a Goblin, a Merfolk, and a Brushwagg as it is a Shapeshifter.
 
-## Mutable Pupa
-Cost: {g} | Type: Creature — Insect | Color identity: G | P/T: 1/1 | Commander: legal
-Text: Evolve
-  Whenever another creature you control enters, this creature perpetually gains flying if that creature has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance.
-
 ## Mutagen Connoisseur
 Cost: {1}{g}{u} | Type: Creature — Vedalken Mutant | Color identity: GU | P/T: 0/5 | Commander: legal
 Text: Flying, vigilance
@@ -13231,12 +13121,6 @@ Ruling (2026-06-29): If you cast an adventurer card as an Adventure, use only it
 Ruling (2026-06-29): When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
 Ruling (2026-06-29): You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
 
-## Mycelic Ballad
-Cost: {3}{b} | Type: Sorcery — Chorus | Color identity: B | Commander: legal
-Text: Starting intensity 2
-  Each player sacrifices X creatures and you gain X life, where X is this spell's intensity.
-  All Chorus cards you own intensify by 1.
-
 ## Mycoid Maze
 Cost: — | Type: Land — Cave | Color identity: G | Commander: legal
 Faces: Twists and Turns // Mycoid Maze (transform)
@@ -13250,10 +13134,6 @@ Ruling (2023-11-10): If you control two copies of Twists and Turns and a creatur
 Ruling (2023-11-10): In some unusual cases, noncreature permanents may explore. For example, if the creature card returned by Defossilize is somehow not a creature once it's on the battlefield, it can still explore. You'll take all the same actions, and you may end up putting a +1/+1 counter on the permanent. (Note that some effects target a creature, and those effects would still require a legal target to have it explore.)
 Ruling (2023-11-10): Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
 Ruling (2023-11-10): Some spells or abilities might cause a creature to explore multiple times in a row. If you reveal a nonland card when a creature explores and leave it on top of your library, then the creature explores again immediately afterwards, you'll reveal the same card again.
-
-## Mycoid Resurrection
-Cost: {4}{b}{g} | Type: Sorcery | Color identity: BG | Commander: legal
-Text: Fathomless descent — Each creature card in your graveyard perpetually gets +X/+X, where X is the number of permanent cards in your graveyard. Then return a creature card from your graveyard to the battlefield.
 
 ## Mycoid Shepherd
 Cost: {1}{g}{g}{w} | Type: Creature — Fungus | Color identity: GW | P/T: 5/4 | Commander: legal
@@ -13989,11 +13869,6 @@ Ruling (2020-04-17): If some of the targets become illegal for Mythos of Vadrok,
 Ruling (2020-04-17): The abilities of the Mythos check what colors of mana were spent to cast the spell. It's not an alternative cost to cast the spell.
 Ruling (2020-04-17): The ability checks what mana was actually spent to cast a spell. If an effect allows you to spend mana "as though it were mana" of any color or type, that allows you to spend mana you couldn't otherwise spend, but it doesn't change what mana you spent to cast the spell.
 Ruling (2020-04-17): The target creatures and planeswalkers will be unable to attack, block, or have their abilities activated even if the damage that would be dealt to them is prevented. However, if one of those permanents becomes an illegal target, it will be able to attack, block, and have its abilities activated.
-
-## Mythweaver Poq
-Cost: {3}{g} | Type: Legendary Creature — Cat Shaman | Color identity: G | P/T: */* | Commander: legal
-Text: Mythweaver Poq's power and toughness are each equal to the number of lands you control.
-  Whenever one or more nontoken lands enter under your control, for each of them, conjure a duplicate of it onto the battlefield. This ability triggers only once each turn.
 
 ## Márton Stromgald
 Cost: {2}{r}{r} | Type: Legendary Creature — Human Knight | Color identity: R | P/T: 1/1 | Commander: legal

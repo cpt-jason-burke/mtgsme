@@ -52,11 +52,6 @@ Text: {2}{B}, Discard a card: This creature gains fear until end of turn. (It ca
 Cost: {5}{r}{r} | Type: Sorcery | Color identity: R | Commander: legal
 Text: For each creature target player controls, create a token that's a copy of that creature, except it has haste and "At the beginning of the end step, if you don't control a planeswalker, sacrifice this creature."
 
-## Faceless Agent
-Cost: {3} | Type: Creature — Shapeshifter | Color identity: colorless | P/T: 2/2 | Commander: legal
-Text: Changeling
-  When Faceless Agent enters the battlefield, seek a creature card of the most prevalent creature type in your library. (To seek a card, put one at random from your library into your hand.)
-
 ## Faceless Butcher
 Cost: {2}{b}{b} | Type: Creature — Nightmare Horror | Color identity: B | P/T: 2/3 | Commander: legal
 Text: When this creature enters, exile another target creature.
@@ -357,11 +352,6 @@ Text: Defender, flying, vigilance
   As long as this creature has three or more judgment counters on it, it can attack as though it didn't have defender.
   Disturb {5}{W}{W}
 
-## Faithful Disciple
-Cost: {1}{w} | Type: Creature — Human Cleric | Color identity: W | P/T: 2/2 | Commander: legal
-Text: Vigilance
-  When Faithful Disciple dies, draft a card from Faithful Disciple's spellbook.
-
 ## Faithful Mending
 Cost: {w}{u} | Type: Instant | Color identity: UW | Commander: legal
 Text: You gain 2 life, draw two cards, then discard two cards.
@@ -551,11 +541,6 @@ Text: Surge {X}{R} (You may cast this spell for its surge cost if you or a teamm
 Cost: {4}{w} | Type: Instant | Color identity: W | Commander: legal
 Text: Exile target creature. Each player gains 3 life.
   Basic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)
-
-## Fallaji Antiquarian
-Cost: {3}{r} | Type: Creature — Human Artificer | Color identity: R | P/T: 3/3 | Commander: legal
-Text: Haste
-  When Fallaji Antiquarian enters, conjure a duplicate of another target nontoken creature or artifact you control into your graveyard. The duplicate perpetually gains unearth {1}{R}.
 
 ## Fallaji Archaeologist
 Cost: {1}{u} | Type: Creature — Human Scout | Color identity: U | P/T: 0/3 | Commander: legal
@@ -1402,10 +1387,6 @@ Cost: {4}{r}{r} | Type: Enchantment Creature — Nightmare | Color identity: R |
 Text: When this creature enters, it deals 4 damage to each opponent.
   Delirium — Whenever a source you control deals noncombat damage to an opponent, if there are four or more card types among cards in your graveyard, this creature deals that amount of damage to target creature that player controls.
 
-## Fear of Change
-Cost: {g}{u} | Type: Enchantment Creature — Nightmare | Color identity: GU | P/T: 2/3 | Commander: legal
-Text: When this creature enters or dies, exile another creature you control. If you do, conjure a duplicate of a random creature card with mana value X onto the battlefield, where X is 2 plus the exiled creature's mana value.
-
 ## Fear of Death
 Cost: {1}{u} | Type: Enchantment — Aura | Color identity: U | Commander: legal
 Text: Enchant creature
@@ -1532,11 +1513,6 @@ Faces: Fearful Villager // Fearsome Werewolf (transform)
 Text: Menace (This creature can't be blocked except by two or more creatures.)
   Nightbound (If a player casts at least two spells during their own turn, it becomes day next turn.)
 
-## Fearsome Whelp
-Cost: {1}{r} | Type: Creature — Dragon | Color identity: R | P/T: 1/1 | Commander: legal
-Text: Flying
-  At the beginning of your end step, each Dragon card in your hand perpetually gains "This spell costs {1} less to cast."
-
 ## Feast of Blood
 Cost: {1}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Cast this spell only if you control two or more Vampires.
@@ -1659,11 +1635,6 @@ Cost: {3}{g} | Type: Sorcery | Color identity: G | Commander: legal
 Faces: Mouth // Feed (aftermath)
 Text: Aftermath (Cast this spell only from your graveyard. Then exile it.)
   Draw a card for each creature you control with power 3 or greater.
-
-## Feed the Bog
-Cost: {1}{b} | Type: Sorcery | Color identity: B | Commander: legal
-Text: Replicate {1}{B}
-  Creature cards in your graveyard perpetually get +1/+1. Then return target creature card with mana value 3 or less from your graveyard to the battlefield.
 
 ## Feed the Cauldron
 Cost: {2}{b} | Type: Instant | Color identity: B | Commander: legal
@@ -3783,10 +3754,6 @@ Cost: {4}{r} | Type: Creature — Human Warrior | Color identity: R | P/T: 3/3 |
 Text: Whenever this creature attacks, create a token that's a copy of another target attacking creature and that's tapped and attacking. Exile the token at end of combat.
   Dash {2}{R}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)
 
-## Flames of Moradin
-Cost: {2}{r}{r} | Type: Sorcery | Color identity: R | Commander: legal
-Text: Destroy up to three target artifacts. Conjure a duplicate of each nontoken artifact destroyed this way into your hand. The duplicates perpetually gain "You may pay {R} rather than pay this spell's mana cost" and "At the beginning of your end step, sacrifice this artifact."
-
 ## Flames of the Blood Hand
 Cost: {2}{r} | Type: Instant | Color identity: R | Commander: legal
 Text: Flames of the Blood Hand deals 4 damage to target player or planeswalker. The damage can't be prevented. If that player or that planeswalker's controller would gain life this turn, that player gains no life instead.
@@ -3887,10 +3854,6 @@ Text: {1}, {T}: Create a 1/1 colorless Construct artifact creature token with de
 ## Flaming Fist
 Cost: {2}{w} | Type: Legendary Enchantment — Background | Color identity: W | Commander: legal
 Text: Commander creatures you own have "Whenever this creature attacks, it gains double strike until end of turn."
-
-## Flaming Fist Duskguard
-Cost: {1}{w} | Type: Creature — Dwarf Soldier | Color identity: W | P/T: 3/1 | Commander: legal
-Text: When Flaming Fist Duskguard enters the battlefield, you get a boon with "When you cast your next creature spell, it perpetually gets +1/+0."
 
 ## Flaming Fist Officer
 Cost: {2}{w} | Type: Creature — Gnome Soldier | Color identity: W | P/T: 2/2 | Commander: legal
@@ -4978,10 +4941,6 @@ Text: Gravestorm (When you cast this spell, copy it for each permanent put into 
 Cost: {1}{g} | Type: Sorcery | Color identity: G | Commander: legal
 Text: Infusion — Look at the top four cards of your library. You may reveal a creature or land card from among them and put it into your hand. If you gained life this turn, you may instead reveal two creature and/or land cards from among them and put them into your hand. Put the rest on the bottom of your library in a random order.
 
-## Follow the Tracks
-Cost: {2}{g} | Type: Sorcery | Color identity: G | Commander: legal
-Text: Conjure a card of your choice from Follow the Tracks's spellbook onto the battlefield.
-
 ## Followed Footsteps
 Cost: {3}{u}{u} | Type: Enchantment — Aura | Color identity: U | Commander: legal
 Text: Enchant creature
@@ -5431,18 +5390,6 @@ Text: {T}: Add {C}.
 Cost: {2}{r}{r} | Type: Enchantment Creature — Nymph | Color identity: R | P/T: 4/2 | Commander: legal
 Text: Constellation — Whenever this creature or another enchantment you control enters, this creature deals 1 damage to any target.
 
-## Forgeborn Phoenix
-Cost: {1}{r}{r} | Type: Artifact Creature — Equipment Phoenix | Color identity: R | P/T: 2/2 | Commander: legal
-Text: Flying
-  Equipped creature has flying.
-  Whenever Forgeborn Phoenix or equipped creature dies, it perpetually gains "Whenever an equipped creature you control deals combat damage to a player or planeswalker, return this card from your graveyard to battlefield tapped."
-  Reconfigure {R} ({R}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)
-
-## Forgefire Automaton
-Cost: {7} | Type: Artifact Creature — Construct | Color identity: B | P/T: 8/5 | Commander: legal
-Text: Prototype {2}{B} — 3/2
-  At the beginning of your upkeep, return target creature card with power less than this creature's power from your graveyard to the battlefield. Its base power perpetually becomes equal to this creature's power.
-
 ## Forgehammer Centurion
 Cost: {2}{r} | Type: Creature — Phyrexian Warrior | Color identity: R | P/T: 3/2 | Commander: legal
 Text: Whenever another creature or artifact you control is put into a graveyard from the battlefield, put an oil counter on this creature.
@@ -5882,22 +5829,11 @@ Text: Read ahead (Choose a chapter and start with that many lore counters. Add o
 Cost: {5} | Type: Artifact Creature — Assembly-Worker | Color identity: colorless | P/T: 3/3 | Commander: legal
 Text: Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)
 
-## Foundry Beetle
-Cost: {1}{r} | Type: Artifact Creature — Equipment Insect | Color identity: R | P/T: 2/2 | Commander: legal
-Text: First strike
-  Equipped creature has first strike.
-  At the beginning of your upkeep, a random artifact card in your hand perpetually gains "This spell costs {1} less to cast."
-  Reconfigure {R} ({R}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)
-
 ## Foundry Champion
 Cost: {4}{r}{w} | Type: Creature — Elemental Soldier | Color identity: RW | P/T: 4/4 | Commander: legal
 Text: When this creature enters, it deals damage to any target equal to the number of creatures you control.
   {R}: This creature gets +1/+0 until end of turn.
   {W}: This creature gets +0/+1 until end of turn.
-
-## Foundry Groundbreaker
-Cost: {3}{g} | Type: Creature — Human Artificer | Color identity: G | P/T: 3/4 | Commander: legal
-Text: When Foundry Groundbreaker enters, sacrifice a land. Then conjure two cards named Mishra's Foundry onto the battlefield tapped.
 
 ## Foundry Helix
 Cost: {1}{r}{w} | Type: Instant | Color identity: RW | Commander: legal
@@ -5962,11 +5898,6 @@ Text: {T}: Add {C}.
 Cost: {1} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: When this artifact enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top.
   {1}, Sacrifice this artifact: Draw a card.
-
-## Fountainport Charmer
-Cost: {1}{g} | Type: Creature — Frog Bard | Color identity: G | P/T: 2/3 | Commander: legal
-Text: Offspring {2}
-  When Fountainport Charmer enters, creature cards in your hand perpetually gain "This spell costs {1} less to cast."
 
 ## Four Knocks
 Cost: {2}{w} | Type: Enchantment | Color identity: W | Commander: legal
@@ -6236,11 +6167,6 @@ Cost: {3}{r} | Type: Enchantment — Aura | Color identity: R | Commander: legal
 Text: Enchant permanent
   When this Aura enters and at the beginning of your upkeep, gain control of enchanted permanent until end of turn. Untap that permanent. It gains haste until end of turn.
 
-## Frenzied Geistblaster
-Cost: {1}{r} | Type: Creature — Human Wizard | Color identity: R | P/T: 2/2 | Commander: legal
-Text: Prowess
-  When this creature enters, if there are twenty or more instant and/or sorcery cards among cards in your graveyard, hand, and library, you may discard a card. If you do, seek an instant or sorcery card.
-
 ## Frenzied Goblin
 Cost: {r} | Type: Creature — Goblin Berserker | Color identity: R | P/T: 1/1 | Commander: legal
 Text: Whenever this creature attacks, you may pay {R}. If you do, target creature can't block this turn.
@@ -6336,12 +6262,6 @@ Text: [+2]: Create a 1/1 green Elf Druid creature token with "{T}: Add {G}."
   [−2]: Destroy target artifact or enchantment.
   [−6]: Draw a card for each green creature you control.
   Freyalise, Llanowar's Fury can be your commander.
-
-## Freyalise, Skyshroud Partisan
-Cost: {1}{g}{g} | Type: Legendary Planeswalker — Freyalise | Color identity: G | Loyalty/Defense: 4 | Commander: legal
-Text: [+1]: Untap up to one target Elf. That Elf and a random Elf creature card in your hand perpetually get +1/+1.
-  [−1]: Seek an Elf card.
-  [−6]: Conjure a card named Regal Force onto the battlefield.
 
 ## Friendly Fire
 Cost: {3}{r} | Type: Instant | Color identity: R | Commander: legal
@@ -6757,11 +6677,6 @@ Text: This spell can't be countered.
 Cost: {2}{u}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Counter target spell, then proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
 
-## Fuel Tank Feaster
-Cost: {1}{g} | Type: Creature — Ooze Druid | Color identity: G | P/T: 1/3 | Commander: legal
-Text: At the beginning of your first main phase, a random creature card with the greatest mana value among creature cards in your hand perpetually gains "This spell costs {1} less to cast."
-  {T}: Add one mana of any color.
-
 ## Fuel the Flames
 Cost: {2}{r} | Type: Instant | Color identity: R | Commander: legal
 Text: Fuel the Flames deals 2 damage to each creature.
@@ -6970,11 +6885,6 @@ Text: Whenever this creature is dealt damage, put a +1/+1 counter on it.
 Cost: {4}{g} | Type: Creature — Spider | Color identity: G | P/T: 3/5 | Commander: legal
 Text: Reach
   Morbid — When this creature enters, if a creature died this turn, investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
-
-## Furgul, Quag Nurturer
-Cost: {2}{b}{g} | Type: Legendary Creature — Elf Shaman | Color identity: BG | P/T: 2/4 | Commander: legal
-Text: At the beginning of your end step, conjure a card named Slimy Dualleech onto the battlefield if you control no Leeches. Otherwise, put a +1/+1 counter on each Leech you control.
-  {T}, Sacrifice a creature: Add an amount of {G} equal to the sacrificed creature's power.
 
 ## Furious
 Cost: {3}{r}{r} | Type: Sorcery | Color identity: R | Commander: legal
@@ -7191,11 +7101,6 @@ Text: As long as this creature is tapped, it's a Human Citizen with base power a
 ## Futurist Sentinel
 Cost: {3}{u} | Type: Artifact — Vehicle | Color identity: U | P/T: 6/6 | Commander: legal
 Text: Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)
-
-## Futurist Spellthief
-Cost: {2}{u} | Type: Creature — Moonfolk Wizard | Color identity: U | P/T: 3/2 | Commander: legal
-Text: Flash
-  When this creature enters, conjure a duplicate of target spell into your hand. That card perpetually gains prismatic.
 
 ## Fylamarid
 Cost: {1}{u}{u} | Type: Creature — Squid Beast | Color identity: U | P/T: 1/3 | Commander: legal

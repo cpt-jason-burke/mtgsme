@@ -1,9 +1,3 @@
-## A Golden Opportunity
-Cost: {2}{g} | Type: Enchantment — Saga | Color identity: G | Commander: legal
-Text: (As this Saga enters and after your draw step add a lore counter. Sacrifice after III.)
-  I — Conjure a card named Gilded Goose onto the battlefield.
-  II, III — You may tap an untapped Bird you control and sacrifice an artifact. If you do, conjure a card named Golden Egg onto the battlefield.
-
 ## A Good Day to Die
 Cost: {b} | Type: Instant | Color identity: B | Commander: legal
 Text: Target creature gets +2/+0 until end of turn. When that creature dies this turn, you draw a card.
@@ -652,10 +646,6 @@ Cost: {w}{u}{u} | Type: Instant | Color identity: UW | Commander: legal
 Text: Counter target spell. You gain 3 life.
 Ruling (2022-12-08): A spell that can't be countered is a legal target for Absorb. The spell won't be countered when Absorb resolves, but you'll still gain 3 life.
 
-## Absorb Energy
-Cost: {1}{u}{u} | Type: Instant | Color identity: U | Commander: legal
-Text: Counter target spell. Cards in your hand that share a card type with that spell perpetually gain "This spell costs {1} less to cast."
-
 ## Absorb Essence
 Cost: {1}{w} | Type: Instant — Omen | Color identity: BW | Commander: legal
 Faces: Purging Stormbrood // Absorb Essence (adventure)
@@ -1141,11 +1131,6 @@ Text: {T}: Add {C}.
 Ruling (2021-04-16): If the target creature's power is greater than 3 as Access Tunnel's second ability tries to resolve, the ability doesn't resolve. However, if instead the creature's power is raised above 3 after the ability resolves, it still can't be blocked that turn.
 Ruling (2021-04-16): Once a creature with power 3 or less has been blocked, Access Tunnel's second ability won't cause it to become unblocked.
 
-## Accident-Prone Apprentice
-Cost: {1}{r} | Type: Creature — Otter Wizard | Color identity: RU | P/T: 1/1 | Commander: legal
-Faces: Accident-Prone Apprentice // Amphibian Accident (adventure)
-Text: Whenever you cast a noncreature spell, Accident-Prone Apprentice perpetually gets +1/+1. This ability also triggers if this card is in exile.
-
 ## Acclaimed Contender
 Cost: {2}{w} | Type: Creature — Human Knight | Color identity: W | P/T: 3/3 | Commander: legal
 Text: When this creature enters, if you control another Knight, look at the top five cards of your library. You may reveal a Knight, Aura, Equipment, or legendary artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
@@ -1217,11 +1202,6 @@ Text: Spells your opponents cast that target this creature cost {1} less to cast
 Ruling (2016-04-08): Accursed Witch's first ability affects all spells cast by your opponents that target it, including Aura spells and spells that have additional targets. It doesn't affect abilities.
 Ruling (2016-04-08): If an effect causes Accursed Witch to transform on the battlefield, rather than leaving it and returning transformed, then Infectious Curse doesn't become attached to any player and is put into your graveyard. This won't cause abilities that trigger when a creature leaves the battlefield to trigger.
 Ruling (2016-04-08): Infectious Curse's middle ability affects all spells you cast that target the enchanted player, including Aura spells and spells that have additional targets. It doesn't affect abilities.
-
-## Ace Flockbringer
-Cost: {1}{w}{u} | Type: Creature — Bird Scout | Color identity: UW | P/T: 3/3 | Commander: legal
-Text: Flying
-  Whenever you cast a creature spell without flying, conjure a duplicate of it into your hand. The duplicate perpetually gains flying. This ability triggers only once each turn.
 
 ## Ace's Baseball Bat
 Cost: {2} | Type: Legendary Artifact — Equipment | Color identity: colorless | Commander: legal
@@ -1575,11 +1555,6 @@ Text: (Transforms from Legion's Landing.)
 Ruling (2017-09-29): Once you've attacked with three or more creatures, Legion's Landing will transform even if some of those creatures leave the battlefield or are removed from combat.
 Ruling (2017-09-29): The last ability of Legion's Landing only counts creatures that you declare as attacking creatures. Creatures that enter the battlefield attacking won't count.
 
-## Adaptive Armorer
-Cost: {2}{w}{w} | Type: Creature — Giant Warrior | Color identity: W | P/T: 4/3 | Commander: legal
-Text: Vigilance
-  When this creature enters, draft a card from Adaptive Armorer's spellbook and put it onto the battlefield. When an Equipment enters this way, attach it to target creature you control.
-
 ## Adaptive Automaton
 Cost: {3} | Type: Artifact Creature — Construct | Color identity: colorless | P/T: 2/2 | Commander: legal
 Text: As this creature enters, choose a creature type.
@@ -1709,11 +1684,6 @@ Ruling (2025-11-17): Because damage remains marked on creatures until the damage
 ## Adherent of Hope
 Cost: {1}{w} | Type: Creature — Human Soldier | Color identity: W | P/T: 2/1 | Commander: legal
 Text: At the beginning of combat on your turn, if you control a Basri planeswalker, put a +1/+1 counter on this creature.
-
-## Adherent's Heirloom
-Cost: {3} | Type: Artifact | Color identity: colorless | Commander: legal
-Text: When this artifact enters, seek a creature card of the most prevalent creature type in your library.
-  {T}: Add one mana of any color. Spend this mana only to cast a creature spell.
 
 ## Adipose Offspring
 Cost: {3}{w} | Type: Creature — Alien | Color identity: W | P/T: 2/2 | Commander: legal
@@ -1848,14 +1818,6 @@ Text: {B}{R}{G}, {T}: Return target creature card from your graveyard to your ha
 Cost: {1}{w} | Type: Creature — Human Soldier Scout | Color identity: W | P/T: 1/1 | Commander: legal
 Text: First strike
   {W}: Target creature gains first strike until end of turn.
-
-## Advanced Floral Invocations
-Cost: {b/g} | Type: Enchantment — Class | Color identity: BG | Commander: legal
-Text: Landfall — Whenever a land you control enters, mill two cards.
-  {B/G}: Level 2
-  Whenever a land you control enters, creature cards in your graveyard perpetually get +1/+1.
-  {4}{B/G}{B/G}: Level 3
-  You may play lands and cast creature spells from your graveyard. If you cast a spell this way, that creature enters with a finality counter on it.
 
 ## Advanced Hoverguard
 Cost: {3}{u} | Type: Creature — Drone | Color identity: U | P/T: 2/2 | Commander: legal
@@ -3225,10 +3187,6 @@ Ruling (2025-04-04): If a card with a renew ability is put into your graveyard d
 Cost: {3}{w}{b} | Type: Creature — Human Advisor | Color identity: BW | P/T: 2/3 | Commander: legal
 Text: At the beginning of your upkeep, each opponent loses 1 life. You gain life equal to the life lost this way.
 
-## Agent of Raffine
-Cost: {u} | Type: Creature — Human Rogue | Color identity: U | P/T: 1/2 | Commander: legal
-Text: {2}, {T}: Choose target opponent. Conjure a duplicate of the top card of their library into your hand. It perpetually gains prismatic. Then they exile the top card of their library face down.
-
 ## Agent of Shauku
 Cost: {1}{b} | Type: Creature — Human Mercenary | Color identity: B | P/T: 1/1 | Commander: legal
 Text: {1}{B}, Sacrifice a land: Target creature gets +2/+0 until end of turn.
@@ -4514,12 +4472,6 @@ Cost: {1}{g} | Type: Creature — Troll | Color identity: G | P/T: 3/3 | Command
 Text: Echo {1}{G} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
   {1}{G}: Regenerate this creature.
 
-## Albiorix, Goose Tyrant
-Cost: {1}{g}{u} | Type: Legendary Creature — Bird | Color identity: GU | P/T: 3/3 | Commander: legal
-Faces: Albiorix, Goose Tyrant // Wild Goose Chase (adventure)
-Text: Flying, Trample, Ward {1}
-  Whenever you sacrifice a token, Albiorix perpetually gets +1/+1. This ability also triggers if this card is in exile.
-
 ## Alchemax Slayer-Bots
 Cost: {2}{u} | Type: Artifact Creature — Robot Villain | Color identity: U | P/T: 2/2 | Commander: legal
 Text: When this creature enters, tap target creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
@@ -5215,17 +5167,9 @@ Text: Whenever you attack, up to one target attacking creature can't be blocked 
 Cost: {3}{w}{u} | Type: Legendary Creature — Halfling Rogue | Color identity: UW | P/T: 4/4 | Commander: legal
 Text: Whenever you attack, up to one target attacking creature can't be blocked this turn. At the beginning of the next end step, return that creature to its owner's hand. If you do, create a 1/1 white Soldier creature token.
 
-## Alora, Cheerful Scout
-Cost: {3}{g}{u} | Type: Legendary Creature — Halfling Rogue Scout | Color identity: GU | P/T: 4/4 | Commander: legal
-Text: Whenever you attack, up to one target attacking creature can't be blocked this turn. At the beginning of the next end step, return that creature to its owner's hand. If you do, it perpetually gets +1/+1.
-
 ## Alora, Cheerful Swashbuckler
 Cost: {3}{u}{r} | Type: Legendary Creature — Halfling Rogue | Color identity: RU | P/T: 4/4 | Commander: legal
 Text: Whenever you attack, up to one target attacking creature can't be blocked this turn. At the beginning of the next end step, return that creature to its owner's hand. If you do, create a Treasure token.
-
-## Alora, Cheerful Thief
-Cost: {3}{u}{u} | Type: Legendary Creature — Halfling Rogue | Color identity: U | P/T: 4/4 | Commander: legal
-Text: Whenever you attack, up to one target attacking creature can't be blocked this turn. At the beginning of the next end step, return that creature to its owner's hand. If you do, a creature of your choice an opponent controls perpetually gets -1/-0.
 
 ## Alora, Merry Thief
 Cost: {2}{u} | Type: Legendary Creature — Halfling Rogue | Color identity: U | P/T: 3/2 | Commander: legal
@@ -5241,11 +5185,6 @@ Ruling (2022-06-10): If your Commander deck has two commanders, you can include 
 Ruling (2022-06-10): If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
 Ruling (2022-06-10): Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won't usually be a creature anyway).
 Ruling (2022-06-10): You can choose two commanders that are the same color or colors.
-
-## Alora, Rogue Companion
-Cost: {3}{u} | Type: Legendary Creature — Halfling Rogue | Color identity: U | P/T: 3/3 | Commander: legal
-Text: Specialize {2}
-  Whenever you attack, up to one target attacking creature can't be blocked this turn. At the beginning of the next end step, return that creature to its owner's hand.
 
 ## Aloy, Savior of Meridian
 Cost: {3}{g}{u} | Type: Legendary Creature — Human Warrior | Color identity: GU | P/T: 3/5 | Commander: legal
@@ -5691,10 +5630,6 @@ Text: {3}: Target player mills three cards.
 Cost: {3}{g} | Type: Creature — Treefolk Warrior | Color identity: G | P/T: 3/3 | Commander: legal
 Text: When this creature enters, create a 1/1 green Elf Warrior creature token.
 
-## Ambassador of Evendo
-Cost: {g}{u} | Type: Creature — Insect Advisor | Color identity: GU | P/T: 1/3 | Commander: legal
-Text: Landfall — Whenever a land you control enters, a random land card in your library perpetually gains "Whenever this land becomes tapped, draw a card."
-
 ## Amber Gristle O'Maul
 Cost: {3}{r} | Type: Legendary Creature — Dwarf Cleric | Color identity: R | P/T: 3/3 | Commander: legal
 Text: Haste
@@ -5747,12 +5682,6 @@ Text: Haste
 Cost: {2}{b}{r} | Type: Legendary Creature — Dwarf Cleric | Color identity: BR | P/T: 4/3 | Commander: legal
 Text: Haste
   Whenever Ambergris, Agent of Tyranny attacks, you may discard your hand and draw two cards. When you do, target creature an opponent controls gets -X/-X until end of turn, where X is the number of cards you've discarded this turn.
-
-## Ambergris, Citadel Agent
-Cost: {2}{r} | Type: Legendary Creature — Dwarf Cleric | Color identity: R | P/T: 3/2 | Commander: legal
-Text: Haste
-  Specialize {3}
-  Whenever Ambergris, Citadel Agent attacks, you may discard your hand and draw two cards.
 
 ## Ambition's Cost
 Cost: {3}{b} | Type: Sorcery | Color identity: B | Commander: legal
@@ -6999,11 +6928,6 @@ Text: Flying
   When this creature enters, exile up to two target artifacts and/or enchantments.
   Plainscycling {2} ({2}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.)
 
-## Angel of Unity
-Cost: {1}{w} | Type: Creature — Angel Cleric | Color identity: W | P/T: 1/3 | Commander: legal
-Text: Flying, lifelink
-  Whenever this creature enters and whenever you cast a party spell, choose a party creature card in your hand. It perpetually gets +1/+1. (A party card or spell is a Cleric, Rogue, Warrior, or Wizard.)
-
 ## Angel of Vitality
 Cost: {2}{w} | Type: Creature — Angel | Color identity: W | P/T: 2/2 | Commander: legal
 Text: Flying
@@ -7410,10 +7334,6 @@ Text: Trample
   {5}{R}: Put two +1/+1 counters on this creature. Activate only as a sorcery.
 Ruling (2025-09-19): If a spell has {X} in its mana cost, use the value chosen for that X to determine the mana value of that spell.
 
-## Anguished Recollection
-Cost: {1}{r} | Type: Sorcery | Color identity: R | Commander: legal
-Text: Discard a card. If you do, seek two cards that don't share a card type with the discarded card.
-
 ## Anguished Unmaking
 Cost: {1}{w}{b} | Type: Instant | Color identity: BW | Commander: legal
 Text: Exile target nonland permanent. You lose 3 life.
@@ -7576,11 +7496,6 @@ Ruling (2016-08-23): Some cards allow you to exile other cards you've drafted th
 Ruling (2016-08-23): The last ability of Animus of Predation functions only if Animus of Predation is on the battlefield. For example, Animus of Predation is not a creature card with flying in your library or graveyard.
 Ruling (2016-08-23): You can remove from the draft any card you draft after Animus of Predation.
 Ruling (2020-01-24): If one of those creature cards has one or more variants of the listed keywords (for example, hexproof from white), this creature gains those specific variants.
-
-## Anina, Natural Parallelist
-Cost: {1}{g}{u} | Type: Legendary Creature — Human Wizard | Color identity: GU | P/T: 1/3 | Commander: legal
-Text: Whenever you cast a spell with {X} in its mana cost, conjure a random creature card with mana value X onto the battlefield.
-  {T}: Add {G}{U}. Spend this mana only to cast spells with {X} in their mana costs.
 
 ## Anje Falkenrath
 Cost: {1}{b}{r} | Type: Legendary Creature — Vampire | Color identity: BR | P/T: 1/3 | Commander: legal
@@ -7927,11 +7842,6 @@ Ruling (2020-09-25): Anticognition can target a spell that can't be countered. Y
 Ruling (2020-09-25): Anticognition will counter the spell and let you scry 2 if any opponent has eight or more cards in their graveyard, not just that spell's controller.
 Ruling (2020-09-25): If an opponent has eight or more cards in their graveyard, Anticognition can still target only a creature or planeswalker spell.
 Ruling (2020-09-25): In a multiplayer game, once an opponent leaves the game, they won't be considered for such an effect, no matter how many cards they had in their graveyard before leaving the game.
-
-## Antique Collector
-Cost: {1}{g} | Type: Creature — Human Rogue | Color identity: G | P/T: 2/2 | Commander: legal
-Text: This creature can't be blocked by creatures with power 2 or less.
-  When this creature enters, creatures you control perpetually gain "When this creature dies, you may shuffle it into its owner's library if it's in your graveyard. If you do, investigate." (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")
 
 ## Antiquities on the Loose
 Cost: {1}{w}{w} | Type: Sorcery | Color identity: W | Commander: legal
@@ -8446,10 +8356,6 @@ Ruling (2022-06-10): If an object becomes a copy of an object that has an Advent
 Ruling (2022-06-10): If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell.
 Ruling (2022-06-10): When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
 Ruling (2022-06-10): You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
-
-## Aquatic Subtlety
-Cost: {u}{u}{u} | Type: Sorcery | Color identity: U | Commander: legal
-Text: Draw two cards, then put two cards from your hand on the bottom of your library in any order. Blue creature cards in your hand perpetually gain "Evoke—Exile a blue card from your hand."
 
 ## Aqueous Aria
 Cost: {4}{u} | Type: Sorcery | Color identity: U | Commander: legal
@@ -9378,11 +9284,6 @@ Text: When this artifact enters, search your library for up to two basic Plains 
   Whenever a land an opponent controls enters, if that player controls more lands than you, you may put a land card from your hand onto the battlefield.
 Ruling (2021-04-16): The last ability triggers only if that opponent controls more lands than you after the land enters the battlefield. The ability will check again as it tries to resolve. If that opponent doesn't still control more lands than you at that time, the ability won't resolve.
 
-## Archaeomancer's Spade
-Cost: {1}{r}{w} | Type: Artifact | Color identity: RW | Commander: legal
-Text: When this artifact enters, seek two cards with flashback and put them into your graveyard.
-  {T}: Add {R}{W}. This mana can't be spent to cast spells from your hand.
-
 ## Archaeomender
 Cost: {2}{u} | Type: Creature — Human Wizard | Color identity: U | P/T: 2/3 | Commander: legal
 Text: When this creature enters, return target artifact card from your graveyard to your hand.
@@ -10227,12 +10128,6 @@ Ruling (2025-06-06): If a card copied by the token had any "when [this permanent
 Ruling (2025-06-06): If the copied card has {X} in its mana cost, X is 0.
 Ruling (2025-06-06): The token is a Demon creature instead of its other types and is black instead of its other colors. Its base power and toughness are 5/5. These are copiable values of the token that other effects may copy.
 
-## Arek, False Goldwarden
-Cost: {w}{b} | Type: Legendary Creature — Human Cleric | Color identity: BW | P/T: 2/2 | Commander: legal
-Text: Starting intensity 0
-  Whenever another creature you control enters, cards you own named Arek, False Goldwarden intensify by 1.
-  {3}{W}{B}, {T}, Sacrifice Arek, False Goldwarden: Target opponent loses X life and you gain X life, where X is Arek's intensity.
-
 ## Arena
 Cost: — | Type: Land | Color identity: colorless | Commander: legal
 Text: {3}, {T}: Tap target creature you control and target creature of an opponent's choice they control. Those creatures fight each other. (Each deals damage equal to its power to the other.)
@@ -10365,11 +10260,6 @@ Ruling (2022-09-09): To determine the total cost of a spell, start with the mana
 Cost: {2}{u}{u} | Type: Sorcery | Color identity: U | Commander: legal
 Text: Return target artifact card from your graveyard to the battlefield.
 
-## Argivian Welcome
-Cost: {w}{u} | Type: Instant | Color identity: UW | Commander: legal
-Text: Destroy up to one target creature with power 4 or greater.
-  Choose a nonland card in your hand. It perpetually gains flash.
-
 ## Argoth, Sanctum of Nature
 Cost: — | Type: Land | Color identity: G | Commander: legal
 Faces: Argoth, Sanctum of Nature // Titania, Gaea Incarnate (meld)
@@ -10430,10 +10320,6 @@ Text: Trample
 Cost: {3}{g}{g} | Type: Creature — Treefolk | Color identity: G | P/T: 3/5 | Commander: legal
 Text: Prevent all damage that would be dealt to this creature by artifact sources.
 
-## Argothian Uprooting
-Cost: {x}{g} | Type: Sorcery | Color identity: G | Commander: legal
-Text: Put two +1/+1 counters on each of X target lands you control. They each become 0/0 Elemental creatures with reach, haste, and "When this creature leaves the battlefield, conjure a card named Forest onto the battlefield tapped." They're still lands.
-
 ## Argothian Wurm
 Cost: {3}{g} | Type: Creature — Wurm | Color identity: G | P/T: 6/6 | Commander: legal
 Text: Trample
@@ -10474,12 +10360,6 @@ Text: {T}, Pay 1 life, Sacrifice this land: Search your library for a Mountain o
 ## Arisen Gorgon
 Cost: {1}{b}{b} | Type: Creature — Zombie Gorgon | Color identity: B | P/T: 3/3 | Commander: legal
 Text: This creature has deathtouch as long as you control a Liliana planeswalker. (Any amount of damage this deals to a creature is enough to destroy it.)
-
-## Arius, Flyby Trawler
-Cost: {u}{r} | Type: Legendary Creature — Shark Pirate | Color identity: RU | P/T: 1/1 | Commander: legal
-Text: Flying, Trample
-  Whenever Arius attacks, seek a non-Shark card. Discard that card at the beginning of the next end step.
-  Whenever you discard one or more cards, put a +1/+1 counter on Arius.
 
 ## Arixmethes, Slumbering Isle
 Cost: {2}{g}{u} | Type: Legendary Creature — Kraken | Color identity: GU | P/T: 12/12 | Commander: legal
@@ -10730,10 +10610,6 @@ Ruling (2022-02-18): Similarly, if an Equipment is tapped, its reconfigure abili
 Cost: {2} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: {2}, {T}, Sacrifice this artifact: Search your library for up to two basic land cards, reveal them, put them into your hand, then shuffle.
 
-## Arming Gala
-Cost: {3}{g}{w} | Type: Enchantment | Color identity: GW | Commander: legal
-Text: At the beginning of your end step, creatures you control and creature cards in your hand, library, and graveyard perpetually get +1/+1.
-
 ## Armistice
 Cost: {2}{w} | Type: Enchantment | Color identity: W | Commander: legal
 Text: {3}{W}{W}: You draw a card and target opponent gains 3 life.
@@ -10932,11 +10808,6 @@ Text: Creatures target player controls get -2/-2 until end of turn.
 Cost: {3}{r} | Type: Enchantment | Color identity: R | Commander: legal
 Text: {3}{R}: You may put an artifact card from your hand onto the battlefield. That artifact gains haste. Sacrifice it at the beginning of the next end step.
 Ruling (2022-10-14): You sacrifice the artifact only if you still control it at the beginning of the next end step. If that artifact has left the battlefield, even if it later came back, you don't sacrifice it.
-
-## Arms Scavenger
-Cost: {1}{r} | Type: Creature — Human Warrior | Color identity: R | P/T: 2/2 | Commander: legal
-Text: At the beginning of your upkeep, draft a card from this creature's spellbook, then exile it. Until end of turn, you may play that card.
-  Equip abilities you activate cost {1} less to activate.
 
 ## Army Ants
 Cost: {1}{b}{r} | Type: Creature — Insect | Color identity: BR | P/T: 1/1 | Commander: legal
@@ -11300,11 +11171,6 @@ Text: Domain — Artillery Blast deals X damage to target tapped creature, where
 Ruling (2022-09-09): Domain abilities count the number of basic land types among lands you control, not how many lands you control or how many of any type.
 Ruling (2022-09-09): The basic land types are Plains, Island, Swamp, Mountain, and Forest. Land types other than basic land types (such as Desert) don't contribute to domain abilities.
 
-## Artillery Enthusiast
-Cost: {r} | Type: Creature — Goblin Artificer | Color identity: R | P/T: 1/2 | Commander: legal
-Text: Modified creatures you control have menace. (Equipment, Auras you control, and counters are modifications.)
-  When Artillery Enthusiast enters, you may discard a card. If you do, seek a card with mana value equal to that card's mana value. (To seek a card, put one at random from your library into your hand.)
-
 ## Artisan of Forms
 Cost: {1}{u} | Type: Creature — Human Wizard | Color identity: U | P/T: 1/1 | Commander: legal
 Text: Heroic — Whenever you cast a spell that targets this creature, you may have this creature become a copy of target creature, except it has this ability.
@@ -11380,11 +11246,6 @@ Cost: {3}{w}{b} | Type: Legendary Creature — Vampire Knight | Color identity: 
 Text: Deathtouch, lifelink
   Other legendary creatures you control get +2/+2.
 Ruling (2018-04-27): Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to a legendary creature you control may become lethal if Arvad leaves the battlefield during that turn.
-
-## Arvad, Weatherlight Smuggler
-Cost: {w}{b} | Type: Legendary Creature — Vampire Knight | Color identity: BW | P/T: 1/1 | Commander: legal
-Text: Deathtouch, lifelink
-  At the beginning of your end step, if a creature died this turn, Arvad, Weatherlight Smuggler perpetually gets +X/+X where X is the number of creatures that died this turn. This ability also triggers if Arvad is in your graveyard.
 
 ## Arvinox, the Mind Flail
 Cost: {4}{b}{b}{b} | Type: Legendary Enchantment Creature — Horror | Color identity: B | P/T: 9/9 | Commander: legal
@@ -12230,10 +12091,6 @@ Ruling (2022-12-08): If you copy a spell that's half of a split card, the copy c
 Ruling (2022-12-08): Split cards have two card faces on a single card. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
 Ruling (2022-12-08): To cast a split card, choose one of its halves to cast. There's no way to cast both halves of this split card.
 
-## Assemble from Parts
-Cost: {b} | Type: Instant | Color identity: B | Commander: legal
-Text: Target creature card in your graveyard perpetually gains "{1}{B}{B}, Exile this card from your graveyard: Shuffle it into its owner's library. Create a token that's a copy of it, except it's a 4/4 black Zombie in addition to its other types. Activate only as a sorcery."
-
 ## Assemble the Entmoot
 Cost: {3}{g} | Type: Enchantment | Color identity: G | Commander: legal
 Text: Creatures you control have reach.
@@ -12908,12 +12765,6 @@ Ruling (2018-01-19): If an effect refers to a "[subtype] spell" or "[subtype] ca
 ## Audacious Infiltrator
 Cost: {1}{w} | Type: Creature — Dwarf Rogue | Color identity: W | P/T: 3/1 | Commander: legal
 Text: This creature can't be blocked by artifact creatures.
-
-## Audacious Knuckleblade
-Cost: {g}{u}{r} | Type: Creature — Ogre Warrior Wizard | Color identity: GRU | P/T: 4/4 | Commander: legal
-Text: Exhaust — {2}{G}: Seek a card named Audacious Knuckleblade and put it onto the battlefield tapped.
-  Exhaust — {1}{U}: Surveil 2, then untap this creature.
-  Exhaust — {R}: Creatures you control gain haste until end of turn.
 
 ## Audacious Reshapers
 Cost: {2}{r} | Type: Creature — Human Artificer | Color identity: R | P/T: 3/3 | Commander: legal
@@ -14607,12 +14458,6 @@ Cost: {u} | Type: Enchantment — Aura | Color identity: U | Commander: legal
 Text: Enchant creature
   Enchanted creature can't be blocked unless defending player pays {3} for each creature they control that's blocking it.
 Ruling (2007-02-01): In the Two-Headed Giant format, you still only have to pay once per creature.
-
-## Awestruck Cygnet
-Cost: {w} | Type: Creature — Bird Scout | Color identity: W | P/T: 2/1 | Commander: legal
-Text: Starting intensity 0
-  Whenever another creature you control with flying enters, if this creature is named Awestruck Cygnet, cards you own named Awestruck Cygnet intensify by 1.
-  As long as this card's intensity is 3 or more, it has base power and toughness 4/4, has flying and vigilance, and is named Radiant Swan.
 
 ## Awoken Demon
 Cost: — | Type: Creature — Demon | Color identity: B | P/T: 4/4 | Commander: legal

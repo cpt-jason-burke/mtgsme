@@ -138,10 +138,6 @@ Text: When this land enters, sacrifice it. When you do, search your library for 
 Cost: {g} | Type: Creature — Raccoon Citizen | Color identity: GRW | P/T: 1/2 | Commander: legal
 Text: {2}{R/W}: This creature gains double strike until end of turn.
 
-## Cabaretti Revels
-Cost: {1}{r}{g} | Type: Enchantment | Color identity: GR | Commander: legal
-Text: Whenever you cast a creature spell, seek a creature card with lesser mana value, then put it onto the battlefield.
-
 ## Cache Grab
 Cost: {1}{g} | Type: Instant | Color identity: G | Commander: legal
 Text: Mill four cards. You may put a permanent card from among the cards milled this way into your hand. If you control a Squirrel or returned a Squirrel card to your hand this way, create a Food token. (To mill four cards, put the top four cards of your library into your graveyard. A Food token is an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.")
@@ -197,12 +193,6 @@ Text: Cackling Flames deals 3 damage to any target.
 Cost: {2}{b}{b} | Type: Creature — Imp | Color identity: B | P/T: 2/2 | Commander: legal
 Text: Flying
   {T}: Target player loses 1 life.
-
-## Cackling Observer
-Cost: {1}{b}{b} | Type: Creature — Imp | Color identity: B | P/T: 3/1 | Commander: legal
-Text: Flying
-  When Cackling Observer enters, target opponent reveals each nonland card in their hand. You choose one of those cards and exile it.
-  When Cackling Observer leaves the battlefield, the exiled card's owner seeks a nonland card with lesser mana value than the exiled card.
 
 ## Cackling Prowler
 Cost: {3}{g} | Type: Creature — Hyena Rogue | Color identity: G | P/T: 4/3 | Commander: legal
@@ -539,12 +529,6 @@ Ruling (2022-04-29): If you pay the blitz cost to cast a creature spell, that pe
 Ruling (2022-04-29): The triggered ability that lets its controller draw a card triggers when it dies for any reason, not just when you sacrifice it during the end step.
 Ruling (2022-04-29): You don't have to attack with the creature with blitz unless another ability says you do.
 
-## Caldera Breaker
-Cost: {3}{r}{r}{r} | Type: Artifact Creature — Golem | Color identity: R | P/T: 6/6 | Commander: legal
-Text: Trample
-  When Caldera Breaker enters, exile all Mountain cards from your library. When you do, Caldera Breaker deals that much damage to target creature or planeswalker an opponent controls.
-  When Caldera Breaker dies, put all cards exiled with it onto the battlefield under their owner's control. Conjure four cards named Volcanic Geyser into your library, then shuffle.
-
 ## Caldera Hellion
 Cost: {3}{r}{r} | Type: Creature — Hellion | Color identity: R | P/T: 3/3 | Commander: legal
 Text: Devour 1 (As this creature enters, you may sacrifice any number of creatures. It enters with that many +1/+1 counters on it.)
@@ -595,12 +579,6 @@ Ruling (2024-11-08): If you copy a kicked spell on the stack, the copy is also k
 Ruling (2024-11-08): If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
 Ruling (2024-11-08): The kicker ability doesn't let you pay a kicker cost more than once.
 Ruling (2024-11-08): To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
-
-## Calim, Djinn Emperor
-Cost: {3}{u}{u}{u} | Type: Legendary Creature — Djinn Noble | Color identity: U | P/T: 5/6 | Commander: legal
-Text: Flying, ward {2}
-  Calim's Breath — {1}{U}, Discard Calim: Tap up to one target nonland permanent. Draw a card. Then you may exile two other cards named Calim, Djinn Emperor from your graveyard. When you do, return Calim from your graveyard to the battlefield tapped.
-  When you discard Calim, conjure a card named Calim, Djinn Emperor into your library seventh from the top.
 
 ## Calix, Destiny's Hand
 Cost: {2}{g}{w} | Type: Legendary Planeswalker — Calix | Color identity: GW | Loyalty/Defense: 4 | Commander: legal
@@ -796,11 +774,6 @@ Ruling (2020-04-17): If a spell or ability allows you to cast a strive spell wit
 Ruling (2020-04-17): If this spell is copied and the effect that copies the spell allows a player to choose new targets for the copy, the number of targets can't be changed. The player may change any number of the targets, including all of them or none of them. If, for one of the targets, the player can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
 Ruling (2020-04-17): The mana value of a strive spell doesn't change no matter how many targets it has.
 Ruling (2020-04-17): You choose how many targets each spell with a strive ability has and what those targets are as you cast it. It's legal to cast such a spell with no targets, although this is rarely a good idea. You can't choose the same target more than once for a single strive spell.
-
-## Call the Crash
-Cost: {3}{w}{b}{g} | Type: Sorcery | Color identity: BGW | Commander: legal
-Text: Suspend 2—{1}{W}{B}{G}
-  Conjure two cards named Siege Rhino onto the battlefield.
 
 ## Call the Gatewatch
 Cost: {2}{w} | Type: Sorcery | Color identity: W | Commander: legal
@@ -1214,14 +1187,6 @@ Text:
 Cost: {1}{u}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Counter target spell.
 
-## Candela, Aegis of Adagia
-Cost: {w} | Type: Legendary Artifact — Spacecraft | Color identity: W | P/T: 3/3 | Commander: legal
-Text: Flash
-  When Candela enters, return up to one target creature you control to its owner's hand. It perpetually gets +1/+1.
-  Station
-  8+ | Flying
-  Whenever Candela deals combat damage to a player, you may put a creature card with mana value 3 or less from your hand onto the battlefield.
-
 ## Candelabra of Tawnos
 Cost: {1} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: {X}, {T}: Untap X target lands.
@@ -1481,11 +1446,6 @@ Ruling (2026-06-29): To determine the total cost of a spell, start with the mana
 Cost: {1}{w}{w} | Type: Creature — Lhurgoyf | Color identity: W | P/T: */* | Commander: legal
 Text: Vigilance
   Cantivore's power and toughness are each equal to the number of enchantment cards in all graveyards.
-
-## Cantor of the Refrain
-Cost: {b} | Type: Creature — Human Pilot | Color identity: B | P/T: 2/1 | Commander: legal
-Text: This creature can't block.
-  When you cast a spell for its warp cost, return this card from your graveyard to the battlefield under its owner's control. It perpetually gets +1/+0.
 
 ## Canyon Crab
 Cost: {1}{u} | Type: Creature — Crab | Color identity: U | P/T: 0/5 | Commander: legal
@@ -3248,10 +3208,6 @@ Ruling (2025-11-17): To determine the total cost of a spell, start with the mana
 Cost: {u} | Type: Creature — Human Wizard | Color identity: U | P/T: 1/1 | Commander: legal
 Text: {T}: Target player mills a card.
 
-## Cathartic Operation
-Cost: {3}{u}{b} | Type: Instant | Color identity: BU | Commander: legal
-Text: Return up to two target creature cards from your graveyard to your hand, then seek two noncreature, nonland cards.
-
 ## Cathartic Parting
 Cost: {1}{g} | Type: Sorcery | Color identity: G | Commander: legal
 Text: The owner of target artifact or enchantment an opponent controls shuffles it into their library. You may shuffle up to four target cards from your graveyard into your library.
@@ -3994,11 +3950,6 @@ Ruling (2021-07-23): If you gain an amount of life "for each" of something or "e
 Ruling (2021-07-23): In a Two-Headed Giant game, life gained by your teammate won't cause Celestial Unicorn's ability to trigger, even though it caused your team's life total to increase.
 Ruling (2021-07-23): The ability of Celestial Unicorn triggers just once for each life-gaining event, whether it's 1 life from Dazzling Angel or 4 life from Apothecary Stomper.
 
-## Celestial Vault
-Cost: {1}{w} | Type: Artifact | Color identity: W | Commander: legal
-Text: {W}, {T}: Draft a card from Celestial Vault's spellbook and exile it face down.
-  {1}, Sacrifice Celestial Vault: Put each card exiled with Celestial Vault into your hand.
-
 ## Celestine, the Living Saint
 Cost: {4}{w} | Type: Legendary Creature — Human Warrior | Color identity: W | P/T: 3/4 | Commander: legal
 Text: Flying, lifelink
@@ -4376,11 +4327,6 @@ Ruling (2025-01-24): You can't sacrifice a Blood token to pay multiple costs.
 ## Ceremonious Rejection
 Cost: {u} | Type: Instant | Color identity: U | Commander: legal
 Text: Counter target colorless spell.
-
-## Cerise, Slayer of Fear
-Cost: {3}{w}{w} | Type: Legendary Creature — Human Cleric Knight | Color identity: W | P/T: 5/5 | Commander: legal
-Text: First strike, lifelink
-  At the beginning of your second main phase, if you gained life this turn, seek a card with the highest mana value among cards in your library with mana value less than or equal to the amount of life you gained this turn.
 
 ## Cerodon Yearling
 Cost: {r}{w} | Type: Creature — Beast | Color identity: RW | P/T: 2/2 | Commander: legal
@@ -5421,11 +5367,6 @@ Text: Choose one —
   • Counter target red or green spell with mana value 6 or less.
 Ruling (2023-04-14): If a spell has {X} in its mana cost, use the value chosen for X when calculating that spell's mana value.
 
-## Change the Narrative
-Cost: {1}{w}{u} | Type: Enchantment | Color identity: UW | Commander: legal
-Text: Planeswalker spells you cast cost {1} less to cast.
-  At the beginning of your upkeep, conjure a random planeswalker card into your hand. It perpetually gains prismatic.
-
 ## Changeling Berserker
 Cost: {3}{r} | Type: Creature — Shapeshifter | Color identity: R | P/T: 5/3 | Commander: legal
 Text: Changeling (This card is every creature type.)
@@ -5568,14 +5509,6 @@ Ruling (2022-12-08): If an effect allows you to cast a spell with certain charac
 Ruling (2022-12-08): If you copy a spell that's half of a split card, the copy copies that same half. For example, if you copy Assault, the copy is also Assault, not Battery.
 Ruling (2022-12-08): Split cards have two card faces on a single card. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
 Ruling (2022-12-08): To cast a split card, choose one of its halves to cast. There's no way to cast both halves of this split card.
-
-## Chaos Balor
-Cost: {3}{r}{r} | Type: Creature — Demon | Color identity: R | P/T: 4/5 | Commander: legal
-Text: Flying
-  Whenever Chaos Balor attacks or dies, choose two. Each mode must target a different player.
-  • Target player discards all the cards in their hand, then seeks that many nonland cards.
-  • Chaos Balor deals 2 damage to target player and they create two Treasure tokens.
-  • Chaos Balor deals 2 damage to each creature target player controls. Those creatures perpetually get +2/+0.
 
 ## Chaos Channeler
 Cost: {2}{r}{r} | Type: Creature — Human Shaman | Color identity: R | P/T: 4/3 | Commander: legal
@@ -5868,11 +5801,6 @@ Cost: {g} | Type: Instant | Color identity: G | Commander: legal
 Text: Target creature gains trample until end of turn.
   Draw a card.
 Ruling (2021-04-16): If the target becomes illegal before Charge Through resolves (perhaps because an opponent destroyed it), you won't draw a card.
-
-## Charged Conjuration
-Cost: {2}{r} | Type: Enchantment | Color identity: R | Commander: legal
-Text: At the beginning of your upkeep, instant and sorcery cards in your hand perpetually gain "This spell costs {1} less to cast."
-  Sacrifice this enchantment: Conjure a card of your choice from Charged Conjuration's spellbook into your hand. Activate only as a sorcery.
 
 ## Charging Badger
 Cost: {g} | Type: Creature — Badger | Color identity: G | P/T: 1/1 | Commander: legal
@@ -6632,11 +6560,6 @@ Cost: {3} | Type: Artifact — Equipment | Color identity: colorless | Commander
 Text: Equipped creature gets +2/+2 and has menace. (It can't be blocked except by two or more creatures.)
   Equip {3}
 
-## Chitinous Crawler
-Cost: {2}{b}{b} | Type: Creature — Insect Horror | Color identity: B | P/T: 4/4 | Commander: legal
-Text: At the beginning of combat on your turn, choose target creature card in your graveyard. Conjure a duplicate of it into your graveyard.
-  Descend 8 — Exile a permanent card from your graveyard: You may play it. Activate only as a sorcery and only if there are eight or more permanent cards in your graveyard.
-
 ## Chitinous Graspling
 Cost: {3}{g/u} | Type: Creature — Shapeshifter | Color identity: GU | P/T: 3/4 | Commander: legal
 Text: Changeling (This card is every creature type.)
@@ -6693,11 +6616,6 @@ Text: When this creature enters, target opponent puts a card from their hand on 
 ## Chittering Skitterling
 Cost: {2}{b} | Type: Creature — Phyrexian Rat | Color identity: B | P/T: 1/4 | Commander: legal
 Text: Corrupted — Sacrifice an artifact or creature: Draw a card. Activate only if an opponent has three or more poison counters and only once each turn.
-
-## Chittering Skullspeaker
-Cost: {1}{b} | Type: Creature — Squirrel Warlock | Color identity: B | P/T: 1/1 | Commander: legal
-Text: Starting intensity 0
-  When Chittering Skullspeaker enters, cards you own named Chittering Skullspeaker intensify by 1. Then you draw X cards and lose X life, where X is Chittering Skullspeaker's intensity.
 
 ## Chittering Witch
 Cost: {3}{b} | Type: Creature — Human Warlock | Color identity: B | P/T: 2/2 | Commander: legal
@@ -6796,11 +6714,6 @@ Text: Target opponent chooses a number. You may have that player lose that much 
 Ruling (2005-06-01): After the opponent chooses a number, Choice of Damnations' controller may choose to make that opponent either lose that much life or make that opponent sacrifice permanents.
 Ruling (2005-06-01): If the opponent must sacrifice all but a number of permanents, that opponent chooses that many permanents and then sacrifices the rest. If the number chosen is greater than the number of permanents the opponent controls, the player sacrifices nothing.
 
-## Choice of Fortunes
-Cost: {2}{u} | Type: Sorcery | Color identity: U | Commander: legal
-Text: Seek two cards. You may shuffle them into your library. If you do, seek two cards.
-  You have no maximum hand size for the rest of the game.
-
 ## Choke
 Cost: {2}{g} | Type: Enchantment | Color identity: G | Commander: legal
 Text: Islands don't untap during their controllers' untap steps.
@@ -6878,10 +6791,6 @@ Ruling (2023-04-14): If a backup ability targets the creature with backup, that 
 Ruling (2023-04-14): If a permanent enters the battlefield as a copy of a card with a backup ability or a token is created that is a copy of that card, the order of the printed abilities is maintained.
 Ruling (2023-04-14): Once Chomping Kavu has been legally blocked by a creature, changing that creature's power to 2 or less won't undo that block.
 Ruling (2023-04-14): The abilities that backup grants to the target creature are determined only once, at the time the ability triggers. They won't change if the permanent with backup loses any abilities before the backup ability resolves.
-
-## Chomping Mastasaur
-Cost: {4}{r}{r} | Type: Creature — Dinosaur | Color identity: R | P/T: 6/6 | Commander: legal
-Text: Whenever this creature enters or attacks, discard a card, then seek a nonland card. When you discard a card this way, this creature deals damage equal to the discarded card's mana value to any target.
 
 ## Chong and Lily, Nomads
 Cost: {3}{r} | Type: Legendary Creature — Human Bard Ally | Color identity: R | P/T: 3/3 | Commander: legal
@@ -7167,11 +7076,6 @@ Cost: {1}{g}{w} | Type: Creature — Centaur Wizard | Color identity: GW | P/T: 
 Text: When this creature enters, draw a card if you control a creature with a +1/+1 counter on it.
 Ruling (2017-11-17): Whether you control a creature with a +1/+1 counter on it is checked only when Chronicler of Heroes's ability resolves.
 
-## Chronicler of Worship
-Cost: {1}{g} | Type: Creature — Human Monk | Color identity: G | P/T: 1/1 | Commander: legal
-Text: When Chronicler of Worship enters the battlefield, put a random Shrine card from among the top seven cards of your library into your hand. It perpetually gains "This spell costs {1} less to cast." Then shuffle.
-  {T}: Add one mana of any color.
-
 ## Chronomancer
 Cost: {1}{b} | Type: Artifact Creature — Necron Wizard | Color identity: B | P/T: 1/1 | Commander: legal
 Text: Flying
@@ -7419,10 +7323,6 @@ Text: Flying
   {3}{U}: Draw two cards, then discard a card.
 Ruling (2021-11-19): Soulcipher Board's last ability triggers when a creature card is put into a graveyard from anywhere. This is different than an ability that triggers when a creature dies. Notably, a noncreature card on the battlefield that becomes a creature and dies (such as an animated land) won't cause this ability to trigger. Similarly, a creature card on the battlefield that has been made a noncreature permanent (such as one enchanted with Minimus Containment) will cause this ability to trigger when that card is put into your graveyard.
 Ruling (2021-11-19): Token creatures dying never cause Soulcipher Board's last ability to trigger.
-
-## Circadian Struggle
-Cost: {4}{g/u}{g/u} | Type: Instant | Color identity: GU | Commander: legal
-Text: Vivid — Seek X cards that each share a color with one or more permanents you control, where X is the number of colors among permanents you control. For each color among permanents you control, those cards perpetually gain "This spell costs {1} less to cast."
 
 ## Circle of Affliction
 Cost: {1}{b} | Type: Enchantment | Color identity: B | Commander: legal
@@ -8838,10 +8738,6 @@ Ruling (2025-10-02): If the copied creature is a token, Clone copies the origina
 Ruling (2025-10-02): If the copied creature is copying something else (for example, if the copied creature is an Evil Twin), then Clone enters as whatever that creature copied.
 Ruling (2025-10-02): You can choose not to copy anything. In that case, Clone enters as a 0/0 Shapeshifter creature, and is probably put into the graveyard immediately.
 
-## Clone Crafter
-Cost: {1}{u} | Type: Creature — Human Wizard | Color identity: U | P/T: 1/2 | Commander: legal
-Text: When this creature enters, conjure a duplicate of a random creature card from an opponent's library into your hand. It perpetually gains prismatic.
-
 ## Clone Legion
 Cost: {7}{u}{u} | Type: Sorcery | Color identity: U | Commander: legal
 Text: For each creature target player controls, create a token that's a copy of that creature.
@@ -9108,11 +9004,6 @@ Cost: {4}{u} | Type: Creature — Sphinx | Color identity: U | P/T: 3/4 | Comman
 Text: Flying
   When this creature enters, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)
 
-## Cloudsculpt Armorer
-Cost: {3}{u} | Type: Creature — Jellyfish Artificer | Color identity: U | P/T: 3/3 | Commander: legal
-Text: When this creature enters, put a shield counter on target artifact or creature.
-  Whenever one or more counters are removed from a permanent you control, seek a nonland card.
-
 ## Cloudsculpt Technician
 Cost: {2}{u} | Type: Creature — Jellyfish Artificer | Color identity: U | P/T: 1/4 | Commander: legal
 Text: Flying
@@ -9273,12 +9164,6 @@ Text: {2}{R}: This creature deals 1 damage to target creature token, player, or 
 ## Coalhauler Swine
 Cost: {4}{r}{r} | Type: Creature — Boar Beast | Color identity: R | P/T: 4/4 | Commander: legal
 Text: Whenever this creature is dealt damage, it deals that much damage to each player.
-
-## Coalition Construct
-Cost: {3} | Type: Artifact Creature — Construct | Color identity: colorless | P/T: 2/2 | Commander: legal
-Text: As Coalition Construct enters, choose a creature type.
-  Coalition Construct is the chosen type in addition to its other types.
-  When Coalition Construct enters, other creatures you control of the chosen type and creature cards of that type in your hand perpetually get +1/+1.
 
 ## Coalition Flag
 Cost: {w} | Type: Enchantment — Aura | Color identity: W | Commander: legal
@@ -9663,10 +9548,6 @@ Text: Draft this card face up.
 Ruling (2014-05-29): Cogwork Librarian essentially lets you draft two cards from a booster pack in exchange for putting Cogwork Librarian back into that booster pack.
 Ruling (2014-05-29): The two cards you draft are drafted one at a time, in case one of the cards cares about when it was drafted or what the next card you draft is.
 Ruling (2014-05-29): You may use the ability of more than one Cogwork Librarian while drafting from one booster pack. For example you can draft three cards from one booster pack and put two Cogwork Librarians into that booster pack.
-
-## Cogwork Progenitor
-Cost: {1}{w} | Type: Artifact Creature — Gnome | Color identity: W | P/T: 2/2 | Commander: legal
-Text: At the beginning of your end step, you may exile another artifact you control or an artifact card in your graveyard. If you do, seek an artifact card. That card perpetually has base power and toughness 1/1 and becomes a Gnome creature in addition to its other types.
 
 ## Cogwork Spy
 Cost: {3} | Type: Artifact Creature — Bird Construct | Color identity: colorless | P/T: 2/1 | Commander: legal
@@ -10102,12 +9983,6 @@ Ruling (2022-06-10): If an object becomes a copy of an object that has an Advent
 Ruling (2022-06-10): If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell.
 Ruling (2022-06-10): When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
 Ruling (2022-06-10): You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
-
-## Colossal Chorus
-Cost: {6}{g}{g} | Type: Sorcery — Chorus | Color identity: G | Commander: legal
-Text: Starting intensity 2
-  Conjure X cards named Colossal Dreadmaw onto the battlefield, where X is this spell's intensity.
-  All Chorus cards you own intensify by 1.
 
 ## Colossal Collision
 Cost: {3}{g} | Type: Sorcery | Color identity: G | Commander: legal
@@ -11196,10 +11071,6 @@ Cost: {4}{r} | Type: Instant | Color identity: R | Commander: legal
 Text: Conduct Electricity deals 6 damage to target creature and 2 damage to up to one target creature token.
 Ruling (2024-07-26): The two targets can be the same creature as long as that creature is a token.
 
-## Conductive Current
-Cost: {r}{r}{r} | Type: Sorcery | Color identity: R | Commander: legal
-Text: Conductive Current deals 3 damage to each creature. Choose an instant or sorcery card in your hand. It perpetually gains "If this spell would deal noncombat damage to a permanent or player, it deals that much damage plus 2 instead."
-
 ## Conductive Machete
 Cost: {4} | Type: Artifact — Equipment | Color identity: colorless | Commander: legal
 Text: When this Equipment enters, manifest dread, then attach this Equipment to that creature. (Look at the top two cards of your library. Put one onto the battlefield face down as a 2/2 creature and the other into your graveyard. Turn it face up any time for its mana cost if it's a creature card.)
@@ -11813,11 +11684,6 @@ Cost: {2}{b} | Type: Enchantment — Plan | Color identity: B | Commander: legal
 Text: Whenever you draw your second card each turn, create a 2/1 black Villain creature token with menace and put a plan counter on this enchantment.
   When the seventh plan counter is put on this enchantment, sacrifice it. When you do, you control target opponent during their next turn. (You see all cards that player could see and make all decisions for them.)
 
-## Construction Arsonist
-Cost: {1}{r} | Type: Creature — Goblin Rogue Wizard | Color identity: R | P/T: 2/2 | Commander: legal
-Text: When Construction Arsonist enters, you may choose an instant or sorcery card in your hand. If you do, that card perpetually incorporates {R} and gains "When you cast this spell, it deals 2 damage to each opponent."
-  Whenever you cast a multicolored spell, Construction Arsonist gets +1/+1 until end of turn for each of that spell's colors.
-
 ## Consul's Lieutenant
 Cost: {w}{w} | Type: Creature — Human Soldier | Color identity: W | P/T: 2/1 | Commander: legal
 Text: First strike
@@ -11963,11 +11829,6 @@ Ruling (2024-07-26): In the main set, there are four different kinds of gifts. "
 Ruling (2024-07-26): Some instant or sorcery spells require alternative or additional targets if the gift was promised. You ignore these targeting requirements if the gifts aren't promised for those spells. On the other hand, you can promise a gift for a permanent spell even if you won't be able to choose targets for an enters ability of that permanent once the spell resolves.
 Ruling (2024-07-26): You can't pay a gift cost more than once.
 
-## Consumed by History
-Cost: {1}{r} | Type: Sorcery | Color identity: R | Commander: legal
-Text: Until end of turn, whenever a nontoken creature dies, it perpetually gains unearth {5}.
-  Consumed by History deals 3 damage to each creature.
-
 ## Consuming Aberration
 Cost: {3}{u}{b} | Type: Creature — Horror | Color identity: BU | P/T: */* | Commander: legal
 Text: Consuming Aberration's power and toughness are each equal to the number of cards in your opponents' graveyards.
@@ -12030,11 +11891,6 @@ Text: Enchant creature
   Enchanted creature gets +3/+3 and has "At the beginning of your upkeep, put a -1/-1 counter on this creature."
 Ruling (2017-04-18): If Consuming Fervor is removed, the enchanted creature keeps the -1/-1 counters but loses the +3/+3 bonus.
 Ruling (2017-04-18): If one creature is enchanted with two Consuming Fervors, it has the triggered ability twice and it gets two -1/-1 counters at the beginning of your upkeep.
-
-## Consuming Oni
-Cost: {2}{b}{b} | Type: Creature — Ogre Demon | Color identity: B | P/T: 6/6 | Commander: legal
-Text: Flying, menace
-  At the beginning of your end step, a random nonland card in your hand perpetually gains "When you cast this spell, you lose 3 life."
 
 ## Consuming Rage
 Cost: — | Type: Sorcery | Color identity: colorless | Commander: legal
@@ -12124,11 +11980,6 @@ Ruling (2023-02-04): If a player or permanent has more than one kind of counter 
 Ruling (2023-02-04): Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
 Ruling (2023-02-04): To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
 Ruling (2023-02-04): You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
-
-## Contagion Dispenser
-Cost: {2}{g}{u} | Type: Artifact | Color identity: GU | Commander: legal
-Text: When Contagion Dispenser enters, proliferate.
-  Whenever you proliferate during your turn, draft a card from Contagion Dispenser's spellbook. This ability triggers only once each turn.
 
 ## Contagion Engine
 Cost: {6} | Type: Artifact | Color identity: colorless | Commander: legal
@@ -13045,12 +12896,6 @@ Ruling (2023-11-10): Some cards refer to a player who has "descended this turn."
 Ruling (2023-11-10): Some cards refer to the number of times a player descended this turn. Those cards care about the number of permanent cards put into that player's graveyard from anywhere this turn.
 Ruling (2023-11-10): You decide to pay 1 life as the last ability is resolving. If you decide to pay 1 life and Corpses of the Lost is still on the battlefield, it will immediately return to its owner's hand. No player may take any actions in between you deciding to pay life and it returning this way.
 
-## Corpseweaver Prodigy
-Cost: {2}{b} | Type: Creature — Treefolk Warlock | Color identity: B | P/T: 2/4 | Commander: legal
-Text: Deathtouch
-  If a creature an opponent controls would die, exile it instead.
-  Infusion — At the beginning of your second main phase, if you gained life this turn, conjure a card named Bridge from Below into your graveyard.
-
 ## Corpseweft
 Cost: {2}{b} | Type: Enchantment | Color identity: B | Commander: legal
 Text: {1}{B}, Exile one or more creature cards from your graveyard: Create a tapped X/X black Zombie Horror creature token, where X is twice the number of cards exiled this way.
@@ -13257,12 +13102,6 @@ Ruling (2024-07-26): The token copies exactly what was printed on the original c
 Ruling (2024-07-26): The token created by the offspring ability isn't "cast", so abilities that trigger when a creature spell is cast won't trigger for the copy.
 Ruling (2024-07-26): You can pay an offspring cost only once as you cast a spell with offspring. You can't try to pay it multiple times to get more token copies.
 
-## Corvid Squall
-Cost: {1}{u} | Type: Sorcery | Color identity: U | Commander: legal
-Faces: Galathul Galecaller // Corvid Squall (prepare)
-Text: Conjure a card named Storm Crow onto the battlefield.
-  Storm
-
 ## Cosi's Ravager
 Cost: {3}{r} | Type: Creature — Elemental | Color identity: R | P/T: 2/2 | Commander: legal
 Text: Landfall — Whenever a land you control enters, you may have this creature deal 1 damage to target player or planeswalker.
@@ -13345,12 +13184,6 @@ Cost: {1}{g}{w} | Type: Instant | Color identity: GW | Commander: legal
 Text: Choose target permanent card in your graveyard. If it has mana value 3 or less, you may put it onto the battlefield. If you don't put it onto the battlefield, put it into your hand.
   You gain 3 life.
 Ruling (2023-05-12): You put the card into your hand if you didn't put it onto the battlefield because you chose not to or because its mana value was 4 or greater.
-
-## Cosmic Sovereign
-Cost: {3}{r}{r} | Type: Creature — Dragon | Color identity: R | P/T: 3/4 | Commander: legal
-Text: Flying, Haste
-  {R}: This creature gets +1/+0 until end of turn.
-  At the beginning of combat on your turn, conjure a random creature card with mana value X onto the battlefield, where X is this creature's power. That creature gains haste. Exile it at the beginning of the next end step.
 
 ## Cosmic Spider-Man
 Cost: {w}{u}{b}{r}{g} | Type: Legendary Creature — Spider Human Hero | Color identity: BGRUW | P/T: 5/5 | Commander: legal
@@ -13461,10 +13294,6 @@ Ruling (2025-09-19): The +1/+1 counters on Costume Closet won't affect it unless
 ## Costume Shop
 Cost: — | Type: Artifact — Attraction | Color identity: colorless | Commander: legal
 Text: Visit — You may put a sticker on a nonland permanent you own.
-
-## Cottontail Caretaker
-Cost: {1}{w} | Type: Creature — Rabbit Citizen | Color identity: W | P/T: 2/2 | Commander: legal
-Text: When Cottontail Caretaker enters, choose a white creature card in your hand. That card perpetually gains offspring {1}.
 
 ## Council Guardian
 Cost: {5}{w} | Type: Creature — Giant Soldier | Color identity: W | P/T: 5/5 | Commander: legal
@@ -14614,12 +14443,6 @@ Ruling (2021-02-05): Once Craven Hulk has been declared as a blocking creature, 
 Cost: {1}{b} | Type: Creature — Human Knight | Color identity: B | P/T: 2/2 | Commander: legal
 Text: This creature can't block.
 
-## Craving of Yeenoghu
-Cost: {2}{r} | Type: Enchantment — Aura | Color identity: R | Commander: legal
-Text: Enchant creature you control
-  Enchanted creature gets +3/+2, has haste, and attacks each combat if able.
-  {R}: Return Craving of Yeenoghu from your graveyard to the battlefield attached to target creature you control. Craving of Yeenoghu perpetually gains "Enchanted creature gets -1/-1." Activate only as a sorcery.
-
 ## Craw Giant
 Cost: {3}{g}{g}{g}{g} | Type: Creature — Giant | Color identity: G | P/T: 6/4 | Commander: legal
 Text: Trample
@@ -14868,12 +14691,6 @@ Text: This land enters tapped.
   When this land enters, it deals 1 damage to target opponent.
   {T}: Add {G} or {W}.
 Ruling (2024-04-12): Desert is a land subtype with no special meaning. It doesn't grant the land an intrinsic mana ability. Other cards may care about which lands are Deserts.
-
-## Crescendo Conductor
-Cost: {1}{r} | Type: Creature — Orc Sorcerer | Color identity: R | P/T: 2/2 | Commander: legal
-Faces: Crescendo Conductor // Boltwave (Prepared) (prepare)
-Text: Reach
-  Whenever you conjure one or more cards, this creature becomes prepared.
 
 ## Crescendo of War
 Cost: {3}{w} | Type: Enchantment | Color identity: W | Commander: legal
@@ -15483,10 +15300,6 @@ Ruling (2016-08-23): The game starts with no monarch. Once an effect makes one p
 Cost: {3}{g} | Type: Creature — Rhino | Color identity: G | P/T: 4/3 | Commander: legal
 Text: Trample
   Each creature you control with a +1/+1 counter on it has trample.
-
-## Crucias, Titan of the Waves
-Cost: {1}{b}{r} | Type: Legendary Creature — Human Pirate | Color identity: BR | P/T: 3/1 | Commander: legal
-Text: At the beginning of your end step, you may discard a card. If you do, create a Treasure token and choose ambitious or expedient. If you chose ambitious, seek a card with greater mana value than the discarded card. If you chose expedient, seek a card with lesser mana value than the discarded card.
 
 ## Crucible of Fire
 Cost: {3}{r} | Type: Enchantment | Color identity: R | Commander: legal
@@ -16622,13 +16435,6 @@ Cost: {3}{b} | Type: Creature — Human Advisor | Color identity: B | P/T: 1/1 |
 Text: {T}: Target opponent discards a card. Activate only during your turn, before attackers are declared.
 Ruling (2013-09-20): If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
 
-## Cunning Azurescale
-Cost: {5}{u} | Type: Creature — Dragon | Color identity: U | P/T: 5/5 | Commander: legal
-Faces: Cunning Azurescale // Divining Dive (adventure)
-Text: Flash
-  Flying
-  When this creature enters, secretly choose land or nonland. Seek two cards of the chosen kind.
-
 ## Cunning Bandit
 Cost: {1}{r}{r} | Type: Creature — Human Warrior | Color identity: R | P/T: 2/2 | Commander: legal
 Faces: Cunning Bandit // Azamuki, Treachery Incarnate (flip)
@@ -16938,11 +16744,6 @@ Cost: {1} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: Whenever you discard a card, you may exile that card from your graveyard.
   {2}, {T}: Draw a card, then discard a card.
   {T}: Put a card exiled with this artifact into its owner's graveyard. If it's a land card, create a Treasure token. If it's a nonland card, create a 2/2 black Rogue creature token.
-
-## Current Curriculum
-Cost: {1}{w} | Type: Enchantment | Color identity: W | Commander: legal
-Text: The first Merfolk spell you cast each turn has convoke.
-  At the beginning of your end step, if you control two or more tapped creatures, conjure a card named Stonybrook Schoolmaster onto the battlefield tapped.
 
 ## Curry Favor
 Cost: {b} | Type: Sorcery — Adventure | Color identity: B | Commander: legal
@@ -17304,10 +17105,6 @@ Ruling (2010-06-15): If a player casts a spell of the chosen color, Curse of Wiz
 Cost: {2}{r}{r} | Type: Creature — Demon | Color identity: R | P/T: 4/4 | Commander: legal
 Text: Flying, trample
   When this creature enters, search your library for a card, put it into your hand, shuffle, then discard a card at random.
-
-## Cursebound Witch
-Cost: {b} | Type: Creature — Human Warlock | Color identity: B | P/T: 1/2 | Commander: legal
-Text: When Cursebound Witch dies, draft a card from Cursebound Witch's spellbook.
 
 ## Cursebreak
 Cost: {1}{w} | Type: Instant | Color identity: W | Commander: legal

@@ -584,13 +584,6 @@ Text: During your turn, equipped creature gets +2/+0 and has first strike. (It d
 Cost: {4}{g}{g} | Type: Legendary Creature — Treefolk | Color identity: G | P/T: 5/6 | Commander: legal
 Text: Whenever Quickbeam or another Treefolk you control enters, up to two target creatures each get +2/+2 and gain trample until end of turn.
 
-## Quickbeast Amulet
-Cost: {g}{w} | Type: Artifact — Equipment | Color identity: GW | Commander: legal
-Text: Starting intensity 0
-  Equipped creature gets +X/+X, where X is this Equipment's intensity.
-  Whenever a creature you control enters, this Equipment intensifies by X, where X is that creature's power.
-  Equip {2}
-
 ## Quickchange
 Cost: {1}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Target creature becomes the color or colors of your choice until end of turn.
@@ -695,10 +688,6 @@ Ruling (2011-06-01): If the chosen creature has a characteristic-defining abilit
 ## Quicksilver Geyser
 Cost: {4}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Return up to two target nonland permanents to their owners' hands.
-
-## Quicksilver Lapidary
-Cost: {u}{r} | Type: Creature — Phyrexian Artificer | Color identity: RU | P/T: 1/1 | Commander: legal
-Text: When Quicksilver Lapidary enters, conjure a card named Mox Opal into your hand.
 
 ## Quicksilver Servitor
 Cost: {2}{u} | Type: Creature — Phyrexian Cleric | Color identity: U | P/T: 3/3 | Commander: legal
@@ -879,13 +868,6 @@ Ruling (2023-11-10): The mana value of a split card is determined by the combine
 Ruling (2023-11-10): When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
 Ruling (2023-11-10): You exile the cards face up. All players will be able to see them.
 Ruling (2023-11-10): You must follow all normal timing rules for a card you play with Quintorius Kand's last ability and, if it's a spell, you must pay its costs to cast it.
-
-## Quintorius, Fate Splitter
-Cost: {3}{w}{u} | Type: Legendary Planeswalker — Quintorius | Color identity: UW | Loyalty/Defense: 5 | Commander: legal
-Text: As long as Quintorius entered this turn, you may activate the loyalty abilities of planeswalkers you control twice this turn rather than only once.
-  [0]: Proliferate. You gain 3 life.
-  [−1]: Seek a non-Quintorius planeswalker card.
-  [−3]: Create a 2/2 colorless Wizard Soldier creature token named Cadet. Then put a +1/+1 counter on each creature you control.
 
 ## Quintorius, Field Historian
 Cost: {3}{r}{w} | Type: Legendary Creature — Elephant Cleric | Color identity: RW | P/T: 2/4 | Commander: legal

@@ -825,12 +825,6 @@ Cost: {7}{u}{u} | Type: Creature — Dragon Turtle | Color identity: U | P/T: 7/
 Text: This spell costs {1} less to cast for each card you own in exile and in your graveyard that's an instant card, a sorcery card, or a card that has an Adventure.
   Ward {4} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {4}.)
 
-## Saint Elenda
-Cost: {4}{w}{w}{w} | Type: Legendary Creature — Vampire Cleric | Color identity: W | P/T: 4/7 | Commander: legal
-Text: Lifelink
-  When Saint Elenda enters, conjure a card of your choice from Saint Elenda's spellbook into your hand. You may cast that card this turn without paying its mana cost.
-  At the beginning of your end step, if you gained life this turn, create an X/X white Avatar creature token, where X is the amount of life you gained this turn.
-
 ## Saint Traft and Rem Karolus
 Cost: {u}{r}{w} | Type: Legendary Creature — Spirit Human | Color identity: RUW | P/T: 3/4 | Commander: legal
 Text: Whenever Saint Traft and Rem Karolus becomes tapped, create a 1/1 red Human creature token if this is the first time this ability has resolved this turn. If it's the second time, create a 1/1 blue Spirit creature token with flying. If it's the third time, create a 4/4 white Angel creature token with flying.
@@ -943,13 +937,6 @@ Text: At the beginning of your upkeep, add {G}. Until end of turn, you don't los
 Cost: {1}{u}{r} | Type: Legendary Creature — Squid Pirate | Color identity: RU | P/T: 3/3 | Commander: legal
 Text: Each creature you control with an exhaust ability has haste.
   Whenever you activate an exhaust ability that isn't a mana ability, copy it. You may choose new targets for the copy.
-
-## Salacinder and Soot, Rascals
-Cost: {2}{u}{r} | Type: Legendary Creature — Elemental | Color identity: RU | P/T: 3/3 | Commander: legal
-Text: Prowess, Trample
-  When Salacinder and Soot enters and whenever you cast an Elemental spell, choose one —
-  • Conjure a card named Rite of Flame into your hand.
-  • Conjure a card named Take Inventory into your hand.
 
 ## Salivating Gremlins
 Cost: {2}{r} | Type: Creature — Gremlin | Color identity: R | P/T: 2/3 | Commander: legal
@@ -1073,10 +1060,6 @@ Text: You may sacrifice three artifacts rather than pay this spell's mana cost.
 Ruling (2020-08-07): Casting Salvage Titan by paying its alternative cost doesn't change when you can cast it. You can cast it only at the normal time you could cast a creature spell.
 Ruling (2020-08-07): To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as Salvage Titan's alternative cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
 Ruling (2020-08-07): You may activate its second ability only if Salvage Titan is in your graveyard. To pay this ability's cost, you may exile any three artifact cards from your graveyard—including Salvage Titan itself. If you exile it to pay the cost, however, it won't be returned to your hand when the ability resolves.
-
-## Salvaged Imitations
-Cost: {x}{r}{g} | Type: Sorcery | Color identity: GR | Commander: legal
-Text: For each number between 1 and X, conjure a random artifact card with that mana value onto the battlefield. X can't be 0.
 
 ## Salvaged Manaworker
 Cost: {2} | Type: Artifact Creature — Construct | Color identity: colorless | P/T: 1/3 | Commander: legal
@@ -1659,11 +1642,6 @@ Ruling (2025-10-02): You may target a land that is already a creature, perhaps b
 Cost: {2}{w} | Type: Instant | Color identity: W | Commander: legal
 Text: Sandblast deals 5 damage to target attacking or blocking creature.
 
-## Sandcloud Harbinger
-Cost: {2}{w} | Type: Creature — Elemental Horse | Color identity: W | P/T: 2/4 | Commander: legal
-Text: When Sandcloud Harbinger enters, conjure three cards named Sunscorched Desert into the top ten cards of each player's library at random.
-  Whenever a player plays a Desert, that player draws a card and you gain 3 life.
-
 ## Sandcrafter Mage
 Cost: {2}{w} | Type: Creature — Human Wizard | Color identity: W | P/T: 2/2 | Commander: legal
 Text: When this creature enters, bolster 1. (Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)
@@ -1965,11 +1943,6 @@ Cost: {1}{w} | Type: Creature — Vampire Guest | Color identity: W | P/T: 3/1 |
 Text: This creature has lifelink as long as you control a stickered permanent.
 Ruling (2022-10-07): The stickered permanent could be Sanguine Sipper itself or another permanent you control.
 
-## Sanguine Soothsayer
-Cost: {1}{b} | Type: Creature — Bat Cleric | Color identity: B | P/T: 2/2 | Commander: legal
-Text: Flying, lifelink
-  Whenever this creature attacks, conjure a card named Sanguine Bond into the top fifteen cards of your library at random. It perpetually gains "You may pay {0} rather than pay this spell's mana cost" and "When this permanent enters, draw a card."
-
 ## Sanguine Spy
 Cost: {2}{b} | Type: Creature — Vampire Rogue | Color identity: B | P/T: 2/3 | Commander: legal
 Text: Menace, lifelink
@@ -2027,10 +2000,6 @@ Text: As long as an artifact creature you control is attacking, prevent all dama
 Ruling (2022-10-14): If Sanwell, Avenger Ace is somehow an artifact creature, its first ability will see itself while it is attacking.
 Ruling (2022-10-14): If you choose not to cast a spell this way, it goes to the bottom of the library with the other exiled cards. You can't wait and cast it later.
 Ruling (2022-10-14): You must pay all costs for a spell cast using Sanwell's last ability.
-
-## Sap Vitality
-Cost: {b}{b} | Type: Instant | Color identity: B | Commander: legal
-Text: Sap Vitality deals 3 damage to target creature or planeswalker. Choose a creature card in your hand. It perpetually gets +3/+0.
 
 ## Sapling Nursery
 Cost: {6}{g}{g} | Type: Enchantment | Color identity: G | Commander: legal
@@ -2213,11 +2182,6 @@ Text: First strike, trample
 Cost: {1}{r} | Type: Creature — Minotaur Barbarian | Color identity: R | P/T: 0/4 | Commander: legal
 Text: As long as it's your turn and you control four or more Mountains, this creature gets +X/+0, where X is the number of Mountains you control.
 
-## Sarevok the Usurper
-Cost: {3}{b} | Type: Legendary Creature — Human Knight | Color identity: B | P/T: 3/3 | Commander: legal
-Text: Specialize {3}
-  At the beginning of combat on your turn, target creature you control gets +X/+0 until end of turn, where X is the number of creature cards in your graveyard.
-
 ## Sarevok's Tome
 Cost: {4} | Type: Artifact — Book | Color identity: colorless | Commander: legal
 Text: When this artifact enters, you take the initiative.
@@ -2233,11 +2197,6 @@ Ruling (2022-06-10): Similarly, when instructed to venture into Undercity, you c
 Ruling (2022-06-10): The initiative is a designation a player can have. A player with the initiative designation is said to "have the initiative." The initiative carries two inherent rules. First, whenever a player takes the initiative, and at the beginning of the upkeep of the player with the initiative, that player ventures into Undercity. Second, whenever one or more creatures a player controls deal combat damage to the player who has the initiative, the first player takes the initiative. Also, some abilities will refer to having the initiative and provide other benefits.
 Ruling (2022-06-10): There is no initiative in a game until an effect instructs a player to take the initiative. Once a player is instructed to do this, they have the initiative until another player takes the initiative.
 Ruling (2022-06-10): You cannot venture into Undercity unless instructed to do so, either because you have the initiative at the beginning of your upkeep or because you take the initiative. Notably, if you aren't in a dungeon and an effect instructs you to venture into the dungeon (not venture into Undercity), you can't start Undercity.
-
-## Sarevok, Deadly Usurper
-Cost: {3}{b}{b} | Type: Legendary Creature — Human Knight | Color identity: B | P/T: 4/4 | Commander: legal
-Text: When this creature specializes, seek a creature card and put it into your graveyard, then conjure two duplicates of it into your graveyard.
-  At the beginning of combat on your turn, target creature you control gets +X/+0 until end of turn, where X is the number of creature cards in your graveyard.
 
 ## Sarevok, Deathbringer
 Cost: {3}{b} | Type: Legendary Creature — Human Knight | Color identity: B | P/T: 3/4 | Commander: legal
@@ -2410,12 +2369,6 @@ Text: [+1]: Until end of turn, Sarkhan becomes a legendary 4/4 red Dragon creatu
 Ruling (2014-09-20): Any loyalty counters on Sarkhan when his first ability resolves will remain on him while he's a creature. Because he's not a planeswalker at this time, damage dealt to him won't cause those counters to be removed.
 Ruling (2014-09-20): If Sarkhan, the Dragonspeaker becomes a creature due to his first ability, that doesn't count as having a creature enter the battlefield. Sarkhan was already on the battlefield; he only changed his types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
 Ruling (2014-09-20): If a permanent enters the battlefield as a copy of Sarkhan after his first ability has resolved, the copy will be a Sarkhan planeswalker. It will enter the battlefield with four loyalty counters, no matter how many loyalty counters are on the original Sarkhan. You'll then find yourself in the same situation described above.
-
-## Sarkhan, Wanderer to Shiv
-Cost: {3}{r} | Type: Legendary Planeswalker — Sarkhan | Color identity: R | Loyalty/Defense: 4 | Commander: legal
-Text: [+1]: Dragon cards in your hand perpetually gain "This spell costs {1} less to cast," and "You may pay {X} rather than pay this spell's mana cost, where X is its mana value."
-  [+1]: Conjure a card named Shivan Dragon into your hand.
-  [−2]: Sarkhan, Wanderer to Shiv deals 3 damage to target creature.
 
 ## Sarpadian Empires, Vol. VII
 Cost: {3} | Type: Artifact — Book | Color identity: colorless | Commander: legal
@@ -3244,11 +3197,6 @@ Text: This land enters tapped.
   {T}: Add {C}.
   {T}: Add {R} or {W}. This land deals 1 damage to you.
 
-## Scalar Scholar
-Cost: {g}{u} | Type: Creature — Salamander Wizard | Color identity: GU | P/T: 2/2 | Commander: legal
-Text: Increment
-  When this creature enters, each card you own with {X} in its mana cost perpetually gains "This spell costs {1} less to cast."
-
 ## Scald
 Cost: {1}{r} | Type: Enchantment | Color identity: R | Commander: legal
 Text: Whenever a player taps an Island for mana, this enchantment deals 1 damage to that player.
@@ -3395,17 +3343,6 @@ Ruling (2017-08-25): Scalelord Reckoner's triggered ability resolves before the 
 Cost: {2}{b} | Type: Instant | Color identity: B | Commander: legal
 Text: Affinity for Lizards (This spell costs {1} less to cast for each Lizard you control.)
   Target creature gets +2/+0 and gains lifelink and indestructible until end of turn.
-
-## Scalesoul Gnome
-Cost: {3}{r}{w} | Type: Artifact Creature — Gnome | Color identity: RW | P/T: 3/5 | Commander: legal
-Text: Trample, Haste
-  Whenever Scalesoul Gnome deals combat damage to a player, discover X, where X is that damage.
-  Whenever you play a card from exile, conjure a duplicate of it into your hand.
-
-## Scalespeaker Shepherd
-Cost: {2}{g} | Type: Creature — Human Druid | Color identity: G | P/T: 2/1 | Commander: legal
-Text: When Scalespeaker Shepherd enters, draft a card from Scalespeaker Shepherd's spellbook.
-  Dinosaur spells you cast cost {1} less to cast.
 
 ## Scalestorm Summoner
 Cost: {2}{r} | Type: Creature — Human Warlock | Color identity: R | P/T: 3/3 | Commander: legal
@@ -3956,10 +3893,6 @@ Text: {T}: Add {C}.
 Cost: {u}{b} | Type: Legendary Creature — Human Scientist Villain | Color identity: BU | P/T: 2/2 | Commander: legal
 Text: Pay 2 life: Copy target activated or triggered ability you control from an artifact source. You may choose new targets for the copy. Activate only during your turn and only once each turn. (Mana abilities can't be targeted.)
 
-## Scintillating Encore
-Cost: {w/b} | Type: Instant | Color identity: BW | Commander: legal
-Text: Target creature you control perpetually gets +2/+0. When that creature dies this turn, return it to the battlefield tapped under its owner's control.
-
 ## Scion of Calamity
 Cost: {3}{g}{g} | Type: Creature — Dinosaur | Color identity: G | P/T: 5/5 | Commander: legal
 Text: Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)
@@ -4018,11 +3951,6 @@ Cost: {2}{r} | Type: Creature — Vampire Noble | Color identity: R | P/T: 3/1 |
 Text: Whenever this creature or another nontoken Vampire you control dies, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
   {R}, Sacrifice two artifacts: Exile the top card of your library. You may play that card this turn.
 Ruling (2021-11-19): Playing a card this way follows all the normal timing rules for that card. For example, if you play a land this way, you may do so only during your main phase while the stack is empty and only if you haven't yet played a land (unless another effect allows you to play additional lands).
-
-## Scion of Shiv
-Cost: {2}{r}{r} | Type: Creature — Dragon | Color identity: R | P/T: 3/3 | Commander: legal
-Text: Flying
-  {2}{R}: Scion of Shiv perpetually gets +1/+0.
 
 ## Scion of Stygia
 Cost: {2}{u} | Type: Creature — Tiefling Shaman | Color identity: U | P/T: 2/1 | Commander: legal
@@ -4295,11 +4223,6 @@ Cost: {4}{u}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Delirium — This spell costs {2} less to cast if there are four or more card types among cards in your graveyard.
   Draw three cards.
 Ruling (2016-07-13): If an effect allows you to cast Scour the Laboratory from your graveyard, count the number of card types among cards in your graveyard after moving Scour the Laboratory from your graveyard to the stack. If its delirium effect no longer applies, it costs {4}{U}{U} to cast.
-
-## Scour the Scene
-Cost: {w}{u} | Type: Enchantment | Color identity: UW | Commander: legal
-Text: When Scour the Scene enters, create a 2/2 white and blue Detective creature token.
-  Whenever you sacrifice an artifact, choose a creature card in your hand or a creature you control. It perpetually gets +1/+0.
 
 ## Scoured Barrens
 Cost: — | Type: Land | Color identity: BW | Commander: legal
@@ -4939,11 +4862,6 @@ Cost: — | Type: Land — Plains Swamp | Color identity: BW | Commander: legal
 Text: ({T}: Add {W} or {B}.)
 Ruling (2008-10-01): This has basic land types, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do.
 Ruling (2008-10-01): This has the mana abilities associated with both of its basic land types.
-
-## Scrutiny of the Guildpact
-Cost: {1}{w} | Type: Enchantment | Color identity: W | Commander: legal
-Text: When Scrutiny of the Guildpact enters, you may choose a creature card in your hand. If you do, that card perpetually incorporates {W} and gains "When you cast this spell, create a 2/2 white and blue Detective creature token."
-  Multicolored creatures you control get +1/+1.
 
 ## Scryb Ranger
 Cost: {1}{g} | Type: Creature — Faerie Ranger | Color identity: G | P/T: 1/1 | Commander: legal
@@ -5662,11 +5580,6 @@ Cost: {2}{r} | Type: Sorcery | Color identity: R | Commander: legal
 Text: Choose a color. Searing Rays deals damage to each player equal to the number of creatures of that color that player controls.
 Ruling (2004-10-04): You choose the color on resolution. Your opponent does not get to respond between the color choice and the damage happening. They need to use any damage prevention they want before you choose a color.
 
-## Searing Soloist
-Cost: {2}{r}{r} | Type: Creature — Orc Bard | Color identity: R | P/T: 3/3 | Commander: legal
-Text: When this creature enters, conjure a card named Aria of Flame onto the battlefield.
-  If a red source you control would deal damage to a permanent or player, it deals that much damage plus 1 instead.
-
 ## Searing Spear
 Cost: {1}{r} | Type: Instant | Color identity: R | Commander: legal
 Text: Searing Spear deals 3 damage to any target.
@@ -5930,12 +5843,6 @@ Ruling (2016-04-08): You choose which cards to return as Seasons Past resolves, 
 Cost: — | Type: Artifact Land | Color identity: U | Commander: legal
 Text: {T}: Add {U}.
 
-## Seatower Imprisonment
-Cost: {2}{w}{w} | Type: Enchantment — Aura | Color identity: W | Commander: legal
-Text: Enchant creature or planeswalker you don't control
-  When this enchantment enters, conjure a card named Soldiers of the Watch onto the battlefield.
-  Enchanted permanent can't attack or block, and its activated abilities can't be activated.
-
 ## Secluded Courtyard
 Cost: — | Type: Land | Color identity: colorless | Commander: legal
 Text: As this land enters, choose a creature type.
@@ -5988,10 +5895,6 @@ Cost: {2}{g}{g} | Type: Instant | Color identity: G | Commander: legal
 Text: For each token you control, create a token that's a copy of that permanent.
 Ruling (2025-01-24): Second Harvest copies all tokens, not only creature tokens.
 Ruling (2025-01-24): Second Harvest copies the original characteristics of each token as stated by the effect that created that token. It doesn't copy whether that token is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
-
-## Second Little Pig
-Cost: {1}{w/b} | Type: Creature — Boar | Color identity: BW | P/T: 2/3 | Commander: legal
-Text: {2}{W/B}{W/B}: Second Little Pig perpetually becomes a Boar Spirit with base power and toughness 4/4 and gains flying. Activate only if Second Little Pig isn't a Spirit.
 
 ## Second Sight
 Cost: {2}{u} | Type: Instant | Color identity: U | Commander: legal
@@ -6508,10 +6411,6 @@ Ruling (2022-12-08): If you copy a spell that's half of a split card, the copy c
 Ruling (2022-12-08): Split cards have two card faces on a single card. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
 Ruling (2022-12-08): To cast a split card, choose one of its halves to cast. There's no way to cast both halves of this split card.
 
-## Seek New Knowledge
-Cost: {1}{u} | Type: Instant | Color identity: U | Commander: legal
-Text: Seek two nonland cards, then put a card from your hand on the bottom of your library.
-
 ## Seek the Beast
 Cost: {1}{r} | Type: Instant — Adventure | Color identity: GR | Commander: legal
 Faces: Questing Druid // Seek the Beast (adventure)
@@ -6671,11 +6570,6 @@ Text: {T}: Add {C}.
 ## Seething Pathblazer
 Cost: {2}{r} | Type: Creature — Elemental Warrior | Color identity: R | P/T: 2/2 | Commander: legal
 Text: Sacrifice an Elemental: This creature gets +2/+0 and gains first strike until end of turn.
-
-## Seething Skitter-Priest
-Cost: {2}{w}{b} | Type: Creature — Phyrexian Cleric | Color identity: BW | P/T: 3/3 | Commander: legal
-Text: Toxic 1
-  When Seething Skitter-Priest enters, creatures you control and creature cards in your hand perpetually gain "When this creature dies, create a 1/1 colorless Phyrexian Mite artifact creature token with toxic 1 and 'This creature can't block.'"
 
 ## Seething Song
 Cost: {2}{r} | Type: Instant | Color identity: R | Commander: legal
@@ -7124,10 +7018,6 @@ Cost: {3}{w}{w} | Type: Creature — Human Cleric | Color identity: W | P/T: 3/4
 Text: {T}: Exile target creature card from a graveyard. That card deals damage equal to its power to this creature.
 Ruling (2013-04-15): The reminder text printed on Selfless Exorcist is no longer correct. Abilities that define a creature's power (and toughness) apply in every zone. The value of * is defined by such an ability.
 
-## Selfless Germinator
-Cost: {g} | Type: Creature — Treefolk Druid | Color identity: G | P/T: 2/1 | Commander: legal
-Text: Exhaust — {1}: Conjure a card named Seed of Hope into your hand.
-
 ## Selfless Glyphweaver
 Cost: {2}{w} | Type: Creature — Human Cleric | Color identity: BW | P/T: 2/3 | Commander: legal
 Faces: Selfless Glyphweaver // Deadly Vanity (modaldfc)
@@ -7265,11 +7155,6 @@ Ruling (2011-01-01): Semblance Anvil takes the total cost to cast a spell into a
 Ruling (2011-01-01): Semblance Anvil won't affect the part of a spell's cost represented by colored mana symbols. For example, a spell that normally costs {1}{U} to cast would cost {U} if it shared a card type with the exiled card.
 Ruling (2011-01-01): Semblance Anvil's cost reduction effect is mandatory.
 Ruling (2011-01-01): Spells you cast that share multiple card types with the exiled card still cost just {2} less to cast. They don't get a greater cost reduction.
-
-## Semblance Scanner
-Cost: {2}{u} | Type: Artifact Creature — Equipment Shapeshifter | Color identity: U | P/T: 3/2 | Commander: legal
-Text: Whenever Semblance Scanner or equipped creature deals combat damage to a player, if it's not a token, conjure a duplicate of it into your hand.
-  Reconfigure {1} ({1}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)
 
 ## Semester Foreseer
 Cost: {3}{u} | Type: Creature — Human Wizard | Color identity: UW | P/T: 3/4 | Commander: legal
@@ -8413,10 +8298,6 @@ Ruling (2018-04-27): Both loyalty counters must be put onto the same planeswalke
 Ruling (2018-04-27): If the target creature is an illegal target by the time Settle the Score tries to resolve, the spell doesn't resolve. You won't put loyalty counters on a planeswalker.
 Ruling (2018-04-27): You don't choose which planeswalker receives loyalty counters until Settle the Score resolves. If you don't control a planeswalker, you'll simply exile the target creature and not put loyalty counters on anything.
 
-## Settle the Wilds
-Cost: {2}{g} | Type: Sorcery | Color identity: G | Commander: legal
-Text: Seek a basic land card and put it onto the battlefield tapped. Then seek a permanent card with mana value equal to the number of lands you control.
-
 ## Settle the Wreckage
 Cost: {2}{w}{w} | Type: Instant | Color identity: W | Commander: legal
 Text: Exile all attacking creatures target player controls. That player may search their library for that many basic land cards, put those cards onto the battlefield tapped, then shuffle.
@@ -8541,10 +8422,6 @@ Text: As this creature enters, choose a player.
   Sewer Nemesis's power and toughness are each equal to the number of cards in the chosen player's graveyard.
   Whenever the chosen player casts a spell, that player mills a card.
 Ruling (2011-09-22): If the chosen player leaves the game, Sewer Nemesis's power and toughness each become 0. Unless another effect is raising its toughness above 0, it will be put into its owner's graveyard as a state-based action.
-
-## Sewer Plague
-Cost: {2}{b} | Type: Instant | Color identity: B | Commander: legal
-Text: Target creature an opponent controls perpetually gets -2/-2 and gains "At the beginning of each upkeep, this creature perpetually gets -1/-1."
 
 ## Sewer Rats
 Cost: {b} | Type: Creature — Rat | Color identity: B | P/T: 1/1 | Commander: legal
@@ -8954,12 +8831,6 @@ Ruling (2022-06-10): If your Commander deck has two commanders, you can include 
 Ruling (2022-06-10): If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
 Ruling (2022-06-10): Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won't usually be a creature anyway).
 Ruling (2022-06-10): You can choose two commanders that are the same color or colors.
-
-## Shadowheart, Sharran Cleric
-Cost: {1}{b} | Type: Legendary Creature — Human Elf Cleric | Color identity: B | P/T: 2/2 | Commander: legal
-Text: Deathtouch
-  Specialize {2}. Activate only if a player has 13 or less life.
-  At the beginning of your end step, Shadowheart, Sharran Cleric deals 1 damage to each player.
 
 ## Shadowmage Infiltrator
 Cost: {1}{u}{b} | Type: Creature — Human Wizard | Color identity: BU | P/T: 1/3 | Commander: legal
@@ -9777,15 +9648,6 @@ Text: {2}{B}, Sacrifice a creature: Each other player sacrifices a creature.
 Cost: {1}{r/w} | Type: Instant | Color identity: RW | Commander: legal
 Text: Exile target artifact.
 
-## Shattering Finale
-Cost: {1}{b} | Type: Sorcery | Color identity: B | Commander: legal
-Text: Casualty 1 (As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell and you may choose a new target for the copy.)
-  Target creature an opponent controls perpetually gets -0/-3.
-Ruling (2022-04-29): Casualty N means "As an additional cost to cast this spell, you may sacrifice a creature with power N or greater." and "When you cast this spell, if a casualty cost was paid for it, copy it. If the spell has any targets, you may choose new targets for the copy."
-Ruling (2022-04-29): If you pay the casualty cost of a spell, the copy will resolve before the original spell.
-Ruling (2022-04-29): The copy of the spell is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger.
-Ruling (2022-04-29): You may sacrifice only one creature to pay a spell's casualty cost, and you copy the spell only once.
-
 ## Shattering Pulse
 Cost: {1}{r} | Type: Instant | Color identity: R | Commander: legal
 Text: Buyback {3} (You may pay an additional {3} as you cast this spell. If you do, put this card into your hand as it resolves.)
@@ -10015,11 +9877,6 @@ Ruling (2022-04-29): Any player who has controlled a permanent with a hideaway a
 Ruling (2022-04-29): Hideaway now causes you to put the rest of the cards on the bottom of your library in a random order instead of any order.
 Ruling (2022-04-29): Previously, permanents with hideaway entered the battlefield tapped. This ability has been removed from the definition of hideaway. Older cards have received errata to have an additional paragraph that reads "[This permanent] enters the battlefield tapped," and they now have hideaway 4.
 
-## Shellfish Scholar
-Cost: {1}{u} | Type: Creature — Rat Wizard | Color identity: U | P/T: 2/2 | Commander: legal
-Text: Whenever Shellfish Scholar or another Rat you control enters, conjure a card named Think Twice into your graveyard.
-  Threshold — {T}: Spells you cast from your graveyard this turn cost {2} less to cast. Activate only if seven or more cards are in your graveyard.
-
 ## Shellshock
 Cost: {x}{r} | Type: Instant | Color identity: R | Commander: legal
 Text: For each opponent, choose up to one target creature that player controls. Shellshock deals X damage to each of those creatures. You create a Mutagen token for each creature dealt damage this way. (They're artifacts with "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery.")
@@ -10149,11 +10006,6 @@ Ruling (2023-04-14): Once you've activated Sheoldred's last ability, it doesn't 
 Ruling (2023-04-14): To resolve Sheoldred's enters-the-battlefield ability in a multiplayer game, the next opponent in turn order (or, if it's an opponent's turn, the opponent whose turn it is) chooses a creature they control to sacrifice. Then each other opponent in turn order does the same. Then those creatures are sacrificed at the same time.
 Ruling (2023-04-14): To resolve chapter II of The True Scriptures in a multiplayer game, the next opponent in turn order (or, if it's an opponent's turn, the opponent whose turn it is) chooses three cards in hand. Any opponent who has fewer than three cards in hand chooses all cards they have in hand. They set the chosen cards aside without revealing them. Then each other opponent in turn order does the same. Next, all chosen cards are revealed and discarded at the same time. Then, each opponent mills three cards.
 Ruling (2023-04-14): You can activate Sheoldred's last ability if any opponent has eight or more cards in their graveyard, not necessarily all of them.
-
-## Sheoldred's Assimilator
-Cost: {1}{b} | Type: Creature — Phyrexian Horror | Color identity: B | P/T: 3/1 | Commander: legal
-Text: Menace
-  Whenever Sheoldred's Assimilator enters or attacks, exile up to one target card from a graveyard. If a card is exiled this way, you may conjure a duplicate of that card into the top five cards of your library at random.
 
 ## Sheoldred's Edict
 Cost: {1}{b} | Type: Instant | Color identity: B | Commander: legal
@@ -11236,11 +11088,6 @@ Text: Flying
 Cost: {3}{b} | Type: Creature — Surrakar | Color identity: B | P/T: 3/3 | Commander: legal
 Text: Whenever this creature deals combat damage to a player, if you control an Island, you may draw a card.
 
-## Shoreline Scout
-Cost: {u} | Type: Creature — Merfolk Scout | Color identity: U | P/T: 1/1 | Commander: legal
-Text: When Shoreline Scout enters the battlefield, you may exile a Merfolk card or a land card from your hand. If you do, conjure a card named Tropical Island into your hand.
-  As long as another Merfolk or an Island entered the battlefield under your control this turn, Shoreline Scout gets +1/+0.
-
 ## Shorikai, Genesis Engine
 Cost: {2}{w}{u} | Type: Legendary Artifact — Vehicle | Color identity: UW | P/T: 8/8 | Commander: legal
 Text: {1}, {T}: Draw two cards, then discard a card. Create a 1/1 colorless Pilot creature token with "This token crews Vehicles as though its power were 2 greater."
@@ -11814,10 +11661,6 @@ Text: Delve (Each card you exile from your graveyard while casting this spell pa
 Ruling (2021-03-19): Because delve isn't an alternative cost, it can be used in conjunction with alternative costs, such as flashback. It can also be used to pay for additional costs that include generic mana.
 Ruling (2021-03-19): Delve doesn't change a spell's mana cost or mana value. For example, Treasure Cruise's mana value is 8 even if you exiled three cards to cast it.
 Ruling (2021-03-19): You can exile cards to pay only for generic mana, and you can't exile more cards than the generic mana requirement of a spell with delve. For example, you can't exile more than seven cards from your graveyard to cast Treasure Cruise unless an effect has increased its cost.
-
-## Sibsig's Artisan
-Cost: {1}{b} | Type: Creature — Human Artificer | Color identity: B | P/T: 3/2 | Commander: legal
-Text: Renew — {1}{B}{B}, Exile this card from your graveyard: Put three +1/+1 counters on target creature you control. It perpetually gains this ability. Activate only as a sorcery.
 
 ## Sibylline Soothsayer
 Cost: {2}{r} | Type: Creature — Human Warlock | Color identity: R | P/T: 3/2 | Commander: legal
@@ -12526,11 +12369,6 @@ Ruling (2024-06-07): An Aura controlled by another player does not cause a creat
 Ruling (2024-06-07): If the creature you control is an illegal target as Signature Slam tries to resolve but the creature you don't control is still a legal target, each modified creature you control (which may include the target creature you control if it's still on the battlefield) will still deal damage equal to its power to the creature you don't control.
 Ruling (2024-06-07): If the creature you don't control is an illegal target as Signature Slam tries to resolve but the creature you control is a legal target, you'll still put a +1/+1 counter on the target creature you control.
 
-## Signature Spells
-Cost: {4}{u}{u} | Type: Enchantment | Color identity: U | Commander: legal
-Text: When Signature Spells enters the battlefield, seek two instant and/or sorcery cards with mana value 3, then exile them.
-  At the beginning of your upkeep, you may copy a card exiled with Signature Spells. You may cast the copy without paying its mana cost.
-
 ## Signpost Scarecrow
 Cost: {4} | Type: Artifact Creature — Scarecrow | Color identity: colorless | P/T: 2/4 | Commander: legal
 Text: Vigilance
@@ -12641,11 +12479,6 @@ Ruling (2024-11-08): If a card with flashback is put into your graveyard during 
 Ruling (2024-11-08): To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
 Ruling (2024-11-08): You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
 Ruling (2024-11-08): You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
-
-## Silent Extraction
-Cost: {g}{u} | Type: Instant | Color identity: GU | Commander: legal
-Text: Choose target spell. Counter that spell unless its controller pays {2}.
-  Threshold — If seven or more cards are in your graveyard, seek a creature card with the same mana value as the chosen spell.
 
 ## Silent Gravestone
 Cost: {1} | Type: Artifact | Color identity: colorless | Commander: legal
@@ -12963,10 +12796,6 @@ Text: When this creature enters, draw a card, then discard a card. If you discar
 Ruling (2026-06-29): A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
 Ruling (2026-06-29): A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
 Ruling (2026-06-29): Whenever a land you control enters, each landfall ability of permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve (as a result, you can have those abilities resolve in the order of your choosing).
-
-## Silvanus's Invoker
-Cost: {2}{g} | Type: Creature — Dragon Druid | Color identity: G | P/T: 3/2 | Commander: legal
-Text: Conjure Elemental — {8}: Untap target land you control. It becomes an 8/8 Elemental creature with trample and haste until end of turn. It's still a land.
 
 ## Silvar, Devourer of the Free
 Cost: {3}{b}{r} | Type: Legendary Creature — Cat Nightmare | Color identity: BR | P/T: 4/2 | Commander: legal
@@ -13464,11 +13293,6 @@ Ruling (2022-12-08): If you copy a spell that's half of a split card, the copy c
 Ruling (2022-12-08): Split cards have two card faces on a single card. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
 Ruling (2022-12-08): To cast a split card, choose one of its halves to cast. There's no way to cast both halves of this split card.
 
-## Simple Subtraction
-Cost: {1}{u} | Type: Instant | Color identity: BU | Commander: legal
-Faces: Zimone the Calculating // Simple Subtraction (prepare)
-Text: Target creature perpetually gets -3/-0.
-
 ## Simplify
 Cost: {g} | Type: Sorcery | Color identity: G | Commander: legal
 Text: Each player sacrifices an enchantment of their choice.
@@ -13632,10 +13456,6 @@ Ruling (2024-07-26): The beginning of combat step happens every turn, even if th
 Cost: {b} | Type: Enchantment — Aura | Color identity: B | Commander: legal
 Text: Enchant creature
   Whenever enchanted creature attacks or blocks, its controller loses 2 life.
-
-## Sinister Reflections
-Cost: {1}{u} | Type: Instant | Color identity: U | Commander: legal
-Text: Conjure a duplicate of each of up to two target nontoken creatures you control into your hand.
 
 ## Sinister Sabotage
 Cost: {1}{u}{u} | Type: Instant | Color identity: U | Commander: legal
@@ -14087,11 +13907,6 @@ Text: Menace
 Cost: {4}{g}{u} | Type: Legendary Creature — Dragon Ranger | Color identity: GU | P/T: 4/4 | Commander: legal
 Text: Flying
   Whenever Skanos, Blue Dragon Vassal attacks, another target attacking creature gains flying and gets +X/+0 until end of turn, where X is Skanos's power.
-
-## Skanos, Dragon Vassal
-Cost: {4}{g} | Type: Legendary Creature — Dragon Ranger | Color identity: G | P/T: 4/4 | Commander: legal
-Text: Specialize {4}
-  Whenever Skanos, Dragon Vassal attacks, another target attacking creature gets +X/+0 until end of turn, where X is Skanos's power.
 
 ## Skanos, Green Dragon Vassal
 Cost: {4}{g}{g} | Type: Legendary Creature — Dragon Ranger | Color identity: G | P/T: 6/6 | Commander: legal
@@ -14848,12 +14663,6 @@ Text: Devour 1 (As this creature enters, you may sacrifice any number of creatur
   When this creature enters, draw a card for each creature it devoured.
 Ruling (2020-08-07): Because devour applies as Skullmulcher enters the battlefield, it can't devour creatures that enter the battlefield at the same time as it.
 
-## Skullpiercer Gnat
-Cost: {g}{u} | Type: Creature — Phyrexian Insect | Color identity: GU | P/T: 1/1 | Commander: legal
-Text: Flying
-  Toxic 1
-  Whenever Skullpiercer Gnat deals combat damage to a player, a random nonland card in that player's hand perpetually gains "When you cast this spell, you get a poison counter."
-
 ## Skullport Merchant
 Cost: {2}{b} | Type: Creature — Dwarf Citizen | Color identity: B | P/T: 1/4 | Commander: legal
 Text: When this creature enters, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
@@ -15337,11 +15146,6 @@ Cost: {4}{u}{u} | Type: Creature — Drake | Color identity: U | P/T: 3/4 | Comm
 Text: Flash (You may cast this spell any time you could cast an instant.)
   Flying
 
-## Skyline Savior
-Cost: {1}{w}{w} | Type: Creature — Angel | Color identity: W | P/T: 3/4 | Commander: legal
-Text: Flying
-  When this creature enters, return a permanent you control to its owner's hand. If it's a non-Angel creature card, it perpetually gets +1/+1, gains flying, and becomes an Angel in addition to its other types.
-
 ## Skyline Scout
 Cost: {1}{w} | Type: Creature — Human Scout | Color identity: W | P/T: 2/1 | Commander: legal
 Text: Whenever this creature attacks, you may pay {1}{W}. If you do, it gains flying until end of turn.
@@ -15529,11 +15333,6 @@ Text: This land enters tapped.
   {T}: Add {C}.
   {T}: Add {G} or {U}. This land deals 1 damage to you.
 
-## Skyshroud Lookout
-Cost: {1}{g} | Type: Creature — Elf Archer | Color identity: G | P/T: 1/1 | Commander: legal
-Text: Reach
-  When this creature enters, seek an Elf card.
-
 ## Skyshroud Poacher
 Cost: {2}{g}{g} | Type: Creature — Human Rebel | Color identity: G | P/T: 2/2 | Commander: legal
 Text: {3}, {T}: Search your library for an Elf permanent card, put it onto the battlefield, then shuffle.
@@ -15720,11 +15519,6 @@ Cost: {3}{u} | Type: Enchantment | Color identity: U | Commander: legal
 Text: Whenever you cast a noncreature spell, you may pay {1}{U}. If you do, create a 2/2 blue Djinn Monk creature token with flying.
 Ruling (2017-11-17): While resolving the triggered ability of Skywise Teachings, you can't pay {1}{U} multiple times to create more tokens.
 
-## Skywriter Djinn
-Cost: {3}{u} | Type: Creature — Djinn | Color identity: U | P/T: 3/4 | Commander: legal
-Text: Flying
-  Domain — When Skywriter Djinn enters, conjure a random card from Skywriter Djinn's spellbook into your hand. Then if you have fewer cards in hand than the number of basic land types among lands you control, repeat this process.
-
 ## Slab Hammer
 Cost: {2} | Type: Artifact — Equipment | Color identity: colorless | Commander: legal
 Text: Whenever equipped creature attacks, you may return a land you control to its owner's hand. If you do, the creature gets +2/+2 until end of turn.
@@ -15905,12 +15699,6 @@ Cost: {3}{w} | Type: Creature — Human Soldier | Color identity: W | P/T: 3/2 |
 Text: When this creature enters, you may destroy target Vampire, Werewolf, or Zombie.
 Ruling (2011-09-22): If you control the only Vampire, Werewolf, or Zombie, you must target it with Slayer of the Wicked's ability. You choose whether or not to destroy the target when the ability resolves.
 
-## Slayer's Bounty
-Cost: {w} | Type: Legendary Artifact — Clue | Color identity: W | Commander: legal
-Text: When Slayer's Bounty enters the battlefield, look at the creature cards in target opponent's hand.
-  Whenever you sacrifice Slayer's Bounty or another Clue, draft a card from Slayer's Bounty's spellbook.
-  {2}, Sacrifice Slayer's Bounty: Draw a card.
-
 ## Slayer's Cleaver
 Cost: {3} | Type: Artifact — Equipment | Color identity: colorless | Commander: legal
 Text: Equipped creature gets +3/+1 and must be blocked by an Eldrazi if able.
@@ -16060,11 +15848,6 @@ Ruling (2004-10-04): It can't change a word to the same word. It must be a diffe
 Ruling (2004-10-04): It only changes what is printed on the card (or set on a token when it was created or set by a copy effect). It will not change any effects that are on the permanent.
 Ruling (2004-10-04): You can't Sleight proper nouns (i.e. card names). This means that you can't affect a "Black Vise".
 Ruling (2004-10-04): You choose the words to change on resolution.
-
-## Sleuth Instructor
-Cost: {1}{w} | Type: Creature — Elephant Detective | Color identity: W | P/T: 3/2 | Commander: legal
-Text: Disguise {1}{W}
-  Whenever Sleuth Instructor or another permanent you control is turned face up, seek a non-Elephant creature card with mana value 3 or less and cloak it. This ability triggers only once.
 
 ## Slice and Dice
 Cost: {4}{r}{r} | Type: Sorcery | Color identity: R | Commander: legal
@@ -16232,10 +16015,6 @@ Ruling (2022-09-09): The basic land types are Plains, Island, Swamp, Mountain, a
 Ruling (2022-09-09): The value of X is determined after you put the lands you searched for onto the battlefield.
 Ruling (2022-09-09): When searching your library this way, you may find cards that are not basic lands as long as they have one or more of the basic land types. The basic land types are Plains, Island, Swamp, Mountain, and Forest.
 Ruling (2022-09-09): You may search for two cards with the same basic land type or different basic land types.
-
-## Slimefoot, Thallid Transplant
-Cost: {b}{g} | Type: Legendary Creature — Fungus | Color identity: BG | P/T: 2/2 | Commander: legal
-Text: Whenever a Swamp or Forest enters under your control, draft a card from Slimefoot, Thallid Transplant's spellbook.
 
 ## Slimefoot, the Stowaway
 Cost: {1}{b}{g} | Type: Legendary Creature — Fungus | Color identity: BG | P/T: 2/3 | Commander: legal
@@ -16567,12 +16346,6 @@ Text: {3}: Search your library for a Sliver card, reveal that card, put it into 
 ## Sliver Queen
 Cost: {w}{u}{b}{r}{g} | Type: Legendary Creature — Sliver | Color identity: BGRUW | P/T: 7/7 | Commander: legal
 Text: {2}: Create a 1/1 colorless Sliver creature token.
-
-## Sliver Weftwinder
-Cost: {w}{u}{b}{r}{g} | Type: Legendary Creature — Sliver | Color identity: BGRUW | P/T: 7/7 | Commander: legal
-Text: Sliver cards in your hand have warp {3}.
-  Sliver creatures you control have "When this creature enters, conjure a random card from the Slivers Spellbook into the top five cards of your library at random, then draw a card."
-  Warp {3}
 
 ## Sliversmith
 Cost: {2} | Type: Artifact Creature — Spellshaper | Color identity: colorless | P/T: 1/1 | Commander: legal
@@ -16935,19 +16708,6 @@ Ruling (2019-10-04): You must still follow any timing restrictions and permissio
 Cost: {4}{b}{b} | Type: Creature — Elemental | Color identity: B | P/T: 3/3 | Commander: legal
 Text: Flying
   Creatures with flying your opponents control get -1/-1.
-
-## Smog Smasher
-Cost: {4}{r} | Type: Creature — Mutant Berserker | Color identity: R | P/T: 4/4 | Commander: legal
-Text: Menace
-  Start your engines!
-  Whenever one or more creatures you control deal combat damage to a player, conjure a duplicate of target nontoken creature into exile.
-  Max speed — At the beginning of combat on your turn, put all cards exiled with this creature onto the battlefield. They gain haste. Sacrifice them at the beginning of the next end step.
-
-## Smogbelcher Chariot
-Cost: {2}{b} | Type: Artifact — Vehicle | Color identity: B | P/T: 3/3 | Commander: legal
-Text: Menace, deathtouch, lifelink
-  Whenever Smogbelcher Chariot attacks, target creature that crewed it this turn perpetually gains your choice of menace, deathtouch, or lifelink.
-  Crew 3
 
 ## Smogsteed Rider
 Cost: {2}{b}{b} | Type: Creature — Human Wizard | Color identity: B | P/T: 2/2 | Commander: legal
@@ -17378,11 +17138,6 @@ Ruling (2026-03-20): If you cast a spell with converge without spending any mana
 Ruling (2026-03-20): The maximum number of colors of mana you can spend to cast a spell is five. Colorless is not a color. Note that the cost of a spell with converge may limit how many colors of mana you can spend.
 Ruling (2026-03-20): Unless a spell or ability allows you to, you can't choose to pay more mana for a spell with a converge ability just to spend more colors of mana. Likewise, if a spell or ability reduces the amount of mana it costs you to cast a spell with converge, you can't ignore that cost reduction in order to spend more colors of mana.
 
-## Snarlfang Vermin
-Cost: {b} | Type: Creature — Rat | Color identity: B | P/T: 2/1 | Commander: legal
-Text: Whenever Snarlfang Vermin deals combat damage to a creature, if that creature is still on the battlefield, suspect that creature. It perpetually gains this ability.
-  Whenever a suspected creature an opponent controls dies while Snarlfang Vermin is in your graveyard, that opponent loses 1 life.
-
 ## Snarling Gorehound
 Cost: {b} | Type: Creature — Dog | Color identity: B | P/T: 1/1 | Commander: legal
 Text: Menace
@@ -17554,10 +17309,6 @@ Ruling (2024-06-07): Wastes is not a land type. If something asks you to name a 
 Cost: {3}{g} | Type: Enchantment — Aura | Color identity: G | Commander: legal
 Text: Enchant creature
   Enchanted creature gets -X/-Y. If that creature is attacking, X is the number of snow lands defending player controls. Otherwise, X is the number of snow lands its controller controls. Y is equal to X or to enchanted creature's toughness minus 1, whichever is smaller.
-
-## Snowborn Simulacra
-Cost: {x}{u}{u} | Type: Sorcery | Color identity: U | Commander: legal
-Text: Conjure a duplicate of each of X target nontoken permanents into your hand. Those cards perpetually gain prismatic. If X is 5 or more, you may put one of them from your hand onto the battlefield.
 
 ## Snowfall
 Cost: {2}{u} | Type: Enchantment | Color identity: U | Commander: legal
@@ -17990,10 +17741,6 @@ Text: Put two +1/+1 counters on target creature. Untap it.
 Cost: {3} | Type: Artifact Creature — Soldier | Color identity: W | P/T: 1/3 | Commander: legal
 Text: {1}{W}, Sacrifice this creature: It deals 3 damage to target attacking or blocking creature.
 
-## Soldiers of the Watch
-Cost: {1}{w} | Type: Creature — Human Soldier | Color identity: W | P/T: 2/1 | Commander: legal
-Text: Double team (When this creature attacks, conjure a duplicate into your hand, then both of them perpetually lose double team.)
-
 ## Solemn Doomguide
 Cost: {3}{b}{b} | Type: Creature — Tiefling Cleric | Color identity: B | P/T: 4/5 | Commander: legal
 Text: Flying
@@ -18096,11 +17843,6 @@ Text: At the beginning of your upkeep, sacrifice this enchantment unless you dis
   Prevent all damage that would be dealt to you.
 Ruling (2021-06-18): Solitary Confinement prevents all damage that would be dealt to you, not just combat damage.
 Ruling (2021-06-18): The draw step happens after the upkeep step. If you choose not to pay Solitary Confinement's upkeep cost, you'll sacrifice it. That turn's draw step will happen.
-
-## Solitary Defiance
-Cost: {2}{u} | Type: Enchantment | Color identity: U | Commander: legal
-Text: As long as you control exactly one creature, that creature has vigilance and ward {2}.
-  Whenever a creature you control attacks alone, seek two nonland cards, then discard a card.
 
 ## Solitary Hunter
 Cost: {3}{g} | Type: Creature — Human Warrior Werewolf | Color identity: G | P/T: 3/4 | Commander: legal
@@ -18373,15 +18115,6 @@ Ruling (2021-07-23): Some effects may modify the result of a die roll. This may 
 Ruling (2021-07-23): The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
 Ruling (2021-07-23): Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.
 Ruling (2021-07-23): While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
-
-## Song of Point Prime
-Cost: {1}{b} | Type: Sorcery | Color identity: B | Commander: legal
-Text: Each opponent sacrifices a creature of their choice.
-  Conjure a card named Cantor of the Refrain into your graveyard.
-
-## Song of Seasons
-Cost: {1}{r}{g} | Type: Sorcery | Color identity: GR | Commander: legal
-Text: Seek a Mountain card, a Forest card, and a non-Mountain, non-Forest land card. Put one of them onto the battlefield and put one of them into your graveyard.
 
 ## Song of Serenity
 Cost: {1}{g} | Type: Enchantment | Color identity: G | Commander: legal
@@ -19250,10 +18983,6 @@ Ruling (2025-01-24): The Spirit token has the color and mana cost (and thus mana
 Ruling (2025-01-24): The Spirit token will be on the battlefield before the Zombie token enters.
 Ruling (2025-01-24): The power and toughness of the Zombie token are set as it's created based on the card as it last existed in your graveyard. They won't update if the exiled card's power and toughness change.
 
-## Soul Servitude
-Cost: {2}{b} | Type: Instant | Color identity: B | Commander: legal
-Text: Target player sacrifices a nontoken creature of their choice. When they do, you may discard a card. If you do, conjure a duplicate of the sacrificed creature into your hand. It perpetually gains prismatic.
-
 ## Soul Shatter
 Cost: {2}{b} | Type: Instant | Color identity: B | Commander: legal
 Text: Each opponent sacrifices a creature or planeswalker with the greatest mana value among creatures and planeswalkers they control.
@@ -19266,13 +18995,6 @@ Text: {W}, Exile a creature card from your graveyard: You gain 1 life.
 ## Soul Shred
 Cost: {3}{b}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Soul Shred deals 3 damage to target nonblack creature. You gain 3 life.
-
-## Soul Shredder
-Cost: {2} | Type: Artifact — Vehicle | Color identity: colorless | P/T: 2/2 | Commander: legal
-Text: Haste
-  Whenever one or more other creatures die, Soul Shredder perpetually gets +1/+1. This ability also triggers if Soul Shredder is in your graveyard.
-  Crew 1
-  {1}, Sacrifice two creatures: Return Soul Shredder from your graveyard to the battlefield. Activate only as a sorcery.
 
 ## Soul Snare
 Cost: {w} | Type: Enchantment | Color identity: W | Commander: legal
@@ -19686,12 +19408,6 @@ Text: Destroy all nonartifact permanents.
 Cost: {b} | Type: Instant | Color identity: B | Commander: legal
 Text: Target creature you control gets +X/+0 until end of turn, where X is the number of creature cards in your graveyard. Sacrifice that creature at the beginning of the next end step.
 
-## Soulstealer Axe
-Cost: {1} | Type: Artifact — Equipment | Color identity: colorless | Commander: legal
-Text: Equipped creature has trample.
-  Whenever equipped creature deals combat damage to a player, seek a card with mana value equal to that damage.
-  Equip {2}
-
 ## Soulstinger
 Cost: {3}{b} | Type: Creature — Scorpion Demon | Color identity: B | P/T: 4/5 | Commander: legal
 Text: When this creature enters, put two -1/-1 counters on target creature you control.
@@ -19988,17 +19704,6 @@ Text: When this creature enters, target creature an opponent controls can't atta
 Ruling (2022-04-29): If Spara's Adjudicators is removed from exile without being cast, the land will continue to have this ability.
 Ruling (2022-04-29): You may use the mana ability Spara's Adjudicators grants to the land while casting Spara's Adjudicators from exile.
 
-## Spara's Bodyguard
-Cost: {g}{w}{u} | Type: Creature — Rhino Warrior | Color identity: GUW | P/T: 3/3 | Commander: legal
-Text: When Spara's Bodyguard enters the battlefield, you may choose a creature card in your hand. If you do, it perpetually gains "This creature enters the battlefield with an additional shield counter on it." Otherwise, put a shield counter on Spara's Bodyguard. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
-  At the beginning of each combat, Spara's Bodyguard gets +1/+1 until end of turn for each shield counter among other creatures you control.
-Ruling (2022-04-29): "Shield" is not an ability that creatures have and shield counters are not keyword counters. If a creature with a shield counter loses its abilities, the shield counter will still protect it as normal.
-Ruling (2022-04-29): A creature with a shield counter on it may still be destroyed by state-based actions if it has damage marked on it equal to its toughness or has been dealt unpreventable damage by a source with deathtouch.
-Ruling (2022-04-29): If a permanent that would be dealt damage has more than one shield counter on it, that damage is prevented and only one shield counter is removed.
-Ruling (2022-04-29): If a permanent with a shield counter is dealt unpreventable damage, that damage will be dealt and a shield counter will still be removed.
-Ruling (2022-04-29): Removing a shield counter in this way isn't the same as regenerating a creature.
-Ruling (2022-04-29): Shield counters don't prevent players from sacrificing creatures.
-
 ## Spara's Headquarters
 Cost: — | Type: Land — Forest Plains Island | Color identity: GUW | Commander: legal
 Text: ({T}: Add {G}, {W}, or {U}.)
@@ -20273,10 +19978,6 @@ Cost: {2} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: Sacrifice a creature: Put a charge counter on this artifact.
   {1}, Remove two charge counters from this artifact: Create a 2/2 colorless Spawn artifact creature token.
 
-## Spawning Pod
-Cost: {2}{g} | Type: Artifact | Color identity: G | Commander: legal
-Text: {1}, {T}, Sacrifice a creature: Seek a creature card with mana value equal to 1 plus the sacrificed creature's mana value and put that card onto the battlefield. That creature is a Phyrexian in addition to its other types. Activate only as a sorcery.
-
 ## Spawning Pool
 Cost: — | Type: Land | Color identity: B | Commander: legal
 Text: This land enters tapped.
@@ -20401,11 +20102,6 @@ Text: Flying
 Ruling (2021-04-16): If there is an {X} in the spell's mana cost, use the chosen value for X to determine its mana value. For example, if you cast a sorcery with mana cost {X}{U} and choose 4 for X, its mana value is 5.
 Ruling (2021-04-16): Spectacle Mage's second ability can't reduce the colored mana requirements in spells you cast.
 Ruling (2021-04-16): Spectacle Mage's second ability only looks at the mana value of a spell, not the cost you're paying for it. For example, if you control two Spectacle Mages and cast a sorcery with mana cost {4}{U}, the cost will be reduced to {2}{U}.
-
-## Spectacle of Destruction
-Cost: {1}{b} | Type: Enchantment | Color identity: B | Commander: legal
-Text: Whenever one or more creatures die, put a wreck counter on this enchantment.
-  At the beginning of your upkeep, if this enchantment has one or more wreck counters on it, remove a wreck counter from it and seek a nonland card.
 
 ## Spectacle Summit
 Cost: — | Type: Land | Color identity: RU | Commander: legal
@@ -20853,15 +20549,6 @@ Text: This spell can't be countered.
 Ruling (2009-05-01): Any spells or abilities that would counter Spellbreaker Behemoth or (once it's on the battlefield) a creature spell you control with power 5 or greater can still be cast or activated and will still resolve. They just won't counter that spell. Any other effects they have will happen as normal.
 Ruling (2009-05-01): Effects that affect a creature's power (such as the one from Glorious Anthem, for example) apply only to creatures on the battlefield, not to creature spells on the stack.
 Ruling (2009-05-01): If a creature card has "*" in its power, the ability that defines "*" works in all zones, including the stack.
-
-## Spellchain Scatter
-Cost: {r} | Type: Instant | Color identity: RU | Commander: legal
-Text: Kicker {U}
-  When you next cast an instant or sorcery spell this turn, conjure a duplicate of that spell into your hand. If this spell wasn't kicked, discard the duplicate at the beginning of your next end step.
-
-## Spelldrain Assassin
-Cost: {u}{b}{r} | Type: Creature — Vampire Assassin | Color identity: BRU | P/T: 3/3 | Commander: legal
-Text: When Spelldrain Assassin enters the battlefield, choose an instant or sorcery card in your hand. It perpetually gains casualty 2. (As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell and you may choose a new target for the copy.)
 
 ## Spelleater Wolverine
 Cost: {2}{r} | Type: Creature — Wolverine | Color identity: R | P/T: 3/2 | Commander: legal
@@ -22108,14 +21795,6 @@ Text: Flying
   When this creature enters, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.
 Ruling (2017-02-09): Spire Patrol's ability can target a creature that's already tapped. That creature won't untap during its controller's next untap step.
 
-## Spire Phantasm
-Cost: {2}{u}{u} | Type: Creature — Gargoyle Illusion | Color identity: U | P/T: 3/2 | Commander: legal
-Text: Reveal this card as you draft it. The next time a player drafts a card from this booster pack, guess that card's name. Then that player reveals the drafted card.
-  Flying
-  When this creature enters, if you guessed correctly for a card named Spire Phantasm, draw a card.
-Ruling (2016-08-23): If Spire Phantasm is the last card drafted from a booster pack, no guessing game will be played.
-Ruling (2016-08-23): Typically, the next player will set aside the card they intend to draft, you'll make your guess, then the card will be revealed. You can make your guess before the player drafts a card to make things weird more interesting.
-
 ## Spire Serpent
 Cost: {4}{u} | Type: Creature — Serpent | Color identity: U | P/T: 3/5 | Commander: legal
 Text: Defender
@@ -22373,12 +22052,6 @@ Ruling (2026-03-20): While copies of spells in zones other than the stack cease 
 ## Spirited Companion
 Cost: {1}{w} | Type: Enchantment Creature — Dog | Color identity: W | P/T: 1/1 | Commander: legal
 Text: When this creature enters, draw a card.
-
-## Spirited Simulacrum
-Cost: {4} | Type: Artifact Creature — Robot | Color identity: colorless | P/T: 2/1 | Commander: legal
-Text: When this creature enters, seek a land card and put it onto the battlefield tapped.
-  When this creature leaves the battlefield, seek a nonland card.
-  Warp {4}
 
 ## Spiritmonger
 Cost: {3}{b}{g} | Type: Creature — Beast | Color identity: BG | P/T: 6/6 | Commander: legal
@@ -22978,3 +22651,177 @@ Text: During your turn, this creature gets +0/+2.
 ## Sporecap Spider
 Cost: {2}{g} | Type: Creature — Spider | Color identity: G | P/T: 1/5 | Commander: legal
 Text: Reach
+
+## Sporecrown Thallid
+Cost: {1}{g} | Type: Creature — Fungus | Color identity: G | P/T: 2/2 | Commander: legal
+Text: Each other creature you control that's a Fungus or Saproling gets +1/+1.
+Ruling (2018-04-27): Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to a Fungus or Saproling creature you control may become lethal if Sporecrown Thallid leaves the battlefield during that turn.
+Ruling (2018-04-27): If a creature is somehow both a Fungus and a Saproling, Sporecrown Thallid's ability gives it only +1/+1.
+
+## Sporemound
+Cost: {3}{g}{g} | Type: Creature — Fungus | Color identity: G | P/T: 3/3 | Commander: legal
+Text: Landfall — Whenever a land you control enters, create a 1/1 green Saproling creature token.
+Ruling (2013-07-01): Sporemound's ability triggers whenever you play a land and also whenever a land enters the battlefield under your control for some other reason, such as the ability of Into the Wilds.
+
+## Sporesower Thallid
+Cost: {2}{g}{g} | Type: Creature — Fungus | Color identity: G | P/T: 4/4 | Commander: legal
+Text: At the beginning of your upkeep, put a spore counter on each Fungus you control.
+  Remove three spore counters from this creature: Create a 1/1 green Saproling creature token.
+Ruling (2006-09-25): Sporesower Thallid's triggered ability will put a spore counter on each Fungus creature you control, even if that Fungus doesn't have any abilities that makes use of them.
+
+## Sporeweb Weaver
+Cost: {2}{g} | Type: Creature — Spider | Color identity: G | P/T: 1/4 | Commander: legal
+Text: Reach, hexproof from blue
+  Whenever this creature is dealt damage, you gain 1 life and create a 1/1 green Saproling creature token.
+Ruling (2020-06-23): Hexproof from blue means that Sporeweb Weaver can't be the target of blue spells your opponents control or abilities your opponents control of blue sources.
+Ruling (2020-06-23): If your life total is brought to 0 or less at the same time that Sporeweb Weaver is dealt damage, you lose the game before the ability goes on the stack.
+Ruling (2020-06-23): Sporeweb Weaver's last ability triggers even if the damage causes it to die.
+Ruling (2020-06-23): Sporeweb Weaver's last ability triggers just once, no matter how many things deal how much damage to it at once (most likely because two or more creatures blocked it).
+
+## Sporocyst
+Cost: {x}{x}{g} | Type: Creature — Tyranid | Color identity: G | P/T: 0/0 | Commander: legal
+Text: Ravenous (This creature enters with X +1/+1 counters on it. If X is 5 or more, draw a card when it enters.)
+  Defender
+  Spore Chimney — When this creature enters, search your library for up to X basic land cards, put them onto the battlefield tapped, then shuffle.
+Ruling (2022-10-07): A creature with ravenous gets its counters as it enters the battlefield. It doesn't enter the battlefield first and then get its counters. Any triggered ability that looks for a creature with a certain power or toughness entering the battlefield will see the counters when it checks to see if it should trigger.
+Ruling (2022-10-07): If a permanent spell with ravenous is copied, the copy will have the same value for X, and the token permanent that the spell becomes as it enters the battlefield will enter with X counters.
+Ruling (2022-10-07): If another permanent enters the battlefield as a copy of a creature with Ravenous, it will not enter with any counters from the ravenous ability.
+Ruling (2022-10-07): The triggered ability that checks to see if X is 5 or greater refers to the value of X that was chosen as the spell was cast, which may be different from the number of counters it entered with if there are replacement effects involved. This is also true for any other ability that it has which refers to X and triggers when it enters the battlefield.
+
+## Sporogenesis
+Cost: {3}{g} | Type: Enchantment | Color identity: G | Commander: legal
+Text: At the beginning of your upkeep, you may put a fungus counter on target nontoken creature.
+  Whenever a creature with a fungus counter on it dies, create a 1/1 green Saproling creature token for each fungus counter on that creature.
+  When this enchantment leaves the battlefield, remove all fungus counters from all creatures.
+Ruling (2004-10-04): Adding a counter is optional. If you forget to add one during your upkeep, you cannot back up and add one later.
+Ruling (2004-10-04): If a non-creature with fungus counters on it leaves the battlefield, there is no effect.
+Ruling (2004-10-04): If more than one Sporogenesis is on the battlefield and a creature with fungus counters on it leaves the battlefield, each Sporogenesis will put a Saproling onto the battlefield for each counter. In other words if there are N copies of Sporogenesis and the creature had M fungus counters, you get N * M Saprolings.
+Ruling (2004-10-04): If one Sporogenesis leaves the battlefield, all fungus counters are removed even if other Sporogenesis cards are on the battlefield.
+
+## Sporogenic Infection
+Cost: {1}{b} | Type: Enchantment — Aura | Color identity: B | Commander: legal
+Text: Enchant creature
+  When this Aura enters, target player sacrifices a creature of their choice other than enchanted creature.
+  When enchanted creature is dealt damage, destroy it.
+Ruling (2024-09-20): Sporogenic Infection's second ability can target any player, not just the controller of the enchanted creature.
+
+## Sporoloth Ancient
+Cost: {3}{g}{g} | Type: Creature — Fungus | Color identity: G | P/T: 4/4 | Commander: legal
+Text: At the beginning of your upkeep, put a spore counter on this creature.
+  Creatures you control have "Remove two spore counters from this creature: Create a 1/1 green Saproling creature token."
+Ruling (2007-05-01): All creatures you control gain the ability, regardless of whether they have spore counters on them, which means for example, they would lose the bonus from Muraganda Petroglyphs.
+Ruling (2007-05-01): Your other creatures that produce spore counters (such as Thallids) can create a Saproling by removing two spore counters (by using this ability) or by removing three spore counters (by using their own ability).
+
+## Spotcycle Scouter
+Cost: {1}{w} | Type: Artifact — Vehicle | Color identity: W | P/T: 3/2 | Commander: legal
+Text: When this Vehicle enters, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)
+  Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)
+
+## Spotted Griffin
+Cost: {3}{w} | Type: Creature — Griffin | Color identity: W | P/T: 2/3 | Commander: legal
+Text: Flying
+
+## Spotter Thopter
+Cost: {8} | Type: Artifact Creature — Thopter | Color identity: U | P/T: 4/5 | Commander: legal
+Text: Prototype {3}{U} — 2/3 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)
+  Flying
+  When this creature enters, scry X, where X is its power.
+Ruling (2022-10-14): A prototype card is a colorless card in every zone except the stack or the battlefield, as well as while on the stack or the battlefield if not cast as a prototyped spell. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Blitz Automaton is a colorless creature card with mana value 7. It can't be the target of Recommission, a spell that targets an artifact or creature card with mana value 3 or less in your graveyard.
+Ruling (2022-10-14): Casting a prototyped spell isn't the same as casting it for an alternative cost, and an alternative cost may be applied to a spell cast this way. For example, if an effect allows you to cast an artifact card without paying its mana cost, you could either cast Blitz Automaton normally, or as a prototyped spell.
+Ruling (2022-10-14): If an effect copies a prototyped spell, that copy (as well as the token it becomes on the battlefield) will have the same characteristics as the prototyped spell. Similarly, if an effect creates a token that's a copy of a prototyped permanent or causes another permanent to become a copy of it, the copy would have the same characteristics as the prototyped permanent.
+Ruling (2022-10-14): Regardless of how it was cast, a prototype card always has the same name, abilities, types, and so on. Only the mana cost, mana value, color, power, and toughness change depending on whether the card was cast as a prototyped spell.
+Ruling (2022-10-14): The prototype ability functions in any zone that the spell could be cast from. For example, if an effect allows you to cast artifact spells from your graveyard, you could cast a prototyped Blitz Automaton from your graveyard.
+Ruling (2022-10-14): Use Spotter Thopter's power at the time its triggered ability resolves (not the time it triggered) to determine the value of X. If Spotter Thopter is no longer on the battlefield at the time the ability resolves, use its power as it existed the last time it was on the battlefield.
+Ruling (2022-10-14): When cast as a prototyped spell, that spell has the mana cost, power, and toughness characteristics shown in its colored, secondary text box rather than the normal values of those characteristics. Its color and mana value are determined by that mana cost. The permanent that spell becomes as it resolves has the same characteristics. If the spell leaves the stack in any other way, or the permanent it becomes leaves the battlefield, it immediately resumes using its normal characteristics.
+Ruling (2022-10-14): When casting a prototyped spell, use only its prototype characteristics to determine whether it's legal to cast it. For example, if Blitz Automaton is exiled with the last ability of Chandra, Dressed to Kill, you would be able to cast it for {2}{R} (because it's a red spell), even though you wouldn't be able to cast it as a colorless spell for its normal cost.
+
+## Spread the Sickness
+Cost: {4}{b} | Type: Sorcery | Color identity: B | Commander: legal
+Text: Destroy target creature, then proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
+Ruling (2011-06-01): If the creature is an illegal target when Spread the Sickness tries to resolve, the spell doesn't resolve. You won't proliferate.
+Ruling (2013-07-01): If the creature regenerates or has indestructible when Spread the Sickness resolves, you'll still proliferate.
+Ruling (2023-02-04): An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+Ruling (2023-02-04): If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+Ruling (2023-02-04): If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+Ruling (2023-02-04): Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+Ruling (2023-02-04): To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+Ruling (2023-02-04): You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+
+## Spreading Algae
+Cost: {g} | Type: Enchantment — Aura | Color identity: G | Commander: legal
+Text: Enchant Swamp
+  When enchanted land becomes tapped, destroy it.
+  When this Aura is put into a graveyard from the battlefield, return it to its owner's hand.
+Ruling (2008-04-01): This card now has Enchant Swamp, which works exactly like any other Enchant ability. This means it can only be cast targeting a Swamp, and it will be put into its owner's graveyard if the permanent it's attached to ever stops being a Swamp.
+
+## Spreading Flames
+Cost: {6}{r} | Type: Instant | Color identity: R | Commander: legal
+Text: Spreading Flames deals 6 damage divided as you choose among any number of target creatures.
+Ruling (2016-07-13): If Spreading Flames has multiple targets, and some, but not all, are illegal targets when Spreading Flames tries to resolve, Spreading Flames will still deal damage to the remaining legal targets according to the original damage division. If all the targets are illegal, the spell won't resolve.
+Ruling (2016-07-13): You announce how the damage will be divided as part of casting Spreading Flames. Each chosen target must receive at least 1 damage.
+
+## Spreading Insurrection
+Cost: {4}{r} | Type: Sorcery | Color identity: R | Commander: legal
+Text: Gain control of target creature you don't control until end of turn. Untap that creature. It gains haste until end of turn.
+  Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)
+Ruling (2021-06-18): A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won't affect the copies.
+Ruling (2021-06-18): If a spell with storm has targets, you may choose new targets for any of the copies. You can make different choices for each copy.
+Ruling (2021-06-18): Spells cast from zones other than a player's hand and spells that were countered or otherwise failed to resolve are counted by the storm ability.
+Ruling (2021-06-18): The copies are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn.
+Ruling (2021-06-18): The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack.
+
+## Spreading Plague
+Cost: {4}{b} | Type: Enchantment | Color identity: B | Commander: legal
+Text: Whenever a creature enters, destroy all other creatures that share a color with it. They can't be regenerated.
+
+## Spreading Rot
+Cost: {4}{b} | Type: Sorcery | Color identity: B | Commander: legal
+Text: Destroy target land. Its controller loses 2 life.
+
+## Spreading Seas
+Cost: {1}{u} | Type: Enchantment — Aura | Color identity: U | Commander: legal
+Text: Enchant land
+  When this Aura enters, draw a card.
+  Enchanted land is an Island.
+Ruling (2009-10-01): The enchanted land loses its existing land types and any abilities printed on it. It now has the land type Island and has the ability to tap to produce {U}. Spreading Seas doesn't change the enchanted land's name or whether it's legendary, basic, or snow.
+
+## Spring
+Cost: {2}{g} | Type: Sorcery | Color identity: GU | Commander: legal
+Faces: Spring // Mind (aftermath)
+Text: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+Ruling (2017-04-18): A spell with aftermath cast from a graveyard will always be exiled afterward, whether it resolves, it's countered, or it leaves the stack in some other way.
+Ruling (2017-04-18): All split cards have two card faces on a single card, and you put a split card onto the stack with only the half you're casting. The characteristics of the half of the card you didn't cast are ignored while the spell is on the stack. For example, if an effect prevents you from casting green spells, you can cast Destined of Destined // Lead, but not Lead.
+Ruling (2017-04-18): Each split card has two names. If an effect instructs you to choose a card name, you may choose one, but not both.
+Ruling (2017-04-18): Each split card is a single card. For example, if you discard one, you've discarded one card, not two. If an effect counts the number of instant and sorcery cards in your graveyard, Destined // Lead counts once, not twice.
+Ruling (2017-04-18): If another effect allows you to cast a split card with aftermath from a graveyard, you may cast either half. If you cast the half that has aftermath, you'll exile the card if it would leave the stack.
+Ruling (2017-04-18): If another effect allows you to cast a split card with aftermath from any zone other than a graveyard, you can't cast the half with aftermath.
+Ruling (2017-04-18): If you cast the first half of a split card with aftermath during your turn, you'll have priority immediately after it resolves. You can cast the half with aftermath from your graveyard before any player can take any other action if it's legal for you to do so.
+Ruling (2017-04-18): Split cards with aftermath have a new frame treatment—the half you can cast from your hand is oriented the same as other cards you'd cast from your hand, while the half you can cast from your graveyard is a traditional split card half. This frame treatment is for your convenience and has no rules significance.
+Ruling (2017-04-18): While not on the stack, the characteristics of a split card are the combination of its two halves. For example, Destined // Lead is a green and black card, it is both an instant card and a sorcery card, and its mana value is 6. This means that if an effect allows you to cast a card with mana value 2 from your hand, you can't cast Destined. This is a change from the previous rules for split cards.
+Ruling (2017-07-14): Once you've started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+
+## Spring Cleaning
+Cost: {1}{g} | Type: Instant | Color identity: G | Commander: legal
+Text: Destroy target enchantment. Clash with an opponent. If you win, destroy all enchantments your opponents control. (Each clashing player reveals the top card of their library, then puts that card on their choice of the top or bottom. A player wins if their card had a greater mana value.)
+Ruling (2007-10-01): If you win the clash, you destroy all enchantments all of your opponents control, not just enchantments controlled by the opponent you clashed with.
+Ruling (2013-09-20): If you win the clash and the targeted enchantment is controlled by an opponent, it will be destroyed a second time if it's still on the battlefield (for instance, if it somehow regenerated).
+
+## Spring of Eternal Peace
+Cost: {3}{g}{g} | Type: Sorcery | Color identity: G | Commander: legal
+Text: You gain 8 life.
+
+## Spring Splasher
+Cost: {1}{u} | Type: Creature — Frog Beast | Color identity: U | P/T: 2/1 | Commander: legal
+Text: Whenever this creature attacks, target creature defending player controls gets -3/-0 until end of turn.
+
+## Spring-Leaf Avenger
+Cost: {3}{g}{g} | Type: Creature — Insect Ninja | Color identity: G | P/T: 6/5 | Commander: legal
+Text: Ninjutsu {3}{G} ({3}{G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+  Whenever this creature deals combat damage to a player, return target permanent card from your graveyard to your hand.
+Ruling (2022-02-18): Although the Ninja is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
+Ruling (2022-02-18): As you activate a ninjutsu ability, you reveal the Ninja card in your hand and return the attacking creature. The Ninja card stays revealed and isn't put onto the battlefield until the ability resolves. If it leaves your hand before then, it won't enter the battlefield at all.
+Ruling (2022-02-18): If a creature in combat has first strike or double strike, you can activate the ninjutsu ability during the first-strike combat damage step. The Ninja will deal combat damage during the regular combat damage step, even if it has first strike.
+Ruling (2022-02-18): Puff of smoke not included.
+Ruling (2022-02-18): The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player or planeswalker it's attacking.
+Ruling (2022-02-18): The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. In most cases (see below), if you wait until the combatdamage step or end of combat step, it will be after combat damage has been dealt, so the Ninja won't deal combat damage.
+Ruling (2022-02-18): The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.

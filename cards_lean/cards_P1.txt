@@ -137,10 +137,6 @@ Text: Each player may bid life. You start the bidding with a bid of any number. 
 Cost: {2}{b}{b} | Type: Creature — Human Minion | Color identity: B | P/T: 1/1 | Commander: legal
 Text: {T}, Exile any number of cards from your graveyard: Target creature gets -X/-X until end of turn, where X is the number of cards exiled this way.
 
-## Painful Bond
-Cost: {1}{b} | Type: Instant | Color identity: B | Commander: legal
-Text: Draw two cards, then nonland cards in your hand with mana value 3 or less perpetually gain "When you cast this spell, you lose 1 life."
-
 ## Painful Lesson
 Cost: {2}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Target player draws two cards and loses 2 life.
@@ -373,11 +369,6 @@ Cost: {2}{r} | Type: Creature — Beast | Color identity: R | P/T: */3 | Command
 Text: As this creature enters, choose an opponent.
   Pallimud's power is equal to the number of tapped lands the chosen player controls.
 
-## Pampered Loamfrill
-Cost: {g} | Type: Creature — Lizard | Color identity: G | P/T: 1/1 | Commander: legal
-Text: Deathtouch
-  Renew — {1}{G}, Exile this card from your graveyard: Conjure a duplicate of another target creature card in your graveyard onto the top of your library. The duplicate perpetually gets +1/+1 and gains deathtouch. Activate only as a sorcery.
-
 ## Panacea
 Cost: {4} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: {X}{X}, {T}: Prevent the next X damage that would be dealt to any target this turn.
@@ -482,11 +473,6 @@ Text: When this creature enters, clash with an opponent. If you win, put a +1/+1
 Cost: {1}{u} | Type: Sorcery | Color identity: U | Commander: legal
 Text: Exile all cards from your library. Then shuffle your graveyard into your library.
 
-## Paradigm Shifter
-Cost: {1}{u}{r} | Type: Creature — Human Wizard | Color identity: RU | P/T: 2/2 | Commander: legal
-Text: When this creature enters, conjure a card of your choice from the Paradigm Spellbook into your hand.
-  {T}: Add two mana in any combination of colors. Spend this mana only to cast instant and sorcery spells.
-
 ## Paradise Druid
 Cost: {1}{g} | Type: Creature — Elf Druid | Color identity: G | P/T: 2/1 | Commander: legal
 Text: This creature has hexproof as long as it's untapped. (It can't be the target of spells or abilities your opponents control.)
@@ -517,11 +503,6 @@ Text: This land enters tapped.
 Cost: {2}{u} | Type: Enchantment — Aura | Color identity: U | Commander: legal
 Text: Enchant player
   At the beginning of enchanted player's first upkeep each turn, that player gets an additional upkeep step after this step.
-
-## Paradox Kraken
-Cost: {4}{u}{u} | Type: Creature — Kraken | Color identity: U | P/T: 7/7 | Commander: legal
-Text: When this card is put into your graveyard from anywhere, conjure a card named Kraken Hatchling into your hand.
-  {1}{U}: Return this card from your graveyard to the battlefield. Activate only if there are more cards in your graveyard than your library and only as a sorcery.
 
 ## Paradox Shaper
 Cost: {1}{u/b} | Type: Creature — Octopus Wizard | Color identity: BU | P/T: 1/3 | Commander: legal
@@ -856,10 +837,6 @@ Cost: {2}{r} | Type: Legendary Creature — Goblin Warrior | Color identity: R |
 Text: Whenever Pashalik Mons or another Goblin you control dies, Pashalik Mons deals 1 damage to any target.
   {3}{R}, Sacrifice a Goblin: Create two 1/1 red Goblin creature tokens.
 
-## Pass the Torch
-Cost: {1}{r} | Type: Instant | Color identity: R | Commander: legal
-Text: Pass the Torch deals 2 damage to any target. Choose a creature card in your hand. It perpetually gains "Whenever this creature deals combat damage to a player, you may cast target card named Pass the Torch from your graveyard without paying its mana cost. If you do, this creature perpetually loses this ability".
-
 ## Passageway Seer
 Cost: {3}{b} | Type: Creature — Tiefling Warlock | Color identity: B | P/T: 2/2 | Commander: legal
 Text: Lifelink
@@ -1045,12 +1022,6 @@ Cost: {11} | Type: Creature — Eldrazi | Color identity: colorless | P/T: 9/9 |
 Text: Annihilator 3 (Whenever this creature attacks, defending player sacrifices three permanents of their choice.)
   This creature can't be blocked except by three or more creatures.
 
-## Paths of Tuinvale
-Cost: {1}{u} | Type: Instant | Color identity: U | Commander: legal
-Text: Choose one or both —
-  • Return target creature you control to its owner's hand. That card perpetually gains "This spell costs {1} less to cast."
-  • Return target creature you don't control to its owner's hand. That card perpetually gains "This spell costs {1} more to cast."
-
 ## Pathway Arrows
 Cost: {1} | Type: Artifact — Equipment | Color identity: colorless | Commander: legal
 Text: Equipped creature has "{2}, {T}: This creature deals 1 damage to target creature. If a colorless creature is dealt damage this way, tap it."
@@ -1073,10 +1044,6 @@ Text: At the beginning of your upkeep, target opponent mills three cards, then y
 Cost: {1}{b} | Type: Creature — Zombie | Color identity: B | P/T: 2/2 | Commander: legal
 Text: Lifelink
   Damage isn't removed from creatures your opponents control during cleanup steps.
-
-## Patriar's Humiliation
-Cost: {w} | Type: Instant | Color identity: W | Commander: legal
-Text: Target creature perpetually loses all abilities, then Patriar's Humiliation deals damage to it equal to the number of creatures you control.
 
 ## Patriar's Seal
 Cost: {3} | Type: Artifact | Color identity: colorless | Commander: legal
@@ -1501,11 +1468,6 @@ Cost: {3} | Type: Artifact — Equipment | Color identity: colorless | Commander
 Text: Equipped creature gets +1/+1 for each creature you control.
   Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)
 
-## Penregon Besieged
-Cost: {1}{b} | Type: Enchantment | Color identity: B | Commander: legal
-Text: At the beginning of your end step, choose a creature with the least toughness among creatures your opponents control. It perpetually gets -1/-1.
-  When your opponents control no creatures, sacrifice Penregon Besieged.
-
 ## Penregon Strongbull
 Cost: {2}{r} | Type: Creature — Minotaur | Color identity: R | P/T: 2/3 | Commander: legal
 Text: {1}, Sacrifice an artifact: This creature gets +1/+1 until end of turn and deals 1 damage to each opponent.
@@ -1569,12 +1531,6 @@ Text: Trample
 Cost: {g}{g} | Type: Creature — Human | Color identity: G | P/T: 1/* | Commander: legal
 Text: People of the Woods's toughness is equal to the number of Forests you control.
 
-## Pep, Raucous Raider
-Cost: {2}{r}{g} | Type: Legendary Creature — Noggle Rogue | Color identity: GR | P/T: 3/3 | Commander: legal
-Text: Trample, Haste
-  Whenever a creature you control deals combat damage to a player, exile the top card of that player's library. It perpetually becomes an artifact if it's a nonland permanent card. Until end of turn, you may play the exiled card.
-  {T}, Sacrifice an artifact: Add three mana of any one color.
-
 ## Peppersmoke
 Cost: {b} | Type: Kindred Instant — Faerie | Color identity: B | Commander: legal
 Text: Target creature gets -1/-1 until end of turn. If you control a Faerie, draw a card.
@@ -1623,12 +1579,6 @@ Cost: {5} | Type: Artifact Creature — Beast | Color identity: G | P/T: 2/7 | C
 Text: You may play lands from your graveyard.
   Unearth {G}{G} ({G}{G}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
 
-## Perennial Gravewarden
-Cost: {b}{g} | Type: Creature — Elf Warlock | Color identity: BG | P/T: 1/1 | Commander: legal
-Text: Menace
-  When this creature enters, it perpetually gets +1/+1.
-  At the beginning of your end step, if a creature entered and a creature died this turn, return this card from your graveyard to the battlefield tapped.
-
 ## Perfect Intimidation
 Cost: {3}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Choose one or both —
@@ -1664,10 +1614,6 @@ Text: When this creature enters, until end of turn, another target creature you 
 ## Perilous Forays
 Cost: {3}{g}{g} | Type: Enchantment | Color identity: G | Commander: legal
 Text: {1}, Sacrifice a creature: Search your library for a land card with a basic land type, put it onto the battlefield tapped, then shuffle.
-
-## Perilous Iteration
-Cost: {r}{g} | Type: Sorcery | Color identity: GR | Commander: legal
-Text: Seek a card with mana value 2 or less and a card with mana value 3 or greater. Discard those cards at the beginning of your next turn's end step.
 
 ## Perilous Landscape
 Cost: — | Type: Land | Color identity: RUW | Commander: legal
@@ -2402,11 +2348,6 @@ Text: Flying, haste
   Escape — {2}{R}{R}, Exile three other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)
   This creature escapes with a +1/+1 counter on it.
 
-## Phoenix of Iteration
-Cost: {u}{r} | Type: Creature — Elemental Phoenix | Color identity: RU | P/T: 2/1 | Commander: legal
-Text: Flying
-  Opus — Whenever you cast an instant or sorcery spell, Phoenix of Iteration perpetually gets +1/+1. If five or more mana was spent to cast that spell, you may exile Phoenix of Iteration, then return it to the battlefield tapped under its owner's control. This ability also triggers if this card is in your graveyard.
-
 ## Phoenix, Warden of Fire
 Cost: — | Type: Legendary Enchantment Creature — Saga Phoenix | Color identity: RW | P/T: 4/4 | Commander: legal
 Faces: Joshua, Phoenix's Dominant // Phoenix, Warden of Fire (transform)
@@ -2464,11 +2405,6 @@ Text: Enchant creature
 ## Phyresis Outbreak
 Cost: {2}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Each opponent gets a poison counter. Then each creature your opponents control gets -1/-1 until end of turn for each poison counter its controller has.
-
-## Phyresis Roach
-Cost: {g} | Type: Creature — Phyrexian Insect | Color identity: G | P/T: 1/1 | Commander: legal
-Text: Toxic 1
-  Whenever Phyresis Roach deals combat damage to a player, Insects you control and Insect cards in your graveyard, hand, and library perpetually gain toxic 1.
 
 ## Phyrexia's Core
 Cost: — | Type: Land | Color identity: colorless | Commander: legal
@@ -2614,11 +2550,6 @@ Text: You may choose not to untap this creature during your untap step.
 Cost: {3} | Type: Artifact — Book | Color identity: colorless | Commander: legal
 Text: {4}, {T}: Target opponent chooses one of the top two cards of your graveyard. Exile that card and put the other one into your hand.
 
-## Phyrexian Harvester
-Cost: {r}{r}{r}{r} | Type: Creature — Phyrexian Horror | Color identity: R | P/T: 5/5 | Commander: legal
-Text: Menace
-  Whenever Phyrexian Harvester is dealt damage, seek that many nonland cards. At the beginning of your next end step, discard those cards.
-
 ## Phyrexian Hulk
 Cost: {6} | Type: Artifact Creature — Phyrexian Golem | Color identity: colorless | P/T: 5/4 | Commander: legal
 Text: 
@@ -2736,12 +2667,6 @@ Text: {1}{B}, Pay 2 life: Return target creature card from your graveyard to you
 Cost: {2} | Type: Artifact Creature — Phyrexian Horror | Color identity: colorless | P/T: 2/1 | Commander: legal
 Text: As this creature enters, choose a nonland card name.
   Activated abilities of sources with the chosen name can't be activated.
-
-## Phyrexian Scrapyard
-Cost: — | Type: Land | Color identity: colorless | Commander: legal
-Text: {T}: Add {C}.
-  {1}, {T}, Discard a card: Conjure a card named Phyrexian Scrapyard into your hand.
-  {2}, {T}, Sacrifice three lands named Phyrexian Scrapyard: Conjure a card named Soul of New Phyrexia onto the battlefield. Activate only as a sorcery.
 
 ## Phyrexian Scriptures
 Cost: {2}{b}{b} | Type: Enchantment — Saga | Color identity: B | Commander: legal
@@ -2939,12 +2864,6 @@ Text: Whenever this creature attacks while you control a creature with power 4 o
 Cost: {2}{g} | Type: Artifact | Color identity: G | Commander: legal
 Text: When this artifact enters, look at the top five cards of your library. You may reveal up to two creature cards from among them and put them into your hand. Put the rest on the bottom of your library in a random order.
   {1}, {T}, Sacrifice this artifact: Create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
-
-## Piece It Together
-Cost: {u} | Type: Sorcery | Color identity: U | Commander: legal
-Text: Starting intensity 1
-  Draw a card. If Piece It Together's intensity is 4, instead take an extra turn after this one.
-  Cards you own named Piece It Together intensify by 1.
 
 ## Pieces of the Puzzle
 Cost: {2}{u} | Type: Sorcery | Color identity: U | Commander: legal
@@ -3329,10 +3248,6 @@ Text: When this Equipment enters, attach it to target Pirate you control.
   Equipped creature gets +2/+1.
   Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 
-## Pirate's Landing
-Cost: {r} | Type: Sorcery | Color identity: R | Commander: legal
-Text: Draw a card. If mana from a Treasure was spent to cast this spell, seek a Pirate card instead.
-
 ## Pirate's Pillage
 Cost: {3}{r} | Type: Sorcery | Color identity: R | Commander: legal
 Text: As an additional cost to cast this spell, discard a card.
@@ -3611,11 +3526,6 @@ Text: {X}{X}{B}: Destroy target nonblack creature with mana value X.
 ## Plaguecrafter
 Cost: {2}{b} | Type: Creature — Human Shaman | Color identity: B | P/T: 3/2 | Commander: legal
 Text: When this creature enters, each player sacrifices a creature or planeswalker of their choice. Each player who can't discards a card.
-
-## Plaguecrafter's Familiar
-Cost: {1}{b} | Type: Creature — Rat | Color identity: B | P/T: 1/1 | Commander: legal
-Text: Deathtouch
-  When Plaguecrafter's Familiar enters the battlefield, choose a creature card in your hand. It perpetually gains deathtouch.
 
 ## Plagued Rusalka
 Cost: {b} | Type: Creature — Spirit | Color identity: B | P/T: 1/1 | Commander: legal
@@ -4025,10 +3935,6 @@ Cost: — | Type: Artifact | Color identity: colorless | Commander: legal
 Text: At the beginning of the Horde's first main phase, reveal an additional card from the top of the Horde's library. The Horde casts that card.
   Hero's Reward — When Plundered Statue is put into a graveyard from anywhere, each player draws a card.
 
-## Plunderer's Prize
-Cost: {x}{u} | Type: Sorcery | Color identity: U | Commander: legal
-Text: Seek a nonland artifact card with mana value X or less and put it onto the battlefield. If a card with mana value less than X is put onto the battlefield this way, this spell perpetually gains "This spell costs {1} more to cast," then return this spell to its owner's hand.
-
 ## Plundering Barbarian
 Cost: {2}{r} | Type: Creature — Dwarf Barbarian | Color identity: R | P/T: 2/2 | Commander: legal
 Text: When this creature enters, choose one —
@@ -4317,11 +4223,6 @@ Text: When this creature enters or is turned face up, create three 1/1 red Gobli
 Cost: {1}{g} | Type: Artifact | Color identity: G | Commander: legal
 Text: {X}, {T}, Discard a card: Create a token that's a copy of a random creature card with mana value X. Activate only as a sorcery.
 
-## Pool Resources
-Cost: {2}{u} | Type: Instant | Color identity: U | Commander: legal
-Text: Gift a tapped Fish
-  Draw two cards. If the gift was promised, seek two nonland cards instead.
-
 ## Pooling Venom
 Cost: {1}{b} | Type: Enchantment — Aura | Color identity: B | Commander: legal
 Text: Enchant land
@@ -4368,12 +4269,6 @@ Text: ({W/P} can be paid with either {W} or 2 life.)
 ## Porcelain Zealot
 Cost: {3}{w} | Type: Creature — Phyrexian Soldier | Color identity: W | P/T: 2/3 | Commander: legal
 Text: At the beginning of combat on your turn, target creature you control gets +1/+1 until end of turn. If that creature has toxic, instead it gets +2/+2 until end of turn.
-
-## Porcine Portent
-Cost: {3}{w} | Type: Enchantment | Color identity: BW | Commander: legal
-Faces: Porcine Portent // Lend a Ham (adventure)
-Text: When Porcine Portent enters, conjure a card of your choice from the Three Pigs spellbook onto the battlefield.
-  Boars you control get +1/+1.
 
 ## Porcuparrot
 Cost: {3}{r} | Type: Creature — Bird Beast | Color identity: R | P/T: 3/4 | Commander: legal
@@ -4760,11 +4655,6 @@ Cost: — | Type: Land — Plains Island | Color identity: UW | Commander: legal
 Text: ({T}: Add {W} or {U}.)
   This land enters tapped unless you control two or more basic lands.
 
-## Prairie Survivalist
-Cost: {1}{w} | Type: Creature — Human Scout | Color identity: W | P/T: 0/1 | Commander: legal
-Text: Flying
-  At the beginning of combat on your turn, target creature you control perpetually gets +1/+0. Then choose a creature card in your hand. It perpetually gets +1/+0.
-
 ## Prakhata Club Security
 Cost: {3}{b} | Type: Creature — Aetherborn Warrior | Color identity: B | P/T: 3/4 | Commander: legal
 Text: 
@@ -4924,11 +4814,6 @@ Text: Creatures you control get +3/+3 until end of turn. Each creature your oppo
 Cost: {1}{g} | Type: Creature — Sliver | Color identity: G | P/T: 1/1 | Commander: legal
 Text: Sliver creatures you control get +1/+1.
 
-## Predatory Sludge
-Cost: {2}{b} | Type: Creature — Ooze | Color identity: B | P/T: 3/3 | Commander: legal
-Text: Menace
-  As Predatory Sludge enters the battlefield, choose a permanent you don't control. When the chosen permanent is put into a graveyard from the battlefield, conjure a card named Predatory Sludge into your hand.
-
 ## Predatory Urge
 Cost: {3}{g} | Type: Enchantment — Aura | Color identity: G | Commander: legal
 Text: Enchant creature
@@ -4988,11 +4873,6 @@ Text: Scry 2, then draw a card. (To scry 2, look at the top two cards of your li
 Cost: {1}{w} | Type: Instant | Color identity: GW | Commander: legal
 Faces: Prepare // Fight (aftermath)
 Text: Untap target creature. It gets +2/+2 and gains lifelink until end of turn.
-
-## Preponderant Pearl
-Cost: {u} | Type: Kindred Artifact — Merfolk | Color identity: U | Commander: legal
-Text: When this artifact enters, conjure a card named Ponder into your hand.
-  Whenever one or more Merfolk you control deal combat damage to a player, sacrifice this artifact. If you do, conjure a card named Flooded Strand into your hand.
 
 ## Preposterous Proportions
 Cost: {5}{g}{g} | Type: Sorcery | Color identity: G | Commander: legal
@@ -5207,10 +5087,6 @@ Text: When this creature enters, add {B}{B}{B}.
 ## Priest of Iroas
 Cost: {r} | Type: Creature — Human Cleric | Color identity: RW | P/T: 1/1 | Commander: legal
 Text: {3}{W}, Sacrifice this creature: Destroy target enchantment.
-
-## Priest of Possibility
-Cost: {1}{w} | Type: Creature — Kor Cleric | Color identity: W | P/T: 2/2 | Commander: legal
-Text: When Priest of Possibility enters, look at the top seven cards of your library. If a card among them has flying, Priest of Possibility perpetually gains flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, protection, reach, trample, and vigilance. Then shuffle.
 
 ## Priest of the Blessed Graf
 Cost: {2}{w} | Type: Creature — Human Cleric | Color identity: W | P/T: 1/2 | Commander: legal
@@ -6047,12 +5923,6 @@ Text: Devoid (This card has no color.)
   Creature tokens you control have evolve. (They have "Whenever a creature you control enters, if it has greater power or toughness than this token, put a +1/+1 counter on this token." They see this creature enter.)
   {3}{G}: Create a 0/1 colorless Eldrazi Spawn creature token with "Sacrifice this token: Add {C}."
 
-## Propagator Primordium
-Cost: {1}{g} | Type: Creature — Fungus | Color identity: G | P/T: 3/3 | Commander: legal
-Text: When Propagator Primordium enters, conjure two cards named Propagator Primordium into your graveyard.
-  At the beginning of your upkeep, put a spore counter on Propagator Primordium.
-  Remove three spore counters from Propagator Primordium: Return target Fungus creature card from your graveyard to the battlefield.
-
 ## Propeller Pioneer
 Cost: {3}{w} | Type: Creature — Human Artificer | Color identity: W | P/T: 2/1 | Commander: legal
 Text: Flying
@@ -6084,10 +5954,6 @@ Text: Untap all creatures and lands you control during each other player's untap
 ## Prophet of the Peak
 Cost: {6} | Type: Artifact Creature — Cat | Color identity: colorless | P/T: 5/5 | Commander: legal
 Text: When this creature enters, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)
-
-## Prophet of the Planeswalker
-Cost: {1}{w} | Type: Creature — Human Cleric | Color identity: W | P/T: 1/4 | Commander: legal
-Text: When this creature enters, you may behold a planeswalker. If you do, it perpetually gains "Loyalty abilities of this planeswalker cost an additional [+1] to activate."
 
 ## Prophet of the Scarab
 Cost: {4}{u} | Type: Creature — Zombie Wizard | Color identity: U | P/T: 3/4 | Commander: legal
@@ -6188,12 +6054,6 @@ Text: Raid — If you attacked this turn, you may have this creature enter as a 
 Cost: {1}{u} | Type: Creature — Human Wizard | Color identity: U | P/T: 1/1 | Commander: legal
 Text: Constellation — Whenever an enchantment you control enters, you may have this creature become a copy of another target creature, except it has this ability.
 
-## Protean War Engine
-Cost: {r}{w} | Type: Artifact — Vehicle | Color identity: RW | P/T: 0/4 | Commander: legal
-Text: As Protean War Engine enters, draft a card from Protean War Engine's spellbook and exile it.
-  Whenever Protean War Engine becomes crewed, until end of turn, it becomes a copy of the exiled card, except it's a Vehicle artifact in addition to its other types.
-  Crew 3
-
 ## Protect
 Cost: {2}{w} | Type: Instant | Color identity: UW | Commander: legal
 Faces: Protect // Serve (split)
@@ -6277,11 +6137,6 @@ Text: {4}{W}, {T}, Sacrifice this artifact: Return target artifact card from you
 Cost: {4} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: Imprint — When this artifact enters, you may exile an artifact card from your hand.
   {X}, {T}: Create a token that's a copy of the exiled card. X is the mana value of that card.
-
-## Prototype X-8
-Cost: {8}{u}{b} | Type: Legendary Artifact Creature — Robot Octopus | Color identity: BU | P/T: 8/8 | Commander: legal
-Text: This spell costs {2} less to cast for each creature card in your graveyard.
-  Whenever another creature you control enters, if you cast it, sacrifice it. Conjure a duplicate of it onto the battlefield. The duplicate perpetually becomes a Robot artifact in addition to its other types.
 
 ## Proud Mentor
 Cost: {2}{w} | Type: Creature — Human Warrior | Color identity: W | P/T: 1/1 | Commander: legal
@@ -6709,12 +6564,6 @@ Text: Return up to two target creature cards from your graveyard to your hand. Y
 Cost: {x}{u}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Draw X cards, then discard a card.
 
-## Pull of the Mist Moon
-Cost: {1}{w}{w} | Type: Enchantment | Color identity: UW | Commander: legal
-Text: Kicker {1}{U}
-  When Pull of the Mist Moon enters, exile target nonland permanent an opponent controls until Pull of the Mist Moon leaves the battlefield.
-  When Pull of the Mist Moon enters, if it was kicked, choose a nonland permanent card in your hand. It perpetually gains "When this permanent enters, exile target nonland permanent an opponent controls until this permanent leaves the battlefield."
-
 ## Pull Through the Weft
 Cost: {3}{g}{g} | Type: Sorcery | Color identity: G | Commander: legal
 Text: Return up to two target nonland permanent cards from your graveyard to your hand, then return up to two target land cards from your graveyard to the battlefield tapped.
@@ -6866,10 +6715,6 @@ Text: Enchant creature
 Cost: {2}{r} | Type: Legendary Creature — Human Artificer Villain | Color identity: R | P/T: 2/4 | Commander: legal
 Text: Whenever you attack, goad target creature an opponent controls. It can't block this turn. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)
   Whenever one or more goaded creatures deal combat damage to one of your opponents, create a Treasure token.
-
-## Puppet Raiser
-Cost: {3}{b} | Type: Creature — Zombie Wizard | Color identity: B | P/T: 3/4 | Commander: legal
-Text: At the beginning of your end step, exile up to one target creature card from your graveyard. If you do, seek a creature card with mana value equal to the mana value of that card plus one. That card perpetually gains menace.
 
 ## Puppet Strings
 Cost: {3} | Type: Artifact | Color identity: colorless | Commander: legal
@@ -7078,11 +6923,6 @@ Text: Trample, haste
 Cost: {1}{b}{g} | Type: Instant | Color identity: BG | Commander: legal
 Text: Destroy target artifact or creature. It can't be regenerated.
 
-## Putrefying Rotboar
-Cost: {2}{b}{b} | Type: Creature — Elemental Boar | Color identity: B | P/T: 4/5 | Commander: legal
-Text: Lifelink
-  Whenever a Boar you control attacks, each nonland card in defending player's hand perpetually gains "When you cast this spell, you lose 1 life."
-
 ## Putrid Cyclops
 Cost: {2}{b} | Type: Creature — Zombie Cyclops | Color identity: B | P/T: 3/3 | Commander: legal
 Text: When this creature enters, scry 1, then reveal the top card of your library. This creature gets -X/-X until end of turn, where X is that card's mana value. (To scry 1, look at the top card of your library, then you may put that card on the bottom.)
@@ -7090,10 +6930,6 @@ Text: When this creature enters, scry 1, then reveal the top card of your librar
 ## Putrid Goblin
 Cost: {1}{b} | Type: Creature — Zombie Goblin | Color identity: B | P/T: 2/2 | Commander: legal
 Text: Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
-
-## Putrid Hexhag
-Cost: {1}{b} | Type: Creature — Goblin Warlock | Color identity: B | P/T: 0/5 | Commander: legal
-Text: Whenever one or more counters are put on this creature, target creature an opponent controls perpetually gains "When this creature dies, you lose 2 life."
 
 ## Putrid Imp
 Cost: {b} | Type: Creature — Zombie Imp | Color identity: B | P/T: 1/1 | Commander: legal

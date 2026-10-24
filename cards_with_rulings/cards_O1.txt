@@ -125,11 +125,6 @@ Cost: {3} | Type: Artifact Creature — Scarecrow | Color identity: colorless | 
 Text: When this creature enters, you gain 2 life.
   {T}: Add one mana of any color.
 
-## Oasis of Renewal
-Cost: {b}{g}{u} | Type: Legendary Enchantment | Color identity: BGU | Commander: legal
-Text: When Oasis of Renewal enters and whenever a land card leaves your graveyard, seek a land card. This ability triggers only once each turn.
-  When Oasis of Renewal enters and whenever a nonland card leaves your graveyard, seek a nonland card. This ability triggers only once each turn.
-
 ## Oasis Ritualist
 Cost: {3}{g} | Type: Creature — Snake Druid | Color identity: G | P/T: 2/4 | Commander: legal
 Text: {T}: Add one mana of any color.
@@ -603,10 +598,6 @@ Ruling (2022-04-29): If a resolving spell or ability instructs a specific creatu
 Ruling (2022-04-29): If no card is discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive a +1/+1 counter.
 Ruling (2022-04-29): Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter.
 
-## Obscura Polymorphist
-Cost: {1}{w}{u} | Type: Creature — Octopus Wizard | Color identity: UW | P/T: 2/2 | Commander: legal
-Text: When this creature enters the battlefield, exile target creature. Its controller seeks a creature card.
-
 ## Obscura Storefront
 Cost: — | Type: Land | Color identity: colorless | Commander: legal
 Text: When this land enters, sacrifice it. When you do, search your library for a basic Plains, Island, or Swamp card, put it onto the battlefield tapped, then shuffle and you gain 1 life.
@@ -654,11 +645,6 @@ Ruling (2021-09-24): If a triggered ability triggers whenever day becomes night 
 Ruling (2021-09-24): If it is day, and the active player of the previous turn cast no spells during their turn, it becomes night.
 Ruling (2021-09-24): If it is night, and the active player of the previous turn cast two or more spells during their turn, it becomes day.
 Ruling (2021-09-24): You may choose to discard no cards when the Obsessive Astronomer's triggered ability resolves.
-
-## Obsessive Collector
-Cost: {3}{u} | Type: Creature — Spirit | Color identity: U | P/T: 4/4 | Commander: legal
-Text: Flying, ward {2}
-  Whenever Obsessive Collector deals combat damage to a player, seek a card with mana value equal to the number of cards in your hand.
 
 ## Obsessive Pursuit
 Cost: {1}{b} | Type: Enchantment | Color identity: B | Commander: legal
@@ -1089,11 +1075,6 @@ Cost: {3}{u}{r} | Type: Creature — Ogre Shaman | Color identity: RU | P/T: 3/4
 Text: Haste
   {T}: Scry 1.
 
-## Oglor, Devoted Assistant
-Cost: {1}{u} | Type: Legendary Creature — Homunculus | Color identity: U | P/T: 1/1 | Commander: legal
-Text: At the beginning of your upkeep, look at the top two cards of your library, then put one of them into your graveyard.
-  Whenever a creature card is put into your graveyard from your library or hand, it perpetually gains "When this card leaves your graveyard, create a tapped 2/2 black Zombie creature token."
-
 ## Ognis, the Dragon's Lash
 Cost: {1}{b/r}{r}{r/g} | Type: Legendary Creature — Lizard Warrior | Color identity: BGR | P/T: 3/3 | Commander: legal
 Text: Haste
@@ -1492,13 +1473,6 @@ Text: Creatures you control have base power and toughness 3/3 until end of turn.
 Ruling (2019-10-04): Effects that modify a creature's power and/or toughness, such as the effect of Festive Funeral, will apply to the creature no matter when they started to take effect. The same is true for any counters that change its power and/or toughness.
 Ruling (2019-10-04): Oko's Hospitality overwrites all previous effects that set the creatures' base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after Oko's Hospitality resolves will overwrite this effect.
 Ruling (2019-10-04): You may cast Oko's Hospitality even if you control no creatures. You'll just search for Oko, the Trickster.
-
-## Oko, Lord of the Fae
-Cost: {1}{w}{w} | Type: Legendary Planeswalker — Oko | Color identity: W | Loyalty/Defense: 3 | Commander: legal
-Text: Creatures can't attack planeswalkers you control unless their controller pays {1} for each of those creatures.
-  [+1]: Up to one target artifact or creature loses all abilities until your next turn.
-  [−1]: Create a 2/2 white Ox creature token.
-  [−7]: You get an emblem with "At the beginning of your upkeep, conjure a random planeswalker card into exile. You may cast that card this turn without paying its mana cost."
 
 ## Oko, Lorwyn Liege
 Cost: {2}{u} | Type: Legendary Planeswalker — Oko | Color identity: GU | Loyalty/Defense: 3 | Commander: legal
@@ -2021,10 +1995,6 @@ Ruling (2017-04-18): An ability that triggers whenever you "cycle or discard" a 
 Ruling (2017-04-18): An ability that triggers whenever you discard a card doesn't give you permission to discard cards. You'll need another effect that instructs or allows you to discard them.
 Ruling (2017-04-18): If a player discards a card during their cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.
 Ruling (2017-04-18): Some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
-
-## Ominous Traveler
-Cost: {2} | Type: Creature — Human | Color identity: colorless | P/T: 1/1 | Commander: legal
-Text: When this creature enters, draft a card from Ominous Traveler's spellbook. That card perpetually gains prismatic and "When you cast this spell, return a creature named Ominous Traveler you control to its owner's hand."
 
 ## Omit Variables (Prepared a)
 Cost: {u/b} | Type: Sorcery | Color identity: BU | Commander: legal
@@ -3818,10 +3788,6 @@ Cost: {g} | Type: Instant | Color identity: G | Commander: legal
 Text: Untap target creature. It gets +1/+3 until end of turn.
 Ruling (2016-09-20): You can cast Ornamental Courage targeting an untapped creature. It will still get +1/+3 until end of turn.
 
-## Ornate Imitations
-Cost: {x}{g}{u} | Type: Sorcery | Color identity: GU | Commander: legal
-Text: For each number between 1 and X, conjure a duplicate of a random creature card with that mana value onto the battlefield. X can't be 0.
-
 ## Ornate Kanzashi
 Cost: {5} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: {2}, {T}: Target opponent exiles the top card of their library. You may play that card this turn.
@@ -4411,11 +4377,6 @@ Ruling (2024-04-12): Once Outcaster Trailblazer's second ability has triggered, 
 Ruling (2024-04-12): Outcaster Trailblazer's first ability isn't a mana ability. It uses the stack and can be responded to.
 Ruling (2024-04-12): Plot abilities are written "Plot [cost]," which means "Any time you have priority during your main phase while the stack is empty, you may pay [cost] and exile this card from your hand. It becomes plotted."
 Ruling (2024-04-12): You can't cast a plotted card on the same turn it became plotted. On any future turn, you may cast that card from exile without paying its mana cost during your main phase while the stack is empty.
-
-## Outfitted Jouster
-Cost: {2}{b}{r} | Type: Creature — Human Knight | Color identity: BR | P/T: 2/2 | Commander: legal
-Text: When Outfitted Jouster enters, conjure a card named Steelclaw Lance and a card named Brawler's Plate onto the battlefield and attach them to Outfitted Jouster.
-  If damage would be dealt to Outfitted Jouster while it's equipped, prevent that damage. When damage is prevented this way, sacrifice an Equipment attached to Outfitted Jouster.
 
 ## Outflank
 Cost: {w} | Type: Instant | Color identity: W | Commander: legal
@@ -5178,12 +5139,6 @@ Ruling (2011-01-01): This ability is mandatory. If you're the only player who co
 ## Oxidize
 Cost: {g} | Type: Instant | Color identity: G | Commander: legal
 Text: Destroy target artifact. It can't be regenerated.
-
-## Oyaminartok, Polar Werebear
-Cost: {2}{g}{g} | Type: Legendary Creature — Giant Bear | Color identity: GU | P/T: 4/5 | Commander: legal
-Text: Oyaminartok, Polar Werebear has hexproof if it hasn't dealt damage yet.
-  Whenever Oyaminartok deals combat damage to a player, create a Food token.
-  {U}, Sacrifice a Food: Draft a card from Oyaminartok's spellbook. When you do, add {U}{U}{U}. Spend this mana only to cast blue creature spells.
 
 ## Oyobi, Who Split the Heavens
 Cost: {6}{w} | Type: Legendary Creature — Spirit | Color identity: W | P/T: 3/6 | Commander: legal

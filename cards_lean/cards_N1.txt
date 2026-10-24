@@ -199,13 +199,6 @@ Cost: {2}{r} | Type: Creature — Jackal Wizard | Color identity: R | P/T: 3/3 |
 Faces: Naktamun Lorespinner // Wheel of Fortune (Prepared) (prepare)
 Text: At the beginning of your upkeep, if a player has one or fewer cards in hand, this creature becomes prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)
 
-## Naktamun Shines Again
-Cost: {2}{w} | Type: Enchantment — Saga | Color identity: W | Commander: legal
-Text: (As this Saga enters and after your draw step add a lore counter. Sacrifice after III.)
-  I — All creature cards you own with mana value 2 or less perpetually get +1/+0.
-  II — Seek a creature card with mana value 2 or less and put it onto the battlefield.
-  III — Creatures you control with mana value 2 or less gain flying until end of turn.
-
 ## Nalathni Dragon
 Cost: {2}{r}{r} | Type: Creature — Dragon | Color identity: R | P/T: 1/1 | Commander: legal
 Text: Flying; banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
@@ -327,11 +320,6 @@ Text: When this creature enters, if you control no tapped lands, draw a card.
 Cost: {1}{g}{g} | Type: Enchantment | Color identity: G | Commander: legal
 Text: Whenever a player casts a spell, that player creates X 1/1 green Squirrel creature tokens, where X is the number of cards in all graveyards with the same name as that spell.
 
-## Nantuko Slicer
-Cost: {2}{g}{g} | Type: Creature — Insect | Color identity: BG | P/T: 3/2 | Commander: legal
-Text: Kicker {B}
-  When this creature enters, return target card from your graveyard to your hand. If this spell was kicked, conjure a duplicate of target card in an opponent's graveyard into your hand. It perpetually gains prismatic.
-
 ## Nantuko Tracer
 Cost: {1}{g} | Type: Creature — Insect Druid | Color identity: G | P/T: 2/1 | Commander: legal
 Text: When this creature enters, you may put target card from a graveyard on the bottom of its owner's library.
@@ -446,12 +434,6 @@ Text: First strike, protection from red
 ## Nascent Metamorph
 Cost: {1}{u} | Type: Creature — Shapeshifter | Color identity: U | P/T: 1/1 | Commander: legal
 Text: Whenever this creature attacks or blocks, target opponent reveals cards from the top of their library until they reveal a creature card. This creature becomes a copy of that card until end of turn. Then that player puts all cards revealed this way on the bottom of their library in a random order.
-
-## Nashi, Illusion Gadgeteer
-Cost: {1}{b}{g}{u} | Type: Legendary Creature — Rat Rogue | Color identity: BGU | P/T: 4/4 | Commander: legal
-Text: Flash
-  Menace, Ward {2}
-  When Nashi enters, secretly choose a card in your graveyard and conjure a duplicate of it into your hand. If the duplicate isn't a land card, it perpetually gains flash.
 
 ## Nashi, Moon Sage's Scion
 Cost: {1}{b}{b} | Type: Legendary Creature — Rat Ninja | Color identity: B | P/T: 3/2 | Commander: legal
@@ -1381,11 +1363,6 @@ Cost: — | Type: Land | Color identity: colorless | Commander: legal
 Text: {T}: Add {C}.
   {1}, {T}: Move a counter from target permanent you control onto a second target permanent. Activate only as a sorcery.
 
-## Nesting Instinct
-Cost: {2}{g} | Type: Sorcery — Omen | Color identity: GU | Commander: legal
-Faces: Pearl Lake Warden // Nesting Instinct (adventure)
-Text: Seek a land card and put it onto the battlefield.
-
 ## Nesting Wurm
 Cost: {4}{g}{g} | Type: Creature — Wurm | Color identity: G | P/T: 4/3 | Commander: legal
 Text: Trample
@@ -1489,11 +1466,6 @@ Text: Enchant creature
   Whenever enchanted creature attacks or blocks, its controller loses 3 life.
   {1}{R}: Enchanted creature attacks this turn if able.
 
-## Nettling Host
-Cost: {2}{w} | Type: Creature — Phyrexian Horror | Color identity: W | P/T: 3/3 | Commander: legal
-Text: Toxic 2
-  Corrupted — Exile Nettling Host from your graveyard: Conjure a card named Nettlecyst into your hand. Activate only if an opponent has three or more poison counters.
-
 ## Nettling Imp
 Cost: {2}{b} | Type: Creature — Imp | Color identity: B | P/T: 1/1 | Commander: legal
 Text: {T}: Choose target non-Wall creature the active player has controlled continuously since the beginning of the turn. That creature attacks this turn if able. Destroy it at the beginning of the next end step if it didn't attack this turn. Activate only during an opponent's turn, before attackers are declared.
@@ -1507,11 +1479,6 @@ Text: Flying
 Cost: {u} | Type: Artifact Creature — Moonfolk Rogue | Color identity: U | P/T: 1/1 | Commander: legal
 Text: Flying
   When this creature enters, tap target permanent.
-
-## Network Marauder
-Cost: {2}{u} | Type: Artifact Creature — Robot Pirate | Color identity: U | P/T: 1/2 | Commander: legal
-Text: When this creature enters and whenever another artifact you control with mana value 3 or greater enters, all artifact creature cards and Spacecraft cards you own perpetually get +1/+1.
-  Warp {1}{U}
 
 ## Network Terminal
 Cost: {3} | Type: Artifact | Color identity: colorless | Commander: legal
@@ -1681,11 +1648,6 @@ Text: Flying
 Cost: {1}{g} | Type: Creature — Human Tyranid Advisor | Color identity: G | P/T: 2/2 | Commander: legal
 Text: Strategic Coordinator — Basic lands you control have "{T}: Add {C}{C}. Spend this mana only on costs that contain {X}."
 
-## Next Iteration
-Cost: {x}{r} | Type: Sorcery | Color identity: GR | Commander: legal
-Faces: Rootha, Ardent Artisan // Next Iteration (prepare)
-Text: Conjure a random artifact card with mana value X plus 1 onto the battlefield.
-
 ## Next of Kin
 Cost: {2}{g} | Type: Enchantment — Aura | Color identity: G | Commander: legal
 Text: Enchant creature
@@ -1793,11 +1755,6 @@ Text: {1}{B}, {T}: Target opponent discards a card. Then if that player has no c
 ## Niall Silvain
 Cost: {g}{g}{g} | Type: Creature — Ouphe | Color identity: G | P/T: 2/2 | Commander: legal
 Text: {G}{G}{G}{G}, {T}: Regenerate target creature.
-
-## Niambi, Beloved Protector
-Cost: {w}{u} | Type: Legendary Creature — Human Cleric | Color identity: UW | P/T: 2/2 | Commander: legal
-Text: Flash
-  When Niambi, Beloved Protector enters, if you cast it, choose target nonlegendary creature card in your graveyard that was put there from the battlefield this turn. Return it to the battlefield. It perpetually gains "Whenever this creature becomes the target of a spell or ability, draw a card. This ability triggers only once each turn."
 
 ## Niambi, Esteemed Speaker
 Cost: {w}{u} | Type: Legendary Creature — Human Cleric | Color identity: UW | P/T: 2/1 | Commander: legal
@@ -2004,11 +1961,6 @@ Cost: {2}{b} | Type: Creature — Goblin Soldier | Color identity: B | P/T: 1/3 
 Text: Deathtouch
   Mobilize 1 (Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.)
   When this creature enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
-
-## Nightclub Bouncer
-Cost: {2}{u}{u} | Type: Creature — Human Rogue | Color identity: U | P/T: 2/3 | Commander: legal
-Text: Flash
-  When this creature enters, return target nonland permanent an opponent controls to its owner's hand. It perpetually gains "This spell costs {2} more to cast."
 
 ## Nightcreep
 Cost: {b}{b} | Type: Instant | Color identity: B | Commander: legal
@@ -3044,15 +2996,6 @@ Cost: {2}{w} | Type: Enchantment | Color identity: W | Commander: legal
 Text: Whenever one or more creatures an opponent controls deal combat damage to you, that opponent gets a poison counter.
   Whenever a player attacks, if one or more players being attacked are poisoned, the attacking player draws a card.
 
-## Norn's Disassembly
-Cost: {w} | Type: Enchantment | Color identity: W | Commander: legal
-Text: {1}{W}, Sacrifice a historic permanent: Seek a historic card.
-
-## Norn's Fetchling
-Cost: {1}{w} | Type: Creature — Phyrexian Insect | Color identity: W | P/T: 1/1 | Commander: legal
-Text: Toxic 1
-  Corrupted — When Norn's Fetchling enters, conjure a card named Plains into your hand. If an opponent has three or more poison counters, you may seek a nonland card instead.
-
 ## Norn's Inquisitor
 Cost: {1}{w} | Type: Creature — Phyrexian Knight | Color identity: W | P/T: 1/1 | Commander: legal
 Text: When this creature enters, incubate 2. (Create an Incubator token with two +1/+1 counters on it and "{2}: Transform this token." It transforms into a 0/0 Phyrexian artifact creature.)
@@ -3544,10 +3487,6 @@ Cost: {x}{g}{g} | Type: Sorcery | Color identity: G | Commander: legal
 Text: Choose one —
   • Search your library for up to X land cards, reveal them, put them into your hand, then shuffle.
   • Nylea's Intervention deals twice X damage to each creature with flying.
-
-## Nylea's Oracle
-Cost: {g}{g} | Type: Creature — Centaur Druid | Color identity: G | P/T: 3/1 | Commander: legal
-Text: When this creature enters, conjure X cards named Nylea's Oracle into your library, where X is your devotion to green, then shuffle. Then if there are more cards in your library than your starting deck, creatures you control get +X/+X and gain haste until end of turn.
 
 ## Nylea's Presence
 Cost: {1}{g} | Type: Enchantment — Aura | Color identity: G | Commander: legal

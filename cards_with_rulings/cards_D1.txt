@@ -249,11 +249,6 @@ Text: This land enters tapped unless you control a Swamp or a Mountain.
 Ruling (2025-04-04): Activating Dalkovan Encampment's last ability creates a delayed triggered ability that will trigger each time you declare at least one creature as an attacker during a declare attackers step this turn. (This usually only happens once per turn, but effects like that of All-Out Assault's last ability might cause it to happen more than once.) This ability will trigger even if Dalkovan Encampment is no longer on the battlefield. It won't trigger if you don't declare any creatures as attackers.
 Ruling (2025-04-04): You must already control a Swamp or Mountain as Dalkovan Encampment enters for it to enter untapped. If it enters at the same time as a Swamp or Mountain when you control no other Swamps or Mountains, it will enter tapped.
 
-## Dalkovan Outrider
-Cost: {1}{b}{r} | Type: Creature — Orc Warrior | Color identity: BR | P/T: 3/4 | Commander: legal
-Text: Mobilize 2
-  Whenever you sacrifice a permanent, the topmost creature card in your library perpetually gets +1/+1.
-
 ## Dalkovan Packbeasts
 Cost: {2}{w} | Type: Creature — Ox | Color identity: W | P/T: 0/4 | Commander: legal
 Text: Vigilance
@@ -692,18 +687,6 @@ Text: Choose one —
   • Return target creature card from your graveyard to your hand.
   • Darigaaz's Charm deals 3 damage to any target.
   • Target creature gets +3/+3 until end of turn.
-
-## Darigaaz's Whelp
-Cost: {1}{b} | Type: Creature — Dragon | Color identity: BR | P/T: 2/1 | Commander: legal
-Text: Kicker {1}{R}
-  Flying
-  Whenever you draw a Dragon card, it perpetually gets +1/+1.
-  When Darigaaz's Whelp enters, if it was kicked, seek a Dragon card. Darigaaz's Whelp and that Dragon card each perpetually get +1/+1.
-
-## Darigaaz, Shivan Champion
-Cost: {2}{b}{r}{g} | Type: Legendary Creature — Dragon | Color identity: BGR | P/T: 5/5 | Commander: legal
-Text: Flying
-  At the beginning of your end step, conjure a random card from Darigaaz, Shivan Champion's spellbook into exile face down with three egg counters on it. It gains "At the beginning of your upkeep, if this card is exiled, remove an egg counter from it. Then if it has no egg counters on it, put it onto the battlefield."
 
 ## Darigaaz, the Igniter
 Cost: {3}{b}{r}{g} | Type: Legendary Creature — Dragon | Color identity: BGR | P/T: 6/6 | Commander: legal
@@ -1185,12 +1168,6 @@ Ruling (2024-07-26): The token copies exactly what was printed on the original c
 Ruling (2024-07-26): The token created by the offspring ability isn't "cast", so abilities that trigger when a creature spell is cast won't trigger for the copy.
 Ruling (2024-07-26): You can pay an offspring cost only once as you cast a spell with offspring. You can't try to pay it multiple times to get more token copies.
 
-## Darkstar Banisher
-Cost: {1}{w}{b} | Type: Creature — Bat Cleric | Color identity: BW | P/T: 2/2 | Commander: legal
-Text: Flying
-  When Darkstar Banisher enters, exile target nonland permanent with mana value 4 or less an opponent controls.
-  When Darkstar Banisher leaves the battlefield, the exiled card's owner seeks a card that shares a card type with the exiled card.
-
 ## Darksteel Angel
 Cost: {9} | Type: Artifact Creature — Angel | Color identity: colorless | P/T: 4/4 | Commander: legal
 Text: Flying, indestructible
@@ -1247,13 +1224,6 @@ Ruling (2007-05-01): Fortification is to lands what Equipment is to creatures. E
 Ruling (2007-05-01): If Darksteel Garrison and the fortified land would be destroyed at the same time, only Darksteel Garrison is destroyed.
 Ruling (2007-05-01): The second ability triggers whenever the fortified land becomes tapped, not just when it's tapped for mana.
 Ruling (2007-05-01): The triggered ability is mandatory. If you don't have a creature to target, you must target another player's creature, if possible.
-
-## Darksteel Hydra
-Cost: {x}{w}{b}{g} | Type: Artifact Creature — Phyrexian Hydra | Color identity: BGW | P/T: */* | Commander: legal
-Text: Indestructible
-  Darksteel Hydra enters with X oil counters on it.
-  Darksteel Hydra's power and toughness are each equal to twice the number of oil counters on it.
-  When Darksteel Hydra enters, conjure a card named Darksteel Ingot and a card named Darksteel Plate into your hand.
 
 ## Darksteel Ingot
 Cost: {3} | Type: Artifact | Color identity: colorless | Commander: legal
@@ -1619,10 +1589,6 @@ Cost: {3}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Target player discards two cards and loses 2 life.
 Ruling (2019-05-03): The target player loses 2 life even if they can discard only one or zero cards.
 
-## Davriel's Withering
-Cost: {b} | Type: Instant | Color identity: B | Commander: legal
-Text: Target creature an opponent controls perpetually gets -1/-2.
-
 ## Davriel, Rogue Shadowmage
 Cost: {2}{b} | Type: Legendary Planeswalker — Davriel | Color identity: B | Loyalty/Defense: 3 | Commander: legal
 Text: At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, Davriel deals 2 damage to them.
@@ -1630,12 +1596,6 @@ Text: At the beginning of each opponent's upkeep, if that player has one or fewe
 Ruling (2019-05-03): If an opponent has one or fewer cards in hand as Davriel's first ability triggers but has two or more cards in hand as that ability resolves, Davriel doesn't deal damage to them.
 Ruling (2019-05-03): If an opponent has two or more cards in their hand as their upkeep begins, Davriel's first ability won't trigger. No player may take any actions during a turn before the turn's upkeep begins. Because the upkeep step is before the draw step, that player won't have drawn a card for the turn yet.
 Ruling (2019-05-03): In a Two-Headed Giant game, Davriel's first ability triggers for each opponent separately as appropriate during that player's team's upkeep.
-
-## Davriel, Soul Broker
-Cost: {2}{b}{b} | Type: Legendary Planeswalker — Davriel | Color identity: B | Loyalty/Defense: 4 | Commander: legal
-Text: [+1]: Until your next turn, whenever an opponent attacks you and/or planeswalkers you control, they discard a card. If they can't, they sacrifice an attacking creature.
-  [−2]: Accept one of Davriel's offers, then accept one of Davriel's conditions.
-  [−3]: Target creature an opponent controls perpetually gets -3/-3.
 
 ## Davros, Dalek Creator
 Cost: {1}{u}{b}{r} | Type: Legendary Artifact Creature — Alien Scientist | Color identity: BRU | P/T: 3/4 | Commander: legal
@@ -2081,12 +2041,6 @@ Ruling (2004-10-04): Works on creatures that can't be blocked and on creatures t
 Cost: {1}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Counter target spell unless its controller pays {2}. If you control a Bird, counter that spell unless its controller pays {4} instead.
 Ruling (2024-07-26): If you control more than one Bird, the controller of the target spell still only needs to pay {4}.
-
-## Dazzling Flameweaver
-Cost: {1}{b}{r} | Type: Creature — Lizard Warlock | Color identity: BR | P/T: 3/3 | Commander: legal
-Text: Menace
-  Ward—Pay 3 life.
-  Whenever one or more creatures you control deal combat damage to a player, conjure a random card from Dazzling Flameweaver's spellbook into exile. You may play that card until the end of your next turn.
 
 ## Dazzling Lights
 Cost: {u} | Type: Instant | Color identity: U | Commander: legal
@@ -6421,10 +6375,6 @@ Text: As long as you control an artifact, this creature gets +1/+0 and has death
 Cost: {1}{b} | Type: Instant | Color identity: B | Commander: legal
 Text: Target player sacrifices a creature of their choice.
 
-## Diabolic Formula
-Cost: {u}{b} | Type: Enchantment | Color identity: BU | Commander: legal
-Text: Whenever one or more instant and/or sorcery cards leave your graveyard, conjure a random creature card with mana value X onto the battlefield, where X is the greatest mana value among those cards.
-
 ## Diabolic Intent
 Cost: {1}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: As an additional cost to cast this spell, sacrifice a creature.
@@ -6811,11 +6761,6 @@ Text: Target creature has base power and toughness 1/1 until end of turn.
 Ruling (2017-11-17): Diminish overwrites all previous effects that set the target creature's power and toughness to specific values. Other effects that set its power or toughness to specific values that start to apply after Diminish resolves will overwrite this effect.
 Ruling (2017-11-17): Effects that modify the target creature's power or toughness, such as the effects of Elesh Norn, Grand Cenobite or prowess, will apply to it no matter when they started to take effect. The same is true for counters that change the creature's power or toughness (such as +1/+1 counters).
 
-## Diminished Returner
-Cost: {1}{b}{b} | Type: Creature — Phyrexian Skeleton | Color identity: B | P/T: 4/3 | Commander: legal
-Text: Diminished Returner enters tapped.
-  {B}{B}: Diminished Returner perpetually gets -1/-1, then return it to the battlefield. Activate only if Diminished Returner is in your graveyard and its toughness is 2 or greater.
-
 ## Diminisher Witch
 Cost: {2}{u} | Type: Creature — Human Warlock | Color identity: U | P/T: 3/2 | Commander: legal
 Text: Bargain (You may sacrifice an artifact, enchantment, or token as you cast this spell.)
@@ -6951,12 +6896,6 @@ Cost: {1}{b}{g} | Type: Legendary Creature — Dryad Druid | Color identity: BG 
 Text: Whenever you sacrifice a creature, draw a card. This ability triggers only once each turn.
   {2}, {T}, Sacrifice another creature: You gain X life and put X +1/+1 counters on target creature you control, where X is the sacrificed creature's power.
 Ruling (2026-03-20): Use the power of the sacrificed creature as it last existed on the battlefield to determine the value of X.
-
-## Dina, Flesh Sower
-Cost: {g}{w} | Type: Legendary Creature — Dryad Cleric | Color identity: GW | P/T: 1/1 | Commander: legal
-Text: Lifelink
-  Whenever you gain life, Dina perpetually gets +1/+1.
-  When Dina dies, choose a creature card in your hand. It perpetually gains trample and gets +X/+X, where X is Dina's power.
 
 ## Dina, Soul Steeper
 Cost: {b}{g} | Type: Legendary Creature — Dryad Druid | Color identity: BG | P/T: 1/3 | Commander: legal
@@ -7690,10 +7629,6 @@ Cost: {3}{b} | Type: Creature — Vampire Employee | Color identity: B | P/T: 3/
 Text: When this creature enters, open an Attraction. (Put the top card of your Attraction deck onto the battlefield.)
   At the beginning of your end step, if you control three or more Attractions, you draw a card and you lose 1 life.
 
-## Discover the Formula
-Cost: {4}{u}{u} | Type: Instant | Color identity: U | Commander: legal
-Text: Seek three nonland cards, then nonland cards in your hand perpetually gain "This spell costs {1} less to cast."
-
 ## Discover the Impossible
 Cost: {2}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Look at the top five cards of your library. Exile one of them face down and put the rest on the bottom of your library in a random order. You may cast the exiled card without paying its mana cost if it's an instant spell with mana value 2 or less. If you don't, put that card into your hand.
@@ -8296,12 +8231,6 @@ Ruling (2024-07-05): Once an Assassin creature or commander you control deals co
 Cost: — | Type: Sorcery | Color identity: colorless | Commander: legal
 Text: Each player may sacrifice a creature. Each player who sacrificed a creature this way chooses a Head and taps it. Each player who didn't sacrifice a creature loses 3 life.
 
-## Distracted Botanist
-Cost: {1}{b}{g} | Type: Creature — Frog Druid | Color identity: BG | P/T: 3/2 | Commander: legal
-Text: Deathtouch
-  Lifelink
-  When this creature dies, permanent cards in your graveyard perpetually gain "When this permanent enters, you draw a card and gain 1 life."
-
 ## Distracting Geist
 Cost: {2}{w} | Type: Creature — Spirit | Color identity: W | P/T: 2/1 | Commander: legal
 Faces: Distracting Geist // Clever Distraction (transform)
@@ -8530,10 +8459,6 @@ Cost: {2}{w} | Type: Enchantment | Color identity: W | Commander: legal
 Text: If a source would deal 4 or more damage to a permanent or player, that source deals 3 damage to that permanent or player instead.
 Ruling (2004-10-04): This is not preventing damage since it does not use the word "prevent". It is a replacement.
 
-## Divine Purge
-Cost: {1}{w}{w} | Type: Sorcery | Color identity: W | Commander: legal
-Text: Exile all artifacts and creatures with mana value 3 or less. They perpetually gain "This spell costs {2} more to cast" and "This permanent enters the battlefield tapped." For as long as each of them remain exiled, its owner may play it.
-
 ## Divine Reckoning
 Cost: {2}{w}{w} | Type: Sorcery | Color identity: W | Commander: legal
 Text: Each player chooses a creature they control. Destroy the rest.
@@ -8597,11 +8522,6 @@ Text: If one or more creature tokens would be created under your control, that m
 Ruling (2018-10-05): If an effect changes under whose control a token would be created, that effect applies before Divine Visitation's effect applies. If an effect changes under whose control a token would enter the battlefield, that effect applies after Divine Visitation's effect is able to be applied.
 Ruling (2018-10-05): If you create a noncreature token that will be a creature as it enters the battlefield, perhaps because of an effect such as that of March of the Machines, Divine Visitation's effect doesn't apply to that token's creation. (This is because Divine Visitation's effect modifies how the tokens are created, and March of the Machines's effect doesn't apply until you consider how the tokens are entering the battlefield.)
 Ruling (2018-10-05): The token's characteristics are entirely replaced by a 4/4 white Angel creature token with flying and vigilance. It doesn't have any abilities the token would have been created with. Anything else specified in the effect creating the token (such as tapped, attacking, "That token gains haste," or "Exile that token at end of combat") still applies.
-
-## Diviner of Fates
-Cost: {w}{u}{b} | Type: Creature — Octopus Wizard | Color identity: BUW | P/T: 2/3 | Commander: legal
-Text: When this creature enters the battlefield, it connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on this creature.)
-  Whenever you discard one or more cards, seek a card that shares a card type with one of the discarded cards. This ability triggers only once each turn.
 
 ## Diviner of Mist
 Cost: {4}{u} | Type: Creature — Dragon | Color identity: U | P/T: 4/5 | Commander: legal
@@ -8672,11 +8592,6 @@ Ruling (2024-06-07): While it appears only on cards that already have other card
 ## Diving Griffin
 Cost: {1}{w}{w} | Type: Creature — Griffin | Color identity: W | P/T: 2/2 | Commander: legal
 Text: Flying, vigilance
-
-## Divining Dive
-Cost: {1}{u} | Type: Instant — Omen | Color identity: U | Commander: legal
-Faces: Cunning Azurescale // Divining Dive (adventure)
-Text: Secretly choose land or nonland. Seek a card of the chosen kind.
 
 ## Divining Duelist
 Cost: {2}{u} | Type: Creature — Merfolk Wizard | Color identity: U | P/T: 3/2 | Commander: legal
@@ -10349,11 +10264,6 @@ Text: Flash
 Ruling (2021-07-23): If you target an opponent's creature with Dragon Turtle's Drag Below ability and that target is illegal as the ability tries to resolve, the entire ability is removed from the stack and does nothing. Dragon Turtle will remain untapped and will untap as normal during its controller's next untap step.
 Ruling (2021-07-23): If, however, there are no legal targets for the Drag Below ability when Dragon Turtle enters the battlefield (or you choose not to target anything), Dragon Turtle's ability will still resolve and cause it to be tapped and it won't untap during its controllers next untap step.
 
-## Dragon Typhoon
-Cost: {4}{r}{r} | Type: Kindred Enchantment — Dragon | Color identity: R | Commander: legal
-Text: Whenever you cast a Dragon or noncreature spell, draft a card from Dragon Typhoon's spellbook and put it onto the battlefield.
-  Channel — {2}{R}{R}, Discard this card: Create a 4/4 red Dragon creature token with flying.
-
 ## Dragon Tyrant
 Cost: {8}{r}{r} | Type: Creature — Dragon | Color identity: R | P/T: 6/6 | Commander: legal
 Text: Flying, trample
@@ -10534,11 +10444,6 @@ Text: Trample
   Whenever a source you control deals 5 or more damage to a player, draw a card.
 Ruling (2021-07-23): Dragonborn Champion's last ability only triggers if 5 or more damage is dealt by the same source at the same time. If a source deals 3 damage to a player and then later deals 2 more damage to the same player, this will not cause the ability to trigger.
 
-## Dragonborn Immolator
-Cost: {3}{r} | Type: Creature — Dragon Shaman | Color identity: R | P/T: 2/4 | Commander: legal
-Text: {2}{R}: This creature gets +1/+0 until end of turn.
-  Gift of Tiamat — When this creature dies, if its power is greater than 0, note its power. You get a one-time boon with "When you cast a creature spell, it perpetually gets +X/+0, where X is the noted number."
-
 ## Dragonborn Looter
 Cost: {1}{u} | Type: Creature — Dragon Rogue | Color identity: U | P/T: 1/2 | Commander: legal
 Text: {1}, {T}: Draw a card, then discard a card.
@@ -10557,11 +10462,6 @@ Ruling (2025-04-04): If an effect instructs you to "double" a creature's power, 
 Cost: {1} | Type: Artifact — Equipment | Color identity: colorless | Commander: legal
 Text: Equipped creature gets +2/+2 and has hexproof from monocolored.
   Equip {4}. This ability costs {1} less to activate for each color of the creature it targets.
-
-## Dragonfly Pilot
-Cost: {w} | Type: Creature — Fox Pilot | Color identity: W | P/T: 1/1 | Commander: legal
-Text: When this creature enters, conjure a card named Dragonfly Suit into your hand.
-  This creature crews Vehicles as though its power were 2 greater.
 
 ## Dragonfly Suit
 Cost: {2}{w} | Type: Artifact — Vehicle | Color identity: W | P/T: 3/2 | Commander: legal
@@ -10731,10 +10631,6 @@ Ruling (2009-02-01): If Dragonsoul Knight gains flying after blockers have been 
 Ruling (2009-02-01): When Dragonsoul Knight's activated ability resolves, Dragonsoul Knight will gain flying and trample in addition to its other abilities. However, becoming a Dragon will make it lose all other creature types. It will no longer be a Human or a Knight.
 Ruling (2009-02-01): You can activate Dragonsoul Knight's ability more than once during a turn. The second time it resolves, it will probably have no visible effect other than giving Dragonsoul Knight another +5/+3.
 
-## Dragonsoul Prodigy
-Cost: {2}{r} | Type: Creature — Human Monk | Color identity: R | P/T: 2/2 | Commander: legal
-Text: Whenever you cast your first Omen spell each turn, conjure a duplicate of that card onto the battlefield. It gains haste. At the beginning of the next end step, shuffle it into its owner's library.
-
 ## Dragonspark Reactor
 Cost: {1}{r} | Type: Artifact | Color identity: R | Commander: legal
 Text: Whenever this artifact or another artifact you control enters, put a charge counter on this artifact.
@@ -10768,12 +10664,6 @@ Cost: {3} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: Each Dragon you control enters with an additional +1/+1 counter on it.
   {T}: Add one mana of any color.
 Ruling (2025-04-04): Dragons you control that enter at the same time as Dragonstorm Globe won't enter with an additional +1/+1 counter.
-
-## Dragonweave Tapestry
-Cost: {4} | Type: Artifact | Color identity: colorless | Commander: legal
-Text: When this artifact enters, conjure Dragonweave Tapestry's spellbook into your library twice, then shuffle.
-  Whenever you cast a Dragon or Omen spell, draw a card.
-  {T}: Add one mana of any color.
 
 ## Dragonwing Glider
 Cost: {3}{r}{r} | Type: Artifact — Equipment | Color identity: R | Commander: legal
@@ -11938,12 +11828,6 @@ Text: When this creature enters, put a +1/+1 counter on target creature.
   Each creature you control with a +1/+1 counter on it has trample.
   Warp {1}{G} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)
 
-## Drix Interlacer
-Cost: {1} | Type: Artifact | Color identity: colorless | Commander: legal
-Text: Starting intensity 0
-  Whenever another artifact you control enters, this artifact intensifies by 1.
-  {T}, Sacrifice this artifact: Draw X cards, where X is half this artifact's intensity, rounded down. Activate only as a sorcery.
-
 ## Drizzt Do'Urden
 Cost: {3}{g}{w} | Type: Legendary Creature — Elf Ranger | Color identity: GW | P/T: 3/3 | Commander: legal
 Text: Double strike
@@ -12213,12 +12097,6 @@ Cost: {1}{g} | Type: Creature — Human Druid | Color identity: G | P/T: 1/1 | C
 Text: This creature gets +2/+2 as long as you control a Dinosaur.
   {T}: Add one mana of any color.
 Ruling (2017-09-29): Because damage remains marked on a creature until it's removed as the turn ends, the damage Drover of the Mighty takes during combat may become lethal if you no longer control a Dinosaur later in the turn.
-
-## Drover of the Swine
-Cost: {2}{w}{b}{g} | Type: Creature — Human Warlock | Color identity: BGW | P/T: 5/5 | Commander: legal
-Text: When Drover of the Swine enters, choose one —
-  • Conjure a card of your choice from the Three Pigs spellbook onto the battlefield.
-  • Return up to three target Boar creature cards with different names from your graveyard to the battlefield.
 
 ## Drown in Dreams
 Cost: {x}{2}{u} | Type: Instant | Color identity: U | Commander: legal
@@ -13246,10 +13124,6 @@ Text: Whenever this creature attacks or blocks, put a -1/-1 counter on it.
   When this creature dies, draw a card for each -1/-1 counter on it.
 Ruling (2008-05-01): If Dusk Urchins has just 1 toughness when it blocks, it will get a -1/-1 counter and be put into the graveyard. The creature that it blocked remains blocked, however.
 Ruling (2008-05-01): The -1/-1 counter is put on Dusk Urchins during the declare attackers or declare blockers step, whichever is appropriate, so it will be smaller by the time combat damage is dealt. (Note that this is different from how the _Shadowmoor_ card Wicker Warcrawler works.)
-
-## Dusk's Landing
-Cost: {b} | Type: Sorcery | Color identity: B | Commander: legal
-Text: Draw a card. If an opponent lost life this turn and you gained life this turn, seek two Vampire cards instead.
 
 ## Duskana, the Rage Mother
 Cost: {2}{r}{g}{w} | Type: Legendary Creature — Bear | Color identity: GRW | P/T: 5/5 | Commander: legal

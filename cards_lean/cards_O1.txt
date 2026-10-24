@@ -87,11 +87,6 @@ Cost: {3} | Type: Artifact Creature — Scarecrow | Color identity: colorless | 
 Text: When this creature enters, you gain 2 life.
   {T}: Add one mana of any color.
 
-## Oasis of Renewal
-Cost: {b}{g}{u} | Type: Legendary Enchantment | Color identity: BGU | Commander: legal
-Text: When Oasis of Renewal enters and whenever a land card leaves your graveyard, seek a land card. This ability triggers only once each turn.
-  When Oasis of Renewal enters and whenever a nonland card leaves your graveyard, seek a nonland card. This ability triggers only once each turn.
-
 ## Oasis Ritualist
 Cost: {3}{g} | Type: Creature — Snake Druid | Color identity: G | P/T: 2/4 | Commander: legal
 Text: {T}: Add one mana of any color.
@@ -408,10 +403,6 @@ Text: Flash
   Lifelink
   When this creature enters, it connives. When it connives this way, return up to one target spell to its owner's hand. (To have a creature connive, draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)
 
-## Obscura Polymorphist
-Cost: {1}{w}{u} | Type: Creature — Octopus Wizard | Color identity: UW | P/T: 2/2 | Commander: legal
-Text: When this creature enters the battlefield, exile target creature. Its controller seeks a creature card.
-
 ## Obscura Storefront
 Cost: — | Type: Land | Color identity: colorless | Commander: legal
 Text: When this land enters, sacrifice it. When you do, search your library for a basic Plains, Island, or Swamp card, put it onto the battlefield tapped, then shuffle and you gain 1 life.
@@ -443,11 +434,6 @@ Text: Flash
 Cost: {1}{r} | Type: Creature — Human Wizard | Color identity: R | P/T: 2/2 | Commander: legal
 Text: If it's neither day nor night, it becomes day as this creature enters.
   Whenever day becomes night or night becomes day, discard up to two cards, then draw that many cards.
-
-## Obsessive Collector
-Cost: {3}{u} | Type: Creature — Spirit | Color identity: U | P/T: 4/4 | Commander: legal
-Text: Flying, ward {2}
-  Whenever Obsessive Collector deals combat damage to a player, seek a card with mana value equal to the number of cards in your hand.
 
 ## Obsessive Pursuit
 Cost: {1}{b} | Type: Enchantment | Color identity: B | Commander: legal
@@ -703,11 +689,6 @@ Text: {1}: Draw a card. Gain control of this creature and put a -1/-1 counter on
 Cost: {3}{u}{r} | Type: Creature — Ogre Shaman | Color identity: RU | P/T: 3/4 | Commander: legal
 Text: Haste
   {T}: Scry 1.
-
-## Oglor, Devoted Assistant
-Cost: {1}{u} | Type: Legendary Creature — Homunculus | Color identity: U | P/T: 1/1 | Commander: legal
-Text: At the beginning of your upkeep, look at the top two cards of your library, then put one of them into your graveyard.
-  Whenever a creature card is put into your graveyard from your library or hand, it perpetually gains "When this card leaves your graveyard, create a tapped 2/2 black Zombie creature token."
 
 ## Ognis, the Dragon's Lash
 Cost: {1}{b/r}{r}{r/g} | Type: Legendary Creature — Lizard Warrior | Color identity: BGR | P/T: 3/3 | Commander: legal
@@ -988,13 +969,6 @@ Text: Flying
 ## Oko's Hospitality
 Cost: {3}{g}{u} | Type: Instant | Color identity: GU | Commander: legal
 Text: Creatures you control have base power and toughness 3/3 until end of turn. You may search your library and/or graveyard for a card named Oko, the Trickster, reveal it, and put it into your hand. If you search your library this way, shuffle.
-
-## Oko, Lord of the Fae
-Cost: {1}{w}{w} | Type: Legendary Planeswalker — Oko | Color identity: W | Loyalty/Defense: 3 | Commander: legal
-Text: Creatures can't attack planeswalkers you control unless their controller pays {1} for each of those creatures.
-  [+1]: Up to one target artifact or creature loses all abilities until your next turn.
-  [−1]: Create a 2/2 white Ox creature token.
-  [−7]: You get an emblem with "At the beginning of your upkeep, conjure a random planeswalker card into exile. You may cast that card this turn without paying its mana cost."
 
 ## Oko, Lorwyn Liege
 Cost: {2}{u} | Type: Legendary Planeswalker — Oko | Color identity: GU | Loyalty/Defense: 3 | Commander: legal
@@ -1351,10 +1325,6 @@ Text: Whenever you draw a card, put a foreshadow counter on this enchantment.
 Cost: {3}{u}{u} | Type: Creature — Sphinx | Color identity: U | P/T: 4/4 | Commander: legal
 Text: Flying
   Whenever you cycle or discard a card, target creature an opponent controls gets -2/-0 until end of turn.
-
-## Ominous Traveler
-Cost: {2} | Type: Creature — Human | Color identity: colorless | P/T: 1/1 | Commander: legal
-Text: When this creature enters, draft a card from Ominous Traveler's spellbook. That card perpetually gains prismatic and "When you cast this spell, return a creature named Ominous Traveler you control to its owner's hand."
 
 ## Omit Variables (Prepared a)
 Cost: {u/b} | Type: Sorcery | Color identity: BU | Commander: legal
@@ -2527,10 +2497,6 @@ Text: Flying
 Cost: {g} | Type: Instant | Color identity: G | Commander: legal
 Text: Untap target creature. It gets +1/+3 until end of turn.
 
-## Ornate Imitations
-Cost: {x}{g}{u} | Type: Sorcery | Color identity: GU | Commander: legal
-Text: For each number between 1 and X, conjure a duplicate of a random creature card with that mana value onto the battlefield. X can't be 0.
-
 ## Ornate Kanzashi
 Cost: {5} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: {2}, {T}: Target opponent exiles the top card of their library. You may play that card this turn.
@@ -2929,11 +2895,6 @@ Cost: {2}{g} | Type: Creature — Human Druid | Color identity: G | P/T: 4/2 | C
 Text: When this creature enters, add one mana of any color.
   Whenever another creature you control with power 4 or greater enters, draw a card.
   Plot {2}{G} (You may pay {2}{G} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)
-
-## Outfitted Jouster
-Cost: {2}{b}{r} | Type: Creature — Human Knight | Color identity: BR | P/T: 2/2 | Commander: legal
-Text: When Outfitted Jouster enters, conjure a card named Steelclaw Lance and a card named Brawler's Plate onto the battlefield and attach them to Outfitted Jouster.
-  If damage would be dealt to Outfitted Jouster while it's equipped, prevent that damage. When damage is prevented this way, sacrifice an Equipment attached to Outfitted Jouster.
 
 ## Outflank
 Cost: {w} | Type: Instant | Color identity: W | Commander: legal
@@ -3414,12 +3375,6 @@ Text: When this creature enters, destroy target artifact.
 ## Oxidize
 Cost: {g} | Type: Instant | Color identity: G | Commander: legal
 Text: Destroy target artifact. It can't be regenerated.
-
-## Oyaminartok, Polar Werebear
-Cost: {2}{g}{g} | Type: Legendary Creature — Giant Bear | Color identity: GU | P/T: 4/5 | Commander: legal
-Text: Oyaminartok, Polar Werebear has hexproof if it hasn't dealt damage yet.
-  Whenever Oyaminartok deals combat damage to a player, create a Food token.
-  {U}, Sacrifice a Food: Draft a card from Oyaminartok's spellbook. When you do, add {U}{U}{U}. Spend this mana only to cast blue creature spells.
 
 ## Oyobi, Who Split the Heavens
 Cost: {6}{w} | Type: Legendary Creature — Spirit | Color identity: W | P/T: 3/6 | Commander: legal

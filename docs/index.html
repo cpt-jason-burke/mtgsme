@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f1115">
+<title>MTGSME</title>
+<link rel="icon" href="data:,">
+<style>
+:root{--bg:#0f1115;--panel:#181b22;--panel2:#1f232c;--line:#2b303b;--text:#e8eaf0;--mute:#9aa3b2;--accent:#6ea8ff;--good:#5ccf8a;--warn:#f0b35a;--bad:#ef6f6f}
+@media (prefers-color-scheme:light){:root{--bg:#f5f6f8;--panel:#fff;--panel2:#eef0f4;--line:#d9dde5;--text:#1b1f27;--mute:#5d6676;--accent:#2563eb;--good:#15803d;--warn:#b45309;--bad:#b91c1c}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding-bottom:env(safe-area-inset-bottom)}
+header{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 16px 0}
+h1{font-size:18px;margin:0 0 8px}
+nav{display:flex;gap:4px;overflow-x:auto}
+nav button{flex:1;min-width:76px;background:none;border:0;border-bottom:3px solid transparent;color:var(--mute);font:inherit;font-weight:600;padding:10px 6px;cursor:pointer}
+nav button[aria-selected=true]{color:var(--text);border-color:var(--accent)}
+main{max-width:860px;margin:0 auto;padding:16px}
+input[type=search],input[type=text],select{width:100%;font:inherit;padding:12px 14px;border-radius:10px;border:1px solid var(--line);background:var(--panel);color:var(--text)}
+button.btn{font:inherit;font-weight:600;padding:10px 14px;border-radius:10px;border:1px solid var(--line);background:var(--panel2);color:var(--text);cursor:pointer}
+button.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.row{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border-radius:999px;border:1px solid var(--line);background:var(--panel2);color:var(--text);font:inherit;font-size:14px;cursor:pointer}
+.chip.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.chip.rule{color:var(--accent)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}
+.card.click{cursor:pointer}
+.card h3,.card h4{margin:0 0 2px;font-size:16px}
+.sub{color:var(--mute);font-size:14px}
+.oracle{white-space:pre-wrap;margin:6px 0 0;font-size:15px}
+.badge{display:inline-block;font-size:12px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px;vertical-align:middle}
+.badge.good{background:color-mix(in srgb,var(--good) 20%,transparent);color:var(--good)}
+.badge.bad{background:color-mix(in srgb,var(--bad) 20%,transparent);color:var(--bad)}
+.badge.warn{background:color-mix(in srgb,var(--warn) 22%,transparent);color:var(--warn)}
+.ms{display:inline-block;min-width:1.35em;height:1.35em;line-height:1.35em;border-radius:50%;text-align:center;font-size:.78em;font-weight:700;margin:0 1px;background:#c9ccd3;color:#111;vertical-align:baseline;padding:0 .2em}
+.ms.W{background:#f6f0d4}.ms.U{background:#9fc6ee}.ms.B{background:#9d93a0}.ms.R{background:#f0a590}.ms.G{background:#8fcb9f}
+a.rl{color:var(--accent);text-decoration:underline;text-decoration-style:dotted;cursor:pointer}
+h2{font-size:15px;text-transform:uppercase;letter-spacing:.05em;color:var(--mute);margin:22px 0 6px}
+ul.clean{list-style:none;margin:0;padding:0}
+ul.clean li{margin:8px 0}
+.note{border-left:3px solid var(--warn);background:var(--panel);padding:10px 12px;border-radius:0 10px 10px 0;margin:10px 0;font-size:15px}
+.hidden{display:none}
+.sheet-bg{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:20;display:flex;align-items:flex-end;justify-content:center}
+.sheet{background:var(--bg);width:100%;max-width:860px;max-height:88vh;overflow:auto;border-radius:16px 16px 0 0;border:1px solid var(--line);padding:0 16px 24px}
+.sheet-top{position:sticky;top:0;background:var(--bg);display:flex;gap:8px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line);margin-bottom:8px}
+.sheet-top .t{flex:1;font-weight:700}
+.sug{background:var(--panel);border:1px solid var(--line);border-radius:10px;margin-top:4px;overflow:hidden}
+.sug div{padding:10px 14px;border-bottom:1px solid var(--line);cursor:pointer}
+.sug div:last-child{border:0}
+.sug div:hover{background:var(--panel2)}
+.rule-item{margin:8px 0;padding-left:calc(var(--d,0)*14px)}
+.rule-item .n{font-weight:700;color:var(--mute);margin-right:6px}
+.ex{color:var(--mute);font-size:14px;margin:4px 0 0 0}
+.loading{color:var(--mute);padding:24px 0;text-align:center}
+</style>
+</head>
+<body>
+<header>
+  <h1>MTGSME <span class="sub" id="status"></span></h1>
+  <nav role="tablist">
+    <button role="tab" data-tab="search" aria-selected="true">Search</button>
+    <button role="tab" data-tab="interact" aria-selected="false">Interact</button>
+    <button role="tab" data-tab="rules" aria-selected="false">Rules</button>
+    <button role="tab" data-tab="about" aria-selected="false">About</button>
+  </nav>
+</header>
+<main>
+  <section id="tab-search">
+    <input type="search" id="q" placeholder="Search name, type or text (e.g. landfall, draw a card)" autocomplete="off" autocapitalize="none">
+    <div class="row" id="ci"></div>
+    <div class="row">
+      <select id="type" style="flex:1;min-width:140px"><option value="">Any type</option></select>
+      <button class="chip" id="legal">Commander legal</button>
+      <button class="chip" id="gc">Game Changer</button>
+    </div>
+    <div class="sub" id="count"></div>
+    <div id="results"></div>
+  </section>
+  <section id="tab-interact" class="hidden">
+    <p class="sub">Pick two or more cards. I find which triggers and replacement effects connect them, with the rules that apply. Tap any rule number to read it.</p>
+    <input type="text" id="pick" placeholder="Add a card by name" autocomplete="off" autocapitalize="none">
+    <div id="sug"></div>
+    <div class="row" id="picked"></div>
+    <div class="row" id="examples"></div>
+    <div id="analysis"></div>
+  </section>
+  <section id="tab-rules" class="hidden">
+    <input type="search" id="rq" placeholder="Rule number (702.2) or words (deathtouch, replacement)" autocomplete="off" autocapitalize="none">
+    <div id="rresults"></div>
+  </section>
+  <section id="tab-about" class="hidden"><div id="about"></div></section>
+</main>
+<div id="sheet-root"></div>
+<script src="engine.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
