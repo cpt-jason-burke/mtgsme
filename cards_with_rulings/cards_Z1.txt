@@ -1,0 +1,1420 @@
+## Zabaz, the Glimmerwasp
+Cost: {1} | Type: Legendary Artifact Creature — Insect | Color identity: RW | P/T: 0/0 | Commander: legal
+Text: Modular 1
+  If a modular triggered ability would put one or more +1/+1 counters on a creature you control, that many plus one +1/+1 counters are put on it instead.
+  {R}: Destroy target artifact you control.
+  {W}: Zabaz gains flying until end of turn.
+Ruling (2021-06-18): If this creature gets enough -1/-1 counters put on it to cause it to go to the graveyard, modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield.
+Ruling (2021-06-18): Zabaz the Glimmerwasp's replacement effect requires it to be on the battlefield to work. Notably, that means it won't increase the counters given by its own modular ability.
+
+## Zacama, Primal Calamity
+Cost: {6}{r}{g}{w} | Type: Legendary Creature — Elder Dinosaur | Color identity: GRW | P/T: 9/9 | Commander: legal
+Text: Reach, vigilance, trample
+  When Zacama enters, if you cast it, untap all lands you control.
+  {2}{R}: Zacama deals 3 damage to target creature.
+  {2}{G}: Destroy target artifact or enchantment.
+  {2}{W}: You gain 3 life.
+Ruling (2018-01-19): Zacama's triggered ability triggers if you cast it from any zone. It doesn't trigger if you put Zacama onto the battlefield without casting it.
+Ruling (2023-07-28): Zacama's damage-dealing ability can be activated during combat, perhaps targeting a creature blocking it. If all creatures blocking Zacama are destroyed, its combat damage is assigned to the player, planeswalker, or battle it's attacking because of trample. If the blocking creatures are dealt nonlethal damage, that damage is considered when assigning trample damage.
+
+## Zack Fair
+Cost: {w} | Type: Legendary Creature — Human Soldier | Color identity: W | P/T: 0/1 | Commander: legal
+Text: Zack Fair enters with a +1/+1 counter on it.
+  {1}, Sacrifice Zack Fair: Target creature you control gains indestructible until end of turn. Put Zack Fair's counters on that creature and attach an Equipment that was attached to Zack Fair to that creature.
+Ruling (2025-06-06): In some unusual cases, you may end up putting the appropriate counters on more than one permanent. For example, if you control The Ozolith ("Whenever a creature you control leaves the battlefield, if it had counters on it, put those counters on The Ozolith.") when Zack Fair's last ability resolves, you'll put the appropriate number of each kind of counter onto both The Ozolith and the target creature.
+Ruling (2025-06-06): Zack Fair's last ability doesn't cause you to move counters from Zack Fair onto the target creature. Rather, you put the same number of each kind of counter Zack Fair had when it was sacrificed onto the target creature.
+Ruling (2025-06-06): Zack Fair's last ability puts all counters that were on Zack Fair onto the target creature, not just its +1/+1 counters.
+
+## Zada's Commando
+Cost: {1}{r} | Type: Creature — Goblin Archer Ally | Color identity: R | P/T: 2/1 | Commander: legal
+Text: First strike
+  Cohort — {T}, Tap an untapped Ally you control: This creature deals 1 damage to target opponent or planeswalker.
+Ruling (2016-01-22): To activate a cohort ability, the Ally with that ability must have been under your control continuously since the beginning of your most recent turn. Informally, it can't have "summoning sickness." However, the other Ally you tap can be one that just came under your control. (Note that tapping the second Ally doesn't use {T} [the tap symbol].)
+
+## Zada, Hedron Grinder
+Cost: {3}{r} | Type: Legendary Creature — Goblin Ally | Color identity: R | P/T: 3/3 | Commander: legal
+Text: Whenever you cast an instant or sorcery spell that targets only Zada, copy that spell for each other creature you control that the spell could target. Each copy targets a different one of those creatures.
+Ruling (2018-03-16): Any creature you control that couldn't be targeted by the original spell (due to shroud, protection abilities, targeting restrictions, or any other reason) is just ignored by Zada's ability.
+Ruling (2018-03-16): If the spell that's copied has an X whose value was determined as it was cast (like Rolling Thunder does), the copies have the same value of X.
+Ruling (2018-03-16): If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copies will have the same mode. You can't choose a different one.
+Ruling (2018-03-16): If you cast an instant or sorcery spell that has multiple targets, but it's targeting only Zada with all of them, Zada's ability will trigger. The copies will similarly each be targeting only one of your other creatures. You can't change any of the copy's targets to other creatures.
+Ruling (2018-03-16): The controller of a copy can't choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
+Ruling (2018-03-16): The copies that the ability creates are created on the stack, so they're not cast. Abilities that trigger when a player casts a spell (like Zada's ability itself) won't trigger.
+Ruling (2018-03-16): You control all the copies. You choose the order the copies are put onto the stack. The original spell will be on the stack beneath those copies and will resolve last.
+Ruling (2018-03-16): Zada's ability triggers whenever you cast an instant or sorcery spell that targets only Zada and no other object or player.
+
+## Zaffai and the Tempests
+Cost: {5}{u}{r} | Type: Legendary Creature — Human Bard Sorcerer | Color identity: RU | P/T: 5/7 | Commander: legal
+Text: Once during each of your turns, you may cast an instant or sorcery spell from your hand without paying its mana cost.
+Ruling (2026-03-20): If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the spell.
+Ruling (2026-03-20): If you cast a spell with {X} in its mana cost this way, you must choose 0 as the value of X.
+
+## Zaffai, Thunder Conductor
+Cost: {2}{u}{r} | Type: Legendary Creature — Human Shaman | Color identity: RU | P/T: 1/4 | Commander: legal
+Text: Magecraft — Whenever you cast or copy an instant or sorcery spell, scry 1. If that spell's mana value is 5 or greater, create a 4/4 blue and red Elemental creature token. If that spell's mana value is 10 or greater, Zaffai deals 10 damage to an opponent chosen at random.
+Ruling (2021-04-16): "That spell's mana value" refers to the spell that caused the ability to trigger, not the card you look at when you scry.
+Ruling (2021-04-16): Each magecraft ability has a different effect, although they all have the same trigger condition, whenever you cast or copy an instant or sorcery spell.
+Ruling (2021-04-16): For example, if you control Archmage Emeritus and cast an instant or sorcery spell, Archmage Emeritus's magecraft ability will trigger and you will draw a card.
+Ruling (2021-04-16): If an effect creates a copy of an instant or sorcery spell, this will also cause the magecraft ability to trigger.
+Ruling (2021-04-16): If an effect creates multiple copies of an instant or sorcery spell, magecraft abilities trigger once for each copy created by the effect.
+Ruling (2021-04-16): If the instant or sorcery spell has {X} in its mana cost, X is the value chosen for X as the spell was cast.
+Ruling (2021-04-16): Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies do not cause magecraft abilities to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause magecraft abilities to trigger.
+Ruling (2021-04-16): The wrong card name was inadvertently included in Zaffai's printed rules text. The text above is correct and the full name of the card is Zaffai, Thunder Conductor.
+
+## Zagorka, Mother of Sanctum
+Cost: {1}{g}{u}{r} | Type: Legendary Creature — Human Peasant | Color identity: GRU | P/T: 4/2 | Commander: legal
+Text: Vigilance, trample
+  At the beginning of your end step, each player may create a tapped land token named Sanctum with "{T}: Add one mana of any color." Each opponent who does can't attack you during their next turn.
+
+## Zagoth Crystal
+Cost: {3} | Type: Artifact | Color identity: BGU | Commander: legal
+Text: {T}: Add {B}, {G}, or {U}.
+  Cycling {2} ({2}, Discard this card: Draw a card.)
+
+## Zagoth Mamba
+Cost: {b} | Type: Creature — Nightmare Snake | Color identity: B | P/T: 1/1 | Commander: legal
+Text: Whenever this creature mutates, target creature an opponent controls gets -2/-2 until end of turn.
+
+## Zagoth Triome
+Cost: — | Type: Land — Swamp Forest Island | Color identity: BGU | Commander: legal
+Text: ({T}: Add {B}, {G}, or {U}.)
+  This land enters tapped.
+  Cycling {3} ({3}, Discard this card: Draw a card.)
+
+## Zagras, Thief of Heartbeats
+Cost: {4}{b}{r} | Type: Legendary Creature — Vampire Rogue | Color identity: BR | P/T: 4/4 | Commander: legal
+Text: This spell costs {1} less to cast for each creature in your party.
+  Flying, deathtouch, haste
+  Other creatures you control have deathtouch.
+  Whenever a creature you control deals combat damage to a planeswalker, destroy that planeswalker.
+Ruling (2020-09-25): An ability referring to the number of creatures in your party gets a number from zero to four. Such abilities never ask which creatures are in your party, and you never have to designate specific creatures as being in your party. You can't choose to exclude creatures from this count to lower the number.
+Ruling (2020-09-25): If a creature has more than one party creature type, and there are multiple ways to count that creature that could result in a different number of creatures in your party, the highest such number is used. For example, if you control a Cleric and a Cleric Wizard, the number of creatures in your party is two. You can't choose to have it be just one by counting the Cleric Wizard first as a Cleric.
+Ruling (2020-09-25): If a spell has a cost reduction based on the number of creatures in your party, no player may attempt to change that number after you begin to cast the spell but before you pay the cost.
+Ruling (2020-09-25): Several cards have a cost reduction based on the number of creatures in your party. To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+Ruling (2020-09-25): To determine "the number of creatures in your party," check whether you control a Cleric, whether you control a Rogue, whether you control a Warrior, and whether you control a Wizard. The number is the total number of those checks to which you answered yes. Each creature you control can be counted for only one of those checks.
+
+## Zahid, Djinn of the Lamp
+Cost: {4}{u}{u} | Type: Legendary Creature — Djinn | Color identity: U | P/T: 5/6 | Commander: legal
+Text: You may pay {3}{U} and tap an untapped artifact you control rather than pay this spell's mana cost.
+  Flying
+
+## Zahur, Glory's Past
+Cost: {w}{b} | Type: Legendary Creature — Zombie Cat Warrior | Color identity: BW | P/T: 3/2 | Commander: legal
+Text: Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+  Sacrifice another creature: Surveil 1. Activate only once each turn.
+  Max speed — Whenever a nontoken creature you control dies, create a tapped 2/2 black Zombie creature token.
+
+## Zalto, Fire Giant Duke
+Cost: {3}{r}{r} | Type: Legendary Creature — Giant Barbarian | Color identity: R | P/T: 7/3 | Commander: legal
+Text: Trample
+  Whenever Zalto is dealt damage, venture into the dungeon. (Enter the first room or advance to the next room.)
+Ruling (2021-07-23): A player may only have one dungeon in the command zone at a time.
+Ruling (2021-07-23): Choosing the dungeon or room to venture into is part of resolving the venture into the dungeon keyword action. Once that choice is made, players may not respond until after the appropriate room ability has triggered.
+Ruling (2021-07-23): Dungeon cards are not part of a player's deck or sideboard. In both constructed and limited formats, players can use any dungeon card when they venture into the dungeon.
+Ruling (2021-07-23): Dungeons are removed from the game as a state-based action.
+Ruling (2021-07-23): If Zalto is dealt damage by multiple sources at the same time (usually creatures blocking it), you will only venture into the dungeon once.
+Ruling (2021-07-23): If Zalto is dealt lethal damage, you will still get to venture into the dungeon.
+Ruling (2021-07-23): If you somehow venture into the dungeon while a room's ability is on the stack, you will continue on in the dungeon. If you're already in the last room, complete that dungeon and start a new one.
+Ruling (2021-07-23): Moving into a dungeon room will cause its room ability to trigger.
+Ruling (2021-07-23): Once you resolve the last room ability of a dungeon, that dungeon is now completed and is removed from the game.
+Ruling (2021-07-23): The player venturing into the dungeon chooses which dungeon they will venture into. They may choose a dungeon that they have already completed this game.
+Ruling (2021-07-23): To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
+Ruling (2021-07-23): You can only move forward (well, downward) in a dungeon, never backwards or sideways.
+
+## Zameck Guildmage
+Cost: {g}{u} | Type: Creature — Elf Wizard | Color identity: GU | P/T: 2/2 | Commander: legal
+Text: {G}{U}: This turn, each creature you control enters with an additional +1/+1 counter on it.
+  {G}{U}, Remove a +1/+1 counter from a creature you control: Draw a card.
+Ruling (2013-01-24): Zameck Guildmage's first ability has no effect on creatures already on the battlefield when it resolves.
+Ruling (2013-01-24): Zameck Guildmage's first ability is cumulative. For example, if it resolves twice in a turn, each creature that enters under your control that turn will do so with two +1/+1 additional counters on it.
+
+## Zamriel, Seraph of Steel
+Cost: {2}{w}{w} | Type: Legendary Creature — Angel | Color identity: W | P/T: 3/4 | Commander: legal
+Text: Flying
+  During your turn, equipped creatures you control have indestructible.
+
+## Zanam Djinn
+Cost: {5}{u} | Type: Creature — Djinn | Color identity: U | P/T: 5/6 | Commander: legal
+Text: Flying
+  This creature gets -2/-2 as long as blue is the most common color among all permanents or is tied for most common.
+
+## Zanarkand, Ancient Metropolis
+Cost: — | Type: Land — Town | Color identity: G | Commander: legal
+Faces: Zanarkand, Ancient Metropolis // Lasting Fayth (adventure)
+Text: This land enters tapped.
+  {T}: Add {G}.
+Ruling (2025-06-06): An adventurer card uses only its non-Adventure characteristics in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Jidoor, Aristocratic Capital is a colorless Town land card whose mana value is 0. It can't be the target of Sorceress's Schemes, which reads in part "Return target instant or sorcery card from your graveyard or exiled card with flashback you own to your hand."
+Ruling (2025-06-06): An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+Ruling (2025-06-06): Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+Ruling (2025-06-06): If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may play it using its primary characteristics. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to play that card from exile later.
+Ruling (2025-06-06): If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to play it with its primary characteristics.
+Ruling (2025-06-06): If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to play the copy as a permanent.
+Ruling (2025-06-06): If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+Ruling (2025-06-06): If an effect refers to a card, spell, or permanent that has an Adventure, it won't find an instant or sorcery spell on the stack that's been cast as an Adventure.
+Ruling (2025-06-06): If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+Ruling (2025-06-06): If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Traveling Chocobo ("You may play lands and cast Bird spells from the top of your library.") and Jidoor, Aristocratic Capital is on top of your library, you can play Jidoor, Aristocratic Capital, but you can't cast Overture.
+Ruling (2025-06-06): Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
+Ruling (2025-06-06): When playing a card as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The resulting spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+Ruling (2025-06-06): You must still follow any timing restrictions and permissions for the card you play from exile. In the case of any of the five lands in this release, you'll be able to play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+
+## Zanikev Locust
+Cost: {5}{b} | Type: Creature — Insect | Color identity: B | P/T: 3/3 | Commander: legal
+Text: Flying
+  Scavenge {2}{B}{B} ({2}{B}{B}, Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.)
+Ruling (2013-04-15): Exiling the creature card with scavenge is part of the cost of activating the scavenge ability. Once the ability is activated and the cost is paid, it's too late to stop the ability from being activated by trying to remove the creature card from the graveyard.
+
+## Zap
+Cost: {2}{r} | Type: Instant | Color identity: R | Commander: legal
+Text: Zap deals 1 damage to any target.
+  Draw a card.
+
+## Zar Ojanen, Scion of Efrava
+Cost: {3}{g}{w} | Type: Legendary Creature — Cat Warrior | Color identity: GW | P/T: 4/4 | Commander: legal
+Text: Domain — Whenever Zar Ojanen becomes tapped, put a +1/+1 counter on each creature you control with toughness less than the number of basic land types among lands you control.
+Ruling (2022-09-09): Domain abilities count the number of basic land types among lands you control, not how many lands you control or how many of any type.
+Ruling (2022-09-09): If Zar Ojanen becomes tapped while casting a spell or activating an ability, that spell or ability resolves after Zar Ojanen's triggered ability has resolved.
+Ruling (2022-09-09): The basic land types are Plains, Island, Swamp, Mountain, and Forest. Land types other than basic land types (such as Desert) don't contribute to domain abilities.
+Ruling (2022-09-09): Zar Ojanen, Scion of Efrava's ability is a triggered ability, not an activated ability. It doesn't allow you to tap it whenever you want; rather, you need some other way of tapping it, such as by attacking.
+
+## Zara, Renegade Recruiter
+Cost: {3}{u}{r} | Type: Legendary Creature — Human Pirate | Color identity: RU | P/T: 4/3 | Commander: legal
+Text: Flying
+  Whenever Zara attacks, look at defending player's hand. You may put a creature card from it onto the battlefield under your control tapped and attacking that player or a planeswalker they control. Return that creature to its owner's hand at the beginning of the next end step.
+Ruling (2020-11-10): Although the creature is attacking, it was never declared as an attacking creature. This means that abilities that trigger whenever a creature attacks won't trigger when the creature enters the battlefield attacking.
+Ruling (2020-11-10): Any effects that say the creature can't attack affect only the declaration of attackers. They won't stop the creature from entering the battlefield attacking. For example, you could put a creature card with defender onto the battlefield tapped and attacking this way.
+Ruling (2020-11-10): If a creature is attacking a planeswalker, that planeswalker's controller is the defending player.
+Ruling (2020-11-10): If you lose the game before the creature put onto the battlefield under your control returns to its owner's hand, that creature is exiled. If that creature's owner loses the game while you control the creature, the creature leaves the game with them.
+Ruling (2020-11-10): The creature is returned to its owner's hand only if it's still on the battlefield as the delayed triggered ability resolves. If it's somewhere else at that time, it stays where it is.
+
+## Zarda, the Power Princess
+Cost: {3}{w} | Type: Legendary Creature — Human Warrior Hero | Color identity: W | P/T: 2/4 | Commander: legal
+Text: Flying
+  Other Heroes you control have exalted. (Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control.)
+
+## Zareth San, the Trickster
+Cost: {3}{u}{b} | Type: Legendary Creature — Merfolk Rogue | Color identity: BU | P/T: 4/4 | Commander: legal
+Text: Flash
+  {2}{U}{B}, Return an unblocked attacking Rogue you control to its owner's hand: Put this card from your hand onto the battlefield tapped and attacking.
+  Whenever Zareth San deals combat damage to a player, you may put target permanent card from that player's graveyard onto the battlefield under your control.
+Ruling (2020-09-25): Although Zareth San is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
+Ruling (2020-09-25): Before blockers are declared, attacking Rogues are neither blocked nor unblocked, so you can't pay the cost to activate Zareth San's second ability.
+Ruling (2020-09-25): If Zareth San leaves your hand before its second ability resolves, the ability does nothing as it resolves. Zareth San remains in its new zone and the Rogue you returned remains in its owner's hand.
+Ruling (2020-09-25): If a creature in combat has first strike or double strike, you can activate Zareth San's second ability during the first-strike combat damage step. Zareth San will deal combat damage during the regular combat damage step in this case, even if it somehow gains first strike.
+Ruling (2020-09-25): In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any permanents you control from Zareth San's last ability are exiled.
+Ruling (2020-09-25): To activate Zareth San's second ability, you reveal it in your hand. It remains revealed until the ability has resolved.
+Ruling (2020-09-25): You choose which player or planeswalker Zareth San is attacking. It doesn't have to be attacking the same player or planeswalker that the returned Rogue was attacking.
+Ruling (2020-09-25): Zareth San's second ability can be activated during the declare blockers step, combat damage step, or end of combat step. If you wait until after the declare blockers step, because all combat damage is dealt at once, Zareth San won't normally deal combat damage.
+
+## Zarichi Tiger
+Cost: {3}{w} | Type: Creature — Cat | Color identity: W | P/T: 2/3 | Commander: legal
+Text: {1}{W}, {T}: You gain 2 life.
+
+## Zariel, Archduke of Avernus
+Cost: {2}{r}{r} | Type: Legendary Planeswalker — Zariel | Color identity: R | Loyalty/Defense: 4 | Commander: legal
+Text: [+1]: Creatures you control get +1/+0 and gain haste until end of turn.
+  [0]: Create a 1/1 red Devil creature token with "When this token dies, it deals 1 damage to any target."
+  [−6]: You get an emblem with "At the end of the first combat phase on your turn, untap target creature you control. After this phase, there is an additional combat phase."
+Ruling (2021-07-23): If the target of the emblem's ability becomes an illegal target by the time the ability tries to resolve, the ability won't resolve and none of its effects will happen. You won't get an additional combat phase.
+Ruling (2021-07-23): If you have more than one of Zariel's emblem, the abilities will each trigger at the end of the first combat phase on your turn. You can choose the same creature as the target of each ability. Those targets will untap before any additional combats. No creatures will untap between the first additional combat and the second additional combat (or between the second and third, and so on, and wow, how long was Zariel under your control?!)
+Ruling (2021-07-23): The ability of the emblem can target any creature you control, not just one that's tapped.
+Ruling (2021-07-23): There is no main phase between the combat phases. You move from the first combat phase directly into the second combat phase.
+
+## Zask, Skittering Swarmlord
+Cost: {3}{g}{g} | Type: Legendary Creature — Insect | Color identity: BG | P/T: 5/5 | Commander: legal
+Text: You may play lands and cast Insect spells from your graveyard.
+  Whenever another Insect you control dies, put it on the bottom of its owner's library, then mill two cards. (Put the top two cards of your library into your graveyard.)
+  {1}{B/G}: Target Insect gets +1/+0 and gains deathtouch until end of turn. ({B/G} can be paid with either {B} or {G}.)
+Ruling (2022-12-02): You must pay all costs and follow all timing rules for cards played from your graveyard this way. For example, you may play a land this way only while the stack is empty during one of your own main phases, and only if you haven't played a land yet this turn.
+
+## Zaxara, the Exemplary
+Cost: {1}{b}{g}{u} | Type: Legendary Creature — Nightmare Hydra | Color identity: BGU | P/T: 2/3 | Commander: legal
+Text: Deathtouch
+  {T}: Add two mana of any one color.
+  Whenever you cast a spell with {X} in its mana cost, create a 0/0 green Hydra creature token, then put X +1/+1 counters on it.
+Ruling (2020-04-17): If X is 0, the 0/0 Hydra token will die immediately after the ability's done resolving unless something else is raising its toughness.
+Ruling (2020-04-17): If an effect, such as that of Parallel Lives, causes Zaxara's ability to create multiple Hydra tokens, they each receive X +1/+1 counters.
+Ruling (2020-04-17): If the spell you cast has {X}{X} in its mana cost, the token gets only X counters, not twice X.
+Ruling (2020-04-17): The Hydra token enters the battlefield as a 0/0 creature. Any abilities that modify or trigger on this event apply. After the token is on the battlefield but before any player can take actions, +1/+1 counters are put onto the token.
+Ruling (2020-04-17): The value of X in Zaxara's last ability is the value of X of the spell you cast.
+
+## Zealot il-Vec
+Cost: {2}{w} | Type: Creature — Human Rebel | Color identity: W | P/T: 1/1 | Commander: legal
+Text: Shadow (This creature can block or be blocked by only creatures with shadow.)
+  Whenever this creature attacks and isn't blocked, you may have it deal 1 damage to target creature. If you do, prevent all combat damage this creature would deal this turn.
+Ruling (2006-09-25): If you choose to have Zealot il-Vec deal 1 damage to a creature and that damage is prevented or replaced, Zealot il-Vec's combat damage will still be prevented.
+Ruling (2006-09-25): When Zealot il-Vec attacks and isn't blocked, you must choose a target for its ability even if you don't use it.
+Ruling (2013-04-15): An ability that triggers when something "attacks and isn't blocked" triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step.
+Ruling (2021-03-19): If an attacking creature has multiple evasion abilities, such as shadow and flying, a creature can block it only if that creature satisfies all of the appropriate evasion abilities.
+Ruling (2021-03-19): Multiple instances of shadow on the same creature are redundant.
+Ruling (2021-03-19): Once a creature has been blocked, that creature remains blocked and will deal and be dealt combat damage even if it gains or loses shadow or if the blocking creature gains or loses shadow.
+
+## Zealot of the God-Pharaoh
+Cost: {3}{r} | Type: Creature — Minotaur Archer | Color identity: R | P/T: 4/3 | Commander: legal
+Text: {4}{R}: This creature deals 2 damage to target opponent or planeswalker.
+
+## Zealot's Conviction
+Cost: {w} | Type: Enchantment — Aura | Color identity: W | Commander: legal
+Text: Flash
+  Enchant creature
+  Enchanted creature gets +1/+1.
+  Corrupted — As long as an opponent has three or more poison counters, enchanted creature gets an additional +1/+0 and has first strike.
+
+## Zealots en-Dal
+Cost: {3}{w} | Type: Creature — Human Soldier | Color identity: W | P/T: 2/4 | Commander: legal
+Text: At the beginning of your upkeep, if all nonland permanents you control are white, you gain 1 life.
+
+## Zealous Conscripts
+Cost: {4}{r} | Type: Creature — Human Warrior | Color identity: R | P/T: 3/3 | Commander: legal
+Text: Haste
+  When this creature enters, gain control of target permanent until end of turn. Untap that permanent. It gains haste until end of turn.
+Ruling (2021-03-19): The triggered ability can target any permanent, including one that's untapped or one that you already control.
+
+## Zealous Display
+Cost: {2}{w} | Type: Instant | Color identity: W | Commander: legal
+Text: Creatures you control get +2/+0 until end of turn. If it's not your turn, untap those creatures.
+
+## Zealous Guardian
+Cost: {w/u} | Type: Creature — Kithkin Soldier | Color identity: UW | P/T: 1/1 | Commander: legal
+Text: Flash
+
+## Zealous Inquisitor
+Cost: {2}{w} | Type: Creature — Human Cleric | Color identity: W | P/T: 2/2 | Commander: legal
+Text: {1}{W}: The next 1 damage that would be dealt to this creature this turn is dealt to target creature instead.
+
+## Zealous Lorecaster
+Cost: {5}{r} | Type: Creature — Giant Sorcerer | Color identity: R | P/T: 4/4 | Commander: legal
+Text: When this creature enters, return target instant or sorcery card from your graveyard to your hand.
+
+## Zealous Persecution
+Cost: {w}{b} | Type: Instant | Color identity: BW | Commander: legal
+Text: Until end of turn, creatures you control get +1/+1 and creatures your opponents control get -1/-1.
+
+## Zealous Strike
+Cost: {1}{w} | Type: Instant | Color identity: W | Commander: legal
+Text: Target creature gets +2/+2 and gains first strike until end of turn.
+
+## Zebra Unicorn
+Cost: {2}{g}{w} | Type: Creature — Unicorn | Color identity: GW | P/T: 2/2 | Commander: legal
+Text: Whenever this creature deals damage, you gain that much life.
+
+## Zedruu the Greathearted
+Cost: {1}{u}{r}{w} | Type: Legendary Creature — Minotaur Monk | Color identity: RUW | P/T: 2/4 | Commander: legal
+Text: At the beginning of your upkeep, you gain X life and draw X cards, where X is the number of permanents you own that your opponents control.
+  {U}{R}{W}: Target opponent gains control of target permanent you control.
+Ruling (2020-11-10): If an opponent leaves the game, all permanents you gave to them courtesy of Zedruu will return to your control.
+Ruling (2020-11-10): If either the opponent or the permanent you control becomes an illegal target by the time Zedruu's last ability tries to resolve, the ability does nothing.
+Ruling (2020-11-10): If you leave the game, all permanents you own leave the game with you.
+
+## Zegana, Utopian Speaker
+Cost: {2}{g}{u} | Type: Legendary Creature — Merfolk Wizard | Color identity: GU | P/T: 4/4 | Commander: legal
+Text: When Zegana enters, if you control another creature with a +1/+1 counter on it, draw a card.
+  {4}{G}{U}: Adapt 4. (If this creature has no +1/+1 counters on it, put four +1/+1 counters on it.)
+  Each creature you control with a +1/+1 counter on it has trample.
+Ruling (2019-01-25): If a creature somehow loses all of its +1/+1 counters, it can adapt again and get more +1/+1 counters.
+Ruling (2019-01-25): You can always activate an ability that will cause a creature to adapt. As that ability resolves, if the creature has a +1/+1 counter on it for any reason, you simply won't put any +1/+1 counters on it.
+
+## Zektar Shrine Expedition
+Cost: {1}{r} | Type: Enchantment | Color identity: R | Commander: legal
+Text: Landfall — Whenever a land you control enters, you may put a quest counter on this enchantment.
+  Remove three quest counters from this enchantment and sacrifice it: Create a 7/1 red Elemental creature token with trample and haste. Exile it at the beginning of the next end step.
+Ruling (2024-11-08): A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+Ruling (2024-11-08): A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+Ruling (2024-11-08): Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+
+## Zell Dincht
+Cost: {2}{r} | Type: Legendary Creature — Human Monk | Color identity: R | P/T: 0/3 | Commander: legal
+Text: You may play an additional land on each of your turns.
+  Zell Dincht gets +1/+0 for each land you control.
+  At the beginning of your end step, return a land you control to its owner's hand.
+Ruling (2025-06-06): The effect of Zell Dincht's first ability is cumulative with similar effects. For example, if you control both Zell Dincht and Exploration (an enchantment with "You may play an additional land on each of your turns"), you'll be able to play three lands during each of your turns.
+
+## Zellix, Sanity Flayer
+Cost: {2}{u} | Type: Legendary Creature — Horror | Color identity: U | P/T: 2/3 | Commander: legal
+Text: Hive Mind — Whenever a player mills one or more creature cards, you create a 1/1 black Horror creature token.
+  {1}, {T}: Target player mills three cards.
+  Choose a Background (You can have a Background as a second commander.)
+Ruling (2022-06-10): An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+Ruling (2022-06-10): Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+Ruling (2022-06-10): Choose a Background is a variant of the partner ability. You may have two commanders if one of them is a legendary creature with the choose a background ability and the other is a legendary Background enchantment. Backgrounds and cards with choose a Background do not interact with cards which have any other partner ability.
+Ruling (2022-06-10): If a card refers to a commander creature you own, a Background won't usually be counted or included for that effect. If another spell or ability causes your Background to become a creature, however, it will be included. Any effect that refers to your commander or a commander you own or control without specifying creature will apply to a Background that is your commander, as appropriate.
+Ruling (2022-06-10): If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+Ruling (2022-06-10): If you control a Background that grants an ability to commander creatures you own, and you own more than one commander creature, each of them will have that ability.
+Ruling (2022-06-10): If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
+Ruling (2022-06-10): If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
+Ruling (2022-06-10): Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won't usually be a creature anyway).
+Ruling (2022-06-10): You can choose two commanders that are the same color or colors.
+
+## Zelyon Sword
+Cost: {3} | Type: Artifact | Color identity: colorless | Commander: legal
+Text: You may choose not to untap this artifact during your untap step.
+  {3}, {T}: Target creature gets +2/+0 for as long as this artifact remains tapped.
+
+## Zendikar Farguide
+Cost: {4}{g} | Type: Creature — Elemental | Color identity: G | P/T: 3/3 | Commander: legal
+Text: Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)
+
+## Zendikar Incarnate
+Cost: {2}{r}{g} | Type: Creature — Elemental | Color identity: GR | P/T: */4 | Commander: legal
+Text: Zendikar Incarnate's power is equal to the number of lands you control.
+Ruling (2015-06-22): The ability defining Zendikar Incarnate's power works in all zones, not just the battlefield. Zendikar Incarnate's power changes as the number of lands you control does.
+
+## Zendikar Resurgent
+Cost: {5}{g}{g} | Type: Enchantment | Color identity: G | Commander: legal
+Text: Whenever you tap a land for mana, add one mana of any type that land produced. (The types of mana are white, blue, black, red, green, and colorless.)
+  Whenever you cast a creature spell, draw a card.
+Ruling (2016-01-22): If the land's mana ability produces more than one type of mana, choose one of those types to determine what mana Zendikar Resurgent produces.
+Ruling (2016-01-22): The last ability will resolve before the creature spell that caused it to trigger.
+
+## Zendikar's Roil
+Cost: {3}{g}{g} | Type: Enchantment | Color identity: G | Commander: legal
+Text: Landfall — Whenever a land you control enters, create a 2/2 green Elemental creature token.
+
+## Zenith Chronicler
+Cost: {2} | Type: Artifact Creature — Phyrexian Construct | Color identity: colorless | P/T: 3/1 | Commander: legal
+Text: Whenever a player casts their first multicolored spell each turn, each other player draws a card.
+
+## Zenith Festival
+Cost: {x}{r}{r} | Type: Sorcery | Color identity: R | Commander: legal
+Text: Exile the top X cards of your library. You may play them until the end of your next turn.
+  Harmonize {X}{R}{R} (You may cast this card from your graveyard for its harmonize cost. You may tap a creature you control to reduce that cost by an amount of generic mana equal to its power. Then exile this spell.)
+Ruling (2025-04-04): "Harmonize [cost]" means "You may cast this card from your graveyard by paying [cost] and tapping up to one untapped creature you control rather than paying the spell's mana cost," "If you cast this spell using its harmonize ability, its total cost is reduced by an amount of generic mana equal to the tapped creature's power," and "If the harmonize cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+Ruling (2025-04-04): A spell cast using harmonize will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+Ruling (2025-04-04): If a card with harmonize is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+Ruling (2025-04-04): Tapping a creature won't reduce colored mana components of harmonize costs.
+Ruling (2025-04-04): To determine the total cost of a spell, start with the mana cost or alternative cost (such as a harmonize cost) you're paying, add any cost increases, then apply any cost reductions (such as the cost reduction from tapping a creature). The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+Ruling (2025-04-04): You can cast a spell using harmonize even if it was somehow put into your graveyard without having been cast.
+Ruling (2025-04-04): You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using harmonize only when you could normally cast a sorcery.
+Ruling (2025-04-04): You pay all costs and follow all timing rules for cards played this way. For example, if one of the exiled cards is a land card, you may play it only during your main phase while the stack is empty.
+
+## Zenith Flare
+Cost: {2}{r}{w} | Type: Instant | Color identity: RW | Commander: legal
+Text: Zenith Flare deals X damage to any target and you gain X life, where X is the number of cards with a cycling ability in your graveyard.
+Ruling (2020-04-17): If the chosen target is an illegal target by the time Zenith Flare tries to resolve, the spell won't resolve. You won't gain X life.
+
+## Zenith Seeker
+Cost: {3}{u} | Type: Creature — Bird Wizard | Color identity: U | P/T: 2/2 | Commander: legal
+Text: Flying
+  Whenever you cycle or discard a card, target creature gains flying until end of turn.
+Ruling (2017-04-18): An ability that triggers whenever you "cycle or discard" a card triggers only once if you cycle a card. The ability "Whenever you discard a card" is functionally identical to this ability; cycling is mentioned for clarity.
+Ruling (2017-04-18): An ability that triggers whenever you discard a card doesn't give you permission to discard cards. You'll need another effect that instructs or allows you to discard them.
+Ruling (2017-04-18): Giving a creature flying after it's already been blocked won't change or undo that block. If you want the flying to affect what can block the creature, you must cycle or discard a card during the declare attackers step at the latest.
+Ruling (2017-04-18): If a player discards a card during their cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.
+Ruling (2017-04-18): Some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
+
+## Zenos yae Galvus
+Cost: {3}{b}{b} | Type: Legendary Creature — Human Noble Warrior | Color identity: B | P/T: 4/4 | Commander: legal
+Faces: Zenos yae Galvus // Shinryu, Transcendent Rival (transform)
+Text: My First Friend — When Zenos yae Galvus enters, choose a creature an opponent controls. Until end of turn, creatures other than Zenos yae Galvus and the chosen creature get -2/-2.
+  When the chosen creature leaves the battlefield, transform Zenos yae Galvus.
+Ruling (2025-06-06): A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or allows you to cast it transformed, in which case it enters with its back face up.
+Ruling (2025-06-06): A token that is created as a copy of a double-faced permanent or a double-faced card in another zone is a double-faced token. It will have both the front face and back face of whatever object it's copying. If it's copying a double-faced permanent whose back face is up, the token will enter with its back face up. It can transform if instructed to do so.
+Ruling (2025-06-06): Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a nonmodal double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+Ruling (2025-06-06): Each nonmodal double-faced card in this release is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+Ruling (2025-06-06): If this card somehow enters the battlefield with its back face up, it didn't transform, so you won't choose an opponent.
+Ruling (2025-06-06): If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Crystal Fragments, it will be exiled during the resolution of its second ability and remain in exile.
+Ruling (2025-06-06): In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Cecil, Dark Knight's color identity is black and white, since its front face is black and its back face has a white color indicator.
+Ruling (2025-06-06): In the case where you can't choose a creature an opponent controls for Zenos's first ability (probably because your opponents control no creatures), other creatures will still get -2/-2 until end of turn when Zenos's first ability resolves.
+Ruling (2025-06-06): The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
+Ruling (2025-06-06): The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+
+## Zephid
+Cost: {4}{u}{u} | Type: Creature — Illusion | Color identity: U | P/T: 3/4 | Commander: legal
+Text: Flying
+  Shroud (This creature can't be the target of spells or abilities.)
+
+## Zephid's Embrace
+Cost: {2}{u}{u} | Type: Enchantment — Aura | Color identity: U | Commander: legal
+Text: Enchant creature
+  Enchanted creature gets +2/+2 and has flying and shroud. (It can't be the target of spells or abilities.)
+
+## Zephyr Boots
+Cost: {1} | Type: Artifact — Equipment | Color identity: colorless | Commander: legal
+Text: Equipped creature has flying.
+  Whenever equipped creature deals combat damage to a player, draw a card, then discard a card.
+  Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
+
+## Zephyr Charge
+Cost: {1}{u} | Type: Enchantment | Color identity: U | Commander: legal
+Text: {1}{U}: Target creature gains flying until end of turn.
+
+## Zephyr Falcon
+Cost: {1}{u} | Type: Creature — Bird | Color identity: U | P/T: 1/1 | Commander: legal
+Text: Flying, vigilance
+
+## Zephyr Gull
+Cost: {u} | Type: Creature — Bird | Color identity: U | P/T: 1/1 | Commander: legal
+Text: Flying
+
+## Zephyr Net
+Cost: {1}{u} | Type: Enchantment — Aura | Color identity: U | Commander: legal
+Text: Enchant creature
+  Enchanted creature has defender and flying.
+
+## Zephyr Scribe
+Cost: {2}{u} | Type: Creature — Human Monk | Color identity: U | P/T: 2/1 | Commander: legal
+Text: {U}, {T}: Draw a card, then discard a card.
+  Whenever you cast a noncreature spell, untap this creature.
+
+## Zephyr Sentinel
+Cost: {1}{u} | Type: Creature — Human Soldier | Color identity: U | P/T: 2/1 | Commander: legal
+Text: Flash
+  Flying
+  When this creature enters, return up to one other target creature you control to its owner's hand. If it was a Soldier, put a +1/+1 counter on this creature.
+
+## Zephyr Singer
+Cost: {2}{u}{u} | Type: Creature — Siren Pirate | Color identity: U | P/T: 3/4 | Commander: legal
+Text: Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
+  Flying, vigilance
+  When this creature enters, put a flying counter on each creature that convoked it.
+Ruling (2023-04-14): You can't tap more creatures to convoke Zephyr Singer than is necessary to pay for the spell. In most cases, this means four creatures. However, if there are any additional costs to cast Zephyr Singer, you may use convoke to pay those additional costs as well.
+Ruling (2024-01-12): Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+Ruling (2024-01-12): If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+Ruling (2024-01-12): Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+Ruling (2024-01-12): Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+Ruling (2024-01-12): When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+Ruling (2024-01-12): You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+
+## Zephyr Spirit
+Cost: {5}{u} | Type: Creature — Spirit | Color identity: U | P/T: 0/6 | Commander: legal
+Text: When this creature blocks, return it to its owner's hand.
+
+## Zephyr Sprite
+Cost: {u} | Type: Creature — Faerie | Color identity: U | P/T: 1/1 | Commander: legal
+Text: Flying
+
+## Zephyr Winder
+Cost: {1}{u} | Type: Creature — Elemental | Color identity: U | P/T: 2/1 | Commander: legal
+Text: Flying
+  Whenever this creature deals combat damage to a player, untap up to one target creature.
+
+## Zephyrim
+Cost: {3}{w} | Type: Creature — Human Warrior | Color identity: W | P/T: 3/3 | Commander: legal
+Text: Squad {2} (As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.)
+  Flying, vigilance
+  Miracle {1}{W} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)
+Ruling (2022-10-07): If an effect puts a card into your hand without using the word "draw," the card wasn't drawn.
+Ruling (2022-10-07): If the card with miracle leaves your hand before the triggered ability resolves, you won't be able to cast it using its miracle ability.
+Ruling (2022-10-07): If the spell is countered, the squad ability will not trigger, and no tokens will be created.
+Ruling (2022-10-07): If you cast Zephyrim for its miracle cost, you may also choose to pay its squad cost one or more times.
+Ruling (2022-10-07): If, for some reason, the creature doesn't have the squad ability when it's on the battlefield, the ability won't trigger, even if you've paid the squad cost one or more times.
+Ruling (2022-10-07): It's important to reveal a card with miracle before it is mixed with the other cards in your hand.
+Ruling (2022-10-07): Miracle is an alternative cost to cast the spell with miracle. It can't be combined with other alternative costs, such as casting a spell "without paying its mana cost."
+Ruling (2022-10-07): Multiple card draws are always treated as a sequence of individual card draws. For example, if you haven't drawn any cards yet during a turn and cast a spell that instructs you to draw three cards, you'll draw them one at a time. Only the first card drawn this way may be revealed and cast using its miracle ability.
+Ruling (2022-10-07): See also "New Keyword Ability: Squad" and "Returning Keyword Ability: Miracle" in the General Notes section.
+Ruling (2022-10-07): The tokens created by the squad ability aren't "cast," so any abilities that trigger when a spell is cast won't trigger for the copies.
+Ruling (2022-10-07): To determine the total cost of a spell, start with the mana cost or alternative cost (such as a miracle cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+Ruling (2022-10-07): You can cast a card for its miracle cost only as the miracle triggered ability resolves. If you don't want to cast it at that time (or you can't cast it, perhaps because there are no legal targets available), you won't be able to cast it later for the miracle cost.
+Ruling (2022-10-07): You can reveal and cast a card with miracle on any turn, not just your own, if it's the first card you've drawn that turn.
+Ruling (2022-10-07): You cast the card with miracle during the resolution of the triggered ability. Ignore any timing rules based on the card's type.
+Ruling (2022-10-07): You don't have to reveal a drawn card with miracle if you don't wish to cast it at that time.
+Ruling (2022-10-07): You may pay the squad cost any number of times. You will get a token that is a copy of that permanent for each time you paid the squad cost.
+Ruling (2022-10-07): You still draw the card, whether you use the miracle ability or not. Any ability that triggers whenever you draw a card, for example, will trigger. If you don't cast the card using its miracle ability, it will remain in your hand.
+
+## Zerapa Minotaur
+Cost: {2}{r}{r} | Type: Creature — Minotaur | Color identity: R | P/T: 3/3 | Commander: legal
+Text: First strike
+  {2}: This creature loses first strike until end of turn. Any player may activate this ability.
+
+## Zeriam, Golden Wind
+Cost: {3}{w} | Type: Legendary Creature — Griffin | Color identity: W | P/T: 3/4 | Commander: legal
+Text: Flying
+  Whenever a Griffin you control deals combat damage to a player, create a 2/2 white Griffin creature token with flying.
+
+## Zero Point Ballad
+Cost: {x}{b} | Type: Sorcery | Color identity: B | Commander: legal
+Text: Destroy all creatures with toughness X or less. You lose X life. If X is 6 or more, return a creature card put into a graveyard this way to the battlefield under your control.
+
+## Zetalpa, Primal Dawn
+Cost: {6}{w}{w} | Type: Legendary Creature — Elder Dinosaur | Color identity: W | P/T: 4/8 | Commander: legal
+Text: Flying, double strike, vigilance, trample, indestructible
+Ruling (2024-11-08): If an attacking creature with double strike and trample destroys all of its blocking creatures with first-strike combat damage, all of its normal combat damage is assigned to the player, planeswalker, or battle that creature's attacking.
+
+## Zethi, Arcane Blademaster
+Cost: {1}{w}{u} | Type: Legendary Creature — Human Soldier | Color identity: UW | P/T: 3/3 | Commander: legal
+Text: Multikicker {W/U}
+  When Zethi, Arcane Blademaster enters, exile up to X target instant cards from your graveyard, where X is the number of times Zethi was kicked. Put a kick counter on each of them.
+  Whenever Zethi attacks, copy each exiled card you own with a kick counter on it. You may cast the copies.
+
+## Zevlor, Elturel Exile
+Cost: {1}{u}{b}{r} | Type: Legendary Creature — Tiefling Warrior | Color identity: BRU | P/T: 4/2 | Commander: legal
+Text: Haste
+  {2}, {T}: When you next cast an instant or sorcery spell that targets only a single opponent or a single permanent an opponent controls this turn, for each other opponent, choose that player or a permanent they control, copy that spell, and the copy targets the chosen player or permanent.
+Ruling (2022-06-10): As you make your choices for each other opponent, you can choose that opponent or any permanent they control, but if the chosen player or permanent isn't a legal target for the spell, the copy won't be created.
+Ruling (2022-06-10): If instant or sorcery spell could have multiple targets but only one target is chosen as it is cast, that spell will cause Zevlor's delayed triggered ability to trigger. The copies will similarly have only one target. For example, if you cast Explosive Entry ("Destroy up to one target artifact. Put a +1/+1 counter on up to one target creature") targeting only a creature, the copies can each legally target a single creature.
+Ruling (2022-06-10): If the spell has an X whose value was determined as it was cast (like Fireball does), the copy has the same value of X.
+Ruling (2022-06-10): If the spell is modal (that is, it has a bulleted list of choices), the copies will have the same mode(s). You can't choose different ones.
+Ruling (2022-06-10): Like any spell, each copy will check to see if its target is still legal as it tries to resolve.
+Ruling (2022-06-10): The delayed triggered ability can copy the spell that caused it to trigger even if that spell has been countered by the time that ability resolves.
+Ruling (2022-06-10): When the delayed triggered ability of Zevlor, Elturel Exile resolves, it may create one or more copies of a spell. You control each of the copies. Those copies are created on the stack, so they're not "cast." Abilities that trigger when a player casts a spell won't trigger. The copies will then resolve like normal spells, after players get a chance to cast spells and activate abilities.
+Ruling (2022-06-10): You can't choose to pay any additional costs for the copies. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copies too. For example, if you sacrifice a 3/3 creature to cast Fling and then copy it, each copy of Fling will also deal 3 damage to its target.
+Ruling (2022-06-10): Zevlor, Elturel Exile has received an update to its Oracle text. The word "only" was inadvertently left off the printed card. The updated text is included above. Notably, an instant or sorcery spell with multiple targets will not cause the delayed triggered ability to trigger, even if only one of those targets is an opponent or an permanent an opponent controls.
+
+## Zhalfirin Commander
+Cost: {2}{w} | Type: Creature — Human Knight | Color identity: W | P/T: 2/2 | Commander: legal
+Text: Flanking (Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)
+  {1}{W}{W}: Target Knight creature gets +1/+1 until end of turn.
+
+## Zhalfirin Crusader
+Cost: {1}{w}{w} | Type: Creature — Human Knight | Color identity: W | P/T: 2/2 | Commander: legal
+Text: Flanking (Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)
+  {1}{W}: The next 1 damage that would be dealt to this creature this turn is dealt to any target instead.
+
+## Zhalfirin Decoy
+Cost: {1}{w} | Type: Creature — Human Soldier | Color identity: W | P/T: 1/3 | Commander: legal
+Text: {T}: Tap target creature. Activate only if you had a creature enter the battlefield under your control this turn.
+Ruling (2019-06-14): Zhalfirin Decoy's ability can be activated even if a creature entered the battlefield under your control only before Zhalfirin Decoy entered the battlefield, and even if that creature has left the battlefield.
+
+## Zhalfirin Knight
+Cost: {2}{w} | Type: Creature — Human Knight | Color identity: W | P/T: 2/2 | Commander: legal
+Text: Flanking (Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)
+  {W}{W}: This creature gains first strike until end of turn.
+
+## Zhalfirin Lancer
+Cost: {2}{w} | Type: Creature — Human Knight | Color identity: W | P/T: 3/3 | Commander: legal
+Text: Whenever another Knight you control enters, this creature gets +1/+1 and gains vigilance until end of turn.
+
+## Zhalfirin Shapecraft
+Cost: {1}{u} | Type: Instant | Color identity: U | Commander: legal
+Text: Target creature has base power and toughness 4/3 until end of turn.
+  Draw a card.
+Ruling (2023-04-14): Effects that modify a creature's power and/or toughness, such as the effect of Titanic Growth, will apply to the creature no matter when they started to take effect. The same is true for any counters that change its power and/or toughness and effects that switch its power and toughness.
+Ruling (2023-04-14): Zhalfirin Shapecraft doesn't affect the creature's card types, creature types, or abilities.
+Ruling (2023-04-14): Zhalfirin Shapecraft overwrites all previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after the ability resolves will overwrite this effect.
+
+## Zhalfirin Void
+Cost: — | Type: Land | Color identity: colorless | Commander: legal
+Text: When this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+  {T}: Add {C}.
+
+## Zhang Fei, Fierce Warrior
+Cost: {4}{w}{w} | Type: Legendary Creature — Human Soldier Warrior | Color identity: W | P/T: 4/4 | Commander: legal
+Text: Vigilance; horsemanship (This creature can't be blocked except by creatures with horsemanship.)
+Ruling (2009-10-01): Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
+
+## Zhang He, Wei General
+Cost: {3}{b}{b} | Type: Legendary Creature — Human Soldier | Color identity: B | P/T: 4/2 | Commander: legal
+Text: Horsemanship (This creature can't be blocked except by creatures with horsemanship.)
+  Whenever Zhang He attacks, each other creature you control gets +1/+0 until end of turn.
+Ruling (2009-10-01): Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
+
+## Zhang Liao, Hero of Hefei
+Cost: {4}{b}{b} | Type: Legendary Creature — Human Soldier | Color identity: B | P/T: 3/3 | Commander: legal
+Text: Whenever Zhang Liao deals damage to an opponent, that opponent discards a card.
+
+## Zhao Zilong, Tiger General
+Cost: {3}{w}{w} | Type: Legendary Creature — Human Soldier Warrior | Color identity: W | P/T: 3/3 | Commander: legal
+Text: Horsemanship (This creature can't be blocked except by creatures with horsemanship.)
+  Whenever Zhao Zilong blocks, it gets +1/+1 until end of turn.
+Ruling (2009-10-01): Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
+
+## Zhao, Ruthless Admiral
+Cost: {2}{b/r}{b/r} | Type: Legendary Creature — Human Soldier | Color identity: BR | P/T: 3/4 | Commander: legal
+Text: Firebending 2 (Whenever this creature attacks, add {R}{R}. This mana lasts until end of combat.)
+  Whenever you sacrifice another permanent, creatures you control get +1/+0 until end of turn.
+Ruling (2025-10-02): "Firebending N" is a keyword that represents the ability "Whenever this creature attacks, add N {R}. Until end of combat, you don't lose this mana as steps end."
+Ruling (2025-10-02): Any other mana you add during combat will still be lost as normal when moving between steps of combat.
+Ruling (2025-10-02): Firebending abilities aren't mana abilities. They use the stack and can be responded to.
+Ruling (2025-10-02): Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
+Ruling (2025-10-02): Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+
+## Zhao, the Moon Slayer
+Cost: {1}{r} | Type: Legendary Creature — Human Soldier | Color identity: R | P/T: 2/2 | Commander: legal
+Text: Menace
+  Nonbasic lands enter tapped.
+  {7}: Put a conqueror counter on Zhao.
+  As long as Zhao has a conqueror counter on him, nonbasic lands are Mountains. (They lose all other land types and abilities and have "{T}: Add {R}.")
+Ruling (2025-10-02): If an effect states that a land enters tapped unless a condition is met, Zhao, the Moon Slayer's second ability has it enter tapped even if that condition is true. For example, you may control a basic land while playing Abandoned Air Temple, but Abandoned Air Temple will still enter tapped.
+Ruling (2025-10-02): While Zhao has a conqueror counter on him, if a nonbasic land has an ability that triggers "when" it enters, it will lose that ability before it can trigger. Nonbasic lands will lose any other land types and abilities they had. They will have the land type Mountain and the intrinsic ability "{T}: Add {R}." This effect doesn't affect names or supertypes. It won't turn any land into a basic land or remove the legendary supertype from a legendary land, and the lands won't be named "Mountain."
+
+## Zhao, the Seething Flame
+Cost: {4}{r} | Type: Legendary Creature — Human Soldier | Color identity: R | P/T: 5/5 | Commander: legal
+Text: Menace (This creature can't be blocked except by two or more creatures.)
+
+## Zhentarim Bandit
+Cost: {1}{b} | Type: Creature — Halfling Rogue | Color identity: B | P/T: 2/1 | Commander: legal
+Text: Whenever this creature attacks, you may pay 1 life. If you do, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
+
+## Zhou Yu, Chief Commander
+Cost: {5}{u}{u} | Type: Legendary Creature — Human Soldier | Color identity: U | P/T: 8/8 | Commander: legal
+Text: Zhou Yu can't attack unless defending player controls an Island.
+
+## Zhuge Jin, Wu Strategist
+Cost: {1}{u}{u} | Type: Legendary Creature — Human Advisor | Color identity: U | P/T: 1/1 | Commander: legal
+Text: {T}: Target creature can't be blocked this turn. Activate only during your turn, before attackers are declared.
+Ruling (2013-09-20): If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+
+## Zhulodok, Void Gorger
+Cost: {5}{c} | Type: Legendary Creature — Eldrazi | Color identity: colorless | P/T: 7/4 | Commander: legal
+Text: Colorless spells you cast from your hand with mana value 7 or greater have "Cascade, cascade." (When you cast one, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order. Then do it again.)
+Ruling (2023-07-28): A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+Ruling (2023-07-28): Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+Ruling (2023-07-28): Due to a 2021 rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+Ruling (2023-07-28): Each instance of cascade triggers and resolves separately. The spell you cast due to the first cascade ability will go on the stack on top of the second cascade ability. That spell will resolve before you exile cards for the second cascade ability.
+Ruling (2023-07-28): If a spell with cascade is countered, the cascade ability will still resolve normally.
+Ruling (2023-07-28): If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+Ruling (2023-07-28): If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+Ruling (2023-07-28): Once you announce that you're casting a spell, players can't take action until you've finished casting it. Causing Zhulodok, Void Gorger to leave the battlefield after you've cast a colorless spell from your hand with mana value 7 or greater won't stop that spell's cascade abilities from resolving.
+Ruling (2023-07-28): The mana value of a split card is determined by the combined mana value of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
+Ruling (2023-07-28): When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+Ruling (2023-07-28): You exile the cards face up. All players will be able to see them.
+
+## Zhur-Taa Ancient
+Cost: {3}{r}{g} | Type: Creature — Beast | Color identity: GR | P/T: 7/5 | Commander: legal
+Text: Whenever a player taps a land for mana, that player adds one mana of any type that land produced.
+
+## Zhur-Taa Druid
+Cost: {r}{g} | Type: Creature — Human Druid | Color identity: GR | P/T: 1/1 | Commander: legal
+Text: {T}: Add {G}.
+  Whenever you tap this creature for mana, it deals 1 damage to each opponent.
+Ruling (2013-04-15): If you tap Zhur-Taa Druid for mana during the process of casting a spell or activating an ability, its triggered ability will resolve before that spell or ability.
+Ruling (2013-04-15): Zhur-Taa Druid's last ability doesn't trigger if it becomes tapped for any other reason. However, if Zhur-Taa Druid gains another mana ability that requires you tap it, its ability will trigger.
+Ruling (2013-04-15): Zhur-Taa Druid's last ability isn't a mana ability. It uses the stack and can be responded to.
+
+## Zhur-Taa Goblin
+Cost: {r}{g} | Type: Creature — Goblin Berserker | Color identity: GR | P/T: 2/2 | Commander: legal
+Text: Riot (This creature enters with your choice of a +1/+1 counter or haste.)
+Ruling (2019-01-25): If a creature entering the battlefield has riot but can't have a +1/+1 counter put onto it, it gains haste.
+Ruling (2019-01-25): If you choose for the creature to gain haste, it gains haste indefinitely. It won't lose it as the turn ends or as another player gains control of it.
+Ruling (2019-01-25): Riot is a replacement effect. Players can't respond to your choice of +1/+1 counter or haste, and they can't take actions while the creature is on the battlefield without one or the other.
+
+## Zhur-Taa Swine
+Cost: {3}{r}{g} | Type: Creature — Boar | Color identity: GR | P/T: 5/4 | Commander: legal
+Text: Bloodrush — {1}{R}{G}, Discard this card: Target attacking creature gets +5/+4 until end of turn.
+
+## Ziatora's Envoy
+Cost: {1}{b}{r}{g} | Type: Creature — Lizard Warrior | Color identity: BGR | P/T: 5/4 | Commander: legal
+Text: Trample
+  Whenever this creature deals combat damage to a player, look at the top card of your library. You may play a land from the top of your library or cast a spell with mana value less than or equal to the damage dealt from the top of your library without paying its mana cost. If you don't, put that card into your hand.
+  Blitz {2}{B}{R}{G}
+Ruling (2022-04-29): "If you don't" in the second ability refers to whether you played a land or cast a spell from the top of your library, not just whether or not you cast a spell.
+Ruling (2022-04-29): If a creature enters the battlefield as a copy of or becomes a copy of a creature whose blitz cost was paid, the copy won't have haste, won't be sacrificed, and its controller won't draw a card when it dies.
+Ruling (2022-04-29): If you choose to pay the blitz cost rather than the mana cost, you're still casting the spell. It goes on the stack and can be responded to and countered. You can cast a creature spell for its blitz cost only if you could cast that creature spell. Most of the time, this means during your main phase when the stack is empty.
+Ruling (2022-04-29): If you pay the blitz cost to cast a creature spell, that permanent will be sacrificed only if it's still on the battlefield when that triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is.
+Ruling (2022-04-29): The triggered ability that lets its controller draw a card triggers when it dies for any reason, not just when you sacrifice it during the end step.
+Ruling (2022-04-29): You don't have to attack with the creature with blitz unless another ability says you do.
+
+## Ziatora's Proving Ground
+Cost: — | Type: Land — Swamp Mountain Forest | Color identity: BGR | Commander: legal
+Text: ({T}: Add {B}, {R}, or {G}.)
+  This land enters tapped.
+  Cycling {3} ({3}, Discard this card: Draw a card.)
+
+## Ziatora, the Incinerator
+Cost: {3}{b}{r}{g} | Type: Legendary Creature — Demon Dragon | Color identity: BGR | P/T: 6/6 | Commander: legal
+Text: Flying
+  At the beginning of your end step, you may sacrifice another creature. When you do, Ziatora deals damage equal to that creature's power to any target and you create three Treasure tokens.
+Ruling (2022-04-29): Use the creature's power as it last existed on the battlefield to determine how much damage Ziatora deals.
+
+## Zidane, Tantalus Thief
+Cost: {3}{r}{w} | Type: Legendary Creature — Human Mutant Scout | Color identity: RW | P/T: 3/3 | Commander: legal
+Text: When Zidane enters, gain control of target creature an opponent controls until end of turn. Untap it. It gains lifelink and haste until end of turn.
+  Whenever an opponent gains control of a permanent from you, you create a Treasure token.
+Ruling (2025-06-06): If an opponent gains control of Zidane from you, Zidane's last ability will trigger and you'll create a Treasure token. If an opponent gains control of Zidane and one or more other permanents from you simultaneously, Zidane's last ability will trigger for each of those permanents, including itself. This means you'll create a Treasure token for each of those permanents, including Zidane.
+
+## Zilortha, Apex of Ikoria
+Cost: — | Type: Legendary Creature — Dinosaur | Color identity: G | P/T: 8/8 | Commander: legal
+Faces: Invasion of Ikoria // Zilortha, Apex of Ikoria (transform)
+Text: Reach
+  For each non-Human creature you control, you may have that creature assign its combat damage as though it weren't blocked.
+Ruling (2023-04-14): A Siege's controller can't be its protector. If a Siege's protector ever gains control of it, they choose a new player to be its protector. This is a state-based action.
+Ruling (2023-04-14): A battle can be attacked by all players other than its protector. Notably, this means a Siege's controller can attack it.
+Ruling (2023-04-14): A battle can be dealt damage and be target of spells and/or abilities that target "any target."
+Ruling (2023-04-14): A battle's "defense" is displayed in the bottom right corner of the card. A battle enters the battlefield with that number of defense counters. If another permanent enters the battlefield as a copy of a battle, it also enters with that number of defense counters.
+Ruling (2023-04-14): As a Siege enters the battlefield, its controller chooses an opponent to be its protector.
+Ruling (2023-04-14): Assigning a creature's damage as though it weren't blocked is all or nothing. You can't use this effect to assign some of the creature's damage to a blocking creature and the rest to the player, planeswalker, or battle it's attacking.
+Ruling (2023-04-14): Battles can't attack or block, even if one also becomes a creature. If an attacking or blocking creature somehow becomes a battle in addition to being a creature, it is removed from combat.
+Ruling (2023-04-14): Damage dealt to a battle causes that many defense counters to be removed from it.
+Ruling (2023-04-14): Even if a creature assigns damage as though it were not blocked, it will still receive damage from creatures that are blocking it.
+Ruling (2023-04-14): If a Siege never had defense counters on it (perhaps because a permanent became a copy of one), it can't have its last defense counter removed. It will be put into its owner's graveyard. You won't exile it or cast the other face.
+Ruling (2023-04-14): If a battle has no defense counters, and it isn't the source of a triggered ability that has triggered but not yet left the stack, that battle is put into its owner's graveyard. This is a state-based action. This doesn't cause a Siege's intrinsic triggered ability to trigger.
+Ruling (2023-04-14): If a battle that's being attacked somehow stops being a battle, it is removed from combat. Similarly, if its controller changes in the middle of combat, it is removed from combat.
+Ruling (2023-04-14): If a non-battle permanent that is already on the battlefield become a copy of a Siege, its controller chooses one of their opponents to be that battle's protector. However, it will most likely be put into its owner's graveyard because it has no defense counters (see below).
+Ruling (2023-04-14): If a permanent that is represented by a transforming double-faced card becomes a copy of a Siege, it will be exiled as that Siege's triggered ability resolves, then it will be cast transformed. Note that this applies only to transforming double-faced cards, not to modal double-faced cards that can normally be played using either face.
+Ruling (2023-04-14): If a token or a card that isn't represented by a transforming double-faced card becomes a copy of a Siege, it can't be cast as its triggered ability resolves. It will remain in exile. If it's a token, it will cease to exist the next time state-based actions are performed.
+Ruling (2023-04-14): In a multiplayer game, if the protector of a battle leaves the game and that battle is not currently being attacked, its controller chooses a new protector for it as a state-based action. If it is being attacked, its controller chooses a new protector for it once no creatures are attacking it. This means that it continues to be attacked and can be dealt combat damage as normal.
+Ruling (2023-04-14): Only creatures controlled by a battle's protector can block creatures that are attacking that battle. This means a Siege's controller can never assign creatures to block for it.
+Ruling (2023-04-14): Sieges each have an intrinsic triggered ability. That ability is "When the last defense counter is removed from this permanent, exile it, then you may cast it transformed without paying its mana cost."
+Ruling (2023-04-14): You decide whether to assign a non-Human creature's combat damage as though it weren't blocked just before it assigns that damage. You may make a different choice for each non-Human creature you control—that is, you may have none, some, or all of those creatures assign combat damage as though they weren't blocked.
+
+## Zilortha, Strength Incarnate
+Cost: {3}{r}{g} | Type: Legendary Creature — Dinosaur | Color identity: GR | P/T: 7/3 | Commander: legal
+Text: Trample
+  Lethal damage dealt to creatures you control is determined by their power rather than their toughness.
+Ruling (2020-04-17): A creature with 0 power isn't destroyed unless it has at least 1 damage marked on it.
+Ruling (2020-04-17): A creature with 0 toughness is put into its owner's graveyard. This state-based action isn't a consequence of damage, so Zilortha doesn't affect it.
+Ruling (2020-04-17): Any time the game is checking whether damage is lethal or if a creature should be destroyed for having lethal damage marked on it, use the power of your creatures rather than their toughness to check the damage against. This includes being assigned trample damage, damage from Flame Spill, and so on.
+Ruling (2020-04-17): Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature you control may become lethal if Zilortha enters or leaves the battlefield during that turn.
+
+## Zimone and Dina
+Cost: {b}{g}{u} | Type: Legendary Creature — Human Dryad | Color identity: BGU | P/T: 3/4 | Commander: legal
+Text: Whenever you draw your second card each turn, target opponent loses 2 life and you gain 2 life.
+  {T}, Sacrifice another creature: Draw a card. You may put a land card from your hand onto the battlefield tapped. If you control eight or more lands, repeat this process once.
+Ruling (2023-04-14): For the activated ability, repeating the process means the entire effect, but not the cost. You don't have to (and, in fact, can't) sacrifice another creature. You'll draw another card, then you may put another land card from your hand onto the battlefield tapped. As this is your second time through the process, the ability will finish resolving.
+Ruling (2023-04-14): Zimone and Dina doesn't need to have been under your control when the first card is drawn for its ability to trigger. As long as you control it when you draw your second card in a turn, that ability will trigger.
+
+## Zimone the Calculating
+Cost: {u}{b} | Type: Legendary Creature — Human Warlock | Color identity: BU | P/T: -1/4 | Commander: legal
+Faces: Zimone the Calculating // Simple Subtraction (prepare)
+Text: Zimone assigns combat damage as though her power were positive.
+  Whenever one or more cards are put into your graveyard from your library, Zimone becomes prepared.
+
+## Zimone's Experiment
+Cost: {3}{g} | Type: Sorcery | Color identity: G | Commander: legal
+Text: Look at the top five cards of your library. You may reveal up to two creature and/or land cards from among them, then put the rest on the bottom of your library in a random order. Put all land cards revealed this way onto the battlefield tapped and put all creature cards revealed this way into your hand.
+
+## Zimone's Hypothesis
+Cost: {3}{u}{u} | Type: Instant | Color identity: U | Commander: legal
+Text: You may put a +1/+1 counter on a creature. Then choose odd or even. Return each creature with power of the chosen quality to its owner's hand. (Zero is even.)
+Ruling (2024-09-20): You choose odd or even while Zimone's Hypothesis is resolving. Players can't take any actions between the time you make that choice and the time creatures are returned to their owners' hands.
+
+## Zimone, All-Questioning
+Cost: {1}{g}{u} | Type: Legendary Creature — Human Wizard | Color identity: GU | P/T: 1/1 | Commander: legal
+Text: At the beginning of your end step, if a land entered the battlefield under your control this turn and you control a prime number of lands, create Primo, the Indivisible, a legendary 0/0 green and blue Fractal creature token, then put that many +1/+1 counters on it. (2, 3, 5, 7, 11, 13, 17, 19, 23, 29, and 31 are prime numbers.)
+Ruling (2024-09-20): If a land hasn't entered the battlefield under your control during your turn by the time your end step begins, Zimone's ability won't trigger at all. You won't be able to put a land onto the battlefield under your control during your end step in time to have the ability trigger.
+Ruling (2024-09-20): If you don't control a prime number of lands as Zimone's ability tries to resolve, it won't resolve.
+Ruling (2024-09-20): In case you do end up with more than 31 lands, the remaining prime numbers below 100 are 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, and 97.
+Ruling (2024-09-20): There are a few more prime numbers, but we couldn't fit them all on the card. (Some of them would take up more room than we have in the text box by themselves, but you probably won't control that many lands.)
+
+## Zimone, Infinite Analyst
+Cost: {1}{g}{u} | Type: Legendary Creature — Human Wizard | Color identity: GU | P/T: 0/4 | Commander: legal
+Text: The first spell you cast with {X} in its mana cost each turn costs {1} less to cast for each +1/+1 counter on Zimone.
+  Whenever you cast your first spell with {X} in its mana cost each turn, put two +1/+1 counters on Zimone.
+Ruling (2026-03-20): If you cast your first spell with {X} in its mana cost during a turn before Zimone is on the battlefield, casting another spell with {X} in its mana cost later in the turn won't cause her last ability to trigger. That spell also won't have the cost reduction from Zimone's first ability.
+Ruling (2026-03-20): Since Zimone's last ability won't trigger until you've finished casting your first spell with {X} in its mana cost each turn, the counters from that ability won't be placed on Zimone until after that spell's cost has been determined. The counters put on Zimone from casting your first spell with {X} in its mana cost do not reduce that same spell's cost. 
+Ruling (2026-03-20): Zimone's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+
+## Zimone, Mystery Unraveler
+Cost: {2}{g}{u} | Type: Legendary Creature — Human Wizard | Color identity: GU | P/T: 3/3 | Commander: legal
+Text: Landfall — Whenever a land you control enters, manifest dread if this is the first time this ability has resolved this turn. Otherwise, you may turn a permanent you control face up. (To manifest dread, look at the top two cards of your library. Put one onto the battlefield face down as a 2/2 creature and the other into your graveyard. Turn it face up any time for its mana cost if it's a creature card.)
+Ruling (2024-09-20): A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren't affected unless the new characteristics of the object change the legality of those targets or attachments.
+Ruling (2024-09-20): Any time you have priority, you can turn a manifested permanent you control face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
+Ruling (2024-09-20): At any time, you can look at a face-down spell or permanent you control. You can't look at face-down permanents or spells you don't control unless an effect instructs or allows you to do so.
+Ruling (2024-09-20): Because face-down creatures don't have a name, they can't have the same name as any other creature, even another face-down creature.
+Ruling (2024-09-20): Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+Ruling (2024-09-20): If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up.
+Ruling (2024-09-20): If a face-down creature loses its abilities, it can't be turned face up with a disguise or morph ability because it will no longer have that ability (or the associated cost) once face up.
+Ruling (2024-09-20): If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+Ruling (2024-09-20): If a manifested creature would have disguise or morph if it were face up, you may also turn it face up by paying its disguise or morph cost, as appropriate.
+Ruling (2024-09-20): If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
+Ruling (2024-09-20): If your library contains only one card when you manifest dread, you'll look at that card and put it onto the battlefield face down. You won't have the option to put it into your graveyard instead. If your library contains no cards when you manifest dread, you won't do anything.
+Ruling (2024-09-20): Some cards in the Duskmourn release have abilities that trigger "whenever you manifest dread." In circumstances where you are instructed to manifest dread but can't perform some or all of the steps of manifesting dread (probably because your library has one or fewer cards in it), these abilities will still trigger.
+Ruling (2024-09-20): To manifest dread, look at the top two cards of your library. Manifest one (by putting it onto the battlefield face down) and put the other into your graveyard. The card you put onto the battlefield becomes a 2/2 face-down creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant it any characteristics it doesn't have or change the characteristics it does have.
+Ruling (2024-09-20): Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+Ruling (2024-09-20): Unlike a face-down creature that was cast using a disguise or morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
+Ruling (2024-09-20): You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered should remain clear, as well as what ability caused them to be face down. (This includes manifest, disguise, cloak, morph, and a few older effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+Ruling (2024-11-08): A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+Ruling (2024-11-08): A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+Ruling (2024-11-08): Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+
+## Zimone, Paradox Sculptor
+Cost: {2}{g}{u} | Type: Legendary Creature — Human Wizard | Color identity: GU | P/T: 1/4 | Commander: legal
+Text: At the beginning of combat on your turn, put a +1/+1 counter on each of up to two target creatures you control.
+  {G}{U}, {T}: Double the number of each kind of counter on up to two target creatures and/or artifacts you control.
+Ruling (2024-11-08): To double the number of each kind of counter on a permanent, put another counter on it for each counter it already has. Effects that interact with counters being put onto permanents, such as the effect of Branching Evolution, apply as appropriate.
+
+## Zimone, Quandrix Prodigy
+Cost: {g}{u} | Type: Legendary Creature — Human Wizard | Color identity: GU | P/T: 1/2 | Commander: legal
+Text: {1}, {T}: You may put a land card from your hand onto the battlefield tapped.
+  {4}, {T}: Draw a card. If you control eight or more lands, draw two cards instead.
+Ruling (2021-04-16): Zimone's first ability isn't the same as playing a land. As it resolves, you may put a land card from your hand onto the battlefield tapped even if you have no available land plays or it's another player's turn.
+Ruling (2021-04-16): Zimone's last ability counts the number of lands you control as it resolves, not as you activate it.
+
+## Zinnia, Valley's Voice
+Cost: {u}{r}{w} | Type: Legendary Creature — Bird Bard | Color identity: RUW | P/T: 1/3 | Commander: legal
+Text: Flying
+  Zinnia gets +X/+0, where X is the number of other creatures you control with base power 1.
+  Creature spells you cast gain offspring {2} as you cast them. (You may pay an additional {2} as you cast a creature spell. If you do, when that creature enters, create a 1/1 token copy of it.)
+Ruling (2024-07-26): Any "enters" abilities of the copied creature will trigger when the token enters. Any "as [this creature] enters" or "[this creature] enters with" abilities of the copied creature will also work.
+Ruling (2024-07-26): If a creature has a characteristic-defining ability that sets its power, indicated with a */* or similar in the power and toughness box, that ability is taken into account when determining its base power.
+Ruling (2024-07-26): If the spell is countered, the offspring ability will not trigger, and no token will be created.
+Ruling (2024-07-26): If the spell resolves but the creature with offspring leaves the battlefield before the offspring ability resolves, you'll still create a token copy of it.
+Ruling (2024-07-26): In the rare case where the creature doesn't have the offspring ability when it enters, the ability won't trigger even if you paid the offspring cost.
+Ruling (2024-07-26): In the rare case where the original creature is copying something else when the offspring ability resolves, the token enters as whatever that creature copied, except it's a 1/1.
+Ruling (2024-07-26): Many creatures with offspring abilities have other abilities that refer to them as "this creature" rather than referring to them by name. This difference is for clarity purposes and does not change the function of any of these abilities.
+Ruling (2024-07-26): Normally, a creature's base power is the power printed on the card or, for a token, the power set by the effect that created it. If another effect sets a creature's power to a specific number or value, those become its base power. If an effect modifies a creature's power without setting it, that is not included when determining its base power.
+Ruling (2024-07-26): Some creatures have base power and toughness 0/0 and an ability that gives them a bonus based on some criteria. Those are not characteristic-defining abilities, and that ability doesn't change its base power.
+Ruling (2024-07-26): The token copies exactly what was printed on the original creature and nothing else, except it's a 1/1 (unless that creature is copying something else; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its types, color, or so on.
+Ruling (2024-07-26): The token created by the offspring ability isn't "cast", so abilities that trigger when a creature spell is cast won't trigger for the copy.
+Ruling (2024-07-26): You can pay an offspring cost only once as you cast a spell with offspring. You can't try to pay it multiple times to get more token copies.
+
+## Zirda, the Dawnwaker
+Cost: {1}{r/w}{r/w} | Type: Legendary Creature — Elemental Fox | Color identity: RW | P/T: 3/3 | Commander: legal
+Text: Companion — Each permanent card in your starting deck has an activated ability. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)
+  Abilities you activate that aren't mana abilities cost {2} less to activate. This effect can't reduce the mana in that cost to less than one mana.
+  {1}, {T}: Target creature can't block this turn.
+Ruling (2020-04-17): Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities are activated abilities (such as cycling) and will have colons in their reminder text.
+Ruling (2020-04-17): Activating Zirda's last ability after a creature has blocked won't remove the blocking creature from combat or cause the creature it blocked to become unblocked.
+Ruling (2020-04-17): An activated mana ability is one that produces mana as it resolves, not one that costs mana to activate.
+Ruling (2020-04-17): Before shuffling your deck to become your library, you may reveal one card from outside the game to be your companion if your starting deck meets the requirements of the companion ability. You can't reveal more than one. It remains revealed outside the game as the game begins.
+Ruling (2020-04-17): Effects that reduce the generic mana cost of an activation cost can't reduce that cost's colored mana requirements. The activation cost is reduced by only {1} if doing so reduces that cost to one mana. For example, a cycling cost of {2} would become {1}, and one of {1}{R} would become {R}. The activation cost is unaffected if it already costs one or zero mana (such as the activation cost of Zirda's last ability).
+Ruling (2020-04-17): If more than one player wishes to reveal a companion, the starting player does so first, and players proceed in turn order. Once a player has chosen not to reveal a companion, that player can't change their mind.
+Ruling (2020-04-17): If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you've brought into the game. For example, if it's discard, countered, or destroyed, it's put into your graveyard, remaining in the game. This is a change from previous rules.
+Ruling (2020-04-17): Paying {3} to put your companion into your hand is a special action. It doesn't use the stack and players can't respond to it. Once you take this action, you may cast that card if it's legal to do so before any other player can take actions.
+Ruling (2020-04-17): Permanent cards are artifact, creature, enchantment, land, and planeswalker cards. Land cards with basic land types have intrinsic activated mana abilities associated with those types.
+Ruling (2020-04-17): The companion ability has no effect if the card is in your starting deck and creates no restriction on putting a card with a companion ability into your starting deck. For example, Zirda may be in your starting deck even if your other permanent cards don't all have activated abilities.
+Ruling (2020-04-17): The companion's other abilities apply only if the creature is on the battlefield. They have no effect while the companion is outside the game.
+Ruling (2020-04-17): The requirements of the companion ability apply only to your starting deck. They do not apply to your sideboard.
+Ruling (2020-04-17): You may have one companion in the Commander variant. Your deck, including your commander, must meet its companion requirement. Your companion is not one of your one hundred cards.
+Ruling (2020-04-17): Your companion begins the game outside the game. In tournament play, this means your sideboard. In casual play, it's simply a card you own that's not in your starting deck.
+Ruling (2020-06-01): If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you've brought into the game. For example, if it's discarded, countered, or destroyed, it's put into your graveyard, remaining in the game. This is a change from previous rules.
+Ruling (2020-06-01): Paying {3} to put your companion into your hand is a special action. It doesn't use the stack and players can't respond to it. Once you take this action, you may cast that card if it's legal to do so before any other player can take actions.
+Ruling (2020-06-01): Wizards of the Coast has issued functional errata for the Companion mechanic. Instead of casting companions from outside the game: Once per game, any time you could cast a sorcery (during your main phase when the stack is empty), you can pay {3} to put your companion from your sideboard into your hand. This is a special action, not an activated ability. It happens immediately and can't be responded to. It can't be countered or stopped by cards like Phyrexian Revoker. For more information please see https://magic.wizards.com/en/articles/archive/news/june-1-2020-banned-and-restricted-announcement
+
+## Zirilan of the Claw
+Cost: {3}{r}{r} | Type: Legendary Creature — Lizard Shaman | Color identity: R | P/T: 3/4 | Commander: legal
+Text: {1}{R}{R}, {T}: Search your library for a Dragon permanent card, put that card onto the battlefield, then shuffle. That Dragon gains haste until end of turn. Exile it at the beginning of the next end step.
+Ruling (2004-10-04): Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
+Ruling (2009-10-01): If the Dragon is put onto the battlefield and then phases out, the "exile it" ability will still apply. It will trigger at the beginning of the next End step and exile the Dragon if it has phased back in. If the Dragon is still phased out, then it cannot be exiled so ability won't do anything.
+
+## Zndrsplt's Judgment
+Cost: {4}{u} | Type: Sorcery | Color identity: U | Commander: legal
+Text: For each player, choose friend or foe. Each friend creates a token that's a copy of a creature they control. Each foe returns a creature they control to its owner's hand.
+Ruling (2018-06-08): Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the chosen creature will also work.
+Ruling (2018-06-08): Each token copies exactly what is printed on the original creature and nothing else (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+Ruling (2018-06-08): Friends perform their specified actions before foes. This means that a friend's action may cause a triggered ability of a foe's permanent to trigger before that foe's action causes that permanent to leave the battlefield.
+Ruling (2018-06-08): If the copied creature has {X} in its mana cost, X is considered to be 0.
+Ruling (2018-06-08): If the copied creature is a token, the token that's created copies the original characteristics of that token as stated by the effect that created the token.
+Ruling (2018-06-08): If the copied creature is copying something else (for example, if the copied creature is an Evil Twin), then the token enters the battlefield as whatever that creature copied.
+Ruling (2018-06-08): Players can't take actions in between the time that friends perform their actions and the time that foes perform theirs. If any abilities trigger from friends performing actions, those triggers won't be put onto the stack until the foes perform their actions and the spell finishes resolving.
+Ruling (2018-06-08): The designation of friend or foe is only relevant to the spell that asks you to choose. A player you call your friend doesn't become your teammate, and the next "friend or foe" spell you cast could name that player your foe.
+Ruling (2018-06-08): When Zndrsplt's Judgment resolves and you choose friend or foe, first the next friend in turn order (or, if it's a friend's turn, that friend) chooses a creature they control, then each other friend in turn order does the same, then each of those players create a token at the same time. Friends will know choices made by earlier players when making their choices. Repeat this process for foes, who choose a creature one at a time and then return them all to their owners' hands at the same time.
+Ruling (2018-06-08): You make this choice for yourself as well as each other player. In some rare cases, you may wish to call yourself (or your teammate in a Two-Headed Giant game) a foe. You can do that.
+Ruling (2018-06-08): You may call a player a friend or a foe even if that player will be instructed to perform an impossible action. For example, for Regna's Sanction, a foe may control no untapped creatures.
+
+## Zndrsplt, Eye of Wisdom
+Cost: {4}{u} | Type: Legendary Creature — Homunculus | Color identity: U | P/T: 1/4 | Commander: legal
+Text: Partner with Okaun, Eye of Chaos (When this creature enters, target player may put Okaun into their hand from their library, then shuffle.)
+  At the beginning of combat on your turn, flip a coin until you lose a flip.
+  Whenever a player wins a coin flip, draw a card.
+Ruling (2018-06-08): "Partner with [name]" represents two abilities. The first is a triggered ability: "When this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle their library."
+Ruling (2018-06-08): An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+Ruling (2018-06-08): Both commanders start in the command zone, and the remaining 98 cards of your deck are shuffled to become your library.
+Ruling (2018-06-08): If an effect has a player flip a coin but refers to whether the flip came up heads or tails, that flip has no winner or loser.
+Ruling (2018-06-08): If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Khorvath and Sylvia are your commanders, your deck may contain cards with red and/or white in their color identity, but not blue, black, or green.
+Ruling (2018-06-08): Note that the target player searches their library (which may be affected by effects such as that of Stranglehold) and that the card they find is revealed, even though these words aren't included in the ability's reminder text.
+Ruling (2018-06-08): Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from one of them, not from both of them combined. Command Beacon's effect puts one into your hand from the command zone, not both.
+Ruling (2018-06-08): The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander. For more information on the Commander variant, please visit Wizards.com/Commander.
+Ruling (2018-06-08): The triggered ability of the "partner with" keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player who might have that card in their library.
+Ruling (2018-06-08): To have two commanders, both must have the partner ability (featured in the Magic: The Gathering—Commander™ (2016 Edition) set) or corresponding "partner with" abilities as the game begins. A creature with a "partner with" ability can't partner with any creature other than its designated partner. Losing a partner ability during the game doesn't cause either to cease to be your commander.
+Ruling (2018-07-13): If an effect has a player flip a coin and refers to winning or losing a flip, only the player who flipped the coin wins or loses the flip. If that player loses the flip, nobody wins the flip.
+
+## Zo-Zu the Punisher
+Cost: {1}{r}{r} | Type: Legendary Creature — Goblin Warrior | Color identity: R | P/T: 2/2 | Commander: legal
+Text: Whenever a land enters, Zo-Zu deals 2 damage to that land's controller.
+
+## Zoanthrope
+Cost: {x}{u}{r} | Type: Creature — Tyranid | Color identity: RU | P/T: 0/0 | Commander: legal
+Text: Ravenous (This creature enters with X +1/+1 counters on it. If X is 5 or more, draw a card when it enters.)
+  Flying, ward {2}
+  Warp Blast — When this creature enters, it deals X damage to any target.
+Ruling (2022-10-07): A creature with ravenous gets its counters as it enters the battlefield. It doesn't enter the battlefield first and then get its counters. Any triggered ability that looks for a creature with a certain power or toughness entering the battlefield will see the counters when it checks to see if it should trigger.
+Ruling (2022-10-07): If a permanent spell with ravenous is copied, the copy will have the same value for X, and the token permanent that the spell becomes as it enters the battlefield will enter with X counters.
+Ruling (2022-10-07): If another permanent enters the battlefield as a copy of a creature with Ravenous, it will not enter with any counters from the ravenous ability.
+Ruling (2022-10-07): The triggered ability that checks to see if X is 5 or greater refers to the value of X that was chosen as the spell was cast, which may be different from the number of counters it entered with if there are replacement effects involved. This is also true for any other ability that it has which refers to X and triggers when it enters the battlefield.
+
+## Zodiac Dog
+Cost: {2}{r} | Type: Creature — Dog | Color identity: R | P/T: 2/2 | Commander: legal
+Text: Mountainwalk (This creature can't be blocked as long as defending player controls a Mountain.)
+
+## Zodiac Dragon
+Cost: {7}{r}{r} | Type: Creature — Dragon | Color identity: R | P/T: 8/8 | Commander: legal
+Text: When this creature is put into your graveyard from the battlefield, you may return it to your hand.
+Ruling (2009-10-01): Even though Zodiac Dragon is a Dragon, it doesn't have flying.
+Ruling (2009-10-01): If Zodiac Dragon is removed from the graveyard after the ability triggers but before it resolves, you can't return it to your hand. Similarly, if a replacement effect has Zodiac Dragon move to a different zone instead of being put into the graveyard, the ability won't trigger at all.
+
+## Zodiac Goat
+Cost: {r} | Type: Creature — Goat | Color identity: R | P/T: 1/1 | Commander: legal
+Text: Mountainwalk (This creature can't be blocked as long as defending player controls a Mountain.)
+
+## Zodiac Horse
+Cost: {3}{g} | Type: Creature — Horse | Color identity: G | P/T: 3/3 | Commander: legal
+Text: Islandwalk (This creature can't be blocked as long as defending player controls an Island.)
+
+## Zodiac Monkey
+Cost: {1}{g} | Type: Creature — Monkey | Color identity: G | P/T: 2/1 | Commander: legal
+Text: Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)
+
+## Zodiac Ox
+Cost: {3}{g} | Type: Creature — Ox | Color identity: G | P/T: 3/3 | Commander: legal
+Text: Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
+
+## Zodiac Pig
+Cost: {3}{b} | Type: Creature — Boar | Color identity: B | P/T: 3/3 | Commander: legal
+Text: Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
+
+## Zodiac Rabbit
+Cost: {g} | Type: Creature — Rabbit | Color identity: G | P/T: 1/1 | Commander: legal
+Text: Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)
+
+## Zodiac Rat
+Cost: {b} | Type: Creature — Rat | Color identity: B | P/T: 1/1 | Commander: legal
+Text: Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
+
+## Zodiac Rooster
+Cost: {1}{g} | Type: Creature — Bird | Color identity: G | P/T: 2/1 | Commander: legal
+Text: Plainswalk (This creature can't be blocked as long as defending player controls a Plains.)
+
+## Zodiac Snake
+Cost: {2}{b} | Type: Creature — Snake | Color identity: B | P/T: 2/2 | Commander: legal
+Text: Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
+
+## Zodiac Tiger
+Cost: {2}{g}{g} | Type: Creature — Cat | Color identity: G | P/T: 3/4 | Commander: legal
+Text: Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)
+
+## Zodiark, Umbral God
+Cost: {b}{b}{b}{b}{b} | Type: Legendary Creature — God | Color identity: B | P/T: 5/5 | Commander: legal
+Text: Indestructible
+  When Zodiark enters, each player sacrifices half the non-God creatures they control of their choice, rounded down.
+  Whenever a player sacrifices another creature, put a +1/+1 counter on Zodiark.
+Ruling (2025-06-06): While resolving Zodiark's second ability, you choose half the non-God creatures you control (rounded down), then each other player in turn order does the same. Then each of the chosen creatures are sacrificed simultaneously.
+
+## Zoetic Cavern
+Cost: — | Type: Land | Color identity: colorless | Commander: legal
+Text: {T}: Add {C}.
+  Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+Ruling (2018-03-16): If Blood Moon is on the battlefield and a player controls a face-down Zoetic Cavern, it can't be turned face up since it won't have a morph cost.
+Ruling (2018-03-16): When Zoetic Cavern is turned face up, any Auras on it that can't legally enchant it will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on it will remain on it.
+
+## Zoetic Glyph
+Cost: {2}{u} | Type: Enchantment — Aura | Color identity: U | Commander: legal
+Text: Enchant artifact
+  Enchanted artifact is a Golem creature with base power and toughness 5/4 in addition to its other types.
+  When this Aura is put into a graveyard from the battlefield, discover 3.
+Ruling (2023-11-10): A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+Ruling (2023-11-10): Effects that modify a creature's power and/or toughness, such as the ones created by Giant Growth, will apply to the creature no matter when they started to take effect. The same is true for any counters that change its power and/or toughness and effects that switch power and toughness.
+Ruling (2023-11-10): If the artifact was already a creature, its base power and toughness will become 5/4. This overwrites any previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after Zoetic Glyph becomes attached to the artifact will overwrite this effect.
+Ruling (2023-11-10): If the creature Zoetic Glyph would enchant is an illegal target as Zoetic Glyph tries to resolve, it won't resolve. It's put into your graveyard from the stack, not the battlefield, so its last ability won't trigger.
+Ruling (2023-11-10): If the discovered card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+Ruling (2023-11-10): If you can't cast the discovered card (perhaps because there are no legal targets for the spell), you'll put it into your hand.
+Ruling (2023-11-10): If you cast a spell "without paying its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, you must pay those to cast it.
+Ruling (2023-11-10): If you discover an adventurer card, split card, or modal double-faced card, you might be able to cast that card with either set of characteristics depending on the effect's discover value. For example, if you discover 4 and reveal Galvanic Giant (an adventurer card from Wilds of Eldraine with a mana value of 4), you could cast Galvanic Giant, but not Storm Reading (its Adventure, which has a mana value of 7). If you discover 7 and reveal Galvanic Giant, you could cast either Galvanic Giant or Storm Reading.
+Ruling (2023-11-10): Some spells and abilities that cause you to discover may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve and you won't discover.
+Ruling (2023-11-10): The artifact retains any types, subtypes, or supertypes it has. Notably, an Equipment that becomes an artifact creature usually can't be attached to another creature. If it was attached to a creature, it becomes unattached.
+Ruling (2023-11-10): The mana value of a split card is determined by the combined mana cost of its two halves. If discover allows you to cast a split card, you may cast either half (as long as its mana value is less than or equal to the effect's discover value) but not both halves.
+Ruling (2023-11-10): The resulting artifact creature will be able to attack on your turn if it's been under your control continuously since the turn began. That is, it doesn't matter how long it's been a creature, just how long it's been on the battlefield.
+Ruling (2023-11-10): When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
+Ruling (2023-11-10): You exile the cards face up. All players will be able to see them.
+
+## Zof Bloodbog
+Cost: — | Type: Land | Color identity: B | Commander: legal
+Faces: Zof Consumption // Zof Bloodbog (modaldfc)
+Text: This land enters tapped.
+  {T}: Add {B}.
+Ruling (2020-09-25): A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+Ruling (2020-09-25): If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+Ruling (2020-09-25): If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+Ruling (2020-09-25): If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face's name.
+Ruling (2020-09-25): If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can't be put onto the battlefield, it doesn't enter the battlefield.
+Ruling (2020-09-25): In a Two-Headed Giant game, Zof Consumption causes the opposing team to lose 8 life and you to gain 4 life.
+Ruling (2020-09-25): In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+Ruling (2020-09-25): The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+Ruling (2020-09-25): There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+Ruling (2020-09-25): To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+
+## Zof Consumption
+Cost: {4}{b}{b} | Type: Sorcery | Color identity: B | Commander: legal
+Faces: Zof Consumption // Zof Bloodbog (modaldfc)
+Text: Each opponent loses 4 life and you gain 4 life.
+Ruling (2020-09-25): A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+Ruling (2020-09-25): If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+Ruling (2020-09-25): If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+Ruling (2020-09-25): If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face's name.
+Ruling (2020-09-25): If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can't be put onto the battlefield, it doesn't enter the battlefield.
+Ruling (2020-09-25): In a Two-Headed Giant game, Zof Consumption causes the opposing team to lose 8 life and you to gain 4 life.
+Ruling (2020-09-25): In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+Ruling (2020-09-25): The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+Ruling (2020-09-25): There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+Ruling (2020-09-25): To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+
+## Zof Shade
+Cost: {3}{b} | Type: Creature — Shade | Color identity: B | P/T: 2/2 | Commander: legal
+Text: {2}{B}: This creature gets +2/+2 until end of turn.
+
+## Zog, Triceraton Castaway
+Cost: {4}{r} | Type: Legendary Creature — Dinosaur Soldier | Color identity: R | P/T: 5/4 | Commander: legal
+Text: Reach, trample
+  When Zog enters, target creature can't block this turn.
+  Mountaincycling {2} ({2}, Discard this card: Search your library for a Mountain card, reveal it, put it into your hand, then shuffle.)
+
+## Zombie Apocalypse
+Cost: {3}{b}{b}{b} | Type: Sorcery | Color identity: B | Commander: legal
+Text: Return all Zombie creature cards from your graveyard to the battlefield tapped, then destroy all Humans.
+Ruling (2011-01-22): All Humans are destroyed, not just ones you control.
+Ruling (2011-01-22): If a creature card in your graveyard is both a Zombie and a Human, it will be returned to the battlefield tapped, then be destroyed.
+
+## Zombie Assassin
+Cost: {4}{b} | Type: Creature — Zombie Assassin | Color identity: B | P/T: 3/2 | Commander: legal
+Text: {T}, Exile two cards from your graveyard and this creature: Destroy target nonblack creature. It can't be regenerated.
+
+## Zombie Boa
+Cost: {4}{b} | Type: Creature — Zombie Snake | Color identity: B | P/T: 3/3 | Commander: legal
+Text: {1}{B}: Choose a color. Whenever this creature becomes blocked by a creature of that color this turn, destroy that creature. Activate only as a sorcery.
+
+## Zombie Brute
+Cost: {6}{b} | Type: Creature — Zombie | Color identity: B | P/T: 5/4 | Commander: legal
+Text: Amplify 1 (As this creature enters, put a +1/+1 counter on it for each Zombie card you reveal in your hand.)
+  Trample
+
+## Zombie Cannibal
+Cost: {b} | Type: Creature — Zombie | Color identity: B | P/T: 1/1 | Commander: legal
+Text: Whenever this creature deals combat damage to a player, you may exile target card from that player's graveyard.
+
+## Zombie Cutthroat
+Cost: {3}{b}{b} | Type: Creature — Zombie | Color identity: B | P/T: 3/4 | Commander: legal
+Text: Morph—Pay 5 life. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+
+## Zombie Goliath
+Cost: {4}{b} | Type: Creature — Zombie Giant | Color identity: B | P/T: 4/3 | Commander: legal
+Text: 
+
+## Zombie Infestation
+Cost: {1}{b} | Type: Enchantment | Color identity: B | Commander: legal
+Text: Discard two cards: Create a 2/2 black Zombie creature token.
+
+## Zombie Master
+Cost: {1}{b}{b} | Type: Creature — Zombie | Color identity: B | P/T: 2/3 | Commander: legal
+Text: Other Zombie creatures have swampwalk. (They can't be blocked as long as defending player controls a Swamp.)
+  Other Zombies have "{B}: Regenerate this permanent."
+
+## Zombie Mob
+Cost: {2}{b}{b} | Type: Creature — Zombie | Color identity: B | P/T: 2/0 | Commander: legal
+Text: This creature enters with a +1/+1 counter on it for each creature card in your graveyard.
+  When this creature enters, exile all creature cards from your graveyard.
+
+## Zombie Musher
+Cost: {3}{b} | Type: Snow Creature — Zombie | Color identity: B | P/T: 2/3 | Commander: legal
+Text: Snow landwalk (This creature can't be blocked as long as defending player controls a snow land.)
+  {S}: Regenerate this creature. ({S} can be paid with one mana from a snow source.)
+Ruling (2006-07-15): Zombie Musher can't be blocked as long as defending player controls a snow land.
+
+## Zombie Ogre
+Cost: {3}{b}{b} | Type: Creature — Zombie Ogre | Color identity: B | P/T: 3/5 | Commander: legal
+Text: At the beginning of your end step, if a creature died this turn, venture into the dungeon. (Enter the first room or advance to the next room.)
+Ruling (2021-07-23): A player may only have one dungeon in the command zone at a time.
+Ruling (2021-07-23): Choosing the dungeon or room to venture into is part of resolving the venture into the dungeon keyword action. Once that choice is made, players may not respond until after the appropriate room ability has triggered.
+Ruling (2021-07-23): Dungeon cards are not part of a player's deck or sideboard. In both constructed and limited formats, players can use any dungeon card when they venture into the dungeon.
+Ruling (2021-07-23): Dungeons are removed from the game as a state-based action.
+Ruling (2021-07-23): If you somehow venture into the dungeon while a room's ability is on the stack, you will continue on in the dungeon. If you're already in the last room, complete that dungeon and start a new one.
+Ruling (2021-07-23): Moving into a dungeon room will cause its room ability to trigger.
+Ruling (2021-07-23): Once you resolve the last room ability of a dungeon, that dungeon is now completed and is removed from the game.
+Ruling (2021-07-23): The player venturing into the dungeon chooses which dungeon they will venture into. They may choose a dungeon that they have already completed this game.
+Ruling (2021-07-23): To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
+Ruling (2021-07-23): You can only move forward (well, downward) in a dungeon, never backwards or sideways.
+Ruling (2021-07-23): Zombie Ogre doesn't need to have been on the battlefield at the time the creature died for its ability to function.
+Ruling (2021-07-23): Zombie Ogre's ability will trigger only once during your end step, no matter how many creatures died this turn. However, if no creatures have died so far this turn as the end step begins, the ability won't trigger at all. It's not possible to cause a creature to die during the end step in time to have the ability trigger.
+
+## Zombie Outlander
+Cost: {u}{b} | Type: Creature — Zombie Scout | Color identity: BU | P/T: 2/2 | Commander: legal
+Text: Protection from green
+
+## Zombie Scavengers
+Cost: {2}{b} | Type: Creature — Zombie | Color identity: B | P/T: 3/1 | Commander: legal
+Text: Exile the top creature card of your graveyard: Regenerate this creature.
+Ruling (2008-04-01): If an effect or rule puts two or more cards into the same graveyard at the same time, the owner of those cards may arrange them in any order.
+Ruling (2008-04-01): Players may not rearrange the cards in their graveyards. This is a little-known rule because new cards that care about graveyard order haven't been printed in years.
+Ruling (2008-04-01): Say you're the owner of both a permanent and an Aura that's attached to it. If both the permanent and the Aura are destroyed at the same time (by Akroma's Vengeance, for example), you decide the order they're put into your graveyard. If just the enchanted permanent is destroyed, it's put into your graveyard first. Then, after state-based actions are checked, the Aura (which is no longer attached to anything) is put into your graveyard on top of it.
+Ruling (2008-04-01): The "top" card of your graveyard is the card that was put there most recently.
+Ruling (2008-04-01): The last thing that happens to a resolving instant or sorcery spell is that it's put into its owner's graveyard. —Example: You cast Wrath of God. All creatures on the battlefield are destroyed. You arrange all the cards put into your graveyard this way in any order you want. The other players in the game do the same to the cards that are put into their graveyards. Then you put Wrath of God into your graveyard, on top of the other cards.
+
+## Zombie Trailblazer
+Cost: {b}{b}{b} | Type: Creature — Zombie Scout | Color identity: B | P/T: 2/2 | Commander: legal
+Text: Tap an untapped Zombie you control: Target land becomes a Swamp until end of turn.
+  Tap an untapped Zombie you control: Target creature gains swampwalk until end of turn. (It can't be blocked as long as defending player controls a Swamp.)
+
+## Zombify
+Cost: {3}{b} | Type: Sorcery | Color identity: B | Commander: legal
+Text: Return target creature card from your graveyard to the battlefield.
+
+## Zoo Escapees
+Cost: {1}{g} | Type: Creature — Boar Rhino | Color identity: G | P/T: 2/2 | Commander: legal
+Text: When this creature leaves the battlefield, create a Mutagen token. (It's an artifact with "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery.")
+Ruling (2026-01-27): Mutagen tokens are a kind of predefined token. Each one is a colorless artifact with the artifact subtype Mutagen and the ability "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."
+Ruling (2026-01-27): Some spells and abilities that create Mutagen tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Mutagen token won't be created.
+
+## Zookeeper Mechan
+Cost: {1}{r} | Type: Artifact Creature — Robot | Color identity: R | P/T: 1/3 | Commander: legal
+Text: {T}: Add {R}.
+  {6}{R}: Target creature you control gets +4/+0 until end of turn. Activate only as a sorcery.
+
+## Zoological Study
+Cost: {2}{g} | Type: Sorcery — Adventure | Color identity: G | Commander: legal
+Faces: Monster Manual // Zoological Study (adventure)
+Text: Mill five cards, then return a creature card milled this way to your hand. (Then exile this card. You may cast the artifact later from exile.)
+Ruling (2022-06-10): An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Altar of Bhaal is an artifact card whose mana value is 2.
+Ruling (2022-06-10): An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+Ruling (2022-06-10): Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+Ruling (2022-06-10): If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+Ruling (2022-06-10): If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a permanent spell.
+Ruling (2022-06-10): If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy from exile.
+Ruling (2022-06-10): If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+Ruling (2022-06-10): If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+Ruling (2022-06-10): If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell.
+Ruling (2022-06-10): When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+Ruling (2022-06-10): You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+
+## Zoologist
+Cost: {3}{g} | Type: Creature — Human Druid | Color identity: G | P/T: 1/2 | Commander: legal
+Text: {3}{G}, {T}: Reveal the top card of your library. If it's a creature card, put it onto the battlefield. Otherwise, put it into your graveyard.
+
+## Zopandrel, Hunger Dominus
+Cost: {5}{g}{g} | Type: Legendary Creature — Phyrexian Horror | Color identity: G | P/T: 4/6 | Commander: legal
+Text: Reach
+  At the beginning of each combat, double the power and toughness of each creature you control until end of turn.
+  {G/P}{G/P}, Sacrifice two other creatures: Put an indestructible counter on Zopandrel. ({G/P} can be paid with either {G} or 2 life.)
+Ruling (2023-02-04): If a creature's power is less than 0 when it's doubled, instead that creature gets -X/-0, where X is how much less than 0 its power is. For example, if an effect has given Bear Cub, a 2/2 creature, -4/-0 so that it's a -2/2 creature, doubling its power and toughness gives it -2/+2, and it becomes a -4/4 creature.
+Ruling (2023-02-04): If an effect instructs you to "double" a creature's power, that creature gets +X/+0, where X is its power as that effect begins to apply. Similarly, a creature whose toughness is doubled gets +0/+X, where X is its toughness as the effect begins to apply.
+Ruling (2023-02-04): If you somehow control more than one Zopandrel, each one applies independently. For example, if you somehow control two copies of Zopandrel, a 2/2 Bear Cub becomes a 4/4 creature when the first ability resolves and then becomes an 8/8 creature when the second one resolves.
+
+## Zoraline, Cosmos Caller
+Cost: {1}{w}{b} | Type: Legendary Creature — Bat Cleric | Color identity: BW | P/T: 3/3 | Commander: legal
+Text: Flying, vigilance
+  Whenever a Bat you control attacks, you gain 1 life.
+  Whenever Zoraline enters or attacks, you may pay {W}{B} and 2 life. When you do, return target nonland permanent card with mana value 3 or less from your graveyard to the battlefield with a finality counter on it.
+Ruling (2024-07-26): Finality counters aren't keyword counters, and a finality counter doesn't give any abilities to the permanent it's on. If that permanent loses its abilities and then would go to a graveyard, it will still be exiled instead.
+Ruling (2024-07-26): Finality counters don't stop permanents from going to zones other than the graveyard from the battlefield. For example, if a permanent with a finality counter on it would be put into its owner's hand from the battlefield, it does so normally.
+Ruling (2024-07-26): If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead.
+Ruling (2024-07-26): Multiple finality counters on a single permanent are redundant.
+Ruling (2024-07-26): You don't choose a target for Zoraline's last ability at the time it triggers. Rather, a second "reflexive" ability triggers when you pay {W}{B} and 2 life this way. You choose a target for this ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+
+## Zoyowa Lava-Tongue
+Cost: {b}{r} | Type: Legendary Creature — Goblin Warlock | Color identity: BR | P/T: 2/2 | Commander: legal
+Text: Deathtouch
+  At the beginning of your end step, if you descended this turn, each opponent may discard a card or sacrifice a permanent of their choice. Zoyowa deals 3 damage to each opponent who didn't. (You descended if a permanent card was put into your graveyard from anywhere.)
+Ruling (2023-11-10): A permanent card is an artifact, battle, creature, enchantment, land, or planeswalker card. Tokens are not cards, and while tokens are put into the graveyard before ceasing to exist, that action doesn't count as a player having descended.
+Ruling (2023-11-10): Abilities that begin with "At the beginning of your end step, if you descended this turn" will trigger only once during your end step, no matter how many times you descended this turn. However, if you haven't descended this turn as your end step begins, the ability won't trigger at all. It's not possible to put a permanent card into your graveyard during the end step in time to have the ability trigger.
+Ruling (2023-11-10): An opponent with zero cards in hand can't choose to discard a card. Similarly, an opponent with no permanents can't choose to sacrifice a permanent.
+Ruling (2023-11-10): In either case, it doesn't matter if those cards are still in that player's graveyard.
+Ruling (2023-11-10): Multiple cards have abilities that begin with "At the beginning of your end step, if you descended this turn." These cards don't need to have been under your control at the time you descended. For example, if a permanent card is put into your graveyard during your first main phase and you cast Stalactite Stalker your second main phase, its ability will trigger at the beginning of your end step.
+Ruling (2023-11-10): Some cards refer to a player who has "descended this turn." This means that a permanent card has been put into that player's graveyard from anywhere this turn.
+Ruling (2023-11-10): Some cards refer to the number of times a player descended this turn. Those cards care about the number of permanent cards put into that player's graveyard from anywhere this turn.
+
+## Zoyowa's Justice
+Cost: {1}{r} | Type: Instant | Color identity: R | Commander: legal
+Text: The owner of target artifact or creature with mana value 1 or greater shuffles it into their library. Then that player discovers X, where X is its mana value. (They exile cards from the top of their library until they exile a nonland card with that mana value or less. They cast it without paying its mana cost or put it into their hand. They put the rest on the bottom in a random order.)
+Ruling (2023-11-10): A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+Ruling (2023-11-10): If the discovered card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+Ruling (2023-11-10): If the target artifact or creature has X in its mana cost, that X is 0 when determining its mana value.
+Ruling (2023-11-10): If you can't cast the discovered card (perhaps because there are no legal targets for the spell), you'll put it into your hand.
+Ruling (2023-11-10): If you cast a spell "without paying its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, you must pay those to cast it.
+Ruling (2023-11-10): If you discover an adventurer card, split card, or modal double-faced card, you might be able to cast that card with either set of characteristics depending on the effect's discover value. For example, if you discover 4 and reveal Galvanic Giant (an adventurer card from Wilds of Eldraine with a mana value of 4), you could cast Galvanic Giant, but not Storm Reading (its Adventure, which has a mana value of 7). If you discover 7 and reveal Galvanic Giant, you could cast either Galvanic Giant or Storm Reading.
+Ruling (2023-11-10): Some spells and abilities that cause you to discover may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve and you won't discover.
+Ruling (2023-11-10): The mana value of a split card is determined by the combined mana cost of its two halves. If discover allows you to cast a split card, you may cast either half (as long as its mana value is less than or equal to the effect's discover value) but not both halves.
+Ruling (2023-11-10): When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
+Ruling (2023-11-10): You exile the cards face up. All players will be able to see them.
+
+## Zuberi, Golden Feather
+Cost: {4}{w} | Type: Legendary Creature — Griffin | Color identity: W | P/T: 3/3 | Commander: legal
+Text: Flying
+  Other Griffin creatures get +1/+1.
+
+## Zuko's Conviction
+Cost: {b} | Type: Instant | Color identity: B | Commander: legal
+Text: Kicker {4} (You may pay an additional {4} as you cast this spell.)
+  Return target creature card from your graveyard to your hand. If this spell was kicked, instead put that card onto the battlefield tapped.
+
+## Zuko's Exile
+Cost: {5} | Type: Instant — Lesson | Color identity: colorless | Commander: legal
+Text: Exile target artifact, creature, or enchantment. Its controller creates a Clue token. (It's an artifact with "{2}, Sacrifice this token: Draw a card.")
+Ruling (2025-10-02): Clue tokens are artifact tokens with "{2}, Sacrifice this token: Draw a card."
+Ruling (2025-10-02): Creating a Clue token this way isn't the same thing as investigating. Notably, an ability that triggers whenever you investigate won't trigger because of creating a Clue token this way.
+
+## Zuko's Offense
+Cost: {r} | Type: Sorcery | Color identity: R | Commander: legal
+Text: Zuko's Offense deals 2 damage to any target.
+
+## Zuko, Avatar Hunter
+Cost: {3}{r}{r} | Type: Legendary Creature — Human Noble | Color identity: R | P/T: 4/5 | Commander: legal
+Text: Reach (This creature can block creatures with flying.)
+  Whenever you cast a red spell, create a 2/2 red Soldier creature token.
+
+## Zuko, Conflicted
+Cost: {b}{r} | Type: Legendary Creature — Human Rogue | Color identity: BR | P/T: 2/3 | Commander: legal
+Text: At the beginning of your first main phase, choose one that hasn't been chosen and you lose 2 life —
+  • Draw a card.
+  • Put a +1/+1 counter on Zuko.
+  • Add {R}.
+  • Exile Zuko, then return him to the battlefield under an opponent's control.
+Ruling (2025-10-02): In a multiplayer game, if Zuko, Conflicted's owner leaves the game, Zuko, Conflicted leaves the game with them. If his controller leaves the game, Zuko, Conflicted is exiled (assuming that player wasn't also Zuko, Conflicted's owner).
+Ruling (2025-10-02): When Zuko, Conflicted is under an opponent's control, his triggered ability will trigger in their first main phase, and they will make all choices for the ability.
+
+## Zuko, Exiled Prince
+Cost: {3}{r} | Type: Legendary Creature — Human Noble | Color identity: R | P/T: 4/3 | Commander: legal
+Text: Firebending 3 (Whenever this creature attacks, add {R}{R}{R}. This mana lasts until end of combat.)
+  {3}: Exile the top card of your library. You may play that card this turn.
+Ruling (2025-10-02): "Firebending N" is a keyword that represents the ability "Whenever this creature attacks, add N {R}. Until end of combat, you don't lose this mana as steps end."
+Ruling (2025-10-02): Any other mana you add during combat will still be lost as normal when moving between steps of combat.
+Ruling (2025-10-02): Firebending abilities aren't mana abilities. They use the stack and can be responded to.
+Ruling (2025-10-02): Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
+Ruling (2025-10-02): Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+Ruling (2025-10-02): You must follow all normal timing rules for a card you play using Zuko, Exiled Prince's last ability and, if it's a spell, you must pay its costs to cast it.
+
+## Zuko, Firebending Master
+Cost: {1}{r} | Type: Legendary Creature — Human Noble Ally | Color identity: R | P/T: 2/2 | Commander: legal
+Text: First strike
+  Firebending X, where X is the number of experience counters you have. (Whenever this creature attacks, add X {R}. This mana lasts until end of combat.)
+  Whenever you cast a spell during combat, you get an experience counter.
+Ruling (2025-10-02): "Firebending N" is a keyword that represents the ability "Whenever this creature attacks, add N {R}. Until end of combat, you don't lose this mana as steps end."
+Ruling (2025-10-02): All experience counters are identical, no matter how you got them. For example, the firebending ability will count experience counters that you got from the last ability, from another ability, from another copy of Zuko, Firebending Master, and so on.
+Ruling (2025-10-02): Any other mana you add during combat will still be lost as normal when moving between steps of combat.
+Ruling (2025-10-02): Firebending abilities aren't mana abilities. They use the stack and can be responded to.
+Ruling (2025-10-02): Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
+Ruling (2025-10-02): Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+Ruling (2025-10-02): The experience counter goes on you, the player, not on Zuko. You will keep that counter even if Zuko, Firebending Master dies.
+
+## Zuko, Seeking Honor
+Cost: {2}{b/r} | Type: Legendary Creature — Human Noble | Color identity: BR | P/T: 2/2 | Commander: legal
+Text: Firebending 1 (Whenever this creature attacks, add {R}. This mana lasts until end of combat.)
+  Whenever you cast a noncreature spell, Zuko gains first strike until end of turn.
+  Whenever Zuko deals combat damage to a player, put a +1/+1 counter on him.
+Ruling (2025-10-02): "Firebending N" is a keyword that represents the ability "Whenever this creature attacks, add N {R}. Until end of combat, you don't lose this mana as steps end."
+Ruling (2025-10-02): Any other mana you add during combat will still be lost as normal when moving between steps of combat.
+Ruling (2025-10-02): Firebending abilities aren't mana abilities. They use the stack and can be responded to.
+Ruling (2025-10-02): Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
+Ruling (2025-10-02): Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+
+## Zul Ashur, Lich Lord
+Cost: {1}{b} | Type: Legendary Creature — Zombie Warlock | Color identity: B | P/T: 2/2 | Commander: legal
+Text: Ward—Pay 2 life. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 2 life.)
+  {T}: You may cast target Zombie creature card from your graveyard this turn.
+Ruling (2024-11-08): You pay all costs and follow all normal timing rules for Zombie creature cards cast with the permission granted by Zul Ashur's last ability.
+
+## Zulaport Chainmage
+Cost: {3}{b} | Type: Creature — Human Shaman Ally | Color identity: B | P/T: 4/2 | Commander: legal
+Text: Cohort — {T}, Tap an untapped Ally you control: Target opponent loses 2 life.
+Ruling (2016-01-22): To activate a cohort ability, the Ally with that ability must have been under your control continuously since the beginning of your most recent turn. Informally, it can't have "summoning sickness." However, the other Ally you tap can be one that just came under your control. (Note that tapping the second Ally doesn't use {T} [the tap symbol].)
+
+## Zulaport Cutthroat
+Cost: {1}{b} | Type: Creature — Human Rogue Ally | Color identity: B | P/T: 1/1 | Commander: legal
+Text: Whenever this creature or another creature you control dies, each opponent loses 1 life and you gain 1 life.
+Ruling (2021-03-19): If another creature you control dies at the same time as Zulaport Cutthroat, its ability triggers for that creature.
+
+## Zulaport Duelist
+Cost: {u} | Type: Creature — Human Rogue | Color identity: U | P/T: 1/1 | Commander: legal
+Text: Flash
+  When this creature enters, up to one target creature gets -2/-0 until end of turn. Its controller mills two cards. (They put the top two cards of their library into their graveyard.)
+Ruling (2020-09-25): If the target creature is an illegal target by the time Zulaport Duelist's ability tries to resolve, the ability doesn't resolve. No player mills two cards.
+
+## Zulaport Enforcer
+Cost: {b} | Type: Creature — Human Warrior | Color identity: B | P/T: 1/1 | Commander: legal
+Text: Level up {4} ({4}: Put a level counter on this. Level up only as a sorcery.)
+  LEVEL 1-2
+  3/3
+  LEVEL 3+
+  5/5
+  This creature can't be blocked except by black creatures.
+Ruling (2010-06-15): A creature's level is based on how many level counters it has on it, not how many times its level up ability has been activated or has resolved. If a leveler gets level counters due to some other effect (such as Clockspinning) or loses level counters for some reason (such as Vampire Hexmage), its level is changed accordingly.
+Ruling (2010-06-15): Effects that modify a leveler's power or toughness, such as the effects of Giant Growth or Glorious Anthem, will apply to it no matter when they started to take effect. The same is true for counters that change the creature's power or toughness (such as +1/+1 counters) and effects that switch its power and toughness.
+Ruling (2010-06-15): Effects that set a leveler's power or toughness to a specific value, including the effects from a level symbol's ability, apply in timestamp order. The timestamp of each level symbol's ability is the same as the timestamp of the leveler itself, regardless of when the most recent level counter was put on it.
+Ruling (2010-06-15): If another creature becomes a copy of a leveler, all of the leveler's printed abilities — including those represented by level symbols — are copied. The current characteristics of the leveler, and the number of level counters on it, are not. The abilities, power, and toughness of the copy will be determined based on how many level counters are on the copy.
+Ruling (2010-06-15): The abilities a leveler grants to itself don't overwrite any other abilities it may have. In particular, they don't overwrite the creature's level up ability; it always has that.
+
+## Zuo Ci, the Mocking Sage
+Cost: {1}{g}{g} | Type: Legendary Creature — Human Advisor | Color identity: G | P/T: 1/2 | Commander: legal
+Text: Hexproof (This creature can't be the target of spells or abilities your opponents control.)
+  Zuo Ci can't be blocked by creatures with horsemanship.
+
+## Zur the Enchanter
+Cost: {1}{w}{u}{b} | Type: Legendary Creature — Human Wizard | Color identity: BUW | P/T: 1/4 | Commander: legal
+Text: Flying
+  Whenever Zur attacks, you may search your library for an enchantment card with mana value 3 or less, put it onto the battlefield, then shuffle.
+Ruling (2022-12-08): If you put an Aura card onto the battlefield with Zur's ability, you choose what it will enchant as it enters the battlefield. An Aura put onto the battlefield this way doesn't target anything (so it could be attached to an opponent's permanent with hexproof, for example), but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, it remains in your library.
+
+## Zur's Weirding
+Cost: {3}{u} | Type: Enchantment | Color identity: U | Commander: legal
+Text: Players play with their hands revealed.
+  If a player would draw a card, they reveal it instead. Then any other player may pay 2 life. If a player does, put that card into its owner's graveyard. Otherwise, that player draws a card.
+Ruling (2004-10-04): If a spell or ability causes more than one card to be drawn, draw the cards one at a time and deal with this replacement before drawing the next card.
+Ruling (2004-10-04): If someone pays the cost, then the card was never drawn or discarded. It just gets put into the graveyard directly from the library.
+Ruling (2004-10-04): This is a continuous replacement effect that modifies a draw.
+Ruling (2006-04-01): When using Dredge with this, you have two choices. You can immediately replace the draw with Dredge, or you can apply Zur's Weirding's replacement. If the latter, you first resolve Zur's Weirding's ability, then if you're going to draw the card, decide whether or not to replace that draw with Dredge.
+
+## Zur, Eternal Schemer
+Cost: {w}{u}{b} | Type: Legendary Creature — Human Wizard | Color identity: BUW | P/T: 1/4 | Commander: legal
+Text: Flying
+  Enchantment creatures you control have deathtouch, lifelink, and hexproof.
+  {1}{W}: Target non-Aura enchantment you control becomes a creature in addition to its other types and has base power and base toughness each equal to its mana value.
+Ruling (2022-09-09): If a permanent on the battlefield has an {X} in its mana cost, X is zero when determining its mana value.
+Ruling (2022-09-09): Zur, Eternal Schemer's last ability does not have a duration. Once it resolves the target enchantment will be a creature until it leaves the battlefield or another effect causes it to stop being a creature.
+
+## Zuran Enchanter
+Cost: {1}{u} | Type: Creature — Human Wizard | Color identity: BU | P/T: 1/1 | Commander: legal
+Text: {2}{B}, {T}: Target player discards a card. Activate only during your turn.
+
+## Zuran Orb
+Cost: {0} | Type: Artifact | Color identity: colorless | Commander: legal
+Text: Sacrifice a land: You gain 2 life.
+
+## Zuran Spellcaster
+Cost: {2}{u} | Type: Creature — Human Wizard | Color identity: U | P/T: 1/1 | Commander: legal
+Text: {T}: This creature deals 1 damage to any target.
+
+## Zurgo and Ojutai
+Cost: {2}{u}{r}{w} | Type: Legendary Creature — Orc Dragon | Color identity: RUW | P/T: 4/4 | Commander: legal
+Text: Flying, haste
+  Zurgo and Ojutai has hexproof as long as it entered this turn.
+  Whenever one or more Dragons you control deal combat damage to a player or battle, look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order. You may return one of those Dragons to its owner's hand.
+Ruling (2023-04-14): Because creatures with first strike deal combat damage before creatures without first strike, it's also possible to have the ability trigger twice in the same combat by your Dragons dealing combat damage to one player at different times. This can also happen if an attacking Dragon you control has double strike.
+Ruling (2023-04-14): The triggered ability will trigger once for each player or battle dealt combat damage by Dragons you control, no matter how many Dragons were involved. For example, if you attack a player with three Dragons and a battle that player protects with two Dragons, and they all connect, the ability will trigger twice.
+Ruling (2023-04-14): You choose whether to return one of the Dragons that dealt combat damage to the player or battle as the triggered ability is resolving. This doesn't target any of those Dragons.
+
+## Zurgo Bellstriker
+Cost: {r} | Type: Legendary Creature — Orc Warrior | Color identity: R | P/T: 2/2 | Commander: legal
+Text: Zurgo can't block creatures with power 2 or greater.
+  Dash {1}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)
+Ruling (2015-02-25): Even though both cards portray the same character, Zurgo Bellstriker and Zurgo Helmsmasher have different names. Controlling both of them won't invoke the "legend rule."
+Ruling (2015-02-25): If a creature enters the battlefield as a copy of or becomes a copy of a creature whose dash cost was paid, the copy won't have haste and won't be returned to its owner's hand.
+Ruling (2015-02-25): If you choose to pay the dash cost rather than the mana cost, you're still casting the spell. It goes on the stack and can be responded to and countered. You can cast a creature spell for its dash cost only when you otherwise could cast that creature spell. Most of the time, this means during your main phase when the stack is empty.
+Ruling (2015-02-25): If you pay the dash cost to cast a creature spell, that card will be returned to its owner's hand only if it's still on the battlefield when its triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is.
+Ruling (2015-02-25): Once Zurgo Bellstriker has legally blocked a creature, raising that creature's power to 2 or greater won't undo the block.
+Ruling (2015-02-25): You don't have to attack with the creature with dash unless another ability says you do.
+
+## Zurgo Helmsmasher
+Cost: {2}{r}{w}{b} | Type: Legendary Creature — Orc Warrior | Color identity: BRW | P/T: 7/2 | Commander: legal
+Text: Haste
+  Zurgo attacks each combat if able.
+  During your turn, Zurgo has indestructible.
+  Whenever a creature dealt damage by Zurgo this turn dies, put a +1/+1 counter on Zurgo.
+Ruling (2014-09-20): Each time a creature dies, check whether Zurgo had dealt any damage to it at any time during that turn. If so, Zurgo's ability will trigger. It doesn't matter who controlled the creature or whose graveyard it went to.
+Ruling (2014-09-20): If Zurgo enters the battlefield before the combat phase, it will attack that turn if able. If it enters the battlefield after combat, it won't attack that turn and will usually be available to block on the following turn.
+Ruling (2014-09-20): If, during your declare attackers step, Zurgo is tapped or is affected by a spell or ability that says it can't attack, then it doesn't attack. If there's a cost associated with having Zurgo attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.
+Ruling (2014-09-20): You still choose which player or planeswalker Zurgo Helmsmasher attacks.
+
+## Zurgo Stormrender
+Cost: {r}{w}{b} | Type: Legendary Creature — Orc Warrior | Color identity: BRW | P/T: 3/3 | Commander: legal
+Text: Mobilize 1 (Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.)
+  Whenever a creature token you control leaves the battlefield, draw a card if it was attacking. Otherwise, each opponent loses 1 life.
+Ruling (2025-04-04): Although the Warrior tokens enter as attacking creatures, they were never declared as attacking creatures. Abilities that trigger whenever a creature attacks won't trigger when the tokens enter attacking.
+Ruling (2025-04-04): If Zurgo Stormrender leaves the battlefield at the same time as one or more creature tokens you control, its last ability will trigger once for each of those creature tokens.
+Ruling (2025-04-04): You choose the player, planeswalker, or battle each Warrior token is attacking. They don't all have to attack the same one, and they don't have to attack the same player, planeswalker, or battle as the creature with mobilize.
+
+## Zurgo's Vanguard
+Cost: {2}{r} | Type: Creature — Dog Soldier | Color identity: R | P/T: */3 | Commander: legal
+Text: Mobilize 1 (Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.)
+  Zurgo's Vanguard's power is equal to the number of creatures you control.
+
+## Zurgo, Thunder's Decree
+Cost: {r}{w}{b} | Type: Legendary Creature — Orc Warrior | Color identity: BRW | P/T: 2/4 | Commander: legal
+Text: Mobilize 2 (Whenever this creature attacks, create two tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step.)
+  During your end step, Warrior tokens you control have "This token can't be sacrificed."
+
+## Zuri, Warrior of Wakanda
+Cost: {1}{g} | Type: Legendary Creature — Human Warrior Hero | Color identity: G | P/T: 2/2 | Commander: legal
+Text: Trample
+  Whenever you cast an artifact spell with mana value 4 or greater, put a +1/+1 counter on each creature you control.
+
+## Zurzoth, Chaos Rider
+Cost: {2}{r} | Type: Legendary Creature — Devil | Color identity: R | P/T: 2/3 | Commander: legal
+Text: Whenever an opponent draws their first card each turn, if it's not their turn, you create a 1/1 red Devil creature token with "When this token dies, it deals 1 damage to any target."
+  Whenever one or more Devils you control attack one or more players, you and those players each draw a card, then discard a card at random.
+Ruling (2020-06-23): Devils you control that attack a planeswalker won't cause any player to draw or discard a card.
+Ruling (2020-06-23): If a spell or ability causes a player to put a card into their hand without specifically using the word "draw," it's not a card drawn.
+Ruling (2020-06-23): If your life total is brought to 0 or less at the same time that a Devil token is dealt lethal damage, you lose the game before its ability goes on the stack.
+
+## Zygon Infiltrator
+Cost: {2}{u} | Type: Creature — Alien Shapeshifter Soldier | Color identity: U | P/T: 3/2 | Commander: legal
+Text: Body-print — {2}{U}: Tap another target creature and put a stun counter on it. This creature becomes a copy of that creature for as long as that creature remains tapped. Activate only as a sorcery. (If a permanent with a stun counter would become untapped, remove one from it instead.)
+Ruling (2023-10-13): If another creature becomes a copy of Zygon Infiltrator, it will become a copy of whatever Zygon Infiltrator is currently copying (if anything).
+Ruling (2023-10-13): If it becomes a copy of a token creature, it copies the original characteristics of that token as defined by the effect that created the token. It won't become a token creature.
+Ruling (2023-10-13): When Zygon Infiltrator becomes a copy of a creature, it's neither entering nor leaving the battlefield. Any enters-the-battlefield or leaves-the-battlefield abilities won't trigger.
+Ruling (2023-10-13): Zygon Infiltrator copies the printed values of the creature plus any copy effects that have been applied to it. It won't copy any other effects that have changed that creature's power, toughness, color, and so on. Zygon Infiltrator won't copy any counters on the creature, but it will retain any counters it already had on it.

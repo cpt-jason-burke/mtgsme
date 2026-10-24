@@ -1,0 +1,979 @@
+## Qal Sisma Behemoth
+Cost: {2}{r} | Type: Creature — Ogre Warrior | Color identity: R | P/T: 5/5 | Commander: legal
+Text: This creature can't attack or block unless you pay {2}.
+Ruling (2015-02-25): If an effect says that Qal Sisma Behemoth must attack or block if able, you can choose not to pay the associated cost and ignore that requirement. Players are never forced to pay a cost to attack or block.
+
+## Qala, Ajani's Pridemate
+Cost: {3}{w} | Type: Legendary Creature — Cat Warrior | Color identity: W | P/T: 3/3 | Commander: legal
+Text: Whenever Qala attacks, other attacking creatures you control get +X/+0 until end of turn, where X is the number of counters on Qala.
+  Whenever you gain life, put a +1/+1 counter on Qala.
+  {3}{W}: You gain 1 life.
+Ruling (2024-11-08): Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Qala's second ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, planeswalkers, and/or battles at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+Ruling (2024-11-08): If Qala is dealt lethal damage at the same time that you gain life, it won't receive a counter from its second ability in time to save it.
+Ruling (2024-11-08): If you gain an amount of life "for each" of something or "equal to the number" of something, that life is gained as one event and Qala's second ability triggers only once.
+Ruling (2024-11-08): In a Two-Headed Giant game, life gained by your teammate won't cause Qala's second ability to trigger, even though it caused your team's life total to increase.
+Ruling (2024-11-08): Qala's second ability triggers just once for each life-gaining event, whether it's 1 life from Dazzling Angel or 4 life from Apothecary Stomper.
+Ruling (2024-11-08): The value of X is calculated only once, as Qala's first ability resolves.
+
+## Qarsi Deceiver
+Cost: {1}{u} | Type: Creature — Snake Wizard | Color identity: U | P/T: 0/4 | Commander: legal
+Text: {T}: Add {C}. Spend this mana only to cast a face-down creature spell, pay a mana cost to turn a manifested creature face up, or pay a morph cost. (A megamorph cost is a morph cost.)
+Ruling (2015-02-25): If a face-down creature with megamorph is turned face up some other way (for example, if you manifest a card with megamorph and then pay its mana cost to turn it face up), you won't put a +1/+1 counter on it.
+Ruling (2015-02-25): Megamorph is a variant of the morph ability. You can find more information on morph on cards with morph from the Khans of Tarkir set.
+Ruling (2015-02-25): The mana produced by Qarsi Deceiver can't be used to cast a spell that instructs you to manifest cards.
+Ruling (2015-02-25): Turning a face-down creature with megamorph face up and putting a +1/+1 counter on it is a special action. It doesn't use the stack and can't be responded to.
+
+## Qarsi High Priest
+Cost: {b} | Type: Creature — Human Cleric | Color identity: B | P/T: 0/2 | Commander: legal
+Text: {1}{B}, {T}, Sacrifice another creature: Manifest the top card of your library. (Put that card onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)
+Ruling (2014-11-24): A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+Ruling (2014-11-24): Any time you have priority, you may turn a manifested creature face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
+Ruling (2014-11-24): At any time, you can look at a face-down permanent you control. You can't look at face-down permanents you don't control unless an effect allows you to or instructs you to.
+Ruling (2014-11-24): Because face-down creatures don't have names, they can't have the same name as any other creature, even another face-down creature.
+Ruling (2014-11-24): Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+Ruling (2014-11-24): If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up.
+Ruling (2014-11-24): If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+Ruling (2014-11-24): If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost.
+Ruling (2014-11-24): The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant or change any of these characteristics.
+Ruling (2014-11-24): There are no cards in the Fate Reforged set that would turn a face-down instant or sorcery card on the battlefield face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
+Ruling (2014-11-24): Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+Ruling (2014-11-24): Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
+Ruling (2014-11-24): You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on).
+
+## Qarsi Revenant
+Cost: {1}{b}{b} | Type: Creature — Vampire | Color identity: B | P/T: 3/3 | Commander: legal
+Text: Flying, deathtouch, lifelink
+  Renew — {2}{B}, Exile this card from your graveyard: Put a flying counter, a deathtouch counter, and a lifelink counter on target creature. Activate only as a sorcery.
+Ruling (2025-04-04): If a card with a renew ability is put into your graveyard during your turn, you can activate that ability if it's legal to do so before any other player can take any actions.
+
+## Qarsi Sadist
+Cost: {1}{b} | Type: Creature — Human Cleric | Color identity: B | P/T: 1/3 | Commander: legal
+Text: Exploit (When this creature enters, you may sacrifice a creature.)
+  When this creature exploits a creature, target opponent loses 2 life and you gain 2 life.
+Ruling (2015-02-25): A creature with exploit "exploits a creature" when the controller of the exploit ability sacrifices a creature as that ability resolves.
+Ruling (2015-02-25): If the creature with exploit isn't on the battlefield as the exploit ability resolves, you won't get any bonus from the creature with exploit, even if you sacrifice a creature. Because the creature with exploit isn't on the battlefield, its other triggered ability won't trigger.
+Ruling (2015-02-25): You can sacrifice the creature with exploit if it's still on the battlefield. This will cause its other ability to trigger.
+Ruling (2015-02-25): You can't sacrifice more than one creature to any one exploit ability.
+Ruling (2015-02-25): You choose whether to sacrifice a creature and which creature to sacrifice as the exploit ability resolves.
+
+## Qasali Ambusher
+Cost: {1}{g}{w} | Type: Creature — Cat Warrior | Color identity: GW | P/T: 2/3 | Commander: legal
+Text: Reach
+  If a creature is attacking you and you control a Forest and a Plains, you may cast this creature without paying its mana cost and as though it had flash.
+Ruling (2008-10-01): Casting Qasali Ambusher as described in its second ability still uses the stack. The spell can be countered.
+Ruling (2008-10-01): For you to cast Qasali Ambusher as described in its second ability, a creature has to be attacking *you*. If creatures are attacking only planeswalkers, you won't be able to cast Qasali Ambusher this way.
+Ruling (2008-10-01): If you want to cast Qasali Ambusher by using its second ability, you don't necessarily have to do it during the declare attackers step. You can do it later in combat (including all the way up through the end of combat step) as long as there's still a creature attacking you. Of course, if you cast Qasali Ambusher later than the declare attackers step, it won't be able to block.
+Ruling (2008-10-01): Qasali Ambusher's second ability is looking for lands with the subtypes Forest and Plains. Those lands don't need to be named Forest and Plains. It's okay if both subtypes are from the same land (such as Savannah or Temple Garden).
+Ruling (2018-04-27): If you're playing a Two-Headed Giant game and a creature is attacking your teammate, you won't be able to cast Qasali Ambusher this way.
+
+## Qasali Pridemage
+Cost: {g}{w} | Type: Creature — Cat Wizard | Color identity: GW | P/T: 2/2 | Commander: legal
+Text: Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
+  {1}, Sacrifice this creature: Destroy target artifact or enchantment.
+Ruling (2021-03-19): If you declare exactly one creature as an attacker, each exalted ability on each permanent you control (including, perhaps, the attacking creature itself) will trigger.
+Ruling (2021-03-19): Some effects put creatures onto the battlefield attacking. Since those creatures were never declared as attackers, they're ignored by exalted abilities. They won't cause exalted abilities to trigger. If any exalted abilities have already triggered (because exactly one creature was declared as an attacker), those abilities will resolve as normal even though there may now be multiple attackers.
+Ruling (2021-03-19): You must attack with exactly one creature for exalted abilities to trigger. Exalted abilities won't trigger if you attack a player with one creature and a planeswalker with another, for example, or if you attack with two creatures but one is removed from combat.
+
+## Qasali Slingers
+Cost: {4}{g} | Type: Creature — Cat Warrior | Color identity: G | P/T: 3/5 | Commander: legal
+Text: Reach
+  Whenever this creature or another Cat you control enters, you may destroy target artifact or enchantment.
+Ruling (2017-08-25): If Qasali Slingers enters the battlefield at the same time as other Cats you control, its ability will trigger for each of those Cats.
+
+## Qilin's Blessing
+Cost: {w} | Type: Instant | Color identity: W | Commander: legal
+Text: Target creature gets +2/+2 until end of turn.
+
+## Qiqirn Merchant
+Cost: {2}{u} | Type: Creature — Beast Citizen | Color identity: U | P/T: 1/4 | Commander: legal
+Text: {1}, {T}: Draw a card, then discard a card.
+  {7}, {T}, Sacrifice this creature: Draw three cards. This ability costs {1} less to activate for each Town you control.
+
+## Quag Feast
+Cost: {1}{b} | Type: Sorcery | Color identity: B | Commander: legal
+Text: Choose target creature, planeswalker, or Vehicle. Mill two cards, then destroy the chosen permanent if its mana value is less than or equal to the number of cards in your graveyard.
+
+## Quag Sickness
+Cost: {2}{b} | Type: Enchantment — Aura | Color identity: B | Commander: legal
+Text: Enchant creature
+  Enchanted creature gets -1/-1 for each Swamp you control.
+Ruling (2010-08-15): The ability cares about lands with the land type Swamp, not necessarily lands named Swamp.
+Ruling (2010-08-15): This ability counts the number of Swamps controlled by Quag Sickness's controller, not the enchanted creature's controller (in case they're different players).
+Ruling (2010-08-15): This bonus is not fixed; it changes as the number of Swamps you control changes.
+
+## Quag Vampires
+Cost: {b} | Type: Creature — Vampire Rogue | Color identity: B | P/T: 1/1 | Commander: legal
+Text: Multikicker {1}{B} (You may pay an additional {1}{B} any number of times as you cast this spell.)
+  Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
+  This creature enters with a +1/+1 counter on it for each time it was kicked.
+Ruling (2024-11-08): If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+Ruling (2024-11-08): If a spell's kicker cost was paid, the spell is "kicked."
+Ruling (2024-11-08): If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+Ruling (2024-11-08): If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+Ruling (2024-11-08): The kicker ability doesn't let you pay a kicker cost more than once.
+Ruling (2024-11-08): To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+
+## Quagmire
+Cost: {2}{b} | Type: Enchantment | Color identity: B | Commander: legal
+Text: Creatures with swampwalk can be blocked as though they didn't have swampwalk.
+
+## Quagmire Druid
+Cost: {2}{b} | Type: Creature — Zombie Druid | Color identity: BG | P/T: 2/2 | Commander: legal
+Text: {G}, {T}, Sacrifice a creature: Destroy target enchantment.
+
+## Quagmire Lamprey
+Cost: {2}{b} | Type: Creature — Fish | Color identity: B | P/T: 1/1 | Commander: legal
+Text: Whenever this creature becomes blocked by a creature, put a -1/-1 counter on that creature.
+
+## Quagnoth
+Cost: {5}{g} | Type: Creature — Beast | Color identity: G | P/T: 4/5 | Commander: legal
+Text: Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)
+  Shroud (This creature can't be the target of spells or abilities.)
+  When a spell or ability an opponent controls causes you to discard this card, return it to your hand.
+Ruling (2007-05-01): If Quagnoth is discarded normally (it moves from your hand to your graveyard), its last ability triggers from your graveyard. If Yixlid Jailer is on the battlefield, it won't trigger.
+Ruling (2007-05-01): If an effect of a spell or ability an opponent controls causes Quagnoth to be discarded, but Quagnoth leaves its new zone after its ability triggers, the ability will have no effect when it resolves.
+Ruling (2007-05-01): If an effect of a spell or ability an opponent controls causes Quagnoth to be discarded, but Quagnoth moves from your hand directly to the Exile zone (due to Leyline of the Void, for example), the ability will trigger from that zone. It will return Quagnoth to your hand from that zone when it resolves.
+Ruling (2021-03-19): After a spell with split second resolves (or otherwise leaves the stack), players may again cast spells and activate abilities before the next object on the stack resolves.
+Ruling (2021-03-19): Casting a spell with split second won't affect spells and abilities that are already on the stack.
+Ruling (2021-03-19): If the resolution of a triggered ability involves casting a spell, that spell can't be cast if a spell with split second is on the stack.
+Ruling (2021-03-19): Players may turn face-down creatures face up while a spell with split second is on the stack.
+Ruling (2021-03-19): Players still get priority while a card with split second is on the stack; their options are just limited to mana abilities and certain special actions.
+Ruling (2021-03-19): Split second doesn't stop triggered abilities from triggering, such as that of Chalice of the Void. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal.
+
+## Quake, Agent of S.H.I.E.L.D.
+Cost: {2}{w} | Type: Legendary Creature — Inhuman Spy Hero | Color identity: W | P/T: 3/3 | Commander: legal
+Text: Seismic Takedown — Whenever you cast a noncreature spell, tap target creature or land.
+
+## Quakebringer
+Cost: {3}{r}{r} | Type: Creature — Giant Berserker | Color identity: R | P/T: 5/4 | Commander: legal
+Text: Your opponents can't gain life.
+  At the beginning of your upkeep, Quakebringer deals 2 damage to each opponent. This ability triggers only if Quakebringer is on the battlefield or if Quakebringer is in your graveyard and you control a Giant.
+  Foretell {2}{R}{R}
+Ruling (2021-02-05): Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you're taking the action, no other player can respond by trying to remove the card from your hand.
+Ruling (2021-02-05): Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player's turn. In most cases, if you foretell a card that isn't an instant (or doesn't have flash), you'll have to wait until your next turn to cast it.
+Ruling (2021-02-05): If Quakebringer is on the battlefield at the beginning of your upkeep, its ability will trigger even if it's no longer a Giant and you don't control another Giant.
+Ruling (2021-02-05): If you're casting a foretold card from exile for its foretell cost, you can't choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+Ruling (2021-02-05): Quakebringer entering the battlefield won't undo any life gained earlier in the turn.
+
+## Quakefoot Cyclops
+Cost: {4}{r} | Type: Creature — Cyclops | Color identity: R | P/T: 4/4 | Commander: legal
+Text: When this creature enters, up to two target creatures can't block this turn.
+  Cycling {1}{R} ({1}{R}, Discard this card: Draw a card.)
+  When you cycle this card, target creature can't block this turn.
+
+## Quakestrider Ceratops
+Cost: {3}{g}{g}{g} | Type: Creature — Dinosaur | Color identity: G | P/T: 12/8 | Commander: legal
+Text: 
+
+## Quaketusk Boar
+Cost: {3}{r}{r} | Type: Creature — Elemental Boar | Color identity: R | P/T: 5/5 | Commander: legal
+Text: Reach, trample, haste
+
+## Quandrix Apprentice
+Cost: {g}{u} | Type: Creature — Human Wizard | Color identity: GU | P/T: 2/2 | Commander: legal
+Text: Magecraft — Whenever you cast or copy an instant or sorcery spell, look at the top three cards of your library. You may reveal a land card from among them and put that card into your hand. Put the rest on the bottom of your library in any order.
+Ruling (2021-04-16): Each magecraft ability has a different effect, although they all have the same trigger condition, whenever you cast or copy an instant or sorcery spell.
+Ruling (2021-04-16): If an effect creates a copy of an instant or sorcery spell, this will also cause the magecraft ability to trigger.
+Ruling (2021-04-16): If an effect creates multiple copies of an instant or sorcery spell, magecraft abilities trigger once for each copy created by the effect.
+Ruling (2021-04-16): Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies do not cause magecraft abilities to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause magecraft abilities to trigger.
+
+## Quandrix Campus
+Cost: — | Type: Land | Color identity: GU | Commander: legal
+Text: This land enters tapped.
+  {T}: Add {G} or {U}.
+  {4}, {T}: Scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+
+## Quandrix Charm
+Cost: {g}{u} | Type: Instant | Color identity: GU | Commander: legal
+Text: Choose one —
+  • Counter target spell unless its controller pays {2}.
+  • Destroy target enchantment.
+  • Target creature has base power and toughness 5/5 until end of turn.
+Ruling (2026-03-20): The effect of Quandrix Charm's last mode will overwrite any previous effects that set the creature's power and toughness to specific values. Effects that otherwise modify the target creature's power and toughness will still apply no matter when they took effect. The same is true for +1/+1 counters.
+
+## Quandrix Command
+Cost: {1}{g}{u} | Type: Instant | Color identity: GU | Commander: legal
+Text: Choose two —
+  • Return target creature or planeswalker to its owner's hand.
+  • Counter target artifact or enchantment spell.
+  • Put two +1/+1 counters on target creature.
+  • Target player shuffles up to three target cards from their graveyard into their library.
+Ruling (2021-04-16): As Quandrix Command tries to resolve, if the fourth mode is chosen and all of the target cards are illegal, but the target player is still legal, that player will still shuffle their library.
+Ruling (2021-04-16): If all of Quandrix Command's targets are illegal as it tries to resolve, it will do nothing.
+Ruling (2021-04-16): If at least one target is still legal as Quandrix Command tries to resolve, it will resolve and do as much as it can.
+
+## Quandrix Cultivator
+Cost: {1}{g}{g/u}{u} | Type: Creature — Turtle Druid | Color identity: GU | P/T: 3/4 | Commander: legal
+Text: When this creature enters, you may search your library for a basic Forest or Island card, put it onto the battlefield, then shuffle.
+
+## Quandrix Pledgemage
+Cost: {1}{g/u}{g/u} | Type: Creature — Merfolk Druid | Color identity: GU | P/T: 2/2 | Commander: legal
+Text: Magecraft — Whenever you cast or copy an instant or sorcery spell, put a +1/+1 counter on this creature.
+Ruling (2021-04-16): Each magecraft ability has a different effect, although they all have the same trigger condition, whenever you cast or copy an instant or sorcery spell.
+Ruling (2021-04-16): For example, if you control Archmage Emeritus and cast an instant or sorcery spell, Archmage Emeritus's magecraft ability will trigger and you will draw a card.
+Ruling (2021-04-16): If an effect creates a copy of an instant or sorcery spell, this will also cause the magecraft ability to trigger.
+Ruling (2021-04-16): If an effect creates multiple copies of an instant or sorcery spell, magecraft abilities trigger once for each copy created by the effect.
+Ruling (2021-04-16): Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies do not cause magecraft abilities to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause magecraft abilities to trigger.
+
+## Quandrix, the Proof
+Cost: {4}{g}{u} | Type: Legendary Creature — Elder Dragon | Color identity: GU | P/T: 6/6 | Commander: legal
+Text: Flying, trample
+  Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)
+  Instant and sorcery spells you cast from your hand have cascade.
+Ruling (2026-03-20): A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+Ruling (2026-03-20): Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+Ruling (2026-03-20): If a spell with cascade is countered, the cascade ability will still resolve normally.
+Ruling (2026-03-20): If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+Ruling (2026-03-20): If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+Ruling (2026-03-20): Not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value.
+Ruling (2026-03-20): The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half (as long as the resulting spell would have lesser mana value than the spell with cascade) but not both halves.
+Ruling (2026-03-20): When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+Ruling (2026-03-20): You exile the cards face up. All players will be able to see them.
+
+## Quantum Entanglement
+Cost: {1}{w} | Type: Enchantment | Color identity: W | Commander: legal
+Text: Flash
+  When this enchantment enters and at the beginning of your end step, you may pay {1}{W}. When you do, exile target creature you control, then return that card to the battlefield under its owner's control.
+
+## Quantum Misalignment
+Cost: {4}{u} | Type: Sorcery | Color identity: U | Commander: legal
+Text: Create a token that's a copy of target creature you control, except it isn't legendary.
+  Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
+Ruling (2023-10-13): Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the chosen creature will also work.
+Ruling (2023-10-13): If the copied creature has {X} in its mana cost, X is considered to be 0.
+Ruling (2023-10-13): If the copied creature is a token, the token that's created copies the original characteristics of that token as stated by the effect that created the token.
+Ruling (2023-10-13): If the copied creature is copying something else (for example, if the copied creature is an Evil Twin), then the token enters the battlefield as whatever that creature copied.
+Ruling (2023-10-13): The token copies exactly what was printed on the original creature and nothing else (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+
+## Quantum Reduction
+Cost: {1}{u} | Type: Enchantment — Aura | Color identity: U | Commander: legal
+Text: Teamwork 2 (As an additional cost to cast this spell, you may tap any number of creatures you control with total power 2 or more.)
+  You may cast this spell as though it had flash if it's cast using teamwork.
+  Enchant creature
+  Enchanted creature gets -5/-0 and loses all abilities.
+
+## Quantum Riddler
+Cost: {3}{u}{u} | Type: Creature — Sphinx | Color identity: U | P/T: 4/6 | Commander: legal
+Text: Flying
+  When this creature enters, draw a card.
+  As long as you have one or fewer cards in hand, if you would draw one or more cards, you draw that many cards plus one instead.
+  Warp {1}{U}
+Ruling (2025-07-25): If an effect instructs you to draw more than one card, Quantum Riddler's replacement effect applies to that entire instruction, not the individual card draws represented by the instruction. For example, if you control Quantum Riddler and you cast Decode Transmissions while you have no other cards in your hand, Quantum Riddler's replacement effect will apply, and you'll draw three cards instead of two.
+Ruling (2025-07-25): Once a replacement effect has been applied to an event, it can't be applied again to the newly modified event. For example, once Quantum Riddler's replacement effect has modified the "draw two cards" instruction of Decode Transmissions, Thought Reflection's replacement effect can double the resulting card draws without Quantum Riddler's replacement effect applying again.
+Ruling (2025-07-25): Quantum Riddler's replacement effect applies to an instruction to draw more than one card before any replacement effects apply to individual cards drawn. For example, if you control Thought Reflection (an enchantment with "If you would draw a card, draw two cards instead.") and you cast Decode Transmissions while you have one or fewer other cards in your hand, you'll apply Quantum Riddler's replacement effect first, changing the "draw two cards" instruction to "draw three cards." Then Thought Reflection's replacement effect will apply to each of those three individual card draws, causing you to draw a total of six cards.
+
+## Quarantine Field
+Cost: {x}{x}{w}{w} | Type: Enchantment | Color identity: W | Commander: legal
+Text: This enchantment enters with X isolation counters on it.
+  When this enchantment enters, for each isolation counter on it, exile up to one target nonland permanent an opponent controls until this enchantment leaves the battlefield.
+Ruling (2015-08-25): Auras attached to the exiled permanents will be put into their owners' graveyards. Equipment attached to the exiled creatures will become unattached and remain on the battlefield. Any counters on the exiled permanents will cease to exist.
+Ruling (2015-08-25): If Quarantine Field exiles multiple permanents, those cards all return to the battlefield at the same time.
+Ruling (2015-08-25): If Quarantine Field leaves the battlefield before its triggered ability resolves, no permanents will be exiled.
+Ruling (2015-08-25): If a token is exiled, it ceases to exist. It won't be returned to the battlefield.
+Ruling (2015-08-25): In a multiplayer game, if Quarantine Field's owner leaves the game, the exiled cards will return to the battlefield. Because the one-shot effect that returns the cards isn't an ability that goes on the stack, it won't cease to exist along with the leaving player's spells and abilities on the stack.
+Ruling (2015-08-25): The exiled cards return to the battlefield immediately after Quarantine Field leaves the battlefield. Nothing happens between the two events, including state-based actions.
+Ruling (2015-08-25): Use the number of isolation counters on Quarantine Field as its triggered ability is put on the stack to determine how many targets you may choose. Once the targets are chosen, the number of targets the ability has is locked in. Changing the number of isolation counters on Quarantine Field won't change how many nonland permanents are exiled.
+
+## Quarrel
+Cost: {1}{g} | Type: Instant | Color identity: G | Commander: legal
+Text: Target creature you control deals damage equal to its power to target creature an opponent controls.
+
+## Quarrel's End
+Cost: {2}{r} | Type: Sorcery | Color identity: R | Commander: legal
+Text: As an additional cost to cast this spell, discard a card.
+  Draw two cards and create a 1/1 white Human Soldier creature token.
+
+## Quarry Beetle
+Cost: {4}{g} | Type: Creature — Insect | Color identity: G | P/T: 4/5 | Commander: legal
+Text: When this creature enters, you may return target land card from your graveyard to the battlefield.
+Ruling (2017-07-14): Quarry Beetle's ability doesn't count as playing a land. It can return a land card to the battlefield even if you've already played as many lands as able this turn.
+
+## Quarry Colossus
+Cost: {5}{w}{w} | Type: Creature — Giant | Color identity: W | P/T: 5/6 | Commander: legal
+Text: When this creature enters, put target creature into its owner's library just beneath the top X cards of that library, where X is the number of Plains you control.
+Ruling (2014-04-26): If there are fewer than X cards in that player's library, put the creature on the bottom of that library.
+Ruling (2014-04-26): Quarry Colossus's ability is mandatory. If you control the only creatures when that ability triggers, you must choose a creature you control (which could be Quarry Colossus itself) as the target.
+Ruling (2014-04-26): The value of X is determined as the ability resolves. If you control no Plains at that time, put the creature on top of that library.
+
+## Quarry Hauler
+Cost: {3}{g} | Type: Creature — Camel | Color identity: G | P/T: 4/3 | Commander: legal
+Text: When this creature enters, for each kind of counter on target permanent, put another counter of that kind on it or remove one from it.
+Ruling (2017-04-18): You don't have to make the same choice for each kind of counter. For example, if a Gideon planeswalker has two loyalty counters and three -1/-1 counters on it, you can put another loyalty counter on it and remove a -1/-1 counter from it.
+
+## Quartzwood Crasher
+Cost: {2}{r}{r}{g} | Type: Creature — Dinosaur Beast | Color identity: GR | P/T: 6/6 | Commander: legal
+Text: Trample
+  Whenever one or more creatures you control with trample deal combat damage to a player, create an X/X green Dinosaur Beast creature token with trample, where X is the amount of damage those creatures dealt to that player.
+Ruling (2020-04-17): If a creature you control with trample is unblocked, the full amount of combat damage it deals to the defending player is counted by Quartzwood Crasher's last ability.
+Ruling (2020-04-17): Quartzwood Crasher's second ability includes damage dealt by Quartzwood Crasher itself as long as it still has trample.
+
+## Quarum Trench Gnomes
+Cost: {3}{r} | Type: Creature — Gnome | Color identity: R | P/T: 1/1 | Commander: legal
+Text: {T}: If target Plains is tapped for mana, it produces colorless mana instead of white mana. (This effect lasts indefinitely.)
+Ruling (2008-08-01): The ability only replaces white mana produced by the Plains. If a Plains somehow tries to produce mana of a different color (for instance, if you control a Joiner Adept), this effect will not cause it to produce colorless mana.
+
+## Quash
+Cost: {2}{u}{u} | Type: Instant | Color identity: U | Commander: legal
+Text: Counter target instant or sorcery spell. Search its controller's graveyard, hand, and library for all cards with the same name as that spell and exile them. Then that player shuffles.
+Ruling (2004-10-04): If the spell is not countered (because the spell it targets can't be countered), then it does not get exiled but all the other copies in the graveyard, hand, and library are exiled.
+Ruling (2004-10-04): It exiles the countered spell. This is because the first sentence puts the spell into the graveyard before you continue to the second sentence.
+Ruling (2005-02-01): If Quash counters a spell that has had text spliced onto it, only the base spell may be exiled. For example, if you use Quash to counter a Kodama's Might with a Glacial Ray spliced onto it, you may search for and exile only Kodama's Might.
+Ruling (2005-02-01): Quash can exile cards even if the spell countered was a copy of a spell. For example, if you Quash a Boomerang cast from an Isochron Scepter, you may search for and exile cards named Boomerang.
+Ruling (2005-02-01): The copies must be found if they are in publicly viewable zones. Finding copies while searching private zones is optional.
+
+## Quasiduplicate
+Cost: {1}{u}{u} | Type: Sorcery | Color identity: U | Commander: legal
+Text: Create a token that's a copy of target creature you control.
+  Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)
+Ruling (2018-10-05): A spell cast using jump-start will always be exiled afterward, whether it resolves, it's countered, or it leaves the stack in some other way.
+Ruling (2018-10-05): Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "As [this creature] enters the battlefield" or "[This creature] enters the battlefield with" abilities of the copied creature will also work.
+Ruling (2018-10-05): If a card with jump-start is put into your graveyard during your turn, you'll be able to cast it right away if it's legal to do so, before an opponent can take any actions.
+Ruling (2018-10-05): If an effect allows you to pay an alternative cost rather than a spell's mana cost, you may pay that alternative cost when you jump-start a spell. You'll still discard a card as an additional cost to cast it.
+Ruling (2018-10-05): If the copied creature has {X} in its mana cost, X is 0.
+Ruling (2018-10-05): If the copied creature is copying something else, the token enters the battlefield as whatever that creature is copying.
+Ruling (2018-10-05): If the copied creature is itself a token, the token created by Quasiduplicate copies the original characteristics of that token as stated by the effect that created it.
+Ruling (2018-10-05): The token copies exactly what is printed on the creature and nothing else (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
+Ruling (2018-10-05): You must still follow any timing restrictions and permissions when casting a spell with jump-start, including those based on the card's type. For instance, you can cast a sorcery using jump-start only when you could normally cast a sorcery.
+
+## Queen Allenal of Ruadach
+Cost: {g}{w}{w} | Type: Legendary Creature — Elf Noble | Color identity: GW | P/T: */* | Commander: legal
+Text: Queen Allenal of Ruadach's power and toughness are each equal to the number of creatures you control.
+  If one or more creature tokens would be created under your control, those tokens plus a 1/1 white Soldier creature token are created instead.
+Ruling (2022-09-09): If an effect changes under whose control a token would be created, that effect applies before Queen Allenal's effect applies. If an effect changes under whose control a token would enter the battlefield, that effect applies after Queen Allenal's effect is able to be applied.
+Ruling (2022-09-09): Queen Allenal of Ruadach's first ability counts itself, so its power and toughness will always be at least 1/1.
+Ruling (2022-09-09): The additional Soldier token won't have any abilities the other tokens were created with. Anything else specified in the effect creating the tokens (such as tapped, attacking, "That token gains haste," or "Exile that token at end of combat") applies to both the original tokens and the Soldier.
+
+## Queen Brahne
+Cost: {2}{r} | Type: Legendary Creature — Human Noble | Color identity: R | P/T: 2/1 | Commander: legal
+Text: Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+  Whenever Queen Brahne attacks, create a 0/1 black Wizard creature token with "Whenever you cast a noncreature spell, this token deals 1 damage to each opponent."
+Ruling (2025-06-06): The Wizard token's ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+
+## Queen Kayla bin-Kroog
+Cost: {1}{r}{w} | Type: Legendary Creature — Human Noble | Color identity: RW | P/T: 2/3 | Commander: legal
+Text: {4}, {T}: Discard all the cards in your hand, then draw that many cards. You may choose an artifact or creature card with mana value 1 you discarded this way, then do the same for artifact or creature cards with mana values 2 and 3. Return those cards to the battlefield. Activate only as a sorcery.
+Ruling (2022-10-14): From among the discarded cards, you may choose an artifact or creature card with mana value 1, you may choose an artifact or creature card with mana value 2, and you may choose an artifact or creature card with mana value 3. Then put all the chosen cards onto the battlefield simultaneously.
+Ruling (2022-10-14): If a replacement effect causes cards you discard this way to be exiled rather than go to the graveyard, Queen Kayla bin-Kroog's ability can still find those cards in exile. You can still put cards discarded this way onto the battlefield with Queen Kayla's ability.
+
+## Queen Marchesa
+Cost: {1}{r}{w}{b} | Type: Legendary Creature — Human Assassin | Color identity: BRW | P/T: 3/3 | Commander: legal
+Text: Deathtouch, haste
+  When Queen Marchesa enters, you become the monarch.
+  At the beginning of your upkeep, if an opponent is the monarch, create a 1/1 black Assassin creature token with deathtouch and haste.
+Ruling (2016-08-23): Abilities that trigger whenever you "become the monarch" trigger only if you aren't already the monarch. For example, if you are already the monarch as Custodi Lich enters the battlefield, its last ability won't trigger.
+Ruling (2016-08-23): Being the monarch carries two inherent triggered abilities. "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+Ruling (2016-08-23): If the triggered ability that causes the monarch to draw a card goes on the stack, and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+Ruling (2016-08-23): The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward.
+Ruling (2016-08-23): The last ability of Queen Marchesa (long may she reign) checks to see if an opponent is the monarch as your upkeep begins. If no opponent is the monarch, Queen Marchesa's (long may she reign) ability won't trigger at all. Queen Marchesa's (long may she reign) ability will also check to see if an opponent is the monarch as it tries to resolve. If no opponent is the monarch at that time, Queen Marchesa's (long may she reign) ability will have no effect.
+
+## Queen Mother Ramonda
+Cost: {3}{w}{w} | Type: Legendary Creature — Human Noble | Color identity: W | P/T: 3/5 | Commander: legal
+Text: When Queen Mother Ramonda enters, you become the monarch.
+  As long as you're the monarch, creatures with power 2 or less can't attack you.
+
+## Queen of Ice
+Cost: {2}{u} | Type: Creature — Human Noble Wizard | Color identity: U | P/T: 2/3 | Commander: legal
+Faces: Queen of Ice // Rage of Winter (adventure)
+Text: Whenever this creature deals combat damage to a creature, tap that creature. It doesn't untap during its controller's next untap step.
+Ruling (2019-10-04): A creature dealt combat damage by Queen of Ice won't untap during its controller's next untap step, even if it was already tapped and even if Queen of Ice leaves the battlefield before then (perhaps because that creature dealt lethal combat damage to Queen of Ice).
+Ruling (2019-10-04): An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Giant Killer is a white creature card whose mana value is 1. It can't be the target of the triggered ability of Mystic Sanctuary.
+Ruling (2019-10-04): Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+Ruling (2019-10-04): If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+Ruling (2019-10-04): If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a permanent spell.
+Ruling (2019-10-04): If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy as a permanent.
+Ruling (2019-10-04): If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+Ruling (2019-10-04): If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+Ruling (2019-10-04): If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if Giant Killer is exiled with the last ability of Vivien, Champion of the Wilds, you can't cast it as Chop Down.
+Ruling (2019-10-04): Rage of Winter can target a creature that's already tapped. That creature won't untap during its controller's next untap step.
+Ruling (2019-10-04): When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+Ruling (2019-10-04): You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+
+## Queen's Agent
+Cost: {5}{b} | Type: Creature — Vampire Scout | Color identity: B | P/T: 3/3 | Commander: legal
+Text: Lifelink
+  When this creature enters, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
+Ruling (2018-01-19): If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature explores" trigger as appropriate.
+Ruling (2018-01-19): If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.
+Ruling (2018-01-19): If an ability instructs a creature to explore, its controller reveals the top card of their library. If it's a land card, they'll put it into their hand. Otherwise, they'll put a +1/+1 counter on that creature, then choose to either leave that card on top of their library or put it into their graveyard.
+Ruling (2018-01-19): If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+Ruling (2018-01-19): In some unusual cases, noncreature permanents may explore. For example, if the creature card returned by Defossilize is somehow not a creature once it's on the battlefield, it can still explore. You'll take all the same actions, and you may end up putting a +1/+1 counter on the permanent. (Note that some effects target a creature, and those effects would still require a legal target to have it explore.)
+Ruling (2018-01-19): Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+Ruling (2018-01-19): Some spells or abilities might cause a creature to explore multiple times in a row. If you reveal a nonland card when a creature explores and leave it on top of your library, then the creature explores again immediately afterwards, you'll reveal the same card again.
+
+## Queen's Bay Paladin
+Cost: {3}{b}{b} | Type: Creature — Vampire Knight | Color identity: B | P/T: 5/4 | Commander: legal
+Text: Whenever this creature enters or attacks, return up to one target Vampire card from your graveyard to the battlefield with a finality counter on it. You lose life equal to its mana value. (If a creature with a finality counter on it would die, exile it instead.)
+Ruling (2023-11-10): Finality counters aren't keyword counters, and a finality counter doesn't give any abilities to the permanent it's on. If that permanent loses its abilities and then would go to a graveyard, it will still be exiled instead.
+Ruling (2023-11-10): Finality counters don't stop permanents from going to zones other than the graveyard from the battlefield. For example, if a permanent with a finality counter on it would be put into its owner's hand from the battlefield, it does so normally.
+Ruling (2023-11-10): Finality counters work on any permanent, not only creatures. If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead.
+Ruling (2023-11-10): Multiple finality counters on a single permanent are redundant.
+
+## Queen's Bay Soldier
+Cost: {1}{b} | Type: Creature — Vampire Soldier | Color identity: B | P/T: 2/2 | Commander: legal
+Text: 
+
+## Queen's Commission
+Cost: {2}{w} | Type: Sorcery | Color identity: W | Commander: legal
+Text: Create two 1/1 white Vampire creature tokens with lifelink.
+
+## Quench
+Cost: {1}{u} | Type: Instant | Color identity: U | Commander: legal
+Text: Counter target spell unless its controller pays {2}.
+
+## Quenchable Fire
+Cost: {3}{r} | Type: Sorcery | Color identity: RU | Commander: legal
+Text: Quenchable Fire deals 3 damage to target player or planeswalker. It deals an additional 3 damage to that player or planeswalker at the beginning of your next upkeep step unless that player or that planeswalker's controller pays {U} before that step.
+Ruling (2009-02-01): After Quenchable Fire resolves, the targeted player becomes able to perform a special action of paying {U}. This action may be performed any time the player has priority, and it doesn't use the stack. It may be performed only once, and only before your next upkeep begins. If the player has performed the action by then, the "deal an additional 3 damage" ability won't trigger. Otherwise, it will. If it triggers, the player can't stop it by paying {U}.
+Ruling (2009-02-01): Quenchable Fire's delayed triggered ability (and the special action of paying {U}) will affect the player who was targeted by the spell, even if the original 3 damage is prevented or redirected to a different permanent or player.
+
+## Quest for Ancient Secrets
+Cost: {u} | Type: Enchantment | Color identity: U | Commander: legal
+Text: Whenever a card is put into your graveyard from anywhere, you may put a quest counter on this enchantment.
+  Remove five quest counters from this enchantment and sacrifice it: Target player shuffles their graveyard into their library.
+
+## Quest for Pure Flame
+Cost: {r} | Type: Enchantment | Color identity: R | Commander: legal
+Text: Whenever a source you control deals damage to an opponent, you may put a quest counter on this enchantment.
+  Remove four quest counters from this enchantment and sacrifice it: If any source you control would deal damage to a permanent or player this turn, it deals double that damage to that permanent or player instead.
+Ruling (2009-10-01): Both of Quest for Pure Flame's abilities interact with any kind of damage, not just combat damage.
+Ruling (2009-10-01): If a spell causes damage to be dealt, that spell will always identify the source of the damage. In most cases, the source is the spell itself. For example, Lightning Bolt says "Lightning Bolt deals 3 damage to any target."
+Ruling (2009-10-01): If a spell or ability divides damage among multiple recipients (such as Arrow Volley Trap does), the damage is divided before Quest for Pure Fire's effect doubles it. The same is true for combat damage.
+Ruling (2009-10-01): If an ability causes damage to be dealt, that ability will always identify the source of the damage. The ability itself is never the source. However, the source of the ability is often the source of the damage. For example, Prodigal Pyromancer's ability says "Prodigal Pyromancer deals 1 damage to any target."
+Ruling (2009-10-01): If multiple effects modify how damage will be dealt, the player who would be dealt damage or the controller of the creature that would be dealt damage chooses the order to apply the effects. For example, Mending Hands says, "Prevent the next 4 damage that would be dealt to any target." Suppose a spell controlled by a player who has activated Quest for Pure Fire's second ability would deal 5 damage to a player who has cast Mending Hands targeting themselves. The player who would be dealt damage can either (a) prevent 4 damage first and then let Quest for Pure Fire's effect double the remaining 1 damage, taking 2 damage, or (b) double the damage to 10 and then prevent 4 damage, taking 6 damage.
+Ruling (2009-10-01): If the source of the damage is a permanent, Quest for Pure Flame checks whether you control that permanent at the time that damage is dealt. If the permanent has left the battlefield by then, its last known information is used. If the source of the damage is a spell, whether you control it is obvious. If the source of the damage is a card in some other zone (such as a cycled Jund Sojourners), Quest for Pure Flame checks whether you're the card's owner, rather than whether you're its controller.
+Ruling (2009-10-01): If you activate the second ability of more than one Quest for Pure Flame in the same turn, the effects are cumulative. Two such effects will cause damage from sources you control to be multiplied by four; three such effects will cause damage from sources you control to be multiplied by eight.
+Ruling (2009-10-01): The first ability will trigger multiple times if multiple sources you control deal damage to a single opponent at once, or if a single source you control deals damage to multiple opponents at once.
+Ruling (2009-10-01): The second ability affects all sources you control that would deal damage to a permanent or player at any point in the rest of the turn.
+Ruling (2009-10-01): The source of combat damage is the creature that dealt it.
+Ruling (2009-10-01): When the first ability resolves, you may put just one quest counter on Quest for Pure Flame. It doesn't matter how much damage the source dealt.
+
+## Quest for Renewal
+Cost: {1}{g} | Type: Enchantment | Color identity: G | Commander: legal
+Text: Whenever a creature you control becomes tapped, you may put a quest counter on this enchantment.
+  As long as there are four or more quest counters on this enchantment, untap all creatures you control during each other player's untap step.
+Ruling (2010-03-01): As another player's untap step begins, if there are four or more quest counters on Quest for Renewal, all your creatures untap during that untap step. You have no choice about what untaps. Those creatures untap at the same time as the active player's permanents.
+Ruling (2010-03-01): Controlling more than one Quest for Renewal with four or more quest counters on it is redundant. You can't untap your permanents more than once in a single untap step.
+Ruling (2010-03-01): Creatures put onto the battlefield tapped don't cause Quest for Renewal's first ability to trigger.
+Ruling (2010-03-01): During another player's untap step, effects that would otherwise cause your creatures to stay tapped don't apply because they apply only during *your* untap step. For example, if you control a Quest for Renewal with four or more quest counters on it and a Deep-Slumber Titan (a creature that says "Deep-Slumber Titan doesn't untap during your untap step"), you untap Deep-Slumber Titan during each other player's untap step.
+
+## Quest for the Gemblades
+Cost: {1}{g} | Type: Enchantment | Color identity: G | Commander: legal
+Text: Whenever a creature you control deals combat damage to a creature, you may put a quest counter on this enchantment.
+  Remove a quest counter from this enchantment and sacrifice it: Put four +1/+1 counters on target creature.
+Ruling (2009-10-01): If there are no counters on Quest for the Gemblades yet, and simultaneously a creature you control deals combat damage to a creature and a creature you control is dealt lethal combat damage, the first ability will trigger too late for you to be able to activate the second ability and save your creature.
+Ruling (2009-10-01): The first ability will trigger multiple times if a creature you control deals combat damage to multiple creatures, and/or if multiple creatures you control each deal combat damage to a single creature.
+Ruling (2009-10-01): When the first ability resolves, you may put just one quest counter on Quest for the Gemblades. It doesn't matter how much damage the source dealt.
+
+## Quest for the Goblin Lord
+Cost: {r} | Type: Enchantment | Color identity: R | Commander: legal
+Text: Whenever a Goblin you control enters, you may put a quest counter on this enchantment.
+  As long as this enchantment has five or more quest counters on it, creatures you control get +2/+0.
+
+## Quest for the Gravelord
+Cost: {b} | Type: Enchantment | Color identity: B | Commander: legal
+Text: Whenever a creature dies, you may put a quest counter on this enchantment.
+  Remove three quest counters from this enchantment and sacrifice it: Create a 5/5 black Zombie Giant creature token.
+Ruling (2009-10-01): Quest for the Gravelord's first ability triggers regardless of who controlled the creature and whose graveyard it was put into.
+
+## Quest for the Holy Relic
+Cost: {w} | Type: Enchantment | Color identity: W | Commander: legal
+Text: Whenever you cast a creature spell, you may put a quest counter on this enchantment.
+  Remove five quest counters from this enchantment and sacrifice it: Search your library for an Equipment card, put it onto the battlefield, attach it to a creature you control, then shuffle.
+Ruling (2009-10-01): If you cast a creature spell, Quest for the Holy Relic's triggered ability triggers and goes on the stack on top of it. The triggered ability will resolve before the spell does.
+Ruling (2009-10-01): The activated ability doesn't target the creature the Equipment will be attached to. It may be attached to a creature with shroud, for example. You don't choose which creature it will be attached to until you actually attach it. Once you choose which creature to attach it to, it's too late for players to respond.
+Ruling (2009-10-01): You may activate Quest for the Holy Relic's activated ability even if you control no creatures, or you control no creatures that can be equipped. In that case, you'll simply put the Equipment card you find onto the battlefield without attaching it to anything.
+
+## Quest for the Necropolis
+Cost: {b} | Type: Enchantment | Color identity: B | Commander: legal
+Text: Landfall — Whenever a land you control enters, put a quest counter on this enchantment.
+  {5}{B}, Sacrifice this enchantment: Put target creature card from a graveyard onto the battlefield under your control. This ability costs {1} less to activate for each quest counter on this enchantment. Activate only as a sorcery.
+Ruling (2024-11-08): A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+Ruling (2024-11-08): A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+Ruling (2024-11-08): Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+
+## Quest for the Nihil Stone
+Cost: {b} | Type: Enchantment | Color identity: B | Commander: legal
+Text: Whenever an opponent discards a card, you may put a quest counter on this enchantment.
+  At the beginning of each opponent's upkeep, if that player has no cards in hand and this enchantment has two or more quest counters on it, you may have that player lose 5 life.
+Ruling (2010-03-01): The second ability has an "intervening 'if' clause." That means (1) the ability won't trigger at all unless, as an opponent's upkeep starts, that player has no cards in hand and Quest for the Nihil Stone has two or more quest counters on it, and (2) the ability will do nothing if that player has at least one card in hand and/or Quest for the Nihil Stone has fewer than two quest counters on it by the time it resolves. (If Quest for the Nihil Stone is no longer on the battlefield by that point, its last existence on the battlefield is checked to see how many quest counters were on it.)
+
+## Quest for Ula's Temple
+Cost: {u} | Type: Enchantment | Color identity: U | Commander: legal
+Text: At the beginning of your upkeep, you may look at the top card of your library. If it's a creature card, you may reveal it and put a quest counter on this enchantment.
+  At the beginning of each end step, if there are three or more quest counters on this enchantment, you may put a Kraken, Leviathan, Octopus, or Serpent creature card from your hand onto the battlefield.
+Ruling (2010-03-01): Although the first ability triggers only on your turn, the second ability may trigger each turn.
+Ruling (2010-03-01): If an ability (from Future Sight or Oracle of Mul Daya, for example) causes you to play with the top card of your library revealed, you may still put a quest counter on Quest for Ula's Temple when the first ability resolves if the top card of your library is a creature card.
+Ruling (2010-03-01): When the first ability resolves, you may look at the top card of your library. If you don't, nothing happens. If you look at it and it's not a creature card, it simply stays hidden. If you look at it and it is a creature card, you may reveal it and put a quest counter on Quest for Ula's Temple, or you may choose to leave it hidden. In all cases, the card remains on top of your library.
+
+## Questing Beast
+Cost: {2}{g}{g} | Type: Legendary Creature — Beast | Color identity: G | P/T: 4/4 | Commander: legal
+Text: Vigilance, deathtouch, haste
+  Questing Beast can't be blocked by creatures with power 2 or less.
+  Combat damage that would be dealt by creatures you control can't be prevented.
+  Whenever Questing Beast deals combat damage to an opponent, it deals that much damage to target planeswalker that player controls.
+Ruling (2019-10-04): If the opponent dealt damage controls no planeswalkers, Questing Beast's last ability simply does nothing.
+Ruling (2019-10-04): Once a creature with power 3 or greater has blocked this creature, changing the power of the blocking creature won't cause this creature to become unblocked.
+Ruling (2019-10-04): Questing Beast only stops combat damage from being prevented by effects that specifically use the word "prevent."
+Ruling (2019-10-04): The damage Questing Beast deals to the target planeswalker as its last ability resolves isn't combat damage.
+
+## Questing Druid
+Cost: {1}{g} | Type: Creature — Human Druid | Color identity: GR | P/T: 1/1 | Commander: legal
+Faces: Questing Druid // Seek the Beast (adventure)
+Text: Whenever you cast a spell that's white, blue, black, or red, put a +1/+1 counter on this creature.
+Ruling (2023-09-01): An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Questing Druid is a green creature card whose mana value is 2. It can't be the target of Tenacious Tomeseeker's triggered ability ("return target instant or sorcery card from your graveyard to your hand").
+Ruling (2023-09-01): An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+Ruling (2023-09-01): Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+Ruling (2023-09-01): If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+Ruling (2023-09-01): If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a permanent spell.
+Ruling (2023-09-01): If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy as a permanent.
+Ruling (2023-09-01): If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+Ruling (2023-09-01): If an effect refers to a card, spell, or permanent that has an Adventure, it won't find an instant or sorcery spell on the stack that's been cast as an Adventure.
+Ruling (2023-09-01): If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+Ruling (2023-09-01): If you cast a spell that's more than one of the listed colors, Questing Druid's ability still triggers only once.
+Ruling (2023-09-01): If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer ("Once each turn, you may cast an instant or sorcery spell from the top of your library.") and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
+Ruling (2023-09-01): When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+Ruling (2023-09-01): You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+Ruling (2023-09-01): You pay all costs and follow all normal timing rules for cards played from exile with Seek the Beast. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+
+## Questing Phelddagrif
+Cost: {1}{g}{w}{u} | Type: Creature — Phelddagrif | Color identity: GUW | P/T: 4/4 | Commander: legal
+Text: {G}: This creature gets +1/+1 until end of turn. Target opponent creates a 1/1 green Hippo creature token.
+  {W}: This creature gains protection from black and from red until end of turn. Target opponent gains 2 life.
+  {U}: This creature gains flying until end of turn. Target opponent may draw a card.
+
+## Queza, Augur of Agonies
+Cost: {1}{w}{u}{b} | Type: Legendary Creature — Octopus Advisor | Color identity: BUW | P/T: 3/4 | Commander: legal
+Text: Whenever you draw a card, target opponent loses 1 life and you gain 1 life.
+
+## Quick Draw
+Cost: {r} | Type: Instant | Color identity: R | Commander: legal
+Text: Target creature you control gets +1/+1 and gains first strike until end of turn. Creatures target opponent controls lose first strike and double strike until end of turn.
+Ruling (2024-04-12): You can't cast Quick Draw unless you control a creature that's a legal target for Quick Draw.
+
+## Quick Fixer
+Cost: {2}{b} | Type: Creature — Azra Employee | Color identity: B | P/T: 2/3 | Commander: legal
+Text: Menace
+  Whenever this creature deals combat damage to a player, open an Attraction. (Put the top card of your Attraction deck onto the battlefield.)
+
+## Quick Sliver
+Cost: {1}{g} | Type: Creature — Sliver | Color identity: G | P/T: 1/1 | Commander: legal
+Text: Flash
+  Any player may cast Sliver spells as though they had flash.
+Ruling (2004-10-04): The first ability applies when this card is not on the battlefield. The second ability applies when this card is on the battlefield.
+Ruling (2013-07-01): Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn't provide any additional benefit.
+Ruling (2013-07-01): If the creature type of a Sliver changes so it's no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+
+## Quick Study
+Cost: {2}{u} | Type: Instant | Color identity: U | Commander: legal
+Text: Draw two cards.
+
+## Quick-Draw Dagger
+Cost: {3} | Type: Artifact — Equipment | Color identity: colorless | Commander: legal
+Text: Flash
+  When this Equipment enters, attach it to target creature you control. That creature gains first strike until end of turn.
+  Equipped creature gets +1/+1.
+  Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
+Ruling (2022-04-29): Quick-Draw Dagger doesn't enter the battlefield attached to a creature. Instead, the Equipment enters the battlefield and then a triggered ability attaches it to a creature. You may cast Quick-Draw Dagger even if you don't control any creatures.
+
+## Quick-Draw Katana
+Cost: {2} | Type: Artifact — Equipment | Color identity: colorless | Commander: legal
+Text: During your turn, equipped creature gets +2/+0 and has first strike. (It deals combat damage before creatures without first strike.)
+  Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
+
+## Quickbeam, Upstart Ent
+Cost: {4}{g}{g} | Type: Legendary Creature — Treefolk | Color identity: G | P/T: 5/6 | Commander: legal
+Text: Whenever Quickbeam or another Treefolk you control enters, up to two target creatures each get +2/+2 and gain trample until end of turn.
+
+## Quickbeast Amulet
+Cost: {g}{w} | Type: Artifact — Equipment | Color identity: GW | Commander: legal
+Text: Starting intensity 0
+  Equipped creature gets +X/+X, where X is this Equipment's intensity.
+  Whenever a creature you control enters, this Equipment intensifies by X, where X is that creature's power.
+  Equip {2}
+
+## Quickchange
+Cost: {1}{u} | Type: Instant | Color identity: U | Commander: legal
+Text: Target creature becomes the color or colors of your choice until end of turn.
+  Draw a card.
+Ruling (2005-10-01): Quickchange won't make an artifact stop being an artifact. It'll just be a colorful artifact.
+Ruling (2005-10-01): You can choose any single color or any combination of more than one color. You can't choose colorless.
+
+## Quicken
+Cost: {u} | Type: Instant | Color identity: U | Commander: legal
+Text: The next sorcery spell you cast this turn can be cast as though it had flash. (It can be cast any time you could cast an instant.)
+  Draw a card.
+Ruling (2006-02-01): If you cast multiple Quickens on the same turn, they'll all apply to the very next sorcery spell you cast.
+Ruling (2006-02-01): You don't choose a sorcery card when Quicken resolves. Rather, this sets up a rule that is true for you until the turn ends or until you cast a sorcery card, even if you cast that sorcery at a time you normally could.
+Ruling (2006-09-25): After Quicken resolves, you can Suspend a sorcery in your hand any time you can cast an instant. As soon as you actually cast a sorcery, you lose this capability.
+
+## Quickening Licid
+Cost: {1}{w} | Type: Creature — Licid | Color identity: W | P/T: 1/1 | Commander: legal
+Text: {1}{W}, {T}: This creature loses this ability and becomes an Aura enchantment with enchant creature. Attach it to target creature. You may pay {W} to end this effect.
+  Enchanted creature has first strike.
+Ruling (2013-04-15): If a spell that can target enchantments but not creatures (such as Clear) is cast targeting the Licid after it has become an enchantment, but the Licid's controller pays the cost, the Licid will no longer be an enchantment. This will result in the spell failing to resolve for having no legal targets.
+Ruling (2013-04-15): Paying the cost to end the effect is a special action and can't be responded to.
+
+## Quickling
+Cost: {1}{u} | Type: Creature — Faerie Rogue | Color identity: U | P/T: 2/2 | Commander: legal
+Text: Flash (You may cast this spell any time you could cast an instant.)
+  Flying
+  When this creature enters, sacrifice it unless you return another creature you control to its owner's hand.
+Ruling (2014-07-18): If you control no other creatures when the enters-the-battlefield ability resolves, you must sacrifice Quickling.
+
+## Quicksand
+Cost: — | Type: Land | Color identity: colorless | Commander: legal
+Text: {T}: Add {C}.
+  {T}, Sacrifice this land: Target attacking creature without flying gets -1/-2 until end of turn.
+
+## Quicksand Whirlpool
+Cost: {5}{w} | Type: Instant | Color identity: W | Commander: legal
+Text: This spell costs {3} less to cast if it targets a tapped creature.
+  Exile target creature.
+
+## Quicksilver Amulet
+Cost: {4} | Type: Artifact | Color identity: colorless | Commander: legal
+Text: {4}, {T}: You may put a creature card from your hand onto the battlefield.
+Ruling (2004-10-04): Any 'X' in the creature's cost is treated as zero.
+Ruling (2007-05-01): Putting the card onto the battlefield is optional. When the ability resolves, you can choose not to.
+Ruling (2011-09-22): You don't pay any costs of that creature card, including additional costs.
+
+## Quicksilver Behemoth
+Cost: {6}{u} | Type: Creature — Beast | Color identity: U | P/T: 4/5 | Commander: legal
+Text: Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)
+  When this creature attacks or blocks, return it to its owner's hand at end of combat. (Return it only if it's on the battlefield.)
+
+## Quicksilver Dagger
+Cost: {1}{u}{r} | Type: Enchantment — Aura | Color identity: RU | Commander: legal
+Text: Enchant creature
+  Enchanted creature has "{T}: This creature deals 1 damage to target player or planeswalker. You draw a card."
+Ruling (2022-12-08): The enchanted creature is the source of both the damage ability and the resulting damage, not Quicksilver Dagger.
+
+## Quicksilver Dragon
+Cost: {4}{u}{u} | Type: Creature — Dragon | Color identity: U | P/T: 5/5 | Commander: legal
+Text: Flying
+  {U}: If target spell has only one target and that target is this creature, change that spell's target to another creature.
+  Morph {4}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+
+## Quicksilver Elemental
+Cost: {3}{u}{u} | Type: Creature — Elemental | Color identity: U | P/T: 3/4 | Commander: legal
+Text: {U}: This creature gains all activated abilities of target creature until end of turn. (If any of the abilities use that creature's name, use this creature's name instead.)
+  You may spend blue mana as though it were mana of any color to pay the activation costs of this creature's abilities.
+Ruling (2004-10-04): If you make two copies of an ability that can be activated once a turn, you can activate each of them once a turn.
+Ruling (2004-10-04): If you use this card to gain Wall of Deceit's ability to turn itself face down, you will not be able to turn this card face up because it will not have the Morph ability.
+Ruling (2004-10-04): You can activate the ability more than once, collecting abilities from multiple creatures (or the same creature more than once).
+Ruling (2004-12-01): Quicksilver Elemental can gain the activated abilities of any creature on the battlefield that you can target with its ability, even if you don't control that creature.
+Ruling (2004-12-01): Quicksilver Elemental gains only activated abilities. It doesn't gain keyword abilities (unless those keyword abilities are activated), triggered abilities, or static abilities.
+Ruling (2004-12-01): Quicksilver Elemental has a rather tricky interaction with Leonin Bola. You can actually unattach your opponent's Bola as part of the cost of activating the Elemental-copied ability.
+Ruling (2004-12-01): The granted abilities effectively use "this permanent," rather than "[that card's name]," so you treat the abilities as if they were printed on Quicksilver Elemental. For example, you treat an ability that says "Sacrifice a creature: Nantuko Husk gets +2/+2 until end of turn" as "Sacrifice a creature: Quicksilver Elemental gets +2/+2 until end of turn."
+Ruling (2016-06-08): Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities and will have colons in their reminder text.
+
+## Quicksilver Fisher
+Cost: {3}{u}{u} | Type: Creature — Phyrexian Drake | Color identity: U | P/T: 4/3 | Commander: legal
+Text: Flying
+  When this creature enters, draw a card, then discard a card.
+
+## Quicksilver Fountain
+Cost: {3} | Type: Artifact | Color identity: colorless | Commander: legal
+Text: At the beginning of each player's upkeep, that player puts a flood counter on target non-Island land they control of their choice. That land is an Island for as long as it has a flood counter on it.
+  At the beginning of each end step, if all lands on the battlefield are Islands, remove all flood counters from them.
+Ruling (2004-12-01): The land stays an Island until the flood counter is removed, even if Quicksilver Fountain leaves the battlefield.
+Ruling (2004-12-01): The timestamp of the land-type-changing ability is set when the triggered ability resolves (so each one has a different timestamp).
+
+## Quicksilver Gargantuan
+Cost: {5}{u}{u} | Type: Creature — Shapeshifter | Color identity: U | P/T: 7/7 | Commander: legal
+Text: You may have this creature enter as a copy of any creature on the battlefield, except it's 7/7.
+Ruling (2011-01-01): Any "enters" abilities of the copied creature will trigger when Quicksilver Gargantuan enters. Any "as [this creature] enters" or "[this creature] enters with" abilities of the chosen creature will also work.
+Ruling (2011-01-01): Except for its power and toughness, Quicksilver Gargantuan copies exactly what was printed on the original creature and nothing more (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+Ruling (2011-01-01): If Quicksilver Gargantuan is not a creature (for example, if it entered as a copy of an animated land), it will not have the characteristics of power or toughness at all, so it won't be 7/7. If it later becomes a creature, its power and toughness will be determined by the effect that causes it to become a creature; again, it won't be 7/7.
+Ruling (2011-01-01): If Quicksilver Gargantuan somehow enters at the same time as another creature (due to Mass Polymorph or Liliana Vess's third ability, for example), Quicksilver Gargantuan can't become a copy of that creature. You may choose only a creature that's already on the battlefield.
+Ruling (2011-01-01): If the chosen creature has {X} in its mana cost (such as Protean Hydra), X is considered to be zero.
+Ruling (2011-01-01): If the chosen creature is a token, your Quicksilver Gargantuan copies the original characteristics of that token as stated by the effect that put the token onto the battlefield, except for its power and toughness. Your Quicksilver Gargantuan is not a token.
+Ruling (2011-01-01): If the chosen creature is copying something else (for example, if the chosen creature is a Clone), then your Quicksilver Gargantuan enters as whatever the chosen creature copied, except for its power and toughness.
+Ruling (2011-01-01): You can choose not to copy anything. In that case, Quicksilver Gargantuan simply enters as a 7/7 creature.
+Ruling (2011-06-01): If the chosen creature has a characteristic-defining ability that sets its power and/or toughness, that ability will not be copied. For example, if Quicksilver Gargantuan copies a Nightmare, it will not gain the ability that sets its power and toughness to the number of Swamps you control. As such, it will remain a 7/7.
+
+## Quicksilver Geyser
+Cost: {4}{u} | Type: Instant | Color identity: U | Commander: legal
+Text: Return up to two target nonland permanents to their owners' hands.
+
+## Quicksilver Lapidary
+Cost: {u}{r} | Type: Creature — Phyrexian Artificer | Color identity: RU | P/T: 1/1 | Commander: legal
+Text: When Quicksilver Lapidary enters, conjure a card named Mox Opal into your hand.
+
+## Quicksilver Servitor
+Cost: {2}{u} | Type: Creature — Phyrexian Cleric | Color identity: U | P/T: 3/3 | Commander: legal
+Text: Ward {2}
+  Whenever you cast a spell from among cards put into your hand this turn, proliferate.
+
+## Quicksilver Wall
+Cost: {2}{u} | Type: Creature — Wall | Color identity: U | P/T: 1/6 | Commander: legal
+Text: Defender (This creature can't attack.)
+  {4}: Return this creature to its owner's hand. Any player may activate this ability.
+
+## Quicksilver, Brash Blur
+Cost: {r} | Type: Legendary Creature — Mutant Hero | Color identity: R | P/T: 1/1 | Commander: legal
+Text: If Quicksilver, Brash Blur is in your opening hand, you may begin the game with him on the battlefield.
+  Haste
+  Power-up — {4}{R}: Put a +1/+1 counter and a double strike counter on Quicksilver. (Activate each power-up ability only once. Reduce the cost by his mana cost if he entered this turn.)
+
+## Quicksilver, Pietro Maximoff
+Cost: {2}{r} | Type: Legendary Creature — Mutant Hero | Color identity: R | P/T: 3/2 | Commander: legal
+Text: Haste (This creature can attack and {T} as soon as he comes under your control.)
+
+## Quicksilver, Speedster
+Cost: {3}{u}{r} | Type: Legendary Creature — Mutant Hero | Color identity: RU | P/T: 3/4 | Commander: legal
+Text: Flash
+  Double strike, haste
+  As long as Quicksilver is tapped, you may cast spells as though they had flash.
+
+## Quicksmith Genius
+Cost: {2}{r} | Type: Creature — Human Artificer | Color identity: R | P/T: 3/2 | Commander: legal
+Text: Whenever an artifact you control enters, you may discard a card. If you do, draw a card.
+
+## Quicksmith Rebel
+Cost: {3}{r} | Type: Creature — Human Artificer | Color identity: R | P/T: 3/2 | Commander: legal
+Text: When this creature enters, target artifact you control gains "{T}: This artifact deals 2 damage to any target" for as long as you control this creature.
+Ruling (2017-02-09): If Quicksmith Rebel leaves the battlefield while its ability is on the stack, the artifact never gains the damage-dealing ability.
+Ruling (2017-02-09): If Quicksmith Rebel leaves the battlefield, you no longer control it.
+Ruling (2017-02-09): If Quicksmith Rebel or the artifact leaves the battlefield while the damage-dealing ability is on the stack, that ability resolves as normal.
+Ruling (2017-02-09): If another player gains control of Quicksmith Rebel, the artifact will no longer have the damage-dealing ability, even if you regain control of Quicksmith Rebel.
+
+## Quicksmith Spy
+Cost: {3}{u} | Type: Creature — Human Artificer | Color identity: U | P/T: 2/3 | Commander: legal
+Text: When this creature enters, target artifact you control gains "{T}: Draw a card" for as long as you control this creature.
+Ruling (2017-02-09): If Quicksmith Spy leaves the battlefield while its ability is on the stack, the artifact never gains the card-drawing ability.
+Ruling (2017-02-09): If Quicksmith Spy leaves the battlefield, you no longer control it.
+Ruling (2017-02-09): If Quicksmith Spy or the artifact leaves the battlefield while the card-drawing ability is on the stack, that ability resolves as normal.
+Ruling (2017-02-09): If another player gains control of Quicksmith Spy, the artifact will no longer have the card-drawing ability, even if you regain control of Quicksmith Spy.
+
+## Quiet Contemplation
+Cost: {2}{u} | Type: Enchantment | Color identity: U | Commander: legal
+Text: Whenever you cast a noncreature spell, you may pay {1}. If you do, tap target creature an opponent controls and it doesn't untap during its controller's next untap step.
+Ruling (2014-09-20): The ability can target a creature that's already tapped. It still won't untap during its controller's next untap step.
+Ruling (2014-09-20): The ability tracks the creature, but not its controller. If the creature changes controllers before its first controller's next untap step has come around, then it won't untap during its new controller's next untap step.
+Ruling (2014-09-20): You decide whether to pay {1} as the triggered ability resolves.
+
+## Quiet Disrepair
+Cost: {1}{g} | Type: Enchantment — Aura | Color identity: G | Commander: legal
+Text: Enchant artifact or enchantment
+  At the beginning of your upkeep, choose one —
+  • Destroy enchanted permanent.
+  • You gain 2 life.
+Ruling (2007-05-01): If you choose the "destroy" mode and Quiet Disrepair is moved to a different permanent while the ability is on the stack, the newly enchanted permanent will be destroyed when the ability resolves.
+Ruling (2007-05-01): If you choose the "destroy" mode and Quiet Disrepair leaves the battlefield while the ability is on the stack, the last permanent it enchanted will be destroyed.
+
+## Quiet Purity
+Cost: {w} | Type: Instant — Arcane | Color identity: W | Commander: legal
+Text: Destroy target enchantment.
+
+## Quiet Speculation
+Cost: {1}{u} | Type: Sorcery | Color identity: U | Commander: legal
+Text: Search target player's library for up to three cards with flashback and put them into that player's graveyard. Then the player shuffles.
+
+## Quietus Spike
+Cost: {3} | Type: Artifact — Equipment | Color identity: colorless | Commander: legal
+Text: Equipped creature has deathtouch.
+  Whenever equipped creature deals combat damage to a player, that player loses half their life, rounded up.
+  Equip {3}
+Ruling (2008-10-01): If multiple Quietus Spikes trigger at the same time, that player loses half their life when the first ability resolves, then loses half of the remainder when the next ability resolves, and so on. The player does not lose the same amount each time.
+Ruling (2008-10-01): That player loses half their life after combat damage has been subtracted from the player's life total. The amount of life the player loses is determined as the triggered ability resolves.
+Ruling (2010-06-15): In a Two-Headed Giant game, after combat damage is dealt, Quietus Spike looks at that player's life total (which is the same as the team's life total) when determining how much life the team will lose, which basically means the team's life total is halved. Here's an example of the math: The team has 19 life, so the player has 19 life. Quietus Spike causes the team to lose 10 life (19 divided by 2, rounded up). The team's life total becomes 9 (19 minus 10).
+
+## Quill-Blade Laureate
+Cost: {1}{w} | Type: Creature — Human Cleric | Color identity: W | P/T: 1/1 | Commander: legal
+Faces: Quill-Blade Laureate // Twofold Intent (prepare)
+Text: Double strike
+  This creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)
+Ruling (2026-03-20): A creature with a prepare spell can't become prepared more than once at the same time. For example, Emeritus of Ideation is on the battlefield and is prepared. When it attacks, its last ability triggers. When that ability resolves, its controller may still exile eight cards from their graveyard, but doing so won't cause Emeritus of Ideation to become prepared a second time or create a second copy of Ancestral Recall in exile.
+Ruling (2026-03-20): A creature without a prepare spell can't become prepared.
+Ruling (2026-03-20): A preparation card is a creature card in every zone. For example, while it's in your graveyard, Emeritus of Ideation is a blue creature whose mana value is 5. It can't be the target of Zealous Lorecaster's triggered ability ("When this creature enters, return target instant or sorcery card from your graveyard to your hand.").
+Ruling (2026-03-20): As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+Ruling (2026-03-20): Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+Ruling (2026-03-20): Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+Ruling (2026-03-20): Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog.") targeting Goblin Glasswright. The token copy of Goblin Glasswright will enter prepared as a 1/1 green Frog creature, but the copy of Craft with Pride in exile will still be a red sorcery. The copy of Craft with Pride won't be green, a creature, or a Frog, and it won't have power or toughness.
+Ruling (2026-03-20): If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+Ruling (2026-03-20): If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+Ruling (2026-03-20): If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+Ruling (2026-03-20): If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+Ruling (2026-03-20): If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+Ruling (2026-03-20): Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+Ruling (2026-03-20): Preparation cards can only be cast with their base characteristics.
+Ruling (2026-03-20): While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+
+## Quill-Slinger Boggart
+Cost: {3}{b} | Type: Creature — Goblin Warrior | Color identity: B | P/T: 3/2 | Commander: legal
+Text: Whenever a player casts a Kithkin spell, you may have target player lose 1 life.
+
+## Quilled Charger
+Cost: {3}{r} | Type: Creature — Porcupine Mount | Color identity: R | P/T: 4/3 | Commander: legal
+Text: Whenever this creature attacks while saddled, it gets +1/+2 and gains menace until end of turn. (It can't be blocked except by two or more creatures.)
+  Saddle 2 (Tap any number of other creatures you control with total power 2 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)
+Ruling (2024-04-12): "Saddle N" means "Tap any number of other untapped creatures you control with total power N or greater: This permanent becomes saddled until end of turn. Activate only as a sorcery."
+Ruling (2024-04-12): "Saddled" isn't an ability that a creature has. It's just something true about that creature. It won't stop being saddled until the turn ends or it leaves the battlefield.
+Ruling (2024-04-12): An ability that triggers when a creature "attacks while saddled" will trigger only if that creature was saddled when it was declared as an attacker.
+Ruling (2024-04-12): Creatures with saddle can attack or block as normal even if they aren't saddled.
+Ruling (2024-04-12): If a permanent becomes a copy of a saddled Mount, the copy won't be saddled.
+Ruling (2024-04-12): You may activate a permanent's saddle ability even if that permanent is already saddled.
+
+## Quilled Greatwurm
+Cost: {4}{g}{g} | Type: Creature — Wurm | Color identity: G | P/T: 7/7 | Commander: legal
+Text: Trample
+  Whenever a creature you control deals combat damage during your turn, put that many +1/+1 counters on it. (It must survive to get the counters.)
+  You may cast this card from your graveyard by removing six counters from among creatures you control in addition to paying its other costs.
+Ruling (2024-11-08): You must follow all normal timing rules when casting Quilled Greatwurm from your graveyard with the permission granted by its last ability.
+
+## Quilled Slagwurm
+Cost: {4}{g}{g}{g} | Type: Creature — Phyrexian Wurm | Color identity: G | P/T: 8/8 | Commander: legal
+Text: 
+
+## Quilled Sliver
+Cost: {1}{w} | Type: Creature — Sliver | Color identity: W | P/T: 1/1 | Commander: legal
+Text: All Slivers have "{T}: This permanent deals 1 damage to target attacking or blocking creature."
+Ruling (2013-07-01): Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn't provide any additional benefit.
+Ruling (2013-07-01): If the creature type of a Sliver changes so it's no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+
+## Quilled Wolf
+Cost: {1}{g} | Type: Creature — Wolf | Color identity: G | P/T: 2/2 | Commander: legal
+Text: {5}{G}: This creature gets +4/+4 until end of turn.
+
+## Quillmane Baku
+Cost: {4}{u} | Type: Creature — Spirit | Color identity: U | P/T: 3/3 | Commander: legal
+Text: Whenever you cast a Spirit or Arcane spell, you may put a ki counter on this creature.
+  {1}, {T}, Remove X ki counters from this creature: Return target creature with mana value X or less to its owner's hand.
+
+## Quillspike
+Cost: {2}{b/g} | Type: Creature — Beast | Color identity: BG | P/T: 1/1 | Commander: legal
+Text: {B/G}, Remove a -1/-1 counter from a creature you control: This creature gets +3/+3 until end of turn.
+
+## Quina, Qu Gourmet
+Cost: {2}{g} | Type: Legendary Creature — Qu | Color identity: G | P/T: 2/3 | Commander: legal
+Text: If one or more tokens would be created under your control, those tokens plus a 1/1 green Frog creature token are created instead.
+  {2}, Sacrifice a Frog: Put a +1/+1 counter on Quina.
+Ruling (2025-06-06): The additional Frog token won't have any abilities the other tokens were created with. Anything else specified in the effect creating the token (such as tapped or "Exile that token at end of combat") applies to both the original tokens and the Frog.
+Ruling (2025-06-06): You don't need to control the spell or ability that creates the tokens, but you do have to be the one creating the tokens for Quina's first ability to apply.
+
+## Quinjet Technician
+Cost: {1}{r} | Type: Creature — Human Artificer | Color identity: R | P/T: 2/1 | Commander: legal
+Text: {T}: Add {R}.
+  {T}: Add {R}{R}. Spend this mana only to activate power-up abilities.
+
+## Quintessential Katana
+Cost: {w} | Type: Artifact — Equipment | Color identity: W | Commander: legal
+Text: Equipped creature gets +1/+1 and has "Whenever this creature deals combat damage, untap it and you gain 2 life."
+  Whenever a Ninja you control enters, you may attach this Equipment to it.
+  Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
+
+## Quintorius Kand
+Cost: {3}{r}{w} | Type: Legendary Planeswalker — Quintorius | Color identity: RW | Loyalty/Defense: 4 | Commander: legal
+Text: Whenever you cast a spell from exile, Quintorius Kand deals 2 damage to each opponent and you gain 2 life.
+  [+1]: Create a 3/2 red and white Spirit creature token.
+  [−3]: Discover 4.
+  [−6]: Exile any number of target cards from your graveyard. Add {R} for each card exiled this way. You may play those cards this turn.
+Ruling (2023-11-10): A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+Ruling (2023-11-10): If the discovered card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+Ruling (2023-11-10): If you can't cast the discovered card (perhaps because there are no legal targets for the spell), you'll put it into your hand.
+Ruling (2023-11-10): If you cast a spell "without paying its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, you must pay those to cast it.
+Ruling (2023-11-10): If you discover an adventurer card, split card, or modal double-faced card, you might be able to cast that card with either set of characteristics depending on the effect's discover value. For example, if you discover 4 and reveal Galvanic Giant (an adventurer card from Wilds of Eldraine with a mana value of 4), you could cast Galvanic Giant, but not Storm Reading (its Adventure, which has a mana value of 7). If you discover 7 and reveal Galvanic Giant, you could cast either Galvanic Giant or Storm Reading.
+Ruling (2023-11-10): Some spells and abilities that cause you to discover may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve and you won't discover.
+Ruling (2023-11-10): The mana value of a split card is determined by the combined mana cost of its two halves. If discover allows you to cast a split card, you may cast either half (as long as its mana value is less than or equal to the effect's discover value) but not both halves.
+Ruling (2023-11-10): When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
+Ruling (2023-11-10): You exile the cards face up. All players will be able to see them.
+Ruling (2023-11-10): You must follow all normal timing rules for a card you play with Quintorius Kand's last ability and, if it's a spell, you must pay its costs to cast it.
+
+## Quintorius, Fate Splitter
+Cost: {3}{w}{u} | Type: Legendary Planeswalker — Quintorius | Color identity: UW | Loyalty/Defense: 5 | Commander: legal
+Text: As long as Quintorius entered this turn, you may activate the loyalty abilities of planeswalkers you control twice this turn rather than only once.
+  [0]: Proliferate. You gain 3 life.
+  [−1]: Seek a non-Quintorius planeswalker card.
+  [−3]: Create a 2/2 colorless Wizard Soldier creature token named Cadet. Then put a +1/+1 counter on each creature you control.
+
+## Quintorius, Field Historian
+Cost: {3}{r}{w} | Type: Legendary Creature — Elephant Cleric | Color identity: RW | P/T: 2/4 | Commander: legal
+Text: Spirits you control get +1/+0.
+  Whenever one or more cards leave your graveyard, create a 3/2 red and white Spirit creature token.
+Ruling (2021-04-16): If two or more cards leave your graveyard as a single event, Quintorius's last ability will trigger once. If they leave your graveyard as separate events, it will trigger once for each event.
+
+## Quintorius, History Chaser
+Cost: {2}{r}{w} | Type: Legendary Planeswalker — Quintorius | Color identity: RW | Loyalty/Defense: 5 | Commander: legal
+Text: Whenever one or more cards leave your graveyard, create a 3/2 red and white Spirit creature token.
+  [+1]: You may discard a card. If you do, draw two cards, then mill a card.
+  [−4]: Spirits you control gain double strike and vigilance until end of turn.
+  Quintorius, History Chaser can be your commander.
+Ruling (2026-03-20): If multiple cards leave your graveyard at the same time, Quintorius's first ability will trigger only once.
+
+## Quintorius, Loremaster
+Cost: {3}{r}{w} | Type: Legendary Creature — Elephant Cleric | Color identity: RW | P/T: 3/5 | Commander: legal
+Text: Vigilance
+  At the beginning of your end step, exile target noncreature, nonland card from your graveyard. Create a 3/2 red and white Spirit creature token.
+  {1}{R}{W}, {T}, Sacrifice a Spirit: Choose target card exiled with Quintorius. You may cast that card this turn without paying its mana cost. If that spell would be put into a graveyard, put it on the bottom of its owner's library instead.
+Ruling (2023-04-14): If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+Ruling (2023-04-14): If the target of Quintorius's triggered ability is an illegal target at the time the ability tries to resolve, the ability won't resolve and none of its effects will happen. You won't create a Spirit token.
+Ruling (2023-04-14): If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+Ruling (2023-04-14): Quintorius's last two abilities are linked. The last ability can target only cards exiled by the triggered ability. If a Spirit you sacrifice to activate the last ability ends up being exiled because of a replacement effect, that card can't be targeted by the last ability.
+Ruling (2023-04-14): You must follow all applicable timing rules for casting the exiled card. For example, if the card is a sorcery card, you can cast it only during your main phase while the stack is empty.
+
+## Quirion Beastcaller
+Cost: {1}{g} | Type: Creature — Dryad Warrior | Color identity: G | P/T: 2/2 | Commander: legal
+Text: Whenever you cast a creature spell, put a +1/+1 counter on this creature.
+  When this creature dies, distribute X +1/+1 counters among any number of target creatures you control, where X is the number of +1/+1 counters on this creature.
+Ruling (2022-09-09): If some of the creatures are illegal targets as the second triggered ability tries to resolve, the original distribution of counters still applies and the counters that would have been put on illegal targets are lost.
+Ruling (2022-09-09): You choose the targets and announce how the +1/+1 counters will be distributed as you put Quirion Beaastcaller's second ability on the stack. Each target must receive at least one +1/+1 counter.
+
+## Quirion Druid
+Cost: {2}{g} | Type: Creature — Elf Druid | Color identity: G | P/T: 1/2 | Commander: legal
+Text: {G}, {T}: Target land becomes a 2/2 green creature that's still a land. (This effect lasts indefinitely.)
+Ruling (2008-08-01): A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
+
+## Quirion Dryad
+Cost: {1}{g} | Type: Creature — Dryad | Color identity: G | P/T: 1/1 | Commander: legal
+Text: Whenever you cast a spell that's white, blue, black, or red, put a +1/+1 counter on this creature.
+Ruling (2020-06-23): An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+Ruling (2020-06-23): If you cast a spell that's more than one color, Quirion Dryad's ability triggers just once.
+
+## Quirion Elves
+Cost: {1}{g} | Type: Creature — Elf Druid | Color identity: G | P/T: 1/1 | Commander: legal
+Text: As this creature enters, choose a color.
+  {T}: Add {G}.
+  {T}: Add one mana of the chosen color.
+
+## Quirion Explorer
+Cost: {1}{g} | Type: Creature — Elf Druid Scout | Color identity: G | P/T: 1/1 | Commander: legal
+Text: {T}: Add one mana of any color that a land an opponent controls could produce.
+Ruling (2008-08-01): If the opponent only has lands that produce colorless or no mana, this card's ability can still be activated; it just won't produce any mana.
+
+## Quirion Ranger
+Cost: {g} | Type: Creature — Elf Ranger | Color identity: G | P/T: 1/1 | Commander: legal
+Text: Return a Forest you control to its owner's hand: Untap target creature. Activate only once each turn.
+Ruling (2021-06-18): Returning the Forest you control to its owner's hand is the cost to activate the ability. Once you activate the ability, no one can try to do anything to the Forest to stop you from activating the ability.
+Ruling (2021-06-18): You can target any creature with Quirion Ranger's ability, not just a tapped creature.
+Ruling (2021-06-18): You may return any land you control with the subtype Forest. It doesn't have to be one named Forest.
+
+## Quirion Sentinel
+Cost: {1}{g} | Type: Creature — Elf Druid | Color identity: G | P/T: 2/1 | Commander: legal
+Text: When this creature enters, add one mana of any color.
+Ruling (2008-08-01): This is not a mana ability. It uses the stack, and can be responded to.
+Ruling (2009-10-01): You get the mana whether you want it or not. If you don't spend it, it will disappear at the end of the current step (or phase).
+Ruling (2011-01-25): The triggered ability isn't a mana ability. It uses the stack and can be responded to.
+Ruling (2011-01-25): You get the mana whether you want it or not. If you don't spend it, it will disappear at the end of the current step (or phase).
+
+## Quirion Trailblazer
+Cost: {3}{g} | Type: Creature — Elf Scout | Color identity: G | P/T: 1/2 | Commander: legal
+Text: When this creature enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.
+Ruling (2004-10-04): Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
+Ruling (2004-10-04): The land does not count toward your normal limit of playing one land per turn.
+
+## Quistis Trepe
+Cost: {2}{u} | Type: Legendary Creature — Human Wizard | Color identity: U | P/T: 2/2 | Commander: legal
+Text: Blue Magic — When Quistis Trepe enters, you may cast target instant or sorcery card from a graveyard, and mana of any type can be spent to cast that spell. If that spell would be put into a graveyard, exile it instead.
+Ruling (2025-06-06): You choose whether to cast the target instant or sorcery card as Quistis Trepe's triggered ability resolves. If you do, you do so as part of the resolution of that ability. You can't wait to cast it later in the turn. Timing restrictions based on the card's types are ignored.
+
+## Qumulox
+Cost: {6}{u}{u} | Type: Creature — Beast | Color identity: U | P/T: 5/4 | Commander: legal
+Text: Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)
+  Flying
+
+## Qutrub Forayer
+Cost: {2}{b} | Type: Creature — Zombie Horror | Color identity: B | P/T: 3/2 | Commander: legal
+Text: When this creature enters, choose one —
+  • Destroy target creature that was dealt damage this turn.
+  • Exile up to two target cards from a single graveyard.

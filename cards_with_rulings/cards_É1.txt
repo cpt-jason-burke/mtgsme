@@ -1,0 +1,41 @@
+## Éomer of the Riddermark
+Cost: {4}{r} | Type: Legendary Creature — Human Knight | Color identity: R | P/T: 5/4 | Commander: legal
+Text: Haste
+  Whenever Éomer attacks, if you control a creature with the greatest power among creatures on the battlefield, create a 1/1 white Human Soldier creature token.
+
+## Éomer, King of Rohan
+Cost: {3}{r}{w} | Type: Legendary Creature — Human Noble | Color identity: RW | P/T: 2/2 | Commander: legal
+Text: Double strike
+  Éomer enters with a +1/+1 counter on it for each other Human you control.
+  When Éomer enters, target player becomes the monarch. Éomer deals damage equal to its power to any target.
+Ruling (2023-06-16): If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+Ruling (2023-06-16): If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+Ruling (2023-06-16): If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+Ruling (2023-06-16): The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
+Ruling (2023-06-16): There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+
+## Éomer, Marshal of Rohan
+Cost: {2}{r}{r} | Type: Legendary Creature — Human Knight | Color identity: R | P/T: 4/4 | Commander: legal
+Text: Haste
+  Whenever one or more other attacking legendary creatures you control die, untap all creatures you control. After this phase, there is an additional combat phase. This ability triggers only once each turn.
+Ruling (2023-06-16): If Éomer, Marshal of Rohan and one or more other attacking legendary creatures you control die at the same time (probably due to combat damage), Éomer, Marshal of Rohan's last ability will trigger.
+Ruling (2023-06-16): Notably, Éomer, Marshal of Rohan's triggered ability doesn't give you any additional main phases. This means that you will move directly from the end of combat step of one combat phase to the beginning of combat step of the next one.
+
+## Éowyn, Fearless Knight
+Cost: {2}{r}{w} | Type: Legendary Creature — Human Knight | Color identity: RW | P/T: 3/4 | Commander: legal
+Text: Haste
+  When Éowyn enters, exile target creature an opponent controls with greater power. Legendary creatures you control gain protection from each of that creature's colors until end of turn.
+Ruling (2023-06-16): Éowyn, Fearless Knight cares about the creature's colors just before it left the battlefield. These could be different from the creature card's colors in exile (for example, if it had a copy effect applied to it on the battlefield.)
+
+## Éowyn, Lady of Rohan
+Cost: {2}{w} | Type: Legendary Creature — Human Noble | Color identity: W | P/T: 2/4 | Commander: legal
+Text: At the beginning of combat on your turn, target creature gains your choice of first strike or vigilance until end of turn. If that creature is equipped, it gains first strike and vigilance until end of turn instead.
+  Equip abilities you activate cost {1} less to activate.
+Ruling (2023-06-16): Some Equipment creature cards in other sets have reconfigure, a different ability that attaches them to a creature. Reconfigure is not an equip ability, and reconfigure costs are not reduced by Éowyn, Lady of Rohan's last ability. Equip variants or equip abilities with restrictions, like the "equip Human" ability of Dúnedain Blade, are still equip abilities, and their costs will be reduced by Éowyn, Lady of Rohan's last ability.
+Ruling (2023-06-16): Éowyn, Lady of Rohan's last ability reduces only the amount of generic mana in equip abilities. For example, it will reduce an equip cost of {1} to {0}, but it will have no effect on an equip cost of {G}.
+
+## Éowyn, Shieldmaiden
+Cost: {2}{u}{r}{w} | Type: Legendary Creature — Human Knight | Color identity: RUW | P/T: 5/4 | Commander: legal
+Text: First strike
+  At the beginning of combat on your turn, if another Human entered the battlefield under your control this turn, create two 2/2 red Human Knight creature tokens with trample and haste. Then if you control six or more Humans, draw a card.
+Ruling (2023-06-16): If another Human didn't enter the battlefield before your beginning of combat step, Éowyn, Shieldmaiden's ability won't trigger. You won't draw a card even if you control six or more Humans.

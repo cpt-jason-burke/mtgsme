@@ -1,0 +1,1020 @@
+## Y'shtola Rhul
+Cost: {4}{u}{u} | Type: Legendary Creature — Cat Druid | Color identity: U | P/T: 3/5 | Commander: legal
+Text: At the beginning of your end step, exile target creature you control, then return it to the battlefield under its owner's control. Then if it's the first end step of the turn, there is an additional end step after this step.
+Ruling (2025-06-06): Abilities that trigger "at the beginning of [your/the] end step" will trigger at the beginning of each of your additional end steps as well.
+Ruling (2025-06-06): Additional end steps don't come with any other additional steps (such as cleanup). Damage marked on permanents won't be removed until you actually get to the cleanup step (which will happen after your second end step), and "until end of turn" and "this turn" effects won't end until the cleanup step either.
+Ruling (2025-06-06): If a permanent with an ability that triggers "at the beginning of the end step" enters during your first end step, that ability won't trigger during that end step, but it will trigger during your second end step. Likewise, if a delayed triggered ability that triggers "at the beginning of the next end step" is created during your first end step, that ability will trigger during your second end step.
+Ruling (2025-06-06): If the target creature is an illegal target as Y'shtola Rhul's ability tries to resolve, it won't resolve and none of its effects will happen. There won't be an additional end step.
+
+## Y'shtola, Night's Blessed
+Cost: {1}{w}{u}{b} | Type: Legendary Creature — Cat Warlock | Color identity: BUW | P/T: 2/4 | Commander: legal
+Text: Vigilance
+  At the beginning of each end step, if a player lost 4 or more life this turn, you draw a card.
+  Whenever you cast a noncreature spell with mana value 3 or greater, Y'shtola deals 2 damage to each opponent and you gain 2 life.
+Ruling (2025-06-06): For spells on the stack with {X} in their mana costs, use the value chosen for X to determine the spell's mana value.
+Ruling (2025-06-06): Y'shtola's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+Ruling (2025-06-06): Y'shtola's second ability checks at the moment it would trigger to see if a player lost 4 or more life this turn. If none did, the ability won't trigger at all. Once an end step begins, it's too late to cause a player to lose life in order to cause this ability to trigger.
+
+## Yahenni's Expertise
+Cost: {2}{b}{b} | Type: Sorcery | Color identity: B | Commander: legal
+Text: All creatures get -3/-3 until end of turn.
+  You may cast a spell with mana value 3 or less from your hand without paying its mana cost.
+Ruling (2017-02-09): A card's mana value is determined solely by the mana symbols printed in its upper right corner. The mana value is the total amount of mana in that cost, regardless of color. For example, a card with mana cost {1}{U}{U} has mana value 3. Ignore any alternative costs, additional costs, cost increases, or cost reductions that could apply to it. A card with no mana cost has a mana value of 0.
+Ruling (2017-02-09): Any triggered abilities that trigger while performing the Expertise spell's first effect won't be put onto the stack until after you're done casting your free spell. They're put onto the stack at the same time as any abilities that triggered while casting that spell regardless of the order in which those abilities triggered.
+Ruling (2017-02-09): Effects that allow you to "cast" a card don't allow you to play a land card.
+Ruling (2017-02-09): If a creature's toughness is reduced to 0 or less by Yahenni's Expertise, that creature is still on the battlefield as you cast your free spell. It can be the target of that spell, although it will become an illegal target before that spell resolves. If it has any abilities that trigger on the spell being cast, those abilities will trigger.
+Ruling (2017-02-09): If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+Ruling (2017-02-09): If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs, such as emerge costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Cathartic Reunion, you must pay those to cast the card.
+Ruling (2017-02-09): While you're casting your free spell, the Expertise spell is still on the stack. It will be put into its owner's graveyard after the free spell is cast. The free spell can't target the Expertise card in your graveyard. It can target the Expertise spell on the stack, but the Expertise spell will become an illegal target before the free spell resolves.
+Ruling (2017-04-18): The mana value of a split card is determined by the combined mana cost of its two halves. If an expertise spell allows you to cast a split card, you may cast either half or, if that split card has fuse, both halves.
+
+## Yahenni, Undying Partisan
+Cost: {2}{b} | Type: Legendary Creature — Aetherborn Vampire | Color identity: B | P/T: 2/2 | Commander: legal
+Text: Haste
+  Whenever a creature an opponent controls dies, put a +1/+1 counter on Yahenni.
+  Sacrifice another creature: Yahenni gains indestructible until end of turn.
+Ruling (2017-02-09): If Yahenni and a creature an opponent controls die simultaneously (perhaps because they fought or were in combat together), Yahenni won't be on the battlefield as its triggered ability resolves. It can't be saved by the +1/+1 counter that would have been put on it.
+
+## Yamabushi's Flame
+Cost: {2}{r} | Type: Instant | Color identity: R | Commander: legal
+Text: Yamabushi's Flame deals 3 damage to any target. If a creature dealt damage this way would die this turn, exile it instead.
+
+## Yamabushi's Storm
+Cost: {1}{r} | Type: Sorcery | Color identity: R | Commander: legal
+Text: Yamabushi's Storm deals 1 damage to each creature. If a creature dealt damage this way would die this turn, exile it instead.
+
+## Yanling's Harbinger
+Cost: {3}{u}{u} | Type: Creature — Bird | Color identity: U | P/T: 2/4 | Commander: legal
+Text: Flying
+  When this creature enters, you may search your library and/or graveyard for a card named Mu Yanling, Celestial Wind, reveal it, and put it into your hand. If you search your library this way, shuffle.
+
+## Yannik, Scavenging Sentinel
+Cost: {2}{g}{w} | Type: Legendary Creature — Hyena Beast | Color identity: GW | P/T: 3/3 | Commander: legal
+Text: Partner with Nikara, Lair Scavenger
+  Vigilance
+  When Yannik enters, exile another creature you control until Yannik leaves the battlefield. When you do, distribute X +1/+1 counters among any number of target creatures, where X is the exiled creature's power.
+Ruling (2020-04-17): Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+Ruling (2020-04-17): If Yannik leaves the battlefield before its triggered ability resolves, you won't exile any creature you control. Yannik's reflexive triggered ability won't trigger.
+Ruling (2020-04-17): If a token is exiled this way, it will cease to exist and won't return to the battlefield. It will still let the ability distribute counters.
+Ruling (2020-04-17): If one of the target creatures becomes an illegal target in response to the reflexive triggered ability, the +1/+1 counters that would have been put on that creature are lost. They can't be put on another legal target.
+Ruling (2020-04-17): Use the power of the creature as it last existed on the battlefield to determine how many +1/+1 counters to distribute.
+Ruling (2020-04-17): Yannik can be the target of its own reflexive triggered ability.
+Ruling (2020-04-17): Yannik's triggered ability doesn't target the creature you control. That creature is chosen as the triggered ability resolves. After it's exiled, the reflexive triggered ability triggers and targets are chosen to receive the counters.
+Ruling (2020-04-17): You choose how the counters will be distributed as you put the reflexive triggered ability onto the stack. Each target creature must be assigned at least one counter.
+Ruling (2020-04-17): You may choose zero target creatures for Yannik's reflexive triggered ability. If you do, no creature receives +1/+1 counters.
+
+## Yare
+Cost: {2}{w} | Type: Instant | Color identity: W | Commander: legal
+Text: Target creature defending player controls gets +3/+0 until end of turn. That creature can block up to two additional creatures this turn.
+
+## Yargle and Multani
+Cost: {3}{b}{b}{g} | Type: Legendary Creature — Frog Spirit Elemental | Color identity: BG | P/T: 18/6 | Commander: legal
+Text: 
+Ruling (2023-04-14): Ribbit.
+
+## Yargle, Glutton of Urborg
+Cost: {4}{b} | Type: Legendary Creature — Frog Spirit | Color identity: B | P/T: 9/3 | Commander: legal
+Text: 
+
+## Yargle, Goliath of Otaria
+Cost: {4}{u} | Type: Legendary Creature — Frog Spirit | Color identity: U | P/T: 3/9 | Commander: legal
+Text: 
+
+## Yarok's Fenlurker
+Cost: {b}{b} | Type: Creature — Horror | Color identity: B | P/T: 1/1 | Commander: legal
+Text: When this creature enters, each opponent exiles a card from their hand.
+  {2}{B}: This creature gets +1/+1 until end of turn.
+
+## Yarok's Wavecrasher
+Cost: {3}{u} | Type: Creature — Elemental | Color identity: U | P/T: 4/4 | Commander: legal
+Text: When this creature enters, return another creature you control to its owner's hand.
+Ruling (2019-07-12): If you control no other creatures when the triggered ability resolves, you simply don't return anything. There's no penalty for being unable to do so.
+
+## Yarok, the Desecrated
+Cost: {2}{b}{g}{u} | Type: Legendary Creature — Elemental Horror | Color identity: BGU | P/T: 3/5 | Commander: legal
+Text: Deathtouch, lifelink
+  If a permanent entering causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+Ruling (2019-07-12): Abilities that apply "as [this creature] enters the battlefield," such as choosing a color with Diamond Knight, are also unaffected.
+Ruling (2019-07-12): If a permanent entering the battlefield at the same time as Yarok (including Yarok itself) causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+Ruling (2019-07-12): If a triggered ability is linked to a second ability, additional instances of that triggered ability are also linked to that second ability. If the second ability refers to "the exiled card," it refers to all cards exiled by instances of the triggered ability.
+Ruling (2019-07-12): If you somehow control two Yaroks, a permanent entering the battlefield causes abilities to trigger three times, not four. A third Yarok causes abilities to trigger four times, a fourth causes abilities to trigger five times, and so on.
+Ruling (2019-07-12): In some cases involving linked abilities, an ability requires information about "the exiled card." When this happens, the ability gets multiple answers. If these answers are being used to determine the value of a variable, the sum is used. For example, if Elite Arcanist's enters-the-battlefield ability triggers twice, two cards are exiled. The value of X in the activation cost of Elite Arcanist's other ability is the sum of the two cards' mana values. As the ability resolves, you create copies of both cards and can cast none, one, or both of the copies in any order.
+Ruling (2019-07-12): Replacement effects are unaffected by Yarok's ability. For example, a creature that enters the battlefield with one +1/+1 counter on it won't receive an additional +1/+1 counter.
+Ruling (2019-07-12): Yarok affects a permanent's own enters-the-battlefield triggered abilities as well as other triggered abilities that trigger when that permanent enters the battlefield. Such triggered abilities start with "when" or "whenever."
+Ruling (2019-07-12): Yarok's effect doesn't copy the triggered ability; it just causes the ability to trigger twice. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually.
+Ruling (2019-07-12): You don't need to control the permanent entering the battlefield, only the permanent that has the triggered ability.
+
+## Yarus, Roar of the Old Gods
+Cost: {2}{r}{g} | Type: Legendary Creature — Centaur Druid | Color identity: GR | P/T: 4/4 | Commander: legal
+Text: Other creatures you control have haste.
+  Whenever one or more face-down creatures you control deal combat damage to a player, draw a card.
+  Whenever a face-down creature you control dies, return it to the battlefield face down under its owner's control if it's a permanent card, then turn it face up.
+Ruling (2024-02-02): If Yarus, Roar of the Old Gods dies at the same time as one or more face-down creatures you control, its last ability triggers for each of those creatures.
+Ruling (2024-02-02): If a face-down creature dies but the permanent card it becomes in the graveyard leaves the graveyard before Yarus, Roar of the Old Gods's last ability resolves, it will not return to the battlefield.
+Ruling (2024-02-02): If a permanent card that would be returned to the battlefield face down by Yarus, Roar of the Old Gods's last ability can't be turned face up for some reason, it'll still be returned to the battlefield, but it will stay face down. In that case, it will be a 2/2 creature with no name, mana cost, or creature types. Since it isn't disguised or cloaked, it won't have ward {2}.
+Ruling (2024-02-02): Normally, combat damage is dealt all at the same time. In that case, Yarus, Roar of the Old Gods's last ability triggers once for each player that face-down creatures you control dealt combat damage to, regardless of how many creatures were dealing that damage. If any of those face-down creatures have double strike or first strike, the ability will trigger once for each player dealt damage in each combat damage step.
+
+## Yasharn, Implacable Earth
+Cost: {2}{g}{w} | Type: Legendary Creature — Elemental Boar | Color identity: GW | P/T: 4/4 | Commander: legal
+Text: When Yasharn enters, search your library for a basic Forest card and a basic Plains card, reveal those cards, put them into your hand, then shuffle.
+  Players can't pay life or sacrifice nonland permanents to cast spells or activate abilities.
+Ruling (2020-09-25): If a spell or activated ability has a cost that requires a player to pay life (such as the activated ability granted by Lithoform Blight) or sacrifice a permanent (such as Kazuul's Fury or Spare Supplies), that spell or ability can't be cast or activated.
+Ruling (2020-09-25): Other things may still cause players to pay life or sacrifice creatures, such as a resolving spell or ability.
+Ruling (2020-09-25): Yasharn's first ability can find just one basic Forest or one basic Plains card if you don't have both in your library or if you don't wish to find both.
+
+## Yasmin Khan
+Cost: {3}{r} | Type: Legendary Creature — Human Detective | Color identity: R | P/T: 3/3 | Commander: legal
+Text: {T}: Exile the top card of your library. Until your next end step, you may play it.
+  Doctor's companion (You can have two commanders if the other is the Doctor.)
+Ruling (2023-10-13): Although Doctor's companion is a new variant of the partner ability, the rules for partner have not otherwise changed. Notably, Time Lord Doctors and cards with Doctor's companion do not interact with cards which have another partner ability.
+Ruling (2023-10-13): An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+Ruling (2023-10-13): Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+Ruling (2023-10-13): If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+Ruling (2023-10-13): If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
+Ruling (2023-10-13): Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined.
+Ruling (2023-10-13): The Doctor's companion ability allows you to have two commanders if one has the ability and the other is a legendary creature that is a Time Lord Doctor and has no other creature types. Creatures with the changeling ability, for example, can't be a second commander this way.
+Ruling (2023-10-13): You must pay all costs and follow all normal timing rules when playing a card using Yasmin Khan's first ability. For example, you may play a land only during your main phase while the stack is empty.
+
+## Yasova Dragonclaw
+Cost: {2}{g} | Type: Legendary Creature — Human Warrior | Color identity: GRU | P/T: 4/2 | Commander: legal
+Text: Trample
+  At the beginning of combat on your turn, you may pay {1}{U/R}{U/R}. If you do, gain control of target creature an opponent controls with power less than Yasova Dragonclaw's power until end of turn, untap that creature, and it gains haste until end of turn.
+Ruling (2014-11-24): Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.
+Ruling (2014-11-24): The powers of the target creature and Yasova Dragonclaw are checked as you put the ability on the stack and again as the ability resolves. Once the ability resolves, it doesn't matter what happens to either creature's power.
+
+## Yathan Roadwatcher
+Cost: {1}{w}{b}{g} | Type: Creature — Human Scout | Color identity: BGW | P/T: 3/3 | Commander: legal
+Text: When this creature enters, if you cast it, mill four cards. When you do, return target creature card with mana value 3 or less from your graveyard to the battlefield.
+Ruling (2025-04-04): You don't choose a target for Yathan Roadwatcher's ability at the time it triggers. Rather, a second "reflexive" ability triggers when you mill four cards this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+
+## Yathan Tombguard
+Cost: {2}{b} | Type: Creature — Human Warrior | Color identity: B | P/T: 2/3 | Commander: legal
+Text: Menace (This creature can't be blocked except by two or more creatures.)
+  Whenever a creature you control with a counter on it deals combat damage to a player, you draw a card and you lose 1 life.
+
+## Yavimaya Ancients
+Cost: {3}{g}{g} | Type: Creature — Treefolk | Color identity: G | P/T: 2/7 | Commander: legal
+Text: {G}: This creature gets +1/-2 until end of turn.
+
+## Yavimaya Ants
+Cost: {2}{g}{g} | Type: Creature — Insect | Color identity: G | P/T: 5/1 | Commander: legal
+Text: Trample, haste
+  Cumulative upkeep {G}{G} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
+Ruling (2008-10-01): Paying cumulative upkeep is always optional. If it's not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can't be made. For example, if a permanent with "cumulative upkeep {1}" has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice the permanent.
+
+## Yavimaya Barbarian
+Cost: {r}{g} | Type: Creature — Elf Barbarian | Color identity: GR | P/T: 2/2 | Commander: legal
+Text: Protection from blue
+
+## Yavimaya Bloomsage
+Cost: {2}{g} | Type: Creature — Dryad Druid | Color identity: G | P/T: 2/2 | Commander: legal
+Faces: Yavimaya Bloomsage // Channel (Prepared) (prepare)
+Text: At the beginning of your end step, put a +1/+1 counter on target creature you control. Then if that creature has power 7 or greater, this creature becomes prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)
+Ruling (2026-03-20): A creature with a prepare spell can't become prepared more than once at the same time. For example, Emeritus of Ideation is on the battlefield and is prepared. When it attacks, its last ability triggers. When that ability resolves, its controller may still exile eight cards from their graveyard, but doing so won't cause Emeritus of Ideation to become prepared a second time or create a second copy of Ancestral Recall in exile.
+Ruling (2026-03-20): A creature without a prepare spell can't become prepared.
+Ruling (2026-03-20): A preparation card is a creature card in every zone. For example, while it's in your graveyard, Emeritus of Ideation is a blue creature whose mana value is 5. It can't be the target of Zealous Lorecaster's triggered ability ("When this creature enters, return target instant or sorcery card from your graveyard to your hand.").
+Ruling (2026-03-20): As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+Ruling (2026-03-20): Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+Ruling (2026-03-20): Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+Ruling (2026-03-20): Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog.") targeting Goblin Glasswright. The token copy of Goblin Glasswright will enter prepared as a 1/1 green Frog creature, but the copy of Craft with Pride in exile will still be a red sorcery. The copy of Craft with Pride won't be green, a creature, or a Frog, and it won't have power or toughness.
+Ruling (2026-03-20): If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+Ruling (2026-03-20): If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+Ruling (2026-03-20): If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+Ruling (2026-03-20): If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+Ruling (2026-03-20): If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+Ruling (2026-03-20): Once your life total is 0, you can't pay any more life, even if you've somehow not lost the game yet.
+Ruling (2026-03-20): Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+Ruling (2026-03-20): Preparation cards can only be cast with their base characteristics.
+Ruling (2026-03-20): While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+
+## Yavimaya Coast
+Cost: — | Type: Land | Color identity: GU | Commander: legal
+Text: {T}: Add {C}.
+  {T}: Add {G} or {U}. This land deals 1 damage to you.
+Ruling (2015-06-22): Like most lands, each land in this cycle is colorless. The damage dealt to you is dealt by a colorless source.
+Ruling (2015-06-22): The damage dealt to you is part of the second mana ability. It doesn't use the stack and can't be responded to.
+
+## Yavimaya Dryad
+Cost: {1}{g}{g} | Type: Creature — Dryad | Color identity: G | P/T: 2/1 | Commander: legal
+Text: Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)
+  When this creature enters, you may search your library for a Forest card, put it onto the battlefield tapped under target player's control, then shuffle.
+Ruling (2021-03-19): In a multiplayer game, if you leave the game, the Forest you own leaves as well. If instead another player who received your Forest from Yavimaya Dryad leaves the game, that land is exiled.
+Ruling (2021-03-19): You can be the target of Yavimaya Dryad's triggered ability.
+
+## Yavimaya Elder
+Cost: {1}{g}{g} | Type: Creature — Human Druid | Color identity: G | P/T: 2/1 | Commander: legal
+Text: When this creature dies, you may search your library for up to two basic land cards, reveal them, put them into your hand, then shuffle.
+  {2}, Sacrifice this creature: Draw a card.
+Ruling (2021-06-18): If you activate Yavimaya Elder's last ability, its triggered ability will trigger and go on the stack. It will resolve first, meaning you'll do the search and shuffle before drawing a card.
+
+## Yavimaya Enchantress
+Cost: {2}{g} | Type: Creature — Human Druid | Color identity: G | P/T: 2/2 | Commander: legal
+Text: This creature gets +1/+1 for each enchantment on the battlefield.
+
+## Yavimaya Gnats
+Cost: {2}{g} | Type: Creature — Insect | Color identity: G | P/T: 0/1 | Commander: legal
+Text: Flying
+  {G}: Regenerate this creature.
+
+## Yavimaya Granger
+Cost: {2}{g} | Type: Creature — Elf | Color identity: G | P/T: 2/2 | Commander: legal
+Text: Echo {2}{G} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
+  When this creature enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.
+Ruling (2004-10-04): Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
+
+## Yavimaya Hollow
+Cost: — | Type: Legendary Land | Color identity: G | Commander: legal
+Text: {T}: Add {C}.
+  {G}, {T}: Regenerate target creature.
+
+## Yavimaya Iconoclast
+Cost: {1}{g} | Type: Creature — Elf | Color identity: GR | P/T: 3/2 | Commander: legal
+Text: Kicker {R} (You may pay an additional {R} as you cast this spell.)
+  Trample
+  When this creature enters, if it was kicked, it gets +1/+1 and gains haste until end of turn.
+Ruling (2024-11-08): If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+Ruling (2024-11-08): If a spell's kicker cost was paid, the spell is "kicked."
+Ruling (2024-11-08): If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+Ruling (2024-11-08): If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+Ruling (2024-11-08): The kicker ability doesn't let you pay a kicker cost more than once.
+Ruling (2024-11-08): To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+
+## Yavimaya Kavu
+Cost: {2}{r}{g} | Type: Creature — Kavu | Color identity: GR | P/T: */* | Commander: legal
+Text: Yavimaya Kavu's power is equal to the number of red creatures on the battlefield.
+  Yavimaya Kavu's toughness is equal to the number of green creatures on the battlefield.
+
+## Yavimaya Sapherd
+Cost: {2}{g} | Type: Creature — Fungus | Color identity: G | P/T: 2/2 | Commander: legal
+Text: When this creature enters, create a 1/1 green Saproling creature token.
+
+## Yavimaya Scion
+Cost: {4}{g} | Type: Creature — Treefolk | Color identity: G | P/T: 4/4 | Commander: legal
+Text: Protection from artifacts
+
+## Yavimaya Sojourner
+Cost: {7}{g} | Type: Creature — Treefolk | Color identity: G | P/T: 4/6 | Commander: legal
+Text: Domain — This spell costs {1} less to cast for each basic land type among lands you control.
+Ruling (2022-09-09): Domain abilities count the number of basic land types among lands you control, not how many lands you control or how many of any type.
+Ruling (2022-09-09): The basic land types are Plains, Island, Swamp, Mountain, and Forest. Land types other than basic land types (such as Desert) don't contribute to domain abilities.
+Ruling (2022-09-09): To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Yavimaya Sojourner). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+Ruling (2022-09-09): Yavimaya Sojourner's first ability can't reduce the {G} in its cost.
+
+## Yavimaya Steelcrusher
+Cost: {1}{r} | Type: Creature — Ape Warrior | Color identity: R | P/T: 2/2 | Commander: legal
+Text: Enlist (As this creature attacks, you may tap a nonattacking creature you control without summoning sickness. When you do, add its power to this creature's until end of turn.)
+  {1}, Sacrifice this creature: Destroy target artifact.
+Ruling (2022-09-09): The attacking player chooses whether to tap a creature for an enlist ability immediately after they tap the creatures that they have chosen to attack with. You can't choose to enlist a creature later.
+Ruling (2022-09-09): To enlist a creature, that creature must be untapped, it must not be attacking (even if it has vigilance), and it must have haste or have been under that attacking player's control since the beginning of their current turn.
+Ruling (2022-09-09): When a player taps a creature for an attacking creature's enlist ability, that attacking creature gets +X/+0 until end of turn, where X is the tapped creature's power. This is a triggered ability that goes on the stack immediately after attackers have been declared in the declare attackers step.
+Ruling (2022-09-09): You may tap only one creature for an enlist ability of an attacking creature, and a single creature can't be tapped for more than one enlist ability.
+
+## Yavimaya Wurm
+Cost: {4}{g}{g} | Type: Creature — Wurm | Color identity: G | P/T: 6/4 | Commander: legal
+Text: Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
+
+## Yavimaya's Embrace
+Cost: {5}{g}{u}{u} | Type: Enchantment — Aura | Color identity: GU | Commander: legal
+Text: Enchant creature
+  You control enchanted creature.
+  Enchanted creature gets +2/+2 and has trample.
+
+## Yavimaya, Cradle of Growth
+Cost: — | Type: Legendary Land | Color identity: colorless | Commander: legal
+Text: Each land is a Forest in addition to its other land types.
+Ruling (2021-06-18): Land cards not on the battlefield aren't Forests while Yavimaya is on the battlefield.
+Ruling (2021-06-18): Yavimaya's ability causes each land on the battlefield to have the land type Forest. Any land that's a Forest has the ability "{T}: Add {G}." Nothing else changes about those lands, including their names, other subtypes, and whether they're legendary, basic, or snow.
+Ruling (2021-06-18): Yavimaya, Cradle of Growth isn't a Forest while it's not on the battlefield.
+
+## Yawgmoth Demon
+Cost: {4}{b}{b} | Type: Creature — Phyrexian Demon | Color identity: B | P/T: 6/6 | Commander: legal
+Text: Flying (This creature can't be blocked except by creatures with flying or reach.)
+  First strike (This creature deals combat damage before creatures without first strike.)
+  At the beginning of your upkeep, you may sacrifice an artifact. If you don't, tap this creature and it deals 2 damage to you.
+Ruling (2004-10-04): The sacrificing of an artifact is not mandatory. You can choose not to sacrifice an artifact but will pay the consequences.
+
+## Yawgmoth's Agenda
+Cost: {3}{b}{b} | Type: Enchantment | Color identity: B | Commander: legal
+Text: You can't cast more than one spell each turn.
+  You may play lands and cast spells from your graveyard.
+  If a card would be put into your graveyard from anywhere, exile it instead.
+Ruling (2004-10-04): It will exile itself if it is going to the graveyard from the battlefield.
+Ruling (2004-10-04): The cards in your graveyard are not considered to be in your hand for any reason. For example, you can't discard them.
+Ruling (2004-10-04): You count spells that were cast this turn before this card enters. (The Invasion FAQ is not correct on this point.)
+
+## Yawgmoth's Bargain
+Cost: {4}{b}{b} | Type: Enchantment | Color identity: B | Commander: banned
+Text: Skip your draw step.
+  Pay 1 life: Draw a card.
+
+## Yawgmoth's Edict
+Cost: {1}{b} | Type: Enchantment | Color identity: B | Commander: legal
+Text: Whenever an opponent casts a white spell, that player loses 1 life and you gain 1 life.
+
+## Yawgmoth's Vile Offering
+Cost: {4}{b} | Type: Legendary Sorcery | Color identity: B | Commander: legal
+Text: (You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
+  Put up to one target creature or planeswalker card from a graveyard onto the battlefield under your control. Destroy up to one target creature or planeswalker. Exile Yawgmoth's Vile Offering.
+Ruling (2018-04-27): Other than the casting restriction, the legendary supertype on a sorcery carries no additional rules. You may cast any number of legendary sorceries in a turn, and your deck may contain any number of legendary cards (but no more than four of any with the same name).
+Ruling (2018-04-27): You can't cast a legendary sorcery unless you control a legendary creature or a legendary planeswalker. Once you begin to cast a legendary sorcery, losing control of your legendary creatures and planeswalkers won't affect that spell.
+
+## Yawgmoth's Will
+Cost: {2}{b} | Type: Sorcery | Color identity: B | Commander: legal
+Text: Until end of turn, you may play lands and cast spells from your graveyard.
+  If a card would be put into your graveyard from anywhere this turn, exile that card instead.
+Ruling (2004-10-04): If an effect asks you to discard a card, you can't "discard" something that is in your graveyard. Those cards are not in your hand. Thus, Cycling abilities of cards in the graveyard can't be activated.
+Ruling (2004-10-04): If you cast a Buyback spell, then there will be two effects trying to replace where the card goes. You get to choose if the Buyback returns the card to your hand or the card gets exiled.
+Ruling (2004-10-04): If you play a card using Yawgmoth's Will and something triggers only when "cast from your hand", that something will not trigger. Such things trigger based on where the card came from.
+Ruling (2004-10-04): It will exile itself since it goes to the graveyard after its effect starts.
+Ruling (2004-10-04): The second ability creates a replacement effect. It applies to both costs and effects.
+Ruling (2004-10-04): To "play a card" is to either cast a spell or to put a land onto the battlefield using the main phase special action.
+Ruling (2006-10-15): You cannot Suspend a card from your graveyard, only your hand.
+
+## Yawgmoth, Thran Physician
+Cost: {2}{b}{b} | Type: Legendary Creature — Human Cleric | Color identity: B | P/T: 2/4 | Commander: legal
+Text: Protection from Humans
+  Pay 1 life, Sacrifice another creature: Put a -1/-1 counter on up to one target creature and draw a card.
+  {B}{B}, Discard a card: Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
+Ruling (2021-03-19): Protection from Humans refers only to the creature type Human. As far as Yawgmoth is concerned, you, your opponents, and planeswalkers aren't Humans.
+Ruling (2021-03-19): You may activate Yawgmoth's first activated ability without choosing a target creature. You'll just draw a card. However, if you choose a target and it becomes illegal before the ability tries to resolve, the ability won't resolve and you won't draw a card.
+Ruling (2022-12-08): If a permanent has +1/+1 counters and -1/-1 counters on it, they're removed in pairs as a state-based action until that permanent has only one of those kinds of counters on it.
+Ruling (2022-12-08): Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+Ruling (2022-12-08): To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+Ruling (2022-12-08): You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+Ruling (2023-02-04): An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+Ruling (2023-02-04): If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+Ruling (2023-02-04): If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+Ruling (2023-02-04): Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+Ruling (2023-02-04): To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+Ruling (2023-02-04): You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+
+## Yawning Fissure
+Cost: {4}{r} | Type: Sorcery | Color identity: R | Commander: legal
+Text: Each opponent sacrifices a land of their choice.
+Ruling (2009-10-01): First the opponent whose turn it is — or, more likely, the first opponent to left of the player whose turn it is — chooses and announces which land they will sacrifice, then each other opponent in turn order does the same, then all lands are sacrificed at the same time.
+
+## Ydwen Efreet
+Cost: {r}{r}{r} | Type: Creature — Efreet | Color identity: R | P/T: 3/6 | Commander: legal
+Text: Whenever this creature blocks, flip a coin. If you lose the flip, remove this creature from combat and it can't block this turn. Creatures it was blocking that had become blocked by only this creature this combat become unblocked.
+Ruling (2009-10-01): The ability triggers any time Ydwen Efreet blocks.
+
+## Yedora, Grave Gardener
+Cost: {4}{g} | Type: Legendary Creature — Treefolk Druid | Color identity: G | P/T: 5/5 | Commander: legal
+Text: Whenever another nontoken creature you control dies, you may return it to the battlefield face down under its owner's control. It's a Forest land. (It has no other types or abilities.)
+Ruling (2021-04-16): If one of these Forests is turned face up, the effect making it a Forest land will expire. The face-up permanent will again have its printed name, type line, mana cost, abilities, and so on.
+Ruling (2021-04-16): If the face-down card has morph, you can pay its morph cost to turn it face up.
+Ruling (2021-04-16): The face-down card has no name or colors. Its only type is land, its only subtype is Forest, and its only ability is "{T}: Add {G}."
+
+## Yellow Scarves Cavalry
+Cost: {1}{r} | Type: Creature — Human Soldier | Color identity: R | P/T: 1/1 | Commander: legal
+Text: Horsemanship (This creature can't be blocked except by creatures with horsemanship.)
+  This creature can't block.
+Ruling (2009-10-01): Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
+
+## Yellow Scarves General
+Cost: {3}{r} | Type: Creature — Human Soldier | Color identity: R | P/T: 2/2 | Commander: legal
+Text: Horsemanship (This creature can't be blocked except by creatures with horsemanship.)
+  This creature can't block.
+Ruling (2009-10-01): Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
+
+## Yellow Scarves Troops
+Cost: {1}{r} | Type: Creature — Human Soldier | Color identity: R | P/T: 2/2 | Commander: legal
+Text: This creature can't block.
+
+## Yellowjacket, Heartless Marauder
+Cost: {1}{b} | Type: Legendary Creature — Human Rogue Villain | Color identity: B | P/T: 1/2 | Commander: legal
+Text: Flying
+  Whenever another Villain you control enters, Yellowjacket gets +1/+0 and gains lifelink until end of turn.
+
+## Yenna, Redtooth Regent
+Cost: {2}{g}{w} | Type: Legendary Creature — Elf Noble | Color identity: GW | P/T: 4/4 | Commander: legal
+Text: {2}, {T}: Choose target enchantment you control that doesn't have the same name as another permanent you control. Create a token that's a copy of it, except it isn't legendary. If the token is an Aura, untap Yenna, then scry 2. Activate only as a sorcery.
+Ruling (2023-09-01): Any enters-the-battlefield abilities of the copied enchantment will trigger when the token enters the battlefield. Any "as [this enchantment] enters the battlefield" or "[this enchantment] enters the battlefield with" abilities of the enchantment will also work.
+Ruling (2023-09-01): Except for the listed exceptions, the token copies exactly what was printed on the original enchantment and nothing else (unless that enchantment is itself copying something else; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+Ruling (2023-09-01): If something becomes a copy of the token, the copy also isn't legendary.
+Ruling (2023-09-01): If the copied enchantment has {X} in its mana cost, X is 0.
+Ruling (2023-09-01): If the copied enchantment is copying something else, then the token enters the battlefield as whatever that creature copied, with the stated exceptions.
+
+## Yennett, Cryptic Sovereign
+Cost: {2}{w}{u}{b} | Type: Legendary Creature — Sphinx | Color identity: BUW | P/T: 3/5 | Commander: legal
+Text: Flying, vigilance, menace
+  Whenever Yennett attacks, reveal the top card of your library. You may cast it without paying its mana cost if its mana value is odd. If you don't cast it, draw a card.
+Ruling (2018-07-13): Because all attackers are chosen at once, a spell cast this way can't affect which creatures you can attack with, but it can affect which creatures will be able to block.
+Ruling (2018-07-13): If a spell has {X} in its mana cost, you must choose 0 as the value of X if you cast it without paying its mana cost.
+Ruling (2018-07-13): If the revealed card doesn't have an odd mana value or if that card does but you choose not to cast it, you draw a card. Keep in mind that revealing a card doesn't cause it to change zones. This means that the card you draw will be the card you revealed.
+Ruling (2018-07-13): If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs, such as evoke costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Tormenting Voice, those must be paid to cast it.
+Ruling (2018-07-13): If you wish to cast the revealed card without paying its mana cost, you must cast it while Yennett's triggered ability is resolving; you can't cast for free it later in the turn.
+
+## Yes Man, Personal Securitron
+Cost: {2}{w} | Type: Legendary Artifact Creature — Robot | Color identity: W | P/T: 2/2 | Commander: legal
+Text: {T}: Target opponent gains control of Yes Man. When they do, you draw two cards and put a quest counter on Yes Man. Activate only during your turn.
+  Wild Card — When Yes Man leaves the battlefield, its owner creates a tapped 1/1 white Soldier creature token for each quest counter on it.
+Ruling (2024-03-08): If Yes Man isn't on the battlefield as its first ability resolves, or if the target opponent is an illegal target as the ability tries to resolve, nothing will happen. You won't draw two cards, because that effect is part of a reflexive triggered ability that triggers only if the target opponent gains control of Yes Man.
+Ruling (2024-03-08): When Yes Man's controller leaves the game, if that player wasn't its owner, the effect giving that player control of Yes Man ends. Yes Man will return to the control of the player still in the game who most recently controlled it, ignoring any control effects whose durations have already expired.
+Ruling (2024-03-08): When Yes Man's owner leaves the game, Yes Man leaves the game along with that player. It's just doing what it's told.
+
+## Yeva's Forcemage
+Cost: {2}{g} | Type: Creature — Elf Shaman | Color identity: G | P/T: 2/2 | Commander: legal
+Text: When this creature enters, target creature gets +2/+2 until end of turn.
+Ruling (2012-07-01): Yeva's Forcemage's ability is mandatory, although you can choose Yeva's Forcemage as the target.
+
+## Yeva, Nature's Herald
+Cost: {2}{g}{g} | Type: Legendary Creature — Elf Shaman | Color identity: G | P/T: 4/4 | Commander: legal
+Text: Flash (You may cast this spell any time you could cast an instant.)
+  You may cast green creature spells as though they had flash.
+Ruling (2012-07-01): Yeva's ability applies to green creature cards in any zone, provided something is allowing you to cast them. For example, if the top card of your library is a green creature card and you control Garruk's Horde, you can cast that card as though it had flash.
+Ruling (2012-07-01): You still pay the costs for green creature spells you cast.
+
+## Yew Spirit
+Cost: {4}{g} | Type: Creature — Spirit Treefolk | Color identity: G | P/T: 3/3 | Commander: legal
+Text: {2}{G}{G}: This creature gets +X/+X until end of turn, where X is its power.
+Ruling (2012-05-01): The value of X is determined when the ability resolves. The bonus won't change later in the turn if the creature's power changes.
+Ruling (2017-07-14): If this creature's power is negative as its ability resolves, X is considered to be 0.
+
+## Yggdrasil, Rebirth Engine
+Cost: {3} | Type: Legendary Artifact | Color identity: colorless | Commander: legal
+Text: When Yggdrasil enters, exile all creature cards from your graveyard.
+  {T}: Exile the top three cards of your library.
+  {4}, {T}: Put a creature card exiled with Yggdrasil onto the battlefield under your control. It gains haste until end of turn. Activate only as a sorcery.
+
+## Ygra, Eater of All
+Cost: {3}{b}{g} | Type: Legendary Creature — Elemental Cat | Color identity: BG | P/T: 6/6 | Commander: legal
+Text: Ward—Sacrifice a Food.
+  Other creatures are Food artifacts in addition to their other types and have "{2}, {T}, Sacrifice this permanent: You gain 3 life."
+  Whenever a Food is put into a graveyard from the battlefield, put two +1/+1 counters on Ygra.
+Ruling (2024-07-26): Creatures that die while you control Ygra are still Food artifacts as they leave the battlefield, so Ygra's last ability will trigger whenever a creature affected by its second ability dies.
+Ruling (2024-07-26): Replacement effects that modify artifacts as they enter will apply after you apply Ygra's effect. For example, if you control Ygra and there is an effect that says artifacts enter tapped, creatures will enter tapped.
+Ruling (2024-07-26): The affected creatures retain their other types and abilities.
+Ruling (2024-11-08): Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+Ruling (2024-11-08): If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
+Ruling (2024-11-08): Whatever you do, don't eat the delicious cards.
+Ruling (2024-11-08): You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+
+## Yiazmat, Ultimate Mark
+Cost: — | Type: Legendary Creature — Dragon | Color identity: B | P/T: 5/6 | Commander: legal
+Faces: Sidequest: Hunt the Mark // Yiazmat, Ultimate Mark (transform)
+Text: {1}{B}, Sacrifice another creature or artifact: Yiazmat gains indestructible until end of turn. Tap it.
+Ruling (2025-06-06): A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or allows you to cast it transformed, in which case it enters with its back face up.
+Ruling (2025-06-06): A token that is created as a copy of a double-faced permanent or a double-faced card in another zone is a double-faced token. It will have both the front face and back face of whatever object it's copying. If it's copying a double-faced permanent whose back face is up, the token will enter with its back face up. It can transform if instructed to do so.
+Ruling (2025-06-06): Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a nonmodal double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+Ruling (2025-06-06): Each nonmodal double-faced card in this release is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+Ruling (2025-06-06): If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Crystal Fragments, it will be exiled during the resolution of its second ability and remain in exile.
+Ruling (2025-06-06): In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Cecil, Dark Knight's color identity is black and white, since its front face is black and its back face has a white color indicator.
+Ruling (2025-06-06): Sidequest: Hunt the Mark's last ability checks at the moment it would trigger to see if a creature died under an opponent's control this turn. If none did, the ability won't trigger at all. Once your end step begins, it's too late to cause creatures your opponents control to die in order to cause this ability to trigger.
+Ruling (2025-06-06): The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
+Ruling (2025-06-06): The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+
+## Yidaro, Wandering Monster
+Cost: {5}{r}{r} | Type: Legendary Creature — Dinosaur Turtle | Color identity: R | P/T: 8/8 | Commander: legal
+Text: Trample, haste
+  Cycling {1}{R}
+  When you cycle this card, shuffle it into your library from your graveyard. If you've cycled a card named Yidaro, Wandering Monster four or more times this game, put it onto the battlefield from your graveyard instead. (Do this before you draw.)
+Ruling (2020-04-17): If you cycle Yidaro but it isn't in your graveyard as the triggered ability resolves, you can't put it onto the battlefield or shuffle it into your library. You'll still shuffle your library if you haven't cycled Yidaro four times this game.
+Ruling (2020-04-17): Some cards with cycling have an ability that triggers when you cycle them, and some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
+Ruling (2020-04-17): Triggered abilities from cycling a card and the cycling ability itself aren't spells. Effects that interact with spells (such as that of Cancel) won't affect them.
+Ruling (2020-04-17): You can cycle a card even if it has a triggered ability from cycling that won't have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability is countered (with Disallow, for example), the other ability will still resolve.
+Ruling (2020-04-17): You don't have to cycle the same physical card four times for Yidaro to get tired of being cycled and stomp onto the battlefield. Any cards named Yidaro, Wandering Monster will count.
+
+## Yidris, Maelstrom Wielder
+Cost: {u}{b}{r}{g} | Type: Legendary Creature — Ogre Wizard | Color identity: BGRU | P/T: 5/4 | Commander: legal
+Text: Trample
+  Whenever Yidris deals combat damage to a player, as you cast spells from your hand this turn, they gain cascade. (When you cast the spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)
+Ruling (2016-11-08): If Yidris's triggered ability resolves more than once in one turn, spells you cast from your hand will gain cascade that many times. Each instance of cascade triggers separately; resolve one cascade trigger and the spell you cast from it before resolving the next cascade trigger.
+Ruling (2016-11-08): Spells you cast from your hand this turn will gain cascade even if Yidris leaves the battlefield.
+Ruling (2021-06-18): A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+Ruling (2021-06-18): Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+Ruling (2021-06-18): Due to a 2021 rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+Ruling (2021-06-18): If a spell with cascade is countered, the cascade ability will still resolve normally.
+Ruling (2021-06-18): If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+Ruling (2021-06-18): If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+Ruling (2021-06-18): The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
+Ruling (2021-06-18): When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+Ruling (2021-06-18): You exile the cards face up. All players will be able to see them.
+
+## Yip Yip!
+Cost: {w} | Type: Instant — Lesson | Color identity: W | Commander: legal
+Text: Target creature you control gets +2/+2 until end of turn. If that creature is an Ally, it also gains flying until end of turn.
+
+## Yisan, the Wanderer Bard
+Cost: {2}{g} | Type: Legendary Creature — Human Rogue Bard | Color identity: G | P/T: 2/3 | Commander: legal
+Text: {2}{G}, {T}, Put a verse counter on Yisan: Search your library for a creature card with mana value equal to the number of verse counters on Yisan, put it onto the battlefield, then shuffle.
+Ruling (2014-07-18): If Yisan isn't on the battlefield when its ability resolves, use the number of verse counters on it when it left the battlefield to determine which creature cards may be put onto the battlefield. This number will include the counter you put on Yisan to activate the ability.
+
+## Yixlid Jailer
+Cost: {1}{b} | Type: Creature — Zombie Wizard | Color identity: B | P/T: 2/1 | Commander: legal
+Text: Cards in graveyards lose all abilities.
+Ruling (2021-03-19): If a card in a graveyard has an ability that defines a * in its power or toughness, that * is 0. For example, Tarmogoyf is a 0/1 creature card in your graveyard while you control Yixlid Jailer.
+Ruling (2021-03-19): If a card with changeling is in a graveyard, it still has all creature types.
+Ruling (2021-03-19): If a spell or ability allows you to cast a spell from your graveyard, the first step in doing so is to move it to the stack. That spell's additional and alternative costs may be applied. However, if a card's own ability allows you to cast it from your graveyard (such as a flashback ability) Yixlid Jailer stops that ability.
+Ruling (2021-03-19): If an ability triggers when the object that has it is put into a graveyard from anywhere other than the battlefield, such as Krosan Tusker or Narcomoeba, that ability triggers from the graveyard. Yixlid Jailer stops those abilities from triggering at all. This includes abilities that trigger when a card is put into a graveyard "from anywhere," even if that card was on the battlefield.
+Ruling (2021-03-19): If an ability triggers when the object that has it is put into a graveyard from the battlefield, that ability triggers from the battlefield and isn't affected by Yixlid Jailer.
+Ruling (2021-03-19): Some cards have abilities that apply "as [this card] enters the battlefield" or state that "[this card] enters the battlefield with" counters. Although these cards won't have these abilities in the graveyard, they will be applied if the cards are put onto the battlefield from the graveyard (due to Zombify, perhaps). What matters is that these cards will have these abilities on the battlefield.
+Ruling (2021-03-19): Some replacement effects cause a card to be put somewhere else instead of being put into a graveyard (such as that of Darksteel Colossus). These effects mean the card is never actually put into the graveyard, so Yixlid Jailer doesn't affect that ability.
+
+## Yoke of the Damned
+Cost: {1}{b} | Type: Enchantment — Aura | Color identity: B | Commander: legal
+Text: Enchant creature
+  When a creature dies, destroy enchanted creature.
+
+## Yoked Ox
+Cost: {w} | Type: Creature — Ox | Color identity: W | P/T: 0/4 | Commander: legal
+Text: 
+
+## Yoked Plowbeast
+Cost: {5}{w}{w} | Type: Creature — Beast | Color identity: W | P/T: 5/5 | Commander: legal
+Text: Cycling {2} ({2}, Discard this card: Draw a card.)
+Ruling (2008-10-01): Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+
+## Yomiji, Who Bars the Way
+Cost: {5}{w}{w} | Type: Legendary Creature — Spirit | Color identity: W | P/T: 4/4 | Commander: legal
+Text: Whenever a legendary permanent other than Yomiji is put into a graveyard from the battlefield, return that card to its owner's hand.
+Ruling (2005-02-01): Yomiji's ability triggers even if Yomiji is going to the graveyard at the same time as the other legendary permanent.
+Ruling (2005-02-01): Yomiji's ability triggers whenever any legendary permanent is put into a graveyard from the battlefield, not just legendary creatures.
+
+## Yore-Tiller Nephilim
+Cost: {w}{u}{b}{r} | Type: Creature — Nephilim | Color identity: BRUW | P/T: 2/2 | Commander: legal
+Text: Whenever this creature attacks, return target creature card from your graveyard to the battlefield tapped and attacking.
+Ruling (2006-02-01): In a multiplayer game in which you're allowed to attack only one player each combat, the new creature will be attacking the same player as Yore-Tiller Nephilim. In a multiplayer game in which you may attack multiple players, you choose the player the new creature is attacking. It must be a player you're allowed to attack.
+Ruling (2006-02-01): Putting an attacking creature onto the battlefield doesn't trigger "When this creature attacks" abilities. It also won't check attacking restrictions, costs, or requirements.
+Ruling (2006-02-01): The creature you put onto the battlefield from your graveyard is attacking, even if the attack couldn't legally be declared (for example, if that creature has defender or an effect says that no more than one creature can attack).
+
+## Yorion, Sky Nomad
+Cost: {3}{w/u}{w/u} | Type: Legendary Creature — Bird Serpent | Color identity: UW | P/T: 4/5 | Commander: legal
+Text: Companion — Your starting deck contains at least twenty cards more than the minimum deck size. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)
+  Flying
+  When Yorion enters, exile any number of other nonland permanents you own and control. Return those cards to the battlefield at the beginning of the next end step.
+Ruling (2020-04-17): Auras attached to the exiled permanents will be put into their owners' graveyards. Equipment attached to the exiled permanents will become unattached and remain on the battlefield. Any counters on the exiled permanents will cease to exist. Once the exiled permanents return, they're considered new objects with no relation to the objects that they were.
+Ruling (2020-04-17): Before shuffling your deck to become your library, you may reveal one card from outside the game to be your companion if your starting deck meets the requirements of the companion ability. You can't reveal more than one. It remains revealed outside the game as the game begins.
+Ruling (2020-04-17): If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+Ruling (2020-04-17): If more than one player wishes to reveal a companion, the starting player does so first, and players proceed in turn order. Once a player has chosen not to reveal a companion, that player can't change their mind.
+Ruling (2020-04-17): If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you've brought into the game. For example, if it's discard, countered, or destroyed, it's put into your graveyard, remaining in the game. This is a change from previous rules.
+Ruling (2020-04-17): Paying {3} to put your companion into your hand is a special action. It doesn't use the stack and players can't respond to it. Once you take this action, you may cast that card if it's legal to do so before any other player can take actions.
+Ruling (2020-04-17): The companion ability has no effect if the card is in your starting deck and creates no restriction on putting a card with a companion ability into your starting deck. For example, Zirda may be in your starting deck even if your other permanent cards don't all have activated abilities.
+Ruling (2020-04-17): The companion's other abilities apply only if the creature is on the battlefield. They have no effect while the companion is outside the game.
+Ruling (2020-04-17): The requirements of the companion ability apply only to your starting deck. They do not apply to your sideboard.
+Ruling (2020-04-17): You can't exile permanents you control but don't own, or permanents that you own but don't control.
+Ruling (2020-04-17): You choose which permanents to exile as Yorion's triggered ability resolves. No player may take action between the time you choose the permanents and the time they're exiled.
+Ruling (2020-04-17): You may have one companion in the Commander variant. Your deck, including your commander, must meet its companion requirement. Your companion is not one of your one hundred cards.
+Ruling (2020-04-17): Your companion begins the game outside the game. In tournament play, this means your sideboard. In casual play, it's simply a card you own that's not in your starting deck.
+Ruling (2020-04-17): Your minimum deck size is forty cards for Limited events (such as Booster Draft and Sealed Deck) and sixty cards for Constructed events (such as Standard or casual freeform play). Certain variants may have other minimums. The Commander variant requires exactly one hundred cards, so Yorion can never be your chosen companion in a Commander game.
+Ruling (2020-06-01): If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you've brought into the game. For example, if it's discarded, countered, or destroyed, it's put into your graveyard, remaining in the game. This is a change from previous rules.
+Ruling (2020-06-01): Once you put your companion into your hand, it behaves like any other card you've brought into the game. For example, if it's countered or destroyed, it's put into your graveyard, remaining in the game.
+Ruling (2020-06-01): Paying {3} to put your companion into your hand is a special action. It doesn't use the stack and players can't respond to it. Once you take this action, you may cast that card if it's legal to do so before any other player can take actions.
+Ruling (2020-06-01): Wizards of the Coast has issued functional errata for the Companion mechanic. Instead of casting companions from outside the game: Once per game, any time you could cast a sorcery (during your main phase when the stack is empty), you can pay {3} to put your companion from your sideboard into your hand. This is a special action, not an activated ability. It happens immediately and can't be responded to. It can't be countered or stopped by cards like Phyrexian Revoker. For more information please see https://magic.wizards.com/en/articles/archive/news/june-1-2020-banned-and-restricted-announcement
+
+## Yorvo, Lord of Garenbrig
+Cost: {g}{g}{g} | Type: Legendary Creature — Giant Noble | Color identity: G | P/T: 0/0 | Commander: legal
+Text: Yorvo enters with four +1/+1 counters on it.
+  Whenever another green creature you control enters, put a +1/+1 counter on Yorvo. Then if that creature's power is greater than Yorvo's power, put another +1/+1 counter on Yorvo.
+Ruling (2019-10-04): If the entering green creature dies before Yorvo's triggered ability resolves, use its power as it last existed on the battlefield to determine whether Yorvo gets a second +1/+1 counter.
+Ruling (2019-10-04): Yorvo's triggered ability compares the power of the entering green creature only after putting a +1/+1 counter on Yorvo. If that counter causes Yorvo's power to be greater than or equal to the entering creature's power, it won't get a second +1/+1 counter.
+
+## Yosei, the Morning Star
+Cost: {4}{w}{w} | Type: Legendary Creature — Dragon Spirit | Color identity: W | P/T: 5/5 | Commander: legal
+Text: Flying
+  When Yosei dies, target player skips their next untap step. Tap up to five target permanents that player controls.
+Ruling (2017-11-17): If a permanent won't untap during its controller's next untap step, that effect waits to apply until its controller has an untap step that isn't skipped.
+Ruling (2017-11-17): If all of the permanents targeted by Yosei's ability become illegal targets, nothing becomes tapped, but the target player still skips their untap step.
+Ruling (2017-11-17): If any of the targets of Yosei's ability are illegal, they won't be tapped.
+Ruling (2017-11-17): If more than one effect instructs a player to skip their next untap step, such as if Yosei dies more than once in a turn, that player skips that many untap steps. This is different from effects that state that something doesn't untap during an untap step.
+Ruling (2017-11-17): If the player becomes an illegal target, the target permanents are tapped, but the player doesn't skip their untap step.
+
+## Yoshimaru, Beloved Companion
+Cost: {2}{w} | Type: Legendary Creature — Dog | Color identity: W | P/T: 2/2 | Commander: legal
+Text: If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
+  {6}: Put a +1/+1 counter on target legendary creature.
+
+## Yoshimaru, Ever Faithful
+Cost: {w} | Type: Legendary Creature — Dog | Color identity: W | P/T: 1/1 | Commander: legal
+Text: Whenever another legendary permanent you control enters, put a +1/+1 counter on Yoshimaru.
+  Partner (You can have two commanders if both have partner.)
+
+## Yoshimaru, Scrappy Stray
+Cost: {1}{g} | Type: Legendary Creature — Dog | Color identity: G | P/T: 1/1 | Commander: legal
+Text: When Yoshimaru enters, another target creature you control fights up to one target creature an opponent controls. (Each deals damage equal to its power to the other.)
+  {6}: Put a +1/+1 counter on target nonlegendary creature.
+
+## Yotia Declares War
+Cost: {1}{r} | Type: Enchantment — Saga | Color identity: R | Commander: legal
+Text: Read ahead (Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don't trigger. Sacrifice after III.)
+  I — Create a 0/2 colorless Thopter artifact creature token with flying named Ornithopter.
+  II — Tap any number of untapped artifacts you control. When you do, this Saga deals that much damage to target creature or planeswalker.
+  III — Up to one target artifact you control becomes an artifact creature with base power and toughness 4/4 until end of turn.
+Ruling (2022-09-09): As a Saga with read ahead enters the battlefield, its controller chooses a number from one to that Saga's greatest chapter number. The Saga enters the battlefield with the chosen number of lore counters. Neither choosing the number nor putting the counters on the Saga use the stack, and neither can be responded to.
+Ruling (2022-09-09): If you choose to tap zero artifacts as the second chapter ability resolves, the reflexive triggered ability still triggers, but deals no damage to the target creature or planeswalker.
+Ruling (2022-09-09): Yotia Declares War was mistakenly printed with the word "artifact" omitted from its final chapter ability, and it has received an update to its Oracle text. 
+Ruling (2022-09-09): You don't choose the target creature or planeswalker as you put the second chapter ability of Yotia Declares War on the stack. First, you tap any number of artifacts. Then, a second "reflexive" ability triggers (denoted by the phrase "when you do") that requires a target. Players may respond to the reflexive triggered ability as normal, and they will know how many artifacts were tapped when they do.
+
+## Yotian Courier
+Cost: {u}{r} | Type: Creature — Human Artificer | Color identity: RU | P/T: 2/2 | Commander: legal
+Text: Flying
+  Whenever Yotian Courier attacks, choose one that wasn't chosen during your last combat —
+  • Create a tapped Powerstone token.
+  • Seek a nonland card with mana value equal to the number of Powerstones you control.
+
+## Yotian Dissident
+Cost: {g}{w} | Type: Creature — Human Artificer | Color identity: GW | P/T: 1/1 | Commander: legal
+Text: Whenever an artifact you control enters, put a +1/+1 counter on target creature you control.
+
+## Yotian Frontliner
+Cost: {1} | Type: Artifact Creature — Soldier | Color identity: W | P/T: 1/1 | Commander: legal
+Text: Whenever this creature attacks, another target creature you control gets +1/+1 until end of turn.
+  Unearth {W} ({W}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
+Ruling (2022-10-14): Activating a card's unearth ability isn't the same as casting that card. The unearth ability is put on the stack, but the card is not. Spells and abilities that interact with activated abilities (such as Defabricate's second mode) will interact with unearth, but spells and abilities that interact with spells (such as Scatter Ray) will not.
+Ruling (2022-10-14): At the beginning of the next end step, a permanent returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects such as Defabricate that counter triggered abilities. If the ability is countered, the permanent will stay on the battlefield and the delayed triggered ability won't trigger again. However, the replacement effect will still exile the permanent if it eventually leaves the battlefield.
+Ruling (2022-10-14): If a permanent returned to the battlefield with unearth would leave the battlefield for any reason, it's exiled instead—unless the spell or ability that's causing the permanent to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If that spell or ability later returns the card to the battlefield (as Static Net might, for example), the permanent card will return to the battlefield as a new object with no relation to its previous existence. The unearth effects will no longer apply to it.
+Ruling (2022-10-14): If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will do nothing as it resolves.
+Ruling (2022-10-14): Unearth grants haste to the permanent that's returned to the battlefield (even if it's not a creature card). However, neither of the "exile" abilities is granted to that permanent. If that permanent loses all its abilities, it will still be exiled at the beginning of the next end step, and if it would leave the battlefield, it is still exiled instead.
+
+## Yotian Medic
+Cost: {2}{w} | Type: Creature — Human Cleric Soldier | Color identity: W | P/T: 1/4 | Commander: legal
+Text: Lifelink
+
+## Yotian Soldier
+Cost: {3} | Type: Artifact Creature — Soldier | Color identity: colorless | P/T: 1/4 | Commander: legal
+Text: Vigilance
+
+## Yotian Tactician
+Cost: {2}{w}{u} | Type: Creature — Human Soldier | Color identity: UW | P/T: 3/4 | Commander: legal
+Text: Other Soldiers you control get +1/+1.
+
+## You Are Already Dead
+Cost: {b} | Type: Instant | Color identity: B | Commander: legal
+Text: Destroy target creature that was dealt damage this turn.
+  Draw a card.
+
+## You Cannot Pass!
+Cost: {w} | Type: Instant | Color identity: W | Commander: legal
+Text: Destroy target creature that blocked or was blocked by a legendary creature this turn.
+Ruling (2023-06-16): You Cannot Pass! can target a creature that's currently blocking or being blocked by a legendary creature, or one that blocked or was blocked by a legendary creature earlier in the turn.
+Ruling (2023-06-16): You Cannot Pass! only cares that the second creature was a legendary creature at the moment it blocked or became blocked by the target creature. If that legendary creature has become a nonlegendary creature (perhaps because it's no longer your Ring-bearer) or left the battlefield, You Cannot Pass! can still target the first creature.
+
+## You Come to a River
+Cost: {1}{u} | Type: Instant | Color identity: U | Commander: legal
+Text: Choose one —
+  • Fight the Current — Return target nonland permanent to its owner's hand.
+  • Find a Crossing — Target creature gets +1/+0 until end of turn and can't be blocked this turn.
+Ruling (2021-07-23): Casting this spell and choosing the Find a Crossing mode targeting an attacking creature that has already been blocked won't change or undo that block. It will still get the +1/+0 though.
+
+## You Come to the Gnoll Camp
+Cost: {1}{r} | Type: Instant | Color identity: R | Commander: legal
+Text: Choose one —
+  • Intimidate Them — Up to two target creatures can't block this turn.
+  • Fend Them Off — Target creature gets +3/+1 until end of turn.
+Ruling (2021-07-23): Casting this spell and choosing the Intimidate Them mode after blockers have been declared won't change or undo any blocks.
+
+## You Find a Cursed Idol
+Cost: {1}{g} | Type: Sorcery | Color identity: G | Commander: legal
+Text: Choose one —
+  • Smash It — Destroy target artifact.
+  • Lift the Curse — Destroy target enchantment.
+  • Steal Its Eyes — Create a Treasure token and venture into the dungeon. (Enter the first room or advance to the next room.)
+Ruling (2021-07-23): A player may only have one dungeon in the command zone at a time.
+Ruling (2021-07-23): Choosing the dungeon or room to venture into is part of resolving the venture into the dungeon keyword action. Once that choice is made, players may not respond until after the appropriate room ability has triggered.
+Ruling (2021-07-23): Dungeon cards are not part of a player's deck or sideboard. In both constructed and limited formats, players can use any dungeon card when they venture into the dungeon.
+Ruling (2021-07-23): Dungeons are removed from the game as a state-based action.
+Ruling (2021-07-23): If you somehow venture into the dungeon while a room's ability is on the stack, you will continue on in the dungeon. If you're already in the last room, complete that dungeon and start a new one.
+Ruling (2021-07-23): Moving into a dungeon room will cause its room ability to trigger.
+Ruling (2021-07-23): Once you resolve the last room ability of a dungeon, that dungeon is now completed and is removed from the game.
+Ruling (2021-07-23): The player venturing into the dungeon chooses which dungeon they will venture into. They may choose a dungeon that they have already completed this game.
+Ruling (2021-07-23): To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
+Ruling (2021-07-23): You can only move forward (well, downward) in a dungeon, never backwards or sideways.
+
+## You Find Some Prisoners
+Cost: {1}{r} | Type: Instant | Color identity: R | Commander: legal
+Text: Choose one —
+  • Break Their Chains — Destroy target artifact.
+  • Interrogate Them — Exile the top three cards of target opponent's library. Choose one of them. Until the end of your next turn, you may play that card, and you may spend mana as though it were mana of any color to cast it.
+Ruling (2021-07-23): For the Interrogate Them mode, the cards you didn't choose remain in exile. If you don't play the chosen card, it also remains in exile.
+
+## You Find the Villains' Lair
+Cost: {1}{u}{u} | Type: Instant | Color identity: U | Commander: legal
+Text: Choose one —
+  • Foil Their Scheme — Counter target spell.
+  • Learn Their Secrets — Draw two cards, then discard two cards.
+
+## You Happen On a Glade
+Cost: {2}{g} | Type: Instant | Color identity: G | Commander: legal
+Text: Choose one —
+  • Journey On — Search your library for up to two basic land cards, reveal them, put them into your hand, then shuffle.
+  • Make Camp — Return target permanent card from your graveyard to your hand.
+
+## You Hear Something on Watch
+Cost: {1}{w} | Type: Instant | Color identity: W | Commander: legal
+Text: Choose one —
+  • Rouse the Party — Creatures you control get +1/+1 until end of turn.
+  • Set Off Traps — This spell deals 5 damage to target attacking creature.
+
+## You Line Up the Shot
+Cost: {g} | Type: Instant | Color identity: G | Commander: legal
+Text: Choose one —
+  • Aim for the Wyvern — Conjure a card named Plummet into your hand.
+  • Aim for the Cursed Amulet — Conjure a card named Naturalize into your hand.
+  • Fire a Warning Shot — Draw a card.
+
+## You Look Upon the Tarrasque
+Cost: {4}{g} | Type: Instant | Color identity: G | Commander: legal
+Text: Choose one —
+  • Run and Hide — Prevent all combat damage that would be dealt to you and creatures you control this turn.
+  • Gather Your Courage — Target creature gets +5/+5 and gains indestructible until end of turn. All creatures your opponents control able to block that creature this turn do so.
+
+## You Meet in a Tavern
+Cost: {2}{g}{g} | Type: Sorcery | Color identity: G | Commander: legal
+Text: Choose one —
+  • Form a Party — Look at the top five cards of your library. You may reveal any number of creature cards from among them and put them into your hand. Put the rest on the bottom of your library in a random order.
+  • Start a Brawl — Creatures you control get +2/+2 until end of turn.
+
+## You See a Guard Approach
+Cost: {u} | Type: Instant | Color identity: U | Commander: legal
+Text: Choose one —
+  • Distract the Guard — Tap target creature.
+  • Hide — Target creature you control gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)
+
+## You See a Pair of Goblins
+Cost: {2}{r} | Type: Instant | Color identity: R | Commander: legal
+Text: Choose one —
+  • Charge Them — Creatures you control get +2/+0 until end of turn.
+  • Befriend Them — Create two 1/1 red Goblin creature tokens.
+
+## You're Ambushed on the Road
+Cost: {w} | Type: Instant | Color identity: W | Commander: legal
+Text: Choose one —
+  • Make a Retreat — Return target creature you control to its owner's hand.
+  • Stand and Fight — Target creature gets +1/+3 until end of turn.
+
+## You're Confronted by Robbers
+Cost: {3}{w} | Type: Instant | Color identity: W | Commander: legal
+Text: Choose one —
+  • Stall for Time — Tap up to three target creatures.
+  • Call for Aid — Create three 1/1 white Soldier creature tokens.
+
+## You're Not Alone
+Cost: {w} | Type: Instant | Color identity: W | Commander: legal
+Text: Target creature gets +2/+2 until end of turn. If you control three or more creatures, it gets +4/+4 until end of turn instead.
+
+## You've Been Caught Stealing
+Cost: {1}{r} | Type: Sorcery | Color identity: R | Commander: legal
+Text: Choose one —
+  • Threaten the Merchant — Each creature blocks this turn if able.
+  • Bribe the Guards — You create a Treasure token for each opponent who was dealt damage this turn. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
+
+## Young Blue Dragon
+Cost: {4}{u} | Type: Creature — Dragon | Color identity: U | P/T: 3/3 | Commander: legal
+Faces: Young Blue Dragon // Sand Augury (adventure)
+Text: Flying
+Ruling (2022-06-10): An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Altar of Bhaal is an artifact card whose mana value is 2.
+Ruling (2022-06-10): An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+Ruling (2022-06-10): Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+Ruling (2022-06-10): If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+Ruling (2022-06-10): If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a permanent spell.
+Ruling (2022-06-10): If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy from exile.
+Ruling (2022-06-10): If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+Ruling (2022-06-10): If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+Ruling (2022-06-10): If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell.
+Ruling (2022-06-10): When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+Ruling (2022-06-10): You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+
+## Young Deathclaws
+Cost: {2}{b}{g} | Type: Creature — Lizard Mutant | Color identity: BG | P/T: 4/2 | Commander: legal
+Text: Menace (This creature can't be blocked except by two or more creatures.)
+  Each creature card in your graveyard has scavenge. The scavenge cost is equal to its mana cost. (Exile a creature card from your graveyard and pay its mana cost: Put a number of +1/+1 counters equal to that card's power on target creature. Scavenge only as a sorcery.)
+Ruling (2024-03-08): Exiling the creature card with scavenge is part of the cost of activating the scavenge ability. Once the ability is activated and the cost is paid, it's too late to stop the ability from being activated by trying to remove the creature card from the graveyard.
+Ruling (2024-03-08): If a creature card has multiple instances of scavenge, you can activate either ability (but not both, as the card will be exiled when you activate one of them). Young Deathclaws's ability doesn't affect the scavenge cost of a creature's other scavenge ability.
+Ruling (2024-03-08): If the creature card you scavenge has {X} in its mana cost, X is 0.
+Ruling (2024-03-08): The number of counters that a card's scavenge ability puts on a creature is based on the card's power as it last existed in the graveyard.
+Ruling (2024-03-08): While Young Deathclaws is on the battlefield, the scavenge cost of a creature card in your graveyard is equal to its mana cost, including any colored mana requirements.
+
+## Young Necromancer
+Cost: {4}{b} | Type: Creature — Human Warlock | Color identity: B | P/T: 2/3 | Commander: legal
+Text: When this creature enters, you may exile two cards from your graveyard. When you do, return target creature card from your graveyard to the battlefield.
+Ruling (2021-06-18): Young Necromancer's reflexive triggered ability (the one that returns a card to the battlefield) triggers when you exile two cards from your graveyard. Players may respond to that ability before the card is returned.
+
+## Young Pyromancer
+Cost: {1}{r} | Type: Creature — Human Shaman | Color identity: R | P/T: 2/1 | Commander: legal
+Text: Whenever you cast an instant or sorcery spell, create a 1/1 red Elemental creature token.
+Ruling (2021-03-19): An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger, but after targets have been chosen for that spell. It resolves even if that spell is countered.
+
+## Young Red Dragon
+Cost: {3}{r} | Type: Creature — Dragon | Color identity: R | P/T: 3/2 | Commander: legal
+Faces: Young Red Dragon // Bathe in Gold (adventure)
+Text: Flying
+  This creature can't block.
+Ruling (2022-06-10): An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Altar of Bhaal is an artifact card whose mana value is 2.
+Ruling (2022-06-10): An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+Ruling (2022-06-10): Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+Ruling (2022-06-10): If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+Ruling (2022-06-10): If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a permanent spell.
+Ruling (2022-06-10): If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy from exile.
+Ruling (2022-06-10): If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+Ruling (2022-06-10): If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+Ruling (2022-06-10): If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell.
+Ruling (2022-06-10): When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+Ruling (2022-06-10): You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+
+## Young Wei Recruits
+Cost: {1}{b} | Type: Creature — Human Soldier | Color identity: B | P/T: 2/2 | Commander: legal
+Text: This creature can't block.
+
+## Young Wolf
+Cost: {g} | Type: Creature — Wolf | Color identity: G | P/T: 1/1 | Commander: legal
+Text: Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
+
+## Your Fate Ends Here
+Cost: {2}{w} | Type: Instant | Color identity: W | Commander: legal
+Text: Destroy target creature or planeswalker with mana value 3 or greater. Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+Ruling (2026-08-21): If a creature or planeswalker has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+
+## Your Temple Is Under Attack
+Cost: {2}{w} | Type: Instant | Color identity: W | Commander: legal
+Text: Choose one —
+  • Pray for Protection — Creatures you control gain indestructible until end of turn.
+  • Strike a Deal — You and target opponent each draw two cards.
+
+## Youthful Knight
+Cost: {1}{w} | Type: Creature — Human Knight | Color identity: W | P/T: 2/1 | Commander: legal
+Text: First strike
+
+## Youthful Scholar
+Cost: {3}{u} | Type: Creature — Human Wizard | Color identity: U | P/T: 2/2 | Commander: legal
+Text: When this creature dies, draw two cards.
+
+## Youthful Valkyrie
+Cost: {1}{w} | Type: Creature — Angel | Color identity: W | P/T: 1/3 | Commander: legal
+Text: Flying
+  Whenever another Angel you control enters, put a +1/+1 counter on this creature.
+
+## Ysgard's Call
+Cost: {x}{w}{w} | Type: Sorcery — Adventure | Color identity: W | Commander: legal
+Faces: Horn of Valhalla // Ysgard's Call (adventure)
+Text: Create X 1/1 white Soldier creature tokens. (Then exile this card. You may cast the artifact later from exile.)
+Ruling (2022-06-10): An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Altar of Bhaal is an artifact card whose mana value is 2.
+Ruling (2022-06-10): An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+Ruling (2022-06-10): Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+Ruling (2022-06-10): If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+Ruling (2022-06-10): If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a permanent spell.
+Ruling (2022-06-10): If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy from exile.
+Ruling (2022-06-10): If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+Ruling (2022-06-10): If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+Ruling (2022-06-10): If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell.
+Ruling (2022-06-10): When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+Ruling (2022-06-10): You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+
+## Yuan Shao's Infantry
+Cost: {3}{r} | Type: Creature — Human Soldier | Color identity: R | P/T: 2/2 | Commander: legal
+Text: Whenever this creature attacks alone, this creature can't be blocked this combat.
+
+## Yuan Shao, the Indecisive
+Cost: {4}{r} | Type: Legendary Creature — Human Soldier | Color identity: R | P/T: 2/3 | Commander: legal
+Text: Horsemanship (This creature can't be blocked except by creatures with horsemanship.)
+  Each creature you control can't be blocked by more than one creature.
+Ruling (2009-10-01): Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
+
+## Yuan-Ti Fang-Blade
+Cost: {2}{b} | Type: Creature — Snake Rogue | Color identity: B | P/T: 2/2 | Commander: legal
+Text: Deathtouch
+  Whenever this creature deals combat damage to a player, venture into the dungeon. (Enter the first room or advance to the next room.)
+Ruling (2021-07-23): A player may only have one dungeon in the command zone at a time.
+Ruling (2021-07-23): Choosing the dungeon or room to venture into is part of resolving the venture into the dungeon keyword action. Once that choice is made, players may not respond until after the appropriate room ability has triggered.
+Ruling (2021-07-23): Dungeon cards are not part of a player's deck or sideboard. In both constructed and limited formats, players can use any dungeon card when they venture into the dungeon.
+Ruling (2021-07-23): Dungeons are removed from the game as a state-based action.
+Ruling (2021-07-23): If you somehow venture into the dungeon while a room's ability is on the stack, you will continue on in the dungeon. If you're already in the last room, complete that dungeon and start a new one.
+Ruling (2021-07-23): Moving into a dungeon room will cause its room ability to trigger.
+Ruling (2021-07-23): Once you resolve the last room ability of a dungeon, that dungeon is now completed and is removed from the game.
+Ruling (2021-07-23): The player venturing into the dungeon chooses which dungeon they will venture into. They may choose a dungeon that they have already completed this game.
+Ruling (2021-07-23): To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
+Ruling (2021-07-23): You can only move forward (well, downward) in a dungeon, never backwards or sideways.
+
+## Yuan-Ti Malison
+Cost: {1}{u} | Type: Creature — Snake Rogue | Color identity: U | P/T: 2/1 | Commander: legal
+Text: This creature can't be blocked as long as it's attacking alone.
+  Whenever this creature deals combat damage to a player, venture into the dungeon. (Enter the first room or advance to the next room.)
+Ruling (2021-07-23): A player may only have one dungeon in the command zone at a time.
+Ruling (2021-07-23): Choosing the dungeon or room to venture into is part of resolving the venture into the dungeon keyword action. Once that choice is made, players may not respond until after the appropriate room ability has triggered.
+Ruling (2021-07-23): Dungeon cards are not part of a player's deck or sideboard. In both constructed and limited formats, players can use any dungeon card when they venture into the dungeon.
+Ruling (2021-07-23): Dungeons are removed from the game as a state-based action.
+Ruling (2021-07-23): If you somehow venture into the dungeon while a room's ability is on the stack, you will continue on in the dungeon. If you're already in the last room, complete that dungeon and start a new one.
+Ruling (2021-07-23): Moving into a dungeon room will cause its room ability to trigger.
+Ruling (2021-07-23): Once you resolve the last room ability of a dungeon, that dungeon is now completed and is removed from the game.
+Ruling (2021-07-23): The player venturing into the dungeon chooses which dungeon they will venture into. They may choose a dungeon that they have already completed this game.
+Ruling (2021-07-23): To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
+Ruling (2021-07-23): You can only move forward (well, downward) in a dungeon, never backwards or sideways.
+
+## Yuan-Ti Scaleshield
+Cost: {2}{g} | Type: Instant | Color identity: G | Commander: legal
+Text: Permanents you control gain hexproof and indestructible until end of turn.
+  Seek a creature card if an opponent has cast a spell with mana value 3 or less this turn.
+
+## Yue, the Moon Spirit
+Cost: {3}{u} | Type: Legendary Creature — Spirit Ally | Color identity: U | P/T: 3/3 | Commander: legal
+Text: Flying, vigilance
+  Waterbend {5}, {T}: You may cast a noncreature spell from your hand without paying its mana cost. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)
+Ruling (2025-10-02): "Waterbend [cost]" means "Pay [cost]. For each generic mana in that cost, you may tap an untapped artifact or creature you control rather than pay that mana."
+Ruling (2025-10-02): Even if the cost of the spell or ability that waterbend is part of increases or decreases, you still may only tap artifacts or creatures to pay for costs up to the amount of the generic mana in the waterbend cost.
+Ruling (2025-10-02): If a card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+Ruling (2025-10-02): If a waterbend cost is part of the total cost to cast a spell or activate an ability, you may tap an untapped artifact or creature you control rather than pay one generic mana in that total cost any number of times up to a maximum of the amount of generic mana in the waterbend component of that total cost.
+Ruling (2025-10-02): If an artifact or creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell or activating an ability with waterbend will result in the artifact or creature being tapped before you pay the spell's costs. You won't be able to tap it again for waterbend. Similarly, if you sacrifice an artifact or creature to activate a mana ability to pay a cost with waterbend, that artifact or creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for waterbend.
+Ruling (2025-10-02): If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Cathartic Reunion, you must pay those to cast the card.
+Ruling (2025-10-02): You can tap any untapped creature or artifact you control to pay a waterbend cost, even one you haven't controlled continuously since the beginning of your most recent turn.
+
+## Yuffie, Materia Hunter
+Cost: {2}{r} | Type: Legendary Creature — Human Ninja | Color identity: R | P/T: 3/3 | Commander: legal
+Text: Ninjutsu {1}{R} ({1}{R}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+  When Yuffie enters, gain control of target noncreature artifact for as long as you control Yuffie. Then you may attach an Equipment you control to Yuffie.
+Ruling (2025-06-06): Although Yuffie enters attacking when its ninjutsu ability resolves, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
+Ruling (2025-06-06): As you activate Yuffie's ninjutsu ability, you reveal Yuffie from your hand and return the attacking creature. Yuffie isn't put onto the battlefield until the ability resolves. If Yuffie leaves your hand before then, it won't enter at all.
+Ruling (2025-06-06): If at least one creature in combat has first strike or double strike, you can activate Yuffie's ninjutsu ability during the first-strike combat damage step. In that case, Yuffie will deal combat damage during the regular combat damage step, even if it has first strike.
+Ruling (2025-06-06): If the target of Yuffie's last ability is illegal as the ability tries to resolve, it won't resolve and none of its effects will happen. You won't attach any Equipment to Yuffie.
+Ruling (2025-06-06): If you lose control of Yuffie or it leaves the battlefield before its last ability resolves, you won't gain control of the target noncreature artifact.
+Ruling (2025-06-06): The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. If you wait until after the declare blockers step, because all combat damage is dealt at once, Yuffie won't normally deal combat damage.
+Ruling (2025-06-06): The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+Ruling (2025-06-06): You can't use Yuffie's last ability to try to attach an Equipment to Yuffie if that Equipment can't legally be attached to Yuffie.
+Ruling (2025-06-06): Yuffie enters attacking the same player, planeswalker, or battle the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking.
+
+## Yuki-Onna
+Cost: {3}{r} | Type: Creature — Spirit | Color identity: R | P/T: 3/1 | Commander: legal
+Text: When this creature enters, destroy target artifact.
+  Whenever you cast a Spirit or Arcane spell, you may return this creature to its owner's hand.
+
+## Yukora, the Prisoner
+Cost: {2}{b}{b} | Type: Legendary Creature — Demon Spirit | Color identity: B | P/T: 5/5 | Commander: legal
+Text: When Yukora leaves the battlefield, sacrifice all non-Ogre creatures you control.
+
+## Yuma, Proud Protector
+Cost: {5}{r}{g}{w} | Type: Legendary Creature — Human Ranger | Color identity: GRW | P/T: 6/6 | Commander: legal
+Text: This spell costs {1} less to cast for each land card in your graveyard.
+  Whenever Yuma enters or attacks, you may sacrifice a land. If you do, draw a card.
+  Whenever a Desert card is put into your graveyard from anywhere, create a 4/2 green Plant Warrior creature token with reach.
+Ruling (2024-04-12): Yuma must be on the battlefield for its last ability to trigger. If it is put into your graveyard at the same time as a Desert card you own, its ability won't trigger.
+
+## Yume, Chronicler of Valor
+Cost: {1}{w} | Type: Legendary Creature — Human Druid | Color identity: W | P/T: 1/2 | Commander: legal
+Text: The first spell you cast during each of your turns has assist. When you cast that spell, if another player spent mana to cast it, you and that player each draw a card. (As you cast a spell with assist, you may choose another player. They may pay some or all of the generic mana in the spell's cost.)
+
+## Yuna's Decision
+Cost: {3}{g} | Type: Sorcery | Color identity: G | Commander: legal
+Text: Choose one —
+  • Continue the Pilgrimage — Sacrifice a creature. If you do, draw a card, then you may put a creature card and/or a land card from your hand onto the battlefield.
+  • Find Another Way — Return one or two target permanent cards from your graveyard to your hand.
+Ruling (2025-06-06): Putting a land card onto the battlefield with the first mode of Yuna's Decision doesn't count as playing a land. You can put a land card onto the battlefield this way even if you've already played a land for the turn.
+
+## Yuna's Whistle
+Cost: {1}{g}{g} | Type: Instant | Color identity: G | Commander: legal
+Text: Reveal cards from the top of your library until you reveal a creature card. Put that card into your hand and the rest on the bottom of your library in a random order. When you reveal a creature card this way, put X +1/+1 counters on target creature you control, where X is the mana value of that card.
+Ruling (2025-06-06): If the revealed card has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+Ruling (2025-06-06): You don't choose a target for Yuna's Whistle at the time you cast it. Rather, a second "reflexive" ability triggers when you reveal a creature card this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+
+## Yuna, Grand Summoner
+Cost: {1}{g}{w}{u} | Type: Legendary Creature — Human Cleric | Color identity: GUW | P/T: 1/5 | Commander: legal
+Text: Grand Summon — {T}: Add one mana of any color. When you next cast a creature spell this turn, that creature enters with two additional +1/+1 counters on it.
+  Whenever another permanent you control is put into a graveyard from the battlefield, if it had one or more counters on it, you may put that number of +1/+1 counters on target creature.
+Ruling (2025-06-06): Yuna's last ability counts all counters that were on the permanent, not just +1/+1 counters.
+
+## Yuna, Hope of Spira
+Cost: {3}{g}{w} | Type: Legendary Creature — Human Cleric | Color identity: GW | P/T: 3/5 | Commander: legal
+Text: During your turn, Yuna and enchantment creatures you control have trample, lifelink, and ward {2}.
+  At the beginning of your end step, return up to one target enchantment card from your graveyard to the battlefield with a finality counter on it. (If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead.)
+Ruling (2025-06-06): Finality counters aren't keyword counters, and a finality counter doesn't give any abilities to the permanent it's on. If that permanent loses its abilities and then would go to a graveyard, it will still be exiled instead.
+Ruling (2025-06-06): Finality counters don't stop permanents from going to zones other than the graveyard from the battlefield. For example, if a permanent with a finality counter on it would be put into its owner's hand from the battlefield, it does so normally.
+Ruling (2025-06-06): Finality counters work on any permanent, not only creatures. If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead.
+Ruling (2025-06-06): Multiple finality counters on a single permanent are redundant.
+
+## Yuriko, Blade of the Mighty
+Cost: {3}{w} | Type: Legendary Creature — Human Samurai | Color identity: W | P/T: 2/3 | Commander: legal
+Text: During combat, players can't cast spells or activate abilities that aren't mana abilities.
+  Whenever a creature you control attacks a player alone, it gains double strike until end of turn.
+
+## Yuriko, Hope from the Shadows
+Cost: {u} | Type: Legendary Creature — Human Ninja | Color identity: U | P/T: 1/1 | Commander: legal
+Text: Flash
+  When Yuriko enters, choose one —
+  • Target creature gets -X/-0 until end of turn, where X is the number of cards in your graveyard.
+  • Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
+
+## Yuriko, the Tiger's Shadow
+Cost: {1}{u}{b} | Type: Legendary Creature — Human Ninja | Color identity: BU | P/T: 1/3 | Commander: legal
+Text: Commander ninjutsu {U}{B} ({U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand or the command zone tapped and attacking.)
+  Whenever a Ninja you control deals combat damage to a player, reveal the top card of your library and put that card into your hand. Each opponent loses life equal to that card's mana value.
+Ruling (2020-11-10): Activating Yuriko's commander ninjutsu ability isn't the same as casting Yuriko as a spell. You won't have to pay the commander tax to activate that ability, and activating that ability won't increase the commander tax to pay later.
+Ruling (2020-11-10): Although the ninjutsu ability has the creature enter the battlefield attacking, it was never declared as an attacking creature (for the purposes of abilities that trigger whenever a creature attacks, for example).
+Ruling (2020-11-10): Commander ninjutsu is a variant of ninjutsu that can be activated from the command zone as well as from your hand. Just as with regular ninjutsu, the Ninja enters attacking the player or planeswalker that the returned creature was attacking.
+Ruling (2020-11-10): If a card in a player's library has {X} in its mana cost, X is considered to be 0.
+
+## Yurlok of Scorch Thrash
+Cost: {1}{b}{r}{g} | Type: Legendary Creature — Lizard Shaman | Color identity: BGR | P/T: 4/4 | Commander: legal
+Text: Vigilance
+  A player losing unspent mana causes that player to lose that much life.
+  {1}, {T}: Each player adds {B}{R}{G}.
+Ruling (2020-11-10): Multiple Yurloks on the battlefield won't cause additional life loss. For example, if two players each control a Yurlok and a player still has three unspent mana as a step or phase ends, that player will lose only 3 life.
+Ruling (2020-11-10): Yurlok's middle ability is similar to the "mana burn" rule from years past. The loss of life happens at the same time the mana is lost. This loss of life doesn't use the stack and can't be responded to.
+
+## Yusri, Fortune's Flame
+Cost: {1}{u}{r} | Type: Legendary Creature — Efreet | Color identity: RU | P/T: 2/3 | Commander: legal
+Text: Flying
+  Whenever Yusri attacks, choose a number between 1 and 5. Flip that many coins. For each flip you win, draw a card. For each flip you lose, Yusri deals 2 damage to you. If you won five flips this way, you may cast spells from your hand this turn without paying their mana costs.
+Ruling (2021-06-18): If an effect allows you to cast a spell with {X} in its cost without paying its mana cost, you must choose 0 for the value of X.
+Ruling (2021-06-18): When you cast a spell without paying its mana cost, you may still pay additional costs. If any additional costs are required, you must pay them.
+
+## Yuyan Archers
+Cost: {1}{r} | Type: Creature — Human Archer | Color identity: R | P/T: 3/1 | Commander: legal
+Text: Reach
+  When this creature enters, you may discard a card. If you do, draw a card.
