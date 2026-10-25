@@ -4832,6 +4832,12 @@ Ruling (2026-03-20): Only the current controller of a prepared creature can cast
 Ruling (2026-03-20): Preparation cards can only be cast with their base characteristics.
 Ruling (2026-03-20): While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
 
+## All Good Things...
+Cost: {3}{g}{u} | Type: Enchantment — Saga | Color identity: GU | Commander: legal
+Text: (As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)
+  I, II, III — Draw two cards, then exile a card from your hand.
+  IV — If all cards exiled with this Saga share a card type, you gain 10 life.
+
 ## All Hallow's Eve
 Cost: {2}{b}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Exile All Hallow's Eve with two scream counters on it.
@@ -6653,6 +6659,12 @@ Cost: {1}{w} | Type: Instant | Color identity: W | Commander: legal
 Text: Choose a creature type. Creatures you control of the chosen type get +1/+0 and gain indestructible until end of turn.
 Ruling (2022-10-07): To choose a creature type, you must choose an existing creature type, such as Vampire or Knight. You can't choose multiple creature types, such as "Vampire Knight." Card types such as artifact can't be chosen, nor can subtypes that aren't creature types, such as Jace, Vehicle, or Treasure.
 
+## Andoria
+Cost: — | Type: Land — Planet | Color identity: RU | Commander: legal
+Text: This land enters tapped.
+  When this land enters, you gain 1 life.
+  {T}: Add {U} or {R}.
+
 ## Andradite Leech
 Cost: {2}{b} | Type: Creature — Leech | Color identity: B | P/T: 2/2 | Commander: legal
 Text: Black spells you cast cost {B} more to cast.
@@ -7754,6 +7766,10 @@ Text: {4}: Put a +1/+1 counter on Ant-Man.
 Cost: {3}{r} | Type: Enchantment | Color identity: R | Commander: legal
 Text: At the beginning of each player's end step, this enchantment deals 2 damage to that player unless one of their opponents was dealt damage this turn.
 Ruling (2004-10-04): It looks back over the entire turn even if this card was not on the battlefield at the time.
+
+## Antagonist Incorporator
+Cost: {1}{w} | Type: Artifact Creature — Borg | Color identity: W | P/T: 2/3 | Commander: legal
+Text: Artifact creatures you control have "Whenever this creature deals combat damage to a player, you may pay {1}. If you do, create a 1/1 colorless Borg artifact creature token."
 
 ## Antagonize
 Cost: {1}{r} | Type: Instant | Color identity: R | Commander: legal

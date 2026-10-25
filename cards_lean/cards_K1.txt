@@ -1859,6 +1859,11 @@ Faces: Khalni Ambush // Khalni Territory (modaldfc)
 Text: This land enters tapped.
   {T}: Add {G}.
 
+## Khan, Vengeful Heart
+Cost: {2}{b}{b} | Type: Legendary Creature — Human Warrior | Color identity: B | P/T: 5/3 | Commander: legal
+Text: When Khan enters, you may sacrifice another creature or artifact. If you do, draw two cards.
+  You may cast this card from exile.
+
 ## Khenra Charioteer
 Cost: {1}{r}{g} | Type: Creature — Jackal Warrior | Color identity: GR | P/T: 3/3 | Commander: legal
 Text: Trample
@@ -2405,6 +2410,12 @@ Cost: {2}{u} | Type: Legendary Creature — Merfolk Noble | Color identity: U | 
 Text: When Kiora enters, draw two cards, then discard two cards.
   Threshold — Whenever Kiora attacks, if there are seven or more cards in your graveyard, you may create Scion of the Deep, a legendary 8/8 blue Octopus creature token.
 
+## Kira Nerys, Firebrand
+Cost: {1}{r}{w} | Type: Legendary Creature — Bajoran Soldier | Color identity: RW | P/T: 4/3 | Commander: legal
+Text: Trample
+  If a creature you control would enter while you control an attacking creature, instead it enters tapped and attacking.
+  Whenever another creature you control enters, it gets +1/+1 until end of turn.
+
 ## Kira, Great Glass-Spinner
 Cost: {1}{u}{u} | Type: Legendary Creature — Spirit | Color identity: U | P/T: 2/2 | Commander: legal
 Text: Flying
@@ -2430,6 +2441,11 @@ Faces: Teachings of the Kirin // Kirin-Touched Orochi (transform)
 Text: Whenever this creature attacks, choose one —
   • Exile target creature card from a graveyard. When you do, create a 1/1 colorless Spirit creature token.
   • Exile target noncreature card from a graveyard. When you do, put a +1/+1 counter on target creature you control.
+
+## Kirk, Commanding Officer
+Cost: {1}{r}{w} | Type: Legendary Creature — Human Officer | Color identity: RW | P/T: 3/3 | Commander: legal
+Text: Whenever you attack while creatures you control have total power 8 or greater, exile the top card of your library. You may play that card this turn.
+  {2}, Sacrifice Kirk: Destroy target artifact or enchantment.
 
 ## Kirk, Enterprising Captain
 Cost: {3}{r} | Type: Legendary Creature — Human Officer | Color identity: R | P/T: 4/3 | Commander: legal
@@ -3152,6 +3168,14 @@ Text: Double strike, trample, haste
 Cost: {2}{w} | Type: Creature — Bear Sheep | Color identity: W | P/T: 3/2 | Commander: legal
 Text: When this creature enters, you gain 3 life.
 
+## Kobayashi Maru Scenario
+Cost: {1}{u}{u} | Type: Enchantment | Color identity: U | Commander: legal
+Text: At the beginning of your upkeep, choose one that hasn't been chosen —
+  • Hail — Return up to one target creature an opponent controls with mana value 3 or less to its owner's hand.
+  • Sensors — Draw two cards.
+  • Transport — Create two 1/1 red Officer creature tokens.
+  • Abandon Ship — You lose the game.
+
 ## Kobold Drill Sergeant
 Cost: {1}{r} | Type: Creature — Kobold Soldier | Color identity: R | P/T: 1/2 | Commander: legal
 Text: Other Kobold creatures you control get +0/+1 and have trample.
@@ -3293,6 +3317,11 @@ Cost: {r}{w} | Type: Legendary Creature — Human Pilot | Color identity: RW | P
 Text: Mounts and Vehicles you control have haste.
   Whenever a Mount you control enters, it becomes saddled until end of turn.
   Whenever a Vehicle you control enters, it becomes an artifact creature until end of turn.
+
+## Koloth, Tribble Hunter
+Cost: {3}{r} | Type: Legendary Creature — Klingon Warrior Officer | Color identity: R | P/T: 3/3 | Commander: legal
+Text: At the beginning of your end step, each player creates two 1/1 white Tribble creature tokens with "This token can't block."
+  All Tribbles get +1/+0 and are goaded. (They attack each combat if able and attack a player other than you if able.)
 
 ## Kolvori, God of Kinship
 Cost: {2}{g}{g} | Type: Legendary Creature — God | Color identity: G | P/T: 2/4 | Commander: legal

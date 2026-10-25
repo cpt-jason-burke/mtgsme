@@ -2846,6 +2846,10 @@ Cost: {3}{b} | Type: Legendary Creature — Scorpion Human Villain | Color ident
 Text: Deathtouch
   At the beginning of your end step, if a creature died this turn, target creature you control connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)
 
+## Scotty, Miracle Worker
+Cost: {1}{u}{u} | Type: Legendary Creature — Human Artificer | Color identity: U | P/T: 2/3 | Commander: legal
+Text: During your main phase, each card in your graveyard has beam me up. The beam me up cost is equal to that spell's mana cost. Scotty can't be beamed up to cast a spell this way. (Only instant and sorcery spells can be cast this way. You may cast a card from your graveyard for its beam me up cost if you also return another creature you control to its owner's hand. Then exile that spell.)
+
 ## Scour
 Cost: {2}{w}{w} | Type: Instant | Color identity: W | Commander: legal
 Text: Exile target enchantment. Search its controller's graveyard, hand, and library for all cards with the same name as that enchantment and exile them. Then that player shuffles.
@@ -5595,6 +5599,11 @@ Text: This creature gets +1/+1 for each other creature named Seven Dwarves you c
 ## Seven of Nine
 Cost: {2}{u}{b} | Type: Legendary Artifact Creature — Human Scientist | Color identity: BU | P/T: 2/4 | Commander: legal
 Text: Whenever you face a dilemma, draw a card. (You face a dilemma as you choose one or more modes for a spell or ability.)
+
+## Seven of Nine, Unassimilated
+Cost: {1}{u} | Type: Legendary Artifact Creature — Human Officer | Color identity: U | P/T: 0/4 | Commander: legal
+Text: At the beginning of your first main phase, draw a card. Then discard a card unless you control five or more differently named lands.
+  {6}{U}: Seven of Nine's base power and toughness become 7/9. Activate only if you control seven or more differently named lands.
 
 ## Seven-Tail Mentor
 Cost: {3}{w} | Type: Creature — Fox Samurai | Color identity: W | P/T: 2/3 | Commander: legal
@@ -15384,6 +15393,10 @@ Cost: {2}{u} | Type: Sorcery | Color identity: U | Commander: legal
 Text: As an additional cost to cast this spell, sacrifice an artifact.
   Create two tapped Powerstone tokens. If the sacrificed artifact was legendary, draw a card. (The tokens are artifacts with "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.")
 
+## Spock, Always Your Friend
+Cost: {u}{r} | Type: Legendary Creature — Vulcan Human Scientist | Color identity: RU | P/T: 2/2 | Commander: legal
+Text: When Spock enters, look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
+
 ## Spock, Logical Choice
 Cost: {3}{u}{u} | Type: Legendary Creature — Vulcan Human Scientist | Color identity: U | P/T: 3/5 | Commander: legal
 Text: Vigilance (Attacking doesn't cause this creature to tap.)
@@ -15521,6 +15534,11 @@ Text: Enchant creature
 Cost: {3}{g}{g} | Type: Creature — Fungus | Color identity: G | P/T: 4/4 | Commander: legal
 Text: At the beginning of your upkeep, put a spore counter on this creature.
   Creatures you control have "Remove two spore counters from this creature: Create a 1/1 green Saproling creature token."
+
+## Spot, Felis catus
+Cost: {2}{w} | Type: Legendary Creature — Cat | Color identity: W | P/T: 1/1 | Commander: legal
+Text: Whenever Spot or another nontoken legendary permanent you control enters, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.")
+  {4}, Sacrifice a Food: Destroy target artifact.
 
 ## Spotcycle Scouter
 Cost: {1}{w} | Type: Artifact — Vehicle | Color identity: W | P/T: 3/2 | Commander: legal
@@ -16380,6 +16398,17 @@ Text: If a permanent entering the battlefield causes a triggered ability of a pe
 Cost: {1}{w} | Type: Creature — Human Pilot | Color identity: W | P/T: 2/2 | Commander: legal
 Text: Whenever this creature becomes tapped, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
 
+## Starfleet Academy
+Cost: — | Type: Legendary Land | Color identity: colorless | Commander: legal
+Text: {T}: Add {C}.
+  Federation — {5}, {T}: Choose a color. Add an amount of mana of that color equal to the number of creature types among non-Borg creatures you control.
+
+## Starfleet Communicator
+Cost: {3} | Type: Artifact — Communicator Equipment | Color identity: colorless | Commander: legal
+Text: When you cast this spell, copy it. (The copy becomes a token.)
+  Equipped creature has "Whenever this creature attacks, draw X cards, then you may put up to X land cards from your hand onto the battlefield tapped, where X is the number of other creatures you control with a Communicator attached to them."
+  Equip {1}
+
 ## Starfleet Crew
 Cost: {1}{w} | Type: Creature — Officer | Color identity: W | P/T: 2/3 | Commander: legal
 Text: 
@@ -16516,6 +16545,13 @@ Text: Living metal (During your turn, this Vehicle is also a creature.)
 Cost: {3}{w}{b} | Type: Creature — Bat Warlock | Color identity: BW | P/T: 3/5 | Commander: legal
 Text: Flying, vigilance
   At the beginning of your end step, if you gained or lost life this turn, target opponent loses 3 life unless they sacrifice a nonland permanent of their choice or discard a card.
+
+## Starship Enterprise
+Cost: {5} | Type: Legendary Artifact — Spacecraft | Color identity: colorless | P/T: 4/6 | Commander: legal
+Text: Landfall — Whenever a land you control enters, put four charge counters on Starship Enterprise.
+  Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 16+.)
+  16+ | Flying
+  Whenever Starship Enterprise deals combat damage to a player, draw that many cards.
 
 ## Starstorm
 Cost: {x}{r}{r} | Type: Instant | Color identity: R | Commander: legal
@@ -17810,6 +17846,11 @@ Text: Flash
 ## Storage Matrix
 Cost: {3} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: As long as this artifact is untapped, each player chooses artifact, creature, or land during their untap step. That player can untap only permanents of the chosen type this step.
+
+## Storied Veteran
+Cost: {b} | Type: Creature — Klingon Advisor | Color identity: B | P/T: 2/1 | Commander: legal
+Text: This creature can't block.
+  You may cast this card from your graveyard. If you do, it enters with a finality counter on it.
 
 ## Storm Caller
 Cost: {2}{r} | Type: Creature — Ogre Shaman | Color identity: R | P/T: 3/2 | Commander: legal
@@ -20733,6 +20774,12 @@ Cost: {4}{b}{b}{b} | Type: Creature — Zombie | Color identity: B | P/T: */* | 
 Text: Trample
   As this creature enters, exile any number of creature cards from your graveyard.
   Sutured Ghoul's power is equal to the total power of the exiled cards and its toughness is equal to their total toughness.
+
+## Suurok-Class Science Vessel
+Cost: {2}{u} | Type: Artifact — Spacecraft | Color identity: U | P/T: 3/2 | Commander: legal
+Text: When this Spacecraft enters, draw a card.
+  Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 5+.)
+  5+ | Flying
 
 ## Svella, Ice Shaper
 Cost: {1}{r}{g} | Type: Legendary Snow Creature — Troll Warrior | Color identity: GR | P/T: 2/4 | Commander: legal

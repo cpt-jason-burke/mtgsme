@@ -2456,6 +2456,11 @@ Cost: {2} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: Whenever a player casts an instant or sorcery spell, put a number of charge counters on this artifact equal to that spell's mana value.
   {6}, {T}, Remove all charge counters from this artifact: Create a 0/0 green and blue Fractal creature token. Put X +1/+1 counters on it, where X is the number of charge counters removed this way.
 
+## Georgiou, Terran Emperor
+Cost: {4}{b}{b} | Type: Legendary Creature — Human Rogue Noble | Color identity: B | P/T: 4/6 | Commander: legal
+Text: You don't lose the game for having 0 or less life.
+  At the beginning of your end step, you lose 3 life and draw a card. Then if your life total is 0 or less, create ten 1/1 red Officer creature tokens.
+
 ## Geosurge
 Cost: {r}{r}{r}{r} | Type: Sorcery | Color identity: R | Commander: legal
 Text: Add {R}{R}{R}{R}{R}{R}{R}. Spend this mana only to cast artifact or creature spells.
@@ -8763,6 +8768,11 @@ Cost: {5}{u} | Type: Sorcery | Color identity: U | Commander: legal
 Text: Gain control of target monocolored creature.
   Forecast — {1}{U}, Reveal this card from your hand: Target creature becomes the color or colors of your choice until end of turn. (Activate only during your upkeep and only once each turn.)
 
+## Gowron, Eager for Battle
+Cost: {2}{b}{r} | Type: Legendary Creature — Klingon Warrior | Color identity: BR | P/T: 3/3 | Commander: legal
+Text: Whenever another creature dies, put a +1/+1 counter on Gowron.
+  Sacrifice another creature: Gowron gains trample until end of turn. If you sacrificed a Klingon this way, you draw a card and lose 1 life.
+
 ## Graaz, Unstoppable Juggernaut
 Cost: {8} | Type: Legendary Artifact Creature — Juggernaut | Color identity: colorless | P/T: 7/5 | Commander: legal
 Text: Juggernauts you control attack each combat if able.
@@ -9768,6 +9778,10 @@ Text: Flying
 ## Graxiplon
 Cost: {5}{u} | Type: Creature — Beast | Color identity: U | P/T: 3/4 | Commander: legal
 Text: This creature can't be blocked unless defending player controls three or more creatures that share a creature type.
+
+## Gray and Adira, Forever Joined
+Cost: {2}{u/r}{u/r} | Type: Legendary Creature — Trill Human Officer | Color identity: RU | P/T: 2/3 | Commander: legal
+Text: At the beginning of combat on your turn, if you've cast a noncreature spell this turn, create a token that's a copy of target creature you control, except it isn't legendary. It gains haste until end of turn. Sacrifice it at the beginning of the next end step.
 
 ## Gray Harbor Merfolk
 Cost: {1}{u} | Type: Creature — Merfolk Rogue | Color identity: U | P/T: 0/3 | Commander: legal
@@ -12447,6 +12461,10 @@ Ruling (2013-04-15): An ability that triggers when something "attacks and isn't 
 Cost: {w} | Type: Enchantment — Aura | Color identity: W | Commander: legal
 Text: Enchant creature
   Whenever enchanted creature deals damage, this Aura deals that much damage to that creature.
+
+## Guinan, Ancient Advisor
+Cost: {2}{w} | Type: Legendary Creature — El-Aurian Advisor | Color identity: W | P/T: 1/4 | Commander: legal
+Text: {1}, {T}: Put a +1/+1 counter on each creature you control that entered this turn. If you put two or more +1/+1 counters on creatures this way, draw a card.
 
 ## Guise of Fire
 Cost: {r} | Type: Enchantment — Aura | Color identity: R | Commander: legal

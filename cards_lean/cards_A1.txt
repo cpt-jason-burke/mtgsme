@@ -3067,6 +3067,12 @@ Cost: {u} | Type: Instant | Color identity: U | Commander: legal
 Faces: Skycoach Conductor // All Aboard (prepare)
 Text: Exile target non-Pilot creature you control, then return that card to the battlefield under its owner's control.
 
+## All Good Things...
+Cost: {3}{g}{u} | Type: Enchantment — Saga | Color identity: GU | Commander: legal
+Text: (As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)
+  I, II, III — Draw two cards, then exile a card from your hand.
+  IV — If all cards exiled with this Saga share a card type, you gain 10 life.
+
 ## All Hallow's Eve
 Cost: {2}{b}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Exile All Hallow's Eve with two scream counters on it.
@@ -4236,6 +4242,12 @@ Text: {T}: Add one mana of any color. Spend this mana only to cast a creature sp
 Cost: {1}{w} | Type: Instant | Color identity: W | Commander: legal
 Text: Choose a creature type. Creatures you control of the chosen type get +1/+0 and gain indestructible until end of turn.
 
+## Andoria
+Cost: — | Type: Land — Planet | Color identity: RU | Commander: legal
+Text: This land enters tapped.
+  When this land enters, you gain 1 life.
+  {T}: Add {U} or {R}.
+
 ## Andradite Leech
 Cost: {2}{b} | Type: Creature — Leech | Color identity: B | P/T: 2/2 | Commander: legal
 Text: Black spells you cast cost {B} more to cast.
@@ -4972,6 +4984,10 @@ Text: {4}: Put a +1/+1 counter on Ant-Man.
 ## Antagonism
 Cost: {3}{r} | Type: Enchantment | Color identity: R | Commander: legal
 Text: At the beginning of each player's end step, this enchantment deals 2 damage to that player unless one of their opponents was dealt damage this turn.
+
+## Antagonist Incorporator
+Cost: {1}{w} | Type: Artifact Creature — Borg | Color identity: W | P/T: 2/3 | Commander: legal
+Text: Artifact creatures you control have "Whenever this creature deals combat damage to a player, you may pay {1}. If you do, create a 1/1 colorless Borg artifact creature token."
 
 ## Antagonize
 Cost: {1}{r} | Type: Instant | Color identity: R | Commander: legal

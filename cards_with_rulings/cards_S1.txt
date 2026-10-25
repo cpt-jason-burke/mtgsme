@@ -4170,6 +4170,10 @@ Ruling (2025-09-19): If a resolving spell or ability instructs a specific creatu
 Ruling (2025-09-19): If no card is discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive a +1/+1 counter.
 Ruling (2025-09-19): Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter.
 
+## Scotty, Miracle Worker
+Cost: {1}{u}{u} | Type: Legendary Creature — Human Artificer | Color identity: U | P/T: 2/3 | Commander: legal
+Text: During your main phase, each card in your graveyard has beam me up. The beam me up cost is equal to that spell's mana cost. Scotty can't be beamed up to cast a spell this way. (Only instant and sorcery spells can be cast this way. You may cast a card from your graveyard for its beam me up cost if you also return another creature you control to its owner's hand. Then exile that spell.)
+
 ## Scour
 Cost: {2}{w}{w} | Type: Instant | Color identity: W | Commander: legal
 Text: Exile target enchantment. Search its controller's graveyard, hand, and library for all cards with the same name as that enchantment and exile them. Then that player shuffles.
@@ -8311,6 +8315,11 @@ Ruling (2019-10-04): The last ability of Seven Dwarves lets you ignore the "four
 ## Seven of Nine
 Cost: {2}{u}{b} | Type: Legendary Artifact Creature — Human Scientist | Color identity: BU | P/T: 2/4 | Commander: legal
 Text: Whenever you face a dilemma, draw a card. (You face a dilemma as you choose one or more modes for a spell or ability.)
+
+## Seven of Nine, Unassimilated
+Cost: {1}{u} | Type: Legendary Artifact Creature — Human Officer | Color identity: U | P/T: 0/4 | Commander: legal
+Text: At the beginning of your first main phase, draw a card. Then discard a card unless you control five or more differently named lands.
+  {6}{U}: Seven of Nine's base power and toughness become 7/9. Activate only if you control seven or more differently named lands.
 
 ## Seven-Tail Mentor
 Cost: {3}{w} | Type: Creature — Fox Samurai | Color identity: W | P/T: 2/3 | Commander: legal
@@ -22497,6 +22506,10 @@ Ruling (2022-10-14): Although all the cards in The Brothers' War that create Pow
 Ruling (2022-10-14): Powerstone tokens are a kind of predefined token. Each one has the artifact subtype "Powerstone" and the ability "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell."
 Ruling (2022-10-14): You can use the {C} added by a Powerstone token on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
 
+## Spock, Always Your Friend
+Cost: {u}{r} | Type: Legendary Creature — Vulcan Human Scientist | Color identity: RU | P/T: 2/2 | Commander: legal
+Text: When Spock enters, look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
+
 ## Spock, Logical Choice
 Cost: {3}{u}{u} | Type: Legendary Creature — Vulcan Human Scientist | Color identity: U | P/T: 3/5 | Commander: legal
 Text: Vigilance (Attacking doesn't cause this creature to tap.)
@@ -22682,6 +22695,11 @@ Text: At the beginning of your upkeep, put a spore counter on this creature.
 Ruling (2007-05-01): All creatures you control gain the ability, regardless of whether they have spore counters on them, which means for example, they would lose the bonus from Muraganda Petroglyphs.
 Ruling (2007-05-01): Your other creatures that produce spore counters (such as Thallids) can create a Saproling by removing two spore counters (by using this ability) or by removing three spore counters (by using their own ability).
 
+## Spot, Felis catus
+Cost: {2}{w} | Type: Legendary Creature — Cat | Color identity: W | P/T: 1/1 | Commander: legal
+Text: Whenever Spot or another nontoken legendary permanent you control enters, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.")
+  {4}, Sacrifice a Food: Destroy target artifact.
+
 ## Spotcycle Scouter
 Cost: {1}{w} | Type: Artifact — Vehicle | Color identity: W | P/T: 3/2 | Commander: legal
 Text: When this Vehicle enters, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)
@@ -22806,8 +22824,3 @@ Ruling (2023-11-10): If a card that isn't a transforming double-faced card becom
 Ruling (2023-11-10): If the materials required include multiple objects, you may exile some of them from among permanents you control and the rest from among cards in your graveyard. You don't have to choose all permanents or all cards from your graveyard.
 Ruling (2023-11-10): The back faces of some cards with craft refer to cards "used to craft" it. This refers to the cards exiled as part of the cost of the craft ability of the front face. Those cards are considered to be "used to craft" that permanent as long as they remain exiled and the permanent remains on the battlefield, even if the permanent's controller changes or some of its characteristics change (because of a copy effect, for example.)
 Ruling (2023-11-10): You may exile tokens you control as part of the materials required. However, because they aren't cards and won't stay in exile, any abilities that refer to what you "used to craft" the back faces won't refer to anything.
-
-## Springbloom Druid
-Cost: {2}{g} | Type: Creature — Elf Druid | Color identity: G | P/T: 1/1 | Commander: legal
-Text: When this creature enters, you may sacrifice a land. If you do, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.
-Ruling (2019-06-14): While resolving Springbloom Druid's triggered ability, you can't sacrifice multiple lands to search for more than two basic land cards.

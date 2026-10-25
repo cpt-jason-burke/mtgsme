@@ -2503,6 +2503,14 @@ Text: Vigilance
   • Put a +1/+1 counter on target creature. It gains vigilance until end of turn.
   • Draw a card if you control a permanent with a counter on it.
 
+## Federation Outpost
+Cost: — | Type: Land | Color identity: W | Commander: legal
+Text: This land enters tapped unless you control two or more other lands.
+  When this land enters untapped, choose one —
+  • You gain 2 life.
+  • Surveil 1.
+  {T}: Add {W}.
+
 ## Federation Probe
 Cost: {u} | Type: Artifact Creature — Construct | Color identity: U | P/T: 1/1 | Commander: legal
 Text: Flying
@@ -3119,6 +3127,12 @@ Text: At the beginning of your upkeep, put a spore counter on this creature.
 Cost: {4}{g}{g} | Type: Creature — Beast | Color identity: G | P/T: 3/3 | Commander: legal
 Text: Amplify 2 (As this creature enters, put two +1/+1 counters on it for each Beast card you reveal in your hand.)
   Provoke (Whenever this creature attacks, you may have target creature defending player controls untap and block it if able.)
+
+## Ferenginar
+Cost: — | Type: Land — Planet | Color identity: BG | Commander: legal
+Text: This land enters tapped.
+  When this land enters, you gain 1 life.
+  {T}: Add {B} or {G}.
 
 ## Ferocification
 Cost: {2}{r} | Type: Enchantment | Color identity: R | Commander: legal

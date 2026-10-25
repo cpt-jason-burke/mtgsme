@@ -4757,6 +4757,11 @@ Faces: Miles Morales // Ultimate Spider-Man (modaldfc)
 Text: When Miles Morales enters, put a +1/+1 counter on each of up to two target creatures.
   {3}{R}{G}{W}: Transform Miles Morales. Activate only as a sorcery.
 
+## Miles O'Brien, Transporter Ops
+Cost: {2}{w} | Type: Legendary Creature — Human Artificer | Color identity: W | P/T: 3/3 | Commander: legal
+Text: When Miles O'Brien enters, return up to one other target creature or artifact you control to its owner's hand.
+  At the beginning of each end step, if a permanent was returned to your hand from the battlefield this turn, draw a card.
+
 ## Militant Angel
 Cost: {3}{w}{w} | Type: Creature — Angel | Color identity: W | P/T: 3/4 | Commander: legal
 Text: Flying, lifelink
@@ -5770,6 +5775,11 @@ Text: All combat damage that would be dealt to you this turn by target unblocked
 ## Mirror Universe
 Cost: {6} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: {T}, Sacrifice this artifact: Exchange life totals with target opponent. Activate only during your upkeep.
+
+## Mirror Universe Intrusion
+Cost: {1}{u}{b} | Type: Sorcery | Color identity: BU | Commander: legal
+Text: Kicker {4}{U}{B} (You may pay an additional 4 as you cast this spell.)
+  Create a token that's a copy of target creature an opponent controls, except it has menace. If this spell was kicked, instead for each creature target opponent controls, create a token that's a copy of that creature, except it has menace.
 
 ## Mirror Wall
 Cost: {3}{u} | Type: Creature — Wall | Color identity: UW | P/T: 3/4 | Commander: legal
@@ -8272,6 +8282,10 @@ Text: Whenever you roll a 4 or higher, create a 3/3 colorless Robot artifact cre
 ## Mr. Orfeo, the Boulder
 Cost: {1}{b}{r}{g} | Type: Legendary Creature — Rhino Warrior | Color identity: BGR | P/T: 2/4 | Commander: legal
 Text: Whenever you attack, double target creature's power until end of turn.
+
+## Mr. Spock, Science Officer
+Cost: {2}{u}{u} | Type: Legendary Creature — Vulcan Human Scientist | Color identity: U | P/T: 2/4 | Commander: legal
+Text: If you would draw a card, draw two cards instead.
 
 ## Ms. Bumbleflower
 Cost: {1}{g}{w}{u} | Type: Legendary Creature — Rabbit Citizen | Color identity: GUW | P/T: 1/5 | Commander: legal

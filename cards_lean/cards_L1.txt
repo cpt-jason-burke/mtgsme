@@ -1,3 +1,8 @@
+## L'Rell, Fierce Visionary
+Cost: {1}{b}{r} | Type: Legendary Creature — Klingon Warrior | Color identity: BR | P/T: 1/4 | Commander: legal
+Text: At the beginning of combat on your turn, create a 2/1 red Klingon Warrior creature token with haste. Sacrifice it at the beginning of the next end step.
+  {2}, Sacrifice another creature or artifact: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+
 ## La Forge, Perceptive Engineer
 Cost: {1}{u} | Type: Legendary Creature — Human Artificer | Color identity: U | P/T: 1/4 | Commander: legal
 Text: Vigilance (Attacking doesn't cause this creature to tap.)
@@ -1997,6 +2002,11 @@ Text: Rather than pay {2} for each previous time you've cast this spell from the
   Flying, lifelink
   Whenever a player casts a spell, they lose 2 life.
 
+## Lieutenant Commander Data
+Cost: {2}{u} | Type: Legendary Artifact Creature — Android Scientist | Color identity: U | P/T: 2/2 | Commander: legal
+Text: Whenever a player casts a noncreature spell, put a +1/+1 counter on Lieutenant Commander Data.
+  {1}, Remove three counters from among creatures you control: Draw a card.
+
 ## Lieutenant Kirtar
 Cost: {1}{w}{w} | Type: Legendary Creature — Bird Soldier | Color identity: W | P/T: 2/2 | Commander: legal
 Text: Flying
@@ -2987,6 +2997,11 @@ Text: Whenever you cast a noncreature spell, target creature gets +X/+0 until en
 Cost: {2}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: You draw two cards, lose 2 life, and get {E}{E} (two energy counters).
 
+## Live Long and Prosper
+Cost: {5}{w}{u} | Type: Sorcery | Color identity: UW | Commander: legal
+Text: This spell can't be countered.
+  Double your life total. Draw cards equal to the number of cards in your hand. You have no maximum hand size until your next turn.
+
 ## Live or Die
 Cost: {3}{b}{b} | Type: Instant | Color identity: B | Commander: legal
 Text: Choose one —
@@ -3488,6 +3503,16 @@ Text: Flying
   {G}: Regenerate this creature.
   {G}: Untap this creature. Activate only once each turn.
 
+## Locutus of Borg
+Cost: {1}{w}{u}{b} | Type: Legendary Artifact Creature — Borg | Color identity: BUW | P/T: 3/3 | Commander: legal
+Text: Lifelink
+  Artifact creatures you control have "Whenever this creature deals combat damage to a player, create a 1/1 colorless Borg artifact creature token."
+
+## Locutus, the One Who Speaks
+Cost: {w}{b} | Type: Legendary Artifact Creature — Borg | Color identity: BW | P/T: 1/1 | Commander: legal
+Text: Artifact creatures you control get +1/+1.
+  {W}{B}, Discard this card: It deals 2 damage to target creature. You gain 2 life.
+
 ## Lodestone Bauble
 Cost: {0} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: {1}, {T}, Sacrifice this artifact: Put up to four target basic land cards from a player's graveyard on top of their library in any order. That player draws a card at the beginning of the next turn's upkeep.
@@ -3955,6 +3980,12 @@ Text: Reveal this card as you draft it. After you draft this card, you may add a
 Cost: {3}{u} | Type: Creature — Human Wizard | Color identity: U | P/T: 2/2 | Commander: legal
 Text: Partner with Ley Weaver (When this creature enters, target player may put Ley Weaver into their hand from their library, then shuffle.)
   {5}{U}{U}: Target player draws two cards.
+
+## Lore, Positronic Provocateur
+Cost: {1}{u/b}{u/b} | Type: Legendary Artifact Creature — Android Rogue | Color identity: BU | P/T: 2/3 | Commander: legal
+Text: When Lore enters, choose one —
+  • Target creature gets +1/+0 until end of turn and can't be blocked this turn.
+  • Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
 
 ## Lorehold Apprentice
 Cost: {r}{w} | Type: Creature — Human Cleric | Color identity: RW | P/T: 2/2 | Commander: legal
@@ -4452,6 +4483,10 @@ Text: Vigilance
 Cost: {3}{u}{r} | Type: Legendary Creature — Dragon Shaman | Color identity: RU | P/T: 4/2 | Commander: legal
 Text: Flying
   Whenever you cast an Adventure or Dragon spell, Lozhan deals damage equal to that spell's mana value to any target that isn't a commander.
+
+## Lt. Cmdr. Geordi La Forge
+Cost: {2}{u} | Type: Legendary Creature — Human Artificer | Color identity: U | P/T: 3/2 | Commander: legal
+Text: If you would put one or more charge counters on an artifact you control, put twice that many charge counters on that artifact instead.
 
 ## Lu Bu, Master-at-Arms
 Cost: {5}{r} | Type: Legendary Creature — Human Soldier Warrior | Color identity: R | P/T: 4/3 | Commander: legal

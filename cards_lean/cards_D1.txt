@@ -11,6 +11,23 @@ Text: {T}: This creature deals 1 damage to target attacking or blocking creature
 Cost: {2}{w} | Type: Creature — Human Archer | Color identity: W | P/T: 3/2 | Commander: legal
 Text: Whenever you cast a historic spell, tap target creature an opponent controls. (Artifacts, legendaries, and Sagas are historic.)
 
+## D'Ghor Bloodletter
+Cost: {2}{b} | Type: Creature — Klingon Assassin | Color identity: B | P/T: 2/2 | Commander: legal
+Text: When this creature enters, choose one —
+  • All other creatures get -1/-1 until end of turn.
+  • Each player sacrifices a creature of their choice.
+
+## D'Vana Tendi, Optimistic Ensign
+Cost: {1}{g/u}{g/u} | Type: Legendary Creature — Orion Scientist | Color identity: GU | P/T: 2/4 | Commander: legal
+Text: {T}: Untap another target permanent.
+  {3}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+
+## D-7 Battle Cruiser
+Cost: {1}{r} | Type: Artifact — Spacecraft | Color identity: R | P/T: 3/3 | Commander: legal
+Text: Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 8+.)
+  3+ | At the beginning of combat on your turn, create a 2/1 red Klingon Warrior creature token with haste. Sacrifice it at the beginning of the next end step.
+  8+ | Flying
+
 ## Dack Fayden
 Cost: {1}{u}{r} | Type: Legendary Planeswalker — Dack | Color identity: RU | Loyalty/Defense: 3 | Commander: legal
 Text: [+1]: Target player draws two cards, then discards two cards.
@@ -76,6 +93,10 @@ Cost: {3}{w} | Type: Legendary Creature — Human Warrior | Color identity: BGW 
 Text: Vigilance
   Daghatar enters with four +1/+1 counters on it.
   {1}{B/G}{B/G}: Move a +1/+1 counter from target creature onto a second target creature.
+
+## Dahar Master
+Cost: {3}{r} | Type: Creature — Klingon Warrior | Color identity: R | P/T: 4/3 | Commander: legal
+Text: When this creature enters, you may sacrifice another nonland permanent. When you do, this creature deals 2 damage to any target.
 
 ## Dai Li Agents
 Cost: {3}{b}{g} | Type: Creature — Human Soldier | Color identity: BG | P/T: 3/4 | Commander: legal
@@ -157,6 +178,11 @@ Text: Dakmor Sorceress's power is equal to the number of Swamps you control.
 ## Dakra Mystic
 Cost: {u} | Type: Creature — Merfolk Wizard | Color identity: U | P/T: 1/1 | Commander: legal
 Text: {U}, {T}: Each player reveals the top card of their library. You may put the revealed cards into their owners' graveyards. If you don't, each player draws a card.
+
+## Dal R'El, Augment Orphan
+Cost: {1}{r}{g} | Type: Legendary Creature — Human Mutant Rogue | Color identity: GR | P/T: 3/3 | Commander: legal
+Text: Landfall — Whenever a land you control enters, add {R} or {G}.
+  {3}, Sacrifice a land: Draw a card.
 
 ## Dalakos, Crafter of Wonders
 Cost: {1}{u}{r} | Type: Legendary Creature — Merfolk Artificer | Color identity: RU | P/T: 2/4 | Commander: legal
@@ -333,6 +359,11 @@ Text: All creatures able to block target creature this turn do so.
 ## Dangerous Wager
 Cost: {1}{r} | Type: Instant | Color identity: R | Commander: legal
 Text: Discard your hand, then draw two cards.
+
+## Daniels, Temporal Agent
+Cost: {2}{b/g}{b/g} | Type: Legendary Creature — Human Advisor | Color identity: BG | P/T: 3/1 | Commander: legal
+Text: When Daniels enters, return target creature card from your graveyard to your hand.
+  {2}, Put this card from your graveyard on the bottom of your library: You gain 2 life.
 
 ## Danitha Capashen, Paragon
 Cost: {2}{w} | Type: Legendary Creature — Human Knight | Color identity: W | P/T: 2/2 | Commander: legal
@@ -973,6 +1004,10 @@ Text: When you cast this spell, any player may pay 5 life. If a player does, cou
 ## Dashing Bloodsucker
 Cost: {3}{b} | Type: Creature — Vampire Warrior | Color identity: B | P/T: 2/5 | Commander: legal
 Text: Eerie — Whenever an enchantment you control enters and whenever you fully unlock a Room, this creature gets +2/+0 and gains lifelink until end of turn.
+
+## Data, New Life
+Cost: {1}{u} | Type: Legendary Artifact Creature — Android Scientist | Color identity: U | P/T: 0/1 | Commander: legal
+Text: Whenever you draw a card, put a +1/+1 counter on Data.
 
 ## Dathon and Picard at El-Adrel
 Cost: {2}{g} | Type: Instant | Color identity: G | Commander: legal
@@ -1770,6 +1805,11 @@ Text: (As this Saga enters and after your draw step, add a lore counter. Sacrifi
 Cost: {1}{b} | Type: Instant | Color identity: B | Commander: legal
 Text: Exile target creature with mana value 3 or less.
 
+## Death Is Irrelevant
+Cost: {6}{b}{b} | Type: Enchantment | Color identity: B | Commander: legal
+Text: Artifact creatures you control have indestructible.
+  At the beginning of your end step, assimilate target creature card from a graveyard. (Put it onto the battlefield under your control with a +1/+1 counter. It's a Borg artifact creature and loses all other creature types.)
+
 ## Death Kiss
 Cost: {5}{r} | Type: Creature — Beholder | Color identity: R | P/T: 5/5 | Commander: legal
 Text: Whenever a creature an opponent controls attacks one of your opponents, double its power until end of turn.
@@ -2417,6 +2457,16 @@ Text: Search your library for a basic land card, put that card onto the battlefi
 Cost: {g}{u} | Type: Sorcery | Color identity: GU | Commander: legal
 Faces: Tam, Observant Sequencer // Deep Sight (prepare)
 Text: You draw a card and gain 1 life.
+
+## Deep Space 9
+Cost: {9} | Type: Legendary Artifact — Spacecraft | Color identity: colorless | Commander: legal
+Text: When Deep Space 9 enters and at the beginning of your upkeep, exile the top four cards of your library. Put all permanent cards exiled this way onto the battlefield.
+  Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
+  9+ | Creatures you control get +3/+3.
+
+## Deep Space Scan
+Cost: {4}{u}{u} | Type: Sorcery | Color identity: U | Commander: legal
+Text: Strange new worlds — Draw X cards, where X is the number of differently named lands you control. You have no maximum hand size until your next turn.
 
 ## Deep Spawn
 Cost: {5}{u}{u}{u} | Type: Creature — Homarid | Color identity: U | P/T: 6/6 | Commander: legal
@@ -6541,12 +6591,22 @@ Cost: {2}{u}{b}{r} | Type: Legendary Creature — Human Scientist | Color identi
 Text: Flying
   At the beginning of your end step, draw a card. Then each opponent faces a villainous choice — That player discards a card, or you may put a Construct, Robot, or Vehicle card from your hand onto the battlefield.
 
+## Dr. Joseph M'Benga
+Cost: {2}{g}{g} | Type: Legendary Creature — Human Doctor | Color identity: G | P/T: 3/3 | Commander: legal
+Text: Other creatures you control with counters on them have hexproof.
+  If you would put one or more counters on a creature you control, put twice that many of each of those kinds of counters on that creature instead.
+
 ## Dr. Madison Li
 Cost: {u}{r}{w} | Type: Legendary Creature — Human Scientist | Color identity: RUW | P/T: 2/3 | Commander: legal
 Text: Whenever you cast an artifact spell, you get {E} (an energy counter).
   {T}, Pay {E}: Target creature gets +1/+0 and gains trample and haste until end of turn.
   {T}, Pay {E}{E}{E}: Draw a card.
   {T}, Pay {E}{E}{E}{E}{E}: Return target artifact card from your graveyard to the battlefield tapped.
+
+## Dr. McCoy, Surly Surgeon
+Cost: {2}{w}{w} | Type: Legendary Creature — Human Doctor | Color identity: W | P/T: 2/2 | Commander: legal
+Text: When Dr. McCoy enters, put a +1/+1 counter on another target creature you control.
+  If another creature you control with a +1/+1 counter on it would be destroyed, instead remove all +1/+1 counters from it and all damage already dealt to it is healed.
 
 ## Drach'Nyen
 Cost: {4}{b}{r} | Type: Legendary Artifact — Equipment | Color identity: BR | Commander: legal

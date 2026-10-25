@@ -2,11 +2,30 @@
 Cost: {3}{w/b} | Type: Legendary Creature — Human Soldier Hero | Color identity: BW | P/T: 3/2 | Commander: legal
 Text: When U.S.Agent enters, create a colorless Equipment artifact token named Sturdy Shield with "Equipped creature gets +1/+2" and equip {2}. Attach it to U.S.Agent.
 
+## U.S.S. Discovery, at Black Alert
+Cost: {3}{g}{g} | Type: Legendary Artifact — Spacecraft | Color identity: G | P/T: 5/5 | Commander: legal
+Text: Whenever U.S.S. Discovery enters or attacks, discover 5. (Exile cards from the top of your library until you exile a nonland card with mana value 5 or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)
+  Station
+  6+ | Flying
+
+## U.S.S. Enterprise-A, Free Spirit
+Cost: {3}{w}{w} | Type: Legendary Artifact — Spacecraft | Color identity: W | P/T: 5/5 | Commander: legal
+Text: Ward {2}
+  When U.S.S. Enterprise-A enters, create three 1/1 red Officer creature tokens.
+  Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 6+.)
+  6+ | Flying, lifelink
+
 ## U.S.S. Enterprise-D, Galaxy-Class
 Cost: {3} | Type: Legendary Artifact — Spacecraft | Color identity: colorless | P/T: 4/5 | Commander: legal
 Text: Whenever one or more charge counters are put on U.S.S. Enterprise-D for the first time each turn, exile the top card of your library. You may play that card this turn.
   Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 7+.)
   7+ | Flying, vigilance
+
+## U.S.S. Reliant, From Hell's Heart
+Cost: {2}{b}{b} | Type: Legendary Artifact — Spacecraft | Color identity: B | P/T: 4/3 | Commander: legal
+Text: Whenever U.S.S. Reliant enters or deals combat damage to a player, return target creature card with mana value 4 or less from your graveyard to the battlefield with a finality counter on it.
+  Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 10+.)
+  10+ | Flying
 
 ## Uba Mask
 Cost: {4} | Type: Artifact | Color identity: colorless | Commander: legal
@@ -772,6 +791,10 @@ Ruling (2020-06-01): If you reveal a companion outside the game, for as long as 
 Ruling (2020-06-01): Once you put your companion into your hand, it behaves like any other card you've brought into the game. For example, if it's countered or destroyed, it's put into your graveyard, remaining in the game.
 Ruling (2020-06-01): Paying {3} to put your companion into your hand is a special action. It doesn't use the stack and players can't respond to it. Once you take this action, you may cast that card if it's legal to do so before any other player can take actions.
 Ruling (2020-06-01): Wizards of the Coast has issued functional errata for the Companion mechanic. Instead of casting companions from outside the game: Once per game, any time you could cast a sorcery (during your main phase when the stack is empty), you can pay {3} to put your companion from your sideboard into your hand. This is a special action, not an activated ability. It happens immediately and can't be responded to. It can't be countered or stopped by cards like Phyrexian Revoker. For more information please see https://magic.wizards.com/en/articles/archive/news/june-1-2020-banned-and-restricted-announcement
+
+## Una Chin-Riley, Number One
+Cost: {4}{w} | Type: Legendary Creature — Illyrian Officer | Color identity: W | P/T: 4/5 | Commander: legal
+Text: Whenever you attack while creatures you control have total power 8 or greater, target attacking creature gets +2/+0 and gains first strike until end of turn.
 
 ## Unable to Scream
 Cost: {u} | Type: Enchantment — Aura | Color identity: U | Commander: legal
@@ -1711,6 +1734,11 @@ Ruling (2019-10-04): Adamant effects check what mana was actually spent to cast 
 Ruling (2019-10-04): If an effect allows you to cast a spell without paying its mana cost, you can't choose to cast it and pay unless another rule or effect allows you to cast that spell for a cost. Similarly, you can't waive a cost reduction unless that effect says you may.
 Ruling (2019-10-04): If an instant or sorcery spell has an adamant ability, you perform the spell's instructions in order. You don't perform the adamant instruction before the spell resolves or before any other effects printed above it.
 Ruling (2019-10-04): If you copy a spell that has an adamant ability, no mana was spent to cast the copy at all, so that ability won't apply.
+
+## Unexplored Territory
+Cost: — | Type: Land | Color identity: colorless | Commander: legal
+Text: {T}: Add {C}.
+  {1}, {T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
 
 ## Unfathomable Truths
 Cost: {4}{u} | Type: Instant | Color identity: U | Commander: legal

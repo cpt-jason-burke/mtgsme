@@ -390,6 +390,10 @@ Text: Spree (Choose one or more additional costs.)
   + {3} — Put a +1/+1 counter on target creature. It can't be blocked this turn.
   + {2} — Target artifact or creature's owner puts it on their choice of the top or bottom of their library.
 
+## Jake Sisko, War Correspondent
+Cost: {1}{g} | Type: Legendary Creature — Human Citizen | Color identity: G | P/T: 2/2 | Commander: legal
+Text: Landfall — Whenever a land you control enters, you gain 1 life. If this is the second time this ability has resolved this turn, investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
+
 ## Jalira, Master Polymorphist
 Cost: {3}{u} | Type: Legendary Creature — Human Wizard | Color identity: U | P/T: 2/2 | Commander: legal
 Text: {2}{U}, {T}, Sacrifice another creature: Reveal cards from the top of your library until you reveal a nonlegendary creature card. Put that card onto the battlefield and the rest on the bottom of your library in a random order.
@@ -1163,6 +1167,10 @@ Text: Untap up to two target creatures. They each get +2/+2 until end of turn.
 ## Join Shields
 Cost: {3}{g}{w} | Type: Instant | Color identity: GW | Commander: legal
 Text: Untap all creatures you control. They gain hexproof and indestructible until end of turn. (They can't be the targets of spells or abilities your opponents control. Damage and effects that say "destroy" don't destroy them.)
+
+## Join the Collective
+Cost: {5}{w}{w} | Type: Sorcery | Color identity: W | Commander: legal
+Text: Destroy all creatures. Create X 1/1 colorless Borg artifact creature tokens, where X is the number of nonartifact creatures destroyed this way.
 
 ## Join the Dance
 Cost: {g}{w} | Type: Sorcery | Color identity: GW | Commander: legal

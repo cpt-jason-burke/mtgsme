@@ -15,6 +15,23 @@ Ruling (2018-04-27): An ability that triggers "whenever you cast a historic spel
 Ruling (2018-04-27): Lands are never cast, so abilities that trigger "whenever you cast a historic spell" won't trigger if you play a legendary land. They also won't trigger if a card on the battlefield transforms into a legendary land, as the Ixalan and Rivals of Ixalan double-faced cards do.
 Ruling (2018-04-27): Some abilities trigger "whenever you cast a historic spell." Such an ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
 
+## D'Ghor Bloodletter
+Cost: {2}{b} | Type: Creature — Klingon Assassin | Color identity: B | P/T: 2/2 | Commander: legal
+Text: When this creature enters, choose one —
+  • All other creatures get -1/-1 until end of turn.
+  • Each player sacrifices a creature of their choice.
+
+## D'Vana Tendi, Optimistic Ensign
+Cost: {1}{g/u}{g/u} | Type: Legendary Creature — Orion Scientist | Color identity: GU | P/T: 2/4 | Commander: legal
+Text: {T}: Untap another target permanent.
+  {3}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+
+## D-7 Battle Cruiser
+Cost: {1}{r} | Type: Artifact — Spacecraft | Color identity: R | P/T: 3/3 | Commander: legal
+Text: Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 8+.)
+  3+ | At the beginning of combat on your turn, create a 2/1 red Klingon Warrior creature token with haste. Sacrifice it at the beginning of the next end step.
+  8+ | Flying
+
 ## Dack Fayden
 Cost: {1}{u}{r} | Type: Legendary Planeswalker — Dack | Color identity: RU | Loyalty/Defense: 3 | Commander: legal
 Text: [+1]: Target player draws two cards, then discards two cards.
@@ -110,6 +127,10 @@ Text: Vigilance
 Ruling (2014-11-24): The +1/+1 counter is moved only if both targets are still legal as the ability resolves.
 Ruling (2014-11-24): The two targets of the last ability must be different creatures. Either one may be Daghatar the Adamant.
 Ruling (2014-11-24): To move a counter from one creature to another, the counter is removed from the first creature and placed on the second. Any abilities that care about a counter being placed on the second creature will apply.
+
+## Dahar Master
+Cost: {3}{r} | Type: Creature — Klingon Warrior | Color identity: R | P/T: 4/3 | Commander: legal
+Text: When this creature enters, you may sacrifice another nonland permanent. When you do, this creature deals 2 damage to any target.
 
 ## Dai Li Agents
 Cost: {3}{b}{g} | Type: Creature — Human Soldier | Color identity: BG | P/T: 3/4 | Commander: legal
@@ -215,6 +236,11 @@ Text: Dakmor Sorceress's power is equal to the number of Swamps you control.
 Cost: {u} | Type: Creature — Merfolk Wizard | Color identity: U | P/T: 1/1 | Commander: legal
 Text: {U}, {T}: Each player reveals the top card of their library. You may put the revealed cards into their owners' graveyards. If you don't, each player draws a card.
 Ruling (2014-04-26): You make the decision after all the cards are revealed. If you decide not to put the cards into their owners' graveyards, the card each player draws will be the revealed card.
+
+## Dal R'El, Augment Orphan
+Cost: {1}{r}{g} | Type: Legendary Creature — Human Mutant Rogue | Color identity: GR | P/T: 3/3 | Commander: legal
+Text: Landfall — Whenever a land you control enters, add {R} or {G}.
+  {3}, Sacrifice a land: Draw a card.
 
 ## Dalakos, Crafter of Wonders
 Cost: {1}{u}{r} | Type: Legendary Creature — Merfolk Artificer | Color identity: RU | P/T: 2/4 | Commander: legal
@@ -503,6 +529,11 @@ Ruling (2013-04-15): You can choose the same object as the target of each half o
 Cost: {1}{r} | Type: Instant | Color identity: R | Commander: legal
 Text: Discard your hand, then draw two cards.
 Ruling (2012-05-01): If you have no cards in hand when Dangerous Wager resolves, you'll simply draw two cards.
+
+## Daniels, Temporal Agent
+Cost: {2}{b/g}{b/g} | Type: Legendary Creature — Human Advisor | Color identity: BG | P/T: 3/1 | Commander: legal
+Text: When Daniels enters, return target creature card from your graveyard to your hand.
+  {2}, Put this card from your graveyard on the bottom of your library: You gain 2 life.
 
 ## Danitha Capashen, Paragon
 Cost: {2}{w} | Type: Legendary Creature — Human Knight | Color identity: W | P/T: 2/2 | Commander: legal
@@ -1390,6 +1421,10 @@ Text: Eerie — Whenever an enchantment you control enters and whenever you full
 Ruling (2024-09-20): An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
 Ruling (2024-09-20): If a permanent with an eerie ability enters at the same time as one or more enchantments, its ability will trigger for each of those enchantments.
 Ruling (2024-09-20): Multiple instances of lifelink on the same creature are redundant.
+
+## Data, New Life
+Cost: {1}{u} | Type: Legendary Artifact Creature — Android Scientist | Color identity: U | P/T: 0/1 | Commander: legal
+Text: Whenever you draw a card, put a +1/+1 counter on Data.
 
 ## Dathon and Picard at El-Adrel
 Cost: {2}{g} | Type: Instant | Color identity: G | Commander: legal
@@ -2598,6 +2633,11 @@ Cost: {1}{b} | Type: Instant | Color identity: B | Commander: legal
 Text: Exile target creature with mana value 3 or less.
 Ruling (2026-01-27): If a creature has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
 
+## Death Is Irrelevant
+Cost: {6}{b}{b} | Type: Enchantment | Color identity: B | Commander: legal
+Text: Artifact creatures you control have indestructible.
+  At the beginning of your end step, assimilate target creature card from a graveyard. (Put it onto the battlefield under your control with a +1/+1 counter. It's a Borg artifact creature and loses all other creature types.)
+
 ## Death Kiss
 Cost: {5}{r} | Type: Creature — Beholder | Color identity: R | P/T: 5/5 | Commander: legal
 Text: Whenever a creature an opponent controls attacks one of your opponents, double its power until end of turn.
@@ -3516,6 +3556,16 @@ Ruling (2026-03-20): If an effect instructs you to choose a card name, you may c
 Ruling (2026-03-20): Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
 Ruling (2026-03-20): Preparation cards can only be cast with their base characteristics.
 Ruling (2026-03-20): While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+
+## Deep Space 9
+Cost: {9} | Type: Legendary Artifact — Spacecraft | Color identity: colorless | Commander: legal
+Text: When Deep Space 9 enters and at the beginning of your upkeep, exile the top four cards of your library. Put all permanent cards exiled this way onto the battlefield.
+  Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
+  9+ | Creatures you control get +3/+3.
+
+## Deep Space Scan
+Cost: {4}{u}{u} | Type: Sorcery | Color identity: U | Commander: legal
+Text: Strange new worlds — Draw X cards, where X is the number of differently named lands you control. You have no maximum hand size until your next turn.
 
 ## Deep Spawn
 Cost: {5}{u}{u}{u} | Type: Creature — Homarid | Color identity: U | P/T: 6/6 | Commander: legal
@@ -9863,6 +9913,11 @@ Cost: {2}{u}{b}{r} | Type: Legendary Creature — Human Scientist | Color identi
 Text: Flying
   At the beginning of your end step, draw a card. Then each opponent faces a villainous choice — That player discards a card, or you may put a Construct, Robot, or Vehicle card from your hand onto the battlefield.
 
+## Dr. Joseph M'Benga
+Cost: {2}{g}{g} | Type: Legendary Creature — Human Doctor | Color identity: G | P/T: 3/3 | Commander: legal
+Text: Other creatures you control with counters on them have hexproof.
+  If you would put one or more counters on a creature you control, put twice that many of each of those kinds of counters on that creature instead.
+
 ## Dr. Madison Li
 Cost: {u}{r}{w} | Type: Legendary Creature — Human Scientist | Color identity: RUW | P/T: 2/3 | Commander: legal
 Text: Whenever you cast an artifact spell, you get {E} (an energy counter).
@@ -9879,6 +9934,11 @@ Ruling (2024-03-08): Some spells and abilities that give you {E} may require tar
 Ruling (2024-03-08): Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
 Ruling (2024-03-08): Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
 Ruling (2024-03-08): {E} is the energy symbol. It represents one energy counter.
+
+## Dr. McCoy, Surly Surgeon
+Cost: {2}{w}{w} | Type: Legendary Creature — Human Doctor | Color identity: W | P/T: 2/2 | Commander: legal
+Text: When Dr. McCoy enters, put a +1/+1 counter on another target creature you control.
+  If another creature you control with a +1/+1 counter on it would be destroyed, instead remove all +1/+1 counters from it and all damage already dealt to it is healed.
 
 ## Drach'Nyen
 Cost: {4}{b}{r} | Type: Legendary Artifact — Equipment | Color identity: BR | Commander: legal

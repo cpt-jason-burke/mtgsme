@@ -6993,6 +6993,11 @@ Ruling (2025-09-19): The mana value of a modal double-faced card is based on the
 Ruling (2025-09-19): To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
 Ruling (2025-09-19): While a double-faced card isn't on the stack or battlefield, consider only the characteristics of its front face.
 
+## Miles O'Brien, Transporter Ops
+Cost: {2}{w} | Type: Legendary Creature — Human Artificer | Color identity: W | P/T: 3/3 | Commander: legal
+Text: When Miles O'Brien enters, return up to one other target creature or artifact you control to its owner's hand.
+  At the beginning of each end step, if a permanent was returned to your hand from the battlefield this turn, draw a card.
+
 ## Militant Angel
 Cost: {3}{w}{w} | Type: Creature — Angel | Color identity: W | P/T: 3/4 | Commander: legal
 Text: Flying, lifelink
@@ -8472,6 +8477,11 @@ Cost: {6} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: {T}, Sacrifice this artifact: Exchange life totals with target opponent. Activate only during your upkeep.
 Ruling (2007-09-16): When the life totals are exchanged, each player gains or loses the amount of life necessary to equal the other player's previous life total. For example, if player A has 5 life and player B has 3 life before the exchange, player A will lose 2 life and player B will gain 2 life. Replacement effects may modify these gains and losses, and triggered abilities may trigger on them.
 Ruling (2011-01-01): If an effect says that a player can't lose life, that player can't exchange life totals with a player who has a lower life total; in that case, the exchange won't happen.
+
+## Mirror Universe Intrusion
+Cost: {1}{u}{b} | Type: Sorcery | Color identity: BU | Commander: legal
+Text: Kicker {4}{U}{B} (You may pay an additional 4 as you cast this spell.)
+  Create a token that's a copy of target creature an opponent controls, except it has menace. If this spell was kicked, instead for each creature target opponent controls, create a token that's a copy of that creature, except it has menace.
 
 ## Mirror Wall
 Cost: {3}{u} | Type: Creature — Wall | Color identity: UW | P/T: 3/4 | Commander: legal
@@ -12222,6 +12232,10 @@ Ruling (2024-03-08): The die rolls caused by Mr. House's last ability have no in
 Cost: {1}{b}{r}{g} | Type: Legendary Creature — Rhino Warrior | Color identity: BGR | P/T: 2/4 | Commander: legal
 Text: Whenever you attack, double target creature's power until end of turn.
 Ruling (2022-04-29): To double a creature's power, that creature gets +X/+0, where X is that creature's power as Mr. Orfeo's triggered ability resolves.
+
+## Mr. Spock, Science Officer
+Cost: {2}{u}{u} | Type: Legendary Creature — Vulcan Human Scientist | Color identity: U | P/T: 2/4 | Commander: legal
+Text: If you would draw a card, draw two cards instead.
 
 ## Ms. Bumbleflower
 Cost: {1}{g}{w}{u} | Type: Legendary Creature — Rabbit Citizen | Color identity: GUW | P/T: 1/5 | Commander: legal

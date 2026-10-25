@@ -181,6 +181,12 @@ Cost: {1}{u} | Type: Creature — Human Peasant | Color identity: U | P/T: 2/1 |
 Faces: Baithook Angler // Hook-Haunt Drifter (transform)
 Text: Disturb {1}{U} (You may cast this card from your graveyard transformed for its disturb cost.)
 
+## Bajor
+Cost: — | Type: Land — Planet | Color identity: RW | Commander: legal
+Text: This land enters tapped.
+  When this land enters, you gain 1 life.
+  {T}: Add {R} or {W}.
+
 ## Bake into a Pie
 Cost: {2}{b}{b} | Type: Instant | Color identity: B | Commander: legal
 Text: Destroy target creature. Create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.")
@@ -4037,6 +4043,12 @@ Cost: {2}{g}{g} | Type: Creature — Beast | Color identity: G | P/T: 5/5 | Comm
 Text: Shroud (This creature can't be the target of spells or abilities.)
   Fading 3 (This creature enters with three fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.)
 
+## Blastoneuron
+Cost: {3}{b} | Type: Creature — Jellyfish Leech | Color identity: B | P/T: 2/2 | Commander: legal
+Text: Flying
+  When this creature enters, exile target creature card with mana value 3 or less from your graveyard. Create a token that's a copy of it. That token gains haste. Sacrifice it at the beginning of the next end step.
+  Whenever one or more cards leave your graveyard, each opponent loses 1 life and you gain 1 life.
+
 ## Blatant Thievery
 Cost: {4}{u}{u}{u} | Type: Sorcery | Color identity: U | Commander: legal
 Text: For each opponent, gain control of target permanent that player controls.
@@ -6621,6 +6633,13 @@ Text: This land enters tapped.
 Cost: {2}{w} | Type: Creature — Pegasus | Color identity: W | P/T: 2/1 | Commander: legal
 Text: Flying
   When this creature leaves the battlefield, choose an opponent who controls more lands than you. Search your library for a number of Plains cards equal to the difference, reveal those cards, put one of them onto the battlefield tapped and the rest into your hand, then shuffle.
+
+## Borg Cube
+Cost: {5}{w}{b} | Type: Artifact — Spacecraft | Color identity: BW | P/T: 6/6 | Commander: legal
+Text: Affinity for artifact creatures
+  Whenever this Spacecraft enters or attacks, assimilate a creature card exiled with it. If you can't, exile up to one target creature. (To assimilate a card, put it onto the battlefield under your control with a +1/+1 counter. It's a Borg artifact creature and loses all other creature types.)
+  Station
+  12+ | Artifact creatures you control have flying.
 
 ## Borg Queen, Perfection Manifest
 Cost: {4}{b}{b} | Type: Legendary Artifact Creature — Borg Noble | Color identity: B | P/T: 1/4 | Commander: legal

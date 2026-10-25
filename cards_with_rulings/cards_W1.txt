@@ -1559,6 +1559,11 @@ Cost: {b}{b} | Type: Enchantment — Aura | Color identity: B | Commander: legal
 Text: Enchant artifact
   At the beginning of the upkeep of enchanted artifact's controller, this Aura deals 1 damage to that player.
 
+## Warp Core
+Cost: {2} | Type: Artifact | Color identity: colorless | Commander: legal
+Text: When this artifact enters, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+  {1}, {T}: Put two charge counters on target Spacecraft. Activate only as a sorcery.
+
 ## Warp World
 Cost: {5}{r}{r}{r} | Type: Sorcery | Color identity: R | Commander: legal
 Text: Each player shuffles all permanents they own into their library, then reveals that many cards from the top of their library. Each player puts all artifact, creature, and land cards revealed this way onto the battlefield, then does the same for enchantment cards, then puts all cards revealed this way that weren't put onto the battlefield on the bottom of their library.
@@ -7259,6 +7264,20 @@ Ruling (2004-10-04): If multiple Words have been used prior to drawing a card, t
 ## Worf, Chief Tactical Officer
 Cost: {2}{w} | Type: Legendary Creature — Klingon Warrior Officer | Color identity: W | P/T: 2/3 | Commander: legal
 Text: Vigilance (Attacking doesn't cause this creature to tap.)
+
+## Worf, Defiant Commander
+Cost: {2}{r}{w}{b} | Type: Legendary Creature — Klingon Warrior Officer | Color identity: BRW | P/T: 3/4 | Commander: legal
+Text: When Worf enters, create a 2/1 red Klingon Warrior creature token with haste.
+  Battlefront — Whenever you attack, exile the top X cards of your library, where X is the number of opponents you attacked this turn. Until the end of your next turn, you may play those cards.
+
+## Worf, Honor-Bound Warrior
+Cost: {r/w}{r/w} | Type: Legendary Creature — Klingon Warrior Officer | Color identity: RW | P/T: 1/1 | Commander: legal
+Text: Whenever you attack while creatures you control have total power 8 or greater, double Worf's power until end of turn.
+  Tap two untapped artifacts and/or creatures you control: Put a +1/+1 counter on Worf. Activate only as a sorcery.
+
+## Worf, Intelligence Contractor
+Cost: {2}{r} | Type: Legendary Creature — Klingon Warrior Spy | Color identity: R | P/T: 3/2 | Commander: legal
+Text: When Worf enters, for each opponent, gain control of up to one target creature that player controls with mana value 3 or less until end of turn. Untap those creatures. Until end of turn, they become Warriors in addition to their other types and gain haste.
 
 ## Workhorse
 Cost: {6} | Type: Artifact Creature — Horse | Color identity: colorless | P/T: 0/0 | Commander: legal

@@ -2891,6 +2891,11 @@ Ruling (2020-09-25): The mana value of a modal double-faced card is based on the
 Ruling (2020-09-25): There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
 Ruling (2020-09-25): To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
 
+## Khan, Vengeful Heart
+Cost: {2}{b}{b} | Type: Legendary Creature — Human Warrior | Color identity: B | P/T: 5/3 | Commander: legal
+Text: When Khan enters, you may sacrifice another creature or artifact. If you do, draw two cards.
+  You may cast this card from exile.
+
 ## Khenra Charioteer
 Cost: {1}{r}{g} | Type: Creature — Jackal Warrior | Color identity: GR | P/T: 3/3 | Commander: legal
 Text: Trample
@@ -3757,6 +3762,12 @@ Text: When Kiora enters, draw two cards, then discard two cards.
   Threshold — Whenever Kiora attacks, if there are seven or more cards in your graveyard, you may create Scion of the Deep, a legendary 8/8 blue Octopus creature token.
 Ruling (2024-11-08): Kiora's threshold ability checks your graveyard at the moment it would trigger to see if you have seven or more cards in your graveyard. If you don't, the ability won't trigger at all. If it does trigger, the ability will check again as it tries to resolve. If you don't have seven or more cards in your graveyard at that time, the ability won't resolve and none of its effects will happen.
 
+## Kira Nerys, Firebrand
+Cost: {1}{r}{w} | Type: Legendary Creature — Bajoran Soldier | Color identity: RW | P/T: 4/3 | Commander: legal
+Text: Trample
+  If a creature you control would enter while you control an attacking creature, instead it enters tapped and attacking.
+  Whenever another creature you control enters, it gets +1/+1 until end of turn.
+
 ## Kira, Great Glass-Spinner
 Cost: {1}{u}{u} | Type: Legendary Creature — Spirit | Color identity: U | P/T: 2/2 | Commander: legal
 Text: Flying
@@ -3789,6 +3800,11 @@ Ruling (2022-02-18): Each transforming double-faced card in this set is cast fac
 Ruling (2022-02-18): If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Azusa's Many Journeys, the chapter III ability will cause it to be exiled and then remain in exile.
 Ruling (2022-02-18): The back face of a transforming double-faced card usually has a color indicator that defines its color.
 Ruling (2022-02-18): The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
+
+## Kirk, Commanding Officer
+Cost: {1}{r}{w} | Type: Legendary Creature — Human Officer | Color identity: RW | P/T: 3/3 | Commander: legal
+Text: Whenever you attack while creatures you control have total power 8 or greater, exile the top card of your library. You may play that card this turn.
+  {2}, Sacrifice Kirk: Destroy target artifact or enchantment.
 
 ## Kirk, Enterprising Captain
 Cost: {3}{r} | Type: Legendary Creature — Human Officer | Color identity: R | P/T: 4/3 | Commander: legal
@@ -4820,6 +4836,14 @@ Text: Double strike, trample, haste
 Cost: {2}{w} | Type: Creature — Bear Sheep | Color identity: W | P/T: 3/2 | Commander: legal
 Text: When this creature enters, you gain 3 life.
 
+## Kobayashi Maru Scenario
+Cost: {1}{u}{u} | Type: Enchantment | Color identity: U | Commander: legal
+Text: At the beginning of your upkeep, choose one that hasn't been chosen —
+  • Hail — Return up to one target creature an opponent controls with mana value 3 or less to its owner's hand.
+  • Sensors — Draw two cards.
+  • Transport — Create two 1/1 red Officer creature tokens.
+  • Abandon Ship — You lose the game.
+
 ## Kobold Drill Sergeant
 Cost: {1}{r} | Type: Creature — Kobold Soldier | Color identity: R | P/T: 1/2 | Commander: legal
 Text: Other Kobold creatures you control get +0/+1 and have trample.
@@ -5018,6 +5042,11 @@ Cost: {r}{w} | Type: Legendary Creature — Human Pilot | Color identity: RW | P
 Text: Mounts and Vehicles you control have haste.
   Whenever a Mount you control enters, it becomes saddled until end of turn.
   Whenever a Vehicle you control enters, it becomes an artifact creature until end of turn.
+
+## Koloth, Tribble Hunter
+Cost: {3}{r} | Type: Legendary Creature — Klingon Warrior Officer | Color identity: R | P/T: 3/3 | Commander: legal
+Text: At the beginning of your end step, each player creates two 1/1 white Tribble creature tokens with "This token can't block."
+  All Tribbles get +1/+0 and are goaded. (They attack each combat if able and attack a player other than you if able.)
 
 ## Kolvori, God of Kinship
 Cost: {2}{g}{g} | Type: Legendary Creature — God | Color identity: G | P/T: 2/4 | Commander: legal

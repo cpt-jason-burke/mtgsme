@@ -152,6 +152,12 @@ Cost: {4}{g}{g} | Type: Sorcery | Color identity: G | Commander: legal
 Text: Teamwork 5 (As an additional cost to cast this spell, you may tap any number of creatures you control with total power 5 or more.)
   Reveal the top eight cards of your library. You may put a creature card from among them onto the battlefield. If this spell was cast using teamwork, put any number of creature cards from among them onto the battlefield instead. Put the rest into your graveyard.
 
+## Earth, Sector 001
+Cost: — | Type: Land — Planet | Color identity: GU | Commander: legal
+Text: This land enters tapped.
+  When this land enters, you gain 1 life.
+  {T}: Add {G} or {U}.
+
 ## Earth-Cult Elemental
 Cost: {4}{r}{r} | Type: Creature — Elemental | Color identity: R | P/T: 6/6 | Commander: legal
 Text: Siege Monster — When this creature enters, roll a d20.
@@ -1486,6 +1492,11 @@ Cost: {4}{u}{u} | Type: Legendary Creature — Sphinx | Color identity: U | P/T:
 Text: Flying
   If you would scry a number of cards, draw that many cards instead.
   Partner (You can have two commanders if both have partner.)
+
+## Elim Garak, Simple Tailor
+Cost: {2}{b} | Type: Legendary Creature — Cardassian Rogue | Color identity: B | P/T: 3/3 | Commander: legal
+Text: Menace
+  Whenever you face a dilemma, each opponent loses 2 life and you gain 2 life. (You face a dilemma as you choose one or more modes for a spell or ability.)
 
 ## Eliminate
 Cost: {1}{b} | Type: Instant | Color identity: B | Commander: legal
@@ -2986,6 +2997,11 @@ Text: Flying
 Cost: {4}{b} | Type: Creature — Spirit | Color identity: B | P/T: 4/2 | Commander: legal
 Text: Protection from multicolored
 
+## Energize
+Cost: {1}{u} | Type: Sorcery | Color identity: U | Commander: legal
+Text: Return target creature an opponent controls to its owner's hand.
+  Beam me up {3}{U} (You may cast this card from your graveyard for {3}{U} if you also return a creature you control to its owner's hand. Then exile this spell.)
+
 ## Energizer
 Cost: {4} | Type: Artifact Creature — Juggernaut | Color identity: colorless | P/T: 2/2 | Commander: legal
 Text: {2}, {T}: Put a +1/+1 counter on this creature.
@@ -3224,6 +3240,10 @@ Text: Reveal the top X cards of your library. Put all creature cards revealed th
 ## Enshrouding Mist
 Cost: {w} | Type: Instant | Color identity: W | Commander: legal
 Text: Target creature gets +1/+1 until end of turn. Prevent all damage that would be dealt to it this turn. If it's renowned, untap it.
+
+## Ensign Pavel Chekov
+Cost: {3}{u} | Type: Legendary Creature — Human Pilot | Color identity: U | P/T: 1/5 | Commander: legal
+Text: Strange new worlds — When Ensign Chekov enters, each opponent exiles the top X cards of their library, where X is the number of differently named lands you control. For each opponent, choose a land card that player owns exiled this way. You may play the chosen cards for as long as they remain exiled.
 
 ## Enslave
 Cost: {4}{b}{b} | Type: Enchantment — Aura | Color identity: B | Commander: legal
@@ -4853,6 +4873,11 @@ Cost: {2}{b}{r} | Type: Legendary Creature — Human Cleric | Color identity: BR
 Text: First strike, haste
   Unleash (You may have this creature enter with a +1/+1 counter on it. It can't block as long as it has a +1/+1 counter on it.)
   Each other creature you control with a +1/+1 counter on it has haste.
+
+## Excalbian Gamemaster
+Cost: {5}{w} | Type: Creature — Excalbian | Color identity: W | P/T: 6/6 | Commander: legal
+Text: Strange new worlds — When this creature enters, create X 1/1 red Officer creature tokens, where X is the number of differently named lands you control.
+  Whenever this creature or another creature you control dies, put a +1/+1 counter on target creature you control.
 
 ## Excalibur II
 Cost: {1} | Type: Legendary Artifact — Equipment | Color identity: colorless | Commander: legal

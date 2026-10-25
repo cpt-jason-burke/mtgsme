@@ -304,6 +304,12 @@ Ruling (2021-09-24): The back face of each card with disturb has an ability that
 Ruling (2021-09-24): To determine the total cost of a spell, start with the mana cost or alternative cost (such as a disturb cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using disturb is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was. (This is a special rule that applies only to nonmodal double faced-cards, including ones with disturb.)
 Ruling (2021-09-24): When you cast a spell using a card's disturb ability, the card is put onto the stack with its back face up. The resulting spell has all the characteristics of that face.
 
+## Bajor
+Cost: — | Type: Land — Planet | Color identity: RW | Commander: legal
+Text: This land enters tapped.
+  When this land enters, you gain 1 life.
+  {T}: Add {R} or {W}.
+
 ## Bake into a Pie
 Cost: {2}{b}{b} | Type: Instant | Color identity: B | Commander: legal
 Text: Destroy target creature. Create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.")
@@ -6238,6 +6244,12 @@ Cost: {2}{g}{g} | Type: Creature — Beast | Color identity: G | P/T: 5/5 | Comm
 Text: Shroud (This creature can't be the target of spells or abilities.)
   Fading 3 (This creature enters with three fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.)
 
+## Blastoneuron
+Cost: {3}{b} | Type: Creature — Jellyfish Leech | Color identity: B | P/T: 2/2 | Commander: legal
+Text: Flying
+  When this creature enters, exile target creature card with mana value 3 or less from your graveyard. Create a token that's a copy of it. That token gains haste. Sacrifice it at the beginning of the next end step.
+  Whenever one or more cards leave your graveyard, each opponent loses 1 life and you gain 1 life.
+
 ## Blatant Thievery
 Cost: {4}{u}{u}{u} | Type: Sorcery | Color identity: U | Commander: legal
 Text: For each opponent, gain control of target permanent that player controls.
@@ -10123,6 +10135,13 @@ Text: Flying
   When this creature leaves the battlefield, choose an opponent who controls more lands than you. Search your library for a number of Plains cards equal to the difference, reveal those cards, put one of them onto the battlefield tapped and the rest into your hand, then shuffle.
 Ruling (2018-07-13): If no opponent controls more lands than you, you'll search your library and shuffle it, but you won't be able to find any Plains cards.
 Ruling (2018-07-13): You can find fewer Plains cards than the difference, perhaps because you don't have that many Plains cards left in your library.
+
+## Borg Cube
+Cost: {5}{w}{b} | Type: Artifact — Spacecraft | Color identity: BW | P/T: 6/6 | Commander: legal
+Text: Affinity for artifact creatures
+  Whenever this Spacecraft enters or attacks, assimilate a creature card exiled with it. If you can't, exile up to one target creature. (To assimilate a card, put it onto the battlefield under your control with a +1/+1 counter. It's a Borg artifact creature and loses all other creature types.)
+  Station
+  12+ | Artifact creatures you control have flying.
 
 ## Borg Queen, Perfection Manifest
 Cost: {4}{b}{b} | Type: Legendary Artifact Creature — Borg Noble | Color identity: B | P/T: 1/4 | Commander: legal

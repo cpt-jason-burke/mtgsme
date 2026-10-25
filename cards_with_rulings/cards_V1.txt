@@ -1156,6 +1156,11 @@ Ruling (2021-02-05): If a creature with a boast ability is put onto the battlefi
 Ruling (2021-02-05): If an effect adds additional combat phases to a turn and a creature with a boast ability attacks more than once during that turn, its boast ability can still be activated only once.
 Ruling (2021-02-05): If it's not your turn and you gain control of a creature with a boast ability after that creature attacked, you can activate that creature's boast ability if it hasn't been activated yet that turn.
 
+## Vash, Freelance Archaeologist
+Cost: {1}{b}{g} | Type: Legendary Creature — Human Rogue Scientist | Color identity: BG | P/T: 2/4 | Commander: legal
+Text: At the beginning of your upkeep, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+  Whenever a card leaves your graveyard, draw a card. This ability triggers only once each turn.
+
 ## Vashta Nerada
 Cost: {2}{b} | Type: Creature — Alien Horror | Color identity: B | P/T: 1/1 | Commander: legal
 Text: Indestructible
@@ -2998,6 +3003,10 @@ Text: When this creature enters, any opponent may have it deal 4 damage to them.
 Ruling (2012-05-01): If a player chooses to have Vexing Devil deal 4 damage to them, but some or all of that damage is prevented or redirected, Vexing Devil will still be sacrificed.
 Ruling (2018-12-07): As Vexing Devil's ability resolves, the next opponent in turn order (or, if it's an opponent's turn, that opponent) chooses whether to be dealt 4 damage, then each other opponent in turn order does the same. If any of them do, you sacrifice Vexing Devil.
 Ruling (2018-12-07): No player may take actions between the time an opponent chooses to be dealt damage by Vexing Devil and the time you sacrifice Vexing Devil. This means that you can't use a spell or ability (such as Turn to Mist) to stop Vexing Devil from being sacrificed if a player chooses to be dealt damage.
+
+## Vexing Drone
+Cost: {1}{w} | Type: Artifact Creature — Borg | Color identity: W | P/T: 2/2 | Commander: legal
+Text: When this creature enters, tap target creature an opponent controls.
 
 ## Vexing Gull
 Cost: {2}{u} | Type: Creature — Bird | Color identity: U | P/T: 2/2 | Commander: legal
@@ -6569,6 +6578,12 @@ Ruling (2020-06-23): To determine the total cost of a spell, start with the mana
 Cost: {1}{r}{r} | Type: Creature — Lizard | Color identity: R | P/T: 3/4 | Commander: legal
 Text: Mountainwalk (This creature can't be blocked as long as defending player controls a Mountain.)
   Echo {1}{R}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
+
+## Vulcan
+Cost: — | Type: Land — Planet | Color identity: UW | Commander: legal
+Text: This land enters tapped.
+  When this land enters, you gain 1 life.
+  {T}: Add {W} or {U}.
 
 ## Vulpikeet
 Cost: {3}{w} | Type: Creature — Fox Bird | Color identity: W | P/T: 2/3 | Commander: legal

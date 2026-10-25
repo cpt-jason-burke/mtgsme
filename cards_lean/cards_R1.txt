@@ -1975,6 +1975,11 @@ Text: Hero's Reward — When Ravenous Brute Head leaves the battlefield, each pl
 Cost: {2}{b}{b} | Type: Creature — Beast Horror | Color identity: B | P/T: 2/2 | Commander: legal
 Text: When this creature enters, destroy target creature an opponent controls.
 
+## Ravenous Cosmozoan
+Cost: {5}{r} | Type: Creature — Fish | Color identity: R | P/T: 3/3 | Commander: legal
+Text: This spell costs {1} less to cast for each noncreature, nonland card in your graveyard.
+  Flying, haste
+
 ## Ravenous Daggertooth
 Cost: {2}{g} | Type: Creature — Dinosaur | Color identity: G | P/T: 3/2 | Commander: legal
 Text: Enrage — Whenever this creature is dealt damage, you gain 2 life.
@@ -4200,6 +4205,11 @@ Cost: {4}{u} | Type: Sorcery | Color identity: U | Commander: legal
 Text: Demonstrate (When you cast this spell, you may copy it. If you do, choose an opponent to also copy it. Players may choose new targets for their copies.)
   Create a token that's a copy of target permanent you control.
 
+## Replicator
+Cost: {2} | Type: Artifact | Color identity: colorless | Commander: legal
+Text: When this artifact enters, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.")
+  {2}, {T}: Create a tapped token that's a copy of target token you control.
+
 ## Repopulate
 Cost: {1}{g} | Type: Instant | Color identity: G | Commander: legal
 Text: Shuffle all creature cards from target player's graveyard into that player's library.
@@ -6201,6 +6211,12 @@ Cost: {1}{u} | Type: Creature — Turtle | Color identity: U | P/T: 0/5 | Comman
 Text: Flash
   Defender
 
+## Risa
+Cost: — | Type: Land — Planet | Color identity: GW | Commander: legal
+Text: This land enters tapped.
+  When this land enters, you gain 1 life.
+  {T}: Add {G} or {W}.
+
 ## Rise
 Cost: {u}{b} | Type: Sorcery | Color identity: BRU | Commander: legal
 Faces: Rise // Fall (split)
@@ -7356,6 +7372,19 @@ Text: Vigilance
 ## Romantic Rendezvous
 Cost: {1}{r} | Type: Sorcery | Color identity: R | Commander: legal
 Text: Discard a card, then draw two cards.
+
+## Romulan Bird-of-Prey
+Cost: {1}{u} | Type: Artifact — Spacecraft | Color identity: U | P/T: 4/4 | Commander: legal
+Text: Cloaking Device — As long as this Spacecraft isn't a creature, it has hexproof.
+  Whenever you cast a noncreature spell, if this Spacecraft isn't a creature, put two charge counters on it.
+  Station
+  8+ | Flying
+
+## Romulus
+Cost: — | Type: Land — Planet | Color identity: BU | Commander: legal
+Text: This land enters tapped.
+  When this land enters, you gain 1 life.
+  {T}: Add {U} or {B}.
 
 ## Rona's Vortex
 Cost: {u} | Type: Instant | Color identity: BU | Commander: legal
@@ -8876,6 +8905,11 @@ Text: {T}: Put an oil counter on this creature.
 ## Rustwing Falcon
 Cost: {w} | Type: Creature — Bird | Color identity: W | P/T: 1/2 | Commander: legal
 Text: Flying
+
+## Rutherford, Upgraded Ensign
+Cost: {2}{w} | Type: Legendary Creature — Human Artificer | Color identity: W | P/T: 2/2 | Commander: legal
+Text: When Rutherford enters, look at the top six cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
+  Whenever you cast a Spacecraft spell, put a +1/+1 counter on target creature.
 
 ## Ruthless Cullblade
 Cost: {1}{b} | Type: Creature — Vampire Warrior | Color identity: B | P/T: 2/1 | Commander: legal

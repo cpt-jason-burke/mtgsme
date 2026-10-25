@@ -1711,6 +1711,11 @@ Cost: {2}{w} | Type: Legendary Creature — Human Soldier Hero | Color identity:
 Text: Flying, first strike, ward {1}
   Whenever Captain America attacks, each other Hero you control gets +X/+X until end of turn, where X is Captain America's toughness.
 
+## Captain Benjamin Sisko
+Cost: {1}{w} | Type: Legendary Creature — Human Officer | Color identity: BGRUW | P/T: 2/2 | Commander: legal
+Text: At the beginning of your end step, create a 1/1 red Officer creature token for each dilemma you've faced this turn.
+  {2}{W}{U}{B}{R}{G}, {T}: Exile the top five cards of your library. You may cast any number of spells with mana value less than or equal to the number of Officers you control from among those cards without paying their mana costs.
+
 ## Captain Eberhart
 Cost: {1}{w} | Type: Legendary Creature — Human Soldier | Color identity: W | P/T: 1/2 | Commander: legal
 Text: Double strike
@@ -1728,6 +1733,17 @@ Text: Whenever Captain Kirk enters or attacks, choose one. If you have no cards 
   • Discard a card, then draw a card.
   • Create a 1/1 red Officer creature token.
   • Creatures you control get +1/+0 until end of turn.
+
+## Captain Jean-Luc Picard
+Cost: {2}{w} | Type: Legendary Creature — Human Officer | Color identity: W | P/T: 2/3 | Commander: legal
+Text: Other creatures you control get +1/+1.
+  Whenever you cast a creature or Spacecraft spell, create a 1/1 red Officer creature token.
+  Tap seven untapped Officers you control: Search your library for a Spacecraft card, put it onto the battlefield with seven charge counters on it, then shuffle.
+
+## Captain Jonathan Archer
+Cost: {2}{g} | Type: Legendary Creature — Human Officer | Color identity: G | P/T: 3/3 | Commander: legal
+Text: When Captain Archer enters, create Porthos, a legendary 1/1 green Dog creature token.
+  Federation — {G}, {T}: Target creature you control gets +X/+X until end of turn, where X is the number of creature types among non-Borg creatures you control. Activate only as a sorcery.
 
 ## Captain Kathryn Janeway
 Cost: {3}{g} | Type: Legendary Creature — Human Officer | Color identity: G | P/T: 2/3 | Commander: legal
@@ -1771,6 +1787,11 @@ Text: Flying
   Whenever Captain Marvel enters or attacks, exile up to one target creature. That creature's controller gains life equal to its power.
   Whenever a creature other than Captain Marvel is exiled from the battlefield, you gain life equal to its power.
 
+## Captain Michael Burnham
+Cost: {2}{r} | Type: Legendary Creature — Human Officer | Color identity: R | P/T: 3/3 | Commander: legal
+Text: Trample
+  Landfall — Whenever a land you control enters, Captain Burnham deals 1 damage to each opponent. If this is the second time this ability has resolved this turn, put a +1/+1 counter on Captain Burnham.
+
 ## Captain N'ghathrod
 Cost: {3}{u}{b} | Type: Legendary Creature — Horror Pirate | Color identity: BU | P/T: 3/6 | Commander: legal
 Text: Horrors you control have menace.
@@ -1792,6 +1813,12 @@ Ruling (2009-10-01): Captain of the Watch grants +1/+1 and vigilance to all othe
 ## Captain of Umbar
 Cost: {2}{u} | Type: Creature — Human Pirate | Color identity: U | P/T: 2/3 | Commander: legal
 Text: {1}, {T}: Draw a card, then discard a card.
+
+## Captain Pike, Fullness of Time
+Cost: {1}{g}{g} | Type: Legendary Creature — Human Officer Scout | Color identity: G | P/T: */* | Commander: legal
+Text: Strange new worlds — Captain Pike's power and toughness are each equal to the number of differently named lands you control.
+  You may look at the top card of your library any time.
+  You may play lands from the top of your library.
 
 ## Captain Rex Nebula
 Cost: {1}{r}{w} | Type: Legendary Creature — Human Pilot Employee | Color identity: RW | P/T: 2/2 | Commander: legal
@@ -2029,6 +2056,12 @@ Ruling (2011-09-22): You can choose to put the basic land card into your hand ev
 Cost: {2}{r} | Type: Instant | Color identity: R | Commander: legal
 Text: Carbonize deals 3 damage to any target. If it's a creature, it can't be regenerated this turn, and if it would die this turn, exile it instead.
 Ruling (2016-06-08): The targeted creature can't be regenerated and is exiled if it would die no matter why it would die this turn. It doesn't have to be destroyed because of the damage Carbonize deals to it.
+
+## Cardassia Prime
+Cost: — | Type: Land — Planet | Color identity: BW | Commander: legal
+Text: This land enters tapped.
+  When this land enters, you gain 1 life.
+  {T}: Add {W} or {B}.
 
 ## Careening Mine Cart
 Cost: {3} | Type: Artifact — Vehicle | Color identity: colorless | P/T: 3/3 | Commander: legal
@@ -4372,6 +4405,11 @@ Text: {R}, {T}: Target creature gets +2/+0 until end of turn.
 Cost: {2}{u} | Type: Enchantment | Color identity: U | Commander: legal
 Text: At the beginning of your upkeep, if you control a red or green permanent, draw a card, then discard a card. If you control a red permanent and a green permanent, instead draw two cards, then discard a card.
 Ruling (2004-10-04): The ability has you draw one or two cards, but never three.
+
+## Cetacean Ops
+Cost: {3}{u} | Type: Creature — Whale Officer | Color identity: U | P/T: 3/3 | Commander: legal
+Text: Ward {1} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)
+  Whenever you cast a noncreature spell, put a +1/+1 counter on this creature.
 
 ## Cetavolver
 Cost: {1}{u} | Type: Creature — Volver | Color identity: GRU | P/T: 1/1 | Commander: legal
@@ -8271,6 +8309,11 @@ Cost: {1}{w} | Type: Creature — Human Cleric | Color identity: W | P/T: 2/2 | 
 Text: When this creature enters, you gain 2 life for each creature you control named Cleric of the Forward Order.
 Ruling (2022-12-08): Count the number of creatures named Cleric of the Forward Order you control as the ability resolves to determine how much life you gain. If the Cleric of the Forward Order with the ability that triggered is still on the battlefield, it will count itself.
 
+## Cleveland Booker, Empath
+Cost: {2}{r/g}{r/g} | Type: Legendary Creature — Kwejian Rogue | Color identity: GR | P/T: 2/2 | Commander: legal
+Text: Landfall — Whenever a land you control enters, create a 2/2 red and green Worm creature token with "This token can't block."
+  {8}: Creatures you control get +2/+0 until end of turn.
+
 ## Clever Concealment
 Cost: {2}{w}{w} | Type: Instant | Color identity: W | Commander: legal
 Text: Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
@@ -10314,6 +10357,12 @@ Text: This land enters tapped.
   When this land enters, sacrifice it unless you tap an untapped permanent you control.
   {T}: Add one mana of any color.
 
+## Command Chair
+Cost: {6} | Type: Artifact | Color identity: colorless | Commander: legal
+Text: This artifact enters tapped.
+  {T}: Add three mana of any one color.
+  {T}: Add X mana of any one color, where X is the greatest mana value among commanders you control.
+
 ## Command Decision
 Cost: {1}{w} | Type: Sorcery | Color identity: W | Commander: legal
 Text: Choose one —
@@ -10324,6 +10373,10 @@ Text: Choose one —
 Cost: {2}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Cast this spell only during the declare attackers step and only if you've been attacked this step.
   Return one or two target attacking creatures to their owner's hand.
+
+## Command Subadjunct
+Cost: {w} | Type: Artifact Creature — Borg | Color identity: W | P/T: 2/1 | Commander: legal
+Text: Artifact creatures you control have vigilance.
 
 ## Command the Dreadhorde
 Cost: {4}{b}{b} | Type: Sorcery | Color identity: B | Commander: legal
@@ -10391,6 +10444,10 @@ Text: Flash
 Ruling (2024-03-08): Some spells and abilities that create Junk tokens may require targets. If each target chosen is illegal as that spell or ability tries to resolve, it won't resolve and none of its effects happen. You won't create any Junk tokens.
 Ruling (2024-03-08): You can't sacrifice a Junk token to pay multiple costs. For example, you can't sacrifice a Junk token to activate its own ability and also to activate the second ability of Junk Jet.
 Ruling (2024-03-08): You pay all costs and follow all normal timing rules for the card played from exile with a Junk token's ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+
+## Commander Spock
+Cost: {2}{g}{w}{u} | Type: Legendary Creature — Vulcan Human Scientist | Color identity: GUW | P/T: 3/5 | Commander: legal
+Text: Strange new worlds — Whenever Commander Spock enters or attacks, reveal the top card of your library. You may cast that card without paying its mana cost if that spell's mana value is equal to or less than the number of differently named lands you control. If it's a land card, you may put it onto the battlefield tapped. If that card is still on top of your library, draw a card.
 
 ## Commander's Authority
 Cost: {4}{w} | Type: Enchantment — Aura | Color identity: W | Commander: legal
@@ -11444,6 +11501,10 @@ Ruling (2024-11-08): If you put a permanent with a kicker ability onto the battl
 Ruling (2024-11-08): The kicker ability doesn't let you pay a kicker cost more than once.
 Ruling (2024-11-08): To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
 
+## Conquest Mission
+Cost: {2}{w} | Type: Enchantment | Color identity: W | Commander: legal
+Text: Whenever a nontoken artifact you control enters, put a quest counter on this enchantment. Create a 1/1 colorless Borg artifact creature token. If this enchantment has six or more quest counters on it, create two of those tokens instead.
+
 ## Conscripted Infantry
 Cost: {2}{r} | Type: Creature — Human Soldier | Color identity: R | P/T: 3/1 | Commander: legal
 Text: When this creature dies, create a 1/1 colorless Soldier artifact creature token.
@@ -11595,6 +11656,12 @@ Ruling (2024-02-02): If you can't exile enough cards to meet or exceed the requi
 Ruling (2024-02-02): If you cast a spell for another cost "rather than pay its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, such as that of Demand Answers, those must be paid to cast the card.
 Ruling (2024-02-02): If you cast a spell with the alternative collect evidence cost offered by Conspiracy Unraveler and you also collect evidence as an additional cost to cast that spell, abilities of permanents that trigger "whenever you collect evidence" will trigger twice. This is also true for abilities that trigger "whenever one or more cards leave your graveyard." For example, let's say you control Conspiracy Unraveler and Evidence Examiner. You cast Crimestopper Sprite and choose to collect evidence 10 rather than pay its mana cost. You also choose to collect evidence 6 as an additional cost. Each of these will cause Evidence Examiner's last ability to trigger, and you'll end up investigating twice.
 Ruling (2024-02-02): Once you've announced that you're casting a spell, players can't take actions until you've finished doing so. Notably, opponents can't try to remove cards from your graveyard to stop you from collecting evidence.
+
+## Constable Odo
+Cost: {3}{w/u}{w/u} | Type: Legendary Creature — Shapeshifter Detective | Color identity: UW | P/T: 4/3 | Commander: legal
+Text: When Constable Odo enters, choose one —
+  • Tap target creature an opponent controls. Put two stun counters on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
+  • Investigate twice. (To investigate, create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
 
 ## Constable of the Realm
 Cost: {4}{w} | Type: Creature — Giant Soldier | Color identity: W | P/T: 3/3 | Commander: legal

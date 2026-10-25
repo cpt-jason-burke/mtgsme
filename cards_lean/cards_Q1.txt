@@ -1,3 +1,7 @@
+## Q, Stacking the Deck
+Cost: {2}{r}{r} | Type: Legendary Creature — Q | Color identity: R | P/T: 4/4 | Commander: legal
+Text: When Q enters, shuffle your library, then exile cards from the top of your library until you exile a nonland card. That nonland card gains "Exile a card from your hand: Create a copy of this card. You may cast the copy. Activate only during your turn and only if this card is exiled."
+
 ## Qal Sisma Behemoth
 Cost: {2}{r} | Type: Creature — Ogre Warrior | Color identity: R | P/T: 5/5 | Commander: legal
 Text: This creature can't attack or block unless you pay {2}.
@@ -49,6 +53,12 @@ Text: Target creature gets +2/+2 until end of turn.
 Cost: {2}{u} | Type: Creature — Beast Citizen | Color identity: U | P/T: 1/4 | Commander: legal
 Text: {1}, {T}: Draw a card, then discard a card.
   {7}, {T}, Sacrifice this creature: Draw three cards. This ability costs {1} less to activate for each Town you control.
+
+## Qo'noS
+Cost: — | Type: Land — Planet | Color identity: BR | Commander: legal
+Text: This land enters tapped.
+  When this land enters, you gain 1 life.
+  {T}: Add {B} or {R}.
 
 ## Quag Feast
 Cost: {1}{b} | Type: Sorcery | Color identity: B | Commander: legal
@@ -174,6 +184,19 @@ Text: Flying
 Cost: {x}{x}{w}{w} | Type: Enchantment | Color identity: W | Commander: legal
 Text: This enchantment enters with X isolation counters on it.
   When this enchantment enters, for each isolation counter on it, exile up to one target nonland permanent an opponent controls until this enchantment leaves the battlefield.
+
+## Quark's Bar
+Cost: — | Type: Land | Color identity: R | Commander: legal
+Text: This land enters tapped unless you control two or more other lands.
+  When this land enters untapped, choose one —
+  • This land deals 1 damage to each opponent.
+  • Surveil 1.
+  {T}: Add {R}.
+
+## Quark, Humble Proprietor
+Cost: {2}{r} | Type: Legendary Creature — Ferengi Rogue | Color identity: R | P/T: 1/2 | Commander: legal
+Text: You can't sacrifice Treasure tokens.
+  At the beginning of each upkeep, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
 
 ## Quarrel
 Cost: {1}{g} | Type: Instant | Color identity: G | Commander: legal

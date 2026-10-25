@@ -3846,6 +3846,11 @@ Text: When this artifact enters, you draw a card and you lose 1 life.
   {B}, {T}, Sacrifice this artifact: Each equipped creature and Equipment you control gains deathtouch until end of turn.
 Ruling (2024-07-05): The set of creatures that gain deathtouch is determined as Hemlock Vial's last ability resolves. Creatures you control that become equipped later in the turn won't gain deathtouch, even if the Equipment that becomes attached to them has deathtouch.
 
+## Hemmer, Fixing What Is Broken
+Cost: {w}{u} | Type: Legendary Creature — Aenar Artificer | Color identity: UW | P/T: 2/3 | Commander: legal
+Text: During your turn, Spacecraft you control have hexproof. (They can't be the targets of spells or abilities your opponents control.)
+  Whenever Hemmer becomes tapped, draw a card, then discard a card.
+
 ## Hemosymbic Mite
 Cost: {g} | Type: Creature — Mite | Color identity: G | P/T: 1/1 | Commander: legal
 Text: Whenever this creature becomes tapped, another target creature you control gets +X/+X until end of turn, where X is this creature's power.
@@ -5642,6 +5647,11 @@ Ruling (2022-12-08): If you copy a spell that's half of a split card, the copy c
 Ruling (2022-12-08): Split cards have two card faces on a single card. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
 Ruling (2022-12-08): To cast a split card, choose one of its halves to cast. There's no way to cast both halves of this split card.
 
+## Hit It!
+Cost: {1}{r}{g} | Type: Enchantment | Color identity: GR | Commander: legal
+Text: Creatures you control have haste.
+  When this enchantment enters, look at the top five cards of your library. Put a land card from among them onto the battlefield tapped and the rest into your graveyard.
+
 ## Hit the Mother Lode
 Cost: {4}{r}{r}{r} | Type: Sorcery | Color identity: R | Commander: legal
 Text: Discover 10. If the discovered card's mana value is less than 10, create a number of tapped Treasure tokens equal to the difference. (To discover 10, exile cards from the top of your library until you exile a nonland card with mana value 10 or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)
@@ -6089,6 +6099,11 @@ Ruling (2025-04-04): If you somehow control Hollowmurk Siege and no choice was m
 Cost: {3}{b} | Type: Creature — Merfolk Wizard | Color identity: B | P/T: 2/2 | Commander: legal
 Text: Whenever this creature becomes untapped, you may have target player discard a card.
 Ruling (2008-05-01): If Hollowsage becomes untapped during your untap step, the ability will trigger. However, since no player gets priority during the untap step, it waits to be put on the stack until your upkeep starts. At that time, all your "beginning of upkeep" triggers will also trigger. You can put them and Hollowsage's trigger on the stack in any order.
+
+## Hologram Stalker
+Cost: {4}{g}{g} | Type: Creature — Hirogen Warrior | Color identity: G | P/T: 2/2 | Commander: legal
+Text: When this creature enters, return target permanent card from your graveyard to your hand.
+  Whenever a card leaves your graveyard, create a 3/3 colorless Illusion artifact creature token. This ability triggers only once each turn.
 
 ## Holy Armor
 Cost: {w} | Type: Enchantment — Aura | Color identity: W | Commander: legal
