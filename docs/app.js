@@ -71,6 +71,7 @@
       lb.className = "lightbox";
       lb.innerHTML = '<div class="lb-card" role="img" aria-label="' + esc(name) + '" style="background-image:url(&quot;' + esc(url) + '&quot;),url(&quot;' + esc(fallback || url) + '&quot;)"></div><div class="lb-cap"><b>' + esc(name) + "</b>" + (sub ? esc(sub) + "<br>" : "") + "Tap anywhere to close</div>";
       document.body.appendChild(lb);
+      navPush({ lb: 1 });
       const el = lb.firstChild;
       const move = (e) => {
         const r = el.getBoundingClientRect(), x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
@@ -81,8 +82,8 @@
       ["pointerleave", "pointercancel"].forEach((t) => el.addEventListener(t, () => { el.style.setProperty("--rx", "0deg"); el.style.setProperty("--ry", "0deg"); }));
       let downAt = 0;
       lb.addEventListener("pointerdown", () => { downAt = Date.now(); });
-      lb.addEventListener("click", () => { if (Date.now() - downAt < 400 || !downAt) lb.remove(); });
-      const esc2 = (e) => { if (e.key === "Escape") { lb.remove(); document.removeEventListener("keydown", esc2); } };
+      lb.addEventListener("click", () => { if (Date.now() - downAt < 400 || !downAt) history.back(); });
+      const esc2 = (e) => { if (e.key === "Escape") { document.removeEventListener("keydown", esc2); if (document.contains(lb)) history.back(); } };
       document.addEventListener("keydown", esc2);
     }
   }
@@ -100,10 +101,15 @@
       const [c, r] = await Promise.all([fetch("data/cards.json").then((x) => x.json()), fetch("data/cr.json").then((x) => x.json())]);
       CARDS = c; CR = r;
       CARDS.forEach((cd, i) => { byNorm.set(MTGDeck.norm(cd.n), cd); hay[i] = (cd.n + " " + cd.t + " " + cd.o).toLowerCase(); });
-      $("#status").textContent = CARDS.length.toLocaleString() + " cards · rules of " + CR.effective;
+      $("#status").textContent = CARDS.length.toLocaleString() + " cards";
+      fetch("data/built-at.txt").then((x) => (x.ok ? x.text() : "")).then((t) => {
+        const d = new Date(t.trim()); if (isNaN(d)) return;
+        $("#status").innerHTML = CARDS.length.toLocaleString() + ' cards<span class="upd"> · updated ' + esc(d.toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })) + "</span>";
+      }).catch(() => {});
       initSearch(); initInteract(); initDecks(); initRules();
       renderResults(); renderInteract(); renderDeck(); rulesSearch();
-      if (store.get("tab", "search") === "sets") ensureSets();
+      if (curTab === "sets") ensureSets();
+      await restoreNav();
       fetch("data/rulings.json").then((x) => x.json()).then((j) => { RULINGS = j; renderAnalysis(); }).catch(() => {});
       fetch("data/source-date.txt").then((x) => (x.ok ? x.text() : "")).then((t) => { DATA_DATE = t.trim(); }).catch(() => {});
     } catch (e) {
@@ -113,22 +119,73 @@
   }
 
   // ---------- tabs ----------
-  function showTab(t) {
+  let curTab = null;
+  function showTab(t, opts) {
+    opts = opts || {};
+    const changed = curTab !== t;
+    curTab = t;
     document.querySelectorAll("nav.tabbar [data-tab]").forEach((b) => b.setAttribute("aria-selected", b.dataset.tab === t));
     Object.keys(TITLES).forEach((x) => $("#tab-" + x).classList.toggle("hidden", x !== t));
     $("#title").textContent = TITLES[t];
-    store.set("tab", t);
+    $("#homeBtn").classList.toggle("hidden", t === "search");
     if (t === "interact") requestAnimationFrame(updateCarousel);
     if (t === "sets" && CR) ensureSets();
-    window.scrollTo(0, 0);
+    if (changed && !opts.silent) navPush();
+    if (changed) window.scrollTo(0, 0);
+    saveNav();
   }
   document.querySelectorAll("nav.tabbar [data-tab]").forEach((b) => b.addEventListener("click", () => showTab(b.dataset.tab)));
-  showTab(store.get("tab", "search"));
+  $("#homeBtn").addEventListener("click", () => showTab("search"));
+
+  // ---------- navigation history: phone back gestures and Safari's back button step back one level ----------
+  function navPush(extra) { history.pushState(Object.assign({ m: 1, tab: curTab, depth: stack.length }, extra || {}), ""); }
+  window.addEventListener("popstate", (e) => {
+    const lb = document.querySelector(".lightbox"); if (lb) { lb.remove(); return; }
+    const st = e.state || { tab: "search", depth: 0 };
+    if (st.tab && st.tab !== curTab) showTab(st.tab, { silent: true });
+    if (stack.length > (st.depth || 0)) { stack.length = st.depth || 0; if (stack.length) drawSheet(); else closeLocal(); }
+    saveNav();
+  });
+
+  // Where you are (tab, search, filters, open pages) survives a reload, such as Safari's pull-to-refresh.
+  function readNav() { try { return JSON.parse(sessionStorage.getItem("nav") || "null"); } catch (e) { return null; } }
+  function saveNav() {
+    if (!CR) return;
+    const ser = (v) => (v.type === "card" ? { type: "card", n: v.card.n } : { type: v.type, rule: v.rule, code: v.code, i: v.i, year: v.year, view: v.view, sort: v.sort });
+    try {
+      sessionStorage.setItem("nav", JSON.stringify({ tab: curTab, q: $("#q").value, ci: [...state.ci], type: state.type, legal: state.legal, gc: state.gc, kw: state.kw || "", theme: state.theme || "",
+        sheets: stack.filter((v) => v.type !== "settings").map(ser) }));
+    } catch (e) { /* storage blocked: nothing to restore later */ }
+  }
+  async function restoreNav() {
+    const n = readNav();
+    if (!n) return;
+    $("#q").value = n.q || "";
+    (n.ci || []).forEach((c) => { state.ci.add(c); const b = $('#filters [data-ci="' + c + '"]'); if (b) b.classList.add("on"); });
+    state.type = n.type || ""; $("#type").value = state.type;
+    state.legal = !!n.legal; $("#legal").classList.toggle("on", state.legal);
+    state.gc = !!n.gc; $("#gc").classList.toggle("on", state.gc);
+    state.kw = n.kw || ""; $("#kwsel").value = state.kw;
+    state.theme = n.theme || ""; $("#themesel").value = state.theme;
+    renderResults();
+    for (const sv of n.sheets || []) {
+      if (["set", "deck", "sld"].includes(sv.type)) await ensureSets();
+      const v = sv.type === "card" ? (card(sv.n) ? { type: "card", card: card(sv.n) } : null) : sv;
+      if (v) { stack.push(v); navPush(); }
+    }
+    if (stack.length) drawSheet();
+  }
+  showTab((readNav() || {}).tab || "search", { silent: true });
+  history.replaceState({ m: 1, tab: curTab, depth: 0 }, "");
 
   // ---------- sheet ----------
   const stack = [];
-  function openSheet(v) { stack.push(v); drawSheet(); }
-  function closeSheet() { stack.length = 0; $("#sheet-root").innerHTML = ""; }
+  function openSheet(v) { stack.push(v); drawSheet(); navPush(); saveNav(); }
+  // Close every open page; goes back through history so the back gesture stays in step.
+  function closeSheet() { if (stack.length) history.go(-stack.length); }
+  function closeLocal() { stack.length = 0; $("#sheet-root").innerHTML = ""; document.body.classList.remove("locked"); }
+  // Close pages before jumping somewhere else in the app.
+  function leaveSheets() { closeLocal(); history.replaceState({ m: 1, tab: curTab, depth: 0 }, ""); saveNav(); }
   let sheetSeq = 0;
   const VIEWS = {
     card: [(v) => v.card.n, (v) => cardView(v.card) + printingsHTML()],
@@ -141,20 +198,39 @@
   };
   function drawSheet() {
     const v = stack[stack.length - 1];
-    if (!v) return closeSheet();
+    if (!v) return closeLocal();
     v.id = v.id || ++sheetSeq;
     const prev = $("#sheet-root .sheet");
     const keep = prev && +prev.dataset.vid === v.id ? prev.scrollTop : 0;
     const [title, body] = VIEWS[v.type];
-    $("#sheet-root").innerHTML = '<div class="sheet-bg"><div class="sheet" data-vid="' + v.id + '"><div class="grab"></div><div class="sheet-top">' +
-      (stack.length > 1 ? '<button class="btn small" data-act="back">Back</button>' : "") + '<div class="t">' + esc(title(v)) + '</div><button class="btn small" data-act="close">Close</button></div>' + body(v) + "</div></div>";
+    const under = stack[stack.length - 2];
+    const backTo = under ? VIEWS[under.type][0](under) : TITLES[curTab];
+    $("#sheet-root").innerHTML = '<div class="sheet-bg"><div class="sheet" data-vid="' + v.id + '"><div class="grabzone"><div class="grab"></div></div><div class="sheet-top">' +
+      '<button class="btn small backbtn" data-act="back" aria-label="Back to ' + esc(backTo) + '">‹ ' + esc(backTo) + '</button><div class="t">' + esc(title(v)) + '</div><button class="btn small" data-act="close" aria-label="Close">✕</button></div>' + body(v) + "</div></div>";
+    document.body.classList.add("locked");
     const sheet = $("#sheet-root .sheet");
+    swipeClose(sheet);
     sheet.scrollTop = keep;
     hydrate(sheet);
     lazyPrints(sheet);
     const img = $("#sheet-root .cardimg"); if (img) tiltFlat(img);
     if (v.type === "card") loadPrintings(v);
     if (v.type === "deck") deckValue(v);
+    saveNav();
+  }
+  // Drag the top bar down to go back one level.
+  function swipeClose(sheet) {
+    let y0 = null, dy = 0;
+    [sheet.querySelector(".grabzone"), sheet.querySelector(".sheet-top")].forEach((z) => {
+      z.addEventListener("pointerdown", (e) => { if (e.target.closest("button")) return; y0 = e.clientY; dy = 0; sheet.style.transition = "none"; try { z.setPointerCapture(e.pointerId); } catch (err) { /* ignore */ } });
+      z.addEventListener("pointermove", (e) => { if (y0 == null) return; dy = Math.max(0, e.clientY - y0); sheet.style.transform = "translateY(" + dy + "px)"; });
+      const end = () => {
+        if (y0 == null) return;
+        y0 = null; sheet.style.transition = "";
+        if (dy > 90) { sheet.style.transform = "translateY(100%)"; setTimeout(() => history.back(), 160); } else sheet.style.transform = "";
+      };
+      z.addEventListener("pointerup", end); z.addEventListener("pointercancel", end);
+    });
   }
   function tiltFlat(el) {
     el.addEventListener("pointermove", (e) => { const r = el.getBoundingClientRect(), x = (e.clientX - r.left) / r.width - 0.5, y = (e.clientY - r.top) / r.height - 0.5;
@@ -168,16 +244,16 @@
     if (a) {
       const act = a.dataset.act, n = a.dataset.name;
       if (act === "close") return closeSheet();
-      if (act === "back") { stack.pop(); return drawSheet(); }
-      if (act === "interact") { addPicks([n]); closeSheet(); showTab("interact"); return; }
+      if (act === "back") return history.back();
+      if (act === "interact") { addPicks([n]); leaveSheets(); showTab("interact"); return; }
       if (act === "deck-add") { deckAdd(n, 1); return drawSheet(); }
       if (act === "deck-sub") { deckAdd(n, -1); return drawSheet(); }
       if (act === "deck-cmd") { setCommander(n); return drawSheet(); }
       if (act === "images") { Scry.setEnabled(!Scry.state.enabled); drawSheet(); return; }
       if (act === "test") return runTest();
       const v = stack[stack.length - 1];
-      if (act === "kw") { closeSheet(); showTab("search"); setKeyword(a.dataset.v); return; }
-      if (act === "theme") { closeSheet(); showTab("search"); setTheme(a.dataset.v); return; }
+      if (act === "kw") { leaveSheets(); showTab("search"); setKeyword(a.dataset.v); return; }
+      if (act === "theme") { leaveSheets(); showTab("search"); setTheme(a.dataset.v); return; }
       if (act === "pfin") { v.fin = a.dataset.v; store.set("fin", v.fin); return renderPrintings(v, printCache.get(v.card.n) || []); }
       if (act === "pzoom") { if (a.dataset.url) lightbox(a.dataset.url, a.dataset.url, v.card.n, a.dataset.cap); return; }
       if (act === "view") { v.view = a.dataset.v; store.set("gridview", v.view); return drawSheet(); }
@@ -436,6 +512,7 @@
     $("#count").textContent = out.length.toLocaleString() + " card" + (out.length === 1 ? "" : "s");
     el.innerHTML = (kw ? kwBox(kw) : "") + out.slice(0, state.shown).map((c) => rowHTML(c)).join("") + (out.length > state.shown ? '<div class="chips"><button class="btn" data-more>Show more</button></div>' : "");
     hydrate(el);
+    saveNav();
   }
   function keywordsView() {
     let h = '<div class="d" style="margin-bottom:6px">Tap a keyword to see every card that has it, with its rules definition. A keyword filter only finds cards that have the keyword, not cards that just mention it.</div>';
@@ -695,9 +772,11 @@
   const TODAY = new Date().toISOString().slice(0, 10);
   const symbol = (code) => '<div class="sym"><img loading="lazy" alt="" src="https://svgs.scryfall.io/sets/' + esc(code) + '.svg" onerror="this.style.display=\'none\'"></div>';
   let MV = null;
-  async function ensureSets() {
-    if (SETS.data || SETS.loading) return;
-    SETS.loading = true;
+  function ensureSets() {
+    if (!SETS.promise) SETS.promise = loadSets();
+    return SETS.promise;
+  }
+  async function loadSets() {
     try {
       const [sets, setcards, precons] = await Promise.all(["sets", "setcards", "precons"].map((f) => fetch("data/" + f + ".json").then((x) => x.json())));
       const precBySet = new Map();
@@ -705,8 +784,7 @@
       SETS.data = { sets, setcards, precons, precBySet, byCode: new Map(sets.map((s) => [s.c, s])) };
       MV = CARDS.map((c) => MTGDeck.manaValue(c.m));
       initSetFilters(); renderTimeline();
-    } catch (e) { $("#timeline").innerHTML = '<div class="panel item">Could not load the set data.</div>'; }
-    SETS.loading = false;
+    } catch (e) { $("#timeline").innerHTML = '<div class="panel item">Could not load the set data.</div>'; SETS.promise = null; }
   }
   function initSetFilters() {
     const f = SETS.f;
@@ -851,7 +929,7 @@
     for (const r of p.main || []) { const n = CARDS[r[1]].n, x = cards.find((y) => y.n === n); if (x) x.q += r[0]; else cards.push({ n, q: r[0] }); }
     state.deck = { commanders: (p.cmd || []).map((r) => CARDS[r[1]].n), cards };
     state.importNote = "Copied from the " + p.n + " precon (" + p.sn + ").";
-    saveDeck(); closeSheet(); showTab("decks");
+    saveDeck(); leaveSheets(); showTab("decks");
   }
 
   // ---------- rules ----------
