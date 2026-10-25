@@ -7,7 +7,7 @@
     set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* storage can be blocked */ } },
   };
 
-  let CARDS = [], CR = null, RULINGS = null, hay = [];
+  let CARDS = [], CR = null, RULINGS = null, hay = [], DATA_DATE = "";
   const byNorm = new Map();
   const card = (n) => byNorm.get(MTGDeck.norm(n));
   const anCache = new Map();
@@ -105,6 +105,7 @@
       renderResults(); renderInteract(); renderDeck(); rulesSearch();
       if (store.get("tab", "search") === "sets") ensureSets();
       fetch("data/rulings.json").then((x) => x.json()).then((j) => { RULINGS = j; renderAnalysis(); }).catch(() => {});
+      fetch("data/source-date.txt").then((x) => (x.ok ? x.text() : "")).then((t) => { DATA_DATE = t.trim(); }).catch(() => {});
     } catch (e) {
       $("#status").textContent = "";
       $("#results").innerHTML = '<div class="panel item">Could not load the data files. Open this page from its web address instead of as a saved file.</div>';
@@ -306,7 +307,7 @@
     const s = Scry.state;
     return '<div class="panel toggle"><div><b>Card images</b><div class="d">Pictures load from Scryfall on this device. Card text always comes from this app\'s own data.</div></div><button class="switch ' + (s.enabled ? "on" : "") + '" data-act="images" aria-label="Card images"></button></div>' +
       '<div class="panel item" style="margin-top:10px"><b>Scryfall connection</b><div class="d" id="testout">' + (s.failed ? "Last attempt failed: " + esc(s.lastError) : "Not tested yet.") + '</div><div class="chips"><button class="btn small" data-act="test">Test connection</button></div><div id="testimg"></div></div>' +
-      '<section class="block"><h2>About</h2><div class="panel item">MTGSME is a pocket Commander rules tool. Card text, rulings and rules come from the open-source mtg.wtf data (github.com/taw/magic-search-engine), built into this site; the rules are effective ' + esc(CR.effective) + ".<br><br>" +
+      '<section class="block"><h2>About</h2><div class="panel item">MTGSME is a pocket Commander rules tool. Card text, rulings and rules come from the open-source mtg.wtf data (github.com/taw/magic-search-engine), built into this site; the rules are effective ' + esc(CR.effective) + "." + (DATA_DATE ? " Card data is from mtg.wtf as of " + esc(DATA_DATE) + ", and is checked for updates daily." : "") + "<br><br>" +
       '<b>Limits.</b> The Interact tab reads card wording with fixed patterns. It is a fast first pass, not a judge, so check the card text it shows. Commander legality is approximate. Magic: The Gathering belongs to Wizards of the Coast.<br><br>Source: github.com/cpt-jason-burke/mtgsme</div></section>';
   }
   async function runTest() {

@@ -1,0 +1,60 @@
+name: Refresh card data
+
+# Once a day, check whether the mtg.wtf source data changed. Rebuild and publish only when it did.
+on:
+  schedule:
+    - cron: "17 6 * * *"   # 06:17 UTC daily
+  workflow_dispatch: {}      # "Run workflow" button for a manual refresh
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check the source for changes
+        id: check
+        run: |
+          FILES="index/cards.jsonl index/rulings.jsonl index/banlist_history.json index/sets.json index/deck_index.json data/MagicCompRules.txt"
+          git clone --quiet --depth 1 --filter=blob:none --no-checkout https://github.com/taw/magic-search-engine /tmp/mse
+          cd /tmp/mse
+          git ls-tree HEAD $FILES | awk '{print $3, $4}' > /tmp/source.txt
+          if diff -q /tmp/source.txt "$GITHUB_WORKSPACE/docs/data/source.txt" > /dev/null 2>&1; then
+            echo "Source data unchanged; nothing to do."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git checkout HEAD -- $FILES
+            git log -1 --format=%cs > /tmp/source-date.txt
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Rebuild the data
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          cp /tmp/mse/data/MagicCompRules.txt rules_CR.txt
+          python3 tools/build_site.py /tmp/mse
+          rm -rf cards_lean cards_with_rulings
+          python3 tools/build_cards.py /tmp/mse cards_lean lean
+          python3 tools/build_cards.py /tmp/mse cards_with_rulings
+
+      - name: Publish only if the app's data changed
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Source changed, but nothing the app uses did. Not publishing."
+            exit 0
+          fi
+          cp /tmp/source.txt docs/data/source.txt
+          cp /tmp/source-date.txt docs/data/source-date.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Refresh card data from mtg.wtf ($(cat docs/data/source-date.txt))"
+          git push
