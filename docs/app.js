@@ -57,6 +57,35 @@
     ["pointerleave", "pointerup", "pointercancel"].forEach((t) => el.addEventListener(t, reset));
   }
 
+  // Full-screen card preview. Any element with data-zoom="name" opens it; without a picture it opens the card page instead.
+  function zoom(name) {
+    const c = card(name);
+    Scry.get(name, (img) => {
+      if (!img) { if (c) openSheet({ type: "card", card: c }); return; }
+      const lb = document.createElement("div");
+      lb.className = "lightbox";
+      lb.innerHTML = '<div class="lb-card" role="img" aria-label="' + esc(name) + '" style="background-image:url(&quot;' + esc(img.large || img.normal) + '&quot;),url(&quot;' + esc(img.normal) + '&quot;)"></div><div class="lb-cap"><b>' + esc(name) + "</b>Tap anywhere to close</div>";
+      document.body.appendChild(lb);
+      const el = lb.firstChild;
+      const move = (e) => {
+        const r = el.getBoundingClientRect(), x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
+        el.style.setProperty("--ry", (x - 0.5) * 18 + "deg"); el.style.setProperty("--rx", (0.5 - y) * 18 + "deg");
+        el.style.setProperty("--gx", x * 100 + "%"); el.style.setProperty("--gy", y * 100 + "%");
+      };
+      el.addEventListener("pointermove", move); el.addEventListener("pointerdown", move);
+      ["pointerleave", "pointercancel"].forEach((t) => el.addEventListener(t, () => { el.style.setProperty("--rx", "0deg"); el.style.setProperty("--ry", "0deg"); }));
+      let downAt = 0;
+      lb.addEventListener("pointerdown", () => { downAt = Date.now(); });
+      lb.addEventListener("click", () => { if (Date.now() - downAt < 400 || !downAt) lb.remove(); });
+      const esc2 = (e) => { if (e.key === "Escape") { lb.remove(); document.removeEventListener("keydown", esc2); } };
+      document.addEventListener("keydown", esc2);
+    });
+  }
+  document.addEventListener("click", (e) => {
+    const z = e.target.closest("[data-zoom]");
+    if (z && Scry.state.enabled) { e.stopPropagation(); e.preventDefault(); zoom(z.dataset.zoom); }
+  }, true);
+
   // ---------- loading ----------
   async function load() {
     try {
@@ -129,7 +158,7 @@
     return (c.s ? '<span class="badge ' + (c.s === "banned" ? "bad" : "warn") + '">' + esc(c.s.replace(/_/g, " ")) + "</span>" : "") + (c.g ? '<span class="badge warn">Game Changer</span>' : "");
   }
   function cardView(c) {
-    let h = Scry.state.enabled ? '<div class="cardimg" data-img="' + esc(c.n) + '" data-kind="normal"></div>' : "";
+    let h = Scry.state.enabled ? '<div class="cardimg" data-img="' + esc(c.n) + '" data-kind="normal" data-zoom="' + esc(c.n) + '"></div>' : "";
     h += '<div class="panel item"><h3 style="margin:0">' + esc(c.n) + " " + (c.m ? mana(c.m) : "") + "</h3>" + flags(c) +
       '<div class="d">' + esc(c.t) + (c.pt ? " · " + esc(c.pt) : "") + (c.ly ? " · loyalty/defense " + esc(c.ly) : "") + " · identity " + (mana([...c.ci].map((x) => "{" + x + "}").join("")) || "colorless") + (c.f ? " · " + esc(c.f.join(" // ")) : "") + "</div>" +
       '<div class="oracle">' + linkRules(mana(c.o)) + "</div></div>";
@@ -193,7 +222,7 @@
 
   // ---------- search ----------
   function rowHTML(c, extra, why) {
-    return '<div class="panel row" data-card="' + esc(c.n) + '"><div class="thumb" style="--cc:' + artColor(c) + '" data-img="' + esc(c.n) + '" data-kind="art"></div><div class="body"><h4>' + esc(c.n) + " " + (c.m ? mana(c.m) : "") + flags(c) + '</h4><div class="ty">' + esc(c.t) + (c.pt ? " · " + esc(c.pt) : "") + "</div>" + (why ? '<div class="why">' + esc(why) + "</div>" : "") + '<div class="tx">' + mana(c.o).replace(/\n/g, " · ") + "</div></div>" + (extra || "") + "</div>";
+    return '<div class="panel row" data-card="' + esc(c.n) + '"><div class="thumb" style="--cc:' + artColor(c) + '" data-img="' + esc(c.n) + '" data-kind="art" data-zoom="' + esc(c.n) + '"></div><div class="body"><h4>' + esc(c.n) + " " + (c.m ? mana(c.m) : "") + flags(c) + '</h4><div class="ty">' + esc(c.t) + (c.pt ? " · " + esc(c.pt) : "") + "</div>" + (why ? '<div class="why">' + esc(why) + "</div>" : "") + '<div class="tx">' + mana(c.o).replace(/\n/g, " · ") + "</div></div>" + (extra || "") + "</div>";
   }
   function initSearch() {
     const types = ["Creature", "Instant", "Sorcery", "Artifact", "Enchantment", "Planeswalker", "Land", "Battle", "Legendary"];
@@ -295,7 +324,7 @@
 
   function frame(c) {
     return '<div class="mcard" data-card="' + esc(c.n) + '" style="--cc:' + artColor(c) + '"><button class="mc-x" data-rm="' + esc(c.n) + '" aria-label="Remove ' + esc(c.n) + '">✕</button>' +
-      '<div class="mc-head"><b>' + esc(c.n) + "</b><span>" + mana(c.m || "") + '</span></div><div class="mc-art" data-img="' + esc(c.n) + '" data-kind="art"></div><div class="mc-type">' + esc(c.t) +
+      '<div class="mc-head"><b>' + esc(c.n) + "</b><span>" + mana(c.m || "") + '</span></div><div class="mc-art" data-img="' + esc(c.n) + '" data-kind="art" data-zoom="' + esc(c.n) + '"></div><div class="mc-type">' + esc(c.t) +
       '</div><div class="mc-text">' + mana(c.o).replace(/\n/g, "<br>") + "</div>" + (c.pt ? '<div class="mc-pt">' + esc(c.pt) + "</div>" : "") + "</div>";
   }
   function renderInteract() {
@@ -435,7 +464,7 @@
     const chk = MTGDeck.check(dk, card);
     const cmd = dk.commanders.map(card).filter(Boolean);
     const lead = cmd[0];
-    let h = '<div class="panel dhead" style="margin-top:14px">' + (lead ? '<div class="art" style="--cc:' + artColor(lead) + '" data-img="' + esc(lead.n) + '" data-kind="art" data-card="' + esc(lead.n) + '"></div>' : '<div class="art" style="--cc:#444"></div>') +
+    let h = '<div class="panel dhead" style="margin-top:14px">' + (lead ? '<div class="art" style="--cc:' + artColor(lead) + '" data-img="' + esc(lead.n) + '" data-kind="art" data-zoom="' + esc(lead.n) + '"></div>' : '<div class="art" style="--cc:#444"></div>') +
       "<div><h3>" + (cmd.length ? cmd.map((c) => esc(c.n)).join(" + ") : "No commander yet") + '</h3><div class="d">' + (chk.identity ? mana([...chk.identity].map((x) => "{" + x + "}").join("")) + " identity" : "Open a legendary creature and tap Make commander") + "</div></div></div>";
     h += '<div class="stats"><div class="panel stat"><b' + (chk.total !== 100 ? ' style="color:var(--warn)"' : "") + ">" + chk.total + "</b><span>of 100 cards</span></div>" +
       '<div class="panel stat"><b>' + chk.avg + '</b><span>avg mana value</span></div><div class="panel stat"><b>' + chk.gameChangers.length + "</b><span>Game Changers</span></div></div>";
@@ -456,7 +485,7 @@
       g.sort((a, b) => MTGDeck.manaValue(a[1].m) - MTGDeck.manaValue(b[1].m) || a[1].n.localeCompare(b[1].n));
       h += '<div class="grp">' + t + " · " + g.reduce((s, [x]) => s + x.q, 0) + "</div>" + g.map(([x, c]) => {
         const bad = chk.offColor.includes(c.n) || chk.duplicates.includes(c.n) || c.s === "banned";
-        return '<div class="panel row" data-card="' + esc(c.n) + '"' + (bad ? ' style="border-color:rgba(224,162,74,.45)"' : "") + '><div class="thumb" style="--cc:' + artColor(c) + '" data-img="' + esc(c.n) + '" data-kind="art"></div><div class="body"><h4>' + (x.q > 1 ? '<span class="qty">' + x.q + "×</span>" : "") + esc(c.n) + " " + (c.m ? mana(c.m) : "") + flags(c) + '</h4><div class="ty">' + esc(c.t) + "</div></div></div>";
+        return '<div class="panel row" data-card="' + esc(c.n) + '"' + (bad ? ' style="border-color:rgba(224,162,74,.45)"' : "") + '><div class="thumb" style="--cc:' + artColor(c) + '" data-img="' + esc(c.n) + '" data-kind="art" data-zoom="' + esc(c.n) + '"></div><div class="body"><h4>' + (x.q > 1 ? '<span class="qty">' + x.q + "×</span>" : "") + esc(c.n) + " " + (c.m ? mana(c.m) : "") + flags(c) + '</h4><div class="ty">' + esc(c.t) + "</div></div></div>";
       }).join("");
     }
     if (!dk.cards.length) h += '<div class="empty">Empty deck. Switch to <b>Add cards</b> to search, or open any card and tap Add to deck.</div>';

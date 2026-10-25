@@ -4,7 +4,7 @@
 (function (root) {
   "use strict";
   const API = "https://api.scryfall.com";
-  const KEY = "scry-img-v1";
+  const KEY = "scry-img-v2";
   let mem = {};
   try { mem = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { mem = {}; }
   const waiting = new Map();      // name -> [callbacks]
@@ -23,7 +23,7 @@
   function pick(card, wanted) {
     const face = card.card_faces && card.card_faces.find((f) => f.name === wanted && f.image_uris);
     const u = card.image_uris || (face && face.image_uris) || (card.card_faces && card.card_faces[0].image_uris) || null;
-    return u ? { art: u.art_crop, small: u.small, normal: u.normal } : null;
+    return u ? { art: u.art_crop, small: u.small, normal: u.normal, large: u.large || u.normal } : null;
   }
 
   async function flush() {
