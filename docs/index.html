@@ -46,8 +46,7 @@ textarea{width:100%;min-height:180px;font:14px/1.45 ui-monospace,SFMono-Regular,
 .btn.primary{background:linear-gradient(180deg,var(--ember-hi),var(--ember));border-color:transparent;color:#1a0c04;box-shadow:0 6px 18px rgba(208,106,38,.25)}
 .btn.small{padding:7px 12px;font-size:14px;border-radius:10px}
 .btn:active{transform:translateY(1px)}
-.chips{display:flex;gap:8px;overflow-x:auto;padding:12px 0 2px;scrollbar-width:none}
-.chips::-webkit-scrollbar{display:none}
+.chips{display:flex;flex-wrap:wrap;gap:8px;padding:12px 0 2px}
 .chip{flex:none;display:inline-flex;align-items:center;gap:6px;padding:7px 12px;border-radius:999px;border:1px solid var(--line2);background:var(--panel);color:var(--text);font:inherit;font-size:14px;cursor:pointer;white-space:nowrap}
 .chip.on{background:var(--ember-soft);border-color:rgba(208,106,38,.65);color:var(--ember-hi)}
 .chip.rule{color:var(--ember-hi);border-color:rgba(208,106,38,.3);background:rgba(208,106,38,.08);font-size:13px;padding:3px 9px;font-weight:650}
@@ -176,6 +175,58 @@ nav.tabbar button[aria-selected=true]::before{content:"";position:absolute;top:2
 [data-zoom]{cursor:zoom-in}
 @keyframes lbfade{from{opacity:0}}
 @keyframes lbpop{from{transform:perspective(1100px) scale(.9);opacity:.4}}
+#filters .sel{flex:1 1 28%;min-width:0;text-overflow:ellipsis}
+#sfbody{padding-top:4px}
+#sfbody .sel{flex:1 1 40%;min-width:0}
+/* keyword banner */
+.kwbox{margin-top:10px;padding:12px 14px}
+.kwbox b{color:var(--ember-hi)}
+/* printings carousel */
+.pctl{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:4px}
+.pcar{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:12px 16px 18px;margin:0 -16px;scrollbar-width:none}
+.pcar::-webkit-scrollbar{display:none}
+.ptile{flex:0 0 150px;scroll-snap-align:start;cursor:zoom-in}
+.ptile .im{aspect-ratio:488/680;border-radius:4.75%/3.5%;background:#1d1c1c center/cover;box-shadow:0 12px 24px rgba(0,0,0,.5);transition:transform .2s}
+.ptile:hover .im{transform:translateY(-3px) rotate(-1deg)}
+.ptile .cap{font-size:12px;color:var(--mute);margin-top:7px;line-height:1.35}
+.ptile .cap b{color:var(--text);font-size:12.5px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ptile .price{color:var(--ember-hi);font-weight:800;font-size:14px}
+.ptile .price.none{color:var(--mute);font-weight:600}
+/* sets timeline */
+.year{position:sticky;top:var(--hh,70px);z-index:4;display:flex;align-items:baseline;gap:10px;margin:22px -16px 8px;padding:10px 16px;background:linear-gradient(180deg,rgba(13,13,14,.95),rgba(13,13,14,.82));backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.year b{font-size:22px}
+.year span{color:var(--mute);font-size:12.5px}
+.set{display:flex;gap:12px;align-items:center;padding:11px 12px;margin-bottom:8px;cursor:pointer;border-left:3px solid transparent;transition:transform .15s,opacity .2s}
+.set:hover{transform:translateX(2px)}
+.set.k-commander,.set.hascm{border-left-color:var(--ember)}
+.set.k-secret{border-left-color:#a77bd6}
+.set.k-reprint{border-left-color:#6f9fc9}
+.set.k-jumpstart{border-left-color:#7cc493}
+.set.dim{opacity:.35}
+.sym{width:34px;height:34px;flex:none;display:grid;place-items:center;border-radius:10px;background:rgba(255,255,255,.04);border:1px solid var(--line)}
+.sym img{width:24px;height:24px;filter:invert(.92);opacity:.9}
+.set.k-commander .sym img,.set.hascm .sym img{filter:invert(55%) sepia(80%) saturate(900%) hue-rotate(345deg) brightness(95%)}
+.set .body{flex:1;min-width:0}
+.set h4{margin:0;font-size:15px;line-height:1.3}
+.set .ty{color:var(--mute);font-size:12.5px}
+.set .n{flex:none;text-align:right;font-size:12.5px;color:var(--mute)}
+.set .n b{display:block;color:var(--text);font-size:15px}
+.ktag{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:1px 6px;border-radius:5px;margin-left:6px;vertical-align:1px;background:rgba(255,255,255,.07);color:var(--mute)}
+.ktag.cmd{background:var(--ember-soft);color:var(--ember-hi)}
+.ktag.up{background:rgba(124,196,147,.14);color:var(--good)}
+.legend{display:flex;flex-wrap:wrap;gap:12px;font-size:12px;color:var(--mute);margin-top:10px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+/* card grid */
+.cgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:10px}
+@media (min-width:600px){.cgrid{grid-template-columns:repeat(4,1fr)}}
+@media (min-width:860px){.cgrid{grid-template-columns:repeat(6,1fr)}}
+.ctile{aspect-ratio:488/680;border-radius:4.75%/3.5%;background:linear-gradient(180deg,#232120,#171616) center/cover;box-shadow:0 10px 20px rgba(0,0,0,.5);cursor:pointer;position:relative;overflow:hidden;display:flex;align-items:flex-end;transition:transform .18s}
+.ctile:hover{transform:translateY(-3px) scale(1.02)}
+.ctile span{font-size:11px;padding:6px;line-height:1.25;color:var(--mute)}
+.ctile.loaded span{display:none}
+.ctile .q{position:absolute;top:6px;left:6px;background:rgba(0,0,0,.75);color:var(--ember-hi);font-weight:800;font-size:12px;border-radius:6px;padding:1px 6px}
+.decktile{display:flex;gap:12px;align-items:center;padding:10px;margin-bottom:8px;cursor:pointer}
+.decktile .thumb{width:70px;height:52px}
 </style>
 </head>
 <body>
@@ -216,6 +267,12 @@ nav.tabbar button[aria-selected=true]::before{content:"";position:absolute;top:2
     </div>
   </section>
 
+  <section id="tab-sets" class="hidden">
+    <div class="chips" id="setfilters" style="padding-top:0"></div>
+    <div class="legend"><span><i style="background:var(--ember)"></i>Commander decks</span><span><i style="background:#a77bd6"></i>Secret Lair</span><span><i style="background:#6f9fc9"></i>Reprint</span><span><i style="background:#7cc493"></i>Jumpstart</span></div>
+    <div id="timeline"><div class="empty">Loading the release history…</div></div>
+  </section>
+
   <section id="tab-rules" class="hidden">
     <div class="field"><input type="search" id="rq" placeholder="Rule number (702.2) or words (replacement)" autocomplete="off" autocapitalize="none" enterkeyhint="search"></div>
     <div id="rresults"></div>
@@ -226,6 +283,7 @@ nav.tabbar button[aria-selected=true]::before{content:"";position:absolute;top:2
   <button data-tab="search" aria-selected="true"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>Search</button>
   <button data-tab="interact" aria-selected="false"><svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="10" height="14" rx="2"/><rect x="10.5" y="3" width="10" height="14" rx="2"/></svg>Interact</button>
   <button data-tab="decks" aria-selected="false"><svg viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="16" rx="2"/><path d="M8 9h8M8 13h8M8 17h5"/></svg>Decks</button>
+  <button data-tab="sets" aria-selected="false"><svg viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/><path d="M3 17.5l9 5 9-5" opacity=".5"/></svg>Sets</button>
   <button data-tab="rules" aria-selected="false"><svg viewBox="0 0 24 24"><path d="M5 4h9a5 5 0 0 1 5 5v11H8a3 3 0 0 1-3-3z"/><path d="M5 17a3 3 0 0 1 3-3h11"/></svg>Rules</button>
 </nav>
 <div id="sheet-root"></div>

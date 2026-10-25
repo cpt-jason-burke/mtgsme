@@ -11,7 +11,7 @@ Pocket Commander rules judge and deck-building tools: Comprehensive Rules, card 
 | `cards_with_rulings/` | Same cards with their official rulings under each card (28 MB total) |
 | `docs/` | The MTGSME web app (search, rules, interaction checker). Served by GitHub Pages. |
 | `tools/build_cards.py` | Script that rebuilds the text card files from the mtg.wtf data |
-| `tools/build_site.py` | Script that rebuilds the web app's data files (`docs/data/`) |
+| `tools/build_site.py` | Script that rebuilds the web app's data files (`docs/data/`: cards, rulings, rules, sets, cards per set, precon lists) |
 | `CLAUDE.md` | Judge instructions that every Claude Code session on this repo loads automatically |
 
 ## Card format
@@ -47,9 +47,11 @@ python3 tools/build_site.py <path-to-magic-search-engine>
 
 Served by GitHub Pages from the `docs` folder: https://cpt-jason-burke.github.io/mtgsme/
 
-- **Search:** name, type and text search with color identity, Commander legal and Game Changer filters.
+- **Search:** name, type and text search with color identity, card type, keyword (`kw:infect`), theme (`theme:poison`), Commander legal and Game Changer filters, plus a keyword browser that shows each keyword's rules definition.
+- **Card page:** oracle text, rulings, keyword rules, wording notes, and a carousel of every paper printing with prices (non-foil, foil, etched).
 - **Interact:** a card carousel; finds which triggers and replacement effects link the cards, and reads each card's wording for what it says and does not say. Every rule it cites is checked against the loaded Comprehensive Rules.
 - **Decks:** import a Moxfield or Archidekt text export (or build from empty), check it for Commander (100 cards, color identity, singleton, bans, Game Changers), see the mana curve, search within the commander's colors, and get wording-based synergy suggestions.
+- **Sets:** Magic's release history by year: every set with its symbol, date and card count, color-coded by kind (Commander decks, Secret Lair, reprint, Jumpstart). Filter by color, type, mana value and rarity; open a set for a grid of its cards; open a Commander precon or Secret Lair drop for its list and market value, and copy a precon into Decks.
 - **Rules:** search and browse the full Comprehensive Rules, with tap-to-open rule references.
 
 Card images load from Scryfall in the viewer's browser (`docs/scry.js`), batched and cached on the device; they can be turned off in Settings. Card text never comes from Scryfall.

@@ -16,7 +16,7 @@
     picked: store.get("picked", []),
     deck: store.get("deck", null), pane: "list", importNote: "", suggestions: null,
   };
-  const TITLES = { search: "Search", interact: "Interact", decks: "Decks", rules: "Rules" };
+  const TITLES = { search: "Search", interact: "Interact", decks: "Decks", sets: "Sets", rules: "Rules" };
   const ART = { W: "#cdbf9a", U: "#3d6a8f", B: "#4a3f4f", R: "#9a3d24", G: "#3f6b3a" };
   const artColor = (c) => (c.ci.length === 1 ? ART[c.ci] : c.ci.length ? "#8a6d2b" : "#6b6b6b");
 
@@ -62,9 +62,14 @@
     const c = card(name);
     Scry.get(name, (img) => {
       if (!img) { if (c) openSheet({ type: "card", card: c }); return; }
+      lightbox(img.large || img.normal, img.normal, name, "");
+    });
+  }
+  function lightbox(url, fallback, name, sub) {
+    {
       const lb = document.createElement("div");
       lb.className = "lightbox";
-      lb.innerHTML = '<div class="lb-card" role="img" aria-label="' + esc(name) + '" style="background-image:url(&quot;' + esc(img.large || img.normal) + '&quot;),url(&quot;' + esc(img.normal) + '&quot;)"></div><div class="lb-cap"><b>' + esc(name) + "</b>Tap anywhere to close</div>";
+      lb.innerHTML = '<div class="lb-card" role="img" aria-label="' + esc(name) + '" style="background-image:url(&quot;' + esc(url) + '&quot;),url(&quot;' + esc(fallback || url) + '&quot;)"></div><div class="lb-cap"><b>' + esc(name) + "</b>" + (sub ? esc(sub) + "<br>" : "") + "Tap anywhere to close</div>";
       document.body.appendChild(lb);
       const el = lb.firstChild;
       const move = (e) => {
@@ -79,12 +84,15 @@
       lb.addEventListener("click", () => { if (Date.now() - downAt < 400 || !downAt) lb.remove(); });
       const esc2 = (e) => { if (e.key === "Escape") { lb.remove(); document.removeEventListener("keydown", esc2); } };
       document.addEventListener("keydown", esc2);
-    });
+    }
   }
   document.addEventListener("click", (e) => {
     const z = e.target.closest("[data-zoom]");
     if (z && Scry.state.enabled) { e.stopPropagation(); e.preventDefault(); zoom(z.dataset.zoom); }
   }, true);
+
+  const setHH = () => document.documentElement.style.setProperty("--hh", $("header.top").offsetHeight + "px");
+  window.addEventListener("resize", setHH); setHH();
 
   // ---------- loading ----------
   async function load() {
@@ -95,6 +103,7 @@
       $("#status").textContent = CARDS.length.toLocaleString() + " cards · rules of " + CR.effective;
       initSearch(); initInteract(); initDecks(); initRules();
       renderResults(); renderInteract(); renderDeck(); rulesSearch();
+      if (store.get("tab", "search") === "sets") ensureSets();
       fetch("data/rulings.json").then((x) => x.json()).then((j) => { RULINGS = j; renderAnalysis(); }).catch(() => {});
     } catch (e) {
       $("#status").textContent = "";
@@ -109,6 +118,7 @@
     $("#title").textContent = TITLES[t];
     store.set("tab", t);
     if (t === "interact") requestAnimationFrame(updateCarousel);
+    if (t === "sets" && CR) ensureSets();
     window.scrollTo(0, 0);
   }
   document.querySelectorAll("nav.tabbar [data-tab]").forEach((b) => b.addEventListener("click", () => showTab(b.dataset.tab)));
@@ -118,15 +128,32 @@
   const stack = [];
   function openSheet(v) { stack.push(v); drawSheet(); }
   function closeSheet() { stack.length = 0; $("#sheet-root").innerHTML = ""; }
+  let sheetSeq = 0;
+  const VIEWS = {
+    card: [(v) => v.card.n, (v) => cardView(v.card) + printingsHTML()],
+    settings: [() => "Settings", settingsView],
+    keywords: [() => "Keywords & themes", keywordsView],
+    set: [(v) => (SETS.data.byCode.get(v.code) || {}).n || "Set", setView],
+    sld: [(v) => "Secret Lair · " + v.year, sldView],
+    deck: [(v) => SETS.data.precons[v.i].n, deckView],
+    rule: [(v) => (v.rule.startsWith("gloss:") ? "Glossary" : "Rule " + v.rule), (v) => ruleView(v.rule)],
+  };
   function drawSheet() {
     const v = stack[stack.length - 1];
     if (!v) return closeSheet();
-    const title = v.type === "card" ? v.card.n : v.type === "settings" ? "Settings" : v.rule.startsWith("gloss:") ? "Glossary" : "Rule " + v.rule;
-    const body = v.type === "card" ? cardView(v.card) : v.type === "settings" ? settingsView() : ruleView(v.rule);
-    $("#sheet-root").innerHTML = '<div class="sheet-bg"><div class="sheet"><div class="grab"></div><div class="sheet-top">' +
-      (stack.length > 1 ? '<button class="btn small" data-act="back">Back</button>' : "") + '<div class="t">' + esc(title) + '</div><button class="btn small" data-act="close">Close</button></div>' + body + "</div></div>";
-    hydrate($("#sheet-root"));
+    v.id = v.id || ++sheetSeq;
+    const prev = $("#sheet-root .sheet");
+    const keep = prev && +prev.dataset.vid === v.id ? prev.scrollTop : 0;
+    const [title, body] = VIEWS[v.type];
+    $("#sheet-root").innerHTML = '<div class="sheet-bg"><div class="sheet" data-vid="' + v.id + '"><div class="grab"></div><div class="sheet-top">' +
+      (stack.length > 1 ? '<button class="btn small" data-act="back">Back</button>' : "") + '<div class="t">' + esc(title(v)) + '</div><button class="btn small" data-act="close">Close</button></div>' + body(v) + "</div></div>";
+    const sheet = $("#sheet-root .sheet");
+    sheet.scrollTop = keep;
+    hydrate(sheet);
+    lazyPrints(sheet);
     const img = $("#sheet-root .cardimg"); if (img) tiltFlat(img);
+    if (v.type === "card") loadPrintings(v);
+    if (v.type === "deck") deckValue(v);
   }
   function tiltFlat(el) {
     el.addEventListener("pointermove", (e) => { const r = el.getBoundingClientRect(), x = (e.clientX - r.left) / r.width - 0.5, y = (e.clientY - r.top) / r.height - 0.5;
@@ -147,12 +174,84 @@
       if (act === "deck-cmd") { setCommander(n); return drawSheet(); }
       if (act === "images") { Scry.setEnabled(!Scry.state.enabled); drawSheet(); return; }
       if (act === "test") return runTest();
+      const v = stack[stack.length - 1];
+      if (act === "kw") { closeSheet(); showTab("search"); setKeyword(a.dataset.v); return; }
+      if (act === "theme") { closeSheet(); showTab("search"); setTheme(a.dataset.v); return; }
+      if (act === "pfin") { v.fin = a.dataset.v; store.set("fin", v.fin); return renderPrintings(v, printCache.get(v.card.n) || []); }
+      if (act === "pzoom") { if (a.dataset.url) lightbox(a.dataset.url, a.dataset.url, v.card.n, a.dataset.cap); return; }
+      if (act === "view") { v.view = a.dataset.v; store.set("gridview", v.view); return drawSheet(); }
+      if (act === "match") { v.all = !v.all; return drawSheet(); }
+      if (act === "more") { v.limit = (v.limit || 90) + 90; return drawSheet(); }
+      if (act === "copydeck") return copyPrecon(v.i);
     }
+    const dk = t.closest("[data-deck]"); if (dk) return openSheet({ type: "deck", i: +dk.dataset.deck });
     const r = t.closest("[data-rule]"); if (r) return openSheet({ type: "rule", rule: r.dataset.rule });
     const cd = t.closest("[data-card]"); if (cd && card(cd.dataset.card)) return openSheet({ type: "card", card: card(cd.dataset.card) });
     const g = t.closest("[data-gloss]"); if (g) return openSheet({ type: "rule", rule: "gloss:" + g.dataset.gloss });
   });
+  $("#sheet-root").addEventListener("change", (e) => {
+    const t = e.target, v = stack[stack.length - 1];
+    if (t.dataset.act === "psort") { v.psort = t.value; renderPrintings(v, printCache.get(v.card.n) || []); }
+    if (t.dataset.act === "ssort") { v.sort = t.value; drawSheet(); }
+  });
   $("#settingsBtn").addEventListener("click", () => openSheet({ type: "settings" }));
+
+  // ---------- printings and prices (Scryfall, on this device) ----------
+  const printCache = new Map();
+  const FIN = { nonfoil: ["Non-foil", "usd"], foil: ["Foil", "usd_foil"], etched: ["Etched", "usd_etched"] };
+  const priceOf = (p, fin) => { const x = p.prices[FIN[fin][1]]; return x ? +x : null; };
+  const money = (x) => "$" + (x >= 100 ? Math.round(x).toLocaleString() : x.toFixed(2));
+  function printingsHTML() {
+    return '<section class="block"><h2>Printings &amp; prices</h2><div id="prints">' + (Scry.state.enabled ? '<div class="d">Loading printings and prices from Scryfall…</div>' : '<div class="d">Turn on card images in Settings to see printings and prices.</div>') + "</div></section>";
+  }
+  async function loadPrintings(v) {
+    if (!Scry.state.enabled) return;
+    let list = printCache.get(v.card.n);
+    if (!list) {
+      try { list = await Scry.printings(v.card.n); printCache.set(v.card.n, list); }
+      catch (e) { const el = $("#prints"); if (el && stack[stack.length - 1] === v) el.innerHTML = '<div class="d">Could not load printings: ' + esc(e.message || e) + "</div>"; return; }
+    }
+    if (stack[stack.length - 1] === v) renderPrintings(v, list);
+  }
+  function renderPrintings(v, list) {
+    const el = $("#prints"); if (!el) return;
+    if (!list.length) { el.innerHTML = '<div class="d">Scryfall has no paper printings for this card.</div>'; return; }
+    const avail = Object.keys(FIN).filter((f) => list.some((p) => p.finishes.includes(f)));
+    v.fin = avail.includes(v.fin) ? v.fin : avail.includes(store.get("fin", "nonfoil")) ? store.get("fin", "nonfoil") : avail[0];
+    v.psort = v.psort || "new";
+    const rows = list.filter((p) => p.finishes.includes(v.fin));
+    if (v.psort === "low") rows.sort((a, b) => (priceOf(a, v.fin) ?? 1e9) - (priceOf(b, v.fin) ?? 1e9));
+    if (v.psort === "high") rows.sort((a, b) => (priceOf(b, v.fin) ?? -1) - (priceOf(a, v.fin) ?? -1));
+    const priced = rows.map((p) => priceOf(p, v.fin)).filter((x) => x != null);
+    const lo = priced.length ? Math.min(...priced) : null, hi = priced.length ? Math.max(...priced) : null;
+    let h = '<div class="pctl">' + avail.map((f) => '<button class="chip' + (f === v.fin ? " on" : "") + '" data-act="pfin" data-v="' + f + '">' + FIN[f][0] + " · " + list.filter((p) => p.finishes.includes(f)).length + "</button>").join("") +
+      '<select class="sel" data-act="psort"><option value="new"' + (v.psort === "new" ? " selected" : "") + '>Newest</option><option value="low"' + (v.psort === "low" ? " selected" : "") + '>Cheapest</option><option value="high"' + (v.psort === "high" ? " selected" : "") + ">Priciest</option></select></div>";
+    h += '<div class="d">' + rows.length + " " + FIN[v.fin][0].toLowerCase() + " printing" + (rows.length === 1 ? "" : "s") + (lo != null ? " · " + money(lo) + (hi > lo ? " to " + money(hi) : "") : "") + "</div>";
+    h += '<div class="pcar">' + rows.map((p) => {
+      const pr = priceOf(p, v.fin);
+      return '<div class="ptile" data-act="pzoom" data-url="' + esc(p.img ? p.img.large : "") + '" data-cap="' + esc(p.setName + " · #" + p.num) + '"><div class="im" style="background-image:url(&quot;' + esc(p.img ? p.img.normal : "") + '&quot;)"></div>' +
+        '<div class="cap"><b>' + esc(p.setName) + "</b>#" + esc(p.num) + " · " + esc((p.rarity || "?")[0].toUpperCase()) + " · " + esc((p.date || "").slice(0, 4)) + (p.frame ? " · " + esc(p.frame) : "") +
+        '<br><span class="price' + (pr == null ? " none" : "") + '">' + (pr == null ? "no price" : money(pr)) + "</span>" + (p.prices.eur && v.fin === "nonfoil" ? " · €" + esc(p.prices.eur) : "") + (p.prices.tix ? " · " + esc(p.prices.tix) + " tix" : "") + "</div></div>";
+    }).join("") + "</div>";
+    h += '<div class="d" style="font-size:12px">From Scryfall: USD is the TCGplayer market price, EUR is Cardmarket, tix is MTGO. Updated about once a day. These are market prices, not what a store will pay.</div>';
+    el.innerHTML = h;
+  }
+
+  // Grid tiles with data-print="set/number" get the exact printing's picture when they scroll into view.
+  function lazyPrints(root) {
+    const els = root.querySelectorAll("[data-print]:not([data-done])");
+    if (!els.length) return;
+    const io = new IntersectionObserver((entries) => {
+      for (const en of entries) {
+        if (!en.isIntersecting) continue;
+        const el = en.target; io.unobserve(el); el.dataset.done = "1";
+        const [set, num] = el.dataset.print.split("/");
+        const apply = (img) => { if (img) { el.style.backgroundImage = "url(\"" + img.normal + "\")"; el.classList.add("loaded"); } };
+        Scry.getPrint(set, num, (p) => (p && p.img ? apply(p.img) : Scry.get(el.dataset.card, apply)));
+      }
+    }, { root: root.classList.contains("sheet") ? root : null, rootMargin: "300px" });
+    els.forEach((el) => io.observe(el));
+  }
 
   function flags(c) {
     return (c.s ? '<span class="badge ' + (c.s === "banned" ? "bad" : "warn") + '">' + esc(c.s.replace(/_/g, " ")) + "</span>" : "") + (c.g ? '<span class="badge warn">Game Changer</span>' : "");
@@ -224,29 +323,74 @@
   function rowHTML(c, extra, why) {
     return '<div class="panel row" data-card="' + esc(c.n) + '"><div class="thumb" style="--cc:' + artColor(c) + '" data-img="' + esc(c.n) + '" data-kind="art" data-zoom="' + esc(c.n) + '"></div><div class="body"><h4>' + esc(c.n) + " " + (c.m ? mana(c.m) : "") + flags(c) + '</h4><div class="ty">' + esc(c.t) + (c.pt ? " · " + esc(c.pt) : "") + "</div>" + (why ? '<div class="why">' + esc(why) + "</div>" : "") + '<div class="tx">' + mana(c.o).replace(/\n/g, " · ") + "</div></div>" + (extra || "") + "</div>";
   }
+  // Themes span several keywords or plain wording.
+  const THEMES = {
+    poison: ["Poison counters", (c) => (c.k || []).some((k) => /^(infect|toxic|poisonous)$/.test(k)) || /poison counter/i.test(c.o)],
+    counters: ["+1/+1 counters", (c) => /\+1\/\+1 counter/i.test(c.o)],
+    tokens: ["Tokens", (c) => /\bcreate[^.]*\btokens?\b/i.test(c.o)],
+    lands: ["Lands matter", (c) => (c.k || []).includes("landfall") || /\bwhenever (?:a|one or more) lands?\b|play an additional land|land cards? (?:from your graveyard )?onto the battlefield/i.test(c.o)],
+    sacrifice: ["Sacrifice", (c) => /\bsacrifices? (?:a|an|another|one or more)\b/i.test(c.o)],
+    graveyard: ["Graveyard", (c) => /\bfrom (?:your|a|their) graveyard\b/i.test(c.o)],
+    lifegain: ["Life gain", (c) => /\b(?:you )?gains? (?:\d+|x|that much)?\s*life\b|whenever you gain life/i.test(c.o) || (c.k || []).includes("lifelink")],
+    draw: ["Card draw", (c) => /\bdraws? (?:a|two|three|four|x|that many) cards?\b/i.test(c.o)],
+    spells: ["Instants & sorceries", (c) => /\binstant or sorcery\b/i.test(c.o)],
+    blink: ["Blink", (c) => /\bexile [^.]*\bthen return\b|\breturn (?:it|that card|them|those cards) to the battlefield\b/i.test(c.o)],
+    voltron: ["Equipment & auras", (c) => /\b(?:equipped|enchanted) creature\b/i.test(c.o)],
+    wheels: ["Wheels & discard", (c) => /\beach player discards their hand\b|\bdiscards? (?:their|your) hand\b/i.test(c.o)],
+  };
+  const KW_GROUPS = {
+    Evasion: ["flying", "menace", "trample", "shadow", "horsemanship", "fear", "intimidate", "skulk", "forestwalk", "islandwalk", "swampwalk", "mountainwalk", "plainswalk", "landwalk"],
+    Combat: ["first strike", "double strike", "deathtouch", "vigilance", "lifelink", "reach", "haste", "defender", "flanking", "bushido", "exalted", "battle cry", "annihilator", "myriad", "melee", "provoke", "afflict"],
+    Protection: ["hexproof", "shroud", "ward", "protection", "indestructible", "regenerate"],
+    "Poison & counters": ["infect", "toxic", "poisonous", "proliferate", "wither", "persist", "undying", "modular", "evolve", "adapt", "bolster", "outlast", "graft", "fabricate", "training", "mentor", "backup"],
+    Graveyard: ["flashback", "unearth", "escape", "dredge", "delve", "embalm", "eternalize", "jump-start", "aftermath", "retrace", "disturb", "scavenge", "encore", "mill", "surveil"],
+    Casting: ["flash", "cycling", "kicker", "multikicker", "convoke", "affinity", "cascade", "storm", "madness", "suspend", "foretell", "evoke", "emerge", "overload", "miracle", "prowess", "discover", "plot", "spree"],
+    Lands: ["landfall", "earthbend", "domain", "landcycling"],
+    "Tokens & bodies": ["changeling", "populate", "investigate", "amass", "incubate", "partner"],
+  };
+  const KW = new Map();   // keyword -> count
+  const title = (s) => s.replace(/\b\w/g, (m) => m.toUpperCase());
   function initSearch() {
+    for (const c of CARDS) for (const k of c.k || []) KW.set(k, (KW.get(k) || 0) + 1);
     const types = ["Creature", "Instant", "Sorcery", "Artifact", "Enchantment", "Planeswalker", "Land", "Battle", "Legendary"];
+    const kws = [...KW.entries()].sort((a, b) => a[0].localeCompare(b[0]));
     $("#filters").innerHTML = ["W", "U", "B", "R", "G", "C"].map((c) => '<button class="chip" data-ci="' + c + '" aria-label="' + c + '"><i class="ms ' + c + '">' + c + "</i></button>").join("") +
       '<select class="sel" id="type"><option value="">Any type</option>' + types.map((t) => "<option>" + t + "</option>").join("") + "</select>" +
-      '<button class="chip" id="legal">Commander legal</button><button class="chip" id="gc">Game Changer</button>';
+      '<select class="sel" id="kwsel"><option value="">Any keyword</option>' + kws.map(([k, n]) => '<option value="' + esc(k) + '">' + esc(title(k)) + " (" + n.toLocaleString() + ")</option>").join("") + "</select>" +
+      '<select class="sel" id="themesel"><option value="">Any theme</option>' + Object.entries(THEMES).map(([k, v]) => '<option value="' + k + '">' + esc(v[0]) + "</option>").join("") + "</select>" +
+      '<button class="chip" id="legal">Commander legal</button><button class="chip" id="gc">Game Changer</button><button class="chip" id="kwbrowse">Browse keywords</button>';
     let timer;
     $("#q").addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(() => { state.shown = 50; renderResults(); }, 160); });
     $("#q").addEventListener("keydown", (e) => { if (e.key === "Enter") $("#q").blur(); });
     $("#filters").addEventListener("click", (e) => {
       const b = e.target.closest("button"); if (!b) return;
+      if (b.id === "kwbrowse") return openSheet({ type: "keywords" });
       if (b.dataset.ci) { const c = b.dataset.ci; state.ci.has(c) ? state.ci.delete(c) : state.ci.add(c); b.classList.toggle("on"); }
       if (b.id === "legal") { state.legal = !state.legal; b.classList.toggle("on", state.legal); }
       if (b.id === "gc") { state.gc = !state.gc; b.classList.toggle("on", state.gc); }
       state.shown = 50; renderResults();
     });
     $("#type").addEventListener("change", (e) => { state.type = e.target.value; state.shown = 50; renderResults(); });
+    $("#kwsel").addEventListener("change", (e) => { setKeyword(e.target.value); });
+    $("#themesel").addEventListener("change", (e) => { state.theme = e.target.value; state.shown = 50; renderResults(); });
     $("#results").addEventListener("click", (e) => {
       if (e.target.closest("[data-more]")) { state.shown += 50; return renderResults(); }
+      const r = e.target.closest("[data-rule]"); if (r) return openSheet({ type: "rule", rule: r.dataset.rule });
       const d = e.target.closest("[data-card]"); if (d) openSheet({ type: "card", card: card(d.dataset.card) });
     });
   }
+  function setKeyword(k) { state.kw = k; $("#kwsel").value = k; state.shown = 50; renderResults(); }
+  function setTheme(k) { state.theme = k; $("#themesel").value = k; state.shown = 50; renderResults(); }
+  // Text search plus kw:flying and theme:poison (use quotes or _ for spaces: kw:"first strike", kw:first_strike).
+  function parseQuery(q) {
+    const opt = {};
+    q = q.replace(/\b(kw|keyword|theme):(?:"([^"]+)"|(\S+))/gi, (m, key, a, b) => { const v = (a || b).replace(/_/g, " ").toLowerCase(); if (/^theme$/i.test(key)) opt.theme = v; else opt.kw = v; return " "; });
+    return { text: q, ...opt };
+  }
   function filterCards(q, opt) {
-    const terms = q.toLowerCase().split(/\s+/).filter(Boolean);
+    const pq = parseQuery(q);
+    const kw = pq.kw || opt.kw, theme = THEMES[pq.theme || opt.theme];
+    const terms = pq.text.toLowerCase().split(/\s+/).filter(Boolean);
     const inc = terms.filter((t) => !t.startsWith("-")), exc = terms.filter((t) => t.startsWith("-") && t.length > 1).map((t) => t.slice(1));
     const out = [];
     for (let i = 0; i < CARDS.length; i++) {
@@ -254,6 +398,8 @@
       if (opt.legal && c.s) continue;
       if (opt.gc && !c.g) continue;
       if (opt.type && !c.t.includes(opt.type)) continue;
+      if (kw && !(c.k || []).includes(kw)) continue;
+      if (theme && !theme[1](c)) continue;
       if (opt.ci && opt.ci.size) {
         const colors = [...opt.ci].filter((x) => x !== "C");
         if (!colors.length) { if (c.ci !== "") continue; } else if ([...c.ci].some((ch) => !opt.ci.has(ch))) continue;
@@ -268,18 +414,37 @@
     return out;
   }
   function rank(c, q) { const n = c.n.toLowerCase(); return n === q ? 0 : n.startsWith(q) ? 1 : n.includes(q) ? 2 : 3; }
+  // The rules definition of a keyword, shown above its cards.
+  function kwBox(k) {
+    const num = CR.kw[k];
+    if (!num) return '<div class="panel kwbox"><b>' + esc(title(k)) + '</b><div class="d">An ability word or keyword without its own rule. It has no rules meaning by itself; read each card.</div></div>';
+    const sub = CR.order.find((n) => n.startsWith(num) && /^[a-z]$/.test(n.slice(num.length)));
+    return '<div class="panel kwbox"><b>' + esc(title(k)) + "</b> " + ruleChip(num) + '<div class="d" style="margin-top:6px">' + linkRules(esc(sub ? CR.rules[sub].t : CR.rules[num].t)) + "</div></div>";
+  }
   function renderResults() {
     const q = $("#q").value.trim();
     const el = $("#results");
-    if (!q && !state.ci.size && !state.type && !state.gc) {
+    const pq = parseQuery(q);
+    if (!q && !state.ci.size && !state.type && !state.gc && !state.kw && !state.theme) {
       $("#count").textContent = "";
-      el.innerHTML = '<div class="empty"><div class="big">⌕</div>Search by name, type or rules text.<br>Try <b>landfall</b>, <b>draw a card</b>, or <b>-creature sacrifice</b> to exclude words.</div>';
+      el.innerHTML = '<div class="empty"><div class="big">⌕</div>Search by name, type or rules text.<br>Try <b>landfall</b>, <b>kw:infect</b>, <b>theme:poison</b>, or <b>-creature sacrifice</b> to exclude words.</div>';
       return;
     }
     const out = filterCards(q, state);
+    const kw = pq.kw || state.kw;
     $("#count").textContent = out.length.toLocaleString() + " card" + (out.length === 1 ? "" : "s");
-    el.innerHTML = out.slice(0, state.shown).map((c) => rowHTML(c)).join("") + (out.length > state.shown ? '<div class="chips"><button class="btn" data-more>Show more</button></div>' : "");
+    el.innerHTML = (kw ? kwBox(kw) : "") + out.slice(0, state.shown).map((c) => rowHTML(c)).join("") + (out.length > state.shown ? '<div class="chips"><button class="btn" data-more>Show more</button></div>' : "");
     hydrate(el);
+  }
+  function keywordsView() {
+    let h = '<div class="d" style="margin-bottom:6px">Tap a keyword to see every card that has it, with its rules definition. A keyword filter only finds cards that have the keyword, not cards that just mention it.</div>';
+    h += '<section class="block"><h2>Themes</h2><div class="chips" style="padding-top:0">' + Object.entries(THEMES).map(([k, v]) => '<button class="chip" data-act="theme" data-v="' + k + '">' + esc(v[0]) + "</button>").join("") + "</div></section>";
+    for (const [g, list] of Object.entries(KW_GROUPS)) {
+      const have = list.filter((k) => KW.has(k));
+      if (have.length) h += '<section class="block"><h2>' + esc(g) + '</h2><div class="chips" style="padding-top:0">' + have.map((k) => '<button class="chip" data-act="kw" data-v="' + esc(k) + '">' + esc(title(k)) + ' <span style="color:var(--mute)">' + KW.get(k).toLocaleString() + "</span></button>").join("") + "</div></section>";
+    }
+    h += '<section class="block"><h2>All keywords A–Z</h2><div class="chips" style="padding-top:0">' + [...KW.entries()].sort((a, b) => a[0].localeCompare(b[0])).map(([k, n]) => '<button class="chip" data-act="kw" data-v="' + esc(k) + '">' + esc(title(k)) + ' <span style="color:var(--mute)">' + n.toLocaleString() + "</span></button>").join("") + "</div></section>";
+    return h;
   }
 
   // ---------- interact ----------
@@ -520,6 +685,172 @@
   function runSuggest() {
     $("#suggest").innerHTML = '<div class="panel item"><div class="d">Reading your deck…</div></div>';
     setTimeout(() => { state.suggestions = MTGDeck.suggest(state.deck, CARDS, card, MTGEngine, anCache, { limit: 30 }); renderSuggest(); }, 30);
+  }
+
+  // ---------- sets timeline ----------
+  const SETS = { data: null, loading: false, f: { kinds: new Set(["main", "commander", "secret", "reprint", "jumpstart", "draft", "other"]), ci: new Set(), type: "", mv: "", rar: new Set(), hidden: false } };
+  const KINDS = { main: "Main", commander: "Commander", secret: "Secret Lair", reprint: "Reprint", jumpstart: "Jumpstart", draft: "Horizons & draft", other: "Other" };
+  const RAR = ["L", "C", "U", "R", "M", "S"], RAR_NAME = ["Basic", "Common", "Uncommon", "Rare", "Mythic", "Special"];
+  const TODAY = new Date().toISOString().slice(0, 10);
+  const symbol = (code) => '<div class="sym"><img loading="lazy" alt="" src="https://svgs.scryfall.io/sets/' + esc(code) + '.svg" onerror="this.style.display=\'none\'"></div>';
+  let MV = null;
+  async function ensureSets() {
+    if (SETS.data || SETS.loading) return;
+    SETS.loading = true;
+    try {
+      const [sets, setcards, precons] = await Promise.all(["sets", "setcards", "precons"].map((f) => fetch("data/" + f + ".json").then((x) => x.json())));
+      const precBySet = new Map();
+      precons.forEach((p, i) => { p.i = i; if (p.y === "cmd") { if (!precBySet.has(p.s)) precBySet.set(p.s, []); precBySet.get(p.s).push(p); } });
+      SETS.data = { sets, setcards, precons, precBySet, byCode: new Map(sets.map((s) => [s.c, s])) };
+      MV = CARDS.map((c) => MTGDeck.manaValue(c.m));
+      initSetFilters(); renderTimeline();
+    } catch (e) { $("#timeline").innerHTML = '<div class="panel item">Could not load the set data.</div>'; }
+    SETS.loading = false;
+  }
+  function initSetFilters() {
+    const f = SETS.f;
+    $("#setfilters").innerHTML = '<button class="chip" id="sfbtn">Filters</button><div class="chips hidden" id="sfbody" style="width:100%">' + Object.entries(KINDS).map(([k, v]) => '<button class="chip on" data-kind="' + k + '">' + v + "</button>").join("") +
+      ["W", "U", "B", "R", "G", "C"].map((c) => '<button class="chip" data-ci="' + c + '" aria-label="' + c + '"><i class="ms ' + c + '">' + c + "</i></button>").join("") +
+      '<select class="sel" id="stype"><option value="">Any type</option>' + MTGDeck.TYPE_ORDER.concat("Legendary").map((t) => "<option>" + t + "</option>").join("") + "</select>" +
+      '<select class="sel" id="smv"><option value="">Any mana value</option>' + [0, 1, 2, 3, 4, 5, 6, 7].map((n) => '<option value="' + n + '">MV ' + (n === 7 ? "7+" : n) + "</option>").join("") + "</select>" +
+      RAR.slice(1, 5).map((r, i) => '<button class="chip" data-rar="' + (i + 1) + '">' + RAR_NAME[i + 1] + "</button>").join("") +
+      '<button class="chip" id="shidden">Promos &amp; extras</button></div>';
+    $("#setfilters").addEventListener("click", (e) => {
+      const b = e.target.closest("button"); if (!b) return;
+      if (b.id === "sfbtn") { $("#sfbody").classList.toggle("hidden"); return; }
+      if (b.dataset.kind) { const k = b.dataset.kind; f.kinds.has(k) ? f.kinds.delete(k) : f.kinds.add(k); b.classList.toggle("on", f.kinds.has(k)); }
+      if (b.dataset.ci) { const c = b.dataset.ci; f.ci.has(c) ? f.ci.delete(c) : f.ci.add(c); b.classList.toggle("on", f.ci.has(c)); }
+      if (b.dataset.rar) { const r = +b.dataset.rar; f.rar.has(r) ? f.rar.delete(r) : f.rar.add(r); b.classList.toggle("on", f.rar.has(r)); }
+      if (b.id === "shidden") { f.hidden = !f.hidden; b.classList.toggle("on", f.hidden); }
+      renderTimeline();
+    });
+    $("#stype").addEventListener("change", (e) => { f.type = e.target.value; renderTimeline(); });
+    $("#smv").addEventListener("change", (e) => { f.mv = e.target.value; renderTimeline(); });
+    $("#timeline").addEventListener("click", (e) => {
+      const s = e.target.closest("[data-set]"); if (s) return openSheet({ type: "set", code: s.dataset.set, view: store.get("gridview", "grid") });
+      const y = e.target.closest("[data-sld]"); if (y) openSheet({ type: "sld", year: y.dataset.sld });
+    });
+  }
+  const filterOn = () => { const f = SETS.f; return !!(f.ci.size || f.type || f.mv !== "" || f.rar.size); };
+  function matches(i, r) {
+    const f = SETS.f, c = CARDS[i];
+    if (f.rar.size && !f.rar.has(r)) return false;
+    if (f.type && !c.t.includes(f.type)) return false;
+    if (f.mv !== "" && (+f.mv === 7 ? MV[i] < 7 : MV[i] !== +f.mv)) return false;
+    if (f.ci.size) {
+      const colors = [...f.ci].filter((x) => x !== "C");
+      if (!colors.length) { if (c.ci !== "") return false; } else if ([...c.ci].some((ch) => !f.ci.has(ch))) return false;
+    }
+    return true;
+  }
+  function renderTimeline() {
+    const D = SETS.data, f = SETS.f, on = filterOn();
+    const active = f.ci.size + f.rar.size + (f.type ? 1 : 0) + (f.mv !== "" ? 1 : 0) + (7 - f.kinds.size) + (f.hidden ? 1 : 0);
+    $("#sfbtn").textContent = active ? "Filters · " + active + " on" : "Filters";
+    $("#sfbtn").classList.toggle("on", !!active);
+    const items = D.sets.filter((s) => (!s.h || f.hidden) && f.kinds.has(s.k)).map((s) => ({ ...s, set: true }));
+    if (f.kinds.has("secret")) {   // Secret Lair drops are grouped by year
+      const byYear = new Map();
+      for (const p of D.precons) if (p.y === "sld") { const y = p.d.slice(0, 4); if (!byYear.has(y)) byYear.set(y, []); byYear.get(y).push(p); }
+      for (const [y, drops] of byYear) items.push({ sld: y, d: drops[0].d, n: "Secret Lair drops", k: "secret", drops, t: drops.reduce((a, p) => a + (p.main || []).reduce((b, r) => b + r[0], 0), 0) });
+    }
+    items.sort((a, b) => (a.d < b.d ? 1 : a.d > b.d ? -1 : 0));
+    let h = "", year = null, shown = 0;
+    const groups = new Map();
+    for (const it of items) {
+      if (on) it.m = it.set ? D.setcards[it.c].reduce((a, [i, , r]) => a + (matches(i, r) ? 1 : 0), 0) : it.drops.reduce((a, p) => a + (p.main || []).filter((r) => matches(r[1], 3)).length, 0);
+      const y = (it.d || "????").slice(0, 4);
+      if (!groups.has(y)) groups.set(y, []);
+      groups.get(y).push(it);
+    }
+    for (const [y, list] of groups) {
+      const cmdCount = list.filter((s) => s.k === "commander" || s.cm).length;
+      h += '<div class="year"><b>' + esc(y) + "</b><span>" + list.length + " release" + (list.length === 1 ? "" : "s") + (cmdCount ? " · " + cmdCount + " with Commander decks" : "") + "</span></div>";
+      for (const it of list) {
+        shown++;
+        const decks = it.set ? (D.precBySet.get(it.k === "commander" ? it.c : it.cm) || []).length : 0;
+        const cls = "panel set k-" + it.k + (it.cm ? " hascm" : "") + (on && !it.m ? " dim" : "");
+        const tags = (it.set && it.d > TODAY ? '<span class="ktag up">Upcoming</span>' : "") + (decks ? '<span class="ktag cmd">Commander ×' + decks + "</span>" : "") + (it.k !== "main" && it.k !== "commander" ? '<span class="ktag">' + esc(KINDS[it.k]) + "</span>" : "");
+        h += '<div class="' + cls + '" ' + (it.set ? 'data-set="' + esc(it.c) + '"' : 'data-sld="' + esc(it.sld) + '"') + ">" + symbol(it.set ? it.c : "sld") +
+          '<div class="body"><h4>' + esc(it.n) + tags + '</h4><div class="ty">' + esc(it.d) + (it.set ? " · " + esc(it.c.toUpperCase()) : " · " + it.drops.length + " drops") + "</div></div>" +
+          '<div class="n">' + (on ? "<b>" + it.m + "</b>of " + it.t : "<b>" + it.t + "</b>cards") + "</div></div>";
+      }
+    }
+    $("#timeline").innerHTML = shown ? h : '<div class="empty">No releases match these filters.</div>';
+  }
+  function sortRows(rows, how) {
+    const ty = (c) => { const t = MTGDeck.mainType(c.t); const i = MTGDeck.TYPE_ORDER.indexOf(t); return i < 0 ? 99 : i; };
+    const col = (c) => (c.ci.length > 1 ? 10 : c.ci === "" ? 11 : "WUBRG".indexOf(c.ci));
+    const by = { name: (a, b) => a.c.n.localeCompare(b.c.n), type: (a, b) => ty(a.c) - ty(b.c) || a.c.n.localeCompare(b.c.n), mv: (a, b) => MTGDeck.manaValue(a.c.m) - MTGDeck.manaValue(b.c.m) || a.c.n.localeCompare(b.c.n),
+      color: (a, b) => col(a.c) - col(b.c) || a.c.n.localeCompare(b.c.n) }[how];
+    return by ? rows.slice().sort(by) : rows;
+  }
+  function cardsBlock(v, rows) {
+    const sortSel = '<select class="sel" data-act="ssort">' + [["num", v.type === "set" ? "Collector #" : "Deck order"], ["name", "Name"], ["type", "Card type"], ["mv", "Mana value"], ["color", "Color"]].map(([k, l]) => '<option value="' + k + '"' + ((v.sort || "num") === k ? " selected" : "") + ">" + l + "</option>").join("") + "</select>";
+    let h = '<div class="pctl"><button class="chip' + (v.view !== "list" ? " on" : "") + '" data-act="view" data-v="grid">Grid</button><button class="chip' + (v.view === "list" ? " on" : "") + '" data-act="view" data-v="list">List</button>' + sortSel +
+      (v.type === "set" && filterOn() ? '<button class="chip' + (v.all ? "" : " on") + '" data-act="match">Only matching filters</button>' : "") + "</div>";
+    rows = sortRows(rows, v.sort);
+    const lim = v.limit || 90, part = rows.slice(0, lim);
+    h += v.view === "list" ? '<div style="margin-top:10px">' + part.map((r) => rowHTML(r.c, r.q > 1 ? '<span class="qty" style="align-self:center">' + r.q + "×</span>" : "")).join("") + "</div>"
+      : '<div class="cgrid">' + part.map((r) => '<div class="ctile" data-card="' + esc(r.c.n) + '" data-print="' + esc(r.set + "/" + r.num) + '">' + (r.q > 1 ? '<b class="q">' + r.q + "×</b>" : "") + "<span>" + esc(r.c.n) + "</span></div>").join("") + "</div>";
+    if (rows.length > lim) h += '<div class="chips"><button class="btn" data-act="more">Show more (' + (rows.length - lim) + " left)</button></div>";
+    return h;
+  }
+  function deckTile(p) {
+    const lead = p.cmd ? CARDS[p.cmd[0][1]] : CARDS[(p.main || [[0, 0]])[0][1]];
+    const ci = p.cmd ? [...new Set(p.cmd.flatMap((r) => [...CARDS[r[1]].ci]))].join("") : "";
+    const n = (p.cmd || []).length + (p.main || []).reduce((a, r) => a + r[0], 0);
+    return '<div class="panel decktile" data-deck="' + p.i + '"><div class="thumb" style="--cc:' + artColor(lead) + '" data-img="' + esc(lead.n) + '" data-kind="art"></div><div class="body"><h4 style="margin:0">' + esc(p.n) + "</h4>" +
+      '<div class="ty" style="color:var(--mute);font-size:13px">' + (p.cmd ? esc(p.cmd.map((r) => CARDS[r[1]].n).join(" + ")) + " · " + (mana([...ci].map((x) => "{" + x + "}").join("")) || "colorless") + " · " : "") + n + " cards · " + esc(p.d) + "</div></div></div>";
+  }
+  function setView(v) {
+    const D = SETS.data, s = D.byCode.get(v.code);
+    v.view = v.view || store.get("gridview", "grid");
+    const decks = D.precBySet.get(s.k === "commander" ? s.c : s.cm) || [];
+    let h = '<div class="panel set k-' + s.k + (s.cm ? " hascm" : "") + '" style="cursor:default">' + symbol(s.c) + '<div class="body"><h4>' + esc(s.n) + '</h4><div class="ty">' + esc(s.d) + " · " + esc(s.c.toUpperCase()) + " · " + esc(KINDS[s.k]) + (s.d > TODAY ? " · upcoming" : "") + '</div></div><div class="n"><b>' + s.t + "</b>cards</div></div>";
+    if (decks.length) h += '<section class="block"><h2>Commander decks · ' + decks.length + "</h2>" + decks.map(deckTile).join("") + "</section>";
+    let rows = D.setcards[s.c].map(([i, num, r]) => ({ c: CARDS[i], i, set: s.c, num, r, q: 1 }));
+    if (filterOn() && !v.all) rows = rows.filter((x) => matches(x.i, x.r));
+    h += '<section class="block"><h2>Cards · ' + rows.length + "</h2>" + cardsBlock(v, rows) + "</section>";
+    return h;
+  }
+  function sldView(v) {
+    const drops = SETS.data.precons.filter((p) => p.y === "sld" && p.d.startsWith(v.year));
+    return '<div class="d" style="margin-bottom:10px">' + drops.length + " Secret Lair drops released in " + esc(v.year) + ". Tap a drop to see its cards and value.</div>" + drops.map(deckTile).join("");
+  }
+  function deckRows(p) { return (p.cmd || []).map((r) => ({ q: r[0], c: CARDS[r[1]], set: r[2], num: r[3], cmd: true })).concat((p.main || []).map((r) => ({ q: r[0], c: CARDS[r[1]], set: r[2], num: r[3] }))); }
+  function deckView(v) {
+    const p = SETS.data.precons[v.i];
+    v.view = v.view || store.get("gridview", "grid");
+    const rows = deckRows(p);
+    let h = deckTile(p).replace('data-deck="' + p.i + '"', 'style="cursor:default"');
+    h += '<div class="panel item" id="dval"><div class="d">Adding up prices…</div></div>';
+    if (p.y === "cmd") h += '<div class="chips"><button class="btn primary small" data-act="copydeck">Copy to Decks</button></div>';
+    if (p.cmd) h += '<section class="block"><h2>Commander</h2><div class="cgrid">' + rows.filter((r) => r.cmd).map((r) => '<div class="ctile" data-card="' + esc(r.c.n) + '" data-print="' + esc(r.set + "/" + r.num) + '"><span>' + esc(r.c.n) + "</span></div>").join("") + "</div></section>";
+    h += '<section class="block"><h2>' + (p.cmd ? "The 99" : "Cards") + "</h2>" + cardsBlock(v, rows.filter((r) => !r.cmd)) + "</section>";
+    return h;
+  }
+  function deckValue(v) {
+    const p = SETS.data.precons[v.i], rows = deckRows(p);
+    let done = 0, total = 0, priced = 0;
+    for (const r of rows) Scry.getPrint(r.set, r.num, (x) => {
+      done++;
+      const usd = x && (x.prices.usd || x.prices.usd_foil || x.prices.usd_etched);
+      if (usd) { total += +usd * r.q; priced++; }
+      if (done === rows.length) {
+        const el = $("#dval"); if (!el || stack[stack.length - 1] !== v) return;
+        el.innerHTML = priced ? '<b style="font-size:20px;color:var(--ember-hi)">≈ ' + money(total) + '</b> <span class="d">market value of these exact printings · ' + priced + " of " + rows.length + " cards priced · Scryfall, updated daily</span>" : '<div class="d">No prices available' + (Scry.state.enabled ? "." : ": turn on card images in Settings.") + "</div>";
+      }
+    });
+  }
+  function copyPrecon(i) {
+    const p = SETS.data.precons[i];
+    if (state.deck && (state.deck.cards.length || state.deck.commanders.length) && !confirm("Replace the deck in Decks with " + p.n + "?")) return;
+    const cards = [];
+    for (const r of p.main || []) { const n = CARDS[r[1]].n, x = cards.find((y) => y.n === n); if (x) x.q += r[0]; else cards.push({ n, q: r[0] }); }
+    state.deck = { commanders: (p.cmd || []).map((r) => CARDS[r[1]].n), cards };
+    state.importNote = "Copied from the " + p.n + " precon (" + p.sn + ").";
+    saveDeck(); closeSheet(); showTab("decks");
   }
 
   // ---------- rules ----------

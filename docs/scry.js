@@ -72,7 +72,67 @@
     return { ms: Math.round(performance.now() - t0), img: pick(card, card.name) };
   }
 
+  // ---- exact printings (set + collector number) with prices, for set grids and precon totals ----
+  const day = new Date().toISOString().slice(0, 10);
+  let pmem = {};
+  try { const j = JSON.parse(localStorage.getItem("scry-print-v1") || "{}"); if (j.day === day) pmem = j.m; } catch (e) { pmem = {}; }
+  const pwait = new Map(), pqueue = new Map();
+  let ptimer = null, pbusy = false;
+  const slim = (c) => {
+    const u = c.image_uris || (c.card_faces && c.card_faces[0].image_uris) || null;
+    return { img: u ? { art: u.art_crop, small: u.small, normal: u.normal, large: u.large || u.normal } : null, prices: c.prices || {}, finishes: c.finishes || [],
+      set: c.set, setName: c.set_name, num: c.collector_number, date: c.released_at, rarity: c.rarity, promo: !!c.promo, frame: (c.frame_effects || []).join(" "), border: c.border_color };
+  };
+  function psave() {
+    try { const keys = Object.keys(pmem); if (keys.length > 4000) keys.slice(0, keys.length - 4000).forEach((k) => delete pmem[k]); localStorage.setItem("scry-print-v1", JSON.stringify({ day, m: pmem })); } catch (e) { /* ignore */ }
+  }
+  async function pflush() {
+    ptimer = null;
+    if (pbusy || !pqueue.size) return;
+    pbusy = true;
+    const batch = [...pqueue.entries()].slice(0, 75);
+    batch.forEach(([k]) => pqueue.delete(k));
+    try {
+      const res = await fetch(API + "/cards/collection", { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({ identifiers: batch.map(([, v]) => ({ set: v.set, collector_number: v.num })) }) });
+      if (!res.ok) throw new Error("Scryfall answered " + res.status);
+      const json = await res.json();
+      for (const c of json.data || []) pmem[c.set + "/" + c.collector_number] = slim(c);
+      for (const [k] of batch) if (!(k in pmem)) pmem[k] = null;
+      psave();
+    } catch (e) { state.failed = true; state.lastError = String(e.message || e); }
+    for (const [k] of batch) { (pwait.get(k) || []).forEach((cb) => cb(pmem[k] || null)); pwait.delete(k); }
+    pbusy = false;
+    if (pqueue.size) ptimer = setTimeout(pflush, 120);
+  }
+  // getPrint(set, number, cb): cb receives the printing (image, prices, finishes) or null.
+  function getPrint(set, num, cb) {
+    if (!state.enabled) return cb(null);
+    const k = set + "/" + num;
+    if (k in pmem) return cb(pmem[k]);
+    if (!pwait.has(k)) pwait.set(k, []);
+    pwait.get(k).push(cb);
+    pqueue.set(k, { set, num });
+    if (!ptimer && !pbusy) ptimer = setTimeout(pflush, 60);
+  }
+
+  // Every paper printing of a card, newest first.
+  async function printings(name) {
+    let url = API + "/cards/search?unique=prints&order=released&dir=desc&include_variations=true&q=" + encodeURIComponent('!"' + name + '" game:paper');
+    const out = [];
+    for (let page = 0; url && page < 6; page++) {
+      const res = await fetch(url, { headers: { Accept: "application/json" } });
+      if (res.status === 404) break;
+      if (!res.ok) throw new Error("Scryfall answered " + res.status);
+      const j = await res.json();
+      out.push(...j.data.map(slim));
+      url = j.has_more ? j.next_page : null;
+      if (url) await new Promise((r) => setTimeout(r, 110));
+    }
+    return out;
+  }
+
   function setEnabled(on) { state.enabled = on; try { localStorage.setItem("scry-enabled", on ? "1" : "0"); } catch (e) { /* ignore */ } }
 
-  root.Scry = { get, test, state, setEnabled };
+  root.Scry = { get, getPrint, printings, test, state, setEnabled };
 })(self);
