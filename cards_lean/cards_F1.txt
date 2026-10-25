@@ -2090,10 +2090,6 @@ Cost: {6}{g} | Type: Legendary Creature — Treefolk Druid | Color identity: G |
 Text: When Ferrafor enters, create a number of 1/1 green Saproling creature tokens equal to the number of counters among creatures target player controls.
   {T}: Double the number of each kind of counter on target creature.
 
-## Ferris Wheel
-Cost: — | Type: Artifact — Attraction | Color identity: colorless | Commander: legal
-Text: Visit — Choose target creature that hasn't been phased out with this Attraction. That creature phases out until you roll a 3 or less while rolling to visit your Attractions.
-
 ## Ferropede
 Cost: {3} | Type: Artifact Creature — Insect | Color identity: colorless | P/T: 1/1 | Commander: legal
 Text: This creature can't be blocked.
@@ -2610,12 +2606,6 @@ Cost: {2}{g} | Type: Enchantment | Color identity: G | Commander: legal
 Text: Hideaway 5 (When this enchantment enters, look at the top five cards of your library, exile one face down, then put the rest on the bottom in a random order.)
   At the beginning of combat on your turn, put a +1/+1 counter on target creature you control. Then if you control a creature with power 7 or greater, you may play the exiled card without paying its mana cost.
 
-## Fight the _____ Fight
-Cost: {1}{g} | Type: Enchantment — Aura | Color identity: G | Commander: legal
-Text: Enchant creature you control
-  When this Aura enters, you may put a name sticker on it. When you do, enchanted creature fights up to one target creature you don't control.
-  Enchanted creature gets +0/+2 for each name sticker on this Aura with eight or more letters.
-
 ## Fight to the Death
 Cost: {r}{w} | Type: Instant | Color identity: RW | Commander: legal
 Text: Destroy all blocking creatures and all blocked creatures.
@@ -2866,10 +2856,6 @@ Text: Aftermath (Cast this spell only from your graveyard. Then exile it.)
 ## Finishing Blow
 Cost: {4}{b} | Type: Instant | Color identity: B | Commander: legal
 Text: Destroy target creature or planeswalker.
-
-## Finishing Move
-Cost: {2}{g} | Type: Sorcery | Color identity: G | Commander: legal
-Text: You get {TK}{TK}, then you may put a sticker on a nonland permanent you own. Target creature you control deals damage equal to its power to target creature you don't control.
 
 ## Finneas, Ace Archer
 Cost: {g}{w} | Type: Legendary Creature — Rabbit Archer | Color identity: GW | P/T: 2/2 | Commander: legal

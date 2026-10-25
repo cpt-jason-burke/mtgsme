@@ -578,12 +578,6 @@ Cost: {3}{u} | Type: Sorcery | Color identity: U | Commander: legal
 Text: Draw a card.
   Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)
 
-## Last Voyage of the _____
-Cost: {3}{b} | Type: Enchantment | Color identity: B | Commander: legal
-Text: When this enchantment enters, you may put a name sticker on it, then it becomes an Aura with enchant creature. Return a creature card from your graveyard to the battlefield and attach this Aura to it.
-  Enchanted creature gets +2/+0 for each name sticker on this Aura with seven or fewer letters.
-  When this Aura leaves the battlefield, sacrifice enchanted creature.
-
 ## Last Word
 Cost: {2}{u}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: This spell can't be countered.
@@ -2795,19 +2789,10 @@ Cost: {w}{w}{w} | Type: Legendary Creature — Human Noble | Color identity: W |
 Text: Vigilance (Attacking doesn't cause this creature to tap.)
   Whenever a white creature you control attacks, you gain 1 life.
 
-## Line Cutter
-Cost: {3}{b} | Type: Creature — Human Rogue Guest | Color identity: B | P/T: 3/4 | Commander: legal
-Text: When this creature enters, roll to visit your Attractions.
-
 ## Linebreaker Baloth
 Cost: {3}{g}{g} | Type: Creature — Beast | Color identity: G | P/T: 4/5 | Commander: legal
 Text: Enlist (As this creature attacks, you may tap a nonattacking creature you control without summoning sickness. When you do, add its power to this creature's until end of turn.)
   This creature can't be blocked by creatures with power 2 or less.
-
-## Lineprancers
-Cost: {1}{g} | Type: Creature — Centaur Performer | Color identity: G | P/T: 2/2 | Commander: legal
-Text: When Lineprancers enters, you get {TK}{TK}, then you may put a power and toughness sticker on a creature you own.
-  {3}{G}: Target creature you don't control blocks target creature you control with a power and toughness sticker on it other than Lineprancers this turn if able.
 
 ## Linessa, Zephyr Mage
 Cost: {3}{u} | Type: Legendary Creature — Human Wizard | Color identity: U | P/T: 3/3 | Commander: legal

@@ -3024,10 +3024,6 @@ Text: When this Spacecraft enters, create a 2/2 colorless Robot artifact creatur
   Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 9+.)
   9+ | Flying, first strike
 
-## Wee Champion
-Cost: {r} | Type: Creature — Minotaur Child Guest | Color identity: R | P/T: 0/1 | Commander: legal
-Text: Whenever you place a sticker, this creature gets +1/+1 until end of turn. If it's an art sticker, instead put a +1/+1 counter on this creature.
-
 ## Wee Dragonauts
 Cost: {1}{u}{r} | Type: Creature — Faerie Wizard | Color identity: RU | P/T: 1/3 | Commander: legal
 Text: Flying
@@ -4296,24 +4292,6 @@ Ruling (2019-10-04): If the target creature is an illegal target when Wicked Wol
 Ruling (2019-10-04): You can activate Wicked Wolf's last ability any number of times while its first ability is on the stack.
 Ruling (2019-10-04): You can activate Wicked Wolf's last ability even if it's already tapped.
 Ruling (2024-11-08): If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
-
-## Wicker Picker
-Cost: {3} | Type: Artifact Creature — Scarecrow Guest | Color identity: colorless | P/T: 2/3 | Commander: legal
-Text: Creature spells you cast have sticker kicker {1}. (You may pay an additional {1} as you cast a creature spell. If you do, you get {TK}, then you may put a sticker on it.)
-Ruling (2022-10-07): Conversely, you can't use sticker kicker to change a spell's name to get around effects that prohibit that spell from being cast (such as Meddling Mage).
-Ruling (2022-10-07): Each Wicker Picker only lets you pay the sticker kicker cost once per spell. If you control multiple Wicker Pickers, then you can pay {1} for each of them, gaining {TK} and a sticker each time.
-Ruling (2022-10-07): If a creature spell has kicker or multikicker and another ability that checks if it was kicked (such as Bog Badger or Phyrexian Missionary), that ability is linked to its own printed kicker or multikicker ability and will apply only if you paid its own kicker or multikicker cost. Sticker kicker won't turn on those effects. However, sticker kicker will work with cards that care about other spells being kicked, such as Elfhame Druid or Verazol, the Split Current.
-Ruling (2022-10-07): If you cast a creature spell you don't own, you may still choose to sticker kick it. If you do, you'll get the ticket counter, even though you can't put a sticker on a card you don't own.
-Ruling (2022-10-07): If you put a creature onto the battlefield without casting it, you can't sticker kick it.
-Ruling (2022-10-07): If you sticker kick a creature spell, you get {TK} and may choose a sticker to put on the creature spell.
-Ruling (2022-10-07): Sticker kicker is an optional additional cost that you may pay as you cast a creature spell.
-Ruling (2022-10-07): You get the ticket counter and the sticker is put on the creature spell just before it's considered cast. Any triggered abilities that trigger whenever you cast a spell with particular qualities will see the spell with the sticker applied.
-Ruling (2024-11-08): If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
-Ruling (2024-11-08): If a spell's kicker cost was paid, the spell is "kicked."
-Ruling (2024-11-08): If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
-Ruling (2024-11-08): If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
-Ruling (2024-11-08): The kicker ability doesn't let you pay a kicker cost more than once.
-Ruling (2024-11-08): To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
 
 ## Wicker Warcrawler
 Cost: {5} | Type: Artifact Creature — Scarecrow | Color identity: colorless | P/T: 6/6 | Commander: legal
@@ -6650,10 +6628,6 @@ Ruling (2022-06-10): The term "defending player" in the myriad rules (or any oth
 Ruling (2022-06-10): The tokens all enter the battlefield at the same time.
 Ruling (2022-06-10): You choose whether each token is attacking the player or a planeswalker they control as the token is created. If it's attacking a planeswalker, you choose which one.
 
-## Wizards of the _____
-Cost: {2}{u}{u} | Type: Creature — Human Wizard Performer | Color identity: U | P/T: 3/1 | Commander: legal
-Text: When this creature enters, you may put a name sticker on it, then look at the top X cards of your library, where X is the number of unique vowels on that sticker. Put one of those cards into your hand and the rest on the bottom of your library in any order. (The vowels are A, E, I, O, U, and Y.)
-
 ## Wizards' School
 Cost: — | Type: Land | Color identity: BUW | Commander: legal
 Text: {T}: Add {C}.
@@ -6749,12 +6723,6 @@ Text: Radiance — Target creature and each other creature that shares a color w
 ## Wolf Cove Villager
 Cost: {w} | Type: Creature — Human Peasant | Color identity: W | P/T: 2/2 | Commander: legal
 Text: This creature enters tapped.
-
-## Wolf in _____ Clothing
-Cost: {3}{b} | Type: Creature — Wolf Guest | Color identity: B | P/T: 2/3 | Commander: legal
-Text: When this creature enters, you may put a name sticker on it. When you do, up to X target creatures each get -1/-1 until end of turn, where X is the number of unique vowels on that sticker. (The vowels are A, E, I, O, U, and Y.)
-Ruling (2022-10-07): Putting a name sticker on this creature later won't cause the reflexive triggered ability to trigger.
-Ruling (2022-10-07): This creature's enters-the-battlefield ability goes on the stack without any targets. As it resolves, you may put a name sticker on this creature. Doing so causes the reflexive triggered ability to trigger. You choose the targets for that ability as it goes on the stack.
 
 ## Wolf of Devil's Breach
 Cost: {3}{r}{r} | Type: Creature — Elemental Wolf | Color identity: R | P/T: 5/5 | Commander: legal

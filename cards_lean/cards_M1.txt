@@ -861,12 +861,6 @@ Cost: {3}{w} | Type: Legendary Creature — Bird Soldier | Color identity: W | P
 Text: Flying
   {3}{W}{W}, Sacrifice Major Teroh: Exile all black creatures.
 
-## Make a _____ Splash
-Cost: {2}{u} | Type: Enchantment | Color identity: U | Commander: legal
-Text: Flash
-  When this enchantment enters, you may put a name sticker on it.
-  Whenever you put a sticker on this enchantment, tap up to X target creatures, where X is the number of u's in name stickers on this enchantment.
-
 ## Make a Stand
 Cost: {2}{w} | Type: Instant | Color identity: W | Commander: legal
 Text: Creatures you control get +1/+0 and gain indestructible until end of turn. (Damage and effects that say "destroy" don't destroy them.)
@@ -5403,11 +5397,6 @@ Text:
 Cost: {6}{r} | Type: Creature — Minotaur Berserker | Color identity: R | P/T: 6/2 | Commander: legal
 Text: First strike, haste
 
-## Minotaur de Force
-Cost: {1}{r} | Type: Creature — Minotaur Performer | Color identity: R | P/T: 2/1 | Commander: legal
-Text: Haste
-  When this creature enters, you get {TK}, then you may put a sticker on a nonland permanent you own.
-
 ## Minotaur Explorer
 Cost: {1}{r} | Type: Creature — Minotaur Scout | Color identity: R | P/T: 3/3 | Commander: legal
 Text: When this creature enters, sacrifice it unless you discard a card at random.
@@ -7227,11 +7216,6 @@ Faces: Monica Rambeau // Photon, Living Light (modaldfc)
 Text: Flying, prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
   {2}{R}{W}{W}: Transform Monica Rambeau. Activate only as a sorcery.
 
-## Monitor Monitor
-Cost: {2}{u}{u} | Type: Creature — Human Employee | Color identity: U | P/T: 2/5 | Commander: legal
-Text: When this creature enters, open an Attraction. (Put the top card of your Attraction deck onto the battlefield.)
-  Once each turn, you may pay {1} to reroll one or more dice you rolled.
-
 ## Monk Class
 Cost: {w}{u} | Type: Enchantment — Class | Color identity: UW | Commander: legal
 Text: (Gain the next level as a sorcery to add its ability.)
@@ -8089,13 +8073,6 @@ Text: Flying
 Cost: {3}{w} | Type: Creature — Human Samurai | Color identity: W | P/T: 2/2 | Commander: legal
 Text: Flying
   Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)
-
-## Motion Sickness
-Cost: {3}{u} | Type: Enchantment — Aura | Color identity: U | Commander: legal
-Text: Enchant creature
-  When this Aura enters, tap enchanted creature.
-  Enchanted creature doesn't untap during its controller's untap step.
-  Whenever you visit an Attraction, you may attach this Aura to target tapped creature.
 
 ## Motivated Pony
 Cost: {4}{g} | Type: Creature — Horse | Color identity: G | P/T: 3/3 | Commander: legal
@@ -9072,11 +9049,6 @@ Text: {T}: Create a 1/1 colorless Myr artifact creature token.
 Cost: {3} | Type: Artifact Creature — Myr | Color identity: colorless | P/T: 1/4 | Commander: legal
 Text: Imprint — {T}: Exile target artifact card from a graveyard.
   This creature has all activated abilities of all cards exiled with it.
-
-## Myra the Magnificent
-Cost: {2}{u}{r} | Type: Legendary Creature — Human Performer | Color identity: RU | P/T: 2/4 | Commander: legal
-Text: Whenever you cast an instant or sorcery spell from your hand, open an Attraction.
-  {X}, {T}: Exile target instant or sorcery card with mana value X from your graveyard and choose an Attraction you control that doesn't have a midway counter on it. Put a midway counter on it. For as long as that Attraction is on the battlefield, whenever you visit it, copy the exiled card. You may cast the copy without paying its mana cost.
 
 ## Myrel, Shield of Argive
 Cost: {3}{w} | Type: Legendary Creature — Human Soldier | Color identity: W | P/T: 3/4 | Commander: legal

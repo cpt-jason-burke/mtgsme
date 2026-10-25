@@ -3,7 +3,7 @@ from collections import defaultdict
 
 src, out = sys.argv[1], sys.argv[2]
 # Arena/MTGO-only mechanics: a card using them is not a paper card
-DIGITAL = re.compile(r"\b(?:conjures?|seeks?|perpetually|spellbook|intensity|specializ\w*)\b|\bdrafts? (?:a card )?from\b", re.I)
+DIGITAL = re.compile(r"\b(?:conjures?|seeks?|perpetually|spellbook|intensity|specializ\w*)\b|\bdrafts? (?:a card )?from\b|\battractions?\b|\bstickers?\b|\bsticker sheets?\b", re.I)
 SPECIAL = {"Plane","Phenomenon","Scheme","Vanguard","Conspiracy","Dungeon","Hero","Contraption","Attraction","Sticker","Stickers"}
 
 # Final Commander status per card name, replayed from the ban list history
@@ -23,7 +23,7 @@ def esc(s): return s.replace("\r", "")
 cards = []
 for l in open(f"{src}/index/cards.jsonl"):
     name, d = json.loads(l)
-    if d.get("fu") or name.startswith("A-") or SPECIAL & set(d["t"]) or DIGITAL.search(d.get("o", "")):
+    if d.get("fu") or name.startswith("A-") or SPECIAL & set(d["t"]) or DIGITAL.search(d.get("o", "")) or "Guest" in d.get("tb", []):
         continue
     tl = " ".join(d.get("tp", []) + d["t"]) + (" — " + " ".join(d["tb"]) if d.get("tb") else "")
     st = status.get(name, "legal")

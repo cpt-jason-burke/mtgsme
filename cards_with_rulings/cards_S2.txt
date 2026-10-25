@@ -1,19 +1,3 @@
-## Spring-Loaded Sawblades
-Cost: {1}{w} | Type: Artifact | Color identity: W | Commander: legal
-Faces: Spring-Loaded Sawblades // Bladewheel Chariot (transform)
-Text: Flash
-  When this artifact enters, it deals 5 damage to target tapped creature an opponent controls.
-  Craft with artifact {3}{W} ({3}{W}, Exile this artifact, Exile another artifact you control or an artifact card from your graveyard: Return this card transformed under its owner's control. Craft only as a sorcery.)
-Ruling (2023-11-10): If a card that isn't a transforming double-faced card becomes a copy of a card with craft, it'll stay in exile if you activate the craft ability. It won't return to the battlefield.
-Ruling (2023-11-10): If the materials required include multiple objects, you may exile some of them from among permanents you control and the rest from among cards in your graveyard. You don't have to choose all permanents or all cards from your graveyard.
-Ruling (2023-11-10): The back faces of some cards with craft refer to cards "used to craft" it. This refers to the cards exiled as part of the cost of the craft ability of the front face. Those cards are considered to be "used to craft" that permanent as long as they remain exiled and the permanent remains on the battlefield, even if the permanent's controller changes or some of its characteristics change (because of a copy effect, for example.)
-Ruling (2023-11-10): You may exile tokens you control as part of the materials required. However, because they aren't cards and won't stay in exile, any abilities that refer to what you "used to craft" the back faces won't refer to anything.
-
-## Springbloom Druid
-Cost: {2}{g} | Type: Creature — Elf Druid | Color identity: G | P/T: 1/1 | Commander: legal
-Text: When this creature enters, you may sacrifice a land. If you do, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.
-Ruling (2019-06-14): While resolving Springbloom Druid's triggered ability, you can't sacrifice multiple lands to search for more than two basic land cards.
-
 ## Springheart Nantuko
 Cost: {1}{g} | Type: Enchantment Creature — Insect Monk | Color identity: G | P/T: 1/1 | Commander: legal
 Text: Bestow {1}{G}
@@ -471,11 +455,6 @@ Ruling (2021-06-18): The last ability functions only while Squirrel Sanctuary is
 ## Squirrel Sovereign
 Cost: {1}{g} | Type: Creature — Squirrel Noble | Color identity: G | P/T: 2/2 | Commander: legal
 Text: Other Squirrels you control get +1/+1.
-
-## Squirrel Squatters
-Cost: {3}{g}{g} | Type: Creature — Squirrel | Color identity: G | P/T: 4/4 | Commander: legal
-Text: When this creature enters, open an Attraction. (Put the top card of your Attraction deck onto the battlefield.)
-  Whenever this creature attacks, create a 1/1 green Squirrel creature token that's tapped and attacking for each Attraction you've visited this turn.
 
 ## Squirrel Wrangler
 Cost: {2}{g}{g} | Type: Creature — Human Druid | Color identity: G | P/T: 2/2 | Commander: legal
@@ -2188,10 +2167,6 @@ Ruling (2024-04-12): Players decide and announce in turn order, starting with th
 Ruling (2024-04-12): Plot abilities are written "Plot [cost]," which means "Any time you have priority during your main phase while the stack is empty, you may pay [cost] and exile this card from your hand. It becomes plotted."
 Ruling (2024-04-12): You can't cast a plotted card on the same turn it became plotted. On any future turn, you may cast that card from exile without paying its mana cost during your main phase while the stack is empty.
 
-## Step Right Up
-Cost: {3}{b} | Type: Sorcery | Color identity: B | Commander: legal
-Text: Open two Attractions. (Put the top two cards of your Attraction deck onto the battlefield.)
-
 ## Step Through
 Cost: {3}{u}{u} | Type: Sorcery | Color identity: U | Commander: legal
 Text: Return two target creatures to their owners' hands.
@@ -2352,11 +2327,6 @@ Text: At the beginning of your upkeep, mill three cards. Then if your library ha
 Cost: {2}{r} | Type: Legendary Creature — Human Rogue Villain | Color identity: R | P/T: 4/2 | Commander: legal
 Text: Reach
   Whenever one or more Villains you control deal combat damage to a player, gain control of target noncreature, nonland permanent that player controls until the end of your next turn. It gains "This permanent can't be sacrificed" until the end of your next turn.
-
-## Stiltstrider
-Cost: {3}{g}{g} | Type: Creature — Rhino Performer | Color identity: G | P/T: 5/4 | Commander: legal
-Text: Reach
-  When Stiltstrider enters, you get {TK}{TK}, then you may put a sticker on a nonland permanent you own.
 
 ## Stiltzkin, Moogle Merchant
 Cost: {w} | Type: Legendary Creature — Moogle | Color identity: W | P/T: 1/2 | Commander: legal
@@ -3909,11 +3879,6 @@ Text: As this enchantment enters, choose a color.
 ## Story Seeker
 Cost: {1}{w} | Type: Creature — Dwarf Cleric | Color identity: W | P/T: 2/2 | Commander: legal
 Text: Lifelink
-
-## Storybook Ride
-Cost: — | Type: Artifact — Attraction | Color identity: colorless | Commander: legal
-Text: Visit — Exile the top X cards of your library, where X is the number of Attractions you've visited this turn (including this one). You may play those cards this turn. At the beginning of the next end step, if any of those cards remain exiled, put them on the bottom of your library in any order.
-Ruling (2022-10-07): Storybook Ride doesn't change when you can play the exiled cards. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty. If you exile a land card, you can play it only during your main phase and only if you have an available land play remaining.
 
 ## Storyteller Pixie
 Cost: {3}{u} | Type: Creature — Faerie Wizard | Color identity: U | P/T: 3/3 | Commander: legal
@@ -8645,12 +8610,6 @@ Cost: {2}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Reveal the top three cards of your library. For each of those cards, put that card into your hand unless any opponent pays 3 life. Then exile the rest.
 Ruling (2017-09-29): In a multiplayer game, each opponent in turn order chooses whether to pay life for one card before proceeding to the next card. You choose the order to perform this process for the cards, but opponents may discuss them before making any choices. Opponents will then know choices made by earlier opponents when making their choices.
 Ruling (2017-09-29): You reveal all three cards before opponents choose whether to pay life for any of them.
-
-## Sword-Swallowing Seraph
-Cost: {4}{w}{w} | Type: Creature — Angel Performer | Color identity: W | P/T: 4/4 | Commander: legal
-Text: Flying, vigilance
-  When this creature enters, you may put a name sticker on a nonland permanent you own.
-  {1}{W}, {T}: Put a +1/+1 counter on another target creature with a name sticker on it. Activate only as a sorcery.
 
 ## Swords to Plowshares
 Cost: {w} | Type: Instant | Color identity: W | Commander: legal

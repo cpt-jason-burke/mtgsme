@@ -1,16 +1,3 @@
-## "Lifetime" Pass Holder
-Cost: {b} | Type: Creature — Zombie Guest | Color identity: B | P/T: 2/1 | Commander: legal
-Text: This creature enters tapped.
-  When this creature dies, open an Attraction.
-  Whenever you roll to visit your Attractions, if you roll a 6, you may return this card from your graveyard to the battlefield.
-
-## "Name Sticker" Goblin
-Cost: {2}{r} | Type: Creature — Goblin Guest | Color identity: R | P/T: 2/2 | Commander: legal
-Text: When this creature enters from anywhere other than a graveyard or exile, if it's on the battlefield and you control 9 or fewer creatures named "Name Sticker" Goblin, roll a 20-sided die.
-  1-6 | Add {R}{R}{R}{R}.
-  7-14 | Add {R}{R}{R}{R}{R}.
-  15-20 | Add {R}{R}{R}{R}{R}{R}.
-
 ## +2 Mace
 Cost: {1}{w} | Type: Artifact — Equipment | Color identity: W | Commander: legal
 Text: Equipped creature gets +2/+2.
@@ -19,34 +6,3 @@ Text: Equipped creature gets +2/+2.
 ## 70,000 Light-Years from Home
 Cost: {1}{w} | Type: Sorcery | Color identity: W | Commander: legal
 Text: Exile target creature or Spacecraft. Its controller may search their library for a basic land card, reveal it, put it into their hand, then shuffle.
-
-## _____ _____ _____ Trespasser
-Cost: {1}{u} | Type: Creature — Human Rogue Guest | Color identity: U | P/T: 2/1 | Commander: legal
-Text: When this creature enters, you may put a name sticker on it.
-  {3}{U}: This creature gets +1/+0 until end of turn for each name sticker on it. It can't be blocked this turn.
-
-## _____ _____ Rocketship
-Cost: {4} | Type: Artifact — Vehicle | Color identity: colorless | P/T: 2/3 | Commander: legal
-Text: Flying
-  When this Vehicle enters, you may put up to two name stickers on it.
-  Whenever this Vehicle attacks, choose a letter. This Vehicle gets +1/+1 until end of turn for each name sticker on it that begins with the chosen letter.
-  Crew 2
-
-## _____ Balls of Fire
-Cost: {3}{r} | Type: Enchantment | Color identity: R | Commander: legal
-Text: When this enchantment enters, you may put a name sticker on it.
-  Whenever you put a sticker on this enchantment, it deals damage equal to the number of o's in name stickers on this enchantment to any target.
-
-## _____ Bird Gets the Worm
-Cost: {3}{w}{w} | Type: Creature — Bird Guest | Color identity: W | P/T: 2/4 | Commander: legal
-Text: Flying
-  When this creature enters, you may put a name sticker on it. You gain X life, where X is the number of unique vowels on that sticker. (The vowels are A, E, I, O, U, and Y.)
-
-## _____ Goblin
-Cost: {2}{r} | Type: Creature — Goblin Guest | Color identity: R | P/T: 2/2 | Commander: legal
-Text: When this creature enters, you may put a name sticker on it. Add {R} for each unique vowel on that sticker. (The vowels are A, E, I, O, U, and Y.)
-
-## _____-o-saurus
-Cost: {4}{g}{g} | Type: Creature — Alien Dinosaur | Color identity: G | P/T: 3/3 | Commander: legal
-Text: Trample
-  When this creature enters, you may put a name sticker on it. Put a +1/+1 counter on it for each unique vowel on that sticker. (The vowels are A, E, I, O, U, and Y.)

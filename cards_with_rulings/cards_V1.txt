@@ -1621,21 +1621,6 @@ Ruling (2004-12-01): If Vedalken Shackles becomes untapped before its ability re
 Ruling (2004-12-01): If Vedalken Shackles leaves the battlefield, it's no longer tapped, so the control-changing effect ends.
 Ruling (2004-12-01): The creature's power and the number of Islands you control matter only when the ability is activated and when it resolves. After that, only the fact that Vedalken Shackles remains tapped matters. If the creature stops being a creature, you'll keep control of it.
 
-## Vedalken Squirrel-Whacker
-Cost: {3}{u} | Type: Creature — Vedalken Guest | Color identity: U | P/T: */* | Commander: legal
-Text: As this creature enters, roll a six-sided die twice. Its base power becomes the first result and its base toughness becomes the second result.
-  If you would roll one or more six-sided dice, instead roll them and you may exchange one result with this creature's base power or base toughness.
-Ruling (2022-10-07): After rolling one or more six-sided dice and seeing the results, you decide whether you want to make the exchange. You may exchange one result at most, no matter how many dice you rolled. For example, say Vedalken Squirrel-Whacker is a 2/5 and you roll a 3. You could make Vedalken Squirrel-Whacker a 3/5 and change the die roll result to 2, make it a 2/3 and change the die roll result to 5, or leave everything how it was.
-Ruling (2022-10-07): Each die is identified by the number of faces it has. A six-sided die is a die with six equally likely outcomes: 1, 2, 3, 4, 5, and 6. The roll must be fair. Although physical dice are recommended, digital substitutes are allowed except in cases where the physical die is required for the effect.
-Ruling (2022-10-07): If Vedalken Squirrel-Whacker's base power or toughness changes through some other means, it is possible to exchange a die roll so that it has a result that would normally not be possible for that die, such as, on a six-sided die, a result of 9, or 42, or -3. These are all perfectly reasonable results on a six-sided die.
-Ruling (2022-10-07): If a die is rerolled, the original roll essentially never happened: it doesn't cause any abilities to trigger, and no effect that cares about die rolls will consider it.
-Ruling (2022-10-07): If an ability triggers "whenever you roll a die," it will trigger whenever you roll any die, including the planar die. This is a change from previous Un- rules. Some abilities use the result to determine part of the effect. If you get a non-numerical result (currently just the planar die, but the future is long), that part of the effect won't do anything.
-Ruling (2022-10-07): Results can be numbers not ordinarily possible on a six-sided die. Spells like Scooch can change the result to 0 or 7, for example.
-Ruling (2022-10-07): Some effects may modify the result of a die roll. This may be part of the instruction to roll a die, or it may come from other cards. Anything that references the "result" of a die roll is looking for the result after these modifications.
-Ruling (2022-10-07): Something in the game must tell you to roll a die. If you roll a die for any other reason (to simulate a coin flip, to choose pizza toppings, to create alternate timelines), that roll doesn't count.
-Ruling (2022-10-07): The two die rolls to set initial base power and toughness are separate and sequential. If you want to reroll the first die, you must do so before you roll the second die.
-Ruling (2022-10-07): Vedalken Squirrel-Whacker's second ability functions only while Vedalken Squirrel-Whacker is on the battlefield. Specially, the second ability can't affect rolls of the first ability.
-
 ## Vega, the Watcher
 Cost: {1}{w}{u} | Type: Legendary Creature — Bird Spirit | Color identity: UW | P/T: 2/2 | Commander: legal
 Text: Flying

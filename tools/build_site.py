@@ -14,7 +14,7 @@ os.makedirs(out, exist_ok=True)
 SPECIAL = {"Plane", "Phenomenon", "Scheme", "Vanguard", "Conspiracy", "Dungeon", "Hero", "Contraption", "Attraction", "Sticker", "Stickers"}
 
 # Arena/MTGO-only mechanics: a card using them is not a paper card
-DIGITAL = re.compile(r"\b(?:conjures?|seeks?|perpetually|spellbook|intensity|specializ\w*)\b|\bdrafts? (?:a card )?from\b", re.I)
+DIGITAL = re.compile(r"\b(?:conjures?|seeks?|perpetually|spellbook|intensity|specializ\w*)\b|\bdrafts? (?:a card )?from\b|\battractions?\b|\bstickers?\b|\bsticker sheets?\b", re.I)
 
 status = {}
 for ch in sorted(json.load(open(f"{src}/index/banlist_history.json"))["commander"], key=lambda c: c.get("date", "")):
@@ -25,7 +25,7 @@ cards = []
 names = set()
 for l in open(f"{src}/index/cards.jsonl"):
     name, d = json.loads(l)
-    if d.get("fu") or name.startswith("A-") or SPECIAL & set(d["t"]) or DIGITAL.search(d.get("o", "")):
+    if d.get("fu") or name.startswith("A-") or SPECIAL & set(d["t"]) or DIGITAL.search(d.get("o", "")) or "Guest" in d.get("tb", []):
         continue
     c = {"n": name, "t": " ".join(d.get("tp", []) + d["t"]) + (" — " + " ".join(d["tb"]) if d.get("tb") else ""),
          "ci": d["ci"].upper(), "o": d.get("o", "")}

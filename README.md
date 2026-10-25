@@ -26,7 +26,7 @@ Ruling (2025-10-02): ruling text
 - `Commander:` is the card's status on the Commander ban list: `legal`, `banned`, `banned_as_commander` or `banned_as_companion`.
 - Multi-face cards have one entry per face, plus a `Faces:` line.
 - Funny/Un-set cards, planes, schemes, vanguards, conspiracies, dungeons, contraptions, attractions and stickers are left out.
-  Alchemy rebalanced cards (names starting with `A-`) and cards using Arena-only mechanics (conjure, seek, perpetually, spellbook, and similar) are also left out.
+  Alchemy rebalanced cards (names starting with `A-`) and cards using Arena-only mechanics (conjure, seek, perpetually, spellbook, and similar) or Unfinity Attractions and stickers are also left out.
   This is an approximation of Commander legality, not an official legality check.
 
 ## Source and rebuilding

@@ -762,11 +762,6 @@ Cost: {1}{w} | Type: Creature — Human Soldier | Color identity: W | P/T: 1/2 |
 Text: Training (Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.)
   When this creature dies, put its counters on target creature you control.
 
-## Park Bleater
-Cost: {2}{w} | Type: Creature — Goat Employee | Color identity: W | P/T: 2/2 | Commander: legal
-Text: Whenever another creature you own enters, you get {TK}.
-  {W}, {T}: You may put a sticker on a creature you own that entered this turn.
-
 ## Park Heights Maverick
 Cost: {2}{g} | Type: Creature — Human Soldier | Color identity: G | P/T: 2/2 | Commander: legal
 Text: Dethrone (Whenever this creature attacks the player with the most life or tied for most life, put a +1/+1 counter on it.)
@@ -1973,11 +1968,6 @@ Text: Devoid (This card has no color.)
   When you cast this spell, tap up to one target creature and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
   Reach
 
-## Petting Zookeeper
-Cost: {2}{g} | Type: Creature — Elf Employee | Color identity: G | P/T: 0/4 | Commander: legal
-Text: Reach
-  When this creature enters, open an Attraction. (Put the top card of your Attraction deck onto the battlefield.)
-
 ## Petty Larceny
 Cost: {3}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Freerunning {1}{B} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)
@@ -2845,11 +2835,6 @@ Text: Choose one —
   • Each opponent sacrifices an enchantment of their choice.
   • Each opponent sacrifices a creature with flying of their choice.
 
-## Pick-a-Beeble
-Cost: — | Type: Artifact — Attraction | Color identity: colorless | Commander: legal
-Text: Visit — Roll a six-sided die. Put a number of luck counters on Pick-a-Beeble equal to the result and create a Treasure token. Then if there are six or more luck counters on Pick-a-Beeble, claim the prize!
-  Prize — Create two Treasure tokens, then sacrifice Pick-a-Beeble and open an Attraction.
-
 ## Picklock Prankster
 Cost: {1}{u} | Type: Creature — Faerie Rogue | Color identity: U | P/T: 1/3 | Commander: legal
 Faces: Picklock Prankster // Free the Fae (adventure)
@@ -3044,12 +3029,6 @@ Cost: {1}{w}{b} | Type: Enchantment — Aura | Color identity: BW | Commander: l
 Text: Enchant creature
   Enchanted creature can't attack or block.
   Enchanted creature has "At the beginning of your upkeep, you lose 1 life."
-
-## Pin Collection
-Cost: {x}{w} | Type: Artifact — Equipment | Color identity: W | Commander: legal
-Text: When this Equipment enters, you may put an ability sticker with ticket cost X or less on it without paying that sticker's ticket cost.
-  Equipped creature gets +1/+1 and has all abilities of ability stickers on this Equipment.
-  Equip {2}
 
 ## Pin to the Earth
 Cost: {1}{u} | Type: Enchantment — Aura | Color identity: U | Commander: legal
@@ -5605,12 +5584,6 @@ Cost: {1}{g} | Type: Creature — Boar | Color identity: G | P/T: 0/3 | Commande
 Text: Whenever you gain life, put that many ribbon counters on this creature. Then if there are three or more ribbon counters on this creature, remove those counters and untap it.
   {T}: Add one mana of any color.
 
-## Prize Wall
-Cost: {1}{u} | Type: Creature — Wall | Color identity: U | P/T: 0/4 | Commander: legal
-Text: Defender
-  {U}, {T}: You get {TK}.
-  {4}{U}, {T}: You may put a sticker on a nonland permanent you own. Activate only as a sorcery.
-
 ## Prized Amalgam
 Cost: {1}{u}{b} | Type: Creature — Zombie | Color identity: BU | P/T: 3/3 | Commander: legal
 Text: Whenever a creature enters, if it entered from your graveyard or you cast it from your graveyard, return this card from your graveyard to the battlefield tapped at the beginning of the next end step.
@@ -5781,11 +5754,6 @@ Cost: {b} | Type: Instant | Color identity: B | Commander: legal
 Text: Choose one —
   • Put a +1/+1 counter on target creature.
   • Target creature gains indestructible until end of turn. (Damage and effects that say "destroy" don't destroy it.)
-
-## Proficient Pyrodancer
-Cost: {2}{r} | Type: Creature — Human Performer | Color identity: R | P/T: 2/3 | Commander: legal
-Text: When this creature enters, you may put an art sticker on a nonland permanent you own.
-  {2}{R}: Another target creature with an art sticker on it gets +2/+0 and gains menace until end of turn.
 
 ## Profit
 Cost: {1}{w} | Type: Instant | Color identity: BW | Commander: legal

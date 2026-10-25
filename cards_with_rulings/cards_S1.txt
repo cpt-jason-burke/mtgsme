@@ -1938,11 +1938,6 @@ Ruling (2024-02-02): The face-down spell has no mana cost and a mana value of 0.
 Ruling (2024-02-02): Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
 Ruling (2024-02-02): You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
 
-## Sanguine Sipper
-Cost: {1}{w} | Type: Creature — Vampire Guest | Color identity: W | P/T: 3/1 | Commander: legal
-Text: This creature has lifelink as long as you control a stickered permanent.
-Ruling (2022-10-07): The stickered permanent could be Sanguine Sipper itself or another permanent you control.
-
 ## Sanguine Spy
 Cost: {2}{b} | Type: Creature — Vampire Rogue | Color identity: B | P/T: 2/3 | Commander: legal
 Text: Menace, lifelink
@@ -3364,11 +3359,6 @@ Ruling (2019-07-12): Scampering Scorcher's ability affects only Elementals you c
 Cost: {4} | Type: Artifact Creature — Gnome | Color identity: colorless | P/T: 3/2 | Commander: legal
 Text: When this creature enters, search your library for a basic land card or Cave card, put it onto the battlefield tapped, then shuffle.
 
-## Scampire
-Cost: {2}{b} | Type: Creature — Vampire Employee | Color identity: B | P/T: 1/3 | Commander: legal
-Text: When Scampire enters, you get {TK}, then you may put a sticker on a creature card in your graveyard.
-  {3}{B}: Return target creature card with a sticker on it from your graveyard to the battlefield. That creature gains haste. Exile it at the beginning of the next end step. Activate only as a sorcery.
-
 ## Scan the Clouds
 Cost: {1}{u} | Type: Instant — Adventure | Color identity: GU | Commander: legal
 Faces: Tempest Hart // Scan the Clouds (adventure)
@@ -3447,11 +3437,6 @@ Ruling (2004-10-04): Even prevents non-combat damage from flying creatures.
 Cost: {2} | Type: Artifact Creature — Scarecrow | Color identity: colorless | P/T: 2/1 | Commander: legal
 Text: Reach
   {1}: Add one mana of any color. Activate only once each turn.
-
-## Scared Stiff
-Cost: {2}{b} | Type: Creature — Zombie Coward Guest | Color identity: B | P/T: 3/2 | Commander: legal
-Text: This creature has menace as long as you control a stickered permanent.
-Ruling (2022-10-07): The stickered permanent could be Scared Stiff itself or another permanent you control.
 
 ## Scaretiller
 Cost: {4} | Type: Artifact Creature — Scarecrow | Color identity: colorless | P/T: 1/4 | Commander: legal
@@ -5768,10 +5753,6 @@ Ruling (2019-10-04): If an object becomes a copy of an object that has an Advent
 Ruling (2019-10-04): If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if Giant Killer is exiled with the last ability of Vivien, Champion of the Wilds, you can't cast it as Chop Down.
 Ruling (2019-10-04): When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
 Ruling (2019-10-04): You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
-
-## Seasoned Buttoneer
-Cost: {2}{u} | Type: Creature — Vedalken Employee | Color identity: U | P/T: 2/2 | Commander: legal
-Text: When this creature enters, open an Attraction. (Put the top card of your Attraction deck onto the battlefield.)
 
 ## Seasoned Cathar
 Cost: — | Type: Creature — Human Knight | Color identity: W | P/T: 3/3 | Commander: legal
@@ -19055,11 +19036,6 @@ Ruling (2016-04-08): Most triggered delirium abilities use an intervening "if" c
 Ruling (2016-04-08): The card types in Magic are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Supertypes (such as legendary and basic) and subtypes (such as Human and Equipment) are not counted.
 Ruling (2016-04-08): The number of card types matters, not the number of cards. For example, Wicker Witch (an artifact creature) along with Catalog (an instant) and Chaplain's Blessing (a sorcery) will enable delirium.
 
-## Soul Swindler
-Cost: {4}{b} | Type: Creature — Demon Employee | Color identity: B | P/T: 5/3 | Commander: legal
-Text: As long as you've visited an Attraction this turn, this creature has indestructible. (Damage and effects that say "destroy" don't destroy it.)
-  When this creature enters, open an Attraction. (Put the top card of your Attraction deck onto the battlefield.)
-
 ## Soul Tether (Prepared a)
 Cost: {2}{r/g} | Type: Sorcery | Color identity: GR | Commander: legal
 Faces: Heartwood Crafter // Soul Tether (Prepared a) (prepare)
@@ -21684,12 +21660,6 @@ Text: All Sliver creatures have reach.
 Ruling (2013-07-01): Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn't provide any additional benefit.
 Ruling (2013-07-01): If the creature type of a Sliver changes so it's no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
 
-## Spinnerette, Arachnobat
-Cost: {3}{b}{g} | Type: Legendary Creature — Spider Performer | Color identity: BG | P/T: 2/4 | Commander: legal
-Text: Reach
-  When Spinnerette enters, open an Attraction.
-  As long as you control three or more Attractions, Spinnerette gets +2/+0 and has menace.
-
 ## Spinning Darkness
 Cost: {4}{b}{b} | Type: Instant | Color identity: B | Commander: legal
 Text: You may exile the top three black cards of your graveyard rather than pay this spell's mana cost.
@@ -22825,3 +22795,19 @@ Ruling (2022-02-18): Puff of smoke not included.
 Ruling (2022-02-18): The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player or planeswalker it's attacking.
 Ruling (2022-02-18): The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. In most cases (see below), if you wait until the combatdamage step or end of combat step, it will be after combat damage has been dealt, so the Ninja won't deal combat damage.
 Ruling (2022-02-18): The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+
+## Spring-Loaded Sawblades
+Cost: {1}{w} | Type: Artifact | Color identity: W | Commander: legal
+Faces: Spring-Loaded Sawblades // Bladewheel Chariot (transform)
+Text: Flash
+  When this artifact enters, it deals 5 damage to target tapped creature an opponent controls.
+  Craft with artifact {3}{W} ({3}{W}, Exile this artifact, Exile another artifact you control or an artifact card from your graveyard: Return this card transformed under its owner's control. Craft only as a sorcery.)
+Ruling (2023-11-10): If a card that isn't a transforming double-faced card becomes a copy of a card with craft, it'll stay in exile if you activate the craft ability. It won't return to the battlefield.
+Ruling (2023-11-10): If the materials required include multiple objects, you may exile some of them from among permanents you control and the rest from among cards in your graveyard. You don't have to choose all permanents or all cards from your graveyard.
+Ruling (2023-11-10): The back faces of some cards with craft refer to cards "used to craft" it. This refers to the cards exiled as part of the cost of the craft ability of the front face. Those cards are considered to be "used to craft" that permanent as long as they remain exiled and the permanent remains on the battlefield, even if the permanent's controller changes or some of its characteristics change (because of a copy effect, for example.)
+Ruling (2023-11-10): You may exile tokens you control as part of the materials required. However, because they aren't cards and won't stay in exile, any abilities that refer to what you "used to craft" the back faces won't refer to anything.
+
+## Springbloom Druid
+Cost: {2}{g} | Type: Creature — Elf Druid | Color identity: G | P/T: 1/1 | Commander: legal
+Text: When this creature enters, you may sacrifice a land. If you do, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.
+Ruling (2019-06-14): While resolving Springbloom Druid's triggered ability, you can't sacrifice multiple lands to search for more than two basic land cards.

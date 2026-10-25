@@ -1306,10 +1306,6 @@ Text: Flying, lifelink
   Disguise {W/B}{W/B} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)
   When this creature is turned face up, another target creature you control gains lifelink until end of turn.
 
-## Sanguine Sipper
-Cost: {1}{w} | Type: Creature — Vampire Guest | Color identity: W | P/T: 3/1 | Commander: legal
-Text: This creature has lifelink as long as you control a stickered permanent.
-
 ## Sanguine Spy
 Cost: {2}{b} | Type: Creature — Vampire Rogue | Color identity: B | P/T: 2/3 | Commander: legal
 Text: Menace, lifelink
@@ -2272,11 +2268,6 @@ Text: When this creature enters, create two 1/1 red Elemental creature tokens. E
 Cost: {4} | Type: Artifact Creature — Gnome | Color identity: colorless | P/T: 3/2 | Commander: legal
 Text: When this creature enters, search your library for a basic land card or Cave card, put it onto the battlefield tapped, then shuffle.
 
-## Scampire
-Cost: {2}{b} | Type: Creature — Vampire Employee | Color identity: B | P/T: 1/3 | Commander: legal
-Text: When Scampire enters, you get {TK}, then you may put a sticker on a creature card in your graveyard.
-  {3}{B}: Return target creature card with a sticker on it from your graveyard to the battlefield. That creature gains haste. Exile it at the beginning of the next end step. Activate only as a sorcery.
-
 ## Scan the Clouds
 Cost: {1}{u} | Type: Instant — Adventure | Color identity: GU | Commander: legal
 Faces: Tempest Hart // Scan the Clouds (adventure)
@@ -2338,10 +2329,6 @@ Text: {6}, {T}: Prevent all damage that would be dealt to you this turn by creat
 Cost: {2} | Type: Artifact Creature — Scarecrow | Color identity: colorless | P/T: 2/1 | Commander: legal
 Text: Reach
   {1}: Add one mana of any color. Activate only once each turn.
-
-## Scared Stiff
-Cost: {2}{b} | Type: Creature — Zombie Coward Guest | Color identity: B | P/T: 3/2 | Commander: legal
-Text: This creature has menace as long as you control a stickered permanent.
 
 ## Scaretiller
 Cost: {4} | Type: Artifact Creature — Scarecrow | Color identity: colorless | P/T: 1/4 | Commander: legal
@@ -3913,10 +3900,6 @@ Text: Choose up to five {P} worth of modes. You may choose the same mode more th
 Cost: {g} | Type: Sorcery — Adventure | Color identity: G | Commander: legal
 Faces: Rosethorn Acolyte // Seasonal Ritual (adventure)
 Text: Add one mana of any color. (Then exile this card. You may cast the creature later from exile.)
-
-## Seasoned Buttoneer
-Cost: {2}{u} | Type: Creature — Vedalken Employee | Color identity: U | P/T: 2/2 | Commander: legal
-Text: When this creature enters, open an Attraction. (Put the top card of your Attraction deck onto the battlefield.)
 
 ## Seasoned Cathar
 Cost: — | Type: Creature — Human Knight | Color identity: W | P/T: 3/3 | Commander: legal
@@ -13016,11 +12999,6 @@ Cost: {2}{g}{g} | Type: Creature — Wurm | Color identity: G | P/T: 3/3 | Comma
 Text: Trample
   Delirium — At the beginning of your upkeep, if there are four or more card types among cards in your graveyard, put three +1/+1 counters on this creature.
 
-## Soul Swindler
-Cost: {4}{b} | Type: Creature — Demon Employee | Color identity: B | P/T: 5/3 | Commander: legal
-Text: As long as you've visited an Attraction this turn, this creature has indestructible. (Damage and effects that say "destroy" don't destroy it.)
-  When this creature enters, open an Attraction. (Put the top card of your Attraction deck onto the battlefield.)
-
 ## Soul Tether (Prepared a)
 Cost: {2}{r/g} | Type: Sorcery | Color identity: GR | Commander: legal
 Faces: Heartwood Crafter // Soul Tether (Prepared a) (prepare)
@@ -14836,12 +14814,6 @@ Text: Whenever you attack with two or more Spiders, put a +1/+1 counter on Spinn
 Cost: {1}{g} | Type: Creature — Sliver | Color identity: G | P/T: 2/2 | Commander: legal
 Text: All Sliver creatures have reach.
 
-## Spinnerette, Arachnobat
-Cost: {3}{b}{g} | Type: Legendary Creature — Spider Performer | Color identity: BG | P/T: 2/4 | Commander: legal
-Text: Reach
-  When Spinnerette enters, open an Attraction.
-  As long as you control three or more Attractions, Spinnerette gets +2/+0 and has menace.
-
 ## Spinning Darkness
 Cost: {4}{b}{b} | Type: Instant | Color identity: B | Commander: legal
 Text: You may exile the top three black cards of your graveyard rather than pay this spell's mana cost.
@@ -15948,11 +15920,6 @@ Text: When this enchantment enters, create a 1/1 green Squirrel creature token.
 ## Squirrel Sovereign
 Cost: {1}{g} | Type: Creature — Squirrel Noble | Color identity: G | P/T: 2/2 | Commander: legal
 Text: Other Squirrels you control get +1/+1.
-
-## Squirrel Squatters
-Cost: {3}{g}{g} | Type: Creature — Squirrel | Color identity: G | P/T: 4/4 | Commander: legal
-Text: When this creature enters, open an Attraction. (Put the top card of your Attraction deck onto the battlefield.)
-  Whenever this creature attacks, create a 1/1 green Squirrel creature token that's tapped and attacking for each Attraction you've visited this turn.
 
 ## Squirrel Wrangler
 Cost: {2}{g}{g} | Type: Creature — Human Druid | Color identity: G | P/T: 2/2 | Commander: legal
@@ -17076,10 +17043,6 @@ Cost: {3}{u}{u} | Type: Sorcery | Color identity: U | Commander: legal
 Text: Each player may shuffle their hand and graveyard into their library. Each player who does draws seven cards. Exile Step Between Worlds.
   Plot {4}{U}{U} (You may pay {4}{U}{U} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)
 
-## Step Right Up
-Cost: {3}{b} | Type: Sorcery | Color identity: B | Commander: legal
-Text: Open two Attractions. (Put the top two cards of your Attraction deck onto the battlefield.)
-
 ## Step Through
 Cost: {3}{u}{u} | Type: Sorcery | Color identity: U | Commander: legal
 Text: Return two target creatures to their owners' hands.
@@ -17211,11 +17174,6 @@ Text: At the beginning of your upkeep, mill three cards. Then if your library ha
 Cost: {2}{r} | Type: Legendary Creature — Human Rogue Villain | Color identity: R | P/T: 4/2 | Commander: legal
 Text: Reach
   Whenever one or more Villains you control deal combat damage to a player, gain control of target noncreature, nonland permanent that player controls until the end of your next turn. It gains "This permanent can't be sacrificed" until the end of your next turn.
-
-## Stiltstrider
-Cost: {3}{g}{g} | Type: Creature — Rhino Performer | Color identity: G | P/T: 5/4 | Commander: legal
-Text: Reach
-  When Stiltstrider enters, you get {TK}{TK}, then you may put a sticker on a nonland permanent you own.
 
 ## Stiltzkin, Moogle Merchant
 Cost: {w} | Type: Legendary Creature — Moogle | Color identity: W | P/T: 1/2 | Commander: legal
@@ -18279,10 +18237,6 @@ Text: As this enchantment enters, choose a color.
 ## Story Seeker
 Cost: {1}{w} | Type: Creature — Dwarf Cleric | Color identity: W | P/T: 2/2 | Commander: legal
 Text: Lifelink
-
-## Storybook Ride
-Cost: — | Type: Artifact — Attraction | Color identity: colorless | Commander: legal
-Text: Visit — Exile the top X cards of your library, where X is the number of Attractions you've visited this turn (including this one). You may play those cards this turn. At the beginning of the next end step, if any of those cards remain exiled, put them on the bottom of your library in any order.
 
 ## Storyteller Pixie
 Cost: {3}{u} | Type: Creature — Faerie Wizard | Color identity: U | P/T: 3/3 | Commander: legal
@@ -21315,12 +21269,6 @@ Text: Equipped creature gets +2/+2 and has protection from instants and from sor
 ## Sword-Point Diplomacy
 Cost: {2}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Reveal the top three cards of your library. For each of those cards, put that card into your hand unless any opponent pays 3 life. Then exile the rest.
-
-## Sword-Swallowing Seraph
-Cost: {4}{w}{w} | Type: Creature — Angel Performer | Color identity: W | P/T: 4/4 | Commander: legal
-Text: Flying, vigilance
-  When this creature enters, you may put a name sticker on a nonland permanent you own.
-  {1}{W}, {T}: Put a +1/+1 counter on another target creature with a name sticker on it. Activate only as a sorcery.
 
 ## Swords to Plowshares
 Cost: {w} | Type: Instant | Color identity: W | Commander: legal

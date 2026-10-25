@@ -1248,14 +1248,6 @@ Cost: {3}{w} | Type: Legendary Creature — Bird Soldier | Color identity: W | P
 Text: Flying
   {3}{W}{W}, Sacrifice Major Teroh: Exile all black creatures.
 
-## Make a _____ Splash
-Cost: {2}{u} | Type: Enchantment | Color identity: U | Commander: legal
-Text: Flash
-  When this enchantment enters, you may put a name sticker on it.
-  Whenever you put a sticker on this enchantment, tap up to X target creatures, where X is the number of u's in name stickers on this enchantment.
-Ruling (2022-10-07): Once the last ability triggers and targets are chosen, changing the number of u's in name stickers on this enchantment won't change the number of targets.
-Ruling (2022-10-07): The last ability will trigger whenever you put any kind of sticker on this enchantment, not just name stickers, although only u's in name stickers will count toward the number of targets. Notably, u's in ability and art stickers won't count.
-
 ## Make a Stand
 Cost: {2}{w} | Type: Instant | Color identity: W | Commander: legal
 Text: Creatures you control get +1/+0 and gain indestructible until end of turn. (Damage and effects that say "destroy" don't destroy them.)
@@ -7916,11 +7908,6 @@ Text:
 Cost: {6}{r} | Type: Creature — Minotaur Berserker | Color identity: R | P/T: 6/2 | Commander: legal
 Text: First strike, haste
 
-## Minotaur de Force
-Cost: {1}{r} | Type: Creature — Minotaur Performer | Color identity: R | P/T: 2/1 | Commander: legal
-Text: Haste
-  When this creature enters, you get {TK}, then you may put a sticker on a nonland permanent you own.
-
 ## Minotaur Explorer
 Cost: {1}{r} | Type: Creature — Minotaur Scout | Color identity: R | P/T: 3/3 | Commander: legal
 Text: When this creature enters, sacrifice it unless you discard a card at random.
@@ -10740,15 +10727,6 @@ Faces: Monica Rambeau // Photon, Living Light (modaldfc)
 Text: Flying, prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
   {2}{R}{W}{W}: Transform Monica Rambeau. Activate only as a sorcery.
 
-## Monitor Monitor
-Cost: {2}{u}{u} | Type: Creature — Human Employee | Color identity: U | P/T: 2/5 | Commander: legal
-Text: When this creature enters, open an Attraction. (Put the top card of your Attraction deck onto the battlefield.)
-  Once each turn, you may pay {1} to reroll one or more dice you rolled.
-Ruling (2022-10-07): If you control multiple Monitor Monitors, you may use each of them once each turn. You may use multiple Monitor Monitors on the same die roll if you wish.
-Ruling (2022-10-07): If you roll multiple dice at the same time, paying {1} will let you reroll any number of those dice. You don't have to pay {1} per die.
-Ruling (2022-10-07): You can use Monitor Monitor's reroll ability on any die roll, including a roll of the planar die in a Planechase game.
-Ruling (2022-10-07): You decide whether to use Monitor Monitor's ability right after you monitor the result of the die roll. You can't wait and use it to reroll that die later.
-
 ## Monk Class
 Cost: {w}{u} | Type: Enchantment — Class | Color identity: UW | Commander: legal
 Text: (Gain the next level as a sorcery to add its ability.)
@@ -11982,15 +11960,6 @@ Text: Flying
 Cost: {3}{w} | Type: Creature — Human Samurai | Color identity: W | P/T: 2/2 | Commander: legal
 Text: Flying
   Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)
-
-## Motion Sickness
-Cost: {3}{u} | Type: Enchantment — Aura | Color identity: U | Commander: legal
-Text: Enchant creature
-  When this Aura enters, tap enchanted creature.
-  Enchanted creature doesn't untap during its controller's untap step.
-  Whenever you visit an Attraction, you may attach this Aura to target tapped creature.
-Ruling (2022-10-07): If the target creature has become untapped as the last ability tries to resolve, Motion Sickness stays attached to the creature it's already on.
-Ruling (2022-10-07): Taking a break and looking at the horizon is said to help those suffering with motion sickness. It won't remove the enchantment, but it can't really hurt either.
 
 ## Motivated Pony
 Cost: {4}{g} | Type: Creature — Horse | Color identity: G | P/T: 3/3 | Commander: legal
@@ -13382,13 +13351,6 @@ Text: Imprint — {T}: Exile target artifact card from a graveyard.
 Ruling (2011-06-01): Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities; they have colons in their reminder text.
 Ruling (2011-06-01): If an activated ability of a card exiled with Myr Welder references the card it's printed on by name, treat Myr Welder's version of that ability as though it referenced Myr Welder by name instead. For example, if Lux Cannon (which says, in part, "{T}: Put a charge counter on Lux Cannon.") has been exiled by Myr Welder, Myr Welder has the ability "{T}: Put a charge counter on Myr Welder."
 Ruling (2011-06-01): Myr Welder has only the activated abilities of cards it exiles. It doesn't gain triggered abilities or static abilities.
-
-## Myra the Magnificent
-Cost: {2}{u}{r} | Type: Legendary Creature — Human Performer | Color identity: RU | P/T: 2/4 | Commander: legal
-Text: Whenever you cast an instant or sorcery spell from your hand, open an Attraction.
-  {X}, {T}: Exile target instant or sorcery card with mana value X from your graveyard and choose an Attraction you control that doesn't have a midway counter on it. Put a midway counter on it. For as long as that Attraction is on the battlefield, whenever you visit it, copy the exiled card. You may cast the copy without paying its mana cost.
-Ruling (2022-10-07): Myra's activated ability creates a delayed triggered ability that will trigger whenever you visit the chosen Attraction. This ability will continue to trigger as long as the Attraction is on the battlefield and the exiled card remains exiled, even if Myra leaves the battlefield, loses her abilities, or changes controllers. It will also continue to trigger if the Attraction somehow loses the midway counter.
-Ruling (2022-10-07): Myra's activated ability targets only the instant or sorcery card in your graveyard. It doesn't target the Attraction. You choose the Attraction as the ability is resolving.
 
 ## Myrel, Shield of Argive
 Cost: {3}{w} | Type: Legendary Creature — Human Soldier | Color identity: W | P/T: 3/4 | Commander: legal

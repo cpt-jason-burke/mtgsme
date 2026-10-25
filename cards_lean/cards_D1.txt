@@ -1503,10 +1503,6 @@ Text: Whenever equipped creature blocks or becomes blocked by a creature, destro
 Cost: {2}{r} | Type: Enchantment | Color identity: R | Commander: legal
 Text: {R}, Sacrifice a Zombie: This enchantment deals 2 damage to any target.
 
-## Deadbeat Attendant
-Cost: {1}{b} | Type: Creature — Vampire Employee | Color identity: B | P/T: 1/1 | Commander: legal
-Text: When this creature enters, open an Attraction. (Put the top card of your Attraction deck onto the battlefield.)
-
 ## Deadbridge Chant
 Cost: {4}{b}{g} | Type: Enchantment | Color identity: BG | Commander: legal
 Text: When this enchantment enters, mill ten cards.
@@ -2369,13 +2365,6 @@ Text: {W}, Sacrifice this creature: You gain 3 life.
 ## Deduce
 Cost: {1}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Draw a card. Investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
-
-## Dee Kay, Finder of the Lost
-Cost: {1}{u}{b} | Type: Legendary Creature — Zombie Employee | Color identity: BU | P/T: 1/4 | Commander: legal
-Text: When Dee Kay enters, open an Attraction.
-  Whenever you roll a 2, each opponent loses 1 life and you gain 1 life.
-  Whenever you roll a 4, you may tap or untap target artifact or creature.
-  Whenever you roll a 6, return target creature card from your graveyard to your hand.
 
 ## Deekah, Fractal Theorist
 Cost: {4}{u} | Type: Legendary Creature — Human Wizard | Color identity: U | P/T: 3/3 | Commander: legal
@@ -5072,11 +5061,6 @@ Cost: {2}{b}{r} | Type: Creature — Spirit | Color identity: BR | P/T: 2/2 | Co
 Text: At the beginning of each end step, if it's an opponent's turn, put a +1/+1 counter on this creature for each 1 damage dealt to you this turn.
   At the beginning of your end step, remove all +1/+1 counters from this creature.
 
-## Discourtesy Clerk
-Cost: {3}{b} | Type: Creature — Vampire Employee | Color identity: B | P/T: 3/2 | Commander: legal
-Text: When this creature enters, open an Attraction. (Put the top card of your Attraction deck onto the battlefield.)
-  At the beginning of your end step, if you control three or more Attractions, you draw a card and you lose 1 life.
-
 ## Discover the Impossible
 Cost: {2}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Look at the top five cards of your library. Exile one of them face down and put the rest on the bottom of your library in a random order. You may cast the exiled card without paying its mana cost if it's an instant spell with mana value 2 or less. If you don't, put that card into your hand.
@@ -5359,11 +5343,6 @@ Text: {4}, {T}, Sacrifice this artifact: It deals 5 damage to target creature.
 ## Disruptor Wanderglyph
 Cost: {4} | Type: Artifact Creature — Golem | Color identity: colorless | P/T: 3/4 | Commander: legal
 Text: Whenever this creature attacks, exile target card from an opponent's graveyard.
-
-## Dissatisfied Customer
-Cost: {2}{b} | Type: Creature — Vampire Guest | Color identity: B | P/T: 2/1 | Commander: legal
-Text: Flying, haste
-  When this creature enters, roll a six-sided die. If the result is 3 or less, you lose that much life.
 
 ## Dissection Practice
 Cost: {b} | Type: Instant | Color identity: B | Commander: legal
@@ -6130,10 +6109,6 @@ Cost: {3}{u} | Type: Instant | Color identity: U | Commander: legal
 Faces: Said // Done (split)
 Text: Tap up to two target creatures. Those creatures don't untap during their controller's next untap step.
 
-## Done for the Day
-Cost: {2}{g} | Type: Enchantment | Color identity: G | Commander: legal
-Text: At the beginning of your end step, if you control an Employee, a Performer, or a Robot, you may get {TK} or create a Treasure token. If you control all three, you may put a sticker on a nonland permanent you own.
-
 ## Dong Zhou, the Tyrant
 Cost: {4}{r} | Type: Legendary Creature — Human Soldier | Color identity: R | P/T: 3/3 | Commander: legal
 Text: When Dong Zhou enters, target creature an opponent controls deals damage equal to its power to that player.
@@ -6499,10 +6474,6 @@ Faces: Down // Dirty (split)
 Text: Target player discards two cards.
   Fuse (You may cast one or both halves of this card from your hand.)
 
-## Down for Repairs
-Cost: {2}{b} | Type: Sorcery | Color identity: B | Commander: legal
-Text: Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. Destroy up to one target Attraction that player controls. (It's put into their junkyard.)
-
 ## Down in the Valley
 Cost: {2}{g} | Type: Enchantment — Saga | Color identity: G | Commander: legal
 Text: (As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)
@@ -6601,12 +6572,6 @@ Text: Exhaust — {R}: Other creatures you control gain haste until end of turn.
 ## Draconian Cylix
 Cost: {3} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: {2}, {T}, Discard a card at random: Regenerate target creature.
-
-## Draconian Gate-Bot
-Cost: {5} | Type: Artifact Creature — Robot | Color identity: colorless | P/T: 4/2 | Commander: legal
-Text: When this creature enters, choose one —
-  • Open an Attraction. (Put the top card of your Attraction deck onto the battlefield.)
-  • Destroy target Attraction. (It's put into its owner's junkyard.)
 
 ## Draconic Debut
 Cost: {x}{r} | Type: Sorcery | Color identity: R | Commander: legal

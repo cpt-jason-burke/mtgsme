@@ -1478,11 +1478,6 @@ Cost: {b/r} | Type: Instant | Color identity: BR | Commander: legal
 Faces: Carnival // Carnage (split)
 Text: Carnival deals 1 damage to target creature or planeswalker and 1 damage to that permanent's controller.
 
-## Carnival Carnivore
-Cost: {5}{b} | Type: Creature — Alien Crab Horror | Color identity: B | P/T: 4/6 | Commander: legal
-Text: Deathtouch
-  When Carnival Carnivore enters, you get {TK}, then you may put a sticker on a nonland permanent you own.
-
 ## Carnival Hellsteed
 Cost: {4}{b}{r} | Type: Creature — Nightmare Horse | Color identity: BR | P/T: 5/4 | Commander: legal
 Text: First strike, haste
@@ -4115,11 +4110,6 @@ Text: Deathtouch
   At the beginning of your upkeep, if your opponents control no permanents with bounty counters on them, put a bounty counter on target creature or planeswalker an opponent controls.
   Whenever a permanent an opponent controls with a bounty counter on it dies, you gain 3 life and draw a card.
 
-## Chicken Troupe
-Cost: {1}{g} | Type: Creature — Bird Performer | Color identity: G | P/T: 2/2 | Commander: legal
-Text: Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
-  When Chicken Troupe enters, you get {TK}, then you may put a sticker on a nonland permanent you own.
-
 ## Chief Engineer
 Cost: {1}{u} | Type: Creature — Vedalken Artificer | Color identity: U | P/T: 1/3 | Commander: legal
 Text: Artifact spells you cast have convoke. (Your creatures can help cast those spells. Each creature you tap while casting an artifact spell pays for {1} or one mana of that creature's color.)
@@ -5223,11 +5213,6 @@ Text: Choose one or more —
 Cost: {r}{g} | Type: Creature — Human Shaman | Color identity: GR | P/T: 2/2 | Commander: legal
 Text: {1}{R}, {T}: Target creature can't block this turn.
   {2}{G}, {T}: Target land you control becomes a 4/4 Elemental creature with haste until end of turn. It's still a land.
-
-## Clandestine Chameleon
-Cost: {3}{g} | Type: Creature — Lizard Guest | Color identity: G | P/T: 4/3 | Commander: legal
-Text: When Clandestine Chameleon enters, you get {TK}{TK}, then you may put a sticker on a nonland permanent you own.
-  Clandestine Chameleon has all abilities of ability stickers on other permanents you own and cards in your graveyard.
 
 ## Clandestine Meddler
 Cost: {2}{b} | Type: Creature — Vampire Rogue | Color identity: B | P/T: 3/2 | Commander: legal
@@ -6850,10 +6835,6 @@ Cost: {1}{g} | Type: Enchantment | Color identity: G | Commander: legal
 Text: Whenever you gain life, put a growth counter on this enchantment.
   As long as there are five or more growth counters on this enchantment, creatures you control get +3/+3.
 
-## Coming Attraction
-Cost: {2}{g} | Type: Sorcery | Color identity: G | Commander: legal
-Text: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Open an Attraction. (Put the top card of your Attraction deck onto the battlefield.)
-
 ## Coming In Hot
 Cost: {r} | Type: Instant | Color identity: R | Commander: legal
 Text: Target creature gets +1/+0 and gains first strike until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom.)
@@ -6879,14 +6860,6 @@ Text: Choose one —
 Cost: {2}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Cast this spell only during the declare attackers step and only if you've been attacked this step.
   Return one or two target attacking creatures to their owner's hand.
-
-## Command Performance
-Cost: {1}{u} | Type: Sorcery | Color identity: U | Commander: legal
-Text: Choose two —
-  • Open an Attraction. (Put the top card of your Attraction deck onto the battlefield.)
-  • Roll to visit your Attractions.
-  • You get {TK}{TK}.
-  • You may put a sticker on a nonland permanent you own.
 
 ## Command the Dreadhorde
 Cost: {4}{b}{b} | Type: Sorcery | Color identity: B | Commander: legal
@@ -7090,11 +7063,6 @@ Text: Target player mills five cards.
 ## Compelling Deterrence
 Cost: {1}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Return target nonland permanent to its owner's hand. Then that player discards a card if you control a Zombie.
-
-## Complaints Clerk
-Cost: {3}{w} | Type: Creature — Sloth Beast Employee | Color identity: W | P/T: 3/3 | Commander: legal
-Text: When this creature enters, open an Attraction. (Put the top card of your Attraction deck onto the battlefield.)
-  Whenever you roll a 1, create a 1/1 white Clown Robot artifact creature token.
 
 ## Compleat Devotion
 Cost: {1}{w} | Type: Instant | Color identity: W | Commander: legal
@@ -8687,10 +8655,6 @@ Text: This artifact enters with two +1/+1 counters on it.
   {T}: Move a +1/+1 counter from this artifact onto target creature you control. Activate only as a sorcery.
   Whenever a modified creature you control leaves the battlefield, put a +1/+1 counter on this artifact. (Equipment, Auras you control, and counters are modifications.)
 
-## Costume Shop
-Cost: — | Type: Artifact — Attraction | Color identity: colorless | Commander: legal
-Text: Visit — You may put a sticker on a nonland permanent you own.
-
 ## Council Guardian
 Cost: {5}{w} | Type: Creature — Giant Soldier | Color identity: W | P/T: 5/5 | Commander: legal
 Text: Will of the council — When this creature enters, starting with you, each player votes for blue, black, red, or green. This creature gains protection from each color with the most votes or tied for most votes.
@@ -9715,10 +9679,6 @@ Text: Choose one —
 Cost: {1}{r} | Type: Instant | Color identity: R | Commander: legal
 Text: Target creature gains double strike until end of turn.
   When you roll a natural 20, return this card from your graveyard to your hand. (A natural 20 is a roll that displays 20 on the die.)
-
-## Croakid Amphibonaut
-Cost: {4}{u} | Type: Creature — Frog Guest | Color identity: U | P/T: 4/3 | Commander: legal
-Text: This creature has flying as long as you control a stickered permanent.
 
 ## Croaking Counterpart
 Cost: {1}{g}{u} | Type: Sorcery | Color identity: GU | Commander: legal

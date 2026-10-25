@@ -2,11 +2,6 @@
 Cost: {b} | Type: Instant | Color identity: B | Commander: legal
 Text: Target creature gets +2/+0 until end of turn. When that creature dies this turn, you draw a card.
 
-## A Good Day to Pie
-Cost: {1}{w} | Type: Instant | Color identity: W | Commander: legal
-Text: Tap up to two target creatures.
-  Whenever you put a name sticker on a creature, you may return this card from your graveyard to your hand.
-
 ## A Killer Among Us
 Cost: {4}{g} | Type: Enchantment | Color identity: G | Commander: legal
 Text: When this enchantment enters, create a 1/1 white Human creature token, a 1/1 blue Merfolk creature token, and a 1/1 red Goblin creature token. Then secretly choose Human, Merfolk, or Goblin.
@@ -2131,11 +2126,6 @@ Cost: {g} | Type: Instant | Color identity: G | Commander: legal
 Text: Aerial Volley deals 3 damage divided as you choose among one, two, or three target creatures with flying.
 Ruling (2015-06-22): If some (but not all) of the targets become illegal before Aerial Volley tries to resolve, the original division of damage still applies, but no damage is dealt to illegal targets. If all targets become illegal, Aerial Volley won't resolve.
 Ruling (2015-06-22): You choose how many targets Aerial Volley has and how the damage is divided as you cast the spell. Each target must receive at least 1 damage.
-
-## Aerialephant
-Cost: {3}{w} | Type: Creature — Elephant Performer | Color identity: W | P/T: 3/2 | Commander: legal
-Text: Flying
-  When Aerialephant enters, you get {TK}, then you may put a sticker on a nonland permanent you own.
 
 ## Aerid Konstrari
 Cost: {1}{r}{g}{g} | Type: Legendary Creature — Elder Sphinx | Color identity: GR | P/T: 5/4 | Commander: legal
@@ -5609,18 +5599,6 @@ Ruling (2025-09-19): One or both faces of a double-faced card may include a remi
 Ruling (2025-09-19): The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of other double-faced cards is determined.
 Ruling (2025-09-19): To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
 Ruling (2025-09-19): While a double-faced card isn't on the stack or battlefield, consider only the characteristics of its front face.
-
-## Ambassador Blorpityblorpboop
-Cost: {3}{g}{u} | Type: Legendary Creature — Alien Advisor Guest | Color identity: GU | P/T: 3/3 | Commander: legal
-Text: When Ambassador Blorpityblorpboop enters, you get {TK}{TK}{TK}, then you may put a sticker on a nonland permanent you own.
-  At the beginning of each combat, you may have Ambassador Blorpityblorpboop's base power become equal to the total power of all stickers on permanents you control and its base toughness become equal to those stickers' total toughness.
-Ruling (2022-10-07): Although Ambassador Blorpityblorpboop's last ability considers the power and toughness stickers of permanents you control, the card itself is not considered to be stickered unless there's actually a sticker on it.
-Ruling (2022-10-07): Ambassador Blorpityblorpboop counts all power and toughness stickers on all permanents you control, even if those power and toughness stickers don't currently have any effect (possibly because you placed another power and toughness sticker on the same creature).
-Ruling (2022-10-07): Ambassador Blorpityblorpboop has received a minor update to clarify its function. Specifically, its ability causes its base power to match the total power of stickers you control, and its base toughness to match the total toughness of stickers you control. The updated wording appears above.
-Ruling (2022-10-07): Count only the powers and toughnesses of the stickers on permanents you control, not the actual powers and toughnesses of those permanents. For example, if a creature you control has a 4/4 sticker on it, but it also has three +1/+1 counters on it, it's a 7/7 creature, but Ambassador Blorpityblorpboop's base power and toughness would become 4/4.
-Ruling (2022-10-07): If Ambassador Blorpityblorpboop has a power and toughness sticker on it, that sticker is included when calculating for the last ability.
-Ruling (2022-10-07): It doesn't matter if the stickers are on creatures. Any power and toughness stickers on noncreature permanents you control will also count.
-Ruling (2022-10-07): The base power and toughness change doesn't end at end of turn; it lasts indefinitely, until Ambassador Blorpityblorpboop either leaves the battlefield or its base power and toughness changes again from another effect (for example, a power and toughness sticker being placed on it or its ability triggering again).
 
 ## Ambassador Laquatus
 Cost: {1}{u}{u} | Type: Legendary Creature — Merfolk Wizard | Color identity: U | P/T: 1/3 | Commander: legal

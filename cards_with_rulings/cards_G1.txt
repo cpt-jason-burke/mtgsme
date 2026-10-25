@@ -5734,11 +5734,6 @@ Cost: {r} | Type: Creature — Spirit | Color identity: R | P/T: 1/1 | Commander
 Text: Haste
   At the beginning of the end step, return this creature to its owner's hand.
 
-## Glitterflitter
-Cost: {2}{u} | Type: Creature — Faerie Performer | Color identity: U | P/T: 2/2 | Commander: legal
-Text: Flying
-  When Glitterflitter enters, you get {TK}, then you may put a sticker on a nonland permanent you own.
-
 ## Glittering Frost
 Cost: {2}{g} | Type: Snow Enchantment — Aura | Color identity: G | Commander: legal
 Text: Enchant land
@@ -6507,10 +6502,6 @@ Text: {G}, Sacrifice another creature: Put a +1/+1 counter on this creature.
 ## Gobhobbler Rats
 Cost: {b}{r} | Type: Creature — Rat | Color identity: BR | P/T: 2/2 | Commander: legal
 Text: Hellbent — As long as you have no cards in hand, this creature gets +1/+0 and has "{B}: Regenerate this creature." (The next time it would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)
-
-## Goblin Airbrusher
-Cost: {1}{r} | Type: Creature — Goblin Employee | Color identity: R | P/T: 2/1 | Commander: legal
-Text: Whenever you place a sticker, create a Treasure token. If it's an art sticker, instead create two Treasure tokens. (They're artifacts with "{T}, Sacrifice this token: Add one mana of any color.")
 
 ## Goblin Anarchomancer
 Cost: {r}{g} | Type: Creature — Goblin Shaman | Color identity: GR | P/T: 2/2 | Commander: legal
@@ -8811,11 +8802,6 @@ Ruling (2023-09-01): If an object becomes a copy of an object that has an Advent
 Ruling (2023-09-01): If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer ("Once each turn, you may cast an instant or sorcery spell from the top of your library.") and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
 Ruling (2023-09-01): When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
 Ruling (2023-09-01): You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
-
-## Grabby Tabby
-Cost: {3}{g} | Type: Creature — Cat Guest | Color identity: G | P/T: 4/3 | Commander: legal
-Text: This creature has vigilance as long as you control a stickered permanent.
-Ruling (2022-10-07): The stickered permanent could be Grabby Tabby itself or another permanent you control.
 
 ## Graceblade Artisan
 Cost: {2}{w} | Type: Creature — Human Monk | Color identity: W | P/T: 2/3 | Commander: legal

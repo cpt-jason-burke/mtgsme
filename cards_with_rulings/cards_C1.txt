@@ -2222,11 +2222,6 @@ Ruling (2022-12-08): If you copy a spell that's half of a split card, the copy c
 Ruling (2022-12-08): Split cards have two card faces on a single card. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
 Ruling (2022-12-08): To cast a split card, choose one of its halves to cast. There's no way to cast both halves of this split card.
 
-## Carnival Carnivore
-Cost: {5}{b} | Type: Creature — Alien Crab Horror | Color identity: B | P/T: 4/6 | Commander: legal
-Text: Deathtouch
-  When Carnival Carnivore enters, you get {TK}, then you may put a sticker on a nonland permanent you own.
-
 ## Carnival Hellsteed
 Cost: {4}{b}{r} | Type: Creature — Nightmare Horse | Color identity: BR | P/T: 5/4 | Commander: legal
 Text: First strike, haste
@@ -6264,11 +6259,6 @@ Ruling (2020-04-17): If Chevill leaves the battlefield at the same time that an 
 Ruling (2020-04-17): If the creature or planeswalker with a bounty counter on it ceases to be a creature or planeswalker, Chevill's last ability will still trigger if that permanent is put into a graveyard from the battlefield.
 Ruling (2020-04-17): If your life total is brought to 0 or less at the same time that a creature with a bounty counter on it is dealt lethal damage, you lose the game before the last ability goes on the stack.
 
-## Chicken Troupe
-Cost: {1}{g} | Type: Creature — Bird Performer | Color identity: G | P/T: 2/2 | Commander: legal
-Text: Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
-  When Chicken Troupe enters, you get {TK}, then you may put a sticker on a nonland permanent you own.
-
 ## Chief Engineer
 Cost: {1}{u} | Type: Creature — Vedalken Artificer | Color identity: U | P/T: 1/3 | Commander: legal
 Text: Artifact spells you cast have convoke. (Your creatures can help cast those spells. Each creature you tap while casting an artifact spell pays for {1} or one mana of that creature's color.)
@@ -7841,14 +7831,6 @@ Text: {1}{R}, {T}: Target creature can't block this turn.
   {2}{G}, {T}: Target land you control becomes a 4/4 Elemental creature with haste until end of turn. It's still a land.
 Ruling (2019-01-25): Activating Clan Guildmage's first ability after a creature has blocked won't remove the blocking creature from combat or cause the creature it blocked to become unblocked.
 Ruling (2019-01-25): Clan Guildmage's second ability doesn't untap the land that becomes a creature.
-
-## Clandestine Chameleon
-Cost: {3}{g} | Type: Creature — Lizard Guest | Color identity: G | P/T: 4/3 | Commander: legal
-Text: When Clandestine Chameleon enters, you get {TK}{TK}, then you may put a sticker on a nonland permanent you own.
-  Clandestine Chameleon has all abilities of ability stickers on other permanents you own and cards in your graveyard.
-Ruling (2022-10-07): Although Clandestine Chameleon has the abilities of ability stickers on other permanents you own and cards in your graveyard, it is not stickered unless there's actually a sticker on it.
-Ruling (2022-10-07): As ability stickers are added to other permanents you own or cards in your graveyard, Clandestine Chameleon will gain the corresponding abilities. Similarly, Clandestine Chameleon will lose abilities as those stickers are removed or those permanents and/or cards go to zones other than the battlefield or graveyard.
-Ruling (2022-10-07): It doesn't matter if the permanent or card with the ability sticker has lost the ability due to another effect. As long as it still has the sticker on it, Clandestine Chameleon will have the ability of that sticker anyway.
 
 ## Clandestine Meddler
 Cost: {2}{b} | Type: Creature — Vampire Rogue | Color identity: B | P/T: 3/2 | Commander: legal
@@ -10311,10 +10293,6 @@ Cost: {1}{g} | Type: Enchantment | Color identity: G | Commander: legal
 Text: Whenever you gain life, put a growth counter on this enchantment.
   As long as there are five or more growth counters on this enchantment, creatures you control get +3/+3.
 
-## Coming Attraction
-Cost: {2}{g} | Type: Sorcery | Color identity: G | Commander: legal
-Text: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Open an Attraction. (Put the top card of your Attraction deck onto the battlefield.)
-
 ## Coming In Hot
 Cost: {r} | Type: Instant | Color identity: R | Commander: legal
 Text: Target creature gets +1/+0 and gains first strike until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom.)
@@ -10346,15 +10324,6 @@ Text: Choose one —
 Cost: {2}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Cast this spell only during the declare attackers step and only if you've been attacked this step.
   Return one or two target attacking creatures to their owner's hand.
-
-## Command Performance
-Cost: {1}{u} | Type: Sorcery | Color identity: U | Commander: legal
-Text: Choose two —
-  • Open an Attraction. (Put the top card of your Attraction deck onto the battlefield.)
-  • Roll to visit your Attractions.
-  • You get {TK}{TK}.
-  • You may put a sticker on a nonland permanent you own.
-Ruling (2022-10-07): No matter which two modes you choose, you always follow the instructions in the order they're written. You'll open an Attraction before rolling to visit them, if applicable, and similarly you'll get tickets before you may put a sticker on a nonland permanent you own.
 
 ## Command the Dreadhorde
 Cost: {4}{b}{b} | Type: Sorcery | Color identity: B | Commander: legal
@@ -10635,11 +10604,6 @@ Text: Return target nonland permanent to its owner's hand. Then that player disc
 Ruling (2025-01-24): Compelling Deterrence checks to see if you control a Zombie after the target nonland permanent is returned to its owner's hand. For example, if you target the only Zombie you control with Compelling Deterrence, you won't discard a card.
 Ruling (2025-01-24): If the target nonland permanent is an illegal target as Compelling Deterrence tries to resolve, it won't resolve and none of its effects will happen. No player will discard a card.
 Ruling (2025-01-24): The card returned to its owner's hand may be the card they discard. If it's the only card in that player's hand, it must be discarded if you control a Zombie.
-
-## Complaints Clerk
-Cost: {3}{w} | Type: Creature — Sloth Beast Employee | Color identity: W | P/T: 3/3 | Commander: legal
-Text: When this creature enters, open an Attraction. (Put the top card of your Attraction deck onto the battlefield.)
-  Whenever you roll a 1, create a 1/1 white Clown Robot artifact creature token.
 
 ## Compleat Devotion
 Cost: {1}{w} | Type: Instant | Color identity: W | Commander: legal
@@ -13291,10 +13255,6 @@ Ruling (2025-09-19): If Costume Closet has left the battlefield or has no +1/+1 
 Ruling (2025-09-19): Once Costume Closet runs out of +1/+1 counters, it remains on the battlefield. However, activating its second ability won't do anything.
 Ruling (2025-09-19): The +1/+1 counters on Costume Closet won't affect it unless it somehow becomes a creature.
 
-## Costume Shop
-Cost: — | Type: Artifact — Attraction | Color identity: colorless | Commander: legal
-Text: Visit — You may put a sticker on a nonland permanent you own.
-
 ## Council Guardian
 Cost: {5}{w} | Type: Creature — Giant Soldier | Color identity: W | P/T: 5/5 | Commander: legal
 Text: Will of the council — When this creature enters, starting with you, each player votes for blue, black, red, or green. This creature gains protection from each color with the most votes or tied for most votes.
@@ -14926,11 +14886,6 @@ Text: Choose one —
 Cost: {1}{r} | Type: Instant | Color identity: R | Commander: legal
 Text: Target creature gains double strike until end of turn.
   When you roll a natural 20, return this card from your graveyard to your hand. (A natural 20 is a roll that displays 20 on the die.)
-
-## Croakid Amphibonaut
-Cost: {4}{u} | Type: Creature — Frog Guest | Color identity: U | P/T: 4/3 | Commander: legal
-Text: This creature has flying as long as you control a stickered permanent.
-Ruling (2022-10-07): The stickered permanent could be Croakid Amphibonaut itself or another permanent you control.
 
 ## Croaking Counterpart
 Cost: {1}{g}{u} | Type: Sorcery | Color identity: GU | Commander: legal

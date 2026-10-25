@@ -91,10 +91,6 @@ Text: Destroy two target artifacts.
 Cost: {4} | Type: Artifact Creature — Phyrexian Construct | Color identity: colorless | P/T: 2/2 | Commander: legal
 Text: At the beginning of each opponent's upkeep, this creature deals X damage to that player, where X is 3 minus the number of cards in their hand.
 
-## Rad Rascal
-Cost: {3}{r} | Type: Creature — Devil Employee | Color identity: R | P/T: 3/3 | Commander: legal
-Text: When this creature enters, open an Attraction. (Put the top card of your Attraction deck onto the battlefield.)
-
 ## Radagast of Rhosgobel
 Cost: {2}{g}{g} | Type: Legendary Creature — Avatar Wizard | Color identity: G | P/T: 2/5 | Commander: legal
 Text: The first creature spell you cast each turn costs {2} less to cast and can be cast as though it had flash.
@@ -5629,10 +5625,6 @@ Text: Whenever you cast an artifact spell, you may draw a card. If you do, disca
 Cost: {r}{w} | Type: Instant | Color identity: RW | Commander: legal
 Text: Destroy target blocking creature. Creatures that were blocked by that creature this combat gain trample until end of turn.
 
-## Ride Guide
-Cost: {4}{w} | Type: Creature — Human Employee | Color identity: W | P/T: 4/4 | Commander: legal
-Text: When this creature enters, open an Attraction. (Put the top card of your Attraction deck onto the battlefield.)
-
 ## Ride the Avalanche
 Cost: {g}{u} | Type: Instant | Color identity: GU | Commander: legal
 Text: The next spell you cast this turn can be cast as though it had flash. When you next cast a spell this turn, put X +1/+1 counters on up to one target creature, where X is the mana value of that spell.
@@ -6973,12 +6965,6 @@ Text: Whenever equipped creature deals combat damage to a player, you draw that 
   Equip {4}
   Equip Shaman, Warlock, or Wizard {1}
 
-## Robo-Piñata
-Cost: {2}{w} | Type: Artifact Creature — Clown Robot | Color identity: W | P/T: 2/1 | Commander: legal
-Text: When Robo-Piñata dies, choose one —
-  • You get {TK}{TK}.
-  • You may put a sticker on a nonland permanent you own.
-
 ## Robobrain War Mind
 Cost: {3}{u} | Type: Artifact Creature — Robot | Color identity: U | P/T: */5 | Commander: legal
 Text: Robobrain War Mind's power is equal to the number of cards in your hand.
@@ -8037,12 +8023,6 @@ Text: Reveal the first card you draw each turn. Whenever you reveal a basic land
 Cost: {3}{r}{g} | Type: Legendary Creature — Cat Druid | Color identity: GR | P/T: 4/3 | Commander: legal
 Text: Whenever Roxanne enters or attacks, create a tapped colorless artifact token named Meteorite with "When this token enters, it deals 2 damage to any target" and "{T}: Add one mana of any color."
   Whenever you tap an artifact token for mana, add one mana of any type that artifact token produced.
-
-## Roxi, Publicist to the Stars
-Cost: {2}{u}{r} | Type: Legendary Creature — Human Employee | Color identity: RU | P/T: */4 | Commander: legal
-Text: Flying
-  Roxi's power is equal to the number of permanents you control with an art sticker plus the number of cards in your graveyard with an art sticker.
-  When Roxi enters, distribute up to two art stickers among one or two nonland permanents you own.
 
 ## Roxxon Brutes
 Cost: {4}{b} | Type: Creature — Human Berserker Villain | Color identity: B | P/T: 4/4 | Commander: legal

@@ -2193,10 +2193,6 @@ Ruling (2006-10-15): Moving Dead-Iron Sledge after the ability triggers will not
 Cost: {2}{r} | Type: Enchantment | Color identity: R | Commander: legal
 Text: {R}, Sacrifice a Zombie: This enchantment deals 2 damage to any target.
 
-## Deadbeat Attendant
-Cost: {1}{b} | Type: Creature — Vampire Employee | Color identity: B | P/T: 1/1 | Commander: legal
-Text: When this creature enters, open an Attraction. (Put the top card of your Attraction deck onto the battlefield.)
-
 ## Deadbridge Chant
 Cost: {4}{b}{g} | Type: Enchantment | Color identity: BG | Commander: legal
 Text: When this enchantment enters, mill ten cards.
@@ -3425,17 +3421,6 @@ Ruling (2024-02-02): If an effect refers to a Clue, it means any Clue artifact, 
 Ruling (2024-02-02): Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
 Ruling (2024-02-02): Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
 Ruling (2024-02-02): You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
-
-## Dee Kay, Finder of the Lost
-Cost: {1}{u}{b} | Type: Legendary Creature — Zombie Employee | Color identity: BU | P/T: 1/4 | Commander: legal
-Text: When Dee Kay enters, open an Attraction.
-  Whenever you roll a 2, each opponent loses 1 life and you gain 1 life.
-  Whenever you roll a 4, you may tap or untap target artifact or creature.
-  Whenever you roll a 6, return target creature card from your graveyard to your hand.
-Ruling (2022-10-07): If the spell or ability that caused you to roll a die includes any effects due to the result, resolve those effects before putting Dee Kay's triggered abilities on the stack.
-Ruling (2022-10-07): If you roll a 2, a 4, or a 6 while rolling to visit your attractions, and one or more visit abilities also trigger from that roll, you choose the order in which those abilities and Dee Kay's ability go on the stack. You can have Dee Kay's ability resolve before those visit abilities, after them, or in between any of them.
-Ruling (2022-10-07): If you roll more than one die at a time, Dee Kay's abilities will trigger for each corresponding result. For example, if I roll 2, 2, and 4 on three six-sided dice, her second ability will trigger twice and her third ability will trigger once.
-Ruling (2022-10-07): It doesn't matter why you rolled a die or how many sides that die has: if you roll a 2, a 4, or a 6, the corresponding ability will trigger.
 
 ## Deekah, Fractal Theorist
 Cost: {4}{u} | Type: Legendary Creature — Human Wizard | Color identity: U | P/T: 3/3 | Commander: legal
@@ -7624,11 +7609,6 @@ Text: At the beginning of each end step, if it's an opponent's turn, put a +1/+1
 Ruling (2004-10-04): This will not count damage that was prevented.
 Ruling (2006-05-01): In Two-Headed Giant, triggers only once per end of turn, not once for each player.
 
-## Discourtesy Clerk
-Cost: {3}{b} | Type: Creature — Vampire Employee | Color identity: B | P/T: 3/2 | Commander: legal
-Text: When this creature enters, open an Attraction. (Put the top card of your Attraction deck onto the battlefield.)
-  At the beginning of your end step, if you control three or more Attractions, you draw a card and you lose 1 life.
-
 ## Discover the Impossible
 Cost: {2}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Look at the top five cards of your library. Exile one of them face down and put the rest on the bottom of your library in a random order. You may cast the exiled card without paying its mana cost if it's an instant spell with mana value 2 or less. If you don't, put that card into your hand.
@@ -8045,18 +8025,6 @@ Text: {4}, {T}, Sacrifice this artifact: It deals 5 damage to target creature.
 ## Disruptor Wanderglyph
 Cost: {4} | Type: Artifact Creature — Golem | Color identity: colorless | P/T: 3/4 | Commander: legal
 Text: Whenever this creature attacks, exile target card from an opponent's graveyard.
-
-## Dissatisfied Customer
-Cost: {2}{b} | Type: Creature — Vampire Guest | Color identity: B | P/T: 2/1 | Commander: legal
-Text: Flying, haste
-  When this creature enters, roll a six-sided die. If the result is 3 or less, you lose that much life.
-Ruling (2022-10-07): Each die is identified by the number of faces it has. A six-sided die is a die with six equally likely outcomes: 1, 2, 3, 4, 5, and 6. The roll must be fair. Although physical dice are recommended, digital substitutes are allowed except in cases where the physical die is required for the effect.
-Ruling (2022-10-07): If a die is rerolled, the original roll essentially never happened: it doesn't cause any abilities to trigger, and no effect that cares about die rolls will consider it.
-Ruling (2022-10-07): If an ability triggers "whenever you roll a die," it will trigger whenever you roll any die, including the planar die. This is a change from previous Un- rules. Some abilities use the result to determine part of the effect. If you get a non-numerical result (currently just the planar die, but the future is long), that part of the effect won't do anything.
-Ruling (2022-10-07): If the result is 0 or less, because of modifications to the result, you won't lose any life. You also won't gain any life if the result is somehow negative.
-Ruling (2022-10-07): Results can be numbers not ordinarily possible on a six-sided die. Spells like Scooch can change the result to 0 or 7, for example.
-Ruling (2022-10-07): Some effects may modify the result of a die roll. This may be part of the instruction to roll a die, or it may come from other cards. Anything that references the "result" of a die roll is looking for the result after these modifications.
-Ruling (2022-10-07): Something in the game must tell you to roll a die. If you roll a die for any other reason (to simulate a coin flip, to choose pizza toppings, to create alternate timelines), that roll doesn't count.
 
 ## Dissection Practice
 Cost: {b} | Type: Instant | Color identity: B | Commander: legal
@@ -9283,11 +9251,6 @@ Ruling (2022-12-08): If you copy a spell that's half of a split card, the copy c
 Ruling (2022-12-08): Split cards have two card faces on a single card. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
 Ruling (2022-12-08): To cast a split card, choose one of its halves to cast. There's no way to cast both halves of this split card.
 
-## Done for the Day
-Cost: {2}{g} | Type: Enchantment | Color identity: G | Commander: legal
-Text: At the beginning of your end step, if you control an Employee, a Performer, or a Robot, you may get {TK} or create a Treasure token. If you control all three, you may put a sticker on a nonland permanent you own.
-Ruling (2022-10-07): Done for the Day's ability will trigger only if you control at least one of the three as your end step begins. If you don't, the ability won't trigger at all. If you do, the ability will check again as it tries to resolve. If you control none of the three at that time, the ability won't resolve and you'll get nothing. If you still control at least one, you'll get the ticket or the Treasure (if you want). Then if you control all three, you'll also have the chance to place a sticker.
-
 ## Dong Zhou, the Tyrant
 Cost: {4}{r} | Type: Legendary Creature — Human Soldier | Color identity: R | P/T: 3/3 | Commander: legal
 Text: When Dong Zhou enters, target creature an opponent controls deals damage equal to its power to that player.
@@ -9817,12 +9780,6 @@ Ruling (2013-04-15): When a fused split spell resolves, follow the instructions 
 Ruling (2013-04-15): When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
 Ruling (2013-04-15): You can choose the same object as the target of each half of a fused split spell, if appropriate.
 
-## Down for Repairs
-Cost: {2}{b} | Type: Sorcery | Color identity: B | Commander: legal
-Text: Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. Destroy up to one target Attraction that player controls. (It's put into their junkyard.)
-Ruling (2022-10-07): Down for Repairs targets both the opponent and the Attraction, if any. You choose both targets if you cast the spell. If only one of those targets is legal as the spell resolves, you'll still do as much as you can to the remaining legal target. The illegal target will be unaffected. If both targets become illegal, the spell won't resolve and none of its effects will happen.
-Ruling (2022-10-07): If an Attraction that is not normally an Attraction (probably because it's a copy of an Attraction) is destroyed, it will go to its owner's graveyard as normal, not their junkyard.
-
 ## Down in the Valley
 Cost: {2}{g} | Type: Enchantment — Saga | Color identity: G | Commander: legal
 Text: (As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)
@@ -9960,13 +9917,6 @@ Ruling (2025-02-07): If an exhaust ability of a permanent is activated, and then
 Cost: {3} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: {2}, {T}, Discard a card at random: Regenerate target creature.
 Ruling (2004-10-04): The card is discarded from your hand during announcement and as a cost.
-
-## Draconian Gate-Bot
-Cost: {5} | Type: Artifact Creature — Robot | Color identity: colorless | P/T: 4/2 | Commander: legal
-Text: When this creature enters, choose one —
-  • Open an Attraction. (Put the top card of your Attraction deck onto the battlefield.)
-  • Destroy target Attraction. (It's put into its owner's junkyard.)
-Ruling (2022-10-07): If an Attraction that is not normally an Attraction (probably because it's a copy of an Attraction) is destroyed, it will go to its owner's graveyard as normal, not their junkyard.
 
 ## Draconic Debut
 Cost: {x}{r} | Type: Sorcery | Color identity: R | Commander: legal
