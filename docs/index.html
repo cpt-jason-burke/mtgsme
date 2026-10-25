@@ -22,9 +22,9 @@ body{margin:0;background:var(--bg);color:var(--text);font:15.5px/1.48 -apple-sys
   url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='.045'/%3E%3C/svg%3E");background-attachment:fixed}
 /* drifting fog, very faint */
 .fog{position:fixed;inset:-25%;z-index:-1;pointer-events:none;background:
-  radial-gradient(38% 28% at 18% 22%,rgba(118,82,150,.10),transparent 70%),
-  radial-gradient(42% 32% at 86% 58%,rgba(208,106,38,.08),transparent 70%),
-  radial-gradient(48% 38% at 40% 96%,rgba(90,110,120,.08),transparent 70%);filter:blur(24px);animation:drift 34s ease-in-out infinite alternate}
+  radial-gradient(40% 30% at 18% 22%,rgba(120,80,160,.17),transparent 70%),
+  radial-gradient(45% 35% at 86% 58%,rgba(224,129,58,.13),transparent 70%),
+  radial-gradient(50% 40% at 40% 96%,rgba(90,110,120,.13),transparent 70%);filter:blur(20px);animation:drift 26s ease-in-out infinite alternate}
 @keyframes drift{to{transform:translate3d(4%,-3%,0) scale(1.07)}}
 @media (prefers-reduced-motion:reduce){.fog{animation:none}*{transition:none!important}}
 
@@ -166,10 +166,11 @@ nav.tabbar button[aria-selected=true]::before{content:"";position:absolute;top:2
 .lightbox{position:fixed;inset:0;z-index:40;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:20px;
   background:rgba(6,6,7,.72);backdrop-filter:blur(14px) saturate(.8);-webkit-backdrop-filter:blur(14px) saturate(.8);animation:lbfade .2s ease-out}
 .lb-card{--rx:0deg;--ry:0deg;--gx:50%;--gy:30%;position:relative;width:min(92vw,calc((100vh - 140px) * .7176));aspect-ratio:488/680;border-radius:4.75%/3.5%;
-  background:#1a1919 center/cover no-repeat;box-shadow:0 30px 70px rgba(0,0,0,.75),0 0 0 1px rgba(255,255,255,.06),0 0 60px rgba(208,106,38,.12);
+  background:#1a1919 center/cover no-repeat;box-shadow:0 34px 80px rgba(0,0,0,.8),0 0 0 1px rgba(255,255,255,.07),0 0 80px rgba(208,106,38,.2);
   transform:perspective(1100px) rotateX(var(--rx)) rotateY(var(--ry));transition:transform .12s ease-out;animation:lbpop .25s cubic-bezier(.2,.9,.3,1.2);touch-action:none}
 .lb-card::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;mix-blend-mode:soft-light;
-  background:radial-gradient(circle at var(--gx) var(--gy),rgba(255,255,255,.55),rgba(255,255,255,0) 45%)}
+  background:radial-gradient(circle at var(--gx) var(--gy),rgba(255,255,255,.85),rgba(255,255,255,0) 55%),
+    linear-gradient(115deg,transparent calc(var(--gx) - 30%),rgba(255,120,60,.18) calc(var(--gx) - 10%),rgba(160,110,255,.16) var(--gx),rgba(90,200,255,.14) calc(var(--gx) + 10%),transparent calc(var(--gx) + 30%))}
 .lb-cap{color:var(--mute);font-size:13px;text-align:center}
 .lb-cap b{color:var(--text);font-size:15px;display:block}
 [data-zoom]{cursor:zoom-in}

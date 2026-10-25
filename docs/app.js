@@ -48,7 +48,7 @@
   function tilt(el) {
     const move = (e) => {
       const r = el.getBoundingClientRect(), x = (e.clientX - r.left) / r.width - 0.5, y = (e.clientY - r.top) / r.height - 0.5;
-      el.style.setProperty("--ty", x * 16 + "deg"); el.style.setProperty("--tx", -y * 16 + "deg");
+      el.style.setProperty("--ty", x * 26 + "deg"); el.style.setProperty("--tx", -y * 26 + "deg");
       el.style.boxShadow = -x * 20 + "px " + (16 - y * 20) + "px 36px rgba(0,0,0,.6)" + (el.classList.contains("focus") ? ",0 0 0 1px rgba(208,106,38,.5),0 0 34px rgba(208,106,38,.2)" : "");
     };
     const reset = () => { el.style.setProperty("--ty", "0deg"); el.style.setProperty("--tx", "0deg"); el.style.boxShadow = ""; };
@@ -69,7 +69,7 @@
       const el = lb.firstChild;
       const move = (e) => {
         const r = el.getBoundingClientRect(), x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
-        el.style.setProperty("--ry", (x - 0.5) * 18 + "deg"); el.style.setProperty("--rx", (0.5 - y) * 18 + "deg");
+        el.style.setProperty("--ry", (x - 0.5) * 30 + "deg"); el.style.setProperty("--rx", (0.5 - y) * 30 + "deg");
         el.style.setProperty("--gx", x * 100 + "%"); el.style.setProperty("--gy", y * 100 + "%");
       };
       el.addEventListener("pointermove", move); el.addEventListener("pointerdown", move);
@@ -130,7 +130,7 @@
   }
   function tiltFlat(el) {
     el.addEventListener("pointermove", (e) => { const r = el.getBoundingClientRect(), x = (e.clientX - r.left) / r.width - 0.5, y = (e.clientY - r.top) / r.height - 0.5;
-      el.style.transform = "perspective(900px) rotateY(" + x * 14 + "deg) rotateX(" + -y * 14 + "deg)"; el.style.boxShadow = -x * 24 + "px " + (22 - y * 22) + "px 44px rgba(0,0,0,.65)"; });
+      el.style.transform = "perspective(900px) rotateY(" + x * 24 + "deg) rotateX(" + -y * 24 + "deg)"; el.style.boxShadow = -x * 24 + "px " + (22 - y * 22) + "px 44px rgba(0,0,0,.65)"; });
     ["pointerleave", "pointerup", "pointercancel"].forEach((t) => el.addEventListener(t, () => { el.style.transform = ""; el.style.boxShadow = ""; }));
   }
   $("#sheet-root").addEventListener("click", (e) => {
