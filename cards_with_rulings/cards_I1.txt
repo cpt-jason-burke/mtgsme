@@ -1812,6 +1812,12 @@ Cost: {r} | Type: Enchantment — Aura | Color identity: R | Commander: legal
 Text: Enchant creature
   Enchanted creature has menace. (It can't be blocked except by two or more creatures.)
 
+## Impossible Choice
+Cost: {2}{b} | Type: Instant | Color identity: B | Commander: legal
+Text: Choose one —
+  • Surgical Separation — Destroy target creature. Its controller creates two 1/1 red Officer creature tokens.
+  • Remain Fused — You draw two cards and each player loses 2 life.
+
 ## Impossible Inferno
 Cost: {4}{r} | Type: Instant | Color identity: R | Commander: legal
 Text: Impossible Inferno deals 6 damage to target creature.

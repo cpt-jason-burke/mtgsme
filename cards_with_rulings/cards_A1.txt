@@ -1901,6 +1901,11 @@ Ruling (2026-03-20): While copies of spells in zones other than the stack cease 
 Cost: {g} | Type: Sorcery | Color identity: G | Commander: legal
 Text: Look at the top three cards of your library. You may reveal a creature or land card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
 
+## Adversary by Algorithm
+Cost: {2}{g} | Type: Sorcery | Color identity: G | Commander: legal
+Text: Create a 3/3 colorless Illusion artifact creature token.
+  Beam me up {3}{G} (You may cast this card from your graveyard for {3}{G} if you also return a creature you control to its owner's hand. Then exile this spell.)
+
 ## Adverse Conditions
 Cost: {3}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Devoid (This card has no color.)
