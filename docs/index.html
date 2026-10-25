@@ -80,8 +80,9 @@ ul.clean li{margin:8px 0}
   </section>
   <section id="tab-interact" class="hidden">
     <p class="sub">Pick two or more cards. I find which triggers and replacement effects connect them, with the rules that apply. Tap any rule number to read it.</p>
-    <input type="text" id="pick" placeholder="Add a card by name" autocomplete="off" autocapitalize="none">
+    <div class="row" style="flex-wrap:nowrap;margin-top:0"><input type="search" id="pick" placeholder="Add a card (or several with +)" autocomplete="off" autocapitalize="none" enterkeyhint="go"><button class="btn primary" id="addbtn">Add</button></div>
     <div id="sug"></div>
+    <div class="sub" id="pickmsg" role="status" aria-live="polite"></div>
     <div class="row" id="picked"></div>
     <div class="row" id="examples"></div>
     <div id="analysis"></div>

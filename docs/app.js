@@ -183,12 +183,29 @@
       $("#sug").innerHTML = m.length ? '<div class="sug">' + m.map((c) => '<div data-name="' + esc(c.n) + '">' + esc(c.n) + ' <span class="sub">' + esc(c.t) + "</span></div>").join("") + "</div>" : "";
     });
     $("#sug").addEventListener("click", (e) => { const d = e.target.closest("[data-name]"); if (d) addPick(d.dataset.name); });
+    const submit = () => {
+      const raw = $("#pick").value.trim();
+      if (!raw) return say("Type a card name first.");
+      const added = [], missing = [];
+      for (const part of raw.split(/\s*\+\s*|\s*;\s*|\n/).map((x) => x.trim()).filter(Boolean)) {
+        const q = part.toLowerCase();
+        const exact = byName.get(q);
+        const best = exact || CARDS.filter((c) => c.n.toLowerCase().includes(q)).sort((a, b) => rank(a, q) - rank(b, q))[0];
+        if (best) { if (!state.picked.includes(best.n)) state.picked.push(best.n); added.push(best.n); } else missing.push(part);
+      }
+      $("#pick").value = ""; $("#sug").innerHTML = "";
+      save();
+      say((added.length ? "Added: " + added.join(", ") + ". " : "") + (missing.length ? "No card found for: " + missing.join(", ") + ". Check the spelling." : ""), !!missing.length);
+    };
+    $("#pick").addEventListener("keydown", (e) => { if (e.key === "Enter") { e.preventDefault(); submit(); $("#pick").blur(); } });
+    $("#addbtn").addEventListener("click", submit);
     $("#picked").addEventListener("click", (e) => { const d = e.target.closest("[data-rm]"); if (d) { state.picked = state.picked.filter((n) => n !== d.dataset.rm); save(); } });
     $("#analysis").addEventListener("click", (e) => {
       const r = e.target.closest("[data-rule]"); if (r) return openSheet({ type: "rule", rule: r.dataset.rule });
       const c = e.target.closest("[data-card]"); if (c) openSheet({ type: "card", card: byName.get(c.dataset.card.toLowerCase()) });
     });
   }
+  function say(msg, bad) { const el = $("#pickmsg"); el.textContent = msg; el.style.color = bad ? "var(--bad)" : "var(--good)"; }
   function addPick(name) { if (!state.picked.includes(name)) state.picked.push(name); $("#pick").value = ""; $("#sug").innerHTML = ""; save(); }
   function save() { store.set("picked", state.picked); renderPicked(); analyzePicked(); }
   function renderPicked() {

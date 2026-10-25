@@ -190,7 +190,8 @@
     for (const r of reps) {
       result.replacements.push({ card: label(r.a), text: r.ab.text, kind: r.ab.kind,
         cites: [r.ab.kind === "prevention" ? cite("615.1") : cite("614.1"), /\binstead\b/i.test(r.ab.text) ? cite("614.1a") : null,
-          /\benters? (?:the battlefield )?(?:tapped|with|as)|\bas ~ enters/i.test(r.ab.text) ? cite(/with/i.test(r.ab.text) ? "614.1c" : "614.1d") : null].filter(Boolean) });
+          /\benters? (?:the battlefield )?(?:tapped|with|as)|\bas ~ enters/i.test(r.ab.text) ? cite(/with/i.test(r.ab.text) ? "614.1c" : "614.1d") : null,
+          /\benters? (?:the battlefield )?tapped\b/i.test(r.ab.text) ? cite("603.6d") : null].filter(Boolean) });
     }
     for (const r of reps) for (const e of emitters) {
       if (r.ci === e.ci) continue;
@@ -200,10 +201,16 @@
     }
     if (reps.length > 1) result.gotchas.push({ text: "More than one replacement or prevention effect may apply to the same event. The affected player (or the controller of the affected object) chooses which to apply first, and each can change whether the others still apply.", cites: [cite("616.1")].filter(Boolean) });
 
-    // Enters-tapped overlap, e.g. a spell that puts lands onto the battlefield tapped plus a land that enters tapped unless.
+    // Enters-tapped overlap: one card says the permanent enters tapped, another says it enters tapped only sometimes.
     const tappedEmit = nodes.find((n) => n.ab.entersTapped);
-    const tappedLand = nodes.find((n) => n.ci !== (tappedEmit && tappedEmit.ci) && /\benters? (?:the battlefield )?tapped/i.test(n.ab.text) && n.ab.kind === "replacement");
-    if (tappedEmit && tappedLand) result.gotchas.push({ text: label(tappedEmit.a) + " already puts the permanent onto the battlefield tapped, so " + label(tappedLand.a) + "'s own \"enters tapped\" condition makes no difference to the outcome. Check the official rulings for same-time entry.", cites: [cite("614.1d")].filter(Boolean) });
+    const tappedLand = nodes.find((n) => n.ci !== (tappedEmit && tappedEmit.ci) && n.ab.kind === "replacement" && /\benters? (?:the battlefield )?tapped\b/i.test(n.ab.text));
+    if (tappedEmit && tappedLand) {
+      const cond = (tappedLand.ab.text.match(/\btapped unless ([^.]*)/i) || [])[1];
+      result.gotchas.push({ text: label(tappedEmit.a) + " puts the permanent onto the battlefield tapped, so it enters tapped no matter what. " +
+        (cond ? label(tappedLand.a) + " also says it enters tapped unless " + cond + ". If " + cond + ", that clause does not apply, but " + label(tappedEmit.a) + "'s own \"tapped\" still does, so the result is still tapped. If not, both say tapped. Either way: tapped. The condition only changes things when " + label(tappedLand.a) + " enters some other way, such as being played from your hand. " : "") +
+        "Things that enter at the same time are not counted by each other's conditions, so check the official rulings for same-time entry.",
+        cites: [cite("110.5b"), cite("603.6d")].filter(Boolean) });
+    }
 
     // Loops: triggers whose effects feed each other.
     const trig = nodes.filter((n) => n.ab.kind === "triggered" && n.ab.listens.length && n.ab.emits.length);
