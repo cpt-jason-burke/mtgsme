@@ -269,6 +269,67 @@
     return result;
   }
 
-  const api = { analyze, analyzeCard, EVENTS };
+
+  // ---- Wording: what each card's text says, and what it notably does not say ----
+  // Each check reads the oracle text literally. `said: false` entries point out an absent word that changes the answer.
+  const WORDING = [
+    { re: /\bup to (one|two|three|four|five|six|seven|x|\w+)\b/i, said: true, title: (m) => "Says “up to " + m[1] + "”", detail: () => "You can choose fewer, even zero." },
+    { re: /\bland cards?\b/i, unless: /\bbasic land cards?\b/i, said: false, title: () => "Says “land card”, not “basic land card”", detail: () => "Any land qualifies, nonbasic lands included." },
+    { re: /\bbasic lands?\b/i, said: true, title: () => "Says “basic land”", detail: () => "Only lands with the basic supertype count, like Forest or Wastes. A nonbasic land with a basic land type does not.", cite: "205.4c" },
+    { re: /\bwith different names\b/i, said: true, title: () => "Says “with different names”", detail: () => "Every card found must have a different name." },
+    { re: /\ban opponent chooses\b/i, said: true, title: () => "An opponent chooses, not you", detail: () => "In multiplayer you pick which opponent; they will choose what is worst for you." },
+    { re: /\beach opponent\b/i, said: true, title: () => "Says “each opponent”", detail: () => "In Commander it hits every opponent, not just one, and it does not target.", cite: "115.10" },
+    { re: /\btarget\b/i, said: true, title: () => "It targets", detail: () => "Hexproof, shroud and ward matter. If every target becomes illegal before it resolves, it does nothing.", cite: "608.2b" },
+    { re: /\b(?:each|all)\b[^.]*\b(?:creature|permanent|player|opponent|land|artifact)s?\b/i, unless: /\btarget\b/i, said: false, title: () => "No “target”", detail: () => "It does not target, so hexproof, shroud and ward do not stop it.", cite: "115.10" },
+    { re: /\bunless\b[^.]*\bpays?\b/i, said: true, title: () => "Says “unless … pays”", detail: () => "The other player decides whether to pay, as the ability resolves." },
+    { re: /\byou control\b/i, unless: /\byou own\b/i, said: true, title: () => "Says “you control”", detail: () => "What matters is who controls it right now, not who owns it. Stolen permanents count for the thief." },
+    { re: /\banother\b/i, said: true, title: () => "Says “another”", detail: () => "This card never counts itself." },
+    { re: /\bwhenever (?:a|one or more) (?:\w+ )?(creature|land|permanent|artifact|enchantment)s?\b[^,]*\benters?\b/i, unless: /\banother\b/i, said: false,
+      when: (m, c) => m[1].toLowerCase() === "permanent" ? !/\b(?:Instant|Sorcery)\b/.test(c.t) : c.t.toLowerCase().includes(m[1].toLowerCase()), title: () => "Says “a”, not “another”", detail: () => "If this card is that kind of permanent, its own arrival can count." },
+    { re: /\bnontoken\b/i, said: true, title: () => "Says “nontoken”", detail: () => "Tokens do not count." },
+    { re: /\bdies\b/i, said: true, title: () => "Says “dies”", detail: () => "Only means put into a graveyard from the battlefield. Exiled or bounced does not count; tokens do die before they vanish.", cite: "700.4" },
+    { re: /\bdestroy\b/i, said: true, title: () => "Says “destroy”", detail: () => "Indestructible stops it and regeneration can replace it; sacrifice and exile get around both.", kw: "destroy" },
+    { re: /\bsacrifices?\b/i, said: true, title: () => "Says “sacrifice”", detail: () => "Indestructible does not stop a sacrifice, and you can only sacrifice what you control.", kw: "sacrifice" },
+    { re: /\bexile\b/i, said: true, title: () => "Says “exile”", detail: () => "Exiled cards do not die, so “dies” abilities do not trigger.", kw: "exile" },
+    { re: /\bcasts?\b[^.]*\bspells?\b/i, said: true, title: () => "Says “cast”", detail: () => "Only casting counts. Putting a card onto the battlefield, or copying a spell, is not casting.", kw: "cast" },
+    { re: /\b(?:when|whenever)\b[^,]*\benters?\b/i, said: true, title: () => "Triggers on “enters”", detail: () => "Any way onto the battlefield counts: cast, put by an effect, reanimated or blinked.", cite: "603.6a" },
+    { re: /\bwhenever you attack\b/i, said: true, title: () => "Says “whenever you attack”", detail: () => "Triggers once per combat when you attack with any number of creatures, not once per attacker." },
+    { re: /\bonto the battlefield tapped\b|\benters? tapped\b/i, said: true, title: () => "Enters tapped", detail: () => "Permanents normally enter untapped; this text overrides that.", cite: "110.5b" },
+    { re: /\binstead\b/i, said: true, title: () => "Says “instead”", detail: () => "This is a replacement effect: the original event never happens and nothing uses the stack.", cite: "614.1a" },
+    { re: /\b(?:when|whenever|at)\b/i, unless: /\bmay\b/i, said: false, title: () => "No “may”", detail: () => "Its triggered ability is mandatory: it happens even if you would rather it did not.", cite: "603.5" },
+    { re: /\bmay\b/i, said: true, title: () => "Says “may”", detail: () => "Optional: you decide as it resolves.", cite: "603.5" },
+    { re: /\bX\b/, said: true, when: (m, c) => /\{x\}/i.test(c.m || ""), title: () => "Uses X", detail: () => "X is chosen as you cast or activate it. Anywhere else, such as a mana value check in another zone, X is 0.", cite: "107.3" },
+  ];
+
+  function wording(cards, opts) {
+    const CR = (opts && opts.cr) || { rules: {}, kw: {} };
+    const out = [];
+    for (const c of cards) {
+      const text = stripReminder(c.o || "");
+      for (const w of WORDING) {
+        const m = text.match(w.re);
+        if (!m || (w.unless && w.unless.test(text)) || (w.when && !w.when(m, c))) continue;
+        const num = w.cite || (w.kw && CR.kw && CR.kw[w.kw]);
+        out.push({ card: c.n, said: w.said, title: w.title(m), detail: w.detail(m), cites: num && CR.rules[num] ? [num] : [] });
+      }
+    }
+    return out;
+  }
+
+  // One or two plain sentences that sum up the result, for the "Bottom line" box.
+  function summary(r) {
+    const lines = [];
+    const tapped = r.gotchas.find((g) => /onto the battlefield tapped/.test(g.text));
+    if (tapped) lines.push(tapped.text.split(". ")[0] + ".");
+    for (const c of r.connections) {
+      if (c.self) continue;
+      lines.push(c.replacement ? c.to + "’s replacement effect changes " + c.eventLabel + " caused by " + c.from + "." : c.from + " can set off " + c.to + " through " + c.eventLabel + (c.optional ? " (optional)." : "."));
+    }
+    if (r.loops.length) lines.push("There may be a loop. See below.");
+    if (!lines.length) lines.push("No direct trigger or replacement link found in the wording. Check the wording notes below.");
+    return [...new Set(lines)].slice(0, 3);
+  }
+
+  const api = { analyze, analyzeCard, wording, summary, EVENTS };
   if (typeof module !== "undefined" && module.exports) module.exports = api; else root.MTGEngine = api;
 })(typeof self !== "undefined" ? self : this);

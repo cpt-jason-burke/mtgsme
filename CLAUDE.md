@@ -20,7 +20,7 @@ Commander format, singleton, multiplayer. Anything shown on the table is on the 
 ## Interaction protocol
 1. Identify every card. 2. Look up its text and rulings. 3. Expand each relevant keyword to its CR definition. 4. Resolve in order: timestamps, then layers (613), then the stack (last in, first out), then state-based actions (704). Say who has priority. Keep triggered abilities and replacement effects separate (replacement effects change an event as it happens and never use the stack). Flag errata and unintuitive rulings. When order matters, show every outcome.
 
-You can run the same first-pass analysis the web app uses: `docs/engine.js` exports `analyze(cards, {cr, rulings})` in Node. Treat its output as heuristic and verify against the card text.
+You can run the same first-pass analysis the web app uses: `docs/engine.js` exports `analyze(cards, {cr, rulings})`, `wording(cards, {cr})` and `summary(result)` in Node, and `docs/deck.js` parses and checks deck lists. Treat its output as heuristic and verify against the card text.
 
 ## Answer format (short)
 - **Ruling:** 1-3 sentences with the key citation.

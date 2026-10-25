@@ -45,10 +45,14 @@ python3 tools/build_site.py <path-to-magic-search-engine>
 
 ## The web app
 
-Open `docs/index.html` through a web server (it loads JSON files, so it will not work from a saved file). With GitHub Pages turned on for the `docs` folder of `main`, it is served at https://cpt-jason-burke.github.io/mtgsme/.
+Served by GitHub Pages from the `docs` folder: https://cpt-jason-burke.github.io/mtgsme/
 
 - **Search:** name, type and text search with color identity, Commander legal and Game Changer filters.
-- **Interact:** pick cards and see which triggers and replacement effects link them. Every rule it cites is checked against the loaded Comprehensive Rules.
+- **Interact:** a card carousel; finds which triggers and replacement effects link the cards, and reads each card's wording for what it says and does not say. Every rule it cites is checked against the loaded Comprehensive Rules.
+- **Decks:** import a Moxfield or Archidekt text export (or build from empty), check it for Commander (100 cards, color identity, singleton, bans, Game Changers), see the mana curve, search within the commander's colors, and get wording-based synergy suggestions.
 - **Rules:** search and browse the full Comprehensive Rules, with tap-to-open rule references.
 
-The interaction checker (`docs/engine.js`) reads card text with pattern rules, so it is a fast first pass, not a judge.
+Card images load from Scryfall in the viewer's browser (`docs/scry.js`), batched and cached on the device; they can be turned off in Settings. Card text never comes from Scryfall.
+
+Files: `docs/engine.js` (interaction and wording engine), `docs/deck.js` (deck parsing, checks, suggestions), `docs/scry.js` (images), `docs/app.js` (interface).
+The interaction checker reads card text with pattern rules, so it is a fast first pass, not a judge.
