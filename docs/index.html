@@ -111,7 +111,10 @@ a.rl{color:var(--ember-hi);text-decoration:underline;text-decoration-style:dotte
 .mcard{aspect-ratio:488/680}
 .mc-full{position:absolute;inset:0;border-radius:4.75%/3.5%;background:center/cover no-repeat;opacity:0;transition:opacity .3s;pointer-events:none}
 .mc-full.on{opacity:1}
-.mcard.pic{background:transparent;border-color:transparent;border-radius:4.75%/3.5%}
+.mcard{overflow:visible}
+.mcard.pic{background:transparent;border-color:transparent;border-radius:4.75%/3.5%;padding:0}
+.mcard.pic>.mc-head,.mcard.pic>.mc-art,.mcard.pic>.mc-type,.mcard.pic>.mc-text,.mcard.pic>.mc-pt{display:none}
+.mc-full{background-size:100% 100%}
 .mc-x{position:absolute;top:-8px;right:-8px;z-index:3;width:28px;height:28px;border-radius:50%;background:#2b2826;border:1px solid var(--line2);color:var(--mute);display:grid;place-items:center;font-size:14px;cursor:pointer;z-index:2}
 .addslot{flex:0 0 120px;scroll-snap-align:center;border:1.5px dashed rgba(255,255,255,.16);border-radius:16px;display:grid;place-items:center;color:var(--mute);font-size:34px;cursor:pointer;min-height:280px;background:rgba(255,255,255,.015)}
 .dots{display:flex;justify-content:center;gap:6px;margin:-14px 0 6px}
