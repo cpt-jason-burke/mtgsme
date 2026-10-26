@@ -18,7 +18,8 @@
   --good:#7cc493;--bad:#e2765f;--warn:#e0a24a;--radius:14px;--tabh:64px;
 }
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
-html{-webkit-text-size-adjust:100%;overscroll-behavior-y:none}
+html{-webkit-text-size-adjust:100%;overscroll-behavior:none;overflow-x:clip}
+body{overflow-x:clip;max-width:100vw}
 body.locked{overflow:hidden}
 body{margin:0;background:var(--bg);color:var(--text);font:15.5px/1.48 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;min-height:100vh;
   padding-bottom:calc(var(--tabh) + 24px + env(safe-area-inset-bottom));
@@ -32,21 +33,26 @@ body{margin:0;background:var(--bg);color:var(--text);font:15.5px/1.48 -apple-sys
 @keyframes drift{to{transform:translate3d(4%,-3%,0) scale(1.07)}}
 @media (prefers-reduced-motion:reduce){.fog{animation:none}*{transition:none!important}}
 
-header.top{position:sticky;top:0;z-index:6;display:flex;align-items:flex-end;justify-content:space-between;gap:10px;padding:calc(12px + env(safe-area-inset-top)) 16px 10px;
+header.top{position:sticky;top:0;z-index:6;padding:calc(12px + env(safe-area-inset-top)) 16px 10px;
   background:linear-gradient(180deg,rgba(13,13,14,.94),rgba(13,13,14,.78));backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.hin{max-width:900px;margin:0 auto}
+.hrow{display:flex;align-items:flex-end;justify-content:space-between;gap:10px}
+.toolbar{margin-top:10px}
+.toolbar .chips{padding-top:10px}
+.toolbar #filtbtn{flex:none;padding:0 14px}
 header.top h1{margin:0;font-size:24px;letter-spacing:.01em;line-height:1.1}
 header.top .meta{color:var(--mute);font-size:12px;margin-top:3px}
 .iconbtn{width:40px;height:40px;border-radius:12px;border:1px solid var(--line);background:var(--panel);color:var(--mute);display:grid;place-items:center;cursor:pointer;flex:none}
 .iconbtn svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.7}
 main{max-width:900px;margin:0 auto;padding:14px 16px 0;overflow-x:clip}
-@media (min-width:1000px){main{max-width:1160px;padding:18px 28px 0}#results,#dresults,#suggest{display:grid;grid-template-columns:1fr 1fr;gap:0 12px}#results>.kwbox,#results>.chips{grid-column:1/-1}}
+@media (min-width:1000px){.hin{max-width:1104px}main{max-width:1160px;padding:18px 28px 0}#results,#dresults,#suggest{display:grid;grid-template-columns:1fr 1fr;gap:0 12px}#results>.kwbox,#results>.chips{grid-column:1/-1}}
 .hidden{display:none!important}
 
 /* inputs and buttons */
 .field{display:flex;gap:8px}
-.field input,.field select,textarea,select.sel{flex:1;min-width:0;background:var(--panel);border:1px solid var(--line2);border-radius:12px;padding:12px 14px;color:var(--text);font:inherit;outline:none;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.field input,.field select,textarea,select.sel{font-size:16px!important;flex:1;min-width:0;background:var(--panel);border:1px solid var(--line2);border-radius:12px;padding:12px 14px;color:var(--text);font:inherit;outline:none;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
 .field input:focus,textarea:focus{border-color:rgba(208,106,38,.6);box-shadow:0 0 0 3px rgba(208,106,38,.15)}
-textarea{width:100%;min-height:180px;font:14px/1.45 ui-monospace,SFMono-Regular,Menlo,monospace;resize:vertical}
+textarea{width:100%;min-height:180px;font:16px/1.45 ui-monospace,SFMono-Regular,Menlo,monospace;resize:vertical}
 .btn{font:inherit;font-weight:650;padding:11px 16px;border-radius:12px;border:1px solid var(--line2);background:var(--panel2);color:var(--text);cursor:pointer;white-space:nowrap}
 .btn.primary{background:linear-gradient(180deg,var(--ember-hi),var(--ember));border-color:transparent;color:#1a0c04;box-shadow:0 6px 18px rgba(208,106,38,.25)}
 .btn.small{padding:7px 12px;font-size:14px;border-radius:10px}
@@ -55,7 +61,7 @@ textarea{width:100%;min-height:180px;font:14px/1.45 ui-monospace,SFMono-Regular,
 .chip{flex:none;display:inline-flex;align-items:center;gap:6px;padding:7px 12px;border-radius:999px;border:1px solid var(--line2);background:var(--panel);color:var(--text);font:inherit;font-size:14px;cursor:pointer;max-width:100%;text-align:left;line-height:1.3}
 .chip.on{background:var(--ember-soft);border-color:rgba(208,106,38,.65);color:var(--ember-hi)}
 .chip.rule{color:var(--ember-hi);border-color:rgba(208,106,38,.3);background:rgba(208,106,38,.08);font-size:13px;padding:3px 9px;font-weight:650}
-select.sel{flex:none;padding:7px 12px;border-radius:999px;font-size:14px;width:auto;appearance:none;-webkit-appearance:none}
+select.sel{flex:none;padding:6px 12px;border-radius:999px;width:auto;appearance:none;-webkit-appearance:none}
 .msg{font-size:13.5px;min-height:20px;margin-top:6px}
 .count{color:var(--mute);font-size:13px;margin:10px 2px 4px}
 .ms{display:inline-block;min-width:17px;height:17px;line-height:17px;border-radius:50%;text-align:center;font-style:normal;font-size:10.5px;font-weight:800;margin:0 1px;color:#111;background:#bdb8b1;vertical-align:1px;padding:0 3px}
@@ -187,6 +193,13 @@ nav.tabbar button[aria-selected=true]::before{content:"";position:absolute;top:2
 #filters .sel{flex:1 1 28%;min-width:0;text-overflow:ellipsis}
 #sfbody{padding-top:4px}
 #sfbody .sel{flex:1 1 40%;min-width:0}
+.pswipe{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;margin:0 -16px;scrollbar-width:none;overscroll-behavior-x:contain}
+.pswipe::-webkit-scrollbar{display:none}
+.pslide{flex:0 0 100%;scroll-snap-align:center;scroll-snap-stop:always;display:flex;justify-content:center}
+.pslide .cardimg{margin:6px auto 10px}
+.pcap{text-align:center;font-size:13px;color:var(--mute);margin:-2px 0 12px;min-height:36px}
+.pcap b{color:var(--text);font-size:14px}
+.pcap .price{color:var(--ember-hi);font-weight:800}
 /* keyword banner */
 .kwbox{margin-top:10px;padding:12px 14px}
 .kwbox b{color:var(--ember-hi)}
@@ -216,7 +229,8 @@ nav.tabbar button[aria-selected=true]::before{content:"";position:absolute;top:2
 .sym img{width:24px;height:24px;filter:invert(.92);opacity:.9}
 .set.k-commander .sym img,.set.hascm .sym img{filter:invert(55%) sepia(80%) saturate(900%) hue-rotate(345deg) brightness(95%)}
 .set .body{flex:1;min-width:0}
-.set h4{margin:0;font-size:15px;line-height:1.3}
+.set h4{margin:0;font-size:15px;line-height:1.3;overflow-wrap:anywhere}
+.ktag{white-space:nowrap}
 .set .ty{color:var(--mute);font-size:12.5px}
 .set .n{flex:none;text-align:right;font-size:12.5px;color:var(--mute)}
 .set .n b{display:block;color:var(--text);font-size:15px}
@@ -240,29 +254,43 @@ nav.tabbar button[aria-selected=true]::before{content:"";position:absolute;top:2
 </head>
 <body>
 <div class="fog"></div>
-<header class="top">
+<header class="top"><div class="hin">
+<div class="hrow">
   <div><button class="homebtn hidden" id="homeBtn">‹ Search</button><h1 id="title">Search</h1><div class="meta" id="status">loading…</div></div>
   <button class="iconbtn" id="settingsBtn" aria-label="Settings"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button>
-</header>
+</div>
+  <div class="toolbar" id="tb-search">
+    <div class="field"><input type="search" id="q" placeholder="Name, type or text — e.g. landfall" autocomplete="off" autocapitalize="none" enterkeyhint="search"><button class="chip" id="filtbtn">Filters</button></div>
+    <div class="chips hidden" id="filters"></div>
+  </div>
+  <div class="toolbar hidden" id="tb-interact">
+    <div class="field"><input type="search" id="pick" placeholder="Add a card (or several with +)" autocomplete="off" autocapitalize="none" enterkeyhint="go"><button class="btn primary" id="addbtn">Add</button></div>
+    <div id="sug"></div>
+  </div>
+  <div class="toolbar hidden" id="tb-decks">
+    <div class="seg" id="seg"><button data-pane="list" class="on">Deck</button><button data-pane="add">Add cards</button></div>
+  </div>
+  <div class="toolbar hidden" id="tb-sets">
+    <div class="chips" id="setfilters"></div>
+  </div>
+  <div class="toolbar hidden" id="tb-rules">
+    <div class="field"><input type="search" id="rq" placeholder="Rule number (702.2) or words (replacement)" autocomplete="off" autocapitalize="none" enterkeyhint="search"></div>
+  </div>
+</div></header>
 
 <main>
   <section id="tab-search">
-    <div class="field"><input type="search" id="q" placeholder="Name, type or text — e.g. landfall" autocomplete="off" autocapitalize="none" enterkeyhint="search"></div>
-    <div class="chips" id="filters"></div>
     <div class="count" id="count"></div>
     <div id="results"></div>
   </section>
 
   <section id="tab-interact" class="hidden">
-    <div class="field"><input type="search" id="pick" placeholder="Add a card (or several with +)" autocomplete="off" autocapitalize="none" enterkeyhint="go"><button class="btn primary" id="addbtn">Add</button></div>
-    <div id="sug"></div>
     <div class="msg" id="pickmsg" role="status" aria-live="polite"></div>
     <div id="carouselWrap"></div>
     <div id="analysis"></div>
   </section>
 
   <section id="tab-decks" class="hidden">
-    <div class="seg" id="seg"><button data-pane="list" class="on">Deck</button><button data-pane="add">Add cards</button></div>
     <div class="deckgrid">
       <div class="pane" id="pane-list"></div>
       <div class="pane hidden" id="pane-add">
@@ -277,13 +305,11 @@ nav.tabbar button[aria-selected=true]::before{content:"";position:absolute;top:2
   </section>
 
   <section id="tab-sets" class="hidden">
-    <div class="chips" id="setfilters" style="padding-top:0"></div>
     <div class="legend"><span><i style="background:var(--ember)"></i>Commander decks</span><span><i style="background:#a77bd6"></i>Secret Lair</span><span><i style="background:#6f9fc9"></i>Reprint</span><span><i style="background:#7cc493"></i>Jumpstart</span></div>
     <div id="timeline"><div class="empty">Loading the release history…</div></div>
   </section>
 
   <section id="tab-rules" class="hidden">
-    <div class="field"><input type="search" id="rq" placeholder="Rule number (702.2) or words (replacement)" autocomplete="off" autocapitalize="none" enterkeyhint="search"></div>
     <div id="rresults"></div>
   </section>
 </main>

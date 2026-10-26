@@ -94,6 +94,7 @@
 
   const setHH = () => document.documentElement.style.setProperty("--hh", $("header.top").offsetHeight + "px");
   window.addEventListener("resize", setHH); setHH();
+  if (window.ResizeObserver) new ResizeObserver(setHH).observe($("header.top"));
 
   // ---------- loading ----------
   async function load() {
@@ -125,7 +126,7 @@
     const changed = curTab !== t;
     curTab = t;
     document.querySelectorAll("nav.tabbar [data-tab]").forEach((b) => b.setAttribute("aria-selected", b.dataset.tab === t));
-    Object.keys(TITLES).forEach((x) => $("#tab-" + x).classList.toggle("hidden", x !== t));
+    Object.keys(TITLES).forEach((x) => { $("#tab-" + x).classList.toggle("hidden", x !== t); $("#tb-" + x).classList.toggle("hidden", x !== t); });
     $("#title").textContent = TITLES[t];
     $("#homeBtn").classList.toggle("hidden", t === "search");
     if (t === "interact") requestAnimationFrame(updateCarousel);
@@ -288,7 +289,27 @@
       try { list = await Scry.printings(v.card.n); printCache.set(v.card.n, list); }
       catch (e) { const el = $("#prints"); if (el && stack[stack.length - 1] === v) el.innerHTML = '<div class="d">Could not load printings: ' + esc(e.message || e) + "</div>"; return; }
     }
-    if (stack[stack.length - 1] === v) renderPrintings(v, list);
+    if (stack[stack.length - 1] === v) { renderTopSwipe(v, list); renderPrintings(v, list); }
+  }
+  // Swipe the big picture to see every printing, with its set and prices underneath.
+  function renderTopSwipe(v, list) {
+    const el = $("#pswipe"), shown = list.filter((p) => p.img);
+    if (!el || !shown.length) return;
+    el.innerHTML = shown.map((p) => '<div class="pslide"><div class="cardimg" data-act="pzoom" data-url="' + esc(p.img.large) + '" data-cap="' + esc(p.setName + " · #" + p.num) + '" data-bg="' + esc(p.img.normal) + '"></div></div>').join("");
+    const imgs = [...el.querySelectorAll(".cardimg")];
+    imgs.forEach(tiltFlat);
+    let last = -1;
+    const update = () => {
+      const i = Math.max(0, Math.min(shown.length - 1, Math.round(el.scrollLeft / el.clientWidth)));
+      for (const j of [i - 1, i, i + 1]) if (imgs[j] && imgs[j].dataset.bg) { imgs[j].style.backgroundImage = 'url("' + imgs[j].dataset.bg + '")'; delete imgs[j].dataset.bg; }
+      if (i === last) return;
+      last = i;
+      const p = shown[i];
+      const prices = Object.keys(FIN).filter((f) => p.finishes.includes(f)).map((f) => { const x = priceOf(p, f); return x == null ? "" : '<span class="price">' + money(x) + "</span> " + FIN[f][0].toLowerCase(); }).filter(Boolean).join(" · ");
+      $("#pcap").innerHTML = "<b>" + esc(p.setName) + "</b> · #" + esc(p.num) + " · " + esc((p.date || "").slice(0, 4)) + " · " + (i + 1) + " of " + shown.length + "<br>" + (prices || "no price") + (shown.length > 1 && i === 0 ? ' · <span style="opacity:.7">swipe for more ›</span>' : "");
+    };
+    el.addEventListener("scroll", () => requestAnimationFrame(update), { passive: true });
+    update();
   }
   function renderPrintings(v, list) {
     const el = $("#prints"); if (!el) return;
@@ -334,7 +355,7 @@
     return (c.s ? '<span class="badge ' + (c.s === "banned" ? "bad" : "warn") + '">' + esc(c.s.replace(/_/g, " ")) + "</span>" : "") + (c.g ? '<span class="badge warn">Game Changer</span>' : "");
   }
   function cardView(c) {
-    let h = Scry.state.enabled ? '<div class="cardimg" data-img="' + esc(c.n) + '" data-kind="normal" data-zoom="' + esc(c.n) + '"></div>' : "";
+    let h = Scry.state.enabled ? '<div class="pswipe" id="pswipe"><div class="pslide"><div class="cardimg" data-img="' + esc(c.n) + '" data-kind="normal" data-zoom="' + esc(c.n) + '"></div></div></div><div class="pcap" id="pcap"></div>' : "";
     h += '<div class="panel item"><h3 style="margin:0">' + esc(c.n) + " " + (c.m ? mana(c.m) : "") + "</h3>" + flags(c) +
       '<div class="d">' + esc(c.t) + (c.pt ? " · " + esc(c.pt) : "") + (c.ly ? " · loyalty/defense " + esc(c.ly) : "") + " · identity " + (mana([...c.ci].map((x) => "{" + x + "}").join("")) || "colorless") + (c.f ? " · " + esc(c.f.join(" // ")) : "") + "</div>" +
       '<div class="oracle">' + linkRules(mana(c.o)) + "</div></div>";
@@ -439,6 +460,7 @@
     let timer;
     $("#q").addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(() => { state.shown = 50; renderResults(); }, 160); });
     $("#q").addEventListener("keydown", (e) => { if (e.key === "Enter") $("#q").blur(); });
+    $("#filtbtn").addEventListener("click", () => $("#filters").classList.toggle("hidden"));
     $("#filters").addEventListener("click", (e) => {
       const b = e.target.closest("button"); if (!b) return;
       if (b.id === "kwbrowse") return openSheet({ type: "keywords" });
@@ -455,6 +477,11 @@
       const r = e.target.closest("[data-rule]"); if (r) return openSheet({ type: "rule", rule: r.dataset.rule });
       const d = e.target.closest("[data-card]"); if (d) openSheet({ type: "card", card: card(d.dataset.card) });
     });
+  }
+  function filterLabel() {
+    const n = state.ci.size + (state.type ? 1 : 0) + (state.kw ? 1 : 0) + (state.theme ? 1 : 0) + (state.legal ? 1 : 0) + (state.gc ? 1 : 0);
+    $("#filtbtn").textContent = n ? "Filters · " + n : "Filters";
+    $("#filtbtn").classList.toggle("on", !!n);
   }
   function setKeyword(k) { state.kw = k; $("#kwsel").value = k; state.shown = 50; renderResults(); }
   function setTheme(k) { state.theme = k; $("#themesel").value = k; state.shown = 50; renderResults(); }
@@ -504,11 +531,13 @@
     const pq = parseQuery(q);
     if (!q && !state.ci.size && !state.type && !state.gc && !state.kw && !state.theme) {
       $("#count").textContent = "";
+      filterLabel();
       el.innerHTML = '<div class="empty"><div class="big">⌕</div>Search by name, type or rules text.<br>Try <b>landfall</b>, <b>kw:infect</b>, <b>theme:poison</b>, or <b>-creature sacrifice</b> to exclude words.</div>';
       return;
     }
     const out = filterCards(q, state);
     const kw = pq.kw || state.kw;
+    filterLabel();
     $("#count").textContent = out.length.toLocaleString() + " card" + (out.length === 1 ? "" : "s");
     el.innerHTML = (kw ? kwBox(kw) : "") + out.slice(0, state.shown).map((c) => rowHTML(c)).join("") + (out.length > state.shown ? '<div class="chips"><button class="btn" data-more>Show more</button></div>' : "");
     hydrate(el);
