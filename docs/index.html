@@ -108,7 +108,11 @@ a.rl{color:var(--ember-hi);text-decoration:underline;text-decoration-style:dotte
 .mc-type{font-size:12px;color:var(--mute);padding:7px 4px 5px;border-bottom:1px solid rgba(255,255,255,.07)}
 .mc-text{font-size:12px;line-height:1.4;padding:7px 4px 4px;max-height:150px;overflow:hidden;-webkit-mask-image:linear-gradient(180deg,#000 80%,transparent)}
 .mc-pt{position:absolute;right:10px;bottom:9px;background:#2a2826;border:1px solid #3a3733;border-radius:8px;padding:1px 8px;font-size:12.5px;font-weight:750}
-.mc-x{position:absolute;top:-8px;right:-8px;width:28px;height:28px;border-radius:50%;background:#2b2826;border:1px solid var(--line2);color:var(--mute);display:grid;place-items:center;font-size:14px;cursor:pointer;z-index:2}
+.mcard{aspect-ratio:488/680}
+.mc-full{position:absolute;inset:0;border-radius:4.75%/3.5%;background:center/cover no-repeat;opacity:0;transition:opacity .3s;pointer-events:none}
+.mc-full.on{opacity:1}
+.mcard.pic{background:transparent;border-color:transparent;border-radius:4.75%/3.5%}
+.mc-x{position:absolute;top:-8px;right:-8px;z-index:3;width:28px;height:28px;border-radius:50%;background:#2b2826;border:1px solid var(--line2);color:var(--mute);display:grid;place-items:center;font-size:14px;cursor:pointer;z-index:2}
 .addslot{flex:0 0 120px;scroll-snap-align:center;border:1.5px dashed rgba(255,255,255,.16);border-radius:16px;display:grid;place-items:center;color:var(--mute);font-size:34px;cursor:pointer;min-height:280px;background:rgba(255,255,255,.015)}
 .dots{display:flex;justify-content:center;gap:6px;margin:-14px 0 6px}
 .dots i{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.18);transition:background .2s,width .2s}

@@ -597,7 +597,17 @@
   function frame(c) {
     return '<div class="mcard" data-card="' + esc(c.n) + '" style="--cc:' + artColor(c) + '"><button class="mc-x" data-rm="' + esc(c.n) + '" aria-label="Remove ' + esc(c.n) + '">✕</button>' +
       '<div class="mc-head"><b>' + esc(c.n) + "</b><span>" + mana(c.m || "") + '</span></div><div class="mc-art" data-img="' + esc(c.n) + '" data-kind="art" data-zoom="' + esc(c.n) + '"></div><div class="mc-type">' + esc(c.t) +
-      '</div><div class="mc-text">' + mana(c.o).replace(/\n/g, "<br>") + "</div>" + (c.pt ? '<div class="mc-pt">' + esc(c.pt) + "</div>" : "") + "</div>";
+      '</div><div class="mc-text">' + mana(c.o).replace(/\n/g, "<br>") + "</div>" + (c.pt ? '<div class="mc-pt">' + esc(c.pt) + "</div>" : "") +
+      '<div class="mc-full" data-full="' + esc(c.n) + '"></div></div>';
+  }
+  // The real card picture covers the drawn frame once it arrives.
+  function showFullCards(root) {
+    root.querySelectorAll("[data-full]").forEach((el) => Scry.get(el.dataset.full, (img) => {
+      if (!img) return;
+      el.style.backgroundImage = 'url("' + img.normal + '")';
+      el.classList.add("on");
+      el.closest(".mcard").classList.add("pic");
+    }));
   }
   function renderInteract() {
     const cards = state.picked.map(card).filter(Boolean);
@@ -613,6 +623,7 @@
     car.querySelectorAll(".mcard").forEach(tilt);
     car.addEventListener("scroll", () => requestAnimationFrame(updateCarousel), { passive: true });
     hydrate(wrap);
+    showFullCards(wrap);
     requestAnimationFrame(updateCarousel);
     renderAnalysis();
   }
