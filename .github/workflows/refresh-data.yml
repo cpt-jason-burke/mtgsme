@@ -31,7 +31,8 @@ jobs:
           git clone --quiet --depth 1 --filter=blob:none --no-checkout https://github.com/taw/magic-search-engine /tmp/mse
           cd /tmp/mse
           git ls-tree HEAD $FILES | awk '{print $3, $4}' > /tmp/source.txt
-          if diff -q /tmp/source.txt "$GITHUB_WORKSPACE/docs/data/source.txt" > /dev/null 2>&1; then
+          # a change to the build itself (a push) always rebuilds; otherwise only when the source changed
+          if [ "$GITHUB_EVENT_NAME" != "push" ] && diff -q /tmp/source.txt "$GITHUB_WORKSPACE/docs/data/source.txt" > /dev/null 2>&1; then
             echo "Source data unchanged; nothing to do."
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else

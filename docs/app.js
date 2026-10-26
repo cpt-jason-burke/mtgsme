@@ -7,7 +7,7 @@
     set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* storage can be blocked */ } },
   };
 
-  let CARDS = [], CR = null, RULINGS = null, hay = [], DATA_DATE = "";
+  let CARDS = [], CR = null, RULINGS = null, hay = [], DATA_DATE = "", DATA_V = "";
   const byNorm = new Map();
   const card = (n) => byNorm.get(MTGDeck.norm(n));
   const anCache = new Map();
@@ -99,11 +99,13 @@
   // ---------- loading ----------
   async function load() {
     try {
-      const [c, r] = await Promise.all([fetch("data/cards.json").then((x) => x.json()), fetch("data/cr.json").then((x) => x.json())]);
+      const stamp = await fetch("data/built-at.txt", { cache: "no-store" }).then((x) => (x.ok ? x.text() : "")).catch(() => "");
+      DATA_V = "?v=" + encodeURIComponent(stamp.trim());
+      const [c, r] = await Promise.all([fetch("data/cards.json" + DATA_V).then((x) => x.json()), fetch("data/cr.json" + DATA_V).then((x) => x.json())]);
       CARDS = c; CR = r;
       CARDS.forEach((cd, i) => { byNorm.set(MTGDeck.norm(cd.n), cd); hay[i] = (cd.n + " " + cd.t + " " + cd.o).toLowerCase(); });
       $("#status").textContent = CARDS.length.toLocaleString() + " cards";
-      fetch("data/built-at.txt").then((x) => (x.ok ? x.text() : "")).then((t) => {
+      Promise.resolve(stamp).then((t) => {
         const d = new Date(t.trim()); if (isNaN(d)) return;
         $("#status").innerHTML = CARDS.length.toLocaleString() + ' cards<span class="upd"> · updated ' + esc(d.toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })) + "</span>";
       }).catch(() => {});
@@ -111,7 +113,7 @@
       renderResults(); renderInteract(); renderDeck(); rulesSearch();
       if (curTab === "sets") ensureSets();
       await restoreNav();
-      fetch("data/rulings.json").then((x) => x.json()).then((j) => { RULINGS = j; renderAnalysis(); }).catch(() => {});
+      fetch("data/rulings.json" + DATA_V).then((x) => x.json()).then((j) => { RULINGS = j; renderAnalysis(); }).catch(() => {});
       fetch("data/source-date.txt").then((x) => (x.ok ? x.text() : "")).then((t) => { DATA_DATE = t.trim(); }).catch(() => {});
     } catch (e) {
       $("#status").textContent = "";
@@ -818,13 +820,19 @@
   }
   async function loadSets() {
     try {
-      const [sets, setcards, precons] = await Promise.all(["sets", "setcards", "precons"].map((f) => fetch("data/" + f + ".json").then((x) => x.json())));
+      // set lists point at cards by position, so they must come from the same build as the card file
+      const get = (f, opt) => fetch("data/" + f + ".json" + DATA_V, opt).then((x) => x.json());
+      let [sets, sc, pc] = await Promise.all([get("sets"), get("setcards"), get("precons")]);
+      const fresh = (j) => j.n === undefined || j.n === CARDS.length;
+      if (!fresh(sc) || !fresh(pc)) [sc, pc] = await Promise.all([get("setcards", { cache: "reload" }), get("precons", { cache: "reload" })]);
+      if (!fresh(sc) || !fresh(pc)) throw new Error("set data is from a different update; reload in a few minutes");
+      const setcards = sc.s || sc, precons = pc.d || pc;
       const precBySet = new Map();
       precons.forEach((p, i) => { p.i = i; if (p.y === "cmd") { if (!precBySet.has(p.s)) precBySet.set(p.s, []); precBySet.get(p.s).push(p); } });
       SETS.data = { sets, setcards, precons, precBySet, byCode: new Map(sets.map((s) => [s.c, s])) };
       MV = CARDS.map((c) => MTGDeck.manaValue(c.m));
       initSetFilters(); renderTimeline();
-    } catch (e) { $("#timeline").innerHTML = '<div class="panel item">Could not load the set data.</div>'; SETS.promise = null; }
+    } catch (e) { $("#timeline").innerHTML = '<div class="panel item">Could not load the set data: ' + esc(e.message || e) + '</div>'; SETS.promise = null; }
   }
   function initSetFilters() {
     const f = SETS.f;

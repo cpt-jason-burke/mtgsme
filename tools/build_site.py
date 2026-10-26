@@ -135,7 +135,8 @@ for e in sets_out:  # an expansion released alongside Commander decks gets a bad
         if cm: e["cm"] = cm[0]
 sets_out.sort(key=lambda e: (e["d"], e["n"]), reverse=True)
 json.dump(sets_out, open(f"{out}/sets.json", "w"), ensure_ascii=False, separators=(",", ":"))
-json.dump({k: v for k, v in by_set.items()}, open(f"{out}/setcards.json", "w"), ensure_ascii=False, separators=(",", ":"))
+# "n" records how many cards the indexes point into, so the app can tell when files are out of step
+json.dump({"n": len(cards), "s": by_set}, open(f"{out}/setcards.json", "w"), ensure_ascii=False, separators=(",", ":"))
 
 precons = []
 for d in json.load(open(f"{src}/index/deck_index.json")):
@@ -153,7 +154,7 @@ for d in json.load(open(f"{src}/index/deck_index.json")):
     if secs:
         precons.append({"n": d["name"], "y": "cmd" if d["type"] == "Commander Deck" else "sld", "s": d["set_code"], "sn": d["set_name"], "d": d["release_date"], **secs})
 precons.sort(key=lambda p: p["d"], reverse=True)
-json.dump(precons, open(f"{out}/precons.json", "w"), ensure_ascii=False, separators=(",", ":"))
+json.dump({"n": len(cards), "d": precons}, open(f"{out}/precons.json", "w"), ensure_ascii=False, separators=(",", ":"))
 print(len(sets_out), "sets;", sum(len(v) for v in by_set.values()), "printings;", len(precons), "precons")
 
 for f in ("cards", "rulings", "cr", "sets", "setcards", "precons"):
