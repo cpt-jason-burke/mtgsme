@@ -69,13 +69,18 @@ for x in lines[start:gl]:
         rules[last].setdefault("ex", []).append(x[8:].strip())
     elif last:
         rules[last]["t"] += " " + x
-glossary, cur = {}, None
-g = [x for x in lines[gl + 1:] if x]
-end = next((i for i, x in enumerate(g) if x == "Credits"), len(g))
-i = 0
-g = g[:end]
-while i < len(g) - 1:
-    glossary[g[i]] = g[i + 1]; i += 2
+# glossary: entries are separated by blank lines; first line is the term, the rest is its definition
+glossary, block = {}, []
+for x in lines[gl + 1:] + [""]:
+    if x == "Credits":
+        break
+    if x:
+        block.append(x)
+    elif block:
+        glossary[block[0]] = "\u2028".join(block[1:])
+        block = []
+if block:
+    glossary[block[0]] = "\u2028".join(block[1:])
 # keyword -> rule number, from the 701 (actions) and 702 (abilities) headings
 kw = {}
 for num, r in rules.items():

@@ -16,7 +16,7 @@
     picked: store.get("picked", []),
     deck: store.get("deck", null), pane: "list", importNote: "", suggestions: null,
   };
-  const TITLES = { search: "Search", interact: "Interact", decks: "Decks", sets: "Sets", rules: "Rules" };
+  const TITLES = { search: "Search", interact: "Interact", decks: "Decks", sets: "Sets", play: "Play", rules: "Rules" };
   const ART = { W: "#cdbf9a", U: "#3d6a8f", B: "#4a3f4f", R: "#9a3d24", G: "#3f6b3a" };
   const artColor = (c) => (c.ci.length === 1 ? ART[c.ci] : c.ci.length ? "#8a6d2b" : "#6b6b6b");
 
@@ -110,6 +110,8 @@
         $("#status").innerHTML = CARDS.length.toLocaleString() + ' cards<span class="upd"> · updated ' + esc(d.toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })) + "</span>";
       }).catch(() => {});
       initSearch(); initInteract(); initDecks(); initRules();
+      window.MTGSME = { CARDS: () => CARDS, card, CR: () => CR, deck: () => state.deck };
+      if (window.MTGPlay) MTGPlay.init();
       renderResults(); renderInteract(); renderDeck(); rulesSearch();
       if (curTab === "sets") ensureSets();
       await restoreNav();
@@ -133,6 +135,7 @@
     $("#homeBtn").classList.toggle("hidden", t === "search");
     if (t === "interact") requestAnimationFrame(updateCarousel);
     if (t === "sets" && CR) ensureSets();
+    if (t === "play" && CR && window.MTGPlay) MTGPlay.render();
     if (changed && !opts.silent) navPush();
     if (changed) window.scrollTo(0, 0);
     saveNav();
