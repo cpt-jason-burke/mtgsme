@@ -196,7 +196,7 @@
   function panel(p, rot, pos) {
     const opps = game.players.filter((q) => q.id !== p.id);
     const tiles = opps.map((q) => [0, q.art2 ? 1 : -1].filter((s) => s >= 0).map((slot) =>
-      '<button class="ctile2" data-cmd="' + p.id + ":" + q.id + ":" + slot + '" style="--pc:' + q.color + '" data-art="' + esc(slot ? q.art2 : q.art) + '"><b data-cv="' + p.id + ":" + q.id + ":" + slot + '">0</b><i>' + esc(q.name.slice(0, 6)) + "</i></button>").join("")).join("");
+      '<button class="ctile2" data-cmd="' + p.id + ":" + q.id + ":" + slot + '" style="--pc:' + q.color + '" data-art="' + esc(slot ? q.art2 : q.art) + '"><b data-cv="' + p.id + ":" + q.id + ":" + slot + '">0</b><i>' + esc(shortName(q.name)) + "</i></button>").join("")).join("");
     return '<div class="pcell" data-rot="' + rot + '" style="' + pos + '"><div class="pinner" data-pid="' + p.id + '" style="--pc:' + p.color + '">' +
       '<div class="pbg" data-art="' + esc(p.art) + '"></div>' +
       '<div class="pzone plus" data-z="' + p.id + ':1"><span>+</span></div><div class="pzone minus" data-z="' + p.id + ':-1"><span>−</span></div>' +
@@ -208,6 +208,7 @@
       '<button class="plost hidden" data-lost="' + p.id + '"></button>' +
       "</div></div>";
   }
+  const shortName = (n) => (/^Player \d+$/.test(n) ? "P" + n.slice(7) : n.split(" ")[0].slice(0, 7));
   function toolbar() {
     const c = game.clock;
     return '<button data-g="menu" aria-label="Game menu">☰</button>' +
