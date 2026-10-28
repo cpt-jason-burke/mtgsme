@@ -2692,6 +2692,10 @@ Text: Enchant land
   When this Aura enters, you gain 3 life.
   Enchanted land has "{T}: Add two mana of any one color."
 
+## Gift of Perfection
+Cost: {4}{u} | Type: Sorcery | Color identity: U | Commander: legal
+Text: Each opponent reveals cards from the top of their library until they reveal a creature card. Assimilate one of the creature cards revealed this way. Then each opponent puts the other cards they revealed this way on the bottom of their library in a random order. (To assimilate a card, put it onto the battlefield under your control with a +1/+1 counter. It's a Borg artifact creature and loses all other creature types.)
+
 ## Gift of Strands
 Cost: {3}{g} | Type: Enchantment — Aura | Color identity: G | Commander: legal
 Text: Flash
@@ -6102,6 +6106,11 @@ Text: As long as Grand Master of Flowers has seven or more loyalty counters on h
 Cost: {3}{r} | Type: Enchantment | Color identity: R | Commander: legal
 Text: All creatures attack each combat if able.
   All creatures block each combat if able.
+
+## Grand Nagus Zek
+Cost: {2}{b} | Type: Legendary Creature — Ferengi Noble | Color identity: B | P/T: 1/1 | Commander: legal
+Text: Grand Nagus Zek gets +1/+1 for each Treasure you control.
+  Whenever another creature dies, create a Treasure token. This ability triggers only once each turn. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
 
 ## Grand Warlord Radha
 Cost: {2}{r}{g} | Type: Legendary Creature — Elf Warrior | Color identity: GR | P/T: 3/4 | Commander: legal

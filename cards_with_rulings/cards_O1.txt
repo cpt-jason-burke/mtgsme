@@ -2473,6 +2473,10 @@ Cost: {1}{u} | Type: Enchantment — Aura | Color identity: U | Commander: legal
 Text: Enchant creature
   Enchanted creature gets +2/+2 and has flying.
 
+## One, Borg Evolved
+Cost: {4}{w}{u}{b} | Type: Legendary Artifact Creature — Borg Artificer | Color identity: BUW | P/T: 3/3 | Commander: legal
+Text: Artifact creatures you control have flying, double strike, vigilance, menace, lifelink, and ward {2}.
+
 ## One-Clown Band
 Cost: {1}{r} | Type: Artifact Creature — Clown Robot Bard | Color identity: R | P/T: 1/3 | Commander: legal
 Text: {2}{R}: Target Robot gets +2/+0 until end of turn.
@@ -2869,6 +2873,10 @@ Cost: {w} | Type: Creature — Human Scout | Color identity: W | P/T: 1/1 | Comm
 Text: Eerie — Whenever an enchantment you control enters and whenever you fully unlock a Room, put a +1/+1 counter on target creature.
 Ruling (2024-09-20): An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
 Ruling (2024-09-20): If a permanent with an eerie ability enters at the same time as one or more enchantments, its ability will trigger for each of those enchantments.
+
+## Optimization Annex
+Cost: {1}{u} | Type: Artifact Creature — Borg | Color identity: U | P/T: 1/3 | Commander: legal
+Text: If one or more charge counters would be put on an artifact you control, that many plus one charge counters are put on it instead.
 
 ## Optimus Prime, Autobot Leader
 Cost: — | Type: Legendary Artifact — Vehicle | Color identity: RUW | P/T: 6/8 | Commander: legal
@@ -4649,6 +4657,10 @@ Ruling (2024-03-08): You pay all costs and follow all normal timing rules for th
 Ruling (2024-11-08): Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
 Ruling (2024-11-08): Whatever you do, don't eat the delicious cards.
 Ruling (2024-11-08): You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+
+## Overflow Submatrix
+Cost: {2}{b} | Type: Artifact Creature — Borg | Color identity: B | P/T: 3/3 | Commander: legal
+Text: Once during each of your turns, you may cast an artifact creature spell from your graveyard. If you cast a spell this way, that artifact creature enters with a finality counter on it. (If a creature with a finality counter on it would die, exile it instead.)
 
 ## Overflowing Basin
 Cost: — | Type: Land | Color identity: GU | Commander: legal

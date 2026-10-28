@@ -96,6 +96,11 @@ Cost: {2} | Type: Legendary Artifact Creature — Construct | Color identity: co
 Text: {T}: Add {C}.
   Grandeur — Discard another card named Page, Loose Leaf: Reveal cards from the top of your library until you reveal an instant or sorcery card. Put that card into your hand and the rest on the bottom of your library in a random order.
 
+## Pah-Wraith
+Cost: {5}{r}{r} | Type: Creature — Wraith | Color identity: R | P/T: 4/4 | Commander: legal
+Text: First strike, haste
+  Strange new worlds — Whenever this creature attacks, creatures you control get +X/+0 until end of turn, where X is the number of differently named lands you control.
+
 ## Pain
 Cost: {b} | Type: Sorcery | Color identity: BR | Commander: legal
 Faces: Pain // Suffering (split)
@@ -3658,6 +3663,10 @@ Text: {1}, {T}: Scry 2.
 ## Planetary Annihilation
 Cost: {3}{r}{r} | Type: Sorcery | Color identity: R | Commander: legal
 Text: Each player chooses six lands they control, then sacrifices the rest. Planetary Annihilation deals 6 damage to each creature.
+
+## Planetary Bombardment
+Cost: {r} | Type: Sorcery | Color identity: R | Commander: legal
+Text: Planetary Bombardment deals 2 damage to target creature. Planetary Bombardment deals 4 damage to that creature instead if a creature died this turn.
 
 ## Planetary Patrol
 Cost: {1}{r} | Type: Creature — Scout | Color identity: R | P/T: 2/2 | Commander: legal

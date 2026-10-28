@@ -1273,6 +1273,12 @@ Ruling (2022-04-29): If you pay the casualty cost of a spell, the copy will reso
 Ruling (2022-04-29): The copy of the spell is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger.
 Ruling (2022-04-29): You may sacrifice only one creature to pay a spell's casualty cost, and you copy the spell only once.
 
+## Make It So
+Cost: {3}{u} | Type: Sorcery | Color identity: U | Commander: legal
+Text: Choose one —
+  • Untap target permanent you control. Target player draws two cards.
+  • Create a 1/1 red Officer creature token and draw two cards.
+
 ## Make Mischief
 Cost: {2}{r} | Type: Sorcery | Color identity: R | Commander: legal
 Text: Make Mischief deals 1 damage to any target. Create a 1/1 red Devil creature token. It has "When this token dies, it deals 1 damage to any target."
@@ -4199,6 +4205,11 @@ Cost: {2}{u} | Type: Creature — Human Wizard | Color identity: U | P/T: 2/2 | 
 Text: When this creature enters, return up to one other target creature to its owner's hand.
   Whenever you cast a spell with {X} in its mana cost, this creature can't be blocked this turn.
 Ruling (2026-03-20): Matterbending Mage's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+
+## Maturation Chamber
+Cost: {1}{w} | Type: Artifact | Color identity: W | Commander: legal
+Text: Whenever you cast an artifact spell, put a charge counter on this artifact.
+  {4}, {T}: Create a 1/1 colorless Borg artifact creature token for each charge counter on this artifact. Activate only as a sorcery.
 
 ## Matzalantli, the Great Door
 Cost: {3} | Type: Legendary Artifact | Color identity: colorless | Commander: legal

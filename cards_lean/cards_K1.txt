@@ -141,6 +141,11 @@ Cost: {2}{u}{u} | Type: Legendary Creature — Human Wizard | Color identity: U 
 Text: When Kaho enters, search your library for up to three instant cards, exile them, then shuffle.
   {X}, {T}: You may cast a spell with mana value X from among cards exiled with Kaho without paying its mana cost.
 
+## Kai Winn, Faithless Leader
+Cost: {1}{b} | Type: Legendary Creature — Bajoran Cleric | Color identity: B | P/T: 3/1 | Commander: legal
+Text: As Kai Winn enters, choose a nonland card name.
+  Whenever an opponent casts a spell with the chosen name or activates an ability of a source with the chosen name, that player loses 3 life.
+
 ## Kaijin of the Vanishing Touch
 Cost: {1}{u} | Type: Creature — Spirit | Color identity: U | P/T: 0/3 | Commander: legal
 Text: Defender (This creature can't attack.)
@@ -1859,6 +1864,11 @@ Faces: Khalni Ambush // Khalni Territory (modaldfc)
 Text: This land enters tapped.
   {T}: Add {G}.
 
+## Khan, Despot by Design
+Cost: {4}{r} | Type: Legendary Creature — Human Rogue | Color identity: R | P/T: 5/4 | Commander: legal
+Text: Trample
+  When Khan enters, he deals 1 damage to each opponent and each creature your opponents control.
+
 ## Khan, Vengeful Heart
 Cost: {2}{b}{b} | Type: Legendary Creature — Human Warrior | Color identity: B | P/T: 5/3 | Commander: legal
 Text: When Khan enters, you may sacrifice another creature or artifact. If you do, draw two cards.
@@ -3523,6 +3533,10 @@ Text: You may look at the top card of your library any time.
 ## Kormus Bell
 Cost: {4} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: All Swamps are 1/1 black creatures that are still lands.
+
+## Korok, Liberated Rage
+Cost: {3}{w} | Type: Legendary Artifact Creature — Klingon Borg | Color identity: W | P/T: 2/2 | Commander: legal
+Text: Battlefront — Whenever Korok attacks, creatures you control get +X/+X until end of turn, where X is the number of opponents you attacked this turn.
 
 ## Korozda Gorgon
 Cost: {3}{b}{g} | Type: Creature — Gorgon | Color identity: BG | P/T: 2/5 | Commander: legal

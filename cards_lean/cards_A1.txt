@@ -3638,6 +3638,10 @@ Text: Flash
 Cost: {2}{b} | Type: Artifact Creature — Phyrexian Construct | Color identity: B | P/T: 3/2 | Commander: legal
 Text: When this creature enters, you may pay 2 life. When you do, target creature gets -1/-1 until end of turn.
 
+## Ambulatory Reactor
+Cost: {3}{u} | Type: Artifact Creature — Borg | Color identity: U | P/T: 2/5 | Commander: legal
+Text: Artifact creatures you control have "{T}: Add {C}. Spend this mana only to cast an artifact spell or activate an ability of an artifact source."
+
 ## Ambuscade
 Cost: {2}{g} | Type: Instant | Color identity: G | Commander: legal
 Text: Target creature you control gets +1/+0 until end of turn. It deals damage equal to its power to target creature an opponent controls.
@@ -5020,6 +5024,10 @@ Text: Reach
 Cost: {2}{u}{u} | Type: Creature — Shapeshifter | Color identity: U | P/T: 0/0 | Commander: legal
 Text: This creature enters with two +1/+1 counters on it.
   {X}, {T}: Remove all +1/+1 counters from this creature and put X +1/+1 counters on it.
+
+## Anthropological Mission
+Cost: {2}{u} | Type: Enchantment | Color identity: U | Commander: legal
+Text: Whenever you cast a noncreature spell, put a quest counter on this enchantment. Draw a card. Then discard a card unless this enchantment has three or more quest counters on it.
 
 ## Anti-Magic Aura
 Cost: {2}{u} | Type: Enchantment — Aura | Color identity: U | Commander: legal
@@ -6958,6 +6966,12 @@ Text: Creatures target player controls get -2/-2 until end of turn.
 Cost: {3}{r} | Type: Enchantment | Color identity: R | Commander: legal
 Text: {3}{R}: You may put an artifact card from your hand onto the battlefield. That artifact gains haste. Sacrifice it at the beginning of the next end step.
 
+## Armus, Skin of Evil
+Cost: {5}{b}{b} | Type: Legendary Creature — Ooze Horror | Color identity: B | P/T: 6/6 | Commander: legal
+Text: Menace
+  At the beginning of your end step, target opponent discards two cards.
+  {2}{B}, Discard this card: Target creature gets -4/-4 until end of turn.
+
 ## Army Ants
 Cost: {1}{b}{r} | Type: Creature — Insect | Color identity: BR | P/T: 1/1 | Commander: legal
 Text: {T}, Sacrifice a land: Destroy target land.
@@ -7805,6 +7819,10 @@ Text: Whenever this creature blocks or becomes blocked by a creature, this creat
 Cost: {5} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: {4}, {T}: Reveal a creature card in your hand. Search your library for a card with the same name as that card, reveal it, put it into your hand, then shuffle.
 
+## Assembly Specialist
+Cost: {1}{w} | Type: Artifact Creature — Borg | Color identity: W | P/T: 1/1 | Commander: legal
+Text: When this creature enters, create a 1/1 colorless Borg artifact creature token.
+
 ## Assembly-Worker
 Cost: {3} | Type: Artifact Creature — Assembly-Worker | Color identity: colorless | P/T: 2/2 | Commander: legal
 Text: {T}: Target Assembly-Worker creature gets +1/+1 until end of turn.
@@ -7822,11 +7840,20 @@ Text: Target creature you control gets +1/+0 until end of turn. It deals damage 
 Cost: {1}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Counter target creature or battle spell unless its controller pays {4}. If they do, you incubate 2. (Create an Incubator token with two +1/+1 counters on it and "{2}: Transform this token." It transforms into a 0/0 Phyrexian artifact creature.)
 
+## Assimilate the Wounded
+Cost: {2}{b} | Type: Instant | Color identity: B | Commander: legal
+Text: For each opponent, assimilate up to one target creature card from that player's graveyard that was put there from the battlefield this turn. (Put it onto the battlefield under your control with a +1/+1 counter. It's a Borg artifact creature and loses all other creature types.)
+
 ## Assimilation Aegis
 Cost: {1}{w}{u} | Type: Artifact — Equipment | Color identity: UW | Commander: legal
 Text: When this Equipment enters, exile up to one target creature until this Equipment leaves the battlefield.
   Whenever this Equipment becomes attached to a creature, for as long as this Equipment remains attached to it, that creature becomes a copy of a creature card exiled with this Equipment.
   Equip {2}
+
+## Assimilation Assessor
+Cost: {4}{b} | Type: Artifact Creature — Borg | Color identity: B | P/T: 5/5 | Commander: legal
+Text: When this creature enters, exile target opponent's graveyard.
+  Whenever this creature attacks, assimilate a creature card exiled with it. (Put it onto the battlefield under your control with a +1/+1 counter. It's a Borg artifact creature and loses all other creature types.)
 
 ## Assure
 Cost: {g/w}{g/w} | Type: Instant | Color identity: GW | Commander: legal

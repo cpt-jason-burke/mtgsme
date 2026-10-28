@@ -5309,6 +5309,13 @@ Text: Target creature fights another target creature. (Each deals damage equal t
 Cost: {x}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Counter target spell unless its controller pays {X}.
 
+## Class-4 Tactical Cube
+Cost: {4} | Type: Artifact — Spacecraft | Color identity: colorless | P/T: 4/4 | Commander: legal
+Text: When this Spacecraft enters, create two 1/1 colorless Borg artifact creature tokens.
+  Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 7+.)
+  7+ | Flying
+  Artifact creatures you control get +1/+1.
+
 ## Clattering Augur
 Cost: {1}{b} | Type: Creature — Skeleton Shaman | Color identity: B | P/T: 1/1 | Commander: legal
 Text: This creature can't block.
@@ -6119,6 +6126,10 @@ Cost: {3}{b}{b} | Type: Enchantment — Aura | Color identity: B | Commander: le
 Text: Enchant creature
   Enchanted creature gets +3/+3 as long as it's a Zombie. Otherwise, it gets -3/-3.
 
+## Co-Option Adjutant
+Cost: {3}{u} | Type: Artifact Creature — Borg | Color identity: U | P/T: 3/3 | Commander: legal
+Text: Artifact creatures you control have "Whenever this creature deals combat damage to a player, draw a card."
+
 ## Coal Golem
 Cost: {5} | Type: Artifact Creature — Golem | Color identity: R | P/T: 3/3 | Commander: legal
 Text: {3}, Sacrifice this creature: Add {R}{R}{R}.
@@ -6576,6 +6587,12 @@ Cost: {2}{b} | Type: Instant | Color identity: B | Commander: legal
 Text: Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
   Target creature gets -3/-3 until end of turn.
 
+## Collective Override
+Cost: {2}{w}{u} | Type: Instant | Color identity: UW | Commander: legal
+Text: Choose one. If you control a commander as you cast this spell, you may choose both instead.
+  • Create a 1/1 colorless Borg artifact creature token for each attacking creature.
+  • Draw a card for each attacking creature.
+
 ## Collective Resistance
 Cost: {1}{g} | Type: Instant | Color identity: G | Commander: legal
 Text: Escalate {G} (Pay this cost for each mode chosen beyond the first.)
@@ -6954,6 +6971,12 @@ Cost: {3}{r}{w} | Type: Legendary Creature — Human Soldier | Color identity: R
 Text: Vigilance
   Other Soldiers you control have vigilance, trample, and haste.
   {2}{R}{W}: Until end of turn, Soldiers you control gain "Whenever this creature attacks, it deals 1 damage to defending player."
+
+## Commander Raffi Musiker
+Cost: {2}{b} | Type: Legendary Creature — Human Officer | Color identity: B | P/T: 3/2 | Commander: legal
+Text: When Commander Musiker enters, choose one —
+  • Exile up to one target card from a graveyard. You gain 2 life.
+  • Investigate. You lose 2 life. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
 
 ## Commander Sofia Daguerre
 Cost: {3}{w} | Type: Legendary Creature — Human Pilot | Color identity: W | P/T: 1/3 | Commander: legal

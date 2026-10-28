@@ -5600,6 +5600,10 @@ Text: This creature gets +1/+1 for each other creature named Seven Dwarves you c
 Cost: {2}{u}{b} | Type: Legendary Artifact Creature — Human Scientist | Color identity: BU | P/T: 2/4 | Commander: legal
 Text: Whenever you face a dilemma, draw a card. (You face a dilemma as you choose one or more modes for a spell or ability.)
 
+## Seven of Nine, Tertiary Adjunct
+Cost: {2}{u} | Type: Legendary Artifact Creature — Borg | Color identity: U | P/T: 1/4 | Commander: legal
+Text: That Is Irrelevant — {T}: Draw a card, then discard a card. When you discard a nonland card this way, put two charge counters on up to one target artifact.
+
 ## Seven of Nine, Unassimilated
 Cost: {1}{u} | Type: Legendary Artifact Creature — Human Officer | Color identity: U | P/T: 0/4 | Commander: legal
 Text: At the beginning of your first main phase, draw a card. Then discard a card unless you control five or more differently named lands.
@@ -7437,6 +7441,12 @@ Text: Trample
 ## Shore Keeper
 Cost: {u} | Type: Creature — Trilobite | Color identity: U | P/T: 0/3 | Commander: legal
 Text: {7}{U}, {T}, Sacrifice this creature: Draw three cards.
+
+## Shore Leave Planet
+Cost: — | Type: Land — Planet | Color identity: U | Commander: legal
+Text: This land enters tapped.
+  {T}: Add {U}.
+  {4}{U}: This land becomes a copy of target creature you control until end of turn, except it isn't legendary and it's a Robot artifact in addition to its other types.
 
 ## Shore Lurker
 Cost: {3}{w} | Type: Creature — Merfolk Scout | Color identity: W | P/T: 3/3 | Commander: legal
@@ -13544,6 +13554,11 @@ Cost: {r} | Type: Creature — Human Soldier | Color identity: R | P/T: 1/1 | Co
 Text: During your turn, this creature has first strike. (It deals combat damage before creatures without first strike.)
   {2}: This creature gets +1/+0 until end of turn.
 
+## Spatial Anomaly
+Cost: — | Type: Land | Color identity: colorless | Commander: legal
+Text: {T}: Add {C}.
+  {4}{R}, {T}, Sacrifice this land: It deals 2 damage to target creature. Create a tapped Planet land token named New Planet with "{T}: Add one mana of any color."
+
 ## Spatial Binding
 Cost: {u}{b} | Type: Enchantment | Color identity: BU | Commander: legal
 Text: Pay 1 life: Until your next upkeep, target permanent can't phase out.
@@ -18370,6 +18385,10 @@ Cost: {10} | Type: Artifact Creature — Beast | Color identity: colorless | P/T
 Text: Domain — This spell costs {1} less to cast for each basic land type among lands you control.
   Trample
 
+## Stratagem Emulator
+Cost: {2}{w} | Type: Artifact Creature — Borg | Color identity: W | P/T: 2/1 | Commander: legal
+Text: When this creature dies, create X 1/1 colorless Borg artifact creature tokens, where X is its power.
+
 ## Strategic Betrayal
 Cost: {1}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Target opponent exiles a creature they control and their graveyard.
@@ -19057,6 +19076,11 @@ Text: If an opponent controls a Forest and you control an Island, you may cast t
 Cost: — | Type: Land | Color identity: BU | Commander: legal
 Text: This land enters tapped.
   {T}: Add {U} or {B}.
+
+## Subspace Anomaly
+Cost: — | Type: Land | Color identity: colorless | Commander: legal
+Text: {T}: Add {C}.
+  {4}{W}, {T}, Sacrifice this land: Create two 1/1 red Officer creature tokens. Create a tapped Planet land token named New Planet with "{T}: Add one mana of any color."
 
 ## Subterfuge
 Cost: {4}{u} | Type: Creature — Elemental Incarnation | Color identity: U | P/T: 3/5 | Commander: legal
@@ -20291,6 +20315,10 @@ Text: Put onto the battlefield under your control all creature cards in your opp
 Cost: {4}{u}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Return target creature to its owner's hand. You create a token that's a copy of that creature.
 
+## Supplementation Node
+Cost: {2}{w} | Type: Artifact Creature — Borg | Color identity: W | P/T: 2/2 | Commander: legal
+Text: Artifact creatures you control have "Whenever this creature deals combat damage to a player, put a +1/+1 counter on it."
+
 ## Supply
 Cost: {x}{g}{w} | Type: Sorcery | Color identity: GUW | Commander: legal
 Faces: Supply // Demand (split)
@@ -21521,6 +21549,11 @@ Cost: {2}{w} | Type: Legendary Creature — Human Knight | Color identity: W | P
 Text: Partner with Khorvath Brightflame (When this creature enters, target player may put Khorvath into their hand from their library, then shuffle.)
   Double strike
   Dragons your team controls have double strike.
+
+## Sylvia Tilly, Joy of Discovery
+Cost: {2}{g} | Type: Legendary Creature — Human Scientist Artificer | Color identity: G | P/T: 2/2 | Commander: legal
+Text: When Sylvia Tilly enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
+  At the beginning of combat on your turn, you may pay {1} and exile a card from your graveyard. When you do, put a +1/+1 counter on target creature.
 
 ## Sylvok Battle-Chair
 Cost: {4}{g}{g} | Type: Artifact — Equipment | Color identity: G | Commander: legal

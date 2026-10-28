@@ -8316,6 +8316,10 @@ Ruling (2019-10-04): The last ability of Seven Dwarves lets you ignore the "four
 Cost: {2}{u}{b} | Type: Legendary Artifact Creature — Human Scientist | Color identity: BU | P/T: 2/4 | Commander: legal
 Text: Whenever you face a dilemma, draw a card. (You face a dilemma as you choose one or more modes for a spell or ability.)
 
+## Seven of Nine, Tertiary Adjunct
+Cost: {2}{u} | Type: Legendary Artifact Creature — Borg | Color identity: U | P/T: 1/4 | Commander: legal
+Text: That Is Irrelevant — {T}: Draw a card, then discard a card. When you discard a nonland card this way, put two charge counters on up to one target artifact.
+
 ## Seven of Nine, Unassimilated
 Cost: {1}{u} | Type: Legendary Artifact Creature — Human Officer | Color identity: U | P/T: 0/4 | Commander: legal
 Text: At the beginning of your first main phase, draw a card. Then discard a card unless you control five or more differently named lands.
@@ -11023,6 +11027,12 @@ Text: Trample
 ## Shore Keeper
 Cost: {u} | Type: Creature — Trilobite | Color identity: U | P/T: 0/3 | Commander: legal
 Text: {7}{U}, {T}, Sacrifice this creature: Draw three cards.
+
+## Shore Leave Planet
+Cost: — | Type: Land — Planet | Color identity: U | Commander: legal
+Text: This land enters tapped.
+  {T}: Add {U}.
+  {4}{U}: This land becomes a copy of target creature you control until end of turn, except it isn't legendary and it's a Robot artifact in addition to its other types.
 
 ## Shore Lurker
 Cost: {3}{w} | Type: Creature — Merfolk Scout | Color identity: W | P/T: 3/3 | Commander: legal
@@ -19869,6 +19879,11 @@ Cost: {r} | Type: Creature — Human Soldier | Color identity: R | P/T: 1/1 | Co
 Text: During your turn, this creature has first strike. (It deals combat damage before creatures without first strike.)
   {2}: This creature gets +1/+0 until end of turn.
 
+## Spatial Anomaly
+Cost: — | Type: Land | Color identity: colorless | Commander: legal
+Text: {T}: Add {C}.
+  {4}{R}, {T}, Sacrifice this land: It deals 2 damage to target creature. Create a tapped Planet land token named New Planet with "{T}: Add one mana of any color."
+
 ## Spatial Binding
 Cost: {u}{b} | Type: Enchantment | Color identity: BU | Commander: legal
 Text: Pay 1 life: Until your next upkeep, target permanent can't phase out.
@@ -22813,14 +22828,3 @@ Ruling (2022-02-18): Puff of smoke not included.
 Ruling (2022-02-18): The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player or planeswalker it's attacking.
 Ruling (2022-02-18): The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. In most cases (see below), if you wait until the combatdamage step or end of combat step, it will be after combat damage has been dealt, so the Ninja won't deal combat damage.
 Ruling (2022-02-18): The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
-
-## Spring-Loaded Sawblades
-Cost: {1}{w} | Type: Artifact | Color identity: W | Commander: legal
-Faces: Spring-Loaded Sawblades // Bladewheel Chariot (transform)
-Text: Flash
-  When this artifact enters, it deals 5 damage to target tapped creature an opponent controls.
-  Craft with artifact {3}{W} ({3}{W}, Exile this artifact, Exile another artifact you control or an artifact card from your graveyard: Return this card transformed under its owner's control. Craft only as a sorcery.)
-Ruling (2023-11-10): If a card that isn't a transforming double-faced card becomes a copy of a card with craft, it'll stay in exile if you activate the craft ability. It won't return to the battlefield.
-Ruling (2023-11-10): If the materials required include multiple objects, you may exile some of them from among permanents you control and the rest from among cards in your graveyard. You don't have to choose all permanents or all cards from your graveyard.
-Ruling (2023-11-10): The back faces of some cards with craft refer to cards "used to craft" it. This refers to the cards exiled as part of the cost of the craft ability of the front face. Those cards are considered to be "used to craft" that permanent as long as they remain exiled and the permanent remains on the battlefield, even if the permanent's controller changes or some of its characteristics change (because of a copy effect, for example.)
-Ruling (2023-11-10): You may exile tokens you control as part of the materials required. However, because they aren't cards and won't stay in exile, any abilities that refer to what you "used to craft" the back faces won't refer to anything.

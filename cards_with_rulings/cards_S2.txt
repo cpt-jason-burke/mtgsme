@@ -1,3 +1,14 @@
+## Spring-Loaded Sawblades
+Cost: {1}{w} | Type: Artifact | Color identity: W | Commander: legal
+Faces: Spring-Loaded Sawblades // Bladewheel Chariot (transform)
+Text: Flash
+  When this artifact enters, it deals 5 damage to target tapped creature an opponent controls.
+  Craft with artifact {3}{W} ({3}{W}, Exile this artifact, Exile another artifact you control or an artifact card from your graveyard: Return this card transformed under its owner's control. Craft only as a sorcery.)
+Ruling (2023-11-10): If a card that isn't a transforming double-faced card becomes a copy of a card with craft, it'll stay in exile if you activate the craft ability. It won't return to the battlefield.
+Ruling (2023-11-10): If the materials required include multiple objects, you may exile some of them from among permanents you control and the rest from among cards in your graveyard. You don't have to choose all permanents or all cards from your graveyard.
+Ruling (2023-11-10): The back faces of some cards with craft refer to cards "used to craft" it. This refers to the cards exiled as part of the cost of the craft ability of the front face. Those cards are considered to be "used to craft" that permanent as long as they remain exiled and the permanent remains on the battlefield, even if the permanent's controller changes or some of its characteristics change (because of a copy effect, for example.)
+Ruling (2023-11-10): You may exile tokens you control as part of the materials required. However, because they aren't cards and won't stay in exile, any abilities that refer to what you "used to craft" the back faces won't refer to anything.
+
 ## Springbloom Druid
 Cost: {2}{g} | Type: Creature — Elf Druid | Color identity: G | P/T: 1/1 | Commander: legal
 Text: When this creature enters, you may sacrifice a land. If you do, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.
@@ -4030,6 +4041,10 @@ Text: Domain — This spell costs {1} less to cast for each basic land type amon
 Ruling (2021-06-18): Domain abilities count the number of basic land types among lands you control, not how many lands you control or how many of any type.
 Ruling (2021-06-18): The basic land types are Plains, Island, Swamp, Mountain, and Forest. Land types other than basic land types (such as Desert) don't contribute to domain abilities.
 
+## Stratagem Emulator
+Cost: {2}{w} | Type: Artifact Creature — Borg | Color identity: W | P/T: 2/1 | Commander: legal
+Text: When this creature dies, create X 1/1 colorless Borg artifact creature tokens, where X is its power.
+
 ## Strategic Betrayal
 Cost: {1}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Target opponent exiles a creature they control and their graveyard.
@@ -5137,6 +5152,11 @@ Text: If an opponent controls a Forest and you control an Island, you may cast t
 Cost: — | Type: Land | Color identity: BU | Commander: legal
 Text: This land enters tapped.
   {T}: Add {U} or {B}.
+
+## Subspace Anomaly
+Cost: — | Type: Land | Color identity: colorless | Commander: legal
+Text: {T}: Add {C}.
+  {4}{W}, {T}, Sacrifice this land: Create two 1/1 red Officer creature tokens. Create a tapped Planet land token named New Planet with "{T}: Add one mana of any color."
 
 ## Subterfuge
 Cost: {4}{u} | Type: Creature — Elemental Incarnation | Color identity: U | P/T: 3/5 | Commander: legal
@@ -7059,6 +7079,10 @@ Ruling (2014-11-24): If the copied creature was copying something else, the toke
 Ruling (2014-11-24): If you return a face-down creature to its owner's hand, the token will be a face-up colorless 2/2 creature with no name, no abilities, and no creature types. (The face-down creature card will be revealed to all players as it leaves the battlefield.)
 Ruling (2014-11-24): The token copies exactly what was printed on the creature and nothing else (unless that creature was copying something else or was a token; see below). It doesn't copy whether that creature was tapped or untapped, whether it had any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
 
+## Supplementation Node
+Cost: {2}{w} | Type: Artifact Creature — Borg | Color identity: W | P/T: 2/2 | Commander: legal
+Text: Artifact creatures you control have "Whenever this creature deals combat damage to a player, put a +1/+1 counter on it."
+
 ## Supply
 Cost: {x}{g}{w} | Type: Sorcery | Color identity: GUW | Commander: legal
 Faces: Supply // Demand (split)
@@ -8962,6 +8986,11 @@ Ruling (2018-06-08): Once the game begins, your two commanders are tracked separ
 Ruling (2018-06-08): The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander. For more information on the Commander variant, please visit Wizards.com/Commander.
 Ruling (2018-06-08): The triggered ability of the "partner with" keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player who might have that card in their library.
 Ruling (2018-06-08): To have two commanders, both must have the partner ability (featured in the Magic: The Gathering—Commander™ (2016 Edition) set) or corresponding "partner with" abilities as the game begins. A creature with a "partner with" ability can't partner with any creature other than its designated partner. Losing a partner ability during the game doesn't cause either to cease to be your commander.
+
+## Sylvia Tilly, Joy of Discovery
+Cost: {2}{g} | Type: Legendary Creature — Human Scientist Artificer | Color identity: G | P/T: 2/2 | Commander: legal
+Text: When Sylvia Tilly enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
+  At the beginning of combat on your turn, you may pay {1} and exile a card from your graveyard. When you do, put a +1/+1 counter on target creature.
 
 ## Sylvok Battle-Chair
 Cost: {4}{g}{g} | Type: Artifact — Equipment | Color identity: G | Commander: legal

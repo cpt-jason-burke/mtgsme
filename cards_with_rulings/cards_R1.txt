@@ -4311,6 +4311,10 @@ Text: Black creatures can't attack unless their controller sacrifices a land of 
 Cost: {2}{g} | Type: Creature — Elf Shaman | Color identity: G | P/T: 2/1 | Commander: legal
 Text: When this creature enters, you may destroy target artifact or enchantment.
 
+## Reclamation Specialist
+Cost: {2}{b} | Type: Artifact Creature — Borg | Color identity: B | P/T: 2/2 | Commander: legal
+Text: {1}, Sacrifice an artifact creature: Draw a card.
+
 ## Reclusive Artificer
 Cost: {2}{u}{r} | Type: Creature — Human Artificer | Color identity: RU | P/T: 2/3 | Commander: legal
 Text: Haste (This creature can attack and {T} as soon as it comes under your control.)
@@ -4362,6 +4366,13 @@ Cost: {2}{u}{u} | Type: Enchantment | Color identity: U | Commander: legal
 Text: Whenever a creature you control deals combat damage to a player, you may draw a card.
   Cycling {2} ({2}, Discard this card: Draw a card.)
 Ruling (2020-04-17): Reconnaissance Mission's triggered ability triggers for each creature you control that deals combat damage to a player. You may draw one card each time the ability resolves, no matter how much damage was dealt.
+
+## Reconnaissance Partition
+Cost: {4} | Type: Artifact Creature — Borg | Color identity: colorless | P/T: 3/3 | Commander: legal
+Text: This creature enters with two charge counters on it.
+  {T}, Remove a counter from this creature: Choose one —
+  • Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+  • Draw a card.
 
 ## Reconstruct History
 Cost: {2}{r}{w} | Type: Sorcery | Color identity: RW | Commander: legal
@@ -12549,6 +12560,12 @@ Cost: {2}{w} | Type: Enchantment | Color identity: W | Commander: legal
 Text: Each player can't cast more than one spell each turn.
 Ruling (2019-07-12): If you cast a spell that was countered, you can't cast another spell during the same turn.
 Ruling (2019-07-12): Rule of Law looks at the entire turn to see if a player has cast a spell, even if Rule of Law wasn't on the battlefield when that spell was cast. Notably, you can't cast Rule of Law and then cast another spell during the same turn.
+
+## Rules of Acquisition
+Cost: {3}{u}{u} | Type: Sorcery | Color identity: U | Commander: legal
+Text: Choose one —
+  • Follow the 3rd Rule — Gain control of target nonland permanent an opponent controls. That opponent draws three cards.
+  • Follow the 98th Rule — Target opponent gains control of target nonland permanent you control. If they do, you draw three cards.
 
 ## Rulik Mons, Warren Chief
 Cost: {1}{r}{g}{g} | Type: Legendary Creature — Goblin | Color identity: GR | P/T: 3/3 | Commander: legal

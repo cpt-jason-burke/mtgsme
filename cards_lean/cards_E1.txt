@@ -2347,6 +2347,10 @@ Cost: {5}{w}{u} | Type: Instant | Color identity: UW | Commander: legal
 Text: Each player shuffles their hand and graveyard into their library, then draws seven cards. Exile Emergency Powers.
   Addendum — If you cast this spell during your main phase, you may put a permanent card with mana value 7 or less from your hand onto the battlefield.
 
+## Emergency Regeneration
+Cost: {1}{w} | Type: Instant | Color identity: W | Commander: legal
+Text: Artifacts you control gain hexproof and indestructible until end of turn.
+
 ## Emergency Weld
 Cost: {1}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Return target artifact or creature card from your graveyard to your hand. Create a 1/1 colorless Soldier artifact creature token.
@@ -5546,6 +5550,10 @@ Cost: {1}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Choose one —
   • Target opponent reveals their hand. You may choose a creature, enchantment, or planeswalker card from it. That player discards that card.
   • Target opponent sacrifices an enchantment of their choice.
+
+## Extraction Integrant
+Cost: {1}{b} | Type: Artifact Creature — Borg | Color identity: B | P/T: 1/1 | Commander: legal
+Text: Artifact creatures you control have menace and "Whenever a creature blocks this creature, that creature gets -1/-1 until end of turn."
 
 ## Extraction Specialist
 Cost: {2}{w} | Type: Creature — Human Rogue | Color identity: W | P/T: 3/2 | Commander: legal
