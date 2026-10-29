@@ -1132,6 +1132,11 @@ Text: Whenever Captain Kirk enters or attacks, choose one. If you have no cards 
   • Create a 1/1 red Officer creature token.
   • Creatures you control get +1/+0 until end of turn.
 
+## Captain Janeway, Endgame
+Cost: {1}{u}{r}{w} | Type: Legendary Creature — Human Officer | Color identity: RUW | P/T: 3/3 | Commander: legal
+Text: Whenever one or more Officers you control deal combat damage to a player, you draw a card and create a 1/1 red Officer creature token.
+  {2}, Tap an untapped creature you control: Captain Janeway can't be blocked this turn.
+
 ## Captain Jean-Luc Picard
 Cost: {2}{w} | Type: Legendary Creature — Human Officer | Color identity: W | P/T: 2/3 | Commander: legal
 Text: Other creatures you control get +1/+1.
@@ -5316,6 +5321,12 @@ Text: When this Spacecraft enters, create two 1/1 colorless Borg artifact creatu
   7+ | Flying
   Artifact creatures you control get +1/+1.
 
+## Class-F Shuttlecraft
+Cost: {3} | Type: Artifact — Spacecraft | Color identity: colorless | P/T: 2/4 | Commander: legal
+Text: {T}: Add one mana of any color.
+  Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 6+.)
+  6+ | Flying, vigilance
+
 ## Clattering Augur
 Cost: {1}{b} | Type: Creature — Skeleton Shaman | Color identity: B | P/T: 1/1 | Commander: legal
 Text: This creature can't block.
@@ -6125,6 +6136,11 @@ Text: Return target permanent to its owner's hand. Its controller loses 3 life.
 Cost: {3}{b}{b} | Type: Enchantment — Aura | Color identity: B | Commander: legal
 Text: Enchant creature
   Enchanted creature gets +3/+3 as long as it's a Zombie. Otherwise, it gets -3/-3.
+
+## Cmdr. Troi, Outgoing Empath
+Cost: {2}{u}{r} | Type: Legendary Creature — Betazoid Human Advisor | Color identity: RU | P/T: 3/3 | Commander: legal
+Text: Vigilance
+  {T}: Target opponent whose turn it is may cast a spell from their hand without paying its mana cost. If they do, you copy that spell. You may choose new targets for the copy. If they don't, you draw a card.
 
 ## Co-Option Adjutant
 Cost: {3}{u} | Type: Artifact Creature — Borg | Color identity: U | P/T: 3/3 | Commander: legal
@@ -6986,6 +7002,11 @@ Text: Flash
 ## Commander Spock
 Cost: {2}{g}{w}{u} | Type: Legendary Creature — Vulcan Human Scientist | Color identity: GUW | P/T: 3/5 | Commander: legal
 Text: Strange new worlds — Whenever Commander Spock enters or attacks, reveal the top card of your library. You may cast that card without paying its mana cost if that spell's mana value is equal to or less than the number of differently named lands you control. If it's a land card, you may put it onto the battlefield tapped. If that card is still on top of your library, draw a card.
+
+## Commander William Riker
+Cost: {1}{r}{w} | Type: Legendary Creature — Human Officer | Color identity: RW | P/T: 3/3 | Commander: legal
+Text: Vigilance, haste
+  {1}, {T}: You and target opponent each draw two cards.
 
 ## Commander's Authority
 Cost: {4}{w} | Type: Enchantment — Aura | Color identity: W | Commander: legal

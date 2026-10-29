@@ -2,6 +2,12 @@
 Cost: {3}{w/b} | Type: Legendary Creature — Human Soldier Hero | Color identity: BW | P/T: 3/2 | Commander: legal
 Text: When U.S.Agent enters, create a colorless Equipment artifact token named Sturdy Shield with "Equipped creature gets +1/+2" and equip {2}. Attach it to U.S.Agent.
 
+## U.S.S. Defiant, Tough Little Ship
+Cost: {6} | Type: Legendary Artifact — Spacecraft | Color identity: colorless | P/T: 7/4 | Commander: legal
+Text: When U.S.S. Defiant enters, destroy up to one target artifact or enchantment.
+  Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 5+.)
+  5+ | Flying, hexproof
+
 ## U.S.S. Discovery, at Black Alert
 Cost: {3}{g}{g} | Type: Legendary Artifact — Spacecraft | Color identity: G | P/T: 5/5 | Commander: legal
 Text: Whenever U.S.S. Discovery enters or attacks, discover 5. (Exile cards from the top of your library until you exile a nonland card with mana value 5 or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)
@@ -15,17 +21,47 @@ Text: Ward {2}
   Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 6+.)
   6+ | Flying, lifelink
 
+## U.S.S. Enterprise-C, Time-Tossed
+Cost: {5} | Type: Legendary Artifact — Spacecraft | Color identity: colorless | P/T: 6/6 | Commander: legal
+Text: When U.S.S. Enterprise-C enters or dies, you may discard your hand. If you do, draw a card for each card discarded this way.
+  Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 3+.)
+  3+ | Flying
+
 ## U.S.S. Enterprise-D, Galaxy-Class
 Cost: {3} | Type: Legendary Artifact — Spacecraft | Color identity: colorless | P/T: 4/5 | Commander: legal
 Text: Whenever one or more charge counters are put on U.S.S. Enterprise-D for the first time each turn, exile the top card of your library. You may play that card this turn.
   Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 7+.)
   7+ | Flying, vigilance
 
+## U.S.S. Enterprise-E, Sovereign
+Cost: {3}{w}{w} | Type: Legendary Artifact — Spacecraft | Color identity: W | P/T: 7/7 | Commander: legal
+Text: When U.S.S. Enterprise-E enters, destroy all tapped creatures.
+  Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 8+.)
+  8+ | Flying, vigilance
+
+## U.S.S. Excelsior, Cutting Edge
+Cost: {3}{w} | Type: Legendary Artifact — Spacecraft | Color identity: W | P/T: 4/4 | Commander: legal
+Text: When U.S.S. Excelsior enters, destroy target tapped creature an opponent controls.
+  Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 8+.)
+  8+ | Flying
+
+## U.S.S. Prometheus, Prototype
+Cost: {5} | Type: Legendary Artifact — Spacecraft | Color identity: colorless | P/T: 6/6 | Commander: legal
+Text: Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 4+.)
+  4+ | Flying
+  8+ | Multivector Assault Mode — Whenever U.S.S. Prometheus deals combat damage to an opponent, it deals that much damage to each other opponent.
+
 ## U.S.S. Reliant, From Hell's Heart
 Cost: {2}{b}{b} | Type: Legendary Artifact — Spacecraft | Color identity: B | P/T: 4/3 | Commander: legal
 Text: Whenever U.S.S. Reliant enters or deals combat damage to a player, return target creature card with mana value 4 or less from your graveyard to the battlefield with a finality counter on it.
   Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 10+.)
   10+ | Flying
+
+## U.S.S. Stargazer, Here and There
+Cost: {3} | Type: Legendary Artifact — Spacecraft | Color identity: colorless | P/T: 4/3 | Commander: legal
+Text: Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 6+.)
+  6+ | Flying
+  Picard Maneuver — Whenever U.S.S. Stargazer attacks, create a tapped and attacking 4/3 colorless Spacecraft Illusion artifact creature token with flying. Exile that token at end of combat.
 
 ## Uba Mask
 Cost: {4} | Type: Artifact | Color identity: colorless | Commander: legal
@@ -1237,6 +1273,13 @@ Text: Flying
   When this Vehicle enters, exile up to one target creature with toughness 5 or less.
   When this Vehicle leaves the battlefield, the exiled card's owner manifests dread.
   Crew 1
+
+## Unification
+Cost: {3}{w}{u} | Type: Enchantment — Saga | Color identity: UW | Commander: legal
+Text: (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+  I — The owner of up to one target creature draws two cards, then shuffles that creature into their library.
+  II — You may put a Spacecraft card from your hand or graveyard onto the battlefield.
+  III — You and target opponent each draw two cards.
 
 ## Unified Front
 Cost: {3}{w} | Type: Sorcery | Color identity: W | Commander: legal

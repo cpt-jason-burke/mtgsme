@@ -6844,6 +6844,11 @@ Ruling (2005-06-01): Damage that can't be prevented still causes counters to be 
 Ruling (2005-06-01): Increasing Sekki's toughness with a card like Indomitable Will allows Sekki to prevent damage and make tokens even it if has no +1/+1 counters to be removed.
 Ruling (2005-08-01): You can sacrifice any eight Spirits to pay for Sekki's activated ability, not just the Spirit creature tokens.
 
+## Sela, Tal Shiar Paradox
+Cost: {3}{b} | Type: Legendary Creature — Romulan Human Rogue | Color identity: B | P/T: 3/3 | Commander: legal
+Text: Whenever Sela attacks, exile up to one target card from a graveyard.
+  Whenever one or more cards leave your graveyard, create a tapped 2/2 black Romulan creature token.
+
 ## Select for Inspection
 Cost: {u} | Type: Instant | Color identity: U | Commander: legal
 Text: Return target tapped creature to its owner's hand. Scry 1. (Look at the top card of your library. You may put that card on the bottom.)
@@ -19880,7 +19885,7 @@ Text: During your turn, this creature has first strike. (It deals combat damage 
   {2}: This creature gets +1/+0 until end of turn.
 
 ## Spatial Anomaly
-Cost: — | Type: Land | Color identity: colorless | Commander: legal
+Cost: — | Type: Land | Color identity: R | Commander: legal
 Text: {T}: Add {C}.
   {4}{R}, {T}, Sacrifice this land: It deals 2 damage to target creature. Create a tapped Planet land token named New Planet with "{T}: Add one mana of any color."
 

@@ -6107,6 +6107,15 @@ Cost: {3}{b} | Type: Creature — Merfolk Wizard | Color identity: B | P/T: 2/2 
 Text: Whenever this creature becomes untapped, you may have target player discard a card.
 Ruling (2008-05-01): If Hollowsage becomes untapped during your untap step, the ability will trigger. However, since no player gets priority during the untap step, it waits to be put on the stack until your upkeep starts. At that time, all your "beginning of upkeep" triggers will also trigger. You can put them and Hollowsage's trigger on the stack in any order.
 
+## Holo-Engineer
+Cost: {2}{g}{g} | Type: Creature — Human Artificer | Color identity: G | P/T: 3/3 | Commander: legal
+Text: When this creature enters, create a 3/3 colorless Illusion artifact creature token.
+  If one or more tokens would be created under your control, that many 3/3 colorless Illusion artifact creature tokens are created instead.
+
+## Hologram Janeway
+Cost: {2}{w} | Type: Legendary Artifact Creature — Illusion Officer | Color identity: W | P/T: 3/3 | Commander: legal
+Text: Whenever you attack while creatures you control have total power 8 or greater, put a +1/+1 counter on target creature.
+
 ## Hologram Stalker
 Cost: {4}{g}{g} | Type: Creature — Hirogen Warrior | Color identity: G | P/T: 2/2 | Commander: legal
 Text: When this creature enters, return target permanent card from your graveyard to your hand.

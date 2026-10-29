@@ -3245,6 +3245,11 @@ Text: Reveal the top X cards of your library. Put all creature cards revealed th
 Cost: {w} | Type: Instant | Color identity: W | Commander: legal
 Text: Target creature gets +1/+1 until end of turn. Prevent all damage that would be dealt to it this turn. If it's renowned, untap it.
 
+## Ensign Harry Kim, Operations
+Cost: {1}{w} | Type: Legendary Creature — Human Officer | Color identity: W | P/T: 1/2 | Commander: legal
+Text: Whenever another creature you control enters, if it has greater power than Ensign Kim, put a +1/+1 counter on Ensign Kim.
+  {2}, Remove two +1/+1 counters from among creatures you control: Draw a card.
+
 ## Ensign Pavel Chekov
 Cost: {3}{u} | Type: Legendary Creature — Human Pilot | Color identity: U | P/T: 1/5 | Commander: legal
 Text: Strange new worlds — When Ensign Chekov enters, each opponent exiles the top X cards of their library, where X is the number of differently named lands you control. For each opponent, choose a land card that player owns exiled this way. You may play the chosen cards for as long as they remain exiled.
@@ -3344,6 +3349,12 @@ Cost: {4}{b}{r} | Type: Sorcery | Color identity: BRU | Commander: legal
 Faces: Breaking // Entering (split)
 Text: Put a creature card from a graveyard onto the battlefield under your control. It gains haste until end of turn.
   Fuse (You may cast one or both halves of this card from your hand.)
+
+## Enterprise NX-01
+Cost: {3}{u} | Type: Legendary Artifact — Spacecraft | Color identity: U | P/T: 4/3 | Commander: legal
+Text: When Enterprise NX-01 enters, tap target creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
+  Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 6+.)
+  6+ | Flying, vigilance
 
 ## Enterprising Scallywag
 Cost: {1}{r} | Type: Creature — Goblin Pirate | Color identity: R | P/T: 2/2 | Commander: legal
@@ -5801,6 +5812,11 @@ Text: Deathtouch (Any amount of damage this deals to a creature is enough to des
 Cost: {1}{r/w} | Type: Legendary Creature — Human | Color identity: RW | P/T: 1/1 | Commander: legal
 Text: Whenever Ezio attacks, put a +1/+1 counter on it.
   As long as Ezio has two or more counters on it, it has first strike and is an Assassin in addition to its other types.
+
+## Ezri Dax, Newly Joined
+Cost: {1}{w} | Type: Legendary Creature — Trill Advisor | Color identity: W | P/T: 2/2 | Commander: legal
+Text: Flash
+  You may have Ezri Dax enter as a copy of any creature card in your graveyard that was put there from the battlefield this turn, except her name is Ezri Dax, Newly Joined and she's a legendary Trill in addition to her other types.
 
 ## Ezrim, Agency Chief
 Cost: {1}{w}{w}{u}{u} | Type: Legendary Creature — Archon Detective | Color identity: UW | P/T: 5/5 | Commander: legal

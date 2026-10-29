@@ -955,6 +955,11 @@ Cost: {r}{g} | Type: Legendary Creature — Gnoll | Color identity: GR | P/T: 2/
 Text: Pack tactics — Whenever Targ Nar attacks, if you attacked with creatures with total power 6 or greater this combat, attacking creatures get +1/+0 until end of turn.
   {2}{R}{G}: Double Targ Nar's power and toughness until end of turn.
 
+## Targ Wrangler
+Cost: {2}{r} | Type: Creature — Klingon Warrior | Color identity: R | P/T: 5/3 | Commander: legal
+Text: Menace (This creature can't be blocked except by two or more creatures.)
+  At the beginning of your end step, if this creature attacked this turn, sacrifice a nonland permanent.
+
 ## Tariel, Reckoner of Souls
 Cost: {4}{r}{w}{b} | Type: Legendary Creature — Angel | Color identity: BRW | P/T: 4/7 | Commander: legal
 Text: Flying, vigilance
@@ -1009,6 +1014,12 @@ Cost: {1} | Type: Legendary Artifact — Equipment | Color identity: colorless |
 Text: Equipped creature has vigilance.
   Whenever another artifact or creature is put into a graveyard from the battlefield, put a +1/+1 counter on equipped creature.
   Equip {2}
+
+## Tasha Yar, Out of Time
+Cost: {1}{r} | Type: Legendary Creature — Human Officer | Color identity: R | P/T: 2/1 | Commander: legal
+Text: Haste
+  When Tasha Yar dies, exile the top card of your library. Until the end of your next turn, you may play that card.
+  {2}{R}, Exile this card from your graveyard: Create a token that's a copy of this card. Sacrifice it at the beginning of the next end step. Activate only as a sorcery.
 
 ## Tasha's Hideous Laughter
 Cost: {1}{u}{u} | Type: Sorcery | Color identity: U | Commander: legal
@@ -2091,6 +2102,11 @@ Text: Put target permanent on top of its owner's library.
 Cost: {8}{u}{u}{u} | Type: Sorcery | Color identity: U | Commander: legal
 Text: Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
   Take an extra turn after this one. Exile Temporal Trespass.
+
+## Temporal Tribulation
+Cost: {2}{u} | Type: Instant | Color identity: U | Commander: legal
+Text: Exile two target permanents you control. Return those cards to the battlefield under their owner's control at the beginning of the next end step.
+  Flashback {5}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
 ## Temporary Insanity
 Cost: {3}{r} | Type: Instant | Color identity: R | Commander: legal
@@ -4400,6 +4416,13 @@ Text: When The Master enters, target player gets two rad counters.
 Cost: {5}{b} | Type: Legendary Creature — Human Villain | Color identity: B | P/T: 5/6 | Commander: legal
 Text: Other Villains you control get +2/+1.
   {1}{B}, Discard this card: Search your library for a Plan card, reveal it, put it into your hand, then shuffle.
+
+## The Measure of a Man
+Cost: {2}{w} | Type: Enchantment — Saga | Color identity: W | Commander: legal
+Text: (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+  I — Exile up to one target nontoken artifact or creature.
+  II — Investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
+  III — Return the exiled card to the battlefield under its owner's control. You gain 2 life.
 
 ## The Meathook Massacre
 Cost: {x}{b}{b} | Type: Legendary Enchantment | Color identity: B | Commander: legal
@@ -11235,6 +11258,11 @@ Text: Outlast {G} ({G}, {T}: Put a +1/+1 counter on this creature. Outlast only 
 Cost: {g}{w}{u} | Type: Legendary Creature — Merfolk Shaman | Color identity: GUW | P/T: 1/1 | Commander: legal
 Text: Tuvasa gets +1/+1 for each enchantment you control.
   Whenever you cast your first enchantment spell each turn, draw a card.
+
+## Tuvok, Chief Tactical Officer
+Cost: {2}{u} | Type: Legendary Creature — Vulcan Officer | Color identity: U | P/T: 2/3 | Commander: legal
+Text: Flash
+  When Tuvok enters during the declare attackers step, choose up to two target attacking creatures. For each of them, you may reselect which player or permanent that creature is attacking. (A creature can't attack its controller.)
 
 ## Tuya Bearclaw
 Cost: {1}{r}{g} | Type: Legendary Creature — Human Warrior | Color identity: GR | P/T: 2/2 | Commander: legal

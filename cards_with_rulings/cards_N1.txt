@@ -4317,6 +4317,12 @@ Cost: {4} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: At the beginning of each player's upkeep, return to its owner's hand each creature that player controls with power greater than the number of cards in their hand.
 Ruling (2004-10-04): The number of cards in hand is counted on resolution of the ability.
 
+## Nog, Ambitious Cadet
+Cost: {b}{g} | Type: Legendary Creature — Ferengi Rogue | Color identity: BG | P/T: 2/2 | Commander: legal
+Text: Menace
+  {1}: If Nog is a Rogue, he becomes a Ferengi Scout with base power and toughness 3/4 and gains "Whenever Nog becomes tapped, surveil 2."
+  {3}: If Nog is a Scout, he becomes a Ferengi Officer and gains "You may play lands from your graveyard" and "You may play an additional land on each of your turns."
+
 ## Noggin Whack
 Cost: {2}{b}{b} | Type: Kindred Sorcery — Rogue | Color identity: B | Commander: legal
 Text: Prowl {1}{B} (You may cast this for its prowl cost if you dealt combat damage to a player this turn with a Rogue.)

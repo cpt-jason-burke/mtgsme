@@ -1433,6 +1433,11 @@ Text: Pack tactics — Whenever Targ Nar attacks, if you attacked with creatures
 Ruling (2021-07-23): If a creature's power is less than 0 when it's doubled, instead that creature gets -X/-0, where X is how much less than 0 its power is. For example, if an effect has given a 2/2 creature -4/-0 so that it's a -2/2 creature, doubling its power and toughness gives it -2/+2, and it becomes a -4/4 creature.
 Ruling (2021-07-23): If an effect instructs you to "double" a creature's power, that creature gets +X/+0, where X is its power as that effect begins to apply. The same is true for toughness.
 
+## Targ Wrangler
+Cost: {2}{r} | Type: Creature — Klingon Warrior | Color identity: R | P/T: 5/3 | Commander: legal
+Text: Menace (This creature can't be blocked except by two or more creatures.)
+  At the beginning of your end step, if this creature attacked this turn, sacrifice a nonland permanent.
+
 ## Tariel, Reckoner of Souls
 Cost: {4}{r}{w}{b} | Type: Legendary Creature — Angel | Color identity: BRW | P/T: 4/7 | Commander: legal
 Text: Flying, vigilance
@@ -1514,6 +1519,12 @@ Cost: {1} | Type: Legendary Artifact — Equipment | Color identity: colorless |
 Text: Equipped creature has vigilance.
   Whenever another artifact or creature is put into a graveyard from the battlefield, put a +1/+1 counter on equipped creature.
   Equip {2}
+
+## Tasha Yar, Out of Time
+Cost: {1}{r} | Type: Legendary Creature — Human Officer | Color identity: R | P/T: 2/1 | Commander: legal
+Text: Haste
+  When Tasha Yar dies, exile the top card of your library. Until the end of your next turn, you may play that card.
+  {2}{R}, Exile this card from your graveyard: Create a token that's a copy of this card. Sacrifice it at the beginning of the next end step. Activate only as a sorcery.
 
 ## Tasha's Hideous Laughter
 Cost: {1}{u}{u} | Type: Sorcery | Color identity: U | Commander: legal
@@ -3132,6 +3143,11 @@ Text: Delve (Each card you exile from your graveyard while casting this spell pa
 Ruling (2021-03-19): Because delve isn't an alternative cost, it can be used in conjunction with alternative costs, such as flashback. It can also be used to pay for additional costs that include generic mana.
 Ruling (2021-03-19): Delve doesn't change a spell's mana cost or mana value. For example, Treasure Cruise's mana value is 8 even if you exiled three cards to cast it.
 Ruling (2021-03-19): You can exile cards to pay only for generic mana, and you can't exile more cards than the generic mana requirement of a spell with delve. For example, you can't exile more than seven cards from your graveyard to cast Treasure Cruise unless an effect has increased its cost.
+
+## Temporal Tribulation
+Cost: {2}{u} | Type: Instant | Color identity: U | Commander: legal
+Text: Exile two target permanents you control. Return those cards to the battlefield under their owner's control at the beginning of the next end step.
+  Flashback {5}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
 ## Temporary Insanity
 Cost: {3}{r} | Type: Instant | Color identity: R | Commander: legal
@@ -6807,6 +6823,13 @@ Ruling (2024-03-08): There is an inherent triggered ability associated with havi
 Cost: {5}{b} | Type: Legendary Creature — Human Villain | Color identity: B | P/T: 5/6 | Commander: legal
 Text: Other Villains you control get +2/+1.
   {1}{B}, Discard this card: Search your library for a Plan card, reveal it, put it into your hand, then shuffle.
+
+## The Measure of a Man
+Cost: {2}{w} | Type: Enchantment — Saga | Color identity: W | Commander: legal
+Text: (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+  I — Exile up to one target nontoken artifact or creature.
+  II — Investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
+  III — Return the exiled card to the battlefield under its owner's control. You gain 2 life.
 
 ## The Meathook Massacre
 Cost: {x}{b}{b} | Type: Legendary Enchantment | Color identity: B | Commander: legal
@@ -16999,6 +17022,11 @@ Text: Tuvasa gets +1/+1 for each enchantment you control.
   Whenever you cast your first enchantment spell each turn, draw a card.
 Ruling (2018-07-13): Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to Tuvasa may become lethal if some of your enchantments leave the battlefield during that turn.
 Ruling (2018-07-13): Tuvasa's triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+
+## Tuvok, Chief Tactical Officer
+Cost: {2}{u} | Type: Legendary Creature — Vulcan Officer | Color identity: U | P/T: 2/3 | Commander: legal
+Text: Flash
+  When Tuvok enters during the declare attackers step, choose up to two target attacking creatures. For each of them, you may reselect which player or permanent that creature is attacking. (A creature can't attack its controller.)
 
 ## Tuya Bearclaw
 Cost: {1}{r}{g} | Type: Legendary Creature — Human Warrior | Color identity: GR | P/T: 2/2 | Commander: legal

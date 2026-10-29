@@ -1178,6 +1178,11 @@ Text: When you cast this spell, copy it. (The copy becomes a token.)
 Cost: {1}{w} | Type: Creature — Officer | Color identity: W | P/T: 2/3 | Commander: legal
 Text: 
 
+## Starfleet Spanner Jockey
+Cost: {1}{u} | Type: Creature — Human Artificer | Color identity: U | P/T: 3/3 | Commander: legal
+Text: Defender
+  As long as you've cast a noncreature spell this turn, this creature can attack as though it didn't have defender.
+
 ## Starforged Sword
 Cost: {4} | Type: Artifact — Equipment | Color identity: colorless | Commander: legal
 Text: Gift a tapped Fish (You may promise an opponent a gift as you cast this spell. If you do, when it enters, they create a tapped 1/1 blue Fish creature token.)
@@ -5154,7 +5159,7 @@ Text: This land enters tapped.
   {T}: Add {U} or {B}.
 
 ## Subspace Anomaly
-Cost: — | Type: Land | Color identity: colorless | Commander: legal
+Cost: — | Type: Land | Color identity: W | Commander: legal
 Text: {T}: Add {C}.
   {4}{W}, {T}, Sacrifice this land: Create two 1/1 red Officer creature tokens. Create a tapped Planet land token named New Planet with "{T}: Add one mana of any color."
 
@@ -5612,6 +5617,11 @@ Text: When this creature enters, mill two cards.
 ## Sultai Soothsayer
 Cost: {2}{b}{g}{u} | Type: Creature — Snake Shaman | Color identity: BGU | P/T: 2/5 | Commander: legal
 Text: When this creature enters, look at the top four cards of your library. Put one of them into your hand and the rest into your graveyard.
+
+## Sulu, Space Swashbuckler
+Cost: {1}{w} | Type: Legendary Creature — Human Pilot | Color identity: W | P/T: 2/2 | Commander: legal
+Text: First strike
+  Whenever Sulu becomes tapped, if an Equipment or Spacecraft entered the battlefield under your control this turn, draw a card.
 
 ## Sumala Rumblers
 Cost: {2}{g/w}{g/w} | Type: Creature — Wurm | Color identity: GW | P/T: */4 | Commander: legal
@@ -7838,6 +7848,10 @@ Cost: {2}{u} | Type: Artifact — Spacecraft | Color identity: U | P/T: 3/2 | Co
 Text: When this Spacecraft enters, draw a card.
   Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 5+.)
   5+ | Flying
+
+## Suus Mahna Practitioner
+Cost: {2}{u} | Type: Creature — Vulcan Officer | Color identity: U | P/T: 3/2 | Commander: legal
+Text: Strange new worlds — {4}{U}, {T}: Tap target creature. This ability costs {X} less to activate, where X is the number of differently named lands you control.
 
 ## Svella, Ice Shaper
 Cost: {1}{r}{g} | Type: Legendary Snow Creature — Troll Warrior | Color identity: GR | P/T: 2/4 | Commander: legal

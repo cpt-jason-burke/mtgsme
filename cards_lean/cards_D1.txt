@@ -1015,6 +1015,11 @@ Text: Choose one —
   • Temba, His Arms Wide — Target creature gets +3/+3 and gains trample until end of turn.
   • Shaka, When the Walls Fell — Each opponent sacrifices a nontoken artifact or enchantment of their choice.
 
+## Dathon, His Heart Open
+Cost: {g}{u}{r} | Type: Legendary Creature — Tamarian Officer | Color identity: GRU | P/T: 3/3 | Commander: legal
+Text: Whenever you cast an enchantment spell, draw a card. If it's a Saga spell, Dathon deals 2 damage to each opponent.
+  {2}: Choose a counter on target enchantment you control. Put another counter of that kind on it. Activate only as a sorcery.
+
 ## Daughter of Autumn
 Cost: {2}{g}{g} | Type: Legendary Creature — Avatar | Color identity: GW | P/T: 2/4 | Commander: legal
 Text: {W}: The next 1 damage that would be dealt to target white creature this turn is dealt to Daughter of Autumn instead.
@@ -1483,6 +1488,12 @@ Cost: {3}{w} | Type: Enchantment — Room | Color identity: W | Commander: legal
 Faces: Dazzling Theater // Prop Room (split)
 Text: Creature spells you cast have convoke. (Your creatures can help cast those spells. Each creature you tap while casting a creature spell pays for {1} or one mana of that creature's color.)
   (You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)
+
+## De-evolve
+Cost: {1}{b} | Type: Enchantment — Aura | Color identity: B | Commander: legal
+Text: Enchant creature
+  Enchanted creature gets -4/-0, can't block, and is a Salamander. (It loses all other creature types.)
+  Threshold — At the beginning of each upkeep, if there are seven or more cards in your graveyard, exile enchanted creature.
 
 ## Dead
 Cost: {r} | Type: Instant | Color identity: R | Commander: legal
