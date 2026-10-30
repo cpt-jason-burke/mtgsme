@@ -346,6 +346,41 @@ body.ingame{overflow:hidden}
 .gm-mana b{font-size:22px;min-width:34px;text-align:center}
 .gm-th{color:var(--ember-hi);font-weight:700;font-size:13px;margin-top:12px}
 .gm-le{font-size:14px;padding:3px 0 3px 8px;border-left:2px solid var(--line2);margin-top:3px}
+/* ---------- homepage ---------- */
+.badge.up{background:rgba(124,196,147,.14);color:var(--good)}
+.cdcar{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;margin:0 -16px;padding:2px 16px 4px;scrollbar-width:none}
+.cdcar::-webkit-scrollbar{display:none}
+.cdban{flex:0 0 100%;scroll-snap-align:center;border-radius:18px;padding:16px;cursor:pointer;position:relative;overflow:hidden;
+  background:radial-gradient(120% 140% at 0% 0%,rgba(208,106,38,.32),transparent 60%),radial-gradient(90% 120% at 100% 100%,rgba(118,82,150,.25),transparent 60%),#151314;border:1px solid rgba(208,106,38,.4);box-shadow:0 14px 30px rgba(0,0,0,.45)}
+.cdtop{display:flex;align-items:center;gap:8px}
+.cdname{min-width:0;margin-left:4px}
+.cdname small{display:block;color:var(--ember-hi);font-weight:800;letter-spacing:.08em;text-transform:uppercase;font-size:11px}
+.cdname b{font-size:18px;line-height:1.25}
+.cdclock{display:flex;gap:8px;margin:14px 0 10px}
+.cdclock span{flex:1;background:rgba(0,0,0,.35);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:8px 0;text-align:center}
+.cdclock b{display:block;font-size:clamp(24px,8vw,38px);font-weight:800;font-variant-numeric:tabular-nums;line-height:1.1}
+.cdclock i{font-style:normal;font-size:11px;color:var(--mute);text-transform:uppercase;letter-spacing:.08em}
+.cdfoot{font-size:13px;color:var(--mute)}
+.cddots{margin:8px 0 0}
+.sprow{display:flex;gap:10px;overflow-x:auto;margin:0 -16px;padding:4px 16px 8px;scrollbar-width:none}
+.sprow::-webkit-scrollbar{display:none}
+.sptile{flex:0 0 118px;cursor:zoom-in}
+.sptile .im{aspect-ratio:488/680;border-radius:4.75%/3.5%;background:#1d1c1c center/cover;box-shadow:0 10px 20px rgba(0,0,0,.5)}
+.sptile span{display:block;font-size:11.5px;color:var(--mute);margin-top:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hchart{padding:12px 14px}
+.hbar{display:grid;grid-template-columns:minmax(0,38%) 1fr auto;gap:10px;align-items:center;padding:5px 0;cursor:pointer}
+.hbar .hl{font-size:13.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hbar .ht{position:relative;height:12px;background:rgba(255,255,255,.05);border-radius:4px}
+.hbar .ht i{position:absolute;left:0;top:0;bottom:0;background:var(--ember);border-radius:0 4px 4px 0}
+.hbar .ht u{position:absolute;top:-3px;bottom:-3px;width:2px;background:var(--mute);border-radius:1px}
+.hbar:hover .ht i{background:var(--ember-hi)}
+.hbar b{font-size:14px;font-variant-numeric:tabular-nums;min-width:52px;text-align:right}
+.hbar b small{color:var(--mute);font-weight:500}
+.evrow,.newsrow{text-decoration:none;color:inherit}
+.evdate{flex:none;width:52px;text-align:center;background:var(--ember-soft);border-radius:10px;padding:6px 0;color:var(--ember-hi)}
+.evdate b{display:block;font-size:20px;line-height:1.1}
+.evdate span{font-size:11px;text-transform:uppercase;font-weight:700}
+.newsrow h4{font-size:15px}
 </style>
 </head>
 <body>

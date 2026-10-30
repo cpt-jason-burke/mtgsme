@@ -112,6 +112,7 @@
       initSearch(); initInteract(); initDecks(); initRules();
       window.MTGSME = { CARDS: () => CARDS, card, CR: () => CR, deck: () => state.deck };
       if (window.MTGPlay) MTGPlay.init();
+      loadHome();
       renderResults(); renderInteract(); renderDeck(); rulesSearch();
       if (curTab === "sets") ensureSets();
       await restoreNav();
@@ -311,7 +312,7 @@
       last = i;
       const p = shown[i];
       const prices = Object.keys(FIN).filter((f) => p.finishes.includes(f)).map((f) => { const x = priceOf(p, f); return x == null ? "" : '<span class="price">' + money(x) + "</span> " + FIN[f][0].toLowerCase(); }).filter(Boolean).join(" · ");
-      $("#pcap").innerHTML = "<b>" + esc(p.setName) + "</b> · #" + esc(p.num) + " · " + esc((p.date || "").slice(0, 4)) + " · " + (i + 1) + " of " + shown.length + "<br>" + (prices || "no price") + (shown.length > 1 && i === 0 ? ' · <span style="opacity:.7">swipe for more ›</span>' : "");
+      $("#pcap").innerHTML = "<b>" + esc(p.setName) + "</b> · #" + esc(p.num) + " · " + esc((p.date || "").slice(0, 4)) + " · " + (i + 1) + " of " + shown.length + "<br>" + (p.date > TODAY ? '<span class="price">Upcoming \u00B7 releases ' + esc(shortDate(p.date)) + "</span>" : prices || "no price") + (shown.length > 1 && i === 0 ? ' · <span style="opacity:.7">swipe for more ›</span>' : "");
     };
     el.addEventListener("scroll", () => requestAnimationFrame(update), { passive: true });
     update();
@@ -334,7 +335,7 @@
       const pr = priceOf(p, v.fin);
       return '<div class="ptile" data-act="pzoom" data-url="' + esc(p.img ? p.img.large : "") + '" data-cap="' + esc(p.setName + " · #" + p.num) + '"><div class="im" style="background-image:url(&quot;' + esc(p.img ? p.img.normal : "") + '&quot;)"></div>' +
         '<div class="cap"><b>' + esc(p.setName) + "</b>#" + esc(p.num) + " · " + esc((p.rarity || "?")[0].toUpperCase()) + " · " + esc((p.date || "").slice(0, 4)) + (p.frame ? " · " + esc(p.frame) : "") +
-        '<br><span class="price' + (pr == null ? " none" : "") + '">' + (pr == null ? "no price" : money(pr)) + "</span>" + (p.prices.eur && v.fin === "nonfoil" ? " · €" + esc(p.prices.eur) : "") + (p.prices.tix ? " · " + esc(p.prices.tix) + " tix" : "") + "</div></div>";
+        '<br><span class="price' + (pr == null ? " none" : "") + '">' + (p.date > TODAY ? "Upcoming \u00B7 " + esc(shortDate(p.date)) : pr == null ? "no price" : money(pr)) + "</span>" + (p.prices.eur && v.fin === "nonfoil" ? " · €" + esc(p.prices.eur) : "") + (p.prices.tix ? " · " + esc(p.prices.tix) + " tix" : "") + "</div></div>";
     }).join("") + "</div>";
     h += '<div class="d" style="font-size:12px">From Scryfall: USD is the TCGplayer market price, EUR is Cardmarket, tix is MTGO. Updated about once a day. These are market prices, not what a store will pay.</div>';
     el.innerHTML = h;
@@ -357,7 +358,7 @@
   }
 
   function flags(c) {
-    return (c.s ? '<span class="badge ' + (c.s === "banned" ? "bad" : "warn") + '">' + esc(c.s.replace(/_/g, " ")) + "</span>" : "") + (c.g ? '<span class="badge warn">Game Changer</span>' : "");
+    return (c.u && c.u > TODAY ? '<span class="badge up">Upcoming \u00B7 ' + esc(shortDate(c.u)) + "</span>" : "") + (c.s ? '<span class="badge ' + (c.s === "banned" ? "bad" : "warn") + '">' + esc(c.s.replace(/_/g, " ")) + "</span>" : "") + (c.g ? '<span class="badge warn">Game Changer</span>' : "");
   }
   function cardView(c) {
     let h = Scry.state.enabled ? '<div class="pswipe" id="pswipe"><div class="pslide"><div class="cardimg" data-img="' + esc(c.n) + '" data-kind="normal" data-zoom="' + esc(c.n) + '"></div></div></div><div class="pcap" id="pcap"></div>' : "";
@@ -479,6 +480,10 @@
     $("#themesel").addEventListener("change", (e) => { state.theme = e.target.value; state.shown = 50; renderResults(); });
     $("#results").addEventListener("click", (e) => {
       if (e.target.closest("[data-more]")) { state.shown += 50; return renderResults(); }
+      const hs = e.target.closest("[data-hset]"); if (hs) { ensureSets().then(() => openSheet({ type: "set", code: hs.dataset.hset })); return; }
+      const sp = e.target.closest("[data-spoil]"); if (sp) { const c = card(sp.dataset.spoil); if (c) openSheet({ type: "card", card: c }); else if (sp.dataset.url) lightbox(sp.dataset.url, sp.dataset.url, sp.dataset.spoil, sp.dataset.sset); return; }
+      const nt = e.target.closest("[data-ntab]"); if (nt) { HOME.tab = nt.dataset.ntab; return renderHome(); }
+      if (e.target.closest("[data-leaks]")) { HOME.leaks = !HOME.leaks; return renderHome(); }
       const r = e.target.closest("[data-rule]"); if (r) return openSheet({ type: "rule", rule: r.dataset.rule });
       const d = e.target.closest("[data-card]"); if (d) openSheet({ type: "card", card: card(d.dataset.card) });
     });
@@ -537,9 +542,10 @@
     if (!q && !state.ci.size && !state.type && !state.gc && !state.kw && !state.theme) {
       $("#count").textContent = "";
       filterLabel();
-      el.innerHTML = '<div class="empty"><div class="big">⌕</div>Search by name, type or rules text.<br>Try <b>landfall</b>, <b>kw:infect</b>, <b>theme:poison</b>, or <b>-creature sacrifice</b> to exclude words.</div>';
+      renderHome();
       return;
     }
+    HOME.shown = false;
     const out = filterCards(q, state);
     const kw = pq.kw || state.kw;
     filterLabel();
@@ -557,6 +563,99 @@
     }
     h += '<section class="block"><h2>All keywords A–Z</h2><div class="chips" style="padding-top:0">' + [...KW.entries()].sort((a, b) => a[0].localeCompare(b[0])).map(([k, n]) => '<button class="chip" data-act="kw" data-v="' + esc(k) + '">' + esc(title(k)) + ' <span style="color:var(--mute)">' + n.toLocaleString() + "</span></button>").join("") + "</div></section>";
     return h;
+  }
+
+  // ---------- homepage: Search before anything is typed ----------
+  const HOME = { sets: null, events: null, news: null, spoilers: null, leaks: false, tab: "wizards", timer: null, shown: false };
+  const shortDate = (d) => { const x = new Date(d + "T00:00:00"); return x.toLocaleDateString(undefined, { month: "short", day: "numeric", year: x.getFullYear() === new Date().getFullYear() ? undefined : "numeric" }); };
+  async function loadHome() {
+    const get = (f) => fetch("data/" + f + DATA_V).then((x) => (x.ok ? x.json() : null)).catch(() => null);
+    [HOME.sets, HOME.events, HOME.news] = await Promise.all([get("sets.json"), get("events.json"), get("news.json")]);
+    if (HOME.shown) renderHome();
+    loadSpoilers();
+  }
+  // Newest previews from upcoming sets, live from Scryfall (which lists official previews, not leaks).
+  async function loadSpoilers() {
+    if (!Scry.state.enabled) { HOME.spoilers = []; return; }
+    try {
+      const r = await fetch("https://api.scryfall.com/cards/search?order=spoiled&dir=desc&unique=cards&q=" + encodeURIComponent("date>" + TODAY + " game:paper"), { headers: { Accept: "application/json" } });
+      if (!r.ok) throw new Error("Scryfall answered " + r.status);
+      const j = await r.json();
+      HOME.spoilers = j.data.slice(0, 30).map((c) => ({ n: c.name.split(" // ")[0], set: c.set_name, img: c.image_uris || (c.card_faces && c.card_faces[0].image_uris) || null }));
+    } catch (e) { HOME.spoilers = []; }
+    if (HOME.shown) renderHome();
+  }
+  function countdown(d) {
+    const ms = new Date(d + "T00:00:00") - Date.now();
+    if (ms <= 0) return "<b>Out now</b>";
+    const s = Math.floor(ms / 1000), dd = Math.floor(s / 86400), hh = Math.floor((s % 86400) / 3600), mm = Math.floor((s % 3600) / 60), ss = s % 60;
+    const seg = (v, l) => "<span><b>" + String(v).padStart(2, "0") + "</b><i>" + l + "</i></span>";
+    return seg(dd, "days") + seg(hh, "hrs") + seg(mm, "min") + seg(ss, "sec");
+  }
+  function tickHome() {
+    const els = document.querySelectorAll("[data-cd]");
+    if (!els.length) { clearInterval(HOME.timer); HOME.timer = null; return; }
+    els.forEach((el) => (el.innerHTML = countdown(el.dataset.cd)));
+  }
+  function renderHome() {
+    HOME.shown = true;
+    const el = $("#results");
+    const up = (HOME.sets || []).filter((s) => !s.h && s.d > TODAY).sort((a, b) => (a.d < b.d ? -1 : a.d > b.d ? 1 : 0));
+    const groups = [];
+    for (const s of up) { let g = groups.find((x) => x.d === s.d); if (!g) groups.push((g = { d: s.d, sets: [] })); g.sets.push(s); }
+    const rankK = { main: 0, commander: 2 };
+    groups.forEach((g) => g.sets.sort((a, b) => (rankK[a.k] ?? 1) - (rankK[b.k] ?? 1)));
+    let h = "";
+    // one countdown banner per upcoming release date
+    if (groups.length) {
+      h += '<div class="cdcar" id="cdcar">' + groups.map((g) => {
+        const main = g.sets.find((s) => s.k === "main") || g.sets[0];
+        return '<div class="cdban" data-hset="' + esc(main.c) + '"><div class="cdtop">' + g.sets.map((s) => symbol(s.c)).join("") + '<div class="cdname"><small>Next release · ' + esc(shortDate(g.d)) + "</small><b>" + g.sets.map((s) => esc(s.n)).join(" + ") + "</b></div></div>" +
+          '<div class="cdclock" data-cd="' + g.d + '">' + countdown(g.d) + '</div><div class="cdfoot">' + g.sets.reduce((a, s) => a + s.t, 0) + " cards revealed so far · tap to browse</div></div>";
+      }).join("") + "</div>" + (groups.length > 1 ? '<div class="dots cddots">' + groups.map((_, i) => "<i" + (i ? "" : ' class="on"') + "></i>").join("") + "</div>" : "");
+    }
+    // newly revealed cards
+    h += '<section class="block"><h2>Newly revealed</h2>';
+    if (HOME.spoilers === null) h += '<div class="d">Loading the latest previews…</div>';
+    else if (!HOME.spoilers.length) h += '<div class="d">' + (Scry.state.enabled ? "No previews of upcoming cards right now. They appear here during preview season." : "Turn on card images in Settings to see previews.") + "</div>";
+    else h += '<div class="sprow">' + HOME.spoilers.map((c) => '<div class="sptile" data-spoil="' + esc(c.n) + '" data-url="' + esc(c.img ? c.img.large : "") + '" data-sset="' + esc(c.set) + '"><div class="im" style="background-image:url(&quot;' + esc(c.img ? c.img.normal : "") + '&quot;)"></div><span>' + esc(c.set) + "</span></div>").join("") + "</div>";
+    h += "</section>";
+    // chart: revealed so far per upcoming set
+    if (up.length) {
+      const max = Math.max(...up.map((s) => Math.max(s.t, s.bs || 0)), 1);
+      h += '<section class="block"><h2>Cards revealed so far</h2><div class="panel item hchart" role="table" aria-label="Cards revealed per upcoming set">' + up.slice(0, 8).map((s) =>
+        '<div class="hbar" role="row" data-hset="' + esc(s.c) + '" title="' + esc(s.n) + ": " + s.t + " cards revealed" + (s.bs ? " of about " + s.bs + " in the main set" : "") + '"><span class="hl" role="cell">' + esc(s.n) + '</span><span class="ht"><i style="width:' + Math.max(1.5, (s.t / max) * 100) + '%"></i>' + (s.bs ? '<u style="left:' + (s.bs / max) * 100 + '%"></u>' : "") + '</span><b role="cell">' + s.t + (s.bs ? '<small> / ' + s.bs + "</small>" : "") + "</b></div>").join("") +
+        '<div class="d" style="font-size:12px;margin-top:6px">Bars show cards in our data for each set; the tick marks the announced main-set size where known.</div></div></section>';
+    }
+    // events
+    const ev = ((HOME.events && HOME.events.events) || []).filter((e) => e.end >= TODAY).slice(0, 4);
+    h += '<section class="block"><h2>Events</h2>' + ev.map((e) => {
+      const days = Math.ceil((new Date(e.start + "T00:00:00") - Date.now()) / 86400000);
+      const when = e.start <= TODAY ? "Happening now" : days === 1 ? "Tomorrow" : "In " + days + " days";
+      return '<a class="panel row evrow" href="' + esc(e.link) + '" target="_blank" rel="noopener"><div class="evdate"><b>' + esc(new Date(e.start + "T00:00:00").getDate()) + "</b><span>" + esc(new Date(e.start + "T00:00:00").toLocaleDateString(undefined, { month: "short" })) + '</span></div><div class="body"><h4>' + esc(e.name) + '</h4><div class="ty">' + esc(e.place) + " · " + esc(shortDate(e.start)) + "–" + esc(shortDate(e.end)) + '</div><div class="why">' + when + "</div></div></a>";
+    }).join("") + '<a class="btn" href="https://locator.wizards.com" target="_blank" rel="noopener" style="display:inline-block;margin-top:4px;text-decoration:none">Find local events &amp; prereleases ↗</a></section>';
+    // news
+    const src = (HOME.news && HOME.news.sources) || {};
+    const tabs = [["wizards", "Wizards"], ["edhrec", "EDHREC"], ["reddit", "Community"]];
+    h += '<section class="block"><h2>News</h2><div class="chips" style="padding-top:0">' + tabs.map(([k, l]) => '<button class="chip' + (HOME.tab === k ? " on" : "") + '" data-ntab="' + k + '">' + l + "</button>").join("") +
+      (HOME.tab === "reddit" ? '<button class="chip' + (HOME.leaks ? " on" : "") + '" data-leaks>' + (HOME.leaks ? "Showing leaks" : "Leaks hidden") + "</button>" : "") + "</div>";
+    const s = src[HOME.tab];
+    let items = (s && s.items) || [];
+    if (HOME.tab === "reddit" && !HOME.leaks) items = items.filter((i) => !i.leak);
+    if (!HOME.news) h += '<div class="d">News loads with the next data refresh.</div>';
+    else if (!items.length) h += '<div class="d">No headlines from this source right now' + (s && s.error ? " (" + esc(s.error.split(":")[0]) + ")" : "") + ".</div>";
+    else h += items.slice(0, 12).map((i) => '<a class="panel row newsrow" href="' + esc(i.link) + '" target="_blank" rel="noopener">' + (i.img ? '<div class="thumb" style="background-image:url(&quot;' + esc(i.img) + '&quot;)"></div>' : "") + '<div class="body"><h4>' + esc(i.title) + '</h4><div class="ty">' + esc(i.source) + (i.flair ? " · " + esc(i.flair) : "") + (i.date ? " · " + esc(ago(i.date)) : "") + (i.comments ? " · " + i.comments + " comments" : "") + "</div></div></a>").join("");
+    if (HOME.news && HOME.news.built) h += '<div class="d" style="font-size:12px;margin-top:8px;opacity:.7">Headlines checked ' + esc(ago(HOME.news.built)) + ". Tap one to read it on the source's site.</div>";
+    h += "</section>";
+    el.innerHTML = h;
+    const car = $("#cdcar");
+    if (car) car.addEventListener("scroll", () => { const i = Math.round(car.scrollLeft / car.clientWidth); document.querySelectorAll(".cddots i").forEach((d, j) => d.classList.toggle("on", i === j)); }, { passive: true });
+    if (!HOME.timer) HOME.timer = setInterval(tickHome, 1000);
+  }
+  function ago(t) {
+    const m = Math.round((Date.now() - new Date(t)) / 60000);
+    if (isNaN(m)) return "";
+    return m < 60 ? Math.max(1, m) + " min ago" : m < 1440 ? Math.round(m / 60) + " h ago" : Math.round(m / 1440) + " d ago";
   }
 
   // ---------- interact ----------

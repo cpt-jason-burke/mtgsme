@@ -1,9 +1,10 @@
 name: Refresh card data
 
-# Once a day, check whether the mtg.wtf source data changed. Rebuild and publish only when it did.
+# Every 6 hours: fetch news headlines, and rebuild the card data only if the mtg.wtf source changed.
+# Publishes only when something the app shows actually changed.
 on:
   schedule:
-    - cron: "17 6 * * *"   # 06:17 UTC daily
+    - cron: "17 */6 * * *"
   workflow_dispatch: {}      # "Run workflow" button for a manual refresh
   push:                      # also run when the build itself changes
     branches: [main]
@@ -33,7 +34,7 @@ jobs:
           git ls-tree HEAD $FILES | awk '{print $3, $4}' > /tmp/source.txt
           # a change to the build itself (a push) always rebuilds; otherwise only when the source changed
           if [ "$GITHUB_EVENT_NAME" != "push" ] && diff -q /tmp/source.txt "$GITHUB_WORKSPACE/docs/data/source.txt" > /dev/null 2>&1; then
-            echo "Source data unchanged; nothing to do."
+            echo "Card data unchanged."
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git checkout HEAD -- $FILES
@@ -41,7 +42,7 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Rebuild the data
+      - name: Rebuild the card data
         if: steps.check.outputs.changed == 'true'
         run: |
           cp /tmp/mse/data/MagicCompRules.txt rules_CR.txt
@@ -50,18 +51,22 @@ jobs:
           python3 tools/build_cards.py /tmp/mse cards_lean lean
           python3 tools/build_cards.py /tmp/mse cards_with_rulings
 
-      - name: Publish only if the app's data changed
-        if: steps.check.outputs.changed == 'true'
+      - name: Fetch news headlines
+        run: python3 tools/fetch_news.py || echo "News fetch failed; keeping the previous headlines."
+
+      - name: Publish only if something changed
         run: |
           if [ -z "$(git status --porcelain)" ]; then
-            echo "Source changed, but nothing the app uses did. Not publishing."
+            echo "Nothing the app uses changed. Not publishing."
             exit 0
           fi
-          cp /tmp/source.txt docs/data/source.txt
-          cp /tmp/source-date.txt docs/data/source-date.txt
+          if [ "${{ steps.check.outputs.changed }}" = "true" ]; then
+            cp /tmp/source.txt docs/data/source.txt
+            cp /tmp/source-date.txt docs/data/source-date.txt
+          fi
           date -u +%Y-%m-%dT%H:%M:%SZ > docs/data/built-at.txt
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "Refresh card data from mtg.wtf ($(cat docs/data/source-date.txt))"
+          git commit -m "Refresh data ($(cat docs/data/source-date.txt); news $(date -u +%Y-%m-%d))"
           git push

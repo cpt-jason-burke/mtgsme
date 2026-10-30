@@ -22,6 +22,9 @@ for ch in sorted(json.load(open(f"{src}/index/banlist_history.json"))["commander
     status.update(ch["changes"])
 
 # ---- cards -------------------------------------------------------------
+from datetime import date as _date
+release = {k: v.get("release_date", "") for k, v in json.load(open(f"{src}/index/sets.json")).items()}
+today = _date.today().isoformat()
 cards = []
 names = set()
 for l in open(f"{src}/index/cards.jsonl"):
@@ -38,6 +41,8 @@ for l in open(f"{src}/index/cards.jsonl"):
     if d.get("gc"): c["g"] = 1
     if d.get("k"): c["k"] = d["k"]
     if len(d.get("ns", [])) > 1: c["f"] = d["ns"]
+    first = min((release.get(code, "") for code, _ in d["*"] if release.get(code)), default="")
+    if first >= today: c["u"] = first   # not released yet: the date of its first printing
     cards.append(c)
     names.add(name)
 cards.sort(key=lambda c: c["n"].lower())
@@ -128,6 +133,7 @@ for code, s in sets_meta.items():
         continue
     t = set(s.get("types", []))
     e = {"c": code, "n": s["name"], "d": s.get("release_date", ""), "k": kind(code, s), "t": len(by_set[code])}
+    if s.get("base_set_size") and e["d"] >= today: e["bs"] = s["base_set_size"]
     if t & HIDE and not t & {"expansion", "core", "commander", "masters"}: e["h"] = 1
     sets_out.append(e)
 from datetime import date
