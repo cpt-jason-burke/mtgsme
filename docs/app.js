@@ -198,7 +198,7 @@
     settings: [() => "Settings", settingsView],
     keywords: [() => "Keywords & themes", keywordsView],
     set: [(v) => (SETS.data.byCode.get(v.code) || {}).n || "Set", setView],
-    sld: [(v) => "Secret Lair · " + v.year, sldView],
+    sld: [(v) => "Secret Lair · " + v.year, sldView],   // v.year holds a release date (or a year, from older saved pages)
     deck: [(v) => SETS.data.precons[v.i].n, deckView],
     rule: [(v) => (v.rule.startsWith("gloss:") ? "Glossary" : "Rule " + v.rule), (v) => ruleView(v.rule)],
   };
@@ -811,11 +811,12 @@
   }
 
   // ---------- sets timeline ----------
-  const SETS = { data: null, loading: false, f: { kinds: new Set(["main", "commander", "secret", "reprint", "jumpstart", "draft", "other"]), ci: new Set(), type: "", mv: "", rar: new Set(), hidden: false } };
+  const SETS = { data: null, loading: false, legend: new Set(), f: { kinds: new Set(["main", "commander", "secret", "reprint", "jumpstart", "draft", "other"]), ci: new Set(), type: "", mv: "", rar: new Set(), hidden: false } };
   const KINDS = { main: "Main", commander: "Commander", secret: "Secret Lair", reprint: "Reprint", jumpstart: "Jumpstart", draft: "Horizons & draft", other: "Other" };
   const RAR = ["L", "C", "U", "R", "M", "S"], RAR_NAME = ["Basic", "Common", "Uncommon", "Rare", "Mythic", "Special"];
   const TODAY = new Date().toISOString().slice(0, 10);
-  const symbol = (code) => '<div class="sym"><img loading="lazy" alt="" src="https://svgs.scryfall.io/sets/' + esc(code) + '.svg" onerror="this.style.display=\'none\'"></div>';
+  // Set symbol from Scryfall; brand-new and upcoming sets may not have one yet, so the set code shows instead.
+  const symbol = (code) => '<div class="sym"><img loading="lazy" alt="" src="https://svgs.scryfall.io/sets/' + esc(code) + '.svg" onerror="this.replaceWith(Object.assign(document.createElement(\'span\'),{className:\'symcode\',textContent:\'' + esc(code.toUpperCase().slice(0, 4)) + '\'}))"></div>';
   let MV = null;
   function ensureSets() {
     if (!SETS.promise) SETS.promise = loadSets();
@@ -855,6 +856,12 @@
       renderTimeline();
     });
     $("#stype").addEventListener("change", (e) => { f.type = e.target.value; renderTimeline(); });
+    $("#legend").addEventListener("click", (e) => {
+      const b = e.target.closest("[data-lg]"); if (!b) return;
+      const k = b.dataset.lg; SETS.legend.has(k) ? SETS.legend.delete(k) : SETS.legend.add(k);
+      b.classList.toggle("on", SETS.legend.has(k)); b.setAttribute("aria-pressed", SETS.legend.has(k));
+      renderTimeline(); window.scrollTo(0, 0);
+    });
     $("#smv").addEventListener("change", (e) => { f.mv = e.target.value; renderTimeline(); });
     $("#timeline").addEventListener("click", (e) => {
       const s = e.target.closest("[data-set]"); if (s) return openSheet({ type: "set", code: s.dataset.set, view: store.get("gridview", "grid") });
@@ -879,11 +886,14 @@
     $("#sfbtn").textContent = active ? "Filters · " + active + " on" : "Filters";
     $("#sfbtn").classList.toggle("on", !!active);
     const items = D.sets.filter((s) => (!s.h || f.hidden) && f.kinds.has(s.k)).map((s) => ({ ...s, set: true }));
-    if (f.kinds.has("secret")) {   // Secret Lair drops are grouped by year
-      const byYear = new Map();
-      for (const p of D.precons) if (p.y === "sld") { const y = p.d.slice(0, 4); if (!byYear.has(y)) byYear.set(y, []); byYear.get(y).push(p); }
-      for (const [y, drops] of byYear) items.push({ sld: y, d: drops[0].d, n: "Secret Lair drops", k: "secret", drops, t: drops.reduce((a, p) => a + (p.main || []).reduce((b, r) => b + r[0], 0), 0) });
+    if (f.kinds.has("secret")) {   // Secret Lair drops get one row per release date
+      const byDate = new Map();
+      for (const p of D.precons) if (p.y === "sld") { if (!byDate.has(p.d)) byDate.set(p.d, []); byDate.get(p.d).push(p); }
+      for (const [d, drops] of byDate) items.push({ sld: d, d, n: drops.length === 1 ? drops[0].n : "Secret Lair \u00B7 " + drops.length + " drops", k: "secret", drops, t: drops.reduce((a, p) => a + (p.main || []).reduce((b, r) => b + r[0], 0), 0) });
     }
+    // the color key doubles as a quick filter
+    const lg = SETS.legend;
+    if (lg.size) { const keep = items.filter((it) => (lg.has("cmd") && (it.k === "commander" || it.cm)) || lg.has(it.k)); items.length = 0; items.push(...keep); }
     items.sort((a, b) => (a.d < b.d ? 1 : a.d > b.d ? -1 : 0));
     let h = "", year = null, shown = 0;
     const groups = new Map();
@@ -900,9 +910,9 @@
         shown++;
         const decks = it.set ? (D.precBySet.get(it.k === "commander" ? it.c : it.cm) || []).length : 0;
         const cls = "panel set k-" + it.k + (it.cm ? " hascm" : "") + (on && !it.m ? " dim" : "");
-        const tags = (it.set && it.d > TODAY ? '<span class="ktag up">Upcoming</span>' : "") + (decks ? '<span class="ktag cmd">Commander ×' + decks + "</span>" : "") + (it.k !== "main" && it.k !== "commander" ? '<span class="ktag">' + esc(KINDS[it.k]) + "</span>" : "");
+        const tags = (it.set && it.d > TODAY ? '<span class="ktag up">Upcoming</span>' : "") + (decks ? '<span class="ktag cmd">Commander ×' + decks + "</span>" : "") + (it.set && it.k !== "main" && it.k !== "commander" ? '<span class="ktag">' + esc(KINDS[it.k]) + "</span>" : "");
         h += '<div class="' + cls + '" ' + (it.set ? 'data-set="' + esc(it.c) + '"' : 'data-sld="' + esc(it.sld) + '"') + ">" + symbol(it.set ? it.c : "sld") +
-          '<div class="body"><h4>' + esc(it.n) + tags + '</h4><div class="ty">' + esc(it.d) + (it.set ? " · " + esc(it.c.toUpperCase()) : " · " + it.drops.length + " drops") + "</div></div>" +
+          '<div class="body"><h4>' + esc(it.n) + tags + '</h4><div class="ty">' + esc(it.d) + (it.set ? " · " + esc(it.c.toUpperCase()) : " · Secret Lair" + (it.drops.length > 1 ? "" : " drop")) + "</div></div>" +
           '<div class="n">' + (on ? "<b>" + it.m + "</b>of " + it.t : "<b>" + it.t + "</b>cards") + "</div></div>";
       }
     }
@@ -946,7 +956,7 @@
   }
   function sldView(v) {
     const drops = SETS.data.precons.filter((p) => p.y === "sld" && p.d.startsWith(v.year));
-    return '<div class="d" style="margin-bottom:10px">' + drops.length + " Secret Lair drops released in " + esc(v.year) + ". Tap a drop to see its cards and value.</div>" + drops.map(deckTile).join("");
+    return '<div class="d" style="margin-bottom:10px">' + drops.length + " Secret Lair drop" + (drops.length === 1 ? "" : "s") + " released " + esc(v.year) + ". Tap a drop to see its cards and value.</div>" + drops.map(deckTile).join("");
   }
   function deckRows(p) { return (p.cmd || []).map((r) => ({ q: r[0], c: CARDS[r[1]], set: r[2], num: r[3], cmd: true })).concat((p.main || []).map((r) => ({ q: r[0], c: CARDS[r[1]], set: r[2], num: r[3] }))); }
   function deckView(v) {

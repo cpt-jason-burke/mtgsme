@@ -235,6 +235,7 @@ nav.tabbar button[aria-selected=true]::before{content:"";position:absolute;top:2
 .set.dim{opacity:.35}
 .sym{width:34px;height:34px;flex:none;display:grid;place-items:center;border-radius:10px;background:rgba(255,255,255,.04);border:1px solid var(--line)}
 .sym img{width:24px;height:24px;filter:invert(.92);opacity:.9}
+.symcode{font-size:10px;font-weight:800;letter-spacing:.04em;color:var(--mute)}
 .set.k-commander .sym img,.set.hascm .sym img{filter:invert(55%) sepia(80%) saturate(900%) hue-rotate(345deg) brightness(95%)}
 .set .body{flex:1;min-width:0}
 .set h4{margin:0;font-size:15px;line-height:1.3;overflow-wrap:anywhere}
@@ -245,7 +246,8 @@ nav.tabbar button[aria-selected=true]::before{content:"";position:absolute;top:2
 .ktag{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:1px 6px;border-radius:5px;margin-left:6px;vertical-align:1px;background:rgba(255,255,255,.07);color:var(--mute)}
 .ktag.cmd{background:var(--ember-soft);color:var(--ember-hi)}
 .ktag.up{background:rgba(124,196,147,.14);color:var(--good)}
-.legend{display:flex;flex-wrap:wrap;gap:12px;font-size:12px;color:var(--mute);margin-top:10px}
+.legend{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.legend .chip{font-size:13px;padding:6px 11px}
 .legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
 /* card grid */
 .cgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:10px}
@@ -400,7 +402,7 @@ body.ingame{overflow:hidden}
   </section>
 
   <section id="tab-sets" class="hidden">
-    <div class="legend"><span><i style="background:var(--ember)"></i>Commander decks</span><span><i style="background:#a77bd6"></i>Secret Lair</span><span><i style="background:#6f9fc9"></i>Reprint</span><span><i style="background:#7cc493"></i>Jumpstart</span></div>
+    <div class="legend" id="legend"><button class="chip" data-lg="cmd" aria-pressed="false"><i style="background:var(--ember)"></i>Commander decks</button><button class="chip" data-lg="secret" aria-pressed="false"><i style="background:#a77bd6"></i>Secret Lair</button><button class="chip" data-lg="reprint" aria-pressed="false"><i style="background:#6f9fc9"></i>Reprint</button><button class="chip" data-lg="jumpstart" aria-pressed="false"><i style="background:#7cc493"></i>Jumpstart</button></div>
     <div id="timeline"><div class="empty">Loading the release history…</div></div>
   </section>
 
