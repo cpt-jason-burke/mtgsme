@@ -129,6 +129,11 @@ Cost: {2}{w} | Type: Creature — Cat | Color identity: W | P/T: 1/3 | Commander
 Text: Flying, vigilance
   As long as you control two or more artifacts, this creature gets +2/+0.
 
+## Gagh Slinger
+Cost: {2}{r} | Type: Creature — Klingon Warrior | Color identity: R | P/T: 3/2 | Commander: legal
+Text: Klingon spells and Warrior spells you cast cost {1} less to cast.
+  Whenever another Klingon or Warrior you control enters, this creature deals 1 damage to each opponent.
+
 ## Gahiji, Honored One
 Cost: {2}{r}{g}{w} | Type: Legendary Creature — Beast | Color identity: GRW | P/T: 4/4 | Commander: legal
 Text: Whenever a creature attacks one of your opponents or a planeswalker an opponent controls, that creature gets +2/+0 until end of turn.
@@ -451,6 +456,11 @@ Text: Galvanize deals 3 damage to target creature. If you've drawn two or more c
 Cost: {5}{r} | Type: Artifact — Spacecraft | Color identity: R | P/T: 6/5 | Commander: legal
 Text: Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 3+.)
   3+ | Flying, haste
+
+## Galvanizing Tenor
+Cost: {3}{r} | Type: Creature — Klingon Performer | Color identity: R | P/T: 4/3 | Commander: legal
+Text: Menace
+  Battlefront — Whenever this creature attacks, goad up to X target creatures, where X is the number of opponents you attacked this turn. (Until your next turn, those creatures attack each combat if able and attack a player other than you if able.)
 
 ## Galvanoth
 Cost: {3}{r}{r} | Type: Creature — Beast | Color identity: R | P/T: 3/3 | Commander: legal
@@ -1479,6 +1489,11 @@ Text: At the beginning of your upkeep, if this creature is in your graveyard, yo
 ## Genesis Chamber
 Cost: {2} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: Whenever a nontoken creature enters, if this artifact is untapped, that creature's controller creates a 1/1 colorless Myr artifact creature token.
+
+## Genesis Device
+Cost: {2}{g} | Type: Legendary Artifact | Color identity: G | Commander: legal
+Text: When Genesis Device enters, search your library for a basic land card or Planet card, put it onto the battlefield tapped, then shuffle.
+  {3}{G}{G}, {T}, Sacrifice Genesis Device: Sacrifice any number of lands you control, then search your library for up to that many land cards, put them onto the battlefield tapped, then shuffle. Activate only as a sorcery.
 
 ## Genesis Effect
 Cost: {4}{r} | Type: Instant | Color identity: R | Commander: legal
@@ -3971,6 +3986,11 @@ Text: During your turn, creatures you control get +2/+0.
 Cost: {1}{w} | Type: Creature — Human Soldier | Color identity: W | P/T: 2/2 | Commander: legal
 Text: 
 
+## Glory to the Empire!
+Cost: {5}{r} | Type: Enchantment | Color identity: R | Commander: legal
+Text: When this enchantment enters, create a number of 2/1 red Klingon Warrior creature tokens with haste equal to the number of opponents you have.
+  Creatures you control have melee. (Whenever a creature with melee attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat.)
+
 ## Glory-Bound Initiate
 Cost: {1}{w} | Type: Creature — Human Warrior | Color identity: W | P/T: 3/1 | Commander: legal
 Text: You may exert this creature as it attacks. When you do, it gets +1/+3 and gains lifelink until end of turn. (An exerted creature won't untap during your next untap step.)
@@ -4155,6 +4175,11 @@ Text: Kicker {2}{G} (You may pay an additional {2}{G} as you cast this spell.)
 Cost: {1}{g} | Type: Creature — Beast | Color identity: G | P/T: 2/2 | Commander: legal
 Text: Multikicker {1}{G} (You may pay an additional {1}{G} any number of times as you cast this spell.)
   This creature enters with a +1/+1 counter on it for each time it was kicked.
+
+## Gnarling Targ
+Cost: {4}{r} | Type: Creature — Boar | Color identity: R | P/T: 4/5 | Commander: legal
+Text: Trample
+  Whenever you attack, Klingons and Warriors you control get +2/+0 and gain trample until end of turn.
 
 ## Gnarlroot Pallbearer
 Cost: {4}{g}{g} | Type: Creature — Treefolk Druid | Color identity: G | P/T: 5/5 | Commander: legal
@@ -7160,6 +7185,10 @@ Text: Flash
   Equipped creature gets +1/+1.
   Equip {1}
 
+## Grilka, Widowed Warrior
+Cost: {5}{r} | Type: Legendary Creature — Klingon Warrior | Color identity: R | P/T: 5/5 | Commander: legal
+Text: When Grilka enters, gain control of target creature an opponent controls until end of turn. Untap it. Until end of turn, it gains trample, haste, and "Whenever this creature deals combat damage to a player, create that many tapped Treasure tokens."
+
 ## Grim Affliction
 Cost: {2}{b} | Type: Instant | Color identity: B | Commander: legal
 Text: Put a -1/-1 counter on target creature, then proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
@@ -8617,6 +8646,11 @@ Text: Deathtouch, lifelink
 Cost: {2}{w/b} | Type: Creature — Hag Wizard | Color identity: BW | P/T: 2/2 | Commander: legal
 Text: When this creature enters, if you control two or more Plains, you may create a 1/1 white Kithkin Soldier creature token.
   When this creature enters, if you control two or more Swamps, you may put a -1/-1 counter on target creature.
+
+## Gwyndala, the Progeny
+Cost: {1}{u} | Type: Legendary Creature — Vau-N'Akat Advisor | Color identity: U | P/T: 1/1 | Commander: legal
+Text: When Gwyndala enters, create a colorless Equipment artifact token named Neuroflux Heirloom with "Equipped creature gets +1/+1" and equip {2}. Attach it to Gwyndala.
+  {2}: Each Equipment token you control becomes a copy of target Equipment you control until end of turn.
 
 ## Gylwain, Casting Director
 Cost: {1}{g}{w} | Type: Legendary Creature — Human Bard | Color identity: GW | P/T: 2/3 | Commander: legal

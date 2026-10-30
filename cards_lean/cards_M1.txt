@@ -115,6 +115,10 @@ Cost: {4}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: This spell costs {1} less to cast for each artifact you control and each artifact card in your hand.
   Counter target noncreature spell.
 
+## MACO Strike Team
+Cost: {g} | Type: Creature — Human Soldier | Color identity: G | P/T: 2/1 | Commander: legal
+Text: Whenever a creature you control becomes the target of a spell or ability an opponent controls, create a tapped 1/1 red Officer creature token.
+
 ## Mad Auntie
 Cost: {2}{b} | Type: Creature — Goblin Shaman | Color identity: B | P/T: 2/2 | Commander: legal
 Text: Other Goblin creatures you control get +1/+1.
@@ -2316,6 +2320,10 @@ Text: Enchant creature
 Cost: {2}{w}{w} | Type: Enchantment | Color identity: W | Commander: legal
 Text: At the beginning of your upkeep, detain target creature an opponent controls. (Until your next turn, that creature can't attack or block and its activated abilities can't be activated.)
 
+## Martok, Hero of the Empire
+Cost: {2}{w} | Type: Legendary Creature — Klingon Warrior | Color identity: W | P/T: 2/2 | Commander: legal
+Text: Battlefront — Whenever you attack, put a +1/+1 counter on each of up to X target creatures you control, where X is the number of opponents you attacked this turn.
+
 ## Martyr for the Cause
 Cost: {1}{w} | Type: Creature — Human Soldier | Color identity: W | P/T: 2/2 | Commander: legal
 Text: When this creature dies, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
@@ -3803,6 +3811,10 @@ Text: This creature can't attack unless defending player controls an Island.
 ## Merchant's Dockhand
 Cost: {1} | Type: Artifact Creature — Construct | Color identity: U | P/T: 1/2 | Commander: legal
 Text: {3}{U}, {T}, Tap X untapped artifacts you control: Look at the top X cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
+
+## Merciful Mandate
+Cost: {1}{w} | Type: Instant | Color identity: W | Commander: legal
+Text: Untap all creatures you control. If it's a combat phase, you may end the combat phase. (Remove all attackers and blockers from combat. Exile all spells and abilities from the stack, including this spell.)
 
 ## Merciless Enforcers
 Cost: {1}{b} | Type: Creature — Human Mercenary Villain | Color identity: B | P/T: 2/1 | Commander: legal

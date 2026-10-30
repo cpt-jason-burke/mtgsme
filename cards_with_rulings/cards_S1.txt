@@ -2167,6 +2167,13 @@ Text: {2}: This creature gains flying until end of turn.
   {2}, Sacrifice this creature: Draw a card.
 Ruling (2007-05-01): Sarcomite Myr is an artifact creature, just like Ornithopter. The only difference between this and any other artifact creature is that Sarcomite Myr is blue since it has blue mana in its mana cost.
 
+## Sarcophagus, Ship of the Dead
+Cost: {2}{r} | Type: Legendary Artifact — Spacecraft | Color identity: R | P/T: 4/4 | Commander: legal
+Text: Other creatures you control get +1/+0.
+  Whenever a creature dies, if Sarcophagus isn't a creature, put a charge counter on it.
+  Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 10+.)
+  10+ | Flying
+
 ## Sardian Avenger
 Cost: {1}{r} | Type: Creature — Goblin Warrior | Color identity: R | P/T: 1/1 | Commander: legal
 Text: First strike, trample
@@ -2176,6 +2183,10 @@ Text: First strike, trample
 ## Sardian Cliffstomper
 Cost: {1}{r} | Type: Creature — Minotaur Barbarian | Color identity: R | P/T: 0/4 | Commander: legal
 Text: As long as it's your turn and you control four or more Mountains, this creature gets +X/+0, where X is the number of Mountains you control.
+
+## Sarek, Federation Ambassador
+Cost: {1}{g}{w}{u} | Type: Legendary Creature — Vulcan Advisor | Color identity: GUW | P/T: 0/5 | Commander: legal
+Text: Federation — At the beginning of combat on your turn, draw a card for every five creature types among non-Borg creatures you control. If you draw three or more cards this way, put two +1/+1 counters on each creature you control.
 
 ## Sarevok's Tome
 Cost: {4} | Type: Artifact — Book | Color identity: colorless | Commander: legal
@@ -2374,6 +2385,11 @@ Text: As this artifact enters, choose white Citizen, blue Camarid, black Thrull,
 Cost: {r} | Type: Artifact Creature — Goblin | Color identity: R | P/T: 1/1 | Commander: legal
 Text: Haste
   {3}{R}, Sacrifice this creature: It deals 4 damage to target creature.
+
+## Saru, Unthreatened
+Cost: {2}{g} | Type: Legendary Creature — Kelpien Officer | Color identity: G | P/T: 3/2 | Commander: legal
+Text: Flash
+  When Saru enters, another target creature you control gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)
 
 ## Sarulf's Packmate
 Cost: {3}{g} | Type: Creature — Wolf | Color identity: G | P/T: 3/3 | Commander: legal
@@ -4169,6 +4185,10 @@ Text: Deathtouch
 Ruling (2025-09-19): If a resolving spell or ability instructs a specific creature to connive but that creature has left the battlefield, the creature still connives. If you discard a nonland card this way, you won't put a +1/+1 counter on anything. Abilities that trigger "when [that creature] connives" will trigger.
 Ruling (2025-09-19): If no card is discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive a +1/+1 counter.
 Ruling (2025-09-19): Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter.
+
+## Scotty, Chief Engineer
+Cost: {3}{u} | Type: Legendary Creature — Human Artificer | Color identity: U | P/T: 3/4 | Commander: legal
+Text: Tap an untapped artifact you control: Target creature can't be blocked this turn.
 
 ## Scotty, Miracle Worker
 Cost: {1}{u}{u} | Type: Legendary Creature — Human Artificer | Color identity: U | P/T: 2/3 | Commander: legal
@@ -13528,6 +13548,13 @@ Text: Enchant player
   If Sinner's Judgment would be put into a graveyard from anywhere, exile it instead.
 Ruling (2021-11-19): Removing judgment counters from Faithbound Judge after it has attacked won't remove it from combat.
 
+## Sins of the Father
+Cost: {3}{b}{r} | Type: Enchantment — Saga | Color identity: BR | Commander: legal
+Text: (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+  I — Each opponent sacrifices a nontoken creature of their choice.
+  II — For each opponent, you create a 2/1 red Klingon Warrior creature token with haste.
+  III — Exile target player's graveyard. Each opponent loses life equal to the number of creature cards exiled this way.
+
 ## Sins of the Past
 Cost: {4}{b}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Until end of turn, you may cast target instant or sorcery card from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead. Exile Sins of the Past.
@@ -22535,6 +22562,10 @@ Cost: {3}{u}{u} | Type: Legendary Creature — Vulcan Human Scientist | Color id
 Text: Vigilance (Attacking doesn't cause this creature to tap.)
   {T}: Draw a card.
 
+## Spock, Voice of Reason
+Cost: {2}{u} | Type: Legendary Creature — Vulcan Human Scientist | Color identity: U | P/T: 3/2 | Commander: legal
+Text: {2}, {T}: Draw a card for each nontoken permanent you control that entered this turn.
+
 ## Spoils of Adventure
 Cost: {4}{w}{u} | Type: Instant | Color identity: UW | Commander: legal
 Text: This spell costs {1} less to cast for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)
@@ -22821,15 +22852,3 @@ Text: You gain 8 life.
 ## Spring Splasher
 Cost: {1}{u} | Type: Creature — Frog Beast | Color identity: U | P/T: 2/1 | Commander: legal
 Text: Whenever this creature attacks, target creature defending player controls gets -3/-0 until end of turn.
-
-## Spring-Leaf Avenger
-Cost: {3}{g}{g} | Type: Creature — Insect Ninja | Color identity: G | P/T: 6/5 | Commander: legal
-Text: Ninjutsu {3}{G} ({3}{G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
-  Whenever this creature deals combat damage to a player, return target permanent card from your graveyard to your hand.
-Ruling (2022-02-18): Although the Ninja is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
-Ruling (2022-02-18): As you activate a ninjutsu ability, you reveal the Ninja card in your hand and return the attacking creature. The Ninja card stays revealed and isn't put onto the battlefield until the ability resolves. If it leaves your hand before then, it won't enter the battlefield at all.
-Ruling (2022-02-18): If a creature in combat has first strike or double strike, you can activate the ninjutsu ability during the first-strike combat damage step. The Ninja will deal combat damage during the regular combat damage step, even if it has first strike.
-Ruling (2022-02-18): Puff of smoke not included.
-Ruling (2022-02-18): The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player or planeswalker it's attacking.
-Ruling (2022-02-18): The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. In most cases (see below), if you wait until the combatdamage step or end of combat step, it will be after combat damage has been dealt, so the Ninja won't deal combat damage.
-Ruling (2022-02-18): The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.

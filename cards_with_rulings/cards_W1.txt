@@ -1564,6 +1564,12 @@ Cost: {2} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: When this artifact enters, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.
   {1}, {T}: Put two charge counters on target Spacecraft. Activate only as a sorcery.
 
+## Warp Speed
+Cost: {2}{g} | Type: Enchantment | Color identity: GU | Commander: legal
+Text: Lands you control enter untapped.
+  When this enchantment enters, search your library for a basic land card or Planet card, reveal it, put it into your hand, then shuffle.
+  Strange new worlds — {7}{U}{U}, Sacrifice this enchantment: Draw two cards. This ability costs {X} less to activate, where X is the number of differently named lands you control.
+
 ## Warp World
 Cost: {5}{r}{r}{r} | Type: Sorcery | Color identity: R | Commander: legal
 Text: Each player shuffles all permanents they own into their library, then reveals that many cards from the top of their library. Each player puts all artifact, creature, and land cards revealed this way onto the battlefield, then does the same for enchantment cards, then puts all cards revealed this way that weren't put onto the battlefield on the bottom of their library.
@@ -7282,6 +7288,10 @@ Text: Whenever you attack while creatures you control have total power 8 or grea
 ## Worf, Intelligence Contractor
 Cost: {2}{r} | Type: Legendary Creature — Klingon Warrior Spy | Color identity: R | P/T: 3/2 | Commander: legal
 Text: When Worf enters, for each opponent, gain control of up to one target creature that player controls with mana value 3 or less until end of turn. Untap those creatures. Until end of turn, they become Warriors in addition to their other types and gain haste.
+
+## Worf, Still Not Merry
+Cost: {3}{r}{w} | Type: Legendary Creature — Klingon Warrior Officer | Color identity: RW | P/T: 5/5 | Commander: legal
+Text: Whenever Worf attacks, for each attacking non-Faerie creature, create a tapped and attacking 1/1 blue Faerie creature token with flying.
 
 ## Workhorse
 Cost: {6} | Type: Artifact Creature — Horse | Color identity: colorless | P/T: 0/0 | Commander: legal

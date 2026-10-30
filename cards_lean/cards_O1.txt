@@ -301,6 +301,12 @@ Text: Reach
   Whenever this creature deals combat damage to a creature, put a -1/-1 counter on that creature.
   Whenever you put one or more -1/-1 counters on a creature, each opponent loses 1 life and you gain 1 life.
 
+## Oberth-Class Starship
+Cost: {1}{w} | Type: Artifact — Spacecraft | Color identity: W | P/T: 2/2 | Commander: legal
+Text: When this Spacecraft enters, search your library for a basic Plains card, reveal it, put it into your hand, then shuffle.
+  Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 6+.)
+  6+ | Flying
+
 ## Oblation
 Cost: {2}{w} | Type: Instant | Color identity: W | Commander: legal
 Text: The owner of target nonland permanent shuffles it into their library, then draws two cards.
@@ -3367,6 +3373,11 @@ Text: Flying
 Cost: {3}{u} | Type: Creature — Bird Wizard | Color identity: U | P/T: 3/4 | Commander: legal
 Text: Flying, vigilance
   Whenever you cast your first spell with {X} in its mana cost each turn, you may copy it. You may choose new targets for the copy. (A copy of a permanent spell becomes a token.)
+
+## Own the Day
+Cost: {4}{r}{r} | Type: Sorcery | Color identity: R | Commander: legal
+Text: Battlefront — This spell costs {1} less to cast for each opponent you attacked this turn.
+  Untap all creatures that attacked this turn. After this main phase, there is an additional combat phase followed by an additional main phase.
 
 ## Ox Drover
 Cost: {3}{w} | Type: Creature — Human Peasant | Color identity: W | P/T: 4/4 | Commander: legal

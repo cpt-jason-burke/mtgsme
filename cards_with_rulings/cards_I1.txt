@@ -7,6 +7,12 @@ Text: Until end of turn, target artifact or creature becomes an artifact creatur
 Cost: {g} | Type: Instant | Color identity: G | Commander: legal
 Text: Put a +1/+1 counter on target creature you control. Untap it. Until end of turn, it gets +1/+1 and becomes a Doctor. (It loses all other creature types.)
 
+## I.K.S. Negh'Var, Imperial Flagship
+Cost: {3} | Type: Legendary Artifact — Spacecraft | Color identity: colorless | P/T: 6/6 | Commander: legal
+Text: Klingons and Warriors you control have vigilance.
+  Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 10+.)
+  10+ | Flying, vigilance
+
 ## Ian Chesterton
 Cost: {2}{w} | Type: Legendary Creature — Human Scientist | Color identity: W | P/T: 2/3 | Commander: legal
 Text: Science Teacher — Each Saga spell you cast has replicate. The replicate cost is equal to its mana cost. (When you cast that Saga, copy it for each time you paid its replicate cost. Copies of Saga spells become tokens.)
@@ -1617,6 +1623,12 @@ Text: Flying
 Ruling (2004-10-04): The trigger occurs when you use the Morph ability to turn the card face up, or when an effect turns it face up. It will not trigger on being revealed or on leaving the battlefield.
 Ruling (2004-10-04): You do not have to find a Dragon card if you do not want to, even if you have one in your library.
 
+## Imperial Hullbreachers
+Cost: {2}{w} | Type: Creature — Klingon Warrior | Color identity: W | P/T: 2/2 | Commander: legal
+Text: Squad {2} (As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.)
+  Flying
+  Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)
+
 ## Imperial Lancer
 Cost: {w} | Type: Creature — Human Knight | Color identity: W | P/T: 1/1 | Commander: legal
 Text: This creature has double strike as long as you control a Dinosaur.
@@ -2479,6 +2491,10 @@ Ruling (2024-06-07): If a permanent with bestow enters the battlefield by any me
 Ruling (2024-06-07): On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
 Ruling (2024-06-07): Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
 Ruling (2024-06-07): Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
+
+## Indelicate Healer
+Cost: {2}{w} | Type: Creature — Klingon Warrior Doctor | Color identity: W | P/T: 3/3 | Commander: legal
+Text: Whenever this creature or another Klingon or Warrior you control enters, creatures you control gain lifelink until end of turn.
 
 ## Indentured Djinn
 Cost: {1}{u}{u} | Type: Creature — Djinn | Color identity: U | P/T: 4/4 | Commander: legal
@@ -6809,6 +6825,11 @@ Ruling (2016-01-22): If Isolation Zone leaves the battlefield before its trigger
 Ruling (2016-01-22): If a token is exiled, it ceases to exist. It won't be returned to the battlefield.
 Ruling (2016-01-22): In a multiplayer game, if Isolation Zone's owner leaves the game, the exiled card will return to the battlefield. Because the one-shot effect that returns the card isn't an ability that goes on the stack, it won't cease to exist along with the leaving player's spells and abilities on the stack.
 Ruling (2016-01-22): The exiled card returns to the battlefield immediately after Isolation Zone leaves the battlefield. Nothing happens between the two events, including state-based actions.
+
+## Isolinear Processor
+Cost: {2} | Type: Artifact | Color identity: colorless | Commander: legal
+Text: {T}: Add {C}. Spend this mana only to cast an artifact spell or activate an ability of an artifact source.
+  {2}, {T}: Draw a card, then discard a card.
 
 ## Isperia the Inscrutable
 Cost: {1}{w}{w}{u}{u} | Type: Legendary Creature — Sphinx | Color identity: UW | P/T: 3/6 | Commander: legal

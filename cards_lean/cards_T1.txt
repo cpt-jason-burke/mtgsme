@@ -385,6 +385,11 @@ Text: Enchant creature
   At the beginning of the upkeep of enchanted creature's controller, put a -0/-1 counter on that creature.
   When enchanted creature dies, that creature's controller chooses a creature that this card could enchant. If the player does, return this card to the battlefield under your control attached to that creature. If they don't, return this card to the battlefield under your control as a non-Aura enchantment. It loses "enchant creature" and gains "At the beginning of that player's upkeep, this enchantment deals 1 damage to that player."
 
+## Tal Shiar Analyst
+Cost: {2}{r} | Type: Creature — Romulan Scientist | Color identity: R | P/T: 3/2 | Commander: legal
+Text: {T}: This creature deals 1 damage to each opponent.
+  Whenever you cast a noncreature spell, untap this creature.
+
 ## Talara's Bane
 Cost: {1}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Target opponent reveals their hand. You choose a green or white creature card from it. You gain life equal to that creature card's toughness, then that player discards that card.
@@ -3338,6 +3343,11 @@ Text: (As this Saga enters and after your draw step, add a lore counter. Sacrifi
 Cost: {1}{w}{w} | Type: Sorcery | Color identity: W | Commander: legal
 Text: Destroy all creatures with power 3 or greater. Then create a Food token for each creature you control. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.")
 
+## The Beacon of Kahless
+Cost: {2}{r} | Type: Legendary Artifact | Color identity: R | Commander: legal
+Text: {T}: Add one mana of any color.
+  Battlefront — {T}: Choose a color. Add an amount of mana of that color equal to the number of opponents you attacked this turn.
+
 ## The Beamtown Bullies
 Cost: {1}{b}{r}{g} | Type: Legendary Creature — Ogre Devil Warrior | Color identity: BGR | P/T: 4/4 | Commander: legal
 Text: Vigilance, haste
@@ -3668,6 +3678,10 @@ Cost: {2}{w} | Type: Legendary Creature — Human Cleric | Color identity: W | P
 Text: Lifelink
   {W}, {T}: Another target creature you control gains lifelink until end of turn.
   Whenever you gain life, put a +1/+1 counter on target creature you control. If you have a full party, put three +1/+1 counters on that creature instead.
+
+## The Destruction of Praxis
+Cost: {3}{b}{b} | Type: Sorcery | Color identity: B | Commander: legal
+Text: Strange new worlds — All creatures get -X/-X until end of turn, where X is the number of differently named lands you control. If X is 6 or more, create two 2/1 red Klingon Warrior creature tokens with haste.
 
 ## The Doctor, EMH
 Cost: {3}{g/w}{g/w} | Type: Legendary Artifact Creature — Illusion Doctor | Color identity: GW | P/T: 3/3 | Commander: legal
@@ -4559,6 +4573,11 @@ Cost: {1}{w}{b}{g} | Type: Legendary Creature — Plant | Color identity: BGW | 
 Text: Landfall — Whenever a land you control enters, create a 0/1 green Plant creature token. If you control seven or more lands with different names, create a 2/2 black Zombie creature token instead.
   Land cards in your graveyard have dredge 2. (You may return a land card from your graveyard to your hand and mill two cards instead of drawing a card.)
 
+## The Needs of the Many
+Cost: {1}{w} | Type: Instant | Color identity: W | Commander: legal
+Text: As an additional cost to cast this spell, sacrifice a creature.
+  Creatures you control gain hexproof and indestructible until end of turn. You gain hexproof until end of turn. Prevent all damage that would be dealt to you this turn. Exile The Needs of the Many.
+
 ## The Neutrinos
 Cost: {2}{r}{w} | Type: Legendary Creature — Elf Rebel | Color identity: RW | P/T: 2/4 | Commander: legal
 Text: Flying
@@ -4665,6 +4684,10 @@ Text: At the beginning of your upkeep, reveal cards from the top of your library
 Cost: {5} | Type: Legendary Creature — Shapeshifter | Color identity: colorless | P/T: 3/3 | Commander: legal
 Text: If The Prismatic Piper is your commander, choose a color before the game begins. The Prismatic Piper is the chosen color.
   Partner (You can have two commanders if both have partner.)
+
+## The Promise of Kahless
+Cost: {4}{b} | Type: Sorcery | Color identity: B | Commander: legal
+Text: You may sacrifice a Klingon or Warrior. If you do, return all other Klingon and Warrior creature cards from your graveyard to the battlefield.
 
 ## The Prydwen, Steel Flagship
 Cost: {4}{w}{w} | Type: Legendary Artifact — Vehicle | Color identity: W | P/T: 6/6 | Commander: legal
@@ -10518,6 +10541,10 @@ Text: Return all artifact, enchantment, and planeswalker cards from your graveya
 ## Triumphant Surge
 Cost: {3}{w} | Type: Instant | Color identity: W | Commander: legal
 Text: Destroy target creature with power 4 or greater. You gain 3 life.
+
+## Troi, Winging It
+Cost: {3}{w} | Type: Legendary Creature — Betazoid Human Advisor | Color identity: W | P/T: 3/2 | Commander: legal
+Text: Whenever an opponent draws a card during your turn, create a 1/1 blue Faerie creature token with flying.
 
 ## Trokin High Guard
 Cost: {3}{w} | Type: Creature — Human Knight | Color identity: W | P/T: 3/3 | Commander: legal

@@ -4949,6 +4949,11 @@ Ruling (2018-10-05): If you somehow skip the extra turn Chance for Glory gives y
 Cost: {2}{g} | Type: Creature — Elf Warrior | Color identity: G | P/T: 3/2 | Commander: legal
 Text: Whenever you scry, put a +1/+1 counter on this creature. This ability triggers only once each turn.
 
+## Chancellor Gorkon
+Cost: {3}{w}{b} | Type: Legendary Creature — Klingon Noble | Color identity: BW | P/T: 5/3 | Commander: legal
+Text: Vigilance
+  When Chancellor Gorkon dies, exile up to two target creatures.
+
 ## Chancellor of Tales
 Cost: {3}{u} | Type: Creature — Faerie Advisor | Color identity: U | P/T: 2/3 | Commander: legal
 Text: Flying
@@ -6257,6 +6262,10 @@ Ruling (2021-06-18): If there are any legal targets that are not you or permanen
 Ruling (2021-06-18): If there are no legal targets that could be selected, the targets remain unchanged. Note that this may not mean that those targets are illegal as the spell resolves. For example, if an opponent in a two-player game has hexproof and casts Lava Spike targeting you, Chef's Kiss will not be able to change the target. However, this doesn't make you an illegal target, and both the original spell and the copy will still target you and deal 3 damage to you.
 Ruling (2021-06-18): Neither copying a spell nor reselecting its targets counts as casting a spell.
 Ruling (2021-06-18): Note that Chef's Kiss may make some or all of the targets of a spell illegal. For example, any spell an opponent cast that targets a "creature you control" will be unable to find a new legal target, and its target will remain unchanged. In that case, that part of the spell will do nothing. If that was the spell's only target, that spell will be removed from the stack when it tries to resolve.
+
+## Chekov and McCoy
+Cost: {3}{g}{u} | Type: Legendary Creature — Human Pilot Doctor | Color identity: GU | P/T: 3/3 | Commander: legal
+Text: Whenever you put one or more +1/+1 counters on Chekov and McCoy, you may draw that many cards. Do this only once each turn.
 
 ## Chelonian Tackle
 Cost: {2}{g} | Type: Sorcery | Color identity: G | Commander: legal
@@ -8549,6 +8558,11 @@ Ruling (2024-06-07): While it appears only on cards that already have other card
 Cost: {1}{w}{b} | Type: Legendary Creature — Human Hero | Color identity: BW | P/T: 2/2 | Commander: legal
 Text: Deathtouch, lifelink
   When Cloak and Dagger enter, choose target opponent and up to one target creature they control. They reveal their hand. You may exile a nonland card from their hand or the chosen creature until Cloak and Dagger leave the battlefield.
+
+## Cloak and Phaser
+Cost: {8}{u} | Type: Sorcery | Color identity: U | Commander: legal
+Text: Strange new worlds — This spell costs {X} less to cast, where X is the number of differently named lands you control.
+  Create two 2/2 black Romulan creature tokens. Draw two cards, then discard a card.
 
 ## Cloak of Confusion
 Cost: {1}{b} | Type: Enchantment — Aura | Color identity: B | Commander: legal
@@ -16302,6 +16316,12 @@ Ruling (2010-08-15): Activating Cudgel Troll's ability causes a "regeneration sh
 Ruling (2010-08-15): If Cudgel Troll is dealt lethal damage and is dealt damage by a source with deathtouch during the same combat damage step, a single regeneration shield will save it.
 Ruling (2010-08-15): To work, the regeneration shield must be created before Cudgel Troll is destroyed. This usually means activating its ability during the declare blockers step, or in response to a spell or ability that would destroy it.
 
+## Culber and Stamets, Star-Crossed
+Cost: {3}{g} | Type: Legendary Creature Human Doctor Artificer | Color identity: G | P/T: 3/4 | Commander: legal
+Text: When Culber and Stamets enter, choose one —
+  • Put a +1/+1 counter on target creature.
+  • Add two mana of any one color.
+
 ## Culling Dais
 Cost: {2} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: {T}, Sacrifice a creature: Put a charge counter on this artifact.
@@ -17325,6 +17345,11 @@ Text: Undaunted (This spell costs {1} less to cast for each opponent.)
 Ruling (2016-11-08): Causing an opponent to lose the game after you've announced that you're casting a spell with undaunted and determined its total cost won't cause you to have to pay more mana.
 Ruling (2016-11-08): Effects that reduce what you pay to cast a spell don't affect its mana value.
 Ruling (2016-11-08): You can't cast Curtains' Call without two creatures to target. If one becomes an illegal target after you've cast Curtains' Call, the other will still be destroyed.
+
+## Curzon Dax, Bound by Blood
+Cost: {2}{r}{w} | Type: Legendary Creature — Trill Warrior | Color identity: RW | P/T: 4/3 | Commander: legal
+Text: Whenever another Klingon or Warrior you control dies, Curzon Dax deals 1 damage to each opponent.
+  When Curzon Dax dies, you may put a creature card with mana value 3 or less from your hand onto the battlefield.
 
 ## Custodi Lich
 Cost: {3}{b}{b} | Type: Creature — Zombie Cleric | Color identity: B | P/T: 4/2 | Commander: legal

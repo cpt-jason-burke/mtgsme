@@ -5775,6 +5775,10 @@ Cost: {r} | Type: Creature — Goblin Pirate | Color identity: R | P/T: 1/1 | Co
 Text: First strike
   Raid — This creature enters with a +1/+1 counter on it if you attacked this turn.
 
+## Right of Vengeance
+Cost: {3}{w} | Type: Instant | Color identity: W | Commander: legal
+Text: Until end of turn, whenever a creature deals combat damage to you, destroy that creature and create a 2/1 red Klingon Warrior creature token with haste.
+
 ## Righteous Aura
 Cost: {1}{w} | Type: Enchantment | Color identity: W | Commander: legal
 Text: {W}, Pay 2 life: The next time a source of your choice would deal damage to you this turn, prevent that damage.
@@ -6432,6 +6436,10 @@ Cost: {1}{r}{w} | Type: Legendary Creature — Human Samurai | Color identity: R
 Text: Haste
   Whenever Risona deals combat damage to a player, if it doesn't have an indestructible counter on it, put an indestructible counter on it.
   Whenever combat damage is dealt to you, remove an indestructible counter from Risona.
+
+## Rite of Ascension
+Cost: {2}{r}{w} | Type: Enchantment | Color identity: RW | Commander: legal
+Text: Battlefront — Whenever you attack, for each opponent you attacked this turn, create a tapped and attacking 2/1 red Klingon Warrior creature token with haste.
 
 ## Rite of Belzenlok
 Cost: {2}{b}{b} | Type: Enchantment — Saga | Color identity: B | Commander: legal

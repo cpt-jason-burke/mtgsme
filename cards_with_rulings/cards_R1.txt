@@ -8756,6 +8756,10 @@ Text: First strike
 Ruling (2024-11-08): Raid abilities care only that you attacked with a creature. It doesn't matter how many creatures you attacked with or which player, planeswalker, or battle those creatures attacked.
 Ruling (2024-11-08): Raid abilities evaluate the entire turn to see if you attacked with a creature. That creature doesn't have to still be on the battlefield. Similarly, the player, planeswalker, or battle it attacked doesn't have to still be in the game or on the battlefield.
 
+## Right of Vengeance
+Cost: {3}{w} | Type: Instant | Color identity: W | Commander: legal
+Text: Until end of turn, whenever a creature deals combat damage to you, destroy that creature and create a 2/1 red Klingon Warrior creature token with haste.
+
 ## Righteous Aura
 Cost: {1}{w} | Type: Enchantment | Color identity: W | Commander: legal
 Text: {W}, Pay 2 life: The next time a source of your choice would deal damage to you this turn, prevent that damage.
@@ -9668,6 +9672,10 @@ Text: Haste
   Whenever Risona deals combat damage to a player, if it doesn't have an indestructible counter on it, put an indestructible counter on it.
   Whenever combat damage is dealt to you, remove an indestructible counter from Risona.
 Ruling (2022-02-18): Removing the indestructible counter from Risona may cause it to die if it has taken lethal damage, usually because it blocked in the same combat that you took damage.
+
+## Rite of Ascension
+Cost: {2}{r}{w} | Type: Enchantment | Color identity: RW | Commander: legal
+Text: Battlefront — Whenever you attack, for each opponent you attacked this turn, create a tapped and attacking 2/1 red Klingon Warrior creature token with haste.
 
 ## Rite of Belzenlok
 Cost: {2}{b}{b} | Type: Enchantment — Saga | Color identity: B | Commander: legal

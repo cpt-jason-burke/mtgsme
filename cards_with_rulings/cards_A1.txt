@@ -1018,6 +1018,11 @@ Cost: {3}{u} | Type: Creature — Human Wizard | Color identity: U | P/T: 0/0 | 
 Text: This creature enters with X +1/+1 counters on it, where X is the number of instant and sorcery cards in all graveyards.
   {2}{U}, Remove a +1/+1 counter from this creature: Draw a card, then discard a card.
 
+## Academy Instructor
+Cost: {2}{r} | Type: Creature — Bolian Officer | Color identity: R | P/T: 0/3 | Commander: legal
+Text: This creature gets +1/+0 for each Officer token you control.
+  Whenever you cast a noncreature spell, create a 1/1 red Officer creature token.
+
 ## Academy Journeymage
 Cost: {4}{u} | Type: Creature — Human Wizard | Color identity: U | P/T: 3/2 | Commander: legal
 Text: This spell costs {1} less to cast if you control a Wizard.
@@ -4639,6 +4644,11 @@ Ruling (2021-03-19): You choose which player or planeswalker the returned creatu
 Cost: {1}{r} | Type: Legendary Creature — Human Hero Villain | Color identity: R | P/T: 1/3 | Commander: legal
 Text: Whenever Alex Wilder or another creature you control enters, if you cast it from anywhere other than your hand, it gets +2/+0 and gains haste until end of turn.
   Escape — {2}{R}, Exile three other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)
+
+## Alexander, Ship's Fool
+Cost: {3}{r}{w} | Type: Legendary Creature — Klingon Human | Color identity: RW | P/T: 3/5 | Commander: legal
+Text: Vigilance, haste
+  {T}: Each player reveals the top card of their library, then draws a card. Alexander deals X damage to a random opponent, where X is the greatest mana value among cards revealed this way.
 
 ## Alexi's Cloak
 Cost: {1}{u} | Type: Enchantment — Aura | Color identity: U | Commander: legal
@@ -12331,6 +12341,10 @@ Ruling (2025-06-06): If the Hero token is destroyed, the Equipment stays on the 
 Ruling (2025-06-06): If the job select ability causes two Hero tokens to be created (due to an effect such as that of Doubling Season), the Equipment becomes attached to only one of them.
 Ruling (2025-06-06): The Hero token enters as a 1/1 creature, then the Equipment becomes attached to it. Abilities that trigger when a creature enters the battlefield see that a 1/1 creature entered the battlefield.
 Ruling (2025-06-06): You may pay the Equipment's equip cost as normal to move it from the Hero token to another creature you control.
+
+## Astute Terraformer
+Cost: {1}{g} | Type: Creature — Vulcan Scientist | Color identity: G | P/T: 2/2 | Commander: legal
+Text: Strange new worlds — {6}: This creature gets +2/+2 until end of turn. This ability costs {X} less to activate, where X is the number of differently named lands you control. Activate only once each turn.
 
 ## Aswan Jaguar
 Cost: {1}{g}{g} | Type: Summon Jaguar | Color identity: G | P/T: 2/2 | Commander: legal

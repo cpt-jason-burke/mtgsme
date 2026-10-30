@@ -3306,6 +3306,11 @@ Text: Creatures you control gain indestructible. Take an extra turn after this o
 Cost: {2}{g} | Type: Creature — Elf Warrior | Color identity: G | P/T: 3/2 | Commander: legal
 Text: Whenever you scry, put a +1/+1 counter on this creature. This ability triggers only once each turn.
 
+## Chancellor Gorkon
+Cost: {3}{w}{b} | Type: Legendary Creature — Klingon Noble | Color identity: BW | P/T: 5/3 | Commander: legal
+Text: Vigilance
+  When Chancellor Gorkon dies, exile up to two target creatures.
+
 ## Chancellor of Tales
 Cost: {3}{u} | Type: Creature — Faerie Advisor | Color identity: U | P/T: 2/3 | Commander: legal
 Text: Flying
@@ -4128,6 +4133,10 @@ Text: Whenever this creature attacks, choose a card name. Spells with the chosen
 ## Chef's Kiss
 Cost: {1}{r}{r} | Type: Instant | Color identity: R | Commander: legal
 Text: Gain control of target spell that targets only a single permanent or player. Copy it, then reselect the targets at random for the spell and the copy. The new targets can't be you or a permanent you control.
+
+## Chekov and McCoy
+Cost: {3}{g}{u} | Type: Legendary Creature — Human Pilot Doctor | Color identity: GU | P/T: 3/3 | Commander: legal
+Text: Whenever you put one or more +1/+1 counters on Chekov and McCoy, you may draw that many cards. Do this only once each turn.
 
 ## Chelonian Tackle
 Cost: {2}{g} | Type: Sorcery | Color identity: G | Commander: legal
@@ -5693,6 +5702,11 @@ Text: Equipped creature gets +2/+0 and has shroud. (It can't be the target of sp
 Cost: {1}{w}{b} | Type: Legendary Creature — Human Hero | Color identity: BW | P/T: 2/2 | Commander: legal
 Text: Deathtouch, lifelink
   When Cloak and Dagger enter, choose target opponent and up to one target creature they control. They reveal their hand. You may exile a nonland card from their hand or the chosen creature until Cloak and Dagger leave the battlefield.
+
+## Cloak and Phaser
+Cost: {8}{u} | Type: Sorcery | Color identity: U | Commander: legal
+Text: Strange new worlds — This spell costs {X} less to cast, where X is the number of differently named lands you control.
+  Create two 2/2 black Romulan creature tokens. Draw two cards, then discard a card.
 
 ## Cloak of Confusion
 Cost: {1}{b} | Type: Enchantment — Aura | Color identity: B | Commander: legal
@@ -10671,6 +10685,12 @@ Text: Mutate {2}{W}{W} (If you cast this spell for its mutate cost, put it over 
 Cost: {2}{g}{g} | Type: Creature — Troll | Color identity: G | P/T: 4/3 | Commander: legal
 Text: {G}: Regenerate this creature. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)
 
+## Culber and Stamets, Star-Crossed
+Cost: {3}{g} | Type: Legendary Creature Human Doctor Artificer | Color identity: G | P/T: 3/4 | Commander: legal
+Text: When Culber and Stamets enter, choose one —
+  • Put a +1/+1 counter on target creature.
+  • Add two mana of any one color.
+
 ## Culling Dais
 Cost: {2} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: {T}, Sacrifice a creature: Put a charge counter on this artifact.
@@ -11279,6 +11299,11 @@ Text: Cast this spell only during combat after blockers are declared.
 Cost: {5}{b} | Type: Instant | Color identity: B | Commander: legal
 Text: Undaunted (This spell costs {1} less to cast for each opponent.)
   Destroy two target creatures.
+
+## Curzon Dax, Bound by Blood
+Cost: {2}{r}{w} | Type: Legendary Creature — Trill Warrior | Color identity: RW | P/T: 4/3 | Commander: legal
+Text: Whenever another Klingon or Warrior you control dies, Curzon Dax deals 1 damage to each opponent.
+  When Curzon Dax dies, you may put a creature card with mana value 3 or less from your hand onto the battlefield.
 
 ## Custodi Lich
 Cost: {3}{b}{b} | Type: Creature — Zombie Cleric | Color identity: B | P/T: 4/2 | Commander: legal

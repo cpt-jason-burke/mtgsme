@@ -1225,6 +1225,10 @@ Text: When this creature enters, put two level counters on each creature you con
 Cost: {3}{w} | Type: Sorcery | Color identity: W | Commander: legal
 Text: Destroy target tapped creature.
 
+## Vengeance Mission
+Cost: {2}{b} | Type: Enchantment | Color identity: B | Commander: legal
+Text: Whenever a creature dies, put a quest counter on this enchantment. Target opponent loses 1 life. That player loses 2 life instead if there are seven or more quest counters on this enchantment.
+
 ## Vengeant Earth
 Cost: {1}{g} | Type: Instant | Color identity: G | Commander: legal
 Text: Target creature or land you control becomes a 4/4 Elemental creature with haste in addition to its other types until end of turn. It must be blocked this turn if able.
@@ -3919,6 +3923,11 @@ Cost: {6} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: At the beginning of your upkeep, put a pin counter on this artifact.
   At the beginning of your end step, if this artifact is untapped, destroy this artifact and it deals damage to you equal to the number of pin counters on it.
   {X}{X}, {T}: This artifact deals damage equal to the number of pin counters on it to any target. X is the number of pin counters on this artifact.
+
+## Voq, Torchbearer
+Cost: {3}{b} | Type: Legendary Creature — Klingon Spy | Color identity: B | P/T: 4/3 | Commander: legal
+Text: Menace
+  ChoH'a' — You may have Voq enter as a copy of a creature card in a graveyard, except he's a Klingon Spy in addition to his other types and has menace.
 
 ## Voracious Bibliophile
 Cost: {3}{u} | Type: Creature — Dragon | Color identity: U | P/T: 3/3 | Commander: legal

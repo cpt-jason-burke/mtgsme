@@ -1477,6 +1477,13 @@ Cost: {2}{u} | Type: Artifact Creature — Phyrexian Myr | Color identity: U | P
 Text: {2}: This creature gains flying until end of turn.
   {2}, Sacrifice this creature: Draw a card.
 
+## Sarcophagus, Ship of the Dead
+Cost: {2}{r} | Type: Legendary Artifact — Spacecraft | Color identity: R | P/T: 4/4 | Commander: legal
+Text: Other creatures you control get +1/+0.
+  Whenever a creature dies, if Sarcophagus isn't a creature, put a charge counter on it.
+  Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 10+.)
+  10+ | Flying
+
 ## Sardian Avenger
 Cost: {1}{r} | Type: Creature — Goblin Warrior | Color identity: R | P/T: 1/1 | Commander: legal
 Text: First strike, trample
@@ -1486,6 +1493,10 @@ Text: First strike, trample
 ## Sardian Cliffstomper
 Cost: {1}{r} | Type: Creature — Minotaur Barbarian | Color identity: R | P/T: 0/4 | Commander: legal
 Text: As long as it's your turn and you control four or more Mountains, this creature gets +X/+0, where X is the number of Mountains you control.
+
+## Sarek, Federation Ambassador
+Cost: {1}{g}{w}{u} | Type: Legendary Creature — Vulcan Advisor | Color identity: GUW | P/T: 0/5 | Commander: legal
+Text: Federation — At the beginning of combat on your turn, draw a card for every five creature types among non-Borg creatures you control. If you draw three or more cards this way, put two +1/+1 counters on each creature you control.
 
 ## Sarevok's Tome
 Cost: {4} | Type: Artifact — Book | Color identity: colorless | Commander: legal
@@ -1624,6 +1635,11 @@ Text: As this artifact enters, choose white Citizen, blue Camarid, black Thrull,
 Cost: {r} | Type: Artifact Creature — Goblin | Color identity: R | P/T: 1/1 | Commander: legal
 Text: Haste
   {3}{R}, Sacrifice this creature: It deals 4 damage to target creature.
+
+## Saru, Unthreatened
+Cost: {2}{g} | Type: Legendary Creature — Kelpien Officer | Color identity: G | P/T: 3/2 | Commander: legal
+Text: Flash
+  When Saru enters, another target creature you control gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)
 
 ## Sarulf's Packmate
 Cost: {3}{g} | Type: Creature — Wolf | Color identity: G | P/T: 3/3 | Commander: legal
@@ -2845,6 +2861,10 @@ Text: Target creature gets -3/-3 until end of turn.
 Cost: {3}{b} | Type: Legendary Creature — Scorpion Human Villain | Color identity: B | P/T: 3/3 | Commander: legal
 Text: Deathtouch
   At the beginning of your end step, if a creature died this turn, target creature you control connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)
+
+## Scotty, Chief Engineer
+Cost: {3}{u} | Type: Legendary Creature — Human Artificer | Color identity: U | P/T: 3/4 | Commander: legal
+Text: Tap an untapped artifact you control: Target creature can't be blocked this turn.
 
 ## Scotty, Miracle Worker
 Cost: {1}{u}{u} | Type: Legendary Creature — Human Artificer | Color identity: U | P/T: 2/3 | Commander: legal
@@ -9199,6 +9219,13 @@ Text: Enchant player
   At the beginning of your upkeep, put a judgment counter on this Aura. Then if there are three or more judgment counters on it, enchanted player loses the game.
   If Sinner's Judgment would be put into a graveyard from anywhere, exile it instead.
 
+## Sins of the Father
+Cost: {3}{b}{r} | Type: Enchantment — Saga | Color identity: BR | Commander: legal
+Text: (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+  I — Each opponent sacrifices a nontoken creature of their choice.
+  II — For each opponent, you create a 2/1 red Klingon Warrior creature token with haste.
+  III — Exile target player's graveyard. Each opponent loses life equal to the number of creature cards exiled this way.
+
 ## Sins of the Past
 Cost: {4}{b}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Until end of turn, you may cast target instant or sorcery card from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead. Exile Sins of the Past.
@@ -15422,6 +15449,10 @@ Cost: {3}{u}{u} | Type: Legendary Creature — Vulcan Human Scientist | Color id
 Text: Vigilance (Attacking doesn't cause this creature to tap.)
   {T}: Draw a card.
 
+## Spock, Voice of Reason
+Cost: {2}{u} | Type: Legendary Creature — Vulcan Human Scientist | Color identity: U | P/T: 3/2 | Commander: legal
+Text: {2}, {T}: Draw a card for each nontoken permanent you control that entered this turn.
+
 ## Spoils of Adventure
 Cost: {4}{w}{u} | Type: Instant | Color identity: UW | Commander: legal
 Text: This spell costs {1} less to cast for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)
@@ -19410,6 +19441,10 @@ Text: When this creature enters, mill two cards.
 ## Sultai Soothsayer
 Cost: {2}{b}{g}{u} | Type: Creature — Snake Shaman | Color identity: BGU | P/T: 2/5 | Commander: legal
 Text: When this creature enters, look at the top four cards of your library. Put one of them into your hand and the rest into your graveyard.
+
+## Sulu, Heroic Helmsman
+Cost: {1}{w} | Type: Legendary Creature — Human Pilot | Color identity: W | P/T: 2/2 | Commander: legal
+Text: Sulu stations Spacecraft and crews Vehicles as though his power were tripled.
 
 ## Sulu, Space Swashbuckler
 Cost: {1}{w} | Type: Legendary Creature — Human Pilot | Color identity: W | P/T: 2/2 | Commander: legal

@@ -1714,6 +1714,11 @@ Cost: {u}{u}{u} | Type: Creature — Human Wizard | Color identity: U | P/T: 2/2
 Text: Tap an untapped Wizard you control: Counter target spell unless its controller pays {1}.
 Ruling (2004-10-04): Since the cost does not include the {T} symbol, it can tap itself even on the turn it enters.
 
+## Pattern Buffer Preservation
+Cost: {1}{b} | Type: Sorcery | Color identity: B | Commander: legal
+Text: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.
+  Beam me up {1}{B} (You may cast this card from your graveyard for {1}{B} if you also return a creature you control to its owner's hand. Then exile this spell.)
+
 ## Pattern Matcher
 Cost: {4} | Type: Artifact Creature — Golem | Color identity: colorless | P/T: 3/3 | Commander: legal
 Text: When this creature enters, you may search your library for a card with the same name as another creature you control, reveal it, put it into your hand, then shuffle.
@@ -3658,6 +3663,11 @@ Text: Flying, hexproof, prowess
 Cost: {3}{r} | Type: Legendary Creature — Human Hero | Color identity: R | P/T: 2/4 | Commander: legal
 Text: Flying
   Whenever Photon deals combat damage to a player, add that much mana of any one color. Until end of turn, you don't lose this mana as steps and phases end.
+
+## Photosynthetic Physician
+Cost: {4}{g} | Type: Creature — Plant Doctor | Color identity: G | P/T: 5/5 | Commander: legal
+Text: Reach
+  {G}, Exile this card from your graveyard: Create a 1/1 red Officer creature token. Activate only as a sorcery.
 
 ## Phthisis
 Cost: {3}{b}{b}{b}{b} | Type: Sorcery | Color identity: B | Commander: legal

@@ -4984,6 +4984,12 @@ Text: Whenever this creature attacks, Warrior creatures you control gain menace 
 Cost: {1}{w}{b} | Type: Creature — Vampire Knight | Color identity: BW | P/T: 3/2 | Commander: legal
 Text: As long as you control an enchantment, this creature gets +1/+1 and has lifelink. (Damage dealt by this creature also causes you to gain that much life.)
 
+## Blood-Sport Champion
+Cost: {1}{b} | Type: Creature — Klingon Warrior | Color identity: B | P/T: 2/2 | Commander: legal
+Text: Kicker {2} (You may pay an additional {2} as you cast this spell.)
+  Deathtouch
+  When this creature enters, if it was kicked, other creatures you control gain deathtouch until end of turn.
+
 ## Blood-Toll Harpy
 Cost: {2}{b} | Type: Creature — Harpy | Color identity: B | P/T: 2/1 | Commander: legal
 Text: Flying
@@ -5683,6 +5689,11 @@ Text: Look at the top five cards of your library. You may reveal a historic card
 Cost: {3} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: Creatures attacking you get -1/-0.
   At the beginning of each end step, if you were dealt 4 or more damage this turn, exile this artifact.
+
+## Boarding Action
+Cost: {1}{r} | Type: Sorcery | Color identity: R | Commander: legal
+Text: Create a 2/1 red Klingon Warrior creature token with haste.
+  Beam me up {2}{R} (You may cast this card from your graveyard for {2}{R} if you also return a creature you control to its owner's hand. Then exile this spell.)
 
 ## Boarding Party
 Cost: {5}{r} | Type: Creature — Human Pirate | Color identity: R | P/T: 6/3 | Commander: legal

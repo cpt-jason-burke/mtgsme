@@ -1956,6 +1956,10 @@ Ruling (2010-06-15): The abilities a leveler grants to itself don't overwrite an
 Cost: {3}{w} | Type: Sorcery | Color identity: W | Commander: legal
 Text: Destroy target tapped creature.
 
+## Vengeance Mission
+Cost: {2}{b} | Type: Enchantment | Color identity: B | Commander: legal
+Text: Whenever a creature dies, put a quest counter on this enchantment. Target opponent loses 1 life. That player loses 2 life instead if there are seven or more quest counters on this enchantment.
+
 ## Vengeant Earth
 Cost: {1}{g} | Type: Instant | Color identity: G | Commander: legal
 Text: Target creature or land you control becomes a 4/4 Elemental creature with haste in addition to its other types until end of turn. It must be blocked this turn if able.
@@ -6128,6 +6132,11 @@ Text: At the beginning of your upkeep, put a pin counter on this artifact.
 Ruling (2009-10-01): Each X in the cost of Voodoo Doll's third ability is the number of pin counters on Voodoo Doll at the time you activate the ability. The X in the ability's effect is the number of pin counters on Voodoo Doll at the time it resolves, which may not be the same number (if a spell or ability put counters on it or removed counters from it in the meantime). If Voodoo Doll is no longer on the battlefield as the ability resolves, its last existence on the battlefield is checked to see how many pin counters were on it.
 Ruling (2009-10-01): Voodoo Doll's second ability has an "intervening 'if' clause." That means (1) the ability won't trigger at all unless Voodoo Doll is untapped, and (2) the ability will do nothing if Voodoo Doll is tapped by the time it resolves. If Voodoo Doll is no longer on the battlefield as the ability resolves, its last existence on the battlefield is checked to see if it was tapped or untapped.
 Ruling (2011-01-01): Voodoo Doll's second ability causes it to be destroyed regardless of whether it actually deals damage to you or not. Voodoo Doll is destroyed even if all the damage is prevented or redirected.
+
+## Voq, Torchbearer
+Cost: {3}{b} | Type: Legendary Creature — Klingon Spy | Color identity: B | P/T: 4/3 | Commander: legal
+Text: Menace
+  ChoH'a' — You may have Voq enter as a copy of a creature card in a graveyard, except he's a Klingon Spy in addition to his other types and has menace.
 
 ## Voracious Bibliophile
 Cost: {3}{u} | Type: Creature — Dragon | Color identity: U | P/T: 3/3 | Commander: legal

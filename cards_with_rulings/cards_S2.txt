@@ -1,3 +1,15 @@
+## Spring-Leaf Avenger
+Cost: {3}{g}{g} | Type: Creature — Insect Ninja | Color identity: G | P/T: 6/5 | Commander: legal
+Text: Ninjutsu {3}{G} ({3}{G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+  Whenever this creature deals combat damage to a player, return target permanent card from your graveyard to your hand.
+Ruling (2022-02-18): Although the Ninja is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
+Ruling (2022-02-18): As you activate a ninjutsu ability, you reveal the Ninja card in your hand and return the attacking creature. The Ninja card stays revealed and isn't put onto the battlefield until the ability resolves. If it leaves your hand before then, it won't enter the battlefield at all.
+Ruling (2022-02-18): If a creature in combat has first strike or double strike, you can activate the ninjutsu ability during the first-strike combat damage step. The Ninja will deal combat damage during the regular combat damage step, even if it has first strike.
+Ruling (2022-02-18): Puff of smoke not included.
+Ruling (2022-02-18): The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player or planeswalker it's attacking.
+Ruling (2022-02-18): The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. In most cases (see below), if you wait until the combatdamage step or end of combat step, it will be after combat damage has been dealt, so the Ninja won't deal combat damage.
+Ruling (2022-02-18): The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+
 ## Spring-Loaded Sawblades
 Cost: {1}{w} | Type: Artifact | Color identity: W | Commander: legal
 Faces: Spring-Loaded Sawblades // Bladewheel Chariot (transform)
@@ -5617,6 +5629,10 @@ Text: When this creature enters, mill two cards.
 ## Sultai Soothsayer
 Cost: {2}{b}{g}{u} | Type: Creature — Snake Shaman | Color identity: BGU | P/T: 2/5 | Commander: legal
 Text: When this creature enters, look at the top four cards of your library. Put one of them into your hand and the rest into your graveyard.
+
+## Sulu, Heroic Helmsman
+Cost: {1}{w} | Type: Legendary Creature — Human Pilot | Color identity: W | P/T: 2/2 | Commander: legal
+Text: Sulu stations Spacecraft and crews Vehicles as though his power were tripled.
 
 ## Sulu, Space Swashbuckler
 Cost: {1}{w} | Type: Legendary Creature — Human Pilot | Color identity: W | P/T: 2/2 | Commander: legal

@@ -1632,6 +1632,11 @@ Text: Flying
   • Target creature gets +1/+1 until end of turn.
   • Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
 
+## Federation Resupply
+Cost: {1}{w} | Type: Sorcery | Color identity: W | Commander: legal
+Text: Search your library for an Aura, Equipment, or Spacecraft card, reveal it, put it into your hand, then shuffle.
+  Beam me up {3}{W} (You may cast this card from your graveyard for {3}{W} if you also return a creature you control to its owner's hand. Then exile this spell.)
+
 ## Feebleness
 Cost: {1}{b} | Type: Enchantment — Aura | Color identity: B | Commander: legal
 Text: Flash
@@ -2054,6 +2059,11 @@ Text: At the beginning of combat on your turn, choose one —
 ## Ferocious Charge
 Cost: {2}{g} | Type: Instant | Color identity: G | Commander: legal
 Text: Target creature gets +4/+4 until end of turn. Scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)
+
+## Ferocious Colonist
+Cost: {1}{r} | Type: Creature — Klingon Citizen | Color identity: R | P/T: 0/1 | Commander: legal
+Text: Double strike
+  Melee (Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat.)
 
 ## Ferocious Pup
 Cost: {2}{g} | Type: Creature — Wolf | Color identity: G | P/T: 0/1 | Commander: legal
@@ -6701,6 +6711,10 @@ Text: This creature can't be blocked if an artifact entered the battlefield unde
 ## Fugitive Druid
 Cost: {3}{g} | Type: Creature — Human Druid | Color identity: G | P/T: 3/2 | Commander: legal
 Text: Whenever this creature becomes the target of an Aura spell, you draw a card.
+
+## Fugitive Listener
+Cost: {2}{b} | Type: Creature — El-Aurian Scout | Color identity: B | P/T: 3/1 | Commander: legal
+Text: When this creature enters, each opponent discards a card.
 
 ## Fugitive of the Judoon
 Cost: {4}{g} | Type: Enchantment — Saga | Color identity: G | Commander: legal

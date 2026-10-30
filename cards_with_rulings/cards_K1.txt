@@ -11,9 +11,21 @@ Ruling (2019-08-23): You can't pay 2 life to pay for generic mana in costs you p
 Ruling (2024-06-07): A Phyrexian mana symbol contributes 1 toward the mana value of a card, even if life is paid for it. Specifically, K'rrik's mana value is always 7.
 Ruling (2024-06-07): K'rrik's ability lets you pay 2 life for {B} in any cost you pay, including the mana costs of spells, activation costs, and even costs for special actions (such as morph). Any time you pay mana, that's a cost.
 
+## K't'inga-Class Battle Cruiser
+Cost: {3} | Type: Artifact — Spacecraft | Color identity: colorless | P/T: 5/5 | Commander: legal
+Text: Whenever this Spacecraft enters or attacks, one or two target Klingons and/or Warriors you control gain flying until end of turn.
+  Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 4+.)
+  4+ | Flying
+
 ## K'un-Lun Warrior
 Cost: {1}{r} | Type: Creature — Human Warrior Hero | Color identity: R | P/T: 2/2 | Commander: legal
 Text: When this creature enters, you may sacrifice an artifact or discard a card. If you do, draw a card.
+
+## K'Vort-Class Raider
+Cost: {4} | Type: Artifact — Spacecraft | Color identity: colorless | P/T: 5/3 | Commander: legal
+Text: During your turn, this Spacecraft and creatures you control have hexproof.
+  Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 4+.)
+  4+ | Flying, menace, haste
 
 ## K-9, Mark I
 Cost: {u} | Type: Legendary Artifact Creature — Robot Dog | Color identity: U | P/T: 1/1 | Commander: legal
@@ -716,6 +728,11 @@ Text: Flying
 Cost: {2}{u}{u} | Type: Legendary Creature — Human Villain | Color identity: U | P/T: 4/5 | Commander: legal
 Text: Flying
   Power-up — {5}{U}{U}{U}: Put a +1/+1 counter on Kang. Take an extra turn after this one. During that turn, power-up abilities can't be activated. (Activate each power-up ability only once. Reduce the cost by his mana cost if he entered this turn.)
+
+## Kang, Suspicious Captain
+Cost: {3}{r} | Type: Legendary Creature — Klingon Warrior Officer | Color identity: R | P/T: 4/4 | Commander: legal
+Text: When Kang enters, choose target creature an opponent controls. Kang and that creature are goaded for as long as you control Kang. (They attack each combat if able and attack a player other than you if able.)
+  Whenever one or more goaded creatures attack, put a +1/+1 counter on target creature you control.
 
 ## Kang, Temporal Tyrant
 Cost: {2}{u}{b} | Type: Legendary Creature — Human Villain | Color identity: BU | P/T: 3/4 | Commander: legal
@@ -3825,6 +3842,10 @@ Cost: {3}{r} | Type: Legendary Creature — Human Officer | Color identity: R | 
 Text: Menace (This creature can't be blocked except by two or more creatures.)
   Whenever Kirk attacks while creatures you control have total power 8 or greater, exile the top card of your library. You may play that card this turn.
 
+## Kirk, Man of Action
+Cost: {2}{g}{w}{u} | Type: Legendary Creature — Human Officer | Color identity: GUW | P/T: 3/3 | Commander: legal
+Text: Other Officers, Artificers, Doctors, Pilots, Scientists, and Spacecraft creatures you control get +2/+2.
+
 ## Kirol, Attentive First-Year
 Cost: {1}{r/w}{r/w} | Type: Legendary Creature — Vampire Cleric | Color identity: RW | P/T: 3/3 | Commander: legal
 Text: Tap two untapped creatures you control: Copy target triggered ability you control. You may choose new targets for the copy. Activate only once each turn.
@@ -5337,6 +5358,10 @@ Text: This creature gets +2/+2 for each Aura attached to it.
 Ruling (2010-06-15): If you cast an Aura spell, Kor Spiritdancer's second ability triggers and goes on the stack on top of it. The ability will resolve before the spell does.
 Ruling (2010-06-15): The second ability triggers when you cast any Aura spell, not just one that targets Kor Spiritdancer.
 
+## Kor, Cause of Vengeance
+Cost: {1}{r}{w}{b} | Type: Legendary Creature — Klingon Warrior Officer | Color identity: BRW | P/T: 4/4 | Commander: legal
+Text: Whenever you attack, you may sacrifice another creature. If you do, draw a card, then Klingons and Warriors you control get +2/+2 until end of turn.
+
 ## Korlash, Heir to Blackblade
 Cost: {2}{b}{b} | Type: Legendary Creature — Zombie Warrior | Color identity: B | P/T: */* | Commander: legal
 Text: Korlash's power and toughness are each equal to the number of Swamps you control.
@@ -6456,6 +6481,11 @@ Ruling (2014-07-18): If paying the activation cost of the ability includes sacri
 Ruling (2014-07-18): If the ability has {X} in its cost, the value of X is copied.
 Ruling (2014-07-18): If the ability is modal (that is, it says "Choose one —" or the like), the copy will have the same mode. You can't choose a different one.
 Ruling (2014-07-18): The copy will have the same targets as the ability it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+
+## Kurn, Son of Mogh
+Cost: {2}{b} | Type: Legendary Creature — Klingon Warrior Officer | Color identity: B | P/T: 2/3 | Commander: legal
+Text: Deathtouch
+  Battlefront — Whenever Kurn attacks, you draw X cards and lose X life, where X is the number of opponents you attacked this turn.
 
 ## Kuro's Taken
 Cost: {1}{b} | Type: Creature — Rat Samurai | Color identity: B | P/T: 1/1 | Commander: legal
