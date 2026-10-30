@@ -91,8 +91,14 @@ def edhrec():
 
 
 def reddit():
-    data = json.loads(get("https://www.reddit.com/r/magicTCG/hot.json?limit=40&raw_json=1"))
-    return parse_reddit(data)
+    # Reddit often refuses cloud servers; try the JSON listing, then the RSS feed (no flairs there, so leaks are guessed from titles).
+    try:
+        return parse_reddit(json.loads(get("https://www.reddit.com/r/magicTCG/hot.json?limit=40&raw_json=1")))
+    except Exception:
+        items = parse_feed(get("https://www.reddit.com/r/magicTCG/hot/.rss"), "r/magicTCG")
+        for i in items:
+            i["leak"] = "leak" in i["title"].lower()
+        return items
 
 
 def parse_reddit(data):

@@ -639,7 +639,8 @@
     const tabs = [["wizards", "Wizards"], ["edhrec", "EDHREC"], ["reddit", "Community"]];
     h += '<section class="block"><h2>News</h2><div class="chips" style="padding-top:0">' + tabs.map(([k, l]) => '<button class="chip' + (HOME.tab === k ? " on" : "") + '" data-ntab="' + k + '">' + l + "</button>").join("") +
       (HOME.tab === "reddit" ? '<button class="chip' + (HOME.leaks ? " on" : "") + '" data-leaks>' + (HOME.leaks ? "Showing leaks" : "Leaks hidden") + "</button>" : "") + "</div>";
-    const s = src[HOME.tab];
+    const s = HOME.tab === "reddit" && HOME.reddit ? HOME.reddit : src[HOME.tab];
+    if (HOME.tab === "reddit" && !(s && s.items && s.items.length) && !HOME.redditTried) loadRedditHere();
     let items = (s && s.items) || [];
     if (HOME.tab === "reddit" && !HOME.leaks) items = items.filter((i) => !i.leak);
     if (!HOME.news) h += '<div class="d">News loads with the next data refresh.</div>';
@@ -651,6 +652,22 @@
     const car = $("#cdcar");
     if (car) car.addEventListener("scroll", () => { const i = Math.round(car.scrollLeft / car.clientWidth); document.querySelectorAll(".cddots i").forEach((d, j) => d.classList.toggle("on", i === j)); }, { passive: true });
     if (!HOME.timer) HOME.timer = setInterval(tickHome, 1000);
+  }
+  // If the refresh job could not reach Reddit, ask from this device instead.
+  async function loadRedditHere() {
+    HOME.redditTried = true;
+    try {
+      const r = await fetch("https://www.reddit.com/r/magicTCG/hot.json?limit=40&raw_json=1");
+      if (!r.ok) throw new Error("Reddit answered " + r.status);
+      const j = await r.json();
+      const items = j.data.children.map((c) => c.data).filter((p) => !p.stickied).slice(0, 25).map((p) => {
+        const flair = p.link_flair_text || "";
+        return { title: p.title, link: "https://www.reddit.com" + p.permalink, date: new Date(p.created_utc * 1000).toISOString(), source: "r/magicTCG", flair,
+          leak: /leak/i.test(flair) || /leak/i.test((p.title || "").slice(0, 40)), comments: p.num_comments, img: /^https?:/.test(p.thumbnail || "") ? p.thumbnail : "" };
+      });
+      HOME.reddit = { ok: true, items, error: "" };
+    } catch (e) { HOME.reddit = { ok: false, items: [], error: String(e.message || e) }; }
+    if (HOME.shown && HOME.tab === "reddit") renderHome();
   }
   function ago(t) {
     const m = Math.round((Date.now() - new Date(t)) / 60000);
