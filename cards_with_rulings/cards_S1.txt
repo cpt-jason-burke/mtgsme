@@ -22,6 +22,13 @@ Text: Equipped creature gets +1/+1.
   Whenever equipped creature attacks alone, untap it and scry 1. (Look at the top card of your library. You may put that card on the bottom.)
   Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 
+## S.S. Botany Bay
+Cost: {3} | Type: Legendary Artifact — Spacecraft | Color identity: colorless | P/T: 3/5 | Commander: legal
+Text: {T}: Each opponent exiles a card from their graveyard. You may exile a card from your graveyard.
+  Station
+  8+ | Flying
+  Whenever S.S. Botany Bay deals combat damage to a player, return each creature card you own exiled with it to the battlefield.
+
 ## Saavik, Stoic Student
 Cost: {4}{w} | Type: Legendary Creature — Vulcan Advisor | Color identity: W | P/T: 2/2 | Commander: legal
 Text: Flash
@@ -1115,6 +1122,10 @@ Text: Flash
   Whenever this creature or another Bird you control enters, exile up to one target creature you control without flying. Return it to the battlefield under its owner's control with a flying counter on it at the beginning of the next end step.
 Ruling (2024-07-26): If a token is exiled this way, it will cease to exist and won't return to the battlefield.
 Ruling (2024-07-26): Once the exiled permanent returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled permanent will be put into their owners' graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
+
+## Sam Kirk, Xenoanthropologist
+Cost: {3}{u} | Type: Legendary Creature — Human Scientist | Color identity: U | P/T: 3/3 | Commander: legal
+Text: Whenever an opponent casts a creature spell, investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
 
 ## Sam's Desperate Rescue
 Cost: {b} | Type: Sorcery | Color identity: B | Commander: legal
@@ -11634,6 +11645,13 @@ Cost: {2}{w} | Type: Creature — Human Officer | Color identity: W | P/T: 1/1 |
 Text: Flying (This creature can't be blocked except by creatures with flying or reach.)
   When this creature enters, it deals 4 damage to target tapped creature an opponent controls.
 
+## Shuttlecraft Galileo
+Cost: {3}{w} | Type: Legendary Artifact — Spacecraft | Color identity: W | P/T: 3/3 | Commander: legal
+Text: Landfall — Whenever a land you control enters, create a 1/1 red Officer creature token.
+  Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 6+.)
+  6+ | Flying
+  Whenever Shuttlecraft Galileo attacks, up to seven target attacking creatures gain flying until end of turn.
+
 ## Shyft
 Cost: {4}{u} | Type: Creature — Shapeshifter | Color identity: U | P/T: 4/2 | Commander: legal
 Text: At the beginning of your upkeep, you may have this creature become the color or colors of your choice. (This effect lasts indefinitely.)
@@ -20102,6 +20120,12 @@ Text: Choose two —
   • Dash Attack — Put two +1/+1 counters on target attacking or blocking creature you control.
   • Foot Toss — Target creature you control deals damage equal to its power to any other target. Then sacrifice it.
 
+## Species 8472
+Cost: {4}{g}{g} | Type: Creature — Insect Beast | Color identity: G | P/T: 7/5 | Commander: legal
+Text: Strange new worlds — When this creature enters, you gain life equal to the number of differently named lands you control.
+  This creature can't be blocked by artifact creatures.
+  This creature can't be the target of abilities from artifact sources your opponents control.
+
 ## Species Gorger
 Cost: {3}{g}{u} | Type: Creature — Frog Beast | Color identity: GU | P/T: 6/6 | Commander: legal
 Text: At the beginning of your upkeep, return a creature you control to its owner's hand.
@@ -22838,17 +22862,3 @@ Ruling (2017-04-18): If you cast the first half of a split card with aftermath d
 Ruling (2017-04-18): Split cards with aftermath have a new frame treatment—the half you can cast from your hand is oriented the same as other cards you'd cast from your hand, while the half you can cast from your graveyard is a traditional split card half. This frame treatment is for your convenience and has no rules significance.
 Ruling (2017-04-18): While not on the stack, the characteristics of a split card are the combination of its two halves. For example, Destined // Lead is a green and black card, it is both an instant card and a sorcery card, and its mana value is 6. This means that if an effect allows you to cast a card with mana value 2 from your hand, you can't cast Destined. This is a change from the previous rules for split cards.
 Ruling (2017-07-14): Once you've started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
-
-## Spring Cleaning
-Cost: {1}{g} | Type: Instant | Color identity: G | Commander: legal
-Text: Destroy target enchantment. Clash with an opponent. If you win, destroy all enchantments your opponents control. (Each clashing player reveals the top card of their library, then puts that card on their choice of the top or bottom. A player wins if their card had a greater mana value.)
-Ruling (2007-10-01): If you win the clash, you destroy all enchantments all of your opponents control, not just enchantments controlled by the opponent you clashed with.
-Ruling (2013-09-20): If you win the clash and the targeted enchantment is controlled by an opponent, it will be destroyed a second time if it's still on the battlefield (for instance, if it somehow regenerated).
-
-## Spring of Eternal Peace
-Cost: {3}{g}{g} | Type: Sorcery | Color identity: G | Commander: legal
-Text: You gain 8 life.
-
-## Spring Splasher
-Cost: {1}{u} | Type: Creature — Frog Beast | Color identity: U | P/T: 2/1 | Commander: legal
-Text: Whenever this creature attacks, target creature defending player controls gets -3/-0 until end of turn.

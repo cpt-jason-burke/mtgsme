@@ -4490,6 +4490,11 @@ Ruling (2007-02-01): Your maximum hand size is checked only during the cleanup s
 Ruling (2009-10-01): If multiple effects modify your hand size, apply them in timestamp order. For example, if you put Spellbook (an artifact that says you have no maximum hand size) onto the battlefield and then put Recycle onto the battlefield, your maximum hand size will be two. However, if those permanents entered in the opposite order, you would have no maximum hand size.
 Ruling (2018-07-13): To play a card means to play a land or to cast a spell that's a card (and not a copy of a card).
 
+## Red Alert!
+Cost: {2}{r} | Type: Instant | Color identity: R | Commander: legal
+Text: This spell costs {2} less to cast if a creature is attacking you.
+  Creatures you control get +2/+0 until end of turn.
+
 ## Red Cliffs Armada
 Cost: {4}{u} | Type: Creature — Human Soldier | Color identity: U | P/T: 5/4 | Commander: legal
 Text: This creature can't attack unless defending player controls an Island.
@@ -11069,6 +11074,11 @@ Ruling (2015-08-25): If you cast a spell with converge without spending any mana
 Ruling (2015-08-25): The maximum number of colors of mana you can spend to cast a spell is five. Colorless is not a color. Note that the cost of a spell with converge may limit how many colors of mana you can spend.
 Ruling (2015-08-25): Unless a spell or ability allows you to, you can't choose to pay more mana for a spell with a converge ability just to spend more colors of mana. Likewise, if a spell or ability reduces the amount of mana it costs you to cast a spell with converge, you can't ignore that cost reduction in order to spend more colors of mana.
 Ruling (2015-08-25): You can cast Roilmage's Trick even if your opponents control no creatures. You'll simply draw a card.
+
+## Rok-Tahk, Budding Scientist
+Cost: {4}{g}{g} | Type: Legendary Creature — Brikar Scientist | Color identity: G | P/T: 5/5 | Commander: legal
+Text: Creatures you control have "{T}: Add {G}{G}."
+  When Rok-Tahk enters, create Murf, a legendary 0/1 green Ooze Slug creature token with indestructible.
 
 ## Roku's Mastery
 Cost: {x}{r}{r} | Type: Instant | Color identity: R | Commander: legal

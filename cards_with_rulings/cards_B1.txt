@@ -462,6 +462,12 @@ Cost: {3}{u}{u} | Type: Sorcery | Color identity: U | Commander: legal
 Text: If target opponent has more cards in hand than you, draw cards equal to the difference.
 Ruling (2004-10-04): The number of cards is counted during resolution.
 
+## Balance of Terror
+Cost: {2}{w} | Type: Enchantment — Saga | Color identity: W | Commander: legal
+Text: (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+  I — Destroy up to one other target artifact or enchantment.
+  II, III — Exile up to one other target permanent you control. Return that card to the battlefield under its owner's control at the beginning of the next end step.
+
 ## Balancing Act
 Cost: {2}{w}{w} | Type: Sorcery | Color identity: W | Commander: legal
 Text: Each player chooses a number of permanents they control equal to the number of permanents controlled by the player who controls the fewest, then sacrifices the rest. Each player discards cards the same way.
@@ -11494,6 +11500,10 @@ Text: When Brawn enters, draw a card.
 Cost: {2}{r} | Type: Creature — Orc Pirate | Color identity: R | P/T: 2/3 | Commander: legal
 Text: Whenever this creature attacks while you control two or more artifacts, it gets +2/+1 until end of turn.
 Ruling (2023-11-10): If you controlled at least two artifacts when you declared Brazen Blademaster as an attacker, it doesn't matter how many you control as its ability resolves. Brazen Blademaster will still get +2/+1 until end of turn.
+
+## Brazen Bluff
+Cost: {r}{r} | Type: Instant | Color identity: R | Commander: legal
+Text: Choose target noncreature spell an opponent controls. That player may exile it. If they don't, you may cast a noncreature spell from your hand without paying its mana cost.
 
 ## Brazen Borrower
 Cost: {1}{u}{u} | Type: Creature — Faerie Rogue | Color identity: U | P/T: 3/1 | Commander: legal

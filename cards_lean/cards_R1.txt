@@ -3059,6 +3059,11 @@ Text: Skip your draw step.
   Whenever you play a card, draw a card.
   Your maximum hand size is two.
 
+## Red Alert!
+Cost: {2}{r} | Type: Instant | Color identity: R | Commander: legal
+Text: This spell costs {2} less to cast if a creature is attacking you.
+  Creatures you control get +2/+0 until end of turn.
+
 ## Red Cliffs Armada
 Cost: {4}{u} | Type: Creature — Human Soldier | Color identity: U | P/T: 5/4 | Commander: legal
 Text: This creature can't attack unless defending player controls an Island.
@@ -7329,6 +7334,11 @@ Text: Return up to two target creatures your opponents control to their owners' 
 Cost: {3}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Converge — Creatures your opponents control get -X/-0 until end of turn, where X is the number of colors of mana spent to cast this spell.
   Draw a card.
+
+## Rok-Tahk, Budding Scientist
+Cost: {4}{g}{g} | Type: Legendary Creature — Brikar Scientist | Color identity: G | P/T: 5/5 | Commander: legal
+Text: Creatures you control have "{T}: Add {G}{G}."
+  When Rok-Tahk enters, create Murf, a legendary 0/1 green Ooze Slug creature token with indestructible.
 
 ## Roku's Mastery
 Cost: {x}{r}{r} | Type: Instant | Color identity: R | Commander: legal

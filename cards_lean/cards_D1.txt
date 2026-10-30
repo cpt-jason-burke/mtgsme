@@ -6051,6 +6051,10 @@ Text: Enchant artifact creature
 Cost: {3}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Target player gains control of up to three target nonattacking creatures until end of turn. Untap those creatures. They block this turn if able.
 
+## Dominion Infiltration
+Cost: {x}{r}{r}{r} | Type: Sorcery | Color identity: R | Commander: legal
+Text: Choose X target creatures your opponents control. For each of them, create a token that's a copy of that creature, except it has changeling. Those tokens gain haste. Exile those tokens at the beginning of the next end step. (They're every creature type.)
+
 ## Dominion Saboteur
 Cost: {4}{u} | Type: Creature — Shapeshifter | Color identity: U | P/T: 3/3 | Commander: legal
 Text: You may have this creature enter as a copy of any artifact or creature on the battlefield, except it isn't legendary. If you do, it enters with additional counters on it equal to the same number and kinds of counters the copied permanent has on it.

@@ -12,6 +12,10 @@ Text: Whenever T'Challa enters or attacks, create a tapped Vibranium token. (It'
 Cost: {4}{u} | Type: Legendary Creature — Vulcan Scientist | Color identity: U | P/T: 4/3 | Commander: legal
 Text: When T'Pol enters, tap target creature an opponent controls and put two stun counters on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
 
+## T'Pring, Never Parted
+Cost: {3}{g}{u} | Type: Legendary Creature — Vulcan Citizen | Color identity: GU | P/T: 3/3 | Commander: legal
+Text: Kal-if-fee — When T'Pring enters, choose another target creature you control and target creature an opponent controls. You may have the chosen creatures fight each other. Whenever a creature that fought this way dies this turn, you draw a card.
+
 ## T-45 Power Armor
 Cost: {2} | Type: Artifact — Equipment | Color identity: colorless | Commander: legal
 Text: When this Equipment enters, you get {E}{E} (two energy counters).
@@ -4112,6 +4116,11 @@ Text: Menace, trample, lifelink, hexproof
 Cost: {3}{b} | Type: Legendary Artifact | Color identity: B | Commander: legal
 Text: {T}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
   {T}: Until end of turn, each creature card in your graveyard gains "Escape—{3}{B}, Exile four other cards from your graveyard." (You may cast a card with escape from your graveyard for its escape cost.)
+
+## The Guardian of Forever
+Cost: {3} | Type: Legendary Artifact Creature — Construct | Color identity: colorless | P/T: 0/6 | Commander: legal
+Text: Defender
+  {4}, Sacrifice another nontoken creature: Return that card to the battlefield under its owner's control at the beginning of the next end step.
 
 ## The Haunt of Hightower
 Cost: {4}{b}{b} | Type: Legendary Creature — Vampire | Color identity: B | P/T: 3/3 | Commander: legal
@@ -9633,6 +9642,11 @@ Cost: {3}{u} | Type: Artifact Creature — Phyrexian Artificer | Color identity:
 Text: Whenever this creature or another artifact you control enters, you may draw a card. If you do, discard a card.
   {2}: Put target card from your graveyard on the bottom of your library.
 
+## Transporter Malfunction
+Cost: {1}{r} | Type: Sorcery | Color identity: R | Commander: legal
+Text: Transporter Malfunction deals 3 damage to any target.
+  Beam me up {3}{R}{R}{R} (You may cast this card from your graveyard for {3}{R}{R}{R} if you also return a creature you control to its owner's hand. Then exile this spell.)
+
 ## Transpose
 Cost: {2}{b} | Type: Instant | Color identity: B | Commander: legal
 Text: Draw a card, then discard a card. You lose 1 life. If this spell was cast from your hand, create a 0/1 black Wizard creature token with "Whenever you cast a noncreature spell, this token deals 1 damage to each opponent."
@@ -10270,6 +10284,11 @@ Text: This creature has trample as long as you control a Beast, haste as long as
 ## Tribal Unity
 Cost: {x}{2}{g} | Type: Instant | Color identity: G | Commander: legal
 Text: Creatures of the creature type of your choice get +X/+X until end of turn.
+
+## Tribble Cluster
+Cost: {2}{w} | Type: Creature — Tribble | Color identity: W | P/T: 1/1 | Commander: legal
+Text: At the beginning of combat on your turn, put a +1/+1 counter on this creature.
+  When this creature dies, create X 1/1 white Tribble creature tokens with "This token can't block," where X is this creature's power.
 
 ## Tribune of Rot
 Cost: {1}{b/g}{b/g} | Type: Creature — Elf Shaman | Color identity: BG | P/T: 3/3 | Commander: legal

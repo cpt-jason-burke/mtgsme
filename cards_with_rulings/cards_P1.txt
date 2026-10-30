@@ -1747,6 +1747,10 @@ Ruling (2024-01-12): Tapping an untapped creature that's attacking or blocking t
 Ruling (2024-01-12): When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
 Ruling (2024-01-12): You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
 
+## Pavel Chekov, First Posting
+Cost: {2}{g}{u} | Type: Legendary Creature — Human Pilot | Color identity: GU | P/T: 1/4 | Commander: legal
+Text: If you would draw a card, you may instead choose land or nonland and reveal cards from the top of your library until you reveal a card of the chosen kind. Put that card into your hand and put all other cards revealed this way on the bottom of your library in a random order.
+
 ## Pavel Maliki
 Cost: {4}{b}{r} | Type: Legendary Creature — Human | Color identity: BR | P/T: 5/3 | Commander: legal
 Text: {B}{R}: Pavel Maliki gets +1/+0 until end of turn.
@@ -5491,6 +5495,12 @@ Ruling (2004-10-04): When cast, the card goes to its owner's graveyard after it 
 Cost: {2}{b} | Type: Enchantment | Color identity: B | Commander: legal
 Text: {3}{B}: Target opponent reveals a card at random from their hand. Target creature gets -X/-X until end of turn, where X is the revealed card's mana value. Activate only as a sorcery.
 Ruling (2004-10-04): If the opponent has no cards in hand, then X is zero.
+
+## Planet Killer
+Cost: {8} | Type: Artifact Creature — Construct | Color identity: colorless | P/T: 9/9 | Commander: legal
+Text: Flying, indestructible
+  This creature attacks each combat if able.
+  Whenever this creature deals combat damage to a player, put a +1/+1 counter on it for each land that player controls.
 
 ## Planetarium of Wan Shi Tong
 Cost: {6} | Type: Legendary Artifact | Color identity: colorless | Commander: legal

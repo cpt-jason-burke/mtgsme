@@ -3013,10 +3013,19 @@ Cost: {2}{u} | Type: Legendary Artifact Creature — Android Scientist | Color i
 Text: Whenever a player casts a noncreature spell, put a +1/+1 counter on Lieutenant Commander Data.
   {1}, Remove three counters from among creatures you control: Draw a card.
 
+## Lieutenant Hikaru Sulu
+Cost: {2}{g} | Type: Legendary Creature — Human Pilot | Color identity: GU | P/T: 3/3 | Commander: legal
+Text: Whenever Lieutenant Sulu becomes tapped, he explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
+  {2}{U}: Target creature can't be blocked this turn.
+
 ## Lieutenant Kirtar
 Cost: {1}{w}{w} | Type: Legendary Creature — Bird Soldier | Color identity: W | P/T: 2/2 | Commander: legal
 Text: Flying
   {1}{W}, Sacrifice Lieutenant Kirtar: Exile target attacking creature.
+
+## Lieutenant Nyota Uhura
+Cost: {2}{u} | Type: Legendary Creature — Human Officer | Color identity: U | P/T: 2/3 | Commander: legal
+Text: Strange new worlds — {4}, {T}: Target opponent exiles the top X cards of their library, where X is the number of differently named lands you control. You may cast an instant or sorcery spell from among them without paying its mana cost. Then that player puts the rest on the bottom of their library in a random order.
 
 ## Lieutenants of the Guard
 Cost: {4}{w} | Type: Creature — Human Soldier | Color identity: W | P/T: 2/2 | Commander: legal
@@ -6714,6 +6723,12 @@ Text: Flying
 Ruling (2022-06-10): "Any target that isn't a commander" includes any player, as well as any creature or planeswalker that isn't a commander.
 Ruling (2022-06-10): If you cast a non-Dragon permanent spell that has an Adventure (rather than the Adventure itself) Lozhan's triggered ability will not trigger.
 Ruling (2022-06-10): The mana value of an Adventure spell is the based on the mana cost of the Adventure, not the mana cost of the permanent card that has the Adventure.
+
+## Lt. Arex, Ever-Adapting
+Cost: {5}{g}{u} | Type: Legendary Creature — Edosian Officer | Color identity: GU | P/T: */* | Commander: legal
+Text: Trample
+  Strange new worlds — Lt. Arex's power and toughness are each equal to the number of differently named lands you control.
+  When Lt. Arex enters, draw three cards. You may put up to three land cards from your hand onto the battlefield tapped.
 
 ## Lt. Cmdr. Geordi La Forge
 Cost: {2}{u} | Type: Legendary Creature — Human Artificer | Color identity: U | P/T: 3/2 | Commander: legal

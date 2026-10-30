@@ -2,6 +2,13 @@
 Cost: {3}{w/b} | Type: Legendary Creature — Human Soldier Hero | Color identity: BW | P/T: 3/2 | Commander: legal
 Text: When U.S.Agent enters, create a colorless Equipment artifact token named Sturdy Shield with "Equipped creature gets +1/+2" and equip {2}. Attach it to U.S.Agent.
 
+## U.S.S. Defiant, Mirror Migrant
+Cost: {2} | Type: Legendary Artifact — Spacecraft | Color identity: colorless | P/T: 5/5 | Commander: legal
+Text: Flash
+  When U.S.S. Defiant enters, it and up to one target creature you control phase out. (Treat them and anything attached to them as though they don't exist until your next turn.)
+  Station
+  8+ | Flying
+
 ## U.S.S. Defiant, Tough Little Ship
 Cost: {6} | Type: Legendary Artifact — Spacecraft | Color identity: colorless | P/T: 7/4 | Commander: legal
 Text: When U.S.S. Defiant enters, destroy up to one target artifact or enchantment.
@@ -45,6 +52,12 @@ Text: When U.S.S. Excelsior enters, destroy target tapped creature an opponent c
   Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 8+.)
   8+ | Flying
 
+## U.S.S. Farragut, Bold Explorer
+Cost: {6} | Type: Legendary Artifact — Spacecraft | Color identity: colorless | P/T: 4/4 | Commander: legal
+Text: Landfall — Whenever a land you control enters, you may put a creature card from your hand onto the battlefield. That creature gains haste. At the beginning of the next end step, put it on the bottom of your library. When you do, draw a card.
+  Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 7+.)
+  7+ | Flying
+
 ## U.S.S. Prometheus, Prototype
 Cost: {5} | Type: Legendary Artifact — Spacecraft | Color identity: colorless | P/T: 6/6 | Commander: legal
 Text: Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 4+.)
@@ -62,6 +75,12 @@ Cost: {3} | Type: Legendary Artifact — Spacecraft | Color identity: colorless 
 Text: Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 6+.)
   6+ | Flying
   Picard Maneuver — Whenever U.S.S. Stargazer attacks, create a tapped and attacking 4/3 colorless Spacecraft Illusion artifact creature token with flying. Exile that token at end of combat.
+
+## U.S.S. Voyager, Lone Wanderer
+Cost: {3}{g} | Type: Legendary Artifact — Spacecraft | Color identity: G | P/T: 3/3 | Commander: legal
+Text: When U.S.S. Voyager enters, reveal cards from the top of your library until you reveal two land cards. Put those land cards onto the battlefield tapped and the rest on the bottom of your library in a random order.
+  Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 8+.)
+  8+ | Flying, vigilance
 
 ## Uba Mask
 Cost: {4} | Type: Artifact | Color identity: colorless | Commander: legal

@@ -445,6 +445,10 @@ Text: Each Beast, Camel, Horse, Elephant, and Wolf creature you control is a Mou
 Cost: {3} | Type: Artifact Creature — Construct | Color identity: colorless | P/T: 3/2 | Commander: legal
 Text: Whenever this creature attacks, untap all creatures defending player controls.
 
+## Janice Rand, Essential Aide
+Cost: {3}{g} | Type: Legendary Creature — Human Advisor | Color identity: G | P/T: 3/3 | Commander: legal
+Text: Whenever a commander you control enters or attacks, put a +1/+1 counter on it, then reveal cards from the top of your library until you reveal a land card. Put that card onto the battlefield tapped and the rest on the bottom of your library in a random order.
+
 ## Janjeet Sentry
 Cost: {2}{u} | Type: Creature — Vedalken Soldier | Color identity: U | P/T: 2/3 | Commander: legal
 Text: When this creature enters, you get {E}{E} (two energy counters).
@@ -650,6 +654,12 @@ Text: When this creature enters, you may goad target creature. (Until your next 
 Cost: {1}{r} | Type: Creature — Goblin Rogue | Color identity: R | P/T: 2/1 | Commander: legal
 Text: Morph {2}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
   When this creature is turned face up, if it's your turn, gain control of another target creature until end of turn. Untap that creature. It gains haste until end of turn.
+
+## Jefferies Tube
+Cost: {1} | Type: Artifact | Color identity: colorless | Commander: legal
+Text: {2}, {T}: Put two charge counters on target artifact.
+  {3}, {T}: Target creature you control can't be blocked this turn.
+  {4}, {T}: Draw a card. You may put a land card from your hand onto the battlefield tapped.
 
 ## Jegantha, the Wellspring
 Cost: {4}{r/g} | Type: Legendary Creature — Elemental Elk | Color identity: BGRUW | P/T: 5/5 | Commander: legal

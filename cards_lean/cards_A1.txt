@@ -3510,6 +3510,11 @@ Cost: {w}{b} | Type: Legendary Creature — Vampire Scout | Color identity: BW |
 Text: Ward—Pay 3 life.
   Whenever you gain life, Amalia Benavides Aguirre explores. Then destroy all other creatures if its power is exactly 20. (To have this creature explore, reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
 
+## Amanda Grayson, Logic's Link
+Cost: {3}{g} | Type: Legendary Creature — Human Advisor | Color identity: G | P/T: 2/3 | Commander: legal
+Text: Affinity for Vulcans (This spell costs {1} less to cast for each Vulcan you control.)
+  Landfall — Whenever a land you control enters, put two +1/+1 counters on target creature you control.
+
 ## Amarant Coral
 Cost: {2}{r}{g} | Type: Legendary Creature — Human Monk | Color identity: GR | P/T: 5/4 | Commander: legal
 Text: Trample
@@ -7197,6 +7202,11 @@ Text: Enchant Equipment
 ## Artificer's Intuition
 Cost: {1}{u} | Type: Enchantment | Color identity: U | Commander: legal
 Text: {U}, Discard an artifact card: Search your library for an artifact card with mana value 1 or less, reveal it, put it into your hand, then shuffle.
+
+## Artificial Anomaly
+Cost: — | Type: Land | Color identity: B | Commander: legal
+Text: {T}: Add {C}.
+  {3}{B}, {T}, Sacrifice this land: Each opponent loses 2 life and you gain 2 life. Create a tapped Planet land token named New Planet with "{T}: Add one mana of any color."
 
 ## Artificial Evolution
 Cost: {u} | Type: Instant | Color identity: U | Commander: legal

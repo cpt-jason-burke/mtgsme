@@ -1,3 +1,17 @@
+## Spring Cleaning
+Cost: {1}{g} | Type: Instant | Color identity: G | Commander: legal
+Text: Destroy target enchantment. Clash with an opponent. If you win, destroy all enchantments your opponents control. (Each clashing player reveals the top card of their library, then puts that card on their choice of the top or bottom. A player wins if their card had a greater mana value.)
+Ruling (2007-10-01): If you win the clash, you destroy all enchantments all of your opponents control, not just enchantments controlled by the opponent you clashed with.
+Ruling (2013-09-20): If you win the clash and the targeted enchantment is controlled by an opponent, it will be destroyed a second time if it's still on the battlefield (for instance, if it somehow regenerated).
+
+## Spring of Eternal Peace
+Cost: {3}{g}{g} | Type: Sorcery | Color identity: G | Commander: legal
+Text: You gain 8 life.
+
+## Spring Splasher
+Cost: {1}{u} | Type: Creature — Frog Beast | Color identity: U | P/T: 2/1 | Commander: legal
+Text: Whenever this creature attacks, target creature defending player controls gets -3/-0 until end of turn.
+
 ## Spring-Leaf Avenger
 Cost: {3}{g}{g} | Type: Creature — Insect Ninja | Color identity: G | P/T: 6/5 | Commander: legal
 Text: Ninjutsu {3}{G} ({3}{G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
@@ -531,6 +545,10 @@ Ruling (2010-08-15): You may target any creature with Stabbing Pain. It's okay i
 Cost: {2} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: Players can't cycle cards.
 Ruling (2004-10-04): This affects both Cycling and Landcycling.
+
+## Stable Wormhole
+Cost: {2}{g} | Type: Enchantment | Color identity: G | Commander: legal
+Text: Whenever you attack, create a tapped Planet land token named New Planet with "{T}: Add one mana of any color."
 
 ## Stabwhisker the Odious
 Cost: {1}{b} | Type: Legendary Creature — Rat Shaman | Color identity: B | P/T: 3/3 | Commander: legal

@@ -3,6 +3,10 @@ Cost: {1}{g}{g} | Type: Legendary Creature — Human Noble Warrior | Color ident
 Text: At the beginning of your end step, if there is no monarch, target opponent becomes the monarch.
   Whenever a creature attacks one of your opponents, if that player is the monarch, that creature gets +1/+1 and gains trample until end of turn.
 
+## M'Ress, Crew Coordinator
+Cost: {4}{w} | Type: Legendary Creature — Caitian Officer | Color identity: W | P/T: 4/4 | Commander: legal
+Text: Landfall — Whenever a land you control enters, create two 1/1 red Officer creature tokens.
+
 ## M.O.D.O.K.
 Cost: {3}{b}{b} | Type: Legendary Artifact Creature — Villain | Color identity: B | P/T: 2/2 | Commander: legal
 Text: Flying, lifelink
@@ -4531,6 +4535,11 @@ Text: Whenever an enchanted creature attacks one of your opponents, it gets +2/+
   Whenever an Aura you control is put into your graveyard from the battlefield, exile it. Until the end of your next turn, you may cast that card.
 Ruling (2022-06-10): In some unusual cases, the Aura put into your graveyard isn't an Aura card. This may happen due to copy effects, for example. In these cases, you'll still exile the card and you may cast it.
 Ruling (2022-06-10): You must still pay all costs and follow all timing rules when casting the card from exile.
+
+## McCoy, Not a Bricklayer
+Cost: {3}{g}{w} | Type: Legendary Creature — Human Doctor | Color identity: GW | P/T: 0/4 | Commander: legal
+Text: Whenever McCoy or another Doctor you control enters, put a +1/+1 counter on each creature you control.
+  Creatures you control with counters on them have lifelink.
 
 ## Me, the Immortal
 Cost: {2}{g}{u}{r} | Type: Legendary Creature — Human Rogue | Color identity: GRU | P/T: 3/3 | Commander: legal

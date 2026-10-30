@@ -2451,6 +2451,11 @@ Cost: {2}{r/g}{r/g} | Type: Creature — Insect | Color identity: GR | P/T: 4/1 
 Text: ({R/G} can be paid with either {R} or {G}.)
   Trample; haste; shroud (This creature can't be the target of spells or abilities.)
 
+## Giant Space Amoeba
+Cost: {4}{u} | Type: Creature — Germ | Color identity: U | P/T: 3/3 | Commander: legal
+Text: Flying
+  Whenever this creature attacks, target creature defending player controls gets -3/-0 until end of turn, then create a token that's a copy of this creature.
+
 ## Giant Spectacle
 Cost: {1}{r} | Type: Enchantment — Aura | Color identity: R | Commander: legal
 Text: Enchant creature

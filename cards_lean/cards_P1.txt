@@ -1166,6 +1166,10 @@ Cost: {2}{g} | Type: Instant | Color identity: G | Commander: legal
 Text: Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
   Prevent all combat damage that would be dealt this turn.
 
+## Pavel Chekov, First Posting
+Cost: {2}{g}{u} | Type: Legendary Creature — Human Pilot | Color identity: GU | P/T: 1/4 | Commander: legal
+Text: If you would draw a card, you may instead choose land or nonland and reveal cards from the top of your library until you reveal a card of the chosen kind. Put that card into your hand and put all other cards revealed this way on the bottom of your library in a random order.
+
 ## Pavel Maliki
 Cost: {4}{b}{r} | Type: Legendary Creature — Human | Color identity: BR | P/T: 5/3 | Commander: legal
 Text: {B}{R}: Pavel Maliki gets +1/+0 until end of turn.
@@ -3664,6 +3668,12 @@ Text: {3}{U}: Target opponent reveals a card at random from their hand. If it's 
 ## Planeswalker's Scorn
 Cost: {2}{b} | Type: Enchantment | Color identity: B | Commander: legal
 Text: {3}{B}: Target opponent reveals a card at random from their hand. Target creature gets -X/-X until end of turn, where X is the revealed card's mana value. Activate only as a sorcery.
+
+## Planet Killer
+Cost: {8} | Type: Artifact Creature — Construct | Color identity: colorless | P/T: 9/9 | Commander: legal
+Text: Flying, indestructible
+  This creature attacks each combat if able.
+  Whenever this creature deals combat damage to a player, put a +1/+1 counter on it for each land that player controls.
 
 ## Planetarium of Wan Shi Tong
 Cost: {6} | Type: Legendary Artifact | Color identity: colorless | Commander: legal

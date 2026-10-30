@@ -4166,10 +4166,18 @@ Text: Deathtouch
 Cost: {1}{u} | Type: Creature — Vedalken Artificer | Color identity: U | P/T: 1/3 | Commander: legal
 Text: Artifact spells you cast have convoke. (Your creatures can help cast those spells. Each creature you tap while casting an artifact spell pays for {1} or one mana of that creature's color.)
 
+## Chief Kyle, Transporter Tech
+Cost: {2}{w}{u} | Type: Legendary Creature — Human Artificer | Color identity: UW | P/T: 3/2 | Commander: legal
+Text: Landfall — Whenever a land you control enters, exile up to one other target creature you control. Return that card to the battlefield under its owner's control at the beginning of the next end step.
+
 ## Chief Magistrate of Mercadia
 Cost: {4}{r}{w} | Type: Legendary Creature — Human Noble | Color identity: RW | P/T: 3/3 | Commander: legal
 Text: When Chief Magistrate of Mercadia enters, you become the monarch.
   At the beginning of your upkeep, create a 2/1 red Goblin creature token with haste. Then if you're the monarch, for each creature token you control, create a token that's a copy of it.
+
+## Chief Montgomery Scott
+Cost: {2}{g}{u} | Type: Legendary Creature — Human Artificer | Color identity: GU | P/T: 3/3 | Commander: legal
+Text: Strange new worlds — {6}, {T}: You may put a creature or Spacecraft card from your hand onto the battlefield. It enters with X additional +1/+1 counters on it if it's a creature and X additional charge counters on it if it's a Spacecraft, where X is the number of differently named lands you control.
 
 ## Chief of the Edge
 Cost: {w}{b} | Type: Creature — Human Warrior | Color identity: BW | P/T: 3/2 | Commander: legal
@@ -6709,6 +6717,10 @@ Text: Reach, trample
 Cost: {5}{g} | Type: Creature — Badger | Color identity: G | P/T: 6/5 | Commander: legal
 Faces: Colossal Badger // Dig Deep (adventure)
 Text: When this creature enters, you gain 3 life.
+
+## Colossal Clone Master
+Cost: {5}{u} | Type: Creature — Giant | Color identity: U | P/T: 0/0 | Commander: legal
+Text: Strange new worlds — You may have this creature enter as a copy of any creature on the battlefield, except it isn't legendary and it has "This creature's power and toughness are each equal to the number of differently named lands you control."
 
 ## Colossal Collision
 Cost: {3}{g} | Type: Sorcery | Color identity: G | Commander: legal
@@ -10686,7 +10698,7 @@ Cost: {2}{g}{g} | Type: Creature — Troll | Color identity: G | P/T: 4/3 | Comm
 Text: {G}: Regenerate this creature. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)
 
 ## Culber and Stamets, Star-Crossed
-Cost: {3}{g} | Type: Legendary Creature Human Doctor Artificer | Color identity: G | P/T: 3/4 | Commander: legal
+Cost: {3}{g} | Type: Legendary Creature — Human Doctor Artificer | Color identity: G | P/T: 3/4 | Commander: legal
 Text: When Culber and Stamets enter, choose one —
   • Put a +1/+1 counter on target creature.
   • Add two mana of any one color.
