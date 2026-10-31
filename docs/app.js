@@ -566,11 +566,11 @@
   }
 
   // ---------- homepage: Search before anything is typed ----------
-  const HOME = { sets: null, events: null, news: null, spoilers: null, leaks: false, tab: "wizards", timer: null, shown: false };
+  const HOME = { sets: null, events: null, news: null, announced: null, spoilers: null, leaks: false, tab: "wizards", timer: null, shown: false };
   const shortDate = (d) => { const x = new Date(d + "T00:00:00"); return x.toLocaleDateString(undefined, { month: "short", day: "numeric", year: x.getFullYear() === new Date().getFullYear() ? undefined : "numeric" }); };
   async function loadHome() {
     const get = (f) => fetch("data/" + f + DATA_V).then((x) => (x.ok ? x.json() : null)).catch(() => null);
-    [HOME.sets, HOME.events, HOME.news] = await Promise.all([get("sets.json"), get("events.json"), get("news.json")]);
+    [HOME.sets, HOME.events, HOME.news, HOME.announced] = await Promise.all([get("sets.json"), get("events.json"), get("news.json"), get("announced.json")]);
     if (HOME.shown) renderHome();
     loadSpoilers();
   }
@@ -603,12 +603,25 @@
     const up = (HOME.sets || []).filter((s) => !s.h && s.d > TODAY).sort((a, b) => (a.d < b.d ? -1 : a.d > b.d ? 1 : 0));
     const groups = [];
     for (const s of up) { let g = groups.find((x) => x.d === s.d); if (!g) groups.push((g = { d: s.d, sets: [] })); g.sets.push(s); }
+    // announced sets with no cards in the data yet get their own banner, until a matching set appears
+    const names = (HOME.sets || []).map((s) => s.n.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""));
+    for (const a of (HOME.announced && HOME.announced.sets) || []) {
+      if (a.date <= TODAY) continue;
+      const inData = a.match.some((m) => names.some((n) => n.includes(m.normalize("NFD").replace(/[\u0300-\u036f]/g, ""))));
+      if (inData) continue;
+      let g = groups.find((x) => x.d === a.date);
+      if (!g) groups.push((g = { d: a.date, sets: [] }));
+      (g.ann = g.ann || []).push(a);
+    }
+    groups.sort((a, b) => (a.d < b.d ? -1 : a.d > b.d ? 1 : 0));
     const rankK = { main: 0, commander: 2 };
     groups.forEach((g) => g.sets.sort((a, b) => (rankK[a.k] ?? 1) - (rankK[b.k] ?? 1)));
     let h = "";
     // one countdown banner per upcoming release date
     if (groups.length) {
       h += '<div class="cdcar" id="cdcar">' + groups.map((g) => {
+        if (!g.sets.length) return '<a class="cdban ann" href="' + esc(g.ann[0].link) + '" target="_blank" rel="noopener"><div class="cdtop"><div class="sym"><span class="symcode">NEW</span></div><div class="cdname"><small>Announced \u00B7 ' + esc(shortDate(g.d)) + "</small><b>" + g.ann.map((a) => esc(a.name)).join(" + ") + "</b></div></div>" +
+          '<div class="cdclock" data-cd="' + g.d + '">' + countdown(g.d) + '</div><div class="cdfoot">' + esc(g.ann.map((a) => a.about).join(" \u00B7 ")) + " \u00B7 no cards revealed yet \u00B7 tap for the announcement</div></a>";
         const main = g.sets.find((s) => s.k === "main") || g.sets[0];
         return '<div class="cdban" data-hset="' + esc(main.c) + '"><div class="cdtop">' + g.sets.map((s) => symbol(s.c)).join("") + '<div class="cdname"><small>Next release · ' + esc(shortDate(g.d)) + "</small><b>" + g.sets.map((s) => esc(s.n)).join(" + ") + "</b></div></div>" +
           '<div class="cdclock" data-cd="' + g.d + '">' + countdown(g.d) + '</div><div class="cdfoot">' + g.sets.reduce((a, s) => a + s.t, 0) + " cards revealed so far · tap to browse</div></div>";
