@@ -9825,6 +9825,10 @@ Ruling (2014-11-24): If you sacrifice an attacking or blocking creature during t
 Ruling (2014-11-24): Players can respond to Collateral Damage only after it's been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to stop you from casting this spell.
 Ruling (2014-11-24): You must sacrifice exactly one creature to cast this spell; you can't cast it without sacrificing a creature, and you can't sacrifice additional creatures.
 
+## Collation Trimatrix
+Cost: {b} | Type: Artifact Creature — Borg | Color identity: B | P/T: 1/1 | Commander: legal
+Text: Tap three untapped artifact creatures you control: You draw a card and lose 1 life.
+
 ## Collected Company
 Cost: {3}{g} | Type: Instant | Color identity: G | Commander: legal
 Text: Look at the top six cards of your library. Put up to two creature cards with mana value 3 or less from among them onto the battlefield. Put the rest on the bottom of your library in any order.
@@ -10231,6 +10235,12 @@ Cost: {4}{u} | Type: Enchantment — Aura | Color identity: U | Commander: legal
 Text: Enchant artifact or creature
   Enchanted permanent doesn't untap during its controller's untap step.
 Ruling (2008-10-01): Coma Veil may target and may enchant an untapped artifact or creature.
+
+## Combadge
+Cost: {3} | Type: Artifact — Communicator Equipment | Color identity: colorless | Commander: legal
+Text: When you cast this spell, copy it. (The copy becomes a token.)
+  Equipped creature has "Whenever this creature attacks while you control another creature with a Communicator attached to it, this creature can't be blocked this turn."
+  Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 
 ## Combat Calligrapher
 Cost: {3}{w} | Type: Creature — Bird Cleric | Color identity: W | P/T: 3/3 | Commander: legal

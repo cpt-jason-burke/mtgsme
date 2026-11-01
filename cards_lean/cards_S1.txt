@@ -2066,6 +2066,11 @@ Cost: {1}{b}{g} | Type: Creature — Human Warrior | Color identity: BG | P/T: 3
 Text: Whenever this creature attacks or blocks, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.")
   Sacrifice two Foods: Draw a card.
 
+## Savvy Profiteer
+Cost: {1}{r} | Type: Creature — Ferengi Rogue | Color identity: R | P/T: 2/1 | Commander: legal
+Text: {T}: Add {R}.
+  {3}, {T}: Create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
+
 ## Savvy Trader
 Cost: {3}{g} | Type: Creature — Human Citizen | Color identity: G | P/T: 3/3 | Commander: legal
 Text: When this creature enters, exile target permanent card from your graveyard. You may play that card for as long as it remains exiled.
@@ -7989,6 +7994,11 @@ Text: Flash
 ## Sick and Tired
 Cost: {2}{b} | Type: Instant | Color identity: B | Commander: legal
 Text: Two target creatures each get -1/-1 until end of turn.
+
+## Sickbay
+Cost: {5} | Type: Artifact | Color identity: colorless | Commander: legal
+Text: Whenever a creature you control enters, you gain 1 life.
+  At the beginning of combat on your turn, put X +1/+1 counters on target creature you control, where X is one plus the amount of life you gained this turn.
 
 ## Sickbay Orderly
 Cost: {2}{w} | Type: Creature — Caitian Doctor | Color identity: W | P/T: 3/2 | Commander: legal
@@ -16492,6 +16502,11 @@ Text: When you cast this spell, copy it. (The copy becomes a token.)
 Cost: {1}{w} | Type: Creature — Officer | Color identity: W | P/T: 2/3 | Commander: legal
 Text: 
 
+## Starfleet Security
+Cost: {r} | Type: Creature — Human Officer | Color identity: R | P/T: 1/1 | Commander: legal
+Text: Haste
+  When this creature dies during your turn, investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
+
 ## Starfleet Spanner Jockey
 Cost: {1}{u} | Type: Creature — Human Artificer | Color identity: U | P/T: 3/3 | Commander: legal
 Text: Defender
@@ -18507,6 +18522,12 @@ Cost: {3}{r}{g} | Type: Legendary Creature — Alien Cleric | Color identity: GR
 Text: Vigilance, trample
   Grenades! — {2}, {T}, Sacrifice an artifact: Choose a player at random. When you do, Strax fights another target creature that player controls.
   Glory of Battle — Whenever Strax deals damage to a creature, put a +1/+1 counter on Strax.
+
+## Stray from History
+Cost: {2}{b} | Type: Sorcery | Color identity: B | Commander: legal
+Text: Choose one —
+  • Rewrite the Past — Return one or two target creature and/or Spacecraft cards from your graveyard to your hand.
+  • Repair the Timeline — Target opponent reveals their hand. You choose a nonland card from it. Exile that card.
 
 ## Streaking Oilgorger
 Cost: {4}{b} | Type: Creature — Vampire | Color identity: B | P/T: 3/3 | Commander: legal

@@ -3063,6 +3063,11 @@ Ruling (2024-11-08): If an effect refers to a Food, it means any Food artifact, 
 Ruling (2024-11-08): Whatever you do, don't eat the delicious cards.
 Ruling (2024-11-08): You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
 
+## Savvy Profiteer
+Cost: {1}{r} | Type: Creature — Ferengi Rogue | Color identity: R | P/T: 2/1 | Commander: legal
+Text: {T}: Add {R}.
+  {3}, {T}: Create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
+
 ## Savvy Trader
 Cost: {3}{g} | Type: Creature — Human Citizen | Color identity: G | P/T: 3/3 | Commander: legal
 Text: When this creature enters, exile target permanent card from your graveyard. You may play that card for as long as it remains exiled.
@@ -11736,6 +11741,11 @@ Ruling (2022-10-07): You may pay the squad cost any number of times. You will ge
 Cost: {2}{b} | Type: Instant | Color identity: B | Commander: legal
 Text: Two target creatures each get -1/-1 until end of turn.
 Ruling (2004-10-04): Must target two different creatures.
+
+## Sickbay
+Cost: {5} | Type: Artifact | Color identity: colorless | Commander: legal
+Text: Whenever a creature you control enters, you gain 1 life.
+  At the beginning of combat on your turn, put X +1/+1 counters on target creature you control, where X is one plus the amount of life you gained this turn.
 
 ## Sickbay Orderly
 Cost: {2}{w} | Type: Creature — Caitian Doctor | Color identity: W | P/T: 3/2 | Commander: legal
@@ -22847,18 +22857,3 @@ Text: Enchant land
   When this Aura enters, draw a card.
   Enchanted land is an Island.
 Ruling (2009-10-01): The enchanted land loses its existing land types and any abilities printed on it. It now has the land type Island and has the ability to tap to produce {U}. Spreading Seas doesn't change the enchanted land's name or whether it's legendary, basic, or snow.
-
-## Spring
-Cost: {2}{g} | Type: Sorcery | Color identity: GU | Commander: legal
-Faces: Spring // Mind (aftermath)
-Text: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
-Ruling (2017-04-18): A spell with aftermath cast from a graveyard will always be exiled afterward, whether it resolves, it's countered, or it leaves the stack in some other way.
-Ruling (2017-04-18): All split cards have two card faces on a single card, and you put a split card onto the stack with only the half you're casting. The characteristics of the half of the card you didn't cast are ignored while the spell is on the stack. For example, if an effect prevents you from casting green spells, you can cast Destined of Destined // Lead, but not Lead.
-Ruling (2017-04-18): Each split card has two names. If an effect instructs you to choose a card name, you may choose one, but not both.
-Ruling (2017-04-18): Each split card is a single card. For example, if you discard one, you've discarded one card, not two. If an effect counts the number of instant and sorcery cards in your graveyard, Destined // Lead counts once, not twice.
-Ruling (2017-04-18): If another effect allows you to cast a split card with aftermath from a graveyard, you may cast either half. If you cast the half that has aftermath, you'll exile the card if it would leave the stack.
-Ruling (2017-04-18): If another effect allows you to cast a split card with aftermath from any zone other than a graveyard, you can't cast the half with aftermath.
-Ruling (2017-04-18): If you cast the first half of a split card with aftermath during your turn, you'll have priority immediately after it resolves. You can cast the half with aftermath from your graveyard before any player can take any other action if it's legal for you to do so.
-Ruling (2017-04-18): Split cards with aftermath have a new frame treatment—the half you can cast from your hand is oriented the same as other cards you'd cast from your hand, while the half you can cast from your graveyard is a traditional split card half. This frame treatment is for your convenience and has no rules significance.
-Ruling (2017-04-18): While not on the stack, the characteristics of a split card are the combination of its two halves. For example, Destined // Lead is a green and black card, it is both an instant card and a sorcery card, and its mana value is 6. This means that if an effect allows you to cast a card with mana value 2 from your hand, you can't cast Destined. This is a change from the previous rules for split cards.
-Ruling (2017-07-14): Once you've started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.

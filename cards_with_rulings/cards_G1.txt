@@ -1387,6 +1387,11 @@ Ruling (2025-02-07): If an effect needs to know what a player's speed is and tha
 Ruling (2025-02-07): Start your engines! isn't a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
 Ruling (2025-02-07): Your speed doesn't change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn't affect your speed.
 
+## Gaseous Anomaly
+Cost: — | Type: Land | Color identity: U | Commander: legal
+Text: {T}: Add {C}.
+  {5}{U}, {T}, Sacrifice this land: Draw two cards. Create a tapped Planet land token named New Planet with "{T}: Add one mana of any color."
+
 ## Gaseous Form
 Cost: {2}{u} | Type: Enchantment — Aura | Color identity: U | Commander: legal
 Text: Enchant creature
@@ -3103,6 +3108,11 @@ Ruling (2022-06-10): If an object becomes a copy of an object that has an Advent
 Ruling (2022-06-10): If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell.
 Ruling (2022-06-10): When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
 Ruling (2022-06-10): You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+
+## Ghost of Illyria
+Cost: {3}{w} | Type: Creature — Elemental Spirit | Color identity: W | P/T: 3/3 | Commander: legal
+Text: Flying
+  When this creature enters, exile up to one other target nonland permanent you control. Return that card to the battlefield under its owner's control at the beginning of the next end step.
 
 ## Ghost of Ramirez DePietro
 Cost: {2}{u} | Type: Legendary Creature — Spirit Pirate | Color identity: U | P/T: 2/3 | Commander: legal
@@ -12529,6 +12539,11 @@ Text: Enchant creature
   Enchanted creature gets +1/-1 and attacks each combat if able.
 Ruling (2012-05-01): If, during its controller's declare attackers step, the enchanted creature is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack, the player isn't forced to pay that cost, so it doesn't have to attack in that case either.
 Ruling (2012-05-01): The controller of the enchanted creature still decides which player or planeswalker the creature attacks.
+
+## Gul Dukat, Colonial Prefect
+Cost: {4}{b}{b}{b} | Type: Legendary Creature — Cardassian Rogue | Color identity: B | P/T: 6/6 | Commander: legal
+Text: Menace
+  At the beginning of each end step, each opponent loses life equal to the life that player lost this turn. You gain life equal to the life lost this way. (Damage causes loss of life.)
 
 ## Gulf Squid
 Cost: {3}{u} | Type: Creature — Squid Beast | Color identity: U | P/T: 2/2 | Commander: legal

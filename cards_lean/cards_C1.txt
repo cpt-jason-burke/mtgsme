@@ -6574,6 +6574,10 @@ Cost: {r} | Type: Instant | Color identity: R | Commander: legal
 Text: As an additional cost to cast this spell, sacrifice a creature.
   Collateral Damage deals 3 damage to any target.
 
+## Collation Trimatrix
+Cost: {b} | Type: Artifact Creature — Borg | Color identity: B | P/T: 1/1 | Commander: legal
+Text: Tap three untapped artifact creatures you control: You draw a card and lose 1 life.
+
 ## Collected Company
 Cost: {3}{g} | Type: Instant | Color identity: G | Commander: legal
 Text: Look at the top six cards of your library. Put up to two creature cards with mana value 3 or less from among them onto the battlefield. Put the rest on the bottom of your library in any order.
@@ -6833,6 +6837,12 @@ Text: During your turn, Colossus has indestructible. (Damage and effects that sa
 Cost: {4}{u} | Type: Enchantment — Aura | Color identity: U | Commander: legal
 Text: Enchant artifact or creature
   Enchanted permanent doesn't untap during its controller's untap step.
+
+## Combadge
+Cost: {3} | Type: Artifact — Communicator Equipment | Color identity: colorless | Commander: legal
+Text: When you cast this spell, copy it. (The copy becomes a token.)
+  Equipped creature has "Whenever this creature attacks while you control another creature with a Communicator attached to it, this creature can't be blocked this turn."
+  Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 
 ## Combat Calligrapher
 Cost: {3}{w} | Type: Creature — Bird Cleric | Color identity: W | P/T: 3/3 | Commander: legal

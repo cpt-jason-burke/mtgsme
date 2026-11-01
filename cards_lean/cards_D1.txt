@@ -6051,6 +6051,13 @@ Text: Enchant artifact creature
 Cost: {3}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Target player gains control of up to three target nonattacking creatures until end of turn. Untap those creatures. They block this turn if able.
 
+## Dominion Assault Force
+Cost: {3}{g} | Type: Creature — Jem'Hadar Warrior | Color identity: G | P/T: 4/4 | Commander: legal
+Text: Vigilance
+  When this creature enters, choose one —
+  • Exile target card from a graveyard.
+  • Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+
 ## Dominion Infiltration
 Cost: {x}{r}{r}{r} | Type: Sorcery | Color identity: R | Commander: legal
 Text: Choose X target creatures your opponents control. For each of them, create a token that's a copy of that creature, except it has changeling. Those tokens gain haste. Exile those tokens at the beginning of the next end step. (They're every creature type.)

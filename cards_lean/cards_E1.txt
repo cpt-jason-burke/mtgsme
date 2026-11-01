@@ -2333,6 +2333,12 @@ Text: {T}: Add {C}.
 Cost: {2}{w} | Type: Instant | Color identity: W | Commander: legal
 Text: Destroy target nonland permanent. Its controller creates a Lander token. (It's an artifact with "{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.")
 
+## Emergency Holographic Crew
+Cost: {3}{u} | Type: Artifact Creature — Illusion Officer | Color identity: U | P/T: 3/4 | Commander: legal
+Text: When this creature enters, choose one —
+  • Return target Spacecraft card from your graveyard to your hand.
+  • Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
+
 ## Emergency Medical Hologram
 Cost: {w} | Type: Artifact Creature — Illusion Doctor | Color identity: W | P/T: 0/1 | Commander: legal
 Text: When this creature enters, put a +1/+1 counter on target creature. You gain 1 life.

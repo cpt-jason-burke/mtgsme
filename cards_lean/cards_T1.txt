@@ -394,6 +394,12 @@ Cost: {2}{r} | Type: Creature — Romulan Scientist | Color identity: R | P/T: 3
 Text: {T}: This creature deals 1 damage to each opponent.
   Whenever you cast a noncreature spell, untap this creature.
 
+## Tal Shiar Operative
+Cost: {1}{b} | Type: Creature — Romulan Officer Spy | Color identity: B | P/T: 2/2 | Commander: legal
+Text: Whenever this creature attacks, choose one —
+  • Target creature you control gains deathtouch until end of turn.
+  • Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+
 ## Talara's Bane
 Cost: {1}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Target opponent reveals their hand. You choose a green or white creature card from it. You gain life equal to that creature card's toughness, then that player discards that card.
@@ -2032,6 +2038,11 @@ Text: This creature can't be blocked by enchanted creatures or enchantment creat
 Cost: {1}{u}{u} | Type: Creature — Human Wizard | Color identity: U | P/T: 1/1 | Commander: legal
 Text: {U}{U}{U}, {T}: Return target permanent to its owner's hand.
 
+## Temporal Anomaly
+Cost: — | Type: Land | Color identity: G | Commander: legal
+Text: {T}: Add {C}.
+  {3}{G}, {T}, Sacrifice this land: Mill four cards. You may put a permanent card from among them into your hand. Create a tapped Planet land token named New Planet with "{T}: Add one mana of any color."
+
 ## Temporal Aperture
 Cost: {2} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: {5}, {T}: Shuffle your library, then reveal the top card. Until end of turn, for as long as that card remains on top of your library, play with the top card of your library revealed and you may play that card without paying its mana cost. (If it has X in its mana cost, X is 0.)
@@ -2247,6 +2258,10 @@ Text: When this creature enters, manifest the top card of your library. (Put tha
 ## Tenacious Dead
 Cost: {b} | Type: Creature — Skeleton Warrior | Color identity: B | P/T: 1/1 | Commander: legal
 Text: When this creature dies, you may pay {1}{B}. If you do, return it to the battlefield tapped under its owner's control.
+
+## Tenacious Drone
+Cost: {1}{b} | Type: Artifact Creature — Borg | Color identity: B | P/T: 2/1 | Commander: legal
+Text: When this creature dies, create a 1/1 colorless Borg artifact creature token.
 
 ## Tenacious Hunter
 Cost: {2}{g}{g} | Type: Creature — Crocodile | Color identity: G | P/T: 4/4 | Commander: legal
@@ -2739,6 +2754,12 @@ Text: At the beginning of your upkeep, if you have 50 or more life, you win the 
 ## Test of Faith
 Cost: {1}{w} | Type: Instant | Color identity: W | Commander: legal
 Text: Prevent the next 3 damage that would be dealt to target creature this turn. For each 1 damage prevented this way, put a +1/+1 counter on that creature.
+
+## Test of Identity
+Cost: {1}{r} | Type: Instant | Color identity: R | Commander: legal
+Text: Choose one —
+  • I Am Klingon — Target Klingon gets +1/+1 and gains double strike until end of turn.
+  • I Am Starfleet — Discard a card. If you do, draw two cards.
 
 ## Test of Loyalty
 Cost: {b} | Type: Sorcery | Color identity: B | Commander: legal
@@ -4576,6 +4597,13 @@ Faces: The Everflowing Well // The Myriad Pools (transform)
 Text: (Transforms from The Everflowing Well.)
   {T}: Add {U}.
   Whenever you cast a permanent spell using mana produced by The Myriad Pools, up to one other target permanent you control becomes a copy of that spell until end of turn.
+
+## The Naked Time
+Cost: {1}{r} | Type: Enchantment — Saga | Color identity: R | Commander: legal
+Text: (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+  I — Search your library for a basic Mountain card, put it onto the battlefield tapped, then shuffle.
+  II — Whenever a creature you control enters this turn, put a +1/+1 counter on it and it gains haste until end of turn.
+  III — Sacrifice a land.
 
 ## The Necrobloom
 Cost: {1}{w}{b}{g} | Type: Legendary Creature — Plant | Color identity: BGW | P/T: 2/7 | Commander: legal

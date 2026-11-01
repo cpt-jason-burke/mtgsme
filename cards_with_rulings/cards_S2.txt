@@ -1,3 +1,18 @@
+## Spring
+Cost: {2}{g} | Type: Sorcery | Color identity: GU | Commander: legal
+Faces: Spring // Mind (aftermath)
+Text: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+Ruling (2017-04-18): A spell with aftermath cast from a graveyard will always be exiled afterward, whether it resolves, it's countered, or it leaves the stack in some other way.
+Ruling (2017-04-18): All split cards have two card faces on a single card, and you put a split card onto the stack with only the half you're casting. The characteristics of the half of the card you didn't cast are ignored while the spell is on the stack. For example, if an effect prevents you from casting green spells, you can cast Destined of Destined // Lead, but not Lead.
+Ruling (2017-04-18): Each split card has two names. If an effect instructs you to choose a card name, you may choose one, but not both.
+Ruling (2017-04-18): Each split card is a single card. For example, if you discard one, you've discarded one card, not two. If an effect counts the number of instant and sorcery cards in your graveyard, Destined // Lead counts once, not twice.
+Ruling (2017-04-18): If another effect allows you to cast a split card with aftermath from a graveyard, you may cast either half. If you cast the half that has aftermath, you'll exile the card if it would leave the stack.
+Ruling (2017-04-18): If another effect allows you to cast a split card with aftermath from any zone other than a graveyard, you can't cast the half with aftermath.
+Ruling (2017-04-18): If you cast the first half of a split card with aftermath during your turn, you'll have priority immediately after it resolves. You can cast the half with aftermath from your graveyard before any player can take any other action if it's legal for you to do so.
+Ruling (2017-04-18): Split cards with aftermath have a new frame treatment—the half you can cast from your hand is oriented the same as other cards you'd cast from your hand, while the half you can cast from your graveyard is a traditional split card half. This frame treatment is for your convenience and has no rules significance.
+Ruling (2017-04-18): While not on the stack, the characteristics of a split card are the combination of its two halves. For example, Destined // Lead is a green and black card, it is both an instant card and a sorcery card, and its mana value is 6. This means that if an effect allows you to cast a card with mana value 2 from your hand, you can't cast Destined. This is a change from the previous rules for split cards.
+Ruling (2017-07-14): Once you've started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+
 ## Spring Cleaning
 Cost: {1}{g} | Type: Instant | Color identity: G | Commander: legal
 Text: Destroy target enchantment. Clash with an opponent. If you win, destroy all enchantments your opponents control. (Each clashing player reveals the top card of their library, then puts that card on their choice of the top or bottom. A player wins if their card had a greater mana value.)
@@ -1207,6 +1222,11 @@ Text: When you cast this spell, copy it. (The copy becomes a token.)
 ## Starfleet Crew
 Cost: {1}{w} | Type: Creature — Officer | Color identity: W | P/T: 2/3 | Commander: legal
 Text: 
+
+## Starfleet Security
+Cost: {r} | Type: Creature — Human Officer | Color identity: R | P/T: 1/1 | Commander: legal
+Text: Haste
+  When this creature dies during your turn, investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
 
 ## Starfleet Spanner Jockey
 Cost: {1}{u} | Type: Creature — Human Artificer | Color identity: U | P/T: 3/3 | Commander: legal
@@ -4137,6 +4157,12 @@ Text: Vigilance, trample
   Glory of Battle — Whenever Strax deals damage to a creature, put a +1/+1 counter on Strax.
 Ruling (2023-10-13): If Strax is dealt damage equal to its toughness while fighting, it will die before the +1/+1 counter from its last ability can save it.
 Ruling (2023-10-13): The player is chosen at random, but Strax's controller gets to choose which of their creatures it fights.
+
+## Stray from History
+Cost: {2}{b} | Type: Sorcery | Color identity: B | Commander: legal
+Text: Choose one —
+  • Rewrite the Past — Return one or two target creature and/or Spacecraft cards from your graveyard to your hand.
+  • Repair the Timeline — Target opponent reveals their hand. You choose a nonland card from it. Exile that card.
 
 ## Streaking Oilgorger
 Cost: {4}{b} | Type: Creature — Vampire | Color identity: B | P/T: 3/3 | Commander: legal

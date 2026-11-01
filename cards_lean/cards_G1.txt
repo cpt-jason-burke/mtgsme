@@ -873,6 +873,11 @@ Text: Start your engines! (If you have no speed, it starts at 1. It increases on
   This creature enters tapped.
   Max speed — {B}, Sacrifice another creature or Vehicle: Draw a card.
 
+## Gaseous Anomaly
+Cost: — | Type: Land | Color identity: U | Commander: legal
+Text: {T}: Add {C}.
+  {5}{U}, {T}, Sacrifice this land: Draw two cards. Create a tapped Planet land token named New Planet with "{T}: Add one mana of any color."
+
 ## Gaseous Form
 Cost: {2}{u} | Type: Enchantment — Aura | Color identity: U | Commander: legal
 Text: Enchant creature
@@ -2058,6 +2063,11 @@ Cost: {b} | Type: Artifact — Equipment | Color identity: B | Commander: legal
 Faces: Ghost Lantern // Bind Spirit (adventure)
 Text: Whenever a creature you control dies, put a +1/+1 counter on equipped creature.
   Equip {1}
+
+## Ghost of Illyria
+Cost: {3}{w} | Type: Creature — Elemental Spirit | Color identity: W | P/T: 3/3 | Commander: legal
+Text: Flying
+  When this creature enters, exile up to one other target nonland permanent you control. Return that card to the battlefield under its owner's control at the beginning of the next end step.
 
 ## Ghost of Ramirez DePietro
 Cost: {2}{u} | Type: Legendary Creature — Spirit Pirate | Color identity: U | P/T: 2/3 | Commander: legal
@@ -8377,6 +8387,11 @@ Text: {1}, {T}: Put a +1/+1 counter on each creature you control that entered th
 Cost: {r} | Type: Enchantment — Aura | Color identity: R | Commander: legal
 Text: Enchant creature
   Enchanted creature gets +1/-1 and attacks each combat if able.
+
+## Gul Dukat, Colonial Prefect
+Cost: {4}{b}{b}{b} | Type: Legendary Creature — Cardassian Rogue | Color identity: B | P/T: 6/6 | Commander: legal
+Text: Menace
+  At the beginning of each end step, each opponent loses life equal to the life that player lost this turn. You gain life equal to the life lost this way. (Damage causes loss of life.)
 
 ## Gulf Squid
 Cost: {3}{u} | Type: Creature — Squid Beast | Color identity: U | P/T: 2/2 | Commander: legal

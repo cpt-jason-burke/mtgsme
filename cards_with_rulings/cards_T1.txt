@@ -626,6 +626,12 @@ Cost: {2}{r} | Type: Creature — Romulan Scientist | Color identity: R | P/T: 3
 Text: {T}: This creature deals 1 damage to each opponent.
   Whenever you cast a noncreature spell, untap this creature.
 
+## Tal Shiar Operative
+Cost: {1}{b} | Type: Creature — Romulan Officer Spy | Color identity: B | P/T: 2/2 | Commander: legal
+Text: Whenever this creature attacks, choose one —
+  • Target creature you control gains deathtouch until end of turn.
+  • Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+
 ## Talara's Bane
 Cost: {1}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Target opponent reveals their hand. You choose a green or white creature card from it. You gain life equal to that creature card's toughness, then that player discards that card.
@@ -3037,6 +3043,11 @@ Ruling (2020-01-24): Once a creature has blocked Temple Thief, causing that crea
 Cost: {1}{u}{u} | Type: Creature — Human Wizard | Color identity: U | P/T: 1/1 | Commander: legal
 Text: {U}{U}{U}, {T}: Return target permanent to its owner's hand.
 
+## Temporal Anomaly
+Cost: — | Type: Land | Color identity: G | Commander: legal
+Text: {T}: Add {C}.
+  {3}{G}, {T}, Sacrifice this land: Mill four cards. You may put a permanent card from among them into your hand. Create a tapped Planet land token named New Planet with "{T}: Add one mana of any color."
+
 ## Temporal Aperture
 Cost: {2} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: {5}, {T}: Shuffle your library, then reveal the top card. Until end of turn, for as long as that card remains on top of your library, play with the top card of your library revealed and you may play that card without paying its mana cost. (If it has X in its mana cost, X is 0.)
@@ -3382,6 +3393,10 @@ Cost: {b} | Type: Creature — Skeleton Warrior | Color identity: B | P/T: 1/1 |
 Text: When this creature dies, you may pay {1}{B}. If you do, return it to the battlefield tapped under its owner's control.
 Ruling (2013-07-01): If you control a Tenacious Dead owned by another player when it dies, you'll control the triggered ability. However, if you choose to pay {1}{B}, it will be put onto the battlefield under its owner's control.
 Ruling (2013-07-01): You decide whether to pay {1}{B} when the ability resolves. If you choose not to, you won't get another chance later.
+
+## Tenacious Drone
+Cost: {1}{b} | Type: Artifact Creature — Borg | Color identity: B | P/T: 2/1 | Commander: legal
+Text: When this creature dies, create a 1/1 colorless Borg artifact creature token.
 
 ## Tenacious Hunter
 Cost: {2}{g}{g} | Type: Creature — Crocodile | Color identity: G | P/T: 4/4 | Commander: legal
@@ -4144,6 +4159,12 @@ Ruling (2022-12-08): Test of Endurance's ability will check your life total as y
 Cost: {1}{w} | Type: Instant | Color identity: W | Commander: legal
 Text: Prevent the next 3 damage that would be dealt to target creature this turn. For each 1 damage prevented this way, put a +1/+1 counter on that creature.
 Ruling (2004-12-01): The +1/+1 counters are put onto the creature at the same time the damage is prevented. If a 1/1 creature would be dealt 6 damage, 3 damage is prevented and three +1/+1 counters are put on the creature. The creature ends up as a 4/4 creature with 3 damage marked on it.
+
+## Test of Identity
+Cost: {1}{r} | Type: Instant | Color identity: R | Commander: legal
+Text: Choose one —
+  • I Am Klingon — Target Klingon gets +1/+1 and gains double strike until end of turn.
+  • I Am Starfleet — Discard a card. If you do, draw two cards.
 
 ## Test of Loyalty
 Cost: {b} | Type: Sorcery | Color identity: B | Commander: legal
@@ -7086,6 +7107,13 @@ Ruling (2023-11-10): Non-copy effects that have already applied to the target pe
 Ruling (2023-11-10): Some descend triggered abilities include intervening "if" clauses (i.e. "if you have [four or eight] permanent cards in your graveyard" in the middle of the ability). Each of these abilities checks your graveyard at the moment it would trigger to see if it does. If you don't have the required number of permanent cards in your graveyard at that time, the ability doesn't trigger at all. If it does trigger, it will check again as it tries to resolve. If you don't have the required number of permanent cards in your graveyard at that time, the ability won't resolve and none of its effects will happen.
 Ruling (2023-11-10): The target permanent copies what is printed on the original card, plus any choices that were made when casting the spell.
 Ruling (2023-11-10): The triggered ability of The Myriad Pools will resolve before the spell that caused it to trigger.
+
+## The Naked Time
+Cost: {1}{r} | Type: Enchantment — Saga | Color identity: R | Commander: legal
+Text: (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+  I — Search your library for a basic Mountain card, put it onto the battlefield tapped, then shuffle.
+  II — Whenever a creature you control enters this turn, put a +1/+1 counter on it and it gains haste until end of turn.
+  III — Sacrifice a land.
 
 ## The Necrobloom
 Cost: {1}{w}{b}{g} | Type: Legendary Creature — Plant | Color identity: BGW | P/T: 2/7 | Commander: legal
