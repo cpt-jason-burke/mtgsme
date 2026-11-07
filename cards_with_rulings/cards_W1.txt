@@ -3429,8 +3429,8 @@ Ruling (2016-04-08): To trigger the Werewolf's back face's transform ability, a 
 
 ## Werewolf Pack Leader
 Cost: {g}{g} | Type: Creature — Human Werewolf | Color identity: G | P/T: 3/3 | Commander: legal
-Text: Pack tactics — Whenever this creature attacks, if you attacked with creatures with total power 6 or greater this combat, draw a card.
-  {3}{G}: Until end of turn, this creature has base power and toughness 5/3, gains trample, and isn't a Human.
+Text: Pack tactics - Whenever this creature attacks, if you attacked with creatures with total power 6 or greater this combat, draw a card.
+  {3}{G}: Until end of turn, this creature has base power and toughness 5/3, gains trample, and is a Werewolf.
 Ruling (2021-07-23): The last ability will overwrite any previous effects that set Werewolf Pack Leader's power and toughness to specific numbers. Effects that otherwise modify its power and toughness will still apply no matter when they took effect. The same is true for +1/+1 counters. For example, if you cast a spell that gives Werewolf Pack Leader +1/+1, after that resolves it is a 4/4 creature. If you then activate its last ability, it will be a 6/4 creature.
 
 ## Werewolf Ransacker
