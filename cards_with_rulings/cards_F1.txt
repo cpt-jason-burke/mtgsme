@@ -80,7 +80,7 @@ Text: {2}{B}, Discard a card: This creature gains fear until end of turn. (It ca
 
 ## Face Yourself
 Cost: {5}{r}{r} | Type: Sorcery | Color identity: R | Commander: legal
-Text: For each creature target player controls, create a token that's a copy of that creature, except it has haste and "At the beginning of the end step, if you don't control a planeswalker, sacrifice this creature."
+Text: For each creature target player controls, create a token that's a copy of that creature, except it has haste and "At the beginning of the end step, if you don't control a planeswalker, sacrifice this token."
 Ruling (2026-08-21): Any enters abilities of the copied creature will trigger when the token enters the battlefield. Any "as [this permanent] enters" or "[this permanent] enters with" abilities of the copied creature will also work.
 Ruling (2026-08-21): If the copied creature has {X} in its mana cost, X is considered to be 0.
 Ruling (2026-08-21): If the copied creature is a token, the token created by Face Yourself copies the original characteristics of that token as stated by the effect that put that token onto the battlefield.
