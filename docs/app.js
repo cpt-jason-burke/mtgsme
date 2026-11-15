@@ -149,6 +149,7 @@
   function navPush(extra) { history.pushState(Object.assign({ m: 1, tab: curTab, depth: stack.length }, extra || {}), ""); }
   window.addEventListener("popstate", (e) => {
     const lb = document.querySelector(".lightbox"); if (lb) { lb.remove(); return; }
+    if (TREK) { const t = TREK; TREK = null; t.byBack = true; t.h.close(); return; }
     const st = e.state || { tab: "search", depth: 0 };
     if (st.tab && st.tab !== curTab) showTab(st.tab, { silent: true });
     if (stack.length > (st.depth || 0)) { stack.length = st.depth || 0; if (stack.length) drawSheet(); else closeLocal(); }
@@ -1238,6 +1239,7 @@
   // The transporter console (trek.js, loaded on first use) is the animated way in. With reduced motion or pictures off, the plain list opens instead.
   const trekOK = () => Scry.state.enabled && !(window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches);
   let trekLoad = null;
+  let TREK = null;
   function openTrek() {
     return ensureHL().then(() => {
       const d = HL.data, s = d && d.sets.find((x) => x.code === d.featured), cards = s ? d.cards.filter((c) => c.set === s.code) : [];
@@ -1245,7 +1247,16 @@
       const plain = () => { if (!listOpen()) openSheet({ type: "headliners" }); };
       if (!cards.length || !trekOK()) return plain();
       if (!trekLoad) trekLoad = new Promise((ok, no) => { const sc = document.createElement("script"); sc.src = "trek.js" + DATA_V; sc.onload = ok; sc.onerror = () => { trekLoad = null; sc.remove(); no(); }; document.head.appendChild(sc); });
-      return trekLoad.then(() => window.Trek.open({ cards, set: s, finds: HL.finds, onAll: plain, onCard: (key) => openSheet({ type: "headliner", key }) }), plain);
+      return trekLoad.then(() => {
+        // the console takes one step of back history: a back swipe closes it, and closing it any other way gives the step back
+        const t = {};
+        const open = (v) => { t.handoff = true; stack.push(v); drawSheet(); history.replaceState({ m: 1, tab: curTab, depth: stack.length }, ""); saveNav(); };
+        t.h = window.Trek.open({ cards, set: s, finds: HL.finds,
+          onAll: () => { if (listOpen()) { t.handoff = true; history.back(); } else open({ type: "headliners" }); },
+          onCard: (key) => open({ type: "headliner", key }),
+          onClose: () => { if (TREK === t) TREK = null; setTimeout(() => { if (!t.byBack && !t.handoff) history.back(); }, 0); } });
+        TREK = t; navPush({ trek: 1 });
+      }, plain);
     });
   }
   const hlCard = (key) => HL.data && HL.data.cards.find((c) => c.key === key);

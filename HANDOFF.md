@@ -42,8 +42,8 @@ Everything below is live on `main`. The site is https://cpt-jason-burke.github.i
 - **Transporter console (Step 2, added 2026-11-15):** the home banner opens a full-screen console: slide the bar up, the seven cards beam in on the pads, then a carousel; tapping the front card opens a details panel.
   - `docs/trek.js` is self-contained (it injects its own CSS, every class starts with `tk-`) and loads only on first use. `Trek.open({cards, set, finds, onCard, onAll, onClose})` shows it; `Trek.beam(canvas, columns, opts)` is the beam effect alone, for Step 5. Sounds are generated with WebAudio and start off.
   - `openTrek()` in `docs/app.js` falls back to the plain list when Reduce Motion is on, pictures are off, or the script fails to load. The Sets chip still opens the plain list, which has an "Open the transporter room" button.
-  - The private preview is a claude.ai Artifact with the card pictures embedded (Artifacts can't load outside images). The user approved it. The user has not yet said how the sound is; it was never listened to in testing.
-  - Not done: the console isn't in the back-gesture history (`navPush`), so a back swipe acts on the page under it.
+  - The private preview is a claude.ai Artifact with the card pictures embedded (Artifacts can't load outside images). The user approved it, and said the sound is fine.
+  - Back gestures: opening the console adds one history step (`TREK` and `navPush({trek: 1})` in `openTrek()`), so a back swipe closes just the console; closing it by ✕, "All headliners" or "Full details" gives the step back or replaces it.
 - **Most valuable (Step 3, added 2026-11-15):** set pages, Commander deck pages and Secret Lair drop pages have a "Most valuable" block: the top 10, a "Show all" button for up to 25, only cards worth $5 or more (the user's choices). Each row: rank, picture, name, set and number, finish, price (links to the Scryfall page), and a "Not Commander-legal" badge.
   - `tools/build_top25.py` (daily) streams Scryfall's `default_cards` bulk file (now gzipped JSON Lines, `jsonl_download_uri`, about 81 MB) and writes `docs/data/top25.json` (about 650 KB, 175 KB gzipped). Sets older than 90 days are re-ranked weekly, newer ones daily.
   - Finishes: in a set every finish counts separately; a Secret Lair drop lists non-foil and foil editions separately; a Commander deck uses non-foil when the printing has it.
@@ -239,7 +239,7 @@ Several of these are also `is:serialized`. There are 298 serialized printings in
 
 ## 10. The plan
 
-**Next up: Step 4** (sealed price comparison). Small leftovers from Step 2, if the user wants them: add the console to the back-gesture history (`navPush`), and ask how the sound is (never listened to in testing).
+**Next up: Step 4** (sealed price comparison).
 
 Do each step in its own fresh session, then build, test, commit and verify. Cost estimates are in section 11.
 
