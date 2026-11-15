@@ -11,7 +11,7 @@ When you finish a step, update the status table at the end of this file in the s
 1. Call `get_environment`. You need the **mtgsme** environment, which allows the data and price sites listed in section 4. If the session is on **Default**, move it with `switch_environment`. If that isn't possible, ask the user to start a new session and pick **mtgsme** in the environment menu.
 2. Run `git pull`. A bot pushes data refreshes to `main` every 6 hours.
 3. Read `CLAUDE.md` and `README.md`, then the part of section 10 for your step.
-4. Ask the user which step to do (default: Step 4, the next one not started) and that step's open questions. Use AskUserQuestion with the recommended option first; the user likes that format.
+4. Ask the user which step to do (default: Step 4b or 5; see "Next up" in section 10) and that step's open questions. Use AskUserQuestion with the recommended option first; the user likes that format.
 5. Build, then test (section 12).
 6. Commit to `main` and push; that is how the site deploys. Then watch the Actions runs with the GitHub MCP tools (`actions_list`, `get_job_logs`).
 7. Tell the user in plain words what changed, how to see it on their phone, and what's next.
@@ -49,6 +49,12 @@ Everything below is live on `main`. The site is https://cpt-jason-burke.github.i
   - Finishes: in a set every finish counts separately; a Secret Lair drop lists non-foil and foil editions separately; a Commander deck uses non-foil when the printing has it.
   - The app code is `renderTop25`/`drawTop25` in `docs/app.js` and the `.t25` CSS in `docs/index.html`.
   - Known gap: mtg.wtf's Federation Fleet list (TRC) has 81 cards and no commander, so its block shows nothing over $5. About 1% of deck rows (287 of 21,724, mostly upcoming Secret Lair cards) match no Scryfall printing yet.
+- **Sealed prices (Step 4, added 2026-11-15):** each set page has a "Sealed prices" block (the set's products plus its paired Commander set's; 6 shown, "Show all" adds the rest and the cases), and a "Sealed deals" chip in Sets opens a page with "Furthest under list price" and "Biggest gap between stores".
+  - `tools/build_sealed.py` (daily, about 1 minute, about 165 requests) writes `docs/data/sealed.json` (about 92 KB): sets of the last two years plus every Commander deck set. TCGplayer comes from TCGCSV (a product with no "Number" field is sealed), Card Kingdom from `https://api.cardkingdom.com/api/sealed_pricelist`. Products are matched by set and normalized name, with a guarded second pass for longer names; 310 of 717 products are priced at both stores.
+  - The user's choices: CoolStuff is a "Check CoolStuff" search link only (its search returns nothing to scripts, so prices would need hand-found product ids); Amazon is a search link; cases are shown.
+  - List prices live in `tools/sealed_list.json`, keyed by TCGplayer product id. Only Star Trek is entered. Adding a set's prices from its Wizards "Collecting" article makes it appear under "Furthest under list price".
+  - A TCGplayer lowest listing under 70% of the market price is flagged "far under recent sales; check shipping" and left out of the deals page (`slOdd` in `docs/app.js`). The app code is `ensureSealed`, `slRow`, `renderSealed`, `sealedView`; CSS `.sl`.
+  - Not done: Secret Lair sealed, local shops (Step 4b), Card Kingdom singles.
 - **Refresh workflow** `.github/workflows/refresh-data.yml`, cron `17 */6 * * *` (runs often start about an hour late):
   - News is fetched on every run; card data is rebuilt only when mtg.wtf changes.
   - Combos rebuild on the first run of each UTC day, and on a manual run or a push to `tools/`.
@@ -119,6 +125,7 @@ All are generated, except the two marked hand-maintained.
 | `news.json` | `tools/fetch_news.py` | Headlines |
 | `headliners.json` | `tools/build_headliners.py` | `{about, featured, checked, sets: [...facts], cards: [{key "set/num", set, num, name, date, artist, fin, tags, border, img {s,n,l,a}, scry, cmd, tcg {id, url, low, market}, sf, signer?}]}` |
 | `top25.json` | `tools/build_top25.py` | `{about, src, cards, sets: {code: {u, r: [[name, num, fin n\|f\|e, usd, legal 0\|1]]}}, decks: {"set:deck name": {u, r: [[..., set]]}}}` |
+| `sealed.json` | `tools/build_sealed.py` | `{about, checked, sets: {code: {n, d, p: [{n, id, low, mkt, ck: [path, price, stock], list?, case?}]}}}` |
 | `headliner-finds.json` | **Hand-maintained** | `{about, finds: [{card, date, kind: pull\|sale\|listing, url, price?, note}]}` |
 | `announced.json`, `events.json` | **Hand-maintained** | Announced sets, events |
 
@@ -239,7 +246,7 @@ Several of these are also `is:serialized`. There are 298 serialized printings in
 
 ## 10. The plan
 
-**Next up: Step 4** (sealed price comparison).
+**Next up: Step 4b** (local shops; ask the user for shop names in chat) **or Step 5** (comm badge cinematic); ask the user which. Optional: more list prices in `tools/sealed_list.json`, and Secret Lair sealed.
 
 Do each step in its own fresh session, then build, test, commit and verify. Cost estimates are in section 11.
 
@@ -292,6 +299,8 @@ Do each step in its own fresh session, then build, test, commit and verify. Cost
 - **Testing:** needs `data.scryfall.io` here. Otherwise test a few sets with the search API.
 
 ### Step 4. Sealed price comparison
+**Done 2026-11-15** for TCGplayer and Card Kingdom (section 3); the text below is the original plan. CoolStuff is a link only, by the user's choice.
+
 - **Scope:** Commander precons (regular and Collector's Edition) and booster products. Start with products from about the last two years plus every Commander deck still on sale. Secret Lair sealed comes in a second pass; confirm with the user.
 - **Data:** `tools/build_sealed.py`, run daily, combines:
   - TCGCSV sealed products
@@ -376,5 +385,5 @@ const { chromium } = require('playwright');
 | 1. Headliner section and tracker | Done, live 2026-11-15 | Home banner + Sets chip, daily `tools/build_headliners.py`, finds by hand (no Reddit bot) |
 | 2. Transporter console | Done, live 2026-11-15 | `docs/trek.js`, opened by the home banner; the user approved the private preview |
 | 3. Top 25 per set | Done, live 2026-11-15 | Set, deck and drop pages; daily `tools/build_top25.py`; top 10 of up to 25, $5 floor |
-| 4. Sealed price comparison | Not started | 4b (local shops) after 4 works |
+| 4. Sealed price comparison | Done, live 2026-11-15 | TCGplayer + Card Kingdom; CoolStuff and Amazon are links; 4b (local shops) not started |
 | 5. Comm badge cinematic | Not started | After Step 2 |

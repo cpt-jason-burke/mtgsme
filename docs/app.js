@@ -180,6 +180,7 @@
     for (const sv of n.sheets || []) {
       if (["set", "deck", "sld"].includes(sv.type)) await ensureSets();
       if (["headliners", "headliner"].includes(sv.type)) await ensureHL();
+      if (sv.type === "sealed") await ensureSealed().catch(() => {});
       const v = sv.type === "card" ? (card(sv.n) ? { type: "card", card: card(sv.n) } : null) : sv;
       if (v) { stack.push(v); navPush(); }
     }
@@ -206,6 +207,7 @@
     deck: [(v) => SETS.data.precons[v.i].n, deckView],
     rule: [(v) => (v.rule.startsWith("gloss:") ? "Glossary" : "Rule " + v.rule), (v) => ruleView(v.rule)],
     headliners: [() => "Headliners", hlView],
+    sealed: [() => "Sealed deals", sealedView],
     headliner: [(v) => (hlCard(v.key) || {}).name || "Headliner", hlCardView],
   };
   function drawSheet() {
@@ -229,6 +231,7 @@
     if (v.type === "card") loadPrintings(v);
     if (v.type === "deck") deckValue(v);
     if (v.type === "set" || v.type === "deck") renderTop25(v);
+    if (v.type === "set") renderSealed(v);
     saveNav();
   }
   // Drag the top bar down to go back one level.
@@ -276,6 +279,7 @@
       if (act === "more") { v.limit = (v.limit || 90) + 90; return drawSheet(); }
       if (act === "copydeck") return copyPrecon(v.i);
       if (act === "t25all") { v.t25all = true; return renderTop25(v); }
+      if (act === "slall") { v.slall = true; return v.type === "sealed" ? drawSheet() : renderSealed(v); }
     }
     const dk = t.closest("[data-deck]"); if (dk) return openSheet({ type: "deck", i: +dk.dataset.deck });
     const hc = t.closest("[data-hlcard]"); if (hc) return openSheet({ type: "headliner", key: hc.dataset.hlcard });
@@ -1039,7 +1043,7 @@
   }
   function initSetFilters() {
     const f = SETS.f;
-    $("#setfilters").innerHTML = '<button class="chip hlchip" id="shl">\u2605 Headliners</button><button class="chip" id="sfbtn">Filters</button><div class="chips hidden" id="sfbody" style="width:100%">' + Object.entries(KINDS).map(([k, v]) => '<button class="chip on" data-kind="' + k + '">' + v + "</button>").join("") +
+    $("#setfilters").innerHTML = '<button class="chip hlchip" id="shl">\u2605 Headliners</button><button class="chip" id="ssl">Sealed deals</button><button class="chip" id="sfbtn">Filters</button><div class="chips hidden" id="sfbody" style="width:100%">' + Object.entries(KINDS).map(([k, v]) => '<button class="chip on" data-kind="' + k + '">' + v + "</button>").join("") +
       ["W", "U", "B", "R", "G", "C"].map((c) => '<button class="chip" data-ci="' + c + '" aria-label="' + c + '"><i class="ms ' + c + '">' + c + "</i></button>").join("") +
       '<select class="sel" id="stype"><option value="">Any type</option>' + MTGDeck.TYPE_ORDER.concat("Legendary").map((t) => "<option>" + t + "</option>").join("") + "</select>" +
       '<select class="sel" id="smv"><option value="">Any mana value</option>' + [0, 1, 2, 3, 4, 5, 6, 7].map((n) => '<option value="' + n + '">MV ' + (n === 7 ? "7+" : n) + "</option>").join("") + "</select>" +
@@ -1048,6 +1052,7 @@
     $("#setfilters").addEventListener("click", (e) => {
       const b = e.target.closest("button"); if (!b) return;
       if (b.id === "shl") { openHeadliners(); return; }
+      if (b.id === "ssl") { ensureSealed().then(() => openSheet({ type: "sealed" }), () => openSheet({ type: "sealed" })); return; }
       if (b.id === "sfbtn") { $("#sfbody").classList.toggle("hidden"); return; }
       if (b.dataset.kind) { const k = b.dataset.kind; f.kinds.has(k) ? f.kinds.delete(k) : f.kinds.add(k); b.classList.toggle("on", f.kinds.has(k)); }
       if (b.dataset.ci) { const c = b.dataset.ci; f.ci.has(c) ? f.ci.delete(c) : f.ci.add(c); b.classList.toggle("on", f.ci.has(c)); }
@@ -1149,7 +1154,7 @@
     const decks = D.precBySet.get(s.k === "commander" ? s.c : s.cm) || [];
     let h = '<div class="panel set k-' + s.k + (s.cm ? " hascm" : "") + '" style="cursor:default">' + symbol(s.c) + '<div class="body"><h4>' + esc(s.n) + '</h4><div class="ty">' + esc(s.d) + " · " + esc(s.c.toUpperCase()) + " · " + esc(KINDS[s.k]) + (s.d > TODAY ? " · upcoming" : "") + '</div></div><div class="n"><b>' + s.t + "</b>cards</div></div>";
     if (decks.length) h += '<section class="block"><h2>Commander decks · ' + decks.length + "</h2>" + decks.map(deckTile).join("") + "</section>";
-    h += '<section class="block" id="top25"></section>';
+    h += '<section class="block" id="sealed"></section><section class="block" id="top25"></section>';
     let rows = D.setcards[s.c].map(([i, num, r]) => ({ c: CARDS[i], i, set: s.c, num, r, q: 1 }));
     if (filterOn() && !v.all) rows = rows.filter((x) => matches(x.i, x.r));
     h += '<section class="block"><h2>Cards · ' + rows.length + "</h2>" + cardsBlock(v, rows) + "</section>";
@@ -1211,6 +1216,62 @@
     h += '<div class="d">TCGplayer market price via Scryfall, updated ' + esc(shortDate(e.u)) + ". Only cards worth $5 or more; shipping and tax not included." + (p && p.y === "sld" ? " Secret Lair drops list the non-foil and foil editions separately." : "") + "</div>";
     el.innerHTML = h;
     lazyPrints(el.closest(".sheet") || el);
+  }
+  // Sealed product prices by store (data/sealed.json, built by tools/build_sealed.py)
+  const SEALED = { data: null, promise: null };
+  function ensureSealed() {
+    if (!SEALED.promise) SEALED.promise = fetch("data/sealed.json" + DATA_V).then((x) => { if (!x.ok) throw new Error("the server answered " + x.status); return x.json(); })
+      .then((j) => { SEALED.data = j; }).catch((e) => { SEALED.promise = null; throw e; });
+    return SEALED.promise;
+  }
+  // The stores that have the product now, cheapest first: TCGplayer's lowest listing, Card Kingdom's price when in stock.
+  // A lowest listing far under recent sales is usually a stray listing with a large shipping fee, not a deal.
+  const slOdd = (p) => !!(p.low && p.mkt && p.low < 0.7 * p.mkt);
+  function slOffers(p) {
+    const o = [];
+    if (p.low) o.push({ store: "TCGplayer", price: p.low, odd: slOdd(p) });
+    if (p.ck && p.ck[1] && p.ck[2] > 0) o.push({ store: "Card Kingdom", price: p.ck[1] });
+    return o.sort((a, b) => a.price - b.price);
+  }
+  const SL_NOTE = "TCGplayer shows its lowest current listing (an asking price) and what it has been selling for; Card Kingdom shows its own price. Shipping and tax aren't included.";
+  function slRow(p, setName) {
+    const o = slOffers(p), best = o[0], q = encodeURIComponent("Magic The Gathering " + p.n.replace(/\s+-\s+/g, " "));
+    const cell = (name, url, price, sub, win) => '<a class="slc' + (win ? " win" : "") + '" href="' + esc(url) + '" target="_blank" rel="noopener"><small>' + name + "</small><b>" + (price ? money(price) : "\u2014") + "</b><span>" + sub + "</span></a>";
+    let h = '<div class="panel sl"><h4>' + esc(p.n) + (p.case ? '<span class="badge warn">Case</span>' : "") + "</h4>" + (setName ? '<div class="ty">' + esc(setName) + "</div>" : "") + '<div class="slg">';
+    if (p.id) h += cell("TCGplayer", "https://www.tcgplayer.com/product/" + p.id, p.low, p.low ? "lowest listing" + (p.mkt ? " \u00B7 sells ~" + money(p.mkt) : "") + (slOdd(p) ? ' \u00B7 <i class="bad">far under recent sales; check shipping</i>' : "") : p.mkt ? "none listed \u00B7 sold ~" + money(p.mkt) : "none listed", best && best.store === "TCGplayer");
+    if (p.ck) h += cell("Card Kingdom", "https://www.cardkingdom.com/" + p.ck[0], p.ck[1], p.ck[2] > 0 ? p.ck[2] + " in stock" : "out of stock", best && best.store === "Card Kingdom");
+    h += "</div>";
+    const bits = [];
+    if (best && o.length > 1) bits.push("Lowest: <b>" + money(best.price) + "</b> at " + best.store + " \u00B7 average " + money(o.reduce((a, x) => a + x.price, 0) / o.length));
+    if (best && p.list) { const d = Math.round((1 - best.price / p.list) * 100); bits.push((d > 0 ? '<b class="good">' + d + "% under</b>" : d < 0 ? '<b class="bad">' + -d + "% over</b>" : "At") + " list price " + money(p.list)); }
+    return h + (bits.length ? '<div class="d">' + bits.join(" \u00B7 ") + "</div>" : "") +
+      '<div class="sll"><a href="https://www.coolstuffinc.com/main_search.php?pa=searchOnName&amp;page=1&amp;resultsPerPage=25&amp;q=' + encodeURIComponent(p.n.replace(/\s+-\s+/g, " ")) + '" target="_blank" rel="noopener">Check CoolStuff \u2197</a><a href="https://www.amazon.com/s?k=' + q + '" target="_blank" rel="noopener">Check Amazon \u2197</a></div></div>';
+  }
+  function renderSealed(v) {
+    ensureSealed().then(() => {
+      const el = $("#sealed"); if (!el || stack[stack.length - 1] !== v) return;
+      const s = SETS.data.byCode.get(v.code), d = SEALED.data.sets;
+      const list = [s.c, s.cm].filter((c) => c && d[c]).flatMap((c) => d[c].p);
+      if (!list.length) { el.innerHTML = ""; return; }
+      const main = list.filter((p) => !p.case), rows = v.slall ? list : main.slice(0, 6);
+      el.innerHTML = "<h2>Sealed prices \u00B7 " + list.length + "</h2>" + rows.map((p) => slRow(p)).join("") +
+        (list.length > rows.length ? '<div class="chips"><button class="btn" data-act="slall">Show all ' + list.length + (list.length > main.length ? " (with cases)" : "") + "</button></div>" : "") +
+        '<div class="d">' + SL_NOTE + " Checked " + esc(shortDate(SEALED.data.checked)) + ".</div>";
+    }, () => { const el = $("#sealed"); if (el) el.innerHTML = ""; });
+  }
+  function sealedView(v) {
+    const D = SEALED.data;
+    if (!D) return '<div class="panel item">Could not load the sealed prices. Try again in a few minutes.</div>';
+    const all = Object.values(D.sets).flatMap((s) => s.p.map((p) => ({ p, set: s.n, o: slOffers(p) }))).filter((x) => x.o.length && !x.o.some((y) => y.odd));
+    const under = all.filter((x) => x.p.list && x.o[0].price < x.p.list).map((x) => Object.assign({}, x, { r: 1 - x.o[0].price / x.p.list })).sort((a, b) => b.r - a.r);
+    const gap = all.filter((x) => x.o.length > 1).map((x) => Object.assign({}, x, { r: 1 - x.o[0].price / x.o[1].price })).filter((x) => x.r >= 0.1).sort((a, b) => b.r - a.r);
+    const n = v.slall ? 50 : 10;
+    let h = '<div class="d hlintro">Sealed products from sets of the last two years, plus every Commander deck set. Open a set in Sets to see all of its sealed prices.</div>';
+    h += '<section class="block"><h2>Furthest under list price</h2>' + (under.length ? under.slice(0, n).map((x) => slRow(x.p, x.set)).join("") : '<div class="d">Nothing is under its list price right now.</div>') +
+      '<div class="d">List prices are entered by hand from Wizards\u2019 announcements, so far only for Star Trek.</div></section>';
+    h += '<section class="block"><h2>Biggest gap between stores</h2>' + (gap.length ? gap.slice(0, n).map((x) => slRow(x.p, x.set)).join("") : '<div class="d">No big gaps right now.</div>') + "</section>";
+    if (!v.slall && (under.length > n || gap.length > n)) h += '<div class="chips"><button class="btn" data-act="slall">Show more</button></div>';
+    return h + '<div class="d">' + SL_NOTE + " Checked " + esc(shortDate(D.checked)) + ".</div>";
   }
   function copyPrecon(i) {
     const p = SETS.data.precons[i];
