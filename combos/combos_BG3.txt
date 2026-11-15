@@ -1,0 +1,85 @@
+## Combo 7096-8095--5
+Cards: Bioengineered Future + Hammerhead, Maggia Boss
+Color identity: BG | Bracket: 2-3+ (Oddball) | Popularity: 4 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Requires: Persist Creature (battlefield)
+Start: Bioengineered Future (battlefield); Hammerhead, Maggia Boss (battlefield)
+Prerequisites: You've had at least one land enter this turn.
+Steps: Activate Hammerhead by sacrificing the persist creature.
+  When the persist creature dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it and at least one +1/+1 counter on it due to Bioengineered Future.
+  Remove a -1/-1 counter and a +1/+1 counter from that creature as a state-based action.
+  Resolve the Hammerhead ability.
+  Repeat
+
+## Combo 7388-8095--5
+Cards: Rocksteady, Mutant Marauder + Hammerhead, Maggia Boss
+Color identity: BG | Bracket: 2-3+ (Oddball) | Popularity: 30 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Requires: Persist Creature (battlefield)
+Start: Rocksteady, Mutant Marauder (battlefield); Hammerhead, Maggia Boss (battlefield)
+Steps: Activate Hammerhead by sacrificing the persist creature.
+  When the persist creature dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
+  When the persist creature enters, Rocksteady triggers, putting a +1/+1 counter on that creature.
+  Resolve the Hammerhead ability.
+  Repeat
+
+## Combo 7430-8095--5
+Cards: Gorma, the Gullet + Hammerhead, Maggia Boss
+Color identity: BG | Bracket: 2-3+ (Oddball) | Popularity: 100 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Requires: Persist Creature (battlefield)
+Start: Gorma, the Gullet (battlefield); Hammerhead, Maggia Boss (battlefield)
+Steps: Activate Hammerhead by sacrificing the persist creature.
+  When the persist creature dies, its persist ability and Gorma trigger.
+  Resolve the Gorma ability, putting a +1/+1 counter on Gorma.
+  Resolve the persist ability, returning it from your graveyard to the battlefield with a -1/-1 counter on it and at least one +1/+1 counter on it due to Gorma.
+  Remove a -1/-1 counter and a +1/+1 counter from that creature as a state-based action.
+  Resolve the Hammerhead ability.
+  Repeat
+
+## Combo 7433-7439
+Cards: Yavimaya Bloomsage // Channel + Stensian Sanguinist // Exsanguinate
+Color identity: BG | Bracket: 4+ (Ruthless) | Popularity: 2700 | Commander: legal | Mana needed: {B}{B}{G}{G}
+Produces: Near-infinite lifegain; Near-infinite lifeloss
+Start: Yavimaya Bloomsage // Channel (battlefield: is prepared); Stensian Sanguinist // Exsanguinate (battlefield: is prepared)
+Steps: Cast a copy of Channel by paying {G}{G}.
+  Activate the ability granted by Channel by paying 1 life, adding {C}.
+  Repeat step 2 as desired.
+  Cast a copy of Exsanguinate by paying {B}{B} and all remaining available mana, causing each opponent to lose a significant amount of life and you to gain life equal to the life lost this way.
+Notes: The more life you have, the more life your opponents will lose. You can also add mana as desired from other sources to cast Exsanguinate.
+
+## Combo 7439-7442
+Cards: Yavimaya Bloomsage // Channel + Torment of Hailfire
+Color identity: BG | Bracket: 4+ (Ruthless) | Popularity: 430 | Commander: legal | Mana needed: {B}{B}{G}{G}
+Produces: Near-infinite lifeloss
+Start: Yavimaya Bloomsage // Channel (battlefield: is prepared); Torment of Hailfire (hand)
+Steps: Cast a copy of Channel by paying {G}{G}.
+  Activate the ability granted by Channel by paying 1 life, adding {C}.
+  Repeat step 2 as desired.
+  Cast Torment of Hailfire by paying {B}{B} and all remaining available mana. Each opponent will lose 3 life unless they sacrifice a nonland permanent or discard a card for each mana paid beyond the {B}{B}.
+Notes: The more life you have, the more life your opponents will lose. You can also add mana as desired from other sources to cast Torment of Hailfire. While the opponents can sacrifice permanents and/or discard cards to prevent lifeloss, they'll eventually run out of cards/permanents if enough mana is poured into Torment of Hailfire.
+
+## Combo 7804-8095--5
+Cards: Captain Kathryn Janeway + Hammerhead, Maggia Boss
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Requires: Persist Creature (battlefield)
+Start: Captain Kathryn Janeway (battlefield); Hammerhead, Maggia Boss (battlefield)
+Prerequisites: The top card of your library is a nonland card.
+Steps: Activate Hammerhead by sacrificing the persist creature.
+  When the persist creature dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
+  When the persist creature enters, Captain Kathryn Janeway triggers, putting a +1/+1 counter on that creature.
+  Resolve the Hammerhead ability.
+  Repeat
+
+## Combo 7940-8095--5
+Cards: Support Mission + Hammerhead, Maggia Boss
+Color identity: BG | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Requires: Persist Creature (battlefield)
+Start: Support Mission (battlefield); Hammerhead, Maggia Boss (battlefield)
+Steps: Activate Hammerhead by sacrificing the persist creature.
+  When the persist creature dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
+  When the persist creature enters, Support Mission triggers, putting a +1/+1 counter on that creature.
+  Resolve the Hammerhead ability.
+  Repeat
