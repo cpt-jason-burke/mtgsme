@@ -262,6 +262,7 @@
       if (act === "deck-cmd") { setCommander(n); return drawSheet(); }
       if (act === "images") { Scry.setEnabled(!Scry.state.enabled); drawSheet(); return; }
       if (act === "test") return runTest();
+      if (act === "trek") return openTrek();
       if (act === "hlzoom") { const c = hlCard(a.dataset.key); if (c && c.img) lightbox(c.img.l || c.img.n, c.img.n, c.name, c.set + " #" + c.num + (c.signer ? " \u00B7 signed by " + c.signer : "")); return; }
       const v = stack[stack.length - 1];
       if (act === "kw") { leaveSheets(); showTab("search"); setKeyword(a.dataset.v); return; }
@@ -486,7 +487,7 @@
     $("#themesel").addEventListener("change", (e) => { state.theme = e.target.value; state.shown = 50; renderResults(); });
     $("#results").addEventListener("click", (e) => {
       if (e.target.closest("[data-more]")) { state.shown += 50; return renderResults(); }
-      if (e.target.closest("[data-hl]")) { openHeadliners(); return; }
+      if (e.target.closest("[data-hl]")) { openTrek(); return; }
       const hs = e.target.closest("[data-hset]"); if (hs) { ensureSets().then(() => openSheet({ type: "set", code: hs.dataset.hset })); return; }
       const sp = e.target.closest("[data-spoil]"); if (sp) { const c = card(sp.dataset.spoil); if (c) openSheet({ type: "card", card: c }); else if (sp.dataset.url) lightbox(sp.dataset.url, sp.dataset.url, sp.dataset.spoil, sp.dataset.sset); return; }
       const nt = e.target.closest("[data-ntab]"); if (nt) { HOME.tab = nt.dataset.ntab; return renderHome(); }
@@ -1203,6 +1204,19 @@
     return HL.promise;
   }
   const openHeadliners = () => ensureHL().then(() => openSheet({ type: "headliners" }));
+  // The transporter console (trek.js, loaded on first use) is the animated way in. With reduced motion or pictures off, the plain list opens instead.
+  const trekOK = () => Scry.state.enabled && !(window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches);
+  let trekLoad = null;
+  function openTrek() {
+    return ensureHL().then(() => {
+      const d = HL.data, s = d && d.sets.find((x) => x.code === d.featured), cards = s ? d.cards.filter((c) => c.set === s.code) : [];
+      const listOpen = () => { const v = stack[stack.length - 1]; return v && v.type === "headliners"; };
+      const plain = () => { if (!listOpen()) openSheet({ type: "headliners" }); };
+      if (!cards.length || !trekOK()) return plain();
+      if (!trekLoad) trekLoad = new Promise((ok, no) => { const sc = document.createElement("script"); sc.src = "trek.js" + DATA_V; sc.onload = ok; sc.onerror = () => { trekLoad = null; sc.remove(); no(); }; document.head.appendChild(sc); });
+      return trekLoad.then(() => window.Trek.open({ cards, set: s, finds: HL.finds, onAll: plain, onCard: (key) => openSheet({ type: "headliner", key }) }), plain);
+    });
+  }
   const hlCard = (key) => HL.data && HL.data.cards.find((c) => c.key === key);
   const hlFinds = (key) => HL.finds.filter((f) => String(f.card || "").toLowerCase() === key);
   const hlMarket = (c) => (c.tcg && c.tcg.market) || c.sf || null;
@@ -1241,7 +1255,7 @@
       h += '<section class="block"><h2>' + esc(feat.title || feat.name) + '</h2><div class="panel item hlfacts">' + (feat.summary ? "<p>" + esc(feat.summary) + "</p>" : "") +
         (feat.run ? hlRow("Print run", feat.run) : "") + (feat.odds ? hlRow("Odds", feat.odds) : "") + (feat.language ? hlRow("Language", feat.language) : "") +
         hlRow("Reported finds", finds ? finds + " so far (an estimate: one card can be reported twice)" : "None yet. Send links in a Claude chat to add them.") + "</div>" +
-        (feat.in ? hlWhere(feat) : "") + '<div class="hlgrid">' + cards.map(hlTile).join("") + "</div>" + (feat.notice ? '<div class="d hlsmall">' + esc(feat.notice) + "</div>" : "") + "</section>";
+        (feat.in ? hlWhere(feat) : "") + (trekOK() ? '<div class="chips"><button class="btn small" data-act="trek">Open the transporter room</button></div>' : "") + '<div class="hlgrid">' + cards.map(hlTile).join("") + "</div>" + (feat.notice ? '<div class="d hlsmall">' + esc(feat.notice) + "</div>" : "") + "</section>";
     }
     const rest = d.cards.filter((c) => !feat || c.set !== feat.code);
     if (rest.length) h += '<section class="block"><h2>Other headliners</h2><div class="hlgrid">' + rest.map(hlTile).join("") + "</div></section>";

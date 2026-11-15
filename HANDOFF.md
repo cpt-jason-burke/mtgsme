@@ -39,6 +39,11 @@ Everything below is live on `main`. The site is https://cpt-jason-burke.github.i
   - `docs/data/headliner-finds.json` is hand-maintained and starts empty. `CLAUDE.md` tells any session how to add a find the user approves.
   - The app code is the `// ---------- headliners` block in `docs/app.js` (`ensureHL`, `hlBanner`, `hlView`, `hlCardView`) and the `/* headliners */` CSS in `docs/index.html`. This plain view is the reduced-motion fallback for Step 2.
   - Also fixed: on screens 1,000 px and wider (iPad landscape), the Search home page squeezed into a narrow column; home sections now span the full width.
+- **Transporter console (Step 2, added 2026-11-15):** the home banner opens a full-screen console: slide the bar up, the seven cards beam in on the pads, then a carousel; tapping the front card opens a details panel.
+  - `docs/trek.js` is self-contained (it injects its own CSS, every class starts with `tk-`) and loads only on first use. `Trek.open({cards, set, finds, onCard, onAll, onClose})` shows it; `Trek.beam(canvas, columns, opts)` is the beam effect alone, for Step 5. Sounds are generated with WebAudio and start off.
+  - `openTrek()` in `docs/app.js` falls back to the plain list when Reduce Motion is on, pictures are off, or the script fails to load. The Sets chip still opens the plain list, which has an "Open the transporter room" button.
+  - The private preview is a claude.ai Artifact with the card pictures embedded (Artifacts can't load outside images). The user approved it. The user has not yet said how the sound is; it was never listened to in testing.
+  - Not done: the console isn't in the back-gesture history (`navPush`), so a back swipe acts on the page under it.
 - **Refresh workflow** `.github/workflows/refresh-data.yml`, cron `17 */6 * * *` (runs often start about an hour late):
   - News is fetched on every run; card data is rebuilt only when mtg.wtf changes.
   - Combos rebuild on the first run of each UTC day, and on a manual run or a push to `tools/`.
@@ -357,7 +362,7 @@ const { chromium } = require('playwright');
 | --- | --- | --- |
 | Combos (Commander Spellbook) | Done, live 2026-11-15 | Decks tab, `tools/combos.js`, daily refresh |
 | 1. Headliner section and tracker | Done, live 2026-11-15 | Home banner + Sets chip, daily `tools/build_headliners.py`, finds by hand (no Reddit bot) |
-| 2. Transporter console | Preview sent 2026-11-15, waiting for the user's OK | `docs/trek.js` (`Trek.open`, `Trek.beam`) is on branch `claude/jolly-newton-syw5dw`, tested on phone and desktop sizes. Not on `main` and not wired into `docs/app.js` yet: after the OK, open it from the home banner and Sets chip (lazy-load the script; with reduced motion or pictures off, open the plain sheet), pass `onCard`/`onAll` to reach the Step 1 views, then merge to `main` |
+| 2. Transporter console | Done, live 2026-11-15 | `docs/trek.js`, opened by the home banner; the user approved the private preview |
 | 3. Top 25 per set | Not started | Needs `data.scryfall.io` to test here |
 | 4. Sealed price comparison | Not started | 4b (local shops) after 4 works |
 | 5. Comm badge cinematic | Not started | After Step 2 |
