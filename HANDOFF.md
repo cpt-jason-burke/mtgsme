@@ -357,7 +357,7 @@ const { chromium } = require('playwright');
 | --- | --- | --- |
 | Combos (Commander Spellbook) | Done, live 2026-11-15 | Decks tab, `tools/combos.js`, daily refresh |
 | 1. Headliner section and tracker | Done, live 2026-11-15 | Home banner + Sets chip, daily `tools/build_headliners.py`, finds by hand (no Reddit bot) |
-| 2. Transporter console | Not started | Private preview first |
+| 2. Transporter console | Preview sent 2026-11-15, waiting for the user's OK | `docs/trek.js` (`Trek.open`, `Trek.beam`) is on branch `claude/jolly-newton-syw5dw`, tested on phone and desktop sizes. Not on `main` and not wired into `docs/app.js` yet: after the OK, open it from the home banner and Sets chip (lazy-load the script; with reduced motion or pictures off, open the plain sheet), pass `onCard`/`onAll` to reach the Step 1 views, then merge to `main` |
 | 3. Top 25 per set | Not started | Needs `data.scryfall.io` to test here |
 | 4. Sealed price comparison | Not started | 4b (local shops) after 4 works |
 | 5. Comm badge cinematic | Not started | After Step 2 |
