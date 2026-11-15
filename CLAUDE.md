@@ -41,5 +41,8 @@ For a pasted Moxfield or Archidekt list: check color identity and singleton lega
 ## Work in progress
 `HANDOFF.md` holds the plan, the user's decisions and verified facts for the next features (headliner section and tracker, Star Trek animations, Top 25 per set, sealed price comparison). Read it before continuing that work; it isn't needed for rules questions.
 
+## Headliner finds
+When the user sends a link to a pull, sale or listing of a headliner card (`docs/data/headliners.json`), check what it shows, get the user's OK, then add it to `docs/data/headliner-finds.json` (hand-maintained; its `about` field gives the format), commit to `main` and push. Add nothing the user hasn't approved. No bot reads Reddit for finds (the user's choice).
+
 ## Rebuilding the data
 `tools/build_site.py` and `tools/build_cards.py` regenerate the data from a checkout of https://github.com/taw/magic-search-engine, and `tools/build_combos.py` regenerates the combos from Commander Spellbook's export (see README.md). Do not edit the generated files by hand.

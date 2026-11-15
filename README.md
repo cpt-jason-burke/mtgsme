@@ -15,6 +15,8 @@ Pocket Commander rules judge and deck-building tools: Comprehensive Rules, card 
 | `tools/build_site.py` | Script that rebuilds the web app's data files (`docs/data/`: cards, rulings, rules, sets, cards per set, precon lists) |
 | `tools/build_combos.py` | Script that rebuilds the combos from Commander Spellbook's export (`combos/` and `docs/data/combos.json`) |
 | `tools/combos.js` | Combo lookup for a deck list or for named cards, using the same code as the web app |
+| `tools/build_headliners.py` | Script that rebuilds `docs/data/headliners.json`: the cards Scryfall tags as headliners, with TCGplayer prices (from TCGCSV) and the hand-entered facts in `tools/headliner_facts.json` |
+| `docs/data/headliner-finds.json` | Reported pulls, sales and listings of headliner cards. Hand-maintained: an entry is added only after the owner approves it in a Claude chat. |
 | `CLAUDE.md` | Judge instructions that every Claude Code session on this repo loads automatically |
 
 ## Card format
@@ -76,7 +78,13 @@ Only reviewed, working combos are kept. Nothing is replaced if the export cannot
 python3 tools/build_combos.py [variants.json.gz]
 ```
 
-The `Refresh card data` workflow runs all of this by itself: news every 6 hours, card data when mtg.wtf changes, combos once a day.
+Headliners come from Scryfall's search (`is:headliner`, https://scryfall.com/docs/api) and TCGplayer prices from TCGCSV (https://tcgcsv.com). Nothing is replaced if Scryfall's answer looks incomplete, and prices that can't be fetched keep their previous values.
+
+```
+python3 tools/build_headliners.py
+```
+
+The `Refresh card data` workflow runs all of this by itself: news every 6 hours, card data when mtg.wtf changes, combos and headliners once a day.
 
 ## The web app
 
@@ -88,6 +96,7 @@ Served by GitHub Pages from the `docs` folder: https://cpt-jason-burke.github.io
 - **Decks:** import a Moxfield or Archidekt text export (or build from empty), check it for Commander (100 cards, color identity, singleton, bans, Game Changers), see the mana curve, search within the commander's colors, and get wording-based synergy suggestions. It also lists the known combos already in the deck, and the single cards in the commander's colors that would each finish one.
 - **Sets:** Magic's release history by year: every set with its symbol, date and card count, color-coded by kind (Commander decks, Secret Lair, reprint, Jumpstart). Filter by color, type, mana value and rarity; open a set for a grid of its cards; open a Commander precon or Secret Lair drop for its list and market value, and copy a precon into Decks.
 - **Rules:** search and browse the full Comprehensive Rules, with tap-to-open rule references.
+- **Headliners:** the rarest chase cards (a banner on the Search home page and a chip in Sets). Star Trek's seven signed cards come first, with signer, print run, where they're found, TCGplayer prices and reported finds; tap a card for its details and sources.
 
 Card images load from Scryfall in the viewer's browser (`docs/scry.js`), batched and cached on the device; they can be turned off in Settings. Card text never comes from Scryfall.
 

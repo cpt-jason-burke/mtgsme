@@ -1,0 +1,4 @@
+{
+  "about": "Reported finds of headliner cards. Hand-maintained: add an entry only after the app's owner approves it in a Claude chat. card is the printing's key from headliners.json (set/collector number, lowercase). kind is pull, sale or listing. date is when it was reported (YYYY-MM-DD). price is optional (US dollars, for a sale or listing). One card can be reported more than once, so totals are an estimate.",
+  "finds": []
+}

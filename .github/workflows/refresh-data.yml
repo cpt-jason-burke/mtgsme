@@ -1,7 +1,7 @@
 name: Refresh card data
 
 # Every 6 hours: fetch news headlines, and rebuild the card data only if the mtg.wtf source changed.
-# Once a day: refresh the known combos from Commander Spellbook.
+# Once a day: refresh the known combos from Commander Spellbook, and the headliner cards and their prices.
 # Publishes only when something the app shows actually changed.
 on:
   schedule:
@@ -63,6 +63,15 @@ jobs:
 
       - name: Fetch news headlines
         run: python3 tools/fetch_news.py || echo "News fetch failed; keeping the previous headlines."
+
+      - name: Refresh headliner cards and prices
+        run: |
+          # once a day, like the combos
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ] && [ "$(date -u +%H)" -ge 6 ]; then
+            echo "Headliners were already checked today."
+          else
+            python3 tools/build_headliners.py || echo "Headliner refresh failed; keeping the previous headliner data."
+          fi
 
       - name: Publish only if something changed
         run: |

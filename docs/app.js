@@ -159,7 +159,7 @@
   function readNav() { try { return JSON.parse(sessionStorage.getItem("nav") || "null"); } catch (e) { return null; } }
   function saveNav() {
     if (!CR) return;
-    const ser = (v) => (v.type === "card" ? { type: "card", n: v.card.n } : { type: v.type, rule: v.rule, code: v.code, i: v.i, year: v.year, view: v.view, sort: v.sort });
+    const ser = (v) => (v.type === "card" ? { type: "card", n: v.card.n } : { type: v.type, rule: v.rule, code: v.code, i: v.i, year: v.year, view: v.view, sort: v.sort, key: v.key });
     try {
       sessionStorage.setItem("nav", JSON.stringify({ tab: curTab, q: $("#q").value, ci: [...state.ci], type: state.type, legal: state.legal, gc: state.gc, kw: state.kw || "", theme: state.theme || "",
         sheets: stack.filter((v) => v.type !== "settings").map(ser) }));
@@ -178,6 +178,7 @@
     renderResults();
     for (const sv of n.sheets || []) {
       if (["set", "deck", "sld"].includes(sv.type)) await ensureSets();
+      if (["headliners", "headliner"].includes(sv.type)) await ensureHL();
       const v = sv.type === "card" ? (card(sv.n) ? { type: "card", card: card(sv.n) } : null) : sv;
       if (v) { stack.push(v); navPush(); }
     }
@@ -203,6 +204,8 @@
     sld: [(v) => "Secret Lair · " + v.year, sldView],   // v.year holds a release date (or a year, from older saved pages)
     deck: [(v) => SETS.data.precons[v.i].n, deckView],
     rule: [(v) => (v.rule.startsWith("gloss:") ? "Glossary" : "Rule " + v.rule), (v) => ruleView(v.rule)],
+    headliners: [() => "Headliners", hlView],
+    headliner: [(v) => (hlCard(v.key) || {}).name || "Headliner", hlCardView],
   };
   function drawSheet() {
     const v = stack[stack.length - 1];
@@ -259,6 +262,7 @@
       if (act === "deck-cmd") { setCommander(n); return drawSheet(); }
       if (act === "images") { Scry.setEnabled(!Scry.state.enabled); drawSheet(); return; }
       if (act === "test") return runTest();
+      if (act === "hlzoom") { const c = hlCard(a.dataset.key); if (c && c.img) lightbox(c.img.l || c.img.n, c.img.n, c.name, c.set + " #" + c.num + (c.signer ? " \u00B7 signed by " + c.signer : "")); return; }
       const v = stack[stack.length - 1];
       if (act === "kw") { leaveSheets(); showTab("search"); setKeyword(a.dataset.v); return; }
       if (act === "theme") { leaveSheets(); showTab("search"); setTheme(a.dataset.v); return; }
@@ -270,6 +274,7 @@
       if (act === "copydeck") return copyPrecon(v.i);
     }
     const dk = t.closest("[data-deck]"); if (dk) return openSheet({ type: "deck", i: +dk.dataset.deck });
+    const hc = t.closest("[data-hlcard]"); if (hc) return openSheet({ type: "headliner", key: hc.dataset.hlcard });
     const r = t.closest("[data-rule]"); if (r) return openSheet({ type: "rule", rule: r.dataset.rule });
     const cd = t.closest("[data-card]"); if (cd && card(cd.dataset.card)) return openSheet({ type: "card", card: card(cd.dataset.card) });
     const g = t.closest("[data-gloss]"); if (g) return openSheet({ type: "rule", rule: "gloss:" + g.dataset.gloss });
@@ -481,6 +486,7 @@
     $("#themesel").addEventListener("change", (e) => { state.theme = e.target.value; state.shown = 50; renderResults(); });
     $("#results").addEventListener("click", (e) => {
       if (e.target.closest("[data-more]")) { state.shown += 50; return renderResults(); }
+      if (e.target.closest("[data-hl]")) { openHeadliners(); return; }
       const hs = e.target.closest("[data-hset]"); if (hs) { ensureSets().then(() => openSheet({ type: "set", code: hs.dataset.hset })); return; }
       const sp = e.target.closest("[data-spoil]"); if (sp) { const c = card(sp.dataset.spoil); if (c) openSheet({ type: "card", card: c }); else if (sp.dataset.url) lightbox(sp.dataset.url, sp.dataset.url, sp.dataset.spoil, sp.dataset.sset); return; }
       const nt = e.target.closest("[data-ntab]"); if (nt) { HOME.tab = nt.dataset.ntab; return renderHome(); }
@@ -574,6 +580,7 @@
     [HOME.sets, HOME.events, HOME.news, HOME.announced] = await Promise.all([get("sets.json"), get("events.json"), get("news.json"), get("announced.json")]);
     if (HOME.shown) renderHome();
     loadSpoilers();
+    ensureHL().then(() => { if (HOME.shown && HL.data) renderHome(); });
   }
   // Newest previews from upcoming sets, live from Scryfall (which lists official previews, not leaks).
   async function loadSpoilers() {
@@ -628,6 +635,7 @@
           '<div class="cdclock" data-cd="' + g.d + '">' + countdown(g.d) + '</div><div class="cdfoot">' + g.sets.reduce((a, s) => a + s.t, 0) + " cards revealed so far · tap to browse</div></div>";
       }).join("") + "</div>" + (groups.length > 1 ? '<div class="dots cddots">' + groups.map((_, i) => "<i" + (i ? "" : ' class="on"') + "></i>").join("") + "</div>" : "");
     }
+    h += hlBanner();
     // newly revealed cards
     h += '<section class="block"><h2>Newly revealed</h2>';
     if (HOME.spoilers === null) h += '<div class="d">Loading the latest previews…</div>';
@@ -1027,7 +1035,7 @@
   }
   function initSetFilters() {
     const f = SETS.f;
-    $("#setfilters").innerHTML = '<button class="chip" id="sfbtn">Filters</button><div class="chips hidden" id="sfbody" style="width:100%">' + Object.entries(KINDS).map(([k, v]) => '<button class="chip on" data-kind="' + k + '">' + v + "</button>").join("") +
+    $("#setfilters").innerHTML = '<button class="chip hlchip" id="shl">\u2605 Headliners</button><button class="chip" id="sfbtn">Filters</button><div class="chips hidden" id="sfbody" style="width:100%">' + Object.entries(KINDS).map(([k, v]) => '<button class="chip on" data-kind="' + k + '">' + v + "</button>").join("") +
       ["W", "U", "B", "R", "G", "C"].map((c) => '<button class="chip" data-ci="' + c + '" aria-label="' + c + '"><i class="ms ' + c + '">' + c + "</i></button>").join("") +
       '<select class="sel" id="stype"><option value="">Any type</option>' + MTGDeck.TYPE_ORDER.concat("Legendary").map((t) => "<option>" + t + "</option>").join("") + "</select>" +
       '<select class="sel" id="smv"><option value="">Any mana value</option>' + [0, 1, 2, 3, 4, 5, 6, 7].map((n) => '<option value="' + n + '">MV ' + (n === 7 ? "7+" : n) + "</option>").join("") + "</select>" +
@@ -1035,6 +1043,7 @@
       '<button class="chip" id="shidden">Promos &amp; extras</button></div>';
     $("#setfilters").addEventListener("click", (e) => {
       const b = e.target.closest("button"); if (!b) return;
+      if (b.id === "shl") { openHeadliners(); return; }
       if (b.id === "sfbtn") { $("#sfbody").classList.toggle("hidden"); return; }
       if (b.dataset.kind) { const k = b.dataset.kind; f.kinds.has(k) ? f.kinds.delete(k) : f.kinds.add(k); b.classList.toggle("on", f.kinds.has(k)); }
       if (b.dataset.ci) { const c = b.dataset.ci; f.ci.has(c) ? f.ci.delete(c) : f.ci.add(c); b.classList.toggle("on", f.ci.has(c)); }
@@ -1178,6 +1187,92 @@
     state.deck = { commanders: (p.cmd || []).map((r) => CARDS[r[1]].n), cards };
     state.importNote = "Copied from the " + p.n + " precon (" + p.sn + ").";
     saveDeck(); leaveSheets(); showTab("decks");
+  }
+
+  // ---------- headliners: the rarest chase cards, with prices and reported finds (data/headliners.json, data/headliner-finds.json) ----------
+  const HL = { data: null, finds: [], promise: null, err: "" };
+  const HL_TAGS = { serialized: "serial-numbered", doublerainbow: "double rainbow foil", rainbowfoil: "rainbow foil", cosmicfoil: "cosmic foil", raisedfoil: "raised foil", singularityfoil: "singularity foil", gleaminggold: "gleaming gold", poster: "poster art" };
+  const KIND = { pull: "Pulled", sale: "Sold", listing: "Listed for sale" };
+  function ensureHL() {
+    if (!HL.promise) {
+      const get = (f) => fetch("data/" + f + ".json" + DATA_V).then((x) => { if (!x.ok) throw new Error("the server answered " + x.status); return x.json(); });
+      HL.promise = Promise.all([get("headliners"), get("headliner-finds").catch(() => ({ finds: [] }))])
+        .then(([d, f]) => { HL.data = d; HL.finds = (f && f.finds) || []; HL.err = ""; })
+        .catch((e) => { HL.err = e.message || String(e); HL.promise = null; });
+    }
+    return HL.promise;
+  }
+  const openHeadliners = () => ensureHL().then(() => openSheet({ type: "headliners" }));
+  const hlCard = (key) => HL.data && HL.data.cards.find((c) => c.key === key);
+  const hlFinds = (key) => HL.finds.filter((f) => String(f.card || "").toLowerCase() === key);
+  const hlMarket = (c) => (c.tcg && c.tcg.market) || c.sf || null;
+  const hlUrl = (u) => (/^https?:\/\//i.test(u || "") ? u : "#");
+  const hlRow = (k, v) => '<div class="hlrow"><span>' + esc(k) + "</span><div>" + esc(v) + "</div></div>";
+  const hlFail = () => '<div class="panel item">Could not load the headliner data' + (HL.err ? " (" + esc(HL.err) + ")" : "") + ". Try again in a few minutes.</div>";
+  function hlPrice(c) {
+    const m = hlMarket(c), low = c.tcg && c.tcg.low;
+    return m ? '<span class="price">' + money(m) + "</span> recent sales" : low ? '<span class="price">' + money(low) + "</span> asking" : '<span class="price none">No price yet</span>';
+  }
+  function hlBanner() {
+    const d = HL.data, s = d && (d.sets.find((x) => x.code === d.featured) || d.sets[0]);
+    if (!s) return "";
+    const cards = d.cards.filter((c) => c.set === s.code), mid = (cards.length - 1) / 2;
+    const fan = Scry.state.enabled ? '<div class="hlfan" aria-hidden="true">' + cards.map((c, i) => '<i style="--r:' + (i - mid) * 5 + "deg;--y:" + Math.abs(i - mid) * 4 + "px;background-image:url(&quot;" + esc(c.img ? c.img.s : "") + '&quot;)"></i>').join("") + "</div>" : "";
+    return '<div class="cdban hlban" data-hl><div class="cdname"><small>Headliners · chase cards</small><b>' + esc(s.title || s.name) + "</b></div>" + fan +
+      '<div class="cdfoot">' + cards.length + " cards" + (s.run ? " · " + esc(s.run.toLowerCase()) : "") + " · tap for prices and finds</div></div>";
+  }
+  function hlTile(c) {
+    const n = hlFinds(c.key).length, set = HL.data.sets.find((s) => s.code === c.set) || {};
+    return '<div class="hltile" data-hlcard="' + esc(c.key) + '"><div class="im"><span>' + esc(c.name) + "</span>" + (c.img && Scry.state.enabled ? '<img src="' + esc(c.img.n) + '" alt="' + esc(c.name) + '" loading="lazy" decoding="async">' : "") + "</div>" +
+      '<div class="cap"><b>' + esc(c.name) + "</b><span>" + (c.signer ? "Signed by " + esc(c.signer) : esc(set.name || c.set) + " · #" + esc(c.num)) + "</span><span>" + hlPrice(c) + "</span>" +
+      (n ? '<span class="finds">' + n + " reported find" + (n > 1 ? "s" : "") + "</span>" : "") + "</div></div>";
+  }
+  function hlWhere(s, open) {
+    return '<details class="panel item hlwhere"' + (open ? " open" : "") + "><summary>Where to find one</summary><div class=\"hlsub\">Can be in</div><ul>" + s.in.map((x) => "<li>" + esc(x) + "</li>").join("") + "</ul>" +
+      (s.not_in ? '<div class="hlsub">Never in</div><div>' + esc(s.not_in.join(", ")) + "</div>" : "") + "</details>";
+  }
+  function hlView() {
+    const d = HL.data;
+    if (!d) return hlFail();
+    const feat = d.sets.find((s) => s.code === d.featured);
+    let h = '<div class="d hlintro">The rarest chase cards in recent sets: the printings Scryfall tags as headliners. Tap a card for its prices, facts and reported finds.</div>';
+    if (feat) {
+      const cards = d.cards.filter((c) => c.set === feat.code), finds = cards.reduce((a, c) => a + hlFinds(c.key).length, 0);
+      h += '<section class="block"><h2>' + esc(feat.title || feat.name) + '</h2><div class="panel item hlfacts">' + (feat.summary ? "<p>" + esc(feat.summary) + "</p>" : "") +
+        (feat.run ? hlRow("Print run", feat.run) : "") + (feat.odds ? hlRow("Odds", feat.odds) : "") + (feat.language ? hlRow("Language", feat.language) : "") +
+        hlRow("Reported finds", finds ? finds + " so far (an estimate: one card can be reported twice)" : "None yet. Send links in a Claude chat to add them.") + "</div>" +
+        (feat.in ? hlWhere(feat) : "") + '<div class="hlgrid">' + cards.map(hlTile).join("") + "</div>" + (feat.notice ? '<div class="d hlsmall">' + esc(feat.notice) + "</div>" : "") + "</section>";
+    }
+    const rest = d.cards.filter((c) => !feat || c.set !== feat.code);
+    if (rest.length) h += '<section class="block"><h2>Other headliners</h2><div class="hlgrid">' + rest.map(hlTile).join("") + "</div></section>";
+    return h + '<div class="d hlsmall">Prices come from TCGplayer (through TCGCSV and Scryfall), in US dollars, without shipping or tax. “Asking” is the cheapest listing right now, not a sale. “Recent sales” is TCGplayer’s market price.' +
+      (d.checked ? " Checked " + esc(shortDate(d.checked)) + "." : "") + "</div>";
+  }
+  function hlCardView(v) {
+    const c = hlCard(v.key);
+    if (!c) return HL.data ? '<div class="panel item">This card isn’t in the headliner list any more.</div>' : hlFail();
+    const s = HL.data.sets.find((x) => x.code === c.set) || {}, m = hlMarket(c), f = hlFinds(c.key);
+    const finish = c.fin.map((x) => (FIN[x] || [x])[0]).concat(c.border === "borderless" ? ["borderless"] : [], c.tags.filter((t) => HL_TAGS[t]).map((t) => HL_TAGS[t])).join(", ");
+    let h = c.img && Scry.state.enabled ? '<div class="cardimg" role="img" aria-label="' + esc(c.name) + '" data-act="hlzoom" data-key="' + esc(c.key) + '" style="background-image:url(&quot;' + esc(c.img.n) + '&quot;)"></div>' : "";
+    h += '<div class="panel item hlfacts">' + hlRow("Set", (s.name || c.set) + " (" + c.set + "), #" + c.num) + hlRow("Released", shortDate(c.date)) + (c.signer ? hlRow("Signed by", c.signer) : "") +
+      (c.artist ? hlRow("Artist", c.artist) : "") + hlRow("Finish", finish) + (s.run ? hlRow("Print run", s.run) : "") + (s.odds ? hlRow("Odds", s.odds) : "") +
+      (c.cmd && c.cmd !== "legal" ? hlRow("Commander", c.cmd.replace(/_/g, " ")) : "") + "</div>";
+    h += '<section class="block"><h2>Prices</h2><div class="panel item hlfacts">' + hlRow("Recent sales", m ? money(m) : "None yet") + hlRow("Lowest asking", c.tcg && c.tcg.low ? money(c.tcg.low) : "No listings") +
+      '<div class="d hlsmall">Recent sales is TCGplayer’s market price. Asking is the cheapest listing right now, not a sale. US dollars, without shipping or tax' + (HL.data.checked ? "; checked " + esc(shortDate(HL.data.checked)) : "") + ".</div></div>" +
+      '<div class="chips">' + (c.tcg && c.tcg.url ? '<a class="btn small" href="' + esc(hlUrl(c.tcg.url)) + '" target="_blank" rel="noopener">TCGplayer ↗</a>' : "") +
+      (c.scry ? '<a class="btn small" href="' + esc(hlUrl(c.scry)) + '" target="_blank" rel="noopener">Scryfall ↗</a>' : "") +
+      (card(c.name) ? '<button class="btn small" data-card="' + esc(c.name) + '">Card text &amp; rulings</button>' : "") + "</div></section>";
+    if (s.in) h += '<section class="block"><h2>Where it’s found</h2>' + hlWhere(s, true) + "</section>";
+    h += '<section class="block"><h2>Reported finds</h2>' + (f.length ? '<div class="d" style="margin-bottom:8px">' + f.length + " reported. An estimate: one card can be reported twice.</div>" + f.map(hlFindRow).join("")
+      : '<div class="panel item"><div class="d">None reported yet. Send a link in a Claude chat; it’s added once you approve it.</div></div>') + "</section>";
+    if (s.sources) h += '<section class="block"><h2>Sources</h2>' + s.sources.map((x) => '<a class="panel row newsrow" href="' + esc(hlUrl(x.url)) + '" target="_blank" rel="noopener"><div class="body"><h4>' + esc(x.n) + '</h4><div class="ty">' + esc(x.for) + "</div></div></a>").join("") + "</section>";
+    if (s.notice) h += '<div class="d hlsmall">' + esc(s.notice) + "</div>";
+    return h;
+  }
+  function hlFindRow(f) {
+    const host = (String(f.url || "").match(/^https?:\/\/(?:www\.)?([^/]+)/i) || [])[1] || "";
+    return '<a class="panel row newsrow" href="' + esc(hlUrl(f.url)) + '" target="_blank" rel="noopener"><div class="body"><h4>' + esc(KIND[f.kind] || "Reported") + (f.price ? " · " + money(+f.price) + (f.kind === "listing" ? " asking" : "") : "") +
+      '</h4><div class="ty">' + (f.date ? esc(shortDate(f.date)) : "") + (host ? " · " + esc(host) : "") + "</div>" + (f.note ? '<div class="why">' + esc(f.note) + "</div>" : "") + "</div></a>";
   }
 
   // ---------- rules ----------

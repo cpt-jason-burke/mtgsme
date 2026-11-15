@@ -1,0 +1,41 @@
+{
+  "about": "Hand-entered facts about headliner cards that Scryfall and TCGplayer don't give. Keys are lowercase: a set code under sets, set/collector number under cards. Check every fact against a source and list the source. tools/build_headliners.py copies these into docs/data/headliners.json.",
+  "featured": "TRK",
+  "sets": {
+    "trk": {
+      "title": "Star Trek signed cards",
+      "summary": "7 cards. Each was printed, hand-signed by a Star Trek actor and randomly put into a Collector Booster. Scryfall's pictures show the blank signature box.",
+      "run": "Fewer than 250 copies of each card",
+      "odds": "Not published. Wizards says only that one appears in \"an extremely low quantity of Collector Boosters\".",
+      "language": "Found in Collector Boosters of any language; the card is always in English.",
+      "notice": "Unofficial fan app. Not made or endorsed by Wizards of the Coast or Paramount.",
+      "in": [
+        "Collector Booster pack ($37.99 list price)",
+        "Collector Booster box (12 Collector Boosters)",
+        "Beam Me Up Bundle (8 Play Boosters + 1 Collector Booster, $99.99 list price)",
+        "Draft Night (12 Play Boosters + 1 Collector Booster, $119.99 list price)"
+      ],
+      "not_in": [
+        "Play Boosters",
+        "the regular Bundle (9 Play Boosters)",
+        "Commander decks",
+        "Scene Boxes (3 Play Boosters)",
+        "Prerelease Packs (6 Play Boosters)",
+        "Welcome Decks"
+      ],
+      "sources": [
+        {"n": "Wizards: Collecting Magic: The Gathering | Star Trek (Oct 20, 2026)", "url": "https://magic.wizards.com/en/news/feature/collecting-star-trek", "for": "print run, Collector Boosters only, what each product holds, list prices"},
+        {"n": "CoolStuffInc: Everything Revealed in the Star Trek Debut (Oct 20, 2026)", "url": "https://www.coolstuffinc.com/a/everything-revealed-star-trek-debut-stream-pas", "for": "who signed each card (Wizards' articles don't name the actors)"}
+      ]
+    }
+  },
+  "cards": {
+    "trk/1701": {"signer": "William Shatner"},
+    "trk/1701d": {"signer": "Patrick Stewart"},
+    "trk/1702": {"signer": "Ethan Peck"},
+    "trk/1703": {"signer": "Brent Spiner"},
+    "trk/1704": {"signer": "Kate Mulgrew"},
+    "trk/1705": {"signer": "Jeri Ryan"},
+    "trk/1706": {"signer": "LeVar Burton"}
+  }
+}

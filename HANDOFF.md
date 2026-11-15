@@ -34,6 +34,11 @@ Everything below is live on `main`. The site is https://cpt-jason-burke.github.i
   - `docs/combos.js` does the matching (`index`, `check`, `withCards`). `tools/combos.js` is the command-line version that `CLAUDE.md` tells the judge to use.
   - The data has 122,775 combos. Eleven joke cards aren't in the card data, so 92 combos never match; that is expected.
   - Verified: 21 logic checks and 21 browser checks (phone and desktop) passed, and the GitHub rebuild produced identical files.
+- **Headliners (Step 1, added 2026-11-15):** a banner on the Search home page and a "★ Headliners" chip in Sets open a sheet listing Scryfall's `is:headliner` printings (23), Star Trek's seven signed cards first. Tapping a card opens its details: signer, print run, odds, where it's found, TCGplayer prices, reported finds and sources.
+  - `tools/build_headliners.py` (daily) writes `docs/data/headliners.json` from Scryfall, TCGCSV prices (matched by Scryfall's `tcgplayer_id`, else set code and number) and the hand-entered `tools/headliner_facts.json`.
+  - `docs/data/headliner-finds.json` is hand-maintained and starts empty. `CLAUDE.md` tells any session how to add a find the user approves.
+  - The app code is the `// ---------- headliners` block in `docs/app.js` (`ensureHL`, `hlBanner`, `hlView`, `hlCardView`) and the `/* headliners */` CSS in `docs/index.html`. This plain view is the reduced-motion fallback for Step 2.
+  - Also fixed: on screens 1,000 px and wider (iPad landscape), the Search home page squeezed into a narrow column; home sections now span the full width.
 - **Refresh workflow** `.github/workflows/refresh-data.yml`, cron `17 */6 * * *` (runs often start about an hour late):
   - News is fetched on every run; card data is rebuilt only when mtg.wtf changes.
   - Combos rebuild on the first run of each UTC day, and on a manual run or a push to `tools/`.
@@ -49,7 +54,7 @@ Everything below is live on `main`. The site is https://cpt-jason-burke.github.i
   - package registries and MCP servers
 - **Not allowed yet:**
   - `data.scryfall.io`: Scryfall's bulk downloads, needed to test Step 3 here.
-  - `www.reddit.com`: needed for Step 1's finds.
+  - `www.reddit.com`: no longer needed. The user chose not to have a bot read Reddit for finds (section 7).
 
   When a step needs one, propose `update_environment` with that exact host. GitHub's runners have open internet, so the workflow itself can reach both.
 - WebSearch works for research. WebFetch and curl only reach allowed hosts.
@@ -102,6 +107,8 @@ All are generated, except the two marked hand-maintained.
 | `precons.json` | `tools/build_site.py` | `{n, d: [{n, y: "cmd"\|"sld", s, sn, d, cmd: [[qty, cardIndex, set, num]], main: [...]}]}`: 206 Commander decks and 786 Secret Lair drops |
 | `combos.json` | `tools/build_combos.py` | Keyed by card names, so it skips `DATA_V` |
 | `news.json` | `tools/fetch_news.py` | Headlines |
+| `headliners.json` | `tools/build_headliners.py` | `{about, featured, checked, sets: [...facts], cards: [{key "set/num", set, num, name, date, artist, fin, tags, border, img {s,n,l,a}, scry, cmd, tcg {id, url, low, market}, sf, signer?}]}` |
+| `headliner-finds.json` | **Hand-maintained** | `{about, finds: [{card, date, kind: pull\|sale\|listing, url, price?, note}]}` |
 | `announced.json`, `events.json` | **Hand-maintained** | Announced sets, events |
 
 - Files that point at card positions carry `n`. The app refetches them if `n` doesn't equal the number of cards.
@@ -146,6 +153,12 @@ All are generated, except the two marked hand-maintained.
 2. **Animations:** both, the console first. The transporter console is the headliner section's entrance. The comm badge cinematic comes later as a hidden entrance. Both share one beam-in effect.
 3. **Top 25:** each version counts separately; every printing and finish is its own entry.
 4. **Shops:** online stores first (TCGplayer, Card Kingdom, CoolStuff). Local shops come once that works, from shop names the user gives in chat.
+5. **Step 1 (decided in that session):**
+   - Entry point: the home banner plus a Sets chip, not a 7th tab.
+   - No bot reads Reddit for finds. Since July 2024 Reddit's robots.txt blocks bots that have no deal with Reddit, and the user chose to stay within that. Finds come only from links the user sends, so `tools/find_headliners.py` was not built.
+   - Finds are approved in a Claude chat.
+   - Pushing a tested step to `main` is OK.
+   - Open: the home-page news (`tools/fetch_news.py` and the app's `loadRedditHere`) still reads r/magicTCG. The user hasn't decided whether to drop it.
 
 ## 8. Promises made to the user
 
@@ -170,8 +183,8 @@ All are generated, except the two marked hand-maintained.
 | 1705 | Seven of Nine, Unassimilated | Jeri Ryan | 725064 |
 | 1706 | Lt. Cmdr. Geordi La Forge | LeVar Burton | 725065 |
 
-- **Print run:** Wizards' "Collecting Magic: The Gathering | Star Trek" (Oct 20, 2026) says: "There are 7 different signed cards ... There are fewer than 250 copies of each signed card ... Signed cards can only appear in Collector Boosters of any language, but the card will always be in English." So there are fewer than 1,750 in total. No exact count is published, and the cards aren't numbered.
-- **Signers:** the names come from CoolStuffInc's recap of the debut stream (Oct 20, 2026); Wizards' articles show the cards but don't name the actors. One pre-reveal article called Spock's signer unannounced, so re-check if a Wizards source turns up.
+- **Print run:** Wizards' "Collecting Magic: The Gathering | Star Trek" (Oct 20, 2026; https://magic.wizards.com/en/news/feature/collecting-star-trek, re-checked 2026-11-15, along with the product contents and list prices below) says: "There are 7 different signed cards ... There are fewer than 250 copies of each signed card ... Signed cards can only appear in Collector Boosters of any language, but the card will always be in English." So there are fewer than 1,750 in total. No exact count is published, and the cards aren't numbered.
+- **Signers:** the names come from CoolStuffInc's recap of the debut stream (Oct 20, 2026; https://www.coolstuffinc.com/a/everything-revealed-star-trek-debut-stream-pas, re-checked 2026-11-15); Wizards' articles show the cards but don't name the actors. One pre-reveal article called Spock's signer unannounced, so re-check if a Wizards source turns up.
 - **Where they're found:** only Collector Boosters. The products that contain one:
   - a Collector Booster pack
   - a Collector Booster box (12 packs)
@@ -217,6 +230,8 @@ Several of these are also `is:serialized`. There are 298 serialized printings in
 Do each step in its own fresh session, then build, test, commit and verify. Cost estimates are in section 11.
 
 ### Step 1. Headliner section and tracker
+**Done 2026-11-15** (section 3). The Reddit finds helper below was dropped by the user's choice (section 7, item 5).
+
 **Goal:** a special section for chase cards. Start with the seven Star Trek signed headliners, then add every Scryfall headliner.
 
 - **Data:** `tools/build_headliners.py`, run daily in the workflow, writes `docs/data/headliners.json`. It holds:
@@ -340,7 +355,7 @@ const { chromium } = require('playwright');
 | Step | Status | Notes |
 | --- | --- | --- |
 | Combos (Commander Spellbook) | Done, live 2026-11-15 | Decks tab, `tools/combos.js`, daily refresh |
-| 1. Headliner section and tracker | Not started | |
+| 1. Headliner section and tracker | Done, live 2026-11-15 | Home banner + Sets chip, daily `tools/build_headliners.py`, finds by hand (no Reddit bot) |
 | 2. Transporter console | Not started | Private preview first |
 | 3. Top 25 per set | Not started | Needs `data.scryfall.io` to test here |
 | 4. Sealed price comparison | Not started | 4b (local shops) after 4 works |
