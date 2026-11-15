@@ -11,7 +11,7 @@ When you finish a step, update the status table at the end of this file in the s
 1. Call `get_environment`. You need the **mtgsme** environment, which allows the data and price sites listed in section 4. If the session is on **Default**, move it with `switch_environment`. If that isn't possible, ask the user to start a new session and pick **mtgsme** in the environment menu.
 2. Run `git pull`. A bot pushes data refreshes to `main` every 6 hours.
 3. Read `CLAUDE.md` and `README.md`, then the part of section 10 for your step.
-4. Ask the user which step to do (default: Step 1) and that step's open questions. Use AskUserQuestion with the recommended option first; the user likes that format.
+4. Ask the user which step to do (default: Step 3, the next one not started) and that step's open questions. Use AskUserQuestion with the recommended option first; the user likes that format.
 5. Build, then test (section 12).
 6. Commit to `main` and push; that is how the site deploys. Then watch the Actions runs with the GitHub MCP tools (`actions_list`, `get_job_logs`).
 7. Tell the user in plain words what changed, how to see it on their phone, and what's next.
@@ -233,6 +233,8 @@ Several of these are also `is:serialized`. There are 298 serialized printings in
 
 ## 10. The plan
 
+**Next up: Step 3** (Top 25 per set). Before building, ask for `data.scryfall.io` with `update_environment` (the user must approve) so the bulk file can be tested here, and ask the user the open questions for the step. Small leftovers from Step 2, if the user wants them: add the console to the back-gesture history (`navPush`), and ask how the sound is (never listened to in testing).
+
 Do each step in its own fresh session, then build, test, commit and verify. Cost estimates are in section 11.
 
 ### Step 1. Headliner section and tracker
@@ -258,6 +260,8 @@ Do each step in its own fresh session, then build, test, commit and verify. Cost
   - Which subreddits to watch. Suggest r/magicTCG and r/mtgfinance.
 
 ### Step 2. Transporter console
+**Done 2026-11-15** (section 3); the text below is the original plan. The user approved the private preview, and it is live.
+
 - **Look:** an original console drawn in SVG and CSS, inspired by the transporter room in The Next Generation: panels that light up, and a vertical slider.
 - **Sequence:**
   1. The user slides the bar up.
