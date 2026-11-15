@@ -945,6 +945,12 @@ Cost: {1}{u}{r} | Type: Legendary Creature — Squid Pirate | Color identity: RU
 Text: Each creature you control with an exhaust ability has haste.
   Whenever you activate an exhaust ability that isn't a mana ability, copy it. You may choose new targets for the copy.
 
+## Salinae, the Ocean Mother
+Cost: {6}{u}{u} | Type: Legendary Creature — Whale God | Color identity: U | P/T: 5/7 | Commander: legal
+Text: This spell costs {X} less to cast, where X is your devotion to blue. (Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)
+  Trample
+  Whenever you cast an artifact or creature spell, copy it, except the copy is a 1/1 Fish creature in addition to its other types. (The copy becomes a token.)
+
 ## Salivating Gremlins
 Cost: {2}{r} | Type: Creature — Gremlin | Color identity: R | P/T: 2/3 | Commander: legal
 Text: Whenever an artifact you control enters, this creature gets +2/+0 and gains trample until end of turn.
@@ -10565,6 +10571,12 @@ Text: Defender (This creature can't attack.)
   First strike
   Cycling {2} ({2}, Discard this card: Draw a card.)
 Ruling (2008-10-01): Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+
+## Shimmering Citadel
+Cost: — | Type: Land | Color identity: UW | Commander: legal
+Text: This land enters tapped.
+  {T}: Add {W} or {U}.
+  Exhaust — {3}{W}{U}, {T}: You draw two cards and gain 1 life. Put a depletion counter on this land. (Activate each exhaust ability only once.)
 
 ## Shimmering Efreet
 Cost: {2}{u} | Type: Creature — Efreet | Color identity: U | P/T: 2/2 | Commander: legal
