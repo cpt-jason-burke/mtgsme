@@ -158,7 +158,8 @@ All are generated, except the two marked hand-maintained.
    - No bot reads Reddit for finds. Since July 2024 Reddit's robots.txt blocks bots that have no deal with Reddit, and the user chose to stay within that. Finds come only from links the user sends, so `tools/find_headliners.py` was not built.
    - Finds are approved in a Claude chat.
    - Pushing a tested step to `main` is OK.
-   - Open: the home-page news (`tools/fetch_news.py` and the app's `loadRedditHere`) still reads r/magicTCG. The user hasn't decided whether to drop it.
+   - The home-page news (`tools/fetch_news.py` and the app's `loadRedditHere`) keeps reading r/magicTCG: the user said to leave it while it works without issue.
+   - The user confirmed on their phone that the Headliners banner is live.
 
 ## 8. Promises made to the user
 
