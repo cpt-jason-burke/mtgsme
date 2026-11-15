@@ -38,5 +38,8 @@ You can run the same first-pass analysis the web app uses: `docs/engine.js` expo
 ## Deck analysis
 For a pasted Moxfield or Archidekt list: check color identity and singleton legality against the data, list its known combos (`node tools/combos.js deck`), evaluate against the user's stated plan, and name specific cuts and adds with reasons.
 
+## Work in progress
+`HANDOFF.md` holds the plan, the user's decisions and verified facts for the next features (headliner section and tracker, Star Trek animations, Top 25 per set, sealed price comparison). Read it before continuing that work; it isn't needed for rules questions.
+
 ## Rebuilding the data
 `tools/build_site.py` and `tools/build_cards.py` regenerate the data from a checkout of https://github.com/taw/magic-search-engine, and `tools/build_combos.py` regenerates the combos from Commander Spellbook's export (see README.md). Do not edit the generated files by hand.
