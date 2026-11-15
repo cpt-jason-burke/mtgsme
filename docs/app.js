@@ -227,6 +227,7 @@
     const img = $("#sheet-root .cardimg"); if (img) tiltFlat(img);
     if (v.type === "card") loadPrintings(v);
     if (v.type === "deck") deckValue(v);
+    if (v.type === "set" || v.type === "deck") renderTop25(v);
     saveNav();
   }
   // Drag the top bar down to go back one level.
@@ -273,6 +274,7 @@
       if (act === "match") { v.all = !v.all; return drawSheet(); }
       if (act === "more") { v.limit = (v.limit || 90) + 90; return drawSheet(); }
       if (act === "copydeck") return copyPrecon(v.i);
+      if (act === "t25all") { v.t25all = true; return renderTop25(v); }
     }
     const dk = t.closest("[data-deck]"); if (dk) return openSheet({ type: "deck", i: +dk.dataset.deck });
     const hc = t.closest("[data-hlcard]"); if (hc) return openSheet({ type: "headliner", key: hc.dataset.hlcard });
@@ -1146,6 +1148,7 @@
     const decks = D.precBySet.get(s.k === "commander" ? s.c : s.cm) || [];
     let h = '<div class="panel set k-' + s.k + (s.cm ? " hascm" : "") + '" style="cursor:default">' + symbol(s.c) + '<div class="body"><h4>' + esc(s.n) + '</h4><div class="ty">' + esc(s.d) + " · " + esc(s.c.toUpperCase()) + " · " + esc(KINDS[s.k]) + (s.d > TODAY ? " · upcoming" : "") + '</div></div><div class="n"><b>' + s.t + "</b>cards</div></div>";
     if (decks.length) h += '<section class="block"><h2>Commander decks · ' + decks.length + "</h2>" + decks.map(deckTile).join("") + "</section>";
+    h += '<section class="block" id="top25"></section>';
     let rows = D.setcards[s.c].map(([i, num, r]) => ({ c: CARDS[i], i, set: s.c, num, r, q: 1 }));
     if (filterOn() && !v.all) rows = rows.filter((x) => matches(x.i, x.r));
     h += '<section class="block"><h2>Cards · ' + rows.length + "</h2>" + cardsBlock(v, rows) + "</section>";
@@ -1163,6 +1166,7 @@
     let h = deckTile(p).replace('data-deck="' + p.i + '"', 'style="cursor:default"');
     h += '<div class="panel item" id="dval"><div class="d">Adding up prices…</div></div>';
     if (p.y === "cmd") h += '<div class="chips"><button class="btn primary small" data-act="copydeck">Copy to Decks</button></div>';
+    h += '<section class="block" id="top25"></section>';
     if (p.cmd) h += '<section class="block"><h2>Commander</h2><div class="cgrid">' + rows.filter((r) => r.cmd).map((r) => '<div class="ctile" data-card="' + esc(r.c.n) + '" data-print="' + esc(r.set + "/" + r.num) + '"><span>' + esc(r.c.n) + "</span></div>").join("") + "</div></section>";
     h += '<section class="block"><h2>' + (p.cmd ? "The 99" : "Cards") + "</h2>" + cardsBlock(v, rows.filter((r) => !r.cmd)) + "</section>";
     return h;
@@ -1179,6 +1183,33 @@
         el.innerHTML = priced ? '<b style="font-size:20px;color:var(--ember-hi)">≈ ' + money(total) + '</b> <span class="d">market value of these exact printings · ' + priced + " of " + rows.length + " cards priced · Scryfall, updated daily</span>" : '<div class="d">No prices available' + (Scry.state.enabled ? "." : ": turn on card images in Settings.") + "</div>";
       }
     });
+  }
+  // "Most valuable": the priciest printings in a set, deck or drop (data/top25.json, built by tools/build_top25.py)
+  const T25 = { data: null, promise: null };
+  const FINISH = { n: "Non-foil", f: "Foil", e: "Etched" };
+  function renderTop25(v) {
+    if (!T25.promise) T25.promise = fetch("data/top25.json" + DATA_V).then((x) => { if (!x.ok) throw new Error("the server answered " + x.status); return x.json(); })
+      .then((j) => { T25.data = j; }).catch((e) => { T25.promise = null; throw e; });
+    T25.promise.then(() => drawTop25(v), () => { const el = $("#top25"); if (el && stack[stack.length - 1] === v) el.innerHTML = '<h2>Most valuable</h2><div class="d">Could not load the price list. Try again later.</div>'; });
+  }
+  function drawTop25(v) {
+    const el = $("#top25"); if (!el || stack[stack.length - 1] !== v) return;
+    const D = SETS.data, p = v.type === "deck" ? D.precons[v.i] : null, s = p ? null : D.byCode.get(v.code);
+    const e = p ? T25.data.decks[p.s + ":" + p.n] : T25.data.sets[s.c];
+    const upcoming = (p ? p.d : s.d) > TODAY;
+    let h = "<h2>Most valuable" + (e ? " · " + Math.min(e.r.length, 25) : "") + "</h2>";
+    if (!e) { el.innerHTML = h + '<div class="d">No card here has a market price of $5 or more' + (upcoming ? " yet" : "") + ".</div>"; return; }
+    const rows = v.t25all ? e.r : e.r.slice(0, 10);
+    h += rows.map((r, i) => {
+      const set = r[5] || s.c, pr = set + "/" + r[1];
+      return '<div class="panel t25"><b class="rk">' + (i + 1) + '</b><div class="pic" data-card="' + esc(r[0]) + '" data-print="' + esc(pr) + '"></div><div class="body" data-card="' + esc(r[0]) + '"><h4>' + esc(r[0]) + "</h4>" +
+        '<div class="ty">' + esc(set.toUpperCase()) + " #" + esc(r[1]) + " · " + FINISH[r[2]] + (r[4] ? "" : '<span class="badge bad">Not Commander-legal</span>') + "</div></div>" +
+        '<a class="pr" href="https://scryfall.com/card/' + encodeURIComponent(set) + "/" + encodeURIComponent(r[1]) + '" target="_blank" rel="noopener" aria-label="' + esc(r[0]) + ' on Scryfall">' + money(r[3]) + "<span>↗</span></a></div>";
+    }).join("");
+    if (e.r.length > rows.length) h += '<div class="chips"><button class="btn" data-act="t25all">Show all ' + e.r.length + "</button></div>";
+    h += '<div class="d">TCGplayer market price via Scryfall, updated ' + esc(shortDate(e.u)) + ". Only cards worth $5 or more; shipping and tax not included." + (p && p.y === "sld" ? " Secret Lair drops list the non-foil and foil editions separately." : "") + "</div>";
+    el.innerHTML = h;
+    lazyPrints(el.closest(".sheet") || el);
   }
   function copyPrecon(i) {
     const p = SETS.data.precons[i];

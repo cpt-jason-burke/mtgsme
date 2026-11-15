@@ -11,7 +11,7 @@ When you finish a step, update the status table at the end of this file in the s
 1. Call `get_environment`. You need the **mtgsme** environment, which allows the data and price sites listed in section 4. If the session is on **Default**, move it with `switch_environment`. If that isn't possible, ask the user to start a new session and pick **mtgsme** in the environment menu.
 2. Run `git pull`. A bot pushes data refreshes to `main` every 6 hours.
 3. Read `CLAUDE.md` and `README.md`, then the part of section 10 for your step.
-4. Ask the user which step to do (default: Step 3, the next one not started) and that step's open questions. Use AskUserQuestion with the recommended option first; the user likes that format.
+4. Ask the user which step to do (default: Step 4, the next one not started) and that step's open questions. Use AskUserQuestion with the recommended option first; the user likes that format.
 5. Build, then test (section 12).
 6. Commit to `main` and push; that is how the site deploys. Then watch the Actions runs with the GitHub MCP tools (`actions_list`, `get_job_logs`).
 7. Tell the user in plain words what changed, how to see it on their phone, and what's next.
@@ -44,6 +44,11 @@ Everything below is live on `main`. The site is https://cpt-jason-burke.github.i
   - `openTrek()` in `docs/app.js` falls back to the plain list when Reduce Motion is on, pictures are off, or the script fails to load. The Sets chip still opens the plain list, which has an "Open the transporter room" button.
   - The private preview is a claude.ai Artifact with the card pictures embedded (Artifacts can't load outside images). The user approved it. The user has not yet said how the sound is; it was never listened to in testing.
   - Not done: the console isn't in the back-gesture history (`navPush`), so a back swipe acts on the page under it.
+- **Most valuable (Step 3, added 2026-11-15):** set pages, Commander deck pages and Secret Lair drop pages have a "Most valuable" block: the top 10, a "Show all" button for up to 25, only cards worth $5 or more (the user's choices). Each row: rank, picture, name, set and number, finish, price (links to the Scryfall page), and a "Not Commander-legal" badge.
+  - `tools/build_top25.py` (daily) streams Scryfall's `default_cards` bulk file (now gzipped JSON Lines, `jsonl_download_uri`, about 81 MB) and writes `docs/data/top25.json` (about 650 KB, 175 KB gzipped). Sets older than 90 days are re-ranked weekly, newer ones daily.
+  - Finishes: in a set every finish counts separately; a Secret Lair drop lists non-foil and foil editions separately; a Commander deck uses non-foil when the printing has it.
+  - The app code is `renderTop25`/`drawTop25` in `docs/app.js` and the `.t25` CSS in `docs/index.html`.
+  - Known gap: mtg.wtf's Federation Fleet list (TRC) has 81 cards and no commander, so its block shows nothing over $5. About 1% of deck rows (287 of 21,724, mostly upcoming Secret Lair cards) match no Scryfall printing yet.
 - **Refresh workflow** `.github/workflows/refresh-data.yml`, cron `17 */6 * * *` (runs often start about an hour late):
   - News is fetched on every run; card data is rebuilt only when mtg.wtf changes.
   - Combos rebuild on the first run of each UTC day, and on a manual run or a push to `tools/`.
@@ -56,9 +61,9 @@ Everything below is live on `main`. The site is https://cpt-jason-burke.github.i
   - `json.commanderspellbook.com`, `commanderspellbook.com`
   - `api.scryfall.com`, `cards.scryfall.io`, `svgs.scryfall.io`
   - `magic.wizards.com`, `tcgcsv.com`, `api.cardkingdom.com`, `www.coolstuffinc.com`
+  - `data.scryfall.io` (added for Step 3)
   - package registries and MCP servers
 - **Not allowed yet:**
-  - `data.scryfall.io`: Scryfall's bulk downloads, needed to test Step 3 here.
   - `www.reddit.com`: no longer needed. The user chose not to have a bot read Reddit for finds (section 7).
 
   When a step needs one, propose `update_environment` with that exact host. GitHub's runners have open internet, so the workflow itself can reach both.
@@ -113,6 +118,7 @@ All are generated, except the two marked hand-maintained.
 | `combos.json` | `tools/build_combos.py` | Keyed by card names, so it skips `DATA_V` |
 | `news.json` | `tools/fetch_news.py` | Headlines |
 | `headliners.json` | `tools/build_headliners.py` | `{about, featured, checked, sets: [...facts], cards: [{key "set/num", set, num, name, date, artist, fin, tags, border, img {s,n,l,a}, scry, cmd, tcg {id, url, low, market}, sf, signer?}]}` |
+| `top25.json` | `tools/build_top25.py` | `{about, src, cards, sets: {code: {u, r: [[name, num, fin n\|f\|e, usd, legal 0\|1]]}}, decks: {"set:deck name": {u, r: [[..., set]]}}}` |
 | `headliner-finds.json` | **Hand-maintained** | `{about, finds: [{card, date, kind: pull\|sale\|listing, url, price?, note}]}` |
 | `announced.json`, `events.json` | **Hand-maintained** | Announced sets, events |
 
@@ -233,7 +239,7 @@ Several of these are also `is:serialized`. There are 298 serialized printings in
 
 ## 10. The plan
 
-**Next up: Step 3** (Top 25 per set). Before building, ask for `data.scryfall.io` with `update_environment` (the user must approve) so the bulk file can be tested here, and ask the user the open questions for the step. Small leftovers from Step 2, if the user wants them: add the console to the back-gesture history (`navPush`), and ask how the sound is (never listened to in testing).
+**Next up: Step 4** (sealed price comparison). Small leftovers from Step 2, if the user wants them: add the console to the back-gesture history (`navPush`), and ask how the sound is (never listened to in testing).
 
 Do each step in its own fresh session, then build, test, commit and verify. Cost estimates are in section 11.
 
@@ -273,6 +279,8 @@ Do each step in its own fresh session, then build, test, commit and verify. Cost
 - **Preview:** publish a private claude.ai Artifact for the user to try on their phone first, then merge it into the app.
 
 ### Step 3. Top 25 most valuable cards per set
+**Done 2026-11-15** (section 3); the text below is the original plan. The user chose top 10 with "Show all", and a $5 floor.
+
 - **Data:** `tools/build_top25.py`, run in the workflow weekly (daily for sets under 90 days old), uses Scryfall's `default_cards` bulk file.
   - Rank each set's printings by price. Each printing and finish counts separately (non-foil, foil, etched; surge foil and the like are separate printings).
   - Do the same for Secret Lair drops (precons with `y` "sld"; their rows give set and number) and Commander precons (`y` "cmd").
@@ -367,6 +375,6 @@ const { chromium } = require('playwright');
 | Combos (Commander Spellbook) | Done, live 2026-11-15 | Decks tab, `tools/combos.js`, daily refresh |
 | 1. Headliner section and tracker | Done, live 2026-11-15 | Home banner + Sets chip, daily `tools/build_headliners.py`, finds by hand (no Reddit bot) |
 | 2. Transporter console | Done, live 2026-11-15 | `docs/trek.js`, opened by the home banner; the user approved the private preview |
-| 3. Top 25 per set | Not started | Needs `data.scryfall.io` to test here |
+| 3. Top 25 per set | Done, live 2026-11-15 | Set, deck and drop pages; daily `tools/build_top25.py`; top 10 of up to 25, $5 floor |
 | 4. Sealed price comparison | Not started | 4b (local shops) after 4 works |
 | 5. Comm badge cinematic | Not started | After Step 2 |

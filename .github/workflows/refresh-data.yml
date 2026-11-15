@@ -1,7 +1,7 @@
 name: Refresh card data
 
 # Every 6 hours: fetch news headlines, and rebuild the card data only if the mtg.wtf source changed.
-# Once a day: refresh the known combos from Commander Spellbook, and the headliner cards and their prices.
+# Once a day: refresh the known combos from Commander Spellbook, the headliner cards and their prices, and the most valuable cards per set.
 # Publishes only when something the app shows actually changed.
 on:
   schedule:
@@ -71,6 +71,15 @@ jobs:
             echo "Headliners were already checked today."
           else
             python3 tools/build_headliners.py || echo "Headliner refresh failed; keeping the previous headliner data."
+          fi
+
+      - name: Refresh the most valuable cards per set
+        run: |
+          # once a day; the builder re-ranks sets older than 90 days only once a week
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ] && [ "$(date -u +%H)" -ge 6 ]; then
+            echo "Most valuable cards were already checked today."
+          else
+            python3 tools/build_top25.py || echo "Most valuable refresh failed; keeping the previous lists."
           fi
 
       - name: Publish only if something changed
