@@ -137,6 +137,7 @@
     if (t === "interact") requestAnimationFrame(updateCarousel);
     if (t === "sets" && CR) ensureSets();
     if (t === "play" && CR && window.MTGPlay) MTGPlay.render();
+    if (t === "decks" && CR) renderCombos();
     if (changed && !opts.silent) navPush();
     if (changed) window.scrollTo(0, 0);
     saveNav();
@@ -410,7 +411,7 @@
     const s = Scry.state;
     return '<div class="panel toggle"><div><b>Card images</b><div class="d">Pictures load from Scryfall on this device. Card text always comes from this app\'s own data.</div></div><button class="switch ' + (s.enabled ? "on" : "") + '" data-act="images" aria-label="Card images"></button></div>' +
       '<div class="panel item" style="margin-top:10px"><b>Scryfall connection</b><div class="d" id="testout">' + (s.failed ? "Last attempt failed: " + esc(s.lastError) : "Not tested yet.") + '</div><div class="chips"><button class="btn small" data-act="test">Test connection</button></div><div id="testimg"></div></div>' +
-      '<section class="block"><h2>About</h2><div class="panel item">MTGSME is a pocket Commander rules tool. Card text, rulings and rules come from the open-source mtg.wtf data (github.com/taw/magic-search-engine), built into this site; the rules are effective ' + esc(CR.effective) + "." + (DATA_DATE ? " Card data is from mtg.wtf as of " + esc(DATA_DATE) + ", and is checked for updates daily." : "") + "<br><br>" +
+      '<section class="block"><h2>About</h2><div class="panel item">MTGSME is a pocket Commander rules tool. Card text, rulings and rules come from the open-source mtg.wtf data (github.com/taw/magic-search-engine), built into this site; the rules are effective ' + esc(CR.effective) + ". Known combos come from Commander Spellbook (commanderspellbook.com)." + (DATA_DATE ? " Card data is from mtg.wtf as of " + esc(DATA_DATE) + ", and is checked for updates daily." : "") + "<br><br>" +
       '<b>Limits.</b> The Interact tab reads card wording with fixed patterns. It is a fast first pass, not a judge, so check the card text it shows. Commander legality is approximate. Magic: The Gathering belongs to Wizards of the Coast.<br><br>Source: github.com/cpt-jason-burke/mtgsme</div></section>';
   }
   async function runTest() {
@@ -815,6 +816,8 @@
         if (act === "replace") { state.deck = null; state.importNote = ""; saveDeck(); return; }
         if (act === "export") return doExport(a);
         if (act === "clear") { if (confirm("Clear this deck from this device?")) { state.deck = null; state.importNote = ""; saveDeck(); } return; }
+        if (act === "combos") { COMBOS.error = ""; return renderCombos(); }
+        if (act === "combos-all") { COMBOS.all = !COMBOS.all; return renderCombos(); }
       }
       const c = e.target.closest("[data-card]"); if (c) openSheet({ type: "card", card: card(c.dataset.card) });
     });
@@ -824,6 +827,7 @@
     $("#pane-add").addEventListener("click", (e) => {
       const p = e.target.closest("[data-plus]"); if (p) { e.stopPropagation(); deckAdd(p.dataset.plus, 1); p.textContent = "Added"; p.disabled = true; return; }
       if (e.target.closest("[data-act=suggest]")) return runSuggest();
+      if (e.target.closest("[data-act=combos]")) { COMBOS.error = ""; return renderCombos(); }
       const c = e.target.closest("[data-card]"); if (c) openSheet({ type: "card", card: card(c.dataset.card) });
     });
   }
@@ -876,6 +880,7 @@
     if (!dk) {
       el.innerHTML = '<section class="block" style="margin-top:14px"><h2>Import a deck</h2><div class="panel item"><div class="d" style="margin-bottom:10px">Paste a list from Moxfield (Export → Text), Archidekt (Export → Text) or any “1 Card Name” list. Mark the commander with a “Commander” heading or *CMDR*.</div>' +
         '<textarea id="deckText" placeholder="Commander&#10;1 Toph, Earthbending Master&#10;&#10;Deck&#10;1 Sol Ring&#10;1 Cultivate&#10;30 Forest"></textarea><div class="chips"><button class="btn primary" data-act="import">Import</button><button class="btn" data-act="new">Start empty</button></div></div></section>';
+      renderCombos();
       return;
     }
     const chk = MTGDeck.check(dk, card);
@@ -895,6 +900,7 @@
     const max = Math.max(1, ...chk.curve);
     h += '<section class="block"><h2>Mana curve</h2><div class="panel"><div class="curve">' + chk.curve.map((n) => '<div style="height:' + Math.round((n / max) * 100) + '%"><span>' + (n || "") + "</span></div>").join("") +
       '</div><div class="curvel">' + ["0", "1", "2", "3", "4", "5", "6", "7+"].map((x) => "<span>" + x + "</span>").join("") + "</div></div></section>";
+    h += '<div id="dcombos"></div>';
     const groups = {};
     for (const x of dk.cards) { const c = card(x.n); if (!c) continue; const t = MTGDeck.mainType(c.t); (groups[t] = groups[t] || []).push([x, c]); }
     for (const t of MTGDeck.TYPE_ORDER.concat("Other")) {
@@ -909,6 +915,7 @@
     h += '<div class="chips" style="flex-wrap:wrap;margin-top:16px"><button class="btn small" data-act="export">Copy list</button><button class="btn small" data-act="replace">Import another</button><button class="btn small" data-act="clear">Clear deck</button></div>';
     el.innerHTML = h;
     hydrate(el);
+    renderCombos();
   }
   function deckIdentity() {
     const dk = state.deck; if (!dk || !dk.commanders.length) return null;
@@ -937,6 +944,57 @@
   function runSuggest() {
     $("#suggest").innerHTML = '<div class="panel item"><div class="d">Reading your deck…</div></div>';
     setTimeout(() => { state.suggestions = MTGDeck.suggest(state.deck, CARDS, card, MTGEngine, anCache, { limit: 30 }); renderSuggest(); }, 30);
+  }
+
+  // ---------- known combos (Commander Spellbook), fetched the first time Decks shows a deck ----------
+  const COMBOS = { ix: null, updated: "", promise: null, error: "", all: false };
+  function ensureCombos() {
+    if (COMBOS.ix || COMBOS.promise || COMBOS.error) return;
+    // not versioned like the card files: it carries its own card names, so the browser can keep it until it really changes
+    COMBOS.promise = fetch("data/combos.json").then((x) => { if (!x.ok) throw new Error("the combo list is not on the site yet"); return x.json(); })
+      .then((j) => { COMBOS.ix = MTGCombos.index(j, card); COMBOS.updated = j.updated || ""; })
+      .catch((e) => { COMBOS.error = String(e.message || e); })
+      .then(() => { COMBOS.promise = null; renderCombos(); });
+  }
+  function comboHTML(c) {
+    const b = c.bracket;
+    return '<div class="panel item"><div class="chain">' + c.cards.map((n) => '<span class="n" data-card="' + esc(n) + '">' + (c.copies[n] ? c.copies[n] + "× " : "") + esc(n) + "</span>").join('<span class="e">+</span>') + "</div>" +
+      '<div style="margin-top:8px">' + (c.results.length ? "<b>" + esc(c.results[0]) + "</b>" + c.results.slice(1, 4).map((r) => " · " + esc(r)).join("") + (c.results.length > 4 ? " · +" + (c.results.length - 4) + " more" : "") : "No listed result") + "</div>" +
+      (c.needs.length ? '<div class="warnline" style="margin-top:4px">Also needs: ' + mana(c.needs.join("; ")) + "</div>" : "") +
+      (c.commander.length ? '<div class="warnline" style="margin-top:4px">Needs ' + esc(c.commander.join(" and ")) + " as your commander</div>" : "") +
+      '<div class="d" style="margin-top:6px">' + (b ? (b[1] ? "Bracket " + b[1] + " · " + esc(b[0]) : esc(b[0]) + " in Commander") + " · " : "") + "in about " + c.pop.toLocaleString() + " deck" + (c.pop === 1 ? "" : "s") +
+      ' · <a class="rl" href="' + esc(c.url) + '" target="_blank" rel="noopener">Steps ↗</a></div></div>';
+  }
+  // Fills the Combos block on the deck page and the one-card-away list beside the suggestions.
+  function renderCombos() {
+    const box = $("#dcombos"), near = $("#nearcombo");
+    if (!window.MTGCombos || (!box && !near)) return;
+    const dk = state.deck, enough = dk && dk.cards.length + dk.commanders.length > 1;
+    const note = (t, retry) => '<div class="panel item"><div class="d">' + t + "</div>" + (retry ? '<div class="chips"><button class="btn small" data-act="combos">Try again</button></div>' : "") + "</div>";
+    if (!enough) { if (box) box.innerHTML = ""; if (near) near.innerHTML = note("Add a few cards first. This lists single cards that would finish a known combo with cards already in your deck."); return; }
+    if (!COMBOS.ix) {
+      if (curTab === "decks") ensureCombos();
+      const t = COMBOS.error ? note("Could not load the combo list: " + esc(COMBOS.error) + ".", true) : note("Checking Commander Spellbook's list of known combos…");
+      if (box) box.innerHTML = '<section class="block"><h2>Combos</h2>' + t + "</section>";
+      if (near) near.innerHTML = t;
+      return;
+    }
+    const r = MTGCombos.check(COMBOS.ix, dk, { identity: deckIdentity(), limit: 20 });
+    const when = COMBOS.updated ? ", updated " + esc(shortDate(COMBOS.updated)) : "";
+    if (box) {
+      const shown = COMBOS.all ? r.have : r.have.slice(0, 5);
+      box.innerHTML = '<section class="block"><h2>Combos · ' + r.have.length + "</h2>" + (r.have.length ? shown.map(comboHTML).join("") : note("No known combo is complete in this deck.")) +
+        (r.have.length > 5 ? '<div class="chips" style="padding-top:2px"><button class="btn small" data-act="combos-all">' + (COMBOS.all ? "Show fewer" : "Show all " + r.have.length) + "</button></div>" : "") +
+        '<div class="d" style="font-size:12px;margin-top:6px">Known combos from Commander Spellbook' + when + ". Brackets and deck counts are its estimates; check each step against the cards." + (r.nearCount ? " " + r.nearCount + " card" + (r.nearCount === 1 ? "" : "s") + " would each finish another: see Add cards." : "") + "</div></section>";
+    }
+    if (near) {
+      near.innerHTML = r.near.length ? r.near.map((g) => {
+        const c = card(g.n), top = g.combos[0];
+        return rowHTML(c, '<button class="btn small act" data-plus="' + esc(c.n) + '">+ Add</button>', "Finishes " + g.count + " known combo" + (g.count === 1 ? "" : "s") + ". With " + top.cards.filter((n) => n !== g.n).join(" + ") + ": " + (top.results[0] || "a combo") + (top.needs.length ? " (also needs " + top.needs.join("; ") + ")" : "") + ".");
+      }).join("") + (r.nearCount > r.near.length ? '<div class="d" style="margin:6px 2px">' + (r.nearCount - r.near.length) + " more cards would each finish a less common combo.</div>" : "")
+        : note("No single card would finish a known combo with this deck" + (deckIdentity() != null ? " in your commander's colors" : "") + ".");
+      hydrate(near);
+    }
   }
 
   // ---------- sets timeline ----------

@@ -9,10 +9,15 @@ The user is non-technical and on a phone. Keep answers short, use plain language
    - Look a card up by exact name: `grep -h -A8 -F "## Card Name" cards_with_rulings/cards_<first letter>*.txt`
    - Or in Python/JSON: `docs/data/cards.json` (fields: n name, m cost, t type, ci color identity, o oracle text, s Commander status, g Game Changer, k keywords) and `docs/data/rulings.json`.
 2. Rules come from `rules_CR.txt` (Comprehensive Rules, effective September 25, 2026) or `docs/data/cr.json`. Every rules claim cites a CR rule number, the card's oracle text, or an official ruling. Look the rule up and quote it; rule numbers change between rules updates.
-3. If a card is not found, say so and do not guess. It may be misspelled, new, or a joke or digital-only card that was filtered out.
-4. Photos: read them carefully, down to set symbols and collector numbers. List what you read before answering and confirm anything uncertain.
-5. Be honest: call weak cards weak, keep "may" (optional) and mandatory straight, and flag judge-level uncertainty instead of guessing.
-6. Once the user sets a deck constraint, hold it.
+3. Known combos come from Commander Spellbook's list in this repo, not from memory.
+   - A deck list: `node tools/combos.js deck <file> [--steps]` shows the combos already in the deck and the cards that would each finish one.
+   - Named cards: `node tools/combos.js with "Card A" "Card B" [--steps]` shows the known combos that use all of them.
+   - Or search the text files: `grep -h -B1 -A12 "^Cards: .*Card Name" combos/*.txt`. Each entry gives the combo's start, prerequisites and steps.
+   The list only holds combos someone submitted, so "not listed" does not mean "no combo". Check every step against the cards' oracle text and rulings before you state it, and give the combo id.
+4. If a card is not found, say so and do not guess. It may be misspelled, new, or a joke or digital-only card that was filtered out.
+5. Photos: read them carefully, down to set symbols and collector numbers. List what you read before answering and confirm anything uncertain.
+6. Be honest: call weak cards weak, keep "may" (optional) and mandatory straight, and flag judge-level uncertainty instead of guessing.
+7. Once the user sets a deck constraint, hold it.
 
 ## Defaults
 Commander format, singleton, multiplayer. Anything shown on the table is on the battlefield unless the user says otherwise. If the user gives only card names or a photo, work out the most likely question; ask only if two readings would give different answers.
@@ -26,12 +31,12 @@ You can run the same first-pass analysis the web app uses: `docs/engine.js` expo
 - **Ruling:** 1-3 sentences with the key citation.
 - **Cards:** name plus the exact relevant oracle text.
 - **Interaction:** numbered steps with CR cites, including layers when they apply.
-- **Combos/loops:** only if any exist.
+- **Combos/loops:** only if any exist. For a known combo, give its Commander Spellbook id and bracket tag.
 - **Gotchas:** common mistakes.
 - **Confidence:** High / Medium / Low, with the reason if not High.
 
 ## Deck analysis
-For a pasted Moxfield or Archidekt list: check color identity and singleton legality against the data, evaluate against the user's stated plan, and name specific cuts and adds with reasons.
+For a pasted Moxfield or Archidekt list: check color identity and singleton legality against the data, list its known combos (`node tools/combos.js deck`), evaluate against the user's stated plan, and name specific cuts and adds with reasons.
 
 ## Rebuilding the data
-`tools/build_site.py` and `tools/build_cards.py` regenerate the data from a checkout of https://github.com/taw/magic-search-engine (see README.md). Do not edit the generated files by hand.
+`tools/build_site.py` and `tools/build_cards.py` regenerate the data from a checkout of https://github.com/taw/magic-search-engine, and `tools/build_combos.py` regenerates the combos from Commander Spellbook's export (see README.md). Do not edit the generated files by hand.

@@ -1,6 +1,7 @@
 name: Refresh card data
 
 # Every 6 hours: fetch news headlines, and rebuild the card data only if the mtg.wtf source changed.
+# Once a day: refresh the known combos from Commander Spellbook.
 # Publishes only when something the app shows actually changed.
 on:
   schedule:
@@ -50,6 +51,15 @@ jobs:
           rm -rf cards_lean cards_with_rulings
           python3 tools/build_cards.py /tmp/mse cards_lean lean
           python3 tools/build_cards.py /tmp/mse cards_with_rulings
+
+      - name: Refresh combos from Commander Spellbook
+        run: |
+          # once a day is plenty: the first scheduled run after midnight UTC, plus any manual run or change to the build
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ] && [ "$(date -u +%H)" -ge 6 ]; then
+            echo "Combos were already checked today."
+          else
+            python3 tools/build_combos.py || echo "Combo refresh failed; keeping the previous combos."
+          fi
 
       - name: Fetch news headlines
         run: python3 tools/fetch_news.py || echo "News fetch failed; keeping the previous headlines."
