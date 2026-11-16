@@ -1309,10 +1309,10 @@ Steps: Earthbend a basic land you control.
 Notes: The {G} in the mana cost can be waived if you earthbend a Forest and tap it for mana before casting Legolas's Quick Reflexes. You may need additional mana to earthbend the land depending on the method of earthbending used.
 
 ## Combo 153-759-1247-5963-6549
-Cards: Grove of the Burnwillows + Pili-Pala + Marvin, Murderous Mimic + Tainted Remedy + Jolrael, Empress of Beasts
+Cards: Grove of the Burnwillows + Tainted Remedy + Pili-Pala + Marvin, Murderous Mimic + Jolrael, Empress of Beasts
 Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {3}{G}
 Produces: Infinite lifeloss
-Start: Grove of the Burnwillows (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Tainted Remedy (battlefield); Jolrael, Empress of Beasts (battlefield: without summoning sickness)
+Start: Grove of the Burnwillows (battlefield); Tainted Remedy (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Jolrael, Empress of Beasts (battlefield: without summoning sickness)
 Prerequisites: You have at least two cards in hand.
 Steps: Animate Grove of the Burnwillows using Jolrael
   Activate Marvin using Grove of the Burnwillows' second ability by tapping it, adding {R} or {G} and causing each opponent to lose 1 life due to Tainted Remedy.
@@ -13549,6 +13549,19 @@ Steps: Activate Tinder Wall by sacrificing it.
   Cast Tinder Wall from the top of your library by paying 1 life.
   Repeat.
 
+## Combo 328-3260-4078-8250
+Cards: Chainer, Dementia Master + K'rrik, Son of Yawgmoth + Gray Merchant of Asphodel + Scarland Thrinax
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite lifegain; Infinite lifeloss; Each opponent loses the game; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Return all creature cards from all graveyards to the battlefield under your control; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Chainer, Dementia Master (battlefield); K'rrik, Son of Yawgmoth (battlefield); Gray Merchant of Asphodel (battlefield); Scarland Thrinax (battlefield)
+Prerequisites: Your life total is 10 or greater.
+  You have at least two opponents, or your devotion to black is at least ten.
+Steps: Activate Scarland Thrinax by sacrificing Gray Merchant, putting a +1/+1 counter on Scarland Thrinax.
+  Activate Chainer by paying 9 life due to K'rrik, returning Gray Merchant from your graveyard to the battlefield as a Nightmare in addition to its other creature types.
+  When Gray Merchant enters, it triggers, causing each opponent to lose life equal to your devotion to black and causing you to gain that much life.
+  Repeat.
+Notes: The additional gained life can be used by Chainer to return all creature cards from all graveyards to the battlefield under your control.
+
 ## Combo 331-878-3059
 Cards: Ziatora, the Incinerator + Malignus + Furnace of Rath
 Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 67 | Commander: legal
@@ -18111,10 +18124,10 @@ Steps: Activate the mutated Boneyard Lurker and Kiki-Jiki creature by tapping it
   Repeat.
 
 ## Combo 622-759-1247-5963-6549
-Cards: Grove of the Burnwillows + Pili-Pala + Marvin, Murderous Mimic + Tainted Remedy + Kamahl, Heart of Krosa
+Cards: Grove of the Burnwillows + Tainted Remedy + Pili-Pala + Marvin, Murderous Mimic + Kamahl, Heart of Krosa
 Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {2}{G}
 Produces: Infinite lifeloss
-Start: Grove of the Burnwillows (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Tainted Remedy (battlefield); Kamahl, Heart of Krosa (battlefield)
+Start: Grove of the Burnwillows (battlefield); Tainted Remedy (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Kamahl, Heart of Krosa (battlefield)
 Steps: Activate Kamahl by paying {1}{G}, causing Grove of the Burnwillows to become a creature until end of turn.
   Activate Marvin using Grove of the Burnwillows' second ability by tapping it, adding {R} or {G} and causing each opponent to lose 1 life due to Tainted Remedy.
   Activate Marvin using Pili-Pala's ability by paying {2} and untapping it, adding {1}.
@@ -20029,159 +20042,181 @@ Steps: Activate Soul of Windgrace's second ability by paying {2} and discarding 
   Repeat.
 
 ## Combo 759-1114-1247-5963-6549
-Cards: Grove of the Burnwillows + Pili-Pala + Marvin, Murderous Mimic + Tainted Remedy + Wrenn and Realmbreaker
+Cards: Grove of the Burnwillows + Tainted Remedy + Pili-Pala + Marvin, Murderous Mimic + Wrenn and Realmbreaker
 Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {1}
 Produces: Infinite lifeloss
-Start: Grove of the Burnwillows (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Tainted Remedy (battlefield); Wrenn and Realmbreaker (battlefield)
+Start: Grove of the Burnwillows (battlefield); Tainted Remedy (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Wrenn and Realmbreaker (battlefield)
 Steps: Activate Wrenn and Realmbreaker's first loyalty ability by putting a loyalty counter on it, causing Grove of the Burnwillows to become a creature until end of turn.
   Activate Marvin using Grove of the Burnwillows' second ability by tapping it, adding {R} or {G} and causing each opponent to lose 1 life due to Tainted Remedy.
   Activate Marvin using Pili-Pala's ability by paying {2} and untapping it, adding {1}.
   Repeat from step 2.
 
 ## Combo 759-1247-1648-5963-6549
-Cards: Grove of the Burnwillows + Pili-Pala + Marvin, Murderous Mimic + Tainted Remedy + Nissa of Shadowed Boughs
+Cards: Grove of the Burnwillows + Tainted Remedy + Pili-Pala + Marvin, Murderous Mimic + Nissa of Shadowed Boughs
 Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {1}
 Produces: Infinite lifeloss
-Start: Grove of the Burnwillows (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Tainted Remedy (battlefield); Nissa of Shadowed Boughs (battlefield)
+Start: Grove of the Burnwillows (battlefield); Tainted Remedy (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Nissa of Shadowed Boughs (battlefield)
 Steps: Activate Nissa's first loyalty ability by putting a loyalty counter on it, causing Grove of the Burnwillows to become a creature until end of turn.
   Activate Marvin using Grove of the Burnwillows' second ability by tapping it, adding {R} or {G} and causing each opponent to lose 1 life due to Tainted Remedy.
   Activate Marvin using Pili-Pala's ability by paying {2} and untapping it, adding {1}.
   Repeat from step 2.
 
 ## Combo 759-1247-1660-5963-6549
-Cards: Grove of the Burnwillows + Pili-Pala + Marvin, Murderous Mimic + Tainted Remedy + Natural Affinity
+Cards: Grove of the Burnwillows + Tainted Remedy + Pili-Pala + Marvin, Murderous Mimic + Natural Affinity
 Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}
 Produces: Infinite lifeloss
-Start: Grove of the Burnwillows (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Tainted Remedy (battlefield); Natural Affinity (hand)
+Start: Grove of the Burnwillows (battlefield); Tainted Remedy (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Natural Affinity (hand)
 Steps: Activate Marvin using Grove of the Burnwillows' second ability by tapping it, adding {R} or {G} and causing each opponent to lose 1 life due to Tainted Remedy.
   Activate Marvin using Pili-Pala's ability by paying {2} and untapping it, adding {1}.
   Repeat.
 
 ## Combo 759-1247-1876-5963-6549
-Cards: Grove of the Burnwillows + Pili-Pala + Marvin, Murderous Mimic + Tainted Remedy + Nissa, Worldwaker
+Cards: Grove of the Burnwillows + Tainted Remedy + Pili-Pala + Marvin, Murderous Mimic + Nissa, Worldwaker
 Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}
 Produces: Infinite lifeloss
-Start: Grove of the Burnwillows (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Tainted Remedy (battlefield); Nissa, Worldwaker (battlefield)
+Start: Grove of the Burnwillows (battlefield); Tainted Remedy (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Nissa, Worldwaker (battlefield)
 Steps: Activate Nissa's first loyalty ability by putting a loyalty counter on it, causing Grove of the Burnwillows to become a creature until end of turn.
   Activate Marvin using Grove of the Burnwillows' second ability by tapping it, adding {R} or {G} and causing each opponent to lose 1 life due to Tainted Remedy.
   Activate Marvin using Pili-Pala's ability by paying {2} and untapping it, adding {1}.
   Repeat from step 2.
 
 ## Combo 759-1247-2348-5963-6549
-Cards: Grove of the Burnwillows + Pili-Pala + Marvin, Murderous Mimic + Tainted Remedy + Nature's Revolt
+Cards: Grove of the Burnwillows + Tainted Remedy + Pili-Pala + Marvin, Murderous Mimic + Nature's Revolt
 Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 52 | Commander: legal | Mana needed: {1}
 Produces: Infinite lifeloss
-Start: Grove of the Burnwillows (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Tainted Remedy (battlefield); Nature's Revolt (battlefield)
+Start: Grove of the Burnwillows (battlefield); Tainted Remedy (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Nature's Revolt (battlefield)
 Steps: Activate Marvin using Grove of the Burnwillows' second ability by tapping it, adding {R} or {G} and causing each opponent to lose 1 life due to Tainted Remedy.
   Activate Marvin using Pili-Pala's ability by paying {2} and untapping it, adding {1}.
   Repeat.
 
+## Combo 759-1247-2976-5963-6549
+Cards: Grove of the Burnwillows + Tainted Remedy + Pili-Pala + Marvin, Murderous Mimic + Animate Land
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
+Produces: Infinite lifeloss
+Start: Grove of the Burnwillows (battlefield); Tainted Remedy (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield); Animate Land (hand)
+Prerequisites: Marvin does not have summoning sickness.
+Steps: Cast Animate Land by paying {G}, causing Grove of the Burnwillows to become a 3/3 creature until end of turn.
+  Activate Marvin using Grove of the Burnwillows' ability by tapping it, adding {R} or {G} and causing each opponent to lose 1 life due to Tainted Remedy.
+  Activate Marvin using Pili-Pala's ability by paying {2} and untapping it, adding {1}.
+  Repeat from step 2.
+
 ## Combo 759-1247-3028-5963-6549
-Cards: Grove of the Burnwillows + Pili-Pala + Marvin, Murderous Mimic + Tainted Remedy + Nissa, Vital Force
+Cards: Grove of the Burnwillows + Tainted Remedy + Pili-Pala + Marvin, Murderous Mimic + Nissa, Vital Force
 Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}
 Produces: Infinite lifeloss
-Start: Grove of the Burnwillows (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Tainted Remedy (battlefield); Nissa, Vital Force (battlefield)
+Start: Grove of the Burnwillows (battlefield); Tainted Remedy (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Nissa, Vital Force (battlefield)
 Steps: Activate Nissa's first loyalty ability by putting a loyalty counter on it, causing Grove of the Burnwillows to become a creature until end of turn.
   Activate Marvin using Grove of the Burnwillows' second ability by tapping it, adding {R} or {G} and causing each opponent to lose 1 life due to Tainted Remedy.
   Activate Marvin using Pili-Pala's ability by paying {2} and untapping it, adding {1}.
   Repeat from step 2.
 
 ## Combo 759-1247-3690-5963-6549
-Cards: Grove of the Burnwillows + Pili-Pala + Marvin, Murderous Mimic + Tainted Remedy + Sylvan Awakening
+Cards: Grove of the Burnwillows + Tainted Remedy + Pili-Pala + Marvin, Murderous Mimic + Sylvan Awakening
 Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {3}{G}
 Produces: Infinite lifeloss
-Start: Grove of the Burnwillows (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Tainted Remedy (battlefield); Sylvan Awakening (hand)
+Start: Grove of the Burnwillows (battlefield); Tainted Remedy (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Sylvan Awakening (hand)
 Steps: Cast Sylvan Awakening by paying {2}{G}, causing all lands you control to become creatures until end of turn.
   Activate Marvin using Grove of the Burnwillows' second ability by tapping it, adding {R} or {G} and causing each opponent to lose 1 life due to Tainted Remedy.
   Activate Marvin using Pili-Pala's ability by paying {2} and untapping it, adding {1}.
   Repeat from step 2.
 
 ## Combo 759-1247-4136-5963-6549
-Cards: Grove of the Burnwillows + Pili-Pala + Marvin, Murderous Mimic + Tainted Remedy + Roaring Earth
+Cards: Grove of the Burnwillows + Tainted Remedy + Pili-Pala + Marvin, Murderous Mimic + Roaring Earth
 Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {2}{G}{G}
 Produces: Infinite lifeloss
-Start: Grove of the Burnwillows (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Tainted Remedy (battlefield); Roaring Earth (hand)
+Start: Grove of the Burnwillows (battlefield); Tainted Remedy (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Roaring Earth (hand)
 Steps: Activate Roaring Earth by paying {1}{G}{G} and discarding it, causing Grove of the Burnwillows to become a creature until end of turn.
   Activate Marvin using Grove of the Burnwillows' second ability by tapping it, adding {R} or {G} and causing each opponent to lose 1 life due to Tainted Remedy.
   Activate Marvin using Pili-Pala's ability by paying {2} and untapping it, adding {1}.
   Repeat from step 2.
 
 ## Combo 759-1247-4178-5963-6549
-Cards: Grove of the Burnwillows + Pili-Pala + Marvin, Murderous Mimic + Tainted Remedy + Nissa, Who Shakes the World
+Cards: Grove of the Burnwillows + Tainted Remedy + Pili-Pala + Marvin, Murderous Mimic + Nissa, Who Shakes the World
 Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}
 Produces: Infinite lifeloss
-Start: Grove of the Burnwillows (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Tainted Remedy (battlefield); Nissa, Who Shakes the World (battlefield)
+Start: Grove of the Burnwillows (battlefield); Tainted Remedy (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Nissa, Who Shakes the World (battlefield)
 Steps: Activate Nissa's first loyalty ability by putting a loyalty counter on it, causing Grove of the Burnwillows to become a creature until end of turn.
   Activate Marvin using Grove of the Burnwillows' second ability by tapping it, adding {R} or {G} and causing each opponent to lose 1 life due to Tainted Remedy.
   Activate Marvin using Pili-Pala's ability by paying {2} and untapping it, adding {1}.
   Repeat from step 2.
 
 ## Combo 759-1247-4221-5963-6549
-Cards: Grove of the Burnwillows + Pili-Pala + Marvin, Murderous Mimic + Tainted Remedy + Living Plane
+Cards: Grove of the Burnwillows + Tainted Remedy + Pili-Pala + Marvin, Murderous Mimic + Living Plane
 Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {1}
 Produces: Infinite lifeloss
-Start: Grove of the Burnwillows (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Tainted Remedy (battlefield); Living Plane (battlefield)
+Start: Grove of the Burnwillows (battlefield); Tainted Remedy (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Living Plane (battlefield)
 Steps: Activate Marvin using Grove of the Burnwillows' second ability by tapping it, adding {R} or {G} and causing each opponent to lose 1 life due to Tainted Remedy.
   Activate Marvin using Pili-Pala's ability by paying {2} and untapping it, adding {1}.
   Repeat.
 
 ## Combo 759-1247-4571-5963-6549
-Cards: Grove of the Burnwillows + Pili-Pala + Marvin, Murderous Mimic + Tainted Remedy + Life // Death
+Cards: Grove of the Burnwillows + Tainted Remedy + Pili-Pala + Marvin, Murderous Mimic + Life // Death
 Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite lifeloss
-Start: Grove of the Burnwillows (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Tainted Remedy (battlefield); Life // Death (hand)
+Start: Grove of the Burnwillows (battlefield); Tainted Remedy (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Life // Death (hand)
 Steps: Cast Life by paying {G}, causing all lands you control to become creatures until end of turn.
   Activate Marvin using Grove of the Burnwillows' second ability by tapping it, adding {R} or {G} and causing each opponent to lose 1 life due to Tainted Remedy.
   Activate Marvin using Pili-Pala's ability by paying {2} and untapping it, adding {1}.
   Repeat from step 2.
 
 ## Combo 759-1247-5259-5963-6549
-Cards: Grove of the Burnwillows + Pili-Pala + Marvin, Murderous Mimic + Tainted Remedy + Rude Awakening
+Cards: Grove of the Burnwillows + Tainted Remedy + Pili-Pala + Marvin, Murderous Mimic + Rude Awakening
 Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {5}{G}
 Produces: Infinite lifeloss
-Start: Grove of the Burnwillows (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Tainted Remedy (battlefield); Rude Awakening (hand)
+Start: Grove of the Burnwillows (battlefield); Tainted Remedy (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Rude Awakening (hand)
 Steps: Cast Rude Awakening by paying {4}{G}, causing all lands you control to become creatures until end of turn.
   Activate Marvin using Grove of the Burnwillows' second ability by tapping it, adding {R} or {G} and causing each opponent to lose 1 life due to Tainted Remedy.
   Activate Marvin using Pili-Pala's ability by paying {2} and untapping it, adding {1}.
   Repeat from step 2.
 
 ## Combo 759-1247-5448-5963-6549
-Cards: Grove of the Burnwillows + Pili-Pala + Marvin, Murderous Mimic + Tainted Remedy + Druid Class
+Cards: Grove of the Burnwillows + Tainted Remedy + Pili-Pala + Marvin, Murderous Mimic + Druid Class
 Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {5}{G}
 Produces: Infinite lifeloss
-Start: Grove of the Burnwillows (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Tainted Remedy (battlefield); Druid Class (battlefield: is level 2)
+Start: Grove of the Burnwillows (battlefield); Tainted Remedy (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Druid Class (battlefield: is level 2)
 Steps: Activate Druid Class's third class ability by paying {4}{G}, causing it to become level 3 and causing Grove of the Burnwillows to become a creature.
   Activate Marvin using Grove of the Burnwillows' second ability by tapping it, adding {R} or {G} and causing each opponent to lose 1 life due to Tainted Remedy.
   Activate Marvin using Pili-Pala's ability by paying {2} and untapping it, adding {1}.
   Repeat from step 2.
 
 ## Combo 759-1247-5524-5963-6549
-Cards: Grove of the Burnwillows + Pili-Pala + Marvin, Murderous Mimic + Tainted Remedy + Destiny Spinner
+Cards: Grove of the Burnwillows + Tainted Remedy + Pili-Pala + Marvin, Murderous Mimic + Destiny Spinner
 Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {4}{G}
 Produces: Infinite lifeloss
-Start: Grove of the Burnwillows (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Tainted Remedy (battlefield); Destiny Spinner (battlefield)
+Start: Grove of the Burnwillows (battlefield); Tainted Remedy (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Destiny Spinner (battlefield)
 Steps: Activate Destiny Spinner by paying {3}{G}, causing Grove of the Burnwillows to become a creature until end of turn.
   Activate Marvin using Grove of the Burnwillows' second ability by tapping it, adding {R} or {G} and causing each opponent to lose 1 life due to Tainted Remedy.
   Activate Marvin using Pili-Pala's ability by paying {2} and untapping it, adding {1}.
   Repeat from step 2.
 
 ## Combo 759-1247-5525-5963-6549
-Cards: Grove of the Burnwillows + Pili-Pala + Marvin, Murderous Mimic + Tainted Remedy + Llanowar Loamspeaker
+Cards: Grove of the Burnwillows + Tainted Remedy + Pili-Pala + Marvin, Murderous Mimic + Llanowar Loamspeaker
 Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {1}
 Produces: Infinite lifeloss
-Start: Grove of the Burnwillows (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Tainted Remedy (battlefield); Llanowar Loamspeaker (battlefield: without summoning sickness)
+Start: Grove of the Burnwillows (battlefield); Tainted Remedy (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Llanowar Loamspeaker (battlefield: without summoning sickness)
 Steps: Activate Llanowar Loamspeaker's second ability by tapping it, causing Grove of the Burnwillows to become a creature until end of turn.
   Activate Marvin using Grove of the Burnwillows' second ability by tapping it, adding {R} or {G} and causing each opponent to lose 1 life due to Tainted Remedy.
   Activate Marvin using Pili-Pala's ability by paying {2} and untapping it, adding {1}.
   Repeat from step 2.
 
 ## Combo 759-1247-5526-5963-6549
-Cards: Grove of the Burnwillows + Pili-Pala + Marvin, Murderous Mimic + Tainted Remedy + Kamahl's Will
+Cards: Grove of the Burnwillows + Tainted Remedy + Pili-Pala + Marvin, Murderous Mimic + Kamahl's Will
 Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}
 Produces: Infinite lifeloss
-Start: Grove of the Burnwillows (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Tainted Remedy (battlefield); Kamahl's Will (hand)
+Start: Grove of the Burnwillows (battlefield); Tainted Remedy (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Kamahl's Will (hand)
 Steps: Cast Kamahl's Will by paying {3}{G}, causing Grove of the Burnwillows to become a creature until end of turn.
   Activate Marvin using Grove of the Burnwillows' second ability by tapping it, adding {R} or {G} and causing each opponent to lose 1 life due to Tainted Remedy.
+  Activate Marvin using Pili-Pala's ability by paying {2} and untapping it, adding {1}.
+  Repeat from step 2.
+
+## Combo 759-1247-5963-6549-7798
+Cards: Grove of the Burnwillows + Tainted Remedy + Pili-Pala + Marvin, Murderous Mimic + Natural Emergence
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
+Produces: Infinite lifeloss
+Start: Grove of the Burnwillows (battlefield); Tainted Remedy (battlefield); Pili-Pala (battlefield); Marvin, Murderous Mimic (battlefield); Natural Emergence (battlefield)
+Prerequisites: Marvin does not have summoning sickness.
+Steps: Due to the continuous effect from Natural Emergence, all lands you control including Grove of the Burnwillows are 2/2 creatures with first strike.
+  Activate Marvin using Grove of the Burnwillows' ability by tapping it, adding {R} or {G} and causing each opponent to lose 1 life due to Tainted Remedy.
   Activate Marvin using Pili-Pala's ability by paying {2} and untapping it, adding {1}.
   Repeat from step 2.
 
@@ -30392,41 +30427,4 @@ Steps: Activate Phyrexian Altar by sacrificing Bloodsoaked Champion, adding {B}.
   When Bloodsoaked Champion dies, Bhaal triggers, putting a +1/+1 counter on Workhorse and goading it.
   Activate Workhorse by removing a +1/+1 counter from it, adding {C}.
   Activate Bloodsoaked Champion by paying {1}{B}, returning it from your graveyard to the battlefield tapped.
-  Repeat.
-
-## Combo 1263-4050-7918-8125
-Cards: Bloodsoaked Champion + Phyrexian Altar + Sifa Grent + Davvol, Evincar of Rath
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
-Produces: Infinite lifeloss; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Bloodsoaked Champion (battlefield); Phyrexian Altar (battlefield); Sifa Grent (battlefield); Davvol, Evincar of Rath (battlefield)
-Prerequisites: You have attacked this turn.
-Steps: Activate Phyrexian Altar by sacrificing Bloodsoaked Champion, adding {B}
-  When Bloodsoaked Champion dies, Sifa Grent triggers, causing you to gain 1 life and target opponent to lose 1 life
-  Activate Bloodsoaked Champion by paying {1}{B}, returning it from your graveyard to the battlefield.
-  When Bloodsoaked Champion enters, Davvol triggers, adding {B} and causing you to lose 1 life.
-  Repeat.
-
-## Combo 1263-4446-5231-8125
-Cards: Bloodsoaked Champion + Relic Vial + Thermopod + Davvol, Evincar of Rath
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B}
-Produces: Infinite lifeloss; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Bloodsoaked Champion (battlefield); Relic Vial (battlefield); Thermopod (battlefield); Davvol, Evincar of Rath (battlefield)
-Prerequisites: You control at least one Cleric
-  You have attacked this turn.
-Steps: Activate Thermopod by sacrificing Bloodsoaked Champion, adding {R}
-  When Bloodsoaked Champion dies, Relic Vial triggers, causing you to gain 1 life and each opponent to lose 1 life
-  Activate Bloodsoaked Champion by paying {1}{B}, returning it from your graveyard to the battlefield.
-  When Bloodsoaked Champion enters, Davvol triggers, adding {B} and causing you to lose 1 life.
-  Repeat.
-
-## Combo 1263-4699-5231-8125
-Cards: Bloodsoaked Champion + Overgrowth Elemental + Thermopod + Davvol, Evincar of Rath
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B}
-Produces: Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Bloodsoaked Champion (graveyard); Overgrowth Elemental (battlefield); Thermopod (battlefield); Davvol, Evincar of Rath (battlefield)
-Prerequisites: You have attacked this turn.
-Steps: Activate Thermopod by sacrificing Bloodsoaked Champion, adding {R}
-  When Bloodsoaked Champion dies, Overgrowth Elemental triggers, causing you to gain 1 life
-  Activate Bloodsoaked Champion by paying {1}{B}, returning it from your graveyard to the battlefield.
-  When Bloodsoaked Champion enters, Davvol triggers, adding {B} and causing you to lose 1 life.
   Repeat.

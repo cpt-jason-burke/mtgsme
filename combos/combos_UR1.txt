@@ -8498,6 +8498,20 @@ Steps: Activate Goblin Bombardment by sacrificing Iridescent Drake.
   Resolve the Goblin Bombardment ability from step 1, dealing 1 damage to any target.
   Repeat.
 
+## Combo 375-585-4508
+Cards: Malcolm, Keen-Eyed Navigator + Hedron Detonator + Unnatural Selection
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {1}
+Produces: Infinite colored mana; Infinite damage; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Hedron Detonator (battlefield); Unnatural Selection (battlefield)
+Prerequisites: You have a way to cause an artifact to enter the battlefield under your control.
+Steps: Activate Unnatural Selection by paying {1}, causing Hedron Detonator to become a Pirate until end of turn.
+  Cause an artifact to enter the battlefield under your control.
+  Hedron Detonator triggers, dealing 1 damage to target opponent.
+  Malcolm triggers, creating a Treasure token for each opponent dealt damage this way.
+  When the Treasure(s) enter, Hedron Detonator triggers at least once.
+  Resolve a Hedron Detonator trigger, dealing 1 damage to target opponent.
+  Repeat from step 4.
+
 ## Combo 375-643-4508
 Cards: Malcolm, Keen-Eyed Navigator + Hedron Detonator + Maskwood Nexus
 Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 1800 | Commander: legal
@@ -8509,6 +8523,21 @@ Steps: Cause an artifact to enter the battlefield under your control.
   Malcolm triggers, creating a Treasure token.
   Treasure token enter the battlefield, triggering Hedron Detonator, dealing 1 damage to target opponent.
   Repeat from step 2.
+
+## Combo 375-719-4508
+Cards: Malcolm, Keen-Eyed Navigator + Hedron Detonator + Xenograft
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite colored mana; Infinite damage; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Hedron Detonator (battlefield); Xenograft (battlefield)
+Prerequisites: You have a way to cause an artifact to enter the battlefield under your control.
+  "Pirate" chosen with Xenograft.
+Steps: Verify that Hedron Detonator's types include Pirate due to the type chosen with Xenograft.
+  Cause an artifact to enter the battlefield under your control.
+  Hedron Detonator triggers, dealing 1 damage to target opponent.
+  Malcolm triggers, creating a Treasure token for each opponent dealt damage this way.
+  When the Treasure(s) enter, Hedron Detonator triggers at least once.
+  Resolve a Hedron Detonator trigger, dealing 1 damage to target opponent.
+  Repeat from step 4.
 
 ## Combo 375-803-4508
 Cards: Malcolm, Keen-Eyed Navigator + Hedron Detonator + Arcane Adaptation
@@ -8523,6 +8552,51 @@ Steps: Cause an artifact to enter the battlefield under your control.
   Treasure token enter the battlefield, triggering Hedron Detonator, dealing 1 damage to target opponent.
   Repeat from step 2.
 
+## Combo 375-826-4508
+Cards: Malcolm, Keen-Eyed Navigator + Hedron Detonator + Amoeboid Changeling
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite colored mana; Infinite damage; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Hedron Detonator (battlefield); Amoeboid Changeling (battlefield)
+Prerequisites: Amoeboid Changeling does not have summoning sickness.
+  You have a way to cause an artifact to enter the battlefield under your control.
+Steps: Activate Amoeboid Changeling by tapping it, causing Hedron Detonator to gain all creature types until end of turn, including Pirate.
+  Cause an artifact to enter the battlefield under your control.
+  Hedron Detonator triggers, dealing 1 damage to target opponent.
+  Malcolm triggers, creating a Treasure token for each opponent dealt damage this way.
+  When the Treasure(s) enter, Hedron Detonator triggers at least once.
+  Resolve a Hedron Detonator trigger, dealing 1 damage to target opponent.
+  Repeat from step 4.
+
+## Combo 375-934-4508
+Cards: Malcolm, Keen-Eyed Navigator + Hedron Detonator + Amorphous Axe
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite colored mana; Infinite damage; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Hedron Detonator (battlefield); Amorphous Axe (battlefield)
+Prerequisites: You have a way to cause an artifact to enter the battlefield under your control.
+  Amorphous Axe is attached to Hedron Detonator.
+Steps: Verify that Hedron Detonator's types include Pirate due to Amorphous Axe granting it all creature types.
+  Cause an artifact to enter the battlefield under your control.
+  Hedron Detonator triggers, dealing 1 damage to target opponent.
+  Malcolm triggers, as Hedron Detonator is a Pirate due to Amorphous Axe, creating a Treasure token for each opponent dealt damage this way.
+  When the Treasure(s) enter, Hedron Detonator triggers at least once.
+  Resolve a Hedron Detonator trigger, dealing 1 damage to target opponent.
+  Repeat from step 4.
+
+## Combo 375-1680-4508
+Cards: Malcolm, Keen-Eyed Navigator + Hedron Detonator + Runed Stalactite
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite colored mana; Infinite damage; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Hedron Detonator (battlefield); Runed Stalactite (battlefield)
+Prerequisites: You have a way to cause an artifact to enter the battlefield under your control.
+  Runed Stalactite is attached to Hedron Detonator.
+Steps: Verify that Hedron Detonator's creature types include Pirate due to Runed Stalactite giving it all creature types.
+  Cause an artifact to enter the battlefield under your control.
+  Hedron Detonator triggers, dealing 1 damage to target opponent.
+  Malcolm triggers, as Hedron Detonator is a Pirate due to Runed Stalactite, creating a Treasure token for each opponent dealt damage this way.
+  When the Treasure(s) enter, Hedron Detonator triggers at least once.
+  Resolve a Hedron Detonator trigger, dealing 1 damage to target opponent.
+  Repeat from step 4.
+
 ## Combo 375-2211-4508
 Cards: Malcolm, Keen-Eyed Navigator + Hedron Detonator + Captain's Hook
 Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 370 | Commander: legal
@@ -8535,6 +8609,79 @@ Steps: Cause an artifact to enter the battlefield under your control.
   Malcolm triggers, creating a Treasure token.
   Treasure token enter the battlefield, triggering Hedron Detonator, dealing 1 damage to target opponent.
   Repeat from step 2.
+
+## Combo 375-2957-4508
+Cards: Malcolm, Keen-Eyed Navigator + Hedron Detonator + Imagecrafter
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite colored mana; Infinite damage; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Hedron Detonator (battlefield); Imagecrafter (battlefield)
+Prerequisites: Imagecrafter does not have summoning sickness.
+  You have a way to cause an artifact to enter the battlefield under your control.
+Steps: Activate Imagecrafter by tapping it, causing Hedron Detonator to become a Pirate until end of turn.
+  Cause an artifact to enter the battlefield under your control.
+  Hedron Detonator triggers, dealing 1 damage to target opponent.
+  Malcolm triggers, creating a Treasure token for each opponent dealt damage this way.
+  When the Treasure(s) enter, Hedron Detonator triggers at least once.
+  Resolve a Hedron Detonator trigger, dealing 1 damage to target opponent.
+  Repeat from step 4.
+
+## Combo 375-4060-4508
+Cards: Malcolm, Keen-Eyed Navigator + Hedron Detonator + Volatile Claws
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {2}{R}
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite damage; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Hedron Detonator (battlefield); Volatile Claws (hand)
+Prerequisites: You have a way to cause an artifact to enter the battlefield under your control.
+Steps: Cast Volatile Claws by paying {2}{R}, causing creatures you control, including Hedron Detonator, to get +2/+0 and gain all creature types until end of turn, including Pirate.
+  Cause an artifact to enter the battlefield under your control.
+  Hedron Detonator triggers, dealing 1 damage to target opponent.
+  Malcolm triggers, creating a Treasure token for each opponent dealt damage this way.
+  When the Treasure(s) enter, Hedron Detonator triggers at least once.
+  Resolve a Hedron Detonator trigger, dealing 1 damage to target opponent.
+  Repeat from step 4.
+
+## Combo 375-4508-5396
+Cards: Malcolm, Keen-Eyed Navigator + Hedron Detonator + Trickery Charm
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {U}
+Produces: Infinite colored mana; Infinite damage; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Hedron Detonator (battlefield); Trickery Charm (hand)
+Prerequisites: You have a way to cause an artifact to enter the battlefield under your control.
+Steps: Cast Trickery Charm by paying {U}, causing Hedron Detonator to become a Pirate until end of turn.
+  Cause an artifact to enter the battlefield under your control.
+  Hedron Detonator triggers, dealing 1 damage to target opponent.
+  Malcolm triggers, creating a Treasure token for each opponent dealt damage this way.
+  When the Treasure(s) enter, Hedron Detonator triggers at least once.
+  Resolve a Hedron Detonator trigger, dealing 1 damage to target opponent.
+  Repeat from step 4.
+
+## Combo 375-4508-5929
+Cards: Malcolm, Keen-Eyed Navigator + Hedron Detonator + Leyline of Transformation
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite colored mana; Infinite damage; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Hedron Detonator (battlefield); Leyline of Transformation (battlefield)
+Prerequisites: You have a way to cause an artifact to enter the battlefield under your control.
+  "Pirate" chosen with Leyline of Transformation.
+Steps: Verify that Hedron Detonator's types include Pirate due to the type chosen with Leyline of Transformation.
+  Cause an artifact to enter the battlefield under your control.
+  Hedron Detonator triggers, dealing 1 damage to target opponent.
+  Malcolm triggers, creating a Treasure token for each opponent dealt damage this way.
+  When the Treasure(s) enter, Hedron Detonator triggers at least once.
+  Resolve a Hedron Detonator trigger, dealing 1 damage to target opponent.
+  Repeat from step 4.
+
+## Combo 375-4508-7040
+Cards: Malcolm, Keen-Eyed Navigator + Hedron Detonator + Psychic Paper
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite colored mana; Infinite damage; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Hedron Detonator (battlefield); Psychic Paper (battlefield)
+Prerequisites: You have a way to cause an artifact to enter the battlefield under your control.
+  Psychic Paper is attached to Hedron Detonator with "Pirate" chosen.
+Steps: Verify that Hedron Detonator's types include Pirate due to the last creature type chosen with Psychic Paper.
+  Cause an artifact to enter the battlefield under your control.
+  Hedron Detonator triggers, dealing 1 damage to target opponent.
+  Malcolm triggers, creating a Treasure token for each opponent dealt damage this way.
+  When the Treasure(s) enter, Hedron Detonator triggers at least once.
+  Resolve a Hedron Detonator trigger, dealing 1 damage to target opponent.
+  Repeat from step 4.
 
 ## Combo 375-4508-7223
 Cards: Malcolm, Keen-Eyed Navigator + Hedron Detonator + Stalactite Dagger
@@ -30926,174 +31073,4 @@ Steps: Activate Emry by tapping it, allowing you to cast Lion's Eye Diamond from
   Displacer Kitten triggers, blinking Emry.
   When Emry enters, it triggers, causing you to mill four cards.
   Activate Lion's Eye Diamond by discarding your hand and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-3518-7297
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Lion's Eye Diamond + Barbarian Class
-Color identity: UR | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Lion's Eye Diamond (battlefield); Barbarian Class (battlefield: is level 3)
-Steps: Activate Emry by tapping it, allowing you to cast Lion's Eye Diamond from your graveyard.
-  Cast Lion's Eye Diamond by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Lion's Eye Diamond by discarding your hand and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-3518-8201
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Lion's Eye Diamond + Samut, Hazoret's Champion
-Color identity: UR | Bracket: 3+ (Powerful) | Popularity: 5 | Commander: legal
-Produces: Infinite colored mana; Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Lion's Eye Diamond (battlefield); Samut, Hazoret's Champion (battlefield)
-Steps: Activate Emry by tapping it, allowing you to cast Lion's Eye Diamond from your graveyard.
-  Cast Lion's Eye Diamond by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Lion's Eye Diamond by discarding your hand and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-4068-4211
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Anger + Tormod's Crypt
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Anger (graveyard); Tormod's Crypt (battlefield)
-Prerequisites: You control at least one Mountain.
-Steps: Activate Emry by tapping it, allowing you to cast Tormod's Crypt from your graveyard.
-  Cast Tormod's Crypt by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Tormod's Crypt by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-4068-4708
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Anger + Dark Sphere
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Anger (graveyard); Dark Sphere (battlefield)
-Prerequisites: You control at least one Mountain.
-Steps: Activate Emry by tapping it, allowing you to cast Dark Sphere from your graveyard.
-  Cast Dark Sphere by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Dark Sphere by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-4211-4460
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Tormod's Crypt + Cyclops of Eternal Fury
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Tormod's Crypt (battlefield); Cyclops of Eternal Fury (battlefield)
-Steps: Activate Emry by tapping it, allowing you to cast Tormod's Crypt from your graveyard.
-  Cast Tormod's Crypt by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Tormod's Crypt by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-4211-4885
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Tormod's Crypt + Tuktuk Rubblefort
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Tormod's Crypt (battlefield); Tuktuk Rubblefort (battlefield)
-Steps: Activate Emry by tapping it, allowing you to cast Tormod's Crypt from your graveyard.
-  Cast Tormod's Crypt by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Tormod's Crypt by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-4211-6633
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Tormod's Crypt + The Fire Crystal
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
-Produces: Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Tormod's Crypt (battlefield); The Fire Crystal (battlefield)
-Steps: Activate Emry by tapping it, allowing you to cast Tormod's Crypt from your graveyard.
-  Cast Tormod's Crypt by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Tormod's Crypt by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-4211-6791
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Tormod's Crypt + Tannuk, Steadfast Second
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Tormod's Crypt (battlefield); Tannuk, Steadfast Second (battlefield)
-Steps: Activate Emry by tapping it, allowing you to cast Tormod's Crypt from your graveyard.
-  Cast Tormod's Crypt by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Tormod's Crypt by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-4211-6965
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Tormod's Crypt + Frostcliff Siege
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Tormod's Crypt (battlefield); Frostcliff Siege (battlefield: with "Temur" chosen)
-Steps: Activate Emry by tapping it, allowing you to cast Tormod's Crypt from your graveyard.
-  Cast Tormod's Crypt by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Tormod's Crypt by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-4211-6968
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Tormod's Crypt + Kratos, God of War
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Tormod's Crypt (battlefield); Kratos, God of War (battlefield)
-Steps: Activate Emry by tapping it, allowing you to cast Tormod's Crypt from your graveyard.
-  Cast Tormod's Crypt by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Tormod's Crypt by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-4211-7060
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Tormod's Crypt + Smellerbee, Rebel Fighter
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Tormod's Crypt (battlefield); Smellerbee, Rebel Fighter (battlefield)
-Steps: Activate Emry by tapping it, allowing you to cast Tormod's Crypt from your graveyard.
-  Cast Tormod's Crypt by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Tormod's Crypt by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-4211-7296
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Tormod's Crypt + Gimli's Reckless Might
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Tormod's Crypt (battlefield); Gimli's Reckless Might (battlefield)
-Steps: Activate Emry by tapping it, allowing you to cast Tormod's Crypt from your graveyard.
-  Cast Tormod's Crypt by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Tormod's Crypt by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-4211-7297
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Tormod's Crypt + Barbarian Class
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Tormod's Crypt (battlefield); Barbarian Class (battlefield: is level 3)
-Steps: Activate Emry by tapping it, allowing you to cast Tormod's Crypt from your graveyard.
-  Cast Tormod's Crypt by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Tormod's Crypt by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-4211-8201
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Tormod's Crypt + Samut, Hazoret's Champion
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
-Produces: Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Tormod's Crypt (battlefield); Samut, Hazoret's Champion (battlefield)
-Steps: Activate Emry by tapping it, allowing you to cast Tormod's Crypt from your graveyard.
-  Cast Tormod's Crypt by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Tormod's Crypt by tapping and sacrificing it.
   Repeat.

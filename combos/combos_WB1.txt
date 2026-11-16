@@ -3772,6 +3772,20 @@ Steps: Activate Eldrazi Displacer by paying {2}{C}, blinking Gray Merchant of As
   Repeat.
   If your devotion to black is at least four, or you have at least two opponents, this combo nets infinite +1/+1 counters on Workhorse and colorless mana.
 
+## Combo 328-574-3260-4078
+Cards: Chainer, Dementia Master + K'rrik, Son of Yawgmoth + Gray Merchant of Asphodel + Vish Kal, Blood Arbiter
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite lifegain; Infinite lifeloss; Each opponent loses the game; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Return all creature cards from all graveyards to the battlefield under your control; Destroy all creatures opponents control; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Chainer, Dementia Master (battlefield); K'rrik, Son of Yawgmoth (battlefield); Gray Merchant of Asphodel (battlefield); Vish Kal, Blood Arbiter (battlefield)
+Prerequisites: Your life total is 10 or greater.
+  You have at least two opponents, or your devotion to black is at least ten.
+Steps: Activate Vish Kal by sacrificing Gray Merchant, putting a number of +1/+1 counters on Vish Kal equal to the sacrificed creature's power.
+  Activate Chainer by paying 9 life due to K'rrik, returning Gray Merchant from your graveyard to the battlefield as a Nightmare in addition to its other creature types.
+  When Gray Merchant enters, it triggers, causing each opponent to lose life equal to your devotion to black and causing you to gain that much life.
+  Repeat.
+Notes: The additional gained life can be used by Chainer to return all creature cards from all graveyards to the battlefield under your control.
+  Once Vish Kal has infinite +1/+1 counters, you may activate its last ability any number of times to reduce the toughnesses of any number of creatures to 0.
+
 ## Combo 328-2173-2921-5220
 Cards: Mortuary + Gray Merchant of Asphodel + Bolas's Citadel + Bartolomé del Presidio
 Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 3 | Commander: legal
@@ -3801,7 +3815,7 @@ Steps: Cast Gray Merchant either from your hand by paying {3}{B}{B} or from the 
 ## Combo 328-2921-3260-4078
 Cards: Chainer, Dementia Master + K'rrik, Son of Yawgmoth + Gray Merchant of Asphodel + Bartolomé del Presidio
 Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal
-Produces: Infinite lifegain; Infinite lifeloss; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Return all creature cards from all graveyards to the battlefield under your control; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
+Produces: Infinite lifegain; Infinite lifeloss; Each opponent loses the game; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Return all creature cards from all graveyards to the battlefield under your control; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Chainer, Dementia Master (battlefield); K'rrik, Son of Yawgmoth (battlefield); Gray Merchant of Asphodel (battlefield); Bartolomé del Presidio (battlefield)
 Prerequisites: Your life total is 10 or greater.
   You have at least two opponents, or your devotion to black is at least ten.
@@ -3828,11 +3842,25 @@ Steps: Cast Gray Merchant either from your hand by paying {3}{B}{B} or from the 
 ## Combo 328-3260-4078-5686
 Cards: Chainer, Dementia Master + K'rrik, Son of Yawgmoth + Gray Merchant of Asphodel + Shilgengar, Sire of Famine
 Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite lifegain; Infinite lifeloss; Infinite artifact tokens; Infinite lifegain triggers; Return all creature cards from all graveyards to the battlefield under your control; Infinite Blood tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
+Produces: Infinite lifegain; Infinite lifeloss; Each opponent loses the game; Infinite artifact tokens; Infinite lifegain triggers; Return all creature cards from all graveyards to the battlefield under your control; Infinite Blood tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Chainer, Dementia Master (battlefield); K'rrik, Son of Yawgmoth (battlefield); Gray Merchant of Asphodel (battlefield); Shilgengar, Sire of Famine (battlefield)
 Prerequisites: Your life total is 10 or greater.
   You have at least two opponents, or your devotion to black is at least ten.
 Steps: Activate Shilgengar by sacrificing Gray Merchant.
+  Activate Chainer by paying 9 life due to K'rrik, returning Gray Merchant from your graveyard to the battlefield as a Nightmare in addition to its other creature types.
+  When Gray Merchant enters, it triggers, causing each opponent to lose life equal to your devotion to black and causing you to gain that much life.
+  Repeat.
+Notes: The additional gained life can be used by Chainer to return all creature cards from all graveyards to the battlefield under your control.
+
+## Combo 328-3260-4078-7272
+Cards: Chainer, Dementia Master + K'rrik, Son of Yawgmoth + Gray Merchant of Asphodel + Reaper of Flight Moonsilver
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite lifegain; Infinite lifeloss; Each opponent loses the game; Infinite lifegain triggers; Infinitely large creature until end of turn; Return all creature cards from all graveyards to the battlefield under your control; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Chainer, Dementia Master (battlefield); K'rrik, Son of Yawgmoth (battlefield); Gray Merchant of Asphodel (battlefield); Reaper of Flight Moonsilver (battlefield)
+Prerequisites: Your life total is 10 or greater.
+  You have at least two opponents, or your devotion to black is at least ten.
+  You have at least four card types in your graveyard.
+Steps: Activate Reaper of Flight Moonsilver by sacrificing Gray Merchant, giving Reaper of Flight Moonsilver +2/+1 until end of turn.
   Activate Chainer by paying 9 life due to K'rrik, returning Gray Merchant from your graveyard to the battlefield as a Nightmare in addition to its other creature types.
   When Gray Merchant enters, it triggers, causing each opponent to lose life equal to your devotion to black and causing you to gain that much life.
   Repeat.
@@ -31963,43 +31991,4 @@ Steps: Cast Jeweled Lotus by paying its mana cost.
   Activate Bloodflow Connoisseur by sacrificing Scrap Trawler.
   When Scrap Trawler dies, it triggers, returning Jeweled Lotus from your graveyard to your hand.
   Resolve the Bloodflow Connoisseur ability.
-  Repeat.
-
-## Combo 1482-2866-2921-4986
-Cards: Teshar, Ancestor's Apostle + Scrap Trawler + Jeweled Lotus + Bartolomé del Presidio
-Color identity: WB | Bracket: none (not legal) | Popularity: 0 | Commander: not legal
-Produces: Infinite colored mana that can only be spent to cast your commander; Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
-Start: Teshar, Ancestor's Apostle (battlefield); Scrap Trawler (graveyard); Jeweled Lotus (hand); Bartolomé del Presidio (battlefield)
-Steps: Cast Jeweled Lotus by paying its mana cost.
-  Teshar triggers, returning Scrap Trawler from your graveyard to the battlefield.
-  Activate Jeweled Lotus by tapping and sacrificing it.
-  Activate Bartolomé del Presidio by sacrificing Scrap Trawler.
-  When Scrap Trawler dies, it triggers, returning Jeweled Lotus from your graveyard to your hand.
-  Resolve the Bartolomé del Presidio ability.
-  Repeat.
-
-## Combo 1482-2866-3967-4986
-Cards: Teshar, Ancestor's Apostle + Scrap Trawler + Jeweled Lotus + Yahenni, Undying Partisan
-Color identity: WB | Bracket: none (not legal) | Popularity: 0 | Commander: not legal
-Produces: Infinite colored mana that can only be spent to cast your commander; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
-Start: Teshar, Ancestor's Apostle (battlefield); Scrap Trawler (graveyard); Jeweled Lotus (hand); Yahenni, Undying Partisan (battlefield)
-Steps: Cast Jeweled Lotus by paying its mana cost.
-  Teshar triggers, returning Scrap Trawler from your graveyard to the battlefield.
-  Activate Jeweled Lotus by tapping and sacrificing it.
-  Activate Yahenni by sacrificing Scrap Trawler.
-  When Scrap Trawler dies, it triggers, returning Jeweled Lotus from your graveyard to your hand.
-  Resolve the Yahenni ability.
-  Repeat.
-
-## Combo 1482-2866-4247-4986
-Cards: Teshar, Ancestor's Apostle + Scrap Trawler + Jeweled Lotus + Bloodthrone Vampire
-Color identity: WB | Bracket: none (not legal) | Popularity: 0 | Commander: not legal
-Produces: Infinite colored mana that can only be spent to cast your commander; Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
-Start: Teshar, Ancestor's Apostle (battlefield); Scrap Trawler (graveyard); Jeweled Lotus (hand); Bloodthrone Vampire (battlefield)
-Steps: Cast Jeweled Lotus by paying its mana cost.
-  Teshar triggers, returning Scrap Trawler from your graveyard to the battlefield.
-  Activate Jeweled Lotus by tapping and sacrificing it.
-  Activate Bloodthrone Vampire by sacrificing Scrap Trawler.
-  When Scrap Trawler dies, it triggers, returning Jeweled Lotus from your graveyard to your hand.
-  Resolve the Bloodthrone Vampire ability.
   Repeat.

@@ -1850,51 +1850,6 @@ Steps: Activate Selvala by paying {G} and tapping it, adding at least {2}{G}{G}{
   Cast Selvala by paying its mana cost.
   Repeat.
 
-## Combo 215-527-1627-1909
-Cards: Selvala, Heart of the Wilds + Temur Sabertooth + Wirewood Symbiote + Llanowar Elves
-Color identity: G | Bracket: 1+ (Exhibition) | Popularity: 4300 | Commander: legal
-Produces: Infinite colored mana; Infinite creature ETB; Infinite creature LTB; Infinite storm count; Infinite blinking
-Start: Selvala, Heart of the Wilds (battlefield); Temur Sabertooth (battlefield); Wirewood Symbiote (battlefield); Llanowar Elves (battlefield)
-Prerequisites: Selvala and Llanowar Elves do not have summoning sickness.
-  You control a creature with power 6 or greater.
-Steps: Activate Llanowar Elves by tapping it, adding {G}.
-  Activate Selvala by paying {G} and tapping it, adding at least {3}{G}{G}{G}.
-  Activate Wirewood Symbiote by returning Llanowar Elves to your hand, untapping Selvala.
-  Activate Temur Sabertooth by paying {1}{G}, returning Wirewood Symbiote to your hand.
-  Cast Llanowar Elves by paying {G}.
-  Cast Wirewood Symbiote by paying {G}.
-  Repeat from step 2.
-
-## Combo 215-527-1909-4852
-Cards: Selvala, Heart of the Wilds + Temur Sabertooth + Wirewood Symbiote + Elvish Mystic
-Color identity: G | Bracket: 1+ (Exhibition) | Popularity: 4200 | Commander: legal
-Produces: Infinite colored mana; Infinite creature ETB; Infinite creature LTB; Infinite storm count; Infinite blinking
-Start: Selvala, Heart of the Wilds (battlefield); Temur Sabertooth (battlefield); Wirewood Symbiote (battlefield); Elvish Mystic (battlefield)
-Prerequisites: Selvala and Elvish Mystic do not have summoning sickness.
-  You control a creature with power 6 or greater.
-Steps: Activate Elvish Mystic by tapping it, adding {G}.
-  Activate Selvala by paying {G} and tapping it, adding at least {3}{G}{G}{G}.
-  Activate Wirewood Symbiote by returning Elvish Mystic to your hand, untapping Selvala.
-  Activate Temur Sabertooth by paying {1}{G}, returning Wirewood Symbiote to your hand.
-  Cast Elvish Mystic by paying {G}.
-  Cast Wirewood Symbiote by paying {G}.
-  Repeat from step 2.
-
-## Combo 215-527-1909-4977
-Cards: Selvala, Heart of the Wilds + Temur Sabertooth + Wirewood Symbiote + Fyndhorn Elves
-Color identity: G | Bracket: 1+ (Exhibition) | Popularity: 3900 | Commander: legal
-Produces: Infinite colored mana; Infinite creature ETB; Infinite creature LTB; Infinite storm count; Infinite blinking
-Start: Selvala, Heart of the Wilds (battlefield); Temur Sabertooth (battlefield); Wirewood Symbiote (battlefield); Fyndhorn Elves (battlefield)
-Prerequisites: Selvala and Fyndhorn Elves do not have summoning sickness.
-  You control a creature with power 6 or greater.
-Steps: Activate Fyndhorn Elves by tapping it, adding {G}.
-  Activate Selvala by paying {G} and tapping it, adding at least {3}{G}{G}{G}.
-  Activate Wirewood Symbiote by returning Fyndhorn Elves to your hand, untapping Selvala.
-  Activate Temur Sabertooth by paying {1}{G}, returning Wirewood Symbiote to your hand.
-  Cast Fyndhorn Elves by paying {G}.
-  Cast Wirewood Symbiote by paying {G}.
-  Repeat from step 2.
-
 ## Combo 215-527-3464
 Cards: Temur Sabertooth + Hyrax Tower Scout + Selvala, Heart of the Wilds
 Color identity: G | Bracket: 1+ (Exhibition) | Popularity: 3300 | Commander: legal | Mana needed: {G}
@@ -33214,3 +33169,52 @@ Steps: Cast Strength of Will by paying {1}{G}, targeting Triskelion.
   Activate Triskelion by removing a +1/+1 counter from it, dealing 1 damage to any target.
   Repeat from step 2.
 Notes: You can skip step 4 if desired.
+
+## Combo 1495-4613-5616
+Cards: Strong, the Brutish Thespian + Agatha's Soul Cauldron + Triskelion
+Color identity: G | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal
+Produces: Infinite damage; Infinite +1/+1 counters on a creature; Infinite self-mill on your next turn; Near-infinite lifegain on your next turn; Near-infinite lifegain triggers on your next turn
+Start: Strong, the Brutish Thespian (battlefield); Agatha's Soul Cauldron (battlefield); Triskelion (exile: exiled by Agatha's Soul Cauldron)
+Prerequisites: Strong has at least one +1/+1 counter on it.
+Steps: Activate Strong using Triskelion's ability by removing a +1/+1 counter from it, dealing 1 damage to Strong.
+  Strong triggers, putting three +1/+1 counters on it and causing you to get three rad counters.
+  Repeat an arbitrarily large number of times.
+  Activate Strong using Triskelion's ability by removing a +1/+1 counter from it, dealing 1 damage to any target.
+  Repeat step 4 as desired.
+Notes: This combo typically wins with infinite damage, but if the game isn't over by your next precombat main phase, your rad counters will trigger, causing you to mill any number of cards and gain a large amount of life (or lose that amount if Strong has left the battlefield).
+
+## Combo 1495-4613-7684
+Cards: Agatha's Soul Cauldron + Triskelion + Tigra, Feline Fury
+Color identity: G | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal
+Produces: Infinite damage; Infinite lifegain; Infinite lifegain triggers
+Start: Agatha's Soul Cauldron (battlefield); Triskelion (exile: by Agatha's Soul Cauldron); Tigra, Feline Fury (battlefield: with a +1/+1 counter on it and has lifelink)
+Steps: Activate Tigra by using Triskelion's ability by removing a +1/+1 counter from it, dealing 1 damage to any target and causing you to gain 1 life due to its lifelink.
+  Tigra triggers, putting a +1/+1 counter on it.
+  Repeat.
+
+## Combo 1495-4613-7691
+Cards: Agatha's Soul Cauldron + The Thing, Ben Grimm + Triskelion
+Color identity: G | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal
+Produces: Infinite damage; Infinite +1/+1 counters on a creature
+Start: Agatha's Soul Cauldron (battlefield); The Thing, Ben Grimm (battlefield: with a +1/+1 counter on it); Triskelion (exile: exiled by Agatha's Soul Cauldron)
+Steps: Activate The Thing by using Triskelion's ability by removing a +1/+1 counter from it, dealing 1 damage to any target.
+  The Thing triggers, putting two +1/+1 counters on it.
+  Repeat.
+
+## Combo 1495-4613-7816
+Cards: Agatha's Soul Cauldron + Triskelion + Titanbones, Towering Heart
+Color identity: G | Bracket: 3-4+ (Spicy) | Popularity: 2 | Commander: legal
+Produces: Infinite damage; Infinite lifegain; Infinite lifegain triggers; Infinite +1/+1 counters on a creature
+Start: Agatha's Soul Cauldron (battlefield); Triskelion (exile: by Agatha's Soul Cauldron); Titanbones, Towering Heart (battlefield: with a +1/+1 counter on it and has lifelink)
+Steps: Activate Titanbones by using Triskelion's ability by removing a +1/+1 counter from it, dealing 1 damage to any target and causing you to gain 1 life due to its lifelink.
+  Titanbones triggers, putting two +1/+1 counters on it.
+  Repeat.
+
+## Combo 1495-4613-8036
+Cards: Agatha's Soul Cauldron + Triskelion + Christine Chapel, Combat Medic
+Color identity: G | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite damage; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers
+Start: Agatha's Soul Cauldron (battlefield); Triskelion (exile: by Agatha's Soul Cauldron); Christine Chapel, Combat Medic (battlefield: with a +1/+1 counter on it and has lifelink)
+Steps: Activate Christine Chapel by using Triskelion's ability by removing a +1/+1 counter from it, dealing 1 damage to any target and causing you to gain 1 life due to its lifelink.
+  Christine Chapel triggers, putting two +1/+1 counters on it.
+  Repeat.

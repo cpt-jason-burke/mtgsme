@@ -1,3 +1,16 @@
+## Combo 914-2438-5140
+Cards: Kenrith, the Returned King + Dockside Extortionist + Carrion Feeder
+Color identity: WUBRG | Bracket: none (not legal) | Popularity: 0 | Commander: not legal | Mana needed: {4}{B}
+Produces: Infinite colored mana; Infinite Treasure tokens; Infinite lifegain; Infinite card draw for any number of players; Infinite +1/+1 counters on creatures you control; Infinite artifact tokens; Infinite lifegain triggers; Return all creature cards from all graveyards to the battlefield under your control; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite draw triggers for any number of opponents
+Start: Kenrith, the Returned King (battlefield); Dockside Extortionist (graveyard); Carrion Feeder (battlefield)
+Prerequisites: Opponents control at least five artifacts and/or enchantments.
+Steps: Activate Kenrith's fifth ability by paying {4}{B}, returning Dockside Extortionist from your graveyard to the battlefield.
+  When Dockside Extortionist enters the battlefield, it triggers, creating at least five Treasure tokens.
+  Activate Carrion Feeder by sacrificing Dockside Extortionist, putting a +1/+1 counter on Carrion Feeder.
+  Activate five Treasures by tapping and sacrificing them, adding {4}{B}.
+  Repeat.
+Notes: Once you have infinite mana, you may spend it on Kenrith's other abilities.
+
 ## Combo 914-2499-4770
 Cards: Dockside Extortionist + Yarok, the Desecrated + Whitemane Lion
 Color identity: WUBRG | Bracket: none (not legal) | Popularity: 0 | Commander: not legal | Mana needed: {1}{R}
@@ -29960,31 +29973,3 @@ Steps: Cast Switcheroo by paying its mana cost, giving control of Karlov Watchdo
   When the creature dies, Yarus's second ability triggers, returning it from your graveyard to the battlefield face-down as a 2/2 creature, and then not turning it face-up due to Karlov Watchdog.
   Resolve the Bartolomé del Presidio ability.
   Repeat from step 2.
-
-## Combo 2921-3240-6462-7396
-Cards: Nether Traitor + Kheru Goldkeeper + Bartolomé del Presidio + Quintorius, History Chaser
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B}
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Nether Traitor (battlefield); Kheru Goldkeeper (battlefield); Bartolomé del Presidio (battlefield); Quintorius, History Chaser (battlefield)
-Prerequisites: You control another creature.
-Steps: Activate Bartolomé del Presidio by sacrificing Nether Traitor.
-  Activate Bartolomé del Presidio by sacrificing another creature.
-  When the creature dies, Nether Traitor triggers, causing you to pay {B} to return Nether Traitor from your graveyard to the battlefield.
-  Kheru Goldkeeper and Quintorius, History Chaser triggers, creating a Treasure token and creature token.
-  Resolve the Bartolomé del Presidio ability.
-  Activate the Treasure by tapping and sacrificing it, adding {B}.
-  Repeat.
-
-## Combo 2921-3240-6462-7422
-Cards: Nether Traitor + Kheru Goldkeeper + Bartolomé del Presidio + Garrison Excavator
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B}
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Nether Traitor (battlefield); Kheru Goldkeeper (battlefield); Bartolomé del Presidio (battlefield); Garrison Excavator (battlefield)
-Prerequisites: You control another creature.
-Steps: Activate Bartolomé del Presidio by sacrificing Nether Traitor.
-  Activate Bartolomé del Presidio by sacrificing another creature.
-  When the creature dies, Nether Traitor triggers, causing you to pay {B} to return Nether Traitor from your graveyard to the battlefield.
-  Kheru Goldkeeper and Garrison Excavator triggers, creating a Treasure token and a creature token
-  Resolve the Bartolomé del Presidio ability.
-  Activate the Treasure by tapping and sacrificing it, adding {B}.
-  Repeat.

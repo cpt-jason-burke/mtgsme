@@ -17159,6 +17159,21 @@ Steps: Cast any spell by paying {0} due to Fist of Suns and Aang, Master of Elem
   Resolve the spell cast in step 1, and repeat from step 1 as able.
 Notes: You need to have both an Avatar Aang and an Aang, Master of Elements on the battlefield. This combo only reduces the mana cost of spells to {0} - it doesn't negate additional costs or targets those spells may require.
 
+## Combo 375-4452-4508
+Cards: Malcolm, Keen-Eyed Navigator + Hedron Detonator + Rukarumel, Biologist
+Color identity: WUBRG | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite colored mana; Infinite damage; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Hedron Detonator (battlefield); Rukarumel, Biologist (battlefield)
+Prerequisites: You have a way to cause an artifact to enter the battlefield under your control.
+  "Pirate" chosen with Rukarumel.
+Steps: Verify that Hedron Detonator's types include Pirate due to the type chosen with Rukarumel.
+  Cause an artifact to enter the battlefield under your control.
+  Hedron Detonator triggers, dealing 1 damage to target opponent.
+  Malcolm triggers, creating a Treasure token for each opponent dealt damage this way.
+  When the Treasure(s) enter, Hedron Detonator triggers at least once.
+  Resolve a Hedron Detonator trigger, dealing 1 damage to target opponent.
+  Repeat from step 4.
+
 ## Combo 380-2726-2972-4094
 Cards: Miirym, Sentinel Wyrm + Reflections of Littjara + Ganax, Astral Hunter + Kaya, Geist Hunter
 Color identity: WUBRG | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {3}{G}{U}{R}
@@ -29241,19 +29256,6 @@ Prerequisites: Opponents control at least five artifacts and/or enchantments.
 Steps: Activate Kenrith's fifth ability by paying {4}{B}, returning Dockside Extortionist from your graveyard to the battlefield.
   When Dockside Extortionist enters the battlefield, it triggers, creating at least five Treasure tokens.
   Activate Viscera Seer by sacrificing Dockside Extortionist, causing you to scry 1.
-  Activate five Treasures by tapping and sacrificing them, adding {4}{B}.
-  Repeat.
-Notes: Once you have infinite mana, you may spend it on Kenrith's other abilities.
-
-## Combo 914-2438-5140
-Cards: Kenrith, the Returned King + Dockside Extortionist + Carrion Feeder
-Color identity: WUBRG | Bracket: none (not legal) | Popularity: 0 | Commander: not legal | Mana needed: {4}{B}
-Produces: Infinite colored mana; Infinite Treasure tokens; Infinite lifegain; Infinite card draw for any number of players; Infinite +1/+1 counters on creatures you control; Infinite artifact tokens; Infinite lifegain triggers; Return all creature cards from all graveyards to the battlefield under your control; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite draw triggers for any number of opponents
-Start: Kenrith, the Returned King (battlefield); Dockside Extortionist (graveyard); Carrion Feeder (battlefield)
-Prerequisites: Opponents control at least five artifacts and/or enchantments.
-Steps: Activate Kenrith's fifth ability by paying {4}{B}, returning Dockside Extortionist from your graveyard to the battlefield.
-  When Dockside Extortionist enters the battlefield, it triggers, creating at least five Treasure tokens.
-  Activate Carrion Feeder by sacrificing Dockside Extortionist, putting a +1/+1 counter on Carrion Feeder.
   Activate five Treasures by tapping and sacrificing them, adding {4}{B}.
   Repeat.
 Notes: Once you have infinite mana, you may spend it on Kenrith's other abilities.

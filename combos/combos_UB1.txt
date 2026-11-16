@@ -10364,6 +10364,19 @@ Steps: Activate Liliana's third loyalty ability by removing three loyalty counte
   Activate Warren Soultrader by paying 1 life and sacrificing Gray Merchant, creating a Treasure token.
   Repeat from step 2.
 
+## Combo 328-728-3260-4078
+Cards: Chainer, Dementia Master + K'rrik, Son of Yawgmoth + Gray Merchant of Asphodel + Grimgrin, Corpse-Born
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite lifegain; Infinite lifeloss; Each opponent loses the game; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Return all creature cards from all graveyards to the battlefield under your control; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Chainer, Dementia Master (battlefield); K'rrik, Son of Yawgmoth (battlefield); Gray Merchant of Asphodel (battlefield); Grimgrin, Corpse-Born (battlefield)
+Prerequisites: Your life total is 10 or greater.
+  You have at least two opponents, or your devotion to black is at least ten.
+Steps: Activate Grimgrin by sacrificing Gray Merchant, putting a +1/+1 counter on Grimgrin and untapping it.
+  Activate Chainer by paying 9 life due to K'rrik, returning Gray Merchant from your graveyard to the battlefield as a Nightmare in addition to its other creature types.
+  When Gray Merchant enters, it triggers, causing each opponent to lose life equal to your devotion to black and causing you to gain that much life.
+  Repeat.
+Notes: The additional gained life can be used by Chainer to return all creature cards from all graveyards to the battlefield under your control.
+
 ## Combo 328-791-933-1494
 Cards: Unspeakable Symbol + Sage of Hours + Gray Merchant of Asphodel + Conjurer's Closet
 Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 1 | Commander: legal
@@ -26499,16 +26512,6 @@ Steps: Activate Necrotic Ooze by putting a -1/-1 counter on it, untapping it.
   Activate Necrotic Ooze by tapping it and removing a -1/-1 counter from it, causing you to draw a card.
   Repeat.
 
-## Combo 1242-2838-2979
-Cards: Soul Diviner + Patchwork Crawler + Cinderhaze Wretch
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
-Produces: Infinite card draw; Infinite draw triggers
-Start: Soul Diviner (exile: exiled by Patchwork Crawler); Patchwork Crawler (battlefield); Cinderhaze Wretch (exile: exiled by Patchwork Crawler)
-Prerequisites: Patchwork Crawler does not have summoning sickness, and does not have a -1/-1 counter on it.
-Steps: Activate Patchwork Crawler using Cinderhaze Wretch's second ability by putting a -1/-1 counter on it, untapping it.
-  Activate Patchwork Crawler using Soul Diviner's ability by tapping it and removing a -1/-1 counter from it, causing you to draw a card.
-  Repeat.
-
 ## Combo 1247-1656-3772
 Cards: Necrotic Ooze + Pili-Pala + Omen Hawker
 Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 220 | Commander: legal
@@ -32350,15 +32353,3 @@ Steps: Activate Forensic Researcher by tapping it, targeting Evil Twin.
   Deeproot Pilgrimage triggers, creating a 1/1 Merfolk creature token.
   Resolve the Evil Twin ability, untapping Forensic Researcher.
   Repeat.
-
-## Combo 1623-2125-4740
-Cards: Guile + Temporal Extortion + Aetherflux Reservoir
-Color identity: UB | Bracket: 2+ (Core) | Popularity: 5 | Commander: legal | Mana needed: {B}{B}{B}{B}
-Produces: Infinite damage; Infinite lifegain; Infinite lifeloss; Infinite lifegain triggers; Infinite magecraft triggers; Infinite storm count
-Start: Guile (battlefield); Temporal Extortion (hand); Aetherflux Reservoir (battlefield)
-Steps: Cast Temporal Extortion by paying {B}{B}{B}{B}.
-  Temporal Extortion and Aetherflux Reservoir trigger.
-  Resolve the Aetherflux Reservoir trigger, causing you to gain 1 life for each spell you've cast this turn.
-  Resolve the Temporal Extortion trigger, causing you to pay half your life total, rounded up, and then exile Temporal Extortion and cast it without paying its mana cost due to Guile.
-  Repeat.
-  Once you have infinite life, you may activate Aetherflux Reservoir infinite times to deal infinite damage to any target(s).

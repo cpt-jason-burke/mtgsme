@@ -12653,7 +12653,7 @@ Steps: Cast Gray Merchant either from your hand by paying {3}{B}{B} or from the 
 ## Combo 328-3260-4078-5147
 Cards: Chainer, Dementia Master + K'rrik, Son of Yawgmoth + Gray Merchant of Asphodel + Goblin Bombardment
 Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal
-Produces: Infinite damage; Infinite lifegain; Infinite lifeloss; Infinite lifegain triggers; Return all creature cards from all graveyards to the battlefield under your control; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
+Produces: Infinite damage; Infinite lifegain; Infinite lifeloss; Each opponent loses the game; Infinite lifegain triggers; Return all creature cards from all graveyards to the battlefield under your control; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Chainer, Dementia Master (battlefield); K'rrik, Son of Yawgmoth (battlefield); Gray Merchant of Asphodel (battlefield); Goblin Bombardment (battlefield)
 Prerequisites: Your life total is 10 or greater.
   You have at least two opponents, or your devotion to black is at least ten.
@@ -12666,7 +12666,7 @@ Notes: The additional gained life can be used by Chainer to return all creature 
 ## Combo 328-3260-4078-5231
 Cards: Chainer, Dementia Master + K'rrik, Son of Yawgmoth + Gray Merchant of Asphodel + Thermopod
 Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
-Produces: Infinite lifegain; Infinite lifeloss; Infinite red mana; Infinite lifegain triggers; Return all creature cards from all graveyards to the battlefield under your control; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
+Produces: Infinite lifegain; Infinite lifeloss; Infinite red mana; Each opponent loses the game; Infinite lifegain triggers; Return all creature cards from all graveyards to the battlefield under your control; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Chainer, Dementia Master (battlefield); K'rrik, Son of Yawgmoth (battlefield); Gray Merchant of Asphodel (battlefield); Thermopod (battlefield)
 Prerequisites: Your life total is 10 or greater.
   You have at least two opponents, or your devotion to black is at least ten.
@@ -12675,6 +12675,20 @@ Steps: Activate Thermopod by sacrificing Gray Merchant.
   When Gray Merchant enters, it triggers, causing each opponent to lose life equal to your devotion to black and causing you to gain that much life.
   Repeat.
 Notes: The additional gained life can be used by Chainer to return all creature cards from all graveyards to the battlefield under your control.
+
+## Combo 328-3260-4078-6495
+Cards: Chainer, Dementia Master + K'rrik, Son of Yawgmoth + Gray Merchant of Asphodel + Evereth, Viceroy of Plunder
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite lifegain; Infinite lifeloss; Infinite damage; Each opponent loses the game; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Return all creature cards from all graveyards to the battlefield under your control; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Chainer, Dementia Master (battlefield); K'rrik, Son of Yawgmoth (battlefield); Gray Merchant of Asphodel (battlefield); Evereth, Viceroy of Plunder (battlefield)
+Prerequisites: Your life total is 10 or greater.
+  You have at least two opponents, or your devotion to black is at least ten.
+Steps: Activate Evereth by sacrificing Gray Merchant, putting a +1/+1 counter on Evereth.
+  Activate Chainer by paying 9 life due to K'rrik, returning Gray Merchant from your graveyard to the battlefield as a Nightmare in addition to its other creature types.
+  When Gray Merchant enters, it triggers, causing each opponent to lose life equal to your devotion to black and causing you to gain that much life.
+  Repeat.
+Notes: The additional gained life can be used by Chainer to return all creature cards from all graveyards to the battlefield under your control.
+  If you have a way to kill Evereth and {1}{B/R} available, you can do so after putting a significant amount of +1/+1 counters on it to deal damage to each opponent using its second ability.
 
 ## Combo 328-5147-5220-6900
 Cards: Mortuary + Gray Merchant of Asphodel + Goblin Bombardment + Gwenom, Remorseless
@@ -31295,28 +31309,5 @@ Start: Mortuary (battlefield); Phyrexian Walker (battlefield); Sarcatog (battlef
 Steps: Activate Sarcatog by sacrificing Phyrexian Walker
   When Phyrexian Walker dies, Mortuary triggers, putting Phyrexian Walker from your graveyard onto the top of your library.
   Resolve the Sarcatog ability.
-  Cast Phyrexian Walker from the top of your library by paying 0 life.
-  Repeat.
-
-## Combo 1003-2099-5220-6900
-Cards: Mortuary + Phyrexian Walker + Sarcatog + Gwenom, Remorseless
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
-Start: Mortuary (battlefield); Phyrexian Walker (battlefield); Sarcatog (battlefield); Gwenom, Remorseless (battlefield)
-Prerequisites: Gwenom has attacked this turn.
-Steps: Activate Sarcatog by sacrificing Phyrexian Walker
-  When Phyrexian Walker dies, Mortuary triggers, putting Phyrexian Walker from your graveyard onto the top of your library.
-  Resolve the Sarcatog ability.
-  Cast Phyrexian Walker from the top of your library by paying 0 life.
-  Repeat.
-
-## Combo 1003-2173-2981-5220
-Cards: Mortuary + Phyrexian Walker + Bolas's Citadel + Megatog
-Color identity: BR | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal
-Produces: Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
-Start: Mortuary (battlefield); Phyrexian Walker (battlefield); Bolas's Citadel (battlefield); Megatog (battlefield)
-Steps: Activate Megatog by sacrificing Phyrexian Walker
-  When Phyrexian Walker dies, Mortuary triggers, putting Phyrexian Walker from your graveyard onto the top of your library.
-  Resolve the Megatog ability.
   Cast Phyrexian Walker from the top of your library by paying 0 life.
   Repeat.

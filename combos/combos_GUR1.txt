@@ -9313,6 +9313,20 @@ Steps: Cast Maelstrom Wanderer by paying {5}{G}{U}{R}, plus commander tax if app
   Maelstrom Wanderer enters the battlefield.
   You may attack with all of your creatures since they are granted haste by Maelstrom Wanderer.
 
+## Combo 375-4508-7176
+Cards: Malcolm, Keen-Eyed Navigator + Hedron Detonator + Oko, Lorwyn Liege // Oko, Shadowmoor Scion
+Color identity: GUR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite damage; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Hedron Detonator (battlefield); Oko, Lorwyn Liege // Oko, Shadowmoor Scion (battlefield)
+Prerequisites: You have a way to cause an artifact to enter the battlefield under your control.
+Steps: Activate Oko's first loyalty ability by putting two loyalty counters on it, causing Hedron Detonator to indefinitely gain all creature types including Pirate.
+  Cause an artifact to enter the battlefield under your control.
+  Hedron Detonator triggers, dealing 1 damage to target opponent.
+  Malcolm triggers, creating a Treasure token for each opponent dealt damage this way.
+  When the Treasure(s) enter, Hedron Detonator triggers at least once.
+  Resolve a Hedron Detonator trigger, dealing 1 damage to target opponent.
+  Repeat from step 4.
+
 ## Combo 380-392-844-2232
 Cards: Miirym, Sentinel Wyrm + Cloudstone Curio + Slumbering Dragon + Birgi, God of Storytelling // Harnfel, Horn of Bounty
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {R}
@@ -32284,25 +32298,6 @@ Cards: Kodama of the East Tree + Petrified Field + Echoing Deeps + Dragonback As
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Petrified Field (hand); Echoing Deeps (graveyard); Dragonback Assault (battlefield); Horizon Explorer (battlefield)
-Prerequisites: You are able to play a land this turn.
-Steps: Play Petrified Field.
-  When Petrified Field enters the battlefield, Kodama of the East Tree and Dragonback Assault trigger.
-  Resolve the Kodama of the East Tree trigger, putting nothing onto the battlefield.
-  Holding priority, activate Petrified Field's second ability by tapping and sacrificing it, returning Echoing Deeps from your graveyard to your hand.
-  Resolve the Dragonback Assault trigger, creating a token.
-  When the token enters the battlefield, Kodama of the East Tree triggers, putting Echoing Deeps from your hand onto the battlefield untapped as a copy of Petrified Field.
-  When Echoing Deeps enters the battlefield, Dragonback Assault triggers.
-  Holding priority, activate Echoing Deeps using Petrified Field's second ability by tapping and sacrificing it, returning Petrified Field from your graveyard to your hand.
-  Resolve the Dragonback Assault trigger, creating a token.
-  When the token enters the battlefield, Kodama of the East Tree triggers, putting Petrified Field from your hand onto the battlefield.
-  When Petrified Field enters the battlefield, Dragonback Assault triggers.
-  Repeat from step 4.
-
-## Combo 1479-5700-5701-6517-8345
-Cards: Kodama of the East Tree + Petrified Field + Echoing Deeps + Dragonback Assault + Warp Speed
-Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
-Start: Kodama of the East Tree (battlefield); Petrified Field (hand); Echoing Deeps (graveyard); Dragonback Assault (battlefield); Warp Speed (battlefield)
 Prerequisites: You are able to play a land this turn.
 Steps: Play Petrified Field.
   When Petrified Field enters the battlefield, Kodama of the East Tree and Dragonback Assault trigger.

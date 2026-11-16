@@ -1,3 +1,22 @@
+## Combo 1479-5700-5701-6517-8345
+Cards: Kodama of the East Tree + Petrified Field + Echoing Deeps + Dragonback Assault + Warp Speed
+Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
+Start: Kodama of the East Tree (battlefield); Petrified Field (hand); Echoing Deeps (graveyard); Dragonback Assault (battlefield); Warp Speed (battlefield)
+Prerequisites: You are able to play a land this turn.
+Steps: Play Petrified Field.
+  When Petrified Field enters the battlefield, Kodama of the East Tree and Dragonback Assault trigger.
+  Resolve the Kodama of the East Tree trigger, putting nothing onto the battlefield.
+  Holding priority, activate Petrified Field's second ability by tapping and sacrificing it, returning Echoing Deeps from your graveyard to your hand.
+  Resolve the Dragonback Assault trigger, creating a token.
+  When the token enters the battlefield, Kodama of the East Tree triggers, putting Echoing Deeps from your hand onto the battlefield untapped as a copy of Petrified Field.
+  When Echoing Deeps enters the battlefield, Dragonback Assault triggers.
+  Holding priority, activate Echoing Deeps using Petrified Field's second ability by tapping and sacrificing it, returning Petrified Field from your graveyard to your hand.
+  Resolve the Dragonback Assault trigger, creating a token.
+  When the token enters the battlefield, Kodama of the East Tree triggers, putting Petrified Field from your hand onto the battlefield.
+  When Petrified Field enters the battlefield, Dragonback Assault triggers.
+  Repeat from step 4.
+
 ## Combo 1479-5700-5701-8293-8345
 Cards: Kodama of the East Tree + Petrified Field + Echoing Deeps + Cleveland Booker, Empath + Warp Speed
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -6293,6 +6312,20 @@ Steps: Activate Skyshroud Ranger by tapping it, putting Izzet Boilerworks from y
   Resolve the Elven Raft-Steerer trigger, untapping Skyshroud Ranger.
   Repeat.
 
+## Combo 2257-4508-7176
+Cards: Malcolm, Keen-Eyed Navigator + Reckless Fireweaver + Oko, Lorwyn Liege // Oko, Shadowmoor Scion
+Color identity: GUR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite damage; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Reckless Fireweaver (battlefield); Oko, Lorwyn Liege // Oko, Shadowmoor Scion (battlefield)
+Prerequisites: You have a way to cause an artifact to enter the battlefield under your control.
+Steps: Activate Oko's first loyalty ability by putting two loyalty counters on it, causing Reckless Fireweaver to indefinitely gain all creature types including Pirate.
+  Cause an artifact to enter the battlefield under your control.
+  Reckless Fireweaver triggers, dealing 1 damage to each opponent.
+  Malcolm triggers, creating a Treasure token for each opponent dealt damage this way.
+  When the Treasure(s) enter, Reckless Fireweaver triggers at least once.
+  Resolve a Reckless Fireweaver trigger, dealing 1 damage to each opponent.
+  Repeat from step 4.
+
 ## Combo 2347-3304-4067-5047
 Cards: The Swarmlord + Greater Good + Mind Over Matter + Firemind Vessel
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
@@ -12489,6 +12522,20 @@ Steps: During an opponent's turn, cast the {0}-cost creature in your hand by pay
   Resolve the spell from step 1.
   Repeat.
 
+## Combo 3670-4508-7176
+Cards: Malcolm, Keen-Eyed Navigator + Ingenious Artillerist + Oko, Lorwyn Liege // Oko, Shadowmoor Scion
+Color identity: GUR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite damage; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Ingenious Artillerist (battlefield); Oko, Lorwyn Liege // Oko, Shadowmoor Scion (battlefield)
+Prerequisites: You have a way to cause an artifact to enter the battlefield under your control.
+Steps: Activate Oko's first loyalty ability by putting two loyalty counters on it, causing Ingenious Artillerist to indefinitely gain all creature types including Pirate.
+  Cause an artifact to enter the battlefield under your control.
+  Ingenious Artillerist triggers, dealing damage to each opponent equal to the number of artifacts that entered.
+  Malcolm triggers, creating a Treasure token for each opponent dealt damage this way.
+  When the Treasure(s) enter, Ingenious Artillerist triggers at least once.
+  Resolve an Ingenious Artillerist trigger, dealing damage to each opponent equal to the number of artifacts that triggered it.
+  Repeat from step 4.
+
 ## Combo 3688-4019-4221--85--172
 Cards: Vigean Graftmage + Zhur-Taa Ancient + Living Plane
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -15000,6 +15047,20 @@ Steps: Verify that Magmaw's creature types include Pirate due to Stalactite Dagg
   Malcolm triggers, creating a Treasure token plus at least one additional token due to Tippy-Toe.
   Activate a Treasure by tapping and sacrificing it, adding {1}.
   Repeat from step 2.
+
+## Combo 4508-6847-7176
+Cards: Malcolm, Keen-Eyed Navigator + Weftstalker Ardent + Oko, Lorwyn Liege // Oko, Shadowmoor Scion
+Color identity: GUR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite damage; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Weftstalker Ardent (battlefield); Oko, Lorwyn Liege // Oko, Shadowmoor Scion (battlefield)
+Prerequisites: You have a way to cause an artifact to enter the battlefield under your control.
+Steps: Activate Oko's first loyalty ability by putting two loyalty counters on it, causing Weftstalker Ardent to indefinitely gain all creature types including Pirate.
+  Cause an artifact to enter the battlefield under your control.
+  Weftstalker Ardent triggers, dealing 1 damage to each opponent.
+  Malcolm triggers, creating a Treasure token for each opponent dealt damage this way.
+  When the Treasure(s) enter, Weftstalker Ardent triggers at least once.
+  Resolve a Weftstalker Ardent trigger, dealing 1 damage to each opponent.
+  Repeat from step 4.
 
 ## Combo 4508-7176-7746
 Cards: Malcolm, Keen-Eyed Navigator + Oko, Lorwyn Liege // Oko, Shadowmoor Scion + HYDRA Assault Robot

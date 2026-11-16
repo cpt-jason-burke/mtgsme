@@ -1,3 +1,31 @@
+## Combo 3490-4050-7080
+Cards: Animation Module + Phyrexian Altar + Sandbender Scavengers
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Animation Module (battlefield); Phyrexian Altar (battlefield); Sandbender Scavengers (battlefield)
+Prerequisites: You control an additional creature.
+Steps: Activate Phyrexian Altar by sacrificing any other creature you control, adding {1}.
+  Sandbender Scavengers triggers, putting a +1/+1 counter on it.
+  Animation Module triggers, causing you to pay {1} to create a 1/1 Servo artifact creature token.
+  Repeat.
+
+## Combo 3490-4210-4659-6283
+Cards: Amalia Benavides Aguirre + Animation Module + Krark-Clan Ironworks + Pious Evangel // Wayward Disciple
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
+Produces: Infinite colorless mana; Infinite lifegain; Infinite creature tokens; Infinite lifeloss; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Destroy all creatures opponents control
+Start: Amalia Benavides Aguirre (battlefield); Animation Module (battlefield); Krark-Clan Ironworks (battlefield); Pious Evangel // Wayward Disciple (battlefield)
+Prerequisites: You have a way to gain life.
+  You have a nonland card on top of your library.
+  You have a way to give Pious Evangel // Wayward Disciple indestructible.
+Steps: Gain life.
+  Amalia triggers, revealing the top card of your library and then putting a +1/+1 counter on Amalia, putting the card back on top of your library, and destroying all other creatures if Amalia's power is 20.
+  Animation Module triggers, causing you to pay {1} to create a 1/1 Servo artifact creature token.
+  When the Servo enters the battlefield, Pious Evangel triggers if it's on the battlefield, causing you to gain 1 life. If you gained life this way, Amalia will trigger.
+  Holding priority, activate Krark-Clan Ironworks by sacrificing the Servo, adding {C}{C}.
+  When the Servo dies, Wayward Disciple triggers if it's on the battlefield, causing you to gain 1 life and target opponent to lose 1 life. If you gained life this way, Amalia will trigger.
+  Resolve the Amalia trigger, revealing the top card of your library and then putting a +1/+1 counter on Amalia, putting the card back on top of your library, and destroying all other creatures if Amalia's power is 20.
+  Repeat from step 3.
+
 ## Combo 3490-4210-4659-6824
 Cards: Animation Module + Krark-Clan Ironworks + Pious Evangel // Wayward Disciple + Spider-Man, Peter Parker
 Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}

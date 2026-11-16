@@ -1,3 +1,99 @@
+## Combo 2034-4417-5708-5944
+Cards: Unstoppable Slasher + Hex Parasite + Ashnod's Altar + Vein Ripper
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal
+Produces: Infinite lifeloss; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinitely powerful creature until end of turn
+Start: Unstoppable Slasher (battlefield); Hex Parasite (battlefield); Ashnod's Altar (battlefield); Vein Ripper (battlefield)
+Prerequisites: Unstoppable Slasher does not have a counter on it.
+Steps: Activate Ashnod's Altar by sacrificing Unstoppable Slasher, adding {C}{C}.
+  When Unstoppable Slasher dies, its second ability and Vein Ripper trigger.
+  Resolve the Unstoppable Slasher trigger, returning itself from your graveyard to the battlefield with two stun counters on it.
+  Resolve the Vein Ripper trigger, causing you to gain 2 life and an opponent to lose 2 life.
+  Activate Hex Parasite by paying {2} and 2 life, removing both stun counters from Unstoppable Slasher and giving Hex Parasite +2/+0 until end of turn.
+  Repeat.
+
+## Combo 2034-4446-5170-6132
+Cards: Junji, the Midnight Sky + Ashnod's Altar + Relic Vial + Metamorphosis Fanatic
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
+Produces: Infinite colorless mana; Infinite lifeloss; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Junji, the Midnight Sky (battlefield); Ashnod's Altar (battlefield); Relic Vial (battlefield); Metamorphosis Fanatic (battlefield)
+Prerequisites: You control at least one Cleric
+Steps: Activate Ashnod's Altar by sacrificing Metamorphosis Fanatic.
+  When Metamorphosis Fanatic dies, Relic Vial triggers, causing you to gain 1 life and each opponent to lose 1 life.
+  Activate Ashnod's Altar by sacrificing Junji.
+  When Junji dies, it and Relic Vial trigger.
+  Resolve the Relic Vial trigger, causing you to gain 1 life and each opponent to lose 1 life.
+  Resolve the Junji trigger, returning Metamorphosis Fanatic from your graveyard to the battlefield and causing you to lose 2 life.
+  When Metamorphosis Fanatic enters, it triggers, returning Junji from your graveyard to the battlefield.
+  Repeat.
+
+## Combo 2034-4484-4871-5631
+Cards: Ebondeath, Dracolich + Ashnod's Altar + Pitiless Plunderer + Skeleton Crew
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 48 | Commander: legal | Mana needed: {B}
+Produces: Infinite colorless mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Ebondeath, Dracolich (battlefield); Ashnod's Altar (battlefield); Pitiless Plunderer (battlefield); Skeleton Crew (battlefield)
+Prerequisites: A creature not named Ebondeath, Dracolich has died this turn.
+Steps: Activate Ashnod's Altar by sacrificing Ebondeath, adding {C}{C}.
+  When Ebondeath dies, Pitiless Plunderer triggers, creating a Treasure token.
+  Activate the Treasure token by tapping and sacrificing it, adding {B}.
+  Cast Ebondeath from your graveyard by paying {2}{B}{B}.
+  Skeleton Crew triggers, creating a creature token.
+  Activate Ashnod's Altar by sacrificing the creature token, adding {C}{C}.
+  When the creature token dies, Pitiless Plunderer triggers, creating a Treasure token.
+  Activate the Treasure token by tapping and sacrificing it, adding {B}.
+  Repeat.
+
+## Combo 2034-4484-4871-6518
+Cards: The Sibsig Ceremony + Pitiless Plunderer + Ebondeath, Dracolich + Ashnod's Altar
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 64 | Commander: legal | Mana needed: {B}{B}
+Produces: Infinite colorless mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: The Sibsig Ceremony (battlefield); Pitiless Plunderer (battlefield); Ebondeath, Dracolich (graveyard); Ashnod's Altar (battlefield)
+Prerequisites: A creature not named Ebondeath, Dracolich has died this turn.
+Steps: Cast Ebondeath from your graveyard by paying {B}{B}.
+  When Ebondeath enters, The Sibsig Ceremony triggers, destroying Ebondeath and creating a 2/2 Zombie Druid creature token.
+  When Ebondeath dies, Pitiless Plunderer triggers, creating a Treasure token.
+  Activate Ashnod's Altar by sacrificing the Zombie Druid, adding {C}{C}.
+  When the Zombie Druid dies, Pitiless Plunderer triggers, creating a Treasure token.
+  Activate two Treasures by tapping and sacrificing them, adding {B}{B}.
+  Repeat.
+
+## Combo 2034-4504-4766
+Cards: Endless Cockroaches + Deathrender + Ashnod's Altar
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 66 | Commander: legal
+Produces: Infinite colorless mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
+Start: Endless Cockroaches (battlefield); Deathrender (battlefield); Ashnod's Altar (battlefield)
+Prerequisites: Deathrender attached to Endless Cockroaches.
+Steps: Activate Ashnod's Altar by sacrificing Endless Cockroaches, adidng {C}{C}.
+  Endless Cockroaches dies, triggering itself and Deathrender.
+  Resolve the Endless Cockroaches trigger, returning it from your graveyard to your hand.
+  Resolve the Deathrender trigger, putting Endless Cockroaches onto the battlefield from your hand, and attaching Deathrender to it.
+  Repeat.
+
+## Combo 2034-4733-5038
+Cards: Overseer of the Damned + Dictate of Erebos + Ashnod's Altar
+Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 1000 | Commander: legal
+Produces: Each opponent sacrifices any creature that enters under their control; Each opponent sacrifices all creatures they control; Lock
+Start: Overseer of the Damned (battlefield); Dictate of Erebos (battlefield); Ashnod's Altar (battlefield)
+Prerequisites: You control at least one additional creature.
+Steps: Activate Ashnod's Altar by sacrificing any other creature, adding {C}{C}.
+  Dictate of Erebos triggers, causing each opponent to sacrifice a creature.
+  Overseer of the Damned triggers, creating a 2/2 Zombie creature token for each creature sacrificed.
+  Repeat.
+  You may also repeat this loop any time a creature enters the battlefield under an opponent control.
+
+## Combo 2034-4740-5220-6900
+Cards: Mortuary + Ashnod's Altar + Aetherflux Reservoir + Gwenom, Remorseless
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 210 | Commander: legal
+Produces: Infinite colorless mana; Infinite lifegain; Infinite damage; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Mortuary (battlefield); Ashnod's Altar (battlefield); Aetherflux Reservoir (battlefield); Gwenom, Remorseless (battlefield)
+Prerequisites: You control an additional nontoken creature
+  Gwenom has attacked this turn.
+Steps: Activate Ashnod's Altar by sacrificing a creature
+  When the creature dies, Mortuary triggers, putting the creature from your graveyard onto the top of your library.
+  Cast the creature from the top of your library by paying X life, where X is the creature's mana value.
+  Aetherflux Reservoir triggers, causing you to gain 1 life for each spell you've cast this turn.
+  Repeat.
+Notes: Your starting life total will need to be at least a certain number depending on the mana value of the creature you are sacrificing to perform this combo. This list shows the minimum life total you would need to have, from mana value 1 (left) to 10 (right): 2, 4, 7, 11, 16, 22, 29, 37, 46, 56. You can also cast spells to reduce the needed life to start.
+
 ## Combo 2034-4871-5544-6011
 Cards: Forsaken Miner + Pitiless Plunderer + Scavenger's Talent + Ashnod's Altar
 Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 250 | Commander: legal | Mana needed: {B}

@@ -1,3 +1,42 @@
+## Combo 1482-2866-2921-4986
+Cards: Teshar, Ancestor's Apostle + Scrap Trawler + Jeweled Lotus + Bartolomé del Presidio
+Color identity: WB | Bracket: none (not legal) | Popularity: 0 | Commander: not legal
+Produces: Infinite colored mana that can only be spent to cast your commander; Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Teshar, Ancestor's Apostle (battlefield); Scrap Trawler (graveyard); Jeweled Lotus (hand); Bartolomé del Presidio (battlefield)
+Steps: Cast Jeweled Lotus by paying its mana cost.
+  Teshar triggers, returning Scrap Trawler from your graveyard to the battlefield.
+  Activate Jeweled Lotus by tapping and sacrificing it.
+  Activate Bartolomé del Presidio by sacrificing Scrap Trawler.
+  When Scrap Trawler dies, it triggers, returning Jeweled Lotus from your graveyard to your hand.
+  Resolve the Bartolomé del Presidio ability.
+  Repeat.
+
+## Combo 1482-2866-3967-4986
+Cards: Teshar, Ancestor's Apostle + Scrap Trawler + Jeweled Lotus + Yahenni, Undying Partisan
+Color identity: WB | Bracket: none (not legal) | Popularity: 0 | Commander: not legal
+Produces: Infinite colored mana that can only be spent to cast your commander; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Teshar, Ancestor's Apostle (battlefield); Scrap Trawler (graveyard); Jeweled Lotus (hand); Yahenni, Undying Partisan (battlefield)
+Steps: Cast Jeweled Lotus by paying its mana cost.
+  Teshar triggers, returning Scrap Trawler from your graveyard to the battlefield.
+  Activate Jeweled Lotus by tapping and sacrificing it.
+  Activate Yahenni by sacrificing Scrap Trawler.
+  When Scrap Trawler dies, it triggers, returning Jeweled Lotus from your graveyard to your hand.
+  Resolve the Yahenni ability.
+  Repeat.
+
+## Combo 1482-2866-4247-4986
+Cards: Teshar, Ancestor's Apostle + Scrap Trawler + Jeweled Lotus + Bloodthrone Vampire
+Color identity: WB | Bracket: none (not legal) | Popularity: 0 | Commander: not legal
+Produces: Infinite colored mana that can only be spent to cast your commander; Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Teshar, Ancestor's Apostle (battlefield); Scrap Trawler (graveyard); Jeweled Lotus (hand); Bloodthrone Vampire (battlefield)
+Steps: Cast Jeweled Lotus by paying its mana cost.
+  Teshar triggers, returning Scrap Trawler from your graveyard to the battlefield.
+  Activate Jeweled Lotus by tapping and sacrificing it.
+  Activate Bloodthrone Vampire by sacrificing Scrap Trawler.
+  When Scrap Trawler dies, it triggers, returning Jeweled Lotus from your graveyard to your hand.
+  Resolve the Bloodthrone Vampire ability.
+  Repeat.
+
 ## Combo 1482-2866-4986-5686
 Cards: Teshar, Ancestor's Apostle + Scrap Trawler + Jeweled Lotus + Shilgengar, Sire of Famine
 Color identity: WB | Bracket: none (not legal) | Popularity: 0 | Commander: not legal
@@ -31646,31 +31685,3 @@ Steps: Activate Phyrexian Altar by sacrificing any other creature you control, a
   Syr Vondam triggers, putting a +1/+1 counter on it and causing you to gain 1 life.
   Animation Module triggers, causing you to pay {1} to create a 1/1 Servo artifact creature token.
   Repeat.
-
-## Combo 3490-4050-7080
-Cards: Animation Module + Phyrexian Altar + Sandbender Scavengers
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Animation Module (battlefield); Phyrexian Altar (battlefield); Sandbender Scavengers (battlefield)
-Prerequisites: You control an additional creature.
-Steps: Activate Phyrexian Altar by sacrificing any other creature you control, adding {1}.
-  Sandbender Scavengers triggers, putting a +1/+1 counter on it.
-  Animation Module triggers, causing you to pay {1} to create a 1/1 Servo artifact creature token.
-  Repeat.
-
-## Combo 3490-4210-4659-6283
-Cards: Amalia Benavides Aguirre + Animation Module + Krark-Clan Ironworks + Pious Evangel // Wayward Disciple
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
-Produces: Infinite colorless mana; Infinite lifegain; Infinite creature tokens; Infinite lifeloss; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Destroy all creatures opponents control
-Start: Amalia Benavides Aguirre (battlefield); Animation Module (battlefield); Krark-Clan Ironworks (battlefield); Pious Evangel // Wayward Disciple (battlefield)
-Prerequisites: You have a way to gain life.
-  You have a nonland card on top of your library.
-  You have a way to give Pious Evangel // Wayward Disciple indestructible.
-Steps: Gain life.
-  Amalia triggers, revealing the top card of your library and then putting a +1/+1 counter on Amalia, putting the card back on top of your library, and destroying all other creatures if Amalia's power is 20.
-  Animation Module triggers, causing you to pay {1} to create a 1/1 Servo artifact creature token.
-  When the Servo enters the battlefield, Pious Evangel triggers if it's on the battlefield, causing you to gain 1 life. If you gained life this way, Amalia will trigger.
-  Holding priority, activate Krark-Clan Ironworks by sacrificing the Servo, adding {C}{C}.
-  When the Servo dies, Wayward Disciple triggers if it's on the battlefield, causing you to gain 1 life and target opponent to lose 1 life. If you gained life this way, Amalia will trigger.
-  Resolve the Amalia trigger, revealing the top card of your library and then putting a +1/+1 counter on Amalia, putting the card back on top of your library, and destroying all other creatures if Amalia's power is 20.
-  Repeat from step 3.
