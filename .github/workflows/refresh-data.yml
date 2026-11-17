@@ -46,11 +46,18 @@ jobs:
       - name: Rebuild the card data
         if: steps.check.outputs.changed == 'true'
         run: |
+          # build_site.py refuses data that looks incomplete; then the previous card data and rules stay
+          cp rules_CR.txt /tmp/rules_CR.prev
           cp /tmp/mse/data/MagicCompRules.txt rules_CR.txt
-          python3 tools/build_site.py /tmp/mse
-          rm -rf cards_lean cards_with_rulings
-          python3 tools/build_cards.py /tmp/mse cards_lean lean
-          python3 tools/build_cards.py /tmp/mse cards_with_rulings
+          if python3 tools/build_site.py /tmp/mse; then
+            rm -rf cards_lean cards_with_rulings
+            python3 tools/build_cards.py /tmp/mse cards_lean lean
+            python3 tools/build_cards.py /tmp/mse cards_with_rulings
+            touch /tmp/cards-built
+          else
+            cp /tmp/rules_CR.prev rules_CR.txt
+            echo "Card data rebuild failed; keeping the previous card data."
+          fi
 
       - name: Refresh combos from Commander Spellbook
         run: |
@@ -97,7 +104,7 @@ jobs:
             echo "Nothing the app uses changed. Not publishing."
             exit 0
           fi
-          if [ "${{ steps.check.outputs.changed }}" = "true" ]; then
+          if [ "${{ steps.check.outputs.changed }}" = "true" ] && [ -f /tmp/cards-built ]; then
             cp /tmp/source.txt docs/data/source.txt
             cp /tmp/source-date.txt docs/data/source-date.txt
           fi

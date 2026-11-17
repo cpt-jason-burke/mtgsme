@@ -379,11 +379,11 @@
     h += '<div class="panel item"><h3 style="margin:0">' + esc(c.n) + " " + (c.m ? mana(c.m) : "") + "</h3>" + flags(c) +
       '<div class="d">' + esc(c.t) + (c.pt ? " · " + esc(c.pt) : "") + (c.ly ? " · loyalty/defense " + esc(c.ly) : "") + " · identity " + (mana([...c.ci].map((x) => "{" + x + "}").join("")) || "colorless") + (c.f ? " · " + esc(c.f.join(" // ")) : "") + "</div>" +
       '<div class="oracle">' + linkRules(mana(c.o)) + "</div></div>";
-    const inDeck = state.deck && (state.deck.cards.find((x) => x.n === c.n) || state.deck.commanders.includes(c.n));
+    const inDeck = state.deck && (state.deck.cards.find((x) => x.n === c.n) || state.deck.commanders.includes(c.n) || (state.deck.companions || []).includes(c.n));
     h += '<div class="chips"><button class="btn primary small" data-act="interact" data-name="' + esc(c.n) + '">Add to Interact</button>' +
       '<button class="btn small" data-act="deck-add" data-name="' + esc(c.n) + '">' + (inDeck ? "+1 in deck" : "Add to deck") + "</button>" +
       (inDeck ? '<button class="btn small" data-act="deck-sub" data-name="' + esc(c.n) + '">Remove one</button>' : "") +
-      (/Legendary/.test(c.t) && /Creature|Planeswalker/.test(c.t) || /can be your commander/i.test(c.o) ? '<button class="btn small" data-act="deck-cmd" data-name="' + esc(c.n) + '">Make commander</button>' : "") + "</div>";
+      (MTGDeck.canBeCommander(c) || MTGDeck.isBackground(c) ? '<button class="btn small" data-act="deck-cmd" data-name="' + esc(c.n) + '">Make commander</button>' : "") + "</div>";
     if (c.k && c.k.length) h += '<section class="block"><h2>Keywords, from the rules</h2><div class="chips" style="flex-wrap:wrap">' + c.k.map((k) => {
       const n = CR.kw[k.toLowerCase()];
       return n ? '<button class="chip rule" data-rule="' + n + '">' + esc(k) + " → CR " + n + "</button>" : '<span class="chip">' + esc(k) + "</span>";
@@ -858,6 +858,7 @@
     if (!state.deck) state.deck = { commanders: [], cards: [] };
     const dk = state.deck;
     if (d < 0 && dk.commanders.includes(name)) dk.commanders = dk.commanders.filter((n) => n !== name);
+    else if (d < 0 && (dk.companions || []).includes(name)) dk.companions = dk.companions.filter((n) => n !== name);
     else {
       const x = dk.cards.find((y) => y.n === name);
       if (x) { x.q += d; if (x.q <= 0) dk.cards = dk.cards.filter((y) => y !== x); } else if (d > 0) dk.cards.push({ n: name, q: d });
@@ -868,20 +869,20 @@
     if (!state.deck) state.deck = { commanders: [], cards: [] };
     const dk = state.deck;
     dk.cards = dk.cards.filter((x) => x.n !== name);
-    if (!dk.commanders.includes(name)) dk.commanders = dk.commanders.length && /partner|background|friends forever/i.test((card(name) || {}).o || "") ? dk.commanders.concat(name).slice(-2) : [name];
+    // a second commander joins only when the two can pair (partner, Background, Doctor's companion); otherwise it replaces
+    const mate = dk.commanders.slice().reverse().find((n) => MTGDeck.canPair(card(n), card(name)));
+    if (!dk.commanders.includes(name)) dk.commanders = !mate ? [name] : MTGDeck.isBackground(card(mate)) ? [name, mate] : [mate, name];
     saveDeck();
   }
   function doImport() {
     const text = $("#deckText").value;
     if (!text.trim()) return;
-    const parsed = MTGDeck.parse(text, card);
-    if (!parsed.commanders.length) {
-      const leg = parsed.cards.find((x) => { const c = card(x.n); return c && /Legendary/.test(c.t) && /Creature/.test(c.t); });
-      if (leg && parsed.cards.length > 90) { parsed.commanders.push(leg.n); parsed.cards = parsed.cards.filter((x) => x !== leg); parsed.guessed = leg.n; }
-    }
+    const parsed = MTGDeck.fillCommanders(MTGDeck.parse(text, card), card);
     state.deck = { commanders: parsed.commanders, cards: parsed.cards };
+    if (parsed.companions.length) state.deck.companions = parsed.companions;
     state.importNote = (parsed.unknown.length ? "Not found (" + parsed.unknown.length + "): " + parsed.unknown.slice(0, 8).join("; ") + (parsed.unknown.length > 8 ? "…" : "") + ". " : "") +
       (parsed.guessed ? "No commander was marked, so I picked " + parsed.guessed + ". Open any legendary creature and tap Make commander to change it. " : "") +
+      (parsed.companions.length ? "Companion: " + parsed.companions.join(", ") + " (not one of the 100). " : "") +
       (parsed.skipped ? parsed.skipped + " sideboard or maybeboard cards were skipped." : "");
     saveDeck();
   }
@@ -908,6 +909,7 @@
       '<div class="panel stat"><b>' + chk.avg + '</b><span>avg mana value</span></div><div class="panel stat"><b>' + chk.gameChangers.length + "</b><span>Game Changers</span></div></div>";
     const warn = [];
     if (state.importNote) warn.push(esc(state.importNote));
+    for (const x of chk.commanderIssues.concat(chk.companionIssues)) warn.push(esc(x.text) + ' <a class="rl" data-rule="' + x.rule + '">' + x.rule + "</a>");
     if (chk.offColor.length) warn.push("Outside your commander's colors: " + chk.offColor.map(esc).join(", ") + ' <a class="rl" data-rule="903.5c">903.5c</a>');
     if (chk.duplicates.length) warn.push("More than one copy: " + chk.duplicates.map(esc).join(", ") + ' <a class="rl" data-rule="903.5b">903.5b</a>');
     if (chk.banned.length) warn.push("Banned in Commander: " + chk.banned.map(esc).join(", "));

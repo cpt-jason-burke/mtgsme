@@ -157,6 +157,8 @@
     const rulings = opts.rulings || null;
     const has = (n) => !!(CR.rules && CR.rules[n]);
     const cite = (n) => (has(n) ? n : null);
+    // Rules that get renumbered between updates are found by their wording instead of a fixed number.
+    const find = (phrase) => { for (const n in CR.rules || {}) if ((CR.rules[n].t || "").includes(phrase)) return n; return null; };
     const analyzed = cards.map(analyzeCard);
     const result = { cards: analyzed, keywords: [], connections: [], replacements: [], loops: [], layers: [], gotchas: [], rulingLinks: [], colorIdentity: "" };
     const label = (a) => a.card.n;
@@ -224,7 +226,7 @@
             if (loopSeen.has(ids)) continue; loopSeen.add(ids);
             const optional = path.some((p) => p.ab.optional);
             result.loops.push({ chain: path.map((p) => label(p.a) + ": " + p.ab.text), optional,
-              cites: [cite("732.1b"), optional ? cite("732.5") : cite("732.4"), optional ? null : cite("104.4b")].filter(Boolean) });
+              cites: [find("could be repeated indefinitely"), optional ? find("forced to perform an action that would end a loop") : find("If a loop contains only mandatory actions"), optional ? null : cite("104.4b")].filter(Boolean) });
           } else if (path.length < 3 && !path.some((p) => p.id === nxt.id)) walk(nxt, path.concat(nxt));
         }
       };
@@ -296,7 +298,7 @@
     { re: /\bwhenever you attack\b/i, said: true, title: () => "Says “whenever you attack”", detail: () => "Triggers once per combat when you attack with any number of creatures, not once per attacker." },
     { re: /\bonto the battlefield tapped\b|\benters? tapped\b/i, said: true, title: () => "Enters tapped", detail: () => "Permanents normally enter untapped; this text overrides that.", cite: "110.5b" },
     { re: /\binstead\b/i, said: true, title: () => "Says “instead”", detail: () => "This is a replacement effect: the original event never happens and nothing uses the stack.", cite: "614.1a" },
-    { re: /\b(?:when|whenever|at)\b/i, unless: /\bmay\b/i, said: false, title: () => "No “may”", detail: () => "Its triggered ability is mandatory: it happens even if you would rather it did not.", cite: "603.5" },
+    { re: /^(?:[A-Za-z' ]+ — )?(?:when|whenever|at)\b(?:(?!\bmay\b).)*$/im, said: false, title: () => "No “may”", detail: () => "A triggered ability without “may” is mandatory: it happens even if you would rather it did not.", cite: "603.5" },
     { re: /\bmay\b/i, said: true, title: () => "Says “may”", detail: () => "Optional: you decide as it resolves.", cite: "603.5" },
     { re: /\bX\b/, said: true, when: (m, c) => /\{x\}/i.test(c.m || ""), title: () => "Uses X", detail: () => "X is chosen as you cast or activate it. Anywhere else, such as a mana value check in another zone, X is 0.", cite: "107.3" },
   ];

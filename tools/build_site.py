@@ -1,16 +1,23 @@
 """Build the data files for the MTGSME web app (docs/data/*.json).
 
-usage: python3 tools/build_site.py <magic-search-engine checkout> [cr_text_file]
+usage: python3 tools/build_site.py <magic-search-engine checkout> [cr_text_file] [--force]
 The checkout needs index/cards.jsonl, index/rulings.jsonl, index/banlist_history.json,
 index/sets.json and index/deck_index.json.
+Nothing is written until every file is built, and nothing is replaced if the new data looks incomplete
+(5% fewer cards, rulings, rules, sets or precons than last time); --force accepts it anyway.
 """
 import json, os, re, sys
 from collections import defaultdict
 
-src = sys.argv[1]
-cr_path = sys.argv[2] if len(sys.argv) > 2 else os.path.join(os.path.dirname(__file__), "..", "rules_CR.txt")
+args = [a for a in sys.argv[1:] if a != "--force"]
+force = len(args) < len(sys.argv) - 1
+src = args[0]
+cr_path = args[1] if len(args) > 1 else os.path.join(os.path.dirname(__file__), "..", "rules_CR.txt")
 out = os.path.join(os.path.dirname(__file__), "..", "docs", "data")
 os.makedirs(out, exist_ok=True)
+pending = []
+def save(name, obj):
+    pending.append((name, obj))
 
 SPECIAL = {"Plane", "Phenomenon", "Scheme", "Vanguard", "Conspiracy", "Dungeon", "Hero", "Contraption", "Attraction", "Sticker", "Stickers"}
 
@@ -46,7 +53,7 @@ for l in open(f"{src}/index/cards.jsonl"):
     cards.append(c)
     names.add(name)
 cards.sort(key=lambda c: c["n"].lower())
-json.dump(cards, open(f"{out}/cards.json", "w"), ensure_ascii=False, separators=(",", ":"))
+save("cards", cards)
 
 # ---- rulings (deduplicated text table) ----------------------------------
 texts, tindex, by = [], {}, defaultdict(list)
@@ -56,7 +63,7 @@ for l in open(f"{src}/index/rulings.jsonl"):
         tindex[text] = len(texts); texts.append(text)
     for n in ns:
         if n in names: by[n].append([date, tindex[text]])
-json.dump({"texts": texts, "by": by}, open(f"{out}/rulings.json", "w"), ensure_ascii=False, separators=(",", ":"))
+save("rulings", {"texts": texts, "by": by})
 
 # ---- comprehensive rules -------------------------------------------------
 lines = [x.replace("\xa0", " ").strip() for x in open(cr_path, encoding="utf-8").read().split("\n")]
@@ -91,9 +98,8 @@ kw = {}
 for num, r in rules.items():
     if re.fullmatch(r"70[12]\.\d+", num):
         kw[r["t"].lower()] = num
-json.dump({"rules": rules, "order": order, "glossary": glossary, "kw": kw,
-           "effective": next((re.search(r"effective as of (.+?)\.", x).group(1) for x in lines[:10] if "effective as of" in x), "")},
-          open(f"{out}/cr.json", "w"), ensure_ascii=False, separators=(",", ":"))
+save("cr", {"rules": rules, "order": order, "glossary": glossary, "kw": kw,
+           "effective": next((re.search(r"effective as of (.+?)\.", x).group(1) for x in lines[:10] if "effective as of" in x), "")})
 
 # ---- sets timeline, cards per set, and precon decklists -------------------------
 index = {c["n"]: i for i, c in enumerate(cards)}
@@ -145,9 +151,9 @@ for e in sets_out:  # an expansion released alongside Commander decks gets a bad
         cm = [x["c"] for x in sets_out if x["k"] == "commander" and not x.get("h") and days(x["d"], e["d"]) <= 10]
         if cm: e["cm"] = cm[0]
 sets_out.sort(key=lambda e: (e["d"], e["n"]), reverse=True)
-json.dump(sets_out, open(f"{out}/sets.json", "w"), ensure_ascii=False, separators=(",", ":"))
+save("sets", sets_out)
 # "n" records how many cards the indexes point into, so the app can tell when files are out of step
-json.dump({"n": len(cards), "s": by_set}, open(f"{out}/setcards.json", "w"), ensure_ascii=False, separators=(",", ":"))
+save("setcards", {"n": len(cards), "s": by_set})
 
 precons = []
 for d in json.load(open(f"{src}/index/deck_index.json")):
@@ -165,7 +171,26 @@ for d in json.load(open(f"{src}/index/deck_index.json")):
     if secs:
         precons.append({"n": d["name"], "y": "cmd" if d["type"] == "Commander Deck" else "sld", "s": d["set_code"], "sn": d["set_name"], "d": d["release_date"], **secs})
 precons.sort(key=lambda p: p["d"], reverse=True)
-json.dump({"n": len(cards), "d": precons}, open(f"{out}/precons.json", "w"), ensure_ascii=False, separators=(",", ":"))
+save("precons", {"n": len(cards), "d": precons})
+
+# ---- check, then write everything -------------------------------------------
+def last(name, key=None):
+    try:
+        d = json.load(open(f"{out}/{name}.json"))
+        return len(d[key] if key else d)
+    except (OSError, ValueError, KeyError, TypeError):
+        return 0
+counts = [("cards", len(cards), last("cards")), ("rulings", len(texts), last("rulings", "texts")), ("rules", len(rules), last("cr", "rules")),
+          ("sets", len(sets_out), last("sets")), ("precons", len(precons), last("precons", "d"))]
+short = [f"{n} {new} (last time {old})" for n, new, old in counts if not new or new < old * 0.95]
+if not {"100.1", "903.5a"} <= set(rules): short.append("the Comprehensive Rules are missing rule 100.1 or 903.5a")
+if short and not force:
+    sys.exit("The new data looks incomplete: " + "; ".join(short) + ". Nothing was replaced. Use --force to accept it.")
+for name, obj in pending:
+    with open(f"{out}/{name}.json.tmp", "w") as f:
+        json.dump(obj, f, ensure_ascii=False, separators=(",", ":"))
+for name, _ in pending:
+    os.replace(f"{out}/{name}.json.tmp", f"{out}/{name}.json")
 print(len(sets_out), "sets;", sum(len(v) for v in by_set.values()), "printings;", len(precons), "precons")
 
 for f in ("cards", "rulings", "cr", "sets", "setcards", "precons"):

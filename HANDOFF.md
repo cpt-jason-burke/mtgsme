@@ -59,6 +59,13 @@ Everything below is live on `main`. The site is https://cpt-jason-burke.github.i
   - News is fetched on every run; card data is rebuilt only when mtg.wtf changes.
   - Combos rebuild on the first run of each UTC day, and on a manual run or a push to `tools/`.
   - It commits only when something changed, as `github-actions[bot]`.
+- **Logic check (2026-11-17):** a correctness pass over the rules and deck logic.
+  - `docs/deck.js` now checks the commander choice (rule 903.3: legendary creature, Vehicle, Spacecraft with P/T, "can be your commander", Grist-style cards) and two-commander pairs (702.124: partner, partner—[text], partner with, Background, Doctor's companion); `canBeCommander`, `canPair`.
+  - Companions (a "Companion" heading) stay outside the 100, with their own checks (banned as companion, colors, same name; 702.139a, 903.11a). Export keeps them.
+  - Copy limits: "up to seven/nine" caps are enforced, and a commander also listed in the deck counts as a second copy. A back face or second half (Ice, Ormendahl) is read as its card.
+  - An unmarked commander is guessed from a 1–2 card MTGO sideboard or a last block after a blank line, then the first legendary creature. The old guess counted lines, not cards, so lists with "35 Forest" got no guess. `tools/combos.js deck` guesses the same way.
+  - `docs/engine.js` cited loop rules as 732.x; the current rules number them 733.x, so the cites silently vanished. It now finds them by their wording. "No may" no longer fires on "at random".
+  - `tools/build_site.py` builds everything before writing and refuses data 5% smaller than last time (or rules missing 100.1/903.5a); the workflow then keeps the old card data and rules and retries next run.
 - Two old branches, `add-combo-checker` and `combos-on-main`, are merged or obsolete. The last session couldn't delete them; the user can, in the GitHub app.
 
 ## 4. Environment and tools
@@ -375,6 +382,8 @@ const { chromium } = require('playwright');
 - The news job currently reads Reddit from GitHub's runners, but Reddit sometimes refuses cloud servers. `tools/fetch_news.py` falls back to RSS.
 - Some TCGCSV products have no price rows.
 - Headliner coverage depends on how Scryfall tags cards.
+- mtg.wtf lists 2× Mossfire Valley in the Upgrades Unleashed precon (NEC), so the deck check flags it. Source data, not the checker.
+- A split card's mana value in the deck curve uses the half that was looked up (Fire counts as 2, not 4).
 - Repo size: the combo text files change a little every day. If history grows too fast, refresh the combos weekly instead.
 
 ## Status

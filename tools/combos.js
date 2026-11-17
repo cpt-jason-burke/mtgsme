@@ -61,14 +61,14 @@ if (mode === "with") {
   console.log("\nKnown combos using " + names.join(" + ") + ": " + num(r.count) + (r.count > r.combos.length ? " (showing the " + r.combos.length + " most popular)" : ""));
   r.combos.forEach((c, i) => console.log("\n" + (i + 1) + ". " + show(c, full, "   ").trimStart()));
 } else {
-  const deck = MTGDeck.parse(fs.readFileSync(args[0], "utf8"), card);
+  const deck = MTGDeck.fillCommanders(MTGDeck.parse(fs.readFileSync(args[0], "utf8"), card), card);
   const chk = MTGDeck.check(deck, card);
   // without a marked commander, suggestions stay inside the colors the list already uses
   const identity = deck.commanders.length ? chk.identity : [...new Set(deck.cards.flatMap((x) => [...card(x.n).ci]))].join("");
   const r = MTGCombos.check(ix, deck, { identity, limit });
   const ids = r.have.map((c) => c.id).concat(r.near.flatMap((g) => g.combos.map((c) => c.id)));
   const full = steps ? entries(ids) : null;
-  console.log("Deck: " + chk.total + " cards · " + (deck.commanders.length ? "commander " + deck.commanders.join(" + ") : "no commander marked") + " · colors " + (identity || "colorless"));
+  console.log("Deck: " + chk.total + " cards · " + (deck.commanders.length ? "commander " + deck.commanders.join(" + ") + (deck.guessed ? " (guessed; none was marked)" : "") : "no commander marked") + " · colors " + (identity || "colorless"));
   if (deck.unknown.length) console.log("Not found (check spelling): " + deck.unknown.join("; "));
   console.log("\nCombos in this deck: " + r.have.length);
   r.have.forEach((c, i) => console.log("\n" + (i + 1) + ". " + show(c, full, "   ").trimStart()));
