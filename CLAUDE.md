@@ -39,7 +39,7 @@ You can run the same first-pass analysis the web app uses: `docs/engine.js` expo
 For a pasted Moxfield or Archidekt list: check color identity and singleton legality against the data, list its known combos (`node tools/combos.js deck`), evaluate against the user's stated plan, and name specific cuts and adds with reasons.
 
 ## Work in progress
-`HANDOFF.md` holds the plan, the user's decisions and verified facts for the next features (headliner section and tracker, Star Trek animations, Top 25 per set, sealed price comparison). Read it before continuing that work; it isn't needed for rules questions.
+`HANDOFF.md` holds the plan, the user's decisions and verified facts for the work still to do (local shop prices, the comm badge cinematic) and notes on what is already built (combos, headliners, transporter console, most valuable cards, sealed prices). Read it before continuing that work; it isn't needed for rules questions.
 
 ## Headliner finds
 When the user sends a link to a pull, sale or listing of a headliner card (`docs/data/headliners.json`), check what it shows, get the user's OK, then add it to `docs/data/headliner-finds.json` (hand-maintained; its `about` field gives the format), commit to `main` and push. Add nothing the user hasn't approved. No bot reads Reddit for finds (the user's choice).
