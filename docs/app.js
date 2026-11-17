@@ -160,7 +160,8 @@
   function readNav() { try { return JSON.parse(sessionStorage.getItem("nav") || "null"); } catch (e) { return null; } }
   function saveNav() {
     if (!CR) return;
-    const ser = (v) => (v.type === "card" ? { type: "card", n: v.card.n } : { type: v.type, rule: v.rule, code: v.code, i: v.i, year: v.year, view: v.view, sort: v.sort, key: v.key });
+    const ser = (v) => (v.type === "card" ? { type: "card", n: v.card.n } : v.type === "precons" ? { type: "precons", q: v.q, set: v.set, year: v.year, sort: v.sort, ci: v.ci }
+      : v.type === "upgrade" ? { type: "upgrade", manual: v.manual || {} } : { type: v.type, rule: v.rule, code: v.code, i: v.i, year: v.year, view: v.view, sort: v.sort, key: v.key });
     try {
       sessionStorage.setItem("nav", JSON.stringify({ tab: curTab, q: $("#q").value, ci: [...state.ci], type: state.type, legal: state.legal, gc: state.gc, kw: state.kw || "", theme: state.theme || "",
         sheets: stack.filter((v) => v.type !== "settings").map(ser) }));
@@ -178,7 +179,7 @@
     state.theme = n.theme || ""; $("#themesel").value = state.theme;
     renderResults();
     for (const sv of n.sheets || []) {
-      if (["set", "deck", "sld"].includes(sv.type)) await ensureSets();
+      if (["set", "deck", "sld", "precons"].includes(sv.type)) await ensureSets();
       if (["headliners", "headliner"].includes(sv.type)) await ensureHL();
       if (sv.type === "sealed") await ensureSealed().catch(() => {});
       const v = sv.type === "card" ? (card(sv.n) ? { type: "card", card: card(sv.n) } : null) : sv;
@@ -209,6 +210,8 @@
     headliners: [() => "Headliners", hlView],
     sealed: [() => "Sealed deals", sealedView],
     headliner: [(v) => (hlCard(v.key) || {}).name || "Headliner", hlCardView],
+    precons: [() => "Load a precon", preconsView],
+    upgrade: [() => "Upgrade printings", upgradeView],
   };
   function drawSheet() {
     const v = stack[stack.length - 1];
@@ -232,6 +235,8 @@
     if (v.type === "deck") deckValue(v);
     if (v.type === "set" || v.type === "deck") renderTop25(v);
     if (v.type === "set") renderSealed(v);
+    if (v.type === "precons") { renderPreconList(v); ensurePP().then(() => { if (stack[stack.length - 1] === v) renderPreconList(v); }); }
+    if (v.type === "upgrade") ensureUpgrade(v);
     saveNav();
   }
   // Drag the top bar down to go back one level.
@@ -280,6 +285,17 @@
       if (act === "copydeck") return copyPrecon(v.i);
       if (act === "t25all") { v.t25all = true; return renderTop25(v); }
       if (act === "slall") { v.slall = true; return v.type === "sealed" ? drawSheet() : renderSealed(v); }
+      if (act === "pcci") { const c = a.dataset.v; v.ci = v.ci.includes(c) ? v.ci.replace(c, "") : c === "C" ? "C" : v.ci.replace("C", "") + c; return drawSheet(); }
+      if (act === "pcload") return copyPrecon(+a.dataset.i);
+      if (act === "pcview") return openSheet({ type: "deck", i: +a.dataset.i });
+      if (act === "usep") return usePrinting(v, a.dataset.p, a.dataset.f);
+      if (act === "ringall") { v.ringAll = true; return renderRing(v, printCache.get(v.card.n) || []); }
+      if (act === "upmode") { UPS.mode = a.dataset.v; store.set("upgrade", UPS); return drawSheet(); }
+      if (act === "uptype") { const k = a.dataset.v; UPS.types = UPS.types.includes(k) ? UPS.types.filter((x) => x !== k) : UPS.types.concat(k); store.set("upgrade", UPS); return drawSheet(); }
+      if (act === "updir") { UPS.dir = a.dataset.v; store.set("upgrade", UPS); return drawSheet(); }
+      if (act === "upall") { UPS.all = !UPS.all; store.set("upgrade", UPS); return drawSheet(); }
+      if (act === "upreset") { v.manual = {}; return drawSheet(); }
+      if (act === "upapply") return applyUpgrade(v);
     }
     const dk = t.closest("[data-deck]"); if (dk) return openSheet({ type: "deck", i: +dk.dataset.deck });
     const hc = t.closest("[data-hlcard]"); if (hc) return openSheet({ type: "headliner", key: hc.dataset.hlcard });
@@ -291,6 +307,12 @@
     const t = e.target, v = stack[stack.length - 1];
     if (t.dataset.act === "psort") { v.psort = t.value; renderPrintings(v, printCache.get(v.card.n) || []); }
     if (t.dataset.act === "ssort") { v.sort = t.value; drawSheet(); }
+    if (/^pc(set|year|sort)$/.test(t.dataset.act)) { v[t.dataset.act.slice(2)] = t.value; drawSheet(); }
+  });
+  let pcTimer;
+  $("#sheet-root").addEventListener("input", (e) => {
+    const v = stack[stack.length - 1];
+    if (e.target.id === "pcq" && v && v.type === "precons") { v.q = e.target.value; clearTimeout(pcTimer); pcTimer = setTimeout(() => renderPreconList(v), 150); }
   });
   $("#settingsBtn").addEventListener("click", () => openSheet({ type: "settings" }));
 
@@ -309,7 +331,7 @@
       try { list = await Scry.printings(v.card.n); printCache.set(v.card.n, list); }
       catch (e) { const el = $("#prints"); if (el && stack[stack.length - 1] === v) el.innerHTML = '<div class="d">Could not load printings: ' + esc(e.message || e) + "</div>"; return; }
     }
-    if (stack[stack.length - 1] === v) { renderTopSwipe(v, list); renderPrintings(v, list); }
+    if (stack[stack.length - 1] === v) { if (useRing(list)) renderRing(v, list); else renderTopSwipe(v, list); renderPrintings(v, list); }
   }
   // Swipe the big picture to see every printing, with its set and prices underneath.
   function renderTopSwipe(v, list) {
@@ -331,6 +353,53 @@
     el.addEventListener("scroll", () => requestAnimationFrame(update), { passive: true });
     update();
   }
+  // The 3D ring of printings; with Reduce Motion, or one or two printings, the flat swipe stays.
+  const useRing = (list) => window.Ring && list.filter((p) => p.img).length >= 3 && !matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const pkey = (p) => (p.set + "/" + p.num).toLowerCase();
+  function inDeck(n) { const dk = state.deck; return !!dk && (dk.commanders.includes(n) || dk.cards.some((x) => x.n === n) || (dk.companions || []).includes(n)); }
+  function renderRing(v, list) {
+    const host = $("#pswipe"); if (!host) return;
+    let shown = list.filter((p) => p.img);
+    const total = shown.length;
+    // the printing the deck holds (or the upgrade picked) goes in front
+    const under = stack[stack.length - 2], fromUp = under && under.type === "upgrade";
+    const cur = fromUp ? upChoice(under, v.card.n) : deckPrint(v.card.n);
+    let start = cur ? shown.findIndex((p) => pkey(p) === cur.p.toLowerCase()) : 0;
+    if (!v.ringAll && total > 24) { const keep = start >= 24 ? shown[start] : null; shown = shown.slice(0, keep ? 23 : 24).concat(keep ? [keep] : []); if (keep) start = 23; }
+    v.ring = shown;
+    host.className = "pring";
+    Ring.mount(host, shown.map((p) => ({ img: p.img.normal, thumb: p.img.small, label: p.setName + " #" + p.num })), {
+      start: Math.max(0, start),
+      onFront: (i) => { v.front = i; ringCap(v, total); },
+      onTap: (i) => { const p = shown[i]; lightbox(p.img.large, p.img.normal, v.card.n, p.setName + " \u00B7 #" + p.num); },
+    });
+  }
+  function ringCap(v, total) {
+    const el = $("#pcap"), p = v.ring && v.ring[v.front || 0]; if (!el || !p) return;
+    const under = stack[stack.length - 2], fromUp = under && under.type === "upgrade";
+    const cur = fromUp ? upChoice(under, v.card.n) : deckPrint(v.card.n);
+    const fins = Object.keys(FIN).filter((f) => p.finishes.includes(f));
+    const prices = fins.map((f) => { const x = priceOf(p, f); return x == null ? "" : '<span class="price">' + money(x) + "</span> " + FIN[f][0].toLowerCase(); }).filter(Boolean).join(" · ");
+    let h = "<b>" + esc(p.setName) + "</b> · #" + esc(p.num) + " · " + esc((p.date || "").slice(0, 4)) + " · " + ((v.front || 0) + 1) + " of " + v.ring.length + "<br>" +
+      (p.date > TODAY ? '<span class="price">Upcoming \u00B7 releases ' + esc(shortDate(p.date)) + "</span>" : prices || "no price") +
+      '<br><span style="opacity:.7">' + (v.ring.length > 1 ? "Drag to turn · " : "") + "tap the front card to zoom</span>";
+    if (fromUp || inDeck(v.card.n)) {
+      h += '<div class="chips" style="justify-content:center">' + fins.map((f) => {
+        const on = cur && cur.p.toLowerCase() === pkey(p) && (cur.f || "nonfoil") === f;
+        return '<button class="btn small' + (on ? "" : " primary") + '" data-act="usep" data-p="' + esc(p.set + "/" + p.num) + '" data-f="' + f + '"' + (on ? " disabled>\u2713 " + (fromUp ? "Picked" : "In your deck") : ">Use " + FIN[f][0].toLowerCase()) + "</button>";
+      }).join("") + "</div>";
+    }
+    if (total > v.ring.length) h += '<div class="chips" style="justify-content:center"><button class="btn small" data-act="ringall">Show all ' + total + " printings</button></div>";
+    el.innerHTML = h;
+  }
+  function usePrinting(v, p, f) {
+    const under = stack[stack.length - 2];
+    const val = Object.assign({ p }, f && f !== "nonfoil" ? { f } : {});
+    if (under && under.type === "upgrade") { under.manual = under.manual || {}; under.manual[v.card.n] = val; }
+    else if (state.deck) { state.deck.prints = Object.assign({}, state.deck.prints, { [v.card.n]: val }); saveDeck(); }
+    ringCap(v, (printCache.get(v.card.n) || []).filter((x) => x.img).length);
+  }
+  const deckPrint = (n) => (state.deck && state.deck.prints && state.deck.prints[n]) || null;
   function renderPrintings(v, list) {
     const el = $("#prints"); if (!el) return;
     if (!list.length) { el.innerHTML = '<div class="d">Scryfall has no paper printings for this card.</div>'; return; }
@@ -363,9 +432,10 @@
       for (const en of entries) {
         if (!en.isIntersecting) continue;
         const el = en.target; io.unobserve(el); el.dataset.done = "1";
-        const [set, num] = el.dataset.print.split("/");
+        const i = el.dataset.print.indexOf("/"), set = el.dataset.print.slice(0, i), num = el.dataset.print.slice(i + 1);
         const apply = (img) => { if (img) { el.style.backgroundImage = "url(\"" + img.normal + "\")"; el.classList.add("loaded"); } };
-        Scry.getPrint(set, num, (p) => (p && p.img ? apply(p.img) : Scry.get(el.dataset.card, apply)));
+        if (i < 1) Scry.get(el.dataset.card, apply);
+        else Scry.getPrint(set, num, (p) => (p && p.img ? apply(p.img) : Scry.get(el.dataset.card, apply)));
       }
     }, { root: root.classList.contains("sheet") ? root : null, rootMargin: "300px" });
     els.forEach((el) => io.observe(el));
@@ -822,6 +892,16 @@
   // ---------- decks ----------
   function initDecks() {
     $("#seg").addEventListener("click", (e) => { const b = e.target.closest("[data-pane]"); if (b) { state.pane = b.dataset.pane; showPane(); } });
+    $("#deckbar").addEventListener("click", (e) => {
+      const a = e.target.closest("[data-act]"); if (!a || a.disabled) return;
+      const act = a.dataset.act;
+      if (act === "precons") return openPrecons();
+      if (act === "upgrade") return openSheet({ type: "upgrade", manual: {} });
+      if (act === "export") return doExport(a);
+      if (act === "replace") { state.deck = null; state.importNote = ""; saveDeck(); state.pane = "list"; showPane(); return; }
+      if (act === "clear") { if (confirm("Clear this deck from this device?")) { state.deck = null; state.importNote = ""; saveDeck(); } }
+    });
+    renderDeckBar();
     showPane();
     $("#pane-list").addEventListener("click", (e) => {
       const a = e.target.closest("[data-act]");
@@ -834,8 +914,13 @@
         if (act === "clear") { if (confirm("Clear this deck from this device?")) { state.deck = null; state.importNote = ""; saveDeck(); } return; }
         if (act === "combos") { COMBOS.error = ""; return renderCombos(); }
         if (act === "combos-all") { COMBOS.all = !COMBOS.all; return renderCombos(); }
+        if (act === "dmode") { DV.mode = a.dataset.v; store.set("deckview", DV); return renderDeckCards(); }
       }
       const c = e.target.closest("[data-card]"); if (c) openSheet({ type: "card", card: card(c.dataset.card) });
+    });
+    $("#pane-list").addEventListener("change", (e) => {
+      const k = e.target.dataset.act;
+      if (k === "dgroup" || k === "dsort") { DV[k.slice(1)] = e.target.value; store.set("deckview", DV); renderDeckCards(); if (DV.sort === "price") loadDeckPrices(); }
     });
     let timer;
     $("#dq").addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(renderDeckSearch, 160); });
@@ -853,7 +938,16 @@
     $("#pane-add").classList.toggle("hidden", state.pane !== "add");
     if (state.pane === "add") { renderDeckSearch(); renderSuggest(); }
   }
-  function saveDeck() { store.set("deck", state.deck); state.suggestions = null; renderDeck(); if (state.pane === "add") { renderDeckSearch(); renderSuggest(); } }
+  function saveDeck() { store.set("deck", state.deck); state.suggestions = null; renderDeck(); renderDeckBar(); if (state.pane === "add") { renderDeckSearch(); renderSuggest(); } }
+  // Deck actions sit in the toolbar, so they are always in reach.
+  function renderDeckBar() {
+    const has = !!state.deck && state.deck.cards.length + state.deck.commanders.length > 0;
+    $("#deckbar").innerHTML = '<button class="btn small primary" data-act="precons" aria-label="Load a precon">Precons</button>' +
+      '<button class="btn small" data-act="upgrade"' + (has ? "" : " disabled") + ">Upgrade</button>" +
+      '<button class="btn small" data-act="export"' + (has ? "" : " disabled") + ">Copy list</button>" +
+      '<button class="btn small" data-act="replace" aria-label="Import another deck"' + (state.deck ? "" : " disabled") + ">Import</button>" +
+      '<button class="btn small" data-act="clear" aria-label="Clear deck"' + (state.deck ? "" : " disabled") + ">Clear</button>";
+  }
   function deckAdd(name, d) {
     if (!state.deck) state.deck = { commanders: [], cards: [] };
     const dk = state.deck;
@@ -879,6 +973,7 @@
     if (!text.trim()) return;
     const parsed = MTGDeck.fillCommanders(MTGDeck.parse(text, card), card);
     state.deck = { commanders: parsed.commanders, cards: parsed.cards };
+    if (Object.keys(parsed.prints).length) state.deck.prints = parsed.prints;
     if (parsed.companions.length) state.deck.companions = parsed.companions;
     state.importNote = (parsed.unknown.length ? "Not found (" + parsed.unknown.length + "): " + parsed.unknown.slice(0, 8).join("; ") + (parsed.unknown.length > 8 ? "…" : "") + ". " : "") +
       (parsed.guessed ? "No commander was marked, so I picked " + parsed.guessed + ". Open any legendary creature and tap Make commander to change it. " : "") +
@@ -906,7 +1001,8 @@
     let h = '<div class="panel dhead" style="margin-top:14px">' + (lead ? '<div class="art" style="--cc:' + artColor(lead) + '" data-img="' + esc(lead.n) + '" data-kind="art" data-zoom="' + esc(lead.n) + '"></div>' : '<div class="art" style="--cc:#444"></div>') +
       "<div><h3>" + (cmd.length ? cmd.map((c) => esc(c.n)).join(" + ") : "No commander yet") + '</h3><div class="d">' + (chk.identity ? mana([...chk.identity].map((x) => "{" + x + "}").join("")) + " identity" : "Open a legendary creature and tap Make commander") + "</div></div></div>";
     h += '<div class="stats"><div class="panel stat"><b' + (chk.total !== 100 ? ' style="color:var(--warn)"' : "") + ">" + chk.total + "</b><span>of 100 cards</span></div>" +
-      '<div class="panel stat"><b>' + chk.avg + '</b><span>avg mana value</span></div><div class="panel stat"><b>' + chk.gameChangers.length + "</b><span>Game Changers</span></div></div>";
+      '<div class="panel stat"><b>' + chk.avg + '</b><span>avg mana value</span></div><div class="panel stat"><b>' + chk.gameChangers.length + "</b><span>Game Changers</span></div></div>" +
+      '<div class="d" id="dvalue" style="margin:8px 2px 0;font-size:13px"></div>';
     const warn = [];
     if (state.importNote) warn.push(esc(state.importNote));
     for (const x of chk.commanderIssues.concat(chk.companionIssues)) warn.push(esc(x.text) + ' <a class="rl" data-rule="' + x.rule + '">' + x.rule + "</a>");
@@ -918,23 +1014,256 @@
     const max = Math.max(1, ...chk.curve);
     h += '<section class="block"><h2>Mana curve</h2><div class="panel"><div class="curve">' + chk.curve.map((n) => '<div style="height:' + Math.round((n / max) * 100) + '%"><span>' + (n || "") + "</span></div>").join("") +
       '</div><div class="curvel">' + ["0", "1", "2", "3", "4", "5", "6", "7+"].map((x) => "<span>" + x + "</span>").join("") + "</div></div></section>";
-    h += '<div id="dcombos"></div>';
-    const groups = {};
-    for (const x of dk.cards) { const c = card(x.n); if (!c) continue; const t = MTGDeck.mainType(c.t); (groups[t] = groups[t] || []).push([x, c]); }
-    for (const t of MTGDeck.TYPE_ORDER.concat("Other")) {
-      const g = groups[t]; if (!g) continue;
-      g.sort((a, b) => MTGDeck.manaValue(a[1].m) - MTGDeck.manaValue(b[1].m) || a[1].n.localeCompare(b[1].n));
-      h += '<div class="grp">' + t + " · " + g.reduce((s, [x]) => s + x.q, 0) + "</div>" + g.map(([x, c]) => {
-        const bad = chk.offColor.includes(c.n) || chk.duplicates.includes(c.n) || c.s === "banned";
-        return '<div class="panel row" data-card="' + esc(c.n) + '"' + (bad ? ' style="border-color:rgba(224,162,74,.45)"' : "") + '><div class="thumb" style="--cc:' + artColor(c) + '" data-img="' + esc(c.n) + '" data-kind="art" data-zoom="' + esc(c.n) + '"></div><div class="body"><h4>' + (x.q > 1 ? '<span class="qty">' + x.q + "×</span>" : "") + esc(c.n) + " " + (c.m ? mana(c.m) : "") + flags(c) + '</h4><div class="ty">' + esc(c.t) + "</div></div></div>";
-      }).join("");
-    }
-    if (!dk.cards.length) h += '<div class="empty">Empty deck. Switch to <b>Add cards</b> to search, or open any card and tap Add to deck.</div>';
-    h += '<div class="chips" style="flex-wrap:wrap;margin-top:16px"><button class="btn small" data-act="export">Copy list</button><button class="btn small" data-act="replace">Import another</button><button class="btn small" data-act="clear">Clear deck</button></div>';
+    h += '<div id="dcombos"></div><div id="dcards"></div>';
     el.innerHTML = h;
     hydrate(el);
+    renderDeckCards(chk);
     renderCombos();
+    loadDeckPrices();
   }
+  // ---------- deck views: pictures grouped by type (like Moxfield), rows or text; group and sort are remembered ----------
+  const DV = Object.assign({ mode: "grid", group: "type", sort: "name" }, store.get("deckview", {}));
+  const COLOR_NAME = { W: "White", U: "Blue", B: "Black", R: "Red", G: "Green" };
+  const PLURAL = { Creature: "Creatures", Planeswalker: "Planeswalkers", Battle: "Battles", Instant: "Instants", Sorcery: "Sorceries", Artifact: "Artifacts", Enchantment: "Enchantments", Land: "Lands" };
+  function groupKey(c) {
+    const mv = MTGDeck.manaValue(c.m), land = MTGDeck.mainType(c.t) === "Land";
+    if (DV.group === "type") { const t = MTGDeck.mainType(c.t), i = MTGDeck.TYPE_ORDER.indexOf(t); return [i < 0 ? 99 : i, PLURAL[t] || t]; }
+    if (DV.group === "mv") return land ? [99, "Lands"] : [Math.min(mv, 7), "Mana value " + (mv >= 7 ? "7+" : mv)];
+    if (DV.group === "color") return c.ci.length > 1 ? [5, "Multicolor"] : c.ci ? ["WUBRG".indexOf(c.ci), COLOR_NAME[c.ci]] : [6, "Colorless"];
+    return [0, "Cards"];
+  }
+  function renderDeckCards(chk) {
+    const box = $("#dcards"), dk = state.deck; if (!box || !dk) return;
+    chk = chk || MTGDeck.check(dk, card);
+    const ctl = '<div class="pctl dctl"><button class="chip' + (DV.mode === "grid" ? " on" : "") + '" data-act="dmode" data-v="grid">Grid</button><button class="chip' + (DV.mode === "rows" ? " on" : "") + '" data-act="dmode" data-v="rows">Rows</button><button class="chip' + (DV.mode === "text" ? " on" : "") + '" data-act="dmode" data-v="text">Text</button>' +
+      '<select class="sel" data-act="dgroup" aria-label="Group by">' + [["type", "By type"], ["mv", "By mana value"], ["color", "By color"], ["none", "No groups"]].map(([k, l]) => '<option value="' + k + '"' + (DV.group === k ? " selected" : "") + ">" + l + "</option>").join("") + "</select>" +
+      '<select class="sel" data-act="dsort" aria-label="Sort by">' + [["name", "Name"], ["mv", "Mana value"], ["price", "Price"]].map(([k, l]) => '<option value="' + k + '"' + (DV.sort === k ? " selected" : "") + ">" + l + "</option>").join("") + "</select></div>";
+    const price = (n) => (DP.map.has(n) ? DP.map.get(n) : null);
+    const sorter = { name: (a, b) => a.c.n.localeCompare(b.c.n), mv: (a, b) => MTGDeck.manaValue(a.c.m) - MTGDeck.manaValue(b.c.m) || a.c.n.localeCompare(b.c.n),
+      price: (a, b) => (price(b.c.n) ?? -1) - (price(a.c.n) ?? -1) || a.c.n.localeCompare(b.c.n) }[DV.sort] || ((a, b) => a.c.n.localeCompare(b.c.n));
+    const groups = new Map();
+    const add = (key, x) => { if (!groups.has(key[1])) groups.set(key[1], { o: key[0], rows: [] }); groups.get(key[1]).rows.push(x); };
+    const cmd = dk.commanders.map((n) => ({ n, q: 1, c: card(n) })).filter((x) => x.c);
+    cmd.forEach((x) => add([-1, cmd.length > 1 ? "Commanders" : "Commander"], x));
+    for (const x of dk.cards) { const c = card(x.n); if (c) add(groupKey(c), { n: x.n, q: x.q, c }); }
+    const bad = (c) => chk.offColor.includes(c.n) || chk.duplicates.includes(c.n) || c.s === "banned";
+    const pr = (n) => { const p = (dk.prints || {})[n]; return p && p.p ? p.p : ""; };
+    const tile = (x) => '<div class="ctile dtile' + (bad(x.c) ? " bad" : "") + '" data-card="' + esc(x.n) + '" data-print="' + esc(pr(x.n)) + '">' + (x.q > 1 ? '<b class="q">' + x.q + "×</b>" : "") + (price(x.n) != null ? '<i class="pr">' + money(price(x.n)) + "</i>" : "") + "<span>" + esc(x.n) + "</span></div>";
+    const row = (x) => '<div class="panel row" data-card="' + esc(x.n) + '"' + (bad(x.c) ? ' style="border-color:rgba(224,162,74,.45)"' : "") + '><div class="thumb" style="--cc:' + artColor(x.c) + '" data-img="' + esc(x.n) + '" data-kind="art" data-zoom="' + esc(x.n) + '"></div><div class="body"><h4>' + (x.q > 1 ? '<span class="qty">' + x.q + "×</span>" : "") + esc(x.n) + " " + (x.c.m ? mana(x.c.m) : "") + flags(x.c) + '</h4><div class="ty">' + esc(x.c.t) + (price(x.n) != null ? ' · <span class="price">' + money(price(x.n)) + "</span>" : "") + "</div></div></div>";
+    const line = (x) => '<div class="tline' + (bad(x.c) ? " bad" : "") + '" data-card="' + esc(x.n) + '"><span class="q">' + x.q + '</span><span class="nm">' + esc(x.n) + '</span><span class="mc">' + (x.c.m ? mana(x.c.m) : "") + '</span><span class="pr">' + (price(x.n) != null ? money(price(x.n)) : "") + "</span></div>";
+    let h = ctl;
+    for (const [name, g] of [...groups.entries()].sort((a, b) => a[1].o - b[1].o)) {
+      const rows = g.o === -1 ? g.rows : g.rows.slice().sort(sorter);
+      h += '<div class="grp">' + esc(name) + " · " + rows.reduce((s2, x) => s2 + x.q, 0) + "</div>";
+      h += DV.mode === "grid" ? '<div class="dgrid">' + rows.map(tile).join("") + "</div>" : DV.mode === "text" ? '<div class="panel tlist">' + rows.map(line).join("") + "</div>" : rows.map(row).join("");
+    }
+    if (!dk.cards.length) h += '<div class="empty">Empty deck. Switch to <b>Add cards</b> to search, or open any card and tap Add to deck.</div>';
+    box.innerHTML = h;
+    hydrate(box);
+    lazyPrints(box);
+  }
+  // Deck value: the exact printing's price when the list names one, else Scryfall's default printing.
+  const DP = { key: "", map: new Map(), priced: 0, total: 0, count: 0 };
+  function finPrice(x, f) { for (const k of f ? [f] : ["nonfoil", "foil", "etched"]) if (x.finishes.includes(k) && x.prices[FIN[k][1]]) return +x.prices[FIN[k][1]]; return null; }
+  function loadDeckPrices() {
+    const dk = state.deck;
+    if (!dk || !Scry.state.enabled) { const el = $("#dvalue"); if (el) el.textContent = ""; return; }
+    const key = JSON.stringify([dk.commanders, dk.cards.map((x) => x.n), dk.prints || {}]);
+    if (key === DP.key) return showDeckValue();
+    DP.key = key;
+    const list = dk.commanders.map((n) => ({ n, q: 1 })).concat(dk.cards), m = new Map();
+    let left = list.length;
+    if (!left) return showDeckValue();
+    const done = () => {
+      if (--left || DP.key !== key) return;
+      DP.map = m; DP.count = list.length; DP.priced = 0; DP.total = 0;
+      for (const x of list) { const u = m.get(x.n); if (u != null) { DP.priced++; DP.total += u * x.q; } }
+      showDeckValue();
+      if (DV.sort === "price") renderDeckCards(); else patchPrices();
+    };
+    const byName = (n) => Scry.get(n, (img) => { m.set(n, img && img.usd != null ? img.usd : null); done(); });
+    for (const x of list) {
+      const p = (dk.prints || {})[x.n];
+      if (p && p.p) { const i = p.p.indexOf("/"); Scry.getPrint(p.p.slice(0, i), p.p.slice(i + 1), (r) => { if (r) { m.set(x.n, finPrice(r, p.f)); done(); } else byName(x.n); }); }
+      else byName(x.n);
+    }
+  }
+  // put prices into the cards already drawn, so pictures don't reload
+  function patchPrices() {
+    const box = $("#dcards"); if (!box) return;
+    box.querySelectorAll("[data-card]").forEach((el) => {
+      const u = DP.map.get(el.dataset.card); if (u == null) return;
+      if (el.classList.contains("dtile")) { let b = el.querySelector(".pr"); if (!b) { b = document.createElement("i"); b.className = "pr"; el.appendChild(b); } b.textContent = money(u); }
+      else if (el.classList.contains("tline")) el.querySelector(".pr").textContent = money(u);
+      else { const ty = el.querySelector(".ty"); if (ty && !ty.querySelector(".price")) ty.insertAdjacentHTML("beforeend", ' · <span class="price">' + money(u) + "</span>"); }
+    });
+  }
+  function showDeckValue() {
+    const el = $("#dvalue"); if (!el) return;
+    el.innerHTML = DP.priced ? '<b style="color:var(--ember-hi);font-size:16px">≈ ' + money(DP.total) + "</b> market value · " + DP.priced + " of " + DP.count + " cards priced · Scryfall, without shipping or tax" : "";
+  }
+
+  // ---------- precon picker: every Commander precon, newest first, with search, filters and sort ----------
+  const PP = { data: null, promise: null };
+  function ensurePP() {
+    if (!PP.promise) PP.promise = fetch("data/precon-prices.json" + DATA_V).then((x) => (x.ok ? x.json() : null)).then((j) => { PP.data = j; }).catch(() => { PP.data = null; });
+    return PP.promise;
+  }
+  function openPrecons() {
+    ensureSets().then(() => {
+      if (!SETS.data) return alert("The precon list couldn't load. Check your connection and try again.");
+      openSheet({ type: "precons", q: "", set: "", year: "", sort: "new", ci: "" });
+    });
+  }
+  const ppOf = (p) => (PP.data && PP.data.d && PP.data.d[p.s + ":" + p.n]) || null;
+  const ciOf = (p) => "WUBRG".split("").filter((x) => (p.cmd || []).some((r) => CARDS[r[1]].ci.includes(x))).join("");
+  function preconsView(v) {
+    const all = SETS.data.precons.filter((p) => p.y === "cmd");
+    const sets = [...new Map(all.slice().sort((a, b) => (a.d < b.d ? 1 : -1)).map((p) => [p.s, p.sn])).entries()];
+    const years = [...new Set(all.map((p) => p.d.slice(0, 4)))].sort().reverse();
+    const opt = (val, label, cur) => '<option value="' + esc(val) + '"' + (cur === val ? " selected" : "") + ">" + esc(label) + "</option>";
+    return '<div class="field"><input type="search" id="pcq" value="' + esc(v.q) + '" placeholder="Deck or commander name" autocomplete="off" autocapitalize="none" enterkeyhint="search"></div>' +
+      '<div class="pctl" style="margin-top:10px"><select class="sel" data-act="pcset" aria-label="Set">' + opt("", "All sets", v.set) + sets.map(([c, n]) => opt(c, n, v.set)).join("") + "</select>" +
+      '<select class="sel" data-act="pcyear" aria-label="Year">' + opt("", "Any year", v.year) + years.map((y) => opt(y, y, v.year)).join("") + "</select>" +
+      '<select class="sel" data-act="pcsort" aria-label="Sort">' + [["new", "Newest"], ["old", "Oldest"], ["name", "Name"], ["high", "Priciest"], ["low", "Cheapest"]].map(([k, l]) => opt(k, l, v.sort)).join("") + "</select></div>" +
+      '<div class="chips pcci">' + "WUBRGC".split("").map((c) => '<button class="chip' + (v.ci.includes(c) ? " on" : "") + '" data-act="pcci" data-v="' + c + '" aria-pressed="' + v.ci.includes(c) + '">' + mana("{" + c + "}") + "</button>").join("") +
+      '<span class="d" style="align-self:center;font-size:12.5px">' + (v.ci ? (v.ci === "C" ? "colorless decks" : "decks with these colors") : "tap colors to filter") + "</span></div>" +
+      '<div id="pclist" style="margin-top:10px"></div>';
+  }
+  function renderPreconList(v) {
+    const el = $("#pclist"); if (!el) return;
+    const q = MTGDeck.norm(v.q || "");
+    let rows = SETS.data.precons.filter((p) => p.y === "cmd");
+    if (v.set) rows = rows.filter((p) => p.s === v.set);
+    if (v.year) rows = rows.filter((p) => p.d.startsWith(v.year));
+    if (v.ci) rows = rows.filter((p) => { const ci = ciOf(p); return v.ci === "C" ? ci === "" : [...v.ci].every((x) => ci.includes(x)); });
+    if (q) rows = rows.filter((p) => MTGDeck.norm(p.n + " " + p.sn + " " + (p.cmd || []).map((r) => CARDS[r[1]].n).join(" ")).includes(q));
+    const val = (p) => (ppOf(p) || [null])[0];
+    const by = { new: (a, b) => (a.d < b.d ? 1 : a.d > b.d ? -1 : a.n.localeCompare(b.n)), old: (a, b) => (a.d > b.d ? 1 : a.d < b.d ? -1 : a.n.localeCompare(b.n)), name: (a, b) => a.n.localeCompare(b.n),
+      high: (a, b) => (val(b) ?? -1) - (val(a) ?? -1), low: (a, b) => (val(a) ?? 1e9) - (val(b) ?? 1e9) }[v.sort];
+    rows = rows.slice().sort(by);
+    el.innerHTML = '<div class="d" style="margin:0 2px 8px">' + rows.length + " Commander precon" + (rows.length === 1 ? "" : "s") + (PP.data ? " · values are market prices of the exact printings, updated " + esc(shortDate(PP.data.u)) + ", without shipping or tax" : "") + "</div>" +
+      (rows.length ? rows.map((p) => {
+        const lead = p.cmd ? CARDS[p.cmd[0][1]] : CARDS[(p.main || [[0, 0]])[0][1]], ci = ciOf(p), pv = ppOf(p);
+        return '<div class="panel decktile pcrow" data-act="pcload" data-i="' + p.i + '"><div class="thumb" style="--cc:' + artColor(lead) + '" data-img="' + esc(lead.n) + '" data-kind="art"></div><div class="body"><h4 style="margin:0">' + esc(p.n) + "</h4>" +
+          '<div class="ty" style="color:var(--mute);font-size:13px">' + (p.cmd ? esc(p.cmd.map((r) => CARDS[r[1]].n).join(" + ")) : "No commander listed") + " · " + (mana([...ci].map((x) => "{" + x + "}").join("")) || "colorless") + "<br>" + esc(p.sn) + " · " + esc(p.d) + "</div></div>" +
+          '<div class="pcside">' + (pv ? '<b class="price">≈ ' + money(pv[0]) + "</b>" : "") + '<button class="btn small" data-act="pcview" data-i="' + p.i + '">Cards ›</button></div></div>';
+      }).join("") : '<div class="empty">No precon matches. Clear a filter or the search.</div>');
+    hydrate(el);
+  }
+
+  // ---------- upgrade: fancier (or cheaper) versions of the same cards, never different cards ----------
+  const UPS = Object.assign({ mode: "budget", types: [], dir: "low", all: false }, store.get("upgrade", {}));
+  const UP = { key: "", data: null, deflt: {}, loading: false, done: 0, total: 0, err: "" };
+  const SPECIAL = /foil$|^textured$|^gilded$|neonink|oilslick|stepandcompleat|doublerainbow|galaxy/;
+  const ART_TYPES = {
+    borderless: ["Borderless", (p) => p.border === "borderless"],
+    extended: ["Extended art", (p) => /extendedart/.test(p.frame)],
+    showcase: ["Showcase", (p) => /showcase/.test(p.frame)],
+    fullart: ["Full art", (p) => p.full],
+    retro: ["Retro frame", (p) => p.year === "1993" || p.year === "1997"],
+    foil: ["Foil", (p, f) => f === "foil"],
+    etched: ["Etched", (p, f) => f === "etched"],
+    sld: ["Secret Lair", (p) => p.set === "sld"],
+    serialized: ["Serialized", (p) => p.ptypes.includes("serialized")],
+    special: ["Special foils", (p, f) => f !== "nonfoil" && p.ptypes.some((t) => SPECIAL.test(t))],
+  };
+  const upList = () => { const dk = state.deck; return dk ? dk.commanders.map((n) => ({ n, q: 1 })).concat(dk.cards) : []; };
+  function ensureUpgrade(v) {
+    if (!Scry.state.enabled) return;
+    const names = upList().map((x) => x.n), key = names.slice().sort().join("|");
+    if (UP.key === key && (UP.data || UP.loading)) return;
+    Object.assign(UP, { key, data: null, deflt: {}, loading: true, done: 0, total: names.length, err: "" });
+    const bare = names.filter((n) => !deckPrint(n));
+    const defaults = Promise.all(bare.map((n) => new Promise((r) => Scry.get(n, (img) => { if (img && img.set) UP.deflt[n] = { p: img.set + "/" + img.num }; r(); }))));
+    Scry.printingsMany(names, (d, t) => { if (UP.key !== key) return; UP.done = d; UP.total = t; const el = $("#upprog"); if (el) el.innerHTML = progHTML(); })
+      .then((data) => defaults.then(() => { if (UP.key !== key) return; UP.data = data; UP.loading = false; const top = stack[stack.length - 1]; if (top && top.type === "upgrade") drawSheet(); }))
+      .catch((e) => { if (UP.key !== key) return; UP.loading = false; UP.key = ""; UP.err = String(e.message || e); const top = stack[stack.length - 1]; if (top && top.type === "upgrade") drawSheet(); });
+  }
+  const progHTML = () => '<div class="d">Loading every printing from Scryfall… ' + UP.done + " of " + UP.total + ' cards</div><div class="upbar"><i style="width:' + Math.round((100 * UP.done) / Math.max(1, UP.total)) + '%"></i></div>';
+  // every (printing, finish) with a price, released already
+  function versions(n) {
+    const out = [];
+    for (const p of (UP.data && UP.data[n]) || []) {
+      if (p.date > TODAY) continue;
+      for (const f of p.finishes) if (FIN[f]) { const usd = priceOf(p, f); if (usd != null) out.push({ p, f, usd }); }
+    }
+    return out;
+  }
+  function findVersion(n, sel) {
+    if (!sel) return null;
+    const p = ((UP.data && UP.data[n]) || []).find((x) => pkey(x) === sel.p.toLowerCase());
+    if (!p) return null;
+    // no finish named: non-foil, else the first finish that has a price (as the deck total does)
+    const f = sel.f || ["nonfoil", "foil", "etched"].find((k) => p.finishes.includes(k) && priceOf(p, k) != null) || (p.finishes.includes("nonfoil") ? "nonfoil" : p.finishes[0]);
+    return { p, f, usd: FIN[f] ? priceOf(p, f) : null };
+  }
+  const fitsTypes = (x) => (UPS.all ? UPS.types.every((k) => ART_TYPES[k][1](x.p, x.f)) : UPS.types.some((k) => ART_TYPES[k][1](x.p, x.f)));
+  // what the upgrade picks for one card: a manual pick, else the mode's choice
+  function upPick(v, n) {
+    const vs = versions(n), from = findVersion(n, deckPrint(n) || UP.deflt[n]);
+    if (v.manual && v.manual[n]) return { from, to: findVersion(n, v.manual[n]), manual: true };
+    let pool = vs;
+    if (UPS.mode === "types") { if (!UPS.types.length) return { from, to: null, note: "Pick one or more art types." }; pool = vs.filter(fitsTypes); }
+    if (!pool.length) return { from, to: null, note: vs.length ? "No version of the chosen types; keeps its printing." : "No priced version on Scryfall; keeps its printing." };
+    const low = UPS.mode === "budget" || (UPS.mode === "types" && UPS.dir === "low");
+    const to = pool.reduce((a, b) => (low ? (b.usd < a.usd ? b : a) : (b.usd > a.usd ? b : a)));
+    return { from, to };
+  }
+  function upChoice(v, n) {
+    const r = upPick(v, n), x = r.to || r.from;
+    return x ? Object.assign({ p: x.p.set + "/" + x.p.num }, x.f !== "nonfoil" ? { f: x.f } : {}) : null;
+  }
+  const verLabel = (x) => esc(x.p.set.toUpperCase()) + " #" + esc(x.p.num) + " · " + FIN[x.f][0].toLowerCase() + " · " + money(x.usd);
+  function upgradeView(v) {
+    if (!state.deck) return '<div class="empty">Load or import a deck first.</div>';
+    if (!Scry.state.enabled) return '<div class="empty">Turn on card images in Settings: upgrades need Scryfall\'s printings and prices.</div>';
+    let h = '<div class="d" style="margin-bottom:10px">Swaps each card for a different printing of the same card: cheaper, fancier or a look you pick. Never a different card.</div>' +
+      '<div class="chips"><button class="chip' + (UPS.mode === "budget" ? " on" : "") + '" data-act="upmode" data-v="budget">Ballin\' on a budget</button><button class="chip' + (UPS.mode === "high" ? " on" : "") + '" data-act="upmode" data-v="high">High roller</button><button class="chip' + (UPS.mode === "types" ? " on" : "") + '" data-act="upmode" data-v="types">Pick art types</button></div>' +
+      '<div class="d" style="font-size:12.5px;margin-top:6px">' + { budget: "The cheapest version of every card.", high: "The most expensive version of every card.", types: "Only the art types you pick, cheapest or priciest among them." }[UPS.mode] + "</div>";
+    if (UP.err) return h + '<div class="panel item" style="margin-top:12px"><div class="d">Could not load printings: ' + esc(UP.err) + '</div><div class="chips"><button class="btn small" data-act="upmode" data-v="' + UPS.mode + '">Try again</button></div></div>';
+    if (!UP.data) return h + '<div class="panel item" id="upprog" style="margin-top:12px">' + progHTML() + "</div>";
+    const list = upList();
+    if (UPS.mode === "types") {
+      const have = Object.keys(ART_TYPES).map((k) => [k, list.filter((x) => versions(x.n).some((y) => ART_TYPES[k][1](y.p, y.f))).length]).filter(([, c]) => c);
+      h += '<div class="chips">' + have.map(([k, c]) => '<button class="chip' + (UPS.types.includes(k) ? " on" : "") + '" data-act="uptype" data-v="' + k + '" aria-pressed="' + UPS.types.includes(k) + '">' + ART_TYPES[k][0] + " · " + c + "</button>").join("") + "</div>" +
+        '<div class="chips"><button class="chip' + (UPS.dir === "low" ? " on" : "") + '" data-act="updir" data-v="low">Cheapest</button><button class="chip' + (UPS.dir === "high" ? " on" : "") + '" data-act="updir" data-v="high">Priciest</button>' +
+        (UPS.types.length > 1 ? '<button class="chip' + (UPS.all ? " on" : "") + '" data-act="upall">' + (UPS.all ? "Must match all types" : "Matches any type") + "</button>" : "") + "</div>" +
+        '<div class="d" style="font-size:12.5px;margin-top:4px">The number on each type is how many of your cards have one.</div>';
+    }
+    let before = 0, after = 0, changed = 0, kept = 0;
+    const rows = list.map((x) => {
+      const r = upPick(v, x.n);
+      const fromUsd = r.from && r.from.usd != null ? r.from.usd : null, to = r.to;
+      if (fromUsd != null) before += fromUsd * x.q;
+      const toUsd = to ? to.usd : fromUsd;
+      if (toUsd != null) after += toUsd * x.q;
+      const same = to && r.from && pkey(to.p) === pkey(r.from.p) && to.f === r.from.f;
+      if (to && !same) changed++; else kept++;
+      return { x, r, d: to && fromUsd != null ? (to.usd - fromUsd) * x.q : 0, same };
+    });
+    rows.sort((a, b) => Math.abs(b.d) - Math.abs(a.d) || a.x.n.localeCompare(b.x.n));
+    const diff = after - before;
+    h += '<div class="stats"><div class="panel stat"><b>' + money(before) + '</b><span>now</span></div><div class="panel stat"><b>' + money(after) + '</b><span>after</span></div><div class="panel stat"><b style="color:' + (diff > 0 ? "var(--warn)" : "var(--good)") + '">' + (diff >= 0 ? "+" : "−") + money(Math.abs(diff)) + "</b><span>difference</span></div></div>" +
+      '<div class="chips"><button class="btn primary small" data-act="upapply"' + (changed ? "" : " disabled") + ">Use these " + changed + " printing" + (changed === 1 ? "" : "s") + "</button>" + (v.manual && Object.keys(v.manual).length ? '<button class="btn small" data-act="upreset">Undo my picks</button>' : "") + "</div>" +
+      '<div class="d" style="font-size:12px;margin:6px 2px 4px">' + kept + " card" + (kept === 1 ? "" : "s") + " keep their printing. Tap a card to choose its version yourself in the ring. Prices are Scryfall's market prices (TCGplayer), updated daily, without shipping or tax. Cards with no printing in the list start from Scryfall's default printing." + (v.applied ? ' <b style="color:var(--good)">Saved to your deck. Copy list now writes these printings for Moxfield.</b>' : "") + "</div>";
+    h += rows.map(({ x, r, d, same }) => {
+      const to = r.to, show = to || r.from, img = show && show.p.img ? show.p.img.normal : "";
+      return '<div class="panel row uprow" data-card="' + esc(x.n) + '"><div class="upimg" style="background-image:url(&quot;' + esc(img) + '&quot;)"></div><div class="body"><h4>' + (x.q > 1 ? '<span class="qty">' + x.q + "×</span>" : "") + esc(x.n) + (r.manual ? ' <span class="badge up">your pick</span>' : "") + "</h4>" +
+        '<div class="ty">Now: ' + (r.from && r.from.usd != null ? verLabel(r.from) : r.from ? esc(r.from.p.set.toUpperCase()) + " #" + esc(r.from.p.num) + " · no price" : "printing unknown") + "</div>" +
+        (to && !same ? '<div class="ty" style="color:var(--text)">→ <b>' + verLabel(to) + "</b>" + (d ? ' <span class="' + (d > 0 ? "upmore" : "upless") + '">' + (d > 0 ? "+" : "−") + money(Math.abs(d)) + "</span>" : "") + "</div>"
+          : '<div class="ty">' + (to ? "Already the pick." : esc(r.note || "Keeps its printing.")) + "</div>") + "</div></div>";
+    }).join("");
+    return h;
+  }
+  function applyUpgrade(v) {
+    const dk = state.deck; if (!dk || !UP.data) return;
+    const prints = Object.assign({}, dk.prints);
+    for (const x of upList()) { const r = upPick(v, x.n); if (r.to) prints[x.n] = Object.assign({ p: r.to.p.set + "/" + r.to.p.num }, r.to.f !== "nonfoil" ? { f: r.to.f } : {}); }
+    dk.prints = prints; v.manual = {}; v.applied = true;
+    saveDeck(); drawSheet();
+  }
+
   function deckIdentity() {
     const dk = state.deck; if (!dk || !dk.commanders.length) return null;
     return dk.commanders.map(card).filter(Boolean).map((c) => c.ci).join("");
@@ -1280,7 +1609,8 @@
     if (state.deck && (state.deck.cards.length || state.deck.commanders.length) && !confirm("Replace the deck in Decks with " + p.n + "?")) return;
     const cards = [];
     for (const r of p.main || []) { const n = CARDS[r[1]].n, x = cards.find((y) => y.n === n); if (x) x.q += r[0]; else cards.push({ n, q: r[0] }); }
-    state.deck = { commanders: (p.cmd || []).map((r) => CARDS[r[1]].n), cards };
+    state.deck = { commanders: (p.cmd || []).map((r) => CARDS[r[1]].n), cards, prints: {} };
+    for (const r of (p.cmd || []).concat(p.main || [])) { const n = CARDS[r[1]].n; if (!state.deck.prints[n] && r[2] && r[3] != null) state.deck.prints[n] = { p: String(r[2]).toLowerCase() + "/" + r[3] }; }
     state.importNote = "Copied from the " + p.n + " precon (" + p.sn + ").";
     saveDeck(); leaveSheets(); showTab("decks");
   }

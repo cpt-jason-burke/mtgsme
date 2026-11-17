@@ -66,6 +66,15 @@ Everything below is live on `main`. The site is https://cpt-jason-burke.github.i
   - An unmarked commander is guessed from a 1–2 card MTGO sideboard or a last block after a blank line, then the first legendary creature. The old guess counted lines, not cards, so lists with "35 Forest" got no guess. `tools/combos.js deck` guesses the same way.
   - `docs/engine.js` cited loop rules as 732.x; the current rules number them 733.x, so the cites silently vanished. It now finds them by their wording. "No may" no longer fires on "at random".
   - `tools/build_site.py` builds everything before writing and refuses data 5% smaller than last time (or rules missing 100.1/903.5a); the workflow then keeps the old card data and rules and retries next run.
+- **Deck editor (Step 7, built 2026-11-17, waiting for the user's OK on the preview before it goes to `main`):**
+  - Deck buttons (Precons, Upgrade, Copy list, Import, Clear) sit in the Decks toolbar (`#deckbar`, `renderDeckBar`), five equal buttons on a phone.
+  - Precon picker (the user chose a picker page over a dropdown): sheet `precons` (`preconsView`, `renderPreconList`): search by deck, set or commander; set, year and color filters (colors mean "has all of these"; C = colorless); sort newest, oldest, name, priciest, cheapest. Tapping a deck loads it (`copyPrecon`, confirms first); "Cards ›" opens its deck page. Totals come from `docs/data/precon-prices.json`, written daily by `tools/build_top25.py` (rounded to whole dollars, written only when a total changes, kept if fewer than 90% of last time's decks).
+  - Printings in decks: `deck.prints = { name: { p: "set/num", f?: "foil"|"etched" } }`, one printing per name (the first listed wins). `MTGDeck.parse` keeps Moxfield/Archidekt "(SET) 123 *F*/*E*" (returned as `prints`), `exportText` writes them back. `copyPrecon` keeps each precon card's printing. A map was used instead of `p`/`f` on each entry so commanders and companions (plain names) get printings too. Six tests in `tools/tests/logic.js`.
+  - Deck views (`renderDeckCards`, settings in localStorage `deckview`): Grid (default; full pictures of the exact printing, 2 columns on a phone), Rows, Text; group by type, mana value, color identity or none; sort by name, mana value or price. A market value line sits under the stats (`loadDeckPrices`: the exact printing's price, else Scryfall's default printing).
+  - Printings ring, `docs/ring.js` (`Ring.mount`): on every card page, a 3D ring of up to 24 printings with "Show all"; full pictures near the front, small ones behind. The caption shows set, number, year and prices; for a card in the deck it has "Use non-foil/foil/etched" buttons. With Reduce Motion, or fewer than 3 printings, the old flat swipe stays.
+  - Upgrade sheet `upgrade` (`upgradeView`, `upPick`, `applyUpgrade`; choices in localStorage `upgrade`): "Ballin' on a budget", "High roller", "Pick art types" (only types the deck's cards have, with counts; any/all; cheapest/priciest). Shows before, after and difference, and each card's old and new printing. Tapping a card opens it; the ring's "Use" buttons then set that card's pick. "Use these N printings" saves them to the deck. Printings come from `Scry.printingsMany` (one Scryfall search per 12 names, basics by price both ways, cached on the device for a day): about 5–35 s for a 100-card deck the first time.
+  - `Scry.getPrint` now matches collector numbers case-insensitively (mtg.wtf `1701d`, Scryfall `1701D`); the image cache moved to `scry-img-v3` (it now also keeps the default printing's set, number and price).
+  - Scrolling: measured with Playwright at 390×844, CPU slowed 4×, scrolling the deck page for 3 s. Before: about 33 fps (p95 frame 50 ms, ~75 of ~100 frames slow). After: 60 fps in grid, rows and text (p95 16.8 ms). The cause was the drifting background fog: its animation made every blurred panel redraw each frame. The fog is now still, `.panel` has no backdrop blur (its color is a little more opaque), and long lists use `content-visibility: auto`.
 - Two old branches, `add-combo-checker` and `combos-on-main`, are merged or obsolete. The last session couldn't delete them; the user can, in the GitHub app.
 
 ## 4. Environment and tools
@@ -132,6 +141,7 @@ All are generated, except the two marked hand-maintained.
 | `combos.json` | `tools/build_combos.py` | Keyed by card names, so it skips `DATA_V` |
 | `news.json` | `tools/fetch_news.py` | Headlines |
 | `headliners.json` | `tools/build_headliners.py` | `{about, featured, checked, sets: [...facts], cards: [{key "set/num", set, num, name, date, artist, fin, tags, border, img {s,n,l,a}, scry, cmd, tcg {id, url, low, market}, sf, signer?}]}` |
+| `precon-prices.json` | `tools/build_top25.py` | `{about, u, d: {"set:deck name": [total USD, lines priced, lines]}}`, Commander decks only |
 | `top25.json` | `tools/build_top25.py` | `{about, src, cards, sets: {code: {u, r: [[name, num, fin n\|f\|e, usd, legal 0\|1]]}}, decks: {"set:deck name": {u, r: [[..., set]]}}}` |
 | `sealed.json` | `tools/build_sealed.py` | `{about, checked, sets: {code: {n, d, p: [{n, id, low, mkt, ck: [path, price, stock], list?, case?}]}}}` |
 | `headliner-finds.json` | **Hand-maintained** | `{about, finds: [{card, date, kind: pull\|sale\|listing, url, price?, note}]}` |
@@ -194,7 +204,7 @@ All are generated, except the two marked hand-maintained.
 2. **Paused:** Step 4b (local shops) and Step 5 (comm badge cinematic).
 3. **The layers engine matters most.** In the user's words, the app "will be useless if it can't definitively understand and predict all card interactions", using the layer rules together with the whole CR. The "said / not said" wording notes "took it a bit too literally": the goal is to understand interactions, and to suggest cards not yet listed that work with 2, 3, 4 or more chosen cards.
 4. **Upgrade means fancier versions of the same cards** (alternate art, finishes, prices), never different cards. It should work for any deck list; test with precons first. Modes run from "ballin' on a budget" (cheapest versions) to "high roller" (most expensive).
-5. **Deck editor:** a precon picker (newest first, with filters), a full-picture grid grouped by type like Moxfield, plus row and text views, a 3D carousel of each card's printings, deck buttons always reachable at the top, and smoother scrolling.
+5. **Deck editor:** a precon picker page (chosen over a dropdown in the Step 7 session), newest first, with filters, a full-picture grid grouped by type like Moxfield, plus row and text views, a 3D carousel of each card's printings, deck buttons always reachable at the top, and smoother scrolling.
 
 ## 8. Promises made to the user
 
@@ -263,7 +273,7 @@ Several of these are also `is:serialized`. There are 298 serialized printings in
 
 ## 10. The plan
 
-**Next up: Step 6** (layers engine and synergy finder, on the most capable model) **and Step 7** (deck editor screens, on a mid-tier model). Run them one at a time if you can; if both run at once, `git pull` before every push. Steps 4b and 5 are paused (section 7, 2026-11-17).
+**Next up: Step 6** (layers engine and synergy finder, on the most capable model). Step 7 is built (section 3) and waits for the user's OK. Run them one at a time if you can; if both run at once, `git pull` before every push. Steps 4b and 5 are paused (section 7, 2026-11-17).
 
 Do each step in its own fresh session, then build, test, commit and verify. Cost estimates are in section 11.
 
@@ -469,4 +479,4 @@ const { chromium } = require('playwright');
 | 5. Comm badge cinematic | Paused by the user (2026-11-17) | After Step 2 |
 | Logic check | Done, live 2026-11-17 | Commander, partner, companion and copy checks; loop cites; guarded card build; `tools/tests/logic.js` |
 | 6. Layers engine and synergy finder | Not started | Most capable model; section 10 |
-| 7. Deck editor screens and upgrades | Not started | Mid-tier model; section 10 |
+| 7. Deck editor screens and upgrades | Built 2026-11-17 on branch `claude/zen-einstein-jw8ixk`; waiting for the user's OK on the preview, then merge to `main` | Toolbar, precon picker, grid/rows/text views, printings ring, upgrades, scrolling fix (section 3) |

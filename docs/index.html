@@ -13,7 +13,7 @@
 <meta name="apple-mobile-web-app-title" content="MTGSME">
 <style>
 :root{
-  --bg:#0d0d0e;--panel:rgba(24,23,24,.72);--panel-solid:#171617;--panel2:rgba(38,36,36,.7);--line:rgba(255,255,255,.08);--line2:rgba(255,255,255,.14);
+  --bg:#0d0d0e;--panel:rgba(24,23,24,.8);--panel-solid:#171617;--panel2:rgba(38,36,36,.7);--line:rgba(255,255,255,.08);--line2:rgba(255,255,255,.14);
   --text:#ece8e3;--mute:#9a948d;--ember:#d06a26;--ember-hi:#e8853f;--ember-soft:rgba(208,106,38,.14);--ice:#9fb6dc;
   --good:#7cc493;--bad:#e2765f;--warn:#e0a24a;--radius:14px;--tabh:64px;
 }
@@ -29,9 +29,9 @@ body{margin:0;background:var(--bg);color:var(--text);font:15.5px/1.48 -apple-sys
 .fog{position:fixed;inset:-25%;z-index:-1;pointer-events:none;background:
   radial-gradient(40% 30% at 18% 22%,rgba(120,80,160,.17),transparent 70%),
   radial-gradient(45% 35% at 86% 58%,rgba(224,129,58,.13),transparent 70%),
-  radial-gradient(50% 40% at 40% 96%,rgba(90,110,120,.13),transparent 70%);filter:blur(20px);animation:drift 26s ease-in-out infinite alternate}
-@keyframes drift{to{transform:translate3d(4%,-3%,0) scale(1.07)}}
-@media (prefers-reduced-motion:reduce){.fog{animation:none}*{transition:none!important}}
+  radial-gradient(50% 40% at 40% 96%,rgba(90,110,120,.13),transparent 70%);filter:blur(20px)}
+/* the fog stays still: a moving fog made the browser redraw every panel on each frame, and scrolling lagged */
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
 
 header.top{position:sticky;top:0;z-index:6;padding:calc(12px + env(safe-area-inset-top)) 16px 10px;
   background:linear-gradient(180deg,rgba(13,13,14,.94),rgba(13,13,14,.78));backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
@@ -68,7 +68,7 @@ select.sel{flex:none;padding:6px 12px;border-radius:999px;width:auto;appearance:
 .ms.W{background:#efe6c8}.ms.U{background:#8db8e0}.ms.B{background:#a59aa8}.ms.R{background:#e79a7c}.ms.G{background:#8cc39a}.ms.C{background:#c9c6c1}
 
 /* glass panels */
-.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);box-shadow:0 10px 26px rgba(0,0,0,.35),inset 0 1px 0 rgba(255,255,255,.03)}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);box-shadow:0 10px 26px rgba(0,0,0,.35),inset 0 1px 0 rgba(255,255,255,.03)}
 section.block{margin-top:24px}
 section.block>h2{font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:var(--mute);margin:0 0 10px;display:flex;align-items:center;gap:8px;font-weight:700}
 section.block>h2::before{content:"";width:14px;height:2px;background:var(--ember);border-radius:2px}
@@ -280,6 +280,35 @@ nav.tabbar button[aria-selected=true]::before{content:"";position:absolute;top:2
 .ctile.loaded span{display:none}
 .ctile .q{position:absolute;top:6px;left:6px;background:rgba(0,0,0,.75);color:var(--ember-hi);font-weight:800;font-size:12px;border-radius:6px;padding:1px 6px}
 .decktile{display:flex;gap:12px;align-items:center;padding:10px;margin-bottom:8px;cursor:pointer}
+/* deck editor: toolbar, views, precon picker, upgrades */
+.deckbar{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;margin-top:8px}
+.deckbar .btn{padding:7px 2px;font-size:13.5px;min-width:0;overflow:hidden;text-overflow:ellipsis}
+@media (min-width:600px){.deckbar{display:flex}.deckbar .btn{padding:7px 14px;font-size:14px}}
+.btn:disabled{opacity:.4;cursor:default}
+.dctl{margin-top:16px}
+.dgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.dtile.bad{outline:2px solid rgba(224,162,74,.7)}
+.dtile .pr{position:absolute;left:50%;transform:translateX(-50%);bottom:5px;background:rgba(0,0,0,.78);color:var(--ember-hi);font-weight:800;font-style:normal;font-size:12px;border-radius:6px;padding:1px 6px}
+.tlist{padding:4px 0}
+.tline{display:flex;gap:8px;align-items:baseline;padding:7px 12px;border-bottom:1px solid var(--line);cursor:pointer;font-size:15px}
+.tline:last-child{border-bottom:0}
+.tline .q{color:var(--ember-hi);font-weight:800;min-width:18px;text-align:right}
+.tline .nm{flex:1;min-width:0}
+.tline .mc{flex:none}
+.tline .pr{flex:none;color:var(--mute);font-size:13px;min-width:48px;text-align:right}
+.tline.bad .nm{color:var(--warn)}
+.row,.dtile,.tline,.decktile{content-visibility:auto;contain-intrinsic-size:auto 64px}
+.dtile{contain-intrinsic-size:auto 210px}
+.pcrow .body{flex:1;min-width:0}
+.pcside{display:flex;flex-direction:column;align-items:flex-end;gap:6px;flex:none}
+.pcci .chip.on{background:var(--ember-soft);border-color:rgba(208,106,38,.6)}
+.uprow{align-items:center}
+.upimg{flex:none;width:54px;aspect-ratio:488/680;border-radius:4px;background:#1d1c1c center/cover;box-shadow:0 4px 10px rgba(0,0,0,.5)}
+.upbar{height:6px;border-radius:3px;background:var(--line);margin-top:8px;overflow:hidden}
+.upbar i{display:block;height:100%;background:var(--ember-hi);transition:width .3s}
+.upmore{color:var(--warn);font-weight:700}
+.upless{color:var(--good);font-weight:700}
+.pring{margin:4px 0 6px}
 .decktile .thumb{width:70px;height:52px}
 /* ---------- Play: table-top life counter ---------- */
 body.ingame{overflow:hidden}
@@ -453,6 +482,7 @@ body.ingame{overflow:hidden}
   </div>
   <div class="toolbar hidden" id="tb-decks">
     <div class="seg" id="seg"><button data-pane="list" class="on">Deck</button><button data-pane="add">Add cards</button></div>
+    <div class="deckbar" id="deckbar"></div>
   </div>
   <div class="toolbar hidden" id="tb-sets">
     <div class="chips" id="setfilters"></div>
@@ -515,6 +545,7 @@ body.ingame{overflow:hidden}
 <script src="deck.js"></script>
 <script src="combos.js"></script>
 <script src="scry.js"></script>
+<script src="ring.js"></script>
 <script src="play.js"></script>
 <script src="app.js"></script>
 </body>

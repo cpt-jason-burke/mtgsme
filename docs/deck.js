@@ -7,11 +7,12 @@
   const TYPE_ORDER = ["Creature", "Planeswalker", "Battle", "Instant", "Sorcery", "Artifact", "Enchantment", "Land"];
   const norm = (s) => s.toLowerCase().replace(/[’‘]/g, "'").replace(/\s+/g, " ").trim();
 
-  // Moxfield, Archidekt, MTGO and plain "1 Card Name" lists.
+  // Moxfield, Archidekt, MTGO and plain "1 Card Name" lists. "(SET) 123 *F*" after a name is kept as that card's
+  // printing in out.prints ({ name: { p: "set/123", f: "foil"|"etched" } }); the first printing listed for a name wins.
   // Besides the deck it notes what a missing commander could be: a sideboard (MTGO keeps the commander there)
   // and the last block after a blank line (MTGO text files). guessCommanders() decides.
   function parse(text, lookup) {
-    const out = { commanders: [], companions: [], cards: [], unknown: [], skipped: 0, sideboard: [], lastBlock: [] };
+    const out = { commanders: [], companions: [], cards: [], unknown: [], skipped: 0, sideboard: [], lastBlock: [], prints: {} };
     let section = "main", headed = false;
     const blocks = [[]];
     for (let raw of text.split(/\r?\n/)) {
@@ -26,13 +27,17 @@
       const m = line.match(/^(\d+)\s*x?\s+(.+)$/i) || [null, "1", line];
       let qty = parseInt(m[1], 10), name = m[2];
       const cmdr = /\*CMDR\*/i.test(name) || /\[[^\]]*\bcommander\b[^\]]*\]/i.test(name);
-      name = name.replace(/\s+\^[^^]*\^/g, "").replace(/\s+\[[^\]]*\]/g, "").replace(/\s+\*[A-Z]+\*/gi, "").replace(/\s+#\S+/g, "")
-        .replace(/\s+\([A-Za-z0-9]{2,7}\)(?:\s+[\w★-]+)?\s*$/, "").trim();
+      const fin = /\s\*E\*/i.test(name) ? "etched" : /\s\*F\*/i.test(name) ? "foil" : "";
+      name = name.replace(/\s+\^[^^]*\^/g, "").replace(/\s+\[[^\]]*\]/g, "").replace(/\s+\*[A-Z]+\*/gi, "").replace(/\s+#\S+/g, "");
+      const pm = name.match(/\s+\(([A-Za-z0-9]{2,7})\)(?:\s+([\w★†-]+))?\s*$/);
+      if (pm) name = name.slice(0, pm.index);
+      name = name.trim();
       if (section === "skip") { out.skipped += qty; continue; }
       let card = lookup(name) || lookup(name.split(" // ")[0]) || lookup(name.split("/")[0].trim());
       if (!card) { out.unknown.push(line); continue; }
       // a back face or second half is the same card as its front face
       if (card.f && card.f[0] !== card.n) card = lookup(card.f[0]) || card;
+      if (pm && pm[2] && !out.prints[card.n] && section !== "sideboard") out.prints[card.n] = Object.assign({ p: pm[1].toLowerCase() + "/" + pm[2] }, fin ? { f: fin } : {});
       if (section === "sideboard") { out.skipped += qty; out.sideboard.push({ n: card.n, q: qty }); continue; }
       if (section === "companion") { if (!out.companions.includes(card.n)) out.companions.push(card.n); continue; }
       if (section === "commander" || cmdr) { if (!out.commanders.includes(card.n)) out.commanders.push(card.n); }
@@ -218,9 +223,12 @@
     return { identity: [...ident].join(""), tribe, items: scored.slice(0, opts.limit || 30) };
   }
 
+  // Moxfield-style text; known printings are written back as "(SET) 123 *F*" so the list re-imports with them.
   function exportText(deck) {
-    const comp = (deck.companions || []).length ? ["", "Companion"].concat(deck.companions.map((n) => "1 " + n)) : [];
-    return deck.commanders.map((n) => "1 " + n + " *CMDR*").concat(deck.cards.map((x) => x.q + " " + x.n), comp).join("\n");
+    const pr = deck.prints || {};
+    const tag = (n) => { const x = pr[n]; if (!x || !x.p) return ""; const i = x.p.indexOf("/"); return " (" + x.p.slice(0, i).toUpperCase() + ") " + x.p.slice(i + 1) + (x.f === "foil" ? " *F*" : x.f === "etched" ? " *E*" : ""); };
+    const comp = (deck.companions || []).length ? ["", "Companion"].concat(deck.companions.map((n) => "1 " + n + tag(n))) : [];
+    return deck.commanders.map((n) => "1 " + n + tag(n) + " *CMDR*").concat(deck.cards.map((x) => x.q + " " + x.n + tag(x.n)), comp).join("\n");
   }
 
   const api = { parse, check, suggest, manaValue, mainType, exportText, canBeCommander, canPair, isBackground, partners, copyLimit, guessCommanders, fillCommanders, TYPE_ORDER, norm };

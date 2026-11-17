@@ -5,6 +5,8 @@ it ranks the printings by Scryfall's US dollar price (TCGplayer's market price) 
 In a set, every printing and finish (non-foil, foil, etched) is its own entry. A Secret Lair drop lists both finishes,
 since drops are sold in non-foil and foil editions; a Commander deck uses the finish the deck holds (non-foil when the printing has one).
 Sets and decks out for more than 90 days are re-ranked once a week, newer ones every day, so daily changes stay small.
+It also writes docs/data/precon-prices.json: each Commander deck's total market value (the precon picker in Decks sorts by it),
+rounded to whole dollars and written only when a total changed.
 
 usage: python3 tools/build_top25.py [default-cards.jsonl.gz] [--force]
 Without a file it downloads Scryfall's default_cards bulk file (about 80 MB), reading it as it arrives.
@@ -17,6 +19,7 @@ UA = "MTGSME/1.0 (personal Magic app; +https://github.com/cpt-jason-burke/mtgsme
 root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 DATA = os.path.join(root, "docs", "data")
 OUT = os.path.join(DATA, "top25.json")
+OUT_PP = os.path.join(DATA, "precon-prices.json")
 BULK = "https://api.scryfall.com/bulk-data/default-cards"
 TOP, FLOOR, NEW_DAYS, WEEK = 25, 5.0, 90, 7
 PRICE = {"nonfoil": "usd", "foil": "usd_foil", "etched": "usd_etched"}
@@ -115,11 +118,12 @@ for code in sorted(codes):
     if e:
         out_sets[code] = e
 
-out_decks, found, rows_total = {}, 0, 0
+out_decks, totals, found, rows_total = {}, {}, 0, 0
 for p in sorted(precons, key=lambda p: (p["s"], p["n"])):
-    rows, done = [], set()
+    rows, done, total, priced, n = [], set(), 0.0, 0, 0
     for r in p.get("cmd", []) + p.get("main", []):
         rows_total += 1
+        n += 1
         x = prints.get((r[2].lower(), str(r[3]).lower()))
         if not x:
             continue
@@ -128,6 +132,8 @@ for p in sorted(precons, key=lambda p: (p["s"], p["n"])):
         if p["y"] != "sld" and fins:
             main = "n" if "nonfoil" in all_fins else None
             fins = [f for f in fins if f[0] == main] or ([] if main else fins[:1])
+            total += fins[0][1] * r[0] if fins else 0
+            priced += 1 if fins else 0
         for fin, usd in fins:
             if usd >= FLOOR and (code, num, fin) not in done:
                 done.add((code, num, fin))
@@ -135,6 +141,8 @@ for p in sorted(precons, key=lambda p: (p["s"], p["n"])):
     e = keep_or_new("decks", p["s"] + ":" + p["n"], p["d"], rows)
     if e:
         out_decks[p["s"] + ":" + p["n"]] = e
+    if p["y"] == "cmd" and priced:
+        totals[p["s"] + ":" + p["n"]] = [round(total), priced, n]
 
 data = {
     "about": "The most valuable printings in each set (sets, keyed by set code) and in each Commander deck and Secret Lair drop (decks, keyed by 'set:deck name' as in precons.json). "
@@ -154,5 +162,25 @@ if not same:
     with open(OUT + ".tmp", "w", encoding="utf-8") as f:
         f.write(text)
     os.replace(OUT + ".tmp", OUT)
+# precon totals: each Commander deck's market value, for sorting the precon picker
+pp_old = {}
+if os.path.exists(OUT_PP):
+    try:
+        pp_old = json.load(open(OUT_PP, encoding="utf-8"))
+    except ValueError:
+        pp_old = {}
+pp_same = pp_old.get("d") == totals
+if len(totals) < len(pp_old.get("d") or {}) * 0.9 and not force:
+    pp_same = True
+    print(f"Only {len(totals)} precon totals (last time {len(pp_old.get('d') or {})}); precon-prices.json kept.")
+elif not pp_same:
+    pp = {"about": "Each Commander deck's total market value in US dollars (keyed by 'set:deck name' as in precons.json): [total rounded to whole dollars, list lines priced, list lines]. "
+                   "Uses the exact printings in the deck, non-foil when the printing has it. Scryfall's prices (TCGplayer's market price), without shipping or tax. "
+                   "Built by tools/build_top25.py; don't edit by hand.",
+          "u": today.isoformat(), "d": totals}
+    with open(OUT_PP + ".tmp", "w", encoding="utf-8") as f:
+        f.write(dump({k: v for k, v in pp.items() if k != "d"})[:-1] + ',"d":' + body(totals) + "}\n")
+    os.replace(OUT_PP + ".tmp", OUT_PP)
 print(f"{seen} Scryfall cards; {len(out_sets)} sets and {len(out_decks)} decks with a card worth ${FLOOR:.0f}+; "
-      f"{found} of {rows_total} deck rows matched a printing; top25.json {'no change' if same else 'written'} ({len(text) // 1024} KB)")
+      f"{found} of {rows_total} deck rows matched a printing; top25.json {'no change' if same else 'written'} ({len(text) // 1024} KB); "
+      f"{len(totals)} precon totals, precon-prices.json {'no change' if pp_same else 'written'}")

@@ -77,6 +77,28 @@ t("back face name counts as the front face", () => assert.strictEqual(D.parse("1
 t("Fire // Ice and Ice are the same card", () => assert.deepStrictEqual(D.parse("1 Fire // Ice\n1 Ice", card).cards, [{ n: "Fire", q: 2 }]));
 t("Moxfield set and foil tags", () => assert.deepStrictEqual(D.parse("1 Sol Ring (CMM) 400 *F*\n1x Arcane Signet (ELD) 331 [Ramp]", card).cards.map((x) => x.n), ["Sol Ring", "Arcane Signet"]));
 
+// printings: kept from Moxfield/Archidekt text and written back on export
+t("Moxfield printing and foil kept", () => assert.deepStrictEqual(D.parse("1 Sol Ring (CMM) 400 *F*\n1x Arcane Signet (ELD) 331 [Ramp]\n1 Command Tower", card).prints,
+  { "Sol Ring": { p: "cmm/400", f: "foil" }, "Arcane Signet": { p: "eld/331" } }));
+t("etched, star and letter collector numbers", () => assert.deepStrictEqual(D.parse("1 Sol Ring (C21) 263 *E*\n1 Lightning Bolt (SLD) 123★\n1 Captain Jean-Luc Picard (TRK) 1701D *F*", card).prints,
+  { "Sol Ring": { p: "c21/263", f: "etched" }, "Lightning Bolt": { p: "sld/123★" }, "Captain Jean-Luc Picard": { p: "trk/1701D", f: "foil" } }));
+t("Archidekt line with category and commander tag", () => {
+  const d = D.parse("1x Kenrith, the Returned King (eld) 303 *F* [Commander{top}]\n1x Sol Ring (cmm) 400 [Ramp]", card);
+  assert.deepStrictEqual([d.commanders, d.prints["Kenrith, the Returned King"], d.prints["Sol Ring"]], [["Kenrith, the Returned King"], { p: "eld/303", f: "foil" }, { p: "cmm/400" }]);
+});
+t("first printing of a repeated name wins", () => {
+  const d = D.parse("10 Forest (UNF) 235\n5 Forest (ZEN) 246", card);
+  assert.deepStrictEqual([d.cards, d.prints.Forest], [[{ n: "Forest", q: 15 }], { p: "unf/235" }]);
+});
+t("set code without a number keeps no printing", () => assert.deepStrictEqual(D.parse("1 Sol Ring (CMM)", card).prints, {}));
+t("export writes printings back and re-imports them", () => {
+  const deck = { commanders: ["Kenrith, the Returned King"], cards: [{ n: "Sol Ring", q: 1 }, { n: "Forest", q: 9 }], prints: { "Kenrith, the Returned King": { p: "eld/303", f: "foil" }, "Sol Ring": { p: "c21/263", f: "etched" } } };
+  const txt = D.exportText(deck);
+  assert.ok(txt.includes("1 Kenrith, the Returned King (ELD) 303 *F* *CMDR*") && txt.includes("1 Sol Ring (C21) 263 *E*") && txt.includes("9 Forest\n") === false);
+  const d = D.parse(txt, card);
+  assert.deepStrictEqual([d.commanders, d.cards, d.prints], [deck.commanders, deck.cards, deck.prints]);
+});
+
 // every official Commander precon passes (no false alarms)
 t("Commander precons: no false commander or duplicate alarms", () => {
   const P = require(path.join(root, "docs/data/precons.json"));
