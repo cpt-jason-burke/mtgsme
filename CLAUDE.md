@@ -39,7 +39,7 @@ You can run the same first-pass analysis the web app uses: `docs/engine.js` expo
 For a pasted Moxfield or Archidekt list: check color identity and singleton legality against the data, list its known combos (`node tools/combos.js deck`), evaluate against the user's stated plan, and name specific cuts and adds with reasons.
 
 ## Work in progress
-`HANDOFF.md` holds the plan, the user's decisions and verified facts for the work still to do (local shop prices, the comm badge cinematic) and notes on what is already built (combos, headliners, transporter console, most valuable cards, sealed prices). Read it before continuing that work; it isn't needed for rules questions.
+`HANDOFF.md` holds the plan, the user's decisions and verified facts for the work still to do (Step 6: layers engine and synergy finder; Step 7: deck editor screens and upgrades; paused: local shop prices, the comm badge cinematic) and notes on what is already built (combos, headliners, transporter console, most valuable cards, sealed prices, the logic check). Read it before continuing that work; it isn't needed for rules questions. Run `node tools/tests/logic.js` before pushing changes to the deck or rules logic.
 
 ## Hand-kept lists
 `docs/data/events.json` (MagicCons and championships) and `docs/data/announced.json` (sets Wizards has announced that have no cards in the data yet) are maintained by hand; no job updates them. Check dates against Wizards' own announcements, update the file's `updated` field, commit to `main` and push. An announced entry hides itself in the app once a set with a matching name appears in the data; delete it then. The home page filters out events that have already ended.

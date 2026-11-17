@@ -11,7 +11,7 @@ When you finish a step, update the status table at the end of this file in the s
 1. Call `get_environment`. You need the **mtgsme** environment, which allows the data and price sites listed in section 4. If the session is on **Default**, move it with `switch_environment`. If that isn't possible, ask the user to start a new session and pick **mtgsme** in the environment menu.
 2. Run `git pull`. A bot pushes data refreshes to `main` every 6 hours.
 3. Read `CLAUDE.md` and `README.md`, then the part of section 10 for your step.
-4. Ask the user which step to do (default: Step 4b or 5; see "Next up" in section 10) and that step's open questions. Use AskUserQuestion with the recommended option first; the user likes that format.
+4. If the user didn't name a step, ask which (see "Next up" in section 10), then ask that step's open questions. Use AskUserQuestion with the recommended option first; the user likes that format.
 5. Build, then test (section 12).
 6. Commit to `main` and push; that is how the site deploys. Then watch the Actions runs with the GitHub MCP tools (`actions_list`, `get_job_logs`).
 7. Tell the user in plain words what changed, how to see it on their phone, and what's next.
@@ -83,7 +83,8 @@ Everything below is live on `main`. The site is https://cpt-jason-burke.github.i
 - WebSearch works for research. WebFetch and curl only reach allowed hosts.
 - The container has Python 3.13, Node 22, and Chromium with Playwright preinstalled (`require('playwright')`, `chromium.launch()`, no install step).
 - There is no `gh` CLI; use the GitHub MCP tools.
-- A stop hook asks you to commit and push before a turn ends. Keep scratch files and tests in the session scratchpad, not the repo, and delete `tools/__pycache__`.
+- A stop hook asks you to commit and push before a turn ends. Keep scratch files in the session scratchpad, not the repo, and delete `tools/__pycache__`.
+- Logic tests live in `tools/tests/` (`node tools/tests/logic.js`: deck checks, commanders, companions, combos, engine cites). They must pass before you push; add cases when you change rules logic.
 
 ## 5. How the app is built
 
@@ -172,7 +173,9 @@ All are generated, except the two marked hand-maintained.
   - No sideways scrolling, and keep inputs at 16 px or larger so iOS doesn't zoom.
   - Respect `prefers-reduced-motion` and the safe-area insets.
 
-## 7. The user's decisions (2026-11-15)
+## 7. The user's decisions
+
+### Decisions of 2026-11-15
 
 1. **Sealed products to price:** Commander precons (including Collector's Editions) plus booster products: booster packs and boxes, Collector Booster packs and boxes, bundles (including Beam Me Up), Draft Night and Scene Boxes. Not deck storage accessories.
 2. **Animations:** both, the console first. The transporter console is the headliner section's entrance. The comm badge cinematic comes later as a hidden entrance. Both share one beam-in effect.
@@ -185,6 +188,13 @@ All are generated, except the two marked hand-maintained.
    - Pushing a tested step to `main` is OK.
    - The home-page news (`tools/fetch_news.py` and the app's `loadRedditHere`) keeps reading r/magicTCG: the user said to leave it while it works without issue.
    - The user confirmed on their phone that the Headliners banner is live.
+
+### Decisions of 2026-11-17
+1. **Fable for logic only.** The most capable model (Fable) does Step 6 (layers engine, synergy finder). A mid-tier model does Step 7 (deck editor screens). "I don't want to waste it on aesthetics, I want pure value on functionality/logic."
+2. **Paused:** Step 4b (local shops) and Step 5 (comm badge cinematic).
+3. **The layers engine matters most.** In the user's words, the app "will be useless if it can't definitively understand and predict all card interactions", using the layer rules together with the whole CR. The "said / not said" wording notes "took it a bit too literally": the goal is to understand interactions, and to suggest cards not yet listed that work with 2, 3, 4 or more chosen cards.
+4. **Upgrade means fancier versions of the same cards** (alternate art, finishes, prices), never different cards. It should work for any deck list; test with precons first. Modes run from "ballin' on a budget" (cheapest versions) to "high roller" (most expensive).
+5. **Deck editor:** a precon picker (newest first, with filters), a full-picture grid grouped by type like Moxfield, plus row and text views, a 3D carousel of each card's printings, deck buttons always reachable at the top, and smoother scrolling.
 
 ## 8. Promises made to the user
 
@@ -253,7 +263,7 @@ Several of these are also `is:serialized`. There are 298 serialized printings in
 
 ## 10. The plan
 
-**Next up: Step 4b** (local shops; ask the user for shop names in chat) **or Step 5** (comm badge cinematic); ask the user which. Optional: more list prices in `tools/sealed_list.json`, and Secret Lair sealed.
+**Next up: Step 6** (layers engine and synergy finder, on the most capable model) **and Step 7** (deck editor screens, on a mid-tier model). Run them one at a time if you can; if both run at once, `git pull` before every push. Steps 4b and 5 are paused (section 7, 2026-11-17).
 
 Do each step in its own fresh session, then build, test, commit and verify. Cost estimates are in section 11.
 
@@ -328,8 +338,69 @@ Do each step in its own fresh session, then build, test, commit and verify. Cost
   3. Step 2's beam-in reveals the seven cards.
 - **Extras:** a skip button, a reduced-motion fallback, and lazy loading.
 
+### Step 6. Layers engine and synergy finder (most capable model)
+**Why:** the user's top priority (section 7, 2026-11-17). Interact must work out what the chosen cards actually do together, through the layer system (rule 613) and the rest of the CR, and suggest cards that would work with them. Today `docs/engine.js` only tags text with regexes, and its wording notes read words too literally.
+
+- **The honest bar:** no app without a hand-written script per card can model every card. So: exact for every effect it says it understands, a visible "not modeled" note for everything else, never a silent guess. Report coverage numbers to the user.
+- **Ground truth:** expected results come only from the CR (`docs/data/cr.json`, including its examples; in 613 they sit under 613.4d, 613.5, 613.6, 613.7a and 613.9), official rulings (`docs/data/rulings.json`) and oracle text. Where none covers a case (no ruling covers Blood Moon + Urborg, for example), derive it step by step with rule cites and label it "derived". Look up every rule number; don't trust these notes or memory (the loop rules moved from 732 to 733 in the current CR).
+- **Cost:** commit and push after each phase, with tests, so nothing is lost if the Fable limit runs out (section 11).
+
+1. **Layer core,** `docs/layers.js` (pure JS for the browser and Node, no dependencies):
+   - Input: permanents on the battlefield (card, controller, owner, timestamp, counters, attachments, face-down or transformed state) plus temporary effects ("until end of turn").
+   - Continuous effects as data: layer and sublayer, which objects it affects (re-checked continuously, 611.3a), what it does, source, timestamp, duration, and whether it's a characteristic-defining ability.
+   - Apply rule 613 in full: layer 1's sublayers (613.2), CDAs first in layers 2–6 (613.3), 7a–7d (613.4), timestamps (613.7), dependency (613.8a–c, re-evaluated after each effect; loops fall back to timestamps), effects that span layers keep the same objects (613.6), and 305.7 (setting a basic land type removes the old land types and rules-text abilities). Copy effects with their exceptions (707.2, 707.9).
+   - Output for each permanent: final types, subtypes, supertypes, colors, abilities, power/toughness and controller, plus a step log ("Layer 4: …") with CR cites.
+   - Tests in `tools/tests/layers.js`: every 613 example in the CR; Humility + Opalescence in both timestamp orders (rulings of 2006-02-01); Turn to Frog and Darksteel Mutation with counters and pump effects, Inside Out, Mycosynth Lattice + March of the Machines (their rulings); and derived cases: Blood Moon + Urborg, Dryad of the Ilysian Grove + Blood Moon, Conspiracy with a changeling, Life and Limb, Ashaya, Soul of the Wild, Act of Treason with an anthem. When timestamp order changes the result, show both outcomes.
+2. **Reading effects from card text** (`docs/effects.js`, or inside `layers.js`):
+   - Turn common static and continuous templates into effects: "[group] get(s) +X/+Y"; "have / gain / lose [ability]"; "loses all abilities"; "has base power and toughness X/Y"; "is a [color] [type] with base power and toughness X/Y"; "is a [type] in addition to its other types"; "becomes a X/Y [type] creature"; "[group] are [basic land type]" (305.7); "every basic land type"; "[group] are [color]"; "You control enchanted creature"; "enters as / becomes a copy of … except …"; switching power and toughness; changeling and other CDAs ("power and toughness are each equal to …"); "As long as …" conditions.
+   - Coverage report, `node tools/layers.js --coverage`: across all cards, how many continuous effects parse and how many don't, and the most common unparsed templates. Grow coverage in order of how many cards a template covers. Anything unparsed shows as "not modeled" in the app and in the judge's output.
+   - Don't copy card scripts or code from other projects (Forge, XMage and the like) without asking the user: their licenses would apply to this public repo.
+3. **Interact board** (plain looks, matching the app):
+   - The cards picked in Interact become permanents you control, timestamped in the order added. The user can change controller, add +1/+1 or -1/-1 counters, and reorder.
+   - Show each permanent's final characteristics, the layer log, and every outcome when order matters (CLAUDE.md protocol).
+   - Lead with the resolved interaction: layers, triggers, replacement effects and their order (616), loops. Keep a wording note only when it changes the answer for these cards (for example "another" only when the card's own arrival is the question). That answers the "too literal" feedback.
+   - For the judge: `node tools/layers.js "Card A" "Card B" [--order …]`, added to `CLAUDE.md` (Sources and Interaction protocol).
+4. **Synergy finder** ("is there a card not listed that works with these?"): for any 2 or more cards in Interact, within their combined colors or a chosen commander's.
+   - Combo completion: Commander Spellbook combos that hold the chosen cards and need one more (reuse `MTGCombos.check` with the cards as a deck), with the combo id and bracket.
+   - Mechanical links: cards whose triggers fire on what these cards do, whose effects feed these cards' triggers, or that make a loop with them (reuse the engine's events; `MTGDeck.suggest` does a version for decks).
+   - Layer links: for example, if the cards turn lands into creatures, anthems apply; if they remove abilities, warn which suggestions stop working.
+   - Rank: completes a known combo, then makes a loop, then feeds two or more of the cards, then feeds one. Each suggestion says why, with cites; heuristic ones say "possible synergy, check the card".
+   - Measure it: take a sample of known 3-card combos, hide one card, and report how often the mechanical-link path alone ranks it in its top 10. Tell the user the number; don't tune to the sample.
+5. **Done when** both test files pass, the coverage numbers are reported, Interact shows layer results on a phone, the judge's command works, and this file is updated.
+
+### Step 7. Deck editor: precon picker, views, printings carousel, upgrades, scrolling (mid-tier model)
+The user's request of 2026-11-17, with screenshots of Moxfield's deck page (Visual Spoiler grouped by type, a text view, a 3D ring of cards) as the model.
+
+1. **Deck buttons always at the top:** Copy list, Import another, Clear deck and any future deck actions move from the bottom of the deck page into the Decks toolbar (`#tb-decks`, beside the Deck / Add cards switch). The user had to scroll to the very bottom to clear a deck.
+2. **Precon picker** at the top of the Deck pane. "Load a precon" opens a picker sheet, which handles 206 decks on a phone better than a plain dropdown (the user asked for a dropdown; show them this first):
+   - Commander decks from `precons.json`, newest first.
+   - Search by deck or commander name; filter by set, color identity and year; sort by newest, oldest, name or price.
+   - Price is the deck's total market value. Per-deck live totals would take thousands of Scryfall calls, so add each precon's total to a daily builder (`tools/build_top25.py` already streams Scryfall's bulk file), following section 6's builder rules.
+   - Picking a deck loads it like `copyPrecon()` (confirm before replacing a deck) and keeps each card's printing.
+3. **Deck views** (remember the choice):
+   - Grid, the default: full card pictures grouped by type with counts (Commander, Creatures, Planeswalkers, Battles, Instants, Sorceries, Artifacts, Enchantments, Lands), 2 columns on a phone and more on wider screens, using each card's exact printing when known.
+   - Rows: today's list with small art.
+   - Text: quantity, name and mana cost; tapping a name opens the card.
+   - Group by type (default), mana value, color or none; sort by name, mana value or price. The Check block, stats and curve stay above the cards.
+4. **Card view with a 3D carousel:** tapping a card in any view opens it large, with a ring of all its paper printings (like the user's reference picture: a circle of cards seen from slightly above). Swipe turns the ring; the front card shows set, collector number, finishes and prices; tapping it opens the full-screen zoom (`zoom()`, `tilt()`).
+   - Reuse `docs/trek.js`'s carousel pieces where they fit, and `Scry.printings()`.
+   - Load pictures only near the front. Cap the ring (about 24) with "Show all" for cards with many printings (Sol Ring, basic lands).
+   - With Reduce Motion or pictures off, keep today's flat swipe (`renderTopSwipe`).
+5. **Upgrade: fancier versions of the same cards,** never different cards (section 7). It works on any deck; test with precons first.
+   - Keep printings in the deck: entries get an optional `p` ("set/num") and `f` (finish). `MTGDeck.parse` must keep Moxfield and Archidekt "(SET) 123 *F*" instead of dropping it, and export writes them back so the list re-imports into Moxfield. Add tests to `tools/tests/logic.js`.
+   - Printings per card come from `Scry.printings()` (one request per card, about 120 ms apart: show progress and cache) or a daily file for precon cards. Stay within Scryfall's rate guidance.
+   - Art types to multi-select, from Scryfall's fields: borderless (`border_color`), extended art and showcase (`frame_effects`), full art (`full_art`), retro frame (`frame` 1993/1997), foil and etched (`finishes`), Secret Lair (set `sld`), serialized and other special foils (`promo_types`). Offer only types that exist for the deck's cards.
+   - Modes: "Ballin' on a budget" (cheapest version of each card), "High roller" (most expensive), or "Pick art types" (cheapest or priciest among the chosen types). Tapping a card lets the user choose its version in the carousel.
+   - Show original and upgraded printing with each price, the totals before and after, and the difference. Cards with no matching version keep theirs and say so. Prices are Scryfall's market prices and exclude shipping and tax (section 8).
+6. **Scrolling lag** ("laggy at times"): measure first (Playwright at phone size, CPU throttled, a performance trace), fix, measure again, and report both numbers. Likely causes:
+   - `.panel` in `docs/index.html` has `backdrop-filter: blur(12px)`, and nearly every row is a panel.
+   - Behind them, the fixed `.fog` layer is blurred (`filter: blur(20px)`) and animates forever, so every blurred panel is redrawn each frame. Try solid panel backgrounds and a still fog (or pause it while scrolling).
+   - Long lists: `content-visibility: auto`, and pictures that load only near the screen.
+7. **Done when** everything works at 390 px and 1280 px with no sideways scroll, tests pass, and the user has approved a preview.
+
 ## 11. Cost and pace
 
+- The user's most capable model is Fable, with a weekly limit (64% used on 2026-11-17; it resets Fridays). Spend it on Step 6's logic, and commit after each phase.
 - The user may switch to their most capable model for these steps. By public price pages (not official), it costs roughly 5× the mid-tier model per token.
 - Earlier estimates, one fresh session per step, each ±2×:
   - Mid-tier model: about $1–3 per step, $9–13 for all five.
@@ -342,7 +413,7 @@ Do each step in its own fresh session, then build, test, commit and verify. Cost
 
 ## 12. Testing recipe
 
-1. Run `node --check` on every JS file you touched. Run each builder twice: the second run should report no change. Then feed it a broken or truncated file and confirm it refuses to replace good data.
+1. Run `node tools/tests/logic.js` (and `node tools/tests/layers.js` once Step 6 adds it); both must pass. Run `node --check` on every JS file you touched. Run each builder twice: the second run should report no change. Then feed it a broken or truncated file and confirm it refuses to replace good data.
 2. Start a local server in the background: `cd docs && python3 -m http.server 8765 --bind 127.0.0.1`.
 3. Drive it with Playwright at phone size (390×844, `isMobile`, `hasTouch`) and at 1280×900:
 
@@ -394,5 +465,8 @@ const { chromium } = require('playwright');
 | 1. Headliner section and tracker | Done, live 2026-11-15 | Home banner + Sets chip, daily `tools/build_headliners.py`, finds by hand (no Reddit bot) |
 | 2. Transporter console | Done, live 2026-11-15 | `docs/trek.js`, opened by the home banner; the user approved the private preview |
 | 3. Top 25 per set | Done, live 2026-11-15 | Set, deck and drop pages; daily `tools/build_top25.py`; top 10 of up to 25, $5 floor |
-| 4. Sealed price comparison | Done, live 2026-11-15 | TCGplayer + Card Kingdom; CoolStuff and Amazon are links; 4b (local shops) not started |
-| 5. Comm badge cinematic | Not started | After Step 2 |
+| 4. Sealed price comparison | Done, live 2026-11-15 | TCGplayer + Card Kingdom; CoolStuff and Amazon are links; 4b (local shops) paused by the user |
+| 5. Comm badge cinematic | Paused by the user (2026-11-17) | After Step 2 |
+| Logic check | Done, live 2026-11-17 | Commander, partner, companion and copy checks; loop cites; guarded card build; `tools/tests/logic.js` |
+| 6. Layers engine and synergy finder | Not started | Most capable model; section 10 |
+| 7. Deck editor screens and upgrades | Not started | Mid-tier model; section 10 |
