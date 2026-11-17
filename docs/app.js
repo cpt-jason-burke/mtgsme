@@ -1371,12 +1371,14 @@
     const sets = [...new Map(all.slice().sort((a, b) => (a.d < b.d ? 1 : -1)).map((p) => [p.s, p.sn])).entries()];
     const years = [...new Set(all.map((p) => p.d.slice(0, 4)))].sort().reverse();
     const opt = (val, label, cur) => '<option value="' + esc(val) + '"' + (cur === val ? " selected" : "") + ">" + esc(label) + "</option>";
-    root.innerHTML = '<div class="field"><input type="search" class="pcq" data-pc="q" value="' + esc(s.q) + '" placeholder="Search deck or commander" autocomplete="off" autocapitalize="none" enterkeyhint="search" aria-label="Search precons"></div>' +
-      '<div class="pctl" style="margin-top:8px"><select class="sel" data-pc="set" aria-label="Set">' + opt("", "All sets", s.set) + sets.map(([c, n]) => opt(c, n, s.set)).join("") + "</select>" +
-      '<select class="sel" data-pc="year" aria-label="Year">' + opt("", "Any year", s.year) + years.map((y) => opt(y, y, s.year)).join("") + "</select>" +
-      '<select class="sel" data-pc="sort" aria-label="Sort">' + [["new", "Newest"], ["old", "Oldest"], ["name", "Name"], ["high", "Priciest"], ["low", "Cheapest"]].map(([k, l]) => opt(k, l, s.sort)).join("") + "</select></div>" +
-      '<div class="chips pcci">' + "WUBRGC".split("").map((c) => '<button class="chip' + (s.ci.includes(c) ? " on" : "") + '" data-pc="ci" data-v="' + c + '" aria-pressed="' + s.ci.includes(c) + '">' + mana("{" + c + "}") + "</button>").join("") +
-      (s.ci ? '<span class="d" style="align-self:center;font-size:12.5px">' + (s.ci === "C" ? "colorless decks" : "has these colors") + "</span>" : "") + "</div>" +
+    const n = (s.set ? 1 : 0) + (s.year ? 1 : 0) + (s.ci ? 1 : 0) + (s.sort !== "new" ? 1 : 0);
+    root.innerHTML = '<div class="prehead"><div class="field"><input type="search" class="pcq" data-pc="q" value="' + esc(s.q) + '" placeholder="Search precons" autocomplete="off" autocapitalize="none" enterkeyhint="search" aria-label="Search precons by deck or commander"></div>' +
+      '<button class="chip pcfbtn' + (s.fopen || n ? " on" : "") + '" data-pc="filters" aria-expanded="' + !!s.fopen + '">Filters' + (n ? " · " + n : "") + (s.fopen ? " ▴" : " ▾") + "</button></div>" +
+      (s.fopen ? '<div class="pcfilters"><div class="pctl"><select class="sel" data-pc="set" aria-label="Set">' + opt("", "All sets", s.set) + sets.map(([c, nm]) => opt(c, nm, s.set)).join("") + "</select>" +
+        '<select class="sel" data-pc="year" aria-label="Year">' + opt("", "Any year", s.year) + years.map((y) => opt(y, y, s.year)).join("") + "</select>" +
+        '<select class="sel" data-pc="sort" aria-label="Sort">' + [["new", "Newest"], ["old", "Oldest"], ["name", "Name"], ["high", "Priciest"], ["low", "Cheapest"]].map(([k, l]) => opt(k, l, s.sort)).join("") + "</select></div>" +
+        '<div class="chips pcci">' + "WUBRGC".split("").map((c) => '<button class="chip' + (s.ci.includes(c) ? " on" : "") + '" data-pc="ci" data-v="' + c + '" aria-pressed="' + s.ci.includes(c) + '">' + mana("{" + c + "}") + "</button>").join("") +
+        (s.ci ? '<span class="d" style="align-self:center;font-size:12px">' + (s.ci === "C" ? "colorless decks" : "has these colors") + "</span>" : "") + "</div></div>" : "") +
       '<div class="pclist" style="margin-top:8px"></div>';
     preList(root, s);
   }
@@ -1392,11 +1394,11 @@
     const by = { new: (a, b) => (a.d < b.d ? 1 : a.d > b.d ? -1 : a.n.localeCompare(b.n)), old: (a, b) => (a.d > b.d ? 1 : a.d < b.d ? -1 : a.n.localeCompare(b.n)), name: (a, b) => a.n.localeCompare(b.n),
       high: (a, b) => (val(b) ?? -1) - (val(a) ?? -1), low: (a, b) => (val(a) ?? 1e9) - (val(b) ?? 1e9) }[s.sort];
     rows = rows.slice().sort(by);
-    el.innerHTML = '<div class="d" style="margin:0 2px 6px;font-size:12.5px">' + rows.length + " precon" + (rows.length === 1 ? "" : "s") + (PP.data ? " · ≈ market value, updated " + esc(shortDate(PP.data.u)) + ", no shipping or tax" : "") + "</div>" +
+    el.innerHTML = '<div class="d" style="margin:0 2px 6px;font-size:12px">' + rows.length + " precon" + (rows.length === 1 ? "" : "s") + (PP.data ? " · ≈ market value, updated " + esc(shortDate(PP.data.u)) + ", no shipping or tax" : "") + "</div>" +
       (rows.length ? '<div class="pcl">' + rows.map((p) => {
         const ci = ciOf(p), pv = ppOf(p);
         return '<div class="pcr" data-pc="pick" data-i="' + p.i + '" role="button" tabindex="0">' + symbol(p.s) + '<div class="body"><b>' + esc(p.n) + "</b>" +
-          '<span class="sub">' + (p.cmd ? esc(p.cmd.map((r) => CARDS[r[1]].n).join(" + ")) : "No commander listed") + " " + mana([...ci].map((x) => "{" + x + "}").join("")) + " · " + esc(p.d.slice(0, 4)) + "</span></div>" +
+          '<span class="sub"><span class="cm">' + (p.cmd ? esc(p.cmd.map((r) => CARDS[r[1]].n).join(" + ")) : "No commander listed") + '</span><span class="pp">' + mana([...ci].map((x) => "{" + x + "}").join("")) + " " + esc(p.d.slice(0, 4)) + "</span></span></div>" +
           '<div class="side">' + (pv ? '<span class="price">≈ ' + money(pv[0]) + "</span>" : "") + '<button class="lnk" data-pc="cards" data-i="' + p.i + '">Cards ›</button></div></div>';
       }).join("") + "</div>" : '<div class="empty">No precon matches. Clear a filter or the search.</div>');
   }
@@ -1418,6 +1420,7 @@
       const c = ctx(el), k = el.closest("[data-pc]").dataset.pc;
       if (!c) return;
       if (k === "retry") return preOpen(c.root, c.s);
+      if (k === "filters") { c.s.fopen = !c.s.fopen; return preDraw(c.root, c.s); }
       if (k === "ci") { const v = el.closest("[data-pc]").dataset.v; c.s.ci = c.s.ci.includes(v) ? c.s.ci.replace(v, "") : v === "C" ? "C" : c.s.ci.replace("C", "") + v; return preDraw(c.root, c.s); }
       const i = +el.closest("[data-i]").dataset.i;
       if (k === "cards") return ensureSets().then(() => openSheet({ type: "deck", i }));
