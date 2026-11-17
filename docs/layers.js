@@ -456,8 +456,8 @@
       const printedAbil = o.base.abilities.map((a) => a.text);
       const kept = new Set(o.abil.filter((a) => a.src === "printed" || a.src === "copy").map((a) => a.text));
       finals.push({ id: o.id, name: o.name, card: o.printedName, controller: o.controller, owner: o.owner, types, supertypes: supers, subtypes: subs, allCreatureTypes: o.allCT, typeLine,
-        colors: "WUBRG".split("").filter((c) => o.colors.has(c)), abilities: o.abil.map((a) => ({ text: a.text, kw: a.kw, from: a.src === "effect" ? a.from : a.src === "intrinsic" ? "its land type" : a.src === "counter" ? "a counter" : null })),
-        was, lost: printedAbil.filter((x) => !kept.has(x)), p, t, pt: creature ? show(p) + "/" + show(t) : null, unknownPT: o.unknownPT, counters: o.counters, attachedTo: o.attachedTo, token: o.token, mv: o.mv, ts: o.ts });
+        colors: "WUBRG".split("").filter((c) => o.colors.has(c)), abilities: o.abil.map((a) => ({ text: a.text.replace(/~/g, o.name || "this permanent"), kw: a.kw, from: a.src === "effect" ? a.from : a.src === "intrinsic" ? "its land type" : a.src === "counter" ? "a counter" : null })),
+        was, lost: printedAbil.filter((x) => !kept.has(x)).map((x) => x.replace(/~/g, o.base.name || "this permanent")), p, t, pt: creature ? show(p) + "/" + show(t) : null, unknownPT: o.unknownPT, counters: o.counters, attachedTo: o.attachedTo, token: o.token, mv: o.mv, ts: o.ts });
     }
     return { finals, log, unmodeled: dedupe(unmodeled), conditions: dedupe(conditions), needs, objs };
   }

@@ -115,5 +115,36 @@ t("combos: Sanguine Bond + Exquisite Blood is found", () => {
   assert.ok(r.have.some((c) => c.cards.length === 2 && c.cards.includes("Sanguine Bond") && c.cards.includes("Exquisite Blood")));
 });
 
+// wording notes are kept only when they can change the answer for the chosen cards
+t("relevant wording: Soul Warden's \"another\" matters next to a token maker; unrelated notes are dropped", () => {
+  const cs = [card("Soul Warden"), card("Avenger of Zendikar")], r = E.analyze(cs, { cr });
+  const rel = E.relevantWording(cs, r, { cr }), all = E.wording(cs, { cr });
+  assert.ok(rel.some((w) => w.card === "Soul Warden" && w.key === "another"));
+  assert.ok(rel.length < all.length && all.every((w) => w.key));
+});
+t("relevant wording: two cards with no link between them get no notes", () => {
+  const cs = [card("Humility"), card("Opalescence")];
+  assert.strictEqual(E.relevantWording(cs, E.analyze(cs, { cr }), { cr }).length, 0);
+});
+// synergy finder
+t("synergy: a card that finishes a known combo comes first, with the combo id", () => {
+  const S = require(path.join(root, "docs/synergy.js"));
+  const small = cards.filter((c) => /\bB\b|^$/.test(c.ci) && c.ci.length < 2).slice(0, 4000).concat(card("Exquisite Blood"));
+  const ix = S.index(small); ix.step();
+  const cx = C.index(require(path.join(root, "docs/data/combos.json")), card);
+  const r = S.find([card("Sanguine Bond"), card("Vito, Thorn of the Dusk Rose")], ix, { combos: { api: C, ix: cx }, cr });
+  const top = r.items[0];
+  assert.strictEqual(top.tier, 1); assert.ok(top.why[0].combo && top.why[0].combo.id);
+  assert.ok(r.items.some((x) => x.n === "Exquisite Blood" && x.tier === 1));
+  assert.ok(r.items.every((x) => !x.card || [...x.card.ci].every((ch) => "B".includes(ch))), "suggestions stay inside the chosen cards' colors");
+});
+t("synergy: text-found links are marked possible, and Humility draws a warning on creatures", () => {
+  const S = require(path.join(root, "docs/synergy.js"));
+  const ix = S.index(cards.filter((c) => c.ci === "W" || c.ci === "").slice(0, 6000)); ix.step();
+  const r = S.find([card("Humility"), card("Soul Warden")], ix, { cr, limit: 40 });
+  assert.ok(r.items.length && r.items.every((x) => x.possible));
+  assert.ok(r.items.some((x) => x.warn && /Humility/.test(x.warn.text)));
+});
+
 console.log(pass + " passed, " + fail + " failed");
 process.exit(fail ? 1 : 0);
