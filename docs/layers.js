@@ -133,6 +133,9 @@
     if (sel.withKw && !o.abil.some((a) => a.kw === sel.withKw)) return false;
     if (sel.withoutKw && o.abil.some((a) => a.kw === sel.withoutKw)) return false;
     if (sel.counter && !(sel.counter === "*" ? Object.values(o.counters).some((n) => n > 0) : o.counters[sel.counter] > 0)) return false;
+    if (sel.owned && o.owner !== ctx.controller) return false;
+    if (sel.anySub && !sel.anySub.some((t) => hasSub(o, t))) return false;
+    if (sel.chosenColor) { const c = ctx.chosen && ctx.chosen.color; if (!c || !o.colors.has(c)) return false; }
     if (sel.chosenType) { const t = ctx.chosen && ctx.chosen.type; if (!t || !hasSub(o, t)) return false; }
     if (sel.stat) {
       const v = sel.stat.what === "power" ? o.p : sel.stat.what === "toughness" ? o.t : o.mv;
@@ -177,7 +180,7 @@
     const who = inst.tpl.who, src = objs.get(inst.srcId), ctx = ctxOf(inst, objs);
     if (who.kind === "self") return src ? [src.id] : [];
     if (who.kind === "attached") return src && src.attachedTo != null && objs.has(src.attachedTo) ? [src.attachedTo] : [];
-    if (who.kind === "target") return inst.target != null && objs.has(inst.target) ? [inst.target] : [];
+    if (who.kind === "target") return (inst.targets || (inst.target != null ? [inst.target] : [])).filter((id) => objs.has(id));
     if (who.kind === "group") {
       if (inst.locked) return inst.locked.filter((id) => objs.has(id));
       const out = [];
@@ -244,7 +247,8 @@
   function applyPart(part, o, inst, ctx, objs, state) {
     const L = part.layer, did = [];
     if (L === "2") {
-      if (o.controller !== ctx.controller) { o.controller = ctx.controller; did.push("is now controlled by " + who(ctx.controller)); }
+      if (part.control === "other") { o.controller = ctx.controller === "you" ? "opp" : "you"; did.push("is now controlled by " + who(o.controller)); }
+      else if (o.controller !== ctx.controller) { o.controller = ctx.controller; did.push("is now controlled by " + who(ctx.controller)); }
       else did.push("stays under " + (ctx.controller === "you" ? "your" : "the opponent's") + " control");
     } else if (L === "4") {
       if (part.setCard) { o.types = new Set(part.setCard); did.push("becomes only: " + part.setCard.join(" ") + (cite("205.1a") ? " (205.1a)" : "")); }
@@ -386,7 +390,7 @@
     gather();
     for (const e of state.effects || []) (e.templates || []).forEach((tpl, i) => {
       const key = "e" + e.id + "#" + i;
-      insts.set(key, { key, kind: "resolved", srcId: e.sourceId != null ? e.sourceId : null, tpl, ts: e.ts, controller: e.controller || "you", target: e.target, x: e.x, name: e.name, order: order++, started: false, set: null, locked: e.locked ? e.locked[i] || null : null, chosen: e.chosen || null });
+      insts.set(key, { key, kind: "resolved", srcId: e.sourceId != null ? e.sourceId : null, tpl, ts: e.ts, controller: e.controller || "you", target: e.target, targets: e.targets || null, x: e.x, name: e.name, order: order++, started: false, set: null, locked: e.locked ? e.locked[i] || null : null, chosen: e.chosen || null });
     });
     for (const o of objs.values()) {
       const plus = (o.counters["+1/+1"] || 0) - (o.counters["-1/-1"] || 0);
@@ -410,7 +414,7 @@
       }
       for (const i of insts.values()) if (i.kind === "static" && !done.has(i.key) && !i.started && i.tpl.parts.some((p) => p.layer === L) && objs.has(i.srcId) && !exists(i, objs) && !i.saidGone) {
         i.saidGone = true;
-        log.push({ layer: L, rule: cite("613.6"), note: i.name + " no longer has the ability \"" + i.tpl.text + "\", so that effect does not apply." });
+        log.push({ layer: L, rule: null, note: i.name + " no longer has the ability \"" + i.tpl.text + "\", so that effect does not apply." });
       }
       if (L === "4") for (const o of objs.values()) {   // 305.6: a land with a basic land type has that type's mana ability
         if (!o.types.has("Land")) continue;
@@ -457,11 +461,11 @@
 
   // A group effect from a resolved spell or ability only affects what matched when it resolved (611.2c).
   function lockSets(state, opts) {
-    const effects = (state.effects || []).filter((e) => !e.locked && (e.templates || []).some((t) => t.who.kind === "group"));
+    const effects = (state.effects || []).filter((e) => !e.locked && !e.continuous && (e.templates || []).some((t) => t.who.kind === "group"));
     if (!effects.length) return state;
     const out = Object.assign({}, state, { effects: (state.effects || []).map((e) => Object.assign({}, e)) });
     for (const e of out.effects.slice().sort((a, b) => a.ts - b.ts)) {
-      if (e.locked || !(e.templates || []).some((t) => t.who.kind === "group")) continue;
+      if (e.locked || e.continuous || !(e.templates || []).some((t) => t.who.kind === "group")) continue;
       const earlier = { permanents: out.permanents.filter((p) => p.ts < e.ts).map((p) => (p.attachedTo != null && !out.permanents.some((q) => q.id === p.attachedTo && q.ts < e.ts) ? Object.assign({}, p, { attachedTo: null }) : p)),
         effects: out.effects.filter((x) => x.ts < e.ts), assume: out.assume, values: out.values };
       const r = compute(lockSets(earlier, opts), opts);
@@ -641,19 +645,23 @@
         }
         const ab = src && FX.parseCard(src.card).abilities[e.use.ability];
         if (!src || !ab || !ab.templates.length) { notes.push("An ability to use was not found."); return; }
-        const tpls = ab.templates;
+        const mode = e.mode || (ab.templates.find((t) => t.mode) || {}).mode;
+        const tpls = ab.templates.filter((t) => !t.mode || t.mode === mode);
         const tgt = tpls.find((t) => t.who.kind === "target");
         const target = tgt ? pickTarget(tgt.who.filter, e.target, entries.slice(0, idx).filter((x) => x.card && !x.use && !FX.parseCard(x.card).spell)) : null;
         state.effects.push({ id: e.id, name: (src.label || src.card.n) + (ab.kind === "activated" ? " (ability)" : " (trigger)"), sourceId: src.id, templates: tpls.map((t) => (t.who.kind === "self" ? Object.assign({}, t, { who: { kind: "target" } }) : t)),
-          controller: src.controller || "you", ts, target: tgt ? target : tpls.some((t) => t.who.kind === "self") ? src.id : null, x: e.x, chosen: e.chosen || src.chosen || null });
+          controller: src.controller || "you", ts, target: tgt ? target : tpls.some((t) => t.who.kind === "self") ? src.id : null, targets: e.targets || null, x: e.x, chosen: e.chosen || src.chosen || null, continuous: tpls.some((t) => t.emblem) });
         if (tgt && target == null) notes.push(src.card.n + "'s ability has no legal target on the board.");
         return;
       }
       if (parsed.spell) {
-        const tpls = [].concat(...parsed.abilities.map((a) => a.templates));
+        const allT = [].concat(...parsed.abilities.map((a) => a.templates));
+        const mode = e.mode || (allT.find((t) => t.mode) || {}).mode;
+        const tpls = allT.filter((t) => !t.mode || t.mode === mode);
+        if (allT.some((t) => t.mode)) notes.push(e.card.n + " is modal: using mode " + mode + ".");
         const tgt = tpls.find((t) => t.who.kind === "target");
         const target = tgt ? pickTarget(tgt.who.filter, e.target, earlier) : null;
-        if (tpls.length) state.effects.push({ id: e.id, name: e.label || e.card.n, templates: tpls, controller: ctrl, ts, target, x: e.x, chosen: e.chosen || null });
+        if (tpls.length) state.effects.push({ id: e.id, name: e.label || e.card.n, templates: tpls, controller: ctrl, ts, target, targets: e.targets || null, x: e.x, chosen: e.chosen || null });
         if (tgt && target == null) notes.push(e.card.n + " has no legal target among the cards before it.");
         for (const a of parsed.abilities) for (const u of a.unmodeled) notes.push("Not modeled: " + e.card.n + ": " + u.text);
         return;

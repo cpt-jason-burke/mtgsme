@@ -133,8 +133,9 @@
     const sel = { kind: "group" };
     let m = s.match(/^(.*?)\s*\b(you control|your opponents control|an opponent controls|you don't control)\b\s*(.*)$/i);
     if (m) { sel.control = /^you control$/i.test(m[2]) ? "you" : "opp"; s = (m[1] + " " + m[3]).trim(); }
-    m = s.match(/^(.*?) of the chosen type$/i);
-    if (m) { sel.chosenType = true; s = m[1]; }
+    else if ((m = s.match(/^(.*?)\s*\byou own\b\s*(.*)$/i))) { sel.owned = true; s = (m[1] + " " + m[2]).trim(); }
+    m = s.match(/^(.*?) of the chosen (type|colou?r)$/i);
+    if (m) { if (/type/i.test(m[2])) sel.chosenType = true; else sel.chosenColor = true; s = m[1]; }
     m = s.match(/^(.*?) with(out)? (.+)$/i);
     if (m) {
       const w = m[3];
@@ -147,11 +148,15 @@
       if (m[2] && !sel.withoutKw) return null;
       s = m[1];
     }
+    if ((m = s.match(/^(.*?) that(?:'s| is| are) (?:an? )?([A-Z][a-z]+)(?: or (?:an? )?([A-Z][a-z]+))?$/)) && FORMS.has(m[2].toLowerCase()) && (!m[3] || FORMS.has(m[3].toLowerCase()))) {
+      sel.anySub = [FORMS.get(m[2].toLowerCase())[0]].concat(m[3] ? [FORMS.get(m[3].toLowerCase())[0]] : []); s = m[1];
+    }
     if (/\b(?:that|which|named|if|as long as|other than)\b/i.test(s)) return null;
     // "A and B", "A, B, or C": any of several simple groups
     if (/,| or | and /i.test(s)) {
       const parts = s.split(/,\s*(?:and |or )?(?:all |each )?| (?:and|or|and\/or) (?:all |each )?/i).map((x) => x.trim()).filter(Boolean);
-      const any = parts.map((p) => simpleGroup(p));
+      const noun = parts[parts.length - 1].split(" ").pop();
+      const any = parts.map((p) => simpleGroup(p) || simpleGroup(p + " " + noun));   // "white or blue creature": the noun is shared
       if (any.some((x) => !x)) return null;
       // "artifact and enchantment creatures": earlier parts are adjectives sharing the last noun
       return Object.assign(sel, { any });
@@ -202,14 +207,16 @@
   function parseSubject(str) {
     const s = str.trim();
     if (/^~$/.test(s)) return { kind: "self" };
-    if (/^(?:it|they|that (?:creature|permanent|land|artifact|enchantment|planeswalker)|those (?:creatures|permanents|lands))$/i.test(s)) return { kind: "that" };
+    if (/^(?:it|that (?:creature|permanent|land|artifact|enchantment|planeswalker|card|Vehicle|Equipment))$/i.test(s)) return { kind: "that" };
+    if (/^(?:they|those (?:creatures|permanents|lands|artifacts)|each of (?:them|those creatures)|both creatures)$/i.test(s)) return { kind: "that", plural: true };
     let m = s.match(/^(enchanted|equipped|fortified) (creature|permanent|land|artifact|enchantment|planeswalker|Equipment|Vehicle|Forest|Island|Swamp|Mountain|Plains)$/i);
     if (m) return { kind: "attached" };
-    m = s.match(/^(up to one )?(another )?target (.+)$/i);
+    m = s.match(/^(up to )?(one |two |three |four |five |X |any number of )?(another |other )?target (.+?)( each)?$/i);
     if (m) {
-      const g = parseGroup(m[3]);
+      const g = parseGroup(m[4]);
       if (!g) return null;
-      return { kind: "target", filter: Object.assign(g, m[2] ? { other: true } : {}), optional: !!m[1] };
+      const n = { one: 1, two: 2, three: 3, four: 4, five: 5 }[(m[2] || "one").trim().toLowerCase()] || 9;
+      return { kind: "target", filter: Object.assign(g, m[3] ? { other: true } : {}), optional: !!m[1], count: n };
     }
     if (/\btarget\b/i.test(s)) return null;
     return parseGroup(s);
@@ -320,6 +327,9 @@
 
   const NEXT_PRED = "(?=$|\\.|,? and (?:it |they )?(?:has|have|gains?|loses?|gets?|is|are|becomes?|can't)\\b|, (?:has|have|gains?|loses?|gets?|is|are)\\b| until end of turn| as long as | for as long as )";
 
+  // After a characteristic change, a clause that only changes what the permanent may do (613.11) is kept as a note.
+  const ALSO = /^(?:can't|must|is goaded|are goaded|is suspected|attacks? each|blocks? each|doesn't untap|don't untap|can (?:attack|block)|may (?:attack|block)|is unblockable|assigns?|deals? )/;
+
   function parsePredicates(str) {
     let s = str; const parts = []; let first = true, m;
     while (s && !/^\.?$/.test(s)) {
@@ -329,6 +339,7 @@
         s = s.slice(m[0].length);
       }
       first = false;
+      if (parts.length && (m = s.match(ALSO))) { parts.also = (parts.also ? parts.also + " " : "") + s.replace(/\.$/, ""); s = ""; break; }
       if ((m = s.match(/^gets? ([+-](?:\d+|X))\/([+-](?:\d+|X))/))) {
         s = s.slice(m[0].length);
         const sign = (v) => (/X/.test(v) ? { x: true, neg: v[0] === "-" } : +v);
@@ -382,13 +393,13 @@
         parts.push(...ch.parts); s = ch.rest;
       } else return null;
     }
-    return { parts, rest: s };
+    return { parts, rest: s, also: parts.also };
   }
 
   // Looks like a continuous effect that changes characteristics or control (the coverage denominator).
   const LOOKS = new RegExp([
     "\\bgets? [+-](?:\\d+|X)\\/[+-](?:\\d+|X)",
-    "\\b(?:has|have|gains?) (?:\"|base power|base toughness|all creature types|(?:" + "flying|first strike|double strike|deathtouch|defender|haste|hexproof|indestructible|lifelink|menace|reach|trample|vigilance|ward|protection|shroud|fear|intimidate|shadow|horsemanship|flanking|skulk|wither|infect|persist|undying|changeling|prowess|banding|phasing|exalted|toxic|annihilator|\\w+walk" + ")\\b)",
+    "(?<!didn't |doesn't |don't |not )\\b(?:has|have|gains?) (?:\"|base power|base toughness|all creature types|(?:" + "flying|first strike|double strike|deathtouch|defender|haste|hexproof|indestructible|lifelink|menace|reach|trample|vigilance|ward|protection|shroud|fear|intimidate|shadow|horsemanship|flanking|skulk|wither|infect|persist|undying|changeling|prowess|banding|phasing|exalted|toxic|annihilator|\\w+walk" + ")\\b)",
     "\\bloses? (?:all (?:other )?(?:abilities|card types|creature types)|flying|defender|hexproof|indestructible|reach|trample|first strike|haste|vigilance)",
     "\\bbecomes? (?:an? )?(?:\\d+\\/\\d+|X\\/X|white|blue|black|red|green|colorless|artifact|creature|land|enchantment|[A-Z][a-z]+ (?:artifact |land |enchantment )?creature|the colou?r|every|a copy|the chosen)",
     "\\b(?:is|are) (?:an? )?[^.\"]*in addition to (?:its|their) other",
@@ -412,6 +423,17 @@
     const tpl = { who: null, parts: [], cond: null, duration: ctx.kind === "static" ? "static" : "indefinite", text: sentence.trim() };
     let m;
     s = s.replace(/^[A-Z][A-Za-z' ]{2,24} — /, "");
+    if (/^• /.test(s)) s = s.slice(2);
+    if (ctx.kind === "static") s = s.replace(/\b([Ii])t's (?=an? )/, "$1t is ");
+    if (/^(?:You|Players|Each player|Your opponents|Each opponent) (?:has|have|gains?|can't)\b/.test(s) && !/\bgains? control of\b/.test(s)) return null;   // affects players, not permanents (613.10)
+    if (ctx.kind !== "static") {
+      const lead = s.match(/^(?:If you do|When you do|Then|Also|In addition), /i);
+      if (lead) { tpl.ifText = lead[0].replace(/, $/, ""); s = s.slice(lead[0].length); }
+      s = s.replace(/^you may have (?=(?:up to |another )?(?:target|~|it|that|each|all|creatures))/i, "");
+      s = s.replace(/^(.*?gets? [+-](?:\d+|X)\/[+-](?:\d+|X)) until end of turn (for each .+)$/, "$1 $2 until end of turn");
+      s = s.replace(/^Untap (target [^.]+?) and gain control of it\b/i, "Gain control of $1");
+      if (/ until end of turn(?=,? and |, )/.test(s)) { s = s.replace(/ until end of turn(?=,? and |, )/g, ""); tpl.duration = "eot"; }
+    }
     for (let again = true; again;) {
       again = false;
       if ((m = s.match(/^Until end of turn, /i))) { tpl.duration = "eot"; s = s.slice(m[0].length); again = true; }
@@ -423,6 +445,7 @@
       for (let again = true; again;) {
         again = false;
         if ((m = s.match(/ until end of turn$/i))) { tpl.duration = "eot"; s = s.slice(0, m.index); again = true; }
+        else if ((m = s.match(/ until (?:your next turn|the end of your next turn|end of combat|the beginning of your next (?:upkeep|end step))$/i))) { tpl.duration = "eot"; tpl.until = m[0].trim(); s = s.slice(0, m.index); again = true; }
         else if ((m = s.match(/ this turn$/i)) && ctx.kind !== "static") { tpl.duration = "eot"; s = s.slice(0, m.index); again = true; }
         else if ((m = s.match(/ for as long as (.+)$/i))) { tpl.duration = "while"; tpl.whileText = m[1]; s = s.slice(0, m.index); again = true; }
         else if ((m = s.match(/,? as long as ((?:(?!, ).)+)$/i))) { tpl.cond = parseCond(m[1]); s = s.slice(0, m.index); again = true; }
@@ -433,10 +456,13 @@
     const fail = (why) => (looks ? { unmodeled: why || "wording not recognized" } : null);
     const ok = () => {
       if (!tpl.parts.length) return fail();
+      if (tpl.parts.also) tpl.also = tpl.parts.also;
       tpl.parts = tidy(tpl.parts);
       if (tpl.who.kind === "that" && ctx.kind === "static") {
-        if (tpl.cond && tpl.cond.on === "attached") tpl.who = { kind: "attached" };
-        else if (tpl.cond && tpl.cond.on === "self") tpl.who = { kind: "self" };
+        const ct = tpl.cond ? tpl.cond.text || tpl.cond.unknown || "" : "";
+        if (tpl.who.plural) return fail("which permanents \"they\" are");
+        if (tpl.cond && (tpl.cond.on === "attached" || /\b(?:enchanted|equipped|fortified) (?:creature|permanent|land|artifact)\b/i.test(ct))) tpl.who = { kind: "attached" };
+        else if (tpl.cond && (tpl.cond.on === "self" || /~/.test(ct))) tpl.who = { kind: "self" };
         else return fail("which permanent \"it\" is");
       }
       if (ctx.kind === "static" && tpl.who.kind === "self" && !tpl.cond && !ctx.granted &&
@@ -450,6 +476,17 @@
       const who = parseSubject(m[1]);
       if (!who || who.kind === "group") return fail("which permanents change control");
       tpl.who = who; tpl.parts.push({ layer: "2", control: true }); return ok();
+    }
+    if ((m = s.match(/^(?:Target opponent|Target player|That player|That opponent|An opponent|The player to your (?:left|right)|Defending player) gains control of (.+)$/i))) {
+      const who = parseSubject(m[1]);
+      if (!who || who.kind === "group") return fail("which permanents change control");
+      tpl.who = who; tpl.parts.push({ layer: "2", control: "other" }); return ok();
+    }
+    if ((m = s.match(/^You get an emblem with "([^"]+)"$/i))) {
+      const r = parseAbilityText(m[1], { kind: "static", granted: true });
+      if (!r.templates.length || r.unmodeled.length) return looks ? { unmodeled: "the emblem's wording" } : null;
+      for (const t of r.templates) { t.emblem = true; t.duration = "emblem"; }
+      return { templates: r.templates };
     }
     if ((m = s.match(/^Switch (.+?)'s power and toughness$/i))) {
       const who = parseSubject(m[1]);
@@ -490,7 +527,7 @@
       const pr = parsePredicates(s.slice(v.index));
       if (!pr || !pr.parts.length) continue;
       if (pr.rest && !/^\.?$/.test(pr.rest)) continue;
-      tpl.who = who; tpl.parts = pr.parts;
+      tpl.who = who; tpl.parts = pr.parts; if (pr.also) tpl.parts.also = pr.also;
       if (who.kind === "target" && who.filter && hasUnknown(who.filter)) { /* a target is chosen by the user, so a state word doesn't block it */ }
       return ok();
     }
@@ -564,14 +601,19 @@
   // Parse one ability's text. ctx.kind: static | resolved; ctx.granted: the ability was given by another effect.
   function parseAbilityText(text, ctx) {
     const templates = [], unmodeled = [];
+    let madeToken = false, mode = 0;
     for (const s of splitSentences(text)) {
+      if (/^• /.test(s)) mode++;
+      // "Create a token. It has ..." describes the new token, not something already on the battlefield
+      if (madeToken && /^(?:It|They|That token|Those tokens|The token|Each of those tokens)\b/.test(s) && !/\btarget\b/.test(s)) continue;
+      madeToken = /\b[Cc]reates?\b[^.]*\btokens?\b/.test(s) || (madeToken && /^(?:It|They)\b/.test(s));
       const masked = ctx.kind !== "static" && /\b[Cc]reates?\b/.test(s) ? s.replace(/"[^"]*"/g, '""') : s;
       if (COPYISH.test(masked)) { if (!ctx.copyHandled) unmodeled.push({ text: s, why: "copy effect outside \"enters as a copy\"" }); continue; }
       if (/\b[Cc]reates?\b[^.]*\btokens?\b/.test(masked) && !/\b(?:gets?|gains?) [+-]?\w*\/?/.test(masked.replace(/\b[Cc]reates?\b[^.]*?\btokens?\b[^.]*?(?:\.|$)/, ""))) continue;
       const r = parseSentence(masked, ctx);
       if (!r) continue;
       if (r.unmodeled) unmodeled.push({ text: s, why: r.unmodeled });
-      else templates.push(...r.templates);
+      else { if (mode) for (const x of r.templates) x.mode = mode; templates.push(...r.templates); }
     }
     // "It gains haste until end of turn." after a target sentence refers to the same object
     let last = null;
@@ -583,11 +625,16 @@
     const keep = [];
     for (const t of templates) {
       if (t.who.kind === "that") {
-        const who = last || named();
-        if (!who && ctx.selfIt) { t.who = { kind: "self" }; keep.push(t); continue; }
-        if (!who) { unmodeled.push({ text: t.text, why: "which permanent \"it\" is" }); continue; }
-        t.who = JSON.parse(JSON.stringify(who));
-      } else last = t.who;
+        const who = (last && (!t.mode || last.mode === t.mode) ? last.who : null) || (t.mode ? null : named());
+        if (!who && (ctx.selfIt || /~/.test(text.slice(0, Math.max(0, text.indexOf(t.text))))) && !t.who.plural) { t.who = { kind: "self" }; keep.push(t); continue; }
+        if (!who && t.who.plural) {   // "Put a counter on each creature you control. Those creatures gain ..."
+          const g = text.slice(0, Math.max(0, text.indexOf(t.text))).match(/\b(?:each|all) ((?:other )?[A-Za-z ]+?)(?=\.|,| and )/);
+          const grp = g && parseGroup(g[1]);
+          if (grp && !hasUnknown(grp)) { t.who = grp; keep.push(t); continue; }
+        }
+        // otherwise "it" is whatever the ability is talking about (the attacker, the returned card): the user points at it
+        t.who = who ? JSON.parse(JSON.stringify(who)) : { kind: "target", filter: null, pronoun: true, count: t.who.plural ? 9 : 1 };
+      } else last = { who: t.who, mode: t.mode };
       keep.push(t);
     }
     return { templates: keep, unmodeled };
@@ -599,11 +646,22 @@
     const text = normalize(card);
     const isSpell = /\b(?:Instant|Sorcery)\b/.test(card.t) ;
     const out = { name: card.n, abilities: [], enchant: null, copy: null, choices: [], spell: isSpell };
+    let modes = 0;
     for (const raw of text.split("\n")) {
       const line = raw.trim();
       if (!line) continue;
       const ab = { text: line, kind: "static", templates: [], unmodeled: [] };
       let m;
+      const prev = out.abilities[out.abilities.length - 1];
+      if (/^• /.test(line) && prev && prev.kind !== "keyword" && prev.kind !== "enchant") {   // one mode of the ability above
+        modes++;
+        const r = parseAbilityText(line.slice(2), { kind: "resolved", selfIt: /~/.test(line) });
+        for (const t of r.templates) t.mode = modes;
+        prev.templates.push(...r.templates); prev.unmodeled.push(...r.unmodeled); prev.text += "\n" + line; prev.modal = true;
+        if (prev.kind === "static") prev.kind = isSpell ? "spell" : "triggered";
+        continue;
+      }
+      modes = 0;
       if ((m = line.match(/^Enchant (.+)$/)) && !/\.$/.test(line)) {
         ab.kind = "enchant"; ab.kw = "enchant";
         out.enchant = /\b(?:player|opponent)\b/.test(m[1]) ? { player: true } : parseGroup(m[1]) || { unknownText: m[1] };
@@ -637,6 +695,10 @@
         const i = line.indexOf(": ");
         ab.cost = line.slice(0, i);
         const r = parseAbilityText(line.slice(i + 2), { kind: "resolved" });
+        ab.templates = r.templates; ab.unmodeled = r.unmodeled;
+      } else if (!isSpell && /\buntil end of turn\b|\bWhen you do, /.test(line) && !/^As long as|^During /.test(line)) {
+        ab.kind = "triggered";   // "You may exert ~ as it attacks. When you do, it gets ...": a one-shot effect, not always on
+        const r = parseAbilityText(line, { kind: "resolved", selfIt: true });
         ab.templates = r.templates; ab.unmodeled = r.unmodeled;
       } else {
         ab.kind = isSpell ? "spell" : "static";
@@ -689,14 +751,15 @@
   // Coverage of one card: every sentence that looks like a continuous effect, parsed or not.
   function coverage(card) {
     const p = parseCard(card);
-    const out = { parsed: 0, conditional: 0, unmodeled: [], kinds: {} };
+    const out = { parsed: 0, conditional: 0, unmodeled: [], kinds: {}, static: [0, 0] };
     for (const ab of p.abilities) {
       for (const t of ab.templates) {
         const cond = (t.cond && t.cond.unknown) || (t.who.kind === "group" && hasUnknown(t.who)) || t.parts.some((x) => [x.p, x.t].some((v) => v && typeof v === "object" && (v.unknown || v.x)));
         if (cond) out.conditional++; else out.parsed++;
+        if (ab.kind === "static" || ab.kind === "keyword") out.static[0]++;
         out.kinds[ab.kind] = (out.kinds[ab.kind] || 0) + 1;
       }
-      for (const u of ab.unmodeled) out.unmodeled.push({ kind: ab.kind, text: u.text, why: u.why });
+      for (const u of ab.unmodeled) { out.unmodeled.push({ kind: ab.kind, text: u.text, why: u.why }); if (ab.kind === "static") out.static[1]++; }
     }
     if (p.copy) { if (p.copy.of && !p.copy.notes.some((n) => /not (?:modeled|recognized)/.test(n))) out.parsed++; else out.unmodeled.push({ kind: "copy", text: p.copy.text, why: p.copy.notes.join("; ") }); }
     return out;
