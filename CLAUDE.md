@@ -41,6 +41,9 @@ For a pasted Moxfield or Archidekt list: check color identity and singleton lega
 ## Work in progress
 `HANDOFF.md` holds the plan, the user's decisions and verified facts for the work still to do (local shop prices, the comm badge cinematic) and notes on what is already built (combos, headliners, transporter console, most valuable cards, sealed prices). Read it before continuing that work; it isn't needed for rules questions.
 
+## Hand-kept lists
+`docs/data/events.json` (MagicCons and championships) and `docs/data/announced.json` (sets Wizards has announced that have no cards in the data yet) are maintained by hand; no job updates them. Check dates against Wizards' own announcements, update the file's `updated` field, commit to `main` and push. An announced entry hides itself in the app once a set with a matching name appears in the data; delete it then. The home page filters out events that have already ended.
+
 ## Headliner finds
 When the user sends a link to a pull, sale or listing of a headliner card (`docs/data/headliners.json`), check what it shows, get the user's OK, then add it to `docs/data/headliner-finds.json` (hand-maintained; its `about` field gives the format), commit to `main` and push. Add nothing the user hasn't approved. No bot reads Reddit for finds (the user's choice).
 
