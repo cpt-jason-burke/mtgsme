@@ -448,12 +448,16 @@
       const types = [...o.types].sort((a, b) => order.indexOf(a) - order.indexOf(b));
       const supers = FX.SUPERTYPES.filter((s) => o.supers.has(s));
       const subs = [...o.subs];
-      const typeLine = supers.concat(types).join(" ") + (subs.length || o.allCT ? " — " + subs.join(" ") + (o.allCT ? (subs.length ? " + " : "") + "every creature type" : "") : "");
+      const line = (sup, ty, sb, all) => sup.concat(ty).join(" ") + (sb.length || all ? " — " + sb.join(" ") + (all ? (sb.length ? " + " : "") + "every creature type" : "") : "");
+      const typeLine = line(supers, types, subs, o.allCT);
+      const b = o.base, bCre = b.card.includes("Creature");
+      const was = { typeLine: line(FX.SUPERTYPES.filter((x) => b.sup.includes(x)), b.card.slice().sort((x, y) => order.indexOf(x) - order.indexOf(y)), b.sub, false), colors: "WUBRG".split("").filter((c) => b.colors.includes(c)),
+        pt: bCre ? show(b.p == null ? 0 : b.p) + "/" + show(b.t == null ? 0 : b.t) : null, controller: o.perm.controller || "you" };
       const printedAbil = o.base.abilities.map((a) => a.text);
       const kept = new Set(o.abil.filter((a) => a.src === "printed" || a.src === "copy").map((a) => a.text));
       finals.push({ id: o.id, name: o.name, card: o.printedName, controller: o.controller, owner: o.owner, types, supertypes: supers, subtypes: subs, allCreatureTypes: o.allCT, typeLine,
         colors: "WUBRG".split("").filter((c) => o.colors.has(c)), abilities: o.abil.map((a) => ({ text: a.text, kw: a.kw, from: a.src === "effect" ? a.from : a.src === "intrinsic" ? "its land type" : a.src === "counter" ? "a counter" : null })),
-        lost: printedAbil.filter((x) => !kept.has(x)), p, t, pt: creature ? show(p) + "/" + show(t) : null, unknownPT: o.unknownPT, counters: o.counters, attachedTo: o.attachedTo, token: o.token, mv: o.mv, ts: o.ts });
+        was, lost: printedAbil.filter((x) => !kept.has(x)), p, t, pt: creature ? show(p) + "/" + show(t) : null, unknownPT: o.unknownPT, counters: o.counters, attachedTo: o.attachedTo, token: o.token, mv: o.mv, ts: o.ts });
     }
     return { finals, log, unmodeled: dedupe(unmodeled), conditions: dedupe(conditions), needs, objs };
   }

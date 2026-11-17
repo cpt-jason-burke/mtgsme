@@ -14,6 +14,7 @@
   const state = {
     ci: new Set(), type: "", legal: false, gc: false, shown: 50,
     picked: store.get("picked", []),
+    board: store.get("board", null) || { o: {}, uses: [], assume: {}, values: {} },
     deck: store.get("deck", null), pane: "list", importNote: "", suggestions: null,
   };
   const TITLES = { search: "Search", interact: "Interact", decks: "Decks", sets: "Sets", play: "Play", rules: "Rules" };
@@ -103,6 +104,8 @@
       DATA_V = "?v=" + encodeURIComponent(stamp.trim());
       const [c, r] = await Promise.all([fetch("data/cards.json" + DATA_V).then((x) => x.json()), fetch("data/cr.json" + DATA_V).then((x) => x.json())]);
       CARDS = c; CR = r;
+      MTGLayers.init(CR);
+      const dl = $("#ctypes"); if (dl) dl.innerHTML = [...MTGEffects.SUB.creature].sort().map((t) => '<option value="' + esc(t) + '">').join("");
       CARDS.forEach((cd, i) => { byNorm.set(MTGDeck.norm(cd.n), cd); hay[i] = (cd.n + " " + cd.t + " " + cd.o).toLowerCase(); });
       $("#status").textContent = CARDS.length.toLocaleString() + " cards";
       Promise.resolve(stamp).then((t) => {
@@ -736,11 +739,175 @@
       const ex = e.target.closest("[data-ex]"); if (ex) { state.picked = EXAMPLES[ex.dataset.ex].filter((n) => card(n)); savePicks(); return; }
       const c = e.target.closest("[data-card]"); if (c) openSheet({ type: "card", card: card(c.dataset.card) });
     });
+    $("#analysis").addEventListener("change", (e) => { const f = e.target.closest("[data-f]"); if (f) boardChange(f); });
     $("#analysis").addEventListener("click", (e) => {
+      const b = e.target.closest("[data-b]"); if (b) return boardAct(b);
       const r = e.target.closest("[data-rule]"); if (r) return openSheet({ type: "rule", rule: r.dataset.rule });
       const c = e.target.closest("[data-card]"); if (c) openSheet({ type: "card", card: card(c.dataset.card) });
     });
   }
+  // ---------- interact: the battlefield (layers.js) ----------
+  const BOARD = { open: new Set(), token: 0 };
+  const bid = (n) => "c:" + n;
+  const bopt = (n) => state.board.o[n] || (state.board.o[n] = {});
+  function saveBoard() { store.set("board", state.board); renderAnalysis(); }
+  function boardEntries(cards) {
+    const B = state.board, names = new Set(cards.map((c) => c.n));
+    const ents = cards.map((c) => {
+      const o = B.o[c.n] || {};
+      const on = o.on && names.has(o.on) ? bid(o.on) : undefined;
+      return { id: bid(c.n), card: c, controller: o.opp ? "opp" : "you", counters: { "+1/+1": o.p || 0, "-1/-1": o.m || 0 }, attach: on, target: on,
+        copy: o.copy === "none" ? "none" : o.copy && names.has(o.copy) ? bid(o.copy) : undefined, chosen: o.type || o.color ? { type: o.type, color: o.color } : null, x: o.x, faceDown: !!o.fd };
+    });
+    B.uses = B.uses.filter((u) => names.has(u.of));
+    B.uses.forEach((u, i) => ents.push({ id: "u:" + i, use: u.crew ? { of: bid(u.of), crew: true } : { of: bid(u.of), ability: u.ab }, x: u.x, target: u.on && names.has(u.on) ? bid(u.on) : undefined }));
+    const values = {}; for (const n in B.values) if (names.has(n) && B.values[n] !== "" && B.values[n] != null) values[bid(n)] = +B.values[n];
+    return { ents, values };
+  }
+  function boardAct(el) {
+    const B = state.board, act = el.dataset.b, n = el.dataset.n, o = n ? bopt(n) : null;
+    if (act === "up" || act === "down") {
+      const i = state.picked.indexOf(n), j = act === "up" ? i - 1 : i + 1;
+      if (i < 0 || j < 0 || j >= state.picked.length) return;
+      state.picked.splice(j, 0, state.picked.splice(i, 1)[0]);
+      store.set("picked", state.picked); store.set("board", B); return renderInteract();
+    }
+    if (act === "who") o.opp = !o.opp;
+    else if (act === "p+" || act === "p-") o.p = Math.max(0, (o.p || 0) + (act === "p+" ? 1 : -1));
+    else if (act === "m+" || act === "m-") o.m = Math.max(0, (o.m || 0) + (act === "m+" ? 1 : -1));
+    else if (act === "fd") o.fd = !o.fd;
+    else if (act === "use") {
+      const ab = el.dataset.ab === "crew" ? "crew" : +el.dataset.ab;
+      const i = B.uses.findIndex((u) => u.of === n && (ab === "crew" ? u.crew : u.ab === ab));
+      if (i >= 0) B.uses.splice(i, 1); else B.uses.push(ab === "crew" ? { of: n, crew: true } : { of: n, ab });
+    } else if (act === "assume") { if (B.assume[el.dataset.k]) delete B.assume[el.dataset.k]; else B.assume[el.dataset.k] = true; }
+    else if (act === "reset") { state.board = { o: {}, uses: [], assume: {}, values: {} }; }
+    else return;
+    saveBoard();
+  }
+  function boardChange(el) {
+    const B = state.board, f = el.dataset.f, n = el.dataset.n, v = el.value;
+    if (f === "use-x" || f === "use-on") { const u = B.uses[+el.dataset.i]; if (!u) return; if (f === "use-x") u.x = v === "" ? undefined : Math.max(0, +v); else u.on = v || undefined; return saveBoard(); }
+    const o = bopt(n);
+    if (f === "on") o.on = v || undefined;
+    else if (f === "copy") o.copy = v || undefined;
+    else if (f === "type") { const t = [...MTGEffects.SUB.creature].find((x) => x.toLowerCase() === v.trim().toLowerCase()); o.type = t || undefined; }
+    else if (f === "color") o.color = v || undefined;
+    else if (f === "x") o.x = v === "" ? undefined : Math.max(0, +v);
+    else if (f === "value") B.values[n] = v === "" ? undefined : Math.max(0, +v);
+    saveBoard();
+  }
+  const PIP = { W: "white", U: "blue", B: "black", R: "red", G: "green" };
+  function boardHTML(cards) {
+    const { ents, values } = boardEntries(cards);
+    const lookup = (nm) => card(nm);
+    const built = MTGLayers.buildState(ents, { lookup, values, assume: state.board.assume });
+    const res = MTGLayers.resolve(built.state, { lookup });
+    const fin = new Map(res.permanents.map((f) => [f.id, f]));
+    const before = new Map((res.before || res.permanents).map((f) => [f.id, f]));
+    const label = (id) => { const p = built.state.permanents.find((x) => x.id === id); return p ? p.label || p.card.n : ""; };
+    const perms = cards.filter((c) => !MTGEffects.parseCard(c).spell);
+    const sel = (f, n, cur, opts, first) => '<select class="sel" data-f="' + f + '" data-n="' + esc(n) + '"' + (f === "use-on" || f === "use-x" ? "" : "") + ">" + (first ? '<option value="">' + esc(first) + "</option>" : "") + opts.map(([v, t]) => '<option value="' + esc(v) + '"' + (v === cur ? " selected" : "") + ">" + esc(t) + "</option>").join("") + "</select>";
+    const step = (lbl, n, a, v) => '<span class="bstep">' + lbl + ' <button class="btn small" data-b="' + a + '-" data-n="' + esc(n) + '" aria-label="one fewer">−</button><b>' + (v || 0) + '</b><button class="btn small" data-b="' + a + '+" data-n="' + esc(n) + '" aria-label="one more">+</button></span>';
+    let h = "", lines = [];
+    cards.forEach((c, i) => {
+      const id = bid(c.n), o = state.board.o[c.n] || {}, parsed = MTGEffects.parseCard(c), f = fin.get(id), was = before.get(id);
+      const ctl = [];
+      ctl.push('<button class="btn small" data-b="up" data-n="' + esc(c.n) + '"' + (i ? "" : " disabled") + ' aria-label="Earlier">▲</button><button class="btn small" data-b="down" data-n="' + esc(c.n) + '"' + (i < cards.length - 1 ? "" : " disabled") + ' aria-label="Later">▼</button>');
+      ctl.push('<button class="btn small" data-b="who" data-n="' + esc(c.n) + '">' + (o.opp ? "Opponent’s" : "Yours") + "</button>");
+      const othersP = perms.filter((x) => x.n !== c.n).map((x) => [x.n, x.n]);
+      let body = "", cls = "";
+      if (parsed.spell) {
+        const eff = built.state.effects.find((e) => e.id === id);
+        const needs = [].concat(...parsed.abilities.map((a) => a.templates)).some((t) => t.who.kind === "target");
+        if (needs) ctl.push(sel("on", c.n, eff && eff.target != null ? label(eff.target) : "", othersP, "Target…"));
+        if (/\{X\}/i.test(c.m || "")) ctl.push('<label class="bstep">X <input class="bnum" type="number" inputmode="numeric" min="0" data-f="x" data-n="' + esc(c.n) + '" value="' + (o.x == null ? "" : o.x) + '"></label>');
+        body = '<div class="d">' + (eff ? "Resolved" + (eff.target != null ? " on " + esc(label(eff.target)) : "") + ". Its effect is in the steps below." : [].concat(...parsed.abilities.map((a) => a.unmodeled)).length ? "This spell’s effect is not modeled." : needs ? "No legal target among the cards before it." : "Not a continuous effect, so it does not change the board below.") + "</div>";
+      } else {
+        if (/Creature|Vehicle/.test(c.t) || (f && f.types.includes("Creature"))) { ctl.push(step("+1/+1", c.n, "p", o.p)); ctl.push(step("−1/−1", c.n, "m", o.m)); }
+        const sub = c.t.split(" — ")[1] || "";
+        if (/\bAura\b|\bEquipment\b|\bFortification\b/.test(sub)) ctl.push(sel("on", c.n, (built.state.permanents.find((p) => p.id === id) || {}).attachedTo != null ? label(built.state.permanents.find((p) => p.id === id).attachedTo) : "", othersP, "Attached to…"));
+        if (parsed.copy) ctl.push(sel("copy", c.n, o.copy || "", [["none", "Copies nothing"]].concat(othersP), "Copies the first it can"));
+        if (parsed.choices.includes("type")) ctl.push('<input class="btxt" list="ctypes" placeholder="Creature type" data-f="type" data-n="' + esc(c.n) + '" value="' + esc(o.type || "") + '">');
+        if (parsed.choices.includes("color")) ctl.push(sel("color", c.n, o.color || "", Object.entries(PIP).map(([k, v]) => [k, v]), "Color…"));
+        if (/\bmorph\b|\bdisguise\b/i.test((c.k || []).join(" "))) ctl.push('<button class="btn small' + (o.fd ? " on" : "") + '" data-b="fd" data-n="' + esc(c.n) + '">Face down</button>');
+        if (f && f.unknownPT.length) ctl.push('<label class="bstep">' + esc(f.unknownPT[0].replace(/^the number of /, "# of ")) + ' <input class="bnum" type="number" inputmode="numeric" min="0" data-f="value" data-n="' + esc(c.n) + '" value="' + (state.board.values[c.n] == null ? "" : state.board.values[c.n]) + '"></label>');
+        const show = f || was;
+        const gone = res.sba.filter((a) => a.id === id && a.kind === "dies");
+        if (show) {
+          const ch = show.typeLine !== show.was.typeLine || show.pt !== show.was.pt || show.colors.join("") !== show.was.colors.join("") || show.lost.length || show.abilities.some((a) => a.from) || show.controller !== show.was.controller || show.name !== c.n;
+          cls = gone.length ? " gone" : ch ? " changed" : "";
+          const col = show.colors.length ? show.colors.map((x) => PIP[x]).join(" and ") : "colorless";
+          body = '<div class="bline"><span>' + esc(show.typeLine) + "</span>" + (show.pt ? '<b class="bpt">' + esc(show.pt) + "</b>" : "") + "</div>" +
+            '<div class="d">' + (show.name !== c.n ? "A copy of " + esc(show.name || "a face-down creature") + " · " : "") + esc(col) + (show.controller !== show.was.controller ? " · now controlled by " + (show.controller === "you" ? "you" : "the opponent") : "") +
+            (show.typeLine !== show.was.typeLine || show.pt !== show.was.pt || show.colors.join("") !== show.was.colors.join("") ? ' · <span class="was">printed: ' + esc(show.was.typeLine) + (show.was.pt ? " " + esc(show.was.pt) : "") + "</span>" : "") + "</div>" +
+            '<div class="babil">' + (show.abilities.length ? show.abilities.map((a) => "<div>" + mana(a.text) + (a.from ? ' <span class="from">from ' + esc(a.from) + "</span>" : "") + "</div>").join("") : '<div class="d">No abilities.</div>') +
+            show.lost.map((x) => '<div class="lost">' + mana(x) + "</div>").join("") + "</div>" +
+            gone.map((a) => '<div class="bgone">' + esc(a.text) + " " + (a.rule ? ruleChip(a.rule) : "") + "</div>").join("");
+          if (ch || gone.length) lines.push(gone.length ? gone[0].text : c.n.split(",")[0] + " ends up " + (show.name !== c.n ? "a copy of " + show.name + ": " : "") + show.typeLine + (show.pt ? " " + show.pt : "") + (show.lost.length && !show.abilities.length ? " with no abilities" : "") + ".");
+        }
+      }
+      h += '<div class="panel item brow' + cls + '"><div class="bhead"><span class="bnumb">' + (i + 1) + '</span><b data-card="' + esc(c.n) + '">' + esc(c.n) + "</b>" + (o.opp ? '<span class="tag not">OPPONENT</span>' : "") + "</div>" + body + '<div class="bctl">' + ctl.join("") + "</div></div>";
+    });
+    // abilities that can be switched on
+    const offers = [];
+    for (const c of perms) {
+      MTGEffects.parseCard(c).abilities.forEach((a, ai) => { if ((a.kind === "activated" || a.kind === "triggered") && a.templates.length) offers.push({ c, ai, text: a.text, a }); });
+      if (MTGEffects.parseCard(c).crew) offers.push({ c, ai: "crew", text: "Crew: it becomes an artifact creature until end of turn." });
+    }
+    if (offers.length) {
+      h += '<div class="bsub">Abilities you can switch on</div>';
+      for (const of of offers) {
+        const ui = state.board.uses.findIndex((u) => u.of === of.c.n && (of.ai === "crew" ? u.crew : u.ab === of.ai)), u = state.board.uses[ui];
+        let extra = "";
+        if (u && of.a) {
+          const eff = built.state.effects.find((e) => e.id === "u:" + ui);
+          if (of.a.templates.some((t) => t.who.kind === "target")) extra += '<select class="sel" data-f="use-on" data-i="' + ui + '"><option value="">Target…</option>' + perms.map((x) => '<option value="' + esc(x.n) + '"' + (eff && eff.target === bid(x.n) ? " selected" : "") + ">" + esc(x.n) + "</option>").join("") + "</select>";
+          if (/\bX\b/.test(of.text)) extra += '<label class="bstep">X <input class="bnum" type="number" inputmode="numeric" min="0" data-f="use-x" data-i="' + ui + '" value="' + (u.x == null ? "" : u.x) + '"></label>';
+        }
+        h += '<div class="panel item buse' + (u ? " on" : "") + '"><button class="btn small' + (u ? " primary" : "") + '" data-b="use" data-n="' + esc(of.c.n) + '" data-ab="' + of.ai + '">' + (u ? "On" : "Off") + '</button><div><b>' + esc(of.c.n.split(",")[0]) + '</b><div class="d">' + mana(of.text.length > 170 ? of.text.slice(0, 170) + "…" : of.text) + "</div>" + (extra ? '<div class="bctl">' + extra + "</div>" : "") + "</div></div>";
+      }
+    }
+    if (res.conditions.length) h += '<div class="bsub">Things the board can’t see</div>' + res.conditions.map((c) => '<div class="panel item buse"><button class="btn small' + (c.on ? " primary" : "") + '" data-b="assume" data-k="' + esc(c.key) + '">' + (c.on ? "True" : "False") + '</button><div><b>' + esc(c.card.split(",")[0]) + '</b><div class="d">' + esc(c.text) + "</div></div></div>").join("");
+    for (const nd of res.needs) h += '<div class="panel item warn">' + esc(nd.card) + " needs a " + (nd.choice === "type" ? "creature type" : esc(nd.choice)) + " chosen. Pick it on its card above.</div>";
+    for (const nt of built.notes) h += '<div class="panel item"><div class="d">' + esc(nt) + "</div></div>";
+    for (const w of res.warnings) h += '<div class="panel item">' + esc(w.text) + " " + (w.rule ? ruleChip(w.rule) : "") + "</div>";
+    // the steps
+    let steps = "";
+    const log = res.log;
+    if (log.length) {
+      steps = log.map((e) => '<div class="panel item bstepi"><div class="d">' + esc(MTGLayers.LAYER_NAME[e.layer] || "Layer " + e.layer) + " " + (e.rule ? ruleChip(e.rule) : "") + "</div>" +
+        (e.note ? esc(e.note) : "<b>" + esc(e.source) + "</b>" + (e.cda ? " (defines its own characteristics, so it applies first)" : "") + ": " + esc(e.affected.join(", ")) + " " + linkRules(esc(e.what))) + "</div>").join("") +
+        res.sba.map((a) => '<div class="panel item bstepi"><div class="d">State-based action ' + (a.rule ? ruleChip(a.rule) : "") + "</div>" + esc(a.text) + "</div>").join("");
+    }
+    const unmodeled = res.unmodeled.map((u) => ({ card: u.card, text: u.text, why: u.why }));
+    for (const c of cards) for (const a of MTGEffects.parseCard(c).abilities) if (a.kind !== "static") for (const u of a.unmodeled) unmodeled.push({ card: c.n, text: u.text, why: u.why });
+    return { html: h, steps, lines, unmodeled, state: built.state, res };
+  }
+  function boardOrders(st, token) {
+    setTimeout(() => {
+      const el = $("#border"); if (!el || token !== BOARD.token) return;
+      let out;
+      try { out = MTGLayers.outcomes(st, { lookup: (nm) => card(nm), maxOrders: 240 }); } catch (e) { el.innerHTML = ""; return; }
+      const cur = out.outcomes.find((g) => g.current) || out.outcomes[0];
+      if (out.outcomes.length < 2) { el.innerHTML = out.tried > 1 ? '<div class="d" style="margin:10px 2px 0">The order they arrived in does not change this result (' + out.tried + " orders checked).</div>" : ""; return; }
+      const sig = (f) => f.typeLine + "|" + f.pt + "|" + f.colors.join("") + "|" + f.controller + "|" + f.abilities.map((a) => a.text).join("/");
+      const mine = new Map(cur.result.permanents.map((f) => [f.id, f]));
+      let h = '<section class="block"><h2>If they arrived in a different order</h2><div class="panel item"><div class="d">The order cards arrive in is their timestamp, and here it changes the result. ' + out.tried + " orders checked" + (out.complete ? "" : " (not every one)") + ". " + cites(["613.7"].filter((x) => CR.rules[x])) + "</div>" +
+        (cur.when && cur.when.length ? '<div style="margin-top:6px">The result above needs: ' + cur.when.map((w) => "<b>" + esc(w[0]) + "</b> before <b>" + esc(w[1]) + "</b>").join(", ") + ".</div>" : "") + "</div>";
+      out.outcomes.filter((g) => g !== cur).forEach((g) => {
+        const diff = g.result.permanents.filter((f) => !mine.has(f.id) || sig(mine.get(f.id)) !== sig(f));
+        const goneNow = cur.result.permanents.filter((f) => !g.result.permanents.some((x) => x.id === f.id));
+        h += '<div class="panel item"><b>If ' + (g.when.length ? g.when.map((w) => esc(w[0]) + " arrived before " + esc(w[1])).join(" and ") : "the order is " + esc(g.order.join(", "))) + "</b>" +
+          diff.map((f) => '<div class="d" style="color:var(--text)">' + esc(f.card) + ": " + esc(f.typeLine) + (f.pt ? " <b>" + esc(f.pt) + "</b>" : "") + (f.abilities.length ? "" : ", no abilities") + (f.controller !== (mine.get(f.id) || f).controller ? ", controlled by " + (f.controller === "you" ? "you" : "the opponent") : "") + "</div>").join("") +
+          goneNow.map((f) => '<div class="d" style="color:var(--text)">' + esc(f.card) + ": put into the graveyard</div>").join("") +
+          g.result.sba.filter((a) => !cur.result.sba.some((b) => b.id === a.id && b.kind === a.kind)).map((a) => '<div class="d">' + esc(a.text) + "</div>").join("") + "</div>";
+      });
+      el.innerHTML = h + "</section>";
+      const v = $("#bverdict"); if (v) v.innerHTML = "The order they arrived in matters here: " + out.outcomes.length + " different results. See below.";
+    }, 30);
+  }
+
   function say(msg, bad) { const el = $("#pickmsg"); el.textContent = msg; el.style.color = bad ? "var(--bad)" : "var(--good)"; }
   function addPicks(names) { for (const n of names) if (!state.picked.includes(n)) state.picked.push(n); savePicks(); }
   function savePicks() { store.set("picked", state.picked); renderInteract(); }
@@ -797,10 +964,22 @@
     const el = $("#analysis");
     if (!cards.length || !CR) { el.innerHTML = ""; return; }
     const r = MTGEngine.analyze(cards, { cr: CR, rulings: RULINGS });
-    const words = MTGEngine.wording(cards, { cr: CR });
-    let h = "";
-    if (cards.length < 2) h += '<div class="panel item">Add a second card to see how they interact. Below is what this card\'s wording says.</div>';
-    else h += '<div class="verdict"><small>Bottom line</small><p>' + MTGEngine.summary(r).map(esc).join("<br>") + "</p></div>";
+    const allWords = MTGEngine.wording(cards, { cr: CR });
+    const words = cards.length > 1 ? MTGEngine.relevantWording(cards, r, { cr: CR }) : allWords;
+    let h = "", board = null;
+    try { board = boardHTML(cards); } catch (e) { board = null; }
+    const token = ++BOARD.token;
+    if (cards.length < 2) h += '<div class="panel item">Add a second card to see how they interact.</div>';
+    else {
+      const sum = MTGEngine.summary(r).filter((x) => !/^No direct trigger/.test(x) || !(board && board.lines.length));
+      h += '<div class="verdict"><small>Bottom line</small><p>' + (board ? board.lines.slice(0, 4) : []).concat(sum).map(esc).join("<br>") + '</p><p id="bverdict" style="font-size:14.5px;color:var(--ember-hi)"></p></div>';
+    }
+    if (board) {
+      h += '<section class="block"><h2>On the battlefield</h2><div class="d" style="margin:0 2px 8px;color:var(--mute);font-size:13.5px">Cards count as arriving in this order, top first. ▲▼ changes it.</div>' + board.html + "</section>";
+      if (board.steps) h += '<section class="block"><h2>Step by step, in layer order</h2>' + board.steps + "</section>";
+      h += '<div id="border"></div>';
+      if (board.unmodeled.length) h += '<section class="block"><h2>Not modeled</h2><div class="panel item"><div class="d">The result above ignores these. Read the cards for them.</div>' + board.unmodeled.map((u) => '<div style="margin-top:8px"><b data-card="' + esc(u.card) + '">' + esc(u.card.split(",")[0]) + "</b>: " + mana(u.text) + "</div>").join("") + "</div></section>";
+    }
     if (cards.length > 1) {
       h += '<section class="block"><h2>How they connect</h2>';
       h += r.connections.length ? r.connections.map((c) => '<div class="panel item"><div class="chain"><span class="n" data-card="' + esc(c.from) + '">' + esc(c.from) + '</span><span class="e' + (c.replacement ? " repl" : "") + '">→ ' + esc(c.eventLabel) + ' →</span><span class="n" data-card="' + esc(c.to) + '">' + esc(c.to) + "</span></div>" +
@@ -809,14 +988,17 @@
         : '<div class="panel item"><div class="d">No trigger or replacement links found in the wording. That does not prove they never interact, so check the wording notes below.</div></div>';
       h += "</section>";
     }
-    if (words.length) h += '<section class="block"><h2>Said · not said</h2>' + words.map(wordItem).join("") + "</section>";
+    if (words.length) h += '<section class="block"><h2>' + (cards.length > 1 ? "Wording that matters here" : "Said · not said") + "</h2>" + words.map(wordItem).join("") + "</section>";
     if (r.loops.length) h += '<section class="block"><h2>Possible loops</h2>' + r.loops.map((l) => '<div class="panel item">' + l.chain.map(mana).join("<br>→ ") + '<div class="d" style="margin-top:6px">' + (l.optional ? "Has an optional step, so nobody is forced to keep going." : "Every step looks mandatory. A loop of only mandatory actions is a draw.") + '</div><div style="margin-top:8px">' + cites(l.cites) + "</div></div>").join("") + "</section>";
-    if (r.layers.length) h += '<section class="block"><h2>Layers, if effects overlap</h2>' + r.layers.map((l) => '<div class="panel item"><b>' + esc(l.card) + "</b> · " + esc(l.why) + " " + ruleChip(l.rule) + '<div class="d">' + mana(l.text) + "</div></div>").join("") + "</section>";
+    if (r.layers.length && !board) h += '<section class="block"><h2>Layers, if effects overlap</h2>' + r.layers.map((l) => '<div class="panel item"><b>' + esc(l.card) + "</b> · " + esc(l.why) + " " + ruleChip(l.rule) + '<div class="d">' + mana(l.text) + "</div></div>").join("") + "</section>";
     if (r.keywords.length) h += '<section class="block"><h2>Keywords, from the rules</h2><div class="chips" style="flex-wrap:wrap">' + r.keywords.map((k) => '<button class="chip rule" data-rule="' + k.rule + '">' + esc(k.card.split(",")[0]) + ": " + esc(k.keyword) + " → CR " + k.rule + "</button>").join("") + "</div></section>";
     if (r.rulingLinks.length) h += '<section class="block"><h2>Official rulings that mention both</h2>' + r.rulingLinks.map((x) => '<div class="panel item"><div class="d">' + esc(x.date) + " · on " + esc(x.about) + "</div>" + linkRules(mana(x.text)) + "</div>").join("") + "</section>";
+    if (board) r.gotchas = r.gotchas.filter((g) => !/^Several continuous effects touch/.test(g.text));
+    if (cards.length > 1 && allWords.length > words.length) h += '<details class="ball"><summary>All wording notes (' + allWords.length + ")</summary>" + allWords.map(wordItem).join("") + "</details>";
     if (r.gotchas.length) h += '<section class="block"><h2>Watch out</h2>' + r.gotchas.map((g) => '<div class="panel item">' + esc(g.text) + '<div style="margin-top:8px">' + cites(g.cites) + "</div></div>").join("") + "</section>";
-    h += '<div class="d" style="margin:18px 2px 0;color:var(--mute);font-size:13px">' + esc(r.confidence) + "</div>";
+    h += '<div class="d" style="margin:18px 2px 0;color:var(--mute);font-size:13px">' + (board ? "The battlefield result follows the layer rules (CR 613) exactly for the effects it lists, and names the ones it does not model. Trigger and loop links are heuristic: they are found by reading the card text, so check each against the card and its rulings." : esc(r.confidence)) + "</div>";
     el.innerHTML = h;
+    if (board && cards.length > 1) boardOrders(board.state, token);
   }
 
   // ---------- decks ----------
