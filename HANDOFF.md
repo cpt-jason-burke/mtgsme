@@ -66,7 +66,20 @@ Everything below is live on `main`. The site is https://cpt-jason-burke.github.i
   - An unmarked commander is guessed from a 1–2 card MTGO sideboard or a last block after a blank line, then the first legendary creature. The old guess counted lines, not cards, so lists with "35 Forest" got no guess. `tools/combos.js deck` guesses the same way.
   - `docs/engine.js` cited loop rules as 732.x; the current rules number them 733.x, so the cites silently vanished. It now finds them by their wording. "No may" no longer fires on "at random".
   - `tools/build_site.py` builds everything before writing and refuses data 5% smaller than last time (or rules missing 100.1/903.5a); the workflow then keeps the old card data and rules and retries next run.
-- **Deck editor (Step 7, built 2026-11-17, waiting for the user's OK on the preview before it goes to `main`):**
+- **Layer engine and synergy finder (Step 6, added 2026-11-17):** Interact now shows the chosen cards as a battlefield worked out by the layer rules.
+  - `docs/effects.js` reads continuous effects from oracle text into data (who it applies to, parts by layer, condition, duration). Anything that looks like a continuous effect but doesn't parse is returned as "unmodeled". It reads the subtype lists and keyword abilities from `cr.json`, so `init(cr)` must run first (`MTGLayers.init(CR)` does it).
+  - `docs/layers.js` applies rule 613: copy effects and face-down (layer 1), control, types, colors, abilities, P/T 7a–7d; CDAs first (613.3); timestamps; dependency by trying each effect on a copy of the board (613.8a), loops falling back to timestamps (613.8b), re-checked after every effect (613.8c); an effect keeps its set of objects across layers (613.6); resolved group effects are locked to what matched when they resolved (611.2c); 305.6/305.7 for basic land types; 205.1a/b for type-setting; devotion (700.5); then the state-based actions that follow (0 toughness, Auras and Equipment that can't stay attached, opposite counters), recalculating until stable. `outcomes()` tries every arrival order (up to 720; the app caps at 240) and groups them by result.
+  - `buildState(entries)` turns a list of picked cards into a board: instants and sorceries become resolved effects, Auras and Equipment attach to the first legal permanent, Clone-style cards copy the first legal one, and `use` entries switch on an activated or triggered ability (or crew).
+  - `tools/tests/layers.js` (61 checks): every example under rule 613 (the first check fails if the rules stop having 12, so a rules update gets a re-check), the 611.2c/611.3b/707.x examples, the rulings for Humility + Opalescence (both rulings, all orders), Turn to Frog, Darksteel Mutation, Inside Out, Mycosynth Lattice + March of the Machines, Blood Moon/Magus + Urborg, Song of the Dryads, Imprisoned in the Moon, Frogify, Conspiracy/Maskwood, Life and Limb, Ashaya, Clone, Kudo, Mirror Entity; and derived cases (Dryad of the Ilysian Grove + Blood Moon, Life and Limb + Ashaya, Act of Treason with anthems). Each test asserts that the ruling or example it relies on is still in the data.
+  - Coverage (`node tools/layers.js --coverage`, 2026-11-17): 10,256 continuous effects on 9,248 cards; 73.8% read exactly, 12.1% read but needing something off the board (X, "attacking", cards in a graveyard), 14.1% not modeled. Always-on (static) abilities: 92.6% read. `--kind static` lists the unread wordings, most common first.
+  - Not modeled, on purpose or not yet: text-changing effects (layer 3), soulbond, "target player controls", kicker-style "instead" clauses, effects on players, tokens (the board has none), protection, an ability gained from another effect that changes types or colors, keyword-counter timestamps (they use the permanent's). Triggers, replacement effects and combat are not simulated; the older `docs/engine.js` still finds those links by pattern.
+  - Correction to the plan's wording: a ruling does cover Blood Moon + Urborg (Urborg's 2021-03-19 ruling about Magus of the Moon), so that test cites it.
+  - `cards.json` gained `c` (color) on the 488 cards whose mana cost doesn't give their color (color indicators, back faces, devoid), from mtg.wtf's own color field; `tools/build_site.py` writes it.
+  - Interact (`docs/app.js`, the `// ---------- interact: the battlefield` block: `boardEntries`, `boardAct`, `boardChange`, `boardHTML`, `boardOrders`; CSS `/* interact: battlefield */`): rows with ▲▼ order, Yours/Opponent's, counters, attach/target/copy pickers, creature type and color choices, "Abilities you can switch on", "Things the board can't see", then "Step by step", "If they arrived in a different order", "Not modeled". The board's choices are saved in localStorage `board`.
+  - Wording notes: `MTGEngine.relevantWording` keeps only notes that can change the answer for the chosen cards (judged from the links found); the full list is folded under "All wording notes". This answers the "too literal" feedback.
+  - Synergy finder: `docs/synergy.js` (`index`, `find`), the "Cards that work with these" block in Interact (`synInner`, `runSyn`) and `node tools/synergy.js`. Tiers: finishes a known combo (Commander Spellbook id and bracket), in a known combo with all the cards, possible loop, links to two or more cards, links to one. Layer link: when a chosen card turns other permanents into creatures, plain creature anthems are suggested. Each suggestion is put on the board with the chosen cards and gets a warning (or is dropped) if the layer engine says it loses its abilities there.
+  - Measured (`node tools/synergy.js --measure`, 400 known three-card combos, one card hidden, seed 1): the text-reading path alone ranks the hidden card in its top 10 in 0.8% of cases (top 30: 3.3%; linked at all: 27%). With the combo list on, a listed combo's missing card is always in the first tier. So today the finder's real strength is the combo list plus layer checks; the text links are weak leads. Not tuned to the sample. The likely gain is reading costs and resources (sacrifice outlets, untap effects, mana sinks), which most combos run on and the event tags don't see.
+- **Deck editor (Step 7, added 2026-11-17; the user approved the phone preview):**
   - Deck buttons (Precons, Upgrade, Copy list, Import, Clear) sit in the Decks toolbar (`#deckbar`, `renderDeckBar`), five equal buttons on a phone.
   - Precon picker (the user chose a picker page over a dropdown): sheet `precons` (`preconsView`, `renderPreconList`): search by deck, set or commander; set, year and color filters (colors mean "has all of these"; C = colorless); sort newest, oldest, name, priciest, cheapest. Tapping a deck loads it (`copyPrecon`, confirms first); "Cards ›" opens its deck page. Totals come from `docs/data/precon-prices.json`, written daily by `tools/build_top25.py` (rounded to whole dollars, written only when a total changes, kept if fewer than 90% of last time's decks).
   - Printings in decks: `deck.prints = { name: { p: "set/num", f?: "foil"|"etched" } }`, one printing per name (the first listed wins). `MTGDeck.parse` keeps Moxfield/Archidekt "(SET) 123 *F*/*E*" (returned as `prints`), `exportText` writes them back. `copyPrecon` keeps each precon card's printing. A map was used instead of `p`/`f` on each entry so commanders and companions (plain names) get printings too. Six tests in `tools/tests/logic.js`.
@@ -93,7 +106,8 @@ Everything below is live on `main`. The site is https://cpt-jason-burke.github.i
 - The container has Python 3.13, Node 22, and Chromium with Playwright preinstalled (`require('playwright')`, `chromium.launch()`, no install step).
 - There is no `gh` CLI; use the GitHub MCP tools.
 - A stop hook asks you to commit and push before a turn ends. Keep scratch files in the session scratchpad, not the repo, and delete `tools/__pycache__`.
-- Logic tests live in `tools/tests/` (`node tools/tests/logic.js`: deck checks, commanders, companions, combos, engine cites). They must pass before you push; add cases when you change rules logic.
+- Logic tests live in `tools/tests/` (`node tools/tests/logic.js`: deck checks, commanders, companions, combos, engine cites, wording, synergy; `node tools/tests/layers.js`: the layer engine). They must pass before you push; add cases when you change rules logic.
+- `git clone --depth 1 --filter=blob:none --no-checkout https://github.com/taw/magic-search-engine` works from the container (the workflow's own command), so `tools/build_site.py` can be run here when the build changes.
 
 ## 5. How the app is built
 
@@ -133,7 +147,7 @@ All are generated, except the two marked hand-maintained.
 
 | File | Built by | What it holds |
 | --- | --- | --- |
-| `cards.json` | `tools/build_site.py` | Every card: `{n, t, ci, o, m, pt, ly, s, g, k, f, u}` |
+| `cards.json` | `tools/build_site.py` | Every card: `{n, t, ci, o, m, c, pt, ly, s, g, k, f, u}` (`c`: color, only when the mana cost doesn't give it) |
 | `rulings.json`, `cr.json` | `tools/build_site.py` | Official rulings; the Comprehensive Rules |
 | `sets.json` | `tools/build_site.py` | `[{c code, n name, d date, k kind, t card count, h hidden, cm paired Commander set, bs base set size}]`, where `k` is main, commander, secret, reprint, jumpstart, draft or other |
 | `setcards.json` | `tools/build_site.py` | `{n, s: {set: [[cardIndex, collectorNumber, rarity]]}}`, rarity 0–5 = L C U R M S |
@@ -273,7 +287,9 @@ Several of these are also `is:serialized`. There are 298 serialized printings in
 
 ## 10. The plan
 
-**Next up: Step 6** (layers engine and synergy finder, on the most capable model). Step 7 is built (section 3) and waits for the user's OK. Run them one at a time if you can; if both run at once, `git pull` before every push. Steps 4b and 5 are paused (section 7, 2026-11-17).
+**Steps 6 and 7 are done** (section 3). Nothing new is planned yet; ask the user. Steps 4b and 5 are paused (section 7, 2026-11-17).
+
+Follow-ups for Step 6, in order of value: grow effect coverage from `node tools/layers.js --coverage --kind static`; tokens on the board; triggers and replacement effects in the same engine (today they are pattern links); cost and resource links in the synergy finder.
 
 Do each step in its own fresh session, then build, test, commit and verify. Cost estimates are in section 11.
 
@@ -349,6 +365,8 @@ Do each step in its own fresh session, then build, test, commit and verify. Cost
 - **Extras:** a skip button, a reduced-motion fallback, and lazy loading.
 
 ### Step 6. Layers engine and synergy finder (most capable model)
+**Done 2026-11-17** (section 3); the text below is the original plan.
+
 **Why:** the user's top priority (section 7, 2026-11-17). Interact must work out what the chosen cards actually do together, through the layer system (rule 613) and the rest of the CR, and suggest cards that would work with them. Today `docs/engine.js` only tags text with regexes, and its wording notes read words too literally.
 
 - **The honest bar:** no app without a hand-written script per card can model every card. So: exact for every effect it says it understands, a visible "not modeled" note for everything else, never a silent guess. Report coverage numbers to the user.
@@ -423,7 +441,7 @@ The user's request of 2026-11-17, with screenshots of Moxfield's deck page (Visu
 
 ## 12. Testing recipe
 
-1. Run `node tools/tests/logic.js` (and `node tools/tests/layers.js` once Step 6 adds it); both must pass. Run `node --check` on every JS file you touched. Run each builder twice: the second run should report no change. Then feed it a broken or truncated file and confirm it refuses to replace good data.
+1. Run `node tools/tests/logic.js` and `node tools/tests/layers.js`; both must pass. Run `node --check` on every JS file you touched. Run each builder twice: the second run should report no change. Then feed it a broken or truncated file and confirm it refuses to replace good data.
 2. Start a local server in the background: `cd docs && python3 -m http.server 8765 --bind 127.0.0.1`.
 3. Drive it with Playwright at phone size (390×844, `isMobile`, `hasTouch`) and at 1280×900:
 
@@ -478,5 +496,5 @@ const { chromium } = require('playwright');
 | 4. Sealed price comparison | Done, live 2026-11-15 | TCGplayer + Card Kingdom; CoolStuff and Amazon are links; 4b (local shops) paused by the user |
 | 5. Comm badge cinematic | Paused by the user (2026-11-17) | After Step 2 |
 | Logic check | Done, live 2026-11-17 | Commander, partner, companion and copy checks; loop cites; guarded card build; `tools/tests/logic.js` |
-| 6. Layers engine and synergy finder | Not started | Most capable model; section 10 |
-| 7. Deck editor screens and upgrades | Built 2026-11-17 on branch `claude/zen-einstein-jw8ixk`; waiting for the user's OK on the preview, then merge to `main` | Toolbar, precon picker, grid/rows/text views, printings ring, upgrades, scrolling fix (section 3) |
+| 6. Layers engine and synergy finder | Done 2026-11-17 | `docs/effects.js`, `docs/layers.js`, `docs/synergy.js`, `tools/layers.js`, `tools/synergy.js`, `tools/tests/layers.js`; 73.8% of continuous effects read exactly, 14.1% not modeled |
+| 7. Deck editor screens and upgrades | Done, live 2026-11-17 | Toolbar, precon picker, grid/rows/text views, printings ring (`docs/ring.js`), upgrades, scrolling fix (33 to 60 fps); daily `docs/data/precon-prices.json` |

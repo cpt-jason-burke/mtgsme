@@ -41,6 +41,9 @@ for l in open(f"{src}/index/cards.jsonl"):
     c = {"n": name, "t": " ".join(d.get("tp", []) + d["t"]) + (" — " + " ".join(d["tb"]) if d.get("tb") else ""),
          "ci": d["ci"].upper(), "o": d.get("o", "")}
     if d.get("m"): c["m"] = d["m"]
+    # color, only where the mana cost doesn't give it (color indicator, back faces, devoid): rules 202.2 and 204
+    col = "".join(x for x in "WUBRG" if x.lower() in d.get("c", ""))
+    if col != "".join(x for x in "WUBRG" if x.lower() in re.sub(r"[^wubrg]", "", d.get("m", "").lower())): c["c"] = col
     if "p" in d or "to" in d: c["pt"] = f"{d.get('p', '?')}/{d.get('to', '?')}"
     if "ly" in d: c["ly"] = d["ly"]
     st = status.get(name, "legal")
