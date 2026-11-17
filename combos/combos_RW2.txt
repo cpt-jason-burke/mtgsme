@@ -1,3 +1,14 @@
+## Combo 2558-2829-4742-5687
+Cards: Skittering Precursor + Sword of the Meek + Nahiri's Resolve + Arcbound Ravager
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Produces: Infinite colorless mana; Infinite creature tokens with haste; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Skittering Precursor (battlefield); Sword of the Meek (battlefield); Nahiri's Resolve (battlefield); Arcbound Ravager (battlefield)
+Steps: Activate Arcbound Ravager by sacrificing Sword of the Meek.
+  Skittering Precursor triggers, creating a 0/1 Eldrazi Spawn creature token.
+  When the Eldrazi Spawn enters the battlefield as a 1/1 due to Nahiri's Resolve, Sword of the Meek triggers, returning Sword of the Meek from your graveyard to the battlefield attached to the Eldrazi Spawn.
+  Resolve the Arcbound Ravager ability, putting a +1/+1 counter on it.
+  Repeat.
+
 ## Combo 2558-2829-5687-5692
 Cards: Skittering Precursor + Sword of the Meek + Weapons Trainer + Arcbound Ravager
 Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -664,7 +675,7 @@ Steps: Cast Ornithopter by paying {0}.
 
 ## Combo 2644-3652-4763-5147
 Cards: Koll, the Forgemaster + Sai of the Shinobi + Ornithopter + Goblin Bombardment
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 490 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 480 | Commander: legal
 Produces: Infinite damage; Infinite artifact ETB; Infinite artifact LTB; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Koll, the Forgemaster (battlefield); Sai of the Shinobi (battlefield); Ornithopter (hand); Goblin Bombardment (battlefield)
 Steps: Cast Ornithopter by paying {0}.
@@ -688,7 +699,7 @@ Steps: Cast Shield Sphere by paying {0}.
 
 ## Combo 2644-4050-4763
 Cards: Koll, the Forgemaster + Sai of the Shinobi + Phyrexian Altar
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 230 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 220 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Koll, the Forgemaster (battlefield); Sai of the Shinobi (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: You have a creature card in hand that can be cast using one colored mana.
@@ -720,7 +731,7 @@ Steps: Whenever you lose life, Transcendence's second ability triggers, causing 
 
 ## Combo 2686-3369
 Cards: Barren Glory + Decree of Annihilation
-Color identity: RW | Bracket: 4+ (Ruthless) | Popularity: 380 | Commander: legal | Mana needed: {8}{R}{R}
+Color identity: RW | Bracket: 4+ (Ruthless) | Popularity: 390 | Commander: legal | Mana needed: {8}{R}{R}
 Produces: Win the game at the beginning of your next upkeep
 Start: Barren Glory (battlefield); Decree of Annihilation (hand)
 Prerequisites: You control no other nonartifact, nonland, noncreature permanents.
@@ -1151,7 +1162,7 @@ Steps: Cast Felidar Guardian by paying {3}{W}.
 
 ## Combo 2781-4313
 Cards: Felidar Guardian + Flameshadow Conjuring
-Color identity: RW | Bracket: 3-4+ (Spicy) | Popularity: 510 | Commander: legal | Mana needed: {3}{W}
+Color identity: RW | Bracket: 3-4+ (Spicy) | Popularity: 520 | Commander: legal | Mana needed: {3}{W}
 Produces: Infinite creature tokens with haste; Infinite creature ETB; Infinite creature LTB
 Start: Felidar Guardian (hand); Flameshadow Conjuring (battlefield)
 Prerequisites: You control a permanent that enters the battlefield untapped and can tap to produce at least {R}.
@@ -1413,7 +1424,7 @@ Steps: Activate a permanent you control by tapping it, adding at least {1}.
 
 ## Combo 2781-5917-6753
 Cards: The Jolly Balloon Man + Felidar Guardian + Exalted Sunborn
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 660 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 670 | Commander: legal
 Produces: Infinite creature tokens with haste; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: The Jolly Balloon Man (battlefield); Felidar Guardian (hand); Exalted Sunborn (battlefield)
 Prerequisites: You control a permanent that enters the battlefield untapped and can tap to produce at least {1}.
@@ -1514,7 +1525,7 @@ Steps: Activate Umbral Mantle's equip ability by paying {0}, attaching it to Su-
 
 ## Combo 2816-3156-4763-5004
 Cards: Koll, the Forgemaster + Demonmail Hauberk + Umbral Mantle + Cathodion
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Koll, the Forgemaster (battlefield); Demonmail Hauberk (battlefield); Umbral Mantle (battlefield); Cathodion (battlefield)
 Steps: Activate Umbral Mantle's equip ability by paying {0}, attaching it to Cathodion.
@@ -1578,7 +1589,7 @@ Steps: Equip Kobolds of Kher Keep with Umbral Mantle.
 
 ## Combo 2816-4763-5004-6068
 Cards: Koll, the Forgemaster + Dissection Tools + Umbral Mantle + Cathodion
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Koll, the Forgemaster (battlefield); Dissection Tools (battlefield); Umbral Mantle (battlefield); Cathodion (battlefield)
 Steps: Activate Umbral Mantle's equip ability by paying {0}, attaching it to Cathodion.
@@ -1724,7 +1735,7 @@ Notes: The amount of damage this combo deals is highly variable by how many Drag
 
 ## Combo 2857-4364-5147
 Cards: Aurelia, the Warleader + Adarkar Valkyrie + Goblin Bombardment
-Color identity: RW | Bracket: 3-4+ (Spicy) | Popularity: 94 | Commander: legal
+Color identity: RW | Bracket: 3-4+ (Spicy) | Popularity: 95 | Commander: legal
 Produces: Infinite combat phases; Infinite damage; Infinite mana creatures you control can produce; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite untap of creatures you control
 Start: Aurelia, the Warleader (battlefield); Adarkar Valkyrie (battlefield); Goblin Bombardment (battlefield)
 Steps: Declare Aurelia as an attacker.
@@ -2715,7 +2726,7 @@ Steps: Deal damage to Coalhauler Swine.
 
 ## Combo 3041-6899
 Cards: Coalhauler Swine + With Great Power . . .
-Color identity: RW | Bracket: 3-4+ (Spicy) | Popularity: 380 | Commander: legal
+Color identity: RW | Bracket: 3-4+ (Spicy) | Popularity: 390 | Commander: legal
 Produces: Infinite damage; Draw the game
 Start: Coalhauler Swine (battlefield); With Great Power . . . (battlefield: attached to Coalhauler Swine)
 Prerequisites: Coalhauler Swine has indestructible.
@@ -2970,7 +2981,7 @@ Steps: Activate Soltari Guerrillas by paying {0}, targeting itself.
 
 ## Combo 3149-3587
 Cards: Boros Reckoner + Avacyn, Angel of Hope
-Color identity: RW | Bracket: 3-4+ (Spicy) | Popularity: 1400 | Commander: legal
+Color identity: RW | Bracket: 3-4+ (Spicy) | Popularity: 1500 | Commander: legal
 Produces: Infinite lifegain; Infinite lifegain triggers
 Start: Boros Reckoner (battlefield); Avacyn, Angel of Hope (battlefield)
 Prerequisites: You have a way to give Boros Reckoner lifelink.
@@ -3106,7 +3117,7 @@ Steps: Activate Grafted Wargear's equip ability by paying {0}, attaching it to S
 
 ## Combo 3156-4763-4955-5004
 Cards: Koll, the Forgemaster + Demonmail Hauberk + Grafted Wargear + Cathodion
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Koll, the Forgemaster (battlefield); Demonmail Hauberk (battlefield); Grafted Wargear (battlefield); Cathodion (battlefield)
 Steps: Activate Grafted Wargear's equip ability by paying {0}, attaching it to Cathodion.
@@ -3710,7 +3721,7 @@ Steps: Deal combat damage to an opponent using the creature that has Breath of F
 
 ## Combo 3259-3480-4689
 Cards: Breath of Fury + Otharri, Suns' Glory + Purphoros, Bronze-Blooded
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 83 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 84 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite creature tokens with haste; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite untap of creatures you control; Infinite experience counters
 Start: Breath of Fury (battlefield: attached to another creature you control ); Otharri, Suns' Glory (battlefield); Purphoros, Bronze-Blooded (battlefield)
 Prerequisites: An opponent cannot block creatures you control.
@@ -4498,7 +4509,7 @@ Notes: If you control a commander, you can choose both of SOLDIER Military Progr
 
 ## Combo 3259-4478-7354
 Cards: Breath of Fury + Roar of Resistance + Endless Foot Assault
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite creature tokens with haste; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite untap of creatures you control
 Start: Breath of Fury (battlefield: attached to another creature you control that doesn't have summoning sickness); Roar of Resistance (battlefield); Endless Foot Assault (battlefield)
 Prerequisites: An opponent cannot block creatures you control.
@@ -4570,7 +4581,7 @@ Steps: Declare the creature with Breath of Fury attached and Otharri as attacker
 
 ## Combo 3259-4689-6633
 Cards: Breath of Fury + Otharri, Suns' Glory + The Fire Crystal
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 41 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 42 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite creature tokens with haste; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite untap of creatures you control; Infinite experience counters
 Start: Breath of Fury (battlefield: attached to another creature you control ); Otharri, Suns' Glory (battlefield); The Fire Crystal (battlefield)
 Prerequisites: An opponent cannot block creatures you control.
@@ -4594,7 +4605,7 @@ Steps: Declare the creature with Breath of Fury attached and Otharri as attacker
 
 ## Combo 3259-4689-6968
 Cards: Breath of Fury + Otharri, Suns' Glory + Kratos, God of War
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 88 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 89 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite creature tokens with haste; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite untap of creatures you control; Infinite experience counters
 Start: Breath of Fury (battlefield: attached to another creature you control ); Otharri, Suns' Glory (battlefield); Kratos, God of War (battlefield)
 Prerequisites: An opponent cannot block creatures you control.
@@ -4618,7 +4629,7 @@ Steps: Declare the creature with Breath of Fury attached and Otharri as attacker
 
 ## Combo 3259-4689-7175
 Cards: Breath of Fury + Otharri, Suns' Glory + Lavaleaper
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite creature tokens with haste; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite untap of creatures you control; Infinite experience counters
 Start: Breath of Fury (battlefield: attached to another creature you control ); Otharri, Suns' Glory (battlefield); Lavaleaper (battlefield)
 Prerequisites: An opponent cannot block creatures you control.
@@ -4654,7 +4665,7 @@ Steps: Declare the creature with Breath of Fury attached and Otharri as attacker
 
 ## Combo 3259-4689-8201
 Cards: Breath of Fury + Otharri, Suns' Glory + Samut, Hazoret's Champion
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite creature tokens with haste; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite experience counters; Infinite untap of creatures you control
 Start: Breath of Fury (battlefield: attached to another creature you control); Otharri, Suns' Glory (battlefield); Samut, Hazoret's Champion (battlefield)
 Prerequisites: An opponent cannot block creatures you control.
@@ -5191,7 +5202,7 @@ Steps: Declare the creature with Breath of Fury attached and Endless Foot Assaul
 
 ## Combo 3259-6633-7659
 Cards: Breath of Fury + The Fire Crystal + Brimaz, King of Oreskos
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite untap of creatures you control
 Start: Breath of Fury (battlefield: attached to another creature you control); The Fire Crystal (battlefield); Brimaz, King of Oreskos (battlefield)
 Prerequisites: An opponent cannot block creatures you control.
@@ -5683,7 +5694,7 @@ Notes: One of the two additional Angels must be on the battlefield with the othe
 
 ## Combo 3259-7354-8201
 Cards: Breath of Fury + Endless Foot Assault + Samut, Hazoret's Champion
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite creature tokens with haste; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite untap of creatures you control
 Start: Breath of Fury (battlefield: attached to another creature you control); Endless Foot Assault (battlefield); Samut, Hazoret's Champion (battlefield)
 Prerequisites: An opponent cannot block creatures you control.
@@ -5695,7 +5706,7 @@ Steps: Declare the creature with Breath of Fury attached and Endless Foot Assaul
 
 ## Combo 3259-7659-8201
 Cards: Breath of Fury + Brimaz, King of Oreskos + Samut, Hazoret's Champion
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite untap of creatures you control
 Start: Breath of Fury (battlefield: attached to another creature you control); Brimaz, King of Oreskos (battlefield: without summoning sickness); Samut, Hazoret's Champion (battlefield)
 Prerequisites: An opponent cannot block creatures you control.
@@ -6305,7 +6316,7 @@ Steps: Gain life.
 
 ## Combo 3490-4050-4369-5905
 Cards: The Red Terror + Animation Module + Phyrexian Altar + Warleader's Call
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {1}
 Produces: Infinite damage; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: The Red Terror (battlefield); Animation Module (battlefield); Phyrexian Altar (battlefield); Warleader's Call (battlefield)
 Prerequisites: You have a way to cause a creature with power 1 or greater to enter the battlefield under your control.
@@ -6348,7 +6359,7 @@ Steps: Gain life.
 
 ## Combo 3490-4369-4659-5905
 Cards: The Red Terror + Animation Module + Krark-Clan Ironworks + Warleader's Call
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite damage; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: The Red Terror (battlefield); Animation Module (battlefield); Krark-Clan Ironworks (battlefield); Warleader's Call (battlefield)
 Prerequisites: You have a way to cause a creature with power 1 or greater to enter the battlefield under your control.
@@ -6896,7 +6907,7 @@ Steps: Equip Crookshank Kobolds with Grafted Wargear.
 
 ## Combo 3558-4763-5231--21
 Cards: Koll, the Forgemaster + Crookshank Kobolds + Thermopod
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 92 | Commander: legal | Mana needed: {1}
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 91 | Commander: legal | Mana needed: {1}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Requires: Equipment with Equip Cost = {1} (battlefield)
 Start: Koll, the Forgemaster (battlefield); Crookshank Kobolds (battlefield); Thermopod (battlefield)
@@ -6908,7 +6919,7 @@ Steps: Activate the Equipment by paying its equip cost, attaching it to Crooksha
 
 ## Combo 3560-3899-5972
 Cards: Cass, Hand of Vengeance + Spawning Pit + Archon of Sun's Grace
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 70 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 71 | Commander: legal
 Produces: Infinite charge counters on a permanent; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Cass, Hand of Vengeance (battlefield); Spawning Pit (battlefield); Archon of Sun's Grace (battlefield)
 Prerequisites: You control an Aura that is attached to another creature you control.
@@ -6921,7 +6932,7 @@ Steps: Activate Spawning Pit by sacrificing another creature that has an Aura at
 
 ## Combo 3560-4050-5972
 Cards: Cass, Hand of Vengeance + Phyrexian Altar + Archon of Sun's Grace
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 73 | Commander: legal
 Produces: Infinite colored mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Cass, Hand of Vengeance (battlefield); Phyrexian Altar (battlefield); Archon of Sun's Grace (battlefield)
 Prerequisites: You control an Aura that is attached to another creature you control.
@@ -7531,6 +7542,17 @@ Steps: Cast Tatterkite from your graveyard by paying {0} due to Sami. It won't e
   Activate Grinding Station by tapping it and sacrificing Tatterkite.
   Repeat.
 
+## Combo 3701-4944-6213
+Cards: Crackdown Construct + Dan Lewis + Auriok Steelshaper
+Color identity: RW | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
+Produces: Infinitely large creature until end of turn
+Start: Crackdown Construct (battlefield); Dan Lewis (battlefield); Auriok Steelshaper (battlefield)
+Prerequisites: You control a noncreature artifact.
+Steps: Activate the equip ability Dan Lewis gives your noncreature artifact by paying {0} through the reduction from Auriok Steelshaper.
+  Crackdown Construct triggers, getting +1/+1 until end of turn.
+  Resolve the equip ability, attaching the artifact to a creature.
+  Repeat.
+
 ## Combo 3705-4050-4365-5997
 Cards: Iraxxa, Empress of Mars + Squee, the Immortal + Phyrexian Altar + Mondrak, Glory Dominus
 Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}{R}{R}
@@ -7754,7 +7776,7 @@ Notes: If Stuffy Doll has you chosen as the player, this combo starts an infinit
 
 ## Combo 3809-4682-7890
 Cards: Gleaming Splendor + Smothering Tithe + Goldspan Dragon
-Color identity: RW | Bracket: 3+ (Powerful) | Popularity: 4100 | Commander: legal | Mana needed: {2}{W}
+Color identity: RW | Bracket: 3+ (Powerful) | Popularity: 4200 | Commander: legal | Mana needed: {2}{W}
 Produces: Infinite card draw for any number of players; Near-infinite Treasure tokens; Near-infinite colored mana; Infinite draw triggers for any number of players; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers
 Start: Gleaming Splendor (battlefield); Smothering Tithe (battlefield); Goldspan Dragon (battlefield)
 Prerequisites: At least two opponents cannot pay for Smothering Tithe's trigger.
@@ -7834,7 +7856,7 @@ Steps: Declare Aurelia and Seluma as attackers. Aurelia triggers, causing you to
 
 ## Combo 3899-5968-5972
 Cards: Cass, Hand of Vengeance + Spawning Pit + Ghostly Dancers
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
 Produces: Infinite charge counters on a permanent; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Cass, Hand of Vengeance (battlefield); Spawning Pit (battlefield); Ghostly Dancers (battlefield)
 Prerequisites: You control an Aura that is attached to another creature you control.
@@ -7847,7 +7869,7 @@ Steps: Activate Spawning Pit by sacrificing another creature that has an Aura at
 
 ## Combo 3899-5972-5973
 Cards: Cass, Hand of Vengeance + Griffin Guide + Spawning Pit
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 83 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 84 | Commander: legal
 Produces: Infinite charge counters on a permanent; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Cass, Hand of Vengeance (battlefield); Griffin Guide (battlefield); Spawning Pit (battlefield)
 Prerequisites: Griffin Guide attached to another creature you control.
@@ -8305,7 +8327,7 @@ Steps: Declare Aurelia and Seluma as attackers. Aurelia triggers, causing you to
 
 ## Combo 4050-4763-4766
 Cards: Koll, the Forgemaster + Deathrender + Phyrexian Altar
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 65 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 64 | Commander: legal
 Produces: Infinite colored mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Koll, the Forgemaster (battlefield); Deathrender (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: Deahrender attached to another nontoken creature you control.
@@ -8386,7 +8408,7 @@ Notes: You can sacrifice up to two additional creatures each loop to net mana.
 
 ## Combo 4050-5968-5972
 Cards: Cass, Hand of Vengeance + Phyrexian Altar + Ghostly Dancers
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 41 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 42 | Commander: legal
 Produces: Infinite colored mana; Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Cass, Hand of Vengeance (battlefield); Phyrexian Altar (battlefield); Ghostly Dancers (battlefield)
 Prerequisites: You control an Aura that is attached to another creature you control.
@@ -8398,7 +8420,7 @@ Steps: Activate Phyrexian Altar by sacrificing another creature that has an Aura
 
 ## Combo 4050-5972-5973
 Cards: Cass, Hand of Vengeance + Griffin Guide + Phyrexian Altar
-Color identity: RW | Bracket: 3-4+ (Spicy) | Popularity: 86 | Commander: legal
+Color identity: RW | Bracket: 3-4+ (Spicy) | Popularity: 87 | Commander: legal
 Produces: Infinite colored mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Cass, Hand of Vengeance (battlefield); Griffin Guide (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: Griffin Guide attached to another creature you control.
@@ -8598,7 +8620,7 @@ Steps: Activate Goblin Bombardment by sacrificing the persist or undying creatur
 
 ## Combo 4053-5231--73
 Cards: Solemnity + Thermopod
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 28 | Commander: legal
 Produces: Infinite red mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Creature with Persist or Undying (battlefield)
 Start: Solemnity (battlefield); Thermopod (battlefield)
@@ -9256,7 +9278,7 @@ Steps: Declare Aurelia and Seluma as attackers. Aurelia triggers, causing you to
 
 ## Combo 4364-5256-7917
 Cards: Aurelia, the Warleader + Seluma, Light of Aysen + Altar of Dementia
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 99 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 100 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite mana creatures you control can produce; Infinite mill; Infinite self-mill; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite untap of creatures you control
 Start: Aurelia, the Warleader (battlefield); Seluma, Light of Aysen (battlefield: without summoning sickness); Altar of Dementia (battlefield)
 Prerequisites: Aurelia hasn't attacked this turn.
@@ -9584,7 +9606,7 @@ Steps: Activate Improvised Arsenal by paying {4}{R}, creating two token copies o
 
 ## Combo 4682-5184-7890
 Cards: Gleaming Splendor + Smothering Tithe + Xorn
-Color identity: RW | Bracket: 3+ (Powerful) | Popularity: 3800 | Commander: legal | Mana needed: {2}{W}
+Color identity: RW | Bracket: 3+ (Powerful) | Popularity: 3900 | Commander: legal | Mana needed: {2}{W}
 Produces: Infinite card draw for any number of players; Near-infinite Treasure tokens; Near-infinite colored mana; Infinite draw triggers for any number of players; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers
 Start: Gleaming Splendor (battlefield); Smothering Tithe (battlefield); Xorn (battlefield)
 Prerequisites: At least two opponents cannot pay for Smothering Tithe's trigger.
@@ -9632,7 +9654,7 @@ Steps: Activate a mana-producing creature by tapping it, adding at least {1}.
 
 ## Combo 4763-4766-5147
 Cards: Koll, the Forgemaster + Deathrender + Goblin Bombardment
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 150 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 140 | Commander: legal
 Produces: Infinite damage; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Koll, the Forgemaster (battlefield); Deathrender (battlefield); Goblin Bombardment (battlefield)
 Prerequisites: Deahrender attached to another nontoken creature you control.
@@ -9645,7 +9667,7 @@ Steps: Activate Goblin Bombardment by sacrificing the creature with Deathrender 
 
 ## Combo 4763-4766-5231
 Cards: Koll, the Forgemaster + Deathrender + Thermopod
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
 Produces: Infinite red mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Koll, the Forgemaster (battlefield); Deathrender (battlefield); Thermopod (battlefield)
 Prerequisites: Deahrender attached to Thermopod.
@@ -9670,7 +9692,7 @@ Steps: Activate Altar of Dementia by sacrificing the creature with Deathrender a
 
 ## Combo 4763-4955-5004-6068
 Cards: Koll, the Forgemaster + Dissection Tools + Grafted Wargear + Cathodion
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Koll, the Forgemaster (battlefield); Dissection Tools (battlefield); Grafted Wargear (battlefield); Cathodion (battlefield)
 Steps: Activate Grafted Wargear's equip ability by paying {0}, attaching it to Cathodion.
@@ -9827,9 +9849,53 @@ Steps: Activate Lancers en-Kor by paying {0}, targeting itself.
   Cast Lancers en-Kor from exile by paying {0} due to Advanced Reconstruction.
   Repeat.
 
+## Combo 4944-6213-6301
+Cards: Crackdown Construct + Dan Lewis + Bladehold War-Whip
+Color identity: RW | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
+Produces: Infinitely large creature until end of turn
+Start: Crackdown Construct (battlefield); Dan Lewis (battlefield); Bladehold War-Whip (battlefield)
+Prerequisites: You control a noncreature artifact.
+Steps: Activate the equip ability Dan Lewis gives your noncreature artifact by paying {0} through the reduction from Bladehold War-Whip.
+  Crackdown Construct triggers, getting +1/+1 until end of turn.
+  Resolve the equip ability, attaching the artifact to a creature.
+  Repeat.
+
+## Combo 4944-6213-6302
+Cards: Crackdown Construct + Dan Lewis + Bureau Headmaster
+Color identity: RW | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
+Produces: Infinitely large creature until end of turn
+Start: Crackdown Construct (battlefield); Dan Lewis (battlefield); Bureau Headmaster (battlefield)
+Prerequisites: You control a noncreature artifact.
+Steps: Activate the equip ability Dan Lewis gives your noncreature artifact by paying {0} through the reduction from Bureau Headmaster.
+  Crackdown Construct triggers, getting +1/+1 until end of turn.
+  Resolve the equip ability, attaching the artifact to a creature.
+  Repeat.
+
+## Combo 4944-6213-6304
+Cards: Crackdown Construct + Dan Lewis + Éowyn, Lady of Rohan
+Color identity: RW | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
+Produces: Infinitely large creature until end of turn
+Start: Crackdown Construct (battlefield); Dan Lewis (battlefield); Éowyn, Lady of Rohan (battlefield)
+Prerequisites: You control a noncreature artifact.
+Steps: Activate the equip ability Dan Lewis gives your noncreature artifact by paying {0} through the reduction from Éowyn.
+  Crackdown Construct triggers, getting +1/+1 until end of turn.
+  Resolve the equip ability, attaching the artifact to a creature.
+  Repeat.
+
+## Combo 4944-6213-6305
+Cards: Crackdown Construct + Dan Lewis + Nahiri, Storm of Stone
+Color identity: RW | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
+Produces: Infinitely large creature until end of turn
+Start: Crackdown Construct (battlefield); Dan Lewis (battlefield); Nahiri, Storm of Stone (battlefield)
+Prerequisites: You control a noncreature artifact.
+Steps: Activate the equip ability Dan Lewis gives your noncreature artifact by paying {0} through the reduction from Nahiri, Storm of Stone.
+  Crackdown Construct triggers, getting +1/+1 until end of turn.
+  Resolve the equip ability, attaching the artifact to a creature.
+  Repeat.
+
 ## Combo 4944-6565
 Cards: Cloud, Planet's Champion + Crackdown Construct
-Color identity: RW | Bracket: 3-4+ (Spicy) | Popularity: 220 | Commander: legal
+Color identity: RW | Bracket: 3-4+ (Spicy) | Popularity: 230 | Commander: legal
 Produces: Infinitely large creature until end of turn
 Start: Cloud, Planet's Champion (battlefield); Crackdown Construct (battlefield)
 Prerequisites: You control a creature that can be equipped to Cloud by paying {0}.
@@ -10345,7 +10411,7 @@ Steps: Cast Daydream by paying {W}, targeting Zealous Lorecaster
 
 ## Combo 5195-7431-7634
 Cards: Practiced Scrollsmith + Storm-Kiln Artist + Daydream
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal | Mana needed: {W}
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal | Mana needed: {W}
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
 Start: Practiced Scrollsmith (battlefield); Storm-Kiln Artist (battlefield); Daydream (hand)
 Steps: Cast Daydream by paying its mana cost, targeting Practiced Scrollsmith.
@@ -10630,7 +10696,7 @@ Notes: Once you have infinite mana, you may activate a Boommobile to deal infini
 
 ## Combo 6747-6867-6869
 Cards: Appa, Steadfast Guardian + Sami, Wildcat Captain + Aang, Airbending Master
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal | Mana needed: {W}{W}
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal | Mana needed: {W}{W}
 Produces: Infinite creature tokens; Infinite creature LTB; Infinite creature ETB; Infinite storm count
 Start: Appa, Steadfast Guardian (hand); Sami, Wildcat Captain (battlefield); Aang, Airbending Master (battlefield)
 Prerequisites: You control at least two artifacts.
@@ -10658,7 +10724,7 @@ Steps: Cast Appa by paying {W}{W}.
 
 ## Combo 6747-6867-7042
 Cards: Appa, Steadfast Guardian + Sami, Wildcat Captain + Appa, Loyal Sky Bison
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal | Mana needed: {W}{W}
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal | Mana needed: {W}{W}
 Produces: Infinite creature tokens; Infinite creature LTB; Infinite creature ETB; Infinite storm count
 Start: Appa, Steadfast Guardian (hand); Sami, Wildcat Captain (battlefield); Appa, Loyal Sky Bison (hand)
 Prerequisites: You control at least two artifacts.

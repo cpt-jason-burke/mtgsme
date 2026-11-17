@@ -665,7 +665,7 @@ Steps: Mutate Vadrok onto the extra creature.
 
 ## Combo 126-2825-4406
 Cards: Obeka, Brute Chronologist + Elite Arcanist + Chance for Glory
-Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 2 | Commander: legal | Mana needed: {3} every turn
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 3 | Commander: legal | Mana needed: {3} every turn
 Produces: Infinite turns; Lock
 Start: Obeka, Brute Chronologist (battlefield); Elite Arcanist (battlefield); Chance for Glory (exile: exiled by Elite Arcanist)
 Prerequisites: Elite Arcanist does not have summoning sickness.
@@ -1210,7 +1210,7 @@ Steps: Activate The Chain Veil by paying {4} and tapping it, allowing an extra a
 
 ## Combo 193-1124-3604
 Cards: Cadric, Soul Kindler + Aminatou, the Fateshifter + The Chain Veil
-Color identity: WUBR | Bracket: 3-4+ (Spicy) | Popularity: 52 | Commander: legal | Mana needed: {W}{U}{B}
+Color identity: WUBR | Bracket: 3-4+ (Spicy) | Popularity: 53 | Commander: legal | Mana needed: {W}{U}{B}
 Produces: Infinite mana permanents you control that enter the battlefield untapped can produce; Infinite mana lands you control can produce; Infinite creature LTB; Infinite creature ETB; Infinite landfall triggers; Infinite blinking of permanents; Infinite copies of legendary permanents you own in play until end of turn
 Start: Cadric, Soul Kindler (battlefield); Aminatou, the Fateshifter (hand); The Chain Veil (battlefield)
 Prerequisites: You control a permanent that enters the battlefield untapped and can tap to produce at least {1}.
@@ -2516,7 +2516,7 @@ Steps: Cast Metallic Sliver by paying {0}.
 
 ## Combo 321-399-2475-3168-6707
 Cards: Metallic Sliver + Lavabelly Sliver + Hibernation Sliver + Syphon Sliver + Urza's Incubator
-Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 120 | Commander: legal
+Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 130 | Commander: legal
 Produces: Infinite damage; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
 Start: Metallic Sliver (hand); Lavabelly Sliver (battlefield); Hibernation Sliver (battlefield); Syphon Sliver (battlefield); Urza's Incubator (battlefield: with "Sliver" chosen)
 Steps: Cast Metallic Sliver by paying {0}.
@@ -3164,6 +3164,17 @@ Steps: Activate Warren Soultrader by paying 1 life and sacrificing the persist c
   Resolve the Warren Soultrader ability, creating a Treasure token.
   When the Treasure enters, Mm'menon triggers, putting a +1/+1 counter on the persist creature.
   Repeat.
+
+## Combo 362-5686-7082
+Cards: Bludgeon Brawl + Shilgengar, Sire of Famine + Sokka and Suki
+Color identity: WUBR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
+Produces: Infinite artifact tokens; Infinite Blood tokens; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Bludgeon Brawl (battlefield); Shilgengar, Sire of Famine (battlefield); Sokka and Suki (battlefield)
+Steps: Cause a noncreature artifact to enter the battlefield under your control, which will be an Equipment due to Bludgeon Brawl if it isn't an Equipment already, causing Sokka and Suki to trigger.
+  Resolve Sokka and Suki's second ability, creating a 1/1 white Ally creature token that triggers its first ability.
+  Resolve Sokka and Suki's first ability, attaching up to one Equipment to the Ally that triggered it.
+  Activate Shilgengar by sacrificing a creature, creating a Blood token which will be an Equipment due to Bludgeon Brawl, and causing Sokka and Suki to trigger.
+  Repeat from step 2.
 
 ## Combo 372-465-6473
 Cards: Abdel Adrian, Gorion's Ward + Wormfang Drake + Mardu Siegebreaker
@@ -5761,7 +5772,7 @@ Steps: Cast Nicol Bolas by paying {U}{B}{B}{B}{R}.
 
 ## Combo 600-1180-4329
 Cards: Jace, Cunning Castaway + Nicol Bolas, Dragon-God + Oath of Gideon
-Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 710 | Commander: legal
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 720 | Commander: legal
 Produces: Infinite card draw; Infinite creature tokens; Infinite copies of a specific planeswalker; Exile all permanents opponents control; Infinite draw triggers; Infinite creature ETB; Mass Land Denial
 Start: Jace, Cunning Castaway (battlefield); Nicol Bolas, Dragon-God (battlefield); Oath of Gideon (battlefield)
 Prerequisites: Nicol Bolas has at least five loyalty counters on it.
@@ -15711,7 +15722,7 @@ Notes: If you have a way to kill Evereth and {1}{B/R} available, you can do so a
 
 ## Combo 1368-1396-4682
 Cards: Smothering Tithe + Underworld Breach + Whispering Madness
-Color identity: WUBR | Bracket: 3+ (Powerful) | Popularity: 100 | Commander: legal | Mana needed: {2}{U}{B}
+Color identity: WUBR | Bracket: 3+ (Powerful) | Popularity: 99 | Commander: legal | Mana needed: {2}{U}{B}
 Produces: Near-infinite colored mana; Near-infinite Treasure tokens; Infinite looting for all players; Infinite draw triggers for all players; Infinite self-discard triggers for all players
 Start: Smothering Tithe (battlefield); Underworld Breach (battlefield); Whispering Madness (graveyard)
 Prerequisites: A player has at least four cards in hand.
@@ -17942,7 +17953,7 @@ Notes: You can choose whatever path you desire while venturing through Undercity
 
 ## Combo 1625-4527
 Cards: Magister Sphinx + Hidetsugu's Second Rite
-Color identity: WUBR | Bracket: 2+ (Core) | Popularity: 53 | Commander: legal | Mana needed: {7}{U}{R}{W}
+Color identity: WUBR | Bracket: 2+ (Core) | Popularity: 52 | Commander: legal | Mana needed: {7}{U}{R}{W}
 Produces: Target player loses the game
 Start: Magister Sphinx (hand); Hidetsugu's Second Rite (hand)
 Steps: Cast Magister Sphinx targetinging an opponent, putting their life total to 10.
@@ -17972,6 +17983,61 @@ Steps: Activate Master Transmuter by paying {U}, tapping it and returning Breya 
   Activate Phyrexian Altar by sacrificing a Thopter, adding {U}.
   Repeat.
   Once you have infinite creature tokens and infinite colored mana, you may activate Breya's ability infinite times.
+
+## Combo 1636-2018-2838-5147
+Cards: Luminous Broodmoth + Intruder Alarm + Soul Diviner + Goblin Bombardment
+Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Near-infinite untap of all creatures; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
+Start: Luminous Broodmoth (battlefield); Intruder Alarm (battlefield); Soul Diviner (battlefield); Goblin Bombardment (battlefield)
+Prerequisites: Soul Diviner doesn't have summoning sickness.
+  You control another nontoken creature that doesn't have flying.
+Steps: Activate Goblin Bombardment by sacrificing the additional creature
+  When the creature dies, Luminous Broodmoth triggers, returning the creature from your graveyard to the battlefield with a flying counter on it.
+  When the creature enters, Intruder Alarm triggers, untapping all creatures.
+  Resolve the Goblin Bombardment ability, dealing 1 damage to its target.
+  Activate Soul Diviner by tapping it and removing the flying counter from the additional creature, causing you to draw a card.
+  Repeat
+
+## Combo 1636-2018-2838-5231
+Cards: Luminous Broodmoth + Intruder Alarm + Soul Diviner + Thermopod
+Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Near-infinite untap of all creatures; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
+Start: Luminous Broodmoth (battlefield); Intruder Alarm (battlefield); Soul Diviner (battlefield); Thermopod (battlefield)
+Prerequisites: Soul Diviner doesn't have summoning sickness.
+  You control another nontoken creature that doesn't have flying.
+Steps: Activate Thermopod by sacrificing the additional creature, adding {R}
+  When the creature dies, Luminous Broodmoth triggers, returning the creature from your graveyard to the battlefield with a flying counter on it.
+  When the creature enters, Intruder Alarm triggers, untapping all creatures.
+  Activate Soul Diviner by tapping it and removing the flying counter from the additional creature, causing you to draw a card.
+  Repeat
+
+## Combo 1636-2018-2838-6495
+Cards: Luminous Broodmoth + Intruder Alarm + Soul Diviner + Evereth, Viceroy of Plunder
+Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Near-infinite untap of all creatures; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
+Start: Luminous Broodmoth (battlefield); Intruder Alarm (battlefield); Soul Diviner (battlefield); Evereth, Viceroy of Plunder (battlefield)
+Prerequisites: Soul Diviner doesn't have summoning sickness.
+  You control another nontoken creature that doesn't have flying.
+Steps: Activate Evereth by sacrificing the additional creature
+  When the creature dies, Luminous Broodmoth triggers, returning the creature from your graveyard to the battlefield with a flying counter on it.
+  When the creature enters, Intruder Alarm triggers, untapping all creatures.
+  Resolve the Evereth ability, putting a +1/+1 counter on them.
+  Activate Soul Diviner by tapping it and removing the flying counter from the additional creature, causing you to draw a card.
+  Repeat
+
+## Combo 1636-2018-6495-6609
+Cards: Luminous Broodmoth + Intruder Alarm + Evereth, Viceroy of Plunder + O'aka, Traveling Merchant
+Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Near-infinite untap of all creatures; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
+Start: Luminous Broodmoth (battlefield); Intruder Alarm (battlefield); Evereth, Viceroy of Plunder (battlefield); O'aka, Traveling Merchant (battlefield)
+Prerequisites: O'aka doesn't have summoning sickness.
+  You control another nontoken creature that doesn't have flying.
+Steps: Activate Evereth by sacrificing the additional creature
+  When the creature dies, Luminous Broodmoth triggers, returning the creature from your graveyard to the battlefield with a flying counter on it.
+  When the creature enters, Intruder Alarm triggers, untapping all creatures.
+  Resolve the Evereth ability, putting a +1/+1 counter on them.
+  Activate O'aka by tapping it and removing the flying counter from the additional creature, causing you to draw a card.
+  Repeat
 
 ## Combo 1636-2099-4023-6987
 Cards: Dr. Madison Li + Intruder Alarm + Robobrain War Mind + Sarcatog
@@ -18070,6 +18136,48 @@ Steps: Activate Reflection of Kiki-Jiki by paying {1} and tapping it, creating a
   Resolve the Mardu Warshrieker trigger, adding {R}{W}{B}.
   Resolve the Intruder Alarm trigger, untapping all creatures.
   Repeat.
+
+## Combo 1636-2838-5147-6972
+Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Intruder Alarm + Goblin Bombardment + Soul Diviner
+Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Near-infinite damage; Near-infinite untap of all creatures; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
+Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Intruder Alarm (battlefield); Goblin Bombardment (battlefield); Soul Diviner (battlefield)
+Prerequisites: Soul Diviner doesn't have summoning sickness.
+  You control another nontoken creature that doesn't have a -1/-1 counter on it, enter with -1/-1 counter(s) on it or have base toughness 1 or less.
+Steps: Activate Goblin Bombardment by sacrificing the additional creature
+  When the creature dies, its persist ability triggers, returning the creature from your graveyard to the battlefield with a -1/-1 counter on it.
+  When the creature enters, Intruder Alarm triggers, untapping all creatures.
+  Resolve the Goblin Bombardment ability, dealing 1 damage to its target.
+  Activate Soul Diviner by tapping it and removing the -1/-1 counter from the additional creature, causing you to draw a card.
+  Repeat
+
+## Combo 1636-2838-5231-6972
+Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Intruder Alarm + Thermopod + Soul Diviner
+Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Near-infinite red mana; Near-infinite untap of all creatures; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
+Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Intruder Alarm (battlefield); Thermopod (battlefield); Soul Diviner (battlefield)
+Prerequisites: Soul Diviner doesn't have summoning sickness.
+  You control another nontoken creature that doesn't have a -1/-1 counter on it, enter with -1/-1 counter(s) on it or have base toughness 1 or less.
+Steps: Activate Thermopod by sacrificing the additional creature, adding {R}
+  When the creature dies, its persist ability triggers, returning the creature from your graveyard to the battlefield with a -1/-1 counter on it.
+  When the creature enters, Intruder Alarm triggers, untapping all creatures.
+  Activate Soul Diviner by tapping it and removing the -1/-1 counter from the additional creature, causing you to draw a card.
+  Repeat
+
+## Combo 1636-2838-6495-6972
+Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Intruder Alarm + Evereth, Viceroy of Plunder + Soul Diviner
+Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Near-infinite damage; Near-infinite +1/+1 counters on a creature; Near-infinite untap of all creatures; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
+Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Intruder Alarm (battlefield); Evereth, Viceroy of Plunder (battlefield); Soul Diviner (battlefield)
+Prerequisites: Soul Diviner doesn't have summoning sickness.
+  You control another nontoken creature that doesn't have a -1/-1 counter on it, enter with -1/-1 counter(s) on it or have base toughness 1 or less.
+Steps: Activate Evereth by sacrificing the additional creature
+  When the creature dies, its persist ability triggers, returning the creature from your graveyard to the battlefield with a -1/-1 counter on it.
+  When the creature enters, Intruder Alarm triggers, untapping all creatures.
+  Resolve the Evereth ability, putting a +1/+1 counter on them.
+  Activate Soul Diviner by tapping it and removing the -1/-1 counter from the additional creature, causing you to draw a card.
+  Repeat
+Notes: If you have a way to kill Evereth and {1}{B/R} available, you can do so after putting a significant amount of +1/+1 counters on it to deal damage to each opponent using its second ability.
 
 ## Combo 1636-2921-4023-6987
 Cards: Dr. Madison Li + Intruder Alarm + Robobrain War Mind + Bartolomé del Presidio
@@ -18217,6 +18325,20 @@ Steps: Activate Jan Jansen's second ability by tapping it and sacrificing the no
   Resolve the second Intruder Alarm trigger from step 2, untapping all creatures.
   Repeat.
 
+## Combo 1636-5147-6609-6972
+Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Intruder Alarm + Goblin Bombardment + O'aka, Traveling Merchant
+Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Near-infinite damage; Near-infinite untap of all creatures; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
+Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Intruder Alarm (battlefield); Goblin Bombardment (battlefield); O'aka, Traveling Merchant (battlefield)
+Prerequisites: O'aka doesn't have summoning sickness.
+  You control another nontoken creature that doesn't have a -1/-1 counter on it, enter with -1/-1 counter(s) on it or have base toughness 1 or less.
+Steps: Activate Goblin Bombardment by sacrificing the additional creature
+  When the creature dies, its persist ability triggers, returning the creature from your graveyard to the battlefield with a -1/-1 counter on it.
+  When the creature enters, Intruder Alarm triggers, untapping all creatures.
+  Resolve the Goblin Bombardment ability, dealing 1 damage to its target.
+  Activate O'aka by tapping it and removing the -1/-1 counter from the additional creature, causing you to draw a card.
+  Repeat
+
 ## Combo 1636-5147-7185-7284
 Cards: Rat King, Verminister + Intruder Alarm + Belonging + Goblin Bombardment
 Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {5}{W}
@@ -18242,6 +18364,19 @@ Steps: At the beginning of your combat phase, Mishra triggers, creating a token 
   Repeat from step 2.
 Notes: Since Mishra's Warform will get infinite time counters, Kate Stewart's second ability can be used to make your creatures infinitely large.
 
+## Combo 1636-5231-6609-6972
+Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Intruder Alarm + Thermopod + O'aka, Traveling Merchant
+Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Near-infinite red mana; Near-infinite untap of all creatures; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
+Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Intruder Alarm (battlefield); Thermopod (battlefield); O'aka, Traveling Merchant (battlefield)
+Prerequisites: O'aka doesn't have summoning sickness.
+  You control another nontoken creature that doesn't have a -1/-1 counter on it, enter with -1/-1 counter(s) on it or have base toughness 1 or less.
+Steps: Activate Thermopod by sacrificing the additional creature, adding {R}
+  When the creature dies, its persist ability triggers, returning the creature from your graveyard to the battlefield with a -1/-1 counter on it.
+  When the creature enters, Intruder Alarm triggers, untapping all creatures.
+  Activate O'aka by tapping it and removing the -1/-1 counter from the additional creature, causing you to draw a card.
+  Repeat
+
 ## Combo 1636-5231-7185-7284
 Cards: Rat King, Verminister + Intruder Alarm + Belonging + Thermopod
 Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {5}{W}
@@ -18254,6 +18389,21 @@ Steps: Cast Belonging by paying {5}{W}.
   Activate Thermopod by sacrificing Belonging.
   Activate Rat King by tapping it and sacrificing the Shapeshifters, returning Belonging from your graveyard to the battlefield.
   Repeat from step 2.
+
+## Combo 1636-6495-6609-6972
+Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Intruder Alarm + Evereth, Viceroy of Plunder + O'aka, Traveling Merchant
+Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Near-infinite damage; Near-infinite +1/+1 counters on a creature; Near-infinite untap of all creatures; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
+Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Intruder Alarm (battlefield); Evereth, Viceroy of Plunder (battlefield); O'aka, Traveling Merchant (battlefield)
+Prerequisites: O'aka doesn't have summoning sickness.
+  You control another nontoken creature that doesn't have a -1/-1 counter on it, enter with -1/-1 counter(s) on it or have base toughness 1 or less.
+Steps: Activate Evereth by sacrificing the additional creature
+  When the creature dies, its persist ability triggers, returning the creature from your graveyard to the battlefield with a -1/-1 counter on it.
+  When the creature enters, Intruder Alarm triggers, untapping all creatures.
+  Resolve the Evereth ability, putting a +1/+1 counter on them.
+  Activate O'aka by tapping it and removing the -1/-1 counter from the additional creature, causing you to draw a card.
+  Repeat
+Notes: If you have a way to kill Evereth and {1}{B/R} available, you can do so after putting a significant amount of +1/+1 counters on it to deal damage to each opponent using its second ability.
 
 ## Combo 1651-1999-3910-4050
 Cards: Breya, Etherium Shaper + Master Transmuter + Phyrexian Altar + Clock of Omens
@@ -18660,7 +18810,7 @@ Steps: At the beginning of combat, Mishra triggers, creating a 4/4 artifact crea
 
 ## Combo 1786-2353-4691
 Cards: Vilis, Broker of Blood + Queza, Augur of Agonies + Niv-Mizzet, Parun
-Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
+Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
 Produces: Infinite card draw; Near-infinite lifeloss; Near-infinite lifegain triggers; Infinite draw triggers
 Start: Vilis, Broker of Blood (battlefield); Queza, Augur of Agonies (battlefield); Niv-Mizzet, Parun (battlefield)
 Prerequisites: You have a way to draw a card.
@@ -18673,7 +18823,7 @@ Steps: Draw a card.
 
 ## Combo 1786-4691-4971
 Cards: Vilis, Broker of Blood + Queza, Augur of Agonies + Niv-Mizzet, the Firemind
-Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
+Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
 Produces: Infinite card draw; Near-infinite lifeloss; Near-infinite damage; Near-infinite lifegain triggers; Infinite draw triggers
 Start: Vilis, Broker of Blood (battlefield); Queza, Augur of Agonies (battlefield); Niv-Mizzet, the Firemind (battlefield)
 Prerequisites: You have a way to draw a card.
@@ -20426,7 +20576,7 @@ Notes: If Geralf's Mindcrusher starts with a +1/+1 counter on it, then you may s
 
 ## Combo 2275-2353-4691
 Cards: Vilis, Broker of Blood + Shabraz, the Skyshark + Niv-Mizzet, Parun
-Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
+Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite card draw; Near-infinite +1/+1 counters on a creature; Near-infinite lifegain triggers; Infinite draw triggers
 Start: Vilis, Broker of Blood (battlefield); Shabraz, the Skyshark (battlefield); Niv-Mizzet, Parun (battlefield)
 Prerequisites: You have a way to draw a card.
@@ -20439,7 +20589,7 @@ Steps: Draw a card.
 
 ## Combo 2275-4691-4971
 Cards: Vilis, Broker of Blood + Shabraz, the Skyshark + Niv-Mizzet, the Firemind
-Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
+Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
 Produces: Infinite card draw; Near-infinite damage; Near-infinite +1/+1 counters on a creature; Near-infinite lifegain triggers; Infinite draw triggers
 Start: Vilis, Broker of Blood (battlefield); Shabraz, the Skyshark (battlefield); Niv-Mizzet, the Firemind (battlefield)
 Prerequisites: You have a way to draw a card.
@@ -27705,6 +27855,17 @@ Steps: Activate Shilgengar by sacrificing another creature that has an Aura atta
   When the Aura enters the battlefield, Gremlin Tamer triggers, creating a creature token.
   Resolve the Shilgengar ability.
   Repeat.
+
+## Combo 5686-6213-7082
+Cards: Shilgengar, Sire of Famine + Dan Lewis + Sokka and Suki
+Color identity: WUBR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
+Produces: Infinite artifact tokens; Infinite Blood tokens; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Shilgengar, Sire of Famine (battlefield); Dan Lewis (battlefield); Sokka and Suki (battlefield)
+Steps: Cause a noncreature artifact to enter the battlefield under your control, which will be an Equipment due to Dan Lewis if it isn't an Equipment already, causing Sokka and Suki to trigger.
+  Resolve Sokka and Suki's second ability, creating a 1/1 white Ally creature token that triggers its first ability.
+  Resolve Sokka and Suki's first ability, attaching up to one Equipment to the Ally that triggered it.
+  Activate Shilgengar by sacrificing a creature, creating a Blood token which will be an Equipment due to Dan Lewis, and causing Sokka and Suki to trigger.
+  Repeat from step 2.
 
 ## Combo 5686-6249-7920--5
 Cards: Olivia, Mobilized for War + Shilgengar, Sire of Famine + Tresserhorn's Lord, Returned

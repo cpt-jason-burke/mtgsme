@@ -1,3 +1,28 @@
+## Combo 2366-3322-4785-5702
+Cards: Springheart Nantuko + Dryad Arbor + Nikya of the Old Ways + Dynaheir, Invoker Adept
+Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
+Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nikya of the Old Ways (battlefield); Dynaheir, Invoker Adept (battlefield)
+Prerequisites: You have a land card in hand.
+  You are able to play a land this turn.
+Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing you to pay {1}{G} to create a token copy of Dryad Arbor.
+  When the Dryad Arbor token enters, Springheart Nantuko triggers. Holding priority, activate the Dryad Arbor token by tapping it, adding {G}.
+  Nikya of the Old Ways triggers, adding {G}.
+  Resolve the Springheart Nantuko trigger, causing you to pay {1}{G} to create a token copy of Dryad Arbor.
+  Repeat from step 2.
+
+## Combo 2366-3430-4785-5702
+Cards: Springheart Nantuko + Dryad Arbor + Nyxbloom Ancient + Dynaheir, Invoker Adept
+Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
+Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nyxbloom Ancient (battlefield); Dynaheir, Invoker Adept (battlefield)
+Prerequisites: You have a land card in hand.
+  You are able to play a land this turn.
+Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing you to pay {1}{G} to create a token copy of Dryad Arbor.
+  When the Dryad Arbor token enters, Springheart Nantuko triggers. Holding priority, activate the Dryad Arbor token by tapping it, adding {G}{G}{G} due to Nyxbloom Ancient.
+  Resolve the Springheart Nantuko trigger, causing you to pay {1}{G} to create a token copy of Dryad Arbor.
+  Repeat from step 2.
+
 ## Combo 2366-3512-4785-5702
 Cards: Springheart Nantuko + Dryad Arbor + Mana Flare + Dynaheir, Invoker Adept
 Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
@@ -9719,6 +9744,17 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
   Activate the token by tapping and sacrificing it, adding {1}.
   Repeat.
 
+## Combo 4321-6213-7082
+Cards: Peregrin Took + Dan Lewis + Sokka and Suki
+Color identity: RGWU | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Draw the game; Infinite card draw; Infinite creature tokens; Infinite Food tokens; Infinite artifact ETB; Infinite creature ETB; Infinite draw triggers
+Start: Peregrin Took (battlefield); Dan Lewis (battlefield); Sokka and Suki (battlefield)
+Steps: Cause a noncreature artifact to enter the battlefield under your control, which will be an Equipment due to Dan Lewis if it isn't an Equipment already, causing Sokka and Suki to trigger.
+  Resolve Sokka and Suki's second ability, creating a 1/1 white Ally creature token plus an additional artifact token through Peregrin Took, which will be an Equipment due to Dan Lewis. Each relevant ability of Sokka and Suki triggers.
+  Resolve Sokka and Suki's first ability, attaching up to one Equipment to the Ally that triggered it.
+  Repeat from step 2.
+Notes: The combo creates a mandatory infinite loop in step 2. This must be stopped at some point or the game ends in a draw.
+
 ## Combo 4331-4993-5116-6259
 Cards: Drafna, Founder of Lat-Nam + Manifold Key + Gilded Lotus + Samut, the Driving Force
 Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -12163,6 +12199,17 @@ Steps: Activate Avatar Kuruk by paying {20} minus {1} for each creature and/or a
   The Legend of Kuruk's first and second chapter abilities trigger, causing you to scry 2, draw a card, scry 2 and draw another card.
   Move to your next turn. At the beginning of your precombat main phase. The Legend of Kuruk triggers, putting two lore counters on it. Its third chapter ability triggers, causing you to exile it and return it to the battlefield as Avatar Kuruk.
   Repeat.
+
+## Combo 6213-7082-7810
+Cards: Tippy-Toe, Terrific Partner + Dan Lewis + Sokka and Suki
+Color identity: RGWU | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Draw the game; Infinite creature tokens; Infinite Food tokens; Infinite artifact ETB; Infinite creature ETB
+Start: Tippy-Toe, Terrific Partner (battlefield); Dan Lewis (battlefield); Sokka and Suki (battlefield)
+Steps: Cause a noncreature artifact to enter the battlefield under your control, which will be an Equipment due to Dan Lewis if it isn't an Equipment already, causing Sokka and Suki to trigger.
+  Resolve Sokka and Suki's second ability, creating a 1/1 white Ally creature token plus an additional artifact token through Tippy-Toe, which will be an Equipment due to Dan Lewis. Each relevant ability of Sokka and Suki triggers.
+  Resolve Sokka and Suki's first ability, attaching up to one Equipment to the Ally that triggered it.
+  Repeat from step 2.
+Notes: The combo creates a mandatory infinite loop in step 2. This must be stopped at some point or the game ends in a draw.
 
 ## Combo 6286-7163
 Cards: Mister Fantastic + Unstoppable Plan

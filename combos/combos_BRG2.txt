@@ -1,3 +1,27 @@
+## Combo 1263-3602-4050-4929
+Cards: Bhaal, Lord of Murder + Bloodsoaked Champion + Cryptic Trilobite + Phyrexian Altar
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite +1/+1 counters on most creatures you control; Infinite colorless mana that can only be spent to activate abilities; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
+Start: Bhaal, Lord of Murder (battlefield); Bloodsoaked Champion (battlefield); Cryptic Trilobite (battlefield); Phyrexian Altar (battlefield)
+Prerequisites: You have attacked this turn.
+Steps: Activate Phyrexian Altar by sacrificing Bloodsoaked Champion, adding {B}.
+  When Bloodsoaked Champion dies, Bhaal triggers, putting a +1/+1 counter on Cryptic Trilobite and goading it.
+  Activate Cryptic Trilobite by removing a +1/+1 counter from it, adding {C}{C} that can only be spent to activate abilities.
+  Activate Bloodsoaked Champion by paying {1}{B}, returning it from your graveyard to the battlefield tapped.
+  Repeat.
+
+## Combo 1263-3602-4050-5296
+Cards: Bhaal, Lord of Murder + Bloodsoaked Champion + Workhorse + Phyrexian Altar
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
+Start: Bhaal, Lord of Murder (battlefield); Bloodsoaked Champion (battlefield); Workhorse (battlefield); Phyrexian Altar (battlefield)
+Prerequisites: You have attacked this turn.
+Steps: Activate Phyrexian Altar by sacrificing Bloodsoaked Champion, adding {B}.
+  When Bloodsoaked Champion dies, Bhaal triggers, putting a +1/+1 counter on Workhorse and goading it.
+  Activate Workhorse by removing a +1/+1 counter from it, adding {C}.
+  Activate Bloodsoaked Champion by paying {1}{B}, returning it from your graveyard to the battlefield tapped.
+  Repeat.
+
 ## Combo 1263-4050-7918-8125
 Cards: Bloodsoaked Champion + Phyrexian Altar + Sifa Grent + Davvol, Evincar of Rath
 Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
@@ -2124,7 +2148,7 @@ Notes: If you have a way to kill Evereth and {1}{B/R} available, you can do so a
 
 ## Combo 1475-5147-7084
 Cards: One with the Kami + Beifong's Bounty Hunters + Goblin Bombardment
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
 Produces: Infinite creature tokens; Infinite damage; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers
 Start: One with the Kami (battlefield); Beifong's Bounty Hunters (battlefield); Goblin Bombardment (battlefield)
 Prerequisites: You control a land.
@@ -2280,7 +2304,7 @@ Steps: Play Rakdos Carnarium.
 
 ## Combo 1479-3257-3534
 Cards: Kodama of the East Tree + Rakdos Carnarium + Field of the Dead
-Color identity: BRG | Bracket: 3+ (Powerful) | Popularity: 610 | Commander: legal
+Color identity: BRG | Bracket: 3+ (Powerful) | Popularity: 620 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Rakdos Carnarium (hand); Field of the Dead (battlefield)
 Prerequisites: You control seven or more lands with different names.
@@ -2341,7 +2365,7 @@ Steps: Play Rakdos Carnarium.
 
 ## Combo 1479-3257-4288
 Cards: Kodama of the East Tree + Sarinth Greatwurm + Rakdos Carnarium
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
 Produces: Infinite tapped Powerstone tokens; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Sarinth Greatwurm (battlefield); Rakdos Carnarium (hand)
 Prerequisites: You are able to play a land this turn.
@@ -2356,7 +2380,7 @@ Steps: Play Rakdos Carnarium.
 
 ## Combo 1479-3257-4488
 Cards: Kodama of the East Tree + Rakdos Carnarium + Rampaging Baloths
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 780 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 790 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Rakdos Carnarium (hand); Rampaging Baloths (battlefield)
 Prerequisites: You are able to play a land this turn.
@@ -2416,7 +2440,7 @@ Steps: Play Rakdos Carnarium.
 
 ## Combo 1479-3257-6528
 Cards: Kodama of the East Tree + Rakdos Carnarium + Elfsworn Giant
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 53 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Rakdos Carnarium (hand); Elfsworn Giant (battlefield)
 Prerequisites: You are able to play a land this turn.
@@ -2461,7 +2485,7 @@ Steps: Play Rakdos Carnarium.
 
 ## Combo 1479-3257-6754
 Cards: Kodama of the East Tree + Rakdos Carnarium + Eusocial Engineering
-Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 98 | Commander: legal
+Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 99 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Rakdos Carnarium (hand); Eusocial Engineering (battlefield)
 Steps: Play Rakdos Carnarium.
@@ -2490,7 +2514,7 @@ Steps: Play Rakdos Carnarium.
 
 ## Combo 1479-3257-7705
 Cards: Kodama of the East Tree + Rakdos Carnarium + Mole Man, Moloid Master
-Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 95 | Commander: legal
+Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 96 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Rakdos Carnarium (hand); Mole Man, Moloid Master (battlefield)
 Steps: Play Rakdos Carnarium.
@@ -4341,7 +4365,7 @@ Steps: Activate Bösium Strip by paying {3} and tapping it, allowing you to cast
 
 ## Combo 1640-4083-5488
 Cards: Repercussion + Pariah's Shield + Indoraptor, the Perfect Hybrid
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 28 | Commander: legal
 Produces: Infinite damage
 Start: Repercussion (battlefield); Pariah's Shield (battlefield: attached to Indoraptor); Indoraptor, the Perfect Hybrid (battlefield)
 Prerequisites: You have a way to deal damage to Indoraptor.
@@ -4865,7 +4889,7 @@ Steps: Cast Murderous Redcap by paying {2}{B/R}{B/R}.
 
 ## Combo 1657-6258
 Cards: Murderous Redcap + Thunderous Velocipede
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal | Mana needed: {2}{B/R}{B/R}
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 59 | Commander: legal | Mana needed: {2}{B/R}{B/R}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite death triggers
 Start: Murderous Redcap (hand); Thunderous Velocipede (battlefield)
 Steps: Cast Murderous Redcap by paying {2}{B/R}{B/R}, which enters with a +1/+1 counter on it due to Thunderous Velocipede.
@@ -4876,7 +4900,7 @@ Steps: Cast Murderous Redcap by paying {2}{B/R}{B/R}, which enters with a +1/+1 
 
 ## Combo 1657-6461
 Cards: Murderous Redcap + Warden of the Grove
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 80 | Commander: legal | Mana needed: {2}{B/R}{B/R}
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 81 | Commander: legal | Mana needed: {2}{B/R}{B/R}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite death triggers
 Start: Murderous Redcap (hand); Warden of the Grove (battlefield: with a counter on it)
 Steps: Cast Murderous Redcap by paying {2}{B/R}{B/R}.
@@ -4900,7 +4924,7 @@ Steps: Cast Murderous Redcap by paying {2}{B/R}{B/R}, which enters with a +1/+1 
 
 ## Combo 1657-7096
 Cards: Murderous Redcap + Bioengineered Future
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 58 | Commander: legal | Mana needed: {2}{B/R}{B/R}
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 57 | Commander: legal | Mana needed: {2}{B/R}{B/R}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite death triggers
 Start: Murderous Redcap (hand); Bioengineered Future (battlefield)
 Prerequisites: You've had a land enter this turn.
@@ -9236,7 +9260,7 @@ Notes: Each legendary creature you control reduces the amount of mana required b
 
 ## Combo 2167-4862-5626-5721
 Cards: Squandered Resources + Aftermath Analyst + Chthonian Nightmare + Omnath, Locus of Rage
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 23 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 24 | Commander: legal
 Produces: Infinite self-mill; Infinite creature tokens; Infinite mana lands you control can produce; Infinite damage; Put all land cards from your library and graveyard onto the battlefield; Infinite creature LTB; Infinite creature ETB; Infinite storm count; Infinite landfall triggers; Infinite energy counters; Infinite death triggers
 Start: Squandered Resources (battlefield); Aftermath Analyst (battlefield); Chthonian Nightmare (battlefield); Omnath, Locus of Rage (battlefield)
 Prerequisites: You have at least {E}{E}.
@@ -9845,7 +9869,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 
 ## Combo 2228-4279-7918
 Cards: Yawgmoth, Thran Physician + Hapatra, Vizier of Poisons + Sifa Grent
-Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal
 Produces: Near-infinite card draw; Near-infinite lifeloss; Near-infinite lifegain triggers; Destroy all creatures opponents control; Destroy each creature that enters the battlefield under an opponent's control; Lock; Near-infinite -1/-1 counters; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite draw triggers
 Start: Yawgmoth, Thran Physician (battlefield); Hapatra, Vizier of Poisons (battlefield); Sifa Grent (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -10160,7 +10184,7 @@ Steps: Activate Viscera Seer by sacrificing the persist creature.
 
 ## Combo 2292-3020-6701
 Cards: Szarel, Genesis Shepherd + Puppeteer Clique + Viscera Seer
-Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 37 | Commander: legal
+Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 38 | Commander: legal
 Produces: Infinite +1/+1 counters on creatures you control; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Start: Szarel, Genesis Shepherd (battlefield); Puppeteer Clique (battlefield: without a -1/-1 counter on it); Viscera Seer (battlefield)
 Prerequisites: An opponent has a creature card in their graveyard.
@@ -11477,7 +11501,7 @@ Steps: Activate Bloodflow Connoisseur by sacrificing the persist creature.
 
 ## Combo 2376-3967--5
 Cards: Rhythm of the Wild + Yahenni, Undying Partisan
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 910 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 920 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Requires: Persist Creature (battlefield: without a -1/-1 counter on it)
 Start: Rhythm of the Wild (battlefield); Yahenni, Undying Partisan (battlefield)
@@ -12447,7 +12471,7 @@ Steps: Activate Carrion Feeder by sacrificing the creature with power 4 or great
 
 ## Combo 2438-5254-8122
 Cards: The Muckslinger Gang + Warbeast of Gorgoroth + Carrion Feeder
-Color identity: BRG | Bracket: 2-3+ (Oddball) | Popularity: 3 | Commander: legal
+Color identity: BRG | Bracket: 2-3+ (Oddball) | Popularity: 4 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: The Muckslinger Gang (battlefield); Warbeast of Gorgoroth (battlefield); Carrion Feeder (battlefield)
 Prerequisites: You control another creature with power 4 or greater.
@@ -15619,7 +15643,7 @@ Steps: Activate Bloodthrone Vampire by sacrificing Puppeteer Clique.
 
 ## Combo 3020-5147-6701
 Cards: Szarel, Genesis Shepherd + Puppeteer Clique + Goblin Bombardment
-Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 32 | Commander: legal
+Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 33 | Commander: legal
 Produces: Infinite damage; Infinite +1/+1 counters on creatures you control; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Szarel, Genesis Shepherd (battlefield); Puppeteer Clique (battlefield: without a -1/-1 counter on it); Goblin Bombardment (battlefield)
 Prerequisites: An opponent has a creature card in their graveyard.
@@ -15703,7 +15727,7 @@ Steps: Activate Phantom Train by sacrificing Puppeteer Clique.
 
 ## Combo 3020-6701-6798
 Cards: Szarel, Genesis Shepherd + Puppeteer Clique + Umbral Collar Zealot
-Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 21 | Commander: legal
+Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 22 | Commander: legal
 Produces: Infinite surveil; Infinite +1/+1 counters on creatures you control; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Szarel, Genesis Shepherd (battlefield); Puppeteer Clique (battlefield: without a -1/-1 counter on it); Umbral Collar Zealot (battlefield)
 Prerequisites: An opponent has a creature card in their graveyard.
@@ -16930,7 +16954,7 @@ Steps: When an opponent controls a nontoken creature, activate Thermopod by sacr
 
 ## Combo 3284-3490-3698-4871
 Cards: Korvold, Fae-Cursed King + Animation Module + Pitiless Plunderer + Grinding Station
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 52 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 53 | Commander: legal
 Produces: Infinite self-mill; Infinite card draw; Near-infinite mill; Near-infinite +1/+1 counters on a creature; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Infinite draw triggers; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Korvold, Fae-Cursed King (battlefield); Animation Module (battlefield); Pitiless Plunderer (battlefield); Grinding Station (battlefield)
 Prerequisites: You control an additional creature.
@@ -17002,7 +17026,7 @@ Steps: Activate Bloodthrone Vampire by sacrificing another creature you control
 
 ## Combo 3284-3490-4659
 Cards: Korvold, Fae-Cursed King + Animation Module + Krark-Clan Ironworks
-Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 52 | Commander: legal
+Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 53 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite +1/+1 counters on a creature; Near-infinite creature ETB; Infinite draw triggers; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Korvold, Fae-Cursed King (battlefield); Animation Module (battlefield); Krark-Clan Ironworks (battlefield)
 Prerequisites: You control an additional creature.
@@ -18738,7 +18762,7 @@ Steps: Activate Spawning Pit by sacrificing another nonland creature you control
 
 ## Combo 3912-5147-7084
 Cards: Beifong's Bounty Hunters + Khalni Garden + Goblin Bombardment
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 53 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal
 Produces: Infinite damage; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Khalni Garden (battlefield); Goblin Bombardment (battlefield)
 Prerequisites: You control another nonland creature.
@@ -18901,7 +18925,7 @@ Steps: Play Glacial Chasm either from your hand or from your graveyard.
 
 ## Combo 3946-5451-6701
 Cards: Glacial Chasm + Wayward Swordtooth + Szarel, Genesis Shepherd
-Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 880 | Commander: legal
+Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 890 | Commander: legal
 Produces: Prevent all damage that would be dealt to you; Lock
 Start: Glacial Chasm (battlefield); Wayward Swordtooth (battlefield); Szarel, Genesis Shepherd (battlefield)
 Prerequisites: You control another land.
@@ -19302,7 +19326,7 @@ Steps: Activate Phyrexian Altar by sacrificing Sprouting Thrinax, adding {1}.
 
 ## Combo 4050-5254-8122
 Cards: The Muckslinger Gang + Warbeast of Gorgoroth + Phyrexian Altar
-Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 4 | Commander: legal
+Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 6 | Commander: legal
 Produces: Infinite colored mana; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: The Muckslinger Gang (battlefield); Warbeast of Gorgoroth (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: You control another creature with power 4 or greater.
@@ -19632,7 +19656,7 @@ Notes: You may also target your other creatures in step 2 to put +1/+1 counters 
 
 ## Combo 4120-4968-7315
 Cards: Vigor + Deathbringer Thoctar + High Score
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
 Produces: Infinite +1/+1 counters on creatures you control; Infinite damage
 Start: Vigor (battlefield); Deathbringer Thoctar (battlefield: with a +1/+1 counter on it); High Score (battlefield)
 Prerequisites: Deathbringer Thoctar has a +1/+1 counter on it.
@@ -20140,7 +20164,7 @@ Notes: You'll create double as many Squirrels each loop. All Squirrels beyond th
 
 ## Combo 4294-5147-5220
 Cards: Etali, Primal Conqueror // Etali, Primal Sickness + Mortuary + Goblin Bombardment
-Color identity: BRG | Bracket: 2-3+ (Oddball) | Popularity: 11 | Commander: legal | Mana needed: {5}{R}{R}
+Color identity: BRG | Bracket: 2-3+ (Oddball) | Popularity: 12 | Commander: legal | Mana needed: {5}{R}{R}
 Produces: Cast any number of spells from opponents' libraries; Exile each opponent's library; Infinite damage; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count; Near-infinite magecraft triggers
 Start: Etali, Primal Conqueror // Etali, Primal Sickness (hand); Mortuary (battlefield); Goblin Bombardment (battlefield)
 Steps: Cast Etali by paying {5}{R}{R}.
@@ -20343,7 +20367,7 @@ Notes: You'll create double as many Squirrels each loop. All Squirrels beyond th
 
 ## Combo 4381-5641-5662
 Cards: Basking Broodscale + Grumgully, the Generous + Reyhan, Last of the Abzan
-Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 58 | Commander: legal | Mana needed: {1}{G}
+Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 59 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite colorless mana; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (hand); Grumgully, the Generous (battlefield); Reyhan, Last of the Abzan (battlefield)
 Steps: Cast Basking Broodscale by paying {1}{G}, causing it to enter with a +1/+1 counter due to Grumgully.
@@ -22494,7 +22518,7 @@ Steps: Activate Goblin Bombardment by sacrificing Willow Geist.
 
 ## Combo 5147-5254-8122
 Cards: The Muckslinger Gang + Warbeast of Gorgoroth + Goblin Bombardment
-Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 11 | Commander: legal
+Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 13 | Commander: legal
 Produces: Infinite damage; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: The Muckslinger Gang (battlefield); Warbeast of Gorgoroth (battlefield); Goblin Bombardment (battlefield)
 Prerequisites: You control another creature with power 4 or greater.
@@ -22587,7 +22611,7 @@ Steps: Activate Goblin Bombardment by sacrificing another nonland creature you c
 
 ## Combo 5147-5776-5777
 Cards: Ygra, Eater of All + Camellia, the Seedmiser + Goblin Bombardment
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 96 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 95 | Commander: legal
 Produces: Infinite damage; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Ygra, Eater of All (battlefield); Camellia, the Seedmiser (battlefield); Goblin Bombardment (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -22760,7 +22784,7 @@ Steps: Activate Goblin Bombardment by sacrificing another nonland creature.
 
 ## Combo 5147-6982--5
 Cards: Stalwart Successor + Goblin Bombardment
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
 Produces: Infinite damage; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Stalwart Successor (battlefield); Goblin Bombardment (battlefield)
@@ -23394,7 +23418,7 @@ Steps: Activate Thermopod by sacrificing another nonland creature.
 
 ## Combo 5231-6982--5
 Cards: Stalwart Successor + Thermopod
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
 Produces: Infinite red mana; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Stalwart Successor (battlefield); Thermopod (battlefield)
@@ -23539,7 +23563,7 @@ Steps: Activate Thermopod by sacrificing another nonland creature you control.
 
 ## Combo 5231-7430--5
 Cards: Thermopod + Gorma, the Gullet
-Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 11 | Commander: legal
+Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 12 | Commander: legal
 Produces: Infinite red mana; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Requires: Persist Creature (battlefield: without a -1/-1 counter on it)
 Start: Thermopod (battlefield); Gorma, the Gullet (battlefield)
@@ -23553,7 +23577,7 @@ Notes: Each loop, Gorma will place an additional +1/+1 counter on the persist cr
 
 ## Combo 5254-5256-8122
 Cards: The Muckslinger Gang + Warbeast of Gorgoroth + Altar of Dementia
-Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 9 | Commander: legal
+Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 10 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: The Muckslinger Gang (battlefield); Warbeast of Gorgoroth (battlefield); Altar of Dementia (battlefield)
 Prerequisites: You control another creature with power 4 or greater.

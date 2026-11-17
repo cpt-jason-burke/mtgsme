@@ -1,3 +1,560 @@
+## Combo 1562-4375-6798
+Cards: Technomancer + Machine God's Effigy + Umbral Collar Zealot
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {4}
+Produces: Infinite self-mill; Infinite blue mana; Infinite surveil; Put all artifact creature cards with mana value 2 or less from your library onto the battlefield; Put all artifact creature cards with mana value 2 or less from your graveyard onto the battlefield; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Technomancer (battlefield); Machine God's Effigy (hand); Umbral Collar Zealot (battlefield)
+Steps: Cast Machine God's Effigy by paying {4}. Choose to have it enter the battlefield as a copy of Technomancer.
+  When Machine God's Effigy enters, it triggers. Holding priority, activate Machine God's Effigy by tapping it, adding {U}.
+  Activate Umbral Collar Zealot by sacrificing Machine God's Effigy.
+  Resolve the Machine God's Effigy trigger, causing you to mill three cards and return Machine God's Effigy from your graveyard to the battlefield as a copy of Technomancer.
+  Repeat from step 2.
+
+## Combo 1562-4375-8095
+Cards: Technomancer + Machine God's Effigy + Hammerhead, Maggia Boss
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {4}
+Produces: Infinite blue mana; Infinite self-mill; Infinite +1/+1 counters on a creature; Put all artifact creature cards with mana value 2 or less from your graveyard onto the battlefield; Put all artifact creature cards with mana value 2 or less from your library onto the battlefield; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Technomancer (battlefield); Machine God's Effigy (hand); Hammerhead, Maggia Boss (battlefield)
+Steps: Cast Machine God's Effigy by paying {4}. Choose to have it enter the battlefield as a copy of Technomancer.
+  When Machine God's Effigy enters, it triggers. Holding priority, activate Machine God's Effigy by tapping it, adding {U}.
+  Activate Hammerhead by sacrificing Machine God's Effigy.
+  Resolve the Machine God's Effigy trigger, causing you to mill three cards and return Machine God's Effigy from your graveyard to the battlefield as a copy of Technomancer.
+  Repeat from step 2.
+
+## Combo 1570-2267-3674
+Cards: Tormod, the Desecrator + Sage of the Falls + Necroplasm
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
+Produces: Infinite self-mill; Near-infinite tapped creature tokens; Near-infinite creature ETB; Near-infinite self-discard triggers
+Start: Tormod, the Desecrator (battlefield); Sage of the Falls (battlefield); Necroplasm (graveyard)
+Prerequisites: You have a way to cause a non-Human creature to enter the battlefield under your control.
+Steps: Cause a non-Human creature to enter the battlefield under your control.
+  Sage of the Falls triggers, causing you to mill two cards, return Necroplasm from your graveyard to your hand, and discard Necroplasm.
+  Tormod triggers, creating a tapped 2/2 Zombie creature token.
+  Repeat from step 2.
+
+## Combo 1570-2267-5010
+Cards: Tormod, the Desecrator + Sage of the Falls + Golgari Thug
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal
+Produces: Infinite self-mill
+Start: Tormod, the Desecrator (battlefield); Sage of the Falls (battlefield); Golgari Thug (graveyard)
+Prerequisites: You have a way to cause a non-Human creature to enter the battlefield under your control.
+Steps: Cause a non-Human creature to enter the battlefield under your control.
+  Sage of the Falls triggers, causing you to mill four cards, return Golgari Thug from your graveyard to your hand, and discard Golgari Thug.
+  Tormod triggers, creating a tapped 2/2 Zombie creature token.
+  Repeat from step 2.
+
+## Combo 1570-4050-5544-6822
+Cards: Lyla, Holographic Assistant + Phyrexian Altar + Forsaken Miner + Sage of the Falls
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite looting; Infinite self-discard triggers; Near-infinite creature ETB; Infinite draw triggers; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers; Near-infinite +1/+1 counters on a creature an opponent controls
+Start: Lyla, Holographic Assistant (battlefield); Phyrexian Altar (battlefield); Forsaken Miner (hand); Sage of the Falls (battlefield)
+Prerequisites: An opponent controls a creature
+Steps: Cast Forsaken Miner by paying {B}.
+  When Forsaken Miner enters, Sage of the Falls triggers.
+  Holding priority, activate Phyrexian Altar by sacrificing Forsaken Miner, adding {B}.
+  Resolve the Sage of the Falls trigger, causing you to loot.
+  Lyla triggers, targeting a creature an opponent controls.
+  Forsaken Miner triggers, causing you to pay {B} to return Forsaken Miner from your graveyard to the battlefield.
+  Repeat from step 2.
+  Resolve all Lyla triggers.
+
+## Combo 1570-6264
+Cards: Sage of the Falls + Cryptcaller Chariot
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 110 | Commander: legal | Mana needed: {4}{U}
+Produces: Near-infinite creature tokens; Infinite looting; Infinite self-discard triggers; Near-infinite creature ETB; Infinite draw triggers
+Start: Sage of the Falls (hand); Cryptcaller Chariot (battlefield)
+Steps: Cast Sage of the Falls by paying {4}{U}.
+  When Sage of the Falls enters the battlefield, it triggers, causing you to loot.
+  Cryptcaller Chariot triggers, creating a 2/2 Zombie creature token.
+  When the Zombie enters the battlefield, Sage of the Falls triggers, causing you to loot.
+  Repeat from step 3.
+
+## Combo 1571-3734-4042
+Cards: Wire Surgeons + Blightsteel Colossus + Phyrexian Metamorph
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal | Mana needed: {3}{U/P}
+Produces: Each opponent loses the game
+Start: Wire Surgeons (battlefield); Blightsteel Colossus (battlefield); Phyrexian Metamorph (graveyard)
+Prerequisites: Opponents are unable to block creatures you control.
+Steps: Activate Phyrexian Metamorph's encore ability by paying {3}{U/P} and exiling it, causing you to create a token copy with haste for each opponent you have.
+  Choose to have each Phyrexian Metamorph token enter the battlefield as a copy of Blightsteel Colossus.
+  Deal combat damage to each opponent using a Phyrexian Metamorph token, causing each opponent to get eleven poison counters.
+  Each opponent loses the game due to having ten or more poison counters.
+
+## Combo 1572-2341-4067
+Cards: Ashcoat of the Shadow Swarm + Mind Over Matter + The Peregrine Dynamo
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
+Produces: Infinite self-mill; Infinite self-discard triggers
+Start: Ashcoat of the Shadow Swarm (battlefield); Mind Over Matter (battlefield); The Peregrine Dynamo (battlefield)
+Prerequisites: Two Rat creature cards in hand and/or graveyard.
+Steps: At the beginning of your end step, Ashcoat of the Shadow Swarm triggers.
+  In response, activate The Peregrine Dynamo by paying {1} and tapping it, copying Ashcoat of the Shadow Swarm's triggered ability.
+  Resolve the copied ability, milling four cards and returning up to two Rat creature cards from your graveyard to your hand.
+  Activate Mind Over Matter twice by discarding two Rat creature cards, untapping a land and The Peregrine Dynamo.
+  Activate that land by tapping it to add {1}.
+  Repeat from step 2.
+
+## Combo 1580-1599-1636-3263
+Cards: Priest of Yawgmoth + Intruder Alarm + Reassembling Skeleton + Mycosynth Lattice
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite mana creatures you control can produce; Infinite untap of creatures; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
+Start: Priest of Yawgmoth (battlefield); Intruder Alarm (battlefield); Reassembling Skeleton (battlefield); Mycosynth Lattice (battlefield)
+Prerequisites: Priest of Yawgmoth does not have summoning sickness.
+Steps: Activate Priest of Yawgmoth by tapping it and sacrificing Reassembling Skeleton, adding {B}{B}.
+  Activate Reassembling Skeleton by paying {1}{B}, returning it from your graveyard to the battlefield.
+  When Reassembling Skeleton enters the battlefield, Intruder Alarm triggers, untapping all creatures.
+  Repeat.
+
+## Combo 1580-1636-1785
+Cards: Soldevi Adnate + Intruder Alarm + Reassembling Skeleton
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Produces: Infinite mana creatures you control can produce; Infinite untap of creatures; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
+Start: Soldevi Adnate (battlefield); Intruder Alarm (battlefield); Reassembling Skeleton (battlefield)
+Prerequisites: Soldevi Adnate does not have summoning sickness.
+Steps: Activate Soldevi Adnate by tapping it and sacrificing Reassembling Skeleton, adding {B}{B}.
+  Activate Reassembling Skeleton by paying {1}{B}, returning it from your graveyard to the battlefield.
+  When Reassembling Skeleton enters the battlefield, Intruder Alarm triggers, untapping all creatures.
+  Repeat.
+
+## Combo 1580-2292-4871-5921
+Cards: Pitiless Plunderer + Reassembling Skeleton + Viscera Seer + Mirror Room // Fractured Realm
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
+Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
+Start: Pitiless Plunderer (battlefield); Reassembling Skeleton (battlefield); Viscera Seer (battlefield); Mirror Room // Fractured Realm (battlefield)
+Prerequisites: Fractured Realm is unlocked.
+Steps: Activate Viscera Seer by sacrificing Reassembling Skeleton.
+  When Reassembling Skeleton dies, Pitiless Plunderer triggers twice, creating two Treasure tokens.
+  Resolve the Viscera Seer ability.
+  Activate the Treasure tokens by tapping and sacrificing them, adding {1}{B}.
+  Activate Reassembling Skeleton by paying {1}{B}, returning it from your graveyard to the battlefield tapped.
+  Repeat.
+
+## Combo 1580-2292-4871-6248
+Cards: Viscera Seer + Reassembling Skeleton + Pitiless Plunderer + Phenomenon Investigators
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
+Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite scry 1
+Start: Viscera Seer (battlefield); Reassembling Skeleton (graveyard); Pitiless Plunderer (battlefield); Phenomenon Investigators (battlefield: with "Believe" chosen)
+Steps: Activate Viscera Seer by sacrificing Reassembling Skeleton.
+  When Reassembling Skeleton dies, Pitiless Plunderer and Phenomenon Investigators trigger, creating a creature token and a Treasure token.
+  Resolve the Viscera Seer ability.
+  Activate Viscera Seer by sacrificing the creature token.
+  When the creature token dies, Pitiless Plunderer triggers, creating a Treasure token.
+  Resolve the Viscera Seer ability.
+  Activate the Treasures by tapping and sacrificing them, adding {1}{B}.
+  Activate Reassembling Skeleton by paying {1}{B}, returning it from your graveyard to the battlefield.
+  Repeat.
+
+## Combo 1580-2438-4871-5921
+Cards: Pitiless Plunderer + Reassembling Skeleton + Carrion Feeder + Mirror Room // Fractured Realm
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Pitiless Plunderer (battlefield); Reassembling Skeleton (battlefield); Carrion Feeder (battlefield); Mirror Room // Fractured Realm (battlefield)
+Prerequisites: Fractured Realm is unlocked.
+Steps: Activate Carrion Feeder by sacrificing Reassembling Skeleton.
+  When Reassembling Skeleton dies, Pitiless Plunderer triggers twice, creating two Treasure tokens.
+  Resolve the Carrion Feeder ability.
+  Activate the Treasure tokens by tapping and sacrificing them, adding {1}{B}.
+  Activate Reassembling Skeleton by paying {1}{B}, returning it from your graveyard to the battlefield tapped.
+  Repeat.
+
+## Combo 1580-2438-4871-6248
+Cards: Reassembling Skeleton + Carrion Feeder + Pitiless Plunderer + Phenomenon Investigators
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
+Start: Reassembling Skeleton (graveyard); Carrion Feeder (battlefield); Pitiless Plunderer (battlefield); Phenomenon Investigators (battlefield: with "Believe" chosen)
+Steps: Activate Carrion Feeder by sacrificing Reassembling Skeleton.
+  When Reassembling Skeleton dies, Pitiless Plunderer and Phenomenon Investigators trigger, creating a creature token and a Treasure token.
+  Resolve the Carrion Feeder ability.
+  Activate Carrion Feeder by sacrificing the creature token.
+  When the creature token dies, Pitiless Plunderer triggers, creating a Treasure token.
+  Resolve the Carrion Feeder ability.
+  Activate the Treasures by tapping and sacrificing them, adding {1}{B}.
+  Activate Reassembling Skeleton by paying {1}{B}, returning it from your graveyard to the battlefield.
+  Repeat.
+
+## Combo 1580-2511-4871-5921
+Cards: Pitiless Plunderer + Reassembling Skeleton + Bloodflow Connoisseur + Mirror Room // Fractured Realm
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Pitiless Plunderer (battlefield); Reassembling Skeleton (battlefield); Bloodflow Connoisseur (battlefield); Mirror Room // Fractured Realm (battlefield)
+Prerequisites: Fractured Realm is unlocked.
+Steps: Activate Bloodflow Connoisseur by sacrificing Reassembling Skeleton.
+  When Reassembling Skeleton dies, Pitiless Plunderer triggers twice, creating two Treasure tokens.
+  Resolve the Bloodflow Connoisseur ability.
+  Activate the Treasure tokens by tapping and sacrificing them, adding {1}{B}.
+  Activate Reassembling Skeleton by paying {1}{B}, returning it from your graveyard to the battlefield tapped.
+  Repeat.
+
+## Combo 1580-2511-4871-6248
+Cards: Reassembling Skeleton + Bloodflow Connoisseur + Pitiless Plunderer + Phenomenon Investigators
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
+Start: Reassembling Skeleton (graveyard); Bloodflow Connoisseur (battlefield); Pitiless Plunderer (battlefield); Phenomenon Investigators (battlefield: with "Believe" chosen)
+Steps: Activate Bloodflow Connoisseur by sacrificing Reassembling Skeleton.
+  When Reassembling Skeleton dies, Pitiless Plunderer and Phenomenon Investigators trigger, creating a creature token and a Treasure token.
+  Resolve the Bloodflow Connoisseur ability.
+  Activate Bloodflow Connoisseur by sacrificing the creature token.
+  When the creature token dies, Pitiless Plunderer triggers, creating a Treasure token.
+  Resolve the Bloodflow Connoisseur ability.
+  Activate the Treasures by tapping and sacrificing them, adding {1}{B}.
+  Activate Reassembling Skeleton by paying {1}{B}, returning it from your graveyard to the battlefield.
+  Repeat.
+
+## Combo 1580-3967-4871-5921
+Cards: Pitiless Plunderer + Reassembling Skeleton + Yahenni, Undying Partisan + Mirror Room // Fractured Realm
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Pitiless Plunderer (battlefield); Reassembling Skeleton (battlefield); Yahenni, Undying Partisan (battlefield); Mirror Room // Fractured Realm (battlefield)
+Prerequisites: Fractured Realm is unlocked.
+Steps: Activate Yahenni by sacrificing Reassembling Skeleton.
+  When Reassembling Skeleton dies, Pitiless Plunderer triggers twice, creating two Treasure tokens.
+  Resolve the Yahenni ability.
+  Activate the Treasure tokens by tapping and sacrificing them, adding {1}{B}.
+  Activate Reassembling Skeleton by paying {1}{B}, returning it from your graveyard to the battlefield tapped.
+  Repeat.
+
+## Combo 1580-3967-4871-6248
+Cards: Reassembling Skeleton + Yahenni, Undying Partisan + Pitiless Plunderer + Phenomenon Investigators
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
+Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
+Start: Reassembling Skeleton (graveyard); Yahenni, Undying Partisan (battlefield); Pitiless Plunderer (battlefield); Phenomenon Investigators (battlefield: with "Believe" chosen)
+Steps: Activate Yahenni by sacrificing Reassembling Skeleton.
+  When Reassembling Skeleton dies, Pitiless Plunderer and Phenomenon Investigators trigger, creating a creature token and a Treasure token.
+  Resolve the Yahenni ability.
+  Activate Yahenni by sacrificing the creature token.
+  When the creature token dies, Pitiless Plunderer triggers, creating a Treasure token.
+  Resolve the Yahenni ability.
+  Activate the Treasures by tapping and sacrificing them, adding {1}{B}.
+  Activate Reassembling Skeleton by paying {1}{B}, returning it from your graveyard to the battlefield.
+  Repeat.
+
+## Combo 1580-4871-5256-5921
+Cards: Pitiless Plunderer + Reassembling Skeleton + Altar of Dementia + Mirror Room // Fractured Realm
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite mill; Infinite self-mill; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Pitiless Plunderer (battlefield); Reassembling Skeleton (battlefield); Altar of Dementia (battlefield); Mirror Room // Fractured Realm (battlefield)
+Prerequisites: Fractured Realm is unlocked.
+Steps: Activate Altar of Dementia by sacrificing Reassembling Skeleton.
+  When Reassembling Skeleton dies, Pitiless Plunderer triggers twice, creating two Treasure tokens.
+  Resolve the Altar of Dementia ability.
+  Activate the Treasure tokens by tapping and sacrificing them, adding {1}{B}.
+  Activate Reassembling Skeleton by paying {1}{B}, returning it from your graveyard to the battlefield tapped.
+  Repeat.
+
+## Combo 1580-4871-5256-6248
+Cards: Altar of Dementia + Reassembling Skeleton + Pitiless Plunderer + Phenomenon Investigators
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
+Produces: Infinite mill; Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
+Start: Altar of Dementia (battlefield); Reassembling Skeleton (graveyard); Pitiless Plunderer (battlefield); Phenomenon Investigators (battlefield: with "Believe" chosen)
+Steps: Activate Altar of Dementia by sacrificing Reassembling Skeleton.
+  When Reassembling Skeleton dies, Pitiless Plunderer and Phenomenon Investigators trigger, creating a creature token and a Treasure token.
+  Resolve the Altar of Dementia ability.
+  Activate Altar of Dementia by sacrificing the creature token.
+  When the creature token dies, Pitiless Plunderer triggers, creating a Treasure token.
+  Resolve the Altar of Dementia ability.
+  Activate the Treasures by tapping and sacrificing them, adding {1}{B}.
+  Activate Reassembling Skeleton by paying {1}{B}, returning it from your graveyard to the battlefield.
+  Repeat.
+
+## Combo 1580-4871-5921-6797
+Cards: Pitiless Plunderer + Reassembling Skeleton + Mirror Room // Fractured Realm + Phantom Train
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Pitiless Plunderer (battlefield); Reassembling Skeleton (battlefield); Mirror Room // Fractured Realm (battlefield); Phantom Train (battlefield)
+Prerequisites: Fractured Realm is unlocked.
+Steps: Activate Phantom Train by sacrificing Reassembling Skeleton.
+  When Reassembling Skeleton dies, Pitiless Plunderer triggers twice, creating two Treasure tokens.
+  Resolve the Phantom Train ability.
+  Activate the Treasure tokens by tapping and sacrificing them, adding {1}{B}.
+  Activate Reassembling Skeleton by paying {1}{B}, returning it from your graveyard to the battlefield tapped.
+  Repeat.
+
+## Combo 1580-4871-5921-6798
+Cards: Pitiless Plunderer + Reassembling Skeleton + Umbral Collar Zealot + Mirror Room // Fractured Realm
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
+Produces: Infinite surveil; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Pitiless Plunderer (battlefield); Reassembling Skeleton (battlefield); Umbral Collar Zealot (battlefield); Mirror Room // Fractured Realm (battlefield)
+Prerequisites: Fractured Realm is unlocked.
+Steps: Activate Umbral Collar Zealot by sacrificing Reassembling Skeleton.
+  When Reassembling Skeleton dies, Pitiless Plunderer triggers twice, creating two Treasure tokens.
+  Resolve the Umbral Collar Zealot ability.
+  Activate the Treasure tokens by tapping and sacrificing them, adding {1}{B}.
+  Activate Reassembling Skeleton by paying {1}{B}, returning it from your graveyard to the battlefield tapped.
+  Repeat.
+
+## Combo 1580-4871-6248-6797
+Cards: Reassembling Skeleton + Pitiless Plunderer + Phenomenon Investigators + Phantom Train
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
+Start: Reassembling Skeleton (graveyard); Pitiless Plunderer (battlefield); Phenomenon Investigators (battlefield: with "Believe" chosen); Phantom Train (battlefield)
+Steps: Activate Phantom Train by sacrificing Reassembling Skeleton.
+  When Reassembling Skeleton dies, Pitiless Plunderer and Phenomenon Investigators trigger, creating a creature token and a Treasure token.
+  Resolve the Phantom Train ability.
+  Activate Phantom Train by sacrificing the creature token.
+  When the creature token dies, Pitiless Plunderer triggers, creating a Treasure token.
+  Resolve the Phantom Train ability.
+  Activate the Treasures by tapping and sacrificing them, adding {1}{B}.
+  Activate Reassembling Skeleton by paying {1}{B}, returning it from your graveyard to the battlefield.
+  Repeat.
+
+## Combo 1580-4871-6248-6798
+Cards: Umbral Collar Zealot + Reassembling Skeleton + Pitiless Plunderer + Phenomenon Investigators
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
+Produces: Infinite surveil; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
+Start: Umbral Collar Zealot (battlefield); Reassembling Skeleton (graveyard); Pitiless Plunderer (battlefield); Phenomenon Investigators (battlefield: with "Believe" chosen)
+Steps: Activate Umbral Collar Zealot by sacrificing Reassembling Skeleton.
+  When Reassembling Skeleton dies, Pitiless Plunderer and Phenomenon Investigators trigger, creating a creature token and a Treasure token.
+  Resolve the Umbral Collar Zealot ability.
+  Activate Umbral Collar Zealot by sacrificing the creature token.
+  When the creature token dies, Pitiless Plunderer triggers, creating a Treasure token.
+  Resolve the Umbral Collar Zealot ability.
+  Activate the Treasures by tapping and sacrificing them, adding {1}{B}.
+  Activate Reassembling Skeleton by paying {1}{B}, returning it from your graveyard to the battlefield.
+  Repeat.
+
+## Combo 1594-2034-2048-4871-7147
+Cards: Wretched Throng + Ashnod's Altar + Pitiless Plunderer + Helm of Awakening + Epitaph Golem
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Wretched Throng (battlefield); Ashnod's Altar (battlefield); Pitiless Plunderer (battlefield); Helm of Awakening (battlefield); Epitaph Golem (battlefield)
+Steps: Activate Ashnod's Altar by sacrificing Wretched Throng, adding {C}{C}.
+  When Wretched Throng dies, it and Pitiless Plunderer trigger.
+  Holding priority, activate Epitaph Golem by paying {2}, putting Wretched Throng from your graveyard onto the bottom of your library.
+  Resolve the Pitiless Plunderer trigger, creating a Treasure token.
+  Resolve the Wretched Throng trigger, putting Wretched Throng from your library into your hand.
+  Activate the Treasure by tapping and sacrificing it, adding {U}.
+  Cast Wretched Throng by paying {U} due to Helm of Awakening.
+  Repeat.
+
+## Combo 1594-2034-4871-5496-7147
+Cards: Wretched Throng + Ashnod's Altar + Pitiless Plunderer + Helm of Awakening + Tomb Trawler
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Wretched Throng (battlefield); Ashnod's Altar (battlefield); Pitiless Plunderer (battlefield); Helm of Awakening (battlefield); Tomb Trawler (battlefield)
+Steps: Activate Ashnod's Altar by sacrificing Wretched Throng, adding {C}{C}.
+  When Wretched Throng dies, it and Pitiless Plunderer trigger.
+  Holding priority, activate Tomb Trawler by paying {2}, putting Wretched Throng from your graveyard onto the bottom of your library.
+  Resolve the Pitiless Plunderer trigger, creating a Treasure token.
+  Resolve the Wretched Throng trigger, putting Wretched Throng from your library into your hand.
+  Activate the Treasure by tapping and sacrificing it, adding {U}.
+  Cast Wretched Throng by paying {U} due to Helm of Awakening.
+  Repeat.
+
+## Combo 1594-2034-4871-5497-7147
+Cards: Wretched Throng + Ashnod's Altar + Pitiless Plunderer + Helm of Awakening + Hoverstone Pilgrim
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Wretched Throng (battlefield); Ashnod's Altar (battlefield); Pitiless Plunderer (battlefield); Helm of Awakening (battlefield); Hoverstone Pilgrim (battlefield)
+Steps: Activate Ashnod's Altar by sacrificing Wretched Throng, adding {C}{C}.
+  When Wretched Throng dies, it and Pitiless Plunderer trigger.
+  Holding priority, activate Hoverstone Pilgrim by paying {2}, putting Wretched Throng from your graveyard onto the bottom of your library.
+  Resolve the Pitiless Plunderer trigger, creating a Treasure token.
+  Resolve the Wretched Throng trigger, putting Wretched Throng from your library into your hand.
+  Activate the Treasure by tapping and sacrificing it, adding {U}.
+  Cast Wretched Throng by paying {U} due to Helm of Awakening.
+  Repeat.
+
+## Combo 1594-2034-4871-5795-7147
+Cards: Wretched Throng + Ashnod's Altar + Pitiless Plunderer + Helm of Awakening + Barkform Harvester
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Wretched Throng (battlefield); Ashnod's Altar (battlefield); Pitiless Plunderer (battlefield); Helm of Awakening (battlefield); Barkform Harvester (battlefield)
+Steps: Activate Ashnod's Altar by sacrificing Wretched Throng, adding {C}{C}.
+  When Wretched Throng dies, it and Pitiless Plunderer trigger.
+  Holding priority, activate Barkform Harvester by paying {2}, putting Wretched Throng from your graveyard onto the bottom of your library.
+  Resolve the Pitiless Plunderer trigger, creating a Treasure token.
+  Resolve the Wretched Throng trigger, putting Wretched Throng from your library into your hand.
+  Activate the Treasure by tapping and sacrificing it, adding {U}.
+  Cast Wretched Throng by paying {U} due to Helm of Awakening.
+  Repeat.
+
+## Combo 1594-2034-4871-6005-7147
+Cards: Wretched Throng + Ashnod's Altar + Pitiless Plunderer + Helm of Awakening + Malevolent Chandelier
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Wretched Throng (battlefield); Ashnod's Altar (battlefield); Pitiless Plunderer (battlefield); Helm of Awakening (battlefield); Malevolent Chandelier (battlefield)
+Steps: Activate Ashnod's Altar by sacrificing Wretched Throng, adding {C}{C}.
+  When Wretched Throng dies, it and Pitiless Plunderer trigger.
+  Holding priority, activate Malevolent Chandelier by paying {2}, putting Wretched Throng from your graveyard onto the bottom of your library.
+  Resolve the Pitiless Plunderer trigger, creating a Treasure token.
+  Resolve the Wretched Throng trigger, putting Wretched Throng from your library into your hand.
+  Activate the Treasure by tapping and sacrificing it, adding {U}.
+  Cast Wretched Throng by paying {U} due to Helm of Awakening.
+  Repeat.
+
+## Combo 1594-2034-4871-7147-7654
+Cards: Wretched Throng + Ashnod's Altar + Pitiless Plunderer + Helm of Awakening + Sundering Archaic
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count
+Start: Wretched Throng (battlefield); Ashnod's Altar (battlefield); Pitiless Plunderer (battlefield); Helm of Awakening (battlefield); Sundering Archaic (battlefield)
+Steps: Activate Ashnod's Altar by sacrificing Wretched Throng, adding {C}{C}.
+  When Wretched Throng dies, it and Pitiless Plunderer trigger.
+  Holding priority, activate Sundering Archaic by paying {2}, putting Wretched Throng from your graveyard onto the bottom of your library.
+  Resolve the Pitiless Plunderer trigger, creating a Treasure token.
+  Resolve the Wretched Throng trigger, putting Wretched Throng from your library into your hand.
+  Activate the Treasure by tapping and sacrificing it, adding {U}.
+  Cast Wretched Throng by paying {U} due to Helm of Awakening.
+  Repeat.
+
+## Combo 1594-2034-4871-7147-7817
+Cards: Wretched Throng + Ashnod's Altar + Pitiless Plunderer + Helm of Awakening + Paradox Shaper // Omit Variables
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count
+Start: Wretched Throng (battlefield); Ashnod's Altar (battlefield); Pitiless Plunderer (battlefield); Helm of Awakening (battlefield); Paradox Shaper // Omit Variables (battlefield)
+Steps: Activate Ashnod's Altar by sacrificing Wretched Throng, adding {C}{C}.
+  When Wretched Throng dies, it and Pitiless Plunderer trigger.
+  Holding priority, activate Paradox Shaper // Omit Variables by paying {2}, putting Wretched Throng from your graveyard onto the bottom of your library.
+  Resolve the Pitiless Plunderer trigger, creating a Treasure token.
+  Resolve the Wretched Throng trigger, putting Wretched Throng from your library into your hand.
+  Activate the Treasure by tapping and sacrificing it, adding {U}.
+  Cast Wretched Throng by paying {U} due to Helm of Awakening.
+  Repeat.
+
+## Combo 1599-3338-3685
+Cards: Spine of Ish Sah + Priest of Yawgmoth + Mirran Spy
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 30 | Commander: legal
+Produces: Destroy any number of target permanents opponents control; Near-infinite storm count; Mass Land Denial
+Start: Spine of Ish Sah (battlefield); Priest of Yawgmoth (battlefield); Mirran Spy (battlefield)
+Prerequisites: Priest of Yawgmoth does not have summoning sickness.
+Steps: Activate Priest of Yawgmoth by tapping and sacrificing Spine of Ish Sah, adding seven {B}.
+  Spine of Ish Sah triggers, returning itself from your graveyard to your hand.
+  Cast Spine of Ish Sah by paying {7}.
+  Mirran Spy triggers, untapping Priest of Yawgmoth.
+  Spine of Ish Sah enters the battlefield, destroying target permanent.
+  Repeat.
+
+## Combo 1601-1636-1806-3069
+Cards: Illuminor Szeras + Eternal Scourge + Intruder Alarm + Void Maw
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite mana creatures you control can produce; Infinite untap of creatures; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
+Start: Illuminor Szeras (battlefield); Eternal Scourge (battlefield); Intruder Alarm (battlefield); Void Maw (battlefield)
+Prerequisites: Thornbite Staff attached to Illuminor Szeras.
+  Illuminor Szeras does not have summoning sickness.
+Steps: Activate Illuminor Szeras by tapping it and sacrificing Eternal Scourge, adding {B}{B}{B}.
+  Eternal Scourge is exiled instead of being put into your graveyard due to Void Maw.
+  Cast Eternal Scourge from your graveyard by paying {3}.
+  Eternal Scourge enters the battlefield, triggering Intruder Alarm, untapping all creatures.
+  Repeat.
+
+## Combo 1601-1636-2577
+Cards: Illuminor Szeras + Gravecrawler + Intruder Alarm
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
+Produces: Infinite mana creatures you control can produce; Infinite untap of creatures; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
+Start: Illuminor Szeras (battlefield); Gravecrawler (battlefield); Intruder Alarm (battlefield)
+Prerequisites: You control at least one additional Zombie.
+  Illuminor Szeras does not have summoning sickness.
+Steps: Activate Illuminor Szeras by tapping it and sacrificing Gravecrawler, adding {B}.
+  Cast Gravecrawler from your graveyard by paying {B}.
+  Gravecrawler enters the battlefield, triggering Intruder Alarm, untapping all creatures.
+  Repeat.
+
+## Combo 1601-1636-4484
+Cards: Illuminor Szeras + Ebondeath, Dracolich + Intruder Alarm
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Produces: Infinite mana creatures you control can produce; Infinite untap of creatures; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
+Start: Illuminor Szeras (battlefield); Ebondeath, Dracolich (battlefield); Intruder Alarm (battlefield)
+Prerequisites: A creature not named Ebondeath, Dracolich has died this turn.
+  Illuminor Szeras does not have summoning sickness.
+Steps: Activate Illuminor Szeras by tapping it and sacrificing Ebondeath, adding {B}{B}{B}{B}.
+  Cast Ebondeath from your graveyard by paying {2}{B}{B}.
+  Ebondeath enters the battlefield, triggering Intruder Alarm, untapping all creatures.
+  Repeat.
+
+## Combo 1603-2084
+Cards: Mirror-Mad Phantasm + Evil Twin
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 84 | Commander: legal | Mana needed: {1}{U}
+Produces: Infinite self-mill
+Start: Mirror-Mad Phantasm (hand, battlefield, command zone, exile, graveyard); Evil Twin (battlefield)
+Prerequisites: Evil Twin is a copy of Mirror-Mad Phantasm.
+Steps: Activate Evil Twin by paying {1}{U}, shuffling Evil Twin into your library and milling your entire library due to it not having a card named Mirror-Mad Phantasm in it.
+
+## Combo 1603-2232-6749
+Cards: Anticausal Vestige + Cloudstone Curio + Evil Twin
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {2}{U}{B}
+Produces: Infinite card draw; Near-infinite creature ETB; Infinite draw triggers; Near-infinite storm count; Near-infinite creature LTB
+Start: Anticausal Vestige (battlefield); Cloudstone Curio (battlefield); Evil Twin (hand)
+Prerequisites: You control six or more lands.
+Steps: Cast Evil Twin by paying its mana cost. Choose to have it enter as a copy of Anticausal Vestige.
+  When Evil Twin enters, Cloudstone Curio triggers, returning Anticausal Vestige from the battlefield to your hand.
+  When Anticausal Vestige leaves the battlefield, it triggers, causing you to draw a card and and put Anticausal Vestige from your hand onto the battlefield.
+  When Anticausal Vestige enters, Cloudstone Curio triggers, returning Evil Twin from the battlefield to your hand.
+  When Evil Twin leaves the battlefield, it triggers, causing you to draw a card and put Evil Twin from your hand onto the battlefield as a copy of Anticausal Vestige.
+  Repeat from step 2.
+
+## Combo 1603-2760-3108
+Cards: Grim Poppet + Evil Twin + Nest of Scarabs
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
+Produces: Infinite creature tokens; Infinite creature ETB
+Start: Grim Poppet (battlefield: with a -1/-1 counter on it); Evil Twin (battlefield: as a copy of Grim Poppet and with toughness 2 or greater); Nest of Scarabs (battlefield)
+Steps: Activate Grim Poppet by removing a -1/-1 counter from it, putting a -1/-1 counter on Evil Twin.
+  Nest of Scarabs triggers, creating a creature token.
+  Activate Evil Twin by removing a -1/-1 counter from it, putting a -1/-1 counter on Grim Poppet.
+  Nest of Scarabs triggers, creating a creature token.
+  Repeat.
+
+## Combo 1603-3270-5220
+Cards: Gyruda, Doom of Depths + Mortuary + Evil Twin
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 770 | Commander: legal | Mana needed: {2}{U}{B}
+Produces: Infinite mill; Infinite self-mill; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
+Start: Gyruda, Doom of Depths (battlefield); Mortuary (battlefield); Evil Twin (hand)
+Steps: Cast Evil Twin by paying {2}{U}{B}, having it enter the battlefield as a copy of Gyruda.
+  Put Evil Twin into your graveyard due to the legend rule.
+  Mortuary triggers, putting Evil Twin on top of your library from your graveyard.
+  Evil Twin's enter the battlefield ability triggers, causing each player to mill four cards and you to return Evil Twin from your graveyard to the battlefield as a copy of Gyruda.
+  Repeat from step 2.
+
+## Combo 1603-3719-4893-5326
+Cards: The Master, Formed Anew + Ruthless Technomancer + Evil Twin + Training Grounds
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {U}{B} plus enough mana to pay for commander tax, if applicable
+Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: The Master, Formed Anew (hand, command zone); Ruthless Technomancer (exile: with a takeover counter on it); Evil Twin (battlefield); Training Grounds (battlefield)
+Prerequisites: Evil Twin has a power of at least 2.
+Steps: Cast The Master either from your hand or from the command zone by paying {U}{B} plus command tax, if applicable, choosing to have it enter the battlefield as a copy of Ruthless Technomancer.
+  When The Master enters the battlefield, it triggers, causing you to sacrifice Evil Twin and create at least two Treasure tokens.
+  Activate a Treasure by tapping and sacrificing it, adding {B}.
+  Activate The Master by paying {B} and sacrificing a Treasure, returning Evil Twin from your graveyard to the battlefield as a copy of The Master, which causes the Evil Twin to be a copy of Ruthless Technomancer.
+  When Evil Twin enters the battlefield, it triggers, causing you to sacrifice The Master and create two Treasure tokens.
+  Activate a Treasure by tapping and sacrificing it, adding {B}.
+  Activate Evil Twin by paying {B} and sacrificing a Treasure, returning The Master from your graveyard to the battlefield as a copy of Ruthless Technomancer.
+  Repeat from step 2.
+
+## Combo 1603-4004-7149
+Cards: Princess Yue + Wormfang Turtle + Evil Twin
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Start: Princess Yue (battlefield: is not a land); Wormfang Turtle (battlefield); Evil Twin (hand)
+Steps: Cast Evil Twin by paying its mana cost. Choose to have it enter as a copy of Princess Yue.
+  Put Evil Twin into your graveyard due to the legend rule.
+  When Evil Twin dies, it triggers, returning it from your graveyard to the battlefield as a land named Moon. Choose to have it enter as a copy of Wormfang Turtle, gaining its abilities.
+  When Evil Twin enters, its first ability triggers, exiling it.
+  When Evil Twin leaves the battlefield, its second ability triggers, returning Evil Twin from exile to the battlefield. Choose to have it enter as a copy of Princess Yue.
+  Repeat from step 2.
+
+## Combo 1603-5282-7149
+Cards: Princess Yue + Wormfang Newt + Evil Twin
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{U}{B}
+Produces: Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers
+Start: Princess Yue (battlefield: is not a land); Wormfang Newt (battlefield); Evil Twin (hand)
+Steps: Cast Evil Twin by paying its mana cost. Choose to have it enter as a copy of Princess Yue.
+  Put Evil Twin into your graveyard due to the legend rule.
+  When Evil Twin dies, it triggers, returning it from your graveyard to the battlefield as a land named Moon. Choose to have it enter as a copy of Wormfang Newt, gaining its abilities.
+  When Evil Twin enters, its first ability triggers, exiling it.
+  When Evil Twin leaves the battlefield, its second ability triggers, returning Evil Twin from exile to the battlefield. Choose to have it enter as a copy of Princess Yue.
+  Repeat from step 2.
+
+## Combo 1603-5329-5475
+Cards: Deeproot Pilgrimage + Evil Twin + Forensic Researcher
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Produces: Infinite creature tokens; Infinite creature ETB
+Start: Deeproot Pilgrimage (battlefield); Evil Twin (battlefield); Forensic Researcher (battlefield)
+Prerequisites: Evil Twin on the battlefield as a copy of Forensic Researcher.
+  Forensic Researcher and Evil Twin do not have summoning sickness.
+Steps: Activate Forensic Researcher by tapping it, targeting Evil Twin.
+  Deeproot Pilgrimage triggers, creating a 1/1 Merfolk creature token.
+  Resolve the Forensic Researcher ability, untapping Evil Twin.
+  Activate Evil Twin by tapping it, targeting Forensic Researcher.
+  Deeproot Pilgrimage triggers, creating a 1/1 Merfolk creature token.
+  Resolve the Evil Twin ability, untapping Forensic Researcher.
+  Repeat.
+
 ## Combo 1623-2125-4740
 Cards: Guile + Temporal Extortion + Aetherflux Reservoir
 Color identity: UB | Bracket: 2+ (Core) | Popularity: 5 | Commander: legal | Mana needed: {B}{B}{B}{B}
@@ -274,7 +831,7 @@ Steps: Activate Viscera Seer by sacrificing itself, causing you to scry 1.
 
 ## Combo 1636-2292-6095
 Cards: Zul Ashur, Lich Lord + Intruder Alarm + Viscera Seer
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal
 Produces: Infinite mana creatures you control can produce; Infinite untap of creatures; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1; Infinite storm count
 Start: Zul Ashur, Lich Lord (battlefield); Intruder Alarm (battlefield); Viscera Seer (battlefield)
 Prerequisites: You have a Zombie creature card in your graveyard.
@@ -310,7 +867,7 @@ Steps: Activate Bloodline Keeper's first ability by tapping it, creating a 2/2 V
 
 ## Combo 1636-2422
 Cards: Intruder Alarm + Lich Lord of Unx
-Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 100 | Commander: legal | Mana needed: {U}{B} from creature sources
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 110 | Commander: legal | Mana needed: {U}{B} from creature sources
 Produces: Infinite creature tokens; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite untap of creatures you control
 Start: Intruder Alarm (battlefield); Lich Lord of Unx (battlefield)
 Prerequisites: Lich Lord of Unx does not have summoning sickness.
@@ -345,7 +902,7 @@ Steps: Activate Carrion Feeder by sacrificing a nontoken creature, putting a +1/
 
 ## Combo 1636-2438-6095
 Cards: Zul Ashur, Lich Lord + Intruder Alarm + Carrion Feeder
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 110 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 120 | Commander: legal
 Produces: Infinite mana creatures you control can produce; Infinite untap of creatures; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Zul Ashur, Lich Lord (battlefield); Intruder Alarm (battlefield); Carrion Feeder (battlefield)
 Prerequisites: You have a Zombie creature card in your graveyard.
@@ -1638,7 +2195,7 @@ Steps: Activate a mana-producing permanent by tapping it, adding at least {1}.
 
 ## Combo 1719-3478-3525
 Cards: Pemmin's Aura + Vizier of Tumbling Sands + Dimir Aqueduct
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 900 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 910 | Commander: legal
 Produces: Infinite black mana; Infinite mana permanents you control can produce; Infinite untap of permanents you control
 Start: Pemmin's Aura (battlefield); Vizier of Tumbling Sands (battlefield); Dimir Aqueduct (battlefield)
 Prerequisites: Vizier of Tumbling Sands does not have summoning sickness.
@@ -2390,7 +2947,7 @@ Steps: Activate Phyrexian Altar by sacrificing Memnite, adding one mana of any c
 
 ## Combo 1778-3249-4659
 Cards: Havengul Lich + Krark-Clan Ironworks + Memnite
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal
 Produces: Infinite colorless mana; Infinite artifact ETB; Infinite artifact LTB; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Havengul Lich (battlefield); Krark-Clan Ironworks (battlefield); Memnite (battlefield)
 Steps: Activate Krark-Clan Ironworks by sacrificing Memnite, adding {C}{C}.
@@ -2534,7 +3091,7 @@ Steps: Activate Bloodflow Connoisseur by sacrificing another creature you contro
 
 ## Combo 1808-2829-6291
 Cards: Eloise, Nephalia Sleuth + Stridehangar Automaton + Arcbound Ravager
-Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 47 | Commander: legal
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 48 | Commander: legal
 Produces: Infinite self-mill; Infinite card draw; Infinite surveil; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite Clue tokens
 Start: Eloise, Nephalia Sleuth (battlefield); Stridehangar Automaton (battlefield); Arcbound Ravager (battlefield)
 Prerequisites: You control an additional artifact creature.
@@ -2547,7 +3104,7 @@ Steps: Activate Arcbound Ravager by sacrificing another creature you control.
 
 ## Combo 1808-3698-6291
 Cards: Eloise, Nephalia Sleuth + Stridehangar Automaton + Grinding Station
-Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 35 | Commander: legal
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 36 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite card draw; Infinite surveil; Infinite artifact tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite Clue tokens
 Start: Eloise, Nephalia Sleuth (battlefield); Stridehangar Automaton (battlefield); Grinding Station (battlefield)
 Prerequisites: You control an additional artifact creature.
@@ -2574,7 +3131,7 @@ Steps: Activate Yahenni by sacrificing another creature you control.
 
 ## Combo 1808-4050-6291
 Cards: Eloise, Nephalia Sleuth + Stridehangar Automaton + Phyrexian Altar
-Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 100 | Commander: legal
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 110 | Commander: legal
 Produces: Infinite colored mana; Infinite self-mill; Infinite card draw; Infinite surveil; Infinite artifact tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite draw triggers; Infinite Clue tokens
 Start: Eloise, Nephalia Sleuth (battlefield); Stridehangar Automaton (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: You control an additional creature.
@@ -2609,7 +3166,7 @@ Steps: Kill a creature.
 
 ## Combo 1808-5256-6291
 Cards: Eloise, Nephalia Sleuth + Stridehangar Automaton + Altar of Dementia
-Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 30 | Commander: legal
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 31 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite card draw; Infinite surveil; Infinite artifact tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite Clue tokens
 Start: Eloise, Nephalia Sleuth (battlefield); Stridehangar Automaton (battlefield); Altar of Dementia (battlefield)
 Prerequisites: You control an additional creature.
@@ -2924,7 +3481,7 @@ Steps: Activate Champion of the Weird by paying 1 life and putting two -1/-1 cou
 
 ## Combo 1844-3221-3283
 Cards: Consecrated Sphinx + Notion Thief + Fateful Handoff
-Color identity: UB | Bracket: 3+ (Powerful) | Popularity: 20 | Commander: legal | Mana needed: {2}{U}{B}
+Color identity: UB | Bracket: 3+ (Powerful) | Popularity: 21 | Commander: legal | Mana needed: {2}{U}{B}
 Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
 Start: Consecrated Sphinx (battlefield); Notion Thief (battlefield); Fateful Handoff (hand)
 Prerequisites: Your deck size is at least four.
@@ -3969,7 +4526,7 @@ Steps: Activate Ashnod's Altar by sacrificing Aphetto Vulture, adding {C}{C}.
 
 ## Combo 2034-2452-4484
 Cards: Ebondeath, Dracolich + Rooftop Storm + Ashnod's Altar
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 830 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 840 | Commander: legal
 Produces: Infinite colorless mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Ebondeath, Dracolich (graveyard); Rooftop Storm (battlefield); Ashnod's Altar (battlefield)
 Prerequisites: A creature not named Ebondeath, Dracolich died this turn.
@@ -4271,7 +4828,7 @@ Steps: Cast Copy Catchers by paying {2}.
 
 ## Combo 2034-3270-5220
 Cards: Gyruda, Doom of Depths + Mortuary + Ashnod's Altar
-Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 22 | Commander: legal | Mana needed: {4}{U/B}{U/B} plus enough mana to pay for commander tax, if applicable
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 21 | Commander: legal | Mana needed: {4}{U/B}{U/B} plus enough mana to pay for commander tax, if applicable
 Produces: Infinite colorless mana; Infinite mill; Infinite self-mill; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Gyruda, Doom of Depths (hand, command zone); Mortuary (battlefield); Ashnod's Altar (battlefield)
 Steps: Cast Gyruda by paying {4}{U/B}{U/B} and commander tax, if applicable.
@@ -4516,7 +5073,7 @@ Steps: Cast Afterlife from the Loam by paying at most {5}{B}{B}{B}, returning Sh
 
 ## Combo 2034-4311-5220
 Cards: Mortuary + Ashnod's Altar + Future Sight
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Mortuary (battlefield); Ashnod's Altar (battlefield); Future Sight (battlefield)
 Prerequisites: You control another nontoken creature that can be cast using {C}{C} or less.
@@ -4527,7 +5084,7 @@ Steps: Activate Ashnod's Altar by sacrificing the nontoken creature, adding {C}{
 
 ## Combo 2034-4311-5220--53
 Cards: Mortuary + Ashnod's Altar + Future Sight
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Requires: Creature Castable for {C}{C} (battlefield)
 Start: Mortuary (battlefield); Ashnod's Altar (battlefield); Future Sight (battlefield)
@@ -4850,7 +5407,7 @@ Steps: Activate Ashnod's Altar by sacrificing Wretched Throng, adding {C}{C}.
 
 ## Combo 2034-4871-6214
 Cards: Glitch Interpreter + Ashnod's Altar + Pitiless Plunderer
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 50 | Commander: legal | Mana needed: {2}{U}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal | Mana needed: {2}{U}
 Produces: Near-infinite self-mill; Near-infinite creature ETB; Near-infinite death triggers; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite storm count
 Start: Glitch Interpreter (hand); Ashnod's Altar (battlefield); Pitiless Plunderer (battlefield)
 Prerequisites: You control no face-down permanents.
@@ -5303,7 +5860,7 @@ Steps: Activate The Last Ride's crew ability by tapping a creature with power 2 
 
 ## Combo 2080-2493-4050
 Cards: Rise of the Dark Realms + Phyrexian Altar + Archaeomancer
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 160 | Commander: legal | Mana needed: {7}{B} at most
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 170 | Commander: legal | Mana needed: {7}{B} at most
 Produces: Infinite colored mana; Return all creature cards from all graveyards to the battlefield under your control; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite creature sacrifice triggers; Infinite storm count
 Start: Rise of the Dark Realms (hand); Phyrexian Altar (battlefield); Archaeomancer (battlefield)
 Prerequisites: The number of nontoken creatures you control plus the number of creature cards in all graveyards is at least nine.
@@ -6519,7 +7076,7 @@ Steps: Activate Viscera Seer by sacrificing Gravecrawler.
 
 ## Combo 2292-2452-3249-5173
 Cards: Havengul Lich + Rooftop Storm + Shambling Ghast + Viscera Seer
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 95 | Commander: legal | Mana needed: {1}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 96 | Commander: legal | Mana needed: {1}
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite scry 1; Infinite storm count
 Start: Havengul Lich (battlefield); Rooftop Storm (battlefield); Shambling Ghast (graveyard); Viscera Seer (battlefield)
 Steps: Activate Havengul Lich by paying {1}, allowing you to cast Shambling Ghast card from your graveyard this turn.
@@ -6619,7 +7176,7 @@ Notes: This combo will steadily put more +1/+1 counters on Ebondeath and the Zom
 
 ## Combo 2292-2525-6132
 Cards: Metamorphosis Fanatic + Body Double + Viscera Seer
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Start: Metamorphosis Fanatic (hand); Body Double (graveyard); Viscera Seer (battlefield)
 Steps: Cast Metamorphosis Fanatic by paying {4}{B}{B}.
@@ -7125,7 +7682,7 @@ Steps: Donate Blightbeetle to an opponent
 
 ## Combo 2292-7936--5
 Cards: Dominion Saboteur + Viscera Seer
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Requires: Persist Creature (battlefield)
 Start: Dominion Saboteur (battlefield: as a copy of the creature with persist); Viscera Seer (battlefield)
@@ -7183,7 +7740,7 @@ Steps: Declare Prosperous Thief as an attacker.
 
 ## Combo 2327-2792-3489
 Cards: Satoru Umezawa + Great Whale + Moon-Circuit Hacker
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 710 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 720 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite untap of lands you control; Infinite creature ETB; Infinite creature LTB
 Start: Satoru Umezawa (battlefield); Great Whale (hand); Moon-Circuit Hacker (battlefield)
 Prerequisites: Moon-Circuit Hacker does not have summoning sickness and cannot be blocked by an opponent.
@@ -7514,7 +8071,7 @@ Steps: Activate Carrion Feeder by sacrificing Gravecrawler.
 
 ## Combo 2438-2452-3249-5173
 Cards: Havengul Lich + Rooftop Storm + Shambling Ghast + Carrion Feeder
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 850 | Commander: legal | Mana needed: {1}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 860 | Commander: legal | Mana needed: {1}
 Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count
 Start: Havengul Lich (battlefield); Rooftop Storm (battlefield); Shambling Ghast (graveyard); Carrion Feeder (battlefield)
 Steps: Activate Havengul Lich by paying {1}, allowing you to cast Shambling Ghast card from your graveyard this turn.
@@ -7569,7 +8126,7 @@ Notes: This combo will steadily put more +1/+1 counters on Ebondeath and the Zom
 
 ## Combo 2438-2525-6132
 Cards: Metamorphosis Fanatic + Body Double + Carrion Feeder
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Metamorphosis Fanatic (hand); Body Double (graveyard); Carrion Feeder (battlefield)
 Steps: Cast Metamorphosis Fanatic by paying {4}{B}{B}.
@@ -8074,7 +8631,7 @@ Steps: Donate Blightbeetle to an opponent
 
 ## Combo 2438-7936--5
 Cards: Dominion Saboteur + Carrion Feeder
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Dominion Saboteur (battlefield: as a copy of the creature with persist); Carrion Feeder (battlefield)
@@ -8295,7 +8852,7 @@ Steps: Activate Havengul Lich by paying {1}, allowing you to cast a Zombie from 
 
 ## Combo 2452-3249-5670-5931--56
 Cards: Havengul Lich + Rooftop Storm + Warren Soultrader + Funeral Room // Awakening Hall
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 440 | Commander: legal | Mana needed: {1}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 430 | Commander: legal | Mana needed: {1}
 Produces: Infinite lifeloss; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Requires: Zombie Creature (graveyard)
 Start: Havengul Lich (battlefield); Rooftop Storm (battlefield); Warren Soultrader (battlefield); Funeral Room // Awakening Hall (battlefield)
@@ -8326,7 +8883,7 @@ Steps: Activate Havengul Lich by paying {1}, allowing you to cast a Zombie from 
 
 ## Combo 2452-3249-5670-6094--56
 Cards: Havengul Lich + Rooftop Storm + Warren Soultrader + Vengeful Bloodwitch
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal | Mana needed: {1}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal | Mana needed: {1}
 Produces: Infinite lifeloss; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Requires: Zombie Creature (battlefield)
 Start: Havengul Lich (battlefield); Rooftop Storm (battlefield); Warren Soultrader (battlefield); Vengeful Bloodwitch (battlefield)
@@ -8356,7 +8913,7 @@ Steps: Activate Havengul Lich by paying {1}, allowing you to cast a Zombie from 
 
 ## Combo 2452-3249-5670-6578--56
 Cards: Havengul Lich + Rooftop Storm + Warren Soultrader + Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 52 | Commander: legal | Mana needed: {1}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 53 | Commander: legal | Mana needed: {1}
 Produces: Infinite lifeloss; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Requires: Zombie Creature (battlefield)
 Start: Havengul Lich (battlefield); Rooftop Storm (battlefield); Warren Soultrader (battlefield); Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel (battlefield)
@@ -8529,7 +9086,7 @@ Steps: Activate up to five lands you control by tapping them, adding at least {3
 
 ## Combo 2493-3047-4050
 Cards: Feign Death + Archaeomancer + Phyrexian Altar
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 82 | Commander: legal | Mana needed: {B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 81 | Commander: legal | Mana needed: {B}
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite creature sacrifice triggers; Infinite storm count
 Start: Feign Death (hand); Archaeomancer (battlefield); Phyrexian Altar (battlefield)
 Steps: Cast Feign Death by paying {B}, targeting Archaeomancer.
@@ -8835,7 +9392,7 @@ Notes: This combo will steadily put more +1/+1 counters on Ebondeath and the Zom
 
 ## Combo 2511-2525-6132
 Cards: Metamorphosis Fanatic + Body Double + Bloodflow Connoisseur
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Metamorphosis Fanatic (hand); Body Double (graveyard); Bloodflow Connoisseur (battlefield)
 Steps: Cast Metamorphosis Fanatic by paying {4}{B}{B}.
@@ -9374,7 +9931,7 @@ Steps: Activate Whisper by tapping it, sacrificing itself and any other creature
 
 ## Combo 2525-3967-6132
 Cards: Metamorphosis Fanatic + Body Double + Yahenni, Undying Partisan
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Metamorphosis Fanatic (hand); Body Double (graveyard); Yahenni, Undying Partisan (battlefield)
 Steps: Cast Metamorphosis Fanatic by paying {4}{B}{B}.
@@ -10590,7 +11147,7 @@ Steps: Declare Walker of Secret Ways as an attacker.
 
 ## Combo 2792-3489-4307
 Cards: Satoru Umezawa + Yuriko, the Tiger's Shadow + Great Whale
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 810 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 820 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite untap of lands you control; Infinite creature ETB; Infinite creature LTB
 Start: Satoru Umezawa (battlefield); Yuriko, the Tiger's Shadow (battlefield); Great Whale (hand)
 Prerequisites: Yuriko does not have summoning sickness and cannot be blocked by an opponent.
@@ -11383,7 +11940,7 @@ Steps: Activate Yawgmoth by paying 1 life and sacrificing the undying creature.
 
 ## Combo 3047-3191-4050
 Cards: Kairi, the Swirling Sky + Feign Death + Phyrexian Altar
-Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 45 | Commander: legal | Mana needed: {B}
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 44 | Commander: legal | Mana needed: {B}
 Produces: Infinite self-mill; Return all instant and sorcery cards from your graveyard to your hand; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite creature sacrifice triggers; Infinite storm count
 Start: Kairi, the Swirling Sky (battlefield); Feign Death (hand); Phyrexian Altar (battlefield)
 Steps: Cast Feign Death by paying {B}, targeting Kairi.
@@ -11579,7 +12136,7 @@ Steps: Deal combat damage to an opponent using Etrata, triggering its ability tw
 
 ## Combo 3094-3649-5904
 Cards: Etrata, the Silencer + Lithoform Engine + Adric, Mathematical Genius
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 500 | Commander: legal | Mana needed: {4}{U}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 510 | Commander: legal | Mana needed: {4}{U}
 Produces: Target opponent loses the game
 Start: Etrata, the Silencer (battlefield: without summoning sickness); Lithoform Engine (battlefield); Adric, Mathematical Genius (battlefield: without summoning sickness)
 Prerequisites: An opponent controls three nontoken creatures that they own and that are not commanders.
@@ -11885,7 +12442,7 @@ Steps: Use Switcheroo to give Blightbeetle to an opponent
 
 ## Combo 3191-4050-5117
 Cards: Kairi, the Swirling Sky + Undying Malice + Phyrexian Altar
-Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 51 | Commander: legal | Mana needed: {B}
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 50 | Commander: legal | Mana needed: {B}
 Produces: Infinite self-mill; Return all instant and sorcery cards from your graveyard to your hand; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite creature sacrifice triggers; Infinite storm count
 Start: Kairi, the Swirling Sky (battlefield); Undying Malice (hand); Phyrexian Altar (battlefield)
 Steps: Cast Undying Malice by paying {B}, targeting Kairi.
@@ -11897,7 +12454,7 @@ Steps: Cast Undying Malice by paying {B}, targeting Kairi.
 
 ## Combo 3196-4413
 Cards: Kederekt Leviathan + Last Voyage of the _____
-Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 9 | Commander: legal | Mana needed: {3}{B}
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 10 | Commander: legal | Mana needed: {3}{B}
 Produces: Return all nonland permanents to owner's hand each turn; Lock
 Start: Kederekt Leviathan (graveyard); Last Voyage of the _____ (hand)
 Steps: Cast Last Voyage of the _____ by paying {3}{B}.
@@ -12589,7 +13146,7 @@ Steps: Activate Dimir Aqueduct by tapping it, adding {U}{B}.
 
 ## Combo 3478-6628-7857
 Cards: Dimir Aqueduct + PuPu UFO + Elven Raft-Steerer
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 330 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 340 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Dimir Aqueduct (hand); PuPu UFO (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Steps: Activate PuPu UFO by tapping it, putting Dimir Aqueduct from your hand onto the battlefield.
@@ -13021,7 +13578,7 @@ Steps: Deal combat damage to an opponent using Etrata, triggering its ability tw
 
 ## Combo 3649-5904-6924
 Cards: Etrata, the Silencer + Adric, Mathematical Genius + Peter Parker's Camera
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 220 | Commander: legal | Mana needed: {4}{U}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 230 | Commander: legal | Mana needed: {4}{U}
 Produces: Target opponent loses the game
 Start: Etrata, the Silencer (battlefield: without summoning sickness); Adric, Mathematical Genius (battlefield: without summoning sickness); Peter Parker's Camera (battlefield: with a film counter on it)
 Prerequisites: An opponent controls three nontoken creatures that they own and that are not commanders.
@@ -14602,7 +15159,7 @@ Steps: Activate Krark-Clan Ironworks by sacrificing Core Prowler, adding {C}{C}.
 
 ## Combo 3944-4311-5220
 Cards: Blood Pet + Mortuary + Future Sight
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Blood Pet (battlefield); Mortuary (battlefield); Future Sight (battlefield)
 Steps: Activate Blood Pet by sacrificing it, adding {B}.
@@ -14915,7 +15472,7 @@ Steps: Donate Blightbeetle to an opponent
 
 ## Combo 3967-7936--5
 Cards: Dominion Saboteur + Yahenni, Undying Partisan
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Dominion Saboteur (battlefield: as a copy of the creature with persist); Yahenni, Undying Partisan (battlefield)
@@ -15019,7 +15576,7 @@ Steps: Activate Phyrexian Altar by sacrificing Golgari Thug, adding {B}.
 
 ## Combo 4050-4311-5220
 Cards: Mortuary + Phyrexian Altar + Future Sight
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Mortuary (battlefield); Phyrexian Altar (battlefield); Future Sight (battlefield)
 Prerequisites: You control another nontoken creature that can be cast using one colored mana or less.
@@ -16068,7 +16625,7 @@ Steps: Activate Bloodthrone Vampire by sacrificing Dominion Saboteur.
 
 ## Combo 4267-8266
 Cards: Fblthp, Impossibly Lost + Divining Witch
-Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 31 | Commander: legal | Mana needed: {1}{B}
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 32 | Commander: legal | Mana needed: {1}{B}
 Produces: Win the game; Exile your library
 Start: Fblthp, Impossibly Lost (battlefield); Divining Witch (battlefield)
 Prerequisites: Divining Witch doesn't have summoning sickness. You have a card in hand.
@@ -17981,7 +18538,7 @@ Steps: Activate Phantom Train by sacrificing Dominion Saboteur.
 
 ## Combo 6798-7936--5
 Cards: Dominion Saboteur + Umbral Collar Zealot
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
 Produces: Infinite surveil; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Dominion Saboteur (battlefield: as a copy of the creature with persist); Umbral Collar Zealot (battlefield)

@@ -1,3 +1,16 @@
+## Combo 1753-2034-5003-6773
+Cards: Nim Deathmantle + Ashnod's Altar + Xu-Ifit, Osteoharmonist + Samut, Voice of Dissent
+Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Xu-Ifit, Osteoharmonist (battlefield); Samut, Voice of Dissent (battlefield)
+Prerequisites: You control another nontoken creature.
+Steps: Activate Ashnod's Altar by sacrificing another nontoken creature, adding {C}{C}.
+  When the creature dies, Nim Deathmantle triggers. Choose not to pay.
+  Activate Xu-Ifit by tapping it, returning a creature from your graveyard to the battlefield.
+  Activate Ashnod's Altar by sacrificing Xu-Ifit, adding {C}{C}.
+  When Xu-Ifit dies, Nim Deathmantle triggers, causing you to pay {4} to return it from your graveyard to the battlefield and attach Nim Deathmantle to it.
+  Repeat.
+
 ## Combo 1753-2034-5477-5660-7368
 Cards: Evolution Witness + Agonasaur Rex + Insidious Roots + Ashnod's Altar + Samut, Voice of Dissent
 Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{G}
@@ -348,6 +361,16 @@ Steps: Activate Shilgengar by sacrificing another creature that has an Aura atta
   When the Aura enters the battlefield, Chishiro triggers, creating a creature token.
   Resolve the Shilgengar ability.
   Repeat.
+
+## Combo 1765-5686-6213
+Cards: Chishiro, the Shattered Blade + Shilgengar, Sire of Famine + Dan Lewis
+Color identity: BRGW | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
+Produces: Infinite artifact tokens; Infinite Blood tokens; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Chishiro, the Shattered Blade (battlefield); Shilgengar, Sire of Famine (battlefield); Dan Lewis (battlefield)
+Steps: Cause a noncreature artifact to enter the battlefield under your control, which will be an Equipment due to Dan Lewis if it isn't an Equipment already, causing Chishiro to trigger.
+  Resolve Chishiro's first ability, creating a 2/2 red Spirit creature token with menace.
+  Activate Shilgengar by sacrificing a creature, creating a Blood token which will be an Equipment due to Dan Lewis, and causing Chishiro to trigger.
+  Repeat from step 2.
 
 ## Combo 1765-5686-6888
 Cards: Traveling Plague + Shilgengar, Sire of Famine + Chishiro, the Shattered Blade
@@ -7934,7 +7957,7 @@ Steps: Activate Thermopod by sacrificing Enraged Huorn, adding {R}.
 
 ## Combo 2546-5671--38
 Cards: The Necrobloom + Surly Badgersaur
-Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal
+Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal
 Produces: Infinite self-mill; Near-infinite self-discard triggers
 Requires: Land with Cycling Cost that can be paid using one colored mana (hand)
 Start: The Necrobloom (battlefield); Surly Badgersaur (battlefield)
@@ -10312,7 +10335,7 @@ Steps: Deal combat damage to an opponent using Blim.
 
 ## Combo 3175-5147-8207
 Cards: Sun Titan + Goblin Bombardment + Ferocity of the Hunt
-Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite damage; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Sun Titan (battlefield); Goblin Bombardment (battlefield); Ferocity of the Hunt (battlefield: attached to Sun Titan)
 Steps: Activate Goblin Bombardment by sacrificing Sun Titan.
@@ -11510,7 +11533,7 @@ Steps: Cast Flickering Ward for {W}, targeting Goldspan Dragon.
 
 ## Combo 3284-3490-4871-5686
 Cards: Korvold, Fae-Cursed King + Animation Module + Pitiless Plunderer + Shilgengar, Sire of Famine
-Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite card draw; Near-infinite artifact tokens; Near-infinite +1/+1 counters on a creature; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Infinite draw triggers; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers; Near-infinite Blood tokens
 Start: Korvold, Fae-Cursed King (battlefield); Animation Module (battlefield); Pitiless Plunderer (battlefield); Shilgengar, Sire of Famine (battlefield)
 Prerequisites: You control an additional creature.
@@ -16211,6 +16234,16 @@ Steps: Cast Barkform Harvester by paying {3}.
   When Barkform Harvester enters, Haru triggers, targeting Barkform Harvester as it is a land due to Toph.
   Resolve the Shilgengar ability.
   Repeat from step 3.
+
+## Combo 5686-6213-6737
+Cards: Shilgengar, Sire of Famine + Dan Lewis + Barret, Avalanche Leader
+Color identity: BRGW | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
+Produces: Infinite artifact tokens; Infinite Blood tokens; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Shilgengar, Sire of Famine (battlefield); Dan Lewis (battlefield); Barret, Avalanche Leader (battlefield)
+Steps: Cause a noncreature artifact to enter the battlefield under your control, which will be an Equipment due to Dan Lewis if it isn't an Equipment already, causing Barret to trigger.
+  Resolve Barret's first ability, creating a 2/2 red Rebel creature token.
+  Activate Shilgengar by sacrificing a creature, creating a Blood token which will be an Equipment due to Dan Lewis, and causing Barret to trigger.
+  Repeat from step 2.
 
 ## Combo 5686-6701--5
 Cards: Szarel, Genesis Shepherd + Shilgengar, Sire of Famine

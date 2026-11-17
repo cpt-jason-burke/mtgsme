@@ -1248,7 +1248,7 @@ Steps: Cast Rousing Refrain by paying {3}{R}{R}.
 
 ## Combo 141-1878-4499
 Cards: Naru Meha, Master Wizard + Emiel the Blessed + Jeska's Will
-Color identity: RGWU | Bracket: 3+ (Powerful) | Popularity: 4 | Commander: legal | Mana needed: {5}{R}
+Color identity: RGWU | Bracket: 3+ (Powerful) | Popularity: 5 | Commander: legal | Mana needed: {5}{R}
 Produces: Infinite red mana; Exile your library with the ability to play the exiled cards until end of turn; Exile your library; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers
 Start: Naru Meha, Master Wizard (battlefield); Emiel the Blessed (battlefield); Jeska's Will (hand)
 Prerequisites: An opponent has at least three cards in hand.
@@ -1262,7 +1262,7 @@ Steps: Cast Jeska's Will by paying {2}{R}.
 
 ## Combo 141-2034-4013-5219
 Cards: Cabaretti Charm + Naru Meha, Master Wizard + Eldrazi Displacer + Ashnod's Altar
-Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {2}{C}{R}{G}{W}
+Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {2}{C}{R}{G}{W}
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite blinking of most creatures; Infinite magecraft triggers; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Cabaretti Charm (hand); Naru Meha, Master Wizard (battlefield); Eldrazi Displacer (battlefield); Ashnod's Altar (battlefield)
 Steps: Cast Cabaretti Charm by paying {R}{G}{W}.
@@ -1274,7 +1274,7 @@ Steps: Cast Cabaretti Charm by paying {R}{G}{W}.
 
 ## Combo 141-2034-4499-5219
 Cards: Cabaretti Charm + Naru Meha, Master Wizard + Emiel the Blessed + Ashnod's Altar
-Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {3}{R}{G}{W}
+Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {3}{R}{G}{W}
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Cabaretti Charm (hand); Naru Meha, Master Wizard (battlefield); Emiel the Blessed (battlefield); Ashnod's Altar (battlefield)
 Steps: Cast Cabaretti Charm by paying {R}{G}{W}.
@@ -3274,7 +3274,7 @@ Notes: The combo can continue as long as there are creature cards in your librar
 
 ## Combo 240-803-2034
 Cards: Atla Palani, Nest Tender + Ashnod's Altar + Arcane Adaptation
-Color identity: RGWU | Bracket: 3-4+ (Spicy) | Popularity: 19 | Commander: legal
+Color identity: RGWU | Bracket: 3-4+ (Spicy) | Popularity: 18 | Commander: legal
 Produces: Near-infinite colorless mana; Put all creature cards in your library onto the battlefield, then into your graveyard; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Atla Palani, Nest Tender (battlefield); Ashnod's Altar (battlefield); Arcane Adaptation (battlefield: with "Egg" chosen)
 Prerequisites: You control another creature.
@@ -3459,7 +3459,7 @@ Steps: Activate Atla by paying {2} and tapping it, creating an 0/1 Egg creature 
 
 ## Combo 240-2034-5929
 Cards: Atla Palani, Nest Tender + Ashnod's Altar + Leyline of Transformation
-Color identity: RGWU | Bracket: 3-4+ (Spicy) | Popularity: 16 | Commander: legal
+Color identity: RGWU | Bracket: 3-4+ (Spicy) | Popularity: 15 | Commander: legal
 Produces: Near-infinite colorless mana; Put all creature cards in your library onto the battlefield, then into your graveyard; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Atla Palani, Nest Tender (battlefield); Ashnod's Altar (battlefield); Leyline of Transformation (battlefield: with "Egg" chosen)
 Prerequisites: You control another creature.
@@ -4442,6 +4442,28 @@ Steps: Tap Famished Paladin to draw a card and deal 1 damage to target player.
   When you draw a card, Horizon Chimera will trigger, gaining you 1 life.
   Gaining the life untaps Famished Paladin.
   Repeat.
+
+## Combo 362-4321-7082
+Cards: Peregrin Took + Bludgeon Brawl + Sokka and Suki
+Color identity: RGWU | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Draw the game; Infinite card draw; Infinite creature tokens; Infinite Food tokens; Infinite artifact ETB; Infinite creature ETB; Infinite draw triggers
+Start: Peregrin Took (battlefield); Bludgeon Brawl (battlefield); Sokka and Suki (battlefield)
+Steps: Cause a noncreature artifact to enter the battlefield under your control, which will be an Equipment due to Bludgeon Brawl if it isn't an Equipment already, causing Sokka and Suki to trigger.
+  Resolve Sokka and Suki's second ability, creating a 1/1 white Ally creature token plus an additional artifact token through Peregrin Took, which will be an Equipment due to Bludgeon Brawl. Each relevant ability of Sokka and Suki triggers.
+  Resolve Sokka and Suki's first ability, attaching up to one Equipment to the Ally that triggered it.
+  Repeat from step 2.
+Notes: The combo creates a mandatory infinite loop in step 2. This must be stopped at some point or the game ends in a draw.
+
+## Combo 362-7082-7810
+Cards: Tippy-Toe, Terrific Partner + Bludgeon Brawl + Sokka and Suki
+Color identity: RGWU | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Draw the game; Infinite creature tokens; Infinite Food tokens; Infinite artifact ETB; Infinite creature ETB
+Start: Tippy-Toe, Terrific Partner (battlefield); Bludgeon Brawl (battlefield); Sokka and Suki (battlefield)
+Steps: Cause a noncreature artifact to enter the battlefield under your control, which will be an Equipment due to Bludgeon Brawl if it isn't an Equipment already, causing Sokka and Suki to trigger.
+  Resolve Sokka and Suki's second ability, creating a 1/1 white Ally creature token plus an additional artifact token through Tippy-Toe, which will be an Equipment due to Bludgeon Brawl. Each relevant ability of Sokka and Suki triggers.
+  Resolve Sokka and Suki's first ability, attaching up to one Equipment to the Ally that triggered it.
+  Repeat from step 2.
+Notes: The combo creates a mandatory infinite loop in step 2. This must be stopped at some point or the game ends in a draw.
 
 ## Combo 364-4499-7494
 Cards: Blazing Firesinger // Seething Song + Emiel the Blessed + Arcane Melee
@@ -6406,7 +6428,7 @@ Steps: Activate Selvala by paying {G} and tapping it, adding at least {1}{G}{G}{
 
 ## Combo 527-2079-4499
 Cards: Selvala, Heart of the Wilds + Emiel the Blessed + Temur Ascendancy
-Color identity: RGWU | Bracket: 3-4+ (Spicy) | Popularity: 70 | Commander: legal | Mana needed: {G}
+Color identity: RGWU | Bracket: 3-4+ (Spicy) | Popularity: 71 | Commander: legal | Mana needed: {G}
 Produces: Infinite colored mana; Infinite creature LTB; Infinite creature ETB; Infinite blinking
 Start: Selvala, Heart of the Wilds (battlefield); Emiel the Blessed (battlefield); Temur Ascendancy (battlefield)
 Steps: Activate Selvala by paying {G} and tapping it, adding at least {3}{G}
@@ -10900,7 +10922,7 @@ Steps: Activate Viridian Joiner by tapping it, adding an amount of {G} equal to 
 
 ## Combo 776-3209
 Cards: Jeskai Ascendancy + Sprout Swarm
-Color identity: RGWU | Bracket: 3-4+ (Spicy) | Popularity: 92 | Commander: legal
+Color identity: RGWU | Bracket: 3-4+ (Spicy) | Popularity: 94 | Commander: legal
 Produces: Infinite creature tokens; Infinitely large creatures you control until end of turn; Infinite mana creatures you control can produce; Infinite looting; Infinite draw triggers; Infinite creature ETB; Infinite magecraft triggers; Infinite storm count; Infinite untap of creatures you control
 Start: Jeskai Ascendancy (battlefield); Sprout Swarm (hand)
 Prerequisites: You control at least five untapped creatures, one of which must be green.
@@ -16376,7 +16398,7 @@ Notes: Once you have infinite +1/+1 counters, you may instead have Cacophodon fi
 
 ## Combo 1193-3663-4772
 Cards: Three Blind Mice + Doubling Season + Mythos of Illuna
-Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal | Mana needed: {2}{U}{U}
+Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal | Mana needed: {2}{U}{U}
 Produces: Infinite creature tokens; Infinite copies of tokens you control; Infinite copies of a specific enchantment; Infinite creature ETB
 Start: Three Blind Mice (battlefield); Doubling Season (battlefield); Mythos of Illuna (hand)
 Steps: Cast Mythos of Illuna by paying {2}{U}{U}, creating two token copies of Three Blind Mice.
@@ -17057,7 +17079,7 @@ Steps: Cast the earthbending creature by paying its mana cost, causing it to ent
 
 ## Combo 1315-1671-6871-7115--44
 Cards: Toph, the First Metalbender + Toph, Hardheaded Teacher + Zuran Orb + Simic Growth Chamber
-Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal
+Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers; Infinite storm count; Infinite artifact ETB; Infinite artifact LTB
 Requires: Artifact Castable for {0} that survives (hand)
 Start: Toph, the First Metalbender (battlefield); Toph, Hardheaded Teacher (battlefield); Zuran Orb (battlefield); Simic Growth Chamber (battlefield)
@@ -17072,7 +17094,7 @@ Steps: Cast the artifact by paying {0}.
 
 ## Combo 1315-3147-6871-7115--44
 Cards: Toph, the First Metalbender + Toph, Hardheaded Teacher + Zuran Orb + Azorius Chancery
-Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal
+Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers; Infinite storm count; Infinite artifact ETB; Infinite artifact LTB
 Requires: Artifact Castable for {0} that survives (hand)
 Start: Toph, the First Metalbender (battlefield); Toph, Hardheaded Teacher (battlefield); Zuran Orb (battlefield); Azorius Chancery (battlefield)
@@ -17087,7 +17109,7 @@ Steps: Cast the artifact by paying {0}.
 
 ## Combo 1315-3756-6871-7115--44
 Cards: Toph, the First Metalbender + Toph, Hardheaded Teacher + Zuran Orb + Izzet Boilerworks
-Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal
+Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers; Infinite storm count; Infinite artifact ETB; Infinite artifact LTB
 Requires: Artifact Castable for {0} that survives (hand)
 Start: Toph, the First Metalbender (battlefield); Toph, Hardheaded Teacher (battlefield); Zuran Orb (battlefield); Izzet Boilerworks (battlefield)
@@ -19704,7 +19726,7 @@ Steps: Play Izzet Boilerworks.
 
 ## Combo 1479-2719-5233
 Cards: Kodama of the East Tree + Sakashima of a Thousand Faces + Boros Garrison
-Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 91 | Commander: legal
+Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 92 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Sakashima of a Thousand Faces (battlefield); Boros Garrison (hand)
 Steps: Play Boros Garrison.
@@ -19828,7 +19850,7 @@ Steps: Create a nonlegendary copy of Kodama of the East Tree using Cadric (this 
 
 ## Combo 1479-3678-3756
 Cards: Kodama of the East Tree + Retreat to Emeria + Izzet Boilerworks
-Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 220 | Commander: legal
+Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 230 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Retreat to Emeria (battlefield); Izzet Boilerworks (hand)
 Prerequisites: You are able to play a land this turn.
@@ -24669,7 +24691,7 @@ Steps: Cast Kor Skyfisher by paying its mana cost.
 
 ## Combo 1879-2023-3755-4770
 Cards: Aragorn, the Uniter + Rising of the Day + Elven Chorus + Whitemane Lion
-Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {1}{W}
+Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite tapped creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Aragorn, the Uniter (battlefield); Rising of the Day (battlefield); Elven Chorus (battlefield); Whitemane Lion (hand)
 Steps: Cast Whitemane Lion by paying its mana cost.
@@ -24693,7 +24715,7 @@ Steps: Cast Kor Skyfisher by paying its mana cost.
 
 ## Combo 1879-2023-4289-4770
 Cards: Aragorn, the Uniter + Rising of the Day + Cryptolith Rite + Whitemane Lion
-Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{W}
+Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite tapped creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Aragorn, the Uniter (battlefield); Rising of the Day (battlefield); Cryptolith Rite (battlefield); Whitemane Lion (hand)
 Steps: Cast Whitemane Lion by paying its mana cost.
@@ -30687,30 +30709,5 @@ Prerequisites: You have a land card in hand.
 Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing you to pay {1}{G} to create a token copy of Dryad Arbor.
   When the Dryad Arbor token enters, Springheart Nantuko triggers. Holding priority, activate the Dryad Arbor token by tapping it, adding {G}.
   Mirari's Wake triggers, adding {G}.
-  Resolve the Springheart Nantuko trigger, causing you to pay {1}{G} to create a token copy of Dryad Arbor.
-  Repeat from step 2.
-
-## Combo 2366-3322-4785-5702
-Cards: Springheart Nantuko + Dryad Arbor + Nikya of the Old Ways + Dynaheir, Invoker Adept
-Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
-Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nikya of the Old Ways (battlefield); Dynaheir, Invoker Adept (battlefield)
-Prerequisites: You have a land card in hand.
-  You are able to play a land this turn.
-Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing you to pay {1}{G} to create a token copy of Dryad Arbor.
-  When the Dryad Arbor token enters, Springheart Nantuko triggers. Holding priority, activate the Dryad Arbor token by tapping it, adding {G}.
-  Nikya of the Old Ways triggers, adding {G}.
-  Resolve the Springheart Nantuko trigger, causing you to pay {1}{G} to create a token copy of Dryad Arbor.
-  Repeat from step 2.
-
-## Combo 2366-3430-4785-5702
-Cards: Springheart Nantuko + Dryad Arbor + Nyxbloom Ancient + Dynaheir, Invoker Adept
-Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
-Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nyxbloom Ancient (battlefield); Dynaheir, Invoker Adept (battlefield)
-Prerequisites: You have a land card in hand.
-  You are able to play a land this turn.
-Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing you to pay {1}{G} to create a token copy of Dryad Arbor.
-  When the Dryad Arbor token enters, Springheart Nantuko triggers. Holding priority, activate the Dryad Arbor token by tapping it, adding {G}{G}{G} due to Nyxbloom Ancient.
   Resolve the Springheart Nantuko trigger, causing you to pay {1}{G} to create a token copy of Dryad Arbor.
   Repeat from step 2.

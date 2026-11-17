@@ -1,3 +1,74 @@
+## Combo 2906-4477-7182
+Cards: Ashling, the Limitless + Rakdos, Lord of Riots + Greenwarden of Murasa
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
+Produces: Infinite creature tokens with haste; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count; Return all cards from your graveyard to your hand
+Start: Ashling, the Limitless (battlefield); Rakdos, Lord of Riots (battlefield); Greenwarden of Murasa (hand)
+Prerequisites: Your opponents have lost at least 4 life this turn.
+Steps: Cast Greenwarden of Murasa for its evoke cost by paying {0} due to Rakdos.
+  When Greenwarden of Murasa enters, its first ability and evoke abilities trigger.
+  Resolve the first trigger, optionally returning a card from your graveyard to your hand.
+  Resolve the second trigger, sacrificing Greenwarden of Murasa.
+  When Greenwarden of Murasa dies, Ashling triggers, creating a token copy of Greenwarden of Murasa with haste.
+  When the Greenwarden of Murasa token enters, it triggers, returning Greenwarden of Murasa from your graveyard to your hand.
+  Repeat.
+
+## Combo 2906-6072-7182
+Cards: Ashling, the Limitless + Rakdos, Lord of Riots + Graveshifter
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
+Produces: Infinite creature tokens with haste; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count; Return all cards from your graveyard to your hand
+Start: Ashling, the Limitless (battlefield); Rakdos, Lord of Riots (battlefield); Graveshifter (hand)
+Prerequisites: Your opponents have lost at least 4 life this turn.
+Steps: Cast Graveshifter for its evoke cost by paying {0} due to Rakdos.
+  When Graveshifter enters, its first ability and evoke abilities trigger.
+  Resolve the first trigger, optionally returning a card from your graveyard to your hand.
+  Resolve the second trigger, sacrificing Graveshifter.
+  When Graveshifter dies, Ashling triggers, creating a token copy of Graveshifter with haste.
+  When the Graveshifter token enters, it triggers, returning Graveshifter from your graveyard to your hand.
+  Repeat.
+
+## Combo 2906-7182-7252
+Cards: Ashling, the Limitless + Grave Sifter + Rakdos, Lord of Riots
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
+Produces: Infinite creature tokens with haste; Each opponent returns all creature cards from their graveyard to their hand; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count; Return all cards from your graveyard to your hand
+Start: Ashling, the Limitless (battlefield); Grave Sifter (hand); Rakdos, Lord of Riots (battlefield)
+Prerequisites: Your opponents have lost at least 4 life this turn.
+Steps: Cast Grave Sifter for its evoke cost by paying {0} due to Rakdos.
+  When Grave Sifter enters, its first ability and evoke abilities trigger.
+  Resolve the first trigger, optionally returning a card from your graveyard to your hand.
+  Resolve the second trigger, sacrificing Grave Sifter.
+  When Grave Sifter dies, Ashling triggers, creating a token copy of Grave Sifter with haste.
+  When the Grave Sifter token enters, it triggers, returning Grave Sifter from your graveyard to your hand.
+  Repeat.
+
+## Combo 2921-3147-6871-7115--44
+Cards: Toph, the First Metalbender + Toph, Hardheaded Teacher + Bartolomé del Presidio + Azorius Chancery
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers; Infinite storm count; Infinite artifact ETB; Infinite artifact LTB
+Requires: Artifact Castable for {0} that survives (hand)
+Start: Toph, the First Metalbender (battlefield); Toph, Hardheaded Teacher (battlefield); Bartolomé del Presidio (battlefield); Azorius Chancery (battlefield)
+Steps: Cast the artifact by paying {0}.
+  Toph, Hardheaded Teacher triggers, earthbending Azorius Chancery.
+  Resolve the artifact spell.
+  Activate Bartolomé del Presidio by sacrificing Azorius Chancery.
+  When Azorius Chancery dies, Toph, Hardheaded Teach triggers, returning Azorius Chancery from your graveyard to the battlefield tapped.
+  When Azorius Chancery enters, it triggers, returning the artifact cast in step 1 from the battlefield to your hand, as it's a land due to Toph, the First Metalbender.
+  Resolve the Bartolomé del Presidio ability
+  Repeat.
+
+## Combo 2921-3174-5434-5555
+Cards: Yarus, Roar of the Old Gods + Karlov Watchdog + Bartolomé del Presidio + Switcheroo
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Yarus, Roar of the Old Gods (battlefield); Karlov Watchdog (battlefield); Bartolomé del Presidio (battlefield); Switcheroo (hand)
+Prerequisites: An opponent controls a creature.
+  You control a face-down creature whose front face is a permanent card.
+  You have enough mana to cast Switcheroo.
+Steps: Cast Switcheroo by paying its mana cost, giving control of Karlov Watchdog to an opponent.
+  During the opponent's turn, activate Bartolomé del Presidio by sacrificing a face-down creature you control.
+  When the creature dies, Yarus's second ability triggers, returning it from your graveyard to the battlefield face-down as a 2/2 creature, and then not turning it face-up due to Karlov Watchdog.
+  Resolve the Bartolomé del Presidio ability.
+  Repeat from step 2.
+
 ## Combo 2921-3240-6462-7396
 Cards: Nether Traitor + Kheru Goldkeeper + Bartolomé del Presidio + Quintorius, History Chaser
 Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B}
@@ -619,7 +690,7 @@ Steps: Activate Terra, Magical Adept by paying {4}{R}{G} and tapping it, exiling
 
 ## Combo 3068-3525-4893
 Cards: Jenson Carthalion, Druid Exile + Training Grounds + Pemmin's Aura
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 92 | Commander: legal | Mana needed: {3}
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 93 | Commander: legal | Mana needed: {3}
 Produces: Infinite black mana; Infinite green mana; Infinite red mana; Infinite white mana
 Start: Jenson Carthalion, Druid Exile (battlefield); Training Grounds (battlefield); Pemmin's Aura (battlefield)
 Prerequisites: Pemmin's Aura attached to Jenson.
@@ -1522,7 +1593,7 @@ Steps: Cast Chamber Sentry by paying {0}.
 
 ## Combo 3209-7117
 Cards: Avatar Aang // Aang, Master of Elements + Sprout Swarm
-Color identity: WUBRG | Bracket: 4+ (Ruthless) | Popularity: 270 | Commander: legal
+Color identity: WUBRG | Bracket: 4+ (Ruthless) | Popularity: 280 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite storm count; Infinite magecraft triggers
 Start: Avatar Aang // Aang, Master of Elements (battlefield); Sprout Swarm (hand)
 Steps: Cast Sprout Swarm with buyback by paying {0} due to Aang's cost reduction, creating a 1/1 Saproling creature token and returning Sprout Swarm to your hand.
@@ -3713,7 +3784,7 @@ Steps: Cast Greenwarden of Murasa for its evoke cost by paying {4}.
 
 ## Combo 3519-6072-7182
 Cards: Ashling, the Limitless + Food Chain + Graveshifter
-Color identity: WUBRG | Bracket: 3-4+ (Spicy) | Popularity: 540 | Commander: legal | Mana needed: {4}
+Color identity: WUBRG | Bracket: 3-4+ (Spicy) | Popularity: 550 | Commander: legal | Mana needed: {4}
 Produces: Infinite colored mana that can only be spent to cast creature spells; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count; Return all cards from your graveyard to your hand
 Start: Ashling, the Limitless (battlefield); Food Chain (battlefield); Graveshifter (hand)
 Steps: Cast Graveshifter for its evoke cost by paying {4}.
@@ -3817,7 +3888,7 @@ Notes: Once you have infinite mana, you may spend it on Kenrith's other abilitie
 
 ## Combo 3542-5140-5147
 Cards: Kenrith, the Returned King + Palinchron + Goblin Bombardment
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal
 Produces: Infinite damage; Infinite mana lands you control can produce; Infinite untap of lands you control; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Kenrith, the Returned King (hand, battlefield, command zone); Palinchron (graveyard); Goblin Bombardment (battlefield)
 Prerequisites: You control up to seven lands that can tap to produce at least {4}{B}.
@@ -3841,7 +3912,7 @@ Steps: Activate up to seven lands by tapping them, adding at least {3}{B}.
 
 ## Combo 3542-5140-5256
 Cards: Kenrith, the Returned King + Palinchron + Altar of Dementia
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite mana lands you control can produce; Infinite untap of lands you control; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Kenrith, the Returned King (hand, battlefield, command zone); Palinchron (graveyard); Altar of Dementia (battlefield)
 Prerequisites: You control up to seven lands that can tap to produce at least {4}{B}.
@@ -3971,7 +4042,7 @@ Steps: Activate Morselhorder by removing all -1/-1 counters from it, adding {B} 
 
 ## Combo 3652-4452-5852
 Cards: Hatchery Sliver + Ornithopter + Rukarumel, Biologist
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 50 | Commander: legal
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 51 | Commander: legal
 Produces: Infinite creature tokens; Infinite artifact ETB; Infinite creature ETB
 Start: Hatchery Sliver (battlefield); Ornithopter (battlefield); Rukarumel, Biologist (battlefield)
 Prerequisites: Rukarumel on the battlefield with "Sliver" chosen
@@ -3981,7 +4052,7 @@ Steps: Cast Ornithopter by paying {0}, and choosing to pay its replicate cost an
 
 ## Combo 3661-4452-5852
 Cards: Hatchery Sliver + Shield Sphere + Rukarumel, Biologist
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal
 Produces: Infinite creature tokens; Infinite artifact ETB; Infinite creature ETB
 Start: Hatchery Sliver (battlefield); Shield Sphere (battlefield); Rukarumel, Biologist (battlefield)
 Prerequisites: Rukarumel on the battlefield with "Sliver" chosen
@@ -4424,7 +4495,7 @@ Steps: Cast Grave Sifter for its evoke cost by paying {0} due to Animar.
 
 ## Combo 3809-4365-4682-5140
 Cards: Kenrith, the Returned King + Smothering Tithe + Goldspan Dragon + Mondrak, Glory Dominus
-Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 75 | Commander: legal | Mana needed: {3}{U}
+Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 74 | Commander: legal | Mana needed: {3}{U}
 Produces: Infinite card draw for any number of opponents; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Infinite draw triggers for any number of opponents
 Start: Kenrith, the Returned King (battlefield); Smothering Tithe (battlefield); Goldspan Dragon (battlefield); Mondrak, Glory Dominus (battlefield)
 Prerequisites: An opponent cannot pay for Smothering Tithe's trigger.
@@ -4436,7 +4507,7 @@ Notes: Eventually the opponent will lose the game due to drawing from an empty l
 
 ## Combo 3809-4682-4772-5140
 Cards: Kenrith, the Returned King + Smothering Tithe + Goldspan Dragon + Doubling Season
-Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 75 | Commander: legal | Mana needed: {3}{U}
+Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 74 | Commander: legal | Mana needed: {3}{U}
 Produces: Infinite card draw for any number of opponents; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Infinite draw triggers for any number of opponents
 Start: Kenrith, the Returned King (battlefield); Smothering Tithe (battlefield); Goldspan Dragon (battlefield); Doubling Season (battlefield)
 Prerequisites: An opponent cannot pay for Smothering Tithe's trigger.
@@ -4785,7 +4856,7 @@ Steps: Cast Spark Double by paying {3}{U}, choosing to have it enter the battlef
 
 ## Combo 3918-4038-4851
 Cards: Trazyn the Infinite + Farmstead Gleaner + Timeless Lotus
-Color identity: WUBRG | Bracket: 3-4+ (Spicy) | Popularity: 2 | Commander: legal
+Color identity: WUBRG | Bracket: 3-4+ (Spicy) | Popularity: 3 | Commander: legal
 Produces: Infinite colored mana; Infinite +1/+1 counters on a creature
 Start: Trazyn the Infinite (battlefield: without summoning sickness); Farmstead Gleaner (graveyard); Timeless Lotus (graveyard)
 Steps: Activate Trazyn using Timeless Lotus's ability by tapping it, adding {W}{U}{B}{R}{G}.
@@ -10845,7 +10916,7 @@ Notes: You may also perform this combo with {C}{C} less starting mana, skipping 
 
 ## Combo 5657-5664-7116
 Cards: Ulalek, Fused Atrocity + Writhing Chrysalis + Eldritch Immunity
-Color identity: WUBRG | Bracket: 2-3+ (Oddball) | Popularity: 8200 | Commander: legal | Mana needed: {2}{C}{C}{C}{R}{G}
+Color identity: WUBRG | Bracket: 2-3+ (Oddball) | Popularity: 8300 | Commander: legal | Mana needed: {2}{C}{C}{C}{R}{G}
 Produces: Infinite creature tokens; Infinite copies of abilities you control on the stack; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Ulalek, Fused Atrocity (battlefield); Writhing Chrysalis (hand); Eldritch Immunity (hand)
 Steps: Cast Writhing Chrysalis by paying {2}{R}{G}. Ulalek and Writhing Chrysalis' first ability trigger.
@@ -10858,7 +10929,7 @@ Steps: Cast Writhing Chrysalis by paying {2}{R}{G}. Ulalek and Writhing Chrysali
 
 ## Combo 5657-5860-6489
 Cards: Ulalek, Fused Atrocity + Drowner of Truth // Drowned Jungle + Sally Sparrow
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {4}{C}{C}{C}{G/U}{G/U} plus enough mana to cast the additional Eldrazi spell
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {4}{C}{C}{C}{G/U}{G/U} plus enough mana to cast the additional Eldrazi spell
 Produces: Infinite creature tokens; Infinite copies of abilities you control on the stack; Infinite copies of a specific creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Ulalek, Fused Atrocity (battlefield); Drowner of Truth // Drowned Jungle (hand); Sally Sparrow (battlefield)
 Prerequisites: You have another Eldrazi creature card in hand.
@@ -10917,7 +10988,7 @@ Steps: Cast any other Eldrazi except Drowner of Truth by paying its mana cost, t
 
 ## Combo 5657-6108-6489
 Cards: Ulalek, Fused Atrocity + Drowner of Truth // Drowned Jungle + High Fae Trickster
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 62 | Commander: legal | Mana needed: {4}{C}{C}{C}{G/U}{G/U} plus enough mana to cast the additional Eldrazi spell
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 63 | Commander: legal | Mana needed: {4}{C}{C}{C}{G/U}{G/U} plus enough mana to cast the additional Eldrazi spell
 Produces: Infinite creature tokens; Infinite copies of abilities you control on the stack; Infinite copies of a specific creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Ulalek, Fused Atrocity (battlefield); Drowner of Truth // Drowned Jungle (hand); High Fae Trickster (battlefield)
 Prerequisites: You have another Eldrazi creature card in hand.
@@ -11053,7 +11124,7 @@ Steps: Declare Overlord of the Hauntwoods as an attacker.
 
 ## Combo 5702-6664-7401
 Cards: Springbloom Druid + Springheart Nantuko + The Wandering Minstrel
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 62 | Commander: legal | Mana needed: {1}{G}
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 63 | Commander: legal | Mana needed: {1}{G}
 Produces: Near-infinite creature tokens; Near-infinite creature ETB; Near-infinite landfall triggers; Put all basic lands from your library onto the battlefield tapped
 Start: Springbloom Druid (battlefield); Springheart Nantuko (battlefield: attached to Springbloom Druid); The Wandering Minstrel (battlefield)
 Prerequisites: You have a land card in hand.
@@ -11456,7 +11527,7 @@ Steps: Cast Clash of the Eikons by paying {G}, removing a lore counter from Espe
 
 ## Combo 6575-6617
 Cards: Terra, Magical Adept // Esper Terra + The Apprentice's Folly
-Color identity: WUBRG | Bracket: 4+ (Ruthless) | Popularity: 6400 | Commander: legal | Mana needed: {4}{R}{G}
+Color identity: WUBRG | Bracket: 4+ (Ruthless) | Popularity: 6500 | Commander: legal | Mana needed: {4}{R}{G}
 Produces: Infinite colored mana; Infinite creature tokens with haste; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite creature copies of nonlegendary enchantments you control
 Start: Terra, Magical Adept // Esper Terra (battlefield: without summoning sickness); The Apprentice's Folly (battlefield)
 Steps: Activate Terra, Magical Adept by paying {4}{R}{G} and tapping it, exiling it and returning it to the battlefield as Esper Terra and with a lore counter on it.

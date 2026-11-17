@@ -2691,7 +2691,7 @@ Steps: Activate Skyshroud Ranger by tapping it, putting Rakdos Carnarium from yo
 
 ## Combo 224-2573-6756
 Cards: Hearthhull, the Worldseed + Retreat to Coralhelm + Crucible of Worlds
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 81 | Commander: legal
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 82 | Commander: legal
 Produces: Infinite card draw; Near-infinite lifeloss; Infinite draw triggers; Near-infinite landfall triggers
 Start: Hearthhull, the Worldseed (battlefield); Retreat to Coralhelm (battlefield); Crucible of Worlds (battlefield)
 Prerequisites: You control a land that enters the battlefield untapped and that can tap to produce at least {1}.
@@ -3388,7 +3388,7 @@ Steps: Play Golgari Rot Farm.
 
 ## Combo 280-1479-6517
 Cards: Kodama of the East Tree + Golgari Rot Farm + Dragonback Assault
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 130 | Commander: legal
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 140 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Golgari Rot Farm (hand); Dragonback Assault (battlefield)
 Prerequisites: You are able to play a land this turn.
@@ -5037,7 +5037,7 @@ Steps: Cast PuPu UFO by paying {2}.
 
 ## Combo 433-3257-7857
 Cards: Llanowar Scout + Rakdos Carnarium + Elven Raft-Steerer
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Llanowar Scout (battlefield: without summoning sickness); Rakdos Carnarium (hand); Elven Raft-Steerer (battlefield)
 Steps: Activate Llanowar Scout by tapping it, putting Rakdos Carnarium from your hand onto the battlefield.
@@ -6806,6 +6806,34 @@ Steps: Activate Scorched Rusalka by paying {R} and sacrificing Jewel-Eyed Cobra.
   Activate the treasure token by tapping and sacrificing it, adding {R}.
   Activate Soul Diviner by tapping it, removing a +1/+1 counter from Jewel-Eyed Cobra.
   Repeat.
+
+## Combo 628-1636-2838-8250
+Cards: Mikaeus, the Unhallowed + Intruder Alarm + Scarland Thrinax + Soul Diviner
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Near-infinite +1/+1 counters on a creature; Near-infinite untap of all creatures; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
+Start: Mikaeus, the Unhallowed (battlefield); Intruder Alarm (battlefield); Scarland Thrinax (battlefield); Soul Diviner (battlefield)
+Prerequisites: Soul Diviner doesn't have summoning sickness.
+  You control another nontoken non-Human creature that doesn't have a +1/+1 counter on it or enter with +1/+1 counters on it.
+Steps: Activate Scarland Thrinax by sacrificing the additional creature
+  When the creature dies, its undying ability triggers, returning the creature from your graveyard to the battlefield with a +1/+1 counter on it.
+  When the creature enters, Intruder Alarm triggers, untapping all creatures.
+  Resolve Scarland Thrinax's ability, putting a +1/+1 counter on it.
+  Activate Soul Diviner by tapping it and removing the +1/+1 counter from the additional creature, causing you to draw a card.
+  Repeat
+
+## Combo 628-1636-6609-8250
+Cards: Mikaeus, the Unhallowed + Intruder Alarm + Scarland Thrinax + O'aka, Traveling Merchant
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Near-infinite +1/+1 counters on a creature; Near-infinite untap of all creatures; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
+Start: Mikaeus, the Unhallowed (battlefield); Intruder Alarm (battlefield); Scarland Thrinax (battlefield); O'aka, Traveling Merchant (battlefield)
+Prerequisites: O'aka doesn't have summoning sickness.
+  You control another nontoken non-Human creature that doesn't have a +1/+1 counter on it or enter with +1/+1 counters on it.
+Steps: Activate Scarland Thrinax by sacrificing the additional creature
+  When the creature dies, its undying ability triggers, returning the creature from your graveyard to the battlefield with a +1/+1 counter on it.
+  When the creature enters, Intruder Alarm triggers, untapping all creatures.
+  Resolve Scarland Thrinax's ability, putting a +1/+1 counter on it.
+  Activate O'aka by tapping it and removing the +1/+1 counter from the additional creature, causing you to draw a card.
+  Repeat
 
 ## Combo 628-5147-6863--133
 Cards: Mikaeus, the Unhallowed + Blue, Loyal Raptor + Goblin Bombardment
@@ -10738,7 +10766,7 @@ Steps: Cast Kindred Charge for free due to Vision, choosing a creature type gran
 
 ## Combo 872-3257-7857
 Cards: Scaled Herbalist + Rakdos Carnarium + Elven Raft-Steerer
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 32 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Scaled Herbalist (battlefield: without summoning sickness); Rakdos Carnarium (hand); Elven Raft-Steerer (battlefield)
 Steps: Activate Scaled Herbalist by tapping it, putting Rakdos Carnarium from your hand onto the battlefield.
@@ -11231,7 +11259,7 @@ Notes: If there happens to be two or more creatures with haste in opponents' gra
 
 ## Combo 955-3259-7358
 Cards: Breath of Fury + Maelstrom Wanderer + Maestros Diabolist
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite damage; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite untap of creatures you control
 Start: Breath of Fury (battlefield: attached to another creature you control ); Maelstrom Wanderer (battlefield); Maestros Diabolist (battlefield)
 Prerequisites: You don't control a Devil token.
@@ -11245,7 +11273,7 @@ Steps: Declare the creature with Breath of Fury attached and Maestros Diabolist 
 
 ## Combo 955-3259-7795
 Cards: Breath of Fury + Maelstrom Wanderer + Drider
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite untap of creatures you control
 Start: Breath of Fury (battlefield: attached to any other creature you control ); Maelstrom Wanderer (battlefield); Drider (battlefield)
 Prerequisites: At least one opponent cannot block creatures you control.
@@ -18440,7 +18468,7 @@ Steps: Cast Kodama of the East Tree by paying {4}{G}{G}.
 
 ## Combo 1479-2719-3257
 Cards: Kodama of the East Tree + Sakashima of a Thousand Faces + Rakdos Carnarium
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Sakashima of a Thousand Faces (battlefield); Rakdos Carnarium (hand)
 Steps: Play Rakdos Carnarium.
@@ -22123,7 +22151,7 @@ Notes: If there happens to be two or more creatures with haste in opponents' gra
 
 ## Combo 2079-3259-7358
 Cards: Breath of Fury + Temur Ascendancy + Maestros Diabolist
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite damage; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite untap of creatures you control
 Start: Breath of Fury (battlefield: attached to another creature you control ); Temur Ascendancy (battlefield); Maestros Diabolist (battlefield)
 Prerequisites: You don't control a Devil token.
@@ -22137,7 +22165,7 @@ Steps: Declare the creature with Breath of Fury attached and Maestros Diabolist 
 
 ## Combo 2079-3259-7795
 Cards: Breath of Fury + Temur Ascendancy + Drider
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite untap of creatures you control
 Start: Breath of Fury (battlefield: attached to any other creature you control ); Temur Ascendancy (battlefield); Drider (battlefield)
 Prerequisites: At least one opponent cannot block creatures you control.
@@ -23750,7 +23778,7 @@ Steps: Cast the extra turn spell by paying its mana cost, causing you to take an
 
 ## Combo 2248-3257-7857
 Cards: Skyshroud Ranger + Rakdos Carnarium + Elven Raft-Steerer
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 28 | Commander: legal
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Skyshroud Ranger (battlefield: without summoning sickness); Rakdos Carnarium (hand); Elven Raft-Steerer (battlefield)
 Steps: Activate Skyshroud Ranger by tapping it, putting Rakdos Carnarium from your hand onto the battlefield.
@@ -26060,7 +26088,7 @@ Steps: Activate Songbird by discarding Gilded Assault Cart.
 
 ## Combo 3177-3257-7857
 Cards: Sakura-Tribe Scout + Rakdos Carnarium + Elven Raft-Steerer
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 28 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Sakura-Tribe Scout (battlefield: without summoning sickness); Rakdos Carnarium (hand); Elven Raft-Steerer (battlefield)
 Steps: Activate Sakura-Tribe Scout by tapping it, putting Rakdos Carnarium from your hand onto the battlefield.

@@ -2865,7 +2865,7 @@ Notes: This combo can put infinite +1/+1 counters on each creature you control e
 
 ## Combo 222-2292-4647-4871
 Cards: Slimefoot and Squee + Pitiless Plunderer + Teysa Karlov + Viscera Seer
-Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal
+Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal
 Produces: Infinite colored mana; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite scry 1
 Start: Slimefoot and Squee (battlefield); Pitiless Plunderer (battlefield); Teysa Karlov (battlefield); Viscera Seer (battlefield)
 Prerequisites: You control at least one Saproling.
@@ -2881,7 +2881,7 @@ Steps: Activate Viscera Seer twice by sacrificing a nontoken creature you contro
 
 ## Combo 222-2438-4647-4871
 Cards: Slimefoot and Squee + Pitiless Plunderer + Teysa Karlov + Carrion Feeder
-Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
+Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
 Produces: Infinite colored mana; Infinite Treasure tokens; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Slimefoot and Squee (battlefield); Pitiless Plunderer (battlefield); Teysa Karlov (battlefield); Carrion Feeder (battlefield)
 Prerequisites: You control at least one Saproling.
@@ -2939,7 +2939,7 @@ Steps: Activate Bartolomé del Presidio twice by sacrificing Sporuting Thrinax a
 
 ## Combo 222-4647-4871-5147
 Cards: Slimefoot and Squee + Pitiless Plunderer + Teysa Karlov + Goblin Bombardment
-Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal
+Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 46 | Commander: legal
 Produces: Infinite colored mana; Infinite damage; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Slimefoot and Squee (battlefield); Pitiless Plunderer (battlefield); Teysa Karlov (battlefield); Goblin Bombardment (battlefield)
 Prerequisites: You control at least one Saproling, and at least one additional nontoken creature.
@@ -10374,7 +10374,7 @@ Steps: Cast the artifact by paying {0}.
 
 ## Combo 280-1315-6871-7115--44
 Cards: Toph, the First Metalbender + Toph, Hardheaded Teacher + Zuran Orb + Golgari Rot Farm
-Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal
+Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers; Infinite storm count; Infinite artifact ETB; Infinite artifact LTB
 Requires: Artifact Castable for {0} that survives (hand)
 Start: Toph, the First Metalbender (battlefield); Toph, Hardheaded Teacher (battlefield); Zuran Orb (battlefield); Golgari Rot Farm (battlefield)
@@ -11118,14 +11118,24 @@ Steps: Gain any amount of life.
   Resolve the Soul Warden trigger, causing you to gain life.
   Repeat from step 2.
 
+## Combo 362-1765-5686
+Cards: Bludgeon Brawl + Chishiro, the Shattered Blade + Shilgengar, Sire of Famine
+Color identity: BRGW | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
+Produces: Infinite artifact tokens; Infinite Blood tokens; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Bludgeon Brawl (battlefield); Chishiro, the Shattered Blade (battlefield); Shilgengar, Sire of Famine (battlefield)
+Steps: Cause a noncreature artifact to enter the battlefield under your control, which will be an Equipment due to Bludgeon Brawl if it isn't an Equipment already, causing Chishiro to trigger.
+  Resolve Chishiro's first ability, creating a 2/2 red Spirit creature token with menace.
+  Activate Shilgengar by sacrificing a creature, creating a Blood token which will be an Equipment due to Bludgeon Brawl, and causing Chishiro to trigger.
+  Repeat from step 2.
+
 ## Combo 362-5686-6737
-Cards: Barret, Avalanche Leader + Bludgeon Brawl + Shilgengar, Sire of Famine
+Cards: Bludgeon Brawl + Shilgengar, Sire of Famine + Barret, Avalanche Leader
 Color identity: BRGW | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
 Produces: Infinite artifact tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite Blood tokens
-Start: Barret, Avalanche Leader (battlefield); Bludgeon Brawl (battlefield); Shilgengar, Sire of Famine (battlefield)
-Steps: Cause a noncreature artifact to enter the battlefield under your control, which will be an Equipment due to Bludgeon Brawl if it isn't an Equipment already.
-  Barret's first ability triggers, creating a 2/2 Rebel creature token.
-  Activate Shilgengar by sacrificing the Rebel, creating a Blood token which will be an Equipment due to Bludgeon Brawl.
+Start: Bludgeon Brawl (battlefield); Shilgengar, Sire of Famine (battlefield); Barret, Avalanche Leader (battlefield)
+Steps: Cause a noncreature artifact to enter the battlefield under your control, which will be an Equipment due to Bludgeon Brawl if it isn't an Equipment already, causing Barret to trigger.
+  Resolve Barret's first ability, creating a 2/2 red Rebel creature token.
+  Activate Shilgengar by sacrificing a creature, creating a Blood token which will be an Equipment due to Bludgeon Brawl, and causing Barret to trigger.
   Repeat from step 2.
 
 ## Combo 372-1916-6473
@@ -28693,16 +28703,3 @@ Start: Mayael's Aria (battlefield); Dark Depths (battlefield); Vampire Hexmage (
 Steps: Activate Vampire Hexmage by sacrificing it, removing all counters from Dark Depths.
   Dark Depths triggers, causing you to sacrifice it and create a 20/20 Marit Lage legendary creature token.
   At the beginning of your next upkeep, Mayael's Aria triggers, causing you to put a +1/+1 counter on each creature you control, gain 10 life and win the game.
-
-## Combo 1753-2034-5003-6773
-Cards: Nim Deathmantle + Ashnod's Altar + Xu-Ifit, Osteoharmonist + Samut, Voice of Dissent
-Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Xu-Ifit, Osteoharmonist (battlefield); Samut, Voice of Dissent (battlefield)
-Prerequisites: You control another nontoken creature.
-Steps: Activate Ashnod's Altar by sacrificing another nontoken creature, adding {C}{C}.
-  When the creature dies, Nim Deathmantle triggers. Choose not to pay.
-  Activate Xu-Ifit by tapping it, returning a creature from your graveyard to the battlefield.
-  Activate Ashnod's Altar by sacrificing Xu-Ifit, adding {C}{C}.
-  When Xu-Ifit dies, Nim Deathmantle triggers, causing you to pay {4} to return it from your graveyard to the battlefield and attach Nim Deathmantle to it.
-  Repeat.

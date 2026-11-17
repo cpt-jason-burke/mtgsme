@@ -1,3 +1,28 @@
+## Combo 2034-2713-4790-5149
+Cards: Zirda, the Dawnwaker + Dino DNA + Power Artifact + Ashnod's Altar
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}
+Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
+Start: Zirda, the Dawnwaker (battlefield); Dino DNA (battlefield); Power Artifact (battlefield); Ashnod's Altar (battlefield)
+Prerequisites: Power Artifact attached to Dino DNA.
+  You have at least one creature card exiled with Dino DNA.
+Steps: Activate Dino DNA by paying {2}, creating a token copy of a creature exiled with it that is a 6/6 Dinosaur.
+  Activate Ashnod's Altar by sacrificing the creature token, adding {C}{C}.
+  Repeat.
+
+## Combo 2034-3169-4013-5263
+Cards: Optimus Prime, Hero // Optimus Prime, Autobot Leader + Eldrazi Displacer + Ashnod's Altar + Genesis Chamber
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
+Produces: Infinite colorless mana; Infinite creature tokens; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite blinking of most creatures; Infinite blinking
+Start: Optimus Prime, Hero // Optimus Prime, Autobot Leader (battlefield); Eldrazi Displacer (battlefield); Ashnod's Altar (battlefield); Genesis Chamber (battlefield)
+Prerequisites: It is your turn.
+Steps: Activate Ashnod's Altar by sacrificing Optimus Prime, Hero, adding {C}{C}.
+  When Optimus Prime, Hero dies, it triggers, returning itself from your graveyard to the battlefield as Optimus Prime, Autobot Leader.
+  When Optimus Prime, Autobot Leader enters the battlefield, Genesis Chamber triggers, creating a 1/1 Myr artifact creature token.
+  Activate Ashnod's Altar by sacrificing the Myr, adding {C}{C}.
+  Activate Eldrazi Displacer by paying {2}{C}, blinking Optimus Prime, Autobot Leader, causing it to return to the battlefield as Optimus Prime, Hero.
+  When Optimus Prime, Hero enters the battlefield, Genesis Chamber triggers, creating a 1/1 Myr artifact creature token.
+  Repeat.
+
 ## Combo 2034-3374-5263
 Cards: Optimus Prime, Hero // Optimus Prime, Autobot Leader + Antler Skulkin + Ashnod's Altar
 Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal | Mana needed: {1}
@@ -708,7 +733,7 @@ Notes: The mana cost can be reduced if you control more creatures that share typ
 
 ## Combo 2055-2175-3390-3525
 Cards: The Face of Boe + Auriok Salvagers + Lotus Bloom + Pemmin's Aura
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {W/U}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {W/U}
 Produces: Infinite storm count
 Start: The Face of Boe (battlefield); Auriok Salvagers (battlefield); Lotus Bloom (hand); Pemmin's Aura (battlefield)
 Prerequisites: Pemmin's Aura attached to The Face of Boe.
@@ -721,7 +746,7 @@ Steps: Activate The Face of Boe by tapping it, causing you to pay {0} to cast Lo
 
 ## Combo 2055-2175-3390-4222
 Cards: The Face of Boe + Auriok Salvagers + Lotus Bloom + Freed from the Real
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal | Mana needed: {W/U}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {W/U}
 Produces: Infinite storm count
 Start: The Face of Boe (battlefield); Auriok Salvagers (battlefield); Lotus Bloom (hand); Freed from the Real (battlefield)
 Prerequisites: Freed from the Real attached to The Face of Boe.
@@ -2941,16 +2966,29 @@ Steps: Cast Massimo by paying its mana cost plus commander tax if applicable.
   Resolve Daydream, blinking Combat Celebrant.
   Repeat from step 3 each combat phase.
 
+## Combo 2106-2904-6213--44
+Cards: Dan Lewis + Cephalid Illusionist + Fighter Class
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite self-mill
+Requires: Artifact Castable for {0} that survives (battlefield)
+Start: Dan Lewis (battlefield); Cephalid Illusionist (battlefield); Fighter Class (battlefield)
+Prerequisites: The artifact chosen from the list is not natively a creature or Equipment.
+  Fighter Class is at least level 2.
+Steps: Activate the listed artifact's equip ability through Dan Lewis by paying {0} due to the reduction from Fighter Class, targeting Cephalid Illusionist.
+  Cephalid Illusionist triggers, causing you to mill three cards.
+  Resolve the equip ability, attaching the artifact to Cephalid Illusionist.
+  Repeat.
+
 ## Combo 2128-3263-4701
 Cards: Hinata, Dawn-Crowned + Heliod's Intervention + Mycosynth Lattice
-Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 76 | Commander: legal | Mana needed: {2}
+Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 77 | Commander: legal | Mana needed: {2}
 Produces: Destroy all permanents opponents control; Mass Land Denial
 Start: Hinata, Dawn-Crowned (battlefield); Heliod's Intervention (hand); Mycosynth Lattice (battlefield)
 Steps: Cast Heliod's Intervention by paying {2} due to Hinata, destroying all of your opponents' permanents.
 
 ## Combo 2128-3263-5381
 Cards: Hinata, Dawn-Crowned + Mycosynth Lattice + By Force
-Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 70 | Commander: legal | Mana needed: {R}
+Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 71 | Commander: legal | Mana needed: {R}
 Produces: Destroy all permanents opponents control; Mass Land Denial
 Start: Hinata, Dawn-Crowned (battlefield); Mycosynth Lattice (battlefield); By Force (hand)
 Steps: Cast By Force by paying a total of {R} due to Hinata, destroying each permanent opponents control, as they are all artifacts due to Mycosynth Lattice.
@@ -3112,7 +3150,7 @@ Steps: Activate Bloodshot Cyclops by tapping it and sacrificing Reef Worm.
 
 ## Combo 2178-4659-5663
 Cards: Cayth, Famed Mechanist + Thornbite Staff + Krark-Clan Ironworks
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal | Mana needed: {2}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal | Mana needed: {2}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Cayth, Famed Mechanist (battlefield); Thornbite Staff (battlefield); Krark-Clan Ironworks (battlefield)
 Prerequisites: Thornbite Staff attached to Cayth.
@@ -4064,7 +4102,7 @@ Steps: Activate Thermopod by sacrificing Squee and Skyfire Phoenix, adding {R}{R
 
 ## Combo 2424-2649
 Cards: Vadrok, Apex of Thunder + Chef's Kiss
-Color identity: URW | Bracket: 2-3+ (Oddball) | Popularity: 440 | Commander: legal | Mana needed: {2}{R}{R}{R}{R}{W/U}
+Color identity: URW | Bracket: 2-3+ (Oddball) | Popularity: 450 | Commander: legal | Mana needed: {2}{R}{R}{R}{R}{W/U}
 Produces: Cast a subset of spells in your graveyard; Infinite magecraft triggers; Infinite storm count
 Start: Vadrok, Apex of Thunder (hand, command zone); Chef's Kiss (hand)
 Prerequisites: You own and control a non-Human creature.
@@ -5933,7 +5971,7 @@ Steps: Put a +1/+1 counter on Benthic Biomancer.
 
 ## Combo 2544-2713-5116
 Cards: Filigree Sages + Gilded Lotus + Zirda, the Dawnwaker
-Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 16 | Commander: legal
+Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 15 | Commander: legal
 Produces: Infinite colored mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
 Start: Filigree Sages (battlefield); Gilded Lotus (battlefield); Zirda, the Dawnwaker (battlefield)
 Steps: Activate Gilded Lotus by tapping it, adding {U}{U}{U}.
@@ -6420,7 +6458,7 @@ Steps: Cast Brass's Bounty by paying {6}{R}.
 
 ## Combo 2645-3609-6702
 Cards: Kilo, Apogee Mind + Magistrate's Scepter + Staff of Domination
-Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 400 | Commander: legal | Mana needed: {7} each turn
+Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 410 | Commander: legal | Mana needed: {7} each turn
 Produces: Infinite turns; Lock
 Start: Kilo, Apogee Mind (battlefield); Magistrate's Scepter (battlefield: with a charge counter on it); Staff of Domination (battlefield)
 Prerequisites: You have a repeatable way to allow Kilo to tap.
@@ -7518,7 +7556,7 @@ Steps: Activate Kilo by tapping it, adding {U}.
 
 ## Combo 2821-4549-5479-6702
 Cards: Kilo, Apogee Mind + Minamo, School at Water's Edge + Lost Jitte + Relic of Legends
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 230 | Commander: legal
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 240 | Commander: legal
 Produces: Infinite proliferate
 Start: Kilo, Apogee Mind (battlefield); Minamo, School at Water's Edge (battlefield); Lost Jitte (battlefield: with a charge counter on it); Relic of Legends (battlefield)
 Steps: Activate Relic of Legends' second ability by tapping Kilo, adding {U}.
@@ -8005,6 +8043,66 @@ Start: Cephalid Illusionist (battlefield); Soltari Guerrillas (battlefield)
 Steps: Activate Soltari Guerrillas by paying {0}, targeting Cephalid Illusionist.
   Cephalid Illusionist triggers, causing you to mill three cards.
   Resolve the Soltari Guerrillas ability.
+  Repeat.
+
+## Combo 2904-3701-6213--44
+Cards: Dan Lewis + Cephalid Illusionist + Auriok Steelshaper
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite self-mill
+Requires: Artifact Castable for {0} that survives (battlefield)
+Start: Dan Lewis (battlefield); Cephalid Illusionist (battlefield); Auriok Steelshaper (battlefield)
+Prerequisites: The artifact chosen from the list is not natively a creature or Equipment.
+Steps: Activate the listed artifact's equip ability through Dan Lewis by paying {0} due to the reduction from Auriok Steelshaper, targeting Cephalid Illusionist.
+  Cephalid Illusionist triggers, causing you to mill three cards.
+  Resolve the equip ability, attaching the artifact to Cephalid Illusionist.
+  Repeat.
+
+## Combo 2904-6213-6301--44
+Cards: Dan Lewis + Cephalid Illusionist + Bladehold War-Whip
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite self-mill
+Requires: Artifact Castable for {0} that survives (battlefield)
+Start: Dan Lewis (battlefield); Cephalid Illusionist (battlefield); Bladehold War-Whip (battlefield)
+Prerequisites: The artifact chosen from the list is not natively a creature or Equipment.
+Steps: Activate the listed artifact's equip ability through Dan Lewis by paying {0} due to the reduction from Bladehold War-Whip, targeting Cephalid Illusionist.
+  Cephalid Illusionist triggers, causing you to mill three cards.
+  Resolve the equip ability, attaching the artifact to Cephalid Illusionist.
+  Repeat.
+
+## Combo 2904-6213-6302--44
+Cards: Dan Lewis + Cephalid Illusionist + Bureau Headmaster
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite self-mill
+Requires: Artifact Castable for {0} that survives (battlefield)
+Start: Dan Lewis (battlefield); Cephalid Illusionist (battlefield); Bureau Headmaster (battlefield)
+Prerequisites: The artifact chosen from the list is not natively a creature or Equipment.
+Steps: Activate the listed artifact's equip ability through Dan Lewis by paying {0} due to the reduction from Bureau Headmaster, targeting Cephalid Illusionist.
+  Cephalid Illusionist triggers, causing you to mill three cards.
+  Resolve the equip ability, attaching the artifact to Cephalid Illusionist.
+  Repeat.
+
+## Combo 2904-6213-6304--44
+Cards: Dan Lewis + Cephalid Illusionist + Éowyn, Lady of Rohan
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite self-mill
+Requires: Artifact Castable for {0} that survives (battlefield)
+Start: Dan Lewis (battlefield); Cephalid Illusionist (battlefield); Éowyn, Lady of Rohan (battlefield)
+Prerequisites: The artifact chosen from the list is not natively a creature or Equipment.
+Steps: Activate the listed artifact's equip ability through Dan Lewis by paying {0} due to the reduction from Éowyn, targeting Cephalid Illusionist.
+  Cephalid Illusionist triggers, causing you to mill three cards.
+  Resolve the equip ability, attaching the artifact to Cephalid Illusionist.
+  Repeat.
+
+## Combo 2904-6213-6305--44
+Cards: Dan Lewis + Cephalid Illusionist + Nahiri, Storm of Stone
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite self-mill
+Requires: Artifact Castable for {0} that survives (battlefield)
+Start: Dan Lewis (battlefield); Cephalid Illusionist (battlefield); Nahiri, Storm of Stone (battlefield)
+Prerequisites: The artifact chosen from the list is not natively a creature or Equipment.
+Steps: Activate the listed artifact's equip ability through Dan Lewis by paying {0} due to the reduction from Nahiri, Storm of Stone, targeting Cephalid Illusionist.
+  Cephalid Illusionist triggers, causing you to mill three cards.
+  Resolve the equip ability, attaching the artifact to Cephalid Illusionist.
   Repeat.
 
 ## Combo 2905-5640-5917
@@ -9649,7 +9747,7 @@ Steps: Cause an artifact to enter the battlefield under your control.
 
 ## Combo 3492-3609-6750
 Cards: Inspirit, Flagship Vessel + Magistrate's Scepter + Coretapper
-Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 6300 | Commander: legal
+Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 6400 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Inspirit, Flagship Vessel (battlefield); Magistrate's Scepter (battlefield); Coretapper (battlefield: without summoning sickness)
 Prerequisites: Inspirit has one or more charge counters on it.
@@ -9812,7 +9910,7 @@ Steps: Activate Kilo by tapping it, adding {U}.
 
 ## Combo 3525-4549-6702
 Cards: Kilo, Apogee Mind + Pemmin's Aura + Relic of Legends
-Color identity: URW | Bracket: 2-3+ (Oddball) | Popularity: 5300 | Commander: legal
+Color identity: URW | Bracket: 2-3+ (Oddball) | Popularity: 5400 | Commander: legal
 Produces: Infinite proliferate
 Start: Kilo, Apogee Mind (battlefield); Pemmin's Aura (battlefield: attached to Kilo); Relic of Legends (battlefield)
 Steps: Activate Relic of Legends' second ability by tapping Kilo, adding {U}.
@@ -9835,7 +9933,7 @@ Notes: This combo will also give you infinite results from whatever method you u
 
 ## Combo 3525-5479-6702--119
 Cards: Kilo, Apogee Mind + Pemmin's Aura + Lost Jitte
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 550 | Commander: legal
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 560 | Commander: legal
 Produces: Infinite proliferate
 Requires: Cards Allowing a Creature to Tap for Free (battlefield)
 Start: Kilo, Apogee Mind (battlefield); Pemmin's Aura (battlefield: attached to Kilo); Lost Jitte (battlefield: with a charge counter on it)
@@ -10099,7 +10197,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 3581-4311-5078
 Cards: Sensei's Divining Top + Kykar, Wind's Fury + Future Sight
-Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 110 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 120 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Sensei's Divining Top (battlefield); Kykar, Wind's Fury (battlefield); Future Sight (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -10355,7 +10453,7 @@ Notes: You can use any method(s) to tap Kilo three times per turn. If those meth
 
 ## Combo 3609-4222-6702
 Cards: Kilo, Apogee Mind + Magistrate's Scepter + Freed from the Real
-Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 5300 | Commander: legal | Mana needed: {U}{U}{U}{U}{U} each turn
+Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 5400 | Commander: legal | Mana needed: {U}{U}{U}{U}{U} each turn
 Produces: Infinite turns; Lock
 Start: Kilo, Apogee Mind (battlefield); Magistrate's Scepter (battlefield: with a charge counter on it); Freed from the Real (battlefield: attached to Kilo)
 Steps: Activate Freed from the Real's first ability by paying {U}, tapping Kilo.
@@ -10431,7 +10529,7 @@ Notes: You can use any method(s) to tap Kilo three times per turn. If those meth
 
 ## Combo 3609-5921-6750
 Cards: Inspirit, Flagship Vessel + Magistrate's Scepter + Mirror Room // Fractured Realm
-Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 27 | Commander: legal
+Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 28 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Inspirit, Flagship Vessel (battlefield); Magistrate's Scepter (battlefield); Mirror Room // Fractured Realm (battlefield)
 Prerequisites: Fractured Realm is unlocked.
@@ -10442,7 +10540,7 @@ Steps: At the beginning of your combat phase, Inspirit triggers twice, putting f
 
 ## Combo 3609-6188-6750
 Cards: Inspirit, Flagship Vessel + Magistrate's Scepter + Fear of Missing Out
-Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 9 | Commander: legal
+Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 8 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Inspirit, Flagship Vessel (battlefield); Magistrate's Scepter (battlefield); Fear of Missing Out (battlefield: without summoning sickness)
 Prerequisites: Fear of Missing Out cannot be blocked and killed by an opponent.
@@ -10455,7 +10553,7 @@ Steps: At the beginning of your combat phase, Inspirit triggers, putting two cha
 
 ## Combo 3609-6702-6750
 Cards: Inspirit, Flagship Vessel + Kilo, Apogee Mind + Magistrate's Scepter
-Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 9900 | Commander: legal
+Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 10000 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Inspirit, Flagship Vessel (battlefield); Kilo, Apogee Mind (battlefield); Magistrate's Scepter (battlefield)
 Prerequisites: Inspirit has one or more charge counters on it.
@@ -10479,7 +10577,7 @@ Steps: At the beginning of your upkeep, Vedalken Infuser triggers, putting a cha
 
 ## Combo 3609-6750-7803
 Cards: Inspirit, Flagship Vessel + Magistrate's Scepter + Brad Boimler, Eager Ensign
-Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 34 | Commander: legal
+Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 40 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Inspirit, Flagship Vessel (battlefield); Magistrate's Scepter (battlefield); Brad Boimler, Eager Ensign (battlefield)
 Prerequisites: Inspirit has one or more charge counters on it.
@@ -11094,7 +11192,7 @@ Steps: Declare Satya as an attacker, triggering its ability, causing you to crea
 
 ## Combo 3951-5658-7824
 Cards: Satya, Aetherflux Genius + Éomer, Marshal of Rohan + Bard, King of Dale
-Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 7 | Commander: legal
+Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 9 | Commander: legal
 Produces: Infinite combat phases; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite energy counters; Infinite untap of creatures you control
 Start: Satya, Aetherflux Genius (battlefield: cannot be blocked and killed by an opponent); Éomer, Marshal of Rohan (battlefield); Bard, King of Dale (battlefield)
 Steps: Declare Satya as an attacker, triggering its ability, causing you to create two token copies of Éomer and causing you to get {E}{E}.
@@ -11604,7 +11702,7 @@ Steps: Activate a mana-producing permanent by tapping it, adding at least {2}.
 
 ## Combo 4068-5078-5243-8171
 Cards: Vraska, Soul of Stone + Sensei's Divining Top + Anger + The Reality Chip
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 24 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Start: Vraska, Soul of Stone (battlefield); Sensei's Divining Top (battlefield); Anger (graveyard); The Reality Chip (battlefield: attached to a creature you control)
 Prerequisites: You control at least one Mountain.
@@ -11850,7 +11948,7 @@ Steps: Activate Relic of Legends' second ability by tapping Kilo, adding {U}.
 
 ## Combo 4222-5115-6702--119
 Cards: Kilo, Apogee Mind + Freed from the Real + Gemstone Array
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 670 | Commander: legal
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 680 | Commander: legal
 Produces: Infinite proliferate
 Requires: Cards Allowing a Creature to Tap for Free (battlefield)
 Start: Kilo, Apogee Mind (battlefield); Freed from the Real (battlefield: attached to Kilo); Gemstone Array (battlefield: with a charge counter on it)
@@ -12025,7 +12123,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 4311-5078-6633-8171
 Cards: Vraska, Soul of Stone + Sensei's Divining Top + Future Sight + The Fire Crystal
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Start: Vraska, Soul of Stone (battlefield); Sensei's Divining Top (battlefield); Future Sight (battlefield); The Fire Crystal (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -12036,7 +12134,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 4311-5078-6747
 Cards: Sensei's Divining Top + Future Sight + Sami, Wildcat Captain
-Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 3 | Commander: legal
+Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 5 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Future Sight (battlefield); Sami, Wildcat Captain (battlefield)
 Prerequisites: You control another artifact.
@@ -12112,7 +12210,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 4311-5078-7295-8171
 Cards: Vraska, Soul of Stone + Sensei's Divining Top + Future Sight + Alibou, Ancient Witness
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Start: Vraska, Soul of Stone (battlefield); Sensei's Divining Top (battlefield); Future Sight (battlefield); Alibou, Ancient Witness (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -12510,7 +12608,7 @@ Notes: You can also do this combo in one turn if you give the ability to a creat
 
 ## Combo 4364-7715
 Cards: Aurelia, the Warleader + The Mighty Thor, Jane Foster
-Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 640 | Commander: legal
+Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 650 | Commander: legal
 Produces: Infinite combat phases; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite untap of creatures you control
 Start: Aurelia, the Warleader (battlefield); The Mighty Thor, Jane Foster (battlefield: without summoning sickness)
 Prerequisites: An opponent cannot block and kill creatures you control.
@@ -12958,7 +13056,7 @@ Steps: Cast Razor Boomerang by paying {0} due to Sokka, Swordmaster.
 
 ## Combo 4478-5078-5243-8171
 Cards: Vraska, Soul of Stone + Sensei's Divining Top + Roar of Resistance + The Reality Chip
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 95 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 96 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Start: Vraska, Soul of Stone (battlefield); Sensei's Divining Top (battlefield); Roar of Resistance (battlefield); The Reality Chip (battlefield: attached to a creature you control)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -13724,7 +13822,7 @@ Steps: Cast Time Warp by paying its mana cost.
 
 ## Combo 4872-7638-7722
 Cards: Thor, God of Thunder + Time Warp + The Mind Stone
-Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 41 | Commander: legal | Mana needed: {3}{U}{U} each turn
+Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 42 | Commander: legal | Mana needed: {3}{U}{U} each turn
 Produces: Infinite turns; Lock
 Start: Thor, God of Thunder (battlefield); Time Warp (hand); The Mind Stone (battlefield: is harnessed)
 Steps: Cast Time Warp by paying its mana cost.
@@ -13738,7 +13836,7 @@ Steps: Cast Time Warp by paying its mana cost.
 
 ## Combo 4872-7715-7722
 Cards: Thor, God of Thunder + Time Warp + The Mighty Thor, Jane Foster
-Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 42 | Commander: legal | Mana needed: {3}{U}{U} each turn
+Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 43 | Commander: legal | Mana needed: {3}{U}{U} each turn
 Produces: Infinite turns; Lock
 Start: Thor, God of Thunder (battlefield); Time Warp (hand); The Mighty Thor, Jane Foster (battlefield)
 Prerequisites: The Mighty Thor doesn't have summoning sickness.
@@ -13874,7 +13972,7 @@ Steps: Activate Sensei's Divining Top's second ability by tapping it, causing yo
 
 ## Combo 5078-5243-5295-8171
 Cards: Vraska, Soul of Stone + Sensei's Divining Top + The Reality Chip + Thousand-Year Elixir
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 48 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Start: Vraska, Soul of Stone (battlefield); Sensei's Divining Top (battlefield); The Reality Chip (battlefield: attached to a creature you control); Thousand-Year Elixir (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -14004,7 +14102,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 5078-5295-5741-8171
 Cards: Vraska, Soul of Stone + Sensei's Divining Top + Thousand-Year Elixir + Crystal Skull, Isu Spyglass
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 53 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Start: Vraska, Soul of Stone (battlefield); Sensei's Divining Top (battlefield); Thousand-Year Elixir (battlefield); Crystal Skull, Isu Spyglass (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -14080,7 +14178,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 5078-5741-6965-8171
 Cards: Vraska, Soul of Stone + Sensei's Divining Top + Crystal Skull, Isu Spyglass + Frostcliff Siege
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 66 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 67 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Start: Vraska, Soul of Stone (battlefield); Sensei's Divining Top (battlefield); Crystal Skull, Isu Spyglass (battlefield); Frostcliff Siege (battlefield: with "Temur" chosen)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -14124,7 +14222,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 5078-5741-7292-8171
 Cards: Vraska, Soul of Stone + Sensei's Divining Top + Crystal Skull, Isu Spyglass + Krang, Utrom Warlord
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Start: Vraska, Soul of Stone (battlefield); Sensei's Divining Top (battlefield); Crystal Skull, Isu Spyglass (battlefield); Krang, Utrom Warlord (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -14363,7 +14461,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 5078-6747-7902
 Cards: Sensei's Divining Top + Sami, Wildcat Captain + Fateful Discovery
-Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 76 | Commander: legal
+Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 79 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (hand); Sami, Wildcat Captain (battlefield); Fateful Discovery (battlefield)
 Prerequisites: You control an artifact.
@@ -14386,7 +14484,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 5078-6766-6965-8171
 Cards: Vraska, Soul of Stone + Sensei's Divining Top + Mm'menon, the Right Hand + Frostcliff Siege
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Start: Vraska, Soul of Stone (battlefield); Sensei's Divining Top (battlefield); Mm'menon, the Right Hand (battlefield); Frostcliff Siege (battlefield: with "Temur" chosen)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -14430,7 +14528,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 5078-6766-7292-8171
 Cards: Vraska, Soul of Stone + Sensei's Divining Top + Mm'menon, the Right Hand + Krang, Utrom Warlord
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Start: Vraska, Soul of Stone (battlefield); Sensei's Divining Top (battlefield); Mm'menon, the Right Hand (battlefield); Krang, Utrom Warlord (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -14765,7 +14863,7 @@ Steps: Cast Daydream by paying {W}, targeting Donnie & April
 
 ## Combo 5195-7683-7910
 Cards: Prismari, the Inspiration + Storm-Kiln Artist + Bilbo's Gambit
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal | Mana needed: {1}{W}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite Treasure tokens; Infinite colored mana; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite magecraft triggers; Infinite storm count
 Start: Prismari, the Inspiration (battlefield); Storm-Kiln Artist (battlefield); Bilbo's Gambit (hand)
 Prerequisites: You have another nonland card in hand with the mana to cast it and applicable targets if needed.
@@ -15359,6 +15457,16 @@ Steps: Cast Flying Crane Technique by paying {3}{U}{R}{W}.
   Resolve the copy of Flying Crane Technique, untapping all creatures you control.
   Repeat from step 3.
 
+## Combo 6213-7916-7924
+Cards: Flitwing, Lyev Detective + Ekthi, Contaminator Priest + Dan Lewis
+Color identity: URW | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
+Produces: Infinite artifact tokens; Infinite Clue tokens; Infinite artifact ETB
+Start: Flitwing, Lyev Detective (battlefield); Ekthi, Contaminator Priest (battlefield); Dan Lewis (battlefield)
+Prerequisites: You have a way to cause a noncreature artifact to enter under your control.
+Steps: Cause a noncreature artifact to enter under your control.
+  When the artifact enters as an Equipment, either because it is an Equipment or due to Dan Lewis, its living weapon ability given to it by Ekthi triggers, creating a Clue token rather than a Phyrexian Germ due to Flitwing.
+  Repeat step 2.
+
 ## Combo 6252-7282-7824
 Cards: Chrome Dome + Boommobile + Bard, King of Dale
 Color identity: URW | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {5}
@@ -15569,7 +15677,7 @@ Steps: Cast Appa by paying {W}{W}.
 
 ## Combo 6867-7043-7444
 Cards: Appa, Steadfast Guardian + Aang, Swift Savior // Aang and La, Ocean's Fury + Advanced Reconstruction
-Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 30 | Commander: legal | Mana needed: {W}{W}
+Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 31 | Commander: legal | Mana needed: {W}{W}
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Appa, Steadfast Guardian (hand); Aang, Swift Savior // Aang and La, Ocean's Fury (battlefield); Advanced Reconstruction (battlefield: is level 3)
 Steps: Cast Appa by paying {W}{W}.
