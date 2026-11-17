@@ -182,7 +182,7 @@
     state.theme = n.theme || ""; $("#themesel").value = state.theme;
     renderResults();
     for (const sv of n.sheets || []) {
-      if (["set", "deck", "sld", "precons"].includes(sv.type)) await ensureSets();
+      if (["set", "deck", "sld"].includes(sv.type)) await ensureSets();
       if (["headliners", "headliner"].includes(sv.type)) await ensureHL();
       if (sv.type === "sealed") await ensureSealed().catch(() => {});
       const v = sv.type === "card" ? (card(sv.n) ? { type: "card", card: card(sv.n) } : null) : sv;
@@ -238,7 +238,7 @@
     if (v.type === "deck") deckValue(v);
     if (v.type === "set" || v.type === "deck") renderTop25(v);
     if (v.type === "set") renderSealed(v);
-    if (v.type === "precons") { renderPreconList(v); ensurePP().then(() => { if (stack[stack.length - 1] === v) renderPreconList(v); }); }
+    if (v.type === "precons") preOpen($("#prebox"), v);
     if (v.type === "upgrade") ensureUpgrade(v);
     saveNav();
   }
@@ -288,9 +288,6 @@
       if (act === "copydeck") return copyPrecon(v.i);
       if (act === "t25all") { v.t25all = true; return renderTop25(v); }
       if (act === "slall") { v.slall = true; return v.type === "sealed" ? drawSheet() : renderSealed(v); }
-      if (act === "pcci") { const c = a.dataset.v; v.ci = v.ci.includes(c) ? v.ci.replace(c, "") : c === "C" ? "C" : v.ci.replace("C", "") + c; return drawSheet(); }
-      if (act === "pcload") return copyPrecon(+a.dataset.i);
-      if (act === "pcview") return openSheet({ type: "deck", i: +a.dataset.i });
       if (act === "usep") return usePrinting(v, a.dataset.p, a.dataset.f);
       if (act === "ringall") { v.ringAll = true; return renderRing(v, printCache.get(v.card.n) || []); }
       if (act === "upmode") { UPS.mode = a.dataset.v; store.set("upgrade", UPS); return drawSheet(); }
@@ -310,12 +307,6 @@
     const t = e.target, v = stack[stack.length - 1];
     if (t.dataset.act === "psort") { v.psort = t.value; renderPrintings(v, printCache.get(v.card.n) || []); }
     if (t.dataset.act === "ssort") { v.sort = t.value; drawSheet(); }
-    if (/^pc(set|year|sort)$/.test(t.dataset.act)) { v[t.dataset.act.slice(2)] = t.value; drawSheet(); }
-  });
-  let pcTimer;
-  $("#sheet-root").addEventListener("input", (e) => {
-    const v = stack[stack.length - 1];
-    if (e.target.id === "pcq" && v && v.type === "precons") { v.q = e.target.value; clearTimeout(pcTimer); pcTimer = setTimeout(() => renderPreconList(v), 150); }
   });
   $("#settingsBtn").addEventListener("click", () => openSheet({ type: "settings" }));
 
@@ -1139,6 +1130,7 @@
       if (a) {
         const act = a.dataset.act;
         if (act === "import") return doImport();
+        if (act === "prefield") return preToggle();
         if (act === "new") { state.deck = { commanders: [], cards: [] }; saveDeck(); return; }
         if (act === "replace") { state.deck = null; state.importNote = ""; saveDeck(); return; }
         if (act === "export") return doExport(a);
@@ -1221,7 +1213,7 @@
     const el = $("#pane-list");
     const dk = state.deck;
     if (!dk) {
-      el.innerHTML = '<section class="block" style="margin-top:14px"><h2>Import a deck</h2><div class="panel item"><div class="d" style="margin-bottom:10px">Paste a list from Moxfield (Export → Text), Archidekt (Export → Text) or any “1 Card Name” list. Mark the commander with a “Commander” heading or *CMDR*.</div>' +
+      el.innerHTML = '<section class="block" style="margin-top:14px"><h2>Import a deck</h2><div class="panel item">' + preField() + '<div class="d" id="pcnote" style="margin:8px 0 12px"></div><div class="d" style="margin-bottom:10px">Paste a list from Moxfield (Export → Text), Archidekt (Export → Text) or any “1 Card Name” list. Mark the commander with a “Commander” heading or *CMDR*.</div>' +
         '<textarea id="deckText" placeholder="Commander&#10;1 Toph, Earthbending Master&#10;&#10;Deck&#10;1 Sol Ring&#10;1 Cultivate&#10;30 Forest"></textarea><div class="chips"><button class="btn primary" data-act="import">Import</button><button class="btn" data-act="new">Start empty</button></div></div></section>';
       renderCombos();
       return;
@@ -1334,53 +1326,130 @@
     el.innerHTML = DP.priced ? '<b style="color:var(--ember-hi);font-size:16px">≈ ' + money(DP.total) + "</b> market value · " + DP.priced + " of " + DP.count + " cards priced · Scryfall, without shipping or tax" : "";
   }
 
-  // ---------- precon picker: every Commander precon, newest first, with search, filters and sort ----------
-  const PP = { data: null, promise: null };
+  // ---------- precon picker: every Commander precon in a compact list, with search, filters and sort ----------
+  // Light on loading: it needs only precons.json (the deck lists) and a tiny price file, not the big per-set card lists
+  // the Sets tab loads. Pictures aren't fetched; each row shows the set symbol, which the browser keeps.
+  const PP = { data: null, promise: null }, PRE = { list: null, promise: null };
+  const PCI = { q: "", set: "", year: "", sort: "new", ci: "", open: false };
+  const precList = () => PRE.list || (SETS.data && SETS.data.precons) || null;
+  function ensurePre() {
+    if (SETS.data) PRE.list = SETS.data.precons;
+    if (!PRE.promise) PRE.promise = (async () => {
+      const get = (opt) => fetch("data/precons.json" + DATA_V, opt).then((x) => { if (!x.ok) throw new Error("the server answered " + x.status); return x.json(); });
+      let pc = await get();
+      if (pc.n !== undefined && pc.n !== CARDS.length) pc = await get({ cache: "reload" });
+      if (pc.n !== undefined && pc.n !== CARDS.length) throw new Error("deck data is from a different update; reload in a few minutes");
+      if (!PRE.list) { PRE.list = pc.d || pc; PRE.list.forEach((p, i) => { p.i = i; }); }
+    })().catch((e) => { PRE.promise = null; throw e; });
+    return PRE.promise;
+  }
   function ensurePP() {
     if (!PP.promise) PP.promise = fetch("data/precon-prices.json" + DATA_V).then((x) => (x.ok ? x.json() : null)).then((j) => { PP.data = j; }).catch(() => { PP.data = null; });
     return PP.promise;
   }
-  function openPrecons() {
-    ensureSets().then(() => {
-      if (!SETS.data) return alert("The precon list couldn't load. Check your connection and try again.");
-      openSheet({ type: "precons", q: "", set: "", year: "", sort: "new", ci: "" });
-    });
-  }
+  function openPrecons() { openSheet({ type: "precons", q: "", set: "", year: "", sort: "new", ci: "" }); }
   const ppOf = (p) => (PP.data && PP.data.d && PP.data.d[p.s + ":" + p.n]) || null;
   const ciOf = (p) => "WUBRG".split("").filter((x) => (p.cmd || []).some((r) => CARDS[r[1]].ci.includes(x))).join("");
-  function preconsView(v) {
-    const all = SETS.data.precons.filter((p) => p.y === "cmd");
+  function preconsView() { return '<div id="prebox" data-pcroot="sheet"><div class="d">Loading the precon list…</div></div>'; }
+  // the deck a precon makes, with each card's printing; the picker and "Copy to Decks" both use it
+  function preDeck(p) {
+    const cards = [];
+    for (const r of p.main || []) { const n = CARDS[r[1]].n, x = cards.find((y) => y.n === n); if (x) x.q += r[0]; else cards.push({ n, q: r[0] }); }
+    const deck = { commanders: (p.cmd || []).map((r) => CARDS[r[1]].n), cards, prints: {} };
+    for (const r of (p.cmd || []).concat(p.main || [])) { const n = CARDS[r[1]].n; if (!deck.prints[n] && r[2] && r[3] != null) deck.prints[n] = { p: String(r[2]).toLowerCase() + "/" + r[3] }; }
+    return deck;
+  }
+  // fills `root` (the sheet or the field above the import box); s holds its search and filter choices
+  function preOpen(root, s) {
+    if (!root) return;
+    if (!precList()) root.innerHTML = '<div class="d">Loading the precon list…</div>';
+    ensurePre().then(() => { preDraw(root, s); ensurePP().then(() => { if (document.contains(root)) preList(root, s); }); })
+      .catch((e) => { root.innerHTML = '<div class="d">Could not load the precon list: ' + esc(e.message || e) + '</div><div class="chips"><button class="btn small" data-pc="retry">Try again</button></div>'; });
+  }
+  function preDraw(root, s) {
+    const all = precList().filter((p) => p.y === "cmd");
     const sets = [...new Map(all.slice().sort((a, b) => (a.d < b.d ? 1 : -1)).map((p) => [p.s, p.sn])).entries()];
     const years = [...new Set(all.map((p) => p.d.slice(0, 4)))].sort().reverse();
     const opt = (val, label, cur) => '<option value="' + esc(val) + '"' + (cur === val ? " selected" : "") + ">" + esc(label) + "</option>";
-    return '<div class="field"><input type="search" id="pcq" value="' + esc(v.q) + '" placeholder="Deck or commander name" autocomplete="off" autocapitalize="none" enterkeyhint="search"></div>' +
-      '<div class="pctl" style="margin-top:10px"><select class="sel" data-act="pcset" aria-label="Set">' + opt("", "All sets", v.set) + sets.map(([c, n]) => opt(c, n, v.set)).join("") + "</select>" +
-      '<select class="sel" data-act="pcyear" aria-label="Year">' + opt("", "Any year", v.year) + years.map((y) => opt(y, y, v.year)).join("") + "</select>" +
-      '<select class="sel" data-act="pcsort" aria-label="Sort">' + [["new", "Newest"], ["old", "Oldest"], ["name", "Name"], ["high", "Priciest"], ["low", "Cheapest"]].map(([k, l]) => opt(k, l, v.sort)).join("") + "</select></div>" +
-      '<div class="chips pcci">' + "WUBRGC".split("").map((c) => '<button class="chip' + (v.ci.includes(c) ? " on" : "") + '" data-act="pcci" data-v="' + c + '" aria-pressed="' + v.ci.includes(c) + '">' + mana("{" + c + "}") + "</button>").join("") +
-      '<span class="d" style="align-self:center;font-size:12.5px">' + (v.ci ? (v.ci === "C" ? "colorless decks" : "decks with these colors") : "tap colors to filter") + "</span></div>" +
-      '<div id="pclist" style="margin-top:10px"></div>';
+    root.innerHTML = '<div class="field"><input type="search" class="pcq" data-pc="q" value="' + esc(s.q) + '" placeholder="Search deck or commander" autocomplete="off" autocapitalize="none" enterkeyhint="search" aria-label="Search precons"></div>' +
+      '<div class="pctl" style="margin-top:8px"><select class="sel" data-pc="set" aria-label="Set">' + opt("", "All sets", s.set) + sets.map(([c, n]) => opt(c, n, s.set)).join("") + "</select>" +
+      '<select class="sel" data-pc="year" aria-label="Year">' + opt("", "Any year", s.year) + years.map((y) => opt(y, y, s.year)).join("") + "</select>" +
+      '<select class="sel" data-pc="sort" aria-label="Sort">' + [["new", "Newest"], ["old", "Oldest"], ["name", "Name"], ["high", "Priciest"], ["low", "Cheapest"]].map(([k, l]) => opt(k, l, s.sort)).join("") + "</select></div>" +
+      '<div class="chips pcci">' + "WUBRGC".split("").map((c) => '<button class="chip' + (s.ci.includes(c) ? " on" : "") + '" data-pc="ci" data-v="' + c + '" aria-pressed="' + s.ci.includes(c) + '">' + mana("{" + c + "}") + "</button>").join("") +
+      (s.ci ? '<span class="d" style="align-self:center;font-size:12.5px">' + (s.ci === "C" ? "colorless decks" : "has these colors") + "</span>" : "") + "</div>" +
+      '<div class="pclist" style="margin-top:8px"></div>';
+    preList(root, s);
   }
-  function renderPreconList(v) {
-    const el = $("#pclist"); if (!el) return;
-    const q = MTGDeck.norm(v.q || "");
-    let rows = SETS.data.precons.filter((p) => p.y === "cmd");
-    if (v.set) rows = rows.filter((p) => p.s === v.set);
-    if (v.year) rows = rows.filter((p) => p.d.startsWith(v.year));
-    if (v.ci) rows = rows.filter((p) => { const ci = ciOf(p); return v.ci === "C" ? ci === "" : [...v.ci].every((x) => ci.includes(x)); });
+  function preList(root, s) {
+    const el = root.querySelector(".pclist"); if (!el) return;
+    const q = MTGDeck.norm(s.q || "");
+    let rows = precList().filter((p) => p.y === "cmd");
+    if (s.set) rows = rows.filter((p) => p.s === s.set);
+    if (s.year) rows = rows.filter((p) => p.d.startsWith(s.year));
+    if (s.ci) rows = rows.filter((p) => { const ci = ciOf(p); return s.ci === "C" ? ci === "" : [...s.ci].every((x) => ci.includes(x)); });
     if (q) rows = rows.filter((p) => MTGDeck.norm(p.n + " " + p.sn + " " + (p.cmd || []).map((r) => CARDS[r[1]].n).join(" ")).includes(q));
     const val = (p) => (ppOf(p) || [null])[0];
     const by = { new: (a, b) => (a.d < b.d ? 1 : a.d > b.d ? -1 : a.n.localeCompare(b.n)), old: (a, b) => (a.d > b.d ? 1 : a.d < b.d ? -1 : a.n.localeCompare(b.n)), name: (a, b) => a.n.localeCompare(b.n),
-      high: (a, b) => (val(b) ?? -1) - (val(a) ?? -1), low: (a, b) => (val(a) ?? 1e9) - (val(b) ?? 1e9) }[v.sort];
+      high: (a, b) => (val(b) ?? -1) - (val(a) ?? -1), low: (a, b) => (val(a) ?? 1e9) - (val(b) ?? 1e9) }[s.sort];
     rows = rows.slice().sort(by);
-    el.innerHTML = '<div class="d" style="margin:0 2px 8px">' + rows.length + " Commander precon" + (rows.length === 1 ? "" : "s") + (PP.data ? " · values are market prices of the exact printings, updated " + esc(shortDate(PP.data.u)) + ", without shipping or tax" : "") + "</div>" +
-      (rows.length ? rows.map((p) => {
-        const lead = p.cmd ? CARDS[p.cmd[0][1]] : CARDS[(p.main || [[0, 0]])[0][1]], ci = ciOf(p), pv = ppOf(p);
-        return '<div class="panel decktile pcrow" data-act="pcload" data-i="' + p.i + '"><div class="thumb" style="--cc:' + artColor(lead) + '" data-img="' + esc(lead.n) + '" data-kind="art"></div><div class="body"><h4 style="margin:0">' + esc(p.n) + "</h4>" +
-          '<div class="ty" style="color:var(--mute);font-size:13px">' + (p.cmd ? esc(p.cmd.map((r) => CARDS[r[1]].n).join(" + ")) : "No commander listed") + " · " + (mana([...ci].map((x) => "{" + x + "}").join("")) || "colorless") + "<br>" + esc(p.sn) + " · " + esc(p.d) + "</div></div>" +
-          '<div class="pcside">' + (pv ? '<b class="price">≈ ' + money(pv[0]) + "</b>" : "") + '<button class="btn small" data-act="pcview" data-i="' + p.i + '">Cards ›</button></div></div>';
-      }).join("") : '<div class="empty">No precon matches. Clear a filter or the search.</div>');
-    hydrate(el);
+    el.innerHTML = '<div class="d" style="margin:0 2px 6px;font-size:12.5px">' + rows.length + " precon" + (rows.length === 1 ? "" : "s") + (PP.data ? " · ≈ market value, updated " + esc(shortDate(PP.data.u)) + ", no shipping or tax" : "") + "</div>" +
+      (rows.length ? '<div class="pcl">' + rows.map((p) => {
+        const ci = ciOf(p), pv = ppOf(p);
+        return '<div class="pcr" data-pc="pick" data-i="' + p.i + '" role="button" tabindex="0">' + symbol(p.s) + '<div class="body"><b>' + esc(p.n) + "</b>" +
+          '<span class="sub">' + (p.cmd ? esc(p.cmd.map((r) => CARDS[r[1]].n).join(" + ")) : "No commander listed") + " " + mana([...ci].map((x) => "{" + x + "}").join("")) + " · " + esc(p.d.slice(0, 4)) + "</span></div>" +
+          '<div class="side">' + (pv ? '<span class="price">≈ ' + money(pv[0]) + "</span>" : "") + '<button class="lnk" data-pc="cards" data-i="' + p.i + '">Cards ›</button></div></div>';
+      }).join("") + "</div>" : '<div class="empty">No precon matches. Clear a filter or the search.</div>');
+  }
+  // shared by the sheet and the field above the import box
+  (function () {
+    const ctx = (el) => { const r = el.closest("[data-pcroot]"); return r ? { root: r, s: r.dataset.pcroot === "sheet" ? stack[stack.length - 1] : PCI, inline: r.dataset.pcroot === "inline" } : null; };
+    let timer;
+    document.addEventListener("input", (e) => {
+      if (e.target.dataset.pc !== "q") return;
+      const c = ctx(e.target); if (!c) return;
+      c.s.q = e.target.value; clearTimeout(timer); timer = setTimeout(() => preList(c.root, c.s), 150);
+    });
+    document.addEventListener("change", (e) => {
+      const k = e.target.dataset.pc; if (!k || k === "q") return;
+      const c = ctx(e.target); if (!c) return;
+      c.s[k] = e.target.value; preDraw(c.root, c.s);
+    });
+    const onPick = (el) => {
+      const c = ctx(el), k = el.closest("[data-pc]").dataset.pc;
+      if (!c) return;
+      if (k === "retry") return preOpen(c.root, c.s);
+      if (k === "ci") { const v = el.closest("[data-pc]").dataset.v; c.s.ci = c.s.ci.includes(v) ? c.s.ci.replace(v, "") : v === "C" ? "C" : c.s.ci.replace("C", "") + v; return preDraw(c.root, c.s); }
+      const i = +el.closest("[data-i]").dataset.i;
+      if (k === "cards") return ensureSets().then(() => openSheet({ type: "deck", i }));
+      if (k === "pick") return c.inline ? preFill(i) : copyPrecon(i);
+    };
+    document.addEventListener("click", (e) => { const t = e.target.closest("[data-pc]"); if (t && t.closest("[data-pcroot]") && !["q", "set", "year", "sort"].includes(t.dataset.pc)) { e.stopPropagation(); onPick(e.target); } }, true);
+    document.addEventListener("keydown", (e) => { if ((e.key === "Enter" || e.key === " ") && e.target.dataset && e.target.dataset.pc === "pick") { e.preventDefault(); onPick(e.target); } });
+  })();
+  // the field above the import box: picking a deck fills the box with its list, to change or import
+  function preField() {
+    PCI.open = false;
+    return '<button class="pcfield" data-act="prefield" aria-expanded="' + PCI.open + '"><span>' + (PCI.picked ? esc(PCI.picked) : "Pick a Commander precon…") + '</span><i aria-hidden="true">' + (PCI.open ? "▴" : "▾") + '</i></button>' +
+      '<div id="prefield" data-pcroot="inline" class="prepanel' + (PCI.open ? "" : " hidden") + '"></div>';
+  }
+  function preToggle() {
+    PCI.open = !PCI.open;
+    const b = $("[data-act=prefield]"), box = $("#prefield"); if (!b || !box) return;
+    b.setAttribute("aria-expanded", PCI.open); b.lastChild.textContent = PCI.open ? "▴" : "▾";
+    box.classList.toggle("hidden", !PCI.open);
+    if (PCI.open) preOpen(box, PCI);
+  }
+  function preFill(i) {
+    const p = precList()[i], ta = $("#deckText"); if (!p || !ta) return;
+    ta.value = MTGDeck.exportText(preDeck(p));
+    PCI.open = false; PCI.picked = p.n;
+    $("#pcnote").textContent = p.n + " (" + p.sn + ") is in the box below. Change anything you like, then tap Import.";
+    preToggleClosed();
+    ta.scrollIntoView({ block: "center", behavior: "smooth" });
+  }
+  function preToggleClosed() {
+    const b = $("[data-act=prefield]"), box = $("#prefield"); if (!b || !box) return;
+    b.setAttribute("aria-expanded", "false"); b.lastChild.textContent = "▾"; b.firstChild.textContent = PCI.picked || "Pick a Commander precon…"; box.classList.add("hidden");
   }
 
   // ---------- upgrade: fancier (or cheaper) versions of the same cards, never different cards ----------
@@ -1836,12 +1905,9 @@
     return h + '<div class="d">' + SL_NOTE + " Checked " + esc(shortDate(D.checked)) + ".</div>";
   }
   function copyPrecon(i) {
-    const p = SETS.data.precons[i];
+    const p = precList()[i];
     if (state.deck && (state.deck.cards.length || state.deck.commanders.length) && !confirm("Replace the deck in Decks with " + p.n + "?")) return;
-    const cards = [];
-    for (const r of p.main || []) { const n = CARDS[r[1]].n, x = cards.find((y) => y.n === n); if (x) x.q += r[0]; else cards.push({ n, q: r[0] }); }
-    state.deck = { commanders: (p.cmd || []).map((r) => CARDS[r[1]].n), cards, prints: {} };
-    for (const r of (p.cmd || []).concat(p.main || [])) { const n = CARDS[r[1]].n; if (!state.deck.prints[n] && r[2] && r[3] != null) state.deck.prints[n] = { p: String(r[2]).toLowerCase() + "/" + r[3] }; }
+    state.deck = preDeck(p);
     state.importNote = "Copied from the " + p.n + " precon (" + p.sn + ").";
     saveDeck(); leaveSheets(); showTab("decks");
   }
