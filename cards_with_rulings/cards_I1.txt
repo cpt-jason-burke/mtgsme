@@ -12,6 +12,19 @@ Cost: {3} | Type: Legendary Artifact — Spacecraft | Color identity: colorless 
 Text: Klingons and Warriors you control have vigilance.
   Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 10+.)
   10+ | Flying, vigilance
+Ruling (2026-10-07): A station card is a card with the station keyword ability. The station keyword means "Tap another untapped creature you control: Put a number of charge counters on this permanent equal to the tapped creature's power. Activate only as a sorcery."
+Ruling (2026-10-07): Each station card has one or more striations in its text box. Each striation is preceded by a station symbol—a circle surrounding a number and a plus sign.
+Ruling (2026-10-07): Each station symbol represents an ability. A station symbol means "As long as this permanent has N or more charge counters on it, it has [abilities]," where N is the number inside the symbol and [abilities] are all the abilities found inside the same striation as that symbol.
+Ruling (2026-10-07): Even if a permanent with station has equal or greater charge counters than the number in its last station symbol, you can still activate its station ability. Adding more charge counters won't give it additional abilities, but other effects or cards might make those extra counters relevant.
+Ruling (2026-10-07): If a permanent with station becomes a creature, it will be able to attack if it's been under your control continuously since the turn began. That is, it doesn't matter how long it's been a creature, just how long it's been on the battlefield.
+Ruling (2026-10-07): If a station card has a power and toughness box printed in one of the striations in its text box, it's not a creature unless it has the appropriate number of charge counters on it. That card also doesn't have that power and toughness in any zone other than the battlefield.
+Ruling (2026-10-07): If an effect causes a permanent with station to become a creature by some means other than having the appropriate number of charge counters on it, it won't use any power and toughness values printed in its text box. Instead, it will use whatever base power and toughness was set by the effect that made it a creature.
+Ruling (2026-10-07): If another permanent becomes a copy of a permanent represented by a station card, all of its printed abilities, including the ones represented by station symbols, are copied. Its current characteristics and the number of charge counters on it are not copied. The abilities (and in some cases, types, power, and toughness) are determined based on the number of charge counters on the copy.
+Ruling (2026-10-07): If that station symbol is in the same striation as a power and toughness box, it instead means "As long as this permanent has N or more charge counters on it, it has [abilities] and is a creature with base power and toughness [P/T] in addition to its other types."
+Ruling (2026-10-07): If the tapped creature has negative power, no charge counters are put onto or removed from the permanent with station.
+Ruling (2026-10-07): Spacecraft is an artifact type with no special meaning. It doesn't grant the artifact any intrinsic abilities. Other cards may care about which artifacts are Spacecraft.
+Ruling (2026-10-07): The abilities of a permanent with station are based on the number of charge counters it has. This means that if a permanent with station gets charge counters due to some other effect (such as proliferate) or loses charge counters somehow, its abilities change accordingly. The same is true for determining whether that permanent is a creature.
+Ruling (2026-10-07): Use the tapped creature's power as the station ability resolves to determine how many charge counters to put on the permanent with station. If that creature isn't on the battlefield at that time, use its power as it last existed on the battlefield.
 
 ## Ian Chesterton
 Cost: {2}{w} | Type: Legendary Creature — Human Scientist | Color identity: W | P/T: 2/3 | Commander: legal
@@ -1628,6 +1641,11 @@ Cost: {2}{w} | Type: Creature — Klingon Warrior | Color identity: W | P/T: 2/2
 Text: Squad {2} (As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.)
   Flying
   Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)
+Ruling (2026-10-07): If the spell is countered, the squad ability will not trigger, and no tokens will be created.
+Ruling (2026-10-07): If the spell resolves but the permanent with squad leaves the battlefield before its squad ability resolves, you'll still create the token copies.
+Ruling (2026-10-07): If, for some reason, the permanent doesn't have the squad ability when it's on the battlefield, the ability won't trigger, even if you've paid the squad cost one or more times.
+Ruling (2026-10-07): The tokens created by the squad ability aren't "cast," so any abilities that trigger when a spell is cast won't trigger for the copies.
+Ruling (2026-10-07): You may pay the squad cost any number of times. You will create a token that is a copy of that permanent for each time you paid the squad cost. If you paid the squad cost multiple times, the tokens will all enter the battlefield simultaneously.
 
 ## Imperial Lancer
 Cost: {w} | Type: Creature — Human Knight | Color identity: W | P/T: 1/1 | Commander: legal
@@ -1829,6 +1847,7 @@ Cost: {2}{b} | Type: Instant | Color identity: B | Commander: legal
 Text: Choose one —
   • Surgical Separation — Destroy target creature. Its controller creates two 1/1 red Officer creature tokens.
   • Remain Fused — You draw two cards and each player loses 2 life.
+Ruling (2026-10-07): If you choose the first mode and the target creature is an illegal target as Impossible Choice tries to resolve, it won't resolve and none of its effects will happen. No player will create any tokens.
 
 ## Impossible Inferno
 Cost: {4}{r} | Type: Instant | Color identity: R | Commander: legal
@@ -2495,6 +2514,7 @@ Ruling (2024-06-07): Unlike other Auras, an Aura with bestow isn't put into its 
 ## Indelicate Healer
 Cost: {2}{w} | Type: Creature — Klingon Warrior Doctor | Color identity: W | P/T: 3/3 | Commander: legal
 Text: Whenever this creature or another Klingon or Warrior you control enters, creatures you control gain lifelink until end of turn.
+Ruling (2026-10-07): Multiple instances of lifelink are redundant.
 
 ## Indentured Djinn
 Cost: {1}{u}{u} | Type: Creature — Djinn | Color identity: U | P/T: 4/4 | Commander: legal
@@ -3125,6 +3145,12 @@ Text: Enchant creature
 ## Infinite Diversity
 Cost: {7}{r}{r} | Type: Sorcery | Color identity: R | Commander: legal
 Text: Federation — Exile target instant or sorcery card from your graveyard. Copy that card X times, where X is the number of creature types among non-Borg creatures you control. You may cast the copies without paying their mana costs. Exile Infinite Diversity.
+Ruling (2026-10-07): Don't consider Borg creatures at all when counting creature types for federation abilities, even if they have additional creature types. However, a Borg having another creature type doesn't mean that type can't be counted, as long as a non-Borg also has it. For example, if you control a Borg Noble and a Human Noble, the number of creature types among non-Borg creatures you control is two (Human and Noble).
+Ruling (2026-10-07): If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+Ruling (2026-10-07): If you cast a spell "without paying its mana cost," you can't pay any alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, you must pay those.
+Ruling (2026-10-07): If you don't want to cast one or more of the copies, you can choose not to; the copies you don't cast cease to exist the next time state-based actions are performed.
+Ruling (2026-10-07): The value of X is calculated only once, as Infinite Diversity resolves.
+Ruling (2026-10-07): You cast the copies while Infinite Diversity is resolving and still on the stack. You can't wait to cast them later in the turn.
 
 ## Infinite Guideline Station
 Cost: {w}{u}{b}{r}{g} | Type: Legendary Artifact — Spacecraft | Color identity: BGRUW | P/T: 7/15 | Commander: legal
@@ -6830,6 +6856,7 @@ Ruling (2016-01-22): The exiled card returns to the battlefield immediately afte
 Cost: {2} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: {T}: Add {C}. Spend this mana only to cast an artifact spell or activate an ability of an artifact source.
   {2}, {T}: Draw a card, then discard a card.
+Ruling (2026-10-07): An "artifact source" is any object with the card type artifact. This means you could spend the mana to activate an ability of an artifact you control or an artifact card in your hand or graveyard, for example.
 
 ## Isperia the Inscrutable
 Cost: {1}{w}{w}{u}{u} | Type: Legendary Creature — Sphinx | Color identity: UW | P/T: 3/6 | Commander: legal

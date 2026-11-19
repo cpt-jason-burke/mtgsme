@@ -5,14 +5,23 @@ Text: This land enters tapped unless you control two or more other lands.
   • Target creature gets +1/+1 and gains vigilance until end of turn.
   • Surveil 1.
   {T}: Add {G}.
+Ruling (2026-10-07): If this land enters the battlefield at the same time as any number of other lands, those other lands are not counted when determining if this land enters tapped or untapped.
 
 ## Q, Stacking the Deck
 Cost: {2}{r}{r} | Type: Legendary Creature — Q | Color identity: R | P/T: 4/4 | Commander: legal
 Text: When Q enters, shuffle your library, then exile cards from the top of your library until you exile a nonland card. That nonland card gains "Exile a card from your hand: Create a copy of this card. You may cast the copy. Activate only during your turn and only if this card is exiled."
+Ruling (2026-10-07): If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+Ruling (2026-10-07): If you cast a spell "without paying its mana cost," you can't pay any alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, you must pay those.
+Ruling (2026-10-07): If you don't want to cast the copy, you can choose not to; the copy ceases to exist the next time state-based actions are performed.
+Ruling (2026-10-07): You cast the copy while the activated ability of the exiled card is resolving and still on the stack. You can't wait to cast it later in the turn.
 
 ## Q, Your Illustrious Host
 Cost: {w}{u}{b}{r}{g} | Type: Legendary Creature — Q | Color identity: BGRUW | P/T: 5/5 | Commander: legal
 Text: Tap three untapped Faeries you control: Exile cards from the top of your library until you exile a nonland card. You may cast that card without paying its mana cost.
+Ruling (2026-10-07): If a spell you cast has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+Ruling (2026-10-07): If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+Ruling (2026-10-07): If you choose to not cast the card, it remains in exile, along with any land cards you exiled due to Q's ability.
+Ruling (2026-10-07): You can tap any untapped Faeries you control to activate Q's last ability, including ones you haven't controlled continuously since the beginning of your most recent turn. If Q is somehow himself a Faerie, you could even tap Q this way.
 
 ## Qal Sisma Behemoth
 Cost: {2}{r} | Type: Creature — Ogre Warrior | Color identity: R | P/T: 5/5 | Commander: legal
@@ -110,11 +119,13 @@ Cost: — | Type: Land — Planet | Color identity: BR | Commander: legal
 Text: This land enters tapped.
   When this land enters, you gain 1 life.
   {T}: Add {B} or {R}.
+Ruling (2026-10-07): Planet is a land subtype with no special meaning. It doesn't grant the land any intrinsic abilities.
 
 ## Qo'noS Quartermaster
 Cost: {1}{r} | Type: Creature — Klingon Warrior | Color identity: R | P/T: 2/2 | Commander: legal
 Text: Menace
   Whenever this creature attacks, add one mana of any color. Until end of turn, you don't lose this mana as steps and phases end.
+Ruling (2026-10-07): Qo'noS Quartermaster's triggered ability isn't a mana ability. It uses the stack and can be responded to.
 
 ## Quag Feast
 Cost: {1}{b} | Type: Sorcery | Color identity: B | Commander: legal
@@ -308,11 +319,14 @@ Text: This land enters tapped unless you control two or more other lands.
   • This land deals 1 damage to each opponent.
   • Surveil 1.
   {T}: Add {R}.
+Ruling (2026-10-07): If this land enters the battlefield at the same time as any number of other lands, those other lands are not counted when determining if this land enters tapped or untapped.
 
 ## Quark, Humble Proprietor
 Cost: {2}{r} | Type: Legendary Creature — Ferengi Rogue | Color identity: R | P/T: 1/2 | Commander: legal
 Text: You can't sacrifice Treasure tokens.
   At the beginning of each upkeep, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
+Ruling (2026-10-07): If an effect instructs you to sacrifice an artifact and you control any artifacts that aren't Treasure tokens, you must sacrifice one of those other artifacts. You can't try to sacrifice a Treasure token, fail, and therefore ignore the effect.
+Ruling (2026-10-07): Quark's first ability stops you from sacrificing Treasure tokens for any reason. You can't sacrifice them to pay any cost that requires you to sacrifice an artifact or to pay the cost of their own abilities. If an effect instructs you to sacrifice a Treasure token, you can't and that token remains on the battlefield.
 
 ## Quarrel
 Cost: {1}{g} | Type: Instant | Color identity: G | Commander: legal
@@ -461,6 +475,19 @@ Cost: {4} | Type: Legendary Artifact — Spacecraft | Color identity: colorless 
 Text: {T}: Choose a color. Add one mana of that color for each charge counter on Queen's Diamond. Spend this mana only to cast your commander.
   Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 8+.)
   8+ | Flying, vigilance, haste
+Ruling (2026-10-07): A station card is a card with the station keyword ability. The station keyword means "Tap another untapped creature you control: Put a number of charge counters on this permanent equal to the tapped creature's power. Activate only as a sorcery."
+Ruling (2026-10-07): Each station card has one or more striations in its text box. Each striation is preceded by a station symbol—a circle surrounding a number and a plus sign.
+Ruling (2026-10-07): Each station symbol represents an ability. A station symbol means "As long as this permanent has N or more charge counters on it, it has [abilities]," where N is the number inside the symbol and [abilities] are all the abilities found inside the same striation as that symbol.
+Ruling (2026-10-07): Even if a permanent with station has equal or greater charge counters than the number in its last station symbol, you can still activate its station ability. Adding more charge counters won't give it additional abilities, but other effects or cards might make those extra counters relevant.
+Ruling (2026-10-07): If a permanent with station becomes a creature, it will be able to attack if it's been under your control continuously since the turn began. That is, it doesn't matter how long it's been a creature, just how long it's been on the battlefield.
+Ruling (2026-10-07): If a station card has a power and toughness box printed in one of the striations in its text box, it's not a creature unless it has the appropriate number of charge counters on it. That card also doesn't have that power and toughness in any zone other than the battlefield.
+Ruling (2026-10-07): If an effect causes a permanent with station to become a creature by some means other than having the appropriate number of charge counters on it, it won't use any power and toughness values printed in its text box. Instead, it will use whatever base power and toughness was set by the effect that made it a creature.
+Ruling (2026-10-07): If another permanent becomes a copy of a permanent represented by a station card, all of its printed abilities, including the ones represented by station symbols, are copied. Its current characteristics and the number of charge counters on it are not copied. The abilities (and in some cases, types, power, and toughness) are determined based on the number of charge counters on the copy.
+Ruling (2026-10-07): If that station symbol is in the same striation as a power and toughness box, it instead means "As long as this permanent has N or more charge counters on it, it has [abilities] and is a creature with base power and toughness [P/T] in addition to its other types."
+Ruling (2026-10-07): If the tapped creature has negative power, no charge counters are put onto or removed from the permanent with station.
+Ruling (2026-10-07): Spacecraft is an artifact type with no special meaning. It doesn't grant the artifact any intrinsic abilities. Other cards may care about which artifacts are Spacecraft.
+Ruling (2026-10-07): The abilities of a permanent with station are based on the number of charge counters it has. This means that if a permanent with station gets charge counters due to some other effect (such as proliferate) or loses charge counters somehow, its abilities change accordingly. The same is true for determining whether that permanent is a creature.
+Ruling (2026-10-07): Use the tapped creature's power as the station ability resolves to determine how many charge counters to put on the permanent with station. If that creature isn't on the battlefield at that time, use its power as it last existed on the battlefield.
 
 ## Quench
 Cost: {1}{u} | Type: Instant | Color identity: U | Commander: legal

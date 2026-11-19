@@ -1959,6 +1959,7 @@ Text: Destroy target tapped creature.
 ## Vengeance Mission
 Cost: {2}{b} | Type: Enchantment | Color identity: B | Commander: legal
 Text: Whenever a creature dies, put a quest counter on this enchantment. Target opponent loses 1 life. That player loses 2 life instead if there are seven or more quest counters on this enchantment.
+Ruling (2026-10-07): If Vengeance Mission isn't on the battlefield as its ability resolves, use the number of quest counters it had on it before it left the battlefield to determine whether or not the opponent loses 2 life, noting that you won't be able to put another quest counter on it for that time the ability resolves.
 
 ## Vengeant Earth
 Cost: {1}{g} | Type: Instant | Color identity: G | Commander: legal
@@ -6137,6 +6138,8 @@ Ruling (2011-01-01): Voodoo Doll's second ability causes it to be destroyed rega
 Cost: {3}{b} | Type: Legendary Creature — Klingon Spy | Color identity: B | P/T: 4/3 | Commander: legal
 Text: Menace
   ChoH'a' — You may have Voq enter as a copy of a creature card in a graveyard, except he's a Klingon Spy in addition to his other types and has menace.
+Ruling (2026-10-07): If the copied card has {X} in its mana cost, X is 0.
+Ruling (2026-10-07): Treat Voq as though he were the chosen card entering the battlefield, except he's also a Klingon Spy and has menace. Any "As [this creature] enters," "[This creature] enters with," and "When [this creature] enters" abilities of the chosen card will work.
 
 ## Voracious Bibliophile
 Cost: {3}{u} | Type: Creature — Dragon | Color identity: U | P/T: 3/3 | Commander: legal
@@ -6593,10 +6596,12 @@ Cost: — | Type: Land — Planet | Color identity: UW | Commander: legal
 Text: This land enters tapped.
   When this land enters, you gain 1 life.
   {T}: Add {W} or {U}.
+Ruling (2026-10-07): Planet is a land subtype with no special meaning. It doesn't grant the land any intrinsic abilities.
 
 ## Vulcan Mind-Meld
 Cost: {u} | Type: Sorcery | Color identity: U | Commander: legal
 Text: Target opponent looks at the top card of your library, then exiles it face down. You look at the top two cards of their library, then exile them face down. For each card exiled this way, the player who exiled it may play it for as long as it remains exiled. Mana of any type can be spent to cast spells this way.
+Ruling (2026-10-07): Players pay all costs and follow all timing rules for cards played this way. For example, if a card you exiled is a land card, you may play it only during your main phase while the stack is empty and only if you have an available land play remaining.
 
 ## Vulpikeet
 Cost: {3}{w} | Type: Creature — Fox Bird | Color identity: W | P/T: 2/3 | Commander: legal
@@ -6706,3 +6711,4 @@ Ruling (2005-10-01): This ability triggers only on cards, so it won't trigger wh
 ## Võx, Child of the Collective
 Cost: {4}{u} | Type: Legendary Artifact Creature — Borg | Color identity: U | P/T: 3/3 | Commander: legal
 Text: When Võx enters and at the beginning of your first main phase, the next artifact creature spell and the next Spacecraft spell you cast this turn have undaunted. (They cost {1} less to cast for each opponent.)
+Ruling (2026-10-07): To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.

@@ -2,6 +2,7 @@
 Cost: {1}{u}{r} | Type: Legendary Creature — Klingon Human Artificer | Color identity: RU | P/T: 2/2 | Commander: legal
 Text: Vigilance, trample
   {2}, {T}: Surveil 2, then you may reveal the top card of your library. Draw a card if it's an artifact card. If you don't draw a card this way, put two +1/+1 counters on B'Elanna Torres.
+Ruling (2026-10-07): B'Elanna Torres has received a minor update to her wording to clarify her function if you choose not to reveal the top card of your library but you're playing with the top card of your library revealed due to an effect such as the one Benjamin Sisko, Besieged creates. The updated wording appears above.
 
 ## Ba Sing Se
 Cost: — | Type: Land | Color identity: G | Commander: legal
@@ -314,6 +315,7 @@ Cost: — | Type: Land — Planet | Color identity: RW | Commander: legal
 Text: This land enters tapped.
   When this land enters, you gain 1 life.
   {T}: Add {R} or {W}.
+Ruling (2026-10-07): Planet is a land subtype with no special meaning. It doesn't grant the land any intrinsic abilities.
 
 ## Bake into a Pie
 Cost: {2}{b}{b} | Type: Instant | Color identity: B | Commander: legal
@@ -467,6 +469,8 @@ Cost: {2}{w} | Type: Enchantment — Saga | Color identity: W | Commander: legal
 Text: (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
   I — Destroy up to one other target artifact or enchantment.
   II, III — Exile up to one other target permanent you control. Return that card to the battlefield under its owner's control at the beginning of the next end step.
+Ruling (2026-10-07): Auras attached to the exiled permanent will be put into their owners' graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. Once the exiled permanent returns, it's considered a new object with no relation to the object that it was.
+Ruling (2026-10-07): If a token is exiled this way, it will cease to exist and won't return to the battlefield.
 
 ## Balancing Act
 Cost: {2}{w}{w} | Type: Sorcery | Color identity: W | Commander: legal
@@ -1700,6 +1704,11 @@ Cost: {2}{b} | Type: Legendary Creature — Human Villain | Color identity: B | 
 Text: Villain spells you cast cost {1} less to cast.
   Whenever another Villain you control enters, you may have it connive. Do this only once each turn. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)
 
+## Baron Vladimir Harkonnen
+Cost: {3}{u}{b}{r} | Type: Legendary Creature — Human Noble | Color identity: BRU | P/T: 3/5 | Commander: legal
+Text: Whenever an opponent sacrifices a nontoken creature, you draw a card.
+  {T}, Sacrifice another legendary creature: Target opponent sacrifices a nontoken creature of their choice and loses 3 life.
+
 ## Baron, Airship Kingdom
 Cost: — | Type: Land — Town | Color identity: RU | Commander: legal
 Text: This land enters tapped.
@@ -2602,6 +2611,7 @@ Ruling (2012-07-01): In tournaments, you must be able to shuffle your entire dec
 ## Battle of Wolf 359
 Cost: {3}{b}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: All nonartifact creatures get -X/-X until end of turn, where X is the number of artifact creatures you control.
+Ruling (2026-10-07): The value of X is calculated only once, as Battle of Wolf 359 resolves.
 
 ## Battle Plan
 Cost: {3}{r} | Type: Enchantment | Color identity: R | Commander: legal
@@ -4156,6 +4166,8 @@ Text: If a spell would deal damage to a permanent or player, it deals that much 
 Cost: {4}{g}{g} | Type: Legendary Creature — Human Officer | Color identity: G | P/T: 5/5 | Commander: legal
 Text: Play with the top card of your library revealed.
   You may play lands and cast creature spells from the top of your library.
+Ruling (2026-10-07): If the top card of your library changes while you're casting a spell, playing a land, or activating an ability, you don't reveal the new top card until you finish doing so. This means that if you cast the top card of your library, you can't look at the next one until you're done paying for that spell.
+Ruling (2026-10-07): You must pay all costs and follow the normal timing restrictions of the creature spells you cast from your library. The same is true for lands you play from the top of your library. Benjamin Sisko's ability doesn't allow you to play more than one land during each of your turns or play a land when you normally couldn't.
 
 ## Bennie Bracks, Zoologist
 Cost: {3}{w} | Type: Legendary Creature — Elf Druid | Color identity: W | P/T: 3/2 | Commander: legal
@@ -6264,6 +6276,10 @@ Cost: {3}{b} | Type: Creature — Jellyfish Leech | Color identity: B | P/T: 2/2
 Text: Flying
   When this creature enters, exile target creature card with mana value 3 or less from your graveyard. Create a token that's a copy of it. That token gains haste. Sacrifice it at the beginning of the next end step.
   Whenever one or more cards leave your graveyard, each opponent loses 1 life and you gain 1 life.
+Ruling (2026-10-07): If a creature card in a graveyard has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+Ruling (2026-10-07): If multiple cards leave your graveyard at the same time, Blastoneuron's last ability will trigger only once.
+Ruling (2026-10-07): If the card copied by the token had any "When [this creature] enters" abilities, the token also has those abilities and those abilities will trigger. Similarly, any "As [this creature] enters" or "[This creature] enters with" abilities that the token has copied will also work.
+Ruling (2026-10-07): The token created by Blastoneuron's second ability copies exactly what was printed on the original card and nothing else. It doesn't copy information about the object that card was before it was put into that graveyard or before it was exiled.
 
 ## Blatant Thievery
 Cost: {4}{u}{u}{u} | Type: Sorcery | Color identity: U | Commander: legal
@@ -7349,9 +7365,12 @@ Ruling (2005-06-01): The choice of which permanent to return or whether to pay l
 Cost: — | Type: Land — Swamp Mountain | Color identity: BR | Commander: legal
 Text: ({T}: Add {B} or {R}.)
   As this land enters, you may pay 2 life. If you don't, it enters tapped.
+Ruling (2018-10-05): If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
 Ruling (2018-10-05): Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
 Ruling (2025-11-17): If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
 Ruling (2025-11-17): This land has two basic land types. It's not basic, so cards such as Tend the Sprigs can't find it, but it does have the appropriate land types for effects such as that of Kishla Village (from the Tarkir: Dragonstorm release).
+Ruling (2026-10-07): If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
+Ruling (2026-10-07): This land has two basic land types. It's not basic, so cards such as Final Frontier can't find it, but it does have the appropriate land types for effects such as that of Kishla Village (from the Tarkir: Dragonstorm release).
 
 ## Blood Cultist
 Cost: {1}{b}{r} | Type: Creature — Human Wizard | Color identity: BR | P/T: 1/1 | Commander: legal
@@ -7642,6 +7661,9 @@ Cost: {1}{b} | Type: Creature — Klingon Warrior | Color identity: B | P/T: 2/2
 Text: Kicker {2} (You may pay an additional {2} as you cast this spell.)
   Deathtouch
   When this creature enters, if it was kicked, other creatures you control gain deathtouch until end of turn.
+Ruling (2026-10-07): If a spell's kicker cost was paid, the spell is "kicked."
+Ruling (2026-10-07): If you copy a kicked spell on the stack, the copy is also kicked.
+Ruling (2026-10-07): The kicker ability doesn't let you pay a kicker cost more than once.
 
 ## Blood-Toll Harpy
 Cost: {2}{b} | Type: Creature — Harpy | Color identity: B | P/T: 2/1 | Commander: legal
@@ -8744,6 +8766,12 @@ Ruling (2021-11-19): Boarded Window's triggered ability checks the total amount 
 Cost: {1}{r} | Type: Sorcery | Color identity: R | Commander: legal
 Text: Create a 2/1 red Klingon Warrior creature token with haste.
   Beam me up {2}{R} (You may cast this card from your graveyard for {2}{R} if you also return a creature you control to its owner's hand. Then exile this spell.)
+Ruling (2026-10-07): "Beam me up [cost]" means "You may cast this card from your graveyard by paying [cost] and returning a creature you control to its owner's hand rather than paying its mana cost" and "If the beam me up cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+Ruling (2026-10-07): A spell cast using beam me up will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+Ruling (2026-10-07): If a card with beam me up is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+Ruling (2026-10-07): To determine the total cost of a spell, start with the mana cost or alternative cost (such as a beam me up cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+Ruling (2026-10-07): You can cast a spell using beam me up even if it was somehow put into your graveyard without having been cast.
+Ruling (2026-10-07): You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using beam me up only when you could normally cast a sorcery.
 
 ## Boarding Party
 Cost: {5}{r} | Type: Creature — Human Pirate | Color identity: R | P/T: 6/3 | Commander: legal
@@ -10168,6 +10196,22 @@ Text: Affinity for artifact creatures
   Whenever this Spacecraft enters or attacks, assimilate a creature card exiled with it. If you can't, exile up to one target creature. (To assimilate a card, put it onto the battlefield under your control with a +1/+1 counter. It's a Borg artifact creature and loses all other creature types.)
   Station
   12+ | Artifact creatures you control have flying.
+Ruling (2026-10-07): A station card is a card with the station keyword ability. The station keyword means "Tap another untapped creature you control: Put a number of charge counters on this permanent equal to the tapped creature's power. Activate only as a sorcery."
+Ruling (2026-10-07): Affinity for artifact creatures means "This spell costs {1} less to cast for each artifact creature you control."
+Ruling (2026-10-07): Each station card has one or more striations in its text box. Each striation is preceded by a station symbol—a circle surrounding a number and a plus sign.
+Ruling (2026-10-07): Each station symbol represents an ability. A station symbol means "As long as this permanent has N or more charge counters on it, it has [abilities]," where N is the number inside the symbol and [abilities] are all the abilities found inside the same striation as that symbol.
+Ruling (2026-10-07): Even if a permanent with station has equal or greater charge counters than the number in its last station symbol, you can still activate its station ability. Adding more charge counters won't give it additional abilities, but other effects or cards might make those extra counters relevant.
+Ruling (2026-10-07): If a permanent with station becomes a creature, it will be able to attack if it's been under your control continuously since the turn began. That is, it doesn't matter how long it's been a creature, just how long it's been on the battlefield.
+Ruling (2026-10-07): If a station card has a power and toughness box printed in one of the striations in its text box, it's not a creature unless it has the appropriate number of charge counters on it. That card also doesn't have that power and toughness in any zone other than the battlefield.
+Ruling (2026-10-07): If an effect causes a permanent with station to become a creature by some means other than having the appropriate number of charge counters on it, it won't use any power and toughness values printed in its text box. Instead, it will use whatever base power and toughness was set by the effect that made it a creature.
+Ruling (2026-10-07): If another permanent becomes a copy of a permanent represented by a station card, all of its printed abilities, including the ones represented by station symbols, are copied. Its current characteristics and the number of charge counters on it are not copied. The abilities (and in some cases, types, power, and toughness) are determined based on the number of charge counters on the copy.
+Ruling (2026-10-07): If that station symbol is in the same striation as a power and toughness box, it instead means "As long as this permanent has N or more charge counters on it, it has [abilities] and is a creature with base power and toughness [P/T] in addition to its other types."
+Ruling (2026-10-07): If the tapped creature has negative power, no charge counters are put onto or removed from the permanent with station.
+Ruling (2026-10-07): Spacecraft is an artifact type with no special meaning. It doesn't grant the artifact any intrinsic abilities. Other cards may care about which artifacts are Spacecraft.
+Ruling (2026-10-07): The abilities of a permanent with station are based on the number of charge counters it has. This means that if a permanent with station gets charge counters due to some other effect (such as proliferate) or loses charge counters somehow, its abilities change accordingly. The same is true for determining whether that permanent is a creature.
+Ruling (2026-10-07): The assimilated creature or creature card loses any other creature types it has, but it keeps any other supertypes, types, and subtypes it has. For example, if a Dryad Arbor (a Land Creature – Forest Dryad) is assimilated, it will be an Artifact Land Creature – Forest Borg.
+Ruling (2026-10-07): To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+Ruling (2026-10-07): Use the tapped creature's power as the station ability resolves to determine how many charge counters to put on the permanent with station. If that creature isn't on the battlefield at that time, use its power as it last existed on the battlefield.
 
 ## Borg Incursion
 Cost: {2}{w} | Type: Instant | Color identity: W | Commander: legal
@@ -10177,12 +10221,26 @@ Text: Create two 1/1 colorless Borg artifact creature tokens, then artifact crea
 Cost: {4}{b}{b} | Type: Legendary Artifact Creature — Borg Noble | Color identity: B | P/T: 1/4 | Commander: legal
 Text: Artifact creatures you control get +2/+0.
   When Borg Queen enters, assimilate target creature card from an opponent's graveyard. (Put it onto the battlefield under your control with a +1/+1 counter. It's a Borg artifact creature and loses all other creature types.)
+Ruling (2026-10-07): The assimilated creature or creature card loses any other creature types it has, but it keeps any other supertypes, types, and subtypes it has. For example, if a Dryad Arbor (a Land Creature – Forest Dryad) is assimilated, it will be an Artifact Land Creature – Forest Borg.
 
 ## Borg Scout Sphere
 Cost: {2}{u} | Type: Artifact — Spacecraft | Color identity: U | P/T: 5/5 | Commander: legal
 Text: When this Spacecraft enters, draw a card.
   Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 6+.)
   6+ | Artifact creatures you control have flying.
+Ruling (2026-10-07): A station card is a card with the station keyword ability. The station keyword means "Tap another untapped creature you control: Put a number of charge counters on this permanent equal to the tapped creature's power. Activate only as a sorcery."
+Ruling (2026-10-07): Each station card has one or more striations in its text box. Each striation is preceded by a station symbol—a circle surrounding a number and a plus sign.
+Ruling (2026-10-07): Each station symbol represents an ability. A station symbol means "As long as this permanent has N or more charge counters on it, it has [abilities]," where N is the number inside the symbol and [abilities] are all the abilities found inside the same striation as that symbol.
+Ruling (2026-10-07): Even if a permanent with station has equal or greater charge counters than the number in its last station symbol, you can still activate its station ability. Adding more charge counters won't give it additional abilities, but other effects or cards might make those extra counters relevant.
+Ruling (2026-10-07): If a permanent with station becomes a creature, it will be able to attack if it's been under your control continuously since the turn began. That is, it doesn't matter how long it's been a creature, just how long it's been on the battlefield.
+Ruling (2026-10-07): If a station card has a power and toughness box printed in one of the striations in its text box, it's not a creature unless it has the appropriate number of charge counters on it. That card also doesn't have that power and toughness in any zone other than the battlefield.
+Ruling (2026-10-07): If an effect causes a permanent with station to become a creature by some means other than having the appropriate number of charge counters on it, it won't use any power and toughness values printed in its text box. Instead, it will use whatever base power and toughness was set by the effect that made it a creature.
+Ruling (2026-10-07): If another permanent becomes a copy of a permanent represented by a station card, all of its printed abilities, including the ones represented by station symbols, are copied. Its current characteristics and the number of charge counters on it are not copied. The abilities (and in some cases, types, power, and toughness) are determined based on the number of charge counters on the copy.
+Ruling (2026-10-07): If that station symbol is in the same striation as a power and toughness box, it instead means "As long as this permanent has N or more charge counters on it, it has [abilities] and is a creature with base power and toughness [P/T] in addition to its other types."
+Ruling (2026-10-07): If the tapped creature has negative power, no charge counters are put onto or removed from the permanent with station.
+Ruling (2026-10-07): Spacecraft is an artifact type with no special meaning. It doesn't grant the artifact any intrinsic abilities. Other cards may care about which artifacts are Spacecraft.
+Ruling (2026-10-07): The abilities of a permanent with station are based on the number of charge counters it has. This means that if a permanent with station gets charge counters due to some other effect (such as proliferate) or loses charge counters somehow, its abilities change accordingly. The same is true for determining whether that permanent is a creature.
+Ruling (2026-10-07): Use the tapped creature's power as the station ability resolves to determine how many charge counters to put on the permanent with station. If that creature isn't on the battlefield at that time, use its power as it last existed on the battlefield.
 
 ## Boris Devilboon
 Cost: {3}{b}{r} | Type: Legendary Creature — Zombie Wizard | Color identity: BR | P/T: 2/2 | Commander: legal
@@ -10863,6 +10921,9 @@ Text: When this creature attacks or blocks, sacrifice it at the beginning of the
 Cost: {1}{w} | Type: Legendary Creature — Human Officer | Color identity: W | P/T: 2/2 | Commander: legal
 Text: Lifelink
   Whenever Brad Boimler becomes tapped, until end of turn, if one or more counters would be put on a permanent you control, that many plus one of each of those kinds of counters are put on that permanent instead.
+Ruling (2026-10-07): If Brad Boimler's last ability has resolved twice this turn, the number of counters put on a permanent you control is increased by two. If it has resolved three times, the number is increased by three, and so on.
+Ruling (2026-10-07): If a permanent you control would enter with a number of counters on it on a turn where Brad Boimler's last ability has resolved, it enters with that many counters plus one of each of those kinds of counters instead.
+Ruling (2026-10-07): If two or more effects attempt to modify how many counters would be put onto a permanent you control, you choose the order to apply those effects, no matter who controls the sources of those effects.
 
 ## Brago's Representative
 Cost: {2}{w} | Type: Creature — Human Advisor | Color identity: W | P/T: 1/4 | Commander: legal
@@ -11264,6 +11325,8 @@ Ruling (2020-06-23): If you control two Branching Evolutions, the number of +1/+
 ## Branching Timeline
 Cost: {6}{g}{g} | Type: Sorcery | Color identity: G | Commander: legal
 Text: Strange new worlds — Reveal the top X cards of your library, where X is the number of differently named lands you control. Put all permanent cards revealed this way onto the battlefield tapped and the rest on the bottom of your library in a random order.
+Ruling (2026-10-07): The value of X is calculated only once, as Branching Timeline resolves.
+Ruling (2026-10-07): To determine the number of differently named lands you control, count each land you control once, but only if its English name isn't exactly the same as another land you've already counted this way.
 
 ## Branchloft Pathway
 Cost: — | Type: Land | Color identity: GW | Commander: legal
@@ -11504,6 +11567,10 @@ Ruling (2023-11-10): If you controlled at least two artifacts when you declared 
 ## Brazen Bluff
 Cost: {r}{r} | Type: Instant | Color identity: R | Commander: legal
 Text: Choose target noncreature spell an opponent controls. That player may exile it. If they don't, you may cast a noncreature spell from your hand without paying its mana cost.
+Ruling (2026-10-07): If the opponent chooses not to exile the spell they control, the noncreature spell you cast from your hand is cast while Brazen Bluff is resolving and still on the stack. You can't wait to cast it later in the turn. Timing restrictions based on the card's type are ignored.
+Ruling (2026-10-07): If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+Ruling (2026-10-07): If the target spell is an illegal target as Brazen Bluff tries to resolve, it won't resolve and none of its effects will happen. You won't get to cast a spell from your hand.
+Ruling (2026-10-07): If you cast a spell "without paying its mana cost," you can't pay any alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, you must pay those.
 
 ## Brazen Borrower
 Cost: {1}{u}{u} | Type: Creature — Faerie Rogue | Color identity: U | P/T: 3/1 | Commander: legal
@@ -11891,6 +11958,8 @@ Text: ({T}: Add {G} or {U}.)
   As this land enters, you may pay 2 life. If you don't, it enters tapped.
 Ruling (2018-10-05): If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
 Ruling (2018-10-05): Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
+Ruling (2026-10-07): If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
+Ruling (2026-10-07): This land has two basic land types. It's not basic, so cards such as Final Frontier can't find it, but it does have the appropriate land types for effects such as that of Kishla Village (from the Tarkir: Dragonstorm release).
 
 ## Breena, the Demagogue
 Cost: {1}{w}{b} | Type: Legendary Creature — Bird Warlock | Color identity: BW | P/T: 1/3 | Commander: legal

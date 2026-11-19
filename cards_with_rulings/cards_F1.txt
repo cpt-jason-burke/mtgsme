@@ -2510,6 +2510,7 @@ Text: This land enters tapped unless you control two or more other lands.
   • You gain 2 life.
   • Surveil 1.
   {T}: Add {W}.
+Ruling (2026-10-07): If this land enters the battlefield at the same time as any number of other lands, those other lands are not counted when determining if this land enters tapped or untapped.
 
 ## Federation Probe
 Cost: {u} | Type: Artifact Creature — Construct | Color identity: U | P/T: 1/1 | Commander: legal
@@ -2522,6 +2523,12 @@ Text: Flying
 Cost: {1}{w} | Type: Sorcery | Color identity: W | Commander: legal
 Text: Search your library for an Aura, Equipment, or Spacecraft card, reveal it, put it into your hand, then shuffle.
   Beam me up {3}{W} (You may cast this card from your graveyard for {3}{W} if you also return a creature you control to its owner's hand. Then exile this spell.)
+Ruling (2026-10-07): "Beam me up [cost]" means "You may cast this card from your graveyard by paying [cost] and returning a creature you control to its owner's hand rather than paying its mana cost" and "If the beam me up cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+Ruling (2026-10-07): A spell cast using beam me up will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+Ruling (2026-10-07): If a card with beam me up is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+Ruling (2026-10-07): To determine the total cost of a spell, start with the mana cost or alternative cost (such as a beam me up cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+Ruling (2026-10-07): You can cast a spell using beam me up even if it was somehow put into your graveyard without having been cast.
+Ruling (2026-10-07): You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using beam me up only when you could normally cast a sorcery.
 
 ## Feebleness
 Cost: {1}{b} | Type: Enchantment — Aura | Color identity: B | Commander: legal
@@ -3138,6 +3145,7 @@ Cost: — | Type: Land — Planet | Color identity: BG | Commander: legal
 Text: This land enters tapped.
   When this land enters, you gain 1 life.
   {T}: Add {B} or {G}.
+Ruling (2026-10-07): Planet is a land subtype with no special meaning. It doesn't grant the land any intrinsic abilities.
 
 ## Ferocification
 Cost: {2}{r} | Type: Enchantment | Color identity: R | Commander: legal
@@ -3153,6 +3161,10 @@ Text: Target creature gets +4/+4 until end of turn. Scry 2. (Look at the top two
 Cost: {1}{r} | Type: Creature — Klingon Citizen | Color identity: R | P/T: 0/1 | Commander: legal
 Text: Double strike
   Melee (Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat.)
+Ruling (2026-10-07): Creatures that enter the battlefield attacking were never declared as attackers, so they won't count toward melee's effect. Similarly, if a creature with melee enters the battlefield attacking, melee won't trigger.
+Ruling (2026-10-07): It doesn't matter how many creatures you attacked a player with, only that you attacked a player with at least one creature. For example, if you attack one player with Ferocious Colonist and another player with five creatures, Ferocious Colonist will get +2/+2 until end of turn.
+Ruling (2026-10-07): Melee will trigger if the creature with melee attacks a planeswalker or battle. However, the effect counts only opponents (and not planeswalkers or battles) that you attacked with a creature when determining the bonus.
+Ruling (2026-10-07): You determine the size of the bonus as the melee ability resolves. Count each opponent that you attacked with one or more creatures. It doesn't matter if the attacking creatures are still attacking or even if they are still on the battlefield. It also doesn't matter if the opponent you attacked is still in the game.
 
 ## Ferocious Pup
 Cost: {2}{g} | Type: Creature — Wolf | Color identity: G | P/T: 0/1 | Commander: legal
@@ -4198,6 +4210,12 @@ Ruling (2022-12-08): If multiple "extra turn" effects resolve in the same turn, 
 Cost: {2}{g} | Type: Sorcery | Color identity: G | Commander: legal
 Text: Search your library for a basic land card or Planet card, put it onto the battlefield tapped, then shuffle.
   Beam me up {1}{G} (You may cast this card from your graveyard for {1}{G} if you also return a creature you control to its owner's hand. Then exile this spell.)
+Ruling (2026-10-07): "Beam me up [cost]" means "You may cast this card from your graveyard by paying [cost] and returning a creature you control to its owner's hand rather than paying its mana cost" and "If the beam me up cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+Ruling (2026-10-07): A spell cast using beam me up will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+Ruling (2026-10-07): If a card with beam me up is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+Ruling (2026-10-07): To determine the total cost of a spell, start with the mana cost or alternative cost (such as a beam me up cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+Ruling (2026-10-07): You can cast a spell using beam me up even if it was somehow put into your graveyard without having been cast.
+Ruling (2026-10-07): You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using beam me up only when you could normally cast a sorcery.
 
 ## Final Iteration
 Cost: — | Type: Creature — Eldrazi Insect | Color identity: U | P/T: 6/5 | Commander: legal
@@ -6248,6 +6266,7 @@ Ruling (2013-09-15): Once a creature becomes monstrous, it can't become monstrou
 Cost: {2}{u} | Type: Legendary Creature — Human Officer | Color identity: U | P/T: 0/6 | Commander: legal
 Text: Yes — {1}, {T}: Untap two other target creatures.
   No — {2}, {T}: Tap two other target creatures.
+Ruling (2026-10-07): Although you must choose two target creatures for either ability, those targets can be tapped or untapped.
 
 ## Fleet Swallower
 Cost: {5}{u}{u} | Type: Creature — Fish | Color identity: U | P/T: 6/6 | Commander: legal

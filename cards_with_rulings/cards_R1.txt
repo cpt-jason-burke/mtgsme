@@ -2901,6 +2901,7 @@ Text: When this creature enters, destroy target creature an opponent controls.
 Cost: {5}{r} | Type: Creature — Fish | Color identity: R | P/T: 3/3 | Commander: legal
 Text: This spell costs {1} less to cast for each noncreature, nonland card in your graveyard.
   Flying, haste
+Ruling (2026-10-07): To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
 
 ## Ravenous Daggertooth
 Cost: {2}{g} | Type: Creature — Dinosaur | Color identity: G | P/T: 3/2 | Commander: legal
@@ -4165,6 +4166,7 @@ Ruling (2015-02-25): You don't have to attack with the creature with dash unless
 Cost: {1}{r} | Type: Sorcery | Color identity: R | Commander: legal
 Text: Exile the top two cards of your library. Until the end of your next turn, you may play those cards.
 Ruling (2021-11-19): You must still pay all costs to cast those spells and follow normal casting permissions. For example, if one of the exiled cards is a sorcery, this effect doesn't allow you to cast it during an opponent's turn.
+Ruling (2026-10-07): You pay all costs and follow all timing rules for cards played this way. For example, if one of the exiled cards is a land card, you may play it only during your main phase while the stack is empty and only if you have an available land play remaining.
 
 ## Reckless Lackey
 Cost: {r} | Type: Creature — Goblin Pirate | Color identity: R | P/T: 1/2 | Commander: legal
@@ -4494,6 +4496,8 @@ Ruling (2018-07-13): To play a card means to play a land or to cast a spell that
 Cost: {2}{r} | Type: Instant | Color identity: R | Commander: legal
 Text: This spell costs {2} less to cast if a creature is attacking you.
   Creatures you control get +2/+0 until end of turn.
+Ruling (2026-10-07): The cost reduction ability of Red Alert! doesn't apply if creatures are attacking only planeswalkers you control and/or battles you're protecting.
+Ruling (2026-10-07): To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
 
 ## Red Cliffs Armada
 Cost: {4}{u} | Type: Creature — Human Soldier | Color identity: U | P/T: 5/4 | Commander: legal
@@ -6297,6 +6301,9 @@ Ruling (2021-04-16): You choose whether to make a copy as the demonstrate abilit
 Cost: {2} | Type: Artifact | Color identity: colorless | Commander: legal
 Text: When this artifact enters, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.")
   {2}, {T}: Create a tapped token that's a copy of target token you control.
+Ruling (2026-10-07): If the original token is copying something else, then the new token enters as whatever that token copied. If it's copying something with {X} in its mana cost, X is 0.
+Ruling (2026-10-07): If the target token had any "When [this token] enters" abilities, the new token also has those abilities, and they'll trigger when it's created. Similarly, any "As [this token] enters" or "[This token] enters with" abilities that the token has copied will also work.
+Ruling (2026-10-07): The token copies the original characteristics of the target token as stated by the effect that created it (unless that token is copying something else; see below). It doesn't copy whether that token is tapped or untapped, whether it has any counters on it, or any Auras or Equipment attached to it, or any non-copy effects that have changed its types, color, power and toughness, and so on. Notably, the token you create won't be attacking, even if the original token is.
 
 ## Repopulate
 Cost: {1}{g} | Type: Instant | Color identity: G | Commander: legal
@@ -6669,6 +6676,7 @@ Cost: {1}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Choose one —
   • Destroy target nonartifact creature.
   • Return target artifact creature card with mana value 3 or less from your graveyard to the battlefield.
+Ruling (2026-10-07): If an artifact creature card in a graveyard has {X} in its cost, X is 0 for the purpose of determining its mana value.
 
 ## Resistance Reunited
 Cost: {1}{w} | Type: Instant | Color identity: W | Commander: legal
@@ -7793,6 +7801,11 @@ Cost: {2}{w}{w} | Type: Enchantment | Color identity: W | Commander: legal
 Text: Creatures with power 2 or less can't attack you.
 Ruling (2014-02-01): Unless some effect explicitly says otherwise, a creature that can't attack you can still attack a planeswalker you control.
 
+## Reverend Mother Jessica
+Cost: {2}{u} | Type: Legendary Creature — Human Noble Advisor | Color identity: U | P/T: 2/2 | Commander: legal
+Text: Prowess, prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn twice.)
+  Whenever Reverend Mother Jessica attacks, for each opponent, tap up to one target creature that player controls with lesser power and goad it. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)
+
 ## Reverent Hoplite
 Cost: {4}{w} | Type: Creature — Human Soldier | Color identity: W | P/T: 1/2 | Commander: legal
 Text: When this creature enters, create a number of 1/1 white Human Soldier creature tokens equal to your devotion to white. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)
@@ -8764,6 +8777,8 @@ Ruling (2024-11-08): Raid abilities evaluate the entire turn to see if you attac
 ## Right of Vengeance
 Cost: {3}{w} | Type: Instant | Color identity: W | Commander: legal
 Text: Until end of turn, whenever a creature deals combat damage to you, destroy that creature and create a 2/1 red Klingon Warrior creature token with haste.
+Ruling (2026-10-07): The Klingon Warrior creature token is created even if the creature isn't destroyed (probably because it has indestructible).
+Ruling (2026-10-07): The controller of Right of Vengeance's delayed triggered ability creates the Klingon Warrior creature token. This is usually a different player than the controller of the creature that dealt combat damage.
 
 ## Righteous Aura
 Cost: {1}{w} | Type: Enchantment | Color identity: W | Commander: legal
@@ -9392,6 +9407,7 @@ Cost: — | Type: Land — Planet | Color identity: GW | Commander: legal
 Text: This land enters tapped.
   When this land enters, you gain 1 life.
   {T}: Add {G} or {W}.
+Ruling (2026-10-07): Planet is a land subtype with no special meaning. It doesn't grant the land any intrinsic abilities.
 
 ## Rise
 Cost: {u}{b} | Type: Sorcery | Color identity: BRU | Commander: legal
@@ -9685,6 +9701,8 @@ Ruling (2022-02-18): Removing the indestructible counter from Risona may cause i
 ## Rite of Ascension
 Cost: {2}{r}{w} | Type: Enchantment | Color identity: RW | Commander: legal
 Text: Battlefront — Whenever you attack, for each opponent you attacked this turn, create a tapped and attacking 2/1 red Klingon Warrior creature token with haste.
+Ruling (2026-10-07): Battlefront abilities won't count an opponent if you attacked only planeswalkers that player controlled and/or battles that player protected and not the player themself.
+Ruling (2026-10-07): Opponents you attacked this turn that left the game later in the turn are still counted by battlefront abilities. For example, if you attack three opponents and one of them loses the game as a result, then you cast Own the Day during your second main phase, it will cost {3} less to cast.
 
 ## Rite of Belzenlok
 Cost: {2}{b}{b} | Type: Enchantment — Saga | Color identity: B | Commander: legal
@@ -11186,12 +11204,27 @@ Text: Cloaking Device — As long as this Spacecraft isn't a creature, it has he
   Whenever you cast a noncreature spell, if this Spacecraft isn't a creature, put two charge counters on it.
   Station
   8+ | Flying
+Ruling (2026-10-07): A station card is a card with the station keyword ability. The station keyword means "Tap another untapped creature you control: Put a number of charge counters on this permanent equal to the tapped creature's power. Activate only as a sorcery."
+Ruling (2026-10-07): Each station card has one or more striations in its text box. Each striation is preceded by a station symbol—a circle surrounding a number and a plus sign.
+Ruling (2026-10-07): Each station symbol represents an ability. A station symbol means "As long as this permanent has N or more charge counters on it, it has [abilities]," where N is the number inside the symbol and [abilities] are all the abilities found inside the same striation as that symbol.
+Ruling (2026-10-07): Even if a permanent with station has equal or greater charge counters than the number in its last station symbol, you can still activate its station ability. Adding more charge counters won't give it additional abilities, but other effects or cards might make those extra counters relevant.
+Ruling (2026-10-07): If a permanent with station becomes a creature, it will be able to attack if it's been under your control continuously since the turn began. That is, it doesn't matter how long it's been a creature, just how long it's been on the battlefield.
+Ruling (2026-10-07): If a station card has a power and toughness box printed in one of the striations in its text box, it's not a creature unless it has the appropriate number of charge counters on it. That card also doesn't have that power and toughness in any zone other than the battlefield.
+Ruling (2026-10-07): If an effect causes a permanent with station to become a creature by some means other than having the appropriate number of charge counters on it, it won't use any power and toughness values printed in its text box. Instead, it will use whatever base power and toughness was set by the effect that made it a creature.
+Ruling (2026-10-07): If another permanent becomes a copy of a permanent represented by a station card, all of its printed abilities, including the ones represented by station symbols, are copied. Its current characteristics and the number of charge counters on it are not copied. The abilities (and in some cases, types, power, and toughness) are determined based on the number of charge counters on the copy.
+Ruling (2026-10-07): If that station symbol is in the same striation as a power and toughness box, it instead means "As long as this permanent has N or more charge counters on it, it has [abilities] and is a creature with base power and toughness [P/T] in addition to its other types."
+Ruling (2026-10-07): If the tapped creature has negative power, no charge counters are put onto or removed from the permanent with station.
+Ruling (2026-10-07): Romulan Bird-of-Prey's second ability will check whenever you cast a noncreature spell to see if Romulan Bird-of-Prey is a creature. If it is, the ability won't trigger at all. If it does trigger, the ability will check again as it resolves. If Romulan Bird-of-Prey is a creature at that time, the ability won't resolve and its effect won't happen.
+Ruling (2026-10-07): Spacecraft is an artifact type with no special meaning. It doesn't grant the artifact any intrinsic abilities. Other cards may care about which artifacts are Spacecraft.
+Ruling (2026-10-07): The abilities of a permanent with station are based on the number of charge counters it has. This means that if a permanent with station gets charge counters due to some other effect (such as proliferate) or loses charge counters somehow, its abilities change accordingly. The same is true for determining whether that permanent is a creature.
+Ruling (2026-10-07): Use the tapped creature's power as the station ability resolves to determine how many charge counters to put on the permanent with station. If that creature isn't on the battlefield at that time, use its power as it last existed on the battlefield.
 
 ## Romulus
 Cost: — | Type: Land — Planet | Color identity: BU | Commander: legal
 Text: This land enters tapped.
   When this land enters, you gain 1 life.
   {T}: Add {U} or {B}.
+Ruling (2026-10-07): Planet is a land subtype with no special meaning. It doesn't grant the land any intrinsic abilities.
 
 ## Rona's Vortex
 Cost: {u} | Type: Instant | Color identity: BU | Commander: legal
@@ -12588,6 +12621,8 @@ Cost: {3}{u}{u} | Type: Sorcery | Color identity: U | Commander: legal
 Text: Choose one —
   • Follow the 3rd Rule — Gain control of target nonland permanent an opponent controls. That opponent draws three cards.
   • Follow the 98th Rule — Target opponent gains control of target nonland permanent you control. If they do, you draw three cards.
+Ruling (2026-10-07): If the first mode is chosen and the target permanent is an illegal target as Rules of Acquisition tries to resolve, it won't resolve and none of its effects will happen. No player will draw cards.
+Ruling (2026-10-07): If the second mode is chosen and one of the targets is an illegal target as Rules of Acquisition tries to resolve, the opponent won't gain control of the permanent. If both targets are illegal, the spell won't resolve and none of its effects will happen. In either case, you won't draw cards.
 
 ## Rulik Mons, Warren Chief
 Cost: {1}{r}{g}{g} | Type: Legendary Creature — Goblin | Color identity: GR | P/T: 3/3 | Commander: legal
@@ -13382,6 +13417,7 @@ Text: Flying
 Cost: {2}{w} | Type: Legendary Creature — Human Artificer | Color identity: W | P/T: 2/2 | Commander: legal
 Text: When Rutherford enters, look at the top six cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
   Whenever you cast a Spacecraft spell, put a +1/+1 counter on target creature.
+Ruling (2026-10-07): Rutherford's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
 
 ## Ruthless Cullblade
 Cost: {1}{b} | Type: Creature — Vampire Warrior | Color identity: B | P/T: 2/1 | Commander: legal

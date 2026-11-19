@@ -91,6 +91,12 @@ Cost: {3}{u} | Type: Legendary Creature — Vedalken Artificer | Color identity:
 Text: Artifacts you control have hexproof. (They can't be the targets of spells or abilities your opponents control.)
   At the beginning of your upkeep, if you control the artifact with the greatest mana value or tied for the greatest mana value, draw a card.
 
+## Padishah Emperor Shaddam IV
+Cost: {5}{b}{b} | Type: Legendary Creature — Human Noble | Color identity: B | P/T: 2/4 | Commander: legal
+Text: When Padishah Emperor Shaddam IV enters, you become the monarch.
+  Whenever another nontoken creature dies while you're the monarch, you may pay 1 life. If you do, create a Treasure token.
+  At the beginning of your end step, destroy target creature with the greatest power among creatures your opponents control.
+
 ## Page, Loose Leaf
 Cost: {2} | Type: Legendary Artifact Creature — Construct | Color identity: colorless | P/T: 0/2 | Commander: legal
 Text: {T}: Add {C}.
@@ -1156,6 +1162,12 @@ Text: When this creature enters, you may search your library for a card with the
 Cost: {3}{g} | Type: Enchantment — Aura | Color identity: G | Commander: legal
 Text: Enchant creature
   When enchanted creature dies, that creature's controller may search their library for a creature card, put that card onto the battlefield, then shuffle.
+
+## Paul Atreides, Ducal Heir
+Cost: {1}{w} | Type: Legendary Creature Human Noble | Color identity: W | P/T: 1/2 | Commander: legal
+Text: Vigilance
+  Training (Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.)
+  {T}: Put a +1/+1 counter on each other creature you control. Activate only if Paul Atreides's power is 4 or greater.
 
 ## Paupers' Cage
 Cost: {3} | Type: Artifact | Color identity: colorless | Commander: legal
@@ -5415,6 +5427,12 @@ Text: Whenever you draw your second card each turn, create a 1/1 white Human Sol
 ## Prince of Thralls
 Cost: {4}{u}{b}{b}{r} | Type: Creature — Demon | Color identity: BRU | P/T: 7/7 | Commander: legal
 Text: Whenever a permanent an opponent controls is put into a graveyard, put that card onto the battlefield under your control unless that opponent pays 3 life.
+
+## Princess Irulan Corrino
+Cost: {1}{w}{u}{b} | Type: Legendary Creature — Human Noble Advisor | Color identity: BUW | P/T: 3/3 | Commander: legal
+Text: Whenever you draw your second card each turn, you gain 2 life.
+  Whenever an opponent draws their second card each turn, they lose 2 life.
+  {T}: You and target opponent each draw two cards.
 
 ## Princess Lucrezia
 Cost: {3}{u}{u}{b} | Type: Legendary Creature — Human Wizard | Color identity: BU | P/T: 5/4 | Commander: legal

@@ -1569,6 +1569,9 @@ Cost: {2}{g} | Type: Enchantment | Color identity: GU | Commander: legal
 Text: Lands you control enter untapped.
   When this enchantment enters, search your library for a basic land card or Planet card, reveal it, put it into your hand, then shuffle.
   Strange new worlds — {7}{U}{U}, Sacrifice this enchantment: Draw two cards. This ability costs {X} less to activate, where X is the number of differently named lands you control.
+Ruling (2026-10-07): If Warp Speed would enter the battlefield at the same time a land you control would enter the battlefield tapped, that land still enters the battlefield tapped.
+Ruling (2026-10-07): If a land has an ability that says it enters the battlefield tapped, you choose the order in which that ability's effect and Warp Speed's effect apply. This means you can choose to have the land enter tapped or untapped. If a land you control is simply put onto the battlefield tapped without a replacement effect being applied, it always enters untapped if you control Warp Speed.
+Ruling (2026-10-07): To determine the number of differently named lands you control, count each land you control once, but only if its English name isn't exactly the same as another land you've already counted this way.
 
 ## Warp World
 Cost: {5}{r}{r}{r} | Type: Sorcery | Color identity: R | Commander: legal
@@ -2325,6 +2328,8 @@ Text: ({T}: Add {U} or {B}.)
   As this land enters, you may pay 2 life. If you don't, it enters tapped.
 Ruling (2018-10-05): If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
 Ruling (2018-10-05): Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
+Ruling (2026-10-07): If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
+Ruling (2026-10-07): This land has two basic land types. It's not basic, so cards such as Final Frontier can't find it, but it does have the appropriate land types for effects such as that of Kishla Village (from the Tarkir: Dragonstorm release).
 
 ## Wave Elemental
 Cost: {2}{u}{u} | Type: Creature — Elemental | Color identity: U | P/T: 2/3 | Commander: legal
@@ -3456,6 +3461,8 @@ Text: Flash
   • Return target creature with mana value 2 or less to its owner's hand.
   • Target creature can't be blocked this turn.
   • Target player draws two cards, then discards two cards.
+Ruling (2026-10-07): If a creature on the battlefield has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+Ruling (2026-10-07): In some unusual cases, you may not be able to legally choose two modes. In those cases, the ability will be removed from the stack with no effect. You can't choose only one mode.
 
 ## West Coast Expansion
 Cost: {x}{u}{u} | Type: Sorcery | Color identity: U | Commander: legal
@@ -7288,15 +7295,21 @@ Text: Vigilance (Attacking doesn't cause this creature to tap.)
 Cost: {2}{r}{w}{b} | Type: Legendary Creature — Klingon Warrior Officer | Color identity: BRW | P/T: 3/4 | Commander: legal
 Text: When Worf enters, create a 2/1 red Klingon Warrior creature token with haste.
   Battlefront — Whenever you attack, exile the top X cards of your library, where X is the number of opponents you attacked this turn. Until the end of your next turn, you may play those cards.
+Ruling (2026-10-07): Battlefront abilities won't count an opponent if you attacked only planeswalkers that player controlled and/or battles that player protected and not the player themself.
+Ruling (2026-10-07): Opponents you attacked this turn that left the game later in the turn are still counted by battlefront abilities. For example, if you attack three opponents and one of them loses the game as a result, then you cast Own the Day during your second main phase, it will cost {3} less to cast.
+Ruling (2026-10-07): You pay all costs and follow all timing rules for cards played this way. For example, if an exiled card is a land card, you may play it only during your main phase while the stack is empty and only if you have an available land play remaining.
 
 ## Worf, Honor-Bound Warrior
 Cost: {r/w}{r/w} | Type: Legendary Creature — Klingon Warrior Officer | Color identity: RW | P/T: 1/1 | Commander: legal
 Text: Whenever you attack while creatures you control have total power 8 or greater, double Worf's power until end of turn.
   Tap two untapped artifacts and/or creatures you control: Put a +1/+1 counter on Worf. Activate only as a sorcery.
+Ruling (2026-10-07): If creatures you controlled had total power 8 or greater at the time you finished declaring attackers, it doesn't matter what the total power of creatures you control is when Worf's first ability resolves. You'll still double Worf's power until end of turn.
+Ruling (2026-10-07): You can tap any untapped artifacts and/or creatures you control to activate Worf's last ability, including Worf himself and ones you haven't controlled continuously since the beginning of your most recent turn.
 
 ## Worf, Intelligence Contractor
 Cost: {2}{r} | Type: Legendary Creature — Klingon Warrior Spy | Color identity: R | P/T: 3/2 | Commander: legal
 Text: When Worf enters, for each opponent, gain control of up to one target creature that player controls with mana value 3 or less until end of turn. Untap those creatures. Until end of turn, they become Warriors in addition to their other types and gain haste.
+Ruling (2026-10-07): If a creature on the battlefield has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
 
 ## Worf, Still Not Merry
 Cost: {3}{r}{w} | Type: Legendary Creature — Klingon Warrior Officer | Color identity: RW | P/T: 5/5 | Commander: legal

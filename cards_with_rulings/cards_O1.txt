@@ -451,6 +451,19 @@ Cost: {1}{w} | Type: Artifact — Spacecraft | Color identity: W | P/T: 2/2 | Co
 Text: When this Spacecraft enters, search your library for a basic Plains card, reveal it, put it into your hand, then shuffle.
   Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 6+.)
   6+ | Flying
+Ruling (2026-10-07): A station card is a card with the station keyword ability. The station keyword means "Tap another untapped creature you control: Put a number of charge counters on this permanent equal to the tapped creature's power. Activate only as a sorcery."
+Ruling (2026-10-07): Each station card has one or more striations in its text box. Each striation is preceded by a station symbol—a circle surrounding a number and a plus sign.
+Ruling (2026-10-07): Each station symbol represents an ability. A station symbol means "As long as this permanent has N or more charge counters on it, it has [abilities]," where N is the number inside the symbol and [abilities] are all the abilities found inside the same striation as that symbol.
+Ruling (2026-10-07): Even if a permanent with station has equal or greater charge counters than the number in its last station symbol, you can still activate its station ability. Adding more charge counters won't give it additional abilities, but other effects or cards might make those extra counters relevant.
+Ruling (2026-10-07): If a permanent with station becomes a creature, it will be able to attack if it's been under your control continuously since the turn began. That is, it doesn't matter how long it's been a creature, just how long it's been on the battlefield.
+Ruling (2026-10-07): If a station card has a power and toughness box printed in one of the striations in its text box, it's not a creature unless it has the appropriate number of charge counters on it. That card also doesn't have that power and toughness in any zone other than the battlefield.
+Ruling (2026-10-07): If an effect causes a permanent with station to become a creature by some means other than having the appropriate number of charge counters on it, it won't use any power and toughness values printed in its text box. Instead, it will use whatever base power and toughness was set by the effect that made it a creature.
+Ruling (2026-10-07): If another permanent becomes a copy of a permanent represented by a station card, all of its printed abilities, including the ones represented by station symbols, are copied. Its current characteristics and the number of charge counters on it are not copied. The abilities (and in some cases, types, power, and toughness) are determined based on the number of charge counters on the copy.
+Ruling (2026-10-07): If that station symbol is in the same striation as a power and toughness box, it instead means "As long as this permanent has N or more charge counters on it, it has [abilities] and is a creature with base power and toughness [P/T] in addition to its other types."
+Ruling (2026-10-07): If the tapped creature has negative power, no charge counters are put onto or removed from the permanent with station.
+Ruling (2026-10-07): Spacecraft is an artifact type with no special meaning. It doesn't grant the artifact any intrinsic abilities. Other cards may care about which artifacts are Spacecraft.
+Ruling (2026-10-07): The abilities of a permanent with station are based on the number of charge counters it has. This means that if a permanent with station gets charge counters due to some other effect (such as proliferate) or loses charge counters somehow, its abilities change accordingly. The same is true for determining whether that permanent is a creature.
+Ruling (2026-10-07): Use the tapped creature's power as the station ability resolves to determine how many charge counters to put on the permanent with station. If that creature isn't on the battlefield at that time, use its power as it last existed on the battlefield.
 
 ## Oblation
 Cost: {2}{w} | Type: Instant | Color identity: W | Commander: legal
@@ -741,6 +754,12 @@ Text: This artifact enters tapped.
 ## Obsidian Order Operative
 Cost: {3}{b} | Type: Creature — Cardassian Officer Spy | Color identity: B | P/T: 2/5 | Commander: legal
 Text: Whenever you face a dilemma, each opponent loses 1 life and you gain 1 life. (You face a dilemma as you choose one or more modes for a spell or ability.)
+Ruling (2026-10-07): A spell or ability is modal if it has two or more options in a bulleted list and instructions for a player to choose a number of those options, such as "Choose one" or "Choose one or more." Each of those options is a mode. Spells with spree or tiered are modal spells.
+Ruling (2026-10-07): An ability that triggers whenever a player faces a dilemma will resolve before the spell or ability that caused it to trigger. It resolves even if that spell or ability is countered or otherwise leaves the stack without resolving.
+Ruling (2026-10-07): As long as you choose one or more modes for a spell or ability, you've faced a dilemma. It doesn't matter if that spell or ability goes on to resolve or not.
+Ruling (2026-10-07): If a player chooses more than one mode for a spell or ability, that player still faced only one dilemma.
+Ruling (2026-10-07): If a player chooses no modes for a spell or ability, the player did not face a dilemma. This can happen because the instruction to choose modes for the spell or ability is optional ("You may choose one," or similar) or because there are no legal modes to choose for a modal triggered ability.
+Ruling (2026-10-07): Modal spells and cards with modal abilities printed prior to the Khans of Tarkir release didn't use bulleted lists for the modes; these cards have received errata in the Oracle card reference.
 
 ## Obstinate Baloth
 Cost: {2}{g}{g} | Type: Creature — Beast | Color identity: G | P/T: 4/4 | Commander: legal
@@ -2225,6 +2244,7 @@ Ruling (2024-02-02): You can't sacrifice a Clue to pay multiple costs. For examp
 ## On the Shoulders of Giants
 Cost: {2}{u} | Type: Enchantment | Color identity: U | Commander: legal
 Text: Historic creatures you control have flying. (Artifacts, legendaries, and Sagas are historic.)
+Ruling (2026-10-07): A card, spell, or permanent is historic if it has the legendary supertype, the artifact card type, or the Saga subtype. Having two of those qualities doesn't make an object more historic than another or provide an additional bonus—an object either is historic or it isn't.
 
 ## On the Trail
 Cost: {1}{g} | Type: Enchantment | Color identity: G | Commander: legal
@@ -2744,6 +2764,12 @@ Text: {T}: Add one mana of any color.
 Cost: {u} | Type: Sorcery | Color identity: U | Commander: legal
 Text: Draw a card.
   Beam me up {2}{U} (You may cast this card from your graveyard for {2}{U} if you also return a creature you control to its owner's hand. Then exile this spell.)
+Ruling (2026-10-07): "Beam me up [cost]" means "You may cast this card from your graveyard by paying [cost] and returning a creature you control to its owner's hand rather than paying its mana cost" and "If the beam me up cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+Ruling (2026-10-07): A spell cast using beam me up will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+Ruling (2026-10-07): If a card with beam me up is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+Ruling (2026-10-07): To determine the total cost of a spell, start with the mana cost or alternative cost (such as a beam me up cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+Ruling (2026-10-07): You can cast a spell using beam me up even if it was somehow put into your graveyard without having been cast.
+Ruling (2026-10-07): You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using beam me up only when you could normally cast a sorcery.
 
 ## Open Fire
 Cost: {2}{r} | Type: Instant | Color identity: R | Commander: legal
@@ -2887,6 +2913,9 @@ Ruling (2024-09-20): If a permanent with an eerie ability enters at the same tim
 ## Optimization Annex
 Cost: {1}{u} | Type: Artifact Creature — Borg | Color identity: U | P/T: 1/3 | Commander: legal
 Text: If one or more charge counters would be put on an artifact you control, that many plus one charge counters are put on it instead.
+Ruling (2026-10-07): If an artifact you control would enter with a number of charge counters on it, it enters with that many charge counters plus one instead.
+Ruling (2026-10-07): If two or more effects attempt to modify how many counters would be put onto a permanent you control, you choose the order to apply those effects, no matter who controls the sources of those effects.
+Ruling (2026-10-07): If you control two Optimization Annexes, the number of charge counters put on an artifact you control is increased by two. If you control three Optimization Annexes, the number is increased by three, and so on.
 
 ## Optimus Prime, Autobot Leader
 Cost: — | Type: Legendary Artifact — Vehicle | Color identity: RUW | P/T: 6/8 | Commander: legal
@@ -3620,6 +3649,7 @@ Text: When this creature enters, look at the top three cards of your library, th
 ## Organic Avulsion Unit
 Cost: {2}{b} | Type: Artifact Creature — Borg | Color identity: B | P/T: 2/3 | Commander: legal
 Text: {2}: Artifact creatures you control gain menace until end of turn. (A creature with menace can't be blocked except by two or more creatures.)
+Ruling (2026-10-07): Once an artifact creature you control has been legally blocked by a single creature, giving it menace won't have any impact on that combat. It will remain blocked.
 
 ## Organic Extinction
 Cost: {8}{w}{w} | Type: Sorcery | Color identity: W | Commander: legal
@@ -3777,6 +3807,7 @@ Cost: — | Type: Land — Planet | Color identity: GR | Commander: legal
 Text: This land enters tapped.
   When this land enters, you gain 1 life.
   {T}: Add {R} or {G}.
+Ruling (2026-10-07): Planet is a land subtype with no special meaning. It doesn't grant the land any intrinsic abilities.
 
 ## Oriq Loremage
 Cost: {2}{b}{b} | Type: Creature — Human Warlock | Color identity: B | P/T: 3/3 | Commander: legal
@@ -4671,6 +4702,11 @@ Ruling (2024-11-08): You can't sacrifice a Food to pay multiple costs. For examp
 ## Overflow Submatrix
 Cost: {2}{b} | Type: Artifact Creature — Borg | Color identity: B | P/T: 3/3 | Commander: legal
 Text: Once during each of your turns, you may cast an artifact creature spell from your graveyard. If you cast a spell this way, that artifact creature enters with a finality counter on it. (If a creature with a finality counter on it would die, exile it instead.)
+Ruling (2026-10-07): Finality counters aren't keyword counters, and a finality counter doesn't give any abilities to the permanent it's on. If that permanent loses its abilities and then would go to a graveyard, it will still be exiled instead.
+Ruling (2026-10-07): Finality counters don't stop permanents from going to zones other than the graveyard from the battlefield. For example, if a permanent with a finality counter on it would be put into its owner's hand from the battlefield, it does so normally.
+Ruling (2026-10-07): Finality counters work on any permanent, not only creatures. If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead.
+Ruling (2026-10-07): Multiple finality counters on a single permanent are redundant.
+Ruling (2026-10-07): You pay all costs and follow all timing restrictions for spells cast this way.
 
 ## Overflowing Basin
 Cost: — | Type: Land | Color identity: GU | Commander: legal
@@ -4724,6 +4760,8 @@ Ruling (2018-10-05): If an effect puts this land onto the battlefield tapped, yo
 Ruling (2018-10-05): Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
 Ruling (2025-11-17): If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
 Ruling (2025-11-17): This land has two basic land types. It's not basic, so cards such as Tend the Sprigs can't find it, but it does have the appropriate land types for effects such as that of Kishla Village (from the Tarkir: Dragonstorm release).
+Ruling (2026-10-07): If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
+Ruling (2026-10-07): This land has two basic land types. It's not basic, so cards such as Final Frontier can't find it, but it does have the appropriate land types for effects such as that of Kishla Village (from the Tarkir: Dragonstorm release).
 
 ## Overgrown Zealot
 Cost: {1}{g} | Type: Creature — Elf Druid | Color identity: G | P/T: 0/4 | Commander: legal
@@ -5132,6 +5170,9 @@ Ruling (2026-03-20): You can't choose to pay any additional costs for a copied s
 Cost: {4}{r}{r} | Type: Sorcery | Color identity: R | Commander: legal
 Text: Battlefront — This spell costs {1} less to cast for each opponent you attacked this turn.
   Untap all creatures that attacked this turn. After this main phase, there is an additional combat phase followed by an additional main phase.
+Ruling (2026-10-07): Battlefront abilities won't count an opponent if you attacked only planeswalkers that player controlled and/or battles that player protected and not the player themself.
+Ruling (2026-10-07): Opponents you attacked this turn that left the game later in the turn are still counted by battlefront abilities. For example, if you attack three opponents and one of them loses the game as a result, then you cast Own the Day during your second main phase, it will cost {3} less to cast.
+Ruling (2026-10-07): To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
 
 ## Ox Drover
 Cost: {3}{w} | Type: Creature — Human Peasant | Color identity: W | P/T: 4/4 | Commander: legal

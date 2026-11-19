@@ -6059,6 +6059,11 @@ Text: Trample
 Cost: {w}{w} | Type: Sorcery | Color identity: W | Commander: banned
 Text: Players play a Magic subgame, using their libraries as their decks. Each player who doesn't win the subgame loses half their life, rounded up.
 
+## Shai-Hulud
+Cost: {6}{g}{g}{g} | Type: Creature — Wurm | Color identity: G | P/T: 12/12 | Commander: legal
+Text: Trample, indestructible
+  When this creature enters, destroy all artifacts and enchantments. For each player who controlled a permanent destroyed this way, search your library for a basic land card or a Desert card. Put those cards onto the battlefield tapped, then shuffle.
+
 ## Shaile, Dean of Radiance
 Cost: {1}{w} | Type: Legendary Creature — Bird Cleric | Color identity: BW | P/T: 1/1 | Commander: legal
 Faces: Shaile, Dean of Radiance // Embrose, Dean of Shadow (modaldfc)

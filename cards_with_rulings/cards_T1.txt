@@ -90,6 +90,7 @@ Text: Target blocking or blocked creature you control gets +2/+2 until end of tu
 ## Tactical Officer
 Cost: {1}{w} | Type: Creature — Human Officer | Color identity: W | P/T: 2/1 | Commander: legal
 Text: Whenever you attack while creatures you control have total power 8 or greater, put a +1/+1 counter on this creature. Untap it.
+Ruling (2026-10-07): If creatures you controlled had total power 8 or greater at the time you finished declaring attackers, it doesn't matter what the total power of creatures you control is when Tactical Officer's ability resolves. You'll still put a +1/+1 counter on Tactical Officer and untap it.
 
 ## Tadeas, Juniper Ascendant
 Cost: {2}{g}{w} | Type: Legendary Creature — Human Monk | Color identity: GW | P/T: 1/3 | Commander: legal
@@ -625,6 +626,7 @@ Ruling (2009-10-01): When the enchanted creature is put into a graveyard, Takkle
 Cost: {2}{r} | Type: Creature — Romulan Scientist | Color identity: R | P/T: 3/2 | Commander: legal
 Text: {T}: This creature deals 1 damage to each opponent.
   Whenever you cast a noncreature spell, untap this creature.
+Ruling (2026-10-07): Tal Shiar Analyst's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
 
 ## Tal Shiar Operative
 Cost: {1}{b} | Type: Creature — Romulan Officer Spy | Color identity: B | P/T: 2/2 | Commander: legal
@@ -1540,6 +1542,8 @@ Cost: {1}{r} | Type: Legendary Creature — Human Officer | Color identity: R | 
 Text: Haste
   When Tasha Yar dies, exile the top card of your library. Until the end of your next turn, you may play that card.
   {2}{R}, Exile this card from your graveyard: Create a token that's a copy of this card. Sacrifice it at the beginning of the next end step. Activate only as a sorcery.
+Ruling (2026-10-07): The token created by Tasha Yar's last ability copies exactly what is printed on the original card and nothing else. It doesn't copy information about the object that card was before it was put into that graveyard or before it was exiled.
+Ruling (2026-10-07): You pay all costs and follow all timing rules for cards played this way. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty and only if you have an available land play remaining.
 
 ## Tasha's Hideous Laughter
 Cost: {1}{u}{u} | Type: Sorcery | Color identity: U | Commander: legal
@@ -2659,6 +2663,12 @@ Text: Exile target permanent you own or control.
 Cost: {1}{b} | Type: Enchantment | Color identity: B | Commander: legal
 Text: When this enchantment enters, target opponent may have you draw a card. If they don't, they lose 4 life and you surveil 1.
   Whenever you face a dilemma, you may return this enchantment to its owner's hand. (You face a dilemma as you choose one or more modes for a spell or ability.)
+Ruling (2026-10-07): A spell or ability is modal if it has two or more options in a bulleted list and instructions for a player to choose a number of those options, such as "Choose one" or "Choose one or more." Each of those options is a mode. Spells with spree or tiered are modal spells.
+Ruling (2026-10-07): An ability that triggers whenever a player faces a dilemma will resolve before the spell or ability that caused it to trigger. It resolves even if that spell or ability is countered or otherwise leaves the stack without resolving.
+Ruling (2026-10-07): As long as you choose one or more modes for a spell or ability, you've faced a dilemma. It doesn't matter if that spell or ability goes on to resolve or not.
+Ruling (2026-10-07): If a player chooses more than one mode for a spell or ability, that player still faced only one dilemma.
+Ruling (2026-10-07): If a player chooses no modes for a spell or ability, the player did not face a dilemma. This can happen because the instruction to choose modes for the spell or ability is optional ("You may choose one," or similar) or because there are no legal modes to choose for a modal triggered ability.
+Ruling (2026-10-07): Modal spells and cards with modal abilities printed prior to the Khans of Tarkir release didn't use bulleted lists for the modes; these cards have received errata in the Oracle card reference.
 
 ## Tellah, Great Sage
 Cost: {3}{u}{r} | Type: Legendary Creature — Human Wizard | Color identity: RU | P/T: 3/3 | Commander: legal
@@ -2867,9 +2877,12 @@ Ruling (2013-09-20): If a turn has multiple combat phases, the ability can only 
 Cost: — | Type: Land — Forest Plains | Color identity: GW | Commander: legal
 Text: ({T}: Add {G} or {W}.)
   As this land enters, you may pay 2 life. If you don't, it enters tapped.
+Ruling (2018-10-05): If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
 Ruling (2018-10-05): Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
 Ruling (2025-11-17): If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
 Ruling (2025-11-17): This land has two basic land types. It's not basic, so cards such as Tend the Sprigs can't find it, but it does have the appropriate land types for effects such as that of Great Arashin City (from the Tarkir: Dragonstorm release).
+Ruling (2026-10-07): If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
+Ruling (2026-10-07): This land has two basic land types. It's not basic, so cards such as Final Frontier can't find it, but it does have the appropriate land types for effects such as that of Mistrise Village (from the Tarkir: Dragonstorm release).
 
 ## Temple of Abandon
 Cost: — | Type: Land | Color identity: GR | Commander: legal
@@ -3085,6 +3098,7 @@ Ruling (2025-11-17): You can tap any untapped creature you control to convoke a 
 ## Temporal Conqueror
 Cost: {2}{g} | Type: Creature — Na'kuhl Warrior | Color identity: G | P/T: 2/3 | Commander: legal
 Text: When this creature enters, mill three cards. Then return a land card from your graveyard to your hand. If you can't, create a Treasure token. (To mill three cards, put the top three cards of your library into your graveyard.)
+Ruling (2026-10-07): Returning a land card from your graveyard to your hand isn't optional. If at least one is there, you must return one. You can't choose not to, even if you'd prefer the Treasure.
 
 ## Temporal Distortion
 Cost: {3}{u}{u} | Type: Enchantment | Color identity: U | Commander: legal
@@ -3174,6 +3188,13 @@ Ruling (2021-03-19): You can exile cards to pay only for generic mana, and you c
 Cost: {2}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Exile two target permanents you control. Return those cards to the battlefield under their owner's control at the beginning of the next end step.
   Flashback {5}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Ruling (2026-10-07): "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+Ruling (2026-10-07): A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+Ruling (2026-10-07): Auras attached to the exiled permanents will be put into their owners' graveyards. Equipment attached to the exiled permanents will become unattached and remain on the battlefield. Any counters on the exiled permanents will cease to exist. Once each exiled permanent returns, it's considered a new object with no relation to the object that it was.
+Ruling (2026-10-07): If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+Ruling (2026-10-07): If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+Ruling (2026-10-07): To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+Ruling (2026-10-07): You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
 
 ## Temporary Insanity
 Cost: {3}{r} | Type: Instant | Color identity: R | Commander: legal
@@ -4149,12 +4170,15 @@ Cost: {1}{w} | Type: Sorcery | Color identity: W | Commander: legal
 Text: Choose one —
   • Battle Stations — Put a +1/+1 counter on each creature you control.
   • Begin Negotiations — Target opponent draws a card. You draw two cards.
+Ruling (2026-10-07): If the second mode is chosen and the target opponent is an illegal target as Test of Conviction tries to resolve, it won't resolve and none of its effects will happen. You won't draw any cards.
 
 ## Test of Courage
 Cost: {g} | Type: Instant | Color identity: G | Commander: legal
 Text: Choose one —
   • Alter the Past — Exile target card from a graveyard. You gain 2 life.
   • Obliterate the Transwarp Network — Destroy target artifact or enchantment with mana value 3 or less.
+Ruling (2026-10-07): If a permanent has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+Ruling (2026-10-07): If the first mode is chosen and the target card is an illegal target as Test of Courage tries to resolve, it won't resolve and none of its effects will happen. You won't gain life.
 
 ## Test of Endurance
 Cost: {2}{w}{w} | Type: Enchantment | Color identity: W | Commander: legal
@@ -4177,12 +4201,15 @@ Cost: {b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Choose one —
   • Plain, Simple Garak — Exile target card from a graveyard. Draw a card.
   • Of the Obsidian Order — Return target creature card from your graveyard to your hand.
+Ruling (2026-10-07): If the first mode is chosen and the target card is an illegal target as Test of Loyalty tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card.
 
 ## Test of Priorities
 Cost: {1}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Choose one —
   • Power to Engines — Surveil 2, then draw a card.
   • Power to Life Support — Exile target creature you control. Return that card to the battlefield under its owner's control at the beginning of the next end step.
+Ruling (2026-10-07): Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist. Once the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+Ruling (2026-10-07): If a token is exiled this way, it will cease to exist and won't return to the battlefield.
 
 ## Test of Talents
 Cost: {1}{u} | Type: Instant | Color identity: U | Commander: legal
@@ -5116,6 +5143,8 @@ Ruling (2024-11-08): You can't sacrifice a Food to pay multiple costs. For examp
 Cost: {2}{r} | Type: Legendary Artifact | Color identity: R | Commander: legal
 Text: {T}: Add one mana of any color.
   Battlefront — {T}: Choose a color. Add an amount of mana of that color equal to the number of opponents you attacked this turn.
+Ruling (2026-10-07): Battlefront abilities won't count an opponent if you attacked only planeswalkers that player controlled and/or battles that player protected and not the player themself.
+Ruling (2026-10-07): Opponents you attacked this turn that left the game later in the turn are still counted by battlefront abilities. For example, if you attack three opponents and one of them loses the game as a result, then you cast Own the Day during your second main phase, it will cost {3} less to cast.
 
 ## The Beamtown Bullies
 Cost: {1}{b}{r}{g} | Type: Legendary Creature — Ogre Devil Warrior | Color identity: BGR | P/T: 4/4 | Commander: legal
@@ -5164,6 +5193,10 @@ Text: (As this Saga enters and after your draw step, add a lore counter. Sacrifi
   I — Assimilate target nonartifact creature an opponent controls. (Gain control of it and put a +1/+1 counter on it. It's a Borg artifact creature and loses all other creature types.)
   II — Artifact creatures you control get +2/+2 until end of turn.
   III — Exile the Borg assimilated with this Saga, then return it to the battlefield under its owner's control.
+Ruling (2026-10-07): Auras attached to the exiled permanent will be put into their owners' graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. Once the exiled permanent returns, it's considered a new object with no relation to the object that it was.
+Ruling (2026-10-07): If The Best of Both Worlds's first chapter ability assimilated more than one creature (usually because the ability was copied), its third chapter ability will exile all of the assimilated Borg and then return them all to the battlefield under their owners' control.
+Ruling (2026-10-07): The assimilated creature or creature card loses any other creature types it has, but it keeps any other supertypes, types, and subtypes it has. For example, if a Dryad Arbor (a Land Creature – Forest Dryad) is assimilated, it will be an Artifact Land Creature – Forest Borg.
+Ruling (2026-10-07): The third chapter ability will exile the permanent assimilated by the first chapter ability, even if it's no longer a Borg, no longer a creature, or no longer under your control at that time.
 
 ## The Biblioplex
 Cost: — | Type: Land | Color identity: colorless | Commander: legal
@@ -5270,6 +5303,7 @@ Ruling (2021-07-23): The Book of Vile Darkness has received an update to its Ora
 Cost: {4}{w}{u}{b} | Type: Legendary Artifact Creature — Borg Noble | Color identity: BUW | P/T: 4/4 | Commander: legal
 Text: Artifact creatures you control get +2/+2.
   Whenever The Borg Queen enters or attacks, target opponent exiles cards from the top of their library until they exile a creature card. Assimilate that card. They put the rest on the bottom in a random order. (To assimilate a card, put it onto the battlefield under your control with a +1/+1 counter. It's a Borg artifact creature and loses all other creature types.)
+Ruling (2026-10-07): The assimilated creature or creature card loses any other creature types it has, but it keeps any other supertypes, types, and subtypes it has. For example, if a Dryad Arbor (a Land Creature – Forest Dryad) is assimilated, it will be an Artifact Land Creature – Forest Borg.
 
 ## The Boulder, Ready to Rumble
 Cost: {3}{g} | Type: Legendary Creature — Human Warrior Performer | Color identity: G | P/T: 4/4 | Commander: legal
@@ -5351,6 +5385,16 @@ Ruling (2024-07-05): The first step of casting a spell is to move it to the stac
 Cost: {5}{u} | Type: Legendary Creature — Elemental | Color identity: U | P/T: 5/6 | Commander: legal
 Text: Vigilance, ward {2}
   At the beginning of each end step, if you faced a dilemma this turn, target opponent exiles cards from the top of their library until they exile a nonland card. You may cast that card without paying its mana cost. (You face a dilemma as you choose one or more modes for a spell or ability.)
+Ruling (2026-10-07): A spell or ability is modal if it has two or more options in a bulleted list and instructions for a player to choose a number of those options, such as "Choose one" or "Choose one or more." Each of those options is a mode. Spells with spree or tiered are modal spells.
+Ruling (2026-10-07): An ability that triggers whenever a player faces a dilemma will resolve before the spell or ability that caused it to trigger. It resolves even if that spell or ability is countered or otherwise leaves the stack without resolving.
+Ruling (2026-10-07): As long as you choose one or more modes for a spell or ability, you've faced a dilemma. It doesn't matter if that spell or ability goes on to resolve or not.
+Ruling (2026-10-07): If a player chooses more than one mode for a spell or ability, that player still faced only one dilemma.
+Ruling (2026-10-07): If a player chooses no modes for a spell or ability, the player did not face a dilemma. This can happen because the instruction to choose modes for the spell or ability is optional ("You may choose one," or similar) or because there are no legal modes to choose for a modal triggered ability.
+Ruling (2026-10-07): If a spell you cast has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+Ruling (2026-10-07): If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+Ruling (2026-10-07): Modal spells and cards with modal abilities printed prior to the Khans of Tarkir release didn't use bulleted lists for the modes; these cards have received errata in the Oracle card reference.
+Ruling (2026-10-07): The Caretaker's last ability will check as your end step starts to see if you faced a dilemma this turn. If you didn't, the ability won't trigger at all. Casting a modal spell or activating a modal ability during your end step won't cause the ability to trigger.
+Ruling (2026-10-07): You choose whether to cast the nonland card as The Caretaker's last ability resolves. You can't wait to cast it later in the turn. Timing restrictions based on the card's types are ignored.
 
 ## The Cauldron of Eternity
 Cost: {10}{b}{b} | Type: Legendary Artifact | Color identity: B | Commander: legal
@@ -5443,6 +5487,14 @@ Text: (As this Saga enters and after your draw step, add a lore counter. Sacrifi
   I — All artifacts and creatures phase out. Create a 0/1 white Human creature token with "Permanents can't phase in." (Treat phased-out permanents and anything attached to them as though they don't exist.)
   II — You draw two cards and each player loses 2 life.
   III — Sacrifice a creature token. If you do, you gain 5 life.
+Ruling (2026-10-07): A permanent that's phased out while the creature token created by this Saga's first chapter ability is on the battlefield won't phase in during its controller's untap step as normal. Once there are no permanents with the ability "Permanents can't phase in" on the battlefield (which will usually be once that token leaves the battlefield), each phased-out permanent will phase in during its controller's next untap step as normal.
+Ruling (2026-10-07): Any continuous effects with a "for as long as" duration ignore phased-out objects. If ignoring those objects causes the effect's conditions to no longer be met, the duration will expire.
+Ruling (2026-10-07): As a permanent is phased out, Auras and Equipment attached to it also phase out at the same time. Those Auras and Equipment will phase in at the same time that permanent does, and they'll phase in still attached to that permanent.
+Ruling (2026-10-07): Choices made for permanents as they entered the battlefield are remembered when they phase in.
+Ruling (2026-10-07): Permanents phase back in during their controller's untap step, immediately before that player untaps their permanents. Creatures that phase in this way are able to attack during that turn, and their activated abilities with {T} in their costs can be activated. If a permanent had counters on it when it phased out, it will have those counters when it phases back in.
+Ruling (2026-10-07): Phased-out permanents are treated as though they don't exist. They can't be the targets of spells or abilities, their static abilities have no effect on the game, their triggered abilities can't trigger, they can't attack or block, and so on.
+Ruling (2026-10-07): Phasing out doesn't cause any "leaves the battlefield" abilities to trigger. Similarly, phasing in won't cause any "enters" abilities to trigger.
+Ruling (2026-10-07): The chapter III ability isn't optional. You must sacrifice a creature token if you control one as that ability resolves, but it doesn't necessarily have to be the one created by the chapter I ability.
 
 ## The Clone Saga
 Cost: {3}{u} | Type: Enchantment — Saga | Color identity: U | Commander: legal
@@ -5655,10 +5707,13 @@ Ruling (2025-10-02): To determine "the number of creatures in your party," check
 ## The Destruction of Praxis
 Cost: {3}{b}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Strange new worlds — All creatures get -X/-X until end of turn, where X is the number of differently named lands you control. If X is 6 or more, create two 2/1 red Klingon Warrior creature tokens with haste.
+Ruling (2026-10-07): The value of X is determined only once, as The Destruction of Praxis resolves.
+Ruling (2026-10-07): To determine the number of differently named lands you control, count each land you control once, but only if its English name isn't exactly the same as another land you've already counted this way.
 
 ## The Doctor, EMH
 Cost: {3}{g/w}{g/w} | Type: Legendary Artifact Creature — Illusion Doctor | Color identity: GW | P/T: 3/3 | Commander: legal
 Text: When The Doctor enters, put a +1/+1 counter on target creature. Then put a +1/+1 counter on each creature you control with a counter on it.
+Ruling (2026-10-07): If the target of The Doctor's ability is illegal as it tries to resolve, it won't resolve and none of its effects will happen. You won't put any counters on any creatures.
 
 ## The Dominion Bracelet
 Cost: {2} | Type: Legendary Artifact — Equipment | Color identity: colorless | Commander: legal
@@ -6407,6 +6462,8 @@ Text: {5}, {T}: Create a 1/1 colorless Insect artifact creature token with flyin
 ## The Holodeck
 Cost: {7} | Type: Legendary Artifact | Color identity: colorless | Commander: legal
 Text: Once during each of your turns, you may play a permanent card you own from outside the game or from your graveyard.
+Ruling (2026-10-07): In a casual game, a card you play from outside the game comes from your personal collection. In a tournament event, a card you play from outside the game must come from your sideboard. In Limited events, your sideboard includes an arbitrary number of basic lands in addition to any drafted or opened cards not in your deck. You may look at your sideboard at any time.
+Ruling (2026-10-07): You pay all costs and follow all timing rules for cards played this way.
 
 ## The Horus Heresy
 Cost: {3}{u}{b}{r} | Type: Enchantment — Saga | Color identity: BRU | Commander: legal
@@ -6884,6 +6941,8 @@ Text: (As this Saga enters and after your draw step, add a lore counter. Sacrifi
   I — Exile up to one target nontoken artifact or creature.
   II — Investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
   III — Return the exiled card to the battlefield under its owner's control. You gain 2 life.
+Ruling (2026-10-07): If The Measure of a Man's first chapter ability exiled more than one permanent (usually because the ability was copied), its third chapter ability will return all of the exiled cards to the battlefield under their owners' control.
+Ruling (2026-10-07): If The Measure of a Man's third chapter ability resolves but there are no exiled cards, you'll still gain 2 life.
 
 ## The Meathook Massacre
 Cost: {x}{b}{b} | Type: Legendary Enchantment | Color identity: B | Commander: legal
@@ -7970,6 +8029,8 @@ Ruling (2023-10-13): To secretly choose a number, write a number from 1 to 5 dow
 Cost: {g}{u} | Type: Legendary Creature — Scout | Color identity: GU | P/T: */3 | Commander: legal
 Text: Reach, vigilance
   Strange new worlds — The Traveler's power is equal to the number of differently named lands you control.
+Ruling (2026-10-07): The ability that defines The Traveler's power applies in all zones, not just the battlefield.
+Ruling (2026-10-07): To determine the number of differently named lands you control, count each land you control once, but only if its English name isn't exactly the same as another land you've already counted this way.
 
 ## The Trickster-God's Heist
 Cost: {2}{u}{b} | Type: Enchantment — Saga | Color identity: BU | Commander: legal
@@ -8068,6 +8129,7 @@ Text: This land enters tapped unless you control two or more other lands.
   • Put target creature card from your graveyard on top of your library.
   • Surveil 1.
   {T}: Add {B}.
+Ruling (2026-10-07): If this land enters the battlefield at the same time as any number of other lands, those other lands are not counted when determining if this land enters tapped or untapped.
 
 ## The Unluckiest Planeswalker
 Cost: {2}{r} | Type: Legendary Planeswalker | Color identity: R | Loyalty/Defense: 4 | Commander: legal
@@ -8502,6 +8564,13 @@ Ruling (2023-06-16): The Ring gains its abilities in order from top to bottom. O
 Cost: {1}{w} | Type: Sorcery | Color identity: W | Commander: legal
 Text: Look at the top five cards of your library. You may reveal a Plains card or nonland permanent card with mana value 3 or less from among them and put it into your hand. Put the rest on the bottom in a random order.
   Beam me up {2}{W} (You may cast this card from your graveyard for {2}{W} if you also return a creature you control to its owner's hand. Then exile this spell.)
+Ruling (2026-10-07): "Beam me up [cost]" means "You may cast this card from your graveyard by paying [cost] and returning a creature you control to its owner's hand rather than paying its mana cost" and "If the beam me up cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+Ruling (2026-10-07): A spell cast using beam me up will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+Ruling (2026-10-07): If a card in a library has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+Ruling (2026-10-07): If a card with beam me up is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+Ruling (2026-10-07): To determine the total cost of a spell, start with the mana cost or alternative cost (such as a beam me up cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+Ruling (2026-10-07): You can cast a spell using beam me up even if it was somehow put into your graveyard without having been cast.
+Ruling (2026-10-07): You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using beam me up only when you could normally cast a sorcery.
 
 ## Thermal Blast
 Cost: {4}{r} | Type: Instant | Color identity: R | Commander: legal
@@ -8816,6 +8885,7 @@ Text: Draw three cards. Then discard two cards unless you discard a creature car
 Cost: {2}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Draw three cards. Then discard two cards unless you discard an artifact card.
 Ruling (2020-11-10): You can discard either one artifact card or two cards which may or may not be artifacts. If you really want to, you can discard two artifact cards.
+Ruling (2026-06-19): You can discard either one artifact card or two cards which may or may not be artifacts. If you really want to, you can discard two artifact cards.
 
 ## Thirst for Meaning
 Cost: {2}{u} | Type: Instant | Color identity: U | Commander: legal
@@ -12002,6 +12072,9 @@ Ruling (2024-11-08): You can't sacrifice a Food to pay multiple costs. For examp
 Cost: {2}{g} | Type: Creature — Human Scout | Color identity: G | P/T: 3/2 | Commander: legal
 Text: Landfall — Whenever a land you control enters, investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
   Whenever you sacrifice a Clue, put a +1/+1 counter on this creature.
+Ruling (2016-04-08): Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+Ruling (2016-04-08): If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+Ruling (2016-04-08): You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
 Ruling (2024-02-02): Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
 Ruling (2024-02-02): If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
 Ruling (2024-02-02): Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
@@ -14615,6 +14688,12 @@ Text: Whenever this creature or another artifact you control enters, you may dra
 Cost: {1}{r} | Type: Sorcery | Color identity: R | Commander: legal
 Text: Transporter Malfunction deals 3 damage to any target.
   Beam me up {3}{R}{R}{R} (You may cast this card from your graveyard for {3}{R}{R}{R} if you also return a creature you control to its owner's hand. Then exile this spell.)
+Ruling (2026-10-07): "Beam me up [cost]" means "You may cast this card from your graveyard by paying [cost] and returning a creature you control to its owner's hand rather than paying its mana cost" and "If the beam me up cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+Ruling (2026-10-07): A spell cast using beam me up will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+Ruling (2026-10-07): If a card with beam me up is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+Ruling (2026-10-07): To determine the total cost of a spell, start with the mana cost or alternative cost (such as a beam me up cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+Ruling (2026-10-07): You can cast a spell using beam me up even if it was somehow put into your graveyard without having been cast.
+Ruling (2026-10-07): You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using beam me up only when you could normally cast a sorcery.
 
 ## Transpose
 Cost: {2}{b} | Type: Instant | Color identity: B | Commander: legal
@@ -14629,6 +14708,20 @@ Cost: {2}{u} | Type: Artifact — Spacecraft | Color identity: U | Commander: le
 Text: When this Spacecraft enters, mill five cards. You may put up to two artifact cards from among them into your hand.
   Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
   3+ | {T}: Target creature can't be blocked this turn.
+Ruling (2026-10-07): A station card is a card with the station keyword ability. The station keyword means "Tap another untapped creature you control: Put a number of charge counters on this permanent equal to the tapped creature's power. Activate only as a sorcery."
+Ruling (2026-10-07): Each station card has one or more striations in its text box. Each striation is preceded by a station symbol—a circle surrounding a number and a plus sign.
+Ruling (2026-10-07): Each station symbol represents an ability. A station symbol means "As long as this permanent has N or more charge counters on it, it has [abilities]," where N is the number inside the symbol and [abilities] are all the abilities found inside the same striation as that symbol.
+Ruling (2026-10-07): Even if a permanent with station has equal or greater charge counters than the number in its last station symbol, you can still activate its station ability. Adding more charge counters won't give it additional abilities, but other effects or cards might make those extra counters relevant.
+Ruling (2026-10-07): If a permanent with station becomes a creature, it will be able to attack if it's been under your control continuously since the turn began. That is, it doesn't matter how long it's been a creature, just how long it's been on the battlefield.
+Ruling (2026-10-07): If a station card has a power and toughness box printed in one of the striations in its text box, it's not a creature unless it has the appropriate number of charge counters on it. That card also doesn't have that power and toughness in any zone other than the battlefield.
+Ruling (2026-10-07): If an effect causes a permanent with station to become a creature by some means other than having the appropriate number of charge counters on it, it won't use any power and toughness values printed in its text box. Instead, it will use whatever base power and toughness was set by the effect that made it a creature.
+Ruling (2026-10-07): If another permanent becomes a copy of a permanent represented by a station card, all of its printed abilities, including the ones represented by station symbols, are copied. Its current characteristics and the number of charge counters on it are not copied. The abilities (and in some cases, types, power, and toughness) are determined based on the number of charge counters on the copy.
+Ruling (2026-10-07): If that station symbol is in the same striation as a power and toughness box, it instead means "As long as this permanent has N or more charge counters on it, it has [abilities] and is a creature with base power and toughness [P/T] in addition to its other types."
+Ruling (2026-10-07): If the tapped creature has negative power, no charge counters are put onto or removed from the permanent with station.
+Ruling (2026-10-07): Once a creature has been blocked, activating Transwarp Hub's last ability targeting that creature won't cause it to become unblocked.
+Ruling (2026-10-07): Spacecraft is an artifact type with no special meaning. It doesn't grant the artifact any intrinsic abilities. Other cards may care about which artifacts are Spacecraft.
+Ruling (2026-10-07): The abilities of a permanent with station are based on the number of charge counters it has. This means that if a permanent with station gets charge counters due to some other effect (such as proliferate) or loses charge counters somehow, its abilities change accordingly. The same is true for determining whether that permanent is a creature.
+Ruling (2026-10-07): Use the tapped creature's power as the station ability resolves to determine how many charge counters to put on the permanent with station. If that creature isn't on the battlefield at that time, use its power as it last existed on the battlefield.
 
 ## Trap Digger
 Cost: {3}{w} | Type: Creature — Human Soldier | Color identity: W | P/T: 1/3 | Commander: legal
@@ -15516,6 +15609,7 @@ Text: Creatures of the creature type of your choice get +X/+X until end of turn.
 Cost: {2}{w} | Type: Creature — Tribble | Color identity: W | P/T: 1/1 | Commander: legal
 Text: At the beginning of combat on your turn, put a +1/+1 counter on this creature.
   When this creature dies, create X 1/1 white Tribble creature tokens with "This token can't block," where X is this creature's power.
+Ruling (2026-10-07): Use Tribble Cluster's power as it last existed on the battlefield to determine the value of X.
 
 ## Tribune of Rot
 Cost: {1}{b/g}{b/g} | Type: Creature — Elf Shaman | Color identity: BG | P/T: 3/3 | Commander: legal
@@ -16103,6 +16197,10 @@ Text: Flying
 Cost: {2}{w} | Type: Creature — Tribble | Color identity: W | P/T: 0/1 | Commander: legal
 Text: This creature can't block.
   At the beginning of your upkeep, create a token that's a copy of this creature.
+Ruling (2026-10-07): If Troubling Tribbles leaves the battlefield before its last ability resolves, the token will still enter as a copy of Troubling Tribbles, using its copiable values from when it was last on the battlefield.
+Ruling (2026-10-07): In the unusual case where Troubling Tribbles becomes a copy of something else while its last ability is on the stack but before it resolves, the token will enter as a copy of whatever Troubling Tribbles is copying.
+Ruling (2026-10-07): The token copy is born pregnant . . . that is, it will have Troubling Tribbles's abilities, including the ability that creates token copies of itself.
+Ruling (2026-10-07): The tokens don't copy whether Troubling Tribbles is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its types, color, and so on.
 
 ## Trove of Temptation
 Cost: {3}{r} | Type: Enchantment | Color identity: R | Commander: legal
@@ -17111,6 +17209,10 @@ Ruling (2018-07-13): Tuvasa's triggered ability resolves before the spell that c
 Cost: {2}{u} | Type: Legendary Creature — Vulcan Officer | Color identity: U | P/T: 2/3 | Commander: legal
 Text: Flash
   When Tuvok enters during the declare attackers step, choose up to two target attacking creatures. For each of them, you may reselect which player or permanent that creature is attacking. (A creature can't attack its controller.)
+Ruling (2026-10-07): If an ability targets something controlled by the "defending player" of an attacking creature and the defending player for that creature changes before that ability resolves, the ability won't resolve because its target has become illegal.
+Ruling (2026-10-07): If you reselect which player or permanent an attacking creature is attacking, that creature is still considered to have attacked the player or permanent as declared, but it is now attacking the new player or permanent.
+Ruling (2026-10-07): Reselecting which player or permanent a creature is attacking doesn't cause "whenever this creature attacks" abilities to trigger.
+Ruling (2026-10-07): Reselecting which player or permanent a creature is attacking ignores all requirements, restrictions, and costs associated with attacking.
 
 ## Tuya Bearclaw
 Cost: {1}{r}{g} | Type: Legendary Creature — Human Warrior | Color identity: GR | P/T: 2/2 | Commander: legal
@@ -17788,6 +17890,21 @@ Text: Artifact spells you cast cost {1} less to cast.
   Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 7+.)
   7+ | Flying
   Whenever you cast a spell, create a 1/1 colorless Borg artifact creature token.
+Ruling (2026-10-07): A station card is a card with the station keyword ability. The station keyword means "Tap another untapped creature you control: Put a number of charge counters on this permanent equal to the tapped creature's power. Activate only as a sorcery."
+Ruling (2026-10-07): Each station card has one or more striations in its text box. Each striation is preceded by a station symbol—a circle surrounding a number and a plus sign.
+Ruling (2026-10-07): Each station symbol represents an ability. A station symbol means "As long as this permanent has N or more charge counters on it, it has [abilities]," where N is the number inside the symbol and [abilities] are all the abilities found inside the same striation as that symbol.
+Ruling (2026-10-07): Even if a permanent with station has equal or greater charge counters than the number in its last station symbol, you can still activate its station ability. Adding more charge counters won't give it additional abilities, but other effects or cards might make those extra counters relevant.
+Ruling (2026-10-07): If a permanent with station becomes a creature, it will be able to attack if it's been under your control continuously since the turn began. That is, it doesn't matter how long it's been a creature, just how long it's been on the battlefield.
+Ruling (2026-10-07): If a station card has a power and toughness box printed in one of the striations in its text box, it's not a creature unless it has the appropriate number of charge counters on it. That card also doesn't have that power and toughness in any zone other than the battlefield.
+Ruling (2026-10-07): If an effect causes a permanent with station to become a creature by some means other than having the appropriate number of charge counters on it, it won't use any power and toughness values printed in its text box. Instead, it will use whatever base power and toughness was set by the effect that made it a creature.
+Ruling (2026-10-07): If another permanent becomes a copy of a permanent represented by a station card, all of its printed abilities, including the ones represented by station symbols, are copied. Its current characteristics and the number of charge counters on it are not copied. The abilities (and in some cases, types, power, and toughness) are determined based on the number of charge counters on the copy.
+Ruling (2026-10-07): If that station symbol is in the same striation as a power and toughness box, it instead means "As long as this permanent has N or more charge counters on it, it has [abilities] and is a creature with base power and toughness [P/T] in addition to its other types."
+Ruling (2026-10-07): If the tapped creature has negative power, no charge counters are put onto or removed from the permanent with station.
+Ruling (2026-10-07): Spacecraft is an artifact type with no special meaning. It doesn't grant the artifact any intrinsic abilities. Other cards may care about which artifacts are Spacecraft.
+Ruling (2026-10-07): The abilities of a permanent with station are based on the number of charge counters it has. This means that if a permanent with station gets charge counters due to some other effect (such as proliferate) or loses charge counters somehow, its abilities change accordingly. The same is true for determining whether that permanent is a creature.
+Ruling (2026-10-07): To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+Ruling (2026-10-07): Type-03 Borg Vessel's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
+Ruling (2026-10-07): Use the tapped creature's power as the station ability resolves to determine how many charge counters to put on the permanent with station. If that creature isn't on the battlefield at that time, use its power as it last existed on the battlefield.
 
 ## Type-2 Phaser
 Cost: {2} | Type: Artifact — Equipment | Color identity: colorless | Commander: legal

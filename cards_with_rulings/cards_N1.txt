@@ -1607,6 +1607,11 @@ Ruling (2020-09-25): To determine whether it is legal to play a modal double-fac
 Cost: {1}{g} | Type: Legendary Creature — Talaxian Advisor | Color identity: G | P/T: 1/1 | Commander: legal
 Text: When Neelix enters, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.")
   Whenever you gain life, put a +1/+1 counter on Neelix.
+Ruling (2026-10-07): Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Neelix's second ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, planeswalkers, and/or battles at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+Ruling (2026-10-07): If Neelix is dealt lethal damage at the same time that you gain life, he will die before his second ability would resolve.
+Ruling (2026-10-07): If you gain an amount of life "for each" of something or "equal to the number" of something, that life is gained as one event and Neelix's second ability triggers only once.
+Ruling (2026-10-07): In a Two-Headed Giant game, life gained by your teammate won't cause Neelix's second ability to trigger, even though it caused your team's life total to increase.
+Ruling (2026-10-07): Neelix's second ability triggers just once for each life-gaining event, whether it's 1 life from Jake Sisko, War Correspondent or 2 life from Elim Garak, Simple Tailor.
 
 ## Neera, Wild Mage
 Cost: {4}{u}{r} | Type: Legendary Creature — Human Elf Shaman | Color identity: RU | P/T: 2/7 | Commander: legal
@@ -1657,6 +1662,7 @@ Text: Whenever this creature attacks, up to five target creatures each get -1/-1
 ## Negate
 Cost: {1}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Counter target noncreature spell.
+Ruling (2024-11-08): A "creature spell" is any spell with the creature type, even if it has other types such as artifact or enchantment.
 Ruling (2026-01-27): A "creature spell" is any spell with the creature type, even if it has other types such as artifact or enchantment.
 
 ## Negative Zone Portal
@@ -2616,6 +2622,7 @@ Text: This land enters tapped unless you control two or more other lands.
   • Target creature gains flying until end of turn.
   • Surveil 1.
   {T}: Add {U}.
+Ruling (2026-10-07): If this land enters the battlefield at the same time as any number of other lands, those other lands are not counted when determining if this land enters tapped or untapped.
 
 ## Niall Silvain
 Cost: {g}{g}{g} | Type: Creature — Ouphe | Color identity: G | P/T: 2/2 | Commander: legal
@@ -4335,6 +4342,11 @@ Cost: {b}{g} | Type: Legendary Creature — Ferengi Rogue | Color identity: BG |
 Text: Menace
   {1}: If Nog is a Rogue, he becomes a Ferengi Scout with base power and toughness 3/4 and gains "Whenever Nog becomes tapped, surveil 2."
   {3}: If Nog is a Scout, he becomes a Ferengi Officer and gains "You may play lands from your graveyard" and "You may play an additional land on each of your turns."
+Ruling (2026-10-07): Nog's second ability checks whether he's a Rogue, and his last ability checks whether he's a Scout. It doesn't matter how he became the appropriate creature type or if he has any creature types other than the one being checked for.
+Ruling (2026-10-07): None of Nog's activated abilities have a duration. If one of them resolves, it will remain in effect until the game ends, Nog leaves the battlefield, or some subsequent effect changes his characteristics, whichever comes first.
+Ruling (2026-10-07): The ability "You may play lands from your graveyard" doesn't change the times when you can play those land cards. You can still play lands only during your main phase when you have priority and the stack is empty. It also doesn't allow you to activate abilities (such as cycling) of land cards in your graveyard.
+Ruling (2026-10-07): The effect of the ability "You may play an additional land on each of your turns" is cumulative with similar effects. For example, if you control both Nog with that ability and Exploration (an enchantment with "You may play an additional land on each of your turns"), you'll be able to play three lands during each of your turns.
+Ruling (2026-10-07): You can activate Nog's activated abilities regardless of what creature types he is. Each of those abilities checks Nog's creature types when that ability resolves. If Nog isn't the appropriate creature type at that time, that ability does nothing.
 
 ## Noggin Whack
 Cost: {2}{b}{b} | Type: Kindred Sorcery — Rogue | Color identity: B | Commander: legal
@@ -5292,6 +5304,10 @@ Text: Flash
 Cost: {2}{u} | Type: Legendary Creature — Human Officer | Color identity: U | P/T: 2/4 | Commander: legal
 Text: Hailing Frequencies — As Nyota Uhura enters, choose a number between 0 and 10.
   Open a Channel — Whenever an opponent casts a spell with mana value equal to the chosen number, you draw a card.
+Ruling (2026-10-07): Effects that increase or reduce the cost to cast a spell don't affect that spell's mana value.
+Ruling (2026-10-07): For spells with {X} in their mana costs, use the value of X to determine if the spell's mana value is the chosen number. For example, if the chosen number is 4, a spell with mana cost {X}{R}{R} cast with X equal to 2 would cause Nyota Uhura's last ability to trigger.
+Ruling (2026-10-07): Nyota Uhura's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
+Ruling (2026-10-07): The numbers you may choose for Nyota Uhura's first ability include 0 and 10.
 
 ## Nyssa of Traken
 Cost: {3}{u} | Type: Legendary Creature — Human Scientist | Color identity: U | P/T: 3/4 | Commander: legal

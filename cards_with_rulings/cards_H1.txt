@@ -16,6 +16,20 @@ Text: When H.M.S. Bounty enters, you may search your library for a Whale card, r
   Station
   8+ | Flying
   Whenever H.M.S. Bounty deals combat damage to a player, draw a card. If you control a Whale and haven't begun an extra turn this game, take an extra turn after this one.
+Ruling (2026-10-07): A station card is a card with the station keyword ability. The station keyword means "Tap another untapped creature you control: Put a number of charge counters on this permanent equal to the tapped creature's power. Activate only as a sorcery."
+Ruling (2026-10-07): Each station card has one or more striations in its text box. Each striation is preceded by a station symbol—a circle surrounding a number and a plus sign.
+Ruling (2026-10-07): Each station symbol represents an ability. A station symbol means "As long as this permanent has N or more charge counters on it, it has [abilities]," where N is the number inside the symbol and [abilities] are all the abilities found inside the same striation as that symbol.
+Ruling (2026-10-07): Even if a permanent with station has equal or greater charge counters than the number in its last station symbol, you can still activate its station ability. Adding more charge counters won't give it additional abilities, but other effects or cards might make those extra counters relevant.
+Ruling (2026-10-07): If a permanent with station becomes a creature, it will be able to attack if it's been under your control continuously since the turn began. That is, it doesn't matter how long it's been a creature, just how long it's been on the battlefield.
+Ruling (2026-10-07): If a station card has a power and toughness box printed in one of the striations in its text box, it's not a creature unless it has the appropriate number of charge counters on it. That card also doesn't have that power and toughness in any zone other than the battlefield.
+Ruling (2026-10-07): If an effect causes a permanent with station to become a creature by some means other than having the appropriate number of charge counters on it, it won't use any power and toughness values printed in its text box. Instead, it will use whatever base power and toughness was set by the effect that made it a creature.
+Ruling (2026-10-07): If another permanent becomes a copy of a permanent represented by a station card, all of its printed abilities, including the ones represented by station symbols, are copied. Its current characteristics and the number of charge counters on it are not copied. The abilities (and in some cases, types, power, and toughness) are determined based on the number of charge counters on the copy.
+Ruling (2026-10-07): If that station symbol is in the same striation as a power and toughness box, it instead means "As long as this permanent has N or more charge counters on it, it has [abilities] and is a creature with base power and toughness [P/T] in addition to its other types."
+Ruling (2026-10-07): If the tapped creature has negative power, no charge counters are put onto or removed from the permanent with station.
+Ruling (2026-10-07): If you would begin an extra turn but an effect replaces it (usually by skipping it, such as the effect of Stranglehold's last ability), you didn't begin that extra turn.
+Ruling (2026-10-07): Spacecraft is an artifact type with no special meaning. It doesn't grant the artifact any intrinsic abilities. Other cards may care about which artifacts are Spacecraft.
+Ruling (2026-10-07): The abilities of a permanent with station are based on the number of charge counters it has. This means that if a permanent with station gets charge counters due to some other effect (such as proliferate) or loses charge counters somehow, its abilities change accordingly. The same is true for determining whether that permanent is a creature.
+Ruling (2026-10-07): Use the tapped creature's power as the station ability resolves to determine how many charge counters to put on the permanent with station. If that creature isn't on the battlefield at that time, use its power as it last existed on the battlefield.
 
 ## Haakon, Stromgald Scourge
 Cost: {1}{b}{b} | Type: Legendary Creature — Zombie Knight | Color identity: B | P/T: 3/3 | Commander: legal
@@ -547,9 +561,12 @@ Ruling (2008-08-01): Each player chooses the relative order of the cards they ar
 Cost: — | Type: Land — Plains Island | Color identity: UW | Commander: legal
 Text: ({T}: Add {W} or {U}.)
   As this land enters, you may pay 2 life. If you don't, it enters tapped.
+Ruling (2018-10-05): If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
 Ruling (2018-10-05): Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
 Ruling (2025-11-17): If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
 Ruling (2025-11-17): This land has two basic land types. It's not basic, so cards such as Tend the Sprigs can't find it, but it does have the appropriate land types for effects such as that of Kishla Village (from the Tarkir: Dragonstorm release).
+Ruling (2026-10-07): If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
+Ruling (2026-10-07): This land has two basic land types. It's not basic, so cards such as Final Frontier can't find it, but it does have the appropriate land types for effects such as that of Kishla Village (from the Tarkir: Dragonstorm release).
 
 ## Hallowed Ground
 Cost: {1}{w} | Type: Enchantment | Color identity: W | Commander: legal
@@ -2444,6 +2461,7 @@ Ruling (2013-04-15): If you cast this as normal during your main phase, it will 
 ## He's Dead, Jim
 Cost: {3}{b} | Type: Instant | Color identity: B | Commander: legal
 Text: Destroy target creature. Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+Ruling (2026-10-07): If the target creature is an illegal target as He's Dead, Jim tries to resolve, it won't resolve and none of its effects will happen. You won't surveil.
 
 ## Head Games
 Cost: {3}{b}{b} | Type: Sorcery | Color identity: B | Commander: legal
@@ -5334,6 +5352,11 @@ Text: This land enters tapped.
 Cost: {1}{u} | Type: Instant | Color identity: U | Commander: legal
 Text: Kicker {1}{U} (You may pay an additional {1}{U} as you cast this spell.)
   Counter target spell with mana value 2 or less. If this spell was kicked, instead counter target spell.
+Ruling (2026-10-07): If Highly Illogical is kicked, it can target any spell, not just a spell with mana value 2 or less.
+Ruling (2026-10-07): If a spell on the stack has {X} in its mana cost, use the value of X to determine its mana value.
+Ruling (2026-10-07): If a spell's kicker cost was paid, the spell is "kicked."
+Ruling (2026-10-07): If you copy a kicked spell on the stack, the copy is also kicked.
+Ruling (2026-10-07): The kicker ability doesn't let you pay a kicker cost more than once.
 
 ## Highspire Artisan
 Cost: {2}{g} | Type: Creature — Elf Artificer | Color identity: G | P/T: 0/3 | Commander: legal
@@ -5658,6 +5681,8 @@ Ruling (2022-12-08): To cast a split card, choose one of its halves to cast. The
 Cost: {1}{r}{g} | Type: Enchantment | Color identity: GR | Commander: legal
 Text: Creatures you control have haste.
   When this enchantment enters, look at the top five cards of your library. Put a land card from among them onto the battlefield tapped and the rest into your graveyard.
+Ruling (2026-10-07): Although cards are going from the top of your library to your graveyard, this is not a "mill" effect and other cards that care about you milling cards won't interact with Hit It!
+Ruling (2026-10-07): Hit It! has received a minor update to its Oracle wording to specify the cards are revealed in the last ability. The corrected wording appears above. If there is at least one land card among the top five cards of your library, you must put one onto the battlefield.
 
 ## Hit the Mother Lode
 Cost: {4}{r}{r}{r} | Type: Sorcery | Color identity: R | Commander: legal
@@ -6111,10 +6136,13 @@ Ruling (2008-05-01): If Hollowsage becomes untapped during your untap step, the 
 Cost: {2}{g}{g} | Type: Creature — Human Artificer | Color identity: G | P/T: 3/3 | Commander: legal
 Text: When this creature enters, create a 3/3 colorless Illusion artifact creature token.
   If one or more tokens would be created under your control, that many 3/3 colorless Illusion artifact creature tokens are created instead.
+Ruling (2026-10-07): If an effect changes under whose control a token would be created, that effect applies before the effect of Holo-Engineer's last ability applies. If an effect changes under whose control a token would enter the battlefield, that effect applies after the effect of Holo-Engineer's last ability is able to be applied.
+Ruling (2026-10-07): The token's characteristics are entirely replaced by a 3/3 colorless Illusion artifact creature token. It doesn't have any abilities the token would have been created with. Anything else specified in the effect creating the token (such as tapped, attacking, "That token gains haste," or "Exile that token at end of combat") still applies.
 
 ## Hologram Janeway
 Cost: {2}{w} | Type: Legendary Artifact Creature — Illusion Officer | Color identity: W | P/T: 3/3 | Commander: legal
 Text: Whenever you attack while creatures you control have total power 8 or greater, put a +1/+1 counter on target creature.
+Ruling (2026-10-07): If creatures you controlled had total power 8 or greater at the time you finished declaring attackers, it doesn't matter what the total power of creatures you control is when Hologram Janeway's ability resolves. You'll still put a +1/+1 counter on the target creature.
 
 ## Hologram Stalker
 Cost: {4}{g}{g} | Type: Creature — Hirogen Warrior | Color identity: G | P/T: 2/2 | Commander: legal
@@ -7050,6 +7078,8 @@ Text: Trample
 ## Hoshi Sato, Exolinguist
 Cost: {4}{u} | Type: Legendary Creature — Human Scientist | Color identity: U | P/T: 3/3 | Commander: legal
 Text: Federation — When Hoshi Sato enters, look at the top X cards of your library, where X is the number of creature types among non-Borg creatures you control. Put one of them into your hand and the rest on the bottom of your library in a random order.
+Ruling (2026-10-07): Don't consider Borg creatures at all when counting creature types for federation abilities, even if they have additional creature types. However, a Borg having another creature type doesn't mean that type can't be counted, as long as a non-Borg also has it. For example, if you control a Borg Noble and a Human Noble, the number of creature types among non-Borg creatures you control is two (Human and Noble).
+Ruling (2026-10-07): The value of X is calculated only once, as Hoshi Sato's last ability resolves.
 
 ## Hospital Room
 Cost: {3}{w} | Type: Enchantment — Room | Color identity: W | Commander: legal
@@ -7628,6 +7658,7 @@ Ruling (2018-06-08): You may reveal a card with assist and discuss how to pay fo
 ## Hugh, First of Many
 Cost: {1}{w}{u}{b} | Type: Legendary Artifact Creature — Borg | Color identity: BUW | P/T: 3/4 | Commander: legal
 Text: Artifact spells you cast have replicate {2}{U}. (Whenever you cast an artifact spell, copy it for each time you paid its replicate cost. Each copy becomes a token.)
+Ruling (2026-10-07): A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with replicate won't affect the copies.
 
 ## Hugs, Grisly Guardian
 Cost: {x}{r}{r}{g}{g} | Type: Legendary Creature — Badger Warrior | Color identity: GR | P/T: 5/5 | Commander: legal

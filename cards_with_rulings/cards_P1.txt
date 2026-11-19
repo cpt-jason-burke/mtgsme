@@ -144,6 +144,12 @@ Ruling (2016-09-20): If you don't control an artifact with the highest mana valu
 Ruling (2016-09-20): If you no longer control an artifact with the highest mana value as Padeem's triggered ability resolves, you don't draw a card.
 Ruling (2016-09-20): The artifact you control has to have the highest mana value only among artifacts on the battlefield, not among all permanents on the battlefield.
 
+## Padishah Emperor Shaddam IV
+Cost: {5}{b}{b} | Type: Legendary Creature — Human Noble | Color identity: B | P/T: 2/4 | Commander: legal
+Text: When Padishah Emperor Shaddam IV enters, you become the monarch.
+  Whenever another nontoken creature dies while you're the monarch, you may pay 1 life. If you do, create a Treasure token.
+  At the beginning of your end step, destroy target creature with the greatest power among creatures your opponents control.
+
 ## Page, Loose Leaf
 Cost: {2} | Type: Legendary Artifact Creature — Construct | Color identity: colorless | P/T: 0/2 | Commander: legal
 Text: {T}: Add {C}.
@@ -153,6 +159,8 @@ Text: {T}: Add {C}.
 Cost: {5}{r}{r} | Type: Creature — Wraith | Color identity: R | P/T: 4/4 | Commander: legal
 Text: First strike, haste
   Strange new worlds — Whenever this creature attacks, creatures you control get +X/+0 until end of turn, where X is the number of differently named lands you control.
+Ruling (2026-10-07): The value of X is calculated only once, as Pah-Wraith's last ability resolves.
+Ruling (2026-10-07): To determine the number of differently named lands you control, count each land you control once, but only if its English name isn't exactly the same as another land you've already counted this way.
 
 ## Pain
 Cost: {b} | Type: Sorcery | Color identity: BR | Commander: legal
@@ -1718,6 +1726,12 @@ Ruling (2004-10-04): Since the cost does not include the {T} symbol, it can tap 
 Cost: {1}{b} | Type: Sorcery | Color identity: B | Commander: legal
 Text: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.
   Beam me up {1}{B} (You may cast this card from your graveyard for {1}{B} if you also return a creature you control to its owner's hand. Then exile this spell.)
+Ruling (2026-10-07): "Beam me up [cost]" means "You may cast this card from your graveyard by paying [cost] and returning a creature you control to its owner's hand rather than paying its mana cost" and "If the beam me up cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+Ruling (2026-10-07): A spell cast using beam me up will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+Ruling (2026-10-07): If a card with beam me up is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+Ruling (2026-10-07): To determine the total cost of a spell, start with the mana cost or alternative cost (such as a beam me up cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+Ruling (2026-10-07): You can cast a spell using beam me up even if it was somehow put into your graveyard without having been cast.
+Ruling (2026-10-07): You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using beam me up only when you could normally cast a sorcery.
 
 ## Pattern Matcher
 Cost: {4} | Type: Artifact Creature — Golem | Color identity: colorless | P/T: 3/3 | Commander: legal
@@ -1731,6 +1745,12 @@ Text: Enchant creature
   When enchanted creature dies, that creature's controller may search their library for a creature card, put that card onto the battlefield, then shuffle.
 Ruling (2004-10-04): Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
 Ruling (2004-10-04): Searching for a creature card is optional.
+
+## Paul Atreides, Ducal Heir
+Cost: {1}{w} | Type: Legendary Creature Human Noble | Color identity: W | P/T: 1/2 | Commander: legal
+Text: Vigilance
+  Training (Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.)
+  {T}: Put a +1/+1 counter on each other creature you control. Activate only if Paul Atreides's power is 4 or greater.
 
 ## Paupers' Cage
 Cost: {3} | Type: Artifact | Color identity: colorless | Commander: legal
@@ -1750,6 +1770,9 @@ Ruling (2024-01-12): You can tap any untapped creature you control to convoke a 
 ## Pavel Chekov, First Posting
 Cost: {2}{g}{u} | Type: Legendary Creature — Human Pilot | Color identity: GU | P/T: 1/4 | Commander: legal
 Text: If you would draw a card, you may instead choose land or nonland and reveal cards from the top of your library until you reveal a card of the chosen kind. Put that card into your hand and put all other cards revealed this way on the bottom of your library in a random order.
+Ruling (2026-10-07): If an effect would cause you to draw multiple cards while you control Pavel Chekov, each individual draw may be replaced by Pavel Chekov's effect. For each of those draws, you can choose whether or not to apply the replacement effect, and you'll choose land or nonland for each draw you replace. You don't have to make the same choices for every draw.
+Ruling (2026-10-07): If no card of the chosen type is found in your library, you don't get a card. You'll just randomize your library after revealing each of the cards in it.
+Ruling (2026-10-07): If your library is empty, you can still choose to replace card draws with Pavel Chekov's effect. You won't put any cards into your hand, but you won't draw a card and thus won't lose the game for drawing a card while your library is empty.
 
 ## Pavel Maliki
 Cost: {4}{b}{r} | Type: Legendary Creature — Human | Color identity: BR | P/T: 5/3 | Commander: legal
@@ -1803,6 +1826,8 @@ Ruling (2004-10-04): Must target two different enchantments.
 Cost: {3}{w} | Type: Enchantment | Color identity: W | Commander: legal
 Text: At the beginning of combat on each player's turn, that player may draw a card. If they do, they can't attack this turn and you put a peace counter on this enchantment.
   At the beginning of your upkeep, if this enchantment has twelve or more peace counters on it, you win the game.
+Ruling (2026-10-07): If Peace in Our Time's last ability triggers but Peace in Our Time leaves the battlefield before that ability resolves, use the number of counters it had on it when it was last on the battlefield to determine whether or not the ability resolves.
+Ruling (2026-10-07): Peace in Our Time's last ability will check as your upkeep starts to see if Peace in Our Time has twelve or more peace counters on it. If it doesn't, the ability won't trigger at all. If it does trigger, the ability will check again as it tries to resolve. If Peace in Our Time doesn't have twelve or more peace counters on it at that time, the ability won't resolve and none of its effects will happen.
 
 ## Peace of Mind
 Cost: {1}{w} | Type: Enchantment | Color identity: W | Commander: legal
@@ -2919,6 +2944,10 @@ Text: Reach
 ## Pet Sehlat
 Cost: {2}{w} | Type: Creature — Bear | Color identity: W | P/T: 4/3 | Commander: legal
 Text: This creature can't attack alone.
+Ruling (2026-10-07): Although Pet Sehlat can't attack alone, other attacking creatures don't have to attack the same player, planeswalker, or battle. For example, Pet Sehlat could attack an opponent and another creature could attack a planeswalker that opponent controls.
+Ruling (2026-10-07): If a creature that can't attack alone also must attack if able, its controller must attack with it and another creature if able.
+Ruling (2026-10-07): If you control more than one creature that can't attack alone, they can attack together, even if no other creatures attack.
+Ruling (2026-10-07): Pet Sehlat can be declared as an attacker only if another creature is declared as an attacker at the same time. Once it's attacking, removing the other creature won't cause Pet Sehlat to stop attacking.
 
 ## Petalmane Baku
 Cost: {1}{g} | Type: Creature — Spirit | Color identity: G | P/T: 1/2 | Commander: legal
@@ -4288,6 +4317,7 @@ Text: Whenever Pianna attacks, attacking creatures get +1/+1 until end of turn.
 ## Picard, Leading by Example
 Cost: {1}{w} | Type: Legendary Creature — Human Officer | Color identity: W | P/T: 2/2 | Commander: legal
 Text: {1}, {T}: Another target creature gets +X/+X until end of turn, where X is Picard's power. Activate only as a sorcery.
+Ruling (2026-10-07): The value of X is calculated only once, as Picard's ability resolves. If Picard is no longer on the battlefield at that time, use his power as he last existed on the battlefield to determine the value of X.
 
 ## Picard, Steadfast Captain
 Cost: {4}{w}{w} | Type: Legendary Creature — Human Officer | Color identity: W | P/T: 4/4 | Commander: legal
@@ -5501,6 +5531,7 @@ Cost: {8} | Type: Artifact Creature — Construct | Color identity: colorless | 
 Text: Flying, indestructible
   This creature attacks each combat if able.
   Whenever this creature deals combat damage to a player, put a +1/+1 counter on it for each land that player controls.
+Ruling (2026-10-07): If Planet Killer can't attack for any reason (such as being tapped or having come under your control that turn), then it doesn't attack. If there's a cost associated with having it attack, you're not forced to pay that cost, so it doesn't have to attack in that case either.
 
 ## Planetarium of Wan Shi Tong
 Cost: {6} | Type: Legendary Artifact | Color identity: colorless | Commander: legal
@@ -5522,6 +5553,9 @@ Text: Planetary Bombardment deals 2 damage to target creature. Planetary Bombard
 ## Planetary Patrol
 Cost: {1}{r} | Type: Creature — Scout | Color identity: R | P/T: 2/2 | Commander: legal
 Text: Landfall — Whenever a land you control enters, this creature gets +1/+1 until end of turn.
+Ruling (2026-10-07): A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+Ruling (2026-10-07): A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+Ruling (2026-10-07): Whenever a land you control enters, each landfall ability of permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve (as a result, you can have those abilities resolve in the order of your choosing).
 
 ## Planewide Celebration
 Cost: {5}{g}{g} | Type: Sorcery | Color identity: G | Commander: legal
@@ -7989,6 +8023,7 @@ Ruling (2026-03-20): Primary Research's last ability will check as your end step
 ## Primary Unimatrix Adjunct
 Cost: {3}{w} | Type: Artifact Creature — Borg | Color identity: W | P/T: 2/3 | Commander: legal
 Text: Artifact creatures you control have double strike.
+Ruling (2026-10-07): If a creature loses double strike after assigning combat damage in the first-strike combat damage step (perhaps because Primary Unimatrix Adjunct left the battlefield), that creature won't assign combat damage in the normal combat damage step.
 
 ## Prime Speaker Vannifar
 Cost: {2}{g}{u} | Type: Legendary Creature — Elf Ooze Wizard | Color identity: GU | P/T: 2/4 | Commander: legal
@@ -8191,6 +8226,12 @@ Text: Whenever a permanent an opponent controls is put into a graveyard, put tha
 Ruling (2008-10-01): If the ability triggers and your opponent chooses not to pay 3 life, you must return the card to the battlefield, even if you don't want to.
 Ruling (2008-10-01): If the permanent that caused the ability to trigger leaves the graveyard before the ability resolves (because it's a token and it ceased to exist, or because a spell or ability removed it from the graveyard), the ability will still resolve. The opponent will have the option to pay 3 life. But whether or not that player pays the life, nothing will be returned to the battlefield.
 Ruling (2008-10-01): It doesn't matter whose graveyard the permanent is put into as long as an opponent controlled it when it last existed on the battlefield.
+
+## Princess Irulan Corrino
+Cost: {1}{w}{u}{b} | Type: Legendary Creature — Human Noble Advisor | Color identity: BUW | P/T: 3/3 | Commander: legal
+Text: Whenever you draw your second card each turn, you gain 2 life.
+  Whenever an opponent draws their second card each turn, they lose 2 life.
+  {T}: You and target opponent each draw two cards.
 
 ## Princess Lucrezia
 Cost: {3}{u}{u}{b} | Type: Legendary Creature — Human Wizard | Color identity: BU | P/T: 5/4 | Commander: legal
@@ -10250,6 +10291,14 @@ Ruling (2022-12-08): To cast a split card, choose one of its halves to cast. The
 Cost: {1}{w} | Type: Sorcery | Color identity: W | Commander: legal
 Text: Distribute two +1/+1 counters among one or two target creatures.
   Beam me up {2}{W} (You may cast this card from your graveyard for {2}{W} if you also return a creature you control to its owner's hand. Then exile this spell.)
+Ruling (2026-10-07): "Beam me up [cost]" means "You may cast this card from your graveyard by paying [cost] and returning a creature you control to its owner's hand rather than paying its mana cost" and "If the beam me up cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+Ruling (2026-10-07): A spell cast using beam me up will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+Ruling (2026-10-07): If a card with beam me up is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+Ruling (2026-10-07): If you choose two targets for Pure Energy, and only one of the creatures remains a legal target as the spell tries to resolve, the original distribution of counters applies and the counter that would have been put on the illegal target is lost. It won't be put on the remaining legal target.
+Ruling (2026-10-07): To determine the total cost of a spell, start with the mana cost or alternative cost (such as a beam me up cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+Ruling (2026-10-07): You can cast a spell using beam me up even if it was somehow put into your graveyard without having been cast.
+Ruling (2026-10-07): You choose the number of targets and how the counters will be distributed as you cast Pure Energy. Each target must receive at least one counter.
+Ruling (2026-10-07): You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using beam me up only when you could normally cast a sorcery.
 
 ## Pure Intentions
 Cost: {w} | Type: Instant — Arcane | Color identity: W | Commander: legal

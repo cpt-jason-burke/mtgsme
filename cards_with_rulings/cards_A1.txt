@@ -1027,6 +1027,7 @@ Text: This creature enters with X +1/+1 counters on it, where X is the number of
 Cost: {2}{r} | Type: Creature — Bolian Officer | Color identity: R | P/T: 0/3 | Commander: legal
 Text: This creature gets +1/+0 for each Officer token you control.
   Whenever you cast a noncreature spell, create a 1/1 red Officer creature token.
+Ruling (2026-10-07): Academy Instructor's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
 
 ## Academy Journeymage
 Cost: {4}{u} | Type: Creature — Human Wizard | Color identity: U | P/T: 3/2 | Commander: legal
@@ -1915,6 +1916,12 @@ Text: Look at the top three cards of your library. You may reveal a creature or 
 Cost: {2}{g} | Type: Sorcery | Color identity: G | Commander: legal
 Text: Create a 3/3 colorless Illusion artifact creature token.
   Beam me up {3}{G} (You may cast this card from your graveyard for {3}{G} if you also return a creature you control to its owner's hand. Then exile this spell.)
+Ruling (2026-10-07): "Beam me up [cost]" means "You may cast this card from your graveyard by paying [cost] and returning a creature you control to its owner's hand rather than paying its mana cost" and "If the beam me up cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+Ruling (2026-10-07): A spell cast using beam me up will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+Ruling (2026-10-07): If a card with beam me up is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+Ruling (2026-10-07): To determine the total cost of a spell, start with the mana cost or alternative cost (such as a beam me up cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+Ruling (2026-10-07): You can cast a spell using beam me up even if it was somehow put into your graveyard without having been cast.
+Ruling (2026-10-07): You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using beam me up only when you could normally cast a sorcery.
 
 ## Adverse Conditions
 Cost: {3}{u} | Type: Instant | Color identity: U | Commander: legal
@@ -4654,6 +4661,8 @@ Text: Whenever Alex Wilder or another creature you control enters, if you cast i
 Cost: {3}{r}{w} | Type: Legendary Creature — Klingon Human | Color identity: RW | P/T: 3/5 | Commander: legal
 Text: Vigilance, haste
   {T}: Each player reveals the top card of their library, then draws a card. Alexander deals X damage to a random opponent, where X is the greatest mana value among cards revealed this way.
+Ruling (2026-10-07): Except in some very unusual cases, the card each player reveals is the one they'll draw.
+Ruling (2026-10-07): If a card in a library has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
 
 ## Alexi's Cloak
 Cost: {1}{u} | Type: Enchantment — Aura | Color identity: U | Commander: legal
@@ -4857,6 +4866,8 @@ Cost: {3}{g}{u} | Type: Enchantment — Saga | Color identity: GU | Commander: l
 Text: (As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)
   I, II, III — Draw two cards, then exile a card from your hand.
   IV — If all cards exiled with this Saga share a card type, you gain 10 life.
+Ruling (2026-10-07): As the chapter IV ability resolves, check whatever cards are exiled with this Saga to determine if they all share a card type, even if that's fewer than three cards (perhaps because one or more exiled cards left exile or three cards were never exiled in the first place). You'll gain 10 life if there's only one exiled card, as it will share a card type with itself. If there are no exiled cards, you will also gain 10 life. (Consult your science officer if you are interested in more details concerning vacuously true statements.)
+Ruling (2026-10-07): The card types in Magic include artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Legendary, basic, and snow are supertypes, not card types; Vulcan, Spacecraft, and Planet are subtypes, not card types.
 
 ## All Hallow's Eve
 Cost: {2}{b}{b} | Type: Sorcery | Color identity: B | Commander: legal
@@ -5569,6 +5580,10 @@ Ruling (2023-11-10): The instruction for Amalia Benavides Aguirre to explore and
 Cost: {3}{g} | Type: Legendary Creature — Human Advisor | Color identity: G | P/T: 2/3 | Commander: legal
 Text: Affinity for Vulcans (This spell costs {1} less to cast for each Vulcan you control.)
   Landfall — Whenever a land you control enters, put two +1/+1 counters on target creature you control.
+Ruling (2026-10-07): A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+Ruling (2026-10-07): A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+Ruling (2026-10-07): To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+Ruling (2026-10-07): Whenever a land you control enters, each landfall ability of permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve (as a result, you can have those abilities resolve in the order of your choosing).
 
 ## Amarant Coral
 Cost: {2}{r}{g} | Type: Legendary Creature — Human Monk | Color identity: GR | P/T: 5/4 | Commander: legal
@@ -5635,6 +5650,7 @@ Ruling (2025-09-19): While a double-faced card isn't on the stack or battlefield
 Cost: {2}{w} | Type: Legendary Creature — Klingon Human Advisor | Color identity: W | P/T: 2/2 | Commander: legal
 Text: Vigilance
   Parley — At the beginning of combat on your turn, each player reveals the top card of their library, then draws a card. For each nonland card revealed this way, put a +1/+1 counter on Ambassador K'Ehleyr.
+Ruling (2026-10-07): Except in some very unusual cases, the card each player reveals is the one they'll draw.
 
 ## Ambassador Laquatus
 Cost: {1}{u}{u} | Type: Legendary Creature — Merfolk Wizard | Color identity: U | P/T: 1/3 | Commander: legal
@@ -5765,6 +5781,7 @@ Ruling (2023-02-04): You don't choose a target for Ambulatory Edifice's last abi
 ## Ambulatory Reactor
 Cost: {3}{u} | Type: Artifact Creature — Borg | Color identity: U | P/T: 2/5 | Commander: legal
 Text: Artifact creatures you control have "{T}: Add {C}. Spend this mana only to cast an artifact spell or activate an ability of an artifact source."
+Ruling (2026-10-07): An "artifact source" is any object with the card type artifact. This means you could spend the mana to activate an ability of an artifact you control or an artifact card in your hand or graveyard, for example.
 
 ## Ambuscade
 Cost: {2}{g} | Type: Instant | Color identity: G | Commander: legal
@@ -6698,6 +6715,7 @@ Cost: — | Type: Land — Planet | Color identity: RU | Commander: legal
 Text: This land enters tapped.
   When this land enters, you gain 1 life.
   {T}: Add {U} or {R}.
+Ruling (2026-10-07): Planet is a land subtype with no special meaning. It doesn't grant the land any intrinsic abilities.
 
 ## Andradite Leech
 Cost: {2}{b} | Type: Creature — Leech | Color identity: B | P/T: 2/2 | Commander: legal
@@ -7849,6 +7867,8 @@ Ruling (2009-10-01): While Anthroplasm does become 0/0 for a moment while its ab
 ## Anthropological Mission
 Cost: {2}{u} | Type: Enchantment | Color identity: U | Commander: legal
 Text: Whenever you cast a noncreature spell, put a quest counter on this enchantment. Draw a card. Then discard a card unless this enchantment has three or more quest counters on it.
+Ruling (2026-10-07): Anthropological Mission's ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
+Ruling (2026-10-07): If Anthropological Mission isn't on the battlefield as its ability resolves, use the number of quest counters it had on it before it left the battlefield to determine whether or not you discard a card, noting that you won't be able to put another quest counter on it for that time the ability resolves.
 
 ## Anti-Magic Aura
 Cost: {2}{u} | Type: Enchantment — Aura | Color identity: U | Commander: legal
@@ -12201,6 +12221,7 @@ Text: Counter target creature or battle spell unless its controller pays {4}. If
 ## Assimilate the Wounded
 Cost: {2}{b} | Type: Instant | Color identity: B | Commander: legal
 Text: For each opponent, assimilate up to one target creature card from that player's graveyard that was put there from the battlefield this turn. (Put it onto the battlefield under your control with a +1/+1 counter. It's a Borg artifact creature and loses all other creature types.)
+Ruling (2026-10-07): The assimilated creature or creature card loses any other creature types it has, but it keeps any other supertypes, types, and subtypes it has. For example, if a Dryad Arbor (a Land Creature – Forest Dryad) is assimilated, it will be an Artifact Land Creature – Forest Borg.
 
 ## Assimilation Aegis
 Cost: {1}{w}{u} | Type: Artifact — Equipment | Color identity: UW | Commander: legal
@@ -12219,6 +12240,7 @@ Ruling (2024-04-12): When the creature Assimilation Aegis is attached to becomes
 Cost: {4}{b} | Type: Artifact Creature — Borg | Color identity: B | P/T: 5/5 | Commander: legal
 Text: When this creature enters, exile target opponent's graveyard.
   Whenever this creature attacks, assimilate a creature card exiled with it. (Put it onto the battlefield under your control with a +1/+1 counter. It's a Borg artifact creature and loses all other creature types.)
+Ruling (2026-10-07): The assimilated creature or creature card loses any other creature types it has, but it keeps any other supertypes, types, and subtypes it has. For example, if a Dryad Arbor (a Land Creature – Forest Dryad) is assimilated, it will be an Artifact Land Creature – Forest Borg.
 
 ## Assure
 Cost: {g/w}{g/w} | Type: Instant | Color identity: GW | Commander: legal
@@ -12360,6 +12382,7 @@ Ruling (2025-06-06): You may pay the Equipment's equip cost as normal to move it
 ## Astute Terraformer
 Cost: {1}{g} | Type: Creature — Vulcan Scientist | Color identity: G | P/T: 2/2 | Commander: legal
 Text: Strange new worlds — {6}: This creature gets +2/+2 until end of turn. This ability costs {X} less to activate, where X is the number of differently named lands you control. Activate only once each turn.
+Ruling (2026-10-07): To determine the number of differently named lands you control, count each land you control once, but only if its English name isn't exactly the same as another land you've already counted this way.
 
 ## Aswan Jaguar
 Cost: {1}{g}{g} | Type: Summon Jaguar | Color identity: G | P/T: 2/2 | Commander: legal
