@@ -412,7 +412,7 @@ Steps: Activate Ley Weaver by tapping it, untapping two lands, including one tha
 
 ## Combo 1606-3510-4486
 Cards: Life and Limb + Ley Weaver + Mirror Entity
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}
 Produces: Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinitely large creatures you control until end of turn; Infinite untap of lands you control; Infinite untap of creatures you control
 Start: Life and Limb (battlefield); Ley Weaver (battlefield); Mirror Entity (battlefield)
 Prerequisites: Ley Weaver does not have summoning sickness.
@@ -1688,6 +1688,20 @@ Steps: Activate Scrapbasket by paying {1}, making it all colors until end of tur
   Activate Seedcradle Witch by paying {2}{W}{G}, giving Bloom Tender +3/+3 until end of turn and untapping it.
   Repeat from step 2.
 
+## Combo 1767-3678-6879
+Cards: Retreat to Emeria + Haru, Hidden Talent + Gateway Plaza
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite creature tokens; Infinite lifegain; Infinite lifegain triggers; Infinite creature ETB; Infinite landfall triggers
+Start: Retreat to Emeria (battlefield); Haru, Hidden Talent (battlefield); Gateway Plaza (hand)
+Prerequisites: You are able to play a land this turn.
+Steps: Play Gateway Plaza.
+  When Gateway Plaza enters, it and Retreat to Emeria trigger.
+  Resolve the Retreat to Emeria trigger, creating a 1/1 Kor Ally creature token.
+  When the Kor Ally enters, Haru triggers, earthbending Gateway Plaza.
+  Resolve the Gateway Plaza trigger from step 2, causing you to sacrifice it
+  Haru triggers, returning Gateway Plaza from your graveyard to the battlefield.
+  Repeat from step 2.
+
 ## Combo 1768-2034--5
 Cards: Juniper Order Ranger + Ashnod's Altar
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1200 | Commander: legal
@@ -2629,7 +2643,7 @@ Steps: Gain life.
 
 ## Combo 1874-4186-7743
 Cards: Ajani's Welcome + Scurry Oak + Heroic Feast
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 65 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 66 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Start: Ajani's Welcome (battlefield); Scurry Oak (battlefield); Heroic Feast (battlefield)
 Prerequisites: You have a way to gain life.
@@ -2802,7 +2816,7 @@ Steps: Activate Ashnod's Altar by sacrificing Martyr for the Cause, adding {C}{C
 
 ## Combo 1887-2060-3726-4929
 Cards: Shalai, Voice of Plenty + Crystalline Crawler + Cryptic Trilobite + Vorinclex, Monstrous Raider
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal | Mana needed: {4}{G}{G}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal | Mana needed: {4}{G}{G}
 Produces: Infinite +1/+1 counters on most creatures you control
 Start: Shalai, Voice of Plenty (battlefield); Crystalline Crawler (battlefield); Cryptic Trilobite (battlefield); Vorinclex, Monstrous Raider (battlefield)
 Steps: Activate Shalai by paying {4}{G}{G}, putting two +1/+1 counters on each creature you control.
@@ -3047,7 +3061,7 @@ Steps: Activate Phyrexian Altar by sacrificing Martyr for the Cause, adding one 
 
 ## Combo 1887-4365-4636-5770
 Cards: Vorinclex, Monstrous Raider + Architect of the Untamed + Gonti's Aether Heart + Mondrak, Glory Dominus
-Color identity: GW | Bracket: 2+ (Core) | Popularity: 1 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite creature tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite creature ETB
 Start: Vorinclex, Monstrous Raider (battlefield); Architect of the Untamed (battlefield); Gonti's Aether Heart (battlefield); Mondrak, Glory Dominus (battlefield)
 Prerequisites: You have at least eight {E}.
@@ -3057,7 +3071,7 @@ Steps: Activate Architect of the Untamed by paying eight {E}, creating two 6/6 B
 
 ## Combo 1887-4636-5391
 Cards: Automated Assembly Line + Gonti's Aether Heart + Vorinclex, Monstrous Raider
-Color identity: GW | Bracket: 2+ (Core) | Popularity: 35 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
 Produces: Infinite creature tokens; Infinite energy counters; Infinite creature ETB
 Start: Automated Assembly Line (battlefield); Gonti's Aether Heart (battlefield); Vorinclex, Monstrous Raider (battlefield)
 Prerequisites: You have at least {E}{E}{E}.
@@ -3067,7 +3081,7 @@ Steps: Activate Automated Assembly Line by paying {E}{E}{E}, creating a 3/3 Robo
 
 ## Combo 1887-4636-5770-6441
 Cards: Vorinclex, Monstrous Raider + Architect of the Untamed + Gonti's Aether Heart + Elspeth, Storm Slayer
-Color identity: GW | Bracket: 2+ (Core) | Popularity: 1 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite creature tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite creature ETB
 Start: Vorinclex, Monstrous Raider (battlefield); Architect of the Untamed (battlefield); Gonti's Aether Heart (battlefield); Elspeth, Storm Slayer (battlefield)
 Prerequisites: You have at least eight {E}.
@@ -3077,7 +3091,7 @@ Steps: Activate Architect of the Untamed by paying eight {E}, creating two 6/6 B
 
 ## Combo 1887-4636-5770-6753
 Cards: Vorinclex, Monstrous Raider + Architect of the Untamed + Gonti's Aether Heart + Exalted Sunborn
-Color identity: GW | Bracket: 2+ (Core) | Popularity: 0 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite creature ETB
 Start: Vorinclex, Monstrous Raider (battlefield); Architect of the Untamed (battlefield); Gonti's Aether Heart (battlefield); Exalted Sunborn (battlefield)
 Prerequisites: You have at least eight {E}.
@@ -3383,7 +3397,7 @@ Notes: Once you have infinite mana, you may activate Mirror Entity to make your 
 
 ## Combo 1909-4486-5457
 Cards: Wirewood Symbiote + Mirror Entity + Selvala, Eager Trailblazer
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 69 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 70 | Commander: legal
 Produces: Infinite colored mana; Infinitely large creatures you control until end of turn; Infinite creature LTB; Infinite creature ETB; Infinite storm count
 Start: Wirewood Symbiote (hand); Mirror Entity (battlefield); Selvala, Eager Trailblazer (battlefield)
 Prerequisites: Selvala does not have summoning sickness. You control at least one creature with boosted power.
@@ -3471,7 +3485,7 @@ Steps: Activate Joraga Treespeaker by tapping it, adding {G}{G}.
 
 ## Combo 1909-4486-5833
 Cards: Wirewood Symbiote + Mirror Entity + Leafkin Druid
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite storm count
 Start: Wirewood Symbiote (hand); Mirror Entity (battlefield); Leafkin Druid (battlefield)
 Prerequisites: Leafkin Druid does not have summoning sickness. You control four or more creatures.
@@ -3772,7 +3786,7 @@ Notes: Due to differences in card templating between the various banisher effect
 
 ## Combo 1916-2034-4681
 Cards: Changeling Titan + Karmic Guide + Ashnod's Altar
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 33 | Commander: legal | Mana needed: {4}{G}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal | Mana needed: {4}{G}
 Produces: Infinite colorless mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Changeling Titan (hand); Karmic Guide (battlefield); Ashnod's Altar (battlefield)
 Steps: Cast Changeling Titan by paying {4}{G}.
@@ -4568,7 +4582,7 @@ Steps: Activate Tromell by paying {1} and tapping it, causing you to put at leas
 
 ## Combo 1995-3043
 Cards: Gauntlets of Light + Axebane Guardian
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 460 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 450 | Commander: legal
 Produces: Infinite colored mana
 Start: Gauntlets of Light (battlefield: attached to Axebane Guardian); Axebane Guardian (battlefield: without summoning sickness)
 Prerequisites: You control at least four creatures with defender.
@@ -4610,7 +4624,7 @@ Steps: Activate Avatar Kyoshi by tapping it, adding at least {W}{W}{W}{W}{W}
 
 ## Combo 1995-7203
 Cards: Gauntlets of Light + Brigid, Clachan's Heart // Brigid, Doun's Mind
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 630 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 640 | Commander: legal
 Produces: Infinite green mana; Infinite white mana
 Start: Gauntlets of Light (battlefield: attached to Brigid); Brigid, Clachan's Heart // Brigid, Doun's Mind (battlefield: without summoning sickness)
 Prerequisites: You control at least four other creatures
@@ -4638,7 +4652,7 @@ Steps: Activate Doc Samson by tapping it, adding at least {W}{W}{W}{W}
 
 ## Combo 1995-8190
 Cards: Gauntlets of Light + Loot, the Nexus
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 11 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 13 | Commander: legal
 Produces: Infinite colored mana
 Start: Gauntlets of Light (battlefield: attached to Loot); Loot, the Nexus (battlefield)
 Prerequisites: You control at least four creatures with different powers.
@@ -4854,7 +4868,7 @@ Steps: Because Sandwurm Convergence prevents creatures with flying from attackin
 
 ## Combo 2033-4499--85--92
 Cards: Emiel the Blessed + Citanul Hierophants
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 99 | Commander: legal | Mana needed: {3}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 98 | Commander: legal | Mana needed: {3}
 Produces: Infinite creature tokens with haste; Infinite green mana; Infinite creature ETB; Infinite blinking
 Requires: Creature with "When this creature ETBs, create 2+ creature tokens" (battlefield)
 Requires: Haste Enabler (battlefield)
@@ -6120,7 +6134,7 @@ Steps: Cast Herd Baloth by paying its mana cost.
 
 ## Combo 2034-3197-6012--196
 Cards: Ashnod's Altar + Herd Baloth + Reluctant Role Model
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal
 Produces: Infinite colorless mana; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Gives +1/+1 counter to creatures that enter (battlefield)
 Start: Ashnod's Altar (battlefield); Herd Baloth (hand); Reluctant Role Model (battlefield)
@@ -6711,7 +6725,7 @@ Steps: Cast the creature from your hand by paying {2} or less, causing the creat
 
 ## Combo 2034-4186-6012--196
 Cards: Ashnod's Altar + Scurry Oak + Reluctant Role Model
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 55 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal
 Produces: Infinite colorless mana; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Gives +1/+1 counter to creatures that enter (battlefield)
 Start: Ashnod's Altar (battlefield); Scurry Oak (hand); Reluctant Role Model (battlefield)
@@ -6831,7 +6845,7 @@ Steps: Activate Emiel by paying {3}, exiling Myr Battlesphere and then returning
 
 ## Combo 2034-4499-5790
 Cards: Beza, the Bounding Spring + Emiel the Blessed + Ashnod's Altar
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal | Mana needed: {3}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 32 | Commander: legal | Mana needed: {3}
 Produces: Infinite colored mana; Infinite colorless mana; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite blinking
 Start: Beza, the Bounding Spring (battlefield); Emiel the Blessed (battlefield); Ashnod's Altar (battlefield)
 Prerequisites: An opponent controls more creatures than you.
@@ -7159,7 +7173,7 @@ Notes: One of the {0} cost artifacts must be in your hand with the other on the 
 
 ## Combo 2034-5003-7203
 Cards: Nim Deathmantle + Ashnod's Altar + Brigid, Clachan's Heart // Brigid, Doun's Mind
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal | Mana needed: {2}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal | Mana needed: {2}
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Brigid, Clachan's Heart // Brigid, Doun's Mind (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Brigid, adding {C}{C}.
@@ -7675,7 +7689,7 @@ Steps: Activate Emiel by paying {3}, blinking Boulderbranch Golem.
 
 ## Combo 2060-3062-3726-4929
 Cards: Shalai, Voice of Plenty + Crystalline Crawler + Cryptic Trilobite + Pir, Imaginative Rascal
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal | Mana needed: {4}{G}{G}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal | Mana needed: {4}{G}{G}
 Produces: Infinite +1/+1 counters on most creatures you control
 Start: Shalai, Voice of Plenty (battlefield); Crystalline Crawler (battlefield); Cryptic Trilobite (battlefield); Pir, Imaginative Rascal (battlefield)
 Steps: Activate Shalai by paying {4}{G}{G}, putting two +1/+1 counters on each creature you control.
@@ -7864,7 +7878,7 @@ Steps: Cast Dyadrine from the command zone by paying {G}{W} plus commander tax, 
 
 ## Combo 2060-4153-4772
 Cards: Resourceful Defense + Crystalline Crawler + Doubling Season
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 680 | Commander: legal | Mana needed: {8}{W}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 690 | Commander: legal | Mana needed: {8}{W}{W}
 Produces: Infinite colored mana; Infinite +1/+1 counters on creatures you control
 Start: Resourceful Defense (battlefield); Crystalline Crawler (battlefield); Doubling Season (battlefield)
 Prerequisites: A creature you control besides Crystalline Crawler has at least five +1/+1 counters on it.
@@ -8441,7 +8455,7 @@ Steps: Cast the creature by paying {0}.
 
 ## Combo 2232-5641-5684--1
 Cards: Metastatic Evangel + Cloudstone Curio + Basking Broodscale
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Creature with Mana Cost Equal to {0} (hand)
 Start: Metastatic Evangel (battlefield); Cloudstone Curio (battlefield); Basking Broodscale (battlefield)
@@ -8558,7 +8572,7 @@ Steps: Activate Saffi by sacrificing it, targeting Sun Titan.
 
 ## Combo 2281-3899-4681
 Cards: Saffi Eriksdotter + Spawning Pit + Karmic Guide
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 330 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 320 | Commander: legal
 Produces: Infinite charge counters on a permanent; Infinite creature ETB; Infinite creature LTB; Infinite death triggers
 Start: Saffi Eriksdotter (battlefield); Spawning Pit (battlefield); Karmic Guide (battlefield)
 Steps: Activate Saffi by sacrificing it, targeting Karmic Guide
@@ -8713,7 +8727,7 @@ Steps: Activate Saffi by sacrificing it, targeting Angel of Indemnity
 
 ## Combo 2281-5256-6598
 Cards: Saffi Eriksdotter + General Leo Cristophe + Altar of Dementia
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 47 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 48 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Saffi Eriksdotter (battlefield); General Leo Cristophe (battlefield); Altar of Dementia (battlefield)
 Steps: Activate Saffi by sacrificing it, targeting General Leo Cristophe.
@@ -9938,7 +9952,7 @@ Steps: Activate Triskelavus by paying {1} and removing a +1/+1 counter from it, 
 
 ## Combo 2557-4365-4636-5770
 Cards: Architect of the Untamed + Gonti's Aether Heart + Parallel Lives + Mondrak, Glory Dominus
-Color identity: GW | Bracket: 2+ (Core) | Popularity: 3 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
 Produces: Infinite creature tokens; Infinite energy counters; Infinite creature ETB
 Start: Architect of the Untamed (battlefield); Gonti's Aether Heart (battlefield); Parallel Lives (battlefield); Mondrak, Glory Dominus (battlefield)
 Prerequisites: You have at least eight {E}.
@@ -10026,7 +10040,7 @@ Steps: Cast Kor Skyfisher by paying {1}{W}.
 
 ## Combo 2557-4636-5391
 Cards: Automated Assembly Line + Gonti's Aether Heart + Parallel Lives
-Color identity: GW | Bracket: 2+ (Core) | Popularity: 9 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
 Produces: Infinite tapped creature tokens; Infinite energy counters; Infinite creature ETB
 Start: Automated Assembly Line (battlefield); Gonti's Aether Heart (battlefield); Parallel Lives (battlefield)
 Prerequisites: You have at least {E}{E}{E}.
@@ -10036,7 +10050,7 @@ Steps: Activate Automated Assembly Line by paying {E}{E}{E}, creating two 3/3 Ro
 
 ## Combo 2557-4636-5770-6441
 Cards: Architect of the Untamed + Gonti's Aether Heart + Parallel Lives + Elspeth, Storm Slayer
-Color identity: GW | Bracket: 2+ (Core) | Popularity: 1 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite creature tokens; Infinite energy counters; Infinite creature ETB
 Start: Architect of the Untamed (battlefield); Gonti's Aether Heart (battlefield); Parallel Lives (battlefield); Elspeth, Storm Slayer (battlefield)
 Prerequisites: You have at least eight {E}.
@@ -10046,7 +10060,7 @@ Steps: Activate Architect of the Untamed by paying eight {E}, creating four 6/6 
 
 ## Combo 2557-4636-5770-6753
 Cards: Architect of the Untamed + Gonti's Aether Heart + Parallel Lives + Exalted Sunborn
-Color identity: GW | Bracket: 2+ (Core) | Popularity: 2 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite creature tokens; Infinite energy counters; Infinite creature ETB
 Start: Architect of the Untamed (battlefield); Gonti's Aether Heart (battlefield); Parallel Lives (battlefield); Exalted Sunborn (battlefield)
 Prerequisites: You have at least eight {E}.
@@ -10474,7 +10488,7 @@ Steps: Cast Cryptic Trilobite by paying {0}, causing it to enter the battlefield
 
 ## Combo 2646-5641-6012
 Cards: Basking Broodscale + Bloodspore Thrinax + Reluctant Role Model
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 96 | Commander: legal | Mana needed: {1}{G}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 97 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite colorless mana; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (hand); Bloodspore Thrinax (battlefield: with a +1/+1 counter on it); Reluctant Role Model (battlefield)
 Steps: Cast Basking Broodscale by paying {1}{G}, which enters with a +1/+1 counter on it due to Bloodspore Thrinax.
@@ -12253,7 +12267,7 @@ Steps: Gain life.
 
 ## Combo 2919-2999-4186
 Cards: Archangel of Thune + Impassioned Orator + Scurry Oak
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 85 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature ETB
 Start: Archangel of Thune (battlefield); Impassioned Orator (battlefield); Scurry Oak (battlefield)
 Prerequisites: You have a way to gain life.
@@ -13306,7 +13320,7 @@ Steps: Gain life.
 
 ## Combo 2999-5641-7743
 Cards: Basking Broodscale + Impassioned Orator + Heroic Feast
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Basking Broodscale (battlefield); Impassioned Orator (battlefield); Heroic Feast (battlefield)
 Prerequisites: You have a way to gain life.
@@ -14135,7 +14149,7 @@ Steps: Activate Triskelavus by paying {1} and removing a +1/+1 counter from it, 
 
 ## Combo 3129-4365-4636-5770
 Cards: Architect of the Untamed + Gonti's Aether Heart + Primal Vigor + Mondrak, Glory Dominus
-Color identity: GW | Bracket: 2+ (Core) | Popularity: 1 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite creature tokens; Infinite energy counters; Infinite creature ETB
 Start: Architect of the Untamed (battlefield); Gonti's Aether Heart (battlefield); Primal Vigor (battlefield); Mondrak, Glory Dominus (battlefield)
 Prerequisites: You have at least eight {E}.
@@ -14223,7 +14237,7 @@ Steps: Cast Kor Skyfisher by paying {1}{W}.
 
 ## Combo 3129-4636-5391
 Cards: Automated Assembly Line + Gonti's Aether Heart + Primal Vigor
-Color identity: GW | Bracket: 2+ (Core) | Popularity: 6 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
 Produces: Infinite tapped creature tokens; Infinite creature ETB; Infinite energy counters
 Start: Automated Assembly Line (battlefield); Gonti's Aether Heart (battlefield); Primal Vigor (battlefield)
 Prerequisites: You have at least {E}{E}{E}.
@@ -14233,7 +14247,7 @@ Steps: Activate Automated Assembly Line by paying {E}{E}{E}, creating two 3/3 Ro
 
 ## Combo 3129-4636-5770-6441
 Cards: Architect of the Untamed + Gonti's Aether Heart + Primal Vigor + Elspeth, Storm Slayer
-Color identity: GW | Bracket: 2+ (Core) | Popularity: 1 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite creature tokens; Infinite energy counters; Infinite creature ETB
 Start: Architect of the Untamed (battlefield); Gonti's Aether Heart (battlefield); Primal Vigor (battlefield); Elspeth, Storm Slayer (battlefield)
 Prerequisites: You have at least eight {E}.
@@ -14243,7 +14257,7 @@ Steps: Activate Architect of the Untamed by paying eight {E}, creating four 6/6 
 
 ## Combo 3129-4636-5770-6753
 Cards: Architect of the Untamed + Gonti's Aether Heart + Primal Vigor + Exalted Sunborn
-Color identity: GW | Bracket: 2+ (Core) | Popularity: 0 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite energy counters; Infinite creature ETB
 Start: Architect of the Untamed (battlefield); Gonti's Aether Heart (battlefield); Primal Vigor (battlefield); Exalted Sunborn (battlefield)
 Prerequisites: You have at least eight {E}.
@@ -14301,7 +14315,7 @@ Steps: Activate Gleaming Splendor by paying {2}{W}, causing two opponents to eac
 
 ## Combo 3129-4770-5554
 Cards: Oltec Matterweaver + Whitemane Lion + Primal Vigor
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite artifact ETB; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Oltec Matterweaver (battlefield); Whitemane Lion (hand); Primal Vigor (battlefield)
 Prerequisites: You control at least one Treasure or Gold token.
@@ -16187,7 +16201,7 @@ Steps: Activate Oreskos Sun Guide using Seeker of Skybreak's ability by tapping 
 
 ## Combo 3464-3657-5457
 Cards: Kogla, the Titan Ape + Hyrax Tower Scout + Selvala, Eager Trailblazer
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 53 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal
 Produces: Infinite mana creatures you control can produce; Infinite colored mana; Infinite creature LTB; Infinite creature ETB; Infinite storm count; Infinite untap of creatures you control
 Start: Kogla, the Titan Ape (battlefield); Hyrax Tower Scout (hand); Selvala, Eager Trailblazer (battlefield: without summoning sickness)
 Prerequisites: You control at least five creatures with different powers.
@@ -16200,7 +16214,7 @@ Notes: If you get infinite mana, you can repeat steps 2-5 infinitely to untap an
 
 ## Combo 3464-3657-7203
 Cards: Kogla, the Titan Ape + Hyrax Tower Scout + Brigid, Clachan's Heart // Brigid, Doun's Mind
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 110 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 120 | Commander: legal
 Produces: Infinite mana creatures you control can produce; Infinite green mana; Infinite white mana; Infinite creature ETB; Infinite creature LTB; Infinite storm count; Infinite untap of creatures you control
 Start: Kogla, the Titan Ape (battlefield); Hyrax Tower Scout (battlefield); Brigid, Clachan's Heart // Brigid, Doun's Mind (battlefield: without summoning sickness)
 Prerequisites: You control at least three other creatures
@@ -16426,7 +16440,7 @@ Steps: Cast Kor Skyfisher by paying {E} due to Primal Prayers, if able, or by pa
 
 ## Combo 3484-4770-5674
 Cards: Primal Prayers + Decoction Module + Whitemane Lion
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 59 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 58 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite storm count
 Start: Primal Prayers (battlefield); Decoction Module (battlefield); Whitemane Lion (hand)
 Prerequisites: You have at least {E} or enough mana to cast Whitemane Lion
@@ -16513,7 +16527,7 @@ Steps: Cast Kor Skyfisher by paying {E} due to Primal Prayers, if able, or by pa
 
 ## Combo 3487-4770-5674
 Cards: Primal Prayers + Aetherstorm Roc + Whitemane Lion
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite storm count
 Start: Primal Prayers (battlefield); Aetherstorm Roc (battlefield); Whitemane Lion (hand)
 Prerequisites: You have at least {E} or enough mana to cast Whitemane Lion
@@ -17500,6 +17514,34 @@ Steps: Activate Yenna by paying {2} and tapping it, creating two token copies of
   Repeat from step 2.
   Once you have infinite Three Blind Mice triggers, you may use them to copy any token(s) you control.
 
+## Combo 3664-3678-6879
+Cards: Retreat to Emeria + Haru, Hidden Talent + Lotus Field
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite creature tokens; Infinite lifegain; Infinite lifegain triggers; Infinite creature ETB; Infinite landfall triggers
+Start: Retreat to Emeria (battlefield); Haru, Hidden Talent (battlefield); Lotus Field (hand)
+Prerequisites: You are able to play a land this turn.
+Steps: Play Lotus Field.
+  When Lotus Field enters, it and Retreat to Emeria trigger.
+  Resolve the Retreat to Emeria trigger, creating a 1/1 Kor Ally creature token.
+  When the Kor Ally enters, Haru triggers, earthbending Lotus Field.
+  Resolve the Lotus Field trigger from step 2, causing you to sacrifice it
+  Haru triggers, returning Lotus Field from your graveyard to the battlefield.
+  Repeat from step 2.
+
+## Combo 3678-3946-6879
+Cards: Retreat to Emeria + Haru, Hidden Talent + Glacial Chasm
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite creature tokens; Infinite lifegain; Infinite lifegain triggers; Infinite creature ETB; Infinite landfall triggers
+Start: Retreat to Emeria (battlefield); Haru, Hidden Talent (battlefield); Glacial Chasm (hand)
+Prerequisites: You are able to play a land this turn.
+Steps: Play Glacial Chasm.
+  When Glacial Chasm enters, it and Retreat to Emeria trigger.
+  Resolve the Retreat to Emeria trigger, creating a 1/1 Kor Ally creature token.
+  When the Kor Ally enters, Haru triggers, earthbending Glacial Chasm.
+  Resolve the Glacial Chasm trigger from step 2, causing you to sacrifice it
+  Haru triggers, returning Glacial Chasm from your graveyard to the battlefield.
+  Repeat from step 2.
+
 ## Combo 3678-4050-6879
 Cards: Retreat to Emeria + Haru, Hidden Talent + Phyrexian Altar
 Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 170 | Commander: legal
@@ -17637,6 +17679,76 @@ Steps: Play Strip Mine.
   Haru triggers, returning Strip Mine from your graveyard to the battlefield untapped due to Horizon Explorer.
   Repeat from step 2.
 Notes: You can use this combo as a lock, destroying any lands you wish as they enter. To do this combo infinitely, simply target the same land each loop while keeping the Strip Mine abilities on the stack.
+
+## Combo 3678-6879-8360
+Cards: Retreat to Emeria + Haru, Hidden Talent + Archway Commons
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite creature tokens; Infinite lifegain; Infinite lifegain triggers; Infinite creature ETB; Infinite landfall triggers
+Start: Retreat to Emeria (battlefield); Haru, Hidden Talent (battlefield); Archway Commons (hand)
+Prerequisites: You are able to play a land this turn.
+Steps: Play Archway Commons.
+  When Archway Commons enters, it and Retreat to Emeria trigger.
+  Resolve the Retreat to Emeria trigger, creating a 1/1 Kor Ally creature token.
+  When the Kor Ally enters, Haru triggers, earthbending Archway Commons.
+  Resolve the Archway Commons trigger from step 2, causing you to sacrifice it
+  Haru triggers, returning Archway Commons from your graveyard to the battlefield.
+  Repeat from step 2.
+
+## Combo 3678-6879-8361
+Cards: Retreat to Emeria + Haru, Hidden Talent + Command Bridge
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite creature tokens; Infinite lifegain; Infinite lifegain triggers; Infinite creature ETB; Infinite landfall triggers
+Start: Retreat to Emeria (battlefield); Haru, Hidden Talent (battlefield); Command Bridge (hand)
+Prerequisites: You are able to play a land this turn.
+Steps: Play Command Bridge.
+  When Command Bridge enters, it and Retreat to Emeria trigger.
+  Resolve the Retreat to Emeria trigger, creating a 1/1 Kor Ally creature token.
+  When the Kor Ally enters, Haru triggers, earthbending Command Bridge.
+  Resolve the Command Bridge trigger from step 2, causing you to sacrifice it
+  Haru triggers, returning Command Bridge from your graveyard to the battlefield.
+  Repeat from step 2.
+
+## Combo 3678-6879-8362
+Cards: Retreat to Emeria + Haru, Hidden Talent + Public Thoroughfare
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite creature tokens; Infinite lifegain; Infinite lifegain triggers; Infinite creature ETB; Infinite landfall triggers
+Start: Retreat to Emeria (battlefield); Haru, Hidden Talent (battlefield); Public Thoroughfare (hand)
+Prerequisites: You are able to play a land this turn.
+Steps: Play Public Thoroughfare.
+  When Public Thoroughfare enters, it and Retreat to Emeria trigger.
+  Resolve the Retreat to Emeria trigger, creating a 1/1 Kor Ally creature token.
+  When the Kor Ally enters, Haru triggers, earthbending Public Thoroughfare.
+  Resolve the Public Thoroughfare trigger from step 2, causing you to sacrifice it
+  Haru triggers, returning Public Thoroughfare from your graveyard to the battlefield.
+  Repeat from step 2.
+
+## Combo 3678-6879-8363
+Cards: Retreat to Emeria + Haru, Hidden Talent + Rupture Spire
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite creature tokens; Infinite lifegain; Infinite lifegain triggers; Infinite creature ETB; Infinite landfall triggers
+Start: Retreat to Emeria (battlefield); Haru, Hidden Talent (battlefield); Rupture Spire (hand)
+Prerequisites: You are able to play a land this turn.
+Steps: Play Rupture Spire.
+  When Rupture Spire enters, it and Retreat to Emeria trigger.
+  Resolve the Retreat to Emeria trigger, creating a 1/1 Kor Ally creature token.
+  When the Kor Ally enters, Haru triggers, earthbending Rupture Spire.
+  Resolve the Rupture Spire trigger from step 2, causing you to sacrifice it
+  Haru triggers, returning Rupture Spire from your graveyard to the battlefield.
+  Repeat from step 2.
+
+## Combo 3678-6879-8364
+Cards: Retreat to Emeria + Haru, Hidden Talent + Transguild Promenade
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite creature tokens; Infinite lifegain; Infinite lifegain triggers; Infinite creature ETB; Infinite landfall triggers
+Start: Retreat to Emeria (battlefield); Haru, Hidden Talent (battlefield); Transguild Promenade (hand)
+Prerequisites: You are able to play a land this turn.
+Steps: Play Transguild Promenade.
+  When Transguild Promenade enters, it and Retreat to Emeria trigger.
+  Resolve the Retreat to Emeria trigger, creating a 1/1 Kor Ally creature token.
+  When the Kor Ally enters, Haru triggers, earthbending Transguild Promenade.
+  Resolve the Transguild Promenade trigger from step 2, causing you to sacrifice it
+  Haru triggers, returning Transguild Promenade from your graveyard to the battlefield.
+  Repeat from step 2.
 
 ## Combo 3682-4518-5542-7646
 Cards: Delney, Streetwise Lookout + Mox Amber + Kor Skyfisher + Duskwatch Recruiter // Krallenhorde Howler
@@ -19442,7 +19554,7 @@ Steps: Cast Basking Broodscale by paying {1}{G}, which enters with a +1/+1 count
 
 ## Combo 4153-4535-5641
 Cards: Basking Broodscale + Resourceful Defense + Good-Fortune Unicorn
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 570 | Commander: legal | Mana needed: {1}{G}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 580 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite colorless mana; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (hand); Resourceful Defense (battlefield); Good-Fortune Unicorn (battlefield)
 Steps: Cast Basking Broodscale by paying {1}{G}.
@@ -19468,7 +19580,7 @@ Steps: Cast Basking Broodscale by paying {1}{G}.
 
 ## Combo 4153-5641-6258
 Cards: Basking Broodscale + Resourceful Defense + Thunderous Velocipede
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 82 | Commander: legal | Mana needed: {1}{G}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 83 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite colorless mana; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (hand); Resourceful Defense (battlefield); Thunderous Velocipede (battlefield)
 Steps: Cast Basking Broodscale by paying {1}{G}, which enters with a +1/+1 counter on it due to Thunderous Velocipede.
@@ -19505,7 +19617,7 @@ Steps: Cast Basking Broodscale by paying {1}{G}.
 
 ## Combo 4153-5641-7940
 Cards: Basking Broodscale + Resourceful Defense + Support Mission
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite colorless mana; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (hand); Resourceful Defense (battlefield); Support Mission (battlefield)
 Steps: Cast Basking Broodscale by paying {1}{G}.
@@ -19769,7 +19881,7 @@ Steps: Gain life.
 
 ## Combo 4186-4506-7743
 Cards: Scurry Oak + Auriok Champion + Heroic Feast
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 55 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Start: Scurry Oak (battlefield); Auriok Champion (battlefield); Heroic Feast (battlefield)
 Prerequisites: You have a way to gain life.
@@ -20314,7 +20426,7 @@ Steps: Cast Basking Broodscale by paying {1}{G}.
 
 ## Combo 4321-4636-5391
 Cards: Automated Assembly Line + Gonti's Aether Heart + Peregrin Took
-Color identity: GW | Bracket: 2+ (Core) | Popularity: 6 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
 Produces: Infinite tapped creature tokens; Infinite card draw; Infinite artifact ETB; Infinite creature ETB; Infinite energy counters; Infinite draw triggers; Infinite Food tokens
 Start: Automated Assembly Line (battlefield); Gonti's Aether Heart (battlefield); Peregrin Took (battlefield)
 Prerequisites: You have at least {E}{E}{E}.
@@ -20336,7 +20448,7 @@ Steps: Put a +1/+1 counter on Basking Broodscale.
 
 ## Combo 4365-4636-4772-5770
 Cards: Architect of the Untamed + Gonti's Aether Heart + Mondrak, Glory Dominus + Doubling Season
-Color identity: GW | Bracket: 2+ (Core) | Popularity: 1 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite creature tokens; Infinite energy counters; Infinite creature ETB
 Start: Architect of the Untamed (battlefield); Gonti's Aether Heart (battlefield); Mondrak, Glory Dominus (battlefield); Doubling Season (battlefield)
 Prerequisites: You have at least eight {E}.
@@ -20346,7 +20458,7 @@ Steps: Activate Architect of the Untamed by paying eight {E}, creating four 6/6 
 
 ## Combo 4365-4636-5770-6441
 Cards: Architect of the Untamed + Gonti's Aether Heart + Mondrak, Glory Dominus + Elspeth, Storm Slayer
-Color identity: GW | Bracket: 2+ (Core) | Popularity: 1 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite creature tokens; Infinite energy counters; Infinite creature ETB
 Start: Architect of the Untamed (battlefield); Gonti's Aether Heart (battlefield); Mondrak, Glory Dominus (battlefield); Elspeth, Storm Slayer (battlefield)
 Prerequisites: You have at least eight {E}.
@@ -20356,7 +20468,7 @@ Steps: Activate Architect of the Untamed by paying eight {E}, creating four 6/6 
 
 ## Combo 4365-4636-5770-6753
 Cards: Architect of the Untamed + Gonti's Aether Heart + Mondrak, Glory Dominus + Exalted Sunborn
-Color identity: GW | Bracket: 2+ (Core) | Popularity: 2 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite creature tokens; Infinite energy counters; Infinite creature ETB
 Start: Architect of the Untamed (battlefield); Gonti's Aether Heart (battlefield); Mondrak, Glory Dominus (battlefield); Exalted Sunborn (battlefield)
 Prerequisites: You have at least eight {E}.
@@ -20726,7 +20838,7 @@ Steps: Cast Cryptic Trilobite by paying {0}, causing it to enter the battlefield
 
 ## Combo 4419-5641-6012
 Cards: Basking Broodscale + Renata, Called to the Hunt + Reluctant Role Model
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 240 | Commander: legal | Mana needed: {1}{G}
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 230 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite colorless mana; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (hand); Renata, Called to the Hunt (battlefield); Reluctant Role Model (battlefield)
 Steps: Cast Basking Broodscale by paying {1}{G}, which enters with a +1/+1 counter on it due to Renata.
@@ -20919,7 +21031,7 @@ Steps: Activate Emiel the Blessed by paying {3}, blinking Kwia.
 
 ## Combo 4499-5870-8160
 Cards: Kwia Vigorbloom + Guide of Souls + Emiel the Blessed
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 920 | Commander: legal | Mana needed: {3}
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 930 | Commander: legal | Mana needed: {3}
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite energy counters
 Start: Kwia Vigorbloom (battlefield); Guide of Souls (battlefield); Emiel the Blessed (battlefield)
 Steps: Activate Emiel the Blessed by paying {3}, blinking Kwia.
@@ -21009,7 +21121,7 @@ Steps: Activate Emiel the Blessed by paying {3}, blinking Kwia.
 
 ## Combo 4499-7173-8160
 Cards: Kwia Vigorbloom + Emiel the Blessed + Virulent Emissary
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 440 | Commander: legal | Mana needed: {3}
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 450 | Commander: legal | Mana needed: {3}
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB
 Start: Kwia Vigorbloom (battlefield); Emiel the Blessed (battlefield); Virulent Emissary (battlefield)
 Steps: Activate Emiel the Blessed by paying {3}, blinking Kwia.
@@ -21020,7 +21132,7 @@ Steps: Activate Emiel the Blessed by paying {3}, blinking Kwia.
 
 ## Combo 4499-7818-8160
 Cards: Kwia Vigorbloom + Emiel the Blessed + Liliana the Faultless
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 1400 | Commander: legal | Mana needed: {3}
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 1500 | Commander: legal | Mana needed: {3}
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB
 Start: Kwia Vigorbloom (battlefield); Emiel the Blessed (battlefield); Liliana the Faultless (battlefield)
 Steps: Activate Emiel the Blessed by paying {3}, blinking Kwia.
@@ -21241,7 +21353,7 @@ Steps: Cast Chord of Calling by paying at most {5}{G}{G}{G}, searching your libr
 
 ## Combo 4636-4772-5391
 Cards: Automated Assembly Line + Gonti's Aether Heart + Doubling Season
-Color identity: GW | Bracket: 2+ (Core) | Popularity: 41 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 41 | Commander: legal
 Produces: Infinite creature tokens; Infinite energy counters; Infinite creature ETB
 Start: Automated Assembly Line (battlefield); Gonti's Aether Heart (battlefield); Doubling Season (battlefield)
 Prerequisites: You have at least {E}{E}{E}.
@@ -21251,7 +21363,7 @@ Steps: Activate Automated Assembly Line by paying {E}{E}{E}, creating two 3/3 Ro
 
 ## Combo 4636-4772-5770-6441
 Cards: Architect of the Untamed + Gonti's Aether Heart + Doubling Season + Elspeth, Storm Slayer
-Color identity: GW | Bracket: 2+ (Core) | Popularity: 2 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite creature tokens; Infinite energy counters; Infinite creature ETB
 Start: Architect of the Untamed (battlefield); Gonti's Aether Heart (battlefield); Doubling Season (battlefield); Elspeth, Storm Slayer (battlefield)
 Prerequisites: You have at least eight {E}.
@@ -21261,7 +21373,7 @@ Steps: Activate Architect of the Untamed by paying eight {E}, creating four 6/6 
 
 ## Combo 4636-4772-5770-6753
 Cards: Architect of the Untamed + Gonti's Aether Heart + Doubling Season + Exalted Sunborn
-Color identity: GW | Bracket: 2+ (Core) | Popularity: 1 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite creature tokens; Infinite energy counters; Infinite creature ETB
 Start: Architect of the Untamed (battlefield); Gonti's Aether Heart (battlefield); Doubling Season (battlefield); Exalted Sunborn (battlefield)
 Prerequisites: You have at least eight {E}.
@@ -21271,7 +21383,7 @@ Steps: Activate Architect of the Untamed by paying eight {E}, creating four 6/6 
 
 ## Combo 4636-5391-7810
 Cards: Automated Assembly Line + Gonti's Aether Heart + Tippy-Toe, Terrific Partner
-Color identity: GW | Bracket: 2+ (Core) | Popularity: 0 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite tapped creature tokens; Infinite Food tokens; Infinite creature ETB; Infinite energy counters
 Start: Automated Assembly Line (battlefield); Gonti's Aether Heart (battlefield); Tippy-Toe, Terrific Partner (battlefield)
 Prerequisites: You have at least {E}{E}{E}.
@@ -21281,7 +21393,7 @@ Steps: Activate Automated Assembly Line by paying {E}{E}{E}, creating a 3/3 Robo
 
 ## Combo 4636-5770-6441-6753
 Cards: Architect of the Untamed + Gonti's Aether Heart + Elspeth, Storm Slayer + Exalted Sunborn
-Color identity: GW | Bracket: 2+ (Core) | Popularity: 1 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite creature tokens; Infinite energy counters; Infinite creature ETB
 Start: Architect of the Untamed (battlefield); Gonti's Aether Heart (battlefield); Elspeth, Storm Slayer (battlefield); Exalted Sunborn (battlefield)
 Prerequisites: You have at least eight {E}.
@@ -22391,7 +22503,7 @@ Steps: Gain life.
 
 ## Combo 5641-6823-7743
 Cards: Basking Broodscale + Aunt May + Heroic Feast
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 36 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 35 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Basking Broodscale (battlefield); Aunt May (battlefield); Heroic Feast (battlefield)
 Prerequisites: You have a way to gain life.
@@ -22648,7 +22760,7 @@ Steps: Declare Jumbo Cactuar as an attacker, triggering its ability, giving it +
 
 ## Combo 6323-6329
 Cards: Chastise + Jumbo Cactuar
-Color identity: GW | Bracket: 4+ (Ruthless) | Popularity: 75 | Commander: legal | Mana needed: {3}{W}
+Color identity: GW | Bracket: 4+ (Ruthless) | Popularity: 77 | Commander: legal | Mana needed: {3}{W}
 Produces: Near-infinite lifegain
 Start: Chastise (hand); Jumbo Cactuar (battlefield)
 Prerequisites: Jumbo Cactuar does not have summoning sickness.

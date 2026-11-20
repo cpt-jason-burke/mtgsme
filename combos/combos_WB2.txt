@@ -1,3 +1,16 @@
+## Combo 1482-2511-2866-4986
+Cards: Teshar, Ancestor's Apostle + Scrap Trawler + Jeweled Lotus + Bloodflow Connoisseur
+Color identity: WB | Bracket: none (not legal) | Popularity: 0 | Commander: not legal
+Produces: Infinite +1/+1 counters on a creature; Infinite colored mana that can only be spent to cast your commander; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Teshar, Ancestor's Apostle (battlefield); Scrap Trawler (graveyard); Jeweled Lotus (hand); Bloodflow Connoisseur (battlefield)
+Steps: Cast Jeweled Lotus by paying its mana cost.
+  Teshar triggers, returning Scrap Trawler from your graveyard to the battlefield.
+  Activate Jeweled Lotus by tapping and sacrificing it.
+  Activate Bloodflow Connoisseur by sacrificing Scrap Trawler.
+  When Scrap Trawler dies, it triggers, returning Jeweled Lotus from your graveyard to your hand.
+  Resolve the Bloodflow Connoisseur ability.
+  Repeat.
+
 ## Combo 1482-2866-2921-4986
 Cards: Teshar, Ancestor's Apostle + Scrap Trawler + Jeweled Lotus + Bartolomé del Presidio
 Color identity: WB | Bracket: none (not legal) | Popularity: 0 | Commander: not legal
@@ -549,7 +562,7 @@ Steps: Cast Rot-Tide Gargantua by paying {3}{B}{B}.
 
 ## Combo 1575-2921-4231
 Cards: Nuka-Cola Vending Machine + Academy Manufactor + Bartolomé del Presidio
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 860 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 850 | Commander: legal
 Produces: Infinite tapped Treasure tokens; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite tapped Food tokens; Infinite tapped Clue tokens
 Start: Nuka-Cola Vending Machine (battlefield); Academy Manufactor (battlefield); Bartolomé del Presidio (battlefield)
 Prerequisites: You control at least one Food.
@@ -826,7 +839,7 @@ Steps: Activate Bartolomé del Presidio by sacrificing Reassembling Skeleton.
 
 ## Combo 1580-2018-3967-4871
 Cards: Luminous Broodmoth + Pitiless Plunderer + Reassembling Skeleton + Yahenni, Undying Partisan
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 4300 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 4400 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Luminous Broodmoth (battlefield); Pitiless Plunderer (battlefield); Reassembling Skeleton (battlefield); Yahenni, Undying Partisan (battlefield)
 Steps: Activate Yahenni by sacrificing Reassembling Skeleton.
@@ -885,7 +898,7 @@ Steps: Activate Shilgengar by sacrificing Reassembling Skeleton.
 
 ## Combo 1580-2018-4871-6797
 Cards: Luminous Broodmoth + Pitiless Plunderer + Reassembling Skeleton + Phantom Train
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 33 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 32 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Luminous Broodmoth (battlefield); Pitiless Plunderer (battlefield); Reassembling Skeleton (battlefield); Phantom Train (battlefield)
 Steps: Activate Phantom Train by sacrificing Reassembling Skeleton.
@@ -1339,7 +1352,7 @@ Steps: Activate Bartolomé del Presidio by sacrificing Reassembling Skeleton.
 
 ## Combo 1580-2921-4871-4976
 Cards: Reassembling Skeleton + Bartolomé del Presidio + Pitiless Plunderer + Open the Graves
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 740 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 730 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Reassembling Skeleton (graveyard); Bartolomé del Presidio (battlefield); Pitiless Plunderer (battlefield); Open the Graves (battlefield)
 Steps: Activate Bartolomé del Presidio by sacrificing Reassembling Skeleton.
@@ -1570,7 +1583,7 @@ Steps: Activate Phyrexian Altar by sacrificing Reassembling Skeleton, adding {B}
 
 ## Combo 1580-4063-4871-5670
 Cards: Warren Soultrader + Pitiless Plunderer + Fleshtaker + Reassembling Skeleton
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 380 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 370 | Commander: legal
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Start: Warren Soultrader (battlefield); Pitiless Plunderer (battlefield); Fleshtaker (battlefield); Reassembling Skeleton (graveyard)
 Prerequisites: Your life total is 2 or higher.
@@ -1624,7 +1637,7 @@ Steps: Activate Shilgengar by sacrificing Reassembling Skeleton.
 
 ## Combo 1580-4647-4871-6797
 Cards: Pitiless Plunderer + Reassembling Skeleton + Teysa Karlov + Phantom Train
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 73 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Pitiless Plunderer (battlefield); Reassembling Skeleton (battlefield); Teysa Karlov (battlefield); Phantom Train (battlefield)
 Steps: Activate Phantom Train by sacrificing Reassembling Skeleton.
@@ -2382,7 +2395,7 @@ Steps: Activate Spawning Pit by sacrificing Boss's Chauffeur.
 
 ## Combo 1676-3967-6972
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Boss's Chauffeur + Yahenni, Undying Partisan
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 74 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 75 | Commander: legal
 Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Boss's Chauffeur (battlefield: without a -1/-1 counter on it); Yahenni, Undying Partisan (battlefield)
 Steps: Activate Yahenni by sacrificing Boss's Chauffeur.
@@ -3121,7 +3134,7 @@ Steps: Cast Fiend Hunter by paying its mana cost.
 
 ## Combo 1734-2150-6798
 Cards: Umbral Collar Zealot + Fiend Hunter + Hero of the Dunes
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal | Mana needed: {1}{W}{W}
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal | Mana needed: {1}{W}{W}
 Produces: Infinite surveil; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Umbral Collar Zealot (battlefield); Fiend Hunter (hand); Hero of the Dunes (battlefield)
 Steps: Cast Fiend Hunter by paying its mana cost.
@@ -3273,7 +3286,7 @@ Steps: Cast Fiend Hunter by paying its mana cost.
 
 ## Combo 1734-2438-6132
 Cards: Fiend Hunter + Carrion Feeder + Metamorphosis Fanatic
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 71 | Commander: legal | Mana needed: {1}{W}{W}
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 73 | Commander: legal | Mana needed: {1}{W}{W}
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Fiend Hunter (hand); Carrion Feeder (battlefield); Metamorphosis Fanatic (battlefield)
 Steps: Cast Fiend Hunter by paying its mana cost.
@@ -3287,7 +3300,7 @@ Steps: Cast Fiend Hunter by paying its mana cost.
 
 ## Combo 1734-2511-3175
 Cards: Fiend Hunter + Bloodflow Connoisseur + Sun Titan
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 47 | Commander: legal | Mana needed: {1}{W}{W}
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal | Mana needed: {1}{W}{W}
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Fiend Hunter (hand); Bloodflow Connoisseur (battlefield); Sun Titan (battlefield)
 Steps: Cast Fiend Hunter by paying its mana cost.
@@ -3343,7 +3356,7 @@ Steps: Cast Fiend Hunter by paying its mana cost.
 
 ## Combo 1734-2511-6132
 Cards: Fiend Hunter + Bloodflow Connoisseur + Metamorphosis Fanatic
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {1}{W}{W}
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {1}{W}{W}
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Fiend Hunter (hand); Bloodflow Connoisseur (battlefield); Metamorphosis Fanatic (battlefield)
 Steps: Cast Fiend Hunter by paying its mana cost.
@@ -3357,7 +3370,7 @@ Steps: Cast Fiend Hunter by paying its mana cost.
 
 ## Combo 1734-2921-3175
 Cards: Fiend Hunter + Bartolomé del Presidio + Sun Titan
-Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 770 | Commander: legal | Mana needed: {1}{W}{W}
+Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 780 | Commander: legal | Mana needed: {1}{W}{W}
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Fiend Hunter (hand); Bartolomé del Presidio (battlefield); Sun Titan (battlefield)
 Steps: Cast Fiend Hunter by paying its mana cost.
@@ -3413,7 +3426,7 @@ Steps: Cast Fiend Hunter by paying its mana cost.
 
 ## Combo 1734-2921-6132
 Cards: Fiend Hunter + Bartolomé del Presidio + Metamorphosis Fanatic
-Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 41 | Commander: legal | Mana needed: {1}{W}{W}
+Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 43 | Commander: legal | Mana needed: {1}{W}{W}
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Fiend Hunter (hand); Bartolomé del Presidio (battlefield); Metamorphosis Fanatic (battlefield)
 Steps: Cast Fiend Hunter by paying its mana cost.
@@ -3469,7 +3482,7 @@ Steps: Cast Fiend Hunter by paying its mana cost.
 
 ## Combo 1734-3175-6797
 Cards: Fiend Hunter + Sun Titan + Phantom Train
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {1}{W}{W}
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {1}{W}{W}
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Fiend Hunter (hand); Sun Titan (battlefield); Phantom Train (battlefield)
 Steps: Cast Fiend Hunter by paying its mana cost.
@@ -3694,7 +3707,7 @@ Steps: Cast Fiend Hunter by paying its mana cost.
 
 ## Combo 1734-3967-6132
 Cards: Fiend Hunter + Yahenni, Undying Partisan + Metamorphosis Fanatic
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal | Mana needed: {1}{W}{W}
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal | Mana needed: {1}{W}{W}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Fiend Hunter (hand); Yahenni, Undying Partisan (battlefield); Metamorphosis Fanatic (battlefield)
 Steps: Cast Fiend Hunter by paying its mana cost.
@@ -3951,7 +3964,7 @@ Steps: Cast Fiend Hunter by paying its mana cost.
 
 ## Combo 1734-6132-6797
 Cards: Fiend Hunter + Metamorphosis Fanatic + Phantom Train
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {1}{W}{W}
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {1}{W}{W}
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Fiend Hunter (hand); Metamorphosis Fanatic (battlefield); Phantom Train (battlefield)
 Steps: Cast Fiend Hunter by paying its mana cost.
@@ -3965,7 +3978,7 @@ Steps: Cast Fiend Hunter by paying its mana cost.
 
 ## Combo 1734-6132-6798
 Cards: Umbral Collar Zealot + Fiend Hunter + Metamorphosis Fanatic
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 340 | Commander: legal | Mana needed: {1}{W}{W}
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 350 | Commander: legal | Mana needed: {1}{W}{W}
 Produces: Infinite surveil; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Umbral Collar Zealot (battlefield); Fiend Hunter (hand); Metamorphosis Fanatic (battlefield)
 Steps: Cast Fiend Hunter by paying its mana cost.
@@ -4751,7 +4764,7 @@ Steps: Activate Viscera Seer by sacrificing Memnite.
 
 ## Combo 1778-2438-2626-4986
 Cards: Teshar, Ancestor's Apostle + Salvager of Ruin + Memnite + Carrion Feeder
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
 Start: Teshar, Ancestor's Apostle (battlefield); Salvager of Ruin (battlefield); Memnite (battlefield); Carrion Feeder (battlefield)
 Steps: Activate Carrion Feeder by sacrificing Memnite.
@@ -6561,7 +6574,7 @@ Notes: Due to differences in card templating between the various banisher effect
 
 ## Combo 1938-3991-4344
 Cards: Glorious Protector + Faceless Butcher + Lumbering Battlement
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 98 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 99 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
 Produces: Infinite creature ETB; Infinite creature LTB
 Start: Glorious Protector (hand, battlefield, exile: Exiled by the creature on the battlefield); Faceless Butcher (hand, battlefield, exile: Exiled by the creature on the battlefield); Lumbering Battlement (hand, battlefield, exile: Exiled by the creature on the battlefield)
 Prerequisites: Lumbering Battlement must be exiled by Faceless Butcher, and Glorious Protector must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
@@ -6609,7 +6622,7 @@ Notes: Due to differences in card templating between the various banisher effect
 
 ## Combo 1938-4875
 Cards: Conspiracy + Glorious Protector
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 51 | Commander: legal | Mana needed: {2}{W}, plus an additional {W} if Glorious Angel was not foretold
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 50 | Commander: legal | Mana needed: {2}{W}, plus an additional {W} if Glorious Angel was not foretold
 Produces: Infinite blinking; Infinite creature ETB; Infinite creature LTB
 Start: Conspiracy (battlefield); Glorious Protector (hand, exile)
 Prerequisites: Any creature type besides "Angel" chosen with Conspiracy.
@@ -6976,7 +6989,7 @@ Steps: Activate Warren Soultrader by paying 1 life and sacrificing another creat
 
 ## Combo 1940-2034-2124
 Cards: Chivalric Alliance + Ashnod's Altar + Liliana, Dreadhorde General
-Color identity: WB | Bracket: 4+ (Ruthless) | Popularity: 79 | Commander: legal | Mana needed: {2}
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 79 | Commander: legal | Mana needed: {2}
 Produces: Infinite rummaging; Infinite draw triggers; Infinite self-discard triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Chivalric Alliance (battlefield); Ashnod's Altar (battlefield); Liliana, Dreadhorde General (battlefield)
 Prerequisites: You have at least one card in hand.
@@ -7794,7 +7807,7 @@ Steps: Activate Trazyn using White Lotus Tile's ability by tapping it, adding at
 
 ## Combo 2014-2292-3055
 Cards: Yosei, the Morning Star + Gift of Immortality + Viscera Seer
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 94 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 93 | Commander: legal
 Produces: Opponents skip their untap steps; Lock
 Start: Yosei, the Morning Star (battlefield); Gift of Immortality (battlefield: attached to Yosei); Viscera Seer (battlefield)
 Steps: Activate Viscera Seer by sacrificing Yosei.
@@ -7807,7 +7820,7 @@ Steps: Activate Viscera Seer by sacrificing Yosei.
 
 ## Combo 2014-2438-3055
 Cards: Yosei, the Morning Star + Gift of Immortality + Carrion Feeder
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 47 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 46 | Commander: legal
 Produces: Opponents skip their untap steps; Lock
 Start: Yosei, the Morning Star (battlefield); Gift of Immortality (battlefield: attached to Yosei); Carrion Feeder (battlefield)
 Steps: Activate Carrion Feeder by sacrificing Yosei.
@@ -7820,7 +7833,7 @@ Steps: Activate Carrion Feeder by sacrificing Yosei.
 
 ## Combo 2014-2511-3055
 Cards: Yosei, the Morning Star + Gift of Immortality + Bloodflow Connoisseur
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 5 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 4 | Commander: legal
 Produces: Opponents skip their untap steps; Lock
 Start: Yosei, the Morning Star (battlefield); Gift of Immortality (battlefield: attached to Yosei); Bloodflow Connoisseur (battlefield)
 Steps: Activate Bloodflow Connoisseur by sacrificing Yosei.
@@ -7846,7 +7859,7 @@ Steps: Activate Bartolomé del Presidio by sacrificing Yosei.
 
 ## Combo 2014-3055-3967
 Cards: Yosei, the Morning Star + Gift of Immortality + Yahenni, Undying Partisan
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 61 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 60 | Commander: legal
 Produces: Opponents skip their untap steps; Lock
 Start: Yosei, the Morning Star (battlefield); Gift of Immortality (battlefield: attached to Yosei); Yahenni, Undying Partisan (battlefield)
 Steps: Activate Yahenni by sacrificing Yosei.
@@ -8163,7 +8176,7 @@ Steps: Activate Bloodflow Connoisseur by sacrificing Infernal Vessel.
 
 ## Combo 2018-2511-6972
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Luminous Broodmoth + Bloodflow Connoisseur
-Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 84 | Commander: legal
+Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 86 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Luminous Broodmoth (battlefield); Bloodflow Connoisseur (battlefield)
 Prerequisites: You control another nontoken creature with base toughness 2 or greater that does not have flying.
@@ -8734,7 +8747,7 @@ Steps: Activate Hammerhead by sacrificing Infernal Vessel.
 
 ## Combo 2018-6797-6972
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Luminous Broodmoth + Phantom Train
-Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 32 | Commander: legal
+Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 34 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Luminous Broodmoth (battlefield); Phantom Train (battlefield)
 Prerequisites: You control another nontoken creature with base toughness 2 or greater that does not have flying.
@@ -9789,7 +9802,7 @@ Steps: Activate Ashnod's Altar by sacrificing Valiant Changeling.
 
 ## Combo 2034-3081-5003
 Cards: Orah, Skyclave Hierophant + Ashnod's Altar + Nim Deathmantle
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 71 | Commander: legal
 Produces: Infinite blinking of some creatures; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Orah, Skyclave Hierophant (battlefield); Ashnod's Altar (battlefield); Nim Deathmantle (battlefield)
 Prerequisites: Any Cleric creature card with mana value 3 or less in your graveyard.
@@ -10684,7 +10697,7 @@ Steps: Activate Kaya's second loyalty ability by removing two loyalty counters f
 
 ## Combo 2034-4094-5320
 Cards: Sorcerer's Broom + Ashnod's Altar + Kaya, Geist Hunter
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {3} at most
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal | Mana needed: {3} at most
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Sorcerer's Broom (battlefield); Ashnod's Altar (battlefield); Kaya, Geist Hunter (battlefield: with two or more loyalty counters on it)
 Prerequisites: You control another creature or a permanent with a way to sacrifice it.
@@ -11498,7 +11511,7 @@ Steps: Activate Ashnod's Altar by sacrificing Drakestown Forgotten.
 
 ## Combo 2034-6972-7322
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Ashnod's Altar + Big Mother Mouser
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 39 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 40 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Ashnod's Altar (battlefield); Big Mother Mouser (battlefield: without a -1/-1 counter on it)
 Steps: Activate Ashnod's Altar by sacrificing Big Mother Mouser.
@@ -11507,7 +11520,7 @@ Steps: Activate Ashnod's Altar by sacrificing Big Mother Mouser.
 
 ## Combo 2034-6972-7325
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Mighty Mutanimals + Ashnod's Altar
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Mighty Mutanimals (battlefield); Ashnod's Altar (battlefield)
 Prerequisites: You control another nontoken creature that doesn't have a -1/-1 counter on it and that has base toughness 2 or greater.
@@ -11578,7 +11591,7 @@ Steps: Activate Ashnod's Altar by sacrificing Clockwork Hydra.
 
 ## Combo 2034-6972-7841
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Ashnod's Altar + Darksteel Angel
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 60 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 62 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Ashnod's Altar (battlefield); Darksteel Angel (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Darksteel Angel
@@ -11620,7 +11633,7 @@ Steps: Activate Viscera Seer by sacrificing Gollum.
 
 ## Combo 2035-2438-2523
 Cards: Ratadrabik of Urborg + Gollum, Patient Plotter + Carrion Feeder
-Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 800 | Commander: legal
+Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 790 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Ratadrabik of Urborg (battlefield); Gollum, Patient Plotter (battlefield); Carrion Feeder (battlefield)
 Steps: Activate Carrion Feeder by sacrificing Gollum.
@@ -11632,7 +11645,7 @@ Steps: Activate Carrion Feeder by sacrificing Gollum.
 
 ## Combo 2035-2511-2523
 Cards: Ratadrabik of Urborg + Gollum, Patient Plotter + Bloodflow Connoisseur
-Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 54 | Commander: legal
+Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 53 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Ratadrabik of Urborg (battlefield); Gollum, Patient Plotter (battlefield); Bloodflow Connoisseur (battlefield)
 Steps: Activate Bloodflow Connoisseur by sacrificing Gollum.
@@ -11691,7 +11704,7 @@ Steps: Activate Altar of Dementia by sacrificing Gollum.
 
 ## Combo 2035-2523-5686
 Cards: Ratadrabik of Urborg + Gollum, Patient Plotter + Shilgengar, Sire of Famine
-Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 72 | Commander: legal
+Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 71 | Commander: legal
 Produces: Infinite artifact tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite Blood tokens
 Start: Ratadrabik of Urborg (battlefield); Gollum, Patient Plotter (battlefield); Shilgengar, Sire of Famine (battlefield)
 Steps: Activate Shilgengar by sacrificing Gollum.
@@ -12116,7 +12129,7 @@ Notes: When Spiteful Squad dies with a +1/+1 counter on it, that counter can be 
 
 ## Combo 2122-2292-6972
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Viscera Seer + Mindless Automaton
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 41 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite scry 1
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Viscera Seer (battlefield); Mindless Automaton (battlefield: without a -1/-1 counter on it)
 Steps: Activate Viscera Seer by sacrificing Mindless Automaton.
@@ -12126,7 +12139,7 @@ Steps: Activate Viscera Seer by sacrificing Mindless Automaton.
 
 ## Combo 2122-2438-6972
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Mindless Automaton + Carrion Feeder
-Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 29 | Commander: legal
+Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 31 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Mindless Automaton (battlefield: without a -1/-1 counter on it); Carrion Feeder (battlefield)
 Steps: Activate Carrion Feeder by sacrificing Mindless Automaton.
@@ -12136,7 +12149,7 @@ Steps: Activate Carrion Feeder by sacrificing Mindless Automaton.
 
 ## Combo 2122-2511-6972
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Mindless Automaton + Bloodflow Connoisseur
-Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 6 | Commander: legal
+Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 8 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Mindless Automaton (battlefield: without a -1/-1 counter on it); Bloodflow Connoisseur (battlefield)
 Steps: Activate Bloodflow Connoisseur by sacrificing Mindless Automaton.
@@ -12162,7 +12175,7 @@ Notes: This combo will end the game in a draw if it isn't interacted with, as it
 
 ## Combo 2122-2921-6972
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Mindless Automaton + Bartolomé del Presidio
-Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 25 | Commander: legal
+Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 27 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Mindless Automaton (battlefield: without a -1/-1 counter on it); Bartolomé del Presidio (battlefield)
 Steps: Activate Bartolomé del Presidio by sacrificing Mindless Automaton.
@@ -12193,7 +12206,7 @@ Steps: Activate Spawning Pit by sacrificing Mindless Automaton.
 
 ## Combo 2122-3967-6972
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Mindless Automaton + Yahenni, Undying Partisan
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Mindless Automaton (battlefield: without a -1/-1 counter on it); Yahenni, Undying Partisan (battlefield)
 Steps: Activate Yahenni by sacrificing Mindless Automaton.
@@ -12254,7 +12267,7 @@ Steps: Activate Shilgengar by sacrificing Mindless Automaton.
 
 ## Combo 2122-6797-6972
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Mindless Automaton + Phantom Train
-Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 3 | Commander: legal
+Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 5 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Mindless Automaton (battlefield: without a -1/-1 counter on it); Phantom Train (battlefield)
 Steps: Activate Phantom Train by sacrificing Mindless Automaton.
@@ -12264,7 +12277,7 @@ Steps: Activate Phantom Train by sacrificing Mindless Automaton.
 
 ## Combo 2122-6798-6972
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Umbral Collar Zealot + Mindless Automaton
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 27 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 29 | Commander: legal
 Produces: Infinite surveil; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Umbral Collar Zealot (battlefield); Mindless Automaton (battlefield: without a -1/-1 counter on it)
 Steps: Activate Umbral Collar Zealot by sacrificing Mindless Automaton.
@@ -12353,7 +12366,7 @@ Steps: Activate Shilgengar by sacrificing the creature with persist.
 
 ## Combo 2143-4094
 Cards: Spawnsire of Ulamog + Kaya, Geist Hunter
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal | Mana needed: {4}
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal | Mana needed: {4}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Spawnsire of Ulamog (battlefield); Kaya, Geist Hunter (battlefield)
 Prerequisites: Kaya has at least two loyalty counters on it.
@@ -14221,7 +14234,7 @@ Steps: Activate Carrion Feeder by sacrificing Scholar of New Horizons.
 
 ## Combo 2204-2511-6972
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Scholar of New Horizons + Bloodflow Connoisseur
-Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 65 | Commander: legal
+Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 67 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Scholar of New Horizons (battlefield: without a -1/-1 counter on it); Bloodflow Connoisseur (battlefield)
 Steps: Activate Bloodflow Connoisseur by sacrificing Scholar of New Horizons.
@@ -14251,7 +14264,7 @@ Steps: Activate Spawning Pit by sacrificing Scholar of New Horizons.
 
 ## Combo 2204-3967-6972
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Scholar of New Horizons + Yahenni, Undying Partisan
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 350 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 360 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Scholar of New Horizons (battlefield: without a -1/-1 counter on it); Yahenni, Undying Partisan (battlefield)
 Steps: Activate Yahenni by sacrificing Scholar of New Horizons.
@@ -14300,7 +14313,7 @@ Steps: Activate Shilgengar by sacrificing Scholar of New Horizons.
 
 ## Combo 2204-6797-6972
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Scholar of New Horizons + Phantom Train
-Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 16 | Commander: legal
+Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 18 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Scholar of New Horizons (battlefield: without a -1/-1 counter on it); Phantom Train (battlefield)
 Steps: Activate Phantom Train by sacrificing Scholar of New Horizons.
@@ -14850,7 +14863,7 @@ Steps: Activate Karn's first loyalty ability by putting a loyalty counter on it,
 
 ## Combo 2292-2820-3175
 Cards: Sun Titan + Angelic Renewal + Viscera Seer
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 920 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 930 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite scry 1
 Start: Sun Titan (battlefield); Angelic Renewal (battlefield); Viscera Seer (battlefield)
 Steps: Activate Viscera Seer by sacrificing Sun Titan.
@@ -14965,7 +14978,7 @@ Steps: Cast Dark Sphere by paying its mana cost.
 
 ## Combo 2292-2867-4636-5391
 Cards: Automated Assembly Line + Gonti's Aether Heart + Demon of Dark Schemes + Viscera Seer
-Color identity: WB | Bracket: 2+ (Core) | Popularity: 3 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite scry 1
 Start: Automated Assembly Line (battlefield); Gonti's Aether Heart (battlefield); Demon of Dark Schemes (battlefield); Viscera Seer (battlefield)
 Prerequisites: You have at least {E}{E}{E} available.
@@ -15005,7 +15018,7 @@ Steps: Activate Viscera Seer by sacrificing Cult Conscript.
 
 ## Combo 2292-2946-4871-6255
 Cards: Viscera Seer + Cult Conscript + Pitiless Plunderer + Zahur, Glory's Past
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 75 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 76 | Commander: legal
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite scry 1
 Start: Viscera Seer (battlefield); Cult Conscript (graveyard); Pitiless Plunderer (battlefield); Zahur, Glory's Past (battlefield)
 Prerequisites: A non-Skeleton creature has died under your control this turn.
@@ -16162,7 +16175,7 @@ Notes: If Geralf's Messenger starts with a +1/+1 counter on it, then you may sta
 
 ## Combo 2292-5359-6972
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Viscera Seer + Threefold Thunderhulk
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 45 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 47 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite scry 1
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Viscera Seer (battlefield); Threefold Thunderhulk (battlefield: without a -1/-1 counter on it)
 Steps: Activate Viscera Seer by sacrificing Threefold Thunderhulk.
@@ -16345,7 +16358,7 @@ Steps: Activate Viscera Seer by sacrificing Drakestown Forgotten.
 
 ## Combo 2292-6972-7322
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Viscera Seer + Big Mother Mouser
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 37 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 40 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite scry 1
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Viscera Seer (battlefield); Big Mother Mouser (battlefield: without a -1/-1 counter on it)
 Steps: Activate Viscera Seer by sacrificing Big Mother Mouser.
@@ -16355,7 +16368,7 @@ Steps: Activate Viscera Seer by sacrificing Big Mother Mouser.
 
 ## Combo 2292-6972-7325
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Mighty Mutanimals + Viscera Seer
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 40 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite scry 1
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Mighty Mutanimals (battlefield); Viscera Seer (battlefield)
 Prerequisites: You control another nontoken creature that doesn't have a -1/-1 counter on it and that has base toughness 2 or greater.
@@ -16434,7 +16447,7 @@ Steps: Activate Viscera Seer by sacrificing Clockwork Hydra.
 
 ## Combo 2292-6972-7841
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Viscera Seer + Darksteel Angel
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 62 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Viscera Seer (battlefield); Darksteel Angel (battlefield)
 Steps: Activate Viscera Seer by sacrificing Darksteel Angel
@@ -17560,7 +17573,7 @@ Steps: Activate Carrion Feeder by sacrificing another creature.
 
 ## Combo 2438-2626-3652-4986
 Cards: Teshar, Ancestor's Apostle + Salvager of Ruin + Carrion Feeder + Ornithopter
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
 Start: Teshar, Ancestor's Apostle (battlefield); Salvager of Ruin (battlefield); Carrion Feeder (battlefield); Ornithopter (battlefield)
 Steps: Activate Carrion Feeder by sacrificing Ornithopter.
@@ -17643,7 +17656,7 @@ Steps: Activate Carrion Feeder by sacrificing Brotherhood Outcast.
 
 ## Combo 2438-2732-4681
 Cards: Prowling Geistcatcher + Karmic Guide + Carrion Feeder
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 120 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 110 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Prowling Geistcatcher (battlefield); Karmic Guide (battlefield); Carrion Feeder (battlefield)
 Steps: Activate Carrion Feeder by sacrificing Karmic Guide.
@@ -17927,7 +17940,7 @@ Steps: Cast Dark Sphere by paying its mana cost.
 
 ## Combo 2438-2867-4636-5391
 Cards: Automated Assembly Line + Gonti's Aether Heart + Demon of Dark Schemes + Carrion Feeder
-Color identity: WB | Bracket: 2+ (Core) | Popularity: 3 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Automated Assembly Line (battlefield); Gonti's Aether Heart (battlefield); Demon of Dark Schemes (battlefield); Carrion Feeder (battlefield)
 Prerequisites: You have at least {E}{E}{E} available.
@@ -17967,7 +17980,7 @@ Steps: Activate Carrion Feeder by sacrificing Cult Conscript.
 
 ## Combo 2438-2946-4871-6255
 Cards: Carrion Feeder + Cult Conscript + Pitiless Plunderer + Zahur, Glory's Past
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 55 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 56 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Carrion Feeder (battlefield); Cult Conscript (graveyard); Pitiless Plunderer (battlefield); Zahur, Glory's Past (battlefield)
 Prerequisites: A non-Skeleton creature has died under your control this turn.
@@ -17984,7 +17997,7 @@ Steps: Activate Carrion Feeder by sacrificing Cult Conscript.
 
 ## Combo 2438-2947-4881
 Cards: Vesperlark + Activated Sleeper + Carrion Feeder
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 97 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 96 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Vesperlark (battlefield); Activated Sleeper (graveyard); Carrion Feeder (battlefield)
 Steps: Activate Carrion Feeder by sacrificing Vesperlark.
@@ -19095,7 +19108,7 @@ Steps: Cast Leonin Relic-Warder by paying {W}{W}.
 
 ## Combo 2438-5319-6972
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Geralf's Messenger + Carrion Feeder
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 1500 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 1600 | Commander: legal
 Produces: Infinite lifeloss; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Geralf's Messenger (battlefield: without a +1/+1 counter on it ); Carrion Feeder (battlefield)
 Steps: Activate Carrion Feeder by sacrificing Geralf's Messenger
@@ -19110,7 +19123,7 @@ Notes: If Geralf's Messenger starts with a +1/+1 counter on it, then you may sta
 
 ## Combo 2438-5359-6972
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Carrion Feeder + Threefold Thunderhulk
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 19 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 21 | Commander: legal
 Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Carrion Feeder (battlefield); Threefold Thunderhulk (battlefield: without a -1/-1 counter on it)
 Steps: Activate Carrion Feeder by sacrificing Threefold Thunderhulk.
@@ -19293,7 +19306,7 @@ Steps: Activate Carrion Feeder by sacrificing Drakestown Forgotten.
 
 ## Combo 2438-6972-7322
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Carrion Feeder + Big Mother Mouser
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 33 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 36 | Commander: legal
 Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Carrion Feeder (battlefield); Big Mother Mouser (battlefield: without a -1/-1 counter on it)
 Steps: Activate Carrion Feeder by sacrificing Big Mother Mouser.
@@ -19303,7 +19316,7 @@ Steps: Activate Carrion Feeder by sacrificing Big Mother Mouser.
 
 ## Combo 2438-6972-7325
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Mighty Mutanimals + Carrion Feeder
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 24 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Mighty Mutanimals (battlefield); Carrion Feeder (battlefield)
 Prerequisites: You control another nontoken creature that doesn't have a -1/-1 counter on it and that has base toughness 2 or greater.
@@ -19652,7 +19665,7 @@ Steps: Proceed to your next cleanup step, causing you to discard cards down to y
 
 ## Combo 2498-8192
 Cards: Niv-Mizzet, Ghost Counsel + Sheoldred, the Apocalypse
-Color identity: WB | Bracket: 4+ (Ruthless) | Popularity: 5700 | Commander: legal
+Color identity: WB | Bracket: 4+ (Ruthless) | Popularity: 5800 | Commander: legal
 Produces: Infinite card draw; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers
 Start: Niv-Mizzet, Ghost Counsel (battlefield); Sheoldred, the Apocalypse (battlefield)
 Prerequisites: You have a way to draw a card.
@@ -19680,7 +19693,7 @@ Steps: Activate Kaya's +1 loyalty ability to put a Ghostform Counter on Felidar 
 
 ## Combo 2511-2523-5559
 Cards: Ratadrabik of Urborg + Nazgûl + Bloodflow Connoisseur
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 61 | Commander: legal | Mana needed: {2}{B}
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 60 | Commander: legal | Mana needed: {2}{B}
 Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Ratadrabik of Urborg (battlefield); Nazgûl (hand); Bloodflow Connoisseur (battlefield)
 Steps: Cast Nazgûl by paying {2}{B}.
@@ -20058,7 +20071,7 @@ Steps: Cast Dark Sphere by paying its mana cost.
 
 ## Combo 2511-2867-4636-5391
 Cards: Automated Assembly Line + Gonti's Aether Heart + Demon of Dark Schemes + Bloodflow Connoisseur
-Color identity: WB | Bracket: 2+ (Core) | Popularity: 0 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Automated Assembly Line (battlefield); Gonti's Aether Heart (battlefield); Demon of Dark Schemes (battlefield); Bloodflow Connoisseur (battlefield)
 Prerequisites: You have at least {E}{E}{E} available.
@@ -21144,7 +21157,7 @@ Notes: If Geralf's Messenger starts with a +1/+1 counter on it, then you may sta
 
 ## Combo 2511-5359-6972
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Bloodflow Connoisseur + Threefold Thunderhulk
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 8 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 10 | Commander: legal
 Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Bloodflow Connoisseur (battlefield); Threefold Thunderhulk (battlefield: without a -1/-1 counter on it)
 Steps: Activate Bloodflow Connoisseur by sacrificing Threefold Thunderhulk.
@@ -21327,7 +21340,7 @@ Steps: Activate Bloodflow Connoisseur by sacrificing Drakestown Forgotten.
 
 ## Combo 2511-6972-7322
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Bloodflow Connoisseur + Big Mother Mouser
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 7 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 9 | Commander: legal
 Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Bloodflow Connoisseur (battlefield); Big Mother Mouser (battlefield: without a -1/-1 counter on it)
 Steps: Activate Bloodflow Connoisseur by sacrificing Big Mother Mouser.
@@ -21337,7 +21350,7 @@ Steps: Activate Bloodflow Connoisseur by sacrificing Big Mother Mouser.
 
 ## Combo 2511-6972-7325
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Mighty Mutanimals + Bloodflow Connoisseur
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Mighty Mutanimals (battlefield); Bloodflow Connoisseur (battlefield)
 Prerequisites: You control another nontoken creature that doesn't have a -1/-1 counter on it and that has base toughness 2 or greater.
@@ -21594,7 +21607,7 @@ Steps: Declare Mondrak as an attacker.
 
 ## Combo 2523-3967-5559
 Cards: Ratadrabik of Urborg + Nazgûl + Yahenni, Undying Partisan
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 550 | Commander: legal | Mana needed: {2}{B}
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 540 | Commander: legal | Mana needed: {2}{B}
 Produces: Infinite creature tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Ratadrabik of Urborg (battlefield); Nazgûl (hand); Yahenni, Undying Partisan (battlefield)
 Steps: Cast Nazgûl by paying {2}{B}.
@@ -21665,7 +21678,7 @@ Steps: Activate Phyrexian Altar by sacrificing Uruk-hai Berserker, adding one ma
 
 ## Combo 2523-4050-6115
 Cards: Ozox, the Clattering King + Phyrexian Altar + Ratadrabik of Urborg
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 170 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 160 | Commander: legal
 Produces: Infinite colored mana; Infinite creature tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Ozox, the Clattering King (battlefield); Phyrexian Altar (battlefield); Ratadrabik of Urborg (battlefield)
 Steps: Activate Phyrexian Altar by sacrificing Ozox, adding {1}.
@@ -22637,7 +22650,7 @@ Steps: Activate Warren Soultrader by paying 1 life and sacrificing Gravecrawler,
 
 ## Combo 2577-5670-5789
 Cards: Warren Soultrader + Gravecrawler + Lifecreed Duo
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 40 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 41 | Commander: legal
 Produces: Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Warren Soultrader (battlefield); Gravecrawler (battlefield); Lifecreed Duo (battlefield)
 Prerequisites: Your life total is at least 2.
@@ -22661,7 +22674,7 @@ Steps: Activate Warren Soultrader by paying 1 life and sacrificing Gravecrawler,
 
 ## Combo 2577-5670-6097
 Cards: Warren Soultrader + Gravecrawler + Hinterland Sanctifier
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 87 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 89 | Commander: legal
 Produces: Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Warren Soultrader (battlefield); Gravecrawler (battlefield); Hinterland Sanctifier (battlefield)
 Prerequisites: Your life total is at least 2.
@@ -22711,7 +22724,7 @@ Steps: Activate Warren Soultrader by paying 1 life and sacrificing Gravecrawler,
 
 ## Combo 2577-5670-6720
 Cards: Warren Soultrader + Gravecrawler + Case of the Uneaten Feast
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 75 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 76 | Commander: legal
 Produces: Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Warren Soultrader (battlefield); Gravecrawler (battlefield); Case of the Uneaten Feast (battlefield)
 Prerequisites: Your life total is at least 2.
@@ -22723,7 +22736,7 @@ Steps: Activate Warren Soultrader by paying 1 life and sacrificing Gravecrawler,
 
 ## Combo 2577-5670-6752
 Cards: Warren Soultrader + Gravecrawler + Haliya, Guided by Light
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 200 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 210 | Commander: legal
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Warren Soultrader (battlefield); Gravecrawler (battlefield); Haliya, Guided by Light (battlefield)
 Prerequisites: Your life total is at least 2.
@@ -22749,7 +22762,7 @@ Steps: Activate Warren Soultrader by paying 1 life and sacrificing Gravecrawler.
 
 ## Combo 2577-5670-6823
 Cards: Warren Soultrader + Gravecrawler + Aunt May
-Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 39 | Commander: legal
+Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 40 | Commander: legal
 Produces: Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Warren Soultrader (battlefield); Gravecrawler (battlefield); Aunt May (battlefield)
 Prerequisites: Your life total is at least 2.
@@ -22982,7 +22995,7 @@ Steps: Activate Phantom Train by sacrificing the artifact
 
 ## Combo 2626-4986-6798--44
 Cards: Teshar, Ancestor's Apostle + Salvager of Ruin + Umbral Collar Zealot
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
 Produces: Infinite surveil; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
 Requires: Artifact Castable for {0} that survives (battlefield)
 Start: Teshar, Ancestor's Apostle (battlefield); Salvager of Ruin (battlefield); Umbral Collar Zealot (battlefield)
@@ -23018,7 +23031,7 @@ Steps: Cast Invasion of Tolvada by paying {3}{W}{B}.
 
 ## Combo 2656-2935--84
 Cards: Repay in Kind + Ethereal Champion
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal | Mana needed: {5}{B}{B}
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 73 | Commander: legal | Mana needed: {5}{B}{B}
 Produces: Each opponent loses the game; Near-infinite lifeloss for all players
 Requires: Permanent with "You don't lose the game due to having 0 or less life" (battlefield)
 Start: Repay in Kind (hand); Ethereal Champion (battlefield)
@@ -23030,7 +23043,7 @@ Steps: Activate Ethereal Champion by paying 1 life.
 
 ## Combo 2677-3862
 Cards: Orcish Bowmasters + Flumph
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 770 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 780 | Commander: legal
 Produces: Infinite card draw; Near-infinite card draw for target opponent; Near-infinite +1/+1 counters on certain creatures; Infinite draw triggers; Near-infinite draw triggers for target opponent
 Start: Orcish Bowmasters (battlefield); Flumph (battlefield)
 Prerequisites: You have a way to give Flumph indestructible.
@@ -23091,7 +23104,7 @@ Steps: Activate Bartolomé del Presidio by sacrificing Angel of Indemnity.
 
 ## Combo 2730-2921-6553
 Cards: Kaya's Ghostform + Brotherhood Outcast + Bartolomé del Presidio
-Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 350 | Commander: legal
+Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 360 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Kaya's Ghostform (battlefield); Brotherhood Outcast (battlefield); Bartolomé del Presidio (battlefield)
 Prerequisites: Kaya's Ghostform attached to Brotherhood Outcast.
@@ -23130,7 +23143,7 @@ Steps: Activate Yahenni by sacrificing Sun Titan.
 
 ## Combo 2730-3175-4050
 Cards: Kaya's Ghostform + Sun Titan + Phyrexian Altar
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 810 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 800 | Commander: legal
 Produces: Infinite colored mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Kaya's Ghostform (battlefield: attached to Sun Titan); Sun Titan (battlefield); Phyrexian Altar (battlefield)
 Steps: Activate Phyrexian Altar by sacrificing Sun Titan.
@@ -23189,7 +23202,7 @@ Steps: Activate Phantom Train by sacrificing Sun Titan.
 
 ## Combo 2730-3175-6798
 Cards: Kaya's Ghostform + Sun Titan + Umbral Collar Zealot
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 680 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 690 | Commander: legal
 Produces: Infinite surveil; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Kaya's Ghostform (battlefield: attached to Sun Titan); Sun Titan (battlefield); Umbral Collar Zealot (battlefield)
 Steps: Activate Umbral Collar Zealot by sacrificing Sun Titan.
@@ -23216,7 +23229,7 @@ Steps: Activate Hammerhead by sacrificing Sun Titan.
 
 ## Combo 2730-3899-6553
 Cards: Kaya's Ghostform + Brotherhood Outcast + Spawning Pit
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
 Produces: Infinite charge counters on a permanent; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Kaya's Ghostform (battlefield: attached to Brotherhood Outcast); Brotherhood Outcast (battlefield); Spawning Pit (battlefield)
 Steps: Activate Spawning Pit by sacrificing Brotherhood Outcast.
@@ -23451,7 +23464,7 @@ Steps: Activate Phantom Train by sacrificing Brotherhood Outcast.
 
 ## Combo 2730-6553-6798
 Cards: Kaya's Ghostform + Brotherhood Outcast + Umbral Collar Zealot
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 83 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 84 | Commander: legal
 Produces: Infinite surveil; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Kaya's Ghostform (battlefield: attached to Brotherhood Outcast); Brotherhood Outcast (battlefield); Umbral Collar Zealot (battlefield)
 Prerequisites: Kaya's Ghostform attached to Brotherhood Outcast.
@@ -23995,7 +24008,7 @@ Steps: Activate Shilgengar by sacrificing the persist creature.
 
 ## Combo 2744-6797--5
 Cards: Cathars' Crusade + Phantom Train
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 87 | Commander: legal
 Produces: Infinite +1/+1 counters on most creatures you control; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Requires: Persist Creature (battlefield: without a -1/-1 counter on it)
 Start: Cathars' Crusade (battlefield); Phantom Train (battlefield)
@@ -24089,7 +24102,7 @@ Steps: Activate Wall of Blood by paying life.
 
 ## Combo 2749-4695-8089
 Cards: Mister Negative + Wall of Blood + Soul Echo
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 93 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 94 | Commander: legal
 Produces: Near-infinite lifeloss for target opponent; Target opponent loses the game
 Start: Mister Negative (hand, command zone); Wall of Blood (battlefield); Soul Echo (battlefield)
 Steps: Activate Wall of Blood by paying life.
@@ -25335,7 +25348,7 @@ Steps: Activate Phyrexian Altar by sacrificing Lurrus, adding {1}.
 
 ## Combo 2829-2867-4636-5391
 Cards: Automated Assembly Line + Gonti's Aether Heart + Demon of Dark Schemes + Arcbound Ravager
-Color identity: WB | Bracket: 2+ (Core) | Popularity: 2 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Automated Assembly Line (battlefield); Gonti's Aether Heart (battlefield); Demon of Dark Schemes (battlefield); Arcbound Ravager (battlefield)
 Prerequisites: You have at least {E}{E}{E} available.
@@ -25993,7 +26006,7 @@ Steps: Activate Doom Whisperer by paying life.
 
 ## Combo 2852-6034-8089
 Cards: Mister Negative + Doom Whisperer + Pact Weapon
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 850 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 860 | Commander: legal
 Produces: Near-infinite lifeloss for target opponent; Target opponent loses the game
 Start: Mister Negative (hand, command zone); Doom Whisperer (battlefield); Pact Weapon (battlefield)
 Prerequisites: Pact Weapon attached to a creature you control.
@@ -26070,7 +26083,7 @@ Steps: Cast Dark Sphere by paying its mana cost.
 
 ## Combo 2866-2921-4715-4986
 Cards: Bartolomé del Presidio + Teshar, Ancestor's Apostle + Scrap Trawler + Prized Statue
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal | Mana needed: {2}
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal | Mana needed: {2}
 Produces: Infinite +1/+1 counters on creatures you control; Infinite creature ETB; Infinite creature LTB
 Start: Bartolomé del Presidio (battlefield); Teshar, Ancestor's Apostle (battlefield); Scrap Trawler (graveyard); Prized Statue (hand)
 Steps: Cast Prized Statue by paying {2}.
@@ -26514,7 +26527,7 @@ Steps: Cast Sol Ring by paying {1}.
 
 ## Combo 2867-2921-4636-5391
 Cards: Automated Assembly Line + Gonti's Aether Heart + Demon of Dark Schemes + Bartolomé del Presidio
-Color identity: WB | Bracket: 2+ (Core) | Popularity: 2 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Automated Assembly Line (battlefield); Gonti's Aether Heart (battlefield); Demon of Dark Schemes (battlefield); Bartolomé del Presidio (battlefield)
 Prerequisites: You have at least {E}{E}{E} available.
@@ -26527,7 +26540,7 @@ Steps: Activate Automated Assembly Line by paying {E}{E}{E}, creating a 3/3 Robo
 
 ## Combo 2867-3698-4636-5391
 Cards: Automated Assembly Line + Gonti's Aether Heart + Demon of Dark Schemes + Grinding Station
-Color identity: WB | Bracket: 2+ (Core) | Popularity: 4 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Automated Assembly Line (battlefield); Gonti's Aether Heart (battlefield); Demon of Dark Schemes (battlefield); Grinding Station (battlefield)
 Prerequisites: You have at least {E}{E}{E} available.
@@ -26542,7 +26555,7 @@ Steps: Activate Automated Assembly Line by paying {E}{E}{E}, creating a 3/3 Robo
 
 ## Combo 2867-3967-4636-5391
 Cards: Automated Assembly Line + Gonti's Aether Heart + Demon of Dark Schemes + Yahenni, Undying Partisan
-Color identity: WB | Bracket: 2+ (Core) | Popularity: 0 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Automated Assembly Line (battlefield); Gonti's Aether Heart (battlefield); Demon of Dark Schemes (battlefield); Yahenni, Undying Partisan (battlefield)
 Prerequisites: You have at least {E}{E}{E} available.
@@ -26555,7 +26568,7 @@ Steps: Activate Automated Assembly Line by paying {E}{E}{E}, creating a 3/3 Robo
 
 ## Combo 2867-4050-4636-5391
 Cards: Automated Assembly Line + Gonti's Aether Heart + Demon of Dark Schemes + Phyrexian Altar
-Color identity: WB | Bracket: 2+ (Core) | Popularity: 3 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
 Produces: Infinite colored mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Automated Assembly Line (battlefield); Gonti's Aether Heart (battlefield); Demon of Dark Schemes (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: You have at least {E}{E}{E} available.
@@ -26567,7 +26580,7 @@ Steps: Activate Automated Assembly Line by paying {E}{E}{E}, creating a 3/3 Robo
 
 ## Combo 2867-4636-4659-5391
 Cards: Automated Assembly Line + Gonti's Aether Heart + Demon of Dark Schemes + Krark-Clan Ironworks
-Color identity: WB | Bracket: 2+ (Core) | Popularity: 7 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Automated Assembly Line (battlefield); Gonti's Aether Heart (battlefield); Demon of Dark Schemes (battlefield); Krark-Clan Ironworks (battlefield)
 Prerequisites: You have at least {E}{E}{E} available.
@@ -26579,7 +26592,7 @@ Steps: Activate Automated Assembly Line by paying {E}{E}{E}, creating a 3/3 Robo
 
 ## Combo 2867-4636-5256-5391
 Cards: Automated Assembly Line + Gonti's Aether Heart + Demon of Dark Schemes + Altar of Dementia
-Color identity: WB | Bracket: 2+ (Core) | Popularity: 0 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Automated Assembly Line (battlefield); Gonti's Aether Heart (battlefield); Demon of Dark Schemes (battlefield); Altar of Dementia (battlefield)
 Prerequisites: You have at least {E}{E}{E} available.
@@ -26592,7 +26605,7 @@ Steps: Activate Automated Assembly Line by paying {E}{E}{E}, creating a 3/3 Robo
 
 ## Combo 2867-4636-5391-5686
 Cards: Automated Assembly Line + Gonti's Aether Heart + Demon of Dark Schemes + Shilgengar, Sire of Famine
-Color identity: WB | Bracket: 2+ (Core) | Popularity: 4 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
 Produces: Infinite artifact tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite Blood tokens
 Start: Automated Assembly Line (battlefield); Gonti's Aether Heart (battlefield); Demon of Dark Schemes (battlefield); Shilgengar, Sire of Famine (battlefield)
 Prerequisites: You have at least {E}{E}{E} available.
@@ -26605,7 +26618,7 @@ Steps: Activate Automated Assembly Line by paying {E}{E}{E}, creating a 3/3 Robo
 
 ## Combo 2867-4636-5391-6797
 Cards: Automated Assembly Line + Gonti's Aether Heart + Demon of Dark Schemes + Phantom Train
-Color identity: WB | Bracket: 2+ (Core) | Popularity: 1 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Automated Assembly Line (battlefield); Gonti's Aether Heart (battlefield); Demon of Dark Schemes (battlefield); Phantom Train (battlefield)
 Prerequisites: You have at least {E}{E}{E} available.
@@ -26953,7 +26966,7 @@ Steps: Activate Bartolomé del Presidio by sacrificing Cult Conscript.
 
 ## Combo 2921-2946-4871-6255
 Cards: Bartolomé del Presidio + Cult Conscript + Pitiless Plunderer + Zahur, Glory's Past
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 40 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 41 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Bartolomé del Presidio (battlefield); Cult Conscript (graveyard); Pitiless Plunderer (battlefield); Zahur, Glory's Past (battlefield)
 Prerequisites: A non-Skeleton creature has died under your control this turn.
@@ -27121,7 +27134,7 @@ Steps: Activate Bartolomé del Presidio by sacrificing Sun Titan.
 
 ## Combo 2921-3175-5617
 Cards: Sun Titan + Bartolomé del Presidio + Fungal Fortitude
-Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 470 | Commander: legal
+Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 480 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Sun Titan (battlefield); Bartolomé del Presidio (battlefield); Fungal Fortitude (battlefield: attached to Sun Titan)
 Steps: Activate Bartolomé del Presidio by sacrificing Sun Titan.
@@ -28175,6 +28188,18 @@ Steps: Cast Plague of Vermin by paying {6}{B} and choosing to pay any amount of 
   Repeat from step 2 as able.
 Notes: It's recommended to pay as much life as possible to maximize the amount of lifeloss. If an opponent happens to pay life during casting Plague of Vermin, those additional Rats can also be sacrificed.
 
+## Combo 2921-5058-8347
+Cards: Screams from Within + Bartolomé del Presidio + Sela, Tal Shiar Paradox
+Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Screams from Within (battlefield: attached to another creature you control); Bartolomé del Presidio (battlefield); Sela, Tal Shiar Paradox (battlefield)
+Prerequisites: You control an additional creature.
+Steps: Activate Bartolomé del Presidio by sacrificing the creature that has Screams from Within attached.
+  When the creature dies, Screams from Within triggers, returning it from your graveyard to the battlefield attached to another creature you control.
+  Sela triggers, creating a creature token.
+  Resolve the Bartolomé del Presidio ability.
+  Repeat.
+
 ## Combo 2921-5086-6972
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Bartolomé del Presidio + Triskelavus
 Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 2 | Commander: legal
@@ -28403,7 +28428,7 @@ Steps: Cast Leonin Relic-Warder by paying {W}{W}.
 
 ## Combo 2921-5276-6767
 Cards: Leonin Relic-Warder + Rescue Skiff + Bartolomé del Presidio
-Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 3 | Commander: legal | Mana needed: {W}{W}
+Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 4 | Commander: legal | Mana needed: {W}{W}
 Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Leonin Relic-Warder (hand); Rescue Skiff (battlefield); Bartolomé del Presidio (battlefield)
 Steps: Cast Leonin Relic-Warder by paying {W}{W}.
@@ -28432,7 +28457,7 @@ Notes: If Geralf's Messenger starts with a +1/+1 counter on it, then you may sta
 
 ## Combo 2921-5359-6972
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Bartolomé del Presidio + Threefold Thunderhulk
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 36 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 38 | Commander: legal
 Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite death triggers; Infinite creature sacrifice triggers; Infinite creature ETB; Infinite creature LTB
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Bartolomé del Presidio (battlefield); Threefold Thunderhulk (battlefield: without a -1/-1 counter on it)
 Steps: Activate Bartolomé del Presidio by sacrificing Threefold Thunderhulk.
@@ -28481,7 +28506,7 @@ Steps: Cast Traveling Plague by paying {3}{B}{B}, attaching it to another creatu
 
 ## Combo 2921-6012--5--195
 Cards: Bartolomé del Presidio + Reluctant Role Model
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 1800 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 1900 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: 2x Persist Creature (battlefield)
 Requires: Increases +1/+1 Counter Placement but not -1/-1 (battlefield)
@@ -28497,7 +28522,7 @@ Steps: Activate Bartolomé del Presidio by sacrificing the persist creature that
 
 ## Combo 2921-6132-6981
 Cards: Perigee Beckoner + Bartolomé del Presidio + Metamorphosis Fanatic
-Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 7 | Commander: legal | Mana needed: {1}{B}
+Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 9 | Commander: legal | Mana needed: {1}{B}
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Perigee Beckoner (hand); Bartolomé del Presidio (battlefield); Metamorphosis Fanatic (battlefield)
 Steps: Cast Perigee Beckoner for its warp cost by paying {1}{B}.
@@ -28630,7 +28655,7 @@ Steps: Activate Bartolomé del Presidio by sacrificing Drakestown Forgotten.
 
 ## Combo 2921-6972-7322
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Bartolomé del Presidio + Big Mother Mouser
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 39 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 41 | Commander: legal
 Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Bartolomé del Presidio (battlefield); Big Mother Mouser (battlefield: without a -1/-1 counter on it)
 Steps: Activate Bartolomé del Presidio by sacrificing Big Mother Mouser.
@@ -28640,7 +28665,7 @@ Steps: Activate Bartolomé del Presidio by sacrificing Big Mother Mouser.
 
 ## Combo 2921-6972-7325
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Mighty Mutanimals + Bartolomé del Presidio
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Mighty Mutanimals (battlefield); Bartolomé del Presidio (battlefield)
 Prerequisites: You control another nontoken creature that doesn't have a -1/-1 counter on it and that has base toughness 2 or greater.
@@ -28719,7 +28744,7 @@ Steps: Activate Bartolomé del Presidio by sacrificing Clockwork Hydra.
 
 ## Combo 2921-6972-7841
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Bartolomé del Presidio + Darksteel Angel
-Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 34 | Commander: legal
+Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 35 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Bartolomé del Presidio (battlefield); Darksteel Angel (battlefield)
 Steps: Activate Bartolomé del Presidio by sacrificing Darksteel Angel
@@ -28752,7 +28777,7 @@ Steps: Activate Bartolomé del Presidio by sacrificing Federation Field Medic.
 
 ## Combo 2921-7841--5
 Cards: Bartolomé del Presidio + Darksteel Angel
-Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 51 | Commander: legal
+Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 53 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Bartolomé del Presidio (battlefield); Darksteel Angel (battlefield)
@@ -29058,7 +29083,7 @@ Steps: Activate Warren Soultrader by paying 1 life and sacrificing Cult Conscrip
 
 ## Combo 2946-4871-5670-6772
 Cards: Warren Soultrader + Pitiless Plunderer + Syr Vondam, Sunstar Exemplar + Cult Conscript
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Warren Soultrader (battlefield); Pitiless Plunderer (battlefield); Syr Vondam, Sunstar Exemplar (battlefield); Cult Conscript (graveyard)
 Prerequisites: Your life total is 2 or higher.
@@ -29188,7 +29213,7 @@ Steps: Activate Phantom Train by sacrificing Cult Conscript.
 
 ## Combo 2946-4871-6255-6798
 Cards: Umbral Collar Zealot + Cult Conscript + Pitiless Plunderer + Zahur, Glory's Past
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
 Produces: Infinite surveil; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Umbral Collar Zealot (battlefield); Cult Conscript (graveyard); Pitiless Plunderer (battlefield); Zahur, Glory's Past (battlefield)
 Prerequisites: A non-Skeleton creature has died under your control this turn.
@@ -30204,7 +30229,7 @@ Steps: Cast Animate Dead by paying {1}{B}.
 
 ## Combo 3175-3605-4812-5686
 Cards: Animate Dead + Sun Titan + Dance of the Dead + Shilgengar, Sire of Famine
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal | Mana needed: {1}{B}
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal | Mana needed: {1}{B}
 Produces: Infinite artifact tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite Blood tokens
 Start: Animate Dead (hand); Sun Titan (graveyard); Dance of the Dead (graveyard); Shilgengar, Sire of Famine (battlefield)
 Steps: Cast Animate Dead by paying {1}{B}.
@@ -30282,7 +30307,7 @@ Steps: Cast Faceless Butcher by paying its mana cost.
 
 ## Combo 3175-3899-4775
 Cards: Sun Titan + Spawning Pit + Necrogen Communion
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal
 Produces: Infinite charge counters on a permanent; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Sun Titan (battlefield); Spawning Pit (battlefield); Necrogen Communion (battlefield: attached to Sun Titan)
 Steps: Activate Spawning Pit by sacrificing Sun Titan.
@@ -30293,7 +30318,7 @@ Steps: Activate Spawning Pit by sacrificing Sun Titan.
 
 ## Combo 3175-3899-5617
 Cards: Sun Titan + Spawning Pit + Fungal Fortitude
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal
 Produces: Infinite charge counters on a permanent; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Sun Titan (battlefield); Spawning Pit (battlefield); Fungal Fortitude (battlefield: attached to Sun Titan)
 Steps: Activate Spawning Pit by sacrificing Sun Titan.
@@ -30304,7 +30329,7 @@ Steps: Activate Spawning Pit by sacrificing Sun Titan.
 
 ## Combo 3175-3899-7424
 Cards: Sun Titan + Spawning Pit + Changing Loyalty
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal
 Produces: Infinite charge counters on a permanent; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Sun Titan (battlefield); Spawning Pit (battlefield); Changing Loyalty (battlefield: attached to Sun Titan)
 Steps: Activate Spawning Pit by sacrificing Sun Titan.
@@ -31006,7 +31031,7 @@ Steps: Activate Bloodthrone Vampire by sacrificing Sister Hospitaller.
 
 ## Combo 3305-3817-5256
 Cards: Body Launderer + Sister Hospitaller + Altar of Dementia
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 240 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 230 | Commander: legal
 Produces: Near-infinite lifegain; Near-infinite mill; Near-infinite self-mill; Near-infinite lifegain triggers; Infinite looting; Infinite self-discard triggers; Near-infinite creature ETB; Infinite draw triggers; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Body Launderer (battlefield); Sister Hospitaller (battlefield); Altar of Dementia (battlefield)
 Steps: Activate Altar of Dementia by sacrificing Sister Hospitaller.
@@ -31310,7 +31335,7 @@ Notes: You must control four Ninjas when Dark Leo & Shredder deals combat damage
 
 ## Combo 3373-7450
 Cards: Pox Plague + Astarion, the Decadent
-Color identity: WB | Bracket: 4+ (Ruthless) | Popularity: 320 | Commander: legal | Mana needed: {B}{B}{B}{B}{B}
+Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 320 | Commander: legal | Mana needed: {B}{B}{B}{B}{B}
 Produces: Near-infinite lifeloss for all players
 Start: Pox Plague (hand); Astarion, the Decadent (battlefield)
 Steps: Cast Pox Plague by paying {B}{B}{B}{B}{B}, causing each player to lose half their life, discard half their hand, and sacrifice half their permanents, rounded down. Ensure that you don't sacrifice Astarion.
@@ -31647,41 +31672,3 @@ Steps: Gain life.
   Amalia triggers. Holding priority, activate Phyrexian Altar by sacrificing the Servo, adding {1}.
   Resolve the Amalia trigger, revealing the top card of your library and then putting a +1/+1 counter on Amalia, putting the card back on top of your library, and destroying all other creatures if Amalia's power is 20.
   Repeat from step 3.
-
-## Combo 3490-4050-6283-7818
-Cards: Amalia Benavides Aguirre + Animation Module + Phyrexian Altar + Liliana the Faultless
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}
-Produces: Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Destroy all creatures opponents control; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Amalia Benavides Aguirre (battlefield); Animation Module (battlefield); Phyrexian Altar (battlefield); Liliana the Faultless (battlefield)
-Prerequisites: You have a way to gain life.
-  You have a nonland card on top of your library.
-  You have a way to give Liliana the Faultless indestructible.
-Steps: Gain life.
-  Amalia triggers, revealing the top card of your library and then putting a +1/+1 counter on Amalia, putting the card back on top of your library, and destroying all other creatures if Amalia's power is 20.
-  Animation Module triggers, causing you to pay {1} to create a 1/1 Servo artifact creature token.
-  When the Servo enters the battlefield, Liliana the Faultless triggers, causing you to gain 1 life.
-  Amalia triggers. Holding priority, activate Phyrexian Altar by sacrificing the Servo, adding {1}.
-  Resolve the Amalia trigger, revealing the top card of your library and then putting a +1/+1 counter on Amalia, putting the card back on top of your library, and destroying all other creatures if Amalia's power is 20.
-  Repeat from step 3.
-
-## Combo 3490-4050-6665
-Cards: Animation Module + Judge Magister Gabranth + Phyrexian Altar
-Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 33 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Animation Module (battlefield); Judge Magister Gabranth (battlefield); Phyrexian Altar (battlefield)
-Prerequisites: You control an additional creature.
-Steps: Activate Phyrexian Altar by sacrificing a creature, adding {1}.
-  When the creature leaves the battlefield, Judge Magister triggers, putting a +1/+1 counter on it.
-  Animation Module triggers, causing you to pay {1} to create a 1/1 Servo artifact creature token.
-  Repeat.
-
-## Combo 3490-4050-6772
-Cards: Syr Vondam, Sunstar Exemplar + Animation Module + Phyrexian Altar
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 55 | Commander: legal
-Produces: Infinite lifegain; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Syr Vondam, Sunstar Exemplar (battlefield); Animation Module (battlefield); Phyrexian Altar (battlefield)
-Prerequisites: You control an additional creature.
-Steps: Activate Phyrexian Altar by sacrificing any other creature you control, adding {1}.
-  Syr Vondam triggers, putting a +1/+1 counter on it and causing you to gain 1 life.
-  Animation Module triggers, causing you to pay {1} to create a 1/1 Servo artifact creature token.
-  Repeat.

@@ -1670,7 +1670,7 @@ Steps: Activate Selvala by paying {G} and tapping it, adding at least {B}{R}{G}.
 
 ## Combo 222-527-1753-2292
 Cards: Selvala, Heart of the Wilds + Slimefoot and Squee + Viscera Seer + Samut, Voice of Dissent
-Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {G}
+Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {G}
 Produces: Infinite colored mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Start: Selvala, Heart of the Wilds (battlefield); Slimefoot and Squee (battlefield); Viscera Seer (battlefield); Samut, Voice of Dissent (battlefield)
 Prerequisites: You control a creature with power 5 or greater.
@@ -3773,7 +3773,7 @@ Notes: The combo can continue as long as there are creature cards in your librar
 
 ## Combo 240-643-2292
 Cards: Atla Palani, Nest Tender + Viscera Seer + Maskwood Nexus
-Color identity: BRGW | Bracket: 3-4+ (Spicy) | Popularity: 12 | Commander: legal
+Color identity: BRGW | Bracket: 3-4+ (Spicy) | Popularity: 13 | Commander: legal
 Produces: Put all creature cards in your library onto the battlefield, then into your graveyard; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers; Near-infinite scry 1
 Start: Atla Palani, Nest Tender (battlefield); Viscera Seer (battlefield); Maskwood Nexus (battlefield)
 Prerequisites: You control another creature.
@@ -13429,7 +13429,7 @@ Steps: Activate Spawning Pit's second ability by paying {1} and removing two cha
 
 ## Combo 560-1940-4550-5147
 Cards: Zombie Infestation + Queen Allenal of Ruadach + Goblin Bombardment + Liliana, Dreadhorde General
-Color identity: BRGW | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
+Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Near-infinite damage; Infinite rummaging; Infinite self-discard triggers; Near-infinite creature ETB; Infinite draw triggers; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Zombie Infestation (battlefield); Queen Allenal of Ruadach (battlefield); Goblin Bombardment (battlefield); Liliana, Dreadhorde General (battlefield)
 Prerequisites: You have at least two cards in hand.
@@ -13441,7 +13441,7 @@ Steps: Activate Zombie Infestation by discarding two cards, creating a 2/2 Zombi
 
 ## Combo 560-1940-4550-5231
 Cards: Zombie Infestation + Queen Allenal of Ruadach + Thermopod + Liliana, Dreadhorde General
-Color identity: BRGW | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
+Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Near-infinite red mana; Infinite rummaging; Infinite self-discard triggers; Near-infinite creature ETB; Infinite draw triggers; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Zombie Infestation (battlefield); Queen Allenal of Ruadach (battlefield); Thermopod (battlefield); Liliana, Dreadhorde General (battlefield)
 Prerequisites: You have at least two cards in hand.
@@ -18837,6 +18837,23 @@ Steps: Activate Cauldron Familiar by sacrificing a Food.
   Resolve the Sarcatog ability.
   Repeat.
 
+## Combo 856-2099-5776-6277
+Cards: Ygra, Eater of All + Cauldron Familiar + Sarcatog + On Wings of Gold
+Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite lifegain; Infinite lifeloss; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
+Start: Ygra, Eater of All (battlefield); Cauldron Familiar (graveyard); Sarcatog (battlefield); On Wings of Gold (battlefield)
+Prerequisites: You control another Food.
+Steps: Activate Cauldron Familiar by sacrificing a Food.
+  Ygra triggers, putting two +1/+1 counters on it.
+  Resolve the Cauldron Familiar ability, returning it from your graveyard to the battlefield.
+  Cauldron Familiar and On Wings of Gold trigger.
+  Resolve the On Wings of Gold trigger, creating a creature token.
+  Resolve the Cauldron Familiar trigger, causing each opponent to lose 1 life and you to gain 1 life.
+  Activate Sarcatog by sacrificing Cauldron Familiar.
+  When Cauldron Familiar dies, Ygra triggers, putting two +1/+1 counters on it.
+  Resolve the Sarcatog ability.
+  Repeat.
+
 ## Combo 856-2099-5776-7396
 Cards: Ygra, Eater of All + Cauldron Familiar + Sarcatog + Quintorius, History Chaser
 Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -19589,6 +19606,23 @@ Steps: Activate Cauldron Familiar by sacrificing a Food.
   Resolve the Bartolomé del Presidio ability.
   Repeat.
 
+## Combo 856-2981-5776-6277
+Cards: Ygra, Eater of All + Cauldron Familiar + Megatog + On Wings of Gold
+Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite lifegain; Infinite lifeloss; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
+Start: Ygra, Eater of All (battlefield); Cauldron Familiar (graveyard); Megatog (battlefield); On Wings of Gold (battlefield)
+Prerequisites: You control another Food.
+Steps: Activate Cauldron Familiar by sacrificing a Food.
+  Ygra triggers, putting two +1/+1 counters on it.
+  Resolve the Cauldron Familiar ability, returning it from your graveyard to the battlefield.
+  Cauldron Familiar and On Wings of Gold trigger.
+  Resolve the On Wings of Gold trigger, creating a creature token.
+  Resolve the Cauldron Familiar trigger, causing each opponent to lose 1 life and you to gain 1 life.
+  Activate Megatog by sacrificing Cauldron Familiar.
+  When Cauldron Familiar dies, Ygra triggers, putting two +1/+1 counters on it.
+  Resolve the Megatog ability.
+  Repeat.
+
 ## Combo 856-2981-5776-7396
 Cards: Ygra, Eater of All + Cauldron Familiar + Megatog + Quintorius, History Chaser
 Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -19906,6 +19940,23 @@ Steps: Activate Cauldron Familiar by sacrificing a Food.
   When Cauldron Familiar dies, Ygra triggers, putting two +1/+1 counters on it.
   Repeat.
 
+## Combo 856-4779-5776-6277
+Cards: Ygra, Eater of All + Cauldron Familiar + Krark-Clan Grunt + On Wings of Gold
+Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite lifegain; Infinite lifeloss; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinitely powerful creature until end of turn
+Start: Ygra, Eater of All (battlefield); Cauldron Familiar (graveyard); Krark-Clan Grunt (battlefield); On Wings of Gold (battlefield)
+Prerequisites: You control another Food.
+Steps: Activate Cauldron Familiar by sacrificing a Food.
+  Ygra triggers, putting two +1/+1 counters on it.
+  Resolve the Cauldron Familiar ability, returning it from your graveyard to the battlefield.
+  Cauldron Familiar and On Wings of Gold trigger.
+  Resolve the On Wings of Gold trigger, creating a creature token.
+  Resolve the Cauldron Familiar trigger, causing each opponent to lose 1 life and you to gain 1 life.
+  Activate Krark-Clan Grunt by sacrificing Cauldron Familiar.
+  When Cauldron Familiar dies, Ygra triggers, putting two +1/+1 counters on it.
+  Resolve the Krark-Clan Grunt ability.
+  Repeat.
+
 ## Combo 856-4779-5776-7396
 Cards: Ygra, Eater of All + Cauldron Familiar + Krark-Clan Grunt + Quintorius, History Chaser
 Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -19968,6 +20019,23 @@ Steps: Activate Cauldron Familiar by sacrificing a Food.
   Activate Goblin Bombardment by sacrificing Cauldron Familiar.
   When Cauldron Familiar dies, Ygra triggers, putting two +1/+1 counters on it.
   Resolve the Goblin Bombardment ability.
+  Repeat.
+
+## Combo 856-5226-5776-6277
+Cards: Ygra, Eater of All + Cauldron Familiar + Lithatog + On Wings of Gold
+Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite lifegain; Infinite lifeloss; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
+Start: Ygra, Eater of All (battlefield); Cauldron Familiar (graveyard); Lithatog (battlefield); On Wings of Gold (battlefield)
+Prerequisites: You control another Food.
+Steps: Activate Cauldron Familiar by sacrificing a Food.
+  Ygra triggers, putting two +1/+1 counters on it.
+  Resolve the Cauldron Familiar ability, returning it from your graveyard to the battlefield.
+  Cauldron Familiar and On Wings of Gold trigger.
+  Resolve the On Wings of Gold trigger, creating a creature token.
+  Resolve the Cauldron Familiar trigger, causing each opponent to lose 1 life and you to gain 1 life.
+  Activate Lithatog by sacrificing Cauldron Familiar.
+  When Cauldron Familiar dies, Ygra triggers, putting two +1/+1 counters on it.
+  Resolve the Lithatog ability.
   Repeat.
 
 ## Combo 856-5226-5776-7396
@@ -20063,6 +20131,23 @@ Steps: Activate Evereth by sacrificing Cauldron Familiar.
   Repeat.
 Notes: If you have a way to kill Evereth and {1}{B/R} available, you can do so after putting a significant amount of +1/+1 counters on it to deal damage to each opponent using its second ability.
 
+## Combo 856-5315-5776-6277
+Cards: Ygra, Eater of All + Cauldron Familiar + Ravenous Intruder + On Wings of Gold
+Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite lifegain; Infinite lifeloss; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
+Start: Ygra, Eater of All (battlefield); Cauldron Familiar (graveyard); Ravenous Intruder (battlefield); On Wings of Gold (battlefield)
+Prerequisites: You control another Food.
+Steps: Activate Cauldron Familiar by sacrificing a Food.
+  Ygra triggers, putting two +1/+1 counters on it.
+  Resolve the Cauldron Familiar ability, returning it from your graveyard to the battlefield.
+  Cauldron Familiar and On Wings of Gold trigger.
+  Resolve the On Wings of Gold trigger, creating a creature token.
+  Resolve the Cauldron Familiar trigger, causing each opponent to lose 1 life and you to gain 1 life.
+  Activate Ravenous Intruder by sacrificing Cauldron Familiar.
+  When Cauldron Familiar dies, Ygra triggers, putting two +1/+1 counters on it.
+  Resolve the Ravenous Intruder ability.
+  Repeat.
+
 ## Combo 856-5315-5776-7396
 Cards: Ygra, Eater of All + Cauldron Familiar + Ravenous Intruder + Quintorius, History Chaser
 Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -20078,6 +20163,23 @@ Steps: Activate Cauldron Familiar by sacrificing a Food.
   Activate Ravenous Intruder by sacrificing Cauldron Familiar.
   When Cauldron Familiar dies, Ygra triggers, putting two +1/+1 counters on it.
   Resolve the Ravenous Intruder ability.
+  Repeat.
+
+## Combo 856-5330-5776-6277
+Cards: Ygra, Eater of All + Cauldron Familiar + Atog + On Wings of Gold
+Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite lifegain; Infinite lifeloss; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
+Start: Ygra, Eater of All (battlefield); Cauldron Familiar (graveyard); Atog (battlefield); On Wings of Gold (battlefield)
+Prerequisites: You control another Food.
+Steps: Activate Cauldron Familiar by sacrificing a Food.
+  Ygra triggers, putting two +1/+1 counters on it.
+  Resolve the Cauldron Familiar ability, returning it from your graveyard to the battlefield.
+  Cauldron Familiar and On Wings of Gold trigger.
+  Resolve the On Wings of Gold trigger, creating a creature token.
+  Resolve the Cauldron Familiar trigger, causing each opponent to lose 1 life and you to gain 1 life.
+  Activate Atog by sacrificing Cauldron Familiar.
+  When Cauldron Familiar dies, Ygra triggers, putting two +1/+1 counters on it.
+  Resolve the Atog ability.
   Repeat.
 
 ## Combo 856-5330-5776-7396
@@ -28620,86 +28722,3 @@ Steps: Activate Lithatog by sacrificing Scrapyard Recombiner.
   Resolve the persist trigger, returning Scrapyard Recombiner from your graveyard to the battlefield. It will not have a -1/-1 counter on it due to its modular ability.
   Resolve the Lithatog ability.
   Repeat.
-
-## Combo 1734-1916-6473
-Cards: Fiend Hunter + Changeling Titan + Mardu Siegebreaker
-Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
-Produces: Infinite creature ETB; Infinite creature LTB
-Start: Fiend Hunter (hand, battlefield, exile: Exiled by the creature on the battlefield); Changeling Titan (hand, battlefield, exile: Exiled by the creature on the battlefield); Mardu Siegebreaker (hand, battlefield, exile: Exiled by the creature on the battlefield)
-Prerequisites: Mardu Siegebreaker must be exiled by Changeling Titan, and Fiend Hunter must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
-Steps: Cast Fiend Hunter for its mana cost.
-  When Fiend Hunter enters, it exiles Changeling Titan until Fiend Hunter leaves the battlefield. Resolve any additional effects of Fiend Hunter's ETB.
-  When Changeling Titan leaves the battlefield, Mardu Siegebreaker is returned from exile to the battlefield.
-  When Mardu Siegebreaker enters, it exiles Fiend Hunter until Mardu Siegebreaker leaves the battlefield. Resolve any additional effects of Mardu Siegebreaker's ETB.
-  When Fiend Hunter leaves the battlefield, Changeling Titan is returned from exile to the battlefield.
-  When Changeling Titan enters, it exiles Mardu Siegebreaker until Changeling Titan leaves the battlefield. Resolve any additional effects of Changeling Titan's ETB.
-  When Mardu Siegebreaker leaves the battlefield, Fiend Hunter is returned from exile to the battlefield.
-  Repeat from step 2.
-Notes: Due to differences in card templating between the various banisher effects (linked triggered abilities vs "until" clause), steps 3, 5, and 7 may return the creature to the battlefield during the resolution of the preceding step rather than creating a separate event. This should not affect the overall execution of the combo, only how many objects pass through the stack (and thus rounds of priority available per loop).
-
-## Combo 1734-1971-6473
-Cards: Yannik, Scavenging Sentinel + Fiend Hunter + Mardu Siegebreaker
-Color identity: BRGW | Bracket: 3-4+ (Spicy) | Popularity: 2 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
-Produces: Infinite +1/+1 counters on creatures you control; Infinite creature ETB; Infinite creature LTB
-Start: Yannik, Scavenging Sentinel (hand, battlefield, exile: Exiled by the creature on the battlefield); Fiend Hunter (hand, battlefield, exile: Exiled by the creature on the battlefield); Mardu Siegebreaker (hand, battlefield, exile: Exiled by the creature on the battlefield)
-Prerequisites: Mardu Siegebreaker must be exiled by Fiend Hunter, and Yannik must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
-Steps: Cast Yannik for its mana cost.
-  When Yannik enters, it exiles Fiend Hunter until Yannik leaves the battlefield. Resolve any additional effects of Yannik's ETB.
-  When Fiend Hunter leaves the battlefield, Mardu Siegebreaker is returned from exile to the battlefield.
-  When Mardu Siegebreaker enters, it exiles Yannik until Mardu Siegebreaker leaves the battlefield. Resolve any additional effects of Mardu Siegebreaker's ETB.
-  When Yannik leaves the battlefield, Fiend Hunter is returned from exile to the battlefield.
-  When Fiend Hunter enters, it exiles Mardu Siegebreaker until Fiend Hunter leaves the battlefield. Resolve any additional effects of Fiend Hunter's ETB.
-  When Mardu Siegebreaker leaves the battlefield, Yannik is returned from exile to the battlefield.
-  Repeat from step 2.
-Notes: Due to differences in card templating between the various banisher effects (linked triggered abilities vs "until" clause), steps 3, 5, and 7 may return the creature to the battlefield during the resolution of the preceding step rather than creating a separate event. This should not affect the overall execution of the combo, only how many objects pass through the stack (and thus rounds of priority available per loop).
-
-## Combo 1742-2557-2793-3743-5089
-Cards: Osgir, the Reconstructor + Karn, the Great Creator + Ugin's Nexus + Skirge Familiar + Parallel Lives
-Color identity: BRGW | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {5} available, with an additional {5} every fourth turn
-Produces: Infinite turns; Lock
-Start: Osgir, the Reconstructor (battlefield); Karn, the Great Creator (battlefield); Ugin's Nexus (graveyard); Skirge Familiar (battlefield); Parallel Lives (battlefield)
-Steps: Activate Osgir by paying {5}, tapping it and exiling Ugin's Nexus from your graveyard, creating four token copies of Ugin's Nexus.
-  Put three of the Ugin's Nexus tokens into exile due to the legend rule and their replacement effects, causing you to take three extra turns after this one.
-  Activate Karn's first loyalty ability by putting a loyalty counter on it, choosing to do nothing.
-  Move to your next extra turn.
-  Repeat from step 3 one additional time.
-  Activate Karn's second loyalty ability by removing two loyalty counters from it, returning Ugin's Nexus from exile to your hand.
-  Activate Skirge Familiar by discarding Ugin's Nexus.
-  Move to your last extra turn.
-  Repeat.
-
-## Combo 1742-2793-3129-3743-5089
-Cards: Osgir, the Reconstructor + Karn, the Great Creator + Ugin's Nexus + Skirge Familiar + Primal Vigor
-Color identity: BRGW | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {5} available, with an additional {5} every fourth turn
-Produces: Infinite turns; Lock
-Start: Osgir, the Reconstructor (battlefield); Karn, the Great Creator (battlefield); Ugin's Nexus (graveyard); Skirge Familiar (battlefield); Primal Vigor (battlefield)
-Steps: Activate Osgir by paying {5}, tapping it and exiling Ugin's Nexus from your graveyard, creating four token copies of Ugin's Nexus.
-  Put three of the Ugin's Nexus tokens into exile due to the legend rule and their replacement effects, causing you to take three extra turns after this one.
-  Activate Karn's first loyalty ability by putting a loyalty counter on it, choosing to do nothing.
-  Move to your next extra turn.
-  Repeat from step 3 one additional time.
-  Activate Karn's second loyalty ability by removing two loyalty counters from it, returning Ugin's Nexus from exile to your hand.
-  Activate Skirge Familiar by discarding Ugin's Nexus.
-  Move to your last extra turn.
-  Repeat.
-
-## Combo 1742-4359-4499
-Cards: Garna, the Bloodflame + Emiel the Blessed + Skirge Familiar
-Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {3}
-Produces: Infinite black mana; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite self-discard triggers
-Start: Garna, the Bloodflame (battlefield); Emiel the Blessed (battlefield); Skirge Familiar (battlefield)
-Prerequisites: You have at least three creature cards in your graveyard that were put there this turn.
-Steps: Activate Emiel by paying {3}, blinking Garna.
-  When Garna enters the battlefield, it triggers, returning all creature cards that were put into your graveyard this turn to your hand.
-  Activate Skirge Familiar three times by discarding three creature cards, adding {B}{B}{B}.
-  Repeat.
-  If you have four or more creature cards in your graveyard that were put there this turn, this combo nets infinite {B} and infinite blinking.
-
-## Combo 1749-2182-3858
-Cards: Mayael's Aria + Dark Depths + Vampire Hexmage
-Color identity: BRGW | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal
-Produces: Win the game at the beginning of your next upkeep
-Start: Mayael's Aria (battlefield); Dark Depths (battlefield); Vampire Hexmage (battlefield)
-Steps: Activate Vampire Hexmage by sacrificing it, removing all counters from Dark Depths.
-  Dark Depths triggers, causing you to sacrifice it and create a 20/20 Marit Lage legendary creature token.
-  At the beginning of your next upkeep, Mayael's Aria triggers, causing you to put a +1/+1 counter on each creature you control, gain 10 life and win the game.

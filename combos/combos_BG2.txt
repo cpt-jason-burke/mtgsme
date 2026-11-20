@@ -1,3 +1,37 @@
+## Combo 1563-3899-4927-6705
+Cards: Jaheira, Friend of the Forest + Spawning Pit + Tyvar, Jubilant Brawler + Quina, Qu Gourmet
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {1}
+Produces: Infinite green mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Jaheira, Friend of the Forest (battlefield); Spawning Pit (battlefield: with two or more charge counters on it); Tyvar, Jubilant Brawler (battlefield); Quina, Qu Gourmet (battlefield)
+Steps: Activate Spawning Pit's second ability by paying {1} and removing two charge counters from it, creating two creature tokens
+  Activate the tokens by tapping them, adding {G}{G}.
+  Activate Spawning Pit's first ability twice by sacrificing the tokens, putting two charge counters on Spawning Pit.
+  Repeat.
+
+## Combo 1563-4186-4321-6934
+Cards: Greta, Sweettooth Scourge + Jaheira, Friend of the Forest + Peregrin Took + Scurry Oak
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 490 | Commander: legal | Mana needed: {G}
+Produces: Infinite creature tokens; Infinite card draw; Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite draw triggers; Infinite Food tokens
+Start: Greta, Sweettooth Scourge (hand, battlefield); Jaheira, Friend of the Forest (hand, battlefield); Peregrin Took (battlefield); Scurry Oak (battlefield)
+Prerequisites: You control a Food.
+Steps: Activate Greta by paying {G} and sacrificing a Food, putting a +1/+1 counter on Scurry Oak.
+  Scurry Oak triggers, creating a creature token and a Food token.
+  Activate the Food by tapping it, adding {G}.
+  Repeat.
+
+## Combo 1563-4231-4321-5777
+Cards: Camellia, the Seedmiser + Peregrin Took + Academy Manufactor + Jaheira, Friend of the Forest
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 13000 | Commander: legal | Mana needed: {2}
+Produces: Infinite colored mana; Infinite lifegain; Infinite card draw; Infinite Treasure tokens; Infinite +1/+1 counters on an infinite number of creature tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite +1/+1 counters on Squirrels you control; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite draw triggers; Infinite Clue tokens
+Start: Camellia, the Seedmiser (battlefield); Peregrin Took (battlefield); Academy Manufactor (battlefield); Jaheira, Friend of the Forest (battlefield)
+Prerequisites: You control a Food.
+Steps: Activate Camellia by paying {2} and sacrificing a Food.
+  Camellia's first ability triggers, creating a Foods, a Clue, a Treasure and a 1/1 Squirrel creature token.
+  Resolve the Camellia ability, putting a +1/+1 counter on each other Squirrel you control.
+  Activate two of the artifact tokens by tapping them, adding {G}{G}.
+  Repeat.
+Notes: You can sacrifice the Foods to their own abilities instead - you will simply tap the Clue and Treasure for mana instead.
+
 ## Combo 1563-4321-4772-5777
 Cards: Camellia, the Seedmiser + Peregrin Took + Jaheira, Friend of the Forest + Doubling Season
 Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 6300 | Commander: legal | Mana needed: {2}
@@ -12,7 +46,7 @@ Steps: Activate Camellia by paying {2} and sacrificing a Food.
 
 ## Combo 1563-4927-7686
 Cards: The Unbeatable Squirrel Girl + Jaheira, Friend of the Forest + Tyvar, Jubilant Brawler
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal | Mana needed: {1}{G}{G}{G}
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal | Mana needed: {1}{G}{G}{G}
 Produces: Infinite colored mana; Infinite creature tokens; Infinite creature ETB
 Start: The Unbeatable Squirrel Girl (battlefield); Jaheira, Friend of the Forest (battlefield); Tyvar, Jubilant Brawler (battlefield)
 Prerequisites: You control four or more Squirrels.
@@ -1670,7 +1704,7 @@ Steps: Activate Ulvenwald Tracker by paying {1}{G} and tapping it, causing Shelo
 
 ## Combo 1729-3515-4762
 Cards: Shelob, Child of Ungoliant + Devoted Druid + Setessan Tactics
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 790 | Commander: legal | Mana needed: {1}{G}
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 780 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite green mana
 Start: Shelob, Child of Ungoliant (battlefield); Devoted Druid (battlefield); Setessan Tactics (hand)
 Prerequisites: Shelob does not have summoning sickness.
@@ -2810,7 +2844,7 @@ Steps: Activate Varolz by sacrificing Eternal Scourge, regenerating Varolz.
 
 ## Combo 1819-2434-3244
 Cards: Syr Konrad, the Grim + Morality Shift + Gaea's Blessing
-Color identity: BG | Bracket: 3+ (Powerful) | Popularity: 87 | Commander: legal | Mana needed: {5}{B}{B}
+Color identity: BG | Bracket: 3+ (Powerful) | Popularity: 88 | Commander: legal | Mana needed: {5}{B}{B}
 Produces: Near-infinite damage
 Start: Syr Konrad, the Grim (battlefield); Morality Shift (hand); Gaea's Blessing (library)
 Steps: Cast Morality Shift by paying {5}{B}{B}, exchanging your graveyard and library.
@@ -3008,7 +3042,7 @@ Steps: Cast Acererak by paying {B}.
 
 ## Combo 1824-4191
 Cards: Aluren + Acererak the Archlich
-Color identity: BG | Bracket: 4+ (Ruthless) | Popularity: 970 | Commander: legal
+Color identity: BG | Bracket: 4+ (Ruthless) | Popularity: 980 | Commander: legal
 Produces: Infinite card draw; Near-infinite colored mana; Near-infinite creature tokens; Near-infinite lifegain; Near-infinite lifeloss; Near-infinite Treasure tokens; Near-infinite ventures into the dungeon; Near-infinite +1/+1 counters on creatures you control; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite storm count
 Start: Aluren (battlefield); Acererak the Archlich (hand)
 Prerequisites: You haven't completed and are not currently venturing in Tomb of Annihilation.
@@ -3098,7 +3132,7 @@ Steps: Activate Phyrexian Altar by sacrificing Cult Conscript, adding {B}
 
 ## Combo 1829-3000-5670
 Cards: Warren Soultrader + Vindictive Vampire + Chatterfang, Squirrel General
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 530 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 520 | Commander: legal
 Produces: Infinite colored mana; Infinite Treasure tokens; Infinite damage; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Warren Soultrader (battlefield); Vindictive Vampire (battlefield); Chatterfang, Squirrel General (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -3690,7 +3724,7 @@ Steps: Activate Gwenna by tapping it, adding {1}{G} that can only be spent to ca
 
 ## Combo 1940-2034-4191-5010
 Cards: Golgari Thug + Aluren + Liliana, Dreadhorde General + Ashnod's Altar
-Color identity: BG | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite colorless mana; Infinite death triggers; Infinite draw triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Golgari Thug (battlefield); Aluren (battlefield); Liliana, Dreadhorde General (battlefield); Ashnod's Altar (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Golgari Thug, adding {C}{C}.
@@ -3702,7 +3736,7 @@ Steps: Activate Ashnod's Altar by sacrificing Golgari Thug, adding {C}{C}.
 
 ## Combo 1940-2034-4963
 Cards: Words of Wilding + Liliana, Dreadhorde General + Ashnod's Altar
-Color identity: BG | Bracket: 4+ (Ruthless) | Popularity: 5 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
 Produces: Infinite colorless mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Words of Wilding (battlefield); Liliana, Dreadhorde General (battlefield); Ashnod's Altar (battlefield)
 Prerequisites: You control at least one creature.
@@ -3714,7 +3748,7 @@ Steps: Activate Ashnod's Altar by sacrificing a creature, adding {C}{C}.
 
 ## Combo 1940-2292-4191-5010
 Cards: Golgari Thug + Aluren + Liliana, Dreadhorde General + Viscera Seer
-Color identity: BG | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite death triggers; Infinite draw triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite scry 1; Infinite storm count
 Start: Golgari Thug (battlefield); Aluren (battlefield); Liliana, Dreadhorde General (battlefield); Viscera Seer (battlefield)
 Steps: Activate Viscera Seer by sacrificing Golgari Thug.
@@ -3727,7 +3761,7 @@ Steps: Activate Viscera Seer by sacrificing Golgari Thug.
 
 ## Combo 1940-4050-4191-5010
 Cards: Golgari Thug + Aluren + Liliana, Dreadhorde General + Phyrexian Altar
-Color identity: BG | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite colored mana; Infinite death triggers; Infinite draw triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Golgari Thug (battlefield); Aluren (battlefield); Liliana, Dreadhorde General (battlefield); Phyrexian Altar (battlefield)
 Steps: Activate Phyrexian Altar by sacrificing Golgari Thug, adding one mana of any color.
@@ -3739,7 +3773,7 @@ Steps: Activate Phyrexian Altar by sacrificing Golgari Thug, adding one mana of 
 
 ## Combo 1940-4050-4963
 Cards: Words of Wilding + Liliana, Dreadhorde General + Phyrexian Altar
-Color identity: BG | Bracket: 4+ (Ruthless) | Popularity: 1 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Words of Wilding (battlefield); Liliana, Dreadhorde General (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: You control at least one creature.
@@ -3751,7 +3785,7 @@ Steps: Activate Phyrexian Altar by sacrificing a creature, adding {1}.
 
 ## Combo 1940-4191-5010-5256
 Cards: Golgari Thug + Aluren + Liliana, Dreadhorde General + Altar of Dementia
-Color identity: BG | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite death triggers; Infinite draw triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Golgari Thug (battlefield); Aluren (battlefield); Liliana, Dreadhorde General (battlefield); Altar of Dementia (battlefield)
 Steps: Activate Altar of Dementia by sacrificing Golgari Thug.
@@ -3834,7 +3868,7 @@ Steps: Cast the creature card from your hand for {0}. The creature enters, then 
 
 ## Combo 1957-4050-4616--173
 Cards: Veinwitch Coven + Phyrexian Altar + Moldervine Reclamation
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 800 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 810 | Commander: legal
 Produces: Infinite card draw; Near-infinite lifegain; Near-infinite lifeloss; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Requires: Creature castable for {0} that survives (battlefield)
 Start: Veinwitch Coven (battlefield); Phyrexian Altar (battlefield); Moldervine Reclamation (battlefield)
@@ -3846,7 +3880,7 @@ Steps: Activate Phyrexian Altar by sacrificing the creature castable for {0}, ad
 
 ## Combo 1957-4050-4616--204
 Cards: Veinwitch Coven + Moldervine Reclamation + Phyrexian Altar
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 800 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 810 | Commander: legal
 Produces: Infinite card draw; Near-infinite lifegain; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Requires: One-drop creature with a second body (battlefield)
 Start: Veinwitch Coven (battlefield); Moldervine Reclamation (battlefield); Phyrexian Altar (battlefield)
@@ -3888,7 +3922,7 @@ Steps: Activate Phyrexian Altar by sacrificing the one-drop creature, adding {B}
 
 ## Combo 1957-4050-7452--173
 Cards: Veinwitch Coven + Phyrexian Altar + Cauldron of Essence
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 560 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 570 | Commander: legal
 Produces: Infinite lifegain; Infinite lifeloss; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Requires: Creature castable for {0} that survives (battlefield)
 Start: Veinwitch Coven (battlefield); Phyrexian Altar (battlefield); Cauldron of Essence (battlefield)
@@ -3900,7 +3934,7 @@ Steps: Activate Phyrexian Altar by sacrificing the creature castable for {0}, ad
 
 ## Combo 1957-4050-7452--204
 Cards: Veinwitch Coven + Phyrexian Altar + Cauldron of Essence
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 560 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 570 | Commander: legal
 Produces: Infinite lifegain; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: One-drop creature with a second body (battlefield)
 Start: Veinwitch Coven (battlefield); Phyrexian Altar (battlefield); Cauldron of Essence (battlefield)
@@ -6013,7 +6047,7 @@ Steps: Activate Ashnod's Altar by sacrificing another nonland creature you contr
 
 ## Combo 2034-3703-7084
 Cards: Beifong's Bounty Hunters + Ashnod's Altar + Sporemound
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 42 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Ashnod's Altar (battlefield); Sporemound (battlefield)
 Prerequisites: You control a land.
@@ -6027,7 +6061,7 @@ Steps: Activate Ashnod's Altar by sacrificing another nonland creature you contr
 
 ## Combo 2034-3719-3924-4871
 Cards: Ruthless Technomancer + Pitiless Plunderer + Ashnod's Altar + Deep Forest Hermit
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal | Mana needed: {3}{G}{G}
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal | Mana needed: {3}{G}{G}
 Produces: Infinite colored mana; Infinite colorless mana; Infinite creature tokens; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Return all creature cards from your graveyard to the battlefield
 Start: Ruthless Technomancer (battlefield); Pitiless Plunderer (battlefield); Ashnod's Altar (battlefield); Deep Forest Hermit (hand)
 Steps: Cast Deep Forest Hermit by paying {3}{G}{G}.
@@ -6076,7 +6110,7 @@ Steps: Cast the Insect from your hand or graveyard by paying {0} due to Aluren.
 
 ## Combo 2034-3781-4215--124
 Cards: Zask, Skittering Swarmlord + Verdant Succession + Ashnod's Altar
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 640 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 650 | Commander: legal
 Produces: Infinite self-mill; Near-infinite colorless mana; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Requires: Green Nontoken Insect (battlefield)
 Start: Zask, Skittering Swarmlord (battlefield); Verdant Succession (battlefield); Ashnod's Altar (battlefield)
@@ -6263,7 +6297,7 @@ Steps: Cast Afterlife from the Loam by paying at most {5}{B}{B}{B}, returning Gr
 
 ## Combo 2034-4484-4871-5477
 Cards: Ebondeath, Dracolich + Ashnod's Altar + Pitiless Plunderer + Insidious Roots
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal | Mana needed: {B}
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal | Mana needed: {B}
 Produces: Infinite colorless mana; Infinite +1/+1 counters on certain creatures; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Ebondeath, Dracolich (battlefield); Ashnod's Altar (battlefield); Pitiless Plunderer (battlefield); Insidious Roots (battlefield)
 Prerequisites: A creature not named Ebondeath, Dracolich has died this turn.
@@ -6309,7 +6343,7 @@ Steps: Activate Ashnod's Altar by sacrificing another nonland creature you contr
 
 ## Combo 2034-4548-4871-5763
 Cards: Circle of the Land Druid + Takenuma, Abandoned Mire + Pitiless Plunderer + Ashnod's Altar
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 77 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 78 | Commander: legal
 Produces: Infinite colorless mana; Infinite self-mill; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite self-discard triggers; Infinite storm count
 Start: Circle of the Land Druid (battlefield); Takenuma, Abandoned Mire (graveyard); Pitiless Plunderer (battlefield); Ashnod's Altar (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Circle of the Land Druid, adding {C}{C}.
@@ -7024,7 +7058,7 @@ Notes: This loop can be repeated whenever a creature enters the battlefield unde
 
 ## Combo 2034-6528-7084
 Cards: Beifong's Bounty Hunters + Ashnod's Altar + Elfsworn Giant
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Ashnod's Altar (battlefield); Elfsworn Giant (battlefield)
 Prerequisites: You control a land.
@@ -7052,7 +7086,7 @@ Steps: Activate Ashnod's Altar by sacrificing another nonland creature you contr
 
 ## Combo 2034-6662-7084
 Cards: Beifong's Bounty Hunters + Ashnod's Altar + Chocobo Racetrack
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Ashnod's Altar (battlefield); Chocobo Racetrack (battlefield)
 Prerequisites: You control a land.
@@ -7139,7 +7173,7 @@ Steps: Activate Ashnod's Altar by sacrificing another nonland creature.
 
 ## Combo 2034-6982--5
 Cards: Stalwart Successor + Ashnod's Altar
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 370 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 380 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Stalwart Successor (battlefield); Ashnod's Altar (battlefield)
@@ -7151,7 +7185,7 @@ Steps: Activate Ashnod's Altar by sacrificing the creature with persist.
 
 ## Combo 2034-7083-7084
 Cards: Baloth Prime + Beifong's Bounty Hunters + Ashnod's Altar
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 90 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 91 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Baloth Prime (battlefield); Beifong's Bounty Hunters (battlefield); Ashnod's Altar (battlefield)
 Prerequisites: You control a land.
@@ -7326,7 +7360,7 @@ Steps: Pay {1}{B}{G} to have Polukranos fight Crystalline Crawler.
 
 ## Combo 2060-2290-3097
 Cards: Valentin, Dean of the Vein // Lisette, Dean of the Root + Spike Feeder + Crystalline Crawler
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 77 | Commander: legal | Mana needed: {1}
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 78 | Commander: legal | Mana needed: {1}
 Produces: Infinite lifegain; Infinite +1/+1 counters on most creatures you control; Infinite lifegain triggers
 Start: Valentin, Dean of the Vein // Lisette, Dean of the Root (battlefield); Spike Feeder (battlefield); Crystalline Crawler (battlefield)
 Prerequisites: Dean of the Root.
@@ -7350,7 +7384,7 @@ Steps: Activate Fertilid by paying {1}{G} and removing a +1/+1 counter from it, 
 
 ## Combo 2060-4120-4498
 Cards: Vigor + Crystalline Crawler + Pestilence
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {B}
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {B}
 Produces: Near-infinite damage; Near-infinite +1/+1 counters on most creatures you control
 Start: Vigor (battlefield); Crystalline Crawler (battlefield); Pestilence (battlefield)
 Prerequisites: You have a way to give Vigor indestructible.
@@ -7390,7 +7424,7 @@ Steps: Activate Champion of the Weird by paying 1 life and putting two -1/-1 cou
 
 ## Combo 2080-4050-4477
 Cards: Rise of the Dark Realms + Phyrexian Altar + Greenwarden of Murasa
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 58 | Commander: legal | Mana needed: {7}{B} at most
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 57 | Commander: legal | Mana needed: {7}{B} at most
 Produces: Infinite colored mana; Return all creature cards from all graveyards to the battlefield under your control; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count; Infinite magecraft triggers
 Start: Rise of the Dark Realms (hand); Phyrexian Altar (battlefield); Greenwarden of Murasa (battlefield)
 Prerequisites: The number of nontoken creatures you control plus the number of creature cards in all graveyards is at least nine.
@@ -7554,7 +7588,7 @@ Steps: Cast Blood Pet by paying its mana cost.
 
 ## Combo 2082-3967-4186
 Cards: Scurry Oak + Sadistic Glee + Yahenni, Undying Partisan
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 41 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 42 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Scurry Oak (battlefield); Sadistic Glee (battlefield); Yahenni, Undying Partisan (battlefield)
 Prerequisites: Sadistic Glee attached to Scurry Oak.
@@ -7858,7 +7892,7 @@ Steps: Play a land.
 
 ## Combo 2167-3534-5626-5721
 Cards: Squandered Resources + Aftermath Analyst + Chthonian Nightmare + Field of the Dead
-Color identity: BG | Bracket: 3+ (Powerful) | Popularity: 490 | Commander: legal
+Color identity: BG | Bracket: 3+ (Powerful) | Popularity: 500 | Commander: legal
 Produces: Infinite self-mill; Infinite creature tokens; Infinite mana lands you control can produce; Put all land cards from your library and graveyard onto the battlefield; Infinite creature LTB; Infinite creature ETB; Infinite storm count; Infinite landfall triggers; Infinite energy counters
 Start: Squandered Resources (battlefield); Aftermath Analyst (battlefield); Chthonian Nightmare (battlefield); Field of the Dead (battlefield)
 Prerequisites: You control seven or more lands with different names.
@@ -7993,7 +8027,7 @@ Steps: Activate Squandered Resources by sacrificing a land, adding one mana of a
 
 ## Combo 2167-5626-5702-5721
 Cards: Squandered Resources + Aftermath Analyst + Chthonian Nightmare + Springheart Nantuko
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 460 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 470 | Commander: legal
 Produces: Infinite self-mill; Infinite creature tokens; Infinite mana lands you control can produce; Put all land cards from your library and graveyard onto the battlefield; Infinite creature LTB; Infinite creature ETB; Infinite storm count; Infinite landfall triggers; Infinite energy counters
 Start: Squandered Resources (battlefield); Aftermath Analyst (battlefield); Chthonian Nightmare (battlefield); Springheart Nantuko (battlefield)
 Prerequisites: You have at least {E}{E}.
@@ -8095,7 +8129,7 @@ Steps: Activate Squandered Resources by sacrificing a land, adding one mana of a
 
 ## Combo 2167-5626-5721-7705
 Cards: Squandered Resources + Aftermath Analyst + Chthonian Nightmare + Mole Man, Moloid Master
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 93 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 94 | Commander: legal
 Produces: Infinite creature tokens; Infinite mana lands you control can produce; Infinite self-mill; Put all land cards from your library and graveyard onto the battlefield; Infinite creature ETB; Infinite creature LTB; Infinite energy counters; Infinite landfall triggers; Infinite storm count
 Start: Squandered Resources (battlefield); Aftermath Analyst (battlefield); Chthonian Nightmare (battlefield); Mole Man, Moloid Master (battlefield)
 Prerequisites: You have at least {E}{E}.
@@ -9306,7 +9340,7 @@ Steps: Activate Wight of the Reliquary by tapping it and sacrificing another cre
 
 ## Combo 2178-5310-5627
 Cards: Wight of the Reliquary + Thornbite Staff + Bloodghast
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 400 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 410 | Commander: legal
 Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
 Start: Wight of the Reliquary (battlefield); Thornbite Staff (battlefield); Bloodghast (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
@@ -9371,7 +9405,7 @@ Steps: Activate Wight of the Reliquary by tapping it and sacrificing another cre
 
 ## Combo 2178-5627-6754
 Cards: Wight of the Reliquary + Thornbite Staff + Eusocial Engineering
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 33 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal
 Produces: Put all lands from your library onto the battlefield tapped; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite landfall triggers
 Start: Wight of the Reliquary (battlefield); Thornbite Staff (battlefield: attached to Wight of the Reliquary); Eusocial Engineering (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
@@ -9397,7 +9431,7 @@ Steps: Activate Wight of the Reliquary by tapping it and sacrificing another cre
 
 ## Combo 2178-5627-7705
 Cards: Wight of the Reliquary + Thornbite Staff + Mole Man, Moloid Master
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 73 | Commander: legal
 Produces: Put all lands from your library onto the battlefield tapped; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite landfall triggers
 Start: Wight of the Reliquary (battlefield); Thornbite Staff (battlefield: attached to Wight of the Reliquary); Mole Man, Moloid Master (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
@@ -9522,7 +9556,7 @@ Steps: Activate Yawgmoth by paying 1 life and sacrificing a creature, putting a 
 
 ## Combo 2228-2842-4279
 Cards: Yawgmoth, Thran Physician + Hapatra, Vizier of Poisons + Blood Artist
-Color identity: BG | Bracket: 3-4+ (Spicy) | Popularity: 5900 | Commander: legal
+Color identity: BG | Bracket: 3-4+ (Spicy) | Popularity: 6000 | Commander: legal
 Produces: Near-infinite card draw; Near-infinite lifeloss; Near-infinite lifegain triggers; Near-infinite -1/-1 counters; Destroy all creatures opponents control; Destroy each creature that enters the battlefield under an opponent's control; Near-infinite death triggers; Near-infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Lock
 Start: Yawgmoth, Thran Physician (battlefield); Hapatra, Vizier of Poisons (battlefield); Blood Artist (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -9608,7 +9642,7 @@ Notes: You may also repeat this loop whenever a creature enters the battlefield 
 
 ## Combo 2228-4279-5708
 Cards: Yawgmoth, Thran Physician + Vein Ripper + Hapatra, Vizier of Poisons
-Color identity: BG | Bracket: 3-4+ (Spicy) | Popularity: 110 | Commander: legal
+Color identity: BG | Bracket: 3-4+ (Spicy) | Popularity: 120 | Commander: legal
 Produces: Near-infinite card draw; Near-infinite lifegain; Near-infinite lifeloss; Near-infinite lifegain triggers; Destroy all creatures opponents control; Destroy each creature that enters the battlefield under an opponent's control; Lock; Near-infinite -1/-1 counters; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite draw triggers
 Start: Yawgmoth, Thran Physician (battlefield); Vein Ripper (battlefield); Hapatra, Vizier of Poisons (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -10162,7 +10196,7 @@ Steps: Cast Army of the Damned by paying {5}{B}{B}{B}, creating 26 2/2 Zombie cr
 
 ## Combo 2253-3000-4688
 Cards: Chatterfang, Squirrel General + Epic Struggle + Army of the Damned
-Color identity: BG | Bracket: 2-3+ (Oddball) | Popularity: 85 | Commander: legal | Mana needed: {5}{B}{B}{B}
+Color identity: BG | Bracket: 2-3+ (Oddball) | Popularity: 84 | Commander: legal | Mana needed: {5}{B}{B}{B}
 Produces: Win the game at the beginning of your next upkeep
 Start: Chatterfang, Squirrel General (battlefield); Epic Struggle (battlefield); Army of the Damned (hand)
 Steps: Cast Army of the Damned by paying {5}{B}{B}{B}, creating thirteen 2/2 Zombie and thirteen 1/1 Squirrel creature tokens.
@@ -10170,7 +10204,7 @@ Steps: Cast Army of the Damned by paying {5}{B}{B}{B}, creating thirteen 2/2 Zom
 
 ## Combo 2253-3129-4688
 Cards: Epic Struggle + Army of the Damned + Primal Vigor
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal | Mana needed: {5}{B}{B}{B}
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal | Mana needed: {5}{B}{B}{B}
 Produces: Win the game at the beginning of your next upkeep
 Start: Epic Struggle (battlefield); Army of the Damned (hand); Primal Vigor (battlefield)
 Steps: Cast Army of the Damned by paying {5}{B}{B}{B}, creating 26 2/2 Zombie creature tokens.
@@ -10204,7 +10238,7 @@ Steps: Cast Songs of the Damned by paying {B}, adding {B} for each creature card
 
 ## Combo 2254-4823-5626
 Cards: Songs of the Damned + Chthonian Nightmare + Timeless Witness
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 100 | Commander: legal | Mana needed: {B}
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 110 | Commander: legal | Mana needed: {B}
 Produces: Infinite black mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count; Infinite magecraft triggers
 Start: Songs of the Damned (hand); Chthonian Nightmare (hand); Timeless Witness (battlefield)
 Prerequisites: You have at least five creature cards in your graveyard, and one of those creature cards has mana value 2 or less.
@@ -10859,7 +10893,7 @@ Steps: Cast Hornet Queen by paying {4}{G}{G}{G}.
 
 ## Combo 2292-2946-3220-4871
 Cards: Viscera Seer + Cult Conscript + Golgari Germination + Pitiless Plunderer
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 85 | Commander: legal
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite scry 1
 Start: Viscera Seer (battlefield); Cult Conscript (graveyard); Golgari Germination (battlefield); Pitiless Plunderer (battlefield)
 Prerequisites: A non-Skeleton creature has died under your control this turn.
@@ -11122,7 +11156,7 @@ Steps: Activate Viscera Seer by sacrificing another nonland creature you control
 
 ## Combo 2292-3703-7084
 Cards: Beifong's Bounty Hunters + Viscera Seer + Sporemound
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 70 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 71 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Viscera Seer (battlefield); Sporemound (battlefield)
 Prerequisites: You control a land.
@@ -11823,7 +11857,7 @@ Steps: Activate Viscera Seer by sacrificing the persist creature.
 
 ## Combo 2292-6528-7084
 Cards: Beifong's Bounty Hunters + Viscera Seer + Elfsworn Giant
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 46 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 47 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Viscera Seer (battlefield); Elfsworn Giant (battlefield)
 Prerequisites: You control a land.
@@ -11866,7 +11900,7 @@ Steps: Activate Viscera Seer by sacrificing the persist creature.
 
 ## Combo 2292-6662-7084
 Cards: Beifong's Bounty Hunters + Viscera Seer + Chocobo Racetrack
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 53 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Viscera Seer (battlefield); Chocobo Racetrack (battlefield)
 Prerequisites: You control a land.
@@ -12103,7 +12137,7 @@ Steps: Activate Viscera Seer by sacrificing the persist creature.
 
 ## Combo 2292-7388--5
 Cards: Viscera Seer + Rocksteady, Mutant Marauder
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 490 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 500 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Requires: Persist Creature (battlefield)
 Start: Viscera Seer (battlefield); Rocksteady, Mutant Marauder (battlefield)
@@ -12363,7 +12397,7 @@ Steps: Cast Hangarback Walker either from your hand or from the top of your libr
 
 ## Combo 2363-5660-6872
 Cards: Long Feng, Grand Secretariat + Evolution Witness + Hangarback Walker
-Color identity: BG | Bracket: 2-3+ (Oddball) | Popularity: 22 | Commander: legal
+Color identity: BG | Bracket: 2-3+ (Oddball) | Popularity: 21 | Commander: legal
 Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite storm count
 Start: Long Feng, Grand Secretariat (battlefield); Evolution Witness (battlefield: with a +1/+1 counter on it); Hangarback Walker (hand)
 Steps: Cast Hangarback Walker by paying {0}.
@@ -12919,7 +12953,7 @@ Steps: Activate Carrion Feeder by sacrificing the creature with persist.
 
 ## Combo 2438-2946-3220-4871
 Cards: Carrion Feeder + Cult Conscript + Golgari Germination + Pitiless Plunderer
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Carrion Feeder (battlefield); Cult Conscript (graveyard); Golgari Germination (battlefield); Pitiless Plunderer (battlefield)
 Prerequisites: A non-Skeleton creature has died under your control this turn.
@@ -12964,7 +12998,7 @@ Steps: Activate Carrion Feeder by sacrificing the persist creature.
 
 ## Combo 2438-3197-5445
 Cards: Tarrian's Soulcleaver + Herd Baloth + Carrion Feeder
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 74 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 73 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Tarrian's Soulcleaver (battlefield); Herd Baloth (battlefield); Carrion Feeder (battlefield)
 Prerequisites: Tarrian's Soulcleaver attached to Herd Baloth.
@@ -12995,7 +13029,7 @@ Steps: Cast Herd Baloth by paying its mana cost.
 
 ## Combo 2438-3197-6854--196
 Cards: Carrion Feeder + Herd Baloth + Host of the Hereafter
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 83 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 84 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Gives +1/+1 counter to creatures that enter (battlefield)
 Start: Carrion Feeder (battlefield); Herd Baloth (hand); Host of the Hereafter (battlefield)
@@ -13270,7 +13304,7 @@ Steps: Put a +1/+1 counter on Scurry Oak.
 
 ## Combo 2438-4186-5662--196
 Cards: Carrion Feeder + Scurry Oak + Reyhan, Last of the Abzan
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 220 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 210 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Gives +1/+1 counter to creatures that enter (battlefield)
 Start: Carrion Feeder (battlefield); Scurry Oak (hand); Reyhan, Last of the Abzan (battlefield)
@@ -13901,7 +13935,7 @@ Steps: Activate Carrion Feeder by sacrificing another nonland creature you contr
 
 ## Combo 2438-6602--5
 Cards: Carrion Feeder + Tromell, Seymour's Butler
-Color identity: BG | Bracket: 2-3+ (Oddball) | Popularity: 640 | Commander: legal
+Color identity: BG | Bracket: 2-3+ (Oddball) | Popularity: 650 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Requires: Persist Creature (battlefield: without a -1/-1 counter on it)
 Start: Carrion Feeder (battlefield); Tromell, Seymour's Butler (battlefield)
@@ -13912,7 +13946,7 @@ Steps: Activate Carrion Feeder by sacrificing the persist creature.
 
 ## Combo 2438-6662-7084
 Cards: Beifong's Bounty Hunters + Carrion Feeder + Chocobo Racetrack
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Carrion Feeder (battlefield); Chocobo Racetrack (battlefield)
 Prerequisites: You control a land.
@@ -13928,7 +13962,7 @@ Steps: Activate Carrion Feeder by sacrificing another nonland creature you contr
 
 ## Combo 2438-6754-7084
 Cards: Beifong's Bounty Hunters + Carrion Feeder + Eusocial Engineering
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Carrion Feeder (battlefield); Eusocial Engineering (battlefield)
 Prerequisites: You control a land.
@@ -13944,7 +13978,7 @@ Steps: Activate Carrion Feeder by sacrificing another nonland creature you contr
 
 ## Combo 2438-6761-7084
 Cards: Scouring Swarm + Beifong's Bounty Hunters + Carrion Feeder
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal
 Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Scouring Swarm (battlefield); Beifong's Bounty Hunters (battlefield); Carrion Feeder (battlefield)
 Prerequisites: You control a land.
@@ -14072,7 +14106,7 @@ Steps: Activate Carrion Feeder by sacrificing another nonland creature.
 
 ## Combo 2438-7084-7705
 Cards: Beifong's Bounty Hunters + Carrion Feeder + Mole Man, Moloid Master
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 63 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 66 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers
 Start: Beifong's Bounty Hunters (battlefield); Carrion Feeder (battlefield); Mole Man, Moloid Master (battlefield)
 Prerequisites: You control a land.
@@ -14201,7 +14235,7 @@ Steps: Activate Carrion Feeder by sacrificing the persist creature.
 
 ## Combo 2445-3099-3921-4762
 Cards: Devoted Druid + Leyline of Abundance + Branching Evolution + Winding Constrictor
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal | Mana needed: {6}{G}{G}
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal | Mana needed: {6}{G}{G}
 Produces: Infinite +1/+1 counters on most creatures you control
 Start: Devoted Druid (battlefield: without summoning sickness and without a -1/-1 counter on it); Leyline of Abundance (battlefield); Branching Evolution (battlefield); Winding Constrictor (battlefield)
 Steps: Activate Leyline of Abundance by paying {6}{G}{G}, putting four +1/+1 counters on each creature you control due to Winding Constrictor and Branching Evolution.
@@ -14403,7 +14437,7 @@ Steps: Activate Bloodthrone Vampire by sacrificing the persist creature.
 
 ## Combo 2486-5641-5662
 Cards: Basking Broodscale + Master Chef + Reyhan, Last of the Abzan
-Color identity: BG | Bracket: 3-4+ (Spicy) | Popularity: 250 | Commander: legal | Mana needed: {1}{G}
+Color identity: BG | Bracket: 3-4+ (Spicy) | Popularity: 240 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite colorless mana; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (hand); Master Chef (battlefield); Reyhan, Last of the Abzan (battlefield)
 Prerequisites: You control your commander.
@@ -14428,7 +14462,7 @@ Steps: Cast Basking Broodscale by paying {1}{G}, which enters with a +1/+1 count
 
 ## Combo 2486-6797--5
 Cards: Master Chef + Phantom Train
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 56 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 58 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Master Chef (battlefield); Phantom Train (battlefield)
@@ -15530,7 +15564,7 @@ Steps: Activate Bloodflow Connoisseur by sacrificing another nonland creature yo
 
 ## Combo 2511-6602--5
 Cards: Bloodflow Connoisseur + Tromell, Seymour's Butler
-Color identity: BG | Bracket: 2-3+ (Oddball) | Popularity: 88 | Commander: legal
+Color identity: BG | Bracket: 2-3+ (Oddball) | Popularity: 90 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Requires: Persist Creature (battlefield: without a -1/-1 counter on it)
 Start: Bloodflow Connoisseur (battlefield); Tromell, Seymour's Butler (battlefield)
@@ -15638,7 +15672,7 @@ Steps: Activate Bloodflow Connoisseur by sacrificing another nonland creature.
 
 ## Combo 2511-6982--5
 Cards: Stalwart Successor + Bloodflow Connoisseur
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 90 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 91 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Stalwart Successor (battlefield); Bloodflow Connoisseur (battlefield)
@@ -15778,7 +15812,7 @@ Steps: Activate Bloodflow Connoisseur by sacrificing the persist creature.
 
 ## Combo 2511-7388--5
 Cards: Bloodflow Connoisseur + Rocksteady, Mutant Marauder
-Color identity: BG | Bracket: 2-3+ (Oddball) | Popularity: 29 | Commander: legal
+Color identity: BG | Bracket: 2-3+ (Oddball) | Popularity: 30 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Bloodflow Connoisseur (battlefield); Rocksteady, Mutant Marauder (battlefield)
@@ -16806,7 +16840,7 @@ Steps: Activate Phantom Train by sacrificing another creature.
 
 ## Combo 2590-5776-6798
 Cards: Ygra, Eater of All + Experimental Confectioner + Umbral Collar Zealot
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 2400 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 2500 | Commander: legal
 Produces: Infinite surveil; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Ygra, Eater of All (battlefield); Experimental Confectioner (battlefield); Umbral Collar Zealot (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -17015,7 +17049,7 @@ Steps: Cast Metalwork Colossus by paying {0}, which enters with at least two +1/
 
 ## Combo 2646-4247--5
 Cards: Bloodspore Thrinax + Bloodthrone Vampire
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 87 | Commander: legal
 Produces: Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Bloodspore Thrinax (battlefield); Bloodthrone Vampire (battlefield)
@@ -17153,7 +17187,7 @@ Steps: Activate Altar of Dementia by sacrificing Ebondeath, causing target playe
 
 ## Combo 2667-3718
 Cards: Chain of Acid + Witherbloom Pledgemage
-Color identity: BG | Bracket: 3-4+ (Spicy) | Popularity: 91 | Commander: legal | Mana needed: {3}{G}
+Color identity: BG | Bracket: 3-4+ (Spicy) | Popularity: 92 | Commander: legal | Mana needed: {3}{G}
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite magecraft triggers
 Start: Chain of Acid (hand); Witherbloom Pledgemage (battlefield)
 Prerequisites: You control an indestructible noncreature permanent.
@@ -18702,7 +18736,7 @@ Steps: Cause a creature or land to enter under your control.
 
 ## Combo 3000-4050-7306
 Cards: The Ooze + Chatterfang, Squirrel General + Phyrexian Altar
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 81 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 82 | Commander: legal
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: The Ooze (battlefield); Chatterfang, Squirrel General (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: You control another creature that has a +1/+1 counter on it.
@@ -18973,7 +19007,7 @@ Steps: Activate Warren Soultrader by paying 1 life and sacrificing another creat
 
 ## Combo 3015-5256-6481
 Cards: Colossal Grave-Reaver + Altar of Dementia + God-Eternal Rhonas
-Color identity: BG | Bracket: 3-4+ (Spicy) | Popularity: 48 | Commander: legal
+Color identity: BG | Bracket: 3-4+ (Spicy) | Popularity: 49 | Commander: legal
 Produces: Infinitely powerful creatures you control until end of turn; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Colossal Grave-Reaver (battlefield); Altar of Dementia (battlefield); God-Eternal Rhonas (battlefield)
 Steps: Activate Altar of Dementia by sacrificing God-Eternal Rhonas.
@@ -19098,7 +19132,7 @@ Steps: Activate Food Chain by exiling Nadier, adding seven {B} that can only be 
 
 ## Combo 3054-3220-4050
 Cards: Oathsworn Vampire + Phyrexian Altar + Golgari Germination
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Oathsworn Vampire (battlefield); Phyrexian Altar (battlefield); Golgari Germination (battlefield)
 Prerequisites: You have gained life this turn.
@@ -19439,7 +19473,7 @@ Steps: Activate Leyline of Abundance by paying {6}{G}{G}, putting four +1/+1 cou
 
 ## Combo 3099-3921-4762-4772
 Cards: Devoted Druid + Leyline of Abundance + Winding Constrictor + Doubling Season
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal | Mana needed: {6}{G}{G}
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal | Mana needed: {6}{G}{G}
 Produces: Infinite +1/+1 counters on most creatures you control
 Start: Devoted Druid (battlefield: without summoning sickness and without a -1/-1 counter on it); Leyline of Abundance (battlefield); Winding Constrictor (battlefield); Doubling Season (battlefield)
 Steps: Activate Leyline of Abundance by paying {6}{G}{G}, putting four +1/+1 counters on each creature you control due to Doubling Season and Winding Constrictor.
@@ -19451,7 +19485,7 @@ Steps: Activate Leyline of Abundance by paying {6}{G}{G}, putting four +1/+1 cou
 
 ## Combo 3099-3921-4762-5902
 Cards: Devoted Druid + Leyline of Abundance + Winding Constrictor + Innkeeper's Talent
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal | Mana needed: {6}{G}{G}
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal | Mana needed: {6}{G}{G}
 Produces: Infinite +1/+1 counters on most creatures you control
 Start: Devoted Druid (battlefield: without summoning sickness and without a -1/-1 counter on it); Leyline of Abundance (battlefield); Winding Constrictor (battlefield); Innkeeper's Talent (battlefield: is level 3)
 Steps: Activate Leyline of Abundance by paying {6}{G}{G}, putting four +1/+1 counters on each creature you control due to Winding Constrictor and Innkeeper's Talent.
@@ -19463,7 +19497,7 @@ Steps: Activate Leyline of Abundance by paying {6}{G}{G}, putting four +1/+1 cou
 
 ## Combo 3099-3921-4762-6627
 Cards: Devoted Druid + Leyline of Abundance + Winding Constrictor + The Earth Crystal
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {6}{G}{G}
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {6}{G}{G}
 Produces: Infinite +1/+1 counters on most creatures you control
 Start: Devoted Druid (battlefield: without summoning sickness and without a -1/-1 counter on it); Leyline of Abundance (battlefield); Winding Constrictor (battlefield); The Earth Crystal (battlefield)
 Steps: Activate Leyline of Abundance by paying {6}{G}{G}, putting four +1/+1 counters on each creature you control due to The Earth Crystal and Winding Constrictor.
@@ -19884,7 +19918,7 @@ Steps: Put a +1/+1 counter on Herd Baloth.
 
 ## Combo 3197-3967-5662--196
 Cards: Herd Baloth + Yahenni, Undying Partisan + Reyhan, Last of the Abzan
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Gives +1/+1 counter to creatures that enter (battlefield)
 Start: Herd Baloth (hand); Yahenni, Undying Partisan (battlefield); Reyhan, Last of the Abzan (battlefield)
@@ -20056,7 +20090,7 @@ Steps: Put a +1/+1 counter on Herd Baloth
 
 ## Combo 3197-5445-6798
 Cards: Tarrian's Soulcleaver + Herd Baloth + Umbral Collar Zealot
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
 Produces: Infinite surveil; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Tarrian's Soulcleaver (battlefield); Herd Baloth (battlefield); Umbral Collar Zealot (battlefield)
 Prerequisites: Tarrian's Soulcleaver attached to Herd Baloth.
@@ -20149,7 +20183,7 @@ Steps: Cast Herd Baloth by paying its mana cost.
 
 ## Combo 3197-6798-6872
 Cards: Long Feng, Grand Secretariat + Umbral Collar Zealot + Herd Baloth
-Color identity: BG | Bracket: 3-4+ (Spicy) | Popularity: 270 | Commander: legal
+Color identity: BG | Bracket: 3-4+ (Spicy) | Popularity: 260 | Commander: legal
 Produces: Infinite surveil; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Long Feng, Grand Secretariat (battlefield); Umbral Collar Zealot (battlefield); Herd Baloth (battlefield)
 Prerequisites: You have a way to put a +1/+1 counter on Herd Baloth
@@ -20802,7 +20836,7 @@ Steps: Activate Phyrexian Altar by sacrificing Nether Traitor, adding one mana o
 
 ## Combo 3240-4050-6887
 Cards: Nether Traitor + Phyrexian Altar + The Skullspore Nexus
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 92 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 93 | Commander: legal
 Produces: Infinite colored mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Nether Traitor (battlefield); Phyrexian Altar (battlefield); The Skullspore Nexus (battlefield)
 Steps: Activate Phyrexian Altar by sacrificing Nether Traitor, adding {B}.
@@ -21353,7 +21387,7 @@ Steps: Activate Phyrexian Altar by sacrificing another creature, adding {1}.
 
 ## Combo 3490-3880-4659
 Cards: Animation Module + Krark-Clan Ironworks + Ravenous Squirrel
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 50 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal
 Produces: Infinite colorless mana; Infinite +1/+1 counters on a creature; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Animation Module (battlefield); Krark-Clan Ironworks (battlefield); Ravenous Squirrel (battlefield)
 Prerequisites: You control at least one additional artifact.
@@ -21699,7 +21733,7 @@ Notes: The land you earthbend can be Field of the Dead.
 
 ## Combo 3534-4247-7084
 Cards: Beifong's Bounty Hunters + Field of the Dead + Bloodthrone Vampire
-Color identity: BG | Bracket: 3+ (Powerful) | Popularity: 5 | Commander: legal
+Color identity: BG | Bracket: 3+ (Powerful) | Popularity: 6 | Commander: legal
 Produces: Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Field of the Dead (battlefield); Bloodthrone Vampire (battlefield)
 Prerequisites: You control a land.
@@ -21727,7 +21761,7 @@ Notes: The land you earthbend can be Field of the Dead.
 
 ## Combo 3534-5256-7084
 Cards: Beifong's Bounty Hunters + Field of the Dead + Altar of Dementia
-Color identity: BG | Bracket: 3+ (Powerful) | Popularity: 660 | Commander: legal
+Color identity: BG | Bracket: 3+ (Powerful) | Popularity: 670 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Field of the Dead (battlefield); Altar of Dementia (battlefield)
 Prerequisites: You control a land.
@@ -21839,7 +21873,7 @@ Notes: The land you earthbend can be Field of the Dead.
 
 ## Combo 3534-7084-8227
 Cards: Beifong's Bounty Hunters + Field of the Dead + Loot, the Anomaly
-Color identity: BG | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal
+Color identity: BG | Bracket: 3+ (Powerful) | Popularity: 1 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers; Infinitely powerful creature until end of turn
 Start: Beifong's Bounty Hunters (battlefield); Field of the Dead (battlefield); Loot, the Anomaly (battlefield)
 Prerequisites: You control a land.
@@ -22659,7 +22693,7 @@ Notes: Eventually the combo will stop in step 3, as the Insect will be milled in
 
 ## Combo 3781-3946-4011
 Cards: Zask, Skittering Swarmlord + Azusa, Lost but Seeking + Glacial Chasm
-Color identity: BG | Bracket: 3-4+ (Spicy) | Popularity: 490 | Commander: legal
+Color identity: BG | Bracket: 3-4+ (Spicy) | Popularity: 500 | Commander: legal
 Produces: Prevent all damage that would be dealt to you; Lock
 Start: Zask, Skittering Swarmlord (battlefield); Azusa, Lost but Seeking (battlefield); Glacial Chasm (hand, graveyard)
 Prerequisites: You control at least one additional land.
@@ -23347,7 +23381,7 @@ Steps: Activate Spawning Pit by sacrificing another nonland creature you control
 
 ## Combo 3899-7430--5
 Cards: Spawning Pit + Gorma, the Gullet
-Color identity: BG | Bracket: 2-3+ (Oddball) | Popularity: 510 | Commander: legal
+Color identity: BG | Bracket: 2-3+ (Oddball) | Popularity: 500 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite charge counters on a permanent; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Spawning Pit (battlefield); Gorma, the Gullet (battlefield)
@@ -23514,7 +23548,7 @@ Steps: Activate Blood Pet by sacrificing it.
 
 ## Combo 3946-8344
 Cards: Glacial Chasm + Nog, Ambitious Cadet
-Color identity: BG | Bracket: 3-4+ (Spicy) | Popularity: 61 | Commander: legal
+Color identity: BG | Bracket: 3-4+ (Spicy) | Popularity: 66 | Commander: legal
 Produces: Lock; Prevent all damage that would be dealt to you
 Start: Glacial Chasm (battlefield); Nog, Ambitious Cadet (battlefield)
 Prerequisites: You control another land.
@@ -23527,7 +23561,7 @@ Steps: Play Glacial Chasm either from your hand or from your graveyard.
 
 ## Combo 3966-7416
 Cards: Exquisite Blood + Professor Dellian Fel
-Color identity: BG | Bracket: 3-4+ (Spicy) | Popularity: 3600 | Commander: legal
+Color identity: BG | Bracket: 3-4+ (Spicy) | Popularity: 3700 | Commander: legal
 Produces: Infinite lifegain; Infinite lifeloss; Infinite lifegain triggers
 Start: Exquisite Blood (battlefield); Professor Dellian Fel (battlefield, graveyard)
 Prerequisites: You have a way to gain life.
@@ -23554,7 +23588,7 @@ Steps: Put a +1/+1 counter on Scurry Oak.
 
 ## Combo 3967-4186-5662--196
 Cards: Yahenni, Undying Partisan + Scurry Oak + Reyhan, Last of the Abzan
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 70 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 69 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Gives +1/+1 counter to creatures that enter (battlefield)
 Start: Yahenni, Undying Partisan (battlefield); Scurry Oak (hand); Reyhan, Last of the Abzan (battlefield)
@@ -23586,7 +23620,7 @@ Steps: Cast Scurry Oak by paying its mana cost.
 
 ## Combo 3967-4186-6872
 Cards: Long Feng, Grand Secretariat + Yahenni, Undying Partisan + Scurry Oak
-Color identity: BG | Bracket: 2-3+ (Oddball) | Popularity: 96 | Commander: legal
+Color identity: BG | Bracket: 2-3+ (Oddball) | Popularity: 95 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Long Feng, Grand Secretariat (battlefield); Yahenni, Undying Partisan (battlefield); Scurry Oak (battlefield)
 Prerequisites: You have a way to put a +1/+1 counter on Scurry Oak
@@ -23652,7 +23686,7 @@ Steps: Activate Yahenni by sacrificing the persist creature.
 
 ## Combo 3967-4488-7084
 Cards: Beifong's Bounty Hunters + Yahenni, Undying Partisan + Rampaging Baloths
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Yahenni, Undying Partisan (battlefield); Rampaging Baloths (battlefield)
 Prerequisites: You control a land.
@@ -24026,7 +24060,7 @@ Steps: Activate Yahenni by sacrificing the persist creature.
 
 ## Combo 3967-5662--5--195
 Cards: Yahenni, Undying Partisan + Reyhan, Last of the Abzan
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 2600 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 2500 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: 2x Persist Creature (battlefield)
 Requires: Increases +1/+1 Counter Placement but not -1/-1 (battlefield)
@@ -24111,7 +24145,7 @@ Steps: Activate Yahenni by sacrificing the persist creature.
 
 ## Combo 3967-6528-7084
 Cards: Beifong's Bounty Hunters + Yahenni, Undying Partisan + Elfsworn Giant
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Yahenni, Undying Partisan (battlefield); Elfsworn Giant (battlefield)
 Prerequisites: You control a land.
@@ -24314,7 +24348,7 @@ Steps: Activate Yahenni by sacrificing another nonland creature.
 
 ## Combo 3967-7084-7705
 Cards: Beifong's Bounty Hunters + Yahenni, Undying Partisan + Mole Man, Moloid Master
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 23 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers
 Start: Beifong's Bounty Hunters (battlefield); Yahenni, Undying Partisan (battlefield); Mole Man, Moloid Master (battlefield)
 Prerequisites: You control a land.
@@ -24814,7 +24848,7 @@ Steps: Cast Afterlife from the Loam by paying at most {5}{B}{B}{B}, returning Da
 
 ## Combo 4050-4871-6705
 Cards: Pitiless Plunderer + Phyrexian Altar + Quina, Qu Gourmet
-Color identity: BG | Bracket: 3-4+ (Spicy) | Popularity: 880 | Commander: legal
+Color identity: BG | Bracket: 3-4+ (Spicy) | Popularity: 890 | Commander: legal
 Produces: Infinite Treasure tokens; Infinite colored mana; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Pitiless Plunderer (battlefield); Phyrexian Altar (battlefield); Quina, Qu Gourmet (battlefield)
 Prerequisites: You control another creature.
@@ -25360,7 +25394,7 @@ Steps: Activate Phyrexian Altar by sacrificing another nonland creature.
 
 ## Combo 4050-7084-7705
 Cards: Beifong's Bounty Hunters + Phyrexian Altar + Mole Man, Moloid Master
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 160 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 170 | Commander: legal
 Produces: Infinite colored mana; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers
 Start: Beifong's Bounty Hunters (battlefield); Phyrexian Altar (battlefield); Mole Man, Moloid Master (battlefield)
 Prerequisites: You control a land.
@@ -25522,7 +25556,7 @@ Steps: Activate an artifact using Undercity Scrounger's ability by tapping it, c
 
 ## Combo 4170-4762-5963
 Cards: Fain, the Broker + Marvin, Murderous Mimic + Devoted Druid
-Color identity: BG | Bracket: 3-4+ (Spicy) | Popularity: 93 | Commander: legal
+Color identity: BG | Bracket: 3-4+ (Spicy) | Popularity: 92 | Commander: legal
 Produces: Infinite +1/+1 counters on creatures you control; Infinite Treasure tokens; Infinite colored mana; Infinite creature tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Fain, the Broker (battlefield); Marvin, Murderous Mimic (battlefield: without summoning sickness); Devoted Druid (battlefield)
 Steps: Activate Marvin using Devoted Druid's second ability by putting a -1/-1 counter on it, untapping it.
@@ -25603,7 +25637,7 @@ Steps: Cast Yawgmoth by paying {2}{B}{B}.
 
 ## Combo 4186-4279-4716
 Cards: Yawgmoth, Thran Physician + Scurry Oak + Prosperous Innkeeper
-Color identity: BG | Bracket: 3-4+ (Spicy) | Popularity: 690 | Commander: legal | Mana needed: {2}{B}{B}
+Color identity: BG | Bracket: 3-4+ (Spicy) | Popularity: 680 | Commander: legal | Mana needed: {2}{B}{B}
 Produces: Infinite card draw; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers
 Start: Yawgmoth, Thran Physician (hand); Scurry Oak (battlefield); Prosperous Innkeeper (battlefield)
 Prerequisites: You control at least two additional creatures.
@@ -25931,7 +25965,7 @@ Steps: Activate Greta by paying {G} and sacrificing a Food, putting a +1/+1 coun
 
 ## Combo 4186-5256-5662--196
 Cards: Altar of Dementia + Scurry Oak + Reyhan, Last of the Abzan
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 71 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 70 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Gives +1/+1 counter to creatures that enter (battlefield)
 Start: Altar of Dementia (battlefield); Scurry Oak (hand); Reyhan, Last of the Abzan (battlefield)
@@ -25977,7 +26011,7 @@ Steps: Put a +1/+1 counter on Scurry Oak
 
 ## Combo 4186-5445-6798
 Cards: Tarrian's Soulcleaver + Scurry Oak + Umbral Collar Zealot
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 87 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal
 Produces: Infinite surveil; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Tarrian's Soulcleaver (battlefield); Scurry Oak (battlefield); Umbral Collar Zealot (battlefield)
 Prerequisites: Tarrian's Soulcleaver attached to Scurry Oak.
@@ -26536,7 +26570,7 @@ Steps: Activate Bloodthrone Vampire by sacrificing Metamorphosis Fanatic.
 
 ## Combo 4247-5310-7084
 Cards: Beifong's Bounty Hunters + Bloodghast + Bloodthrone Vampire
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal
 Produces: Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Bloodghast (battlefield); Bloodthrone Vampire (battlefield)
 Prerequisites: You control a land.
@@ -26567,7 +26601,7 @@ Steps: Activate Bloodthrone Vampire by sacrificing the persist creature that has
 
 ## Combo 4247-5702-7084
 Cards: Beifong's Bounty Hunters + Bloodthrone Vampire + Springheart Nantuko
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
 Produces: Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Bloodthrone Vampire (battlefield); Springheart Nantuko (battlefield)
 Prerequisites: You control a land.
@@ -26668,7 +26702,7 @@ Steps: Activate Bloodthrone Vampire by sacrificing another nonland creature you 
 
 ## Combo 4247-6754-7084
 Cards: Beifong's Bounty Hunters + Bloodthrone Vampire + Eusocial Engineering
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Bloodthrone Vampire (battlefield); Eusocial Engineering (battlefield)
 Prerequisites: You control a land.
@@ -26761,7 +26795,7 @@ Steps: Activate Bloodthrone Vampire by sacrificing another nonland creature you 
 
 ## Combo 4247-7084-7705
 Cards: Beifong's Bounty Hunters + Bloodthrone Vampire + Mole Man, Moloid Master
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
 Produces: Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Bloodthrone Vampire (battlefield); Mole Man, Moloid Master (battlefield)
 Prerequisites: You control a land.
@@ -27155,7 +27189,7 @@ Steps: Activate Yawgmoth by paying 1 life and sacrificing the undying creature.
 
 ## Combo 4279-5075-7452--216
 Cards: Yawgmoth, Thran Physician + Ogre Slumlord + Cauldron of Essence
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 87 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal
 Produces: Infinite card draw; Near-infinite lifeloss; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Requires: Creature with Undying (battlefield)
 Start: Yawgmoth, Thran Physician (battlefield); Ogre Slumlord (battlefield); Cauldron of Essence (battlefield)
@@ -27587,7 +27621,7 @@ Steps: Activate a Food by tapping and sacrificing it, adding one mana of any col
 
 ## Combo 4321-5777-8095
 Cards: Camellia, the Seedmiser + Peregrin Took + Hammerhead, Maggia Boss
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 64 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 65 | Commander: legal
 Produces: Infinite card draw; Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite Food tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite draw triggers
 Start: Camellia, the Seedmiser (battlefield); Peregrin Took (battlefield); Hammerhead, Maggia Boss (battlefield)
 Prerequisites: You control at least one Food.
@@ -28020,7 +28054,7 @@ Steps: Cast Accursed Centaur by paying its mana cost.
 
 ## Combo 4498-5017-5115
 Cards: Urban Daggertooth + Pestilence + Gemstone Array
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {B}
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {B}
 Produces: Infinite damage; Infinite proliferate
 Start: Urban Daggertooth (battlefield); Pestilence (battlefield); Gemstone Array (battlefield)
 Prerequisites: Gemstone Array has at least one charge counter.
@@ -30459,7 +30493,7 @@ Steps: Activate Altar of Dementia by sacrificing another nonland creature.
 
 ## Combo 5256-7084-7705
 Cards: Beifong's Bounty Hunters + Altar of Dementia + Mole Man, Moloid Master
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 160 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 170 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers
 Start: Beifong's Bounty Hunters (battlefield); Altar of Dementia (battlefield); Mole Man, Moloid Master (battlefield)
 Prerequisites: You control a land.
@@ -30660,7 +30694,7 @@ Notes: You'll create double as many Squirrels each loop. All Squirrels beyond th
 
 ## Combo 5508-5641-6854
 Cards: Basking Broodscale + Railway Brawler + Host of the Hereafter
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 56 | Commander: legal | Mana needed: {1}{G}
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 57 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite colorless mana; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (hand); Railway Brawler (battlefield); Host of the Hereafter (battlefield)
 Steps: Cast Basking Broodscale by paying {1}{G}.
@@ -30822,7 +30856,7 @@ Steps: Gain life.
 
 ## Combo 5660-6294-6872
 Cards: Long Feng, Grand Secretariat + Evolution Witness + Marketback Walker
-Color identity: BG | Bracket: 2-3+ (Oddball) | Popularity: 41 | Commander: legal
+Color identity: BG | Bracket: 2-3+ (Oddball) | Popularity: 40 | Commander: legal
 Produces: Infinite proliferate; Infinite storm count; Infinite creature ETB; Infinite creature LTB; Infinite death triggers
 Start: Long Feng, Grand Secretariat (battlefield); Evolution Witness (battlefield: with a +1/+1 counter on it); Marketback Walker (hand)
 Steps: Cast Marketback Walker by paying {0}.
@@ -31084,7 +31118,7 @@ Steps: Activate Hammerhead by sacrificing another nonland creature you control.
 
 ## Combo 5702-7084-8227
 Cards: Beifong's Bounty Hunters + Loot, the Anomaly + Springheart Nantuko
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers; Infinitely powerful creature until end of turn
 Start: Beifong's Bounty Hunters (battlefield); Loot, the Anomaly (battlefield); Springheart Nantuko (battlefield)
 Prerequisites: You control a land.
@@ -31143,7 +31177,7 @@ Steps: Activate Glimmer Bairn by sacrificing any other creature.
 
 ## Combo 5776-5777-6797
 Cards: Ygra, Eater of All + Camellia, the Seedmiser + Phantom Train
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 150 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 160 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Ygra, Eater of All (battlefield); Camellia, the Seedmiser (battlefield); Phantom Train (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -31182,7 +31216,7 @@ Steps: Activate Mushroom Watchdogs by sacrificing any other creature.
 
 ## Combo 5777-6692-7810
 Cards: Camellia, the Seedmiser + Wicked Wolf + Tippy-Toe, Terrific Partner
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 87 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 88 | Commander: legal
 Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB
 Start: Camellia, the Seedmiser (battlefield); Wicked Wolf (battlefield); Tippy-Toe, Terrific Partner (battlefield)
 Prerequisites: You control at least one Food.
@@ -31193,7 +31227,7 @@ Steps: Activate Wicked Wolf by sacrificing a Food.
 
 ## Combo 5777-6716-7810
 Cards: Camellia, the Seedmiser + Glimmer Bairn + Tippy-Toe, Terrific Partner
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal
 Produces: Infinite creature tokens; Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB
 Start: Camellia, the Seedmiser (battlefield); Glimmer Bairn (battlefield); Tippy-Toe, Terrific Partner (battlefield)
 Prerequisites: You control at least one Food.
@@ -31204,7 +31238,7 @@ Steps: Activate Glimmer Bairn by sacrificing a Food.
 
 ## Combo 5777-6797-7810
 Cards: Camellia, the Seedmiser + Phantom Train + Tippy-Toe, Terrific Partner
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal
 Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Camellia, the Seedmiser (battlefield); Phantom Train (battlefield); Tippy-Toe, Terrific Partner (battlefield)
 Prerequisites: You control at least one Food.
@@ -31215,7 +31249,7 @@ Steps: Activate Phantom Train by sacrificing a Food.
 
 ## Combo 5777-6798-7810
 Cards: Camellia, the Seedmiser + Umbral Collar Zealot + Tippy-Toe, Terrific Partner
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 310 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 320 | Commander: legal
 Produces: Infinite creature tokens; Infinite surveil; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Camellia, the Seedmiser (battlefield); Umbral Collar Zealot (battlefield); Tippy-Toe, Terrific Partner (battlefield)
 Prerequisites: You control at least one Food.
@@ -31303,7 +31337,7 @@ Steps: Activate Umbral Collar Zealot by sacrificing another nonland creature.
 
 ## Combo 6129-7299
 Cards: Biorhythm + Damnation
-Color identity: BG | Bracket: 3+ (Powerful) | Popularity: 350 | Commander: legal | Mana needed: {8}{B}{B}{G}{G}
+Color identity: BG | Bracket: 3+ (Powerful) | Popularity: 360 | Commander: legal | Mana needed: {8}{B}{B}{G}{G}
 Produces: Draw the game; Each opponent loses the game
 Start: Biorhythm (hand); Damnation (hand)
 Steps: Cast Damnation by paying its mana cost, destroying all creatures.
@@ -31577,7 +31611,7 @@ Steps: Activate Defiant Salvager by sacrificing another nonland creature you con
 
 ## Combo 6602-6797--5
 Cards: Tromell, Seymour's Butler + Phantom Train
-Color identity: BG | Bracket: 2-3+ (Oddball) | Popularity: 46 | Commander: legal
+Color identity: BG | Bracket: 2-3+ (Oddball) | Popularity: 47 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Requires: Persist Creature (battlefield: without a -1/-1 counter on it)
 Start: Tromell, Seymour's Butler (battlefield); Phantom Train (battlefield)
@@ -31627,7 +31661,7 @@ Steps: Activate Phantom Train by sacrificing another nonland creature you contro
 
 ## Combo 6662-6798-7084
 Cards: Beifong's Bounty Hunters + Umbral Collar Zealot + Chocobo Racetrack
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 50 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 51 | Commander: legal
 Produces: Infinite surveil; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Umbral Collar Zealot (battlefield); Chocobo Racetrack (battlefield)
 Prerequisites: You control a land.
@@ -31740,7 +31774,7 @@ Steps: Activate Hammerhead by sacrificing another nonland creature you control.
 
 ## Combo 6754-7084-8227
 Cards: Beifong's Bounty Hunters + Loot, the Anomaly + Eusocial Engineering
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers; Infinitely powerful creature until end of turn
 Start: Beifong's Bounty Hunters (battlefield); Loot, the Anomaly (battlefield); Eusocial Engineering (battlefield)
 Prerequisites: You control a land.
@@ -32014,7 +32048,7 @@ Steps: Activate Phantom Train by sacrificing the persist creature.
 
 ## Combo 6797-7388--5
 Cards: Phantom Train + Rocksteady, Mutant Marauder
-Color identity: BG | Bracket: 2-3+ (Oddball) | Popularity: 16 | Commander: legal
+Color identity: BG | Bracket: 2-3+ (Oddball) | Popularity: 17 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Phantom Train (battlefield); Rocksteady, Mutant Marauder (battlefield)
@@ -32280,7 +32314,7 @@ Notes: Each loop, Gorma will place an additional +1/+1 counter on the persist cr
 
 ## Combo 6798-7804--5
 Cards: Umbral Collar Zealot + Captain Kathryn Janeway
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 63 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 64 | Commander: legal
 Produces: Infinite surveil; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Requires: Persist Creature (battlefield)
 Start: Umbral Collar Zealot (battlefield); Captain Kathryn Janeway (battlefield)
@@ -32413,7 +32447,7 @@ Steps: Activate Hammerhead by sacrificing another nonland creature you control.
 
 ## Combo 7084-7705-8227
 Cards: Beifong's Bounty Hunters + Loot, the Anomaly + Mole Man, Moloid Master
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers; Infinitely powerful creature until end of turn
 Start: Beifong's Bounty Hunters (battlefield); Loot, the Anomaly (battlefield); Mole Man, Moloid Master (battlefield)
 Prerequisites: You control a land.
@@ -32540,54 +32574,5 @@ Steps: Activate Defiant Salvager by sacrificing another nonland creature you con
   Activate Defiant Salvager by sacrificing the land.
   When the land dies, Beifong's Bounty Hunters triggers, returning the land from your graveyard to the battlefield tapped.
   When the land enters, Dancing from Dark to Dawn triggers, creating a creature token.
-  Resolve the Defiant Salvager ability.
-  Repeat.
-
-## Combo 7084-8095-8347
-Cards: Beifong's Bounty Hunters + Hammerhead, Maggia Boss + Sela, Tal Shiar Paradox
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
-Start: Beifong's Bounty Hunters (battlefield); Hammerhead, Maggia Boss (battlefield); Sela, Tal Shiar Paradox (battlefield)
-Prerequisites: You control a land.
-  You control another nonland creature.
-Steps: Activate Hammerhead by sacrificing another nonland creature you control.
-  When the creature dies, Beifong's Bounty Hunters triggers, earthbending a land you control.
-  Resolve the Hammerhead ability.
-  Activate Hammerhead by sacrificing the earthbent land.
-  When the land dies, Beifong's Bounty Hunters triggers, returning the land from your graveyard to the battlefield tapped.
-  Sela triggers, creating a creature token.
-  Resolve the Hammerhead ability.
-  Repeat.
-
-## Combo 7084-8227-8347
-Cards: Beifong's Bounty Hunters + Loot, the Anomaly + Sela, Tal Shiar Paradox
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers; Infinitely powerful creature until end of turn
-Start: Beifong's Bounty Hunters (battlefield); Loot, the Anomaly (battlefield); Sela, Tal Shiar Paradox (battlefield)
-Prerequisites: You control a land.
-  You have at least seven cards in your graveyard.
-  You control another nonland creature.
-Steps: Activate Loot by sacrificing another nonland creature you control.
-  When the creature dies, Beifong's Bounty Hunters triggers, earthbending a land you control.
-  Resolve the Loot ability.
-  Activate Loot by sacrificing the earthbent land.
-  When the land dies, Beifong's Bounty Hunters triggers, returning the land from your graveyard to the battlefield tapped.
-  Sela triggers, creating a creature token.
-  Resolve the Loot ability.
-  Repeat.
-
-## Combo 7084-8249-8347
-Cards: Beifong's Bounty Hunters + Defiant Salvager + Sela, Tal Shiar Paradox
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
-Start: Beifong's Bounty Hunters (battlefield); Defiant Salvager (battlefield); Sela, Tal Shiar Paradox (battlefield)
-Prerequisites: You control a land.
-  You control another nonland creature.
-Steps: Activate Defiant Salvager by sacrificing another nonland creature you control.
-  When the creature dies, Beifong's Bounty Hunters triggers, earthbending a land you control.
-  Resolve the Defiant Salvager ability.
-  Activate Defiant Salvager by sacrificing the earthbent land.
-  When the land dies, Beifong's Bounty Hunters triggers, returning the land from your graveyard to the battlefield tapped.
-  Sela triggers, creating a creature token.
   Resolve the Defiant Salvager ability.
   Repeat.

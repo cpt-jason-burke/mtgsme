@@ -1,18 +1,3 @@
-## Combo 2556-2792-6485
-Cards: Rally the Galadhrim + Great Whale + Mnemonic Wall
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
-Produces: Infinite mana lands you control can produce; Infinite untap of lands you control; Infinite creature ETB; Infinite storm count; Infinite magecraft triggers; Infinite tapped copies of creatures you control
-Start: Rally the Galadhrim (hand); Great Whale (battlefield); Mnemonic Wall (battlefield)
-Prerequisites: You control up to seven lands that can tap to produce at least {2}{G}{U}.
-Steps: Activate up to seven lands by tapping them, adding at least {2}{G}{U}.
-  Cast Rally the Galadhrim by paying {2}{G}{U} and tapping Mnemonic Wall and Great Whale, targeting Mnemonic Wall
-  Rally the Galadhrim's conspire ability triggers, copying it, targeting Great Whale.
-  Resolve the copy of Rally the Galadhrim, creating a token copy of Great Whale.
-  When the Great Whale token enters the battlefield, it triggers, untapping up to seven lands.
-  Resolve the original Rally the Galadhrim, creating a token copy of Mnemonic Wall.
-  When the Mnemonic Wall token enters the battlefield, it triggers, returning Rally the Galadhrim from your graveyard to your hand.
-  Repeat, tapping the Mnemonic Wall and Great Whale tokens when casting Rally the Galadhrim instead.
-
 ## Combo 2556-3542-6485
 Cards: Rally the Galadhrim + Palinchron + Mnemonic Wall
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
@@ -1004,7 +989,7 @@ Steps: Activate Coastal Hornclaw by sacrificing any land except Shifting Woodlan
 
 ## Combo 2653-5702-6973-8345
 Cards: Springheart Nantuko + Mutable Explorer + Nissa, Resurgent Animist + Warp Speed
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers; Infinite tapped Mutavault land tokens
 Start: Springheart Nantuko (battlefield: attached to Mutable Explorer); Mutable Explorer (battlefield); Nissa, Resurgent Animist (battlefield); Warp Speed (battlefield)
 Prerequisites: You have a land card in hand.
@@ -1170,7 +1155,7 @@ Steps: At the beginning of your upkeep, Progenitor Mimic triggers.
 
 ## Combo 2665-2743-6924
 Cards: Biovisionary + Progenitor Mimic + Peter Parker's Camera
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal | Mana needed: {2}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal | Mana needed: {2}
 Produces: Win the game
 Start: Biovisionary (battlefield); Progenitor Mimic (battlefield: as a copy of Biovisionary); Peter Parker's Camera (battlefield: with a film counter on it)
 Steps: At the beginning of your upkeep, Progenitor Mimic triggers.
@@ -1217,7 +1202,7 @@ Steps: Cast Time Walk by paying its mana cost, taking an extra turn after this o
 
 ## Combo 2665-4004-7149
 Cards: Princess Yue + Wormfang Turtle + Progenitor Mimic
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Start: Princess Yue (battlefield: is not a land); Wormfang Turtle (battlefield); Progenitor Mimic (hand)
 Steps: Cast Progenitor Mimic by paying its mana cost. Choose to have it enter as a copy of Princess Yue.
@@ -1324,7 +1309,7 @@ Steps: Activate either Progenitor Mimic or Avatar Kuruk by paying {20} minus {1}
 
 ## Combo 2665-4823-4872
 Cards: Progenitor Mimic + Timeless Witness + Time Warp
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 29 | Commander: legal
+Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 27 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Progenitor Mimic (battlefield); Timeless Witness (battlefield); Time Warp (hand)
 Prerequisites: Enough mana available to cast the extra turn spell each turn.
@@ -1348,7 +1333,7 @@ Steps: Deal combat damage to an opponent using a Rogue.
 
 ## Combo 2665-5282-7149
 Cards: Princess Yue + Wormfang Newt + Progenitor Mimic
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {4}{G}{U}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {4}{G}{U}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers
 Start: Princess Yue (battlefield: is not a land); Wormfang Newt (battlefield); Progenitor Mimic (hand)
 Steps: Cast Progenitor Mimic by paying its mana cost. Choose to have it enter as a copy of Princess Yue.
@@ -1863,7 +1848,7 @@ Steps: Cast Echo Storm by paying {3}{U}{U}, targeting Biovisionary.
 
 ## Combo 2743-4493-6231
 Cards: Biovisionary + Thunderclap Drake + Irenicus's Vile Duplication
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal | Mana needed: {2}{U} plus enough mana to cast the copy spell
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal | Mana needed: {2}{U} plus enough mana to cast the copy spell
 Produces: Win the game
 Start: Biovisionary (battlefield); Thunderclap Drake (battlefield); Irenicus's Vile Duplication (battlefield)
 Prerequisites: You've cast your commander from the command zone at least twice this game.
@@ -1885,7 +1870,7 @@ Steps: Cast Mnemonic Deluge by paying {6}{U}{U}{U}, exiling Irenicus's Vile Dupl
 
 ## Combo 2743-4615-6231
 Cards: Biovisionary + Thunderclap Drake + Quasiduplicate
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal | Mana needed: {2}{U} plus enough mana to cast the copy spell
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal | Mana needed: {2}{U} plus enough mana to cast the copy spell
 Produces: Win the game
 Start: Biovisionary (battlefield); Thunderclap Drake (battlefield); Quasiduplicate (battlefield)
 Prerequisites: You've cast your commander from the command zone at least twice this game.
@@ -2146,7 +2131,7 @@ Steps: Cast Mnemonic Deluge by paying {6}{U}{U}{U}, exiling Multiversal Incursio
 
 ## Combo 2743-7181
 Cards: Biovisionary + Mirrorform
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 760 | Commander: legal | Mana needed: {4}{U}{U}
+Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 770 | Commander: legal | Mana needed: {4}{U}{U}
 Produces: Win the game
 Start: Biovisionary (battlefield); Mirrorform (hand)
 Prerequisites: You control at least three other nonland permanents.
@@ -2596,7 +2581,7 @@ Steps: Activate the basic land with Market Festival attached by tapping it, addi
 
 ## Combo 2757-4687-4893
 Cards: Gilder Bairn + Earthcraft + Training Grounds
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
 Produces: Infinite proliferate for permanents
 Start: Gilder Bairn (battlefield); Earthcraft (battlefield); Training Grounds (battlefield)
 Prerequisites: Gilder Bairn does not have summoning sickness.
@@ -2608,7 +2593,7 @@ Steps: Activate a basic Forest or Island by tapping it, adding {G} or {U}.
 
 ## Combo 2757-4687-4929
 Cards: Gilder Bairn + Cryptic Trilobite + Earthcraft
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}
 Produces: Infinite proliferate for permanents; Infinite +1/+1 counters on a creature; Infinite colorless mana that can only be spent to activate abilities
 Start: Gilder Bairn (battlefield); Cryptic Trilobite (battlefield); Earthcraft (battlefield)
 Prerequisites: Cryptic Trilobite has at least two +1/+1 counters on it.
@@ -3210,7 +3195,7 @@ Steps: Activate Arcbound Ravager by sacrificing a Clue.
 
 ## Combo 2829-5365-5445
 Cards: Lonis, Genetics Expert + Tarrian's Soulcleaver + Arcbound Ravager
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 510 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 500 | Commander: legal
 Produces: Infinite +1/+1 counters on creatures you control; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
 Start: Lonis, Genetics Expert (battlefield); Tarrian's Soulcleaver (battlefield); Arcbound Ravager (battlefield)
 Prerequisites: You control at least one Clue.
@@ -3789,7 +3774,7 @@ Steps: Cast Dream Stalker by paying {E} due to Primal Prayers, if able, or by pa
 
 ## Combo 2908-4191
 Cards: Aluren + Dream Stalker
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 840 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 830 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Aluren (battlefield); Dream Stalker (hand)
 Steps: Cast Dream Stalker without paying its mana cost due to Aluren.
@@ -4689,7 +4674,7 @@ Steps: Cast Switcheroo by paying {4}{U}, exchanging control of Altanak and anoth
 
 ## Combo 3177-4270-7857
 Cards: Trade Routes + Sakura-Tribe Scout + Elven Raft-Steerer
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 190 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 200 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Trade Routes (battlefield); Sakura-Tribe Scout (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Prerequisites: You control a land that enters the battlefield untapped and can tap to produce at least {1}.
@@ -4701,7 +4686,7 @@ Steps: Activate the land by tapping it, adding at least {1}.
 
 ## Combo 3177-4300-7857
 Cards: Meloku the Clouded Mirror + Sakura-Tribe Scout + Elven Raft-Steerer
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 270 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 260 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Meloku the Clouded Mirror (battlefield); Sakura-Tribe Scout (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Prerequisites: You have a land card in hand that enters the battlefield untapped and can tap to produce at least {1}.
@@ -5436,7 +5421,7 @@ Steps: Activate a land by tapping it, creating an artifact token.
 
 ## Combo 3378-3821-4477
 Cards: Illusionist's Stratagem + Peregrine Drake + Greenwarden of Murasa
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal
 Produces: Infinite card draw; Near-infinite mana lands you control can produce; Near-infinite untap of lands you control; Infinite draw triggers; Near-infinite creature LTB; Near-infinite blinking; Near-infinite landfall triggers; Near-infinite magecraft triggers; Near-infinite storm count
 Start: Illusionist's Stratagem (hand); Peregrine Drake (battlefield); Greenwarden of Murasa (battlefield)
 Prerequisites: You control up to five lands that can tap to produce at least {3}{U}.
@@ -5583,7 +5568,7 @@ Steps: Activate Phyrexian Altar by sacrificing Moritte of the Frost, adding one 
 
 ## Combo 3388-4636-5745
 Cards: Moritte of the Frost + Staff of Eden, Vault's Key + Gonti's Aether Heart
-Color identity: GU | Bracket: 2+ (Core) | Popularity: 2 | Commander: legal | Mana needed: {2}{G}{U}{U} plus enough mana to pay for commander tax, if applicable
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {2}{G}{U}{U} plus enough mana to pay for commander tax, if applicable
 Produces: Infinite energy counters
 Start: Moritte of the Frost (hand, command zone); Staff of Eden, Vault's Key (battlefield); Gonti's Aether Heart (battlefield)
 Steps: Cast Moritte of the Frost from your hand or from the command zone by paying {2}{G}{U}{U} plus commander tax, if applicable, choosing to have it enter the battlefield as a copy of Staff of Eden.
@@ -5792,7 +5777,7 @@ Steps: Activate a Sliver you control by tapping it, adding three mana of any col
 
 ## Combo 3430-3767-4587
 Cards: Scuttling Sliver + Nyxbloom Ancient + Gemhide Sliver
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 41 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 42 | Commander: legal
 Produces: Infinite colored mana; Infinite untap of some creatures you control
 Start: Scuttling Sliver (battlefield); Nyxbloom Ancient (battlefield); Gemhide Sliver (battlefield)
 Prerequisites: You control a Sliver that does not have summoning sickness.
@@ -5851,7 +5836,7 @@ Steps: Activate Apprentice Wizard by paying {U} and tapping it, adding nine {C}.
 
 ## Combo 3430-3812-4289
 Cards: Simic Ragworm + Cryptolith Rite + Nyxbloom Ancient
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal
 Produces: Infinite colored mana
 Start: Simic Ragworm (battlefield); Cryptolith Rite (battlefield); Nyxbloom Ancient (battlefield)
 Prerequisites: Simic Ragworm does not have summoning sickness.
@@ -5881,7 +5866,7 @@ Steps: Activate Simic Ragworm by tapping it, adding {U}{U}{U} due to Nyxbloom An
 
 ## Combo 3430-3995-4289
 Cards: Horseshoe Crab + Cryptolith Rite + Nyxbloom Ancient
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 360 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 370 | Commander: legal
 Produces: Infinite colored mana
 Start: Horseshoe Crab (battlefield); Cryptolith Rite (battlefield); Nyxbloom Ancient (battlefield)
 Prerequisites: Horseshoe Crab does not have summoning sickness.
@@ -6074,7 +6059,7 @@ Steps: Activate Battered Golem by tapping it, adding {1}.
 
 ## Combo 3459-3755-5078-5243
 Cards: Sensei's Divining Top + Battered Golem + Elven Chorus + The Reality Chip
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite card draw; Near-infinite artifact ETB; Near-infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Battered Golem (battlefield: without summoning sickness); Elven Chorus (battlefield); The Reality Chip (battlefield: attached to a creature you control)
 Steps: Activate Battered Golem by tapping it, adding {1}.
@@ -6448,7 +6433,7 @@ Steps: Activate Coastal Hornclaw by sacrificing any land except Shifting Woodlan
 
 ## Combo 3470-5702-6973-8345
 Cards: Springheart Nantuko + Mutable Explorer + Lotus Cobra + Warp Speed
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers; Infinite tapped Mutavault land tokens
 Start: Springheart Nantuko (battlefield: attached to Mutable Explorer); Mutable Explorer (battlefield); Lotus Cobra (battlefield); Warp Speed (battlefield)
 Prerequisites: You have a land card in hand.
@@ -6751,7 +6736,7 @@ Steps: Activate Food Chain by exiling Misthollow Griffin, adding {U}{U}{U}{U}{U}
 
 ## Combo 3519-5295-5696
 Cards: Jyoti, Moag Ancient + Food Chain + Thousand-Year Elixir
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 40 | Commander: legal | Mana needed: {2}{G}{U} plus enough mana to pay for commander tax, if applicable
+Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 41 | Commander: legal | Mana needed: {2}{G}{U} plus enough mana to pay for commander tax, if applicable
 Produces: Infinite green mana; Infinite creature tokens with haste; Infinite colored mana that can only be spent to cast creature spells; Infinite Forest tokens; Infinite commander casts; Infinite creature LTB; Infinite creature ETB; Infinite storm count; Infinite landfall triggers
 Start: Jyoti, Moag Ancient (command zone: must be your commander); Food Chain (battlefield); Thousand-Year Elixir (battlefield)
 Steps: Cast Jyoti from the command zone by paying {2}{G}{U} plus commander tax, if applicable.
@@ -6767,7 +6752,7 @@ Steps: Cast Jyoti from the command zone by paying {2}{G}{U} plus commander tax, 
 
 ## Combo 3519-5696-7730
 Cards: Jyoti, Moag Ancient + Food Chain + Shang-Chi, Master of Kung Fu
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 27 | Commander: legal | Mana needed: {2}{G}{U} plus enough mana to pay for commander tax, if applicable
+Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 28 | Commander: legal | Mana needed: {2}{G}{U} plus enough mana to pay for commander tax, if applicable
 Produces: Infinite Forest tokens; Infinite colored mana that can only be spent to cast creature spells; Infinite creature tokens with haste; Infinite green mana; Infinite commander casts; Infinite creature ETB; Infinite creature LTB; Infinite landfall triggers; Infinite storm count
 Start: Jyoti, Moag Ancient (command zone: must be your commander); Food Chain (battlefield); Shang-Chi, Master of Kung Fu (battlefield)
 Steps: Cast Jyoti from the command zone by paying {2}{G}{U} plus commander tax, if applicable.
@@ -6821,7 +6806,7 @@ Steps: Activate the creature with Pemmin's Aura attached using Tolarian Academy'
 
 ## Combo 3525-3664-3932
 Cards: Pemmin's Aura + Hope Tender + Lotus Field
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal
 Produces: Infinite colored mana; Infinite mana lands you control can produce; Infinite untap of lands you control
 Start: Pemmin's Aura (battlefield); Hope Tender (battlefield); Lotus Field (battlefield)
 Prerequisites: Hope Tender does not have summoning sickness.
@@ -7122,7 +7107,7 @@ Steps: Activate Seedship Agrarian by tapping it, adding {U}.
 
 ## Combo 3525-4312-5115
 Cards: Vorel of the Hull Clade + Pemmin's Aura + Gemstone Array
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal | Mana needed: {G}{U}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 40 | Commander: legal | Mana needed: {G}{U}
 Produces: Infinite colored mana; Infinite charge counters on a permanent
 Start: Vorel of the Hull Clade (battlefield); Pemmin's Aura (battlefield); Gemstone Array (battlefield)
 Prerequisites: Pemmin's Aura attached to Vorel.
@@ -7504,7 +7489,7 @@ Steps: Activate Loot by tapping it, adding at least {U}{U}
 
 ## Combo 3542-3647-4477
 Cards: Displace + Palinchron + Greenwarden of Murasa
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite untap of lands you control; Infinite creature LTB; Infinite creature ETB; Infinite storm count; Infinite magecraft triggers; Infinite blinking; Infinite landfall triggers
 Start: Displace (hand); Palinchron (hand); Greenwarden of Murasa (battlefield)
 Prerequisites: You control up to seven lands that can tap to produce at least {2}{U}.
@@ -7609,7 +7594,7 @@ Steps: Activate six lands by tapping them, adding at least {4}{U}{U}.
 
 ## Combo 3542-5900
 Cards: Palinchron + Lilysplash Mentor
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 680 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 690 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite untap of lands you control; Infinite creature LTB; Infinite creature ETB; Infinite blinking
 Start: Palinchron (battlefield); Lilysplash Mentor (battlefield)
 Prerequisites: You control up to seven lands that can tap to produce at least {1}{G}{U}
@@ -8050,7 +8035,7 @@ Notes: If Emeritus of Abundance is prepared when starting the combo, you can for
 
 ## Combo 3647-3821-4477
 Cards: Displace + Peregrine Drake + Greenwarden of Murasa
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 57 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 56 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite untap of lands you control; Infinite creature LTB; Infinite creature ETB; Infinite storm count; Infinite magecraft triggers; Infinite blinking; Infinite landfall triggers
 Start: Displace (hand); Peregrine Drake (hand); Greenwarden of Murasa (battlefield)
 Prerequisites: You control up to five lands that can tap to produce at least {2}{U}.
@@ -8110,7 +8095,7 @@ Steps: Cast Shield Sphere by paying {0}, and choosing to pay its replicate cost 
 
 ## Combo 3664-3932-4222
 Cards: Freed from the Real + Hope Tender + Lotus Field
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 41 | Commander: legal
 Produces: Infinite colored mana
 Start: Freed from the Real (battlefield); Hope Tender (battlefield); Lotus Field (battlefield)
 Prerequisites: Hope Tender does not have summoning sickness.
@@ -8172,7 +8157,7 @@ Steps: Activate the creature with Freed from the Real attached using Lotus Field
 
 ## Combo 3664-5701-5720-5721-8345
 Cards: Lotus Field + Echoing Deeps + Aftermath Analyst + Shifting Woodland + Warp Speed
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal | Mana needed: {1}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal | Mana needed: {1}
 Produces: Infinite colored mana; Infinite mana lands you control can produce; Infinite landfall triggers
 Start: Lotus Field (hand); Echoing Deeps (battlefield); Aftermath Analyst (battlefield); Shifting Woodland (battlefield, graveyard); Warp Speed (battlefield)
 Prerequisites: There are two mana-producing land cards in your graveyard.
@@ -8904,7 +8889,7 @@ Steps: Activate Simic Ragworm by tapping it, adding {U}.
 
 ## Combo 3755-3995-7008
 Cards: Elven Chorus + Horseshoe Crab + Badgermole Cub
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 46 | Commander: legal
 Produces: Infinite green mana
 Start: Elven Chorus (battlefield); Horseshoe Crab (battlefield); Badgermole Cub (battlefield)
 Prerequisites: Horseshoe Crab doesn't have summoning sickness.
@@ -9050,7 +9035,7 @@ Steps: Activate Soliton by tapping it, adding {U}.
 
 ## Combo 3755-5051-5078-5243
 Cards: Sensei's Divining Top + Traxos, Scourge of Kroog + Elven Chorus + The Reality Chip
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
 Produces: Infinite card draw; Near-infinite artifact ETB; Near-infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Traxos, Scourge of Kroog (battlefield: without summoning sickness); Elven Chorus (battlefield); The Reality Chip (battlefield: attached to a creature you control)
 Steps: Activate Traxos by tapping it, adding {1}.
@@ -9693,7 +9678,7 @@ Steps: Activate Coastal Hornclaw by sacrificing any land except Shifting Woodlan
 
 ## Combo 3875-5702-6973-8345
 Cards: Springheart Nantuko + Mutable Explorer + Tireless Provisioner + Warp Speed
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers; Infinite tapped Mutavault land tokens
 Start: Springheart Nantuko (battlefield: attached to Mutable Explorer); Mutable Explorer (battlefield); Tireless Provisioner (battlefield); Warp Speed (battlefield)
 Prerequisites: You have a land card in hand.
@@ -9920,7 +9905,7 @@ Steps: Activate Marvin using Incubation Druid's ability by tapping it, adding {U
 
 ## Combo 3990-4019
 Cards: Vigean Graftmage + Incubation Druid
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 3500 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 3400 | Commander: legal
 Produces: Infinite mana lands you control can produce
 Start: Vigean Graftmage (battlefield); Incubation Druid (battlefield)
 Prerequisites: Incubation Druid does not have summoning sickness.
@@ -10023,7 +10008,7 @@ Steps: Activate Horseshoe Crab by tapping it, adding {U}.
 
 ## Combo 3995-4289-7008
 Cards: Horseshoe Crab + Cryptolith Rite + Badgermole Cub
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 380 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 390 | Commander: legal
 Produces: Infinite green mana
 Start: Horseshoe Crab (battlefield); Cryptolith Rite (battlefield); Badgermole Cub (battlefield)
 Prerequisites: Horseshoe Crab doesn't have summoning sickness.
@@ -10065,7 +10050,7 @@ Steps: Activate Horseshoe Crab by tapping it, adding {U}{U}{U} due to Nyxbloom A
 
 ## Combo 3995-5724-5963
 Cards: Marvin, Murderous Mimic + Horseshoe Crab + Sage of the Maze
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 28 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal
 Produces: Infinite colored mana
 Start: Marvin, Murderous Mimic (battlefield); Horseshoe Crab (battlefield); Sage of the Maze (battlefield)
 Prerequisites: Marvin does not have summoning sickness.
@@ -10121,7 +10106,7 @@ Steps: Activate Marvin using Doc Samson's ability by tapping it, adding at least
 
 ## Combo 3995-6006-7008
 Cards: Horseshoe Crab + Enduring Vitality + Badgermole Cub
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 430 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 440 | Commander: legal
 Produces: Infinite green mana
 Start: Horseshoe Crab (battlefield); Enduring Vitality (battlefield); Badgermole Cub (battlefield)
 Prerequisites: Horseshoe Crab doesn't have summoning sickness.
@@ -11105,7 +11090,7 @@ Steps: Cast Tamiyo by paying {3}{U}{U}. Tamiyo enters the battlefield with eight
 
 ## Combo 4213-4687-4929
 Cards: Gilder Bairn + Cryptic Trilobite + Hankyu
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
 Produces: Infinite damage; Infinite colorless mana that can only be spent to activate abilities; Infinite proliferate for permanents; Infinite +1/+1 counters on a creature
 Start: Gilder Bairn (battlefield); Cryptic Trilobite (battlefield); Hankyu (battlefield: attached to Gilder Bairn)
 Prerequisites: Cryptic Trilobite has at least four counters on it.
@@ -11209,7 +11194,7 @@ Steps: Activate Pheres-Band Tromper by tapping it, adding {U}.
 
 ## Combo 4222-4289-7065
 Cards: Tui and La, Moon and Ocean + Freed from the Real + Cryptolith Rite
-Color identity: GU | Bracket: 2-3+ (Oddball) | Popularity: 62 | Commander: legal
+Color identity: GU | Bracket: 2-3+ (Oddball) | Popularity: 63 | Commander: legal
 Produces: Infinite looting; Near-infinite +1/+1 counters on a creature; Infinite draw triggers; Infinite self-discard triggers
 Start: Tui and La, Moon and Ocean (battlefield: without summoning sickness); Freed from the Real (battlefield: attached to Tui and La); Cryptolith Rite (battlefield)
 Steps: Activate Tui and La by tapping it, adding {U}.
@@ -11241,7 +11226,7 @@ Steps: Activate Seedship Agrarian by tapping it, adding {U}.
 
 ## Combo 4222-4312-5115
 Cards: Vorel of the Hull Clade + Freed from the Real + Gemstone Array
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 59 | Commander: legal | Mana needed: {G}{U}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal | Mana needed: {G}{U}
 Produces: Infinite colored mana; Infinite charge counters on a permanent
 Start: Vorel of the Hull Clade (battlefield); Freed from the Real (battlefield); Gemstone Array (battlefield)
 Prerequisites: Freed from the Real attached to Vorel.
@@ -11473,7 +11458,7 @@ Steps: Activate Pheres-Band Tromper by tapping it, adding {U}.
 
 ## Combo 4222-6006-7065
 Cards: Tui and La, Moon and Ocean + Freed from the Real + Enduring Vitality
-Color identity: GU | Bracket: 2-3+ (Oddball) | Popularity: 62 | Commander: legal
+Color identity: GU | Bracket: 2-3+ (Oddball) | Popularity: 63 | Commander: legal
 Produces: Infinite looting; Near-infinite +1/+1 counters on a creature; Infinite draw triggers; Infinite self-discard triggers
 Start: Tui and La, Moon and Ocean (battlefield: without summoning sickness); Freed from the Real (battlefield: attached to Tui and La); Enduring Vitality (battlefield)
 Steps: Activate Tui and La by tapping it, adding {U}.
@@ -11559,7 +11544,7 @@ Steps: Activate Seedship Agrarian by tapping it, adding {U}.
 
 ## Combo 4222-7008
 Cards: Badgermole Cub + Freed from the Real
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 4800 | Commander: legal | Mana needed: {3}{G}{U}
+Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 4900 | Commander: legal | Mana needed: {3}{G}{U}
 Produces: Infinite green mana
 Start: Badgermole Cub (hand); Freed from the Real (hand)
 Prerequisites: You control an untapped land that can tap to produce at least {U}.
@@ -11599,7 +11584,7 @@ Steps: Activate an Island by tapping it, adding {U}.
 
 ## Combo 4222-7066
 Cards: Freed from the Real + The Legend of Kyoshi // Avatar Kyoshi
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 200 | Commander: legal
+Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 210 | Commander: legal
 Produces: Infinite colored mana
 Start: Freed from the Real (battlefield: attached to Avatar Kyoshi); The Legend of Kyoshi // Avatar Kyoshi (battlefield: without summoning sickness)
 Steps: Activate Avatar Kyoshi by tapping it, adding at least {U}{U}{U}{U}{U}.
@@ -11736,7 +11721,7 @@ Steps: Activate Soliton by tapping it, adding {U}.
 
 ## Combo 4289-4687-4893
 Cards: Gilder Bairn + Cryptolith Rite + Training Grounds
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 55 | Commander: legal
 Produces: Infinite proliferate for permanents
 Start: Gilder Bairn (battlefield); Cryptolith Rite (battlefield); Training Grounds (battlefield)
 Prerequisites: Gilder Bairn does not have summoning sickness.
@@ -11746,7 +11731,7 @@ Steps: Activate Gilder Bairn by tapping it, adding {G/U}.
 
 ## Combo 4289-4687-4929
 Cards: Gilder Bairn + Cryptic Trilobite + Cryptolith Rite
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal | Mana needed: {2}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal | Mana needed: {2}
 Produces: Infinite proliferate for permanents; Infinite +1/+1 counters on a creature; Infinite colorless mana that can only be spent to activate abilities
 Start: Gilder Bairn (battlefield); Cryptic Trilobite (battlefield); Cryptolith Rite (battlefield)
 Prerequisites: Cryptic Trilobite has at least two +1/+1 counters on it.
@@ -12476,7 +12461,7 @@ Steps: Activate Greater Mossdog's cycling ability by paying {0} and discarding i
 
 ## Combo 4474-4687-4893
 Cards: Gilder Bairn + Paradise Mantle + Training Grounds
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 53 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal
 Produces: Infinite proliferate for permanents
 Start: Gilder Bairn (battlefield); Paradise Mantle (battlefield); Training Grounds (battlefield)
 Prerequisites: Paradise Mantle attached to Gilder Bairn.
@@ -12487,7 +12472,7 @@ Steps: Activate Gilder Bairn by tapping it, adding {G/U}.
 
 ## Combo 4474-4687-4929
 Cards: Gilder Bairn + Cryptic Trilobite + Paradise Mantle
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {2}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {2}
 Produces: Infinite proliferate for permanents; Infinite +1/+1 counters on a creature; Infinite colorless mana that can only be spent to activate abilities
 Start: Gilder Bairn (battlefield); Cryptic Trilobite (battlefield); Paradise Mantle (battlefield)
 Prerequisites: Cryptic Trilobite has at least two +1/+1 counters on it.
@@ -13187,7 +13172,7 @@ Steps: Activate Gilder Bairn's ability from Utopia Vow by tapping it, adding {G/
 
 ## Combo 4687-4893-6006
 Cards: Gilder Bairn + Training Grounds + Enduring Vitality
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal
 Produces: Infinite proliferate for permanents
 Start: Gilder Bairn (battlefield); Training Grounds (battlefield); Enduring Vitality (battlefield)
 Prerequisites: Gilder Bairn does not have summoning sickness.
@@ -13219,7 +13204,7 @@ Steps: Activate Gilder Bairn using its ability from Utopia Vow by tapping it, ad
 
 ## Combo 4687-4929-6006
 Cards: Gilder Bairn + Cryptic Trilobite + Enduring Vitality
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite colorless mana that can only be spent to activate abilities; Infinite proliferate for permanents; Infinite +1/+1 counters on a creature
 Start: Gilder Bairn (battlefield); Cryptic Trilobite (battlefield); Enduring Vitality (battlefield)
 Prerequisites: Cryptic Trilobite has at least four counters on it.
@@ -13497,7 +13482,7 @@ Steps: Activate Altar of Dementia by sacrificing the persist creature.
 
 ## Combo 4802-5641-7306
 Cards: The Ooze + Basking Broodscale + Master Biomancer
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 81 | Commander: legal | Mana needed: {1}{G}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 82 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite creature LTB
 Start: The Ooze (battlefield); Basking Broodscale (hand); Master Biomancer (battlefield)
 Steps: Cast Basking Broodscale by paying {1}{G}.
@@ -14069,7 +14054,7 @@ Steps: Activate Traxos by tapping it, adding {1}.
 
 ## Combo 5060-5078-5243
 Cards: Sensei's Divining Top + Cemetery Prowler + The Reality Chip
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 32 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Cemetery Prowler (battlefield); The Reality Chip (battlefield: attached to a creature you control)
 Prerequisites: There is an artifact card exiled with Cemetery Prowler.
@@ -14124,7 +14109,7 @@ Steps: Cast Sensei's Divining Top by paying {0} due to Cemetery Prowler.
 
 ## Combo 5060-5078-6766
 Cards: Sensei's Divining Top + Cemetery Prowler + Mm'menon, the Right Hand
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 2 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Cemetery Prowler (battlefield: with an artifact card exiled); Mm'menon, the Right Hand (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -14771,7 +14756,7 @@ Notes: If you can generate infinite {C} once you have all the lands on the battl
 
 ## Combo 5531-6620-6621-8345
 Cards: Lumra, Bellow of the Woods + Mirrorpool + Sylvan Safekeeper + Warp Speed
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite self-mill; Put all land cards from your library and graveyard onto the battlefield; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers
 Start: Lumra, Bellow of the Woods (battlefield); Mirrorpool (battlefield); Sylvan Safekeeper (battlefield); Warp Speed (battlefield)
 Prerequisites: Other lands you control can tap to produce at least {4}{C}.
@@ -14854,7 +14839,7 @@ Steps: Draw a card.
 
 ## Combo 5696-5702-7730
 Cards: Jyoti, Moag Ancient + Springheart Nantuko + Shang-Chi, Master of Kung Fu
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 40 | Commander: legal | Mana needed: {1}{G}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 41 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite Forest tokens; Infinite creature tokens with haste; Infinite green mana; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Start: Jyoti, Moag Ancient (battlefield); Springheart Nantuko (battlefield); Shang-Chi, Master of Kung Fu (battlefield)
 Prerequisites: Springheart Nantuko attached to Jyoti.
@@ -15268,7 +15253,7 @@ Steps: Activate The Notary Hobbits by tapping it, adding at least {C}{C}{C}{C}{C
 
 ## Combo 7308-7500
 Cards: Mona Lisa, Science Geek + Ringing Strike Mastery
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 34 | Commander: legal
+Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 35 | Commander: legal
 Produces: Infinite colored mana; Infinite mana creatures you control can produce; Infinite untap of creatures you control
 Start: Mona Lisa, Science Geek (battlefield: without summoning sickness and with power 6 or greater); Ringing Strike Mastery (battlefield: attached to Mona Lisa)
 Steps: Activate Mona Lisa by tapping it, adding at least six mana of any color
@@ -15286,7 +15271,7 @@ Steps: Activate Topiary Lecturer by tapping it, adding at least six {G}
 
 ## Combo 7500-7704
 Cards: Ringing Strike Mastery + Doc Samson, Super Psychiatrist
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 25 | Commander: legal
+Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 26 | Commander: legal
 Produces: Infinite colored mana; Infinite mana creatures you control can produce; Infinite untap of creatures you control
 Start: Ringing Strike Mastery (battlefield: attached to Doc Samson); Doc Samson, Super Psychiatrist (battlefield: without summoning sickness and with power 6 or greater)
 Steps: Activate Doc Samson by tapping it, adding at least six mana of any color.
