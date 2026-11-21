@@ -219,7 +219,7 @@ Steps: Cast Cryptic Trilobite by paying {1}, causing it to enter the battlefield
 
 ## Combo 2034-5003-5663
 Cards: Cayth, Famed Mechanist + Nim Deathmantle + Ashnod's Altar
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 380 | Commander: legal | Mana needed: {2}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 370 | Commander: legal | Mana needed: {2}
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Cayth, Famed Mechanist (battlefield); Nim Deathmantle (battlefield); Ashnod's Altar (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Cayth, adding {C}{C}.
@@ -2174,7 +2174,7 @@ Steps: Cast Massimo by paying its mana cost plus commander tax if applicable.
 
 ## Combo 2105-4478-5778-7392
 Cards: Zinnia, Valley's Voice + Nesting Dovehawk + Combat Celebrant + Roar of Resistance
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal | Mana needed: {4}{R}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal | Mana needed: {4}{R}
 Produces: Infinite combat phases; Infinite creature tokens with haste; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinitely powerful creature until end of turn
 Start: Zinnia, Valley's Voice (battlefield); Nesting Dovehawk (battlefield); Combat Celebrant (hand); Roar of Resistance (battlefield)
 Steps: Cast Combat Celebrant by paying {2}{R} plus an additional {2} for its offspring cost.
@@ -6173,7 +6173,7 @@ Steps: Activate Whirler Virtuoso by paying {E}{E}{E}, creating two 1/1 Thopter a
 
 ## Combo 2583-4636-6441
 Cards: Gonti's Aether Heart + Whirler Virtuoso + Elspeth, Storm Slayer
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 280 | Commander: legal
+Color identity: URW | Bracket: 2+ (Core) | Popularity: 280 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite energy counters
 Start: Gonti's Aether Heart (battlefield); Whirler Virtuoso (battlefield); Elspeth, Storm Slayer (battlefield)
 Prerequisites: You have at least {E}{E}{E}.
@@ -6183,7 +6183,7 @@ Steps: Activate Whirler Virtuoso by paying {E}{E}{E}, creating two 1/1 Thopter a
 
 ## Combo 2583-4636-6753
 Cards: Gonti's Aether Heart + Whirler Virtuoso + Exalted Sunborn
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 760 | Commander: legal
+Color identity: URW | Bracket: 2+ (Core) | Popularity: 760 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite energy counters
 Start: Gonti's Aether Heart (battlefield); Whirler Virtuoso (battlefield); Exalted Sunborn (battlefield)
 Prerequisites: You have at least {E}{E}{E}.
@@ -6514,7 +6514,7 @@ Steps: Cast Palinchron.
 
 ## Combo 2686-2928-4274
 Cards: Apocalypse + Barren Glory + Tidal Barracuda
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal | Mana needed: {6}{R}{R}{R}{W}{W}
+Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 21 | Commander: legal | Mana needed: {6}{R}{R}{R}{W}{W}
 Produces: Win the game
 Start: Apocalypse (hand); Barren Glory (hand); Tidal Barracuda (battlefield)
 Steps: During the end step before your turn, cast Barren Glory by paying {4}{W}{W}.
@@ -6524,7 +6524,7 @@ Steps: During the end step before your turn, cast Barren Glory by paying {4}{W}{
 
 ## Combo 2686-4274-5049
 Cards: Apocalypse + Barren Glory + Leyline of Anticipation
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 65 | Commander: legal | Mana needed: {6}{R}{R}{R}{W}{W}
+Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 65 | Commander: legal | Mana needed: {6}{R}{R}{R}{W}{W}
 Produces: Win the game
 Start: Apocalypse (hand); Barren Glory (hand); Leyline of Anticipation (battlefield)
 Steps: During the end step before your turn, cast Barren Glory by paying {4}{W}{W}.
@@ -7082,7 +7082,7 @@ Steps: Activate Zedruu the Greathearted for {W}{U}{R} to donate Transcendence to
 
 ## Combo 2736-3508-4879
 Cards: Sacred Ground + Price of Glory + Zedruu the Greathearted
-Color identity: URW | Bracket: 2-3+ (Oddball) | Popularity: 100 | Commander: legal | Mana needed: {U}{R}{W}
+Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 100 | Commander: legal | Mana needed: {U}{R}{W}
 Produces: Infinite mana lands you control can produce during each opponent's turn; Infinite landfall triggers
 Start: Sacred Ground (battlefield); Price of Glory (battlefield); Zedruu the Greathearted (battlefield)
 Prerequisites: You control a destructible land that enters the battlefield untapped and can tap to produce at least {1}.
@@ -7101,6 +7101,32 @@ Steps: Activate Zedruu by paying {U}{R}{W}, giving control of Moderation to an o
   Whenever the opponent that controls Moderation casts a spell from their hand, Knowledge Pool triggers, exiling that spell.
   Because Moderation prevents the opponent from casting more than one spell each turn, the opponent cannot cast the spell permitted by Knowledge Pool, or any other spell that turn.
 
+## Combo 2736-8195--222
+Cards: Venser, Fervent Forger + Zedruu the Greathearted
+Color identity: URW | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {U}{R}{W} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Instant or Sorcery that Creates One or More Copies of an Opposing Creature (hand)
+Start: Venser, Fervent Forger (battlefield); Zedruu the Greathearted (battlefield)
+Steps: Activate Zedruu by paying {U}{R}{W}, causing target opponent to gain control of Venser.
+  Cast your copy spell from the templated list by paying its mana cost, choosing the necessary targets to create at least one copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 3).
+  Repeat Step 4 until you have created two copies of Venser.
+  Repeat from Step 3. Depending on the permanents targeted in Step 4, the features produced will change.
+
+## Combo 2736-8195--223
+Cards: Venser, Fervent Forger + Zedruu the Greathearted
+Color identity: URW | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {U}{R}{W} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Clone — Can Copy Opponent's Creatures (hand)
+Start: Venser, Fervent Forger (battlefield); Zedruu the Greathearted (battlefield)
+Steps: Activate Zedruu by paying {U}{R}{W}, causing target opponent to gain control of Venser.
+  Cast your clone spell from the templated list for its mana cost, choosing to have it enter as a copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 3).
+  Repeat Step 4 until you have created two copies of Venser.
+  Repeat from Step 3. Depending on the permanents targeted in Step 4, the features produced will change.
+
 ## Combo 2765-3307
 Cards: The Archimandrite + Illusions of Grandeur
 Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 430 | Commander: legal | Mana needed: {3}{U}
@@ -7116,7 +7142,7 @@ Steps: Cast Illusions of Grandeur by paying {3}{U}.
 
 ## Combo 2770-3508-4879
 Cards: Sacred Ground + Price of Glory + Donate
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal | Mana needed: {2}{U}
+Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 28 | Commander: legal | Mana needed: {2}{U}
 Produces: Infinite mana lands you control can produce during each opponent's turn; Infinite landfall triggers
 Start: Sacred Ground (battlefield); Price of Glory (battlefield); Donate (hand)
 Prerequisites: You control a destructible land that enters the battlefield untapped and can tap to produce at least {1}.
@@ -7225,7 +7251,7 @@ Steps: Activate Soulbright Flamekin by paying {2}, targeting Agrus Kos.
 
 ## Combo 2781-4890
 Cards: Felidar Guardian + Dack's Duplicate
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 87 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB
 Start: Felidar Guardian (battlefield); Dack's Duplicate (hand)
 Prerequisites: You have enough mana to cast Dack's Duplicate.
@@ -9644,7 +9670,7 @@ Steps: Cast Razor Boomerang by paying {0} due to Sokka, Swordmaster.
 
 ## Combo 3484-4374-5663
 Cards: Cayth, Famed Mechanist + Aethergeode Miner + Decoction Module
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 4100 | Commander: legal
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 4000 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature LTB; Infinite creature ETB
 Start: Cayth, Famed Mechanist (battlefield); Aethergeode Miner (battlefield); Decoction Module (battlefield)
 Prerequisites: You have at least {E}{E}.
@@ -9848,7 +9874,7 @@ Steps: Cast Razor Boomerang by paying {0} due to Sokka, Swordmaster.
 
 ## Combo 3508-4879-6922
 Cards: Sacred Ground + Price of Glory + Coveted Falcon
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal | Mana needed: {1}{U}
+Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 37 | Commander: legal | Mana needed: {1}{U}
 Produces: Infinite mana lands you control can produce during each opponent's turn; Infinite landfall triggers
 Start: Sacred Ground (battlefield); Price of Glory (battlefield); Coveted Falcon (battlefield: is face down)
 Prerequisites: There is at least one card in your library.
@@ -9861,7 +9887,7 @@ Steps: Pay {1}{U} to turn Coveted Falcon face up, drawing a card and causing tar
 
 ## Combo 3508-4879-7666
 Cards: Sacred Ground + Price of Glory + Bilbo, Luckwearer // Burglar's Plot
-Color identity: URW | Bracket: 2-3+ (Oddball) | Popularity: 1 | Commander: legal | Mana needed: {4}{U}
+Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 1 | Commander: legal | Mana needed: {4}{U}
 Produces: Infinite mana lands you control can produce during each opponent's turn; Infinite landfall triggers
 Start: Sacred Ground (battlefield); Price of Glory (battlefield); Bilbo, Luckwearer // Burglar's Plot (hand)
 Prerequisites: An opponent controls a land.
@@ -10307,7 +10333,7 @@ Steps: Cast Sensei's Divining Top by paying {1}
 
 ## Combo 3581-5078-6766
 Cards: Sensei's Divining Top + Kykar, Wind's Fury + Mm'menon, the Right Hand
-Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 42 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 43 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Sensei's Divining Top (battlefield); Kykar, Wind's Fury (battlefield); Mm'menon, the Right Hand (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -10329,7 +10355,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 3581-5078-7902
 Cards: Sensei's Divining Top + Kykar, Wind's Fury + Fateful Discovery
-Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 200 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 210 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers; Near-infinite storm count
 Start: Sensei's Divining Top (hand); Kykar, Wind's Fury (battlefield); Fateful Discovery (battlefield)
 Steps: Cast Sensei's Divining Top by paying {0} due to Kykar.
@@ -10397,7 +10423,7 @@ Steps: Cast Cloudshift by paying {W}, targeting Shipwreck Dowser
 
 ## Combo 3603-4364-8330
 Cards: Massimo, the Magician + Aurelia, the Warleader + Cloudshift
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 23 | Commander: legal | Mana needed: {U}{R}{W} plus commander tax if applicable
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal | Mana needed: {U}{R}{W} plus commander tax if applicable
 Produces: Infinite combat damage; Infinite combat phases; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count; Infinite untap of creatures you control
 Start: Massimo, the Magician (hand, command zone); Aurelia, the Warleader (battlefield); Cloudshift (graveyard)
 Prerequisites: An opponent cannot block creatures you control.
@@ -11202,7 +11228,7 @@ Steps: Declare Satya as an attacker, triggering its ability, causing you to crea
 
 ## Combo 3963-4364
 Cards: Meneldor, Swift Savior + Aurelia, the Warleader
-Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 160 | Commander: legal
+Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 170 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite mana creatures you control can produce; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite untap of creatures you control
 Start: Meneldor, Swift Savior (battlefield); Aurelia, the Warleader (battlefield)
 Prerequisites: All permanents do not have summoning sickness.
@@ -11975,7 +12001,7 @@ Steps: Tap Kilo using any free method.
 
 ## Combo 4240-8194-8195
 Cards: Dack Fayden, Helping Hand + Venser, Fervent Forger + Cavalier of Gales
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {6}{W}{W}{U}{U}{U}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {6}{W}{W}{U}{U}{U}
 Produces: Infinite creature tokens with haste; Infinite artifact tokens; Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Start: Dack Fayden, Helping Hand (hand); Venser, Fervent Forger (hand); Cavalier of Gales (hand)
 Steps: Cast Cavalier of Gales by paying {2}{U}{U}{U}.
@@ -12523,7 +12549,7 @@ Notes: You can also do this combo in one turn if you give the ability to a creat
 
 ## Combo 4364-5144-8330
 Cards: Massimo, the Magician + Aurelia, the Warleader + Ephemerate
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal | Mana needed: {U}{R}{W} plus commander tax if applicable
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal | Mana needed: {U}{R}{W} plus commander tax if applicable
 Produces: Infinite combat damage; Infinite combat phases; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count; Infinite untap of creatures you control
 Start: Massimo, the Magician (hand, command zone); Aurelia, the Warleader (battlefield); Ephemerate (graveyard)
 Prerequisites: An opponent cannot block creatures you control.
@@ -12758,7 +12784,7 @@ Steps: Activate Hardened Academic by discarding Gilded Assault Cart.
 
 ## Combo 4374-4636-5663
 Cards: Cayth, Famed Mechanist + Aethergeode Miner + Gonti's Aether Heart
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 3900 | Commander: legal
+Color identity: URW | Bracket: 2+ (Core) | Popularity: 3900 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature LTB; Infinite creature ETB
 Start: Cayth, Famed Mechanist (battlefield); Aethergeode Miner (battlefield); Gonti's Aether Heart (battlefield)
 Prerequisites: You have at least {E}{E}.
@@ -13056,7 +13082,7 @@ Steps: Cast Razor Boomerang by paying {0} due to Sokka, Swordmaster.
 
 ## Combo 4478-5078-5243-8171
 Cards: Vraska, Soul of Stone + Sensei's Divining Top + Roar of Resistance + The Reality Chip
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 99 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 100 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Start: Vraska, Soul of Stone (battlefield); Sensei's Divining Top (battlefield); Roar of Resistance (battlefield); The Reality Chip (battlefield: attached to a creature you control)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -13078,7 +13104,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 4478-5078-6650-8171
 Cards: Vraska, Soul of Stone + Sensei's Divining Top + Roar of Resistance + The Lunar Whale
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Start: Vraska, Soul of Stone (battlefield); Sensei's Divining Top (battlefield); Roar of Resistance (battlefield); The Lunar Whale (battlefield)
 Prerequisites: The Lunar Whale has attacked this turn.
@@ -13288,7 +13314,7 @@ Steps: Pay {2}{U/R} {U/R} to activate Soulfire Grand Master's ability.
 
 ## Combo 4560-5211
 Cards: Soulfire Grand Master + Brass's Bounty
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 94 | Commander: legal | Mana needed: {8}{U/R}{U/R}{R}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 93 | Commander: legal | Mana needed: {8}{U/R}{U/R}{R}
 Produces: Infinite colored mana; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite storm count; Infinite magecraft triggers
 Start: Soulfire Grand Master (battlefield); Brass's Bounty (hand)
 Prerequisites: You control at least eleven lands.
@@ -13313,7 +13339,7 @@ Steps: Cast Essence Flux by paying its mana cost, targeting Practiced Scrollsmit
 
 ## Combo 4636-5391-5666
 Cards: Automated Assembly Line + Gonti's Aether Heart + Izzet Generatorium
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 11000 | Commander: legal
+Color identity: URW | Bracket: 2+ (Core) | Popularity: 11000 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB
 Start: Automated Assembly Line (battlefield); Gonti's Aether Heart (battlefield); Izzet Generatorium (battlefield)
 Prerequisites: You have at least {E}{E}{E}.
@@ -14102,7 +14128,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 5078-5295-5741-8171
 Cards: Vraska, Soul of Stone + Sensei's Divining Top + Thousand-Year Elixir + Crystal Skull, Isu Spyglass
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 55 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 56 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Start: Vraska, Soul of Stone (battlefield); Sensei's Divining Top (battlefield); Thousand-Year Elixir (battlefield); Crystal Skull, Isu Spyglass (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -14461,7 +14487,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 5078-6747-7902
 Cards: Sensei's Divining Top + Sami, Wildcat Captain + Fateful Discovery
-Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 80 | Commander: legal
+Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 81 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (hand); Sami, Wildcat Captain (battlefield); Fateful Discovery (battlefield)
 Prerequisites: You control an artifact.
@@ -14539,7 +14565,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 5078-6766-7295-8171
 Cards: Vraska, Soul of Stone + Sensei's Divining Top + Mm'menon, the Right Hand + Alibou, Ancient Witness
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Start: Vraska, Soul of Stone (battlefield); Sensei's Divining Top (battlefield); Mm'menon, the Right Hand (battlefield); Alibou, Ancient Witness (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -14802,7 +14828,7 @@ Steps: At the beginning of your end step, The Mighty Thor triggers.
 
 ## Combo 5178-6712-6781
 Cards: Sonic the Hedgehog + Krark-Clan Shaman + Odric, Lunarch Marshal
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 63 | Commander: legal
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 64 | Commander: legal
 Produces: Infinite tapped Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite damage to creatures
 Start: Sonic the Hedgehog (battlefield); Krark-Clan Shaman (battlefield); Odric, Lunarch Marshal (battlefield)
 Prerequisites: You control an additional artifact.
@@ -15218,7 +15244,7 @@ Steps: Cast Soultether Golem by paying {2}.
 
 ## Combo 5391-5666-5870-5874
 Cards: Automated Assembly Line + Guide of Souls + Sphinx of the Revelation + Izzet Generatorium
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 5800 | Commander: legal
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 5700 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite creature ETB; Infinite energy counters
 Start: Automated Assembly Line (battlefield); Guide of Souls (battlefield); Sphinx of the Revelation (battlefield); Izzet Generatorium (battlefield)
 Prerequisites: You have at least {E}{E}{E}.
@@ -15479,7 +15505,7 @@ Notes: Once you have infinite mana, you may activate a Boommobile to deal infini
 
 ## Combo 6338-6712-6781
 Cards: Sonic the Hedgehog + Krark-Clan Shaman + Flawless Maneuver
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 720 | Commander: legal | Mana needed: {2}{W} if you don't control a commander
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 730 | Commander: legal | Mana needed: {2}{W} if you don't control a commander
 Produces: Infinite tapped Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite damage to creatures
 Start: Sonic the Hedgehog (battlefield); Krark-Clan Shaman (battlefield); Flawless Maneuver (hand)
 Prerequisites: You control an additional artifact.

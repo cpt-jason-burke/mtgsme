@@ -1,3 +1,16 @@
+## Combo 997-4184-6972
+Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Woe Strider + Relentless Skaabs
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite scry 1
+Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Woe Strider (battlefield); Relentless Skaabs (battlefield: without a +1/+1 counter on it)
+Steps: Activate Woe Strider by sacrificing Relentless Skaabs
+  When Relentless Skaabs dies, its undying ability triggers, returning it from your graveyard to the battlefield with a +1/+1 counter on it.
+  Activate Woe Strider by sacrificing Relentless Skaabs
+  When Relentless Skaabs dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
+  Resolve both Woe Strider abilities from step 1 and 3.
+  Repeat.
+Notes: If Relentless Skaabs starts with a +1/+1 counter on it, then you may start the combo from step 3 instead.
+
 ## Combo 997-4302-5929
 Cards: Bishop of Wings + Woe Strider + Leyline of Transformation
 Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
@@ -1938,7 +1951,7 @@ Steps: Activate Shilgengar by sacrificing Bloodsoaked Champion.
 
 ## Combo 1267-3489
 Cards: Medomai the Ageless + Satoru Umezawa
-Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 1700 | Commander: legal | Mana needed: {4}{U}{U}{B}{B} each turn
+Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 1800 | Commander: legal | Mana needed: {4}{U}{U}{B}{B} each turn
 Produces: Infinite turns; Lock
 Start: Medomai the Ageless (hand); Satoru Umezawa (battlefield)
 Prerequisites: You control an additional nontoken creature that does not have summoning sickness.
@@ -2236,7 +2249,7 @@ Steps: Activate Sydri by paying {U}, causing Chromatic Orrery to become an artif
 
 ## Combo 1283-1358-4222
 Cards: Sydri, Galvanic Genius + Freed from the Real + Chromatic Orrery
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal | Mana needed: {2}{U}{U}
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal | Mana needed: {2}{U}{U}
 Produces: Infinite card draw; Infinite colored mana; Infinite colorless mana
 Start: Sydri, Galvanic Genius (battlefield); Freed from the Real (hand); Chromatic Orrery (battlefield)
 Prerequisites: Chromatic Orrery does not have summoning sickness.
@@ -2683,7 +2696,7 @@ Steps: Cast Cavern Harpy by paying {U}{B}.
 
 ## Combo 1308-4152-4222
 Cards: Undercity Scrounger + Freed from the Real + Anointed Procession
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
 Produces: Infinite colored mana; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
 Start: Undercity Scrounger (battlefield); Freed from the Real (battlefield); Anointed Procession (battlefield)
 Prerequisites: Freed from the Real attached to Undercity Scrounger.
@@ -3062,6 +3075,18 @@ Steps: Cast Temporal Manipulation from your graveyard by paying its mana cost.
   Activate Meticulous Excavation by paying {2}{W}, returning Talon Gates of Madara from the battlefield to your hand.
   During your extra turn, Hades phases in during your untap step.
   Repeat.
+
+## Combo 1350-2793-8408
+Cards: Hugh, First of Many + Ugin's Nexus + Meticulous Excavation
+Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {9}{W}{U} each turn
+Produces: Infinite turns; Lock
+Start: Hugh, First of Many (battlefield); Ugin's Nexus (hand); Meticulous Excavation (battlefield)
+Steps: Cast Ugin's Nexus by paying {5}, plus an additional {2}{U} for its replicate cost.
+  Ugin's Nexus's replicate ability triggers, copying it.
+  Resolve the copy of the Ugin's Nexus spell, creating a token copy of it.
+  Resolve the original Ugin's Nexus spell. Put the token Ugin's Nexus into exile due to the legend rule and its replacement effect, causing you to take an extra turn after this one.
+  Bounce Ugin's Nexus back to your hand using Meticulous Excavation.
+  Move to your next turn and repeat from step 1.
 
 ## Combo 1350-3617-6333-6678
 Cards: Emet-Selch, Unsundered // Hades, Sorcerer of Eld + Talon Gates of Madara + Meticulous Excavation + Time Walk
@@ -5210,7 +5235,7 @@ Steps: Cast Welding Jar from your graveyard by paying {0} and 3 life. It will no
 
 ## Combo 1494-2527-3784-4275-5686
 Cards: Vhal, Candlekeep Researcher + Haunted One + Faces of the Past + Sage of Hours + Shilgengar, Sire of Famine
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: WUB | Bracket: 2+ (Core) | Popularity: 0 | Commander: legal
 Produces: Infinite artifact tokens; Infinite colorless mana that can't be spent to cast spells from your hand; Infinite untap of all Humans; Infinite power for certain creatures until end of turn; Infinite untap of all Wizards; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite Blood tokens
 Start: Vhal, Candlekeep Researcher (battlefield: must be your commander); Haunted One (battlefield); Faces of the Past (battlefield); Sage of Hours (battlefield); Shilgengar, Sire of Famine (battlefield)
 Steps: Activate Vhal by tapping it, adding an amount of {C} equal to Vhal's toughness that cannot be spent to cast spells from your hand.
@@ -5419,7 +5444,7 @@ Steps: At the beginning of your combat phase, Helm of the Host triggers, creatin
 
 ## Combo 1558-1721-2004
 Cards: Open the Vaults + Codex Shredder + Time Sieve
-Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 25 | Commander: legal | Mana needed: {9}{W}{W} each turn
+Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 24 | Commander: legal | Mana needed: {9}{W}{W} each turn
 Produces: Infinite turns; Lock
 Start: Open the Vaults (hand, graveyard); Codex Shredder (battlefield); Time Sieve (battlefield)
 Prerequisites: You control at least four additional nontoken artifacts.
@@ -5465,7 +5490,7 @@ Steps: At the beginning of your end step, Soulherder's second ability triggers, 
 
 ## Combo 1558-1770-2963-4840
 Cards: Time Sieve + Myr Battlesphere + Teleportation Circle + Elesh Norn, Mother of Machines
-Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 37 | Commander: legal
+Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 38 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Time Sieve (battlefield); Myr Battlesphere (battlefield); Teleportation Circle (battlefield); Elesh Norn, Mother of Machines (battlefield)
 Steps: At the beginning of your end step, Teleportation Circle triggers, blinking Myr Battlesphere.
@@ -5497,7 +5522,7 @@ Steps: At the beginning of your end step, Soulherder's second ability triggers, 
 
 ## Combo 1558-1822-2963-4840
 Cards: Time Sieve + Myr Battlesphere + Teleportation Circle + Gandalf the White
-Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 17 | Commander: legal
+Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 18 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Time Sieve (battlefield); Myr Battlesphere (battlefield); Teleportation Circle (battlefield); Gandalf the White (battlefield)
 Steps: At the beginning of your end step, Teleportation Circle triggers, blinking Myr Battlesphere.
@@ -5653,7 +5678,7 @@ Steps: Activate Tezzeret's first loyalty ability by putting a loyalty counter on
 
 ## Combo 1558-2963-4365-4840
 Cards: Time Sieve + Myr Battlesphere + Teleportation Circle + Mondrak, Glory Dominus
-Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 38 | Commander: legal
+Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 39 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Time Sieve (battlefield); Myr Battlesphere (battlefield); Teleportation Circle (battlefield); Mondrak, Glory Dominus (battlefield)
 Steps: At the beginning of your end step, Teleportation Circle triggers, blinking Myr Battlesphere.
@@ -5734,7 +5759,7 @@ Steps: Declare Burakos as an attacker.
 
 ## Combo 1558-4076-6753
 Cards: Burakos, Party Leader + Time Sieve + Exalted Sunborn
-Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 5 | Commander: legal
+Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 6 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Burakos, Party Leader (battlefield); Time Sieve (battlefield); Exalted Sunborn (battlefield)
 Prerequisites: You have a full party.
@@ -5828,7 +5853,7 @@ Steps: Cast Machine God's Effigy by paying {4}. Choose to have it enter the batt
 
 ## Combo 1562-4112
 Cards: Sharuum the Hegemon + Machine God's Effigy
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 960 | Commander: legal | Mana needed: {4}
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 950 | Commander: legal | Mana needed: {4}
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB
 Start: Sharuum the Hegemon (battlefield); Machine God's Effigy (hand)
 Steps: Cast Machine God's Effigy by paying {4}, choosing to have it enter the battlefield as a copy of Sharuum.
@@ -5937,7 +5962,7 @@ Steps: Activate Illuminor Szeras by tapping it and sacrificing Eternal Scourge, 
 
 ## Combo 1603-1621
 Cards: Evil Twin + Wispweaver Angel
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 80 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 81 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB
 Start: Evil Twin (hand); Wispweaver Angel (battlefield)
 Prerequisites: You have enough mana to cast Evil Twin.
@@ -5980,7 +6005,7 @@ Notes: This combo produces a mandatory infinite loop that'll cause the game to e
 
 ## Combo 1603-2781
 Cards: Evil Twin + Felidar Guardian
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 170 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 180 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB
 Start: Evil Twin (hand); Felidar Guardian (battlefield)
 Prerequisites: You have enough mana to cast Evil Twin.
@@ -8650,7 +8675,7 @@ Notes: You can choose whatever path you desire while venturing through Undercity
 
 ## Combo 1623-1624-2125
 Cards: Guile + Temporal Extortion + Near-Death Experience
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {B}{B}{B}{B}
+Color identity: WUB | Bracket: 2+ (Core) | Popularity: 2 | Commander: legal | Mana needed: {B}{B}{B}{B}
 Produces: Win the game
 Start: Guile (battlefield); Temporal Extortion (hand); Near-Death Experience (battlefield)
 Steps: Cast Temporal Extortion for {B}{B}{B}{B}.
@@ -8677,7 +8702,7 @@ Steps: Cast Magister Sphinx by paying {4}{W}{U}{B}.
 
 ## Combo 1625-2607
 Cards: Magister Sphinx + Archfiend of Despair
-Color identity: WUB | Bracket: 2-3+ (Oddball) | Popularity: 660 | Commander: legal | Mana needed: {4}{W}{U}{B}
+Color identity: WUB | Bracket: 2-3+ (Oddball) | Popularity: 670 | Commander: legal | Mana needed: {4}{W}{U}{B}
 Produces: Near-infinite lifeloss for target opponent; Target opponent loses the game
 Start: Magister Sphinx (hand); Archfiend of Despair (battlefield)
 Prerequisites: An opponent has at least twenty life.
@@ -8699,7 +8724,7 @@ Steps: Cast Magister Sphinx by paying {4}{W}{U}{B}.
 
 ## Combo 1636-1824-5484
 Cards: We Ride at Dawn + Acererak the Archlich + Intruder Alarm
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite card draw; Near-infinite colored mana; Near-infinite creature tokens; Near-infinite lifegain; Near-infinite lifeloss; Near-infinite Treasure tokens; Near-infinite ventures into the dungeon; Near-infinite +1/+1 counters on creatures you control; Near-infinite lifegain triggers; Near-infinite untap of all creatures; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite storm count
 Start: We Ride at Dawn (battlefield); Acererak the Archlich (hand); Intruder Alarm (battlefield)
 Prerequisites: You have not completed or are currently venturing in Tomb of Annihilation.
@@ -12453,7 +12478,7 @@ Steps: Activate Tawnos's second ability by paying {1}{W}{U}{B}, tapping it and s
 
 ## Combo 1921-2034-4404
 Cards: Tawnos, Solemn Survivor + Ashnod's Altar + Corridor Monitor
-Color identity: WUB | Bracket: 3-4+ (Spicy) | Popularity: 57 | Commander: legal | Mana needed: {3}{W}{U}{B}
+Color identity: WUB | Bracket: 3-4+ (Spicy) | Popularity: 56 | Commander: legal | Mana needed: {3}{W}{U}{B}
 Produces: Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Tawnos, Solemn Survivor (battlefield: without summoning sickness); Ashnod's Altar (battlefield); Corridor Monitor (graveyard)
 Prerequisites: You control two artifact tokens.
@@ -12922,6 +12947,18 @@ Steps: Activate an Island by tapping it, adding {U}.
   Cast Ghostly Flicker by paying {U}, blinking Mnemonic Wall and the Island.
   Mnemonic Wall enters the battlefield, returning Ghostly Flicker from your graveyard to your hand.
   Repeat.
+
+## Combo 1999-2793-8408
+Cards: Hugh, First of Many + Ugin's Nexus + Master Transmuter
+Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {7}{U}{U} each turn
+Produces: Infinite turns; Lock
+Start: Hugh, First of Many (battlefield); Ugin's Nexus (hand); Master Transmuter (battlefield)
+Steps: Cast Ugin's Nexus by paying {5}, plus an additional {2}{U} for its replicate cost.
+  Ugin's Nexus's replicate ability triggers, copying it.
+  Resolve the copy of the Ugin's Nexus spell, creating a token copy of it.
+  Resolve the original Ugin's Nexus spell. Put the token Ugin's Nexus into exile due to the legend rule and its replacement effect, causing you to take an extra turn after this one.
+  Bounce Ugin's Nexus back to your hand using Master Transmuter.
+  Move to your next turn and repeat from step 1.
 
 ## Combo 2018-2921-5570
 Cards: Luminous Broodmoth + Nardole, Resourceful Cyborg + Bartolomé del Presidio
@@ -13683,7 +13720,7 @@ Steps: Cast Traveling Plague by paying {3}{B}{B}, attaching it to another creatu
 
 ## Combo 2034-6103-6105
 Cards: Magister of Worth + Illusion of Choice + Ashnod's Altar
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal | Mana needed: {4}{W}{U}{B}
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal | Mana needed: {4}{W}{U}{B}
 Produces: Infinite colorless mana; Infinite recursion of creature cards in your graveyard; Infinite creature LTB; Infinite creature ETB
 Start: Magister of Worth (hand); Illusion of Choice (hand); Ashnod's Altar (battlefield)
 Steps: Cast Illusion of Choice by paying {U}, causing you to choose how players vote this turn and drawing a card.
@@ -15260,7 +15297,7 @@ Steps: Draw a card.
 
 ## Combo 2292-2523-2869
 Cards: Ratadrabik of Urborg + Leyline of Singularity + Viscera Seer
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite scry 1
 Start: Ratadrabik of Urborg (battlefield); Leyline of Singularity (battlefield); Viscera Seer (battlefield)
 Steps: Activate Viscera Seer by sacrificing it.
@@ -15282,7 +15319,7 @@ Steps: Activate Viscera Seer by sacrificing Rangers of Ithilien.
 
 ## Combo 2292-2525-2947
 Cards: Vesperlark + Body Double + Viscera Seer
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 55 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 56 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite scry 1
 Start: Vesperlark (graveyard); Body Double (battlefield: as a copy of Vesperlark); Viscera Seer (battlefield)
 Steps: Activate Viscera Seer by sacrificing Body Double.
@@ -15883,7 +15920,7 @@ Steps: Activate Helvault by paying {1} and tapping it, exiling Sharuum.
 
 ## Combo 2438-2523-2869
 Cards: Ratadrabik of Urborg + Leyline of Singularity + Carrion Feeder
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Ratadrabik of Urborg (battlefield); Leyline of Singularity (battlefield); Carrion Feeder (battlefield)
 Steps: Activate Carrion Feeder by sacrificing it.
@@ -17488,7 +17525,7 @@ Steps: Activate Blood Pet by sacrificing it.
 
 ## Combo 2523-2869-3967
 Cards: Ratadrabik of Urborg + Leyline of Singularity + Yahenni, Undying Partisan
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Ratadrabik of Urborg (battlefield); Leyline of Singularity (battlefield); Yahenni, Undying Partisan (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -17910,7 +17947,7 @@ Steps: Activate Shilgengar by sacrificing Body Double.
 
 ## Combo 2525-3967-4681
 Cards: Karmic Guide + Body Double + Yahenni, Undying Partisan
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal | Mana needed: {4}{U}
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal | Mana needed: {4}{U}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Karmic Guide (graveyard); Body Double (hand); Yahenni, Undying Partisan (battlefield)
 Steps: Cast Body Double by paying {4}{U}, choosing to have it enter the battlefield as a copy of Karmic Guide.
@@ -17963,7 +18000,7 @@ Steps: Cast Body Double by paying {4}{U}, choosing to have it enter the battlefi
 
 ## Combo 2525-4681-6798
 Cards: Karmic Guide + Body Double + Umbral Collar Zealot
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal | Mana needed: {4}{U}
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 73 | Commander: legal | Mana needed: {4}{U}
 Produces: Infinite surveil; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Karmic Guide (graveyard); Body Double (hand); Umbral Collar Zealot (battlefield)
 Steps: Cast Body Double by paying {4}{U}, choosing to have it enter the battlefield as a copy of Karmic Guide.
@@ -17988,6 +18025,19 @@ Steps: Cast Metamorphosis Fanatic by paying {4}{B}{B}.
   Holding priority, activate Shilgengar by sacrificing Body Double, creating a Blood token.
   Resolve the Body Double ability, returning Metamorphosis Fanatic from your graveyard to the battlefield.
   Repeat from step 2.
+
+## Combo 2529-2793-8408
+Cards: Hugh, First of Many + Ugin's Nexus + Vedalken Mastermind
+Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {7}{U}{U} each turn
+Produces: Infinite turns; Lock
+Start: Hugh, First of Many (battlefield); Ugin's Nexus (hand); Vedalken Mastermind (battlefield)
+Prerequisites: Vedalken Mastermind doesn't have summoning sickness.
+Steps: Cast Ugin's Nexus by paying {5}, plus an additional {2}{U} for its replicate cost.
+  Ugin's Nexus's replicate ability triggers, copying it.
+  Resolve the copy of the Ugin's Nexus spell, creating a token copy of it.
+  Resolve the original Ugin's Nexus spell. Put the token Ugin's Nexus into exile due to the legend rule and its replacement effect, causing you to take an extra turn after this one.
+  Bounce Ugin's Nexus back to your hand using Vedalken Mastermind.
+  Move to your next turn and repeat from step 1.
 
 ## Combo 2530-2558-4139
 Cards: Thopter Foundry + Sword of the Meek + Carnival of Souls
@@ -19183,6 +19233,82 @@ Steps: During your end step, activate Bartolomé del Presidio by sacrificing Ugi
   Move to your extra turn.
   At the beginning of your end step, Esoteric Duplicator triggers, creating a token copy of Ugin's Nexus.
   Repeat.
+
+## Combo 2793-5278-8408
+Cards: Hugh, First of Many + Ugin's Nexus + Obelisk of Undoing
+Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {13}{U} each turn
+Produces: Infinite turns; Lock
+Start: Hugh, First of Many (battlefield); Ugin's Nexus (hand); Obelisk of Undoing (battlefield)
+Steps: Cast Ugin's Nexus by paying {5}, plus an additional {2}{U} for its replicate cost.
+  Ugin's Nexus's replicate ability triggers, copying it.
+  Resolve the copy of the Ugin's Nexus spell, creating a token copy of it.
+  Resolve the original Ugin's Nexus spell. Put the token Ugin's Nexus into exile due to the legend rule and its replacement effect, causing you to take an extra turn after this one.
+  Bounce Ugin's Nexus back to your hand using Obelisk of Undoing.
+  Move to your next turn and repeat from step 1.
+
+## Combo 2793-6248-8408
+Cards: Hugh, First of Many + Ugin's Nexus + Phenomenon Investigators
+Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {7}{U} each turn
+Produces: Infinite turns; Lock
+Start: Hugh, First of Many (battlefield); Ugin's Nexus (hand); Phenomenon Investigators (battlefield)
+Prerequisites: Phenomenon Investigators has "Doubt" chosen.
+Steps: Cast Ugin's Nexus by paying {5}, plus an additional {2}{U} for its replicate cost.
+  Ugin's Nexus's replicate ability triggers, copying it.
+  Resolve the copy of the Ugin's Nexus spell, creating a token copy of it.
+  Resolve the original Ugin's Nexus spell. Put the token Ugin's Nexus into exile due to the legend rule and its replacement effect, causing you to take an extra turn after this one.
+  Bounce Ugin's Nexus back to your hand using Phenomenon Investigators.
+  Move to your next turn and repeat from step 1.
+
+## Combo 2793-8187-8408
+Cards: Hugh, First of Many + Ugin's Nexus + Essence Reliquary
+Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {7}{U} each turn
+Produces: Infinite turns; Lock
+Start: Hugh, First of Many (battlefield); Ugin's Nexus (hand); Essence Reliquary (battlefield)
+Steps: Cast Ugin's Nexus by paying {5}, plus an additional {2}{U} for its replicate cost.
+  Ugin's Nexus's replicate ability triggers, copying it.
+  Resolve the copy of the Ugin's Nexus spell, creating a token copy of it.
+  Resolve the original Ugin's Nexus spell. Put the token Ugin's Nexus into exile due to the legend rule and its replacement effect, causing you to take an extra turn after this one.
+  Bounce Ugin's Nexus back to your hand using Essence Reliquary.
+  Move to your next turn and repeat from step 1.
+
+## Combo 2793-8188-8408
+Cards: Hugh, First of Many + Ugin's Nexus + Salvage Scuttler
+Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {7}{U} each turn
+Produces: Infinite turns; Lock
+Start: Hugh, First of Many (battlefield); Ugin's Nexus (hand); Salvage Scuttler (battlefield)
+Prerequisites: Salvage Scuttler doesn't have summoning sickness and cannot be blocked and killed by an opponent.
+Steps: Cast Ugin's Nexus by paying {5}, plus an additional {2}{U} for its replicate cost.
+  Ugin's Nexus's replicate ability triggers, copying it.
+  Resolve the copy of the Ugin's Nexus spell, creating a token copy of it.
+  Resolve the original Ugin's Nexus spell. Put the token Ugin's Nexus into exile due to the legend rule and its replacement effect, causing you to take an extra turn after this one.
+  Bounce Ugin's Nexus back to your hand using Salvage Scuttler.
+  Move to your next turn and repeat from step 1.
+
+## Combo 2793-8189-8408
+Cards: Hugh, First of Many + Ugin's Nexus + Shi'ar Soldier
+Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {7}{U}{U} each turn
+Produces: Infinite turns; Lock
+Start: Hugh, First of Many (battlefield); Ugin's Nexus (hand); Shi'ar Soldier (battlefield)
+Prerequisites: Shi'ar Soldier doesn't have summoning sickness.
+Steps: Cast Ugin's Nexus by paying {5}, plus an additional {2}{U} for its replicate cost.
+  Ugin's Nexus's replicate ability triggers, copying it.
+  Resolve the copy of the Ugin's Nexus spell, creating a token copy of it.
+  Resolve the original Ugin's Nexus spell. Put the token Ugin's Nexus into exile due to the legend rule and its replacement effect, causing you to take an extra turn after this one.
+  Bounce Ugin's Nexus back to your hand using Shi'ar Soldier.
+  Move to your next turn and repeat from step 1.
+
+## Combo 2793-8287-8408
+Cards: Hugh, First of Many + Ugin's Nexus + Rescue Girl, First Responder
+Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {7}{U} each turn
+Produces: Infinite turns; Lock
+Start: Hugh, First of Many (battlefield); Ugin's Nexus (hand); Rescue Girl, First Responder (battlefield)
+Prerequisites: Rescue Girl doesn't have summoning sickness.
+Steps: Cast Ugin's Nexus by paying {5}, plus an additional {2}{U} for its replicate cost.
+  Ugin's Nexus's replicate ability triggers, copying it.
+  Resolve the copy of the Ugin's Nexus spell, creating a token copy of it.
+  Resolve the original Ugin's Nexus spell. Put the token Ugin's Nexus into exile due to the legend rule and its replacement effect, causing you to take an extra turn after this one.
+  Bounce Ugin's Nexus back to your hand using Rescue Girl.
+  Move to your next turn and repeat from step 1.
 
 ## Combo 2825-3205-4067-5126
 Cards: Elite Arcanist + Mind Over Matter + Dream Salvage + Aurora Eidolon
@@ -23514,7 +23640,7 @@ Steps: Cast Rescue Skiff by paying {5}{W}.
 
 ## Combo 4139-4559-4871
 Cards: Thopter Foundry + Metalwork Colossus + Pitiless Plunderer
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal | Mana needed: {1}
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal | Mana needed: {1}
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Thopter Foundry (battlefield); Metalwork Colossus (hand); Pitiless Plunderer (battlefield)
 Prerequisites: The total mana value of noncreature artifacts you control is at least 11.

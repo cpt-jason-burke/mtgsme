@@ -1461,7 +1461,7 @@ Steps: Draw a card.
 
 ## Combo 90-1339-1940
 Cards: The Locust God + Liliana, Dreadhorde General + Engineered Plague
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB
 Start: The Locust God (battlefield); Liliana, Dreadhorde General (battlefield); Engineered Plague (battlefield)
 Prerequisites: You have a way to draw a card.
@@ -2654,7 +2654,7 @@ Steps: Cast Warrior's Oath by paying its mana cost, causing you to take an extra
 
 ## Combo 126-2697-3976
 Cards: Magar of the Magic Strings + Obeka, Brute Chronologist + Last Chance
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 82 | Commander: legal | Mana needed: {1}{B}{R}{R}{R}
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 83 | Commander: legal | Mana needed: {1}{B}{R}{R}{R}
 Produces: Infinite turns; Lock
 Start: Magar of the Magic Strings (battlefield); Obeka, Brute Chronologist (battlefield); Last Chance (hand)
 Prerequisites: An opponent cannot block creatures you control.
@@ -5789,7 +5789,7 @@ Notes: Due to differences in card templating between the various banisher effect
 
 ## Combo 248-1869-2034
 Cards: Inalla, Archmage Ritualist + Ashnod's Altar + Changeling Berserker
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 42 | Commander: legal | Mana needed: {4}{R}
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 41 | Commander: legal | Mana needed: {4}{R}
 Produces: Infinite colorless mana; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Inalla, Archmage Ritualist (battlefield, command zone); Ashnod's Altar (battlefield); Changeling Berserker (hand)
 Steps: Cast Changeling Berserker by paying {3}{R}.
@@ -5804,7 +5804,7 @@ Steps: Cast Changeling Berserker by paying {3}{R}.
 
 ## Combo 248-1869-4050
 Cards: Inalla, Archmage Ritualist + Changeling Berserker + Phyrexian Altar
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal | Mana needed: {4}{R}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal | Mana needed: {4}{R}
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Inalla, Archmage Ritualist (battlefield, command zone); Changeling Berserker (hand); Phyrexian Altar (battlefield)
 Steps: Cast Changeling Berserker by paying {3}{R}.
@@ -6062,7 +6062,7 @@ Steps: Deal combat damage with Lord of Tresserhorn, causing target opponent to g
 
 ## Combo 264-1218
 Cards: Lord of Tresserhorn + Tainted Strike
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 670 | Commander: legal | Mana needed: {B}
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 680 | Commander: legal | Mana needed: {B}
 Produces: Target opponent loses the game
 Start: Lord of Tresserhorn (battlefield); Tainted Strike (hand)
 Prerequisites: Lord of Tresserhorn does not have summoning sickness.
@@ -6430,7 +6430,7 @@ Steps: Declare Delina as an attacker.
 
 ## Combo 282-4636-5159
 Cards: Mishra, Eminent One + Gonti's Aether Heart + Delina, Wild Mage
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 60 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 61 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Mishra, Eminent One (battlefield); Gonti's Aether Heart (battlefield); Delina, Wild Mage (battlefield)
 Prerequisites: Delina does not have summoning sickness.
@@ -7552,6 +7552,46 @@ Steps: Cast Haze of Rage with buyback by paying {R}. Birgi, Haze of Rage's storm
   Resolve all Haze of Rage spells.
   Repeat.
 
+## Combo 392-1170-7498-8282
+Cards: Displacer Kitten + Biblioplex Tomekeeper + Birgi, God of Storytelling // Harnfel, Horn of Bounty + Stingerquill Voxmancer // Vicious Verse
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Produces: Infinite damage to most opponents; Infinite damage; Infinite creature ETB; Infinite creature LTB; Infinite storm count; Infinite magecraft triggers
+Start: Displacer Kitten (battlefield); Biblioplex Tomekeeper (battlefield); Birgi, God of Storytelling // Harnfel, Horn of Bounty (battlefield); Stingerquill Voxmancer // Vicious Verse (battlefield)
+Prerequisites: Stingerquill Voxmancer is prepared.
+Steps: Cast the copy of Vicious Verse by paying {B/R}.
+  Displacer Kitten and Birgi both trigger.
+  Resolve the Birgi trigger, adding {R}.
+  Resolve the Displacer Kitten trigger, blinking Biblioplex Tomekeeper.
+  Biblioplex Tomekeeper's ETB triggers, preparing Stingerquill Voxmancer.
+  Resolve the copy of Vicious Verse, dealing 1 damage to target opponent.
+  Repeat.
+
+## Combo 392-1170-8280
+Cards: Displacer Kitten + Birgi, God of Storytelling // Harnfel, Horn of Bounty + Hallway Heckler // Vicious Verse
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Produces: Infinite damage; Infinite damage to most opponents; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
+Start: Displacer Kitten (battlefield); Birgi, God of Storytelling // Harnfel, Horn of Bounty (battlefield); Hallway Heckler // Vicious Verse (battlefield)
+Prerequisites: Hallway Heckler is prepared.
+Steps: Cast the copy of Vicious Verse by paying {B/R}.
+  Displacer Kitten and Birgi both trigger.
+  Resolve the Birgi trigger, adding {R}.
+  Resolve the Displacer Kitten trigger, blinking and re-preparing Hallway Heckler.
+  Resolve the copy of Vicious Verse, dealing 1 damage to target opponent.
+  Repeat.
+
+## Combo 392-1170-8281
+Cards: Displacer Kitten + Birgi, God of Storytelling // Harnfel, Horn of Bounty + Whiplash Wordsmith // Vicious Verse
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Produces: Infinite damage; Infinite damage to most opponents; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
+Start: Displacer Kitten (battlefield); Birgi, God of Storytelling // Harnfel, Horn of Bounty (battlefield); Whiplash Wordsmith // Vicious Verse (battlefield)
+Prerequisites: Whiplash Wordsmith is prepared.
+Steps: Cast the copy of Vicious Verse by paying {B/R}.
+  Displacer Kitten and Birgi both trigger.
+  Resolve the Birgi trigger, adding {R}.
+  Resolve the Displacer Kitten trigger, blinking and re-preparing Whiplash Wordsmith.
+  Resolve the copy of Vicious Verse, dealing 1 damage to target opponent.
+  Repeat.
+
 ## Combo 392-1235-4867
 Cards: Cormela, Glamour Thief + Birgi, God of Storytelling // Harnfel, Horn of Bounty + Twinflame
 Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 440 | Commander: legal | Mana needed: {1}
@@ -7680,7 +7720,7 @@ Steps: Activate Ashnod's Altar by sacrificing Wretched Throng, adding {C}{C}.
 
 ## Combo 392-2292-3440-4867
 Cards: Cormela, Glamour Thief + Demonic Gifts + Birgi, God of Storytelling // Harnfel, Horn of Bounty + Viscera Seer
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 97 | Commander: legal | Mana needed: {1}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 98 | Commander: legal | Mana needed: {1}
 Produces: Infinite blue mana that can only be spent to cast instant and sorcery spells; Infinite red mana that can only be spent to cast instant and sorcery spells; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite creature sacrifice triggers; Infinite scry 1; Infinite storm count
 Start: Cormela, Glamour Thief (battlefield); Demonic Gifts (hand); Birgi, God of Storytelling // Harnfel, Horn of Bounty (battlefield); Viscera Seer (battlefield)
 Steps: Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can only be spent to cast instant or sorcery spells.
@@ -7737,7 +7777,7 @@ Notes: It is recommended to perform this combo when you have more life than your
 
 ## Combo 392-3440-4867-5147
 Cards: Cormela, Glamour Thief + Demonic Gifts + Birgi, God of Storytelling // Harnfel, Horn of Bounty + Goblin Bombardment
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 75 | Commander: legal | Mana needed: {1}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 76 | Commander: legal | Mana needed: {1}
 Produces: Infinite blue mana that can only be spent to cast instant and sorcery spells; Infinite damage; Infinite red mana that can only be spent to cast instant and sorcery spells; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite creature sacrifice triggers; Infinite storm count
 Start: Cormela, Glamour Thief (battlefield); Demonic Gifts (hand); Birgi, God of Storytelling // Harnfel, Horn of Bounty (battlefield); Goblin Bombardment (battlefield)
 Steps: Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can only be spent to cast instant or sorcery spells.
@@ -7991,7 +8031,7 @@ Steps: Activate Blasting Station by tapping it and sacrificing a creature token.
 
 ## Combo 413-1339-1940
 Cards: The Locust God + Blasting Station + Liliana, Dreadhorde General
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 12 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: The Locust God (battlefield); Blasting Station (battlefield); Liliana, Dreadhorde General (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -9725,7 +9765,7 @@ Steps: Activate Lotus Field by tapping it, adding {U}{U}{U}.
 
 ## Combo 479-1173-1561-3365
 Cards: Triskaidekaphile + Peer into the Abyss + Aeromoeba + Final Fortune
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {4}{B}{B}{B}{R}{R}
+Color identity: UBR | Bracket: 2+ (Core) | Popularity: 0 | Commander: legal | Mana needed: {4}{B}{B}{B}{R}{R}
 Produces: Win the game at the beginning of your next upkeep
 Start: Triskaidekaphile (battlefield); Peer into the Abyss (hand); Aeromoeba (battlefield); Final Fortune (hand)
 Prerequisites: You have at least twenty-six cards in library.
@@ -9739,7 +9779,7 @@ Steps: Cast Peer into the Abyss, drawing at least twelve cards and losing half y
 
 ## Combo 479-1561-2647-3365
 Cards: Triskaidekaphile + Peer into the Abyss + Aeromoeba + Warrior's Oath
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {4}{B}{B}{B}{R}{R}
+Color identity: UBR | Bracket: 2+ (Core) | Popularity: 0 | Commander: legal | Mana needed: {4}{B}{B}{B}{R}{R}
 Produces: Win the game at the beginning of your next upkeep
 Start: Triskaidekaphile (battlefield); Peer into the Abyss (battlefield); Aeromoeba (battlefield); Warrior's Oath (hand)
 Prerequisites: Final Fortune in hand.You have at least twenty-six cards in library.
@@ -9753,7 +9793,7 @@ Steps: Cast Peer into the Abyss, drawing at least twelve cards and losing half y
 
 ## Combo 479-1561-2697-3365
 Cards: Triskaidekaphile + Peer into the Abyss + Aeromoeba + Last Chance
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {4}{B}{B}{B}{R}{R}
+Color identity: UBR | Bracket: 2+ (Core) | Popularity: 0 | Commander: legal | Mana needed: {4}{B}{B}{B}{R}{R}
 Produces: Win the game at the beginning of your next upkeep
 Start: Triskaidekaphile (battlefield); Peer into the Abyss (hand); Aeromoeba (battlefield); Last Chance (hand)
 Prerequisites: You have at least twenty-six cards in library.
@@ -10249,7 +10289,7 @@ Steps: Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can 
 
 ## Combo 500-2104-4867
 Cards: Cormela, Glamour Thief + Saw in Half + Temporal Manipulation
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 67 | Commander: legal | Mana needed: {5}{U} each turn
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 66 | Commander: legal | Mana needed: {5}{U} each turn
 Produces: Infinite turns; Lock
 Start: Cormela, Glamour Thief (battlefield); Saw in Half (hand); Temporal Manipulation (hand)
 Steps: Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can only be spent to cast instant or sorcery spells.
@@ -12077,7 +12117,7 @@ Steps: Declare Fire Lord Azula as an attacker, triggering its firebending abilit
 
 ## Combo 624-784-3327-3719
 Cards: Dargo, the Shipwrecker + Silas Renn, Seeker Adept + Ruthless Technomancer + Phantasmal Image
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 77 | Commander: legal | Mana needed: {2}{B}{R}
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 76 | Commander: legal | Mana needed: {2}{B}{R}
 Produces: Infinite colored mana; Infinite Treasure tokens; Infinite artifact tokens; Infinite commander casts; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count; Return all creature cards from your graveyard to the battlefield
 Start: Dargo, the Shipwrecker (command zone: must be your commander); Silas Renn, Seeker Adept (hand, battlefield, command zone, exile, graveyard, library: must be your commander); Ruthless Technomancer (battlefield); Phantasmal Image (battlefield)
 Prerequisites: Dargo and Silas Renn are your commanders.
@@ -14548,7 +14588,7 @@ Steps: Activate Grimgrin by sacrificing a creature token.
 
 ## Combo 728-1339-1940
 Cards: The Locust God + Grimgrin, Corpse-Born + Liliana, Dreadhorde General
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 22 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: The Locust God (battlefield); Grimgrin, Corpse-Born (battlefield); Liliana, Dreadhorde General (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -14656,7 +14696,7 @@ Steps: Activate Grimgrin by sacrificing the persist creature.
 
 ## Combo 728-1940-6249--5
 Cards: Olivia, Mobilized for War + Grimgrin, Corpse-Born + Liliana, Dreadhorde General
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 5 | Commander: legal
 Produces: Infinite looting; Near-infinite +1/+1 counters on a creature; Infinite draw triggers; Infinite self-discard triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Requires: Persist Creature (battlefield: without a -1/-1 counter on it)
 Start: Olivia, Mobilized for War (battlefield); Grimgrin, Corpse-Born (battlefield); Liliana, Dreadhorde General (battlefield)
@@ -16604,7 +16644,7 @@ Steps: Cast Burnt Offering by paying {B} and sacrificing Scholar of the Ages, ad
 
 ## Combo 813-1777-3085
 Cards: Scholar of the Ages + Burnt Offering + Zombify
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal | Mana needed: {B}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal | Mana needed: {B}
 Produces: Infinite black mana; Infinite creature sacrifice triggers; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count; Return all instant and sorcery cards from your graveyard to your hand
 Start: Scholar of the Ages (battlefield); Burnt Offering (hand); Zombify (hand)
 Steps: Cast Burnt Offering by paying {B} and sacrificing Scholar of the Ages, adding seven mana in any combination of {B} and/or {R}.
@@ -18122,7 +18162,7 @@ Steps: Cast Time Stretch getting an extra turn after this one.
 
 ## Combo 957-3976
 Cards: Magar of the Magic Strings + Time Stretch
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 38 | Commander: legal | Mana needed: {9}{U}{U}{B}{R}
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 39 | Commander: legal | Mana needed: {9}{U}{U}{B}{R}
 Produces: Infinite turns; Lock
 Start: Magar of the Magic Strings (battlefield); Time Stretch (hand)
 Prerequisites: An opponent is unable to block and kill creatures you control.
@@ -18349,7 +18389,7 @@ Steps: Activate Woe Strider by sacrificing a creature token.
 
 ## Combo 997-1339-1940
 Cards: The Locust God + Woe Strider + Liliana, Dreadhorde General
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 57 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 57 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: The Locust God (battlefield); Woe Strider (battlefield); Liliana, Dreadhorde General (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -19446,7 +19486,7 @@ Steps: At the beginning of your upkeep, Maralen triggers, causing you to lose 3 
 
 ## Combo 1061-4844-5350
 Cards: Admiral Brass, Unsinkable + Cellar Door + Timestream Navigator
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 38 | Commander: legal | Mana needed: {5}{U}{U} each turn
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 39 | Commander: legal | Mana needed: {5}{U}{U} each turn
 Produces: Infinite turns; Lock
 Start: Admiral Brass, Unsinkable (battlefield); Cellar Door (battlefield); Timestream Navigator (graveyard)
 Prerequisites: You have the city's blessing and/or control at least nine permanents.
@@ -19458,7 +19498,7 @@ Steps: At the beginning of your combat phase, Admiral Brass triggers, returning 
 
 ## Combo 1077-1972-4691
 Cards: Nekusar, the Mindrazer + Vilis, Broker of Blood + Wrong Turn
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 13 | Commander: legal | Mana needed: {2}{U}
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 14 | Commander: legal | Mana needed: {2}{U}
 Produces: Infinite card draw for target opponent; Target opponent loses the game; Near-infinite damage to one opponent; Infinite draw triggers for target opponent
 Start: Nekusar, the Mindrazer (battlefield); Vilis, Broker of Blood (battlefield); Wrong Turn (hand)
 Steps: Cast Wrong Turn by paying {2}{U}, giving control of Vilis to an opponent.
@@ -19695,7 +19735,7 @@ Steps: Cast Junk Diver by paying {0}.
 
 ## Combo 1124-2034-3323-4356
 Cards: Tevesh Szat, Doom of Fools + The Chain Veil + Ashnod's Altar + Ral Zarek
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
+Color identity: UBR | Bracket: 2+ (Core) | Popularity: 3 | Commander: legal
 Produces: Infinite activations of most planeswalkers; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Tevesh Szat, Doom of Fools (battlefield); The Chain Veil (battlefield); Ashnod's Altar (battlefield); Ral Zarek (battlefield)
 Steps: Activate Tevesh Szat's first loyalty ability by putting three loyalty counters on it, creating two 0/1 Thrull creature tokens.
@@ -20200,6 +20240,103 @@ Steps: Cast Dark Ritual by paying {B}.
   Resolve Frantic Search, causing you to loot twice and untap up to three lands.
   Repeat.
 
+## Combo 1170-2633-7498-8282
+Cards: Displacer Kitten + Biblioplex Tomekeeper + Urabrask // The Great Work + Stingerquill Voxmancer // Vicious Verse
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Produces: Infinite damage; Infinite damage to most opponents; Infinite creature ETB; Infinite creature LTB; Infinite storm count; Infinite magecraft triggers
+Start: Displacer Kitten (battlefield); Biblioplex Tomekeeper (battlefield); Urabrask // The Great Work (battlefield); Stingerquill Voxmancer // Vicious Verse (battlefield)
+Prerequisites: Stingerquill Voxmancer is prepared.
+Steps: Cast the copy of Vicious Verse by paying {B/R}.
+  Displacer Kitten and Urabrask both trigger.
+  Resolve the Urabrask trigger, adding {R} and dealing 1 damage to target opponent.
+  Resolve the Displacer Kitten trigger, blinking Biblioplex Tomekeeper
+  Biblioplex Tomekeeper's ETB triggers, preparing Stingerquill Voxmancer.
+  Resolve the copy of Vicious Verse, dealing 1 damage to target opponent.
+  Repeat.
+
+## Combo 1170-2633-8280
+Cards: Displacer Kitten + Urabrask // The Great Work + Hallway Heckler // Vicious Verse
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Produces: Infinite damage; Infinite damage to most opponents; Infinite creature ETB; Infinite creature LTB; Infinite storm count; Infinite magecraft triggers
+Start: Displacer Kitten (battlefield); Urabrask // The Great Work (battlefield); Hallway Heckler // Vicious Verse (battlefield)
+Prerequisites: Hallway Heckler is prepared.
+Steps: Cast the copy of Vicious Verse by paying {B/R}.
+  Displacer Kitten and Urabrask both trigger.
+  Resolve the Urabrask trigger, adding {R} and dealing 1 damage to target opponent.
+  Resolve the Displacer Kitten trigger, blinking and re-preparing Hallway Heckler.
+  Resolve the copy of Vicious Verse, dealing 1 damage to target opponent.
+  Repeat.
+
+## Combo 1170-2633-8281
+Cards: Displacer Kitten + Urabrask // The Great Work + Whiplash Wordsmith // Vicious Verse
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Produces: Infinite damage; Infinite damage to most opponents; Infinite creature ETB; Infinite creature LTB; Infinite storm count; Infinite magecraft triggers
+Start: Displacer Kitten (battlefield); Urabrask // The Great Work (battlefield); Whiplash Wordsmith // Vicious Verse (battlefield)
+Prerequisites: Whiplash Wordsmith is prepared.
+Steps: Cast the copy of Vicious Verse by paying {B/R}.
+  Displacer Kitten and Urabrask both trigger.
+  Resolve the Urabrask trigger, adding {R} and dealing 1 damage to target opponent.
+  Resolve the Displacer Kitten trigger, blinking and re-preparing Whiplash Wordsmith.
+  Resolve the copy of Vicious Verse, dealing 1 damage to target opponent.
+  Repeat.
+
+## Combo 1170-3101-7498-8282
+Cards: Displacer Kitten + Runaway Steam-Kin + Biblioplex Tomekeeper + Stingerquill Voxmancer // Vicious Verse
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {R}{R}{R}
+Produces: Infinite damage to most opponents; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
+Start: Displacer Kitten (battlefield); Runaway Steam-Kin (battlefield); Biblioplex Tomekeeper (battlefield); Stingerquill Voxmancer // Vicious Verse (battlefield)
+Steps: Cast a copy of Vicious Verse from exile by paying {R}, unpreparing Stingerquill Voxmancer.
+  Displacer Kitten and Runaway Steam-Kin both trigger.
+  Resolve the Displacer Kitten trigger, blinking Biblioplex Tomekeeper.
+  When Biblioplex Tomekeeper enters, it triggers, preparing Stingerquill Voxmancer.
+  Resolve the Runaway Steam-Kin trigger, putting a +1/+1 counter on it.
+  Resolve the spell from Step 1.
+  Repeat twice.
+  Remove three +1/+1 counters from Runaway Steam-Kin, adding {R}{R}{R}.
+  Repeat.
+
+## Combo 1170-3101-8280
+Cards: Displacer Kitten + Runaway Steam-Kin + Hallway Heckler // Vicious Verse
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {R}{R}{R}
+Produces: Infinite damage to most opponents; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
+Start: Displacer Kitten (battlefield); Runaway Steam-Kin (battlefield); Hallway Heckler // Vicious Verse (battlefield)
+Steps: Cast a copy of Vicious Verse from exile by paying {R}, unpreparing Hallway Heckler.
+  Displacer Kitten and Runaway Steam-Kin both trigger.
+  Resolve the Displacer Kitten trigger, blinking Hallway Heckler and causing it to enter prepared.
+  Resolve the Runaway Steam-Kin trigger, putting a +1/+1 counter on it.
+  Resolve the spell from Step 1.
+  Repeat twice.
+  Remove three +1/+1 counters from Runaway Steam-Kin, adding {R}{R}{R}.
+  Repeat.
+
+## Combo 1170-3101-8281
+Cards: Displacer Kitten + Runaway Steam-Kin + Whiplash Wordsmith // Vicious Verse
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {R}{R}{R}
+Produces: Infinite damage to most opponents; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
+Start: Displacer Kitten (battlefield); Runaway Steam-Kin (battlefield); Whiplash Wordsmith // Vicious Verse (battlefield)
+Steps: Cast a copy of Vicious Verse from exile by paying {R}, unpreparing Whiplash Wordsmith.
+  Displacer Kitten and Runaway Steam-Kin both trigger.
+  Resolve the Displacer Kitten trigger, blinking Whiplash Wordsmith and causing it to enter prepared.
+  Resolve the Runaway Steam-Kin trigger, putting a +1/+1 counter on it.
+  Resolve the spell from Step 1.
+  Repeat twice.
+  Remove three +1/+1 counters from Runaway Steam-Kin, adding {R}{R}{R}.
+  Repeat.
+
+## Combo 1170-5195-7498-8282
+Cards: Displacer Kitten + Biblioplex Tomekeeper + Storm-Kiln Artist + Stingerquill Voxmancer // Vicious Verse
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Produces: Infinite damage to most opponents; Infinite damage; Infinite artifact ETB; Infinite creature ETB; Infinite creature LTB; Infinite storm count; Infinite artifact LTB; Infinite magecraft triggers
+Start: Displacer Kitten (battlefield); Biblioplex Tomekeeper (battlefield); Storm-Kiln Artist (battlefield); Stingerquill Voxmancer // Vicious Verse (battlefield)
+Prerequisites: Stingerquill Voxmancer is prepared.
+Steps: Cast the copy of Vicious Verse by paying {B/R}.
+  Displacer Kitten and Storm-Kiln Artist both trigger.
+  Resolve the Storm-Kiln Artist trigger, creating a Treasure token.
+  Resolve the Displacer Kitten trigger, blinking Biblioplex Tomekeeper.
+  Biblioplex Tomekeeper's ETB triggers, preparing Stingerquill Voxmancer.
+  Resolve the copy of Vicious Verse, dealing 1 damage to target opponent.
+  Repeat, sacrificing Treasures as necessary to pay for the spell.
+
 ## Combo 1170-5195-7516
 Cards: Displacer Kitten + Storm-Kiln Artist + Adventurous Eater // Have a Bite
 Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 140 | Commander: legal | Mana needed: {B}
@@ -20213,6 +20350,86 @@ Steps: Cast a copy of the prepared spell from exile by paying one mana, unprepar
   Activate the Treasure token by tapping and sacrificing it, adding one mana.
   Repeat.
 
+## Combo 1170-5195-8280
+Cards: Displacer Kitten + Storm-Kiln Artist + Hallway Heckler // Vicious Verse
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Produces: Infinite damage; Infinite damage to most opponents; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
+Start: Displacer Kitten (battlefield); Storm-Kiln Artist (battlefield); Hallway Heckler // Vicious Verse (battlefield)
+Prerequisites: Hallway Heckler is prepared.
+Steps: Cast the copy of Vicious Verse by paying {B/R}.
+  Displacer Kitten and Storm-Kiln Artist both trigger.
+  Resolve the Storm-Kiln Artist trigger, creating a Treasure token.
+  Resolve the Displacer Kitten trigger, blinking and re-preparing Hallway Heckler.
+  Resolve the copy of Vicious Verse, dealing 1 damage to target opponent.
+  Repeat, sacrificing Treasures as necessary to cast the spell.
+
+## Combo 1170-5195-8281
+Cards: Displacer Kitten + Storm-Kiln Artist + Whiplash Wordsmith // Vicious Verse
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Produces: Infinite damage; Infinite damage to most opponents; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
+Start: Displacer Kitten (battlefield); Storm-Kiln Artist (battlefield); Whiplash Wordsmith // Vicious Verse (battlefield)
+Prerequisites: Whiplash Wordsmith is prepared.
+Steps: Cast the copy of Vicious Verse by paying {B/R}.
+  Displacer Kitten and Storm-Kiln Artist both trigger.
+  Resolve the Storm-Kiln Artist trigger, creating a Treasure token.
+  Resolve the Displacer Kitten trigger, blinking Whiplash Wordsmith and re-preparing Whiplash Wordsmith.
+  Resolve the copy of Vicious Verse, dealing 1 damage to target opponent.
+  Repeat, sacrificing Treasures as necessary to cast the spell.
+
+## Combo 1170-6898-7498-8282
+Cards: Displacer Kitten + Biblioplex Tomekeeper + Electro, Assaulting Battery + Stingerquill Voxmancer // Vicious Verse
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Produces: Infinite damage to most opponents; Infinite damage; Infinite creature ETB; Infinite creature LTB; Infinite storm count; Infinite magecraft triggers
+Start: Displacer Kitten (battlefield); Biblioplex Tomekeeper (battlefield); Electro, Assaulting Battery (battlefield); Stingerquill Voxmancer // Vicious Verse (battlefield)
+Prerequisites: Stingerquill Voxmancer is prepared.
+Steps: Cast the copy of Vicious Verse by paying {B/R}.
+  Displacer Kitten and Electro both trigger.
+  Resolve the Electro trigger, adding {R}.
+  Resolve the Displacer Kitten trigger, blinking Biblioplex Tomekeeper.
+  Biblioplex Tomekeeper's ETB triggers, preparing Stingerquill Voxmancer.
+  Resolve the copy of Vicious Verse, dealing 1 damage to target opponent.
+  Repeat.
+
+## Combo 1170-6898-8280
+Cards: Displacer Kitten + Electro, Assaulting Battery + Hallway Heckler // Vicious Verse
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Produces: Infinite damage; Infinite damage to most opponents; Infinite creature ETB; Infinite creature LTB; Infinite storm count; Infinite magecraft triggers
+Start: Displacer Kitten (battlefield); Electro, Assaulting Battery (battlefield); Hallway Heckler // Vicious Verse (battlefield)
+Prerequisites: Hallway Heckler is prepared.
+Steps: Cast the copy of Vicious Verse by paying {B/R}.
+  Displacer Kitten and Electro both trigger.
+  Resolve the Electro trigger, adding {R}.
+  Resolve the Displacer Kitten trigger, blinking and re-preparing Hallway Heckler.
+  Resolve the copy of Vicious Verse, dealing 1 damage to target opponent.
+  Repeat.
+
+## Combo 1170-6898-8281
+Cards: Displacer Kitten + Electro, Assaulting Battery + Whiplash Wordsmith // Vicious Verse
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Produces: Infinite damage; Infinite damage to most opponents; Infinite creature ETB; Infinite creature LTB; Infinite storm count; Infinite magecraft triggers
+Start: Displacer Kitten (battlefield); Electro, Assaulting Battery (battlefield); Whiplash Wordsmith // Vicious Verse (battlefield)
+Prerequisites: Whiplash Wordsmith is prepared.
+Steps: Cast the copy of Vicious Verse by paying {B/R}.
+  Displacer Kitten and Electro both trigger.
+  Resolve the Electro trigger, adding {R}.
+  Resolve the Displacer Kitten trigger, blinking and re-preparing Whiplash Wordsmith.
+  Resolve the copy of Vicious Verse, dealing 1 damage to target opponent.
+  Repeat.
+
+## Combo 1170-7498-7729-8282
+Cards: Displacer Kitten + Biblioplex Tomekeeper + The Vision and Scarlet Witch + Stingerquill Voxmancer // Vicious Verse
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Produces: Infinite damage to most opponents; Infinite damage; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite storm count; Infinite magecraft triggers
+Start: Displacer Kitten (battlefield); Biblioplex Tomekeeper (battlefield); The Vision and Scarlet Witch (battlefield); Stingerquill Voxmancer // Vicious Verse (battlefield)
+Prerequisites: Stingerquill Voxmancer is prepared.
+Steps: Cast the copy of Vicious Verse by paying {B/R}.
+  Displacer Kitten and The Vision and Scarlet Witch both trigger.
+  Resolve the The Vision and Scarlet Witch trigger, putting a +1/+1 counter on it and adding {R}.
+  Resolve the Displacer Kitten trigger, blinking Biblioplex Tomekeeper.
+  Biblioplex Tomekeeper's ETB triggers, preparing Stingerquill Voxmancer.
+  Resolve the copy of Vicious Verse, dealing 1 damage to target opponent.
+  Repeat.
+
 ## Combo 1170-7516-7875
 Cards: Displacer Kitten + Adventurous Eater // Have a Bite + Party Thrasher
 Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 46 | Commander: legal | Mana needed: {B}
@@ -20222,6 +20439,32 @@ Prerequisites: Have a Bite must have valid targets.
 Steps: Cast Have a Bite using the convoke ability from Party Thrasher by tapping Adventurous Eater.
   Displacer Kitten triggers, blinking Adventurous Eater, which enters prepared.
   Resolve Have a Bite.
+  Repeat.
+
+## Combo 1170-7729-8280
+Cards: Displacer Kitten + The Vision and Scarlet Witch + Hallway Heckler // Vicious Verse
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Produces: Infinite damage; Infinite damage to most opponents; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite storm count; Infinite magecraft triggers
+Start: Displacer Kitten (battlefield); The Vision and Scarlet Witch (battlefield); Hallway Heckler // Vicious Verse (battlefield)
+Prerequisites: Hallway Heckler is prepared.
+Steps: Cast the copy of Vicious Verse by paying {B/R}.
+  Displacer Kitten and The Vision and Scarlet Witch both trigger.
+  Resolve the The Vision and Scarlet Witch trigger, putting a +1/+1 counter on it and adding {R}.
+  Resolve the Displacer Kitten trigger, blinking and re-preparing Hallway Heckler.
+  Resolve the copy of Vicious Verse, dealing 1 damage to target opponent.
+  Repeat.
+
+## Combo 1170-7729-8281
+Cards: Displacer Kitten + The Vision and Scarlet Witch + Whiplash Wordsmith // Vicious Verse
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Produces: Infinite damage; Infinite damage to most opponents; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite storm count; Infinite magecraft triggers
+Start: Displacer Kitten (battlefield); The Vision and Scarlet Witch (battlefield); Whiplash Wordsmith // Vicious Verse (battlefield)
+Prerequisites: Whiplash Wordsmith is prepared.
+Steps: Cast the copy of Vicious Verse by paying {B/R}.
+  Displacer Kitten and The Vision and Scarlet Witch both trigger.
+  Resolve the The Vision and Scarlet Witch trigger, putting a +1/+1 counter on it and adding {R}.
+  Resolve the Displacer Kitten trigger, blinking and re-preparing Whiplash Wordsmith.
+  Resolve the copy of Vicious Verse, dealing 1 damage to target opponent.
   Repeat.
 
 ## Combo 1173-3787-3976
@@ -21350,7 +21593,7 @@ Steps: Activate Sinister Starfish by tapping it, causing you to surveil 1.
 
 ## Combo 1339-1679
 Cards: The Locust God + Dire Undercurrents
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 51 | Commander: legal
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 50 | Commander: legal
 Produces: Infinite card draw; Near-infinite creature tokens with haste; Infinite draw triggers; Near-infinite creature ETB
 Start: The Locust God (battlefield); Dire Undercurrents (battlefield)
 Prerequisites: You have a way to draw a card.
@@ -22231,7 +22474,7 @@ Steps: Activate Altar of Dementia by sacrificing an Insect.
 
 ## Combo 1339-1940-2034
 Cards: The Locust God + Liliana, Dreadhorde General + Ashnod's Altar
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 200 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 200 | Commander: legal
 Produces: Near-infinite lifegain; Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers
 Start: The Locust God (battlefield); Liliana, Dreadhorde General (battlefield); Ashnod's Altar (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -22242,7 +22485,7 @@ Steps: Activate Ashnod's Altar by sacrificing another creature.
 
 ## Combo 1339-1940-2292
 Cards: The Locust God + Liliana, Dreadhorde General + Viscera Seer
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 150 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 150 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: The Locust God (battlefield); Liliana, Dreadhorde General (battlefield); Viscera Seer (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -22254,7 +22497,7 @@ Steps: Activate Viscera Seer by sacrificing another creature.
 
 ## Combo 1339-1940-2438
 Cards: The Locust God + Liliana, Dreadhorde General + Carrion Feeder
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 140 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 140 | Commander: legal
 Produces: Near-infinite colorless mana; Near-infinite lifegain; Infinite card draw; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers
 Start: The Locust God (battlefield); Liliana, Dreadhorde General (battlefield); Carrion Feeder (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -22266,7 +22509,7 @@ Steps: Activate Carrion Feeder by sacrificing another creature.
 
 ## Combo 1339-1940-2511
 Cards: The Locust God + Liliana, Dreadhorde General + Bloodflow Connoisseur
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 2 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: The Locust God (battlefield); Liliana, Dreadhorde General (battlefield); Bloodflow Connoisseur (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -22278,7 +22521,7 @@ Steps: Activate Bloodflow Connoisseur by sacrificing another creature.
 
 ## Combo 1339-1940-2899
 Cards: The Locust God + Liliana, Dreadhorde General + Kaervek, the Spiteful
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB
 Start: The Locust God (battlefield); Liliana, Dreadhorde General (battlefield); Kaervek, the Spiteful (battlefield)
 Prerequisites: You have a way to draw a card.
@@ -22290,7 +22533,7 @@ Steps: Draw a card.
 
 ## Combo 1339-1940-3899
 Cards: The Locust God + Liliana, Dreadhorde General + Spawning Pit
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 26 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: The Locust God (battlefield); Liliana, Dreadhorde General (battlefield); Spawning Pit (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -22302,7 +22545,7 @@ Steps: Activate Spawning Pit by sacrificing another creature.
 
 ## Combo 1339-1940-3967
 Cards: The Locust God + Liliana, Dreadhorde General + Yahenni, Undying Partisan
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 36 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: The Locust God (battlefield); Liliana, Dreadhorde General (battlefield); Yahenni, Undying Partisan (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -22314,7 +22557,7 @@ Steps: Activate Yahenni by sacrificing another creature.
 
 ## Combo 1339-1940-3983
 Cards: The Locust God + Liliana, Dreadhorde General + Night of Souls' Betrayal
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB
 Start: The Locust God (battlefield); Liliana, Dreadhorde General (battlefield); Night of Souls' Betrayal (battlefield)
 Prerequisites: You have a way to draw a card.
@@ -22326,7 +22569,7 @@ Steps: Draw a card.
 
 ## Combo 1339-1940-4050
 Cards: The Locust God + Liliana, Dreadhorde General + Phyrexian Altar
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 160 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 160 | Commander: legal
 Produces: Near-infinite colorless mana; Near-infinite lifegain; Infinite card draw; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers
 Start: The Locust God (battlefield); Liliana, Dreadhorde General (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -22337,7 +22580,7 @@ Steps: Activate Phyrexian Altar by sacrificing another creature.
 
 ## Combo 1339-1940-4247
 Cards: The Locust God + Liliana, Dreadhorde General + Bloodthrone Vampire
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 1 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: The Locust God (battlefield); Liliana, Dreadhorde General (battlefield); Bloodthrone Vampire (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -22349,7 +22592,7 @@ Steps: Activate Bloodthrone Vampire by sacrificing another creature.
 
 ## Combo 1339-1940-5147
 Cards: The Locust God + Liliana, Dreadhorde General + Goblin Bombardment
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 150 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 150 | Commander: legal
 Produces: Near-infinite colorless mana; Near-infinite lifegain; Infinite card draw; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers
 Start: The Locust God (battlefield); Liliana, Dreadhorde General (battlefield); Goblin Bombardment (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -22361,7 +22604,7 @@ Steps: Activate Goblin Bombardment by sacrificing another creature.
 
 ## Combo 1339-1940-5231
 Cards: The Locust God + Liliana, Dreadhorde General + Thermopod
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 3 | Commander: legal
 Produces: Near-infinite colorless mana; Near-infinite lifegain; Infinite card draw; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers
 Start: The Locust God (battlefield); Liliana, Dreadhorde General (battlefield); Thermopod (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -22372,7 +22615,7 @@ Steps: Activate Thermopod by sacrificing another creature.
 
 ## Combo 1339-1940-5256
 Cards: The Locust God + Liliana, Dreadhorde General + Altar of Dementia
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 28 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 28 | Commander: legal
 Produces: Near-infinite colorless mana; Near-infinite lifegain; Infinite card draw; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers
 Start: The Locust God (battlefield); Liliana, Dreadhorde General (battlefield); Altar of Dementia (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -22384,7 +22627,7 @@ Steps: Activate Altar of Dementia by sacrificing another creature.
 
 ## Combo 1339-1940-6495
 Cards: The Locust God + Liliana, Dreadhorde General + Evereth, Viceroy of Plunder
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 3 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: The Locust God (battlefield); Liliana, Dreadhorde General (battlefield); Evereth, Viceroy of Plunder (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -22396,7 +22639,7 @@ Steps: Activate Evereth by sacrificing another creature.
 
 ## Combo 1339-1940-6797
 Cards: The Locust God + Liliana, Dreadhorde General + Phantom Train
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: The Locust God (battlefield); Liliana, Dreadhorde General (battlefield); Phantom Train (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -22408,7 +22651,7 @@ Steps: Activate Phantom Train by sacrificing another creature.
 
 ## Combo 1339-1940-6798
 Cards: The Locust God + Liliana, Dreadhorde General + Umbral Collar Zealot
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 32 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 32 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: The Locust God (battlefield); Liliana, Dreadhorde General (battlefield); Umbral Collar Zealot (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -22420,7 +22663,7 @@ Steps: Activate Umbral Collar Zealot by sacrificing another creature.
 
 ## Combo 1339-1940-8095
 Cards: The Locust God + Liliana, Dreadhorde General + Hammerhead, Maggia Boss
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 1 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: The Locust God (battlefield); Liliana, Dreadhorde General (battlefield); Hammerhead, Maggia Boss (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -22740,7 +22983,7 @@ Steps: Activate Carrion Feeder by sacrificing another creature with haste or fla
 
 ## Combo 1339-2438-7920
 Cards: The Locust God + Carrion Feeder + Tresserhorn's Lord, Returned
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 190 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 200 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: The Locust God (battlefield); Carrion Feeder (battlefield); Tresserhorn's Lord, Returned (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -23021,7 +23264,7 @@ Steps: Activate Phyrexian Altar by sacrificing another creature with haste or fl
 
 ## Combo 1339-4050-7920
 Cards: The Locust God + Phyrexian Altar + Tresserhorn's Lord, Returned
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 180 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 190 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: The Locust God (battlefield); Phyrexian Altar (battlefield); Tresserhorn's Lord, Returned (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -23084,7 +23327,7 @@ Steps: Activate Yawgmoth's first ability by paying 1 life and sacrificing anothe
 
 ## Combo 1339-4279-6578
 Cards: Yawgmoth, Thran Physician + The Locust God + Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal
 Produces: Infinite card draw; Near-infinite lifeloss; Near-infinite lifegain triggers; Near-infinite creature ETB; Infinite draw triggers; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers; Near-infinite -1/-1 counters
 Start: Yawgmoth, Thran Physician (battlefield); The Locust God (battlefield); Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel (battlefield)
 Prerequisites: Your life total is at least 2.
@@ -23342,7 +23585,7 @@ Steps: Cast Mistbind Clique by paying {3}{U}.
 
 ## Combo 1352-1869-4050
 Cards: Inalla, Archmage Ritualist + Mistbind Clique + Phyrexian Altar
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal | Mana needed: {4}{U}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 71 | Commander: legal | Mana needed: {4}{U}
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Inalla, Archmage Ritualist (battlefield, command zone); Mistbind Clique (hand); Phyrexian Altar (battlefield)
 Steps: Cast Mistbind Clique by paying {3}{U}.
@@ -24429,7 +24672,7 @@ Steps: Activate Bloodflow Connoisseur by sacrificing Lesser Masticore.
 
 ## Combo 1429-2511-6792
 Cards: Lesser Masticore + Bloodflow Connoisseur + Mm'menon, Uthros Exile
-Color identity: UBR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
+Color identity: UBR | Bracket: 2-3+ (Oddball) | Popularity: 1 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Lesser Masticore (battlefield: without a -1/-1 counter on it); Bloodflow Connoisseur (battlefield); Mm'menon, Uthros Exile (battlefield)
 Steps: Activate Bloodflow Connoisseur by sacrificing Lesser Masticore.
@@ -24507,7 +24750,7 @@ Steps: Activate Yahenni by sacrificing Lesser Masticore.
 
 ## Combo 1429-3967-6792
 Cards: Lesser Masticore + Yahenni, Undying Partisan + Mm'menon, Uthros Exile
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Lesser Masticore (battlefield: without a -1/-1 counter on it); Yahenni, Undying Partisan (battlefield); Mm'menon, Uthros Exile (battlefield)
 Steps: Activate Yahenni by sacrificing Lesser Masticore.
@@ -24663,7 +24906,7 @@ Steps: Activate Umbral Collar Zealot by sacrificing Lesser Masticore.
 
 ## Combo 1429-6792-6797
 Cards: Lesser Masticore + Mm'menon, Uthros Exile + Phantom Train
-Color identity: UBR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
+Color identity: UBR | Bracket: 2-3+ (Oddball) | Popularity: 1 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Lesser Masticore (battlefield: without a -1/-1 counter on it); Mm'menon, Uthros Exile (battlefield); Phantom Train (battlefield)
 Steps: Activate Phantom Train by sacrificing Lesser Masticore.
@@ -25126,7 +25369,7 @@ Steps: Activate Tidewater Minion by tapping it, targeting itself.
 
 ## Combo 1494-2527-3784-4275-6495
 Cards: Vhal, Candlekeep Researcher + Haunted One + Faces of the Past + Sage of Hours + Evereth, Viceroy of Plunder
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: UBR | Bracket: 2+ (Core) | Popularity: 0 | Commander: legal
 Produces: Infinite damage; Infinite +1/+1 counters on a creature; Infinite colorless mana that can't be spent to cast spells from your hand; Infinite power for certain creatures until end of turn; Infinite untap of all Humans; Infinite untap of all Wizards; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Vhal, Candlekeep Researcher (battlefield: must be your commander); Haunted One (battlefield); Faces of the Past (battlefield); Sage of Hours (battlefield); Evereth, Viceroy of Plunder (battlefield)
 Steps: Activate Vhal by tapping it, adding an amount of {C} equal to Vhal's toughness that cannot be spent to cast spells from your hand.
@@ -25257,7 +25500,7 @@ Steps: Cast Retraction Helix by paying {U}, targeting Rona.
 
 ## Combo 1558-1721-3210
 Cards: Scrap Mastery + Codex Shredder + Time Sieve
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 28 | Commander: legal | Mana needed: {8}{R}{R} each turn
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 27 | Commander: legal | Mana needed: {8}{R}{R} each turn
 Produces: Infinite turns; Lock
 Start: Scrap Mastery (graveyard); Codex Shredder (battlefield); Time Sieve (battlefield)
 Prerequisites: You control at least four additional nontoken artifacts.
@@ -25329,7 +25572,7 @@ Steps: Attack with Hoard Robber.
 
 ## Combo 1558-3888
 Cards: Olivia's Attendants + Time Sieve
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 38 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 39 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Olivia's Attendants (battlefield); Time Sieve (battlefield)
 Prerequisites: Olivia's Attendants does not have summoning sickness.
@@ -25467,7 +25710,7 @@ Steps: Declare any creature as an attacker. Dawnsire triggers, dealing 100 damag
 
 ## Combo 1558-7748
 Cards: Ant-Man, Elusive Avenger + Time Sieve
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 15 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 16 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Ant-Man, Elusive Avenger (battlefield: with power 5 or greater); Time Sieve (battlefield)
 Prerequisites: An opponent cannot block Ant-Man.
@@ -26229,7 +26472,7 @@ Steps: Activate Audacious Reshapers by tapping it and sacrificing Anodet Lurker.
 
 ## Combo 1636-2034-4319-4424
 Cards: Missy + Skirk Alarmist + Intruder Alarm + Ashnod's Altar
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal
 Produces: Infinite colorless mana; Infinite mana creatures you control can produce; Infinite untap of creatures; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Missy (battlefield); Skirk Alarmist (battlefield); Intruder Alarm (battlefield); Ashnod's Altar (battlefield)
 Prerequisites: You control another nontoken nonartifact creature.
@@ -26421,7 +26664,7 @@ Steps: Activate Altar of Dementia by sacrificing another nontoken nonartifact cr
 
 ## Combo 1636-5147-6095
 Cards: Zul Ashur, Lich Lord + Intruder Alarm + Goblin Bombardment
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
 Produces: Infinite damage; Infinite mana creatures you control can produce; Infinite untap of creatures; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Zul Ashur, Lich Lord (battlefield); Intruder Alarm (battlefield); Goblin Bombardment (battlefield)
 Prerequisites: You have a Zombie creature card in your graveyard.
@@ -26689,7 +26932,7 @@ Steps: Activate a Treasure token by tapping and sacrificing it, adding one mana 
 
 ## Combo 1678-4508-4875
 Cards: Malcolm, Keen-Eyed Navigator + Conspiracy + Mayhem Devil
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 59 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal
 Produces: Infinite colored mana; Infinite damage
 Start: Malcolm, Keen-Eyed Navigator (battlefield); Conspiracy (battlefield); Mayhem Devil (battlefield)
 Prerequisites: You control at least one Treasure token.
@@ -26765,7 +27008,7 @@ Steps: Activate Thermopod by sacrificing a creature token, adding {R}.
 
 ## Combo 1722-1940-5231
 Cards: Nadir Kraken + Liliana, Dreadhorde General + Thermopod
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 1 | Commander: legal
 Produces: Infinite card draw; Near-infinite +1/+1 counters on a creature; Infinite draw triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers
 Start: Nadir Kraken (battlefield); Liliana, Dreadhorde General (battlefield); Thermopod (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -27569,7 +27812,7 @@ Steps: Cast Sandbar Merfolk either from your hand or from your graveyard by payi
 
 ## Combo 1869-2034-2120
 Cards: Inalla, Archmage Ritualist + Ashnod's Altar + Wanderwine Prophets
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 700 | Commander: legal | Mana needed: {5}{U}{U}
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 710 | Commander: legal | Mana needed: {5}{U}{U}
 Produces: Infinite colorless mana; Infinite combat damage; Infinite turns; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Lock
 Start: Inalla, Archmage Ritualist (battlefield, command zone); Ashnod's Altar (battlefield); Wanderwine Prophets (hand)
 Prerequisites: Opponents are unable to block Wanderwine prophets.
@@ -27910,7 +28153,7 @@ Steps: Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can 
 
 ## Combo 1940-2882-4128-4662--1
 Cards: Unstable Shapeshifter + Chainer, Nightmare Adept + Infinite Reflection + Liliana, Dreadhorde General
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
 Produces: Infinite looting; Near-infinite creature ETB; Infinite draw triggers; Near-infinite storm count; Near-infinite self-discard triggers; Near-infinite creature LTB; Near-infinite death triggers
 Requires: Creature with Mana Cost Equal to {0} (graveyard)
 Start: Unstable Shapeshifter (battlefield: as a copy of Chainer); Chainer, Nightmare Adept (hand, battlefield, command zone, exile, graveyard, library); Infinite Reflection (battlefield); Liliana, Dreadhorde General (battlefield)
@@ -27927,7 +28170,7 @@ Steps: Discard a card to activate Unstable Shapeshifter's ability from Chainer, 
 
 ## Combo 1940-3490-5231-6822
 Cards: Lyla, Holographic Assistant + Animation Module + Liliana, Dreadhorde General + Thermopod
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Near-infinite +1/+1 counters on creatures you control; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Infinite draw triggers; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Lyla, Holographic Assistant (battlefield); Animation Module (battlefield); Liliana, Dreadhorde General (battlefield); Thermopod (battlefield)
 Prerequisites: You have a way to draw a card.
@@ -27940,7 +28183,7 @@ Steps: Draw a card.
 
 ## Combo 1943-2034-2068-2626
 Cards: Ashnod the Uncaring + Snake Basket + Salvager of Ruin + Ashnod's Altar
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {4}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {4}
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Ashnod the Uncaring (battlefield); Snake Basket (battlefield); Salvager of Ruin (battlefield); Ashnod's Altar (battlefield)
 Steps: Activate Snake Basket by paying {4} and sacrificing it.
@@ -28033,7 +28276,7 @@ Steps: Cast Donate by paying {2}{U}, giving control of Vilis to an opponent.
 
 ## Combo 1972-3090-4691
 Cards: Nekusar, the Mindrazer + Vilis, Broker of Blood + Harmless Offering
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 27 | Commander: legal | Mana needed: {2}{R}
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 28 | Commander: legal | Mana needed: {2}{R}
 Produces: Target opponent loses the game; Infinite card draw for target opponent; Near-infinite damage to one opponent; Infinite draw triggers for target opponent
 Start: Nekusar, the Mindrazer (battlefield); Vilis, Broker of Blood (battlefield); Harmless Offering (hand)
 Steps: Cast Harmless Offering by paying {2}{R}, giving control of Vilis to an opponent.
@@ -28070,7 +28313,7 @@ Steps: Cast Echo of Eons by paying {4}{U}{U}, causing each player to discard the
 
 ## Combo 1972-3765
 Cards: Worldfire + Nekusar, the Mindrazer
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 160 | Commander: legal | Mana needed: {8}{U}{B}{R}{R}{R}{R} plus enough mana to pay for commander tax, if applicable
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 170 | Commander: legal | Mana needed: {8}{U}{B}{R}{R}{R}{R} plus enough mana to pay for commander tax, if applicable
 Produces: Each opponent loses the game; Near-infinite lifeloss; Exile all permanents; Exile all cards in hands and graveyards; Mass Land Denial
 Start: Worldfire (hand); Nekusar, the Mindrazer (command zone: must be your commander)
 Steps: Cast Worldfire by paying {6}{R}{R}{R}, exiling all permanents, all cards in all hands and graveyards, and setting each player's life total to one.
@@ -28586,7 +28829,7 @@ Steps: Declare Fire Lord Azula as an attacker, triggering its firebending abilit
 
 ## Combo 1987-5913-7089
 Cards: Fire Lord Azula + Ghostly Flicker + Pinnacle Monk // Mystic Peak
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 83 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 84 | Commander: legal
 Produces: Infinite mana permanents you control that enter the battlefield untapped can produce; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite landfall triggers; Infinite magecraft triggers; Infinite storm count
 Start: Fire Lord Azula (battlefield: Without Summoning Sickness); Ghostly Flicker (hand); Pinnacle Monk // Mystic Peak (battlefield)
 Prerequisites: You control three permanents that enter untapped and that can tap to produce at least {2}{U}.
@@ -28659,7 +28902,7 @@ Steps: Activate Ashnod's Altar by sacrificing Wretched Throng, adding {C}{C}.
 
 ## Combo 2034-2068-2762-5346
 Cards: Ashnod the Uncaring + Thopter Squadron + Crime Novelist + Ashnod's Altar
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {2}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal | Mana needed: {2}
 Produces: Infinite colorless mana; Infinite red mana; Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Ashnod the Uncaring (battlefield); Thopter Squadron (battlefield: with three or more +1/+1 counters on it ); Crime Novelist (battlefield); Ashnod's Altar (battlefield)
 Steps: Activate Thopter Squadron's first ability twice by paying {2} and removing two +1/+1 counters from it, creating two 1/1 Thopter artifact creature tokens.
@@ -28817,7 +29060,7 @@ Steps: Activate Ashnod's Altar by sacrificing Kobolds of Kher Keep, adding {C}{C
 
 ## Combo 2034-3249-6586
 Cards: Havengul Lich + Vivi Ornitier + Ashnod's Altar
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 46 | Commander: legal | Mana needed: {2}{U}{R}
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 47 | Commander: legal | Mana needed: {2}{U}{R}
 Produces: Infinite red mana; Infinite blue mana; Infinite colorless mana; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count; Infinite creature ETB; Infinite creature LTB
 Start: Havengul Lich (battlefield); Vivi Ornitier (graveyard); Ashnod's Altar (battlefield)
 Steps: Activate Havengul Lich by paying {1}, targeting Vivi.
@@ -28870,7 +29113,7 @@ Steps: Cast Orcish Bowmasters by paying {1}{B}.
 
 ## Combo 2034-3440-4867
 Cards: Cormela, Glamour Thief + Demonic Gifts + Ashnod's Altar
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 530 | Commander: legal | Mana needed: {1}
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 540 | Commander: legal | Mana needed: {1}
 Produces: Infinite blue mana that can only be spent to cast instant and sorcery spells; Infinite colorless mana; Infinite red mana that can only be spent to cast instant and sorcery spells; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite creature sacrifice triggers; Infinite storm count
 Start: Cormela, Glamour Thief (battlefield); Demonic Gifts (hand); Ashnod's Altar (battlefield)
 Steps: Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can only be spent to cast instant or sorcery spells.
@@ -29373,7 +29616,7 @@ Steps: Activate Whisper by tapping it, sacrificing Coercive Recruiter and any ot
 
 ## Combo 2068-2762-4050-5346
 Cards: Ashnod the Uncaring + Thopter Squadron + Crime Novelist + Phyrexian Altar
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {2}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {2}
 Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Ashnod the Uncaring (battlefield); Thopter Squadron (battlefield: with three or more +1/+1 counters on it); Crime Novelist (battlefield); Phyrexian Altar (battlefield)
 Steps: Activate Thopter Squadron's first ability twice by paying {2} and removing two +1/+1 counters from it, creating two 1/1 Thopter artifact creature tokens.
@@ -29388,7 +29631,7 @@ Steps: Activate Thopter Squadron's first ability twice by paying {2} and removin
 
 ## Combo 2068-2762-4659-5346
 Cards: Ashnod the Uncaring + Thopter Squadron + Crime Novelist + Krark-Clan Ironworks
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {2}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {2}
 Produces: Infinite colorless mana; Infinite red mana; Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Ashnod the Uncaring (battlefield); Thopter Squadron (battlefield: with three or more +1/+1 counters on it ); Crime Novelist (battlefield); Krark-Clan Ironworks (battlefield)
 Steps: Activate Thopter Squadron's first ability twice by paying {2} and removing two +1/+1 counters from it, creating two 1/1 Thopter artifact creature tokens.
@@ -29461,7 +29704,7 @@ Steps: Activate Whisper by tapping and sacrificing it and another nontoken creat
 
 ## Combo 2068-4283-4404
 Cards: Ashnod the Uncaring + Whisper, Blood Liturgist + Corridor Monitor
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 65 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 66 | Commander: legal
 Produces: Infinite recursion of creature cards in your graveyard; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Ashnod the Uncaring (battlefield); Whisper, Blood Liturgist (battlefield); Corridor Monitor (battlefield)
 Prerequisites: You control at least one additional nontoken creature.
@@ -29585,7 +29828,7 @@ Steps: Activate Sarcatog's second ability by sacrificing Sword of the Meek.
 
 ## Combo 2099-2793-5483
 Cards: Ugin's Nexus + Esoteric Duplicator + Sarcatog
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 8 | Commander: legal | Mana needed: {2} each turn
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 7 | Commander: legal | Mana needed: {2} each turn
 Produces: Infinite turns; Lock
 Start: Ugin's Nexus (battlefield); Esoteric Duplicator (battlefield); Sarcatog (battlefield)
 Steps: During your end step, activate Sarcatog's second ability by sacrificing Ugin's Nexus.
@@ -30069,219 +30312,3 @@ Steps: Activate Phyrexian Altar by sacrificing another nontoken nonartifact crea
   Resolve the Skirk Alarmist trigger, untapping it.
   Activate Skirk Alarmist by tapping it, turning the creature face up.
   Repeat.
-
-## Combo 2178-4319-4424-5147
-Cards: Missy + Skirk Alarmist + Thornbite Staff + Goblin Bombardment
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite damage; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
-Start: Missy (battlefield); Skirk Alarmist (battlefield); Thornbite Staff (battlefield); Goblin Bombardment (battlefield)
-Prerequisites: You control another nontoken nonartifact creature.
-  Thornbite Staff attached to Skirk Alarmist.
-Steps: Activate Goblin Bombardment by sacrificing another nontoken nonartifact creature.
-  When the creature dies, Missy's first ability and Skirk Alarmist trigger.
-  Resolve the Missy ability, returning the creature from your graveyard to the battlefield face down as a 2/2 Cyberman artifact creature.
-  Resolve the Skirk Alarmist trigger, untapping it.
-  Resolve the Goblin Bombardment ability from step 1, dealing 1 damage to any target.
-  Activate Skirk Alarmist by tapping it, turning the creature face up.
-  Repeat.
-
-## Combo 2178-4319-4424-5256
-Cards: Missy + Skirk Alarmist + Thornbite Staff + Altar of Dementia
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite mill; Infinite self-mill; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
-Start: Missy (battlefield); Skirk Alarmist (battlefield); Thornbite Staff (battlefield); Altar of Dementia (battlefield)
-Prerequisites: You control another nontoken nonartifact creature.
-  Thornbite Staff attached to Skirk Alarmist.
-Steps: Activate Altar of Dementia by sacrificing another nontoken nonartifact creature.
-  When the creature dies, Missy's first ability and Skirk Alarmist trigger.
-  Resolve the Missy ability, returning the creature from your graveyard to the battlefield face down as a 2/2 Cyberman artifact creature.
-  Resolve the Skirk Alarmist trigger, untapping it.
-  Resolve the Altar of Dementia ability from step 1, causing target player to mill cards equal to the sacrificed creature's power.
-  Activate Skirk Alarmist by tapping it, turning the creature face up.
-  Repeat.
-
-## Combo 2179-4636-5159
-Cards: Gonti's Aether Heart + Mishra, Eminent One + Kurkesh, Onakke Ancient
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 12 | Commander: legal | Mana needed: {R} each other turn
-Produces: Infinite turns; Lock
-Start: Gonti's Aether Heart (battlefield); Mishra, Eminent One (battlefield); Kurkesh, Onakke Ancient (battlefield)
-Prerequisites: You have {E}{E}{E}{E}.
-Steps: At the beginning of combat, Mishra triggers, creating a 4/4 artifact creature token copy of Gonti's Aether Heart named Mishra's Warform.
-  When Mishra's Warform enters the battlefield, it and Gonti's Aether Heart trigger, causing you to get {E}{E}{E}{E}.
-  Activate Mishra's Warform by paying eight {E} and exiling it.
-  Kurkesh triggers, causing you to pay {R} to copy Mishra's Warform's ability.
-  Resolve both Mishra's Warform abilities, causing you to take two extra turns after this one.
-  Move to your first extra turn, and repeat steps 1 and 2 once.
-  Move to your second extra turn, and repeat from step 1.
-
-## Combo 2187-2225-7507-8043
-Cards: Vision, Spectral Synthezoid + Kindred Charge + Possessed Skaab + Hivestone
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite copies of creatures you control; Infinite creature tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite creature ETB; Infinite magecraft triggers; Infinite storm count; Infinite artifact LTB; Infinite creature LTB
-Start: Vision, Spectral Synthezoid (battlefield); Kindred Charge (hand); Possessed Skaab (battlefield); Hivestone (battlefield)
-Prerequisites: You haven't cast a spell for free using Vision this turn.
-Steps: Cast Kindred Charge for free due to Vision, choosing a creature type granted by Hivestone, creating a token copy of each creature you control with haste, and setting up a delayed exile trigger.
-  Put the copy of Vision whose ability has been used in your graveyard due to the legend rule.
-  When the Possessed Skaab token enters, it triggers, returning Kindred Charge from your graveyard to your hand.
-  Repeat.
-
-## Combo 2187-3617-4702
-Cards: Splinter Twin + Possessed Skaab + Time Walk
-Color identity: UBR | Bracket: none (not legal) | Popularity: 0 | Commander: not legal | Mana needed: {1}{U} each turn
-Produces: Infinite turns; Lock
-Start: Splinter Twin (battlefield); Possessed Skaab (battlefield); Time Walk (hand)
-Steps: Cast Time Walk getting an extra turn after this one.
-  Pass the turn.
-  Activate Possessed Skaab, by tapping it, creating a token copy of it with haste.
-  The token copy of Possessed Skaab enters the battlefield, returning Time Walk from your graveyard to your hand.
-  Repeat.
-
-## Combo 2187-4377-4702
-Cards: Splinter Twin + Possessed Skaab + Walk the Aeons
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {4}{U}{U} each turn
-Produces: Infinite turns; Lock
-Start: Splinter Twin (battlefield); Possessed Skaab (battlefield); Walk the Aeons (hand)
-Steps: Cast Walk the Aeons getting an extra turn after this one.
-  Pass the turn.
-  Activate Possessed Skaab, by tapping it, creating a token copy of it with haste.
-  The token copy of Possessed Skaab enters the battlefield, returning Walk the Aeons from your graveyard to your hand.
-  Repeat.
-
-## Combo 2187-4598-5195
-Cards: Storm-Kiln Artist + Possessed Skaab + Essence Flux
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {U}
-Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
-Start: Storm-Kiln Artist (battlefield); Possessed Skaab (battlefield); Essence Flux (hand)
-Steps: Cast Essence Flux by paying {U}, targeting  Possessed Skaab
-  Storm-Kiln Artist triggers, creating a Treasure artifact token.
-  Resolve Essence Flux, blinking Possessed Skaab
-  When Possessed Skaab enters the battlefield, it triggers, returning Essence Flux to your hand from your graveyard.
-  Activate the Treasure by tapping and sacrificing it, adding {U}.
-  Repeat.
-
-## Combo 2187-4702-4872
-Cards: Splinter Twin + Possessed Skaab + Time Warp
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {3}{U}{U} each turn
-Produces: Infinite turns; Lock
-Start: Splinter Twin (battlefield); Possessed Skaab (battlefield); Time Warp (hand)
-Steps: Cast Time Warp getting an extra turn after this one.
-  Pass the turn.
-  Activate Possessed Skaab, by tapping it, creating a token copy of it with haste.
-  The token copy of Possessed Skaab enters the battlefield, returning Time Warp from your graveyard to your hand.
-  Repeat.
-
-## Combo 2187-4875-7507-8043
-Cards: Vision, Spectral Synthezoid + Kindred Charge + Possessed Skaab + Conspiracy
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite copies of creatures you control; Infinite creature tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite creature ETB; Infinite magecraft triggers; Infinite storm count; Infinite artifact LTB; Infinite creature LTB
-Start: Vision, Spectral Synthezoid (battlefield); Kindred Charge (hand); Possessed Skaab (battlefield); Conspiracy (battlefield)
-Prerequisites: You haven't cast a spell for free using Vision this turn.
-Steps: Cast Kindred Charge for free due to Vision, choosing a creature type granted by Conspiracy, creating a token copy of each creature you control with haste, and setting up a delayed exile trigger.
-  Put the copy of Vision whose ability has been used in your graveyard due to the legend rule.
-  When the Possessed Skaab token enters, it triggers, returning Kindred Charge from your graveyard to your hand.
-  Repeat.
-
-## Combo 2187-5195-5895
-Cards: Storm-Kiln Artist + Possessed Skaab + Splash Portal
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {U}
-Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite creature LTB; Infinite creature ETB; Infinite storm count; Infinite magecraft triggers
-Start: Storm-Kiln Artist (battlefield); Possessed Skaab (battlefield); Splash Portal (hand)
-Steps: Cast Splash Portal by paying {U}, targeting Possessed Skaab
-  Storm-Kiln Artist triggers, creating a Treasure artifact token.
-  Resolve Splash Portal, blinking Possessed Skaab
-  When Possessed Skaab enters the battlefield, it triggers, returning Splash Portal to your hand from your graveyard.
-  Activate the Treasure by tapping and sacrificing it, adding {U}.
-  Repeat.
-
-## Combo 2187-5289-7507-8043
-Cards: Vision, Spectral Synthezoid + Kindred Charge + Possessed Skaab + Graaz, Unstoppable Juggernaut
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite copies of creatures you control; Infinite creature tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite creature ETB; Infinite magecraft triggers; Infinite storm count; Infinite artifact LTB; Infinite creature LTB
-Start: Vision, Spectral Synthezoid (battlefield); Kindred Charge (hand); Possessed Skaab (battlefield); Graaz, Unstoppable Juggernaut (battlefield)
-Prerequisites: You haven't cast a spell for free using Vision this turn.
-Steps: Cast Kindred Charge for free due to Vision, choosing a creature type granted by Graaz, creating a token copy of each creature you control with haste, and setting up a delayed exile trigger.
-  Put the copy of Vision whose ability has been used in your graveyard due to the legend rule.
-  When the Possessed Skaab token enters, it triggers, returning Kindred Charge from your graveyard to your hand.
-  Repeat.
-
-## Combo 2187-5744-7507-8043
-Cards: Vision, Spectral Synthezoid + Kindred Charge + Possessed Skaab + Roshan, Hidden Magister
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite copies of creatures you control; Infinite creature tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite creature ETB; Infinite magecraft triggers; Infinite storm count; Infinite artifact LTB; Infinite creature LTB
-Start: Vision, Spectral Synthezoid (battlefield); Kindred Charge (hand); Possessed Skaab (battlefield); Roshan, Hidden Magister (battlefield)
-Prerequisites: You haven't cast a spell for free using Vision this turn.
-Steps: Cast Kindred Charge for free due to Vision, choosing a creature type granted by Roshan, creating a token copy of each creature you control with haste, and setting up a delayed exile trigger.
-  Put the copy of Vision whose ability has been used in your graveyard due to the legend rule.
-  When the Possessed Skaab token enters, it triggers, returning Kindred Charge from your graveyard to your hand.
-  Repeat.
-
-## Combo 2187-5929-7507-8043
-Cards: Vision, Spectral Synthezoid + Kindred Charge + Possessed Skaab + Leyline of Transformation
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite copies of creatures you control; Infinite creature tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite creature ETB; Infinite magecraft triggers; Infinite storm count; Infinite artifact LTB; Infinite creature LTB
-Start: Vision, Spectral Synthezoid (battlefield); Kindred Charge (hand); Possessed Skaab (battlefield); Leyline of Transformation (battlefield)
-Prerequisites: You haven't cast a spell for free using Vision this turn.
-Steps: Cast Kindred Charge for free due to Vision, choosing a creature type granted by Leyline of Transformation, creating a token copy of each creature you control with haste, and setting up a delayed exile trigger.
-  Put the copy of Vision whose ability has been used in your graveyard due to the legend rule.
-  When the Possessed Skaab token enters, it triggers, returning Kindred Charge from your graveyard to your hand.
-  Repeat.
-
-## Combo 2187-8043-8350
-Cards: Vision, Spectral Synthezoid + Possessed Skaab + Face Yourself
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
-Produces: Infinite copies of creatures you control; Infinite creature tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite creature ETB; Infinite magecraft triggers; Infinite storm count; Infinite artifact LTB; Infinite creature LTB
-Start: Vision, Spectral Synthezoid (battlefield); Possessed Skaab (battlefield); Face Yourself (hand)
-Prerequisites: You haven't cast a spell for free using Vision this turn.
-Steps: Cast Face Yourself for free due to Vision, targeting yourself and creating a token copy of each creature you control with haste and the noted exile clause.
-  Put the copy of Vision whose ability has been used in your graveyard due to the legend rule.
-  When the Possessed Skaab token enters, it triggers, returning Face Yourself from your graveyard to your hand.
-  Repeat.
-
-## Combo 2196-2821-3257-5803
-Cards: Frantic Search + Kitsa, Otterball Elite + Minamo, School at Water's Edge + Rakdos Carnarium
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal | Mana needed: {2}
-Produces: Infinite looting; Infinite self-discard triggers; Infinite draw triggers; Near-infinite magecraft triggers
-Start: Frantic Search (hand); Kitsa, Otterball Elite (battlefield); Minamo, School at Water's Edge (battlefield); Rakdos Carnarium (battlefield)
-Prerequisites: Kitsa has power 2 or greater and does not have summoning sickness.
-  You control a land that can tap to produce at least {U}.
-Steps: Activate Rakdos Carnarium and another land by tapping them, adding at least {2}{U}.
-  Cast Frantic Search by paying {2}{U}.
-  Kitsa's prowess ability triggers, giving it +1/+1 until end of turn.
-  Holding priority, activate Kitsa's second ability by paying {2} and tapping it, copying Frantic Search.
-  Resolve the copy of Frantic Search, causing you to loot twice and untap Minamo, Rakdos Carnarium and another land.
-  Activate Rakdos Carnarium and another land by tapping them, adding at least {2}{U}.
-  Activate Minamo's second ability by paying {U} and tapping it, untapping Kitsa.
-  Repeat from step 4.
-
-## Combo 2236-2451-3069-5256
-Cards: Sedris, the Traitor King + Void Maw + Altar of Dementia + Witch Engine
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {2}{B}
-Produces: Infinite black mana; Infinite mill; Infinite self-mill; Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
-Start: Sedris, the Traitor King (battlefield); Void Maw (battlefield); Altar of Dementia (battlefield); Witch Engine (battlefield)
-Steps: Activate Altar of Dementia by sacrificing Witch Engine, causing target player to mill cards equal to Witch Engine's power.
-  Activate Witch Engine's unearth ability by paying {2}{B}, returning it from your graveyard to the battlefield, giving it haste and exiling it at end of turn or when it leaves the battlefield.
-  Activate Witch Engine by tapping it.
-  Holding priority, activate Altar of Dementia by sacrificing Witch Engine.
-  Both Witch Engine's undying ability and Void Maw attempt to exile Witch Engine when it would be put into your graveyard.
-  Choose to apply the Void Maw replacement effect, exiling Witch Engine.
-  Resolve the Witch Engine ability from step 3, adding {B}{B}{B}{B}.
-  Resolve the Altar of Dementia ability, causing target player to mill cards equal to Witch Engine's power.
-  Activate Void Maw by putting Witch Engine from exile into your graveyard, giving Void Maw +2/+2 until end of turn.
-  Repeat from step 2.
-
-## Combo 2237-3259
-Cards: Goro-Goro and Satoru + Breath of Fury
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 2300 | Commander: legal | Mana needed: {2}{R}{R}, plus enough mana to cast the creature card in hand, if applicable
-Produces: Infinite combat damage; Infinite combat phases; Infinite mana creatures you control can produce; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite untap of creatures you control
-Start: Goro-Goro and Satoru (battlefield); Breath of Fury (hand)
-Prerequisites: You have a creature card in hand, or control another creature that entered the battlefield this turn.
-  You control any number of creatures that can tap to produce at least {1}{R}.
-Steps: If needed, cast any creature card by paying its mana cost.
-  Cast Breath of Fury by paying {2}{R}{R}, attaching it to a creature you control that entered the battlefield this turn.
-  Activate any number of mana-producing creatures you control by tapping them, adding at least {1}{R}.
-  Activate Goro-Goro and Satoru by paying {1}{R}, giving creatures you control haste until end of turn.
-  Deal combat damage to an opponent using the creature with Breath of Fury attached.
-  Breath of Fury and Goro-Goro and Satoru trigger.
-  Resolve the Goro-Goro and Satoru trigger, creating a 5/5 Dragon Spirit creature token.
-  Resolve the Breath of Fury trigger, causing you to sacrifice the creature it is attached to, then attach Breath of Fury to the Dragon Spirit token, then causing you to untap all creatures you control and to get an additional combat phase after this one.
-  Repeat from step 3 each combat phase.

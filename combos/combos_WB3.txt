@@ -1,19 +1,3 @@
-## Combo 3490-4050-6283-7818
-Cards: Amalia Benavides Aguirre + Animation Module + Phyrexian Altar + Liliana the Faultless
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}
-Produces: Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Destroy all creatures opponents control; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Amalia Benavides Aguirre (battlefield); Animation Module (battlefield); Phyrexian Altar (battlefield); Liliana the Faultless (battlefield)
-Prerequisites: You have a way to gain life.
-  You have a nonland card on top of your library.
-  You have a way to give Liliana the Faultless indestructible.
-Steps: Gain life.
-  Amalia triggers, revealing the top card of your library and then putting a +1/+1 counter on Amalia, putting the card back on top of your library, and destroying all other creatures if Amalia's power is 20.
-  Animation Module triggers, causing you to pay {1} to create a 1/1 Servo artifact creature token.
-  When the Servo enters the battlefield, Liliana the Faultless triggers, causing you to gain 1 life.
-  Amalia triggers. Holding priority, activate Phyrexian Altar by sacrificing the Servo, adding {1}.
-  Resolve the Amalia trigger, revealing the top card of your library and then putting a +1/+1 counter on Amalia, putting the card back on top of your library, and destroying all other creatures if Amalia's power is 20.
-  Repeat from step 3.
-
 ## Combo 3490-4050-6665
 Cards: Animation Module + Judge Magister Gabranth + Phyrexian Altar
 Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 33 | Commander: legal
@@ -548,7 +532,7 @@ Steps: Activate Necropotence by paying life.
 
 ## Combo 3591-4591-8089
 Cards: Mister Negative + Necropotence + Platinum Angel
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 820 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 830 | Commander: legal
 Produces: Near-infinite lifeloss for target opponent; Target opponent loses the game
 Start: Mister Negative (hand, command zone); Necropotence (battlefield); Platinum Angel (battlefield)
 Steps: Activate Necropotence by paying life.
@@ -626,7 +610,7 @@ Steps: Activate Necropotence by paying life.
 
 ## Combo 3591-7841-8089
 Cards: Mister Negative + Necropotence + Darksteel Angel
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 68 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 69 | Commander: legal
 Produces: Near-infinite lifeloss for target opponent; Target opponent loses the game
 Start: Mister Negative (hand, command zone); Necropotence (battlefield); Darksteel Angel (battlefield)
 Steps: Activate Necropotence by paying life.
@@ -850,7 +834,7 @@ Steps: Cast Animate Dead by paying {1}{B}.
 
 ## Combo 3605-5145-5256
 Cards: Archon of Falling Stars + Dance of the Dead + Altar of Dementia
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 24 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 23 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Archon of Falling Stars (battlefield); Dance of the Dead (graveyard); Altar of Dementia (battlefield)
 Steps: Activate Altar of Dementia by sacrificing Archon of Falling Stars.
@@ -895,7 +879,7 @@ Steps: Cast Dance of the Dead by paying {1}{B}, returning Leonin Relic-Warder fr
 
 ## Combo 3615-3972
 Cards: Ethereal Absolution + Humility
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 160 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 150 | Commander: legal
 Produces: Creatures opponents control die upon entering; Lock
 Start: Ethereal Absolution (battlefield); Humility (battlefield)
 Steps: Humility makes all creatures lose all abilities and sets their power and toughness to 1/1.
@@ -1888,7 +1872,7 @@ Notes: If Sightless Ghoul starts with a +1/+1 counter on it, then you may start 
 
 ## Combo 3738-6798-6972
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Umbral Collar Zealot + Sightless Ghoul
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 94 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 93 | Commander: legal
 Produces: Infinite surveil; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Umbral Collar Zealot (battlefield); Sightless Ghoul (battlefield: without a +1/+1 counter on it)
 Steps: Activate Umbral Collar Zealot by sacrificing Sightless Ghoul
@@ -3129,7 +3113,7 @@ Steps: Gain life.
 
 ## Combo 3967-3991-4681
 Cards: Yahenni, Undying Partisan + Faceless Butcher + Karmic Guide
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 53 | Commander: legal | Mana needed: {2}{B}{B}
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 52 | Commander: legal | Mana needed: {2}{B}{B}
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Yahenni, Undying Partisan (battlefield); Faceless Butcher (hand); Karmic Guide (battlefield)
 Steps: Cast Faceless Butcher by paying its mana cost.
@@ -3753,7 +3737,7 @@ Notes: If Geralf's Messenger starts with a +1/+1 counter on it, then you may sta
 
 ## Combo 3967-5359-6972
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Yahenni, Undying Partisan + Threefold Thunderhulk
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 21 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 22 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Yahenni, Undying Partisan (battlefield); Threefold Thunderhulk (battlefield: without a -1/-1 counter on it)
 Steps: Activate Yahenni by sacrificing Threefold Thunderhulk.
@@ -3936,7 +3920,7 @@ Steps: Activate Yahenni by sacrificing Drakestown Forgotten.
 
 ## Combo 3967-6972-7322
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Yahenni, Undying Partisan + Big Mother Mouser
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 21 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 22 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Yahenni, Undying Partisan (battlefield); Big Mother Mouser (battlefield: without a -1/-1 counter on it)
 Steps: Activate Yahenni by sacrificing Big Mother Mouser.
@@ -3946,7 +3930,7 @@ Steps: Activate Yahenni by sacrificing Big Mother Mouser.
 
 ## Combo 3967-6972-7325
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Mighty Mutanimals + Yahenni, Undying Partisan
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Mighty Mutanimals (battlefield); Yahenni, Undying Partisan (battlefield)
 Prerequisites: You control another nontoken creature that doesn't have a -1/-1 counter on it and that has base toughness 2 or greater.
@@ -4142,7 +4126,7 @@ Steps: Activate Phyrexian Altar by sacrificing any nontoken Rogue, Cleric, Wizar
 
 ## Combo 3991-4050-4681
 Cards: Phyrexian Altar + Faceless Butcher + Karmic Guide
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal | Mana needed: {2}{B}{B}
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal | Mana needed: {2}{B}{B}
 Produces: Infinite colored mana; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Phyrexian Altar (battlefield); Faceless Butcher (hand); Karmic Guide (battlefield)
 Steps: Cast Faceless Butcher by paying its mana cost.
@@ -4228,7 +4212,7 @@ Notes: Due to differences in card templating between the various banisher effect
 
 ## Combo 3991-4681-5256
 Cards: Altar of Dementia + Faceless Butcher + Karmic Guide
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 75 | Commander: legal | Mana needed: {2}{B}{B}
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 74 | Commander: legal | Mana needed: {2}{B}{B}
 Produces: Infinite mill; Infinite self-mill; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Altar of Dementia (battlefield); Faceless Butcher (hand); Karmic Guide (battlefield)
 Steps: Cast Faceless Butcher by paying its mana cost.
@@ -5240,7 +5224,7 @@ Steps: Activate Phyrexian Altar by sacrificing Marionette Apprentice.
 
 ## Combo 4050-6243-6288
 Cards: Infernal Vessel + Valkyrie's Call + Phyrexian Altar
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 62 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal
 Produces: Infinite colored mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Infernal Vessel (battlefield); Valkyrie's Call (battlefield); Phyrexian Altar (battlefield)
 Steps: Activate Phyrexian Altar by sacrificing Infernal Vessel, adding one mana of any color.
@@ -5799,7 +5783,7 @@ Steps: Activate Kaya's second loyalty ability by removing two loyalty counters f
 
 ## Combo 4094-4636-5391
 Cards: Automated Assembly Line + Gonti's Aether Heart + Kaya, Geist Hunter
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
+Color identity: WB | Bracket: 2+ (Core) | Popularity: 2 | Commander: legal
 Produces: Infinite tapped creature tokens; Infinite energy counters; Infinite creature ETB
 Start: Automated Assembly Line (battlefield); Gonti's Aether Heart (battlefield); Kaya, Geist Hunter (battlefield)
 Prerequisites: You have at least {E}{E}{E}.
@@ -5925,7 +5909,7 @@ Steps: Activate Basalt Monolith's first ability by tapping it, adding {C}{C}{C}.
 
 ## Combo 4153-4247--5--195
 Cards: Resourceful Defense + Bloodthrone Vampire
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal
 Produces: Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: 2x Persist Creature (battlefield)
 Requires: Increases +1/+1 Counter Placement but not -1/-1 (battlefield)
@@ -5989,7 +5973,7 @@ Steps: Activate Umbral Collar Zealot by sacrificing the persist creature that ha
 
 ## Combo 4153-8095--5--195
 Cards: Resourceful Defense + Hammerhead, Maggia Boss
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 58 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 57 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: 2x Persist Creature (battlefield)
 Requires: Increases +1/+1 Counter Placement but not -1/-1 (battlefield)
@@ -6523,7 +6507,7 @@ Steps: Cast Leonin Relic-Warder by paying {W}{W}.
 
 ## Combo 4247-5276-6767
 Cards: Leonin Relic-Warder + Rescue Skiff + Bloodthrone Vampire
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {W}{W}
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {W}{W}
 Produces: Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Leonin Relic-Warder (hand); Rescue Skiff (battlefield); Bloodthrone Vampire (battlefield)
 Steps: Cast Leonin Relic-Warder by paying {W}{W}.
@@ -6537,7 +6521,7 @@ Steps: Cast Leonin Relic-Warder by paying {W}{W}.
 
 ## Combo 4247-5319-6972
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Geralf's Messenger + Bloodthrone Vampire
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 74 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 75 | Commander: legal
 Produces: Infinite lifeloss; Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Geralf's Messenger (battlefield); Bloodthrone Vampire (battlefield)
 Steps: Activate Bloodthrone Vampire by sacrificing Geralf's Messenger
@@ -6590,7 +6574,7 @@ Steps: Cast Traveling Plague by paying {3}{B}{B}, attaching it to another creatu
 
 ## Combo 4247-6012--5--195
 Cards: Bloodthrone Vampire + Reluctant Role Model
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 24 | Commander: legal
 Produces: Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: 2x Persist Creature (battlefield)
 Requires: Increases +1/+1 Counter Placement but not -1/-1 (battlefield)
@@ -6711,7 +6695,7 @@ Steps: Activate Bloodthrone Vampire by sacrificing Drakestown Forgotten.
 
 ## Combo 4247-6972-7322
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Bloodthrone Vampire + Big Mother Mouser
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 5 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 6 | Commander: legal
 Produces: Infinite creature tokens; Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Bloodthrone Vampire (battlefield); Big Mother Mouser (battlefield: without a -1/-1 counter on it)
 Steps: Activate Bloodthrone Vampire by sacrificing Big Mother Mouser.
@@ -7619,7 +7603,7 @@ Notes: If Butcher Ghoul starts with a +1/+1 counter on it, then you may start th
 
 ## Combo 4350-5686-6972
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Shilgengar, Sire of Famine + Butcher Ghoul
-Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 30 | Commander: legal
+Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 31 | Commander: legal
 Produces: Infinite artifact tokens; Infinite Blood tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Shilgengar, Sire of Famine (battlefield); Butcher Ghoul (battlefield: without a +1/+1 counter on it)
 Steps: Activate Shilgengar by sacrificing Butcher Ghoul
@@ -8231,7 +8215,7 @@ Steps: Activate Souldrinker by paying life.
 
 ## Combo 4551-6733-8089
 Cards: Mister Negative + Phyrexian Unlife + Arco-Flagellant
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 46 | Commander: legal
 Produces: Near-infinite lifeloss for target opponent; Target opponent loses the game
 Start: Mister Negative (hand, command zone); Phyrexian Unlife (battlefield); Arco-Flagellant (battlefield)
 Prerequisites: Your life total is a multiple of 3.
@@ -8243,7 +8227,7 @@ Steps: Activate Arco-Flagellant by paying life.
 
 ## Combo 4551-6734-8089
 Cards: Mister Negative + Phyrexian Unlife + Shadowcloak Vampire
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 10 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 11 | Commander: legal
 Produces: Near-infinite lifeloss for target opponent; Target opponent loses the game
 Start: Mister Negative (hand, command zone); Phyrexian Unlife (battlefield); Shadowcloak Vampire (battlefield)
 Prerequisites: Your life total is even.
@@ -8756,7 +8740,7 @@ Steps: Activate Sidisi by tapping it and sacrificing Sparring Mummy, returning K
 
 ## Combo 4681-4881-5256
 Cards: Activated Sleeper + Karmic Guide + Altar of Dementia
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 310 | Commander: legal | Mana needed: {2}{B}
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 300 | Commander: legal | Mana needed: {2}{B}
 Produces: Infinite mill; Infinite self-mill; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Activated Sleeper (hand); Karmic Guide (graveyard); Altar of Dementia (battlefield)
 Steps: Cast Activated Sleeper by paying {2}{B}, choosing to have it enter the battlefield as a copy of Karmic Guide.
@@ -10056,7 +10040,7 @@ Steps: Activate Myr Scrapling by sacrificing it.
 
 ## Combo 4775-5256-6553
 Cards: Brotherhood Outcast + Altar of Dementia + Necrogen Communion
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 50 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Brotherhood Outcast (battlefield); Altar of Dementia (battlefield); Necrogen Communion (battlefield)
 Prerequisites: Necrogen Communion attached to Brotherhood Outcast.
@@ -10197,7 +10181,7 @@ Steps: Cast Shifting Wall by paying {0}.
 
 ## Combo 4812-5145-5256
 Cards: Archon of Falling Stars + Animate Dead + Altar of Dementia
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Archon of Falling Stars (battlefield); Animate Dead (graveyard); Altar of Dementia (battlefield)
 Steps: Activate Altar of Dementia by sacrificing Archon of Falling Stars.
@@ -10289,7 +10273,7 @@ Steps: Cast Chthonian Nightmare by paying {1}{B}.
 
 ## Combo 4871-5626-6441
 Cards: Chthonian Nightmare + Pitiless Plunderer + Elspeth, Storm Slayer
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 570 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 580 | Commander: legal
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite energy counters; Infinite creature sacrifice triggers; Infinite storm count
 Start: Chthonian Nightmare (battlefield); Pitiless Plunderer (battlefield); Elspeth, Storm Slayer (battlefield)
 Prerequisites: You control another nontoken creature.
@@ -11378,7 +11362,7 @@ Steps: Donate Blightbeetle to an opponent
 
 ## Combo 5256-5617-6553
 Cards: Brotherhood Outcast + Altar of Dementia + Fungal Fortitude
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 48 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Brotherhood Outcast (battlefield); Altar of Dementia (battlefield); Fungal Fortitude (battlefield)
 Prerequisites: Fungal Fortitude attached to Brotherhood Outcast.
@@ -11428,7 +11412,7 @@ Steps: Activate Altar of Dementia by sacrificing Infernal Vessel.
 
 ## Combo 5256-6553-7424
 Cards: Brotherhood Outcast + Altar of Dementia + Changing Loyalty
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 46 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Brotherhood Outcast (battlefield); Altar of Dementia (battlefield); Changing Loyalty (battlefield: attached to Brotherhood Outcast)
 Steps: Activate Altar of Dementia by sacrificing Brotherhood Outcast.
@@ -11728,7 +11712,7 @@ Steps: Cast Leonin Relic-Warder by paying {W}{W}.
 
 ## Combo 5276-6767-6798
 Cards: Leonin Relic-Warder + Rescue Skiff + Umbral Collar Zealot
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {W}{W}
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {W}{W}
 Produces: Infinite surveil; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Leonin Relic-Warder (hand); Rescue Skiff (battlefield); Umbral Collar Zealot (battlefield)
 Steps: Cast Leonin Relic-Warder by paying {W}{W}.
@@ -11742,7 +11726,7 @@ Steps: Cast Leonin Relic-Warder by paying {W}{W}.
 
 ## Combo 5276-6767-8095
 Cards: Leonin Relic-Warder + Rescue Skiff + Hammerhead, Maggia Boss
-Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 1 | Commander: legal | Mana needed: {W}{W}
+Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 2 | Commander: legal | Mana needed: {W}{W}
 Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Leonin Relic-Warder (hand); Rescue Skiff (battlefield); Hammerhead, Maggia Boss (battlefield)
 Steps: Cast Leonin Relic-Warder by paying {W}{W}.
@@ -11873,7 +11857,7 @@ Steps: Activate Phantom Train by sacrificing Threefold Thunderhulk.
 
 ## Combo 5359-6798-6972
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Umbral Collar Zealot + Threefold Thunderhulk
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 42 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 43 | Commander: legal
 Produces: Infinite creature tokens; Infinite surveil; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Umbral Collar Zealot (battlefield); Threefold Thunderhulk (battlefield: without a -1/-1 counter on it)
 Steps: Activate Umbral Collar Zealot by sacrificing Threefold Thunderhulk.
@@ -12086,7 +12070,7 @@ Steps: Cast Traveling Plague by paying {3}{B}{B}, attaching it to another creatu
 
 ## Combo 5686-6010--5
 Cards: Builder's Talent + Shilgengar, Sire of Famine
-Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 31 | Commander: legal
+Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 30 | Commander: legal
 Produces: Infinite artifact tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite Blood tokens
 Requires: Persist Creature (battlefield: without a -1/-1 counter on it)
 Start: Builder's Talent (battlefield: is level 2 or higher); Shilgengar, Sire of Famine (battlefield)
@@ -12378,7 +12362,7 @@ Steps: Activate Shilgengar by sacrificing Federation Field Medic.
 
 ## Combo 5686-7841--5
 Cards: Shilgengar, Sire of Famine + Darksteel Angel
-Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 330 | Commander: legal
+Color identity: WB | Bracket: 2-3+ (Oddball) | Popularity: 340 | Commander: legal
 Produces: Infinite artifact tokens; Infinite Blood tokens; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Shilgengar, Sire of Famine (battlefield); Darksteel Angel (battlefield)
@@ -12520,7 +12504,7 @@ Steps: Activate Deepwood Ghoul by paying life.
 
 ## Combo 6034-6732-8089
 Cards: Mister Negative + Pact Weapon + Souldrinker
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 71 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal
 Produces: Near-infinite lifeloss for target opponent; Target opponent loses the game
 Start: Mister Negative (hand, command zone); Pact Weapon (battlefield); Souldrinker (battlefield)
 Prerequisites: Pact Weapon attached to a creature you control.
@@ -12559,7 +12543,7 @@ Steps: Activate Shadowcloak Vampire by paying life.
 
 ## Combo 6034-6735-8089
 Cards: Mister Negative + Pact Weapon + Soul Channeling
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 36 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 37 | Commander: legal
 Produces: Near-infinite lifeloss for target opponent; Target opponent loses the game
 Start: Mister Negative (hand, command zone); Pact Weapon (battlefield); Soul Channeling (battlefield)
 Prerequisites: Pact Weapon attached to a creature you control.
@@ -12656,7 +12640,7 @@ Steps: Activate Umbral Collar Zealot by sacrificing Infernal Vessel.
 
 ## Combo 6331-6676
 Cards: Demonic Pact + Stiltzkin, Moogle Merchant
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 960 | Commander: legal | Mana needed: {2}
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 970 | Commander: legal | Mana needed: {2}
 Produces: Target opponent loses the game at the beginning of their next upkeep
 Start: Demonic Pact (battlefield); Stiltzkin, Moogle Merchant (battlefield: without summoning sickness)
 Prerequisites: The first three modes of Demonic Pact have been selected.
@@ -13058,7 +13042,7 @@ Steps: Activate Umbral Collar Zealot by sacrificing Drakestown Forgotten.
 
 ## Combo 6798-6972-7322
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Umbral Collar Zealot + Big Mother Mouser
-Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 32 | Commander: legal
+Color identity: WB | Bracket: 3-4+ (Spicy) | Popularity: 33 | Commander: legal
 Produces: Infinite creature tokens; Infinite surveil; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Umbral Collar Zealot (battlefield); Big Mother Mouser (battlefield: without a -1/-1 counter on it)
 Steps: Activate Umbral Collar Zealot by sacrificing Big Mother Mouser.
@@ -13068,7 +13052,7 @@ Steps: Activate Umbral Collar Zealot by sacrificing Big Mother Mouser.
 
 ## Combo 6798-6972-7325
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Mighty Mutanimals + Umbral Collar Zealot
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 32 | Commander: legal
 Produces: Infinite surveil; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Mighty Mutanimals (battlefield); Umbral Collar Zealot (battlefield)
 Prerequisites: You control another nontoken creature that doesn't have a -1/-1 counter on it and that has base toughness 2 or greater.
@@ -13389,7 +13373,7 @@ Steps: Activate Koh by paying life.
 
 ## Combo 7688-7841-8089
 Cards: Mister Negative + M.O.D.O.K. + Darksteel Angel
-Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal
+Color identity: WB | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal
 Produces: Near-infinite lifeloss for target opponent; Target opponent loses the game
 Start: Mister Negative (hand, command zone); M.O.D.O.K. (battlefield); Darksteel Angel (battlefield)
 Prerequisites: Your life total is a multiple of 3.
