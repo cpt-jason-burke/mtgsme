@@ -115,6 +115,63 @@ t("Commander precons: no false commander or duplicate alarms", () => {
   if (bad.length) throw new Error(bad.length + " precons\n  " + bad.slice(0, 12).join("\n  "));
 });
 
+// precon timeline (docs/timeline.js): the counts are computed from precons.json, so a new deck shows up on its own
+const TL = require(path.join(root, "docs/timeline.js"));
+const PCD = require(path.join(root, "docs/data/precons.json")).d; PCD.forEach((p, i) => { p.i = i; });
+const THEMES = require(path.join(root, "docs/data/precon-themes.json")), UPCOMING = require(path.join(root, "docs/data/precon-upcoming.json"));
+const tlRows = (extra) => TL.rows(PCD, (i) => cards[i].n, extra);
+const ceName = (n) => /collector'?s edition/i.test(n);
+t("timeline: every Commander precon becomes a row (none dropped for a bad date)", () => assert.strictEqual(tlRows().length, PCD.filter((p) => p.y === "cmd").length));
+t("timeline: a date without its leading zero is padded", () => assert.strictEqual(TL.normDate("2022-11-1"), "2022-11-01"));
+t("timeline: bar counts match the data, year by year (Collector's Editions hidden by default)", () => {
+  const rows = tlRows(), c = TL.counts(rows, { sl: "include", ce: false });
+  const want = new Map();
+  for (const p of PCD.filter((x) => x.y === "cmd" && !ceName(x.n))) { const y = +TL.normDate(p.d).slice(0, 4), w = want.get(y) || { r: 0, s: 0 }; w[p.s === "sld" ? "s" : "r"]++; want.set(y, w); }
+  for (const [y, w] of want) assert.deepStrictEqual(c.get(y), w, "year " + y);
+  assert.strictEqual([...c.values()].reduce((a, x) => a + x.r + x.s, 0), [...want.values()].reduce((a, x) => a + x.r + x.s, 0));
+});
+t("timeline: a gap year inside the range counts as 0", () => { const c = TL.counts(tlRows(), { sl: "include" }); assert.deepStrictEqual(c.get(2012), { r: 0, s: 0 }); });
+t("timeline: Collector's Editions and Secret Lair decks switch on and off", () => {
+  const rows = tlRows(), n = (o) => TL.visible(rows, o).length, base = n({ sl: "include", ce: false });
+  assert.ok(n({ sl: "include", ce: true }) - base === PCD.filter((p) => p.y === "cmd" && ceName(p.n)).length);
+  assert.ok(n({ sl: "hide", ce: false }) + n({ sl: "only", ce: false }) === base);
+  assert.ok(TL.visible(rows, { sl: "only", ce: true }).every((r) => r.s === "sld"));
+  assert.ok(TL.visible(rows, { from: 2024, to: 2024, sl: "include", ce: true }).every((r) => r.y === 2024));
+});
+t("timeline: Secret Lair Commander decks are found (they are Commander decks in set sld)", () => {
+  const sld = tlRows().filter((r) => r.sl); assert.ok(sld.length >= 7);
+  for (const n of ["Raining Cats and Dogs", "Goblin Storm", "20 Ways to Win"]) assert.ok(sld.some((r) => r.n === n), n);
+});
+t("timeline: search finds a deck by a card inside it", () => {
+  const rows = tlRows(), r = rows.find((x) => !x.ce && x.p && (x.p.main || []).length > 50), card = cards[r.p.main[40][1]].n;
+  assert.ok(TL.visible(rows, { sl: "include", ce: true, q: card }, true).includes(r));
+  assert.strictEqual(TL.visible(rows, { sl: "include", ce: true, q: "zzzz no such thing" }, true).length, 0);
+});
+t("timeline: an announced deck shows until the data has it (same name, name plus a suffix, or same commander that year); a bad entry is ignored", () => {
+  const have = tlRows().find((r) => r.y === 2026 && !r.ce && r.cmd.length);
+  const extra = { themes: {}, up: [
+    { n: "Some Future Deck", d: "2027-02-05", sn: "Future Commander" },
+    { n: have.n, d: have.d, sn: "x" },
+    { n: have.n + " Commander Deck", d: have.d, sn: "x" },
+    { n: "Renamed Upstream", d: have.d, sn: "x", cmd: have.cmd[0] },
+    { n: "Same Commander Another Year", d: "2027-03-01", sn: "x", cmd: have.cmd[0] },
+    { n: "No Date" }, null] };
+  const rows = tlRows(extra), ann = rows.filter((r) => r.ann).map((r) => r.n).sort();
+  assert.deepStrictEqual(ann, ["Same Commander Another Year", "Some Future Deck"]);
+  assert.strictEqual(TL.counts(rows, { sl: "include" }).get(2027).r, 2);
+  assert.strictEqual(TL.latest(rows, "2026-12-01").ann, undefined);
+});
+t("timeline: hand-kept summaries still match decks in the data (a few orphans are only noted), and a Collector's Edition borrows its base deck's", () => {
+  const keys = new Set(PCD.filter((p) => p.y === "cmd").map((p) => p.s + ":" + p.n)), all = Object.keys(THEMES.t), orphan = all.filter((k) => !keys.has(k));
+  if (orphan.length) console.log("  note: " + orphan.length + " deck summaries name a deck the data no longer has (fix the key in precon-themes.json): " + orphan.slice(0, 6).join("; "));
+  assert.ok(orphan.length <= all.length * 0.1, orphan.length + " of " + all.length + " summaries have no deck");
+  const rows = tlRows({ themes: THEMES.t }), ce = rows.find((r) => r.ce && THEMES.t[r.s + ":" + r.n.replace(/\s*collector'?s edition/i, "")]);
+  assert.ok(ce && ce.th, "a Collector's Edition with a base deck summary");
+});
+t("timeline: announced-deck file is well formed", () => {
+  for (const u of UPCOMING.decks) assert.ok(u.n && /^\d{4}-\d{2}-\d{2}$/.test(u.d) && u.sn, JSON.stringify(u));
+});
+
 // engine
 t("mandatory loop cites the current shortcut rules", () => {
   const r = E.analyze([card("Sanguine Bond"), card("Exquisite Blood")], { cr });
