@@ -349,6 +349,44 @@ nav.tabbar button[aria-selected=true]::before{content:"";position:absolute;top:2
 .pcr .price{color:var(--ember-hi);font-weight:800;font-size:13px}
 .pcr .lnk{font:inherit;font-size:12px;color:var(--mute);background:none;border:0;padding:4px 0 2px;cursor:pointer}
 .pcci .chip.on{background:var(--ember-soft);border-color:rgba(208,106,38,.6)}
+/* precon timeline */
+#tlbox .d{color:var(--mute);font-size:13px}
+#tlbox .tlintro{margin:2px 2px 10px}
+#tlbox .tlctl{display:flex;gap:8px;align-items:center;padding-top:10px}
+#tlbox .tlctl select.sel{flex:1;min-width:0;max-width:none}
+#tlbox .tll{align-self:center;margin-right:2px}
+.tlchartbox{margin-top:12px;padding:12px 10px 8px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+.tllegend{display:flex;gap:14px;flex-wrap:wrap;margin:0 0 10px 2px;font-size:12px!important}
+.tlk{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+.tlk.r,.tlstack i.r{background:var(--ember-hi)}
+.tlk.s,.tlstack i.s{background:var(--ice)}
+.tlbars,.tlyrs{display:grid;gap:3px}
+.tlbars{align-items:end;height:150px;border-bottom:1px solid var(--line)}
+.tlcol{all:unset;box-sizing:border-box;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%;min-width:0;cursor:pointer;border-radius:4px;-webkit-tap-highlight-color:transparent}
+.tlcol:focus-visible{outline:2px solid var(--ice);outline-offset:1px}
+.tlcol[disabled]{opacity:.3;cursor:default}
+.tlval{font-size:10.5px;font-weight:700;margin-bottom:3px;color:var(--mute)}
+.tlstack{width:100%;max-width:26px;display:flex;flex-direction:column;justify-content:flex-end;gap:2px}
+.tlstack i{display:block;width:100%;border-radius:3px 3px 0 0}
+.tlcol[aria-pressed=true] .tlval{color:var(--text)}
+.tlcol[aria-pressed=true] .tlstack{outline:2px solid var(--text);outline-offset:2px;border-radius:4px}
+.tlyrs{margin-top:5px}
+.tlyrs span{text-align:center;font-size:10px;color:var(--mute)}
+.tlyrs span.on{color:var(--text);font-weight:700}
+.tlhead{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline;margin:18px 2px 4px}
+.tlhead h3{margin:0;font-size:24px}
+.tlall,.tllink{font:inherit;font-size:13px;color:var(--ember-hi);background:none;border:0;padding:4px 0;cursor:pointer;text-decoration:underline}
+.tlall{margin-left:auto}
+.tllink{padding:0}
+.tlset{display:flex;gap:9px;align-items:center;margin:14px 2px 6px}
+.tlset .sym{width:24px;height:24px;border-radius:7px}
+.tlset .sym img{width:16px;height:16px}
+.tlset b{font-size:14.5px;line-height:1.25;min-width:0}
+.tlset .d{margin-left:auto;font-size:12px!important;white-space:nowrap}
+.tlr.ann{cursor:default}
+.tlr .body b{display:inline;font-size:14px}
+.tlr .tth{display:block;font-size:12px;color:var(--mute);margin-top:1px}
+.tlstamp,.tlnote{margin:14px 2px 0;font-size:12.5px!important}
 .uprow{align-items:center}
 .upimg{flex:none;width:54px;aspect-ratio:488/680;border-radius:4px;background:#1d1c1c center/cover;box-shadow:0 4px 10px rgba(0,0,0,.5)}
 .upbar{height:6px;border-radius:3px;background:var(--line);margin-top:8px;overflow:hidden}
@@ -595,6 +633,7 @@ body.ingame{overflow:hidden}
 <script src="synergy.js"></script>
 <script src="deck.js"></script>
 <script src="combos.js"></script>
+<script src="timeline.js"></script>
 <script src="scry.js"></script>
 <script src="ring.js"></script>
 <script src="play.js"></script>

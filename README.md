@@ -22,6 +22,7 @@ Pocket Commander rules judge and deck-building tools: Comprehensive Rules, card 
 | `tools/tests/` | `logic.js` (deck checks, commanders, combos, wording, synergy) and `layers.js` (every example under rule 613, official rulings, derived cases). Run both before pushing logic changes. |
 | `tools/build_headliners.py` | Script that rebuilds `docs/data/headliners.json`: the cards Scryfall tags as headliners, with TCGplayer prices (from TCGCSV) and the hand-entered facts in `tools/headliner_facts.json` |
 | `docs/data/headliner-finds.json` | Reported pulls, sales and listings of headliner cards. Hand-maintained: an entry is added only after the owner approves it in a Claude chat. |
+| `docs/timeline.js`, `docs/data/precon-themes.json`, `docs/data/precon-upcoming.json` | The Precon timeline in Sets. Its counts are worked out from `precons.json` (`timeline.js`), so new precons appear on their own; the one-line deck summaries and the list of announced-but-unlisted decks are hand-maintained. |
 | `tools/fetch_news.py` | Fetches the news headlines (Wizards, EDHREC, r/magicTCG) into `docs/data/news.json`. A source that fails keeps its last headlines. |
 | `docs/data/events.json` | Upcoming MagicCons and championships for the home page. Hand-maintained: check dates against Wizards' announcements before editing. |
 | `docs/data/announced.json` | Sets Wizards has announced that have no cards in the data yet, for the home page countdowns. Hand-maintained; an entry hides itself once a set with a matching name appears in the data, and can then be deleted. |

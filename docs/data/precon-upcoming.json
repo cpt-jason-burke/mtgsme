@@ -1,0 +1,5 @@
+{
+  "about": "Commander precons Wizards has announced that the card source doesn't list yet. Each shows on the Precon timeline as 'Announced' and drops off by itself once precons.json has a deck in the same year with the same name (or that name plus a suffix) or the same commander. Format: { \"n\": deck name, \"d\": \"YYYY-MM-DD\" release date, \"s\": set code (optional), \"sn\": set name, \"cmd\": commander name or [names] (optional), \"theme\": one line (optional), \"sl\": true for a Secret Lair deck (optional) }. Add nothing the user hasn't approved.",
+  "updated": "2026-11-22",
+  "decks": []
+}

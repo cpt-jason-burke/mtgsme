@@ -46,8 +46,14 @@ For a pasted Moxfield or Archidekt list: check color identity and singleton lega
 ## Work in progress
 `HANDOFF.md` holds the plan, the user's decisions and verified facts for the work still to do (Step 7: deck editor screens and upgrades; paused: local shop prices, the comm badge cinematic) and notes on what is already built (combos, headliners, transporter console, most valuable cards, sealed prices, the logic check, the layer engine and synergy finder). Read it before continuing that work; it isn't needed for rules questions. Run `node tools/tests/logic.js` and `node tools/tests/layers.js` before pushing changes to the deck or rules logic.
 
+## Code review after every change
+After every build or update to this app, its data builders or its tools, ALWAYS run the `code-review` skill on the changes before calling the work done. Fix or report what it finds, and say in the final message that the review ran and what it found. This comes on top of the two test commands under Work in progress.
+
 ## Hand-kept lists
 `docs/data/events.json` (MagicCons and championships) and `docs/data/announced.json` (sets Wizards has announced that have no cards in the data yet) are maintained by hand; no job updates them. Check dates against Wizards' own announcements, update the file's `updated` field, commit to `main` and push. An announced entry hides itself in the app once a set with a matching name appears in the data; delete it then. The home page filters out events that have already ended.
+
+## Precon timeline lists
+The Precon timeline (Sets tab) works its counts out from `docs/data/precons.json`, so a new Commander precon appears there on its own once the card source lists it (the data is rebuilt about every 6 hours); there is nothing to update for counts. Two files are kept by hand: `docs/data/precon-themes.json` (a one-line summary per deck, keyed `set code:deck name` exactly as precons.json spells it; a Collector's Edition uses its base deck's line) and `docs/data/precon-upcoming.json` (announced Commander precons the source doesn't list yet; each hides itself once the data has a deck in the same year with the same name, the name plus a suffix, or the same commander). Add an upcoming deck only after the user approves it and the date matches Wizards' announcement; update the file's `updated` field, commit to `main` and push. `node tools/tests/logic.js` prints a note when a summary names a deck the data no longer has (fix that key), and fails if most of them do.
 
 ## Headliner finds
 When the user sends a link to a pull, sale or listing of a headliner card (`docs/data/headliners.json`), check what it shows, get the user's OK, then add it to `docs/data/headliner-finds.json` (hand-maintained; its `about` field gives the format), commit to `main` and push. Add nothing the user hasn't approved. No bot reads Reddit for finds (the user's choice).

@@ -164,6 +164,7 @@
   function saveNav() {
     if (!CR) return;
     const ser = (v) => (v.type === "card" ? { type: "card", n: v.card.n } : v.type === "precons" ? { type: "precons", q: v.q, set: v.set, year: v.year, sort: v.sort, ci: v.ci }
+      : v.type === "timeline" ? { type: "timeline", from: v.from, to: v.to, sl: v.sl, ce: v.ce, q: v.q, yr: v.yr }
       : v.type === "upgrade" ? { type: "upgrade", manual: v.manual || {} } : { type: v.type, rule: v.rule, code: v.code, i: v.i, year: v.year, view: v.view, sort: v.sort, key: v.key });
     try {
       sessionStorage.setItem("nav", JSON.stringify({ tab: curTab, q: $("#q").value, ci: [...state.ci], type: state.type, legal: state.legal, gc: state.gc, kw: state.kw || "", theme: state.theme || "",
@@ -214,6 +215,7 @@
     sealed: [() => "Sealed deals", sealedView],
     headliner: [(v) => (hlCard(v.key) || {}).name || "Headliner", hlCardView],
     precons: [() => "Load a precon", preconsView],
+    timeline: [() => "Precon timeline", timelineView],
     upgrade: [() => "Upgrade printings", upgradeView],
   };
   function drawSheet() {
@@ -239,6 +241,7 @@
     if (v.type === "set" || v.type === "deck") renderTop25(v);
     if (v.type === "set") renderSealed(v);
     if (v.type === "precons") preOpen($("#prebox"), v);
+    if (v.type === "timeline") tlOpen($("#tlbox"), v);
     if (v.type === "upgrade") ensureUpgrade(v);
     saveNav();
   }
@@ -1455,6 +1458,160 @@
     b.setAttribute("aria-expanded", "false"); b.lastChild.textContent = "▾"; b.firstChild.textContent = PCI.picked || "Pick a Commander precon…"; box.classList.add("hidden");
   }
 
+  // ---------- precon timeline: Commander precons per year (Sets > Precon timeline) ----------
+  // The counts, sets, dates and commanders are computed from precons.json (timeline.js), which the refresh job rebuilds,
+  // so new decks appear on their own. Hand-kept: data/precon-themes.json and data/precon-upcoming.json.
+  const TL = { extra: null, promise: null, rows: null, list: null, partial: false, checked: 0 };
+  // The summaries and the announced list are extras: if either fails to load the screen still works, but the failure isn't kept, so the next open tries again.
+  function ensureTL() {
+    if (!TL.promise) {
+      let failed = false;
+      const get = (f) => fetch("data/" + f + ".json" + DATA_V).then((x) => { if (!x.ok) throw new Error("status " + x.status); return x.json(); }).catch(() => { failed = true; return null; });
+      TL.promise = Promise.all([get("precon-themes"), get("precon-upcoming")]).then(([th, up]) => {
+        TL.extra = { themes: (th && th.t) || {}, up: (up && up.decks) || [] }; TL.rows = null; TL.partial = failed;
+        if (failed) TL.promise = null;
+      });
+    }
+    return TL.promise;
+  }
+  const tlRows = () => { const l = precList(); if (!TL.rows || TL.list !== l) { TL.list = l; TL.rows = MTGTimeline.rows(l, (i) => CARDS[i].n, TL.extra); } return TL.rows; };
+  const tlOpts = (v) => ({ from: v.f, to: v.t, sl: v.sl, ce: v.ce, q: v.q });
+  const newTimeline = () => ({ type: "timeline", from: null, to: null, sl: "include", ce: false, q: "" });   // from/to null = the data's first/last year
+  function timelineView() { return '<div id="tlbox"><div class="d">Loading the precon list…</div></div>'; }
+  function tlOpen(root, v) {
+    if (!root) return;
+    if (!precList()) root.innerHTML = '<div class="d">Loading the precon list…</div>';
+    Promise.all([ensurePre(), ensureTL()]).then(() => { if (!document.contains(root)) return; tlDraw(root, v); tlCheck(root, v, false); })
+      .catch((e) => { root.innerHTML = '<div class="d">Could not load the precons: ' + esc(e.message || e) + '</div><div class="chips"><button class="btn small" data-tl="retry">Try again</button></div>'; });
+  }
+  // the whole screen: search, filters, then the chart and the list of decks
+  function tlDraw(root, v) {
+    const all = tlRows(), span = MTGTimeline.years(all);
+    if (!span) { root.innerHTML = '<div class="empty">No precon data to show yet.</div>'; return; }
+    v.lo = span[0]; v.hi = span[1];
+    v.f = v.from == null ? v.lo : Math.min(Math.max(v.from, v.lo), v.hi);
+    v.t = v.to == null ? v.hi : Math.min(Math.max(v.to, v.lo), v.hi);
+    if (v.f > v.t) v.t = v.f;
+    if (v.yr === undefined) v.yr = MTGTimeline.defaultYear(all, TODAY, v.f, v.t);
+    else if (v.yr !== null && (v.yr < v.f || v.yr > v.t)) v.yr = null;
+    const yrs = []; for (let y = v.lo; y <= v.hi; y++) yrs.push(y);
+    const opt = (y, cur) => '<option value="' + y + '"' + (y === cur ? " selected" : "") + ">" + y + "</option>";
+    const seg = (val, label) => '<button class="chip' + (v.sl === val ? " on" : "") + '" data-tl="sl" data-v="' + val + '" aria-pressed="' + (v.sl === val) + '">' + label + "</button>";
+    root.innerHTML = '<div class="d tlintro">Every Commander precon in the data, by release year. Tap a bar to see that year.</div>' +
+      '<div class="prehead"><div class="field"><input type="search" data-tl="q" value="' + esc(v.q) + '" placeholder="Search decks, commanders, themes, cards" autocomplete="off" autocapitalize="none" enterkeyhint="search" aria-label="Search precons by deck, commander, theme or card"></div></div>' +
+      '<div class="tlctl"><select class="sel" data-tl="from" aria-label="From year">' + yrs.map((y) => opt(y, v.f)).join("") + '</select><span class="d">to</span><select class="sel" data-tl="to" aria-label="To year">' + yrs.map((y) => opt(y, v.t)).join("") + "</select></div>" +
+      '<div class="chips" role="group" aria-label="Secret Lair decks"><span class="d tll">Secret Lair</span>' + seg("hide", "Hide") + seg("include", "Include") + seg("only", "Only") +
+      '<button class="chip' + (v.ce ? " on" : "") + '" data-tl="ce" aria-pressed="' + !!v.ce + '">Collector’s Editions</button></div>' +
+      '<div class="tlchartbox"></div><div class="tlpanel" aria-live="polite"></div><div class="d tlstamp"></div><div class="d tlnote" role="status"></div>';
+    tlChart(root, v); tlPanel(root, v); tlStamp(root);
+  }
+  // one bar per year: Commander decks and Secret Lair decks stacked. The bars ignore the search box.
+  function tlChart(root, v) {
+    const el = root.querySelector(".tlchartbox"); if (!el) return;
+    const c = MTGTimeline.counts(tlRows(), tlOpts(v)), tot = (x) => x.r + x.s;
+    const max = Math.max(1, ...[...c.values()].map(tot)), H = 120, hpx = (n) => (n ? Math.max(2, Math.round((n / max) * H)) : 0);
+    let bars = "", labels = "";
+    for (const [y, x] of c) {
+      const t = tot(x);
+      bars += '<button type="button" class="tlcol" data-tl="year" data-y="' + y + '" aria-pressed="' + (v.yr === y) + '"' + (t ? "" : " disabled") + ' aria-label="' + y + ": " + t + " deck" + (t === 1 ? "" : "s") + '">' +
+        '<span class="tlval">' + (t || "") + '</span><span class="tlstack"><i class="s" style="height:' + hpx(x.s) + 'px"></i><i class="r" style="height:' + hpx(x.r) + 'px"></i></span></button>';
+      labels += '<span class="' + (v.yr === y ? "on" : "") + '">’' + String(y).slice(2) + "</span>";
+    }
+    const grid = "grid-template-columns:repeat(" + c.size + ",minmax(0,1fr))";
+    el.innerHTML = '<div class="d tllegend"><span><i class="tlk r"></i>Commander decks</span><span><i class="tlk s"></i>Secret Lair</span></div>' +
+      '<div class="tlbars" style="' + grid + '">' + bars + '</div><div class="tlyrs" style="' + grid + '" aria-hidden="true">' + labels + "</div>";
+  }
+  // the decks of the chosen year (or of every year in range), grouped by set
+  function tlPanel(root, v) {
+    const el = root.querySelector(".tlpanel"); if (!el) return;
+    const list = MTGTimeline.visible(tlRows(), tlOpts(v), true).filter((r) => v.yr == null || r.y === v.yr);
+    const title = v.yr != null ? v.yr : v.f === v.t ? v.f : v.f + "–" + v.t;
+    let h = '<div class="tlhead"><h3>' + title + '</h3><span class="d">' + list.length + " deck" + (list.length === 1 ? "" : "s") + (v.q ? " matching “" + esc(v.q) + "”" : "") + "</span>" +
+      (v.yr != null ? '<button class="tlall" data-tl="allyears">Show all years</button>' : "") + "</div>";
+    if (!list.length) h += '<div class="empty">No decks match. Widen the years, change a filter or clear the search.</div>';
+    for (const g of MTGTimeline.groups(list)) {
+      const f = g[0];
+      h += '<div class="tlset">' + (f.s ? symbol(f.s) : "") + "<b>" + esc(f.sl ? "Secret Lair Commander decks" : f.sn) + '</b><span class="d">' + (f.sl ? g.length + " deck" + (g.length === 1 ? "" : "s") : esc(shortDate(f.d)) + (g.length > 1 ? " · " + g.length + " decks" : "")) + '</span></div><div class="pcl">' +
+        g.map((r) => {
+          const ci = r.p ? ciOf(r.p) : "", go = r.i >= 0 ? ' data-tl="deck" data-i="' + r.i + '" role="button" tabindex="0"' : "";
+          const tag = (r.ann ? '<span class="ktag up">Announced</span>' : r.d > TODAY ? '<span class="ktag up">Upcoming</span>' : "") + (r.ce ? '<span class="ktag">Collector’s</span>' : "");
+          return '<div class="pcr tlr' + (go ? "" : " ann") + '"' + go + '><div class="body"><b>' + esc(r.n) + "</b>" + tag +
+            '<span class="sub"><span class="cm">' + (r.cmd.length ? esc(r.cmd.join(" + ")) : "No commander listed") + '</span><span class="pp">' + mana([...ci].map((x) => "{" + x + "}").join("")) + " " + esc(shortDate(r.d)) + "</span></span>" +
+            (r.th ? '<span class="tth">' + esc(r.th) + "</span>" : "") + "</div>" + (go ? '<div class="side"><span class="lnk">Cards ›</span></div>' : "") + "</div>";
+        }).join("") + "</div>";
+    }
+    el.innerHTML = h;
+  }
+  function tlStamp(root) {
+    const el = root.querySelector(".tlstamp"); if (!el) return;
+    const built = DATA_V ? decodeURIComponent(DATA_V.slice(3)).slice(0, 10) : "", out = MTGTimeline.latest(tlRows(), TODAY);
+    el.innerHTML = (built && /^\d{4}-\d{2}-\d{2}$/.test(built) ? "Deck data from " + esc(shortDate(built)) + ". " : "") + (out ? "Newest released deck: <b>" + esc(out.n) + "</b> (" + esc(shortDate(out.d)) + "). " : "") +
+      'The counts are worked out from the data, which is rebuilt about every 6 hours; a new deck shows up once the card source lists it. <button class="tllink" data-tl="check">Check for new decks</button>' +
+      (TL.partial ? " The deck summaries couldn’t load; close and reopen this page to try again." : "");
+  }
+  // the Secret Lair and Collector's Edition buttons, updated in place so the search box and the page stay put
+  function tlChips(root, v) {
+    root.querySelectorAll("[data-tl=sl]").forEach((b) => { const on = b.dataset.v === v.sl; b.classList.toggle("on", on); b.setAttribute("aria-pressed", on); });
+    const ce = root.querySelector("[data-tl=ce]"); if (ce) { ce.classList.toggle("on", !!v.ce); ce.setAttribute("aria-pressed", !!v.ce); }
+  }
+  // Is there a newer data build than the one this page loaded? Checked when the screen opens and when you come back to the app (at most every 5 minutes), or on tap.
+  // A new build means new card positions too, so the page asks for a reload instead of mixing old and new data.
+  async function tlCheck(root, v, manual) {
+    if (!manual && Date.now() - TL.checked < 300000) return;
+    TL.checked = Date.now();
+    const note = root.querySelector(".tlnote"); if (!note) return;
+    if (manual) note.textContent = "Checking…";
+    const st = (await fetch("data/built-at.txt", { cache: "no-store" }).then((x) => (x.ok ? x.text() : "")).catch(() => "")).trim();
+    if (!document.contains(note)) return;
+    const have = DATA_V ? decodeURIComponent(DATA_V.slice(3)) : "";
+    if (!st) { note.textContent = manual ? "Couldn't check just now. Try again in a minute." : ""; return; }
+    if (have && st !== have) note.innerHTML = 'New deck data is ready. <button class="tllink" data-tl="reload">Reload to see it</button>';
+    else note.textContent = manual ? "You have the newest data." : "";
+  }
+  (function () {
+    const sheet = $("#sheet-root");
+    const cur = (e) => { const b = e.target.closest && e.target.closest("#tlbox"), v = stack[stack.length - 1]; return b && v && v.type === "timeline" ? { b, v } : null; };
+    let timer;
+    sheet.addEventListener("input", (e) => {
+      if (e.target.dataset.tl !== "q") return;
+      const c = cur(e); if (!c) return;
+      c.v.q = e.target.value; clearTimeout(timer); timer = setTimeout(() => { tlPanel(c.b, c.v); saveNav(); }, 150);
+    });
+    sheet.addEventListener("change", (e) => {
+      const k = e.target.dataset.tl; if (k !== "from" && k !== "to") return;
+      const c = cur(e); if (!c) return;
+      const n = +e.target.value, v = c.v;
+      if (k === "from") { v.from = n; if (n > v.t) v.to = n; } else { v.to = n; if (n < v.f) v.from = n; }
+      if (v.from === v.lo) v.from = null;
+      if (v.to === v.hi) v.to = null;   // null means "to the newest year", so a year added later is included
+      tlDraw(c.b, v); saveNav();
+    });
+    const run = (e) => {
+      const c = cur(e), t = e.target.closest("[data-tl]"); if (!c || !t) return;
+      const k = t.dataset.tl, v = c.v;
+      if (k === "year") {
+        const y = +t.dataset.y; v.yr = v.yr === y ? null : y; tlChart(c.b, v); tlPanel(c.b, v);
+        const again = c.b.querySelector('.tlcol[data-y="' + y + '"]'); if (again) again.focus({ preventScroll: true });   // the chart was redrawn: keep keyboard focus on the bar
+        const hd = c.b.querySelector(".tlhead"); if (hd) hd.scrollIntoView({ block: "nearest", behavior: "smooth" });
+      }
+      else if (k === "allyears") { v.yr = null; tlChart(c.b, v); tlPanel(c.b, v); }
+      else if (k === "sl") { v.sl = t.dataset.v; tlChips(c.b, v); tlChart(c.b, v); tlPanel(c.b, v); }
+      else if (k === "ce") { v.ce = !v.ce; tlChips(c.b, v); tlChart(c.b, v); tlPanel(c.b, v); }
+      else if (k === "deck") { const i = +t.dataset.i; ensureSets().then(() => openSheet({ type: "deck", i })); }
+      else if (k === "check") tlCheck(c.b, v, true);
+      else if (k === "reload") { saveNav(); location.reload(); }
+      else if (k === "retry") tlOpen(c.b, v);
+      else return;
+      saveNav();
+    };
+    sheet.addEventListener("click", run);
+    sheet.addEventListener("keydown", (e) => { if ((e.key === "Enter" || e.key === " ") && e.target.dataset && e.target.dataset.tl === "deck") { e.preventDefault(); run(e); } });
+    document.addEventListener("visibilitychange", () => {
+      const v = stack[stack.length - 1], b = $("#tlbox");
+      if (document.visibilityState === "visible" && v && v.type === "timeline" && b) tlCheck(b, v, false);
+    });
+  })();
+
   // ---------- upgrade: fancier (or cheaper) versions of the same cards, never different cards ----------
   const UPS = Object.assign({ mode: "budget", types: [], dir: "low", all: false }, store.get("upgrade", {}));
   const UP = { key: "", data: null, deflt: {}, loading: false, done: 0, total: 0, err: "" };
@@ -1677,7 +1834,7 @@
   }
   function initSetFilters() {
     const f = SETS.f;
-    $("#setfilters").innerHTML = '<button class="chip hlchip" id="shl">\u2605 Headliners</button><button class="chip" id="ssl">Sealed deals</button><button class="chip" id="sfbtn">Filters</button><div class="chips hidden" id="sfbody" style="width:100%">' + Object.entries(KINDS).map(([k, v]) => '<button class="chip on" data-kind="' + k + '">' + v + "</button>").join("") +
+    $("#setfilters").innerHTML = '<button class="chip hlchip" id="shl">\u2605 Headliners</button><button class="chip" id="ssl">Sealed deals</button><button class="chip" id="stl">Precon timeline</button><button class="chip" id="sfbtn">Filters</button><div class="chips hidden" id="sfbody" style="width:100%">' + Object.entries(KINDS).map(([k, v]) => '<button class="chip on" data-kind="' + k + '">' + v + "</button>").join("") +
       ["W", "U", "B", "R", "G", "C"].map((c) => '<button class="chip" data-ci="' + c + '" aria-label="' + c + '"><i class="ms ' + c + '">' + c + "</i></button>").join("") +
       '<select class="sel" id="stype"><option value="">Any type</option>' + MTGDeck.TYPE_ORDER.concat("Legendary").map((t) => "<option>" + t + "</option>").join("") + "</select>" +
       '<select class="sel" id="smv"><option value="">Any mana value</option>' + [0, 1, 2, 3, 4, 5, 6, 7].map((n) => '<option value="' + n + '">MV ' + (n === 7 ? "7+" : n) + "</option>").join("") + "</select>" +
@@ -1687,6 +1844,7 @@
       const b = e.target.closest("button"); if (!b) return;
       if (b.id === "shl") { openHeadliners(); return; }
       if (b.id === "ssl") { ensureSealed().then(() => openSheet({ type: "sealed" }), () => openSheet({ type: "sealed" })); return; }
+      if (b.id === "stl") { openSheet(newTimeline()); return; }
       if (b.id === "sfbtn") { $("#sfbody").classList.toggle("hidden"); return; }
       if (b.dataset.kind) { const k = b.dataset.kind; f.kinds.has(k) ? f.kinds.delete(k) : f.kinds.add(k); b.classList.toggle("on", f.kinds.has(k)); }
       if (b.dataset.ci) { const c = b.dataset.ci; f.ci.has(c) ? f.ci.delete(c) : f.ci.add(c); b.classList.toggle("on", f.ci.has(c)); }
