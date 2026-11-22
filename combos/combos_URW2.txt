@@ -1,3 +1,63 @@
+## Combo 2034-2232-3558-5778
+Cards: Zinnia, Valley's Voice + Cloudstone Curio + Ashnod's Altar + Crookshank Kobolds
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {2}
+Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Zinnia, Valley's Voice (battlefield); Cloudstone Curio (battlefield); Ashnod's Altar (battlefield); Crookshank Kobolds (hand)
+Steps: Cast Crookshank Kobolds by paying {0}, plus an additional {2} for its offspring cost.
+  When Crookshank Kobolds enters the battlefield, it and Cloudstone Curio trigger.
+  Resolve the Cloudstone Curio trigger, returning nothing from the battlefield to your hand.
+  Resolve the Crookshank Kobolds trigger, creating a token copy of it that is 1/1.
+  When the Crookshank Kobolds token enters the battlefield, Cloudstone Curio triggers, returning the nontoken Crookshank Kobolds from the battlefield to your hand.
+  Activate Ashnod's Altar by sacrificing the token Crookshank Kobolds, adding {C}{C}.
+  Repeat.
+
+## Combo 2034-2232-4336-5778
+Cards: Zinnia, Valley's Voice + Cloudstone Curio + Ashnod's Altar + Kobolds of Kher Keep
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {2}
+Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Zinnia, Valley's Voice (battlefield); Cloudstone Curio (battlefield); Ashnod's Altar (battlefield); Kobolds of Kher Keep (hand)
+Steps: Cast Kobolds of Kher Keep by paying {0}, plus an additional {2} for its offspring cost.
+  When Kobolds of Kher Keep enters the battlefield, it and Cloudstone Curio trigger.
+  Resolve the Cloudstone Curio trigger, returning nothing from the battlefield to your hand.
+  Resolve the Kobolds of Kher Keep trigger, creating a token copy of it that is 1/1.
+  When the Kobolds of Kher Keep token enters the battlefield, Cloudstone Curio triggers, returning the nontoken Kobolds of Kher Keep from the battlefield to your hand.
+  Activate Ashnod's Altar by sacrificing the token Kobolds of Kher Keep, adding {C}{C}.
+  Repeat.
+
+## Combo 2034-2363-3446-5224
+Cards: Together Forever + Ashnod's Altar + Hangarback Walker + Herald of Kozilek
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}
+Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Together Forever (battlefield); Ashnod's Altar (battlefield); Hangarback Walker (hand); Herald of Kozilek (battlefield)
+Steps: Cast Hangarback Walker by paying {1}, causing it to enter the battlefield with a +1/+1 counter on it.
+  Activate Together Forever by paying {1}, targeting Hangarback Walker.
+  Activate Ashnod's Altar by sacrificing Hangarback Walker, adding {C}{C}.
+  When Hangarback Walker dies, Together Forever triggers, returning Hangarback Walker from your graveyard to your hand.
+  Repeat.
+
+## Combo 2034-2363-4908-5224
+Cards: Together Forever + Ashnod's Altar + Hangarback Walker + Enthusiastic Mechanaut
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal | Mana needed: {2}
+Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Together Forever (battlefield); Ashnod's Altar (battlefield); Hangarback Walker (hand); Enthusiastic Mechanaut (battlefield)
+Steps: Cast Hangarback Walker by paying {1}, causing it to enter the battlefield with a +1/+1 counter on it.
+  Activate Together Forever by paying {1}, targeting Hangarback Walker.
+  Activate Ashnod's Altar by sacrificing Hangarback Walker, adding {C}{C}.
+  When Hangarback Walker dies, Together Forever triggers, returning Hangarback Walker from your graveyard to your hand.
+  Repeat.
+
+## Combo 2034-2363-5224-7693
+Cards: Together Forever + Ashnod's Altar + Hangarback Walker + Armor Wars
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}
+Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count
+Start: Together Forever (battlefield); Ashnod's Altar (battlefield); Hangarback Walker (hand); Armor Wars (battlefield)
+Prerequisites: Armor Wars' second chapter ability has resolved this turn.
+Steps: Cast Hangarback Walker by paying {1}, causing it to enter the battlefield with a +1/+1 counter on it.
+  Activate Together Forever by paying {1}, targeting Hangarback Walker.
+  Activate Ashnod's Altar by sacrificing Hangarback Walker, adding {C}{C}.
+  When Hangarback Walker dies, Together Forever triggers, returning Hangarback Walker from your graveyard to your hand.
+  Repeat.
+
 ## Combo 2034-2713-4790-5149
 Cards: Zirda, the Dawnwaker + Dino DNA + Power Artifact + Ashnod's Altar
 Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}
@@ -219,7 +279,7 @@ Steps: Cast Cryptic Trilobite by paying {1}, causing it to enter the battlefield
 
 ## Combo 2034-5003-5663
 Cards: Cayth, Famed Mechanist + Nim Deathmantle + Ashnod's Altar
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 370 | Commander: legal | Mana needed: {2}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 380 | Commander: legal | Mana needed: {2}
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Cayth, Famed Mechanist (battlefield); Nim Deathmantle (battlefield); Ashnod's Altar (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Cayth, adding {C}{C}.
@@ -1164,7 +1224,7 @@ Steps: Cast Capture of Jingzhou by paying its mana cost.
 
 ## Combo 2103-4560
 Cards: Soulfire Grand Master + Capture of Jingzhou
-Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 71 | Commander: legal | Mana needed: {U/R} each turn
+Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 72 | Commander: legal | Mana needed: {U/R} each turn
 Produces: Infinite turns; Lock
 Start: Soulfire Grand Master (battlefield); Capture of Jingzhou (hand)
 Prerequisites: {5}{U}{U}{U/R}
@@ -2174,7 +2234,7 @@ Steps: Cast Massimo by paying its mana cost plus commander tax if applicable.
 
 ## Combo 2105-4478-5778-7392
 Cards: Zinnia, Valley's Voice + Nesting Dovehawk + Combat Celebrant + Roar of Resistance
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal | Mana needed: {4}{R}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal | Mana needed: {4}{R}
 Produces: Infinite combat phases; Infinite creature tokens with haste; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinitely powerful creature until end of turn
 Start: Zinnia, Valley's Voice (battlefield); Nesting Dovehawk (battlefield); Combat Celebrant (hand); Roar of Resistance (battlefield)
 Steps: Cast Combat Celebrant by paying {2}{R} plus an additional {2} for its offspring cost.
@@ -2981,14 +3041,14 @@ Steps: Activate the listed artifact's equip ability through Dan Lewis by paying 
 
 ## Combo 2128-3263-4701
 Cards: Hinata, Dawn-Crowned + Heliod's Intervention + Mycosynth Lattice
-Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 77 | Commander: legal | Mana needed: {2}
+Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 78 | Commander: legal | Mana needed: {2}
 Produces: Destroy all permanents opponents control; Mass Land Denial
 Start: Hinata, Dawn-Crowned (battlefield); Heliod's Intervention (hand); Mycosynth Lattice (battlefield)
 Steps: Cast Heliod's Intervention by paying {2} due to Hinata, destroying all of your opponents' permanents.
 
 ## Combo 2128-3263-5381
 Cards: Hinata, Dawn-Crowned + Mycosynth Lattice + By Force
-Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 71 | Commander: legal | Mana needed: {R}
+Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 72 | Commander: legal | Mana needed: {R}
 Produces: Destroy all permanents opponents control; Mass Land Denial
 Start: Hinata, Dawn-Crowned (battlefield); Mycosynth Lattice (battlefield); By Force (hand)
 Steps: Cast By Force by paying a total of {R} due to Hinata, destroying each permanent opponents control, as they are all artifacts due to Mycosynth Lattice.
@@ -4726,7 +4786,7 @@ Notes: The cost can be reduced by {1} if you control another Ally.
 
 ## Combo 2440-4478-7108-7109
 Cards: Sokka, Tenacious Tactician + Trusty Boomerang + Mana Echoes + Roar of Resistance
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {2}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {2}
 Produces: Infinite colorless mana; Infinite tapped creature tokens; Infinitely large Allies you control until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite storm count
 Start: Sokka, Tenacious Tactician (battlefield); Trusty Boomerang (hand); Mana Echoes (battlefield); Roar of Resistance (battlefield)
 Steps: Cast Trusty Boomerang by paying {1}.
@@ -5042,7 +5102,7 @@ Steps: Cast Trusty Boomerang by paying {1}.
 
 ## Combo 2440-6965-7108-7109
 Cards: Sokka, Tenacious Tactician + Trusty Boomerang + Mana Echoes + Frostcliff Siege
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 71 | Commander: legal | Mana needed: {2}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal | Mana needed: {2}
 Produces: Infinite colorless mana; Infinite tapped creature tokens; Infinitely large Allies you control until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite storm count
 Start: Sokka, Tenacious Tactician (battlefield); Trusty Boomerang (hand); Mana Echoes (battlefield); Frostcliff Siege (battlefield: with "Temur" chosen)
 Steps: Cast Trusty Boomerang by paying {1}.
@@ -5489,7 +5549,7 @@ Steps: Cast Cloudshift by paying {W}, targeting Archaeomancer
 
 ## Combo 2493-5195-7431
 Cards: Storm-Kiln Artist + Archaeomancer + Daydream
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 40 | Commander: legal | Mana needed: {W}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 42 | Commander: legal | Mana needed: {W}
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
 Start: Storm-Kiln Artist (battlefield); Archaeomancer (battlefield); Daydream (hand)
 Steps: Cast Daydream by paying {W}, targeting Archaeomancer
@@ -7103,7 +7163,7 @@ Steps: Activate Zedruu by paying {U}{R}{W}, giving control of Moderation to an o
 
 ## Combo 2736-8195--222
 Cards: Venser, Fervent Forger + Zedruu the Greathearted
-Color identity: URW | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {U}{R}{W} plus the cost of copying Venser
+Color identity: URW | Bracket: 2-3+ (Oddball) | Popularity: 38 | Commander: legal | Mana needed: {U}{R}{W} plus the cost of copying Venser
 Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Requires: Instant or Sorcery that Creates One or More Copies of an Opposing Creature (hand)
 Start: Venser, Fervent Forger (battlefield); Zedruu the Greathearted (battlefield)
@@ -7116,7 +7176,7 @@ Steps: Activate Zedruu by paying {U}{R}{W}, causing target opponent to gain cont
 
 ## Combo 2736-8195--223
 Cards: Venser, Fervent Forger + Zedruu the Greathearted
-Color identity: URW | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {U}{R}{W} plus the cost of copying Venser
+Color identity: URW | Bracket: 2-3+ (Oddball) | Popularity: 38 | Commander: legal | Mana needed: {U}{R}{W} plus the cost of copying Venser
 Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Requires: Clone — Can Copy Opponent's Creatures (hand)
 Start: Venser, Fervent Forger (battlefield); Zedruu the Greathearted (battlefield)
@@ -9670,7 +9730,7 @@ Steps: Cast Razor Boomerang by paying {0} due to Sokka, Swordmaster.
 
 ## Combo 3484-4374-5663
 Cards: Cayth, Famed Mechanist + Aethergeode Miner + Decoction Module
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 4000 | Commander: legal
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 4100 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature LTB; Infinite creature ETB
 Start: Cayth, Famed Mechanist (battlefield); Aethergeode Miner (battlefield); Decoction Module (battlefield)
 Prerequisites: You have at least {E}{E}.
@@ -9926,7 +9986,7 @@ Notes: You can use any method(s) to tap Kilo three times per turn. If those meth
 
 ## Combo 3525-4474-6702
 Cards: Kilo, Apogee Mind + Pemmin's Aura + Paradise Mantle
-Color identity: URW | Bracket: 2-3+ (Oddball) | Popularity: 5000 | Commander: legal
+Color identity: URW | Bracket: 2-3+ (Oddball) | Popularity: 5100 | Commander: legal
 Produces: Infinite proliferate
 Start: Kilo, Apogee Mind (battlefield); Pemmin's Aura (battlefield: attached to Kilo); Paradise Mantle (battlefield: attached to Kilo)
 Steps: Activate Kilo by tapping it, adding {U}.
@@ -10110,7 +10170,7 @@ Steps: Activate The Jolly Balloon Man by paying {1} and tapping it, creating a t
 
 ## Combo 3562-4702
 Cards: Splinter Twin + Sky Hussar
-Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 18 | Commander: legal
+Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 17 | Commander: legal
 Produces: Infinite creature tokens with haste; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite untap of creatures you control
 Start: Splinter Twin (battlefield); Sky Hussar (battlefield)
 Prerequisites: Splinter Twin attached to Sky Hussar.
@@ -10423,7 +10483,7 @@ Steps: Cast Cloudshift by paying {W}, targeting Shipwreck Dowser
 
 ## Combo 3603-4364-8330
 Cards: Massimo, the Magician + Aurelia, the Warleader + Cloudshift
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal | Mana needed: {U}{R}{W} plus commander tax if applicable
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal | Mana needed: {U}{R}{W} plus commander tax if applicable
 Produces: Infinite combat damage; Infinite combat phases; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count; Infinite untap of creatures you control
 Start: Massimo, the Magician (hand, command zone); Aurelia, the Warleader (battlefield); Cloudshift (graveyard)
 Prerequisites: An opponent cannot block creatures you control.
@@ -10603,7 +10663,7 @@ Steps: At the beginning of your upkeep, Vedalken Infuser triggers, putting a cha
 
 ## Combo 3609-6750-7803
 Cards: Inspirit, Flagship Vessel + Magistrate's Scepter + Brad Boimler, Eager Ensign
-Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 47 | Commander: legal
+Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 48 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Inspirit, Flagship Vessel (battlefield); Magistrate's Scepter (battlefield); Brad Boimler, Eager Ensign (battlefield)
 Prerequisites: Inspirit has one or more charge counters on it.
@@ -11740,7 +11800,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 4068-5078-5741-8171
 Cards: Vraska, Soul of Stone + Sensei's Divining Top + Anger + Crystal Skull, Isu Spyglass
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Start: Vraska, Soul of Stone (battlefield); Sensei's Divining Top (battlefield); Anger (graveyard); Crystal Skull, Isu Spyglass (battlefield)
 Prerequisites: You control at least one Mountain.
@@ -12533,7 +12593,7 @@ Notes: You can attack with Kilo to tap it if it'll survive each combat.
 
 ## Combo 4364-4598-8330
 Cards: Massimo, the Magician + Aurelia, the Warleader + Essence Flux
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal | Mana needed: {U}{R}{W} plus commander tax if applicable
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal | Mana needed: {U}{R}{W} plus commander tax if applicable
 Produces: Infinite combat damage; Infinite combat phases; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count; Infinite untap of creatures you control
 Start: Massimo, the Magician (hand, command zone); Aurelia, the Warleader (battlefield); Essence Flux (graveyard)
 Prerequisites: An opponent cannot block creatures you control.
@@ -12549,7 +12609,7 @@ Notes: You can also do this combo in one turn if you give the ability to a creat
 
 ## Combo 4364-5144-8330
 Cards: Massimo, the Magician + Aurelia, the Warleader + Ephemerate
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal | Mana needed: {U}{R}{W} plus commander tax if applicable
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 33 | Commander: legal | Mana needed: {U}{R}{W} plus commander tax if applicable
 Produces: Infinite combat damage; Infinite combat phases; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count; Infinite untap of creatures you control
 Start: Massimo, the Magician (hand, command zone); Aurelia, the Warleader (battlefield); Ephemerate (graveyard)
 Prerequisites: An opponent cannot block creatures you control.
@@ -12589,7 +12649,7 @@ Steps: Declare Aurelia and Satya as attackers, triggering their abilities.
 
 ## Combo 4364-5895-8330
 Cards: Massimo, the Magician + Aurelia, the Warleader + Splash Portal
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {U}{R}{W} plus commander tax if applicable
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {U}{R}{W} plus commander tax if applicable
 Produces: Infinite combat damage; Infinite combat phases; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count; Infinite untap of creatures you control
 Start: Massimo, the Magician (hand, command zone); Aurelia, the Warleader (battlefield); Splash Portal (graveyard)
 Prerequisites: An opponent cannot block creatures you control.
@@ -12618,7 +12678,7 @@ Steps: Declare Aurelia as an attacker, triggering its ability, causing you to un
 
 ## Combo 4364-7431-8330
 Cards: Massimo, the Magician + Aurelia, the Warleader + Daydream
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {U}{R}{W} plus commander tax if applicable
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {U}{R}{W} plus commander tax if applicable
 Produces: Infinite combat damage; Infinite combat phases; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count; Infinite untap of creatures you control
 Start: Massimo, the Magician (hand, command zone); Aurelia, the Warleader (battlefield); Daydream (graveyard)
 Prerequisites: An opponent cannot block creatures you control.
@@ -14128,7 +14188,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 5078-5295-5741-8171
 Cards: Vraska, Soul of Stone + Sensei's Divining Top + Thousand-Year Elixir + Crystal Skull, Isu Spyglass
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 56 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 57 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Start: Vraska, Soul of Stone (battlefield); Sensei's Divining Top (battlefield); Thousand-Year Elixir (battlefield); Crystal Skull, Isu Spyglass (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -14204,7 +14264,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 5078-5741-6965-8171
 Cards: Vraska, Soul of Stone + Sensei's Divining Top + Crystal Skull, Isu Spyglass + Frostcliff Siege
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 68 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 69 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Start: Vraska, Soul of Stone (battlefield); Sensei's Divining Top (battlefield); Crystal Skull, Isu Spyglass (battlefield); Frostcliff Siege (battlefield: with "Temur" chosen)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -14487,7 +14547,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 5078-6747-7902
 Cards: Sensei's Divining Top + Sami, Wildcat Captain + Fateful Discovery
-Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 81 | Commander: legal
+Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 83 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (hand); Sami, Wildcat Captain (battlefield); Fateful Discovery (battlefield)
 Prerequisites: You control an artifact.
@@ -14889,7 +14949,7 @@ Steps: Cast Daydream by paying {W}, targeting Donnie & April
 
 ## Combo 5195-7683-7910
 Cards: Prismari, the Inspiration + Storm-Kiln Artist + Bilbo's Gambit
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal | Mana needed: {1}{W}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 46 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite Treasure tokens; Infinite colored mana; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite magecraft triggers; Infinite storm count
 Start: Prismari, the Inspiration (battlefield); Storm-Kiln Artist (battlefield); Bilbo's Gambit (hand)
 Prerequisites: You have another nonland card in hand with the mana to cast it and applicable targets if needed.
@@ -15780,7 +15840,7 @@ Steps: Cast Brainsurge by paying {2}{U}, causing you to draw four cards and then
 
 ## Combo 8194-8195-8255
 Cards: Dack Fayden, Helping Hand + Venser, Fervent Forger + Dream Cache
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal | Mana needed: {6}{W}{W}{U}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal | Mana needed: {6}{W}{W}{U}
 Produces: Infinite creature tokens with haste; Infinite artifact tokens; Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Start: Dack Fayden, Helping Hand (hand); Venser, Fervent Forger (hand); Dream Cache (hand)
 Steps: Cast Dream Cache by paying {2}{U}, causing you to draw three cards and then put two cards from your hand on top of your library, ensuring that Venser will be among the cards revealed by Dack.

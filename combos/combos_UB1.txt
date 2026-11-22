@@ -4594,7 +4594,7 @@ Steps: Cast Shallow Grave by paying its mana cost.
 
 ## Combo 141-2034-2596
 Cards: Ashnod's Altar + Naru Meha, Master Wizard + Living Death
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 68 | Commander: legal | Mana needed: {5}{U}{U}{B}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 69 | Commander: legal | Mana needed: {5}{U}{U}{B}{B}
 Produces: Infinite colorless mana; Infinite recursion of creature cards in your graveyard; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite magecraft triggers
 Start: Ashnod's Altar (battlefield); Naru Meha, Master Wizard (hand); Living Death (hand)
 Prerequisites: You have a creature card in your graveyard.
@@ -9938,7 +9938,7 @@ Steps: Declare Palinchron and Ingenious Infiltrator as attackers.
 
 ## Combo 307-3542-3925
 Cards: Thousand-Faced Shadow + Palinchron + Biting-Palm Ninja
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 71 | Commander: legal
 Produces: Infinite combat damage to one opponent; Infinite creature tokens; Infinite creature ETB; Infinite creature LTB
 Start: Thousand-Faced Shadow (hand); Palinchron (battlefield); Biting-Palm Ninja (battlefield)
 Prerequisites: Biting-Palm Ninja and Palinchron do not have summoning sickness.
@@ -10975,7 +10975,7 @@ Steps: Cast Nexus of Fate by paying {5}{U}{U}, causing you to take an extra turn
 
 ## Combo 379-3258
 Cards: Varragoth, Bloodsky Sire + Beacon of Tomorrows
-Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 550 | Commander: legal | Mana needed: {7}{U}{U}{B} each turn
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 560 | Commander: legal | Mana needed: {7}{U}{U}{B} each turn
 Produces: Infinite turns; Skip your draw steps; Lock
 Start: Varragoth, Bloodsky Sire (battlefield); Beacon of Tomorrows (hand)
 Prerequisites: Varragoth does not have summoning sickness.
@@ -11073,7 +11073,7 @@ Steps: Activate Altar of Dementia by sacrificing Gravebane Zombie.
 
 ## Combo 386-790-2152
 Cards: Windfall + Glistening Oil + Fate Unraveler
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 830 | Commander: legal | Mana needed: {2}{U}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 840 | Commander: legal | Mana needed: {2}{U}
 Produces: Each opponent loses the game
 Start: Windfall (battlefield); Glistening Oil (battlefield: attached to Fate Unraveler); Fate Unraveler (battlefield)
 Prerequisites: A player has a number of cards in hand that is greater than or equal to 10 minus the lowest amount of poison counters an opponent has.
@@ -13362,7 +13362,7 @@ Steps: Cast Cabal Ritual by paying {1}{B}, adding {B}{B}{B}{B}{B}.
 
 ## Combo 500-2556-4923
 Cards: Saw in Half + Cabal Ritual + Mnemonic Wall
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 47 | Commander: legal | Mana needed: {1}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 48 | Commander: legal | Mana needed: {1}{B}
 Produces: Infinite creature tokens; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
 Start: Saw in Half (hand); Cabal Ritual (hand); Mnemonic Wall (battlefield)
 Prerequisites: You have at least seven cards in your graveyard.
@@ -14008,6 +14008,167 @@ Steps: Activate Dinosaur Headdress' equip ability by paying {2}, attaching it to
   Resolve the Grimgrin ability
   Repeat.
 
+## Combo 586-1003-1048-3800-5283
+Cards: Iceberg + Inexorable Tide + Equilibrium + Priest of Gix + Phyrexian Walker
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{B}
+Produces: Infinite proliferate; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Priest of Gix (hand); Phyrexian Walker (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+Steps: Cast Priest of Gix by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Phyrexian Walker from the battlefield to your hand.
+  When Priest of Gix enters, it triggers, adding {B}{B}{B}.
+  Cast Phyrexian Walker by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Priest of Gix from the battlefield to your hand.
+  Repeat.
+
+## Combo 586-1048-1741-3800-5283
+Cards: Iceberg + Inexorable Tide + Equilibrium + Priest of Gix + Cloud of Faeries
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {3}{U}{B}
+Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Priest of Gix (hand); Cloud of Faeries (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+  You control up to two lands that can tap to produce at least {1}{U}.
+Steps: Cast Priest of Gix by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Cloud of Faeries from the battlefield to your hand.
+  When Priest of Gix enters, it triggers, adding {B}{B}{B}.
+  Cast Cloud of Faeries by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Priest of Gix from the battlefield to your hand.
+  When Cloud of Faeries enters, it triggers, untapping up to two lands.
+  Activate up to two lands by tapping them, adding at least {1}{U}.
+  Repeat.
+
+## Combo 586-1048-1778-3800-5283
+Cards: Iceberg + Inexorable Tide + Equilibrium + Priest of Gix + Memnite
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{B}
+Produces: Infinite proliferate; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Priest of Gix (hand); Memnite (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+Steps: Cast Priest of Gix by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Memnite from the battlefield to your hand.
+  When Priest of Gix enters, it triggers, adding {B}{B}{B}.
+  Cast Memnite by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Priest of Gix from the battlefield to your hand.
+  Repeat.
+
+## Combo 586-1048-2792-3800-5283
+Cards: Iceberg + Inexorable Tide + Equilibrium + Priest of Gix + Great Whale
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {7}{U}{U}{B}
+Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Priest of Gix (hand); Great Whale (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+Steps: Cast Priest of Gix by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Great Whale from the battlefield to your hand.
+  When Priest of Gix enters, it triggers, adding {B}{B}{B}.
+  Cast Great Whale by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Priest of Gix from the battlefield to your hand.
+  When Great Whale enters, it triggers, untapping up to seven lands.
+  Activate up to seven lands by tapping them, adding at least {5}{U}{U}.
+  Repeat.
+
+## Combo 586-1048-3542-3800-5283
+Cards: Iceberg + Inexorable Tide + Equilibrium + Priest of Gix + Palinchron
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {7}{U}{U}{B}
+Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Priest of Gix (hand); Palinchron (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+Steps: Cast Priest of Gix by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Palinchron from the battlefield to your hand.
+  When Priest of Gix enters, it triggers, adding {B}{B}{B}.
+  Cast Palinchron by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Priest of Gix from the battlefield to your hand.
+  When Palinchron enters, it triggers, untapping up to seven lands.
+  Activate up to seven lands by tapping them, adding at least {5}{U}{U}.
+  Repeat.
+
+## Combo 586-1048-3652-3800-5283
+Cards: Iceberg + Inexorable Tide + Equilibrium + Priest of Gix + Ornithopter
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{B}
+Produces: Infinite proliferate; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Priest of Gix (hand); Ornithopter (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+Steps: Cast Priest of Gix by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Ornithopter from the battlefield to your hand.
+  When Priest of Gix enters, it triggers, adding {B}{B}{B}.
+  Cast Ornithopter by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Priest of Gix from the battlefield to your hand.
+  Repeat.
+
+## Combo 586-1048-3661-3800-5283
+Cards: Iceberg + Inexorable Tide + Equilibrium + Priest of Gix + Shield Sphere
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{B}
+Produces: Infinite proliferate; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Priest of Gix (hand); Shield Sphere (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+Steps: Cast Priest of Gix by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Shield Sphere from the battlefield to your hand.
+  When Priest of Gix enters, it triggers, adding {B}{B}{B}.
+  Cast Shield Sphere by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Priest of Gix from the battlefield to your hand.
+  Repeat.
+
+## Combo 586-1048-3800-3821-5283
+Cards: Iceberg + Inexorable Tide + Equilibrium + Priest of Gix + Peregrine Drake
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {6}{U}{B}
+Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Priest of Gix (hand); Peregrine Drake (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+Steps: Cast Priest of Gix by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Peregrine Drake from the battlefield to your hand.
+  When Priest of Gix enters, it triggers, adding {B}{B}{B}.
+  Cast Peregrine Drake by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Priest of Gix from the battlefield to your hand.
+  When Peregrine Drake enters, it triggers, untapping up to five lands.
+  Activate up to five lands by tapping them, adding at least {4}{U}.
+  Repeat.
+
 ## Combo 586-1170-1387-3887
 Cards: Displacer Kitten + Priest of Gix + Lab Rats + Memory Crystal
 Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{B}
@@ -14291,7 +14452,7 @@ Steps: Activate Liliana's third loyalty ability by removing three loyalty counte
 
 ## Combo 598-2452-5633
 Cards: Liliana, Untouched by Death + Rooftop Storm + Fleshbag Marauder
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 5200 | Commander: legal | Mana needed: {2}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 5300 | Commander: legal | Mana needed: {2}{B}
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count; Each opponent sacrifices all creatures they control
 Start: Liliana, Untouched by Death (battlefield); Rooftop Storm (battlefield); Fleshbag Marauder (hand, graveyard)
 Prerequisites: Liliana has at least three loyalty counters.
@@ -16127,7 +16288,7 @@ Steps: Activate Phyrexian Altar by sacrificing Forsaken Miner, adding {B}.
 
 ## Combo 637-2034-2452-5220
 Cards: Archghoul of Thraben + Mortuary + Rooftop Storm + Ashnod's Altar
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal
 Produces: Infinite colorless mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Archghoul of Thraben (battlefield); Mortuary (battlefield); Rooftop Storm (battlefield); Ashnod's Altar (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Archghoul of Thraben, adding {C}{C}.
@@ -16139,7 +16300,7 @@ Steps: Activate Ashnod's Altar by sacrificing Archghoul of Thraben, adding {C}{C
 
 ## Combo 637-2452-4050-5220
 Cards: Archghoul of Thraben + Mortuary + Rooftop Storm + Phyrexian Altar
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
 Produces: Infinite colored mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Archghoul of Thraben (battlefield); Mortuary (battlefield); Rooftop Storm (battlefield); Phyrexian Altar (battlefield)
 Steps: Activate Phyrexian Altar by sacrificing Archghoul of Thraben, adding one mana of any color.
@@ -16580,7 +16741,7 @@ Steps: Cast Ugin's Conjurant either from your hand or from the top of your libra
 
 ## Combo 661-1558-2740-4231
 Cards: Time Sieve + Tamiyo's Journal + Academy Manufactor + Sculpting Steel
-Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 100 | Commander: legal
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 99 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Time Sieve (battlefield); Tamiyo's Journal (battlefield); Academy Manufactor (battlefield); Sculpting Steel (battlefield: as a copy of Academy Manufactor)
 Steps: At the beginning of your upkeep, Tamiyo's Journal triggers, creating three Food, three Clue, and three Treasure tokens.
@@ -16589,7 +16750,7 @@ Steps: At the beginning of your upkeep, Tamiyo's Journal triggers, creating thre
 
 ## Combo 661-2034-2456-3169--50
 Cards: Genesis Chamber + Tezzeret, Master of the Bridge + Sculpting Steel + Ashnod's Altar
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 63 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 62 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite commander casts; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Requires: Legendary Artifact Creature with no colored cost (command zone: must be your commander)
 Start: Genesis Chamber (battlefield); Tezzeret, Master of the Bridge (battlefield); Sculpting Steel (battlefield: as a copy of Genesis Chamber); Ashnod's Altar (battlefield)
@@ -16630,7 +16791,7 @@ Notes: You must use an extra turn spell that will be put into your graveyard as 
 
 ## Combo 679-1149-2770
 Cards: Shadowspear + Donate + Lich's Mastery
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal | Mana needed: {3}{U}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal | Mana needed: {3}{U}
 Produces: Target opponent loses the game
 Start: Shadowspear (battlefield); Donate (hand); Lich's Mastery (battlefield)
 Prerequisites: You have a way to cause Lich's Mastery to leave the battlefield.
@@ -18199,7 +18360,7 @@ Steps: Activate Zul Ashur by tapping it, targeting Shambling Ghast.
 
 ## Combo 728-2178-6542--110
 Cards: Sidisi, Regent of the Mire + Thornbite Staff + Grimgrin, Corpse-Born
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Creature with MV=1 and Creates Creature Token(s) on Death (graveyard)
 Start: Sidisi, Regent of the Mire (battlefield: without summoning sickness); Thornbite Staff (battlefield: attached to Sidisi); Grimgrin, Corpse-Born (battlefield)
@@ -18228,7 +18389,7 @@ Steps: Activate Xu-Ifit by tapping it, returning a creature card from your grave
 
 ## Combo 728-2267-5058
 Cards: Screams from Within + Grimgrin, Corpse-Born + Tormod, the Desecrator
-Color identity: UB | Bracket: 2-3+ (Oddball) | Popularity: 10 | Commander: legal
+Color identity: UB | Bracket: 2-3+ (Oddball) | Popularity: 11 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Screams from Within (battlefield: attached to another creature you control); Grimgrin, Corpse-Born (battlefield); Tormod, the Desecrator (battlefield)
 Prerequisites: You control an additional creature.
@@ -18614,7 +18775,7 @@ Steps: Activate Grimgrin by tapping it, adding {B}.
 
 ## Combo 728-2577-4549
 Cards: Grimgrin, Corpse-Born + Gravecrawler + Relic of Legends
-Color identity: UB | Bracket: 2-3+ (Oddball) | Popularity: 660 | Commander: legal
+Color identity: UB | Bracket: 2-3+ (Oddball) | Popularity: 670 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count
 Start: Grimgrin, Corpse-Born (battlefield: without summoning sickness); Gravecrawler (battlefield); Relic of Legends (battlefield)
 Steps: Activate Relic of Legends's last ability by tapping Grimgrin, adding {B}.
@@ -19734,7 +19895,7 @@ Steps: Cast Morality Shift by paying {5}{B}{B}, exchanging your library with you
 
 ## Combo 731-2152-5280
 Cards: Fate Unraveler + Echo of Eons + Corrupted Conscience
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 91 | Commander: legal | Mana needed: {6}{U}{U}{U}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 92 | Commander: legal | Mana needed: {6}{U}{U}{U}
 Produces: Each opponent loses the game
 Start: Fate Unraveler (battlefield); Echo of Eons (hand); Corrupted Conscience (battlefield)
 Prerequisites: Corrupted Conscience attached to Fate Unraveler.
@@ -19833,7 +19994,7 @@ Steps: Cast Demonic Consultation by paying {B}, naming Jace, Wielder of Mysterie
 
 ## Combo 742-8266
 Cards: Fblthp, Impossibly Lost + Demonic Consultation
-Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 800 | Commander: legal | Mana needed: {B}
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 820 | Commander: legal | Mana needed: {B}
 Produces: Win the game; Exile your library
 Start: Fblthp, Impossibly Lost (battlefield); Demonic Consultation (hand)
 Prerequisites: You control a creature that doesn't have summoning sickness and that cannot be blocked by an opponent.
@@ -19900,7 +20061,7 @@ Steps: Activate Skirga Familiar by discarding Shrieking Drake, adding {B}.
 
 ## Combo 751-1063-4067
 Cards: Oskar, Rubbish Reclaimer + Shrieking Drake + Mind Over Matter
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite self-discard triggers; Infinite storm count
 Start: Oskar, Rubbish Reclaimer (battlefield); Shrieking Drake (hand); Mind Over Matter (battlefield)
 Prerequisites: You control a permanent that can tap to produce at least {U}.
@@ -19925,7 +20086,7 @@ Steps: Cast Shrieking Drake by paying 2 life.
 
 ## Combo 761-2792-3489
 Cards: Satoru Umezawa + Great Whale + Covert Technician
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 120 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 110 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite untap of lands you control; Infinite creature ETB; Infinite creature LTB
 Start: Satoru Umezawa (battlefield); Great Whale (hand); Covert Technician (battlefield)
 Prerequisites: Covert Technician does not have summoning sickness and cannot be blocked by an opponent.
@@ -19940,7 +20101,7 @@ Steps: Declare Covert Technician as an attacker.
 
 ## Combo 761-3489-3542
 Cards: Satoru Umezawa + Palinchron + Covert Technician
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 75 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 74 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite untap of lands you control; Infinite creature ETB; Infinite creature LTB
 Start: Satoru Umezawa (battlefield); Palinchron (hand); Covert Technician (battlefield)
 Prerequisites: Covert Technician does not have summoning sickness and cannot be blocked by an opponent.
@@ -22280,7 +22441,7 @@ Steps: At the beginning of your end step, Jon Irenicus triggers, causing an oppo
 
 ## Combo 927-1165-2861
 Cards: Archfiend of the Dross + Jon Irenicus, Shattered One + Heartless Act
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 570 | Commander: legal | Mana needed: {1}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 580 | Commander: legal | Mana needed: {1}{B}
 Produces: Target opponent loses the game at the beginning of their next upkeep
 Start: Archfiend of the Dross (battlefield); Jon Irenicus, Shattered One (battlefield); Heartless Act (hand)
 Prerequisites: Archfiend of the Dross has no more than four oil counters on it.
@@ -22944,7 +23105,7 @@ Steps: Cast Relentless Dead by paying {B}{B}.
 
 ## Combo 945-1303-4050
 Cards: Relentless Dead + Necroduality + Phyrexian Altar
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 8400 | Commander: legal | Mana needed: {B}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 8500 | Commander: legal | Mana needed: {B}{B}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Relentless Dead (hand); Necroduality (battlefield); Phyrexian Altar (battlefield)
 Steps: Cast Relentless Dead by paying {B}{B}.
@@ -23210,7 +23371,7 @@ Steps: Cast Enter the Infinite by paying {8}{U}{U}{U}{U}.
 
 ## Combo 957-1170-6333
 Cards: Displacer Kitten + Emet-Selch, Unsundered // Hades, Sorcerer of Eld + Time Stretch
-Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 65 | Commander: legal
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 66 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Displacer Kitten (battlefield); Emet-Selch, Unsundered // Hades, Sorcerer of Eld (battlefield); Time Stretch (graveyard)
 Prerequisites: You have at least thirteen cards in your graveyard.
@@ -23928,7 +24089,7 @@ Steps: Activate Woe Strider by sacrificing Memnite.
 
 ## Combo 997-1808-6291
 Cards: Eloise, Nephalia Sleuth + Stridehangar Automaton + Woe Strider
-Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 97 | Commander: legal
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 98 | Commander: legal
 Produces: Infinite self-mill; Infinite card draw; Infinite surveil; Infinite artifact tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite Clue tokens
 Start: Eloise, Nephalia Sleuth (battlefield); Stridehangar Automaton (battlefield); Woe Strider (battlefield)
 Prerequisites: You control an additional creature.
@@ -25119,7 +25280,7 @@ Steps: Activate King Macar by tapping it, causing a player to mill cards equal t
 
 ## Combo 1055-1074-4222
 Cards: Phenax, God of Deception + Freed from the Real + King Macar, the Gold-Cursed
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 630 | Commander: legal | Mana needed: {U}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 640 | Commander: legal | Mana needed: {U}
 Produces: Near-infinite mill; Near-infinite self-mill; Exile all creatures opponents control
 Start: Phenax, God of Deception (battlefield); Freed from the Real (battlefield); King Macar, the Gold-Cursed (battlefield)
 Prerequisites: Freed from the Real attached to King Macar.
@@ -25156,7 +25317,7 @@ Notes: This combo can be repeated each turn as mana allows.
 
 ## Combo 1055-1438
 Cards: Phenax, God of Deception + Eater of the Dead
-Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 5200 | Commander: legal
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 5100 | Commander: legal
 Produces: Near-infinite mill; Near-infinite self-mill
 Start: Phenax, God of Deception (battlefield); Eater of the Dead (battlefield: without summoning sickness)
 Steps: Activate Eater of the Dead by tapping it, causing a player to mill cards equal to its toughness.
@@ -25297,7 +25458,7 @@ Notes: If the opponent had an empty graveyard and an odd number of cards in thei
 
 ## Combo 1055-6497-7268
 Cards: Phenax, God of Deception + Sewer Nemesis + Kitsune's Technique
-Color identity: UB | Bracket: 2-3+ (Oddball) | Popularity: 590 | Commander: legal | Mana needed: {4}{U}{U} at most
+Color identity: UB | Bracket: 2-3+ (Oddball) | Popularity: 600 | Commander: legal | Mana needed: {4}{U}{U} at most
 Produces: Infinite mill for target opponent
 Start: Phenax, God of Deception (battlefield); Sewer Nemesis (battlefield: without summoning sickness and with an opponent chosen); Kitsune's Technique (hand)
 Steps: Cast Kitsune's Technique by paying its mana cost, causing the opponent named by Sewer Nemesis to mill half their library, rounded up.
@@ -26317,7 +26478,7 @@ Steps: Cast Heartless Act by paying {1}{B}, removing up to three oil counters fr
 
 ## Combo 1165-2861-7666
 Cards: Archfiend of the Dross + Heartless Act + Bilbo, Luckwearer // Burglar's Plot
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal | Mana needed: {8}{U}{B}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal | Mana needed: {8}{U}{B}{B}
 Produces: Target opponent loses the game at the beginning of their next upkeep
 Start: Archfiend of the Dross (battlefield); Heartless Act (hand); Bilbo, Luckwearer // Burglar's Plot (hand)
 Prerequisites: An opponent controls a creature.
@@ -26593,7 +26754,7 @@ Steps: Cast Dark Ritual by paying {B}.
 
 ## Combo 1170-2556-2701-4923
 Cards: Displacer Kitten + Mnemonic Wall + Cabal Ritual + Dark Ritual
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 51 | Commander: legal | Mana needed: {B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 52 | Commander: legal | Mana needed: {B}
 Produces: Infinite black mana; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
 Start: Displacer Kitten (battlefield); Mnemonic Wall (battlefield); Cabal Ritual (graveyard); Dark Ritual (hand)
 Steps: Cast Dark Ritual by paying {B}.
@@ -26881,7 +27042,7 @@ Steps: Cast Selective Memory by paying {3}{U}.
 
 ## Combo 1218-2152-5280
 Cards: Fate Unraveler + Echo of Eons + Tainted Strike
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 770 | Commander: legal | Mana needed: {6}{U}{U}{U}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 780 | Commander: legal | Mana needed: {6}{U}{U}{U}{B}
 Produces: Each opponent loses the game
 Start: Fate Unraveler (battlefield); Echo of Eons (hand); Tainted Strike (hand)
 Steps: Cast Tainted Strike by paying {B}, giving Fate Unraveler +1/+0 and infect until end of turn.
@@ -27511,7 +27672,7 @@ Steps: Cast Selective Memory by paying {3}{U}, exiling all nonland cards in your
 
 ## Combo 1295-2397-2503
 Cards: Inverter of Truth + Thassa's Oracle + Panharmonicon
-Color identity: UB | Bracket: 3+ (Powerful) | Popularity: 27 | Commander: legal | Mana needed: {2}{U}{U}{B}{B}
+Color identity: UB | Bracket: 3+ (Powerful) | Popularity: 26 | Commander: legal | Mana needed: {2}{U}{U}{B}{B}
 Produces: Win the game
 Start: Inverter of Truth (hand); Thassa's Oracle (hand); Panharmonicon (battlefield)
 Steps: Cast Inverter of Truth by paying {2}{B}{B}.
@@ -27628,7 +27789,7 @@ Steps: Declare Inquisitor Eisenhorn as an attacker.
 
 ## Combo 1303-1574-1769
 Cards: Necroduality + Rot Hulk + Rot-Tide Gargantua
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 48 | Commander: legal | Mana needed: {5}{B}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal | Mana needed: {5}{B}{B}
 Produces: Infinite creature tokens; Each opponent sacrifices all creatures they control; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Return some creature cards from your graveyard to the battlefield
 Start: Necroduality (battlefield); Rot Hulk (hand); Rot-Tide Gargantua (graveyard)
 Steps: Cast Rot Hulk by paying {5}{B}{B}.
@@ -28590,6 +28751,28 @@ Steps: Activate Emry by tapping it, allowing you to cast Shield Sphere from your
   Activate Hammerhead by sacrificing Shield Sphere.
   When Shield Sphere dies, Emry triggers, untapping Emry.
   Resolve the Hammerhead ability.
+  Repeat.
+
+## Combo 1329-3338-5569-7054
+Cards: Emry, Lurker of the Loch + Mirran Spy + Lantern of Insight + Gravebreaker Lamia
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite storm count
+Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Mirran Spy (battlefield); Lantern of Insight (graveyard); Gravebreaker Lamia (battlefield)
+Steps: Activate Emry by tapping it, targeting Lantern of Insight.
+  Cast Lantern of Insight from your graveyard by paying {0} due to Gravebreaker Lamia
+  Mirran Spy triggers, untapping Emry.
+  Activate Lantern of Insight by tapping and sacrificing it, causing target player to shuffle their library.
+  Repeat.
+
+## Combo 1329-3338-6504-7054
+Cards: Emry, Lurker of the Loch + Mirran Spy + Conjurer's Bauble + Gravebreaker Lamia
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers
+Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Mirran Spy (battlefield); Conjurer's Bauble (graveyard); Gravebreaker Lamia (battlefield)
+Steps: Activate Emry by tapping it, targeting Conjurer's Bauble.
+  Cast Conjurer's Bauble from your graveyard by paying {0} due to Gravebreaker Lamia
+  Mirran Spy triggers, untapping Emry.
+  Activate Conjurer's Bauble by tapping and sacrificing it, allowing you to put up to one card from your graveyard onto the bottom of your library, and then causing you to draw a card.
   Repeat.
 
 ## Combo 1329-3363-6797
@@ -31131,7 +31314,7 @@ Notes: If the method used to give Sephiroth deathtouch is repeatable and/or inde
 
 ## Combo 1500-1623
 Cards: Guile + Blood Funnel
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 62 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal
 Produces: Infinite storm count
 Start: Guile (battlefield); Blood Funnel (battlefield)
 Prerequisites: Any other noncreature spell in hand with the mana to cast it.
@@ -32100,174 +32283,3 @@ Prerequisites: Thopter Assembly is your only thopter.
 Steps: At the beginning of your upkeep, Thopter Assembly triggers, returning itself it your hand and creating 5 Thopter tokens .Sacrifice those tokens to Time Sieve to take an extra turn.
   Cast Thopter Assembly for {6}.
   Repeat for infinite turns.
-
-## Combo 1558-5325
-Cards: Time Sieve + Exsanguinator Cavalry
-Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 130 | Commander: legal
-Produces: Infinite turns; Lock
-Start: Time Sieve (battlefield); Exsanguinator Cavalry (battlefield)
-Prerequisites: You control at least five Knights that do not have summoning sickness and that cannot be blocked by an opponent.
-Steps: Deal combat damage using at least five Knights.
-  Exsanguinator Cavalry triggers, putting a +1/+1 counter on each attacking Knight and creating that many Blood artifact tokens.
-  Activate Time Sieve by tapping it and sacrificing five Bloods, causing you to take an extra turn after this one.
-  Repeat.
-
-## Combo 1558-5395
-Cards: Piper Wright, Publick Reporter + Time Sieve
-Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 2000 | Commander: legal
-Produces: Infinite turns; Lock
-Start: Piper Wright, Publick Reporter (battlefield); Time Sieve (battlefield)
-Prerequisites: An opponent cannot block Piper Wright.
-  Piper Wright has power 5 or greater.
-Steps: Deal combat damage to an opponent using Piper Wright.
-  Piper Wright's first ability triggers, creating at least five Clue artifact tokens.
-  Activate Time Sieve by tapping it and sacrificing five Clues.
-  Piper Wright's second ability triggers five times, putting five +1/+1 counters on a creature you control.
-  Resolve the Time Sieve ability, causing you to take an extra turn after this one.
-  Repeat each turn.
-
-## Combo 1558-6307
-Cards: Time Sieve + Luxurious Locomotive
-Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 550 | Commander: legal
-Produces: Infinite turns; Lock
-Start: Time Sieve (battlefield); Luxurious Locomotive (battlefield)
-Prerequisites: You control at least five creatures with total power 1 or greater.
-  An opponent cannot block and kill Luxurious Locomotive.
-Steps: Activate Luxurious Locomotive's crew ability by tapping five creatures you control with total power 1 or greater, causing Luxurious Locomotive to become an artifact creature until end of turn.
-  Declare Luxurious Locomotive as an attacker.
-  Luxurious Locomotive triggers, creating at least five Treasure tokens.
-  Activate Time Sieve by tapping it and sacrificing five Treasures, causing you to take an extra turn after this one.
-  Repeat each turn.
-
-## Combo 1561-2836-6624
-Cards: Sea Gate Restoration // Sea Gate, Reborn + Peer into the Abyss + Laboratory Maniac
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 710 | Commander: legal | Mana needed: {8}{U}{U}{U}{B}{B}{B}
-Produces: Win the game; Infinite card draw; Infinite draw triggers
-Start: Sea Gate Restoration // Sea Gate, Reborn (hand); Peer into the Abyss (hand); Laboratory Maniac (battlefield)
-Prerequisites: Your life total is 2 or higher.
-Steps: Cast Peer into the Abyss by paying {4}{B}{B}{B}, causing you to draw half your library and lose half your life total, rounding up each time.
-  Cast Sea Gate Restoration by paying {4}{U}{U}{U}, causing you to draw a number of cards equal to the number of cards in your hand. When you attempt to draw from an empty library this way, you will win the game due to Laboratory Maniac.
-
-## Combo 1561-3096-6624
-Cards: Sea Gate Restoration // Sea Gate, Reborn + Peer into the Abyss + Jace, Wielder of Mysteries
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 460 | Commander: legal | Mana needed: {8}{U}{U}{U}{B}{B}{B}
-Produces: Win the game; Infinite card draw; Infinite draw triggers
-Start: Sea Gate Restoration // Sea Gate, Reborn (hand); Peer into the Abyss (hand); Jace, Wielder of Mysteries (battlefield)
-Prerequisites: Your life total is 2 or higher.
-Steps: Cast Peer into the Abyss by paying {4}{B}{B}{B}, causing you to draw half your library and lose half your life total, rounding up each time.
-  Cast Sea Gate Restoration by paying {4}{U}{U}{U}, causing you to draw a number of cards equal to the number of cards in your hand. When you attempt to draw from an empty library this way, you will win the game due to Jace.
-
-## Combo 1561-3384
-Cards: Peer into the Abyss + Thought Reflection
-Color identity: UB | Bracket: 2-3+ (Oddball) | Popularity: 380 | Commander: legal | Mana needed: {4}{B}{B}{B}
-Produces: Infinite card draw; Infinite draw triggers
-Start: Peer into the Abyss (hand); Thought Reflection (battlefield)
-Prerequisites: Your life total is at least 2.
-  Your deck size is even.
-Steps: Cast Peer into the Abyss by paying {4}{B}{B}{B}, causing you to lose half your life total rounded up and draw your library due to Thought Reflection.
-
-## Combo 1561-4032
-Cards: Peer into the Abyss + Psychic Corrosion
-Color identity: UB | Bracket: 2-3+ (Oddball) | Popularity: 3300 | Commander: legal | Mana needed: {4}{B}{B}{B}
-Produces: Infinite mill
-Start: Peer into the Abyss (hand); Psychic Corrosion (battlefield)
-Prerequisites: Number of cards in library greater than or equal to the number of cards in each opponent's library.
-Steps: Cast Peer into the Abyss, targeting yourself.
-  Psychich Corrosion triggers for each card you've drawn, milling each opponent's libary completely.
-  Pass the turn to your opponent; They will lose when they attempt to draw a card on their turns.
-
-## Combo 1561-4216
-Cards: Peer into the Abyss + Folio of Fancies
-Color identity: UB | Bracket: 2+ (Core) | Popularity: 3100 | Commander: legal | Mana needed: {6}{U}{B}{B}{B}
-Produces: Target opponent loses the game
-Start: Peer into the Abyss (hand); Folio of Fancies (battlefield)
-Steps: Cast Peer into the Abyss by paying {4}{B}{B}{B}, causing target opponent to draw half their library and lose half their life.
-  Activate Folio of Fancies's last ability by paying {2}{U} and tapping it, causing each opponent to mill cards equal to the number of cards in their hand.
-  During their draw step, the opponent targeted in step 1 loses the game due to drawing from an empty library.
-
-## Combo 1561-5042
-Cards: Peer into the Abyss + Teferi's Ageless Insight
-Color identity: UB | Bracket: 2-3+ (Oddball) | Popularity: 8000 | Commander: legal | Mana needed: {4}{B}{B}{B}
-Produces: Infinite card draw; Infinite draw triggers
-Start: Peer into the Abyss (hand); Teferi's Ageless Insight (battlefield)
-Prerequisites: Your life total is at least 2.
-  Your deck size is even.
-Steps: Cast Peer into the Abyss by paying {4}{B}{B}{B}, causing you to lose half your life total rounded up and draw your library due to Teferi's Ageless Insight.
-
-## Combo 1561-5850
-Cards: Twenty-Toed Toad + Peer into the Abyss
-Color identity: UB | Bracket: 2-3+ (Oddball) | Popularity: 960 | Commander: legal | Mana needed: {4}{B}{B}{B}
-Produces: Win the game; Near-infinite card draw; Near-infinite draw triggers
-Start: Twenty-Toed Toad (battlefield); Peer into the Abyss (hand)
-Prerequisites: Twenty-Toed Toad does not have summoning sickness.
-  Your deck size is at least 39, minus 2 for each card in your hand.
-  Your life total is at least 2.
-Steps: Cast Peer into the Abyss by paying {4}{B}{B}{B}, causing you to draw half your library and lose half your life total, rounded up.
-  Declare Twenty-Toed Toad as an attacker.
-  Twenty-Toed Toad's second ability triggers, causing you to win the game.
-
-## Combo 1561-6254
-Cards: Peer into the Abyss + Vnwxt, Verbose Host
-Color identity: UB | Bracket: 2-3+ (Oddball) | Popularity: 1700 | Commander: legal | Mana needed: {4}{B}{B}{B}
-Produces: Infinite card draw; Infinite draw triggers
-Start: Peer into the Abyss (hand); Vnwxt, Verbose Host (battlefield)
-Prerequisites: You have max speed.
-  Your life total is at least 2.
-  Your deck size is even.
-Steps: Cast Peer into the Abyss by paying {4}{B}{B}{B}, causing you to lose half your life total rounded up and draw your library due to Vnwxt.
-
-## Combo 1561-6272
-Cards: Aether Syphon + Peer into the Abyss
-Color identity: UB | Bracket: 2-3+ (Oddball) | Popularity: 230 | Commander: legal | Mana needed: {4}{B}{B}{B}
-Produces: Near-infinite mill; Near-infinite card draw; Near-infinite draw triggers
-Start: Aether Syphon (battlefield); Peer into the Abyss (hand)
-Prerequisites: Your life total is at least 2.
-  You have max speed.
-Steps: Cast Peer into the Abyss by paying {4}{B}{B}{B}, causing you to draw half your library and lose half your life total, rounding up each time.
-  Aether Syphon triggers, causing each opponent to mill 2 cards for each card drawn this way.
-
-## Combo 1562-2829-4375
-Cards: Technomancer + Machine God's Effigy + Arcbound Ravager
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {4}
-Produces: Infinite self-mill; Infinite blue mana; Infinite +1/+1 counters on a creature; Put all artifact creature cards with mana value 2 or less from your library onto the battlefield; Put all artifact creature cards with mana value 2 or less from your graveyard onto the battlefield; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Technomancer (battlefield); Machine God's Effigy (hand); Arcbound Ravager (battlefield)
-Steps: Cast Machine God's Effigy by paying {4}. Choose to have it enter the battlefield as a copy of Technomancer.
-  When Machine God's Effigy enters, it triggers. Holding priority, activate Machine God's Effigy by tapping it, adding {U}.
-  Activate Arcbound Ravager by sacrificing Machine God's Effigy.
-  Resolve the Machine God's Effigy trigger, causing you to mill three cards and return Machine God's Effigy from your graveyard to the battlefield as a copy of Technomancer.
-  Repeat from step 2.
-
-## Combo 1562-3698-4375
-Cards: Technomancer + Machine God's Effigy + Grinding Station
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal | Mana needed: {4}
-Produces: Infinite mill; Infinite self-mill; Infinite blue mana; Put all artifact creature cards with mana value 2 or less from your library onto the battlefield; Put all artifact creature cards with mana value 2 or less from your graveyard onto the battlefield; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Technomancer (battlefield); Machine God's Effigy (hand); Grinding Station (battlefield)
-Steps: Cast Machine God's Effigy by paying {4}. Choose to have it enter the battlefield as a copy of Technomancer.
-  When Machine God's Effigy enters, it and Grinding Station trigger. 
-  Resolve the Grinding Station trigger, untapping it.
-  Holding priority, activate Machine God's Effigy by tapping it, adding {U}.
-  Activate Grinding Station by tapping it and sacrificing Machine God's Effigy.
-  Resolve the Machine God's Effigy trigger, causing you to mill three cards and return Machine God's Effigy from your graveyard to the battlefield as a copy of Technomancer.
-  Repeat from step 2.
-
-## Combo 1562-4375-4659
-Cards: Technomancer + Machine God's Effigy + Krark-Clan Ironworks
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal | Mana needed: {4}
-Produces: Infinite self-mill; Infinite colorless mana; Infinite blue mana; Put all artifact creature cards with mana value 2 or less from your library onto the battlefield; Put all artifact creature cards with mana value 2 or less from your graveyard onto the battlefield; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Technomancer (battlefield); Machine God's Effigy (hand); Krark-Clan Ironworks (battlefield)
-Steps: Cast Machine God's Effigy by paying {4}. Choose to have it enter the battlefield as a copy of Technomancer.
-  When Machine God's Effigy enters, it triggers. Holding priority, activate Machine God's Effigy by tapping it, adding {U}.
-  Activate Krark-Clan Ironworks by sacrificing Machine God's Effigy.
-  Resolve the Machine God's Effigy trigger, causing you to mill three cards and return Machine God's Effigy from your graveyard to the battlefield as a copy of Technomancer.
-  Repeat from step 2.
-
-## Combo 1562-4375-6797
-Cards: Technomancer + Machine God's Effigy + Phantom Train
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {4}
-Produces: Infinite self-mill; Infinite blue mana; Infinite +1/+1 counters on a creature; Put all artifact creature cards with mana value 2 or less from your library onto the battlefield; Put all artifact creature cards with mana value 2 or less from your graveyard onto the battlefield; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Technomancer (battlefield); Machine God's Effigy (hand); Phantom Train (battlefield)
-Steps: Cast Machine God's Effigy by paying {4}. Choose to have it enter the battlefield as a copy of Technomancer.
-  When Machine God's Effigy enters, it triggers. Holding priority, activate Machine God's Effigy by tapping it, adding {U}.
-  Activate Phantom Train by sacrificing Machine God's Effigy.
-  Resolve the Machine God's Effigy trigger, causing you to mill three cards and return Machine God's Effigy from your graveyard to the battlefield as a copy of Technomancer.
-  Repeat from step 2.

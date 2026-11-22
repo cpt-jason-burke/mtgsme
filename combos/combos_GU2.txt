@@ -456,7 +456,7 @@ Steps: Activate Temple of the False God by tapping it, adding six {C} due to Nyx
 
 ## Combo 985-1289-5078-5864
 Cards: Valley Floodcaller + Sensei's Divining Top + Birds of Paradise + Mystic Forge
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 87 | Commander: legal
 Produces: Infinite card draw; Near-infinite power and toughness for certain creatures until end of turn; Near-infinite untap of some creatures you control; Infinite draw triggers; Near-infinite storm count
 Start: Valley Floodcaller (battlefield); Sensei's Divining Top (battlefield, library); Birds of Paradise (battlefield); Mystic Forge (battlefield)
 Prerequisites: Birds of Paradise does not have summoning sickness.
@@ -724,6 +724,26 @@ Steps: Cast Myr Battlesphere by paying {7}.
   Resolve the Myr Battlesphere trigger, creating four Biovisionary tokens.
   At the beginning of your end step, each Biovisionary triggers.
   Resolve the first Biovisionary trigger, causing you to win the game.
+
+## Combo 1003-1048-3800-4022-5283
+Cards: Iceberg + Inexorable Tide + Equilibrium + Phyrexian Walker + Hidden Herbalists
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {G}{G}
+Produces: Infinite proliferate; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Phyrexian Walker (hand); Hidden Herbalists (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+  A permanent you control has left the battlefield this turn.
+Steps: Cast Phyrexian Walker by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Hidden Herbalists from the battlefield to your hand.
+  Cast Hidden Herbalists by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Phyrexian Walker from the battlefield to your hand.
+  When Hidden Herbalists enters, it triggers, adding {G}{G}.
+  Repeat.
 
 ## Combo 1003-1082-1636-2034-4782
 Cards: Heidar, Rimewind Master + Intruder Alarm + Dual Nature + Ashnod's Altar + Phyrexian Walker
@@ -1203,7 +1223,7 @@ Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causi
 
 ## Combo 1017-3197-4052
 Cards: Wizard Class + Kindred Discovery + Herd Baloth
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal
 Produces: Infinite card draw; Near-infinite creature tokens; Near-infinite +1/+1 counters on a creature; Infinite draw triggers; Near-infinite creature ETB
 Start: Wizard Class (battlefield); Kindred Discovery (battlefield); Herd Baloth (battlefield)
 Prerequisites: "Beast" chosen with Kindred Discovery.
@@ -1217,7 +1237,7 @@ Steps: Draw a card.
 
 ## Combo 1017-3197-7687
 Cards: Mister Fantastic, Reed Richards + Wizard Class + Herd Baloth
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 30 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 31 | Commander: legal
 Produces: Infinite card draw; Near-infinite creature tokens; Near-infinite +1/+1 counters on certain creatures; Infinite draw triggers; Near-infinite creature ETB
 Start: Mister Fantastic, Reed Richards (battlefield); Wizard Class (battlefield: is level 3); Herd Baloth (battlefield)
 Prerequisites: You have a way to draw a card.
@@ -1229,7 +1249,7 @@ Steps: Draw a card.
 
 ## Combo 1017-4052-4186
 Cards: Wizard Class + Kindred Discovery + Scurry Oak
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
 Produces: Infinite card draw; Near-infinite creature tokens; Near-infinite +1/+1 counters on a creature; Infinite draw triggers; Near-infinite creature ETB
 Start: Wizard Class (battlefield); Kindred Discovery (battlefield); Scurry Oak (battlefield)
 Prerequisites: "Squirrel" chosen with Kindred Discovery.
@@ -1243,7 +1263,7 @@ Steps: Draw a card.
 
 ## Combo 1017-4186-7687
 Cards: Mister Fantastic, Reed Richards + Wizard Class + Scurry Oak
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 49 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 50 | Commander: legal
 Produces: Infinite card draw; Near-infinite creature tokens; Near-infinite +1/+1 counters on certain creatures; Infinite draw triggers; Near-infinite creature ETB
 Start: Mister Fantastic, Reed Richards (battlefield); Wizard Class (battlefield: is level 3); Scurry Oak (battlefield)
 Prerequisites: You have a way to draw a card.
@@ -2782,6 +2802,155 @@ Steps: Activate Horseshoe Crab by tapping it, adding {U}.
   Mesmeric Orb triggers, causing you to mill a card.
   Repeat.
 
+## Combo 1048-1741-3800-4022-5283
+Cards: Iceberg + Inexorable Tide + Equilibrium + Cloud of Faeries + Hidden Herbalists
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}{G}{U}
+Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Cloud of Faeries (hand); Hidden Herbalists (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+  A permanent you control has left the battlefield this turn.
+  You control up to two lands that can tap to produce at least {1}{U}.
+Steps: Cast Cloud of Faeries by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Hidden Herbalists from the battlefield to your hand.
+  When Cloud of Faeries enters, it triggers, untapping up to two lands.
+  Activate up to two lands by tapping them, adding at least {1}{U}.
+  Cast Hidden Herbalists by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Cloud of Faeries from the battlefield to your hand.
+  When Hidden Herbalists enters, it triggers, adding {G}{G}.
+  Repeat.
+
+## Combo 1048-1778-3800-4022-5283
+Cards: Iceberg + Inexorable Tide + Equilibrium + Memnite + Hidden Herbalists
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {G}{G}
+Produces: Infinite proliferate; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Memnite (hand); Hidden Herbalists (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+  A permanent you control has left the battlefield this turn.
+Steps: Cast Memnite by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Hidden Herbalists from the battlefield to your hand.
+  Cast Hidden Herbalists by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Memnite from the battlefield to your hand.
+  When Hidden Herbalists enters, it triggers, adding {G}{G}.
+  Repeat.
+
+## Combo 1048-2792-3800-4022-5283
+Cards: Iceberg + Inexorable Tide + Equilibrium + Great Whale + Hidden Herbalists
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {5}{G}{G}{U}{U}
+Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Great Whale (hand); Hidden Herbalists (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+  A permanent you control has left the battlefield this turn.
+Steps: Cast Great Whale by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Hidden Herbalists from the battlefield to your hand.
+  When Great Whale enters, it triggers, untapping up to seven lands.
+  Activate up to seven lands by tapping them, adding at least {5}{U}{U}.
+  Cast Hidden Herbalists by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Great Whale from the battlefield to your hand.
+  When Hidden Herbalists enters, it triggers, adding {G}{G}.
+  Repeat.
+
+## Combo 1048-3542-3800-4022-5283
+Cards: Iceberg + Inexorable Tide + Equilibrium + Palinchron + Hidden Herbalists
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {5}{G}{G}{U}{U}
+Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Palinchron (hand); Hidden Herbalists (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+  A permanent you control has left the battlefield this turn.
+Steps: Cast Palinchron by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Hidden Herbalists from the battlefield to your hand.
+  When Palinchron enters, it triggers, untapping up to seven lands.
+  Activate up to seven lands by tapping them, adding at least {5}{U}{U}.
+  Cast Hidden Herbalists by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Palinchron from the battlefield to your hand.
+  When Hidden Herbalists enters, it triggers, adding {G}{G}.
+  Repeat.
+
+## Combo 1048-3652-3800-4022-5283
+Cards: Iceberg + Inexorable Tide + Equilibrium + Ornithopter + Hidden Herbalists
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {G}{G}
+Produces: Infinite proliferate; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Ornithopter (hand); Hidden Herbalists (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+  A permanent you control has left the battlefield this turn.
+Steps: Cast Ornithopter by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Hidden Herbalists from the battlefield to your hand.
+  Cast Hidden Herbalists by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Ornithopter from the battlefield to your hand.
+  When Hidden Herbalists enters, it triggers, adding {G}{G}.
+  Repeat.
+
+## Combo 1048-3661-3800-4022-5283
+Cards: Iceberg + Inexorable Tide + Equilibrium + Shield Sphere + Hidden Herbalists
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {G}{G}
+Produces: Infinite proliferate; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Shield Sphere (hand); Hidden Herbalists (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+  A permanent you control has left the battlefield this turn.
+Steps: Cast Shield Sphere by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Hidden Herbalists from the battlefield to your hand.
+  Cast Hidden Herbalists by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Shield Sphere from the battlefield to your hand.
+  When Hidden Herbalists enters, it triggers, adding {G}{G}.
+  Repeat.
+
+## Combo 1048-3800-3821-4022-5283
+Cards: Iceberg + Inexorable Tide + Equilibrium + Peregrine Drake + Hidden Herbalists
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {4}{G}{G}{U}
+Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Peregrine Drake (hand); Hidden Herbalists (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+  A permanent you control has left the battlefield this turn.
+Steps: Cast Peregrine Drake by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Hidden Herbalists from the battlefield to your hand.
+  When Peregrine Drake enters, it triggers, untapping up to five lands.
+  Activate up to five lands by tapping them, adding at least {4}{U}.
+  Cast Hidden Herbalists by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Peregrine Drake from the battlefield to your hand.
+  When Hidden Herbalists enters, it triggers, adding {G}{G}.
+  Repeat.
+
 ## Combo 1061-2665
 Cards: Timestream Navigator + Progenitor Mimic
 Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 290 | Commander: legal | Mana needed: {2}{U}{U} each turn
@@ -2980,7 +3149,7 @@ Steps: Cast Lion's Eye Diamond from your graveyard by paying {0} and discarding 
 
 ## Combo 1062-4011-4377
 Cards: Slogurk, the Overslime + Azusa, Lost but Seeking + Walk the Aeons
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 630 | Commander: legal | Mana needed: {5}{G}{U}{U}{U}
+Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 620 | Commander: legal | Mana needed: {5}{G}{U}{U}{U}
 Produces: Infinite turns; Lock
 Start: Slogurk, the Overslime (battlefield); Azusa, Lost but Seeking (battlefield); Walk the Aeons (hand)
 Prerequisites: You control at least three Islands.
@@ -3025,7 +3194,7 @@ Steps: Cast Slogurk either from your hand or from the command zone by paying {0}
 
 ## Combo 1065-2573-4270-4872
 Cards: Crucible of Worlds + Trade Routes + Bala Ged Recovery // Bala Ged Sanctuary + Time Warp
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 51 | Commander: legal
+Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 52 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Crucible of Worlds (battlefield); Trade Routes (battlefield); Bala Ged Recovery // Bala Ged Sanctuary (hand); Time Warp (hand)
 Prerequisites: Must be able to produce 6UUG on each of your turns.
@@ -5323,7 +5492,7 @@ Steps: Activate two lands by tapping them, adding at least {2}.
 
 ## Combo 1174-1479-3703
 Cards: Kodama of the East Tree + Oboro Breezecaller + Sporemound
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 48 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Oboro Breezecaller (battlefield); Sporemound (battlefield)
 Prerequisites: You are able to play a land this turn.
@@ -5619,7 +5788,7 @@ Steps: Activate another land that enters untapped by tapping it, adding at least
 
 ## Combo 1174-1993-7857
 Cards: Oboro Breezecaller + Budoka Gardener // Dokai, Weaver of Life + Elven Raft-Steerer
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 41 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 42 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Oboro Breezecaller (battlefield); Budoka Gardener // Dokai, Weaver of Life (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Prerequisites: You have a land card in hand that enters the battlefield untapped and can tap to produce at least {1}.
@@ -5633,7 +5802,7 @@ Steps: Activate Budoka Gardener by tapping it, putting a land from your hand ont
 
 ## Combo 1174-2248-7857
 Cards: Oboro Breezecaller + Skyshroud Ranger + Elven Raft-Steerer
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 73 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 74 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Oboro Breezecaller (battlefield); Skyshroud Ranger (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Prerequisites: You have a land card in hand that enters the battlefield untapped and can tap to produce at least {1}.
@@ -5673,7 +5842,7 @@ Notes: You need to control at least six creatures to produce the infinite mana r
 
 ## Combo 1174-3177-7857
 Cards: Oboro Breezecaller + Sakura-Tribe Scout + Elven Raft-Steerer
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 140 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 150 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Oboro Breezecaller (battlefield); Sakura-Tribe Scout (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Prerequisites: You have a land card in hand that enters the battlefield untapped and can tap to produce at least {1}.
@@ -5793,7 +5962,7 @@ Steps: Cast Psychic Pickpocket by paying its mana cost.
 
 ## Combo 1232-1636
 Cards: Intruder Alarm + Nemata, Grove Guardian
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 72 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 73 | Commander: legal
 Produces: Infinite creature tokens; Infinite mana creatures you control can produce; Infinite untap of creatures; Infinite power and toughness for certain creatures until end of turn; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Intruder Alarm (battlefield); Nemata, Grove Guardian (battlefield)
 Prerequisites: You control creatures that can produce at least {2}{G}.
@@ -5863,7 +6032,7 @@ Steps: Activate Experiment Kraj by tapping it, putting a +1/+1 counter on itself
 
 ## Combo 1247-1323-1606
 Cards: Experiment Kraj + Ley Weaver + Pili-Pala
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 140 | Commander: legal | Mana needed: {1} if you only control one mana-producing land
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 130 | Commander: legal | Mana needed: {1} if you only control one mana-producing land
 Produces: Infinite colored mana; Infinite mana lands you control can produce; Infinite +1/+1 counters on creatures you control; Infinite untap of lands you control
 Start: Experiment Kraj (battlefield); Ley Weaver (battlefield); Pili-Pala (battlefield)
 Prerequisites: Experiment Kraj does not have summoning sickness.
@@ -5965,7 +6134,7 @@ Steps: Activate Quicksilver Elemental twice by paying {U}{U}, causing it to gain
 
 ## Combo 1247-1912-2757
 Cards: Pili-Pala + Earthcraft + Biomancer's Familiar
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 84 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 85 | Commander: legal
 Produces: Infinite colored mana; Infinite untap of basic lands you control
 Start: Pili-Pala (battlefield); Earthcraft (battlefield); Biomancer's Familiar (battlefield)
 Prerequisites: You control at least one basic land.
@@ -5997,7 +6166,7 @@ Steps: Activate Pili-Pala by tapping it, adding {1}.
 
 ## Combo 1247-2757-4893
 Cards: Pili-Pala + Earthcraft + Training Grounds
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 82 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 83 | Commander: legal
 Produces: Infinite colored mana; Infinite untap of basic lands you control
 Start: Pili-Pala (battlefield); Earthcraft (battlefield); Training Grounds (battlefield)
 Prerequisites: You control at least one basic land.
@@ -6136,7 +6305,7 @@ Steps: Activate Marvin using Gyre Engineer's ability by tapping it, adding {G}{U
 
 ## Combo 1253-3995-5963
 Cards: Marvin, Murderous Mimic + Gyre Engineer + Horseshoe Crab
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 390 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 380 | Commander: legal
 Produces: Infinite green mana
 Start: Marvin, Murderous Mimic (battlefield); Gyre Engineer (battlefield); Horseshoe Crab (battlefield)
 Prerequisites: Marvin does not have summoning sickness.
@@ -6356,7 +6525,7 @@ Steps: Activate Avatar Kyoshi by tapping it, adding at least {U}{U}{U}{U}{U}.
 
 ## Combo 1268-7308
 Cards: Crab Umbra + Mona Lisa, Science Geek
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 51 | Commander: legal
+Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 52 | Commander: legal
 Produces: Infinite colored mana
 Start: Crab Umbra (battlefield: attached to Mona Lisa); Mona Lisa, Science Geek (battlefield: without summoning sickness and with power 4 or greater)
 Steps: Activate Mona Lisa by tapping it, adding at least {U}{U}{U}{U}
@@ -6426,7 +6595,7 @@ Steps: Activate Priest of Titania by tapping it, adding at least {2}.
 
 ## Combo 1283-1526-3525
 Cards: Circle of Dreams Druid + Pemmin's Aura + Chromatic Orrery
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 50 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal
 Produces: Infinite colored mana
 Start: Circle of Dreams Druid (battlefield); Pemmin's Aura (battlefield); Chromatic Orrery (battlefield)
 Prerequisites: Pemmin's Aura attached to Circle of Dreams Druid.
@@ -6438,7 +6607,7 @@ Steps: Activate Circle of Dreams Druid by tapping it to add at least {G}{G}.
 
 ## Combo 1283-1526-4222
 Cards: Circle of Dreams Druid + Freed from the Real + Chromatic Orrery
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 85 | Commander: legal
 Produces: Infinite colored mana
 Start: Circle of Dreams Druid (battlefield); Freed from the Real (battlefield); Chromatic Orrery (battlefield)
 Prerequisites: Freed from the Real attached to Circle of Dreams Druid.
@@ -6758,7 +6927,7 @@ Steps: Activate Birds of Paradise by tapping it, adding {1}.
 
 ## Combo 1289-5078-5741-5864
 Cards: Valley Floodcaller + Sensei's Divining Top + Birds of Paradise + Crystal Skull, Isu Spyglass
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 28 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal
 Produces: Infinite card draw; Near-infinite power and toughness for certain creatures until end of turn; Near-infinite untap of some creatures you control; Infinite draw triggers; Near-infinite storm count
 Start: Valley Floodcaller (battlefield); Sensei's Divining Top (battlefield, library); Birds of Paradise (battlefield); Crystal Skull, Isu Spyglass (battlefield)
 Prerequisites: Birds of Paradise does not have summoning sickness.
@@ -7381,7 +7550,7 @@ Steps: Activate up to five lands by tapping them, adding at least {2}{G}{U}.
 
 ## Combo 1309-5352
 Cards: Doppelgang + Salvager of Secrets
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 92 | Commander: legal | Mana needed: {15}{G}{U}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 93 | Commander: legal | Mana needed: {15}{G}{U}
 Produces: Infinite creature tokens; Infinite copies of all permanents; Infinite mana permanents you control can produce; Infinite creature ETB; Infinite storm count; Infinite magecraft triggers; Infinite landfall triggers; Return all instant and sorcery cards from your graveyard to your hand
 Start: Doppelgang (hand); Salvager of Secrets (battlefield)
 Prerequisites: There are four permanents on the battlefield that can collectively tap to produce at least {2}{G}{U}.
@@ -7987,7 +8156,7 @@ Steps: Activate Gwenna by tapping it, adding {1}{U} that can only be spent to ca
 
 ## Combo 1322-1409-2691
 Cards: Deadeye Navigator + Ilysian Caryatid + Concordant Crossroads
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 96 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 98 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB
 Start: Deadeye Navigator (battlefield); Ilysian Caryatid (battlefield); Concordant Crossroads (battlefield)
 Prerequisites: Deadeye Navigator is paired with Ilysian Caryatid.
@@ -8484,7 +8653,7 @@ Steps: Activate Experiment Kraj using Viridian Joiner's ability by tapping it, a
 
 ## Combo 1323-3812-3814
 Cards: Experiment Kraj + Argothian Elder + Simic Ragworm
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 330 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 320 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite +1/+1 counters on creatures you control
 Start: Experiment Kraj (battlefield); Argothian Elder (battlefield); Simic Ragworm (battlefield)
 Prerequisites: Experiment Kraj does not have summoning sickness.
@@ -8500,7 +8669,7 @@ Steps: Activate up to two lands you control by tapping them, adding at least {U}
 
 ## Combo 1323-3812-3990
 Cards: Experiment Kraj + Incubation Druid + Simic Ragworm
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 770 | Commander: legal | Mana needed: {U}{U}{U}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 760 | Commander: legal | Mana needed: {U}{U}{U}
 Produces: Infinite mana lands you control can produce; Infinite +1/+1 counters on creatures you control
 Start: Experiment Kraj (battlefield); Incubation Druid (battlefield); Simic Ragworm (battlefield)
 Prerequisites: Experiment Kraj does not have summoning sickness.
@@ -8703,7 +8872,7 @@ Steps: Activate Experiment Kraj using Rofellos's ability by tapping it, adding a
 
 ## Combo 1323-4687-5711
 Cards: Experiment Kraj + Gilder Bairn + Fanatic of Rhonas
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 170 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 160 | Commander: legal
 Produces: Infinite green mana; Infinite proliferate
 Start: Experiment Kraj (battlefield: without summoning sickness); Gilder Bairn (battlefield: with a +1/+1 counter on it); Fanatic of Rhonas (battlefield: with a +1/+1 counter on it)
 Prerequisites: You control a creature with power 4 or greater.
@@ -8858,6 +9027,50 @@ Steps: Cast Ovinomancer by paying {0}.
   Resolve the Ovinomancer trigger from step 2, choosing not to return any lands to your hand.
   Repeat.
   You may also repeat this loop whenever a creature enters the battlefield under an opponent's control.
+
+## Combo 1329-3338-5465-5569
+Cards: Emry, Lurker of the Loch + Mirran Spy + Doc Aurlock, Grizzled Genius + Lantern of Insight
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite storm count
+Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Mirran Spy (battlefield); Doc Aurlock, Grizzled Genius (battlefield); Lantern of Insight (graveyard)
+Steps: Activate Emry by tapping it, targeting Lantern of Insight.
+  Cast Lantern of Insight from your graveyard by paying {0} due to Doc Aurlock
+  Mirran Spy triggers, untapping Emry.
+  Activate Lantern of Insight by tapping and sacrificing it, causing target player to shuffle their library.
+  Repeat.
+
+## Combo 1329-3338-5465-6504
+Cards: Emry, Lurker of the Loch + Mirran Spy + Doc Aurlock, Grizzled Genius + Conjurer's Bauble
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers
+Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Mirran Spy (battlefield); Doc Aurlock, Grizzled Genius (battlefield); Conjurer's Bauble (graveyard)
+Steps: Activate Emry by tapping it, targeting Conjurer's Bauble.
+  Cast Conjurer's Bauble from your graveyard by paying {0} due to Doc Aurlock
+  Mirran Spy triggers, untapping Emry.
+  Activate Conjurer's Bauble by tapping and sacrificing it, allowing you to put up to one card from your graveyard onto the bottom of your library, and then causing you to draw a card.
+  Repeat.
+
+## Combo 1329-3338-5569-7052
+Cards: Emry, Lurker of the Loch + Mirran Spy + Lantern of Insight + Savvy Trader
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite storm count
+Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Mirran Spy (battlefield); Lantern of Insight (graveyard); Savvy Trader (battlefield)
+Steps: Activate Emry by tapping it, targeting Lantern of Insight.
+  Cast Lantern of Insight from your graveyard by paying {0} due to Savvy Trader
+  Mirran Spy triggers, untapping Emry.
+  Activate Lantern of Insight by tapping and sacrificing it, causing target player to shuffle their library.
+  Repeat.
+
+## Combo 1329-3338-6504-7052
+Cards: Emry, Lurker of the Loch + Mirran Spy + Conjurer's Bauble + Savvy Trader
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers
+Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Mirran Spy (battlefield); Conjurer's Bauble (graveyard); Savvy Trader (battlefield)
+Steps: Activate Emry by tapping it, targeting Conjurer's Bauble.
+  Cast Conjurer's Bauble from your graveyard by paying {0} due to Savvy Trader
+  Mirran Spy triggers, untapping Emry.
+  Activate Conjurer's Bauble by tapping and sacrificing it, allowing you to put up to one card from your graveyard onto the bottom of your library, and then causing you to draw a card.
+  Repeat.
 
 ## Combo 1334-1517-2034-3029
 Cards: Rosethorn Acolyte // Seasonal Ritual + Ashnod's Altar + The Mirari Conjecture + Lier, Disciple of the Drowned
@@ -9281,7 +9494,7 @@ Steps: Activate Sanctum Weaver by tapping it, adding at least {G}{G}{G}{G} or {U
 
 ## Combo 1355-3995-5963
 Cards: Marvin, Murderous Mimic + Sanctum Weaver + Horseshoe Crab
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 150 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 160 | Commander: legal
 Produces: Infinite colored mana
 Start: Marvin, Murderous Mimic (battlefield); Sanctum Weaver (battlefield); Horseshoe Crab (battlefield)
 Prerequisites: You control at least two enchantments.
@@ -9403,7 +9616,7 @@ Steps: Play Oboro, Palace in the Clouds.
 
 ## Combo 1362-1479-1692
 Cards: Kodama of the East Tree + Oboro, Palace in the Clouds + Helm of the Host
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 84 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 85 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Oboro, Palace in the Clouds (hand); Helm of the Host (battlefield)
 Steps: Create a nonlegendary copy of Kodama of the East Tree using Helm of the Host (this may involve additional steps depending on the card used).
@@ -9523,7 +9736,7 @@ Steps: Play Oboro, Palace in the Clouds.
 
 ## Combo 1362-1479-3703
 Cards: Kodama of the East Tree + Oboro, Palace in the Clouds + Sporemound
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 140 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 130 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Oboro, Palace in the Clouds (hand); Sporemound (battlefield)
 Steps: Play Oboro, Palace in the Clouds.
@@ -9602,7 +9815,7 @@ Steps: Create a nonlegendary copy of Kodama of the East Tree using Irenicus's Vi
 
 ## Combo 1362-1479-4677
 Cards: Kodama of the East Tree + Oboro, Palace in the Clouds + Zendikar's Roil
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 960 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 950 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Oboro, Palace in the Clouds (hand); Zendikar's Roil (battlefield)
 Steps: Play Oboro, Palace in the Clouds.
@@ -9666,7 +9879,7 @@ Steps: Play Oboro, Palace in the Clouds.
 
 ## Combo 1362-1479-6528
 Cards: Kodama of the East Tree + Oboro, Palace in the Clouds + Elfsworn Giant
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 79 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 78 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Oboro, Palace in the Clouds (hand); Elfsworn Giant (battlefield)
 Steps: Play Oboro, Palace in the Clouds.
@@ -9784,7 +9997,7 @@ Steps: Play Oboro, Palace in the Clouds.
 
 ## Combo 1362-1993-7857
 Cards: Oboro, Palace in the Clouds + Budoka Gardener // Dokai, Weaver of Life + Elven Raft-Steerer
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 28 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Oboro, Palace in the Clouds (hand); Budoka Gardener // Dokai, Weaver of Life (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Prerequisites: You control eight or fewer lands.
@@ -10286,7 +10499,7 @@ Steps: Cause Priest of Titania to become an artifact using Neurok Transmuter.
 
 ## Combo 1376-3263-3525
 Cards: Pemmin's Aura + Priest of Titania + Mycosynth Lattice
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
 Produces: Infinite colored mana
 Start: Pemmin's Aura (battlefield); Priest of Titania (battlefield); Mycosynth Lattice (battlefield)
 Prerequisites: Priest of Titania does not have summoning sickness.
@@ -10298,7 +10511,7 @@ Steps: Activate Priest of Titania by tapping it, adding at least {2}.
 
 ## Combo 1376-3263-4222
 Cards: Freed from the Real + Priest of Titania + Mycosynth Lattice
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
 Produces: Infinite colored mana
 Start: Freed from the Real (battlefield); Priest of Titania (battlefield); Mycosynth Lattice (battlefield)
 Prerequisites: Priest of Titania does not have summoning sickness.
@@ -10310,7 +10523,7 @@ Steps: Activate Priest of Titania by tapping it, adding at least {2}.
 
 ## Combo 1376-4091-4235
 Cards: Priest of Titania + Rings of Brighthearth + Aphetto Alchemist
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
 Produces: Infinite green mana; Infinite mana creatures you control can produce; Infinite untap of creatures you control
 Start: Priest of Titania (battlefield); Rings of Brighthearth (battlefield); Aphetto Alchemist (battlefield)
 Prerequisites: Priest of Titania and Aphetto Alchemist do not have summoning sickness.
@@ -10323,7 +10536,7 @@ Steps: Activate Priest of Titania by tapping it, adding at least {G}{G}{G}.
 
 ## Combo 1376-4235-4644
 Cards: Priest of Titania + Rings of Brighthearth + Tidewater Minion
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite green mana; Infinite mana creatures you control can produce; Infinite untap of creatures you control
 Start: Priest of Titania (battlefield); Rings of Brighthearth (battlefield); Tidewater Minion (battlefield)
 Prerequisites: Priest of Titania and Tidewater Minion do not have summoning sickness.
@@ -11729,7 +11942,7 @@ Steps: Activate Dryad Arbor by paying {1}{U}, blinking it.
 
 ## Combo 1409-2366-3875-4482
 Cards: Dryad Arbor + Deadeye Navigator + Tireless Provisioner + Ancient Greenwarden
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 230 | Commander: legal | Mana needed: {1}{U}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 220 | Commander: legal | Mana needed: {1}{U}
 Produces: Infinite creature ETB; Infinite landfall triggers; Infinite creature LTB
 Start: Dryad Arbor (battlefield); Deadeye Navigator (battlefield); Tireless Provisioner (battlefield); Ancient Greenwarden (battlefield)
 Prerequisites: Deadeye Navigator is paired with Dryad Arbor.
@@ -11815,7 +12028,7 @@ Steps: Activate Sailor of Means by paying {1}{U}, blinking it.
 
 ## Combo 1409-2564-3129-4231
 Cards: Lonis, Cryptozoologist + Deadeye Navigator + Academy Manufactor + Primal Vigor
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal | Mana needed: {1}{U}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal | Mana needed: {1}{U}
 Produces: Infinite lifegain; Infinite artifact tokens; Infinite lifegain triggers; Infinite blinking; Infinite Clue tokens; Infinite creature ETB; Infinite Food tokens; Infinite creature LTB
 Start: Lonis, Cryptozoologist (battlefield); Deadeye Navigator (battlefield); Academy Manufactor (battlefield); Primal Vigor (battlefield)
 Prerequisites: Deadeye Navigator is paired with another creature.
@@ -11828,7 +12041,7 @@ Steps: Activate Deadeye Navigator by paying {1}{U}, blinking itself.
 
 ## Combo 1409-2564-4231-4772
 Cards: Lonis, Cryptozoologist + Deadeye Navigator + Academy Manufactor + Doubling Season
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 210 | Commander: legal | Mana needed: {1}{U}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 200 | Commander: legal | Mana needed: {1}{U}
 Produces: Infinite lifegain; Infinite artifact tokens; Infinite lifegain triggers; Infinite blinking; Infinite Clue tokens; Infinite creature ETB; Infinite Food tokens; Infinite creature LTB
 Start: Lonis, Cryptozoologist (battlefield); Deadeye Navigator (battlefield); Academy Manufactor (battlefield); Doubling Season (battlefield)
 Prerequisites: Deadeye Navigator is paired with another creature.
@@ -11880,7 +12093,7 @@ Steps: Activate Gwenna by tapping it, adding {1}{U} that can only be spent to ca
 
 ## Combo 1409-2691-3499
 Cards: Deadeye Navigator + Ilysian Caryatid + Akroma's Memorial
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB
 Start: Deadeye Navigator (battlefield); Ilysian Caryatid (battlefield); Akroma's Memorial (battlefield)
 Prerequisites: Deadeye Navigator is paired with Ilysian Caryatid.
@@ -12895,7 +13108,7 @@ Steps: Activate a land by using the land granted to it by Tectonic Split by tapp
 
 ## Combo 1432-2661-4513
 Cards: Gwenna, Eyes of Gaea + Ioreth of the Healing House + Saryth, the Viper's Fang
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 170 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 180 | Commander: legal
 Produces: Infinite mana legendary creatures you control can produce; Infinite untap of legendary creatures you control
 Start: Gwenna, Eyes of Gaea (battlefield); Ioreth of the Healing House (battlefield); Saryth, the Viper's Fang (battlefield)
 Prerequisites: All permanents do not have summoning sickness.
@@ -13959,7 +14172,7 @@ Steps: Activate Poison Dart Frog's first ability by tapping it, adding {1}.
 
 ## Combo 1456-5078-7052
 Cards: Sensei's Divining Top + One with the Multiverse + Savvy Trader
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 630 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 640 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); One with the Multiverse (battlefield); Savvy Trader (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -14672,7 +14885,7 @@ Steps: Play Simic Growth Chamber.
 
 ## Combo 1479-1671-7885
 Cards: Kodama of the East Tree + Simic Growth Chamber + Down in the Valley
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 50 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 49 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Simic Growth Chamber (hand); Down in the Valley (battlefield: with two or more lore counters on it)
 Steps: Play Simic Growth Chamber.
@@ -14714,7 +14927,7 @@ Steps: Play Simic Growth Chamber.
 
 ## Combo 1479-1671-7893
 Cards: Kodama of the East Tree + Simic Growth Chamber + Thranduil, Sindarin Liege // Silvan Rally
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 360 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 370 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Simic Growth Chamber (hand); Thranduil, Sindarin Liege // Silvan Rally (battlefield)
 Steps: Play Simic Growth Chamber.
@@ -14749,7 +14962,7 @@ Steps: Cast Kodama of the East Tree by paying {4}{G}{G}.
 
 ## Combo 1479-1817-5621
 Cards: Kodama of the East Tree + Double Major + Arid Archway
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 82 | Commander: legal | Mana needed: {4}{G}{G}{G}{U}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 83 | Commander: legal | Mana needed: {4}{G}{G}{G}{U}
 Produces: Infinite landfall triggers
 Start: Kodama of the East Tree (hand, command zone); Double Major (hand); Arid Archway (hand)
 Steps: Cast Kodama of the East Tree by paying {4}{G}{G} plus commander tax, if applicable.
@@ -14901,7 +15114,7 @@ Steps: Fetch a land using Evolving Wilds.
 
 ## Combo 1479-2638-4543
 Cards: Kodama of the East Tree + Trench Behemoth + Tireless Tracker
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 150 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 140 | Commander: legal
 Produces: Infinite card draw; Infinite mana basic lands you control can produce; Infinite artifact tokens; Infinite Clue tokens; Infinite draw triggers; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Trench Behemoth (battlefield); Tireless Tracker (battlefield)
 Prerequisites: You have a land card in hand.
@@ -17718,7 +17931,7 @@ Steps: Cast Altered Ego by paying {7}{G}{U}, causing it to enter the battlefield
 
 ## Combo 1494-4428-4802
 Cards: Sage of Hours + Master Biomancer + Thassa, Deep-Dwelling
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 45 | Commander: legal
+Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 46 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Sage of Hours (battlefield); Master Biomancer (battlefield); Thassa, Deep-Dwelling (battlefield)
 Prerequisites: Master Biomancer has power 5 or greater.
@@ -17946,7 +18159,7 @@ Steps: Cause Circle of Dreams Druid to become an artifact using Neurok Transmute
 
 ## Combo 1526-3263-3525
 Cards: Circle of Dreams Druid + Pemmin's Aura + Mycosynth Lattice
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
 Produces: Infinite colored mana
 Start: Circle of Dreams Druid (battlefield); Pemmin's Aura (battlefield); Mycosynth Lattice (battlefield)
 Prerequisites: Pemmin's Aura attached to Circle of Dreams Druid.
@@ -17958,7 +18171,7 @@ Steps: Activate Circle of Dreams Druid by tapping it to add at least {G}{G}.
 
 ## Combo 1526-3263-4222
 Cards: Circle of Dreams Druid + Freed from the Real + Mycosynth Lattice
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
 Produces: Infinite colored mana
 Start: Circle of Dreams Druid (battlefield); Freed from the Real (battlefield); Mycosynth Lattice (battlefield)
 Prerequisites: Freed from the Real attached to Circle of Dreams Druid.
@@ -18432,7 +18645,7 @@ Steps: Activate Ley Weaver by tapping it, untapping two lands you control.
 
 ## Combo 1606-3812-5963
 Cards: Marvin, Murderous Mimic + Ley Weaver + Simic Ragworm
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 84 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 83 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite untap of lands you control
 Start: Marvin, Murderous Mimic (battlefield: without summoning sickness); Ley Weaver (battlefield); Simic Ragworm (battlefield)
 Prerequisites: You control at least two lands that can tap to produce at least {1}{U}.
@@ -18725,7 +18938,7 @@ Steps: Activate the land with Spawning Grounds attached by tapping it, creating 
 
 ## Combo 1636-1798
 Cards: Voice of the Woods + Intruder Alarm
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 74 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 75 | Commander: legal
 Produces: Infinite creature tokens; Infinite mana creatures you control can produce; Infinite untap of creatures; Infinite creature ETB
 Start: Voice of the Woods (battlefield); Intruder Alarm (battlefield)
 Prerequisites: You control at least five untapped Elves.
@@ -19909,7 +20122,7 @@ Steps: Play Glacial Chasm either from your hand or from your graveyard.
 
 ## Combo 1637-1863-4377-4423
 Cards: Aesi, Tyrant of Gyre Strait + Walk the Aeons + Mystic Sanctuary + Perennial Behemoth
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 64 | Commander: legal | Mana needed: {4}{U}{U} each turn
+Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 63 | Commander: legal | Mana needed: {4}{U}{U} each turn
 Produces: Infinite turns; Lock
 Start: Aesi, Tyrant of Gyre Strait (battlefield); Walk the Aeons (hand); Mystic Sanctuary (battlefield); Perennial Behemoth (battlefield)
 Prerequisites: You control at least four Islands.
@@ -20011,7 +20224,7 @@ Steps: Play Glacial Chasm either from your hand or from your graveyard.
 
 ## Combo 1637-3946-7705
 Cards: Glacial Chasm + Aesi, Tyrant of Gyre Strait + Mole Man, Moloid Master
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 660 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 670 | Commander: legal
 Produces: Lock; Prevent all damage that would be dealt to you
 Start: Glacial Chasm (battlefield); Aesi, Tyrant of Gyre Strait (battlefield); Mole Man, Moloid Master (battlefield)
 Prerequisites: You control another land.
@@ -20084,7 +20297,7 @@ Steps: Cast Walk the Aeons by paying {4}{U}{U}, sacrificing Mystic Sanctuary and
 
 ## Combo 1637-4377-4423-5967
 Cards: Aesi, Tyrant of Gyre Strait + Walk the Aeons + Mystic Sanctuary + Walk-In Closet // Forgotten Cellar
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 530 | Commander: legal | Mana needed: {4}{U}{U} each turn
+Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 520 | Commander: legal | Mana needed: {4}{U}{U} each turn
 Produces: Infinite turns; Lock
 Start: Aesi, Tyrant of Gyre Strait (battlefield); Walk the Aeons (hand); Mystic Sanctuary (battlefield); Walk-In Closet // Forgotten Cellar (battlefield)
 Prerequisites: Walk-in Closet is unlocked.
@@ -21108,7 +21321,7 @@ Steps: Cast Animate Land by paying {G}, causing Simic Growth Chamber to become a
 
 ## Combo 1671-3177-7857
 Cards: Simic Growth Chamber + Sakura-Tribe Scout + Elven Raft-Steerer
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 840 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 850 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Simic Growth Chamber (hand); Sakura-Tribe Scout (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Steps: Activate Sakura-Tribe Scout by tapping it, putting Simic Growth Chamber from your hand onto the battlefield.
@@ -21286,7 +21499,7 @@ Steps: Play Simic Growth Chamber. When it enters untapped due to Horizon Explore
 
 ## Combo 1671-5478-5702-6850
 Cards: Springheart Nantuko + Spelunking + Simic Growth Chamber + Icetill Explorer
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 2400 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 2500 | Commander: legal
 Produces: Infinite self-mill; Infinite creature tokens; Infinite blue mana; Infinite green mana; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Icetill Explorer); Spelunking (battlefield); Simic Growth Chamber (hand); Icetill Explorer (battlefield)
 Prerequisites: You are able to play a land this turn
@@ -21785,7 +21998,7 @@ Steps: Activate Arixmethes by tapping it, adding {U}{G}.
 
 ## Combo 1719-3525-7069
 Cards: Vizier of Tumbling Sands + Pemmin's Aura + Tectonic Split
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite colored mana; Infinite mana permanents you control can produce; Infinite untap of permanents you control
 Start: Vizier of Tumbling Sands (battlefield: without summoning sickness); Pemmin's Aura (battlefield: attached to Vizier of Tumbling Sands); Tectonic Split (battlefield)
 Prerequisites: You control an untapped land.
@@ -21811,7 +22024,7 @@ Steps: Activate an Island by tapping it, adding {U}.
 
 ## Combo 1719-4222-7069
 Cards: Vizier of Tumbling Sands + Freed from the Real + Tectonic Split
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite colored mana; Infinite mana permanents you control can produce; Infinite untap of permanents you control
 Start: Vizier of Tumbling Sands (battlefield: without summoning sickness); Freed from the Real (battlefield: attached to Vizier of Tumbling Sands); Tectonic Split (battlefield)
 Prerequisites: You control an untapped land.
@@ -22094,7 +22307,7 @@ Steps: Activate The Core by tapping it, adding at least {G}{G}{G} or {U}{U}{U}.
 
 ## Combo 1744-2021-3112
 Cards: Slurrk, All-Ingesting + Simic Ascendancy + Rite of Replication
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal | Mana needed: {7}{U}{U}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 85 | Commander: legal | Mana needed: {7}{U}{U}
 Produces: Win the game at the beginning of your next upkeep
 Start: Slurrk, All-Ingesting (battlefield); Simic Ascendancy (battlefield); Rite of Replication (hand)
 Steps: Cast Rite of Replication kicked by paying {7}{U}{U}, creating five token copies of Slurrk.
@@ -25396,7 +25609,7 @@ Steps: Activate Altar of Dementia by sacrificing another creature.
 
 ## Combo 1993-2137-7857
 Cards: Uyo, Silent Prophet + Budoka Gardener // Dokai, Weaver of Life + Elven Raft-Steerer
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal | Mana needed: {2} plus enough mana to cast the instant or sorcery
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal | Mana needed: {2} plus enough mana to cast the instant or sorcery
 Produces: Infinite copies of instant and sorcery spells on the stack; Infinite landfall triggers; Infinite magecraft triggers
 Start: Uyo, Silent Prophet (battlefield); Budoka Gardener // Dokai, Weaver of Life (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Prerequisites: You control two lands that enter the battlefield untapped and can tap to produce mana.
@@ -25440,7 +25653,7 @@ Steps: Activate Patchwork Crawler using Budoka Gardener's ability by tapping it,
 
 ## Combo 1993-4270-7857
 Cards: Trade Routes + Budoka Gardener // Dokai, Weaver of Life + Elven Raft-Steerer
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Trade Routes (battlefield); Budoka Gardener // Dokai, Weaver of Life (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Prerequisites: You control a land that enters the battlefield untapped and can tap to produce at least {1}.
@@ -25453,7 +25666,7 @@ Steps: Activate the land by tapping it, adding at least {1}.
 
 ## Combo 1993-4300-7857
 Cards: Meloku the Clouded Mirror + Budoka Gardener // Dokai, Weaver of Life + Elven Raft-Steerer
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 64 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 66 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Meloku the Clouded Mirror (battlefield); Budoka Gardener // Dokai, Weaver of Life (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Prerequisites: You control eight or fewer lands.
@@ -25466,7 +25679,7 @@ Steps: Activate Budoka Gardener by tapping it, putting the land from your hand o
 
 ## Combo 1993-5621-7857
 Cards: Budoka Gardener // Dokai, Weaver of Life + Arid Archway + Elven Raft-Steerer
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Budoka Gardener // Dokai, Weaver of Life (battlefield: without summoning sickness); Arid Archway (hand); Elven Raft-Steerer (battlefield)
 Prerequisites: You control eight or fewer lands.
@@ -26556,7 +26769,7 @@ Steps: Activate Lotus Field by tapping it, adding {U}{U}{U}.
 
 ## Combo 2026-3525-7069
 Cards: Voyaging Satyr + Pemmin's Aura + Tectonic Split
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite colored mana; Infinite mana lands you control can produce; Infinite untap of lands you control
 Start: Voyaging Satyr (battlefield: without summoning sickness); Pemmin's Aura (battlefield: attached to Voyaging Satyr); Tectonic Split (battlefield)
 Prerequisites: You control an untapped land.
@@ -26607,7 +26820,7 @@ Steps: Activate Lotus Field by tapping it, adding {U}{U}{U}.
 
 ## Combo 2026-4222-7069
 Cards: Voyaging Satyr + Freed from the Real + Tectonic Split
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite colored mana; Infinite mana lands you control can produce; Infinite untap of lands you control
 Start: Voyaging Satyr (battlefield: without summoning sickness); Freed from the Real (battlefield: attached to Voyaging Satyr); Tectonic Split (battlefield)
 Prerequisites: You control an untapped land.
@@ -27297,7 +27510,7 @@ Steps: Activate Ashnod's Altar by sacrificing Moritte of the Frost, adding {C}{C
 
 ## Combo 2034-3388-3607
 Cards: Moritte of the Frost + River Kelpie + Ashnod's Altar
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Infinite draw triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers
 Start: Moritte of the Frost (battlefield); River Kelpie (battlefield); Ashnod's Altar (battlefield)
 Prerequisites: Moritte of the Frost does not have a -1/-1 counter on it.
@@ -27667,7 +27880,7 @@ Steps: Activate Arbor Elf by tapping it, untapping the enchanted forest.
 
 ## Combo 2050-3525-3547
 Cards: Arbor Elf + Pemmin's Aura + Grafted Growth
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 67 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 68 | Commander: legal
 Produces: Infinite colored mana
 Start: Arbor Elf (battlefield); Pemmin's Aura (battlefield); Grafted Growth (battlefield)
 Prerequisites: Pemmin's Aura attached to Arbor Elf.
@@ -27893,7 +28106,7 @@ Steps: Cast Walk the Aeons with buyback by paying {4}{U}{U} and sacrificing thre
 
 ## Combo 2051-4011-4377-4423
 Cards: Walk the Aeons + Life from the Loam + Azusa, Lost but Seeking + Mystic Sanctuary
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 710 | Commander: legal | Mana needed: {10}{G}{G}{U}{U}{U}{U}
+Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 700 | Commander: legal | Mana needed: {10}{G}{G}{U}{U}{U}{U}
 Produces: Infinite turns; Lock
 Start: Walk the Aeons (hand); Life from the Loam (hand); Azusa, Lost but Seeking (battlefield); Mystic Sanctuary (battlefield)
 Prerequisites: You control at least three additional Islands.
@@ -28718,7 +28931,7 @@ Steps: Activate the basic land with Fertile Ground attached by tapping it, addin
 
 ## Combo 2066-2872-3525
 Cards: Clever Conjurer + Pemmin's Aura + Fertile Ground
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 100 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 110 | Commander: legal
 Produces: Infinite mana permanents you control can produce; Infinite untap of permanents you control
 Start: Clever Conjurer (battlefield); Pemmin's Aura (battlefield); Fertile Ground (battlefield)
 Prerequisites: Pemmin's Aura attached to Clever Conjurer.
@@ -29367,7 +29580,7 @@ Notes: If Emeritus of Abundance is prepared when starting the combo, you can for
 
 ## Combo 2104-2493-2665
 Cards: Progenitor Mimic + Temporal Manipulation + Archaeomancer
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 22 | Commander: legal
+Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 21 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Progenitor Mimic (battlefield); Temporal Manipulation (battlefield); Archaeomancer (battlefield)
 Prerequisites: Enough mana available to cast the extra turn spell each turn.
@@ -30523,7 +30736,7 @@ Steps: Cast Awaken the Woods with X equal to 3 by paying {3}{G}{G}.
 
 ## Combo 2137-3177-7857
 Cards: Uyo, Silent Prophet + Sakura-Tribe Scout + Elven Raft-Steerer
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 64 | Commander: legal | Mana needed: {2} plus enough mana to cast the instant or sorcery
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 65 | Commander: legal | Mana needed: {2} plus enough mana to cast the instant or sorcery
 Produces: Infinite copies of instant and sorcery spells on the stack; Infinite landfall triggers; Infinite magecraft triggers
 Start: Uyo, Silent Prophet (battlefield); Sakura-Tribe Scout (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Prerequisites: You control two lands that enter the battlefield untapped and can tap to produce mana.
@@ -30909,7 +31122,7 @@ Steps: Activate Lotus Field by tapping it, adding {U}{U}{U}.
 
 ## Combo 2174-3525-7069
 Cards: Juniper Order Druid + Pemmin's Aura + Tectonic Split
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite colored mana; Infinite mana lands you control can produce; Infinite untap of lands you control
 Start: Juniper Order Druid (battlefield: without summoning sickness); Pemmin's Aura (battlefield: attached to Juniper Order Druid); Tectonic Split (battlefield)
 Prerequisites: You control an untapped land.
@@ -30961,7 +31174,7 @@ Steps: Activate Lotus Field by tapping it, adding {U}{U}{U}.
 
 ## Combo 2174-4222-7069
 Cards: Juniper Order Druid + Freed from the Real + Tectonic Split
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite colored mana; Infinite mana lands you control can produce; Infinite untap of lands you control
 Start: Juniper Order Druid (battlefield: without summoning sickness); Freed from the Real (battlefield: attached to Juniper Order Druid); Tectonic Split (battlefield)
 Prerequisites: You control an untapped land.
@@ -32217,7 +32430,7 @@ Notes: Once you have infinite green mana, you may activate Leyline of Abundance 
 
 ## Combo 2464-3099-4222
 Cards: Song of Freyalise + Freed from the Real + Leyline of Abundance
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal
 Produces: Infinite green mana; Infinite +1/+1 counters on creatures you control
 Start: Song of Freyalise (battlefield); Freed from the Real (battlefield); Leyline of Abundance (battlefield)
 Prerequisites: Freed from the Real attached to a creature that does not have summoning sickness.
@@ -32450,7 +32663,7 @@ Steps: Activate Horseshoe Crab by tapping it, adding {U}.
 
 ## Combo 2464-4222-7065
 Cards: Tui and La, Moon and Ocean + Song of Freyalise + Freed from the Real
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal
 Produces: Infinite looting; Near-infinite +1/+1 counters on a creature; Infinite draw triggers; Infinite self-discard triggers
 Start: Tui and La, Moon and Ocean (battlefield: without summoning sickness); Song of Freyalise (battlefield); Freed from the Real (battlefield: attached to Tui and La)
 Prerequisites: Song of Freyalise's first or second chapter ability has triggered this turn.
@@ -33059,241 +33272,3 @@ Steps: Cast Ugin's Nexus by paying {5}.
   Activate Krark-Clan Ironworks by sacrificing the Ugin's Nexus token, adding {C}{C}.
   The Ugin's Nexus token is exiled instead of being put into your graveyard, causing you to take an extra turn after this one.
   Repeat each turn.
-
-## Combo 2538-3139-3652-3676
-Cards: Tangleroot + Words of Wind + The Great Henge + Ornithopter
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 3 | Commander: legal
-Produces: Return all permanents opponents control to their owner's hand; Infinite artifact ETB; Infinite artifact LTB; Infinite creature LTB; Infinite creature ETB; Infinite storm count; Mass Land Denial
-Start: Tangleroot (battlefield); Words of Wind (battlefield); The Great Henge (battlefield); Ornithopter (hand)
-Steps: Cast Ornithopter by paying {0}.
-  Tangleroot triggers, adding {G}.
-  When Ornithopter enters the battlefield, The Great Henge triggers.
-  Holding priority, activate Words of Wind by paying {1}, replacing the next card you draw.
-  Resolve the The Great Henge trigger, causing you to return Ornithopter from the battlefield to your hand, and causing each opponent to return a permanent they control from the battlefield to your hand.
-  Repeat.
-
-## Combo 2538-3139-3661-3676
-Cards: Tangleroot + Words of Wind + The Great Henge + Shield Sphere
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 1 | Commander: legal
-Produces: Return all permanents opponents control to their owner's hand; Infinite artifact ETB; Infinite artifact LTB; Infinite creature LTB; Infinite creature ETB; Infinite storm count; Mass Land Denial
-Start: Tangleroot (battlefield); Words of Wind (battlefield); The Great Henge (battlefield); Shield Sphere (hand)
-Steps: Cast Shield Sphere by paying {0}.
-  Tangleroot triggers, adding {G}.
-  When Shield Sphere enters the battlefield, The Great Henge triggers.
-  Holding priority, activate Words of Wind by paying {1}, replacing the next card you draw.
-  Resolve the The Great Henge trigger, causing you to return Shield Sphere from the battlefield to your hand, and causing each opponent to return a permanent they control from the battlefield to your hand.
-  Repeat.
-
-## Combo 2538-3652-3676-4052
-Cards: Tangleroot + Words of Wind + Ornithopter + Kindred Discovery
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 1 | Commander: legal
-Produces: Return all permanents opponents control to their owner's hand; Infinite artifact ETB; Infinite artifact LTB; Infinite creature LTB; Infinite creature ETB; Infinite storm count; Mass Land Denial
-Start: Tangleroot (battlefield); Words of Wind (battlefield); Ornithopter (hand); Kindred Discovery (battlefield)
-Prerequisites: "Thopter" chosen with Kindred Discovery.
-Steps: Cast Ornithopter by paying {0}.
-  Tangleroot triggers, adding {G}.
-  When Ornithopter enters the battlefield, Kindred Discovery triggers.
-  Holding priority, activate Words of Wind by paying {1}, replacing the next card you draw.
-  Resolve the Kindred Discovery trigger, causing you to return Ornithopter from the battlefield to your hand, and causing each opponent to return a permanent they control from the battlefield to your hand.
-  Repeat.
-
-## Combo 2538-3652-3676-5187
-Cards: Tangleroot + Words of Wind + Ornithopter + Guardian Project
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 3 | Commander: legal
-Produces: Return all permanents opponents control to their owner's hand; Infinite artifact ETB; Infinite artifact LTB; Infinite creature LTB; Infinite creature ETB; Infinite storm count; Mass Land Denial
-Start: Tangleroot (battlefield); Words of Wind (battlefield); Ornithopter (hand); Guardian Project (battlefield)
-Steps: Cast Ornithopter by paying {0}.
-  Tangleroot triggers, adding {G}.
-  When Ornithopter enters the battlefield, Guardian Project triggers.
-  Holding priority, activate Words of Wind by paying {1}, replacing the next card you draw.
-  Resolve the Guardian Project trigger, causing you to return Ornithopter from the battlefield to your hand, and causing each opponent to return a permanent they control from the battlefield to your hand.
-  Repeat.
-
-## Combo 2538-3652-3676-6193
-Cards: Tangleroot + Words of Wind + Ornithopter + Soul of the Harvest
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 2 | Commander: legal
-Produces: Return all permanents opponents control to their owner's hand; Infinite artifact ETB; Infinite artifact LTB; Infinite creature LTB; Infinite creature ETB; Infinite storm count; Mass Land Denial
-Start: Tangleroot (battlefield); Words of Wind (battlefield); Ornithopter (hand); Soul of the Harvest (battlefield)
-Steps: Cast Ornithopter by paying {0}.
-  Tangleroot triggers, adding {G}.
-  When Ornithopter enters the battlefield, Soul of the Harvest triggers.
-  Holding priority, activate Words of Wind by paying {1}, replacing the next card you draw.
-  Resolve the Soul of the Harvest trigger, causing you to return Ornithopter from the battlefield to your hand, and causing each opponent to return a permanent they control from the battlefield to your hand.
-  Repeat.
-
-## Combo 2538-3661-3676-4052
-Cards: Tangleroot + Words of Wind + Shield Sphere + Kindred Discovery
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
-Produces: Return all permanents opponents control to their owner's hand; Infinite artifact ETB; Infinite artifact LTB; Infinite creature LTB; Infinite creature ETB; Infinite storm count; Mass Land Denial
-Start: Tangleroot (battlefield); Words of Wind (battlefield); Shield Sphere (hand); Kindred Discovery (battlefield)
-Prerequisites: "Wall" chosen with Kindred Discovery.
-Steps: Cast Shield Sphere by paying {0}.
-  Tangleroot triggers, adding {G}.
-  When Shield Sphere enters the battlefield, Kindred Discovery triggers.
-  Holding priority, activate Words of Wind by paying {1}, replacing the next card you draw.
-  Resolve the Kindred Discovery trigger, causing you to return Shield Sphere from the battlefield to your hand, and causing each opponent to return a permanent they control from the battlefield to your hand.
-  Repeat.
-
-## Combo 2538-3661-3676-5187
-Cards: Tangleroot + Words of Wind + Shield Sphere + Guardian Project
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 5 | Commander: legal
-Produces: Return all permanents opponents control to their owner's hand; Infinite artifact ETB; Infinite artifact LTB; Infinite creature LTB; Infinite creature ETB; Infinite storm count; Mass Land Denial
-Start: Tangleroot (battlefield); Words of Wind (battlefield); Shield Sphere (hand); Guardian Project (battlefield)
-Steps: Cast Shield Sphere by paying {0}.
-  Tangleroot triggers, adding {G}.
-  When Shield Sphere enters the battlefield, Guardian Project triggers.
-  Holding priority, activate Words of Wind by paying {1}, replacing the next card you draw.
-  Resolve the Guardian Project trigger, causing you to return Shield Sphere from the battlefield to your hand, and causing each opponent to return a permanent they control from the battlefield to your hand.
-  Repeat.
-
-## Combo 2538-3661-3676-6193
-Cards: Tangleroot + Words of Wind + Shield Sphere + Soul of the Harvest
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 1 | Commander: legal
-Produces: Return all permanents opponents control to their owner's hand; Infinite artifact ETB; Infinite artifact LTB; Infinite creature LTB; Infinite creature ETB; Infinite storm count; Mass Land Denial
-Start: Tangleroot (battlefield); Words of Wind (battlefield); Shield Sphere (hand); Soul of the Harvest (battlefield)
-Steps: Cast Shield Sphere by paying {0}.
-  Tangleroot triggers, adding {G}.
-  When Shield Sphere enters the battlefield, Soul of the Harvest triggers.
-  Holding priority, activate Words of Wind by paying {1}, replacing the next card you draw.
-  Resolve the Soul of the Harvest trigger, causing you to return Shield Sphere from the battlefield to your hand, and causing each opponent to return a permanent they control from the battlefield to your hand.
-  Repeat.
-
-## Combo 2540-3430-3812
-Cards: Simic Ragworm + Jiang Yanggu, Wildcrafter + Nyxbloom Ancient
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
-Produces: Infinite colored mana
-Start: Simic Ragworm (battlefield); Jiang Yanggu, Wildcrafter (battlefield); Nyxbloom Ancient (battlefield)
-Prerequisites: Simic Ragworm does not have summoning sickness.
-  Simic Ragworm has at least one +1/+1 counter on it.
-Steps: Activate Simic Ragworm by tapping it, adding {U}{U}{U}.
-  Activate Simic Ragworm by paying {U}, untapping it.
-  Repeat.
-
-## Combo 2540-3430-3995
-Cards: Horseshoe Crab + Jiang Yanggu, Wildcrafter + Nyxbloom Ancient
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal
-Produces: Infinite colored mana
-Start: Horseshoe Crab (battlefield); Jiang Yanggu, Wildcrafter (battlefield); Nyxbloom Ancient (battlefield)
-Prerequisites: Horseshoe Crab does not have summoning sickness.
-  Horseshoe Crab has at least one +1/+1 counter on it.
-Steps: Activate Horseshoe Crab by tapping it, adding {U}{U}{U}.
-  Activate Horseshoe Crab by paying {U}, untapping it.
-  Repeat.
-
-## Combo 2540-3430-4824
-Cards: Soliton + Jiang Yanggu, Wildcrafter + Nyxbloom Ancient
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
-Produces: Infinite colored mana
-Start: Soliton (battlefield); Jiang Yanggu, Wildcrafter (battlefield); Nyxbloom Ancient (battlefield)
-Prerequisites: Soliton does not have summoning sickness.
-  Soliton has at least one +1/+1 counter on it.
-Steps: Activate Soliton by tapping it, adding {U}{U}{U}.
-  Activate Soliton by paying {U}, untapping it.
-  Repeat.
-
-## Combo 2540-3430-5137
-Cards: Morphling + Jiang Yanggu, Wildcrafter + Nyxbloom Ancient
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
-Produces: Infinite colored mana
-Start: Morphling (battlefield); Jiang Yanggu, Wildcrafter (battlefield); Nyxbloom Ancient (battlefield)
-Prerequisites: Morphling does not have summoning sickness.
-  Morphling has at least one +1/+1 counter on it.
-Steps: Activate Morphling by tapping it, adding {U}{U}{U}.
-  Activate Morphling's first ability by paying {U}, untapping it.
-  Repeat.
-
-## Combo 2544-3430-5116
-Cards: Filigree Sages + Gilded Lotus + Nyxbloom Ancient
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 53 | Commander: legal
-Produces: Infinite colored mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
-Start: Filigree Sages (battlefield); Gilded Lotus (battlefield); Nyxbloom Ancient (battlefield)
-Steps: Activate Gilded Lotus by tapping it, adding nine {U}.
-  Activate Filigree Sages by paying {2}{U}, untapping Gilded Lotus.
-  Repeat.
-
-## Combo 2544-3499-4024-4289
-Cards: Horn of Gondor + Filigree Sages + Cryptolith Rite + Akroma's Memorial
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {3}
-Produces: Infinite colored mana; Infinite creature tokens with haste; Infinite mana artifacts you control can produce; Infinite creature ETB; Infinite untap of artifacts you control
-Start: Horn of Gondor (battlefield); Filigree Sages (battlefield); Cryptolith Rite (battlefield); Akroma's Memorial (battlefield)
-Prerequisites: You control at least six Humans.
-Steps: Activate Horn of Gondor by paying {3} and tapping it, creating at least six 1/1 Human Soldier creature tokens.
-  Activate six Human Soldiers by tapping them, adding {5}{U}.
-  Activate Filigree Sages by paying {2}{U}, untapping Horn of Gondor.
-  Repeat.
-
-## Combo 2556-2564-4231-4598
-Cards: Lonis, Cryptozoologist + Academy Manufactor + Mnemonic Wall + Essence Flux
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {U}
-Produces: Infinite artifact tokens; Infinite Clue tokens; Infinite creature ETB; Infinite Food tokens; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
-Start: Lonis, Cryptozoologist (battlefield); Academy Manufactor (battlefield); Mnemonic Wall (battlefield); Essence Flux (hand)
-Steps: Cast Essence Flux by paying {U}, blinking Mnemonic Wall.
-  Mnemonic Wall enters the battlefield, triggering itself and Lonis.
-  Resolve the Mnemonic Wall trigger, returning Essence Flux from your graveyard to your hand.
-  Resolve the Lonis trigger, creating a Food, a Clue, and a Treasure token.
-  Activate the Treasure token by tapping and sacrificing it, adding {U}.
-  Repeat.
-
-## Combo 2556-2665-3617
-Cards: Progenitor Mimic + Mnemonic Wall + Time Walk
-Color identity: GU | Bracket: none (not legal) | Popularity: 0 | Commander: not legal
-Produces: Infinite turns; Lock
-Start: Progenitor Mimic (battlefield); Mnemonic Wall (battlefield); Time Walk (battlefield)
-Prerequisites: Enough mana available to cast the extra turn spell each turn.
-  Progenitor Mimic is a copy of Mnemonic Wall.
-Steps: Cast Time Walk by paying its mana cost, taking an extra turn after this one.
-  At the beginning of your next upkeep, Progenitor Mimic triggers, creating a token copy of Mnemonic Wall.
-  When the token Mnemonic Wall enters the battlefield, it triggers itself, returning Time Walk from your graveyard to your hand.
-  Repeat.
-
-## Combo 2556-2665-4377
-Cards: Progenitor Mimic + Mnemonic Wall + Walk the Aeons
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 6 | Commander: legal
-Produces: Infinite turns; Lock
-Start: Progenitor Mimic (battlefield); Mnemonic Wall (battlefield); Walk the Aeons (battlefield)
-Prerequisites: Enough mana available to cast the extra turn spell each turn.
-  Progenitor Mimic is a copy of Mnemonic Wall.
-Steps: Cast Walk the Aeons by paying its mana cost, taking an extra turn after this one.
-  At the beginning of your next upkeep, Progenitor Mimic triggers, creating a token copy of Mnemonic Wall.
-  When the token Mnemonic Wall enters the battlefield, it triggers itself, returning Walk the Aeons from your graveyard to your hand.
-  Repeat.
-
-## Combo 2556-2665-4872
-Cards: Progenitor Mimic + Mnemonic Wall + Time Warp
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 6 | Commander: legal
-Produces: Infinite turns; Lock
-Start: Progenitor Mimic (battlefield); Mnemonic Wall (battlefield); Time Warp (battlefield)
-Prerequisites: Enough mana available to cast the extra turn spell each turn.
-  Progenitor Mimic is a copy of Mnemonic Wall.
-Steps: Cast Time Warp by paying its mana cost, taking an extra turn after this one.
-  At the beginning of your next upkeep, Progenitor Mimic triggers, creating a token copy of Mnemonic Wall.
-  When the token Mnemonic Wall enters the battlefield, it triggers itself, returning Time Warp from your graveyard to your hand.
-  Repeat.
-
-## Combo 2556-2665-5733
-Cards: Progenitor Mimic + Mnemonic Wall + Notorious Throng
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {5}{U} each turn
-Produces: Infinite turns; Lock
-Start: Progenitor Mimic (battlefield); Mnemonic Wall (battlefield); Notorious Throng (hand)
-Prerequisites: Progenitor Mimic on the battlefield as a copy of Mnemonic Wall.
-  You control at least one Rogue that does not have summoning sickness and cannot be blocked by an opponent.
-Steps: Deal combat damage to an opponent using a Rogue.
-  Cast Notorious Throng for its prowl cost by paying {5}{U}, causing you to take an extra turn after this one.
-  At the beginning of your next upkeep, Progenitor Mimic triggers, creating a token copy of Mnemonic Wall.
-  When the Mnemonic Wall token enters the battlefield, it triggers, returning Notorious Throng from your graveyard to your hand.
-  Repeat.
-
-## Combo 2556-2792-6485
-Cards: Rally the Galadhrim + Great Whale + Mnemonic Wall
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
-Produces: Infinite mana lands you control can produce; Infinite untap of lands you control; Infinite creature ETB; Infinite storm count; Infinite magecraft triggers; Infinite tapped copies of creatures you control
-Start: Rally the Galadhrim (hand); Great Whale (battlefield); Mnemonic Wall (battlefield)
-Prerequisites: You control up to seven lands that can tap to produce at least {2}{G}{U}.
-Steps: Activate up to seven lands by tapping them, adding at least {2}{G}{U}.
-  Cast Rally the Galadhrim by paying {2}{G}{U} and tapping Mnemonic Wall and Great Whale, targeting Mnemonic Wall
-  Rally the Galadhrim's conspire ability triggers, copying it, targeting Great Whale.
-  Resolve the copy of Rally the Galadhrim, creating a token copy of Great Whale.
-  When the Great Whale token enters the battlefield, it triggers, untapping up to seven lands.
-  Resolve the original Rally the Galadhrim, creating a token copy of Mnemonic Wall.
-  When the Mnemonic Wall token enters the battlefield, it triggers, returning Rally the Galadhrim from your graveyard to your hand.
-  Repeat, tapping the Mnemonic Wall and Great Whale tokens when casting Rally the Galadhrim instead.

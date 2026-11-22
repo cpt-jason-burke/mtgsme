@@ -1,3 +1,175 @@
+## Combo 1825-6745-6760
+Cards: Adagia, Windswept Bastion + Treachery + Uthros, Titanic Godcore
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal | Mana needed: {U}
+Produces: Infinite mana lands you control can produce; Infinite blue mana; Infinite untap of lands you control
+Start: Adagia, Windswept Bastion (battlefield); Treachery (battlefield); Uthros, Titanic Godcore (battlefield)
+Prerequisites: Uthros has twelve or more charge counters on it.
+  Uthros nd up to three other lands you control can collectively tap to produce at least {4}{W}{U}.
+  Adagia has twelve or more charge counters on it.
+Steps: Activate Uthros and up to three other lands by paying {U} and tapping them, adding at least {4}{W}{U}.
+  Activate Adagia by paying {3}{W} and tapping it, creating a token copy of Treachery that is legendary attached to any creature.
+  If you control two legendary Treachery permanents, put one into your graveyard due to the legend rule.
+  The Treachery token's enter-the-battlefield ability triggers, untapping Adagia, Uthros and up to three other lands.
+  Repeat.
+
+## Combo 1834-2882-4675-4694
+Cards: Cavalier of Dawn + Infinite Reflection + March of the Machines + Briber's Purse
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature tokens; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cavalier of Dawn (battlefield); Infinite Reflection (battlefield); March of the Machines (battlefield); Briber's Purse (hand)
+Prerequisites: Infinite Reflection attached to Cavalier of Dawn.
+Steps: Cast Briber's Purse by paying {0}.
+  Briber's Purse enters the battlefield as a copy of Cavalier of Dawn.
+  Copy of Cavalier of Dawn enter-the-battlefield ability triggers, destroying itself and creating you a 3/3 Golem token.
+  Copy of Cavalier of Dawn dies, triggering itself, returning Briber's Purse from your graveyard to your hand.
+  Repeat.
+
+## Combo 1841-2122-2275-4017
+Cards: Shabraz, the Skyshark + Mindless Automaton + Sunbond + Boon Reflection
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Produces: Infinite card draw; Near-infinite lifegain; Near-infinite +1/+1 counters on a creature; Near-infinite lifegain triggers; Infinite draw triggers
+Start: Shabraz, the Skyshark (battlefield); Mindless Automaton (battlefield); Sunbond (battlefield); Boon Reflection (battlefield)
+Prerequisites: Sunbond attached to Mindless Automaton.
+  You have a way to draw a card.
+Steps: Draw a card.
+  Shabraz triggers, putting a +1/+1 counter on itself and causing you to gain two life.
+  Mindless Automaton triggers, putting two +1/+1 counters on itself.
+  Activate Mindless Automaton's second ability by removing two +1/+1 counters from it, causing you to draw a card.
+  Repeat from step 2.
+
+## Combo 1866-3615-4050-4999
+Cards: Abandoned Sarcophagus + Phyrexian Altar + Sandbar Merfolk + Humility
+Color identity: WU | Bracket: 3+ (Powerful) | Popularity: 1 | Commander: legal | Mana needed: {U}
+Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
+Start: Abandoned Sarcophagus (battlefield); Phyrexian Altar (battlefield); Sandbar Merfolk (graveyard); Humility (battlefield)
+Steps: Cast Sandbar Merfolk from your graveyard by paying {U}.
+  Activate Phyrexian Altar by sacrificing Sandbar Merfolk, adding {U}.
+  Sandbar Merfolk is not exiled by Abandoned Sarcophagus due to Humility removing Sandbar Merfolk's cycling ability.
+  Repeat.
+
+## Combo 1866-3860-4050-4999
+Cards: Abandoned Sarcophagus + Phyrexian Altar + Sandbar Merfolk + Overwhelming Splendor
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {U}
+Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
+Start: Abandoned Sarcophagus (battlefield); Phyrexian Altar (battlefield); Sandbar Merfolk (hand, graveyard); Overwhelming Splendor (battlefield)
+Prerequisites: Overwhelming Splendor attached to you.
+Steps: Cast Sandbar Merfolk from your hand or graveyard by paying {U}.
+  Activate Phyrexian Altar by sacrificing Sandbar Merfolk, adding {U}.
+  If Sandbar Merfolk was cast from your graveyard, Sandbar Merfolk is not exiled by Abandoned Sarcophagus due to Overwhelming Splendor removing Sandbar Merfolk's cycling ability.
+  Repeat.
+
+## Combo 1870-3609-4153-4331
+Cards: Eternity Vessel + Resourceful Defense + Magistrate's Scepter + Drafna, Founder of Lat-Nam
+Color identity: WU | Bracket: 4+ (Ruthless) | Popularity: 14 | Commander: legal | Mana needed: {11}{W}{U} at most each turn
+Produces: Near-infinite turns; Infinite turns; Lock
+Start: Eternity Vessel (hand); Resourceful Defense (battlefield); Magistrate's Scepter (battlefield); Drafna, Founder of Lat-Nam (battlefield)
+Prerequisites: Your life total is 3 or higher.
+Steps: Cast Eternity Vessel by paying {6}. Eternity Vessel enters the battlefield with a number of charge counters on it equal to your life total.
+  Activate Resourceful Defense by paying {4}{W}, moving all charge counters from Eternity Vessel onto Magistrate's Scepter.
+  Activate Magistrate's Scepter's second ability by tapping it and removing three charge counters from it, causing you to take an extra turn after this one.
+  If Magistrate's Scepter has few than three charge counters on it, activate Drafna's first ability by paying {1}{U}, returning Eternity Vessel from the battlefield to your hand.
+  Repeat from step 3 during your next turn if Magistrate's Scepter has three or more charge counters on it. Otherwise, repeat from step 1.
+Notes: The amount of mana you need to pay each turn varies based off your starting life total. You can also stagger the steps across turns, possibly, to save paying lots of mana in one turn. You could also copy Eternity Vessel using Drafna's first ability, if desired/able, and move the counters from the token onto Magistrate's Scepter.
+
+## Combo 1870-4153-5850
+Cards: Twenty-Toed Toad + Resourceful Defense + Eternity Vessel
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 33 | Commander: legal | Mana needed: {4}{W}
+Produces: Win the game
+Start: Twenty-Toed Toad (battlefield); Resourceful Defense (battlefield); Eternity Vessel (battlefield: with twenty or more charge counters on it)
+Steps: Activate Resourceful Defense by paying {4}{W}, moving all charge counters from Eternity Vessel onto Twenty-Toed Toad.
+  Declare Twenty-Toed Toad as an attacker. It triggers, causing you to win the game.
+
+## Combo 1871-4053
+Cards: Solemnity + Decree of Silence
+Color identity: WU | Bracket: 3-4+ (Spicy) | Popularity: 5000 | Commander: legal
+Produces: Counter all spells opponents cast; Lock
+Start: Solemnity (battlefield); Decree of Silence (battlefield)
+Steps: Whenever an opponent casts a spell, Decree of Silence triggers, countering that spell.
+  Solemnity prevents Decree of Silence from putting a depletion counter on itself.
+
+## Combo 1884-2060-2919-3525
+Cards: Archangel of Thune + Silent Attendant + Crystalline Crawler + Pemmin's Aura
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers
+Start: Archangel of Thune (battlefield); Silent Attendant (battlefield: without summoning sickness); Crystalline Crawler (battlefield); Pemmin's Aura (battlefield: attached to Silent Attendant)
+Steps: Activate Silent Attendant by tapping it, causing you to gain life.
+  Archangel of Thune triggers, putting a +1/+1 counter on each creature you control.
+  Activate Crystalline Crawler ability by removing a +1/+1 counter from it, adding {U}.
+  Activate Pemmin's Aura's ability by paying {U}, untapping Silent Attendant.
+  Repeat.
+
+## Combo 1884-2060-2919-4222
+Cards: Archangel of Thune + Silent Attendant + Crystalline Crawler + Freed from the Real
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers
+Start: Archangel of Thune (battlefield); Silent Attendant (battlefield: without summoning sickness); Crystalline Crawler (battlefield); Freed from the Real (battlefield: attached to Silent Attendant)
+Steps: Activate Silent Attendant by tapping it, causing you to gain life.
+  Archangel of Thune triggers, putting a +1/+1 counter on each creature you control.
+  Activate Crystalline Crawler ability by removing a +1/+1 counter from it, adding {U}.
+  Activate Freed from the Real's ability by paying {U}, untapping Silent Attendant.
+  Repeat.
+
+## Combo 1884-2060-3525-6996
+Cards: Silent Attendant + Crystalline Crawler + Pemmin's Aura + The Destined White Mage
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite lifegain; Infinite lifegain triggers
+Start: Silent Attendant (battlefield: without summoning sickness); Crystalline Crawler (battlefield); Pemmin's Aura (battlefield: attached to Silent Attendant); The Destined White Mage (battlefield)
+Prerequisites: Silent Attendant does not have summoning sickness.
+  Pemmin's Aura attached to Silent Attendant.
+Steps: Activate Silent Attendant by tapping it, causing you to gain life.
+  The Destined White Mage triggers, putting a +1/+1 counter on Crystalline Crawler.
+  Activate Crystalline Crawler ability by removing a +1/+1 counter from it, adding {U}.
+  Activate Pemmin's Aura's ability by paying {U}, untapping Silent Attendant.
+  Repeat.
+
+## Combo 1884-2060-4222-6996
+Cards: Silent Attendant + Crystalline Crawler + Freed from the Real + The Destined White Mage
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite lifegain; Infinite lifegain triggers
+Start: Silent Attendant (battlefield: without summoning sickness); Crystalline Crawler (battlefield); Freed from the Real (battlefield: attached to Silent Attendant); The Destined White Mage (battlefield)
+Prerequisites: Silent Attendant does not have summoning sickness.
+  Freed from the Real attached to Silent Attendant.
+Steps: Activate Silent Attendant by tapping it, causing you to gain life.
+  The Destined White Mage triggers, putting a +1/+1 counter on Crystalline Crawler.
+  Activate Crystalline Crawler ability by removing a +1/+1 counter from it, adding {U}.
+  Activate Freed from the Real's ability by paying {U}, untapping Silent Attendant.
+  Repeat.
+
+## Combo 1886-2882-4675-4694
+Cards: Cavalier of Dawn + Infinite Reflection + March of the Machines + Jeweled Amulet
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature tokens; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cavalier of Dawn (battlefield); Infinite Reflection (battlefield); March of the Machines (battlefield); Jeweled Amulet (hand)
+Prerequisites: Infinite Reflection attached to Cavalier of Dawn.
+Steps: Cast Jeweled Amulet by paying {0}.
+  Jeweled Amulet enters the battlefield as a copy of Cavalier of Dawn.
+  Copy of Cavalier of Dawn enter-the-battlefield ability triggers, destroying itself and creating you a 3/3 Golem token.
+  Copy of Cavalier of Dawn dies, triggering itself, returning Jeweled Amulet from your graveyard to your hand.
+  Repeat.
+
+## Combo 1895-2493-2562-4050
+Cards: Graceful Reprieve + Phyrexian Altar + Pearl Medallion + Archaeomancer
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {W}
+Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite creature sacrifice triggers; Infinite storm count
+Start: Graceful Reprieve (hand); Phyrexian Altar (battlefield); Pearl Medallion (battlefield); Archaeomancer (battlefield)
+Steps: Cast Graceful Reprieve by paying {W}, targeting Archaeomancer.
+  Activate Phyrexian Altar by sacrificing Archaeomancer, adding {W}.
+  When Archaeomancer dies, Graceful Reprieve triggers, returning Archaeomancer from your graveyard to the battlefield.
+  When Archaeomancer enters the battlefield, it triggers, returning Graceful Reprieve from your graveyard to your hand.
+  Repeat.
+
+## Combo 1895-2781-5998-6867
+Cards: Appa, Steadfast Guardian + Pearl Medallion + Felidar Guardian + Grand Arbiter Augustin IV
+Color identity: WU | Bracket: 3+ (Powerful) | Popularity: 52 | Commander: legal | Mana needed: {W}{W}
+Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Appa, Steadfast Guardian (hand); Pearl Medallion (battlefield); Felidar Guardian (battlefield); Grand Arbiter Augustin IV (battlefield)
+Steps: Cast Appa by paying {W}{W}
+  When Appa enters, its first ability triggers, exiling Felidar Guardian with the ability to cast it later from exile.
+  Cast Felidar Guardian from exile by paying {0}.
+  Appa's second ability triggers, creating a 1/1 Ally creature token
+  When Felidar Guardian enters, it triggers, blinking Appa.
+  Repeat from step 2.
+
 ## Combo 1895-2781-6867-7056
 Cards: Appa, Steadfast Guardian + Pearl Medallion + Felidar Guardian + Stormscape Familiar
 Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal | Mana needed: {W}{W}
@@ -289,7 +461,7 @@ Steps: Activate up to seven mana-producing lands by tapping them, adding at leas
 
 ## Combo 1952-2198-2792
 Cards: Livio, Oathsworn Sentinel + Great Whale + Deceiver Exarch
-Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
 Produces: Infinite mana permanents you control can produce; Infinite untap of permanents you control; Infinite blinking; Infinite creature ETB; Infinite creature LTB
 Start: Livio, Oathsworn Sentinel (battlefield); Great Whale (battlefield); Deceiver Exarch (battlefield)
 Prerequisites: Livio does not have summoning sickness.
@@ -304,7 +476,7 @@ Steps: Activate up to seven mana-producing lands by tapping them, adding at leas
 
 ## Combo 1952-2198-3542
 Cards: Livio, Oathsworn Sentinel + Palinchron + Deceiver Exarch
-Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
 Produces: Infinite mana permanents you control can produce; Infinite untap of permanents you control; Infinite blinking; Infinite creature ETB; Infinite creature LTB
 Start: Livio, Oathsworn Sentinel (battlefield); Palinchron (battlefield); Deceiver Exarch (battlefield)
 Prerequisites: Livio does not have summoning sickness.
@@ -319,7 +491,7 @@ Steps: Activate up to seven mana-producing lands by tapping them, adding at leas
 
 ## Combo 1952-2792-4404
 Cards: Livio, Oathsworn Sentinel + Great Whale + Corridor Monitor
-Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite mana creatures you control can produce; Infinite mana artifacts you control can produce; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite untap of creatures you control; Infinite untap of artifacts you control
 Start: Livio, Oathsworn Sentinel (battlefield); Great Whale (battlefield); Corridor Monitor (battlefield)
 Prerequisites: Livio does not have summoning sickness.
@@ -349,7 +521,7 @@ Steps: Activate up to seven mana-producing lands by tapping them, adding at leas
 
 ## Combo 1952-3542-4404
 Cards: Livio, Oathsworn Sentinel + Palinchron + Corridor Monitor
-Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite mana creatures you control can produce; Infinite mana artifacts you control can produce; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite untap of creatures you control; Infinite untap of artifacts you control
 Start: Livio, Oathsworn Sentinel (battlefield); Palinchron (battlefield); Corridor Monitor (battlefield)
 Prerequisites: Livio does not have summoning sickness.
@@ -594,7 +766,7 @@ Notes: You must blink a land as your mana-producing permanent to get infinite la
 
 ## Combo 1987-2493-3836-5002
 Cards: Urza, Lord Protector + The Mightstone and Weakstone + Ghostly Flicker + Archaeomancer
-Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 160 | Commander: legal
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 170 | Commander: legal
 Produces: Infinite creature ETB; Infinite landfall triggers; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
 Start: Urza, Lord Protector (battlefield); The Mightstone and Weakstone (battlefield); Ghostly Flicker (hand); Archaeomancer (battlefield)
 Prerequisites: Urza, Lord Protector and The Mightstone and Weakstone melded into Urza, Planeswalker.
@@ -932,7 +1104,7 @@ Steps: Activate Urza by paying {6}, creating a token copy of Phyrexian Triniform
 
 ## Combo 2034-2043-3621
 Cards: Urza, Prince of Kroog + Su-Chi Cave Guard + Ashnod's Altar
-Color identity: WU | Bracket: 2-3+ (Oddball) | Popularity: 59 | Commander: legal | Mana needed: {6}
+Color identity: WU | Bracket: 2-3+ (Oddball) | Popularity: 58 | Commander: legal | Mana needed: {6}
 Produces: Infinite colorless mana; Infinite creature copies of artifacts you control; Infinite creature tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Urza, Prince of Kroog (battlefield); Su-Chi Cave Guard (battlefield); Ashnod's Altar (battlefield)
 Steps: Activate Urza by paying {6}, creating a token copy of Su-Chi Cave Guard that is a 1/1 Soldier in addition to its other types.
@@ -1214,7 +1386,7 @@ Steps: Activate Loyal Retainers by sacrificing it, returning Chameleon from your
 
 ## Combo 2034-2728-4153-7957
 Cards: Genestealer Patriarch + Ashnod's Altar + Resourceful Defense + Rikku, Resourceful Guardian
-Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Genestealer Patriarch (battlefield); Ashnod's Altar (battlefield); Resourceful Defense (battlefield); Rikku, Resourceful Guardian (battlefield)
 Prerequisites: Genestealer Patriarch does not have summoning sickness.
@@ -1273,7 +1445,7 @@ Steps: Activate Thopter Squadron's first ability by paying {1} and removing a +1
 
 ## Combo 2034-2780-5003
 Cards: Malcator, Purity Overseer + Nim Deathmantle + Ashnod's Altar
-Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 56 | Commander: legal | Mana needed: {2}
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 57 | Commander: legal | Mana needed: {2}
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Malcator, Purity Overseer (battlefield); Nim Deathmantle (battlefield); Ashnod's Altar (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Malcator, adding {C}{C}.
@@ -1641,7 +1813,7 @@ Steps: Activate Ashnod's Altar by sacrificing another creature.
 
 ## Combo 2034-4636-5391-5392
 Cards: Automated Assembly Line + Gonti's Aether Heart + Era of Innovation + Ashnod's Altar
-Color identity: WU | Bracket: 2+ (Core) | Popularity: 86 | Commander: legal
+Color identity: WU | Bracket: 2+ (Core) | Popularity: 87 | Commander: legal
 Produces: Infinite colorless mana; Infinite tapped creature tokens; Infinite death triggers; Infinite energy counters; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Automated Assembly Line (battlefield); Gonti's Aether Heart (battlefield); Era of Innovation (battlefield); Ashnod's Altar (battlefield)
 Prerequisites: You have at least {E}{E}{E} available.
@@ -2028,7 +2200,7 @@ Steps: Activate Basalt Monolith's first ability by tapping it, adding {C}{C}{C}.
 
 ## Combo 2043-3499-4295
 Cards: Urza, Prince of Kroog + Powerstone Shard + Akroma's Memorial
-Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 77 | Commander: legal | Mana needed: {13}
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 76 | Commander: legal | Mana needed: {13}
 Produces: Infinite colorless mana; Infinite creature copies of artifacts you control; Infinite creature tokens with haste; Infinite creature ETB
 Start: Urza, Prince of Kroog (battlefield); Powerstone Shard (battlefield); Akroma's Memorial (battlefield)
 Steps: Activate Urza by paying {6}, creating a token copy of Powerstone Shard that is a 1/1 Soldier in addition to its other types.
@@ -2072,7 +2244,7 @@ Steps: Activate Urza by paying {6}, creating a token copy of Su-Chi Cave Guard t
 
 ## Combo 2043-3621-4659
 Cards: Urza, Prince of Kroog + Su-Chi Cave Guard + Krark-Clan Ironworks
-Color identity: WU | Bracket: 2-3+ (Oddball) | Popularity: 30 | Commander: legal | Mana needed: {6}
+Color identity: WU | Bracket: 2-3+ (Oddball) | Popularity: 29 | Commander: legal | Mana needed: {6}
 Produces: Infinite colorless mana; Infinite creature copies of artifacts you control; Infinite creature tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Urza, Prince of Kroog (battlefield); Su-Chi Cave Guard (battlefield); Krark-Clan Ironworks (battlefield)
 Steps: Activate Urza by paying {6}, creating a token copy of Su-Chi Cave Guard that is a 1/1 Soldier in addition to its other types.
@@ -2967,7 +3139,7 @@ Steps: With Soulherder and a creature based spell recursion effect on the battle
 
 ## Combo 2104-2493-2963
 Cards: Teleportation Circle + Archaeomancer + Temporal Manipulation
-Color identity: WU | Bracket: 4+ (Ruthless) | Popularity: 520 | Commander: legal | Mana needed: {3}{U}{U} each turn
+Color identity: WU | Bracket: 4+ (Ruthless) | Popularity: 510 | Commander: legal | Mana needed: {3}{U}{U} each turn
 Produces: Infinite turns; Lock
 Start: Teleportation Circle (battlefield); Archaeomancer (battlefield); Temporal Manipulation (hand)
 Steps: Cast Temporal Manipulation by paying {3}{U}{U}, causing you to take an extra turn after this one.
@@ -2991,7 +3163,7 @@ Steps: Cast Temporal Manipulation by paying {3}{U}{U}, getting an extra turn aft
 
 ## Combo 2104-2493-5144
 Cards: Ephemerate + Temporal Manipulation + Archaeomancer
-Color identity: WU | Bracket: 4+ (Ruthless) | Popularity: 960 | Commander: legal | Mana needed: {3}{W}{U}{U} each turn
+Color identity: WU | Bracket: 4+ (Ruthless) | Popularity: 950 | Commander: legal | Mana needed: {3}{W}{U}{U} each turn
 Produces: Infinite turns; Lock
 Start: Ephemerate (hand); Temporal Manipulation (hand); Archaeomancer (battlefield)
 Steps: Cast Temporal Manipulation by paying its mana cost, causing you to take an extra turn after this one.
@@ -3004,7 +3176,7 @@ Steps: Cast Temporal Manipulation by paying its mana cost, causing you to take a
 
 ## Combo 2104-2493-7370
 Cards: Kykar, Zephyr Awakener + Temporal Manipulation + Archaeomancer
-Color identity: WU | Bracket: 4+ (Ruthless) | Popularity: 180 | Commander: legal | Mana needed: {3}{U}{U} each turn
+Color identity: WU | Bracket: 4+ (Ruthless) | Popularity: 190 | Commander: legal | Mana needed: {3}{U}{U} each turn
 Produces: Infinite turns; Lock
 Start: Kykar, Zephyr Awakener (battlefield); Temporal Manipulation (hand); Archaeomancer (battlefield)
 Steps: Cast Temporal Manipulation by paying its mana cost.
@@ -3090,7 +3262,7 @@ Steps: Cast Temporal Manipulation by paying its mana cost.
 
 ## Combo 2104-4243-4423
 Cards: Mystic Sanctuary + Temporal Manipulation + Venser, the Sojourner
-Color identity: WU | Bracket: 4+ (Ruthless) | Popularity: 84 | Commander: legal | Mana needed: {3}{U}{U} each turn
+Color identity: WU | Bracket: 4+ (Ruthless) | Popularity: 85 | Commander: legal | Mana needed: {3}{U}{U} each turn
 Produces: Infinite turns; Lock; Skip your draw steps
 Start: Mystic Sanctuary (hand); Temporal Manipulation (hand); Venser, the Sojourner (battlefield)
 Prerequisites: You control three Islands.
@@ -3653,7 +3825,7 @@ Steps: Tap Famished Paladin to draw a card and discarding a card.
 
 ## Combo 2275-4067-5874
 Cards: Sphinx of the Revelation + Mind Over Matter + Shabraz, the Skyshark
-Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal | Mana needed: {W}{U}{U}
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal | Mana needed: {W}{U}{U}
 Produces: Near-infinite lifegain; Near-infinite card draw; Near-infinite mana permanents you control can produce; Near-infinite lifegain triggers; Near-infinite +1/+1 counters on a creature; Near-infinite looting; Near-infinite untap of permanents you control; Infinite self-discard triggers; Infinite draw triggers; Near-infinite energy counters
 Start: Sphinx of the Revelation (battlefield); Mind Over Matter (battlefield); Shabraz, the Skyshark (battlefield)
 Prerequisites: Sphinx of the Revelation does not have summoning sickness.
@@ -3948,7 +4120,7 @@ Steps: Activate Shaman en-Kor by paying {0}, targeting Cephalid Aristocrat.
 
 ## Combo 2342-2904
 Cards: Cephalid Illusionist + Shaman en-Kor
-Color identity: WU | Bracket: 4+ (Ruthless) | Popularity: 63 | Commander: legal
+Color identity: WU | Bracket: 4+ (Ruthless) | Popularity: 64 | Commander: legal
 Produces: Infinite self-mill
 Start: Cephalid Illusionist (battlefield); Shaman en-Kor (battlefield)
 Steps: Activate Shaman en-Kor by paying {0}, targeting Cephalid Illusionist.
@@ -5065,7 +5237,7 @@ Steps: Activate Sacred Guide for {1}{W}, exiling your library.
 
 ## Combo 2679-3096
 Cards: Sacred Guide + Jace, Wielder of Mysteries
-Color identity: WU | Bracket: 3-4+ (Spicy) | Popularity: 47 | Commander: legal | Mana needed: {1}{W}
+Color identity: WU | Bracket: 3-4+ (Spicy) | Popularity: 48 | Commander: legal | Mana needed: {1}{W}
 Produces: Win the game
 Start: Sacred Guide (battlefield); Jace, Wielder of Mysteries (battlefield)
 Prerequisites: There are no white cards in library.
@@ -6830,7 +7002,7 @@ Steps: Cast Aang either from your hand or from the command zone by paying {W}{U}
 
 ## Combo 2728-4050-4153-7957
 Cards: Genestealer Patriarch + Phyrexian Altar + Resourceful Defense + Rikku, Resourceful Guardian
-Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
 Produces: Infinite colored mana; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Genestealer Patriarch (battlefield); Phyrexian Altar (battlefield); Resourceful Defense (battlefield); Rikku, Resourceful Guardian (battlefield)
 Prerequisites: Genestealer Patriarch does not have summoning sickness.
@@ -6866,7 +7038,7 @@ Steps: Declare Genestealer Patriarch as an attacker.
 
 ## Combo 2728-4153-5256-7957
 Cards: Genestealer Patriarch + Altar of Dementia + Resourceful Defense + Rikku, Resourceful Guardian
-Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
 Produces: Infinite mill; Infinite self-mill; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Genestealer Patriarch (battlefield); Altar of Dementia (battlefield); Resourceful Defense (battlefield); Rikku, Resourceful Guardian (battlefield)
 Prerequisites: Genestealer Patriarch does not have summoning sickness.
@@ -7172,7 +7344,7 @@ Steps: Cast Appa by paying {2}{W}{W}
 
 ## Combo 2781-3908
 Cards: Felidar Guardian + Spark Double
-Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 9300 | Commander: legal
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 9400 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB
 Start: Felidar Guardian (battlefield); Spark Double (hand)
 Prerequisites: You have enough mana to cast Spark Double.
@@ -7340,7 +7512,7 @@ Steps: Cast Auton Soldier by paying its mana cost, choosing to have it enter the
 
 ## Combo 2781-5399
 Cards: Felidar Guardian + Pirated Copy
-Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 81 | Commander: legal
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 82 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB
 Start: Felidar Guardian (battlefield); Pirated Copy (hand)
 Prerequisites: You have enough mana to cast Pirated Copy.
@@ -7457,7 +7629,7 @@ Steps: Cast Sakashima's Will by paying its mana cost targeting Angel of Destiny,
 
 ## Combo 2790-3131
 Cards: Angel of Destiny + Nanogene Conversion
-Color identity: WU | Bracket: 3-4+ (Spicy) | Popularity: 61 | Commander: legal | Mana needed: {3}{U}
+Color identity: WU | Bracket: 3-4+ (Spicy) | Popularity: 60 | Commander: legal | Mana needed: {3}{U}
 Produces: Each opponent loses the game
 Start: Angel of Destiny (battlefield); Nanogene Conversion (hand)
 Prerequisites: Your life total is at least 5.
@@ -8395,7 +8567,7 @@ Steps: Activate Eldrazi Displacer by paying {2}{C}, blinking Drowner of Hope.
 
 ## Combo 2933-4013-4893
 Cards: Training Grounds + Eldrazi Displacer + Drowner of Hope
-Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal | Mana needed: {C}
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal | Mana needed: {C}
 Produces: Infinite colorless mana; Infinite blinking; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite blinking of most creatures
 Start: Training Grounds (battlefield); Eldrazi Displacer (battlefield); Drowner of Hope (battlefield)
 Steps: Activate Eldrazi Displacer's ability by paying {C}, blinking Drowner of Hope.
@@ -8426,7 +8598,7 @@ Steps: Activate Eldrazi Displacer by paying {2}{C}, blinking Drowner of Hope.
 
 ## Combo 2933-4013-7824
 Cards: Eldrazi Displacer + Drowner of Hope + Bard, King of Dale
-Color identity: WU | Bracket: 3-4+ (Spicy) | Popularity: 24 | Commander: legal | Mana needed: {4}{C}{C}
+Color identity: WU | Bracket: 3-4+ (Spicy) | Popularity: 26 | Commander: legal | Mana needed: {4}{C}{C}
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite blinking; Infinite blinking of most creatures; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eldrazi Displacer (battlefield); Drowner of Hope (battlefield); Bard, King of Dale (battlefield)
 Steps: Activate Eldrazi Displacer by paying {2}{C}, blinking Drowner of Hope.
@@ -8630,7 +8802,7 @@ Steps: Animate Isochron Scepter using Toymaker.
 
 ## Combo 3031-4398
 Cards: Drannith Magistrate + Eye of the Storm
-Color identity: WU | Bracket: 3-4+ (Spicy) | Popularity: 350 | Commander: legal
+Color identity: WU | Bracket: 3-4+ (Spicy) | Popularity: 360 | Commander: legal
 Produces: Exile all instants and sorceries opponents cast; Opponents can't cast copies made by Eye of the Storm; Lock
 Start: Drannith Magistrate (battlefield); Eye of the Storm (battlefield)
 Steps: Whenever a player casts an instant or sorcery spell, Eye of the Storm triggers, exiling that spell and allowing the player to copy each spell exiled by Eye of the Storm and cast them from exile.
@@ -9441,7 +9613,7 @@ Steps: Animate Isochron Scepter using Mind Transfer Protocol.
 
 ## Combo 3469-5803
 Cards: Kitsa, Otterball Elite + Energy Arc
-Color identity: WU | Bracket: 3-4+ (Spicy) | Popularity: 59 | Commander: legal | Mana needed: {W}{U}
+Color identity: WU | Bracket: 3-4+ (Spicy) | Popularity: 60 | Commander: legal | Mana needed: {W}{U}
 Produces: Infinite mana creatures you control can produce; Infinite untap of creatures you control; Infinite magecraft triggers
 Start: Kitsa, Otterball Elite (battlefield); Energy Arc (hand)
 Prerequisites: Kitsa does not have summoning sickness.
@@ -9489,7 +9661,7 @@ Steps: Activate Aethergeode Miner by paying {E}{E}, blinking it.
 
 ## Combo 3484-4374-5921
 Cards: Aethergeode Miner + Decoction Module + Mirror Room // Fractured Realm
-Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 71 | Commander: legal
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB
 Start: Aethergeode Miner (battlefield); Decoction Module (battlefield); Mirror Room // Fractured Realm (battlefield)
 Prerequisites: Fractured Realm is unlocked.
@@ -9531,7 +9703,7 @@ Steps: Activate Aethergeode Miner by paying {E}{E}, blinking it.
 
 ## Combo 3487-4374-5921
 Cards: Aethergeode Miner + Aetherstorm Roc + Mirror Room // Fractured Realm
-Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 73 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB
 Start: Aethergeode Miner (battlefield); Aetherstorm Roc (battlefield); Mirror Room // Fractured Realm (battlefield)
 Prerequisites: Fractured Realm is unlocked.
@@ -10502,7 +10674,7 @@ Steps: Cast Appa by paying {2}{W}{W}.
 
 ## Combo 3835-6867-6884
 Cards: Appa, Steadfast Guardian + Sage of the Beyond + Aang, the Last Airbender
-Color identity: WU | Bracket: 3-4+ (Spicy) | Popularity: 360 | Commander: legal | Mana needed: {2}{W}{W}
+Color identity: WU | Bracket: 3-4+ (Spicy) | Popularity: 370 | Commander: legal | Mana needed: {2}{W}{W}
 Produces: Infinite creature tokens; Infinite creature LTB; Infinite creature ETB; Infinite storm count
 Start: Appa, Steadfast Guardian (hand); Sage of the Beyond (battlefield); Aang, the Last Airbender (battlefield)
 Steps: Cast Appa by paying {2}{W}{W}.
@@ -10695,7 +10867,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 3836-5078-7902
 Cards: Sensei's Divining Top + Urza, Lord Protector + Fateful Discovery
-Color identity: WU | Bracket: 3-4+ (Spicy) | Popularity: 170 | Commander: legal
+Color identity: WU | Bracket: 3-4+ (Spicy) | Popularity: 180 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (hand); Urza, Lord Protector (battlefield); Fateful Discovery (battlefield)
 Steps: Cast Sensei's Divining Top by paying {0} due to Urza.
@@ -11760,7 +11932,7 @@ Steps: Cast Walk the Aeons by paying its mana cost.
 
 ## Combo 4125-4872-5144
 Cards: Ephemerate + Shipwreck Dowser + Time Warp
-Color identity: WU | Bracket: 4+ (Ruthless) | Popularity: 140 | Commander: legal | Mana needed: {3}{W}{U}{U} each turn
+Color identity: WU | Bracket: 4+ (Ruthless) | Popularity: 130 | Commander: legal | Mana needed: {3}{W}{U}{U} each turn
 Produces: Infinite turns; Lock
 Start: Ephemerate (hand); Shipwreck Dowser (battlefield); Time Warp (hand)
 Steps: Cast Time Warp by paying its mana cost, causing you to take an extra turn after this one.
@@ -11773,7 +11945,7 @@ Steps: Cast Time Warp by paying its mana cost, causing you to take an extra turn
 
 ## Combo 4125-4872-7370
 Cards: Kykar, Zephyr Awakener + Shipwreck Dowser + Time Warp
-Color identity: WU | Bracket: 4+ (Ruthless) | Popularity: 56 | Commander: legal | Mana needed: {3}{U}{U} each turn
+Color identity: WU | Bracket: 4+ (Ruthless) | Popularity: 55 | Commander: legal | Mana needed: {3}{U}{U} each turn
 Produces: Infinite turns; Lock
 Start: Kykar, Zephyr Awakener (battlefield); Shipwreck Dowser (battlefield); Time Warp (hand)
 Steps: Cast Time Warp by paying its mana cost.
@@ -11878,7 +12050,7 @@ Notes: Mystic Sanctuary can be tapped for mana before casting Walk the Aeons if 
 
 ## Combo 4243-4423-4872
 Cards: Mystic Sanctuary + Venser, the Sojourner + Time Warp
-Color identity: WU | Bracket: 4+ (Ruthless) | Popularity: 190 | Commander: legal | Mana needed: {3}{U}{U} each turn
+Color identity: WU | Bracket: 4+ (Ruthless) | Popularity: 200 | Commander: legal | Mana needed: {3}{U}{U} each turn
 Produces: Infinite turns; Lock; Skip your draw steps
 Start: Mystic Sanctuary (hand); Venser, the Sojourner (battlefield); Time Warp (hand)
 Prerequisites: You control three Islands.
@@ -11932,7 +12104,7 @@ Steps: Activate Altar of Dementia by sacrificing another creature.
 
 ## Combo 4311-4668-5078
 Cards: Sensei's Divining Top + Future Sight + Heliod, the Radiant Dawn // Heliod, the Warped Eclipse
-Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 62 | Commander: legal
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 63 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Future Sight (battlefield); Heliod, the Radiant Dawn // Heliod, the Warped Eclipse (battlefield)
 Prerequisites: Opponents have drawn at least one card this turn.
@@ -12064,7 +12236,7 @@ Steps: Declare Auton Soldier and the creature with Captain's Claws as attackers.
 
 ## Combo 4374-5870-5921
 Cards: Aethergeode Miner + Guide of Souls + Mirror Room // Fractured Realm
-Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 73 | Commander: legal
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB
 Start: Aethergeode Miner (battlefield); Guide of Souls (battlefield); Mirror Room // Fractured Realm (battlefield)
 Prerequisites: Fractured Realm is unlocked.
@@ -12375,7 +12547,7 @@ Steps: Activate Automated Assembly Line by paying {E}{E}{E}, creating a 3/3 Robo
 
 ## Combo 4636-5391-5921
 Cards: Automated Assembly Line + Gonti's Aether Heart + Mirror Room // Fractured Realm
-Color identity: WU | Bracket: 2+ (Core) | Popularity: 72 | Commander: legal
+Color identity: WU | Bracket: 2+ (Core) | Popularity: 73 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite energy counters
 Start: Automated Assembly Line (battlefield); Gonti's Aether Heart (battlefield); Mirror Room // Fractured Realm (battlefield)
 Prerequisites: Fractured Realm is unlocked.
@@ -12632,7 +12804,7 @@ Steps: Cast Sensei's Divining Top by paying {0} due to Heliod
 
 ## Combo 4668-5078-6766
 Cards: Sensei's Divining Top + Heliod, the Radiant Dawn // Heliod, the Warped Eclipse + Mm'menon, the Right Hand
-Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Heliod, the Radiant Dawn // Heliod, the Warped Eclipse (battlefield); Mm'menon, the Right Hand (battlefield)
 Prerequisites: Opponents have drawn at least one card this turn.
@@ -13076,7 +13248,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 5078-5741-8346
 Cards: Sensei's Divining Top + Crystal Skull, Isu Spyglass + Type-03 Borg Vessel
-Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 55 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Crystal Skull, Isu Spyglass (battlefield); Type-03 Borg Vessel (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -13212,7 +13384,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 5078-6595-7902
 Cards: Sensei's Divining Top + Lyse Hext + Fateful Discovery
-Color identity: WU | Bracket: 3-4+ (Spicy) | Popularity: 53 | Commander: legal
+Color identity: WU | Bracket: 3-4+ (Spicy) | Popularity: 54 | Commander: legal
 Produces: Infinite card draw; Near-infinitely large creature until end of turn; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (hand); Lyse Hext (battlefield); Fateful Discovery (battlefield)
 Steps: Cast Sensei's Divining Top by paying {0} due to Lyse Hext.
@@ -13263,7 +13435,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 5078-7902-8346
 Cards: Sensei's Divining Top + Fateful Discovery + Type-03 Borg Vessel
-Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 66 | Commander: legal
+Color identity: WU | Bracket: 1+ (Exhibition) | Popularity: 67 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (hand); Fateful Discovery (battlefield); Type-03 Borg Vessel (battlefield)
 Steps: Cast Sensei's Divining Top by paying {0} due to Type-03 Borg Vessel.
@@ -13472,7 +13644,7 @@ Steps: Activate Avatar Kuruk by paying {20} minus {1} for each creature and/or a
 
 ## Combo 5803-5892
 Cards: Kitsa, Otterball Elite + Rustler Rampage
-Color identity: WU | Bracket: 3-4+ (Spicy) | Popularity: 72 | Commander: legal | Mana needed: {1}{W}
+Color identity: WU | Bracket: 3-4+ (Spicy) | Popularity: 73 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite mana creatures you control can produce; Infinite untap of creatures you control; Infinite magecraft triggers
 Start: Kitsa, Otterball Elite (battlefield); Rustler Rampage (hand)
 Prerequisites: Kitsa does not have summoning sickness.
@@ -13669,7 +13841,7 @@ Notes: If you control other Heroes, you can place the +1/+1 counter on any of th
 
 ## Combo 6913-7009-7012
 Cards: The Legend of Kuruk // Avatar Kuruk + Chameleon, Master of Disguise + Airbender Ascension
-Color identity: WU | Bracket: 4+ (Ruthless) | Popularity: 130 | Commander: legal | Mana needed: {20} minus {1} for each creature and artifact you control each turn
+Color identity: WU | Bracket: 4+ (Ruthless) | Popularity: 120 | Commander: legal | Mana needed: {20} minus {1} for each creature and artifact you control each turn
 Produces: Infinite turns; Lock
 Start: The Legend of Kuruk // Avatar Kuruk (battlefield); Chameleon, Master of Disguise (battlefield: as a copy of Avatar Kuruk); Airbender Ascension (battlefield: with four or more quest counters on it)
 Steps: Activate Chameleon using Avatar Kuruk's ability by paying {20} minus {1} for each creature and/or artifact you can tap while activating it, causing you to take an extra turn after this one.

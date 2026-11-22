@@ -6348,6 +6348,26 @@ Steps: Activate Woe Strider by sacrificing Priest of Gix.
   When Priest of Gix enters the battlefield, it triggers, adding {B}{B}{B}.
   Repeat.
 
+## Combo 586-1048-3800-4939-5283
+Cards: Iceberg + Inexorable Tide + Equilibrium + Priest of Gix + Burning-Tree Emissary
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{B}{R}{G}
+Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Priest of Gix (hand); Burning-Tree Emissary (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+Steps: Cast Priest of Gix by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Burning-Tree Emissary from the battlefield to your hand.
+  When Priest of Gix enters, it triggers, adding {B}{B}{B}.
+  Cast Burning-Tree Emissary by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Priest of Gix from the battlefield to your hand.
+  When Burning-Tree Emissary enters, it triggers, adding {R}{G}.
+  Repeat.
+
 ## Combo 586-1472-5147-5626
 Cards: Tatsunari, Toad Rider + Chthonian Nightmare + Priest of Gix + Goblin Bombardment
 Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{B}
@@ -12030,6 +12050,49 @@ Steps: During your upkeep, activate Teardrop Kami by sacrificing it, targeting H
   When Teardrop Kami dies, Sek'Kuar triggers, creating a 3/1 Graveborn creature token.
   Resolve the Teardrop Kami trigger, untapping Hell's Caretaker.
   Activate Hell's Caretaker by tapping it and sacrificing the Graveborn, returning Teardrop Kami from your graveyard to the battlefield.
+  Repeat.
+
+## Combo 1048-3800-4022-5283-5865
+Cards: Iceberg + Inexorable Tide + Equilibrium + Hidden Herbalists + Flamecache Gecko
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{G}{G}
+Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Hidden Herbalists (hand); Flamecache Gecko (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+  An opponent has lost life this turn.
+  A permanent you control has left the battlefield this turn.
+Steps: Cast Hidden Herbalists by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Flamecache Gecko from the battlefield to your hand.
+  When Hidden Herbalists enters, it triggers, adding {G}{G}.
+  Cast Flamecache Gecko by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Hidden Herbalists from the battlefield to your hand.
+  When Flamecache Gecko enters, it triggers, adding {B}{R}.
+  Repeat.
+
+## Combo 1048-3800-4939-5283-5865
+Cards: Iceberg + Inexorable Tide + Equilibrium + Burning-Tree Emissary + Flamecache Gecko
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}{G}
+Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Burning-Tree Emissary (hand); Flamecache Gecko (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+  An opponent has lost life this turn.
+Steps: Cast Burning-Tree Emissary by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Flamecache Gecko from the battlefield to your hand.
+  When Burning-Tree Emissary enters, it triggers, adding {R}{G}.
+  Cast Flamecache Gecko by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Burning-Tree Emissary from the battlefield to your hand.
+  When Flamecache Gecko enters, it triggers, adding {B}{R}.
   Repeat.
 
 ## Combo 1053-2292-2836-2890-4400-4583-4892-5161
@@ -18595,7 +18658,7 @@ Steps: Create a nonlegendary copy of Kodama of the East Tree using Quantum Misal
 
 ## Combo 1479-3257-6517
 Cards: Kodama of the East Tree + Rakdos Carnarium + Dragonback Assault
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 57 | Commander: legal
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 58 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Rakdos Carnarium (hand); Dragonback Assault (battlefield)
 Prerequisites: You are able to play a land this turn.
@@ -18624,7 +18687,7 @@ Steps: Play Rakdos Carnarium.
 
 ## Combo 1479-3257-7893
 Cards: Kodama of the East Tree + Rakdos Carnarium + Thranduil, Sindarin Liege // Silvan Rally
-Color identity: UBRG | Bracket: 3-4+ (Spicy) | Popularity: 5 | Commander: legal
+Color identity: UBRG | Bracket: 3-4+ (Spicy) | Popularity: 6 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Rakdos Carnarium (hand); Thranduil, Sindarin Liege // Silvan Rally (battlefield)
 Steps: Play Rakdos Carnarium.
@@ -18668,7 +18731,7 @@ Steps: Play Dimir Aqueduct.
 
 ## Combo 1479-3478-6517
 Cards: Kodama of the East Tree + Dimir Aqueduct + Dragonback Assault
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 91 | Commander: legal
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 92 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Dimir Aqueduct (hand); Dragonback Assault (battlefield)
 Prerequisites: You are able to play a land this turn.
@@ -18960,7 +19023,7 @@ Steps: At the beginning of your combat phase, Rionya triggers, creating at least
 
 ## Combo 1558-1991-3263
 Cards: Tana, the Bloodsower + Time Sieve + Mycosynth Lattice
-Color identity: UBRG | Bracket: 4+ (Ruthless) | Popularity: 11 | Commander: legal
+Color identity: UBRG | Bracket: 4+ (Ruthless) | Popularity: 10 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Tana, the Bloodsower (battlefield); Time Sieve (battlefield); Mycosynth Lattice (battlefield)
 Prerequisites: Tana has power five or greater, does not have summoning sickness and cannot be blocked by an opponent.
@@ -21011,7 +21074,7 @@ Steps: Activate Chthonian Nightmare by paying at most {E}{E}{E}, sacrificing Pat
 
 ## Combo 1657-2169
 Cards: Murderous Redcap + Zameck Guildmage
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal | Mana needed: {2}{B/R}{B/R}{G}{U}
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal | Mana needed: {2}{B/R}{B/R}{G}{U}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite death triggers
 Start: Murderous Redcap (hand); Zameck Guildmage (battlefield)
 Steps: Activate Zameck Guildmage's first ability by paying {G}{U}.

@@ -2212,6 +2212,19 @@ Steps: Cast Kindred Charge for free due to Vision, choosing a creature type gran
   When the Vampire Charmseeker token enters, it triggers, returning Kindred Charge from your graveyard to your hand.
   Repeat.
 
+## Combo 101-7493-7494
+Cards: Choreographed Sparks + Blazing Firesinger // Seething Song + Vampire Charmseeker
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {8}{U}{B}{R}{R}{R}
+Produces: Infinite creature tokens with haste; Infinite red mana; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite magecraft triggers; Infinite creature sacrifice triggers; Infinite storm count
+Start: Choreographed Sparks (hand); Blazing Firesinger // Seething Song (battlefield); Vampire Charmseeker (hand)
+Prerequisites: Blazing Firesinger is prepared.
+Steps: Cast Vampire Charmseeker by paying its mana cost.
+  Holding priority, cast a copy of Seething Song by paying its mana cost.
+  Holding priority, cast Choreographed Sparks by paying {R}{R}, copying the Seething Song and Vampire Charmseeker spells.
+  Resolve the copy of the Vampire Charmseeker spell. When the token copy enters, it triggers, returning Choreographed Sparks from your graveyard to your hand.
+  Resolve the copy of the Seething Song spell, adding {R}{R}{R}{R}{R}.
+  Repeat from step 3.
+
 ## Combo 101-8043-8350
 Cards: Vision, Spectral Synthezoid + Vampire Charmseeker + Face Yourself
 Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
@@ -2654,7 +2667,7 @@ Steps: Cast Warrior's Oath by paying its mana cost, causing you to take an extra
 
 ## Combo 126-2697-3976
 Cards: Magar of the Magic Strings + Obeka, Brute Chronologist + Last Chance
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 83 | Commander: legal | Mana needed: {1}{B}{R}{R}{R}
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 82 | Commander: legal | Mana needed: {1}{B}{R}{R}{R}
 Produces: Infinite turns; Lock
 Start: Magar of the Magic Strings (battlefield); Obeka, Brute Chronologist (battlefield); Last Chance (hand)
 Prerequisites: An opponent cannot block creatures you control.
@@ -4964,7 +4977,7 @@ Notes: When choosing modes, the other mode you choose will net additional result
 
 ## Combo 158-4050-4424
 Cards: Missy + Phyrexian Altar + Warbreak Trumpeter
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Missy (battlefield); Phyrexian Altar (battlefield); Warbreak Trumpeter (battlefield)
 Steps: Activate Phyrexian Altar by sacrificing Warbreak Trumpeter, adding {R}.
@@ -5637,6 +5650,26 @@ Steps: Activate all mana-producing creatures you control by tapping them, adding
   Activate Hidetsugu's second ability by paying {2}{R} and tapping it, exiling Endless One from the top of your library and allowing you cast it this turn.
   Repeat.
 
+## Combo 232-586-1048-3800-5283
+Cards: Iceberg + Inexorable Tide + Equilibrium + Priest of Urabrask + Priest of Gix
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {4}{B}{R}
+Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Priest of Urabrask (hand); Priest of Gix (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+Steps: Cast Priest of Urabrask by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Priest of Gix from the battlefield to your hand.
+  When Priest of Urabrask enters, it triggers, adding {R}{R}{R}.
+  Cast Priest of Gix by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Priest of Urabrask from the battlefield to your hand.
+  When Priest of Gix enters, it triggers, adding {B}{B}{B}.
+  Repeat.
+
 ## Combo 232-586-1980-2239-2596
 Cards: Living Death + Priest of Urabrask + Priest of Gix + Ardent Elementalist + Swarm Intelligence
 Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {3}{B}{B}
@@ -5680,6 +5713,27 @@ Steps: Cast Living Death by paying {3}{B}{B}.
   Resolve the Priest of Gix trigger, adding {B}{B}{B}.
   Resolve the Priest of Urabrask trigger, adding {R}{R}{R}.
   Resolve the Mnemonic Wall trigger, returning Living Death from your graveyard to your hand.
+  Repeat.
+
+## Combo 232-1048-3800-5283-5865
+Cards: Iceberg + Inexorable Tide + Equilibrium + Priest of Urabrask + Flamecache Gecko
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {3}{R}{R}
+Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Priest of Urabrask (hand); Flamecache Gecko (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+  An opponent has lost life this turn.
+Steps: Cast Priest of Urabrask by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Flamecache Gecko from the battlefield to your hand.
+  When Priest of Urabrask enters, it triggers, adding {R}{R}{R}.
+  Cast Flamecache Gecko by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Priest of Urabrask from the battlefield to your hand.
+  When Flamecache Gecko enters, it triggers, adding {B}{R}.
   Repeat.
 
 ## Combo 232-1235-2187-4285
@@ -5789,7 +5843,7 @@ Notes: Due to differences in card templating between the various banisher effect
 
 ## Combo 248-1869-2034
 Cards: Inalla, Archmage Ritualist + Ashnod's Altar + Changeling Berserker
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 41 | Commander: legal | Mana needed: {4}{R}
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 42 | Commander: legal | Mana needed: {4}{R}
 Produces: Infinite colorless mana; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Inalla, Archmage Ritualist (battlefield, command zone); Ashnod's Altar (battlefield); Changeling Berserker (hand)
 Steps: Cast Changeling Berserker by paying {3}{R}.
@@ -6051,7 +6105,7 @@ Steps: Deal combat damage with Lord of Tresserhorn, causing target opponent to g
 
 ## Combo 264-731
 Cards: Lord of Tresserhorn + Corrupted Conscience
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 74 | Commander: legal
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 75 | Commander: legal
 Produces: Target opponent loses the game
 Start: Lord of Tresserhorn (battlefield); Corrupted Conscience (battlefield)
 Prerequisites: Corrupted Conscience attached to Lord of Tresserhorn.
@@ -6084,7 +6138,7 @@ Steps: Deal combat damage with Lord of Tresserhorn, causing target opponent to g
 
 ## Combo 264-4651
 Cards: Lord of Tresserhorn + Phyresis
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 550 | Commander: legal
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 560 | Commander: legal
 Produces: Target opponent loses the game
 Start: Lord of Tresserhorn (battlefield); Phyresis (battlefield)
 Prerequisites: Phyresis attached to Lord of Tresserhorn.
@@ -6772,7 +6826,7 @@ Steps: Cast Chain of Smog by paying {1}{B}, targeting yourself.
 
 ## Combo 326-4280
 Cards: Chain of Smog + Veyran, Voice of Duality
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 580 | Commander: legal | Mana needed: {1}{B}
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 570 | Commander: legal | Mana needed: {1}{B}
 Produces: Infinitely large creature until end of turn; Infinite magecraft triggers
 Start: Chain of Smog (hand); Veyran, Voice of Duality (battlefield)
 Steps: Cast Chain of Smog by paying {1}{B}, targeting yourself.
@@ -7554,7 +7608,7 @@ Steps: Cast Haze of Rage with buyback by paying {R}. Birgi, Haze of Rage's storm
 
 ## Combo 392-1170-7498-8282
 Cards: Displacer Kitten + Biblioplex Tomekeeper + Birgi, God of Storytelling // Harnfel, Horn of Bounty + Stingerquill Voxmancer // Vicious Verse
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal | Mana needed: {B/R}
 Produces: Infinite damage to most opponents; Infinite damage; Infinite creature ETB; Infinite creature LTB; Infinite storm count; Infinite magecraft triggers
 Start: Displacer Kitten (battlefield); Biblioplex Tomekeeper (battlefield); Birgi, God of Storytelling // Harnfel, Horn of Bounty (battlefield); Stingerquill Voxmancer // Vicious Verse (battlefield)
 Prerequisites: Stingerquill Voxmancer is prepared.
@@ -7568,7 +7622,7 @@ Steps: Cast the copy of Vicious Verse by paying {B/R}.
 
 ## Combo 392-1170-8280
 Cards: Displacer Kitten + Birgi, God of Storytelling // Harnfel, Horn of Bounty + Hallway Heckler // Vicious Verse
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 12 | Commander: legal | Mana needed: {B/R}
 Produces: Infinite damage; Infinite damage to most opponents; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
 Start: Displacer Kitten (battlefield); Birgi, God of Storytelling // Harnfel, Horn of Bounty (battlefield); Hallway Heckler // Vicious Verse (battlefield)
 Prerequisites: Hallway Heckler is prepared.
@@ -7581,7 +7635,7 @@ Steps: Cast the copy of Vicious Verse by paying {B/R}.
 
 ## Combo 392-1170-8281
 Cards: Displacer Kitten + Birgi, God of Storytelling // Harnfel, Horn of Bounty + Whiplash Wordsmith // Vicious Verse
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 7 | Commander: legal | Mana needed: {B/R}
 Produces: Infinite damage; Infinite damage to most opponents; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
 Start: Displacer Kitten (battlefield); Birgi, God of Storytelling // Harnfel, Horn of Bounty (battlefield); Whiplash Wordsmith // Vicious Verse (battlefield)
 Prerequisites: Whiplash Wordsmith is prepared.
@@ -10104,7 +10158,7 @@ Steps: Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can 
 
 ## Combo 500-957-4867
 Cards: Cormela, Glamour Thief + Saw in Half + Time Stretch
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 33 | Commander: legal | Mana needed: {9} each other turn
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 34 | Commander: legal | Mana needed: {9} each other turn
 Produces: Infinite turns; Lock
 Start: Cormela, Glamour Thief (battlefield); Saw in Half (hand); Time Stretch (graveyard)
 Steps: Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can only be spent to cast instant or sorcery spells.
@@ -11032,6 +11086,25 @@ Steps: Activate Grimgrin by sacrificing Priest of Gix.
   When Chthonian Nightmare enters the battlefield, it triggers, causing you to get {E}{E}{E}.
   Repeat.
 
+## Combo 586-862-1048-3800-5283
+Cards: Iceberg + Inexorable Tide + Equilibrium + Priest of Gix + Crimson Kobolds
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{B}
+Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Priest of Gix (hand); Crimson Kobolds (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+Steps: Cast Priest of Gix by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Crimson Kobolds from the battlefield to your hand.
+  When Priest of Gix enters, it triggers, adding {B}{B}{B}.
+  Cast Crimson Kobolds by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Priest of Gix from the battlefield to your hand.
+  Repeat.
+
 ## Combo 586-997-5258-5618-7056
 Cards: Rakdos, the Muscle + Priest of Gix + Haunted Crossroads + Woe Strider + Stormscape Familiar
 Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{B}
@@ -11044,6 +11117,84 @@ Steps: Activate Woe Strider by sacrificing Priest of Gix.
   Resolve the Woe Strider ability from step 1.
   Cast Priest of Gix from exile by paying {2}.
   When Priest of Gix enters the battlefield, it triggers, adding {B}{B}{B}.
+  Repeat.
+
+## Combo 586-1048-2459-3800-5283
+Cards: Iceberg + Inexorable Tide + Equilibrium + Priest of Gix + Rograkh, Son of Rohgahh
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{B}
+Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Priest of Gix (hand); Rograkh, Son of Rohgahh (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+Steps: Cast Priest of Gix by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Rograkh from the battlefield to your hand.
+  When Priest of Gix enters, it triggers, adding {B}{B}{B}.
+  Cast Rograkh by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Priest of Gix from the battlefield to your hand.
+  Repeat.
+
+## Combo 586-1048-3558-3800-5283
+Cards: Iceberg + Inexorable Tide + Equilibrium + Priest of Gix + Crookshank Kobolds
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{B}
+Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Priest of Gix (hand); Crookshank Kobolds (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+Steps: Cast Priest of Gix by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Crookshank Kobolds from the battlefield to your hand.
+  When Priest of Gix enters, it triggers, adding {B}{B}{B}.
+  Cast Crookshank Kobolds by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Priest of Gix from the battlefield to your hand.
+  Repeat.
+
+## Combo 586-1048-3800-4336-5283
+Cards: Iceberg + Inexorable Tide + Equilibrium + Priest of Gix + Kobolds of Kher Keep
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{B}
+Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Priest of Gix (hand); Kobolds of Kher Keep (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+Steps: Cast Priest of Gix by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Kobolds of Kher Keep from the battlefield to your hand.
+  When Priest of Gix enters, it triggers, adding {B}{B}{B}.
+  Cast Kobolds of Kher Keep by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Priest of Gix from the battlefield to your hand.
+  Repeat.
+
+## Combo 586-1048-3800-5283-5865
+Cards: Iceberg + Inexorable Tide + Equilibrium + Priest of Gix + Flamecache Gecko
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {3}{B}{R}
+Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Priest of Gix (hand); Flamecache Gecko (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+  An opponent has lost life this turn.
+Steps: Cast Priest of Gix by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Flamecache Gecko from the battlefield to your hand.
+  When Priest of Gix enters, it triggers, adding {B}{B}{B}.
+  Cast Flamecache Gecko by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Priest of Gix from the battlefield to your hand.
+  When Flamecache Gecko enters, it triggers, adding {B}{R}.
   Repeat.
 
 ## Combo 586-1283-3036-3593
@@ -12591,7 +12742,7 @@ Steps: Activate Grimgrin by sacrificing the persist creature.
 
 ## Combo 631-4050-4424
 Cards: Missy + Phyrexian Altar + Grim Haruspex
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 430 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 440 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Missy (battlefield); Phyrexian Altar (battlefield); Grim Haruspex (battlefield)
 Steps: Activate Phyrexian Altar by sacrificing Grim Haruspex, adding {B}.
@@ -13032,7 +13183,7 @@ Steps: Activate Mairsil using Myr Propagator's ability by paying {3} and tapping
 
 ## Combo 647-3259-7358
 Cards: Breath of Fury + Urabrask the Hidden + Maestros Diabolist
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 90 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 91 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite damage; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite untap of creatures you control
 Start: Breath of Fury (battlefield: attached to another creature you control ); Urabrask the Hidden (battlefield); Maestros Diabolist (battlefield)
 Prerequisites: You don't control a Devil token.
@@ -17078,6 +17229,26 @@ Steps: Cast Cauldron Familiar by paying {B}.
   Resolve the Voldran Epicure trigger from step 2, causing each opponent to lose 1 life and you to gain 1 life.
   Each opponent loses the game due to having 0 or less life.
 
+## Combo 862-1048-3800-5283-5865
+Cards: Iceberg + Inexorable Tide + Equilibrium + Crimson Kobolds + Flamecache Gecko
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}
+Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Crimson Kobolds (hand); Flamecache Gecko (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+  An opponent has lost life this turn.
+Steps: Cast Crimson Kobolds by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Flamecache Gecko from the battlefield to your hand.
+  Cast Flamecache Gecko by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Crimson Kobolds from the battlefield to your hand.
+  When Flamecache Gecko enters, it triggers, adding {B}{R}.
+  Repeat.
+
 ## Combo 862-2034-3249
 Cards: Havengul Lich + Ashnod's Altar + Crimson Kobolds
 Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
@@ -17999,7 +18170,7 @@ Steps: Declare Yuriko as an attacker, attacking an opponent unable to block it.
 
 ## Combo 923-2615-5112
 Cards: Mairsil, the Pretender + Spikeshot Elder + Tree of Perdition
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 400 | Commander: legal | Mana needed: {1}{R}{R}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 410 | Commander: legal | Mana needed: {1}{R}{R}
 Produces: Target opponent loses the game
 Start: Mairsil, the Pretender (battlefield); Spikeshot Elder (exile); Tree of Perdition (exile)
 Prerequisites: Mairsil does not have summoning sickness.
@@ -18246,7 +18417,7 @@ Steps: Activate Mairsil using Myr Propagator's ability by paying {3} and tapping
 
 ## Combo 969-3259-7358
 Cards: Breath of Fury + Fervor + Maestros Diabolist
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite damage; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite untap of creatures you control
 Start: Breath of Fury (battlefield: attached to another creature you control ); Fervor (battlefield); Maestros Diabolist (battlefield)
 Prerequisites: You don't control a Devil token.
@@ -18448,7 +18619,7 @@ Steps: Activate Woe Strider by sacrificing another creature with haste or flash.
 
 ## Combo 997-1339-7920
 Cards: The Locust God + Woe Strider + Tresserhorn's Lord, Returned
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 62 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: The Locust God (battlefield); Woe Strider (battlefield); Tresserhorn's Lord, Returned (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -18634,6 +18805,26 @@ Steps: Activate Woe Strider by sacrificing the persist creature.
   Resolve the persist creature's trigger, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
   When the persist creature enters the battlefield, Olivia triggers, putting a +1/+1 counter on the persist creature and causing you to discard a card.
   Resolve the Woe Strider ability.
+  Repeat.
+
+## Combo 1003-1048-3800-5283-5865
+Cards: Iceberg + Inexorable Tide + Equilibrium + Phyrexian Walker + Flamecache Gecko
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}
+Produces: Infinite proliferate; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Phyrexian Walker (hand); Flamecache Gecko (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+  An opponent has lost life this turn.
+Steps: Cast Phyrexian Walker by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Flamecache Gecko from the battlefield to your hand.
+  Cast Flamecache Gecko by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Phyrexian Walker from the battlefield to your hand.
+  When Flamecache Gecko enters, it triggers, adding {B}{R}.
   Repeat.
 
 ## Combo 1003-1329-2099-2178
@@ -19138,6 +19329,215 @@ Steps: Activate Altar of Dementia by sacrificing Horde Ambusher.
   When Horde Ambusher dies, Missy's first ability triggers, returning Horde Ambusher from your graveyard to the battlefield face down as a 2/2 Cyberman artifact creature.
   Resolve the Altar of Dementia ability, causing target player to mill cards equal to Horde Ambusher's power.
   Activate Horde Ambusher's morph ability by revealing a red card from your hand, turning it face up.
+  Repeat.
+
+## Combo 1048-1741-3800-5283-5865
+Cards: Iceberg + Inexorable Tide + Equilibrium + Cloud of Faeries + Flamecache Gecko
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{U}{R}
+Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Cloud of Faeries (hand); Flamecache Gecko (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+  An opponent has lost life this turn.
+  You control up to two lands that can tap to produce at least {1}{U}.
+Steps: Cast Cloud of Faeries by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Flamecache Gecko from the battlefield to your hand.
+  When Cloud of Faeries enters, it triggers, untapping up to two lands.
+  Activate up to two lands by tapping them, adding at least {1}{U}.
+  Cast Flamecache Gecko by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Cloud of Faeries from the battlefield to your hand.
+  When Flamecache Gecko enters, it triggers, adding {B}{R}.
+  Repeat.
+
+## Combo 1048-1778-3800-5283-5865
+Cards: Iceberg + Inexorable Tide + Equilibrium + Memnite + Flamecache Gecko
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}
+Produces: Infinite proliferate; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Memnite (hand); Flamecache Gecko (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+  An opponent has lost life this turn.
+Steps: Cast Memnite by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Flamecache Gecko from the battlefield to your hand.
+  Cast Flamecache Gecko by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Memnite from the battlefield to your hand.
+  When Flamecache Gecko enters, it triggers, adding {B}{R}.
+  Repeat.
+
+## Combo 1048-2459-3800-5283-5865
+Cards: Iceberg + Inexorable Tide + Equilibrium + Rograkh, Son of Rohgahh + Flamecache Gecko
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}
+Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Rograkh, Son of Rohgahh (hand); Flamecache Gecko (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+  An opponent has lost life this turn.
+Steps: Cast Rograkh by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Flamecache Gecko from the battlefield to your hand.
+  Cast Flamecache Gecko by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Rograkh from the battlefield to your hand.
+  When Flamecache Gecko enters, it triggers, adding {B}{R}.
+  Repeat.
+
+## Combo 1048-2792-3800-5283-5865
+Cards: Iceberg + Inexorable Tide + Equilibrium + Great Whale + Flamecache Gecko
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {6}{U}{U}{R}
+Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Great Whale (hand); Flamecache Gecko (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+  An opponent has lost life this turn.
+Steps: Cast Great Whale by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Flamecache Gecko from the battlefield to your hand.
+  When Great Whale enters, it triggers, untapping up to seven lands.
+  Activate up to seven lands by tapping them, adding at least {5}{U}{U}.
+  Cast Flamecache Gecko by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Great Whale from the battlefield to your hand.
+  When Flamecache Gecko enters, it triggers, adding {B}{R}.
+  Repeat.
+
+## Combo 1048-3542-3800-5283-5865
+Cards: Iceberg + Inexorable Tide + Equilibrium + Palinchron + Flamecache Gecko
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {6}{U}{U}{R}
+Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Palinchron (hand); Flamecache Gecko (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+  An opponent has lost life this turn.
+Steps: Cast Palinchron by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Flamecache Gecko from the battlefield to your hand.
+  When Palinchron enters, it triggers, untapping up to seven lands.
+  Activate up to seven lands by tapping them, adding at least {5}{U}{U}.
+  Cast Flamecache Gecko by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Palinchron from the battlefield to your hand.
+  When Flamecache Gecko enters, it triggers, adding {B}{R}.
+  Repeat.
+
+## Combo 1048-3558-3800-5283-5865
+Cards: Iceberg + Inexorable Tide + Equilibrium + Crookshank Kobolds + Flamecache Gecko
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}
+Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Crookshank Kobolds (hand); Flamecache Gecko (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+  An opponent has lost life this turn.
+Steps: Cast Crookshank Kobolds by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Flamecache Gecko from the battlefield to your hand.
+  Cast Flamecache Gecko by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Crookshank Kobolds from the battlefield to your hand.
+  When Flamecache Gecko enters, it triggers, adding {B}{R}.
+  Repeat.
+
+## Combo 1048-3652-3800-5283-5865
+Cards: Iceberg + Inexorable Tide + Equilibrium + Ornithopter + Flamecache Gecko
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}
+Produces: Infinite proliferate; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Ornithopter (hand); Flamecache Gecko (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+  An opponent has lost life this turn.
+Steps: Cast Ornithopter by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Flamecache Gecko from the battlefield to your hand.
+  Cast Flamecache Gecko by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Ornithopter from the battlefield to your hand.
+  When Flamecache Gecko enters, it triggers, adding {B}{R}.
+  Repeat.
+
+## Combo 1048-3661-3800-5283-5865
+Cards: Iceberg + Inexorable Tide + Equilibrium + Shield Sphere + Flamecache Gecko
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}
+Produces: Infinite proliferate; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Shield Sphere (hand); Flamecache Gecko (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+  An opponent has lost life this turn.
+Steps: Cast Shield Sphere by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Flamecache Gecko from the battlefield to your hand.
+  Cast Flamecache Gecko by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Shield Sphere from the battlefield to your hand.
+  When Flamecache Gecko enters, it triggers, adding {B}{R}.
+  Repeat.
+
+## Combo 1048-3800-3821-5283-5865
+Cards: Iceberg + Inexorable Tide + Equilibrium + Peregrine Drake + Flamecache Gecko
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {5}{U}{R}
+Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Peregrine Drake (hand); Flamecache Gecko (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+  An opponent has lost life this turn.
+Steps: Cast Peregrine Drake by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Flamecache Gecko from the battlefield to your hand.
+  When Peregrine Drake enters, it triggers, untapping up to five lands.
+  Activate up to five lands by tapping them, adding at least {4}{U}.
+  Cast Flamecache Gecko by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Peregrine Drake from the battlefield to your hand.
+  When Flamecache Gecko enters, it triggers, adding {B}{R}.
+  Repeat.
+
+## Combo 1048-3800-4336-5283-5865
+Cards: Iceberg + Inexorable Tide + Equilibrium + Kobolds of Kher Keep + Flamecache Gecko
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}
+Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Kobolds of Kher Keep (hand); Flamecache Gecko (battlefield)
+Prerequisites: Iceberg has at least one ice counter on it.
+  An opponent has lost life this turn.
+Steps: Cast Kobolds of Kher Keep by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Flamecache Gecko from the battlefield to your hand.
+  Cast Flamecache Gecko by paying its mana cost.
+  Inexorable Tide and Equilibrium trigger.
+  Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
+  Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
+  Resolve the Equilibrium trigger, causing you to pay {1} to return Kobolds of Kher Keep from the battlefield to your hand.
+  When Flamecache Gecko enters, it triggers, adding {B}{R}.
   Repeat.
 
 ## Combo 1050-4068-4439-5112
@@ -20208,7 +20608,7 @@ Steps: Cast Dark Ritual by paying {B}.
 
 ## Combo 1170-2196-2701-5913
 Cards: Displacer Kitten + Frantic Search + Dark Ritual + Pinnacle Monk // Mystic Peak
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 530 | Commander: legal | Mana needed: {B}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 540 | Commander: legal | Mana needed: {B}
 Produces: Near-infinite mana lands you control can produce; Near-infinite black mana; Infinite looting; Near-infinite untap of lands you control; Infinite self-discard triggers; Near-infinite creature ETB; Infinite draw triggers; Near-infinite storm count; Near-infinite creature LTB; Near-infinite magecraft triggers
 Start: Displacer Kitten (battlefield); Frantic Search (graveyard); Dark Ritual (hand); Pinnacle Monk // Mystic Peak (battlefield)
 Prerequisites: You control up to three lands that can tap to produce at least {U}.
@@ -20242,7 +20642,7 @@ Steps: Cast Dark Ritual by paying {B}.
 
 ## Combo 1170-2633-7498-8282
 Cards: Displacer Kitten + Biblioplex Tomekeeper + Urabrask // The Great Work + Stingerquill Voxmancer // Vicious Verse
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {B/R}
 Produces: Infinite damage; Infinite damage to most opponents; Infinite creature ETB; Infinite creature LTB; Infinite storm count; Infinite magecraft triggers
 Start: Displacer Kitten (battlefield); Biblioplex Tomekeeper (battlefield); Urabrask // The Great Work (battlefield); Stingerquill Voxmancer // Vicious Verse (battlefield)
 Prerequisites: Stingerquill Voxmancer is prepared.
@@ -20256,7 +20656,7 @@ Steps: Cast the copy of Vicious Verse by paying {B/R}.
 
 ## Combo 1170-2633-8280
 Cards: Displacer Kitten + Urabrask // The Great Work + Hallway Heckler // Vicious Verse
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 3 | Commander: legal | Mana needed: {B/R}
 Produces: Infinite damage; Infinite damage to most opponents; Infinite creature ETB; Infinite creature LTB; Infinite storm count; Infinite magecraft triggers
 Start: Displacer Kitten (battlefield); Urabrask // The Great Work (battlefield); Hallway Heckler // Vicious Verse (battlefield)
 Prerequisites: Hallway Heckler is prepared.
@@ -20269,7 +20669,7 @@ Steps: Cast the copy of Vicious Verse by paying {B/R}.
 
 ## Combo 1170-2633-8281
 Cards: Displacer Kitten + Urabrask // The Great Work + Whiplash Wordsmith // Vicious Verse
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 4 | Commander: legal | Mana needed: {B/R}
 Produces: Infinite damage; Infinite damage to most opponents; Infinite creature ETB; Infinite creature LTB; Infinite storm count; Infinite magecraft triggers
 Start: Displacer Kitten (battlefield); Urabrask // The Great Work (battlefield); Whiplash Wordsmith // Vicious Verse (battlefield)
 Prerequisites: Whiplash Wordsmith is prepared.
@@ -20325,7 +20725,7 @@ Steps: Cast a copy of Vicious Verse from exile by paying {R}, unpreparing Whipla
 
 ## Combo 1170-5195-7498-8282
 Cards: Displacer Kitten + Biblioplex Tomekeeper + Storm-Kiln Artist + Stingerquill Voxmancer // Vicious Verse
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 120 | Commander: legal | Mana needed: {B/R}
 Produces: Infinite damage to most opponents; Infinite damage; Infinite artifact ETB; Infinite creature ETB; Infinite creature LTB; Infinite storm count; Infinite artifact LTB; Infinite magecraft triggers
 Start: Displacer Kitten (battlefield); Biblioplex Tomekeeper (battlefield); Storm-Kiln Artist (battlefield); Stingerquill Voxmancer // Vicious Verse (battlefield)
 Prerequisites: Stingerquill Voxmancer is prepared.
@@ -20352,7 +20752,7 @@ Steps: Cast a copy of the prepared spell from exile by paying one mana, unprepar
 
 ## Combo 1170-5195-8280
 Cards: Displacer Kitten + Storm-Kiln Artist + Hallway Heckler // Vicious Verse
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 160 | Commander: legal | Mana needed: {B/R}
 Produces: Infinite damage; Infinite damage to most opponents; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
 Start: Displacer Kitten (battlefield); Storm-Kiln Artist (battlefield); Hallway Heckler // Vicious Verse (battlefield)
 Prerequisites: Hallway Heckler is prepared.
@@ -20365,7 +20765,7 @@ Steps: Cast the copy of Vicious Verse by paying {B/R}.
 
 ## Combo 1170-5195-8281
 Cards: Displacer Kitten + Storm-Kiln Artist + Whiplash Wordsmith // Vicious Verse
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 70 | Commander: legal | Mana needed: {B/R}
 Produces: Infinite damage; Infinite damage to most opponents; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
 Start: Displacer Kitten (battlefield); Storm-Kiln Artist (battlefield); Whiplash Wordsmith // Vicious Verse (battlefield)
 Prerequisites: Whiplash Wordsmith is prepared.
@@ -20378,7 +20778,7 @@ Steps: Cast the copy of Vicious Verse by paying {B/R}.
 
 ## Combo 1170-6898-7498-8282
 Cards: Displacer Kitten + Biblioplex Tomekeeper + Electro, Assaulting Battery + Stingerquill Voxmancer // Vicious Verse
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {B/R}
 Produces: Infinite damage to most opponents; Infinite damage; Infinite creature ETB; Infinite creature LTB; Infinite storm count; Infinite magecraft triggers
 Start: Displacer Kitten (battlefield); Biblioplex Tomekeeper (battlefield); Electro, Assaulting Battery (battlefield); Stingerquill Voxmancer // Vicious Verse (battlefield)
 Prerequisites: Stingerquill Voxmancer is prepared.
@@ -20392,7 +20792,7 @@ Steps: Cast the copy of Vicious Verse by paying {B/R}.
 
 ## Combo 1170-6898-8280
 Cards: Displacer Kitten + Electro, Assaulting Battery + Hallway Heckler // Vicious Verse
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 7 | Commander: legal | Mana needed: {B/R}
 Produces: Infinite damage; Infinite damage to most opponents; Infinite creature ETB; Infinite creature LTB; Infinite storm count; Infinite magecraft triggers
 Start: Displacer Kitten (battlefield); Electro, Assaulting Battery (battlefield); Hallway Heckler // Vicious Verse (battlefield)
 Prerequisites: Hallway Heckler is prepared.
@@ -20405,7 +20805,7 @@ Steps: Cast the copy of Vicious Verse by paying {B/R}.
 
 ## Combo 1170-6898-8281
 Cards: Displacer Kitten + Electro, Assaulting Battery + Whiplash Wordsmith // Vicious Verse
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {B/R}
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 5 | Commander: legal | Mana needed: {B/R}
 Produces: Infinite damage; Infinite damage to most opponents; Infinite creature ETB; Infinite creature LTB; Infinite storm count; Infinite magecraft triggers
 Start: Displacer Kitten (battlefield); Electro, Assaulting Battery (battlefield); Whiplash Wordsmith // Vicious Verse (battlefield)
 Prerequisites: Whiplash Wordsmith is prepared.
@@ -20601,7 +21001,7 @@ Steps: Cast Tainted Strike by paying {B}, giving Nekusar +1/+0 and infect until 
 
 ## Combo 1218-5280-5919
 Cards: Razorkin Needlehead + Echo of Eons + Tainted Strike
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 890 | Commander: legal | Mana needed: {4}{U}{U}{B} if each opponent has three or more poison counters, or {6}{U}{U}{U}{B} otherwise
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 900 | Commander: legal | Mana needed: {4}{U}{U}{B} if each opponent has three or more poison counters, or {6}{U}{U}{U}{B} otherwise
 Produces: Each opponent loses the game
 Start: Razorkin Needlehead (battlefield); Echo of Eons (hand); Tainted Strike (hand)
 Steps: Cast Tainted Strike by paying {B}, giving Razorkin Needlehead +1/+0 and infect until end of turn.
@@ -21349,7 +21749,7 @@ Steps: Cast Kindred Charge for free due to Vision, choosing a creature type gran
 
 ## Combo 1329-1558-6704
 Cards: RMS Titanic + Emry, Lurker of the Loch + Time Sieve
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 180 | Commander: legal | Mana needed: {2} each turn
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 190 | Commander: legal | Mana needed: {2} each turn
 Produces: Infinite turns; Lock
 Start: RMS Titanic (battlefield: without summoning sickness); Emry, Lurker of the Loch (battlefield: without summoning sickness); Time Sieve (battlefield)
 Prerequisites: Other creatures you control have power 3 or greater.
@@ -22569,7 +22969,7 @@ Steps: Draw a card.
 
 ## Combo 1339-1940-4050
 Cards: The Locust God + Liliana, Dreadhorde General + Phyrexian Altar
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 160 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 170 | Commander: legal
 Produces: Near-infinite colorless mana; Near-infinite lifegain; Infinite card draw; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers
 Start: The Locust God (battlefield); Liliana, Dreadhorde General (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -23241,7 +23641,7 @@ Steps: Activate Yahenni by sacrificing another creature with haste or flash.
 
 ## Combo 1339-3967-7920
 Cards: The Locust God + Yahenni, Undying Partisan + Tresserhorn's Lord, Returned
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: The Locust God (battlefield); Yahenni, Undying Partisan (battlefield); Tresserhorn's Lord, Returned (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -23486,7 +23886,7 @@ Steps: Activate Phantom Train by sacrificing another creature.
 
 ## Combo 1339-6798-7920
 Cards: The Locust God + Umbral Collar Zealot + Tresserhorn's Lord, Returned
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 78 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 80 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: The Locust God (battlefield); Umbral Collar Zealot (battlefield); Tresserhorn's Lord, Returned (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -23795,7 +24195,7 @@ Steps: Activate Mairsil using Cauldron of Souls' ability by tapping it, giving i
 
 ## Combo 1366-1368-1414
 Cards: Underworld Breach + Glimpse the Unthinkable + Lotus Petal
-Color identity: UBR | Bracket: 3+ (Powerful) | Popularity: 92 | Commander: legal | Mana needed: {U/B}
+Color identity: UBR | Bracket: 3+ (Powerful) | Popularity: 93 | Commander: legal | Mana needed: {U/B}
 Produces: Infinite self-mill; Near-infinite storm count
 Start: Underworld Breach (battlefield); Glimpse the Unthinkable (graveyard); Lotus Petal (battlefield)
 Prerequisites: You have at least three additional cards in your graveyard.
@@ -24452,7 +24852,7 @@ Notes: Once you have infinite Treasures, Gandalf's damage can be redirected to a
 
 ## Combo 1414-1649-2068-4404
 Cards: Ashnod the Uncaring + Goblin Engineer + Corridor Monitor + Lotus Petal
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 46 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Ashnod the Uncaring (battlefield); Goblin Engineer (battlefield); Corridor Monitor (battlefield); Lotus Petal (battlefield)
 Prerequisites: Goblin Engineer does not have summoning sickness.
@@ -25069,7 +25469,7 @@ Steps: Activate Tortured Existence by paying {B} and discarding a creature card.
 
 ## Combo 1445-4508-6428
 Cards: Malcolm, Keen-Eyed Navigator + Magmakin Artillerist + Tortured Existence
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 67 | Commander: legal | Mana needed: {B}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 66 | Commander: legal | Mana needed: {B}
 Produces: Infinite damage; Near-infinite colored mana; Near-infinite Treasure tokens; Infinite self-discard triggers
 Start: Malcolm, Keen-Eyed Navigator (battlefield); Magmakin Artillerist (battlefield); Tortured Existence (battlefield)
 Prerequisites: You have a creature card in hand and a creature card in your graveyard.
@@ -25662,7 +26062,7 @@ Steps: At the beginning of your upkeep, Replicating Ring triggers, putting a nig
 
 ## Combo 1558-5471-7651
 Cards: Obeka, Splitter of Seconds + Smaug the Magnificent + Time Sieve
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 71 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 72 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Obeka, Splitter of Seconds (battlefield: without summoning sickness and with power 4 or greater); Smaug the Magnificent (battlefield); Time Sieve (battlefield)
 Prerequisites: An opponent cannot block Obeka.
@@ -26731,7 +27131,7 @@ Steps: Activate a creature by tapping it, adding at least {U}.
 
 ## Combo 1649-2068-3255-4404
 Cards: Ashnod the Uncaring + Goblin Engineer + Corridor Monitor + Commander's Sphere
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 85 | Commander: legal
 Produces: Infinite card draw; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite draw triggers
 Start: Ashnod the Uncaring (battlefield); Goblin Engineer (battlefield); Corridor Monitor (battlefield); Commander's Sphere (battlefield)
 Prerequisites: Goblin Engineer does not have summoning sickness.
@@ -26811,7 +27211,7 @@ Steps: Activate Chthonian Nightmare by paying at most {E}{E}{E}, sacrificing Pat
 
 ## Combo 1657-2034-3908
 Cards: Spark Double + Murderous Redcap + Ashnod's Altar
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 440 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 450 | Commander: legal
 Produces: Infinite colorless mana; Infinite damage; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Spark Double (battlefield: as a copy of Murderous Redcap); Murderous Redcap (battlefield); Ashnod's Altar (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Spark Double, adding {C}{C}.
@@ -27943,7 +28343,7 @@ Steps: Cast Wanderwine Prophets by paying .
 
 ## Combo 1869-2232-2792-4875
 Cards: Inalla, Archmage Ritualist + Cloudstone Curio + Great Whale + Conspiracy
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {1}{U}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {1}{U}
 Produces: Infinite creature tokens with haste; Infinite mana lands you control can produce; Infinite untap of lands you control; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Inalla, Archmage Ritualist (battlefield, command zone); Cloudstone Curio (battlefield); Great Whale (hand); Conspiracy (battlefield)
 Prerequisites: You control up to seven lands that can tap to produce at least {4}{U}.
@@ -28029,7 +28429,7 @@ Steps: Cast Bloodline Necromancer by paying {4}{B}.
 
 ## Combo 1869-2792-3089-4875
 Cards: Inalla, Archmage Ritualist + Barrin, Master Wizard + Great Whale + Conspiracy
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {U}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {U}
 Produces: Infinite mana lands you control can produce; Infinite untap of lands you control; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Inalla, Archmage Ritualist (battlefield, command zone); Barrin, Master Wizard (battlefield); Great Whale (hand); Conspiracy (battlefield)
 Prerequisites: You control up to seven lands that can tap to produce at least {5}{U}.
@@ -28416,7 +28816,7 @@ Steps: Cast Quicksilver Gargantuan by paying its mana cost, choosing to have it 
 
 ## Combo 1978-2364-5159
 Cards: Mishra, Eminent One + Voltaic Construct + Mana Vault
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 33 | Commander: legal
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 32 | Commander: legal
 Produces: Infinite colorless mana; Infinite untap of artifact creatures you control
 Start: Mishra, Eminent One (battlefield); Voltaic Construct (battlefield); Mana Vault (battlefield)
 Steps: At the beginning of your combat phase, Mishra triggers, creaitng a token copy of Mana Vault that is a 4/4 Construct artifact creature token with haste named Mishra's Warform in addition to its other types.
@@ -28426,7 +28826,7 @@ Steps: At the beginning of your combat phase, Mishra triggers, creaitng a token 
 
 ## Combo 1978-2585-5159
 Cards: Mishra, Eminent One + Voltaic Construct + Grim Monolith
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 18 | Commander: legal
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 17 | Commander: legal
 Produces: Infinite colorless mana; Infinite untap of artifact creatures you control
 Start: Mishra, Eminent One (battlefield); Voltaic Construct (battlefield); Grim Monolith (battlefield)
 Steps: At the beginning of your combat phase, Mishra triggers, creaitng a token copy of Grim Monolith that is a 4/4 Construct artifact creature token with haste named Mishra's Warform in addition to its other types.
@@ -29484,7 +29884,7 @@ Steps: Activate Bolas's Citadel by tapping it and sacrificing ten other nonland 
 
 ## Combo 2068-2178-4283
 Cards: Ashnod the Uncaring + Whisper, Blood Liturgist + Thornbite Staff
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Ashnod the Uncaring (battlefield); Whisper, Blood Liturgist (battlefield); Thornbite Staff (battlefield)
 Prerequisites: Thornbite Staff attached to Whisper.
@@ -29957,358 +30357,4 @@ Steps: Cast Capture of Jingzhou by paying {3}{U}{U}, causing you to take an extr
   Cast Chthonian Nightmare by paying {1}{B}.
   When Chthonian Nightmare enters the battlefield, it triggers, causing you to get {E}{E}{E}.
   Activate Chthonian Nightmare by paying at most {E}{E}, sacrificing Ardent Elementalist, and returning Chthonian Nightmare from the battlefield to your hand, returning a creature with mana value 2 or less from your graveyard to the battlefield.
-  Repeat.
-
-## Combo 2103-2707-7817
-Cards: River Song + Capture of Jingzhou + Paradox Shaper // Omit Variables
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {5}{U}{U} each turn
-Produces: Infinite turns; Lock; Skip your draw steps
-Start: River Song (battlefield); Capture of Jingzhou (hand); Paradox Shaper // Omit Variables (battlefield)
-Steps: Cast Capture of Jingzhou by paying its mana cost, causing you to take an extra turn after this one.
-  Activate Paradox Shaper by paying {2}, causing you to put Capture of Jingzhou on the bottom of your library from your graveyard.
-  Move to your next turn, drawing Capture of Jingzhou from the bottom of your library due to River Song during your draw step.
-  Repeat.
-
-## Combo 2103-3277-5626
-Cards: Chthonian Nightmare + Capture of Jingzhou + Izzet Chronarch
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {3}{U}{U} the first turn, with {5}{U}{U}{B}{B} each extra turn
-Produces: Infinite turns; Lock
-Start: Chthonian Nightmare (hand); Capture of Jingzhou (hand); Izzet Chronarch (graveyard)
-Prerequisites: You control a nontoken creature with mana value 1 or less.
-  You have at least {E}{E}
-Steps: Cast Capture of Jingzhou by paying {3}{U}{U}, causing you to take an extra turn after this one.
-  Move to your next turn.
-  Cast Chthonian Nightmare by paying {1}{B}.
-  When Chthonian Nightmare enters the battlefield, it triggers, causing you to get {E}{E}{E}.
-  Activate Chthonian Nightmare by paying {E}{E}{E}{E}{E}, sacrificing a creature with mana value 1 or less, and returning Chthonian Nightmare from the battlefield to your hand, returning Izzet Chronarch from your graveyard to the battlefield.
-  When Izzet Chronarch enters the battlefield, it triggers, returning Capture of Jingzhou from your graveyard to your hand.
-  Cast Chthonian Nightmare by paying {1}{B}.
-  When Chthonian Nightmare enters the battlefield, it triggers, causing you to get {E}{E}{E}.
-  Activate Chthonian Nightmare by paying at most {E}, sacrificing Izzet Chronarch, and returning Chthonian Nightmare from the battlefield to your hand, returning a creature with mana value 1 or less from your graveyard to the battlefield.
-  Repeat.
-
-## Combo 2103-3976
-Cards: Magar of the Magic Strings + Capture of Jingzhou
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 25 | Commander: legal | Mana needed: {4}{U}{U}{B}{R}
-Produces: Infinite turns; Lock
-Start: Magar of the Magic Strings (battlefield); Capture of Jingzhou (hand)
-Prerequisites: An opponent is unable to block and kill creatures you control.
-Steps: Cast Capture of Jingzhou by paying its mana cost, causing you to take an extra turn after this one.
-  Activate Magar by paying {1}{B}{R}, noting Capture of Jingzhou and putting it face down as a 3/3 creature.
-  Move to your next turn.
-  Deal combat damage to an opponent with the face down creature.
-  The face down creature triggers, causing you to cast a copy of Capture of Jingzhou without paying its mana cost.
-  Resolve the copy of Capture of Jingzhou, causing you to take an extra turn after this one.
-  Repeat from step 3.
-
-## Combo 2103-5626-5913
-Cards: Chthonian Nightmare + Capture of Jingzhou + Pinnacle Monk // Mystic Peak
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {3}{U}{U} the first turn, with {5}{U}{U}{B}{B} each extra turn
-Produces: Infinite turns; Lock
-Start: Chthonian Nightmare (hand); Capture of Jingzhou (hand); Pinnacle Monk // Mystic Peak (graveyard)
-Prerequisites: You control a nontoken creature with mana value 1 or less.
-  You have at least {E}{E}
-Steps: Cast Capture of Jingzhou by paying {3}{U}{U}, causing you to take an extra turn after this one.
-  Move to your next turn.
-  Cast Chthonian Nightmare by paying {1}{B}.
-  When Chthonian Nightmare enters the battlefield, it triggers, causing you to get {E}{E}{E}.
-  Activate Chthonian Nightmare by paying {E}{E}{E}{E}{E}, sacrificing a creature with mana value 1 or less, and returning Chthonian Nightmare from the battlefield to your hand, returning Pinnacle Monk from your graveyard to the battlefield.
-  When Pinnacle Monk enters the battlefield, it triggers, returning Capture of Jingzhou from your graveyard to your hand.
-  Cast Chthonian Nightmare by paying {1}{B}.
-  When Chthonian Nightmare enters the battlefield, it triggers, causing you to get {E}{E}{E}.
-  Activate Chthonian Nightmare by paying at most {E}, sacrificing Pinnacle Monk, and returning Chthonian Nightmare from the battlefield to your hand, returning a creature with mana value 1 or less from your graveyard to the battlefield.
-  Repeat.
-
-## Combo 2103-5626-7874
-Cards: Chthonian Nightmare + Capture of Jingzhou + The Immortal Weapons
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {3}{U}{U} the first turn, with {5}{U}{U}{B}{B} each extra turn
-Produces: Infinite turns; Lock
-Start: Chthonian Nightmare (hand); Capture of Jingzhou (hand); The Immortal Weapons (graveyard)
-Prerequisites: You control a nontoken creature with mana value 1 or less.
-  You have at least {E}{E}
-Steps: Cast Capture of Jingzhou by paying its mana cost, causing you to take an extra turn after this one.
-  Move to your next turn.
-  Cast Chthonian Nightmare by paying {1}{B}.
-  When Chthonian Nightmare enters the battlefield, it triggers, causing you to get {E}{E}{E}.
-  Activate Chthonian Nightmare by paying {E}{E}{E}{E}{E}, sacrificing a creature with mana value 1 or less, and returning Chthonian Nightmare from the battlefield to your hand, returning The Immortal Weapons from your graveyard to the battlefield.
-  When The Immortal Weapons enters the battlefield, it triggers, returning Capture of Jingzhou from your graveyard to your hand.
-  Cast Chthonian Nightmare by paying {1}{B}.
-  When Chthonian Nightmare enters the battlefield, it triggers, causing you to get {E}{E}{E}.
-  Activate Chthonian Nightmare by paying at most {E}, sacrificing The Immortal Weapons, and returning Chthonian Nightmare from the battlefield to your hand, returning a creature with mana value 1 or less from your graveyard to the battlefield.
-  Repeat.
-
-## Combo 2104-2187-4702
-Cards: Splinter Twin + Possessed Skaab + Temporal Manipulation
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {3}{U}{U} each turn
-Produces: Infinite turns; Lock
-Start: Splinter Twin (battlefield); Possessed Skaab (battlefield); Temporal Manipulation (hand)
-Steps: Cast Temporal Manipulation getting an extra turn after this one.
-  Pass the turn.
-  Activate Possessed Skaab, by tapping it, creating a token copy of it with haste.
-  The token copy of Possessed Skaab enters the battlefield, returning Temporal Manipulation from your graveyard to your hand.
-  Repeat.
-
-## Combo 2104-2239-5626
-Cards: Chthonian Nightmare + Temporal Manipulation + Ardent Elementalist
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {3}{U}{U} the first turn, with {5}{U}{U}{B}{B} each extra turn
-Produces: Infinite turns; Lock
-Start: Chthonian Nightmare (hand); Temporal Manipulation (hand); Ardent Elementalist (graveyard)
-Prerequisites: You control a nontoken creature with mana value 2 or less.
-  You have at least {E}.
-Steps: Cast Temporal Manipulation by paying {3}{U}{U}, causing you to take an extra turn after this one.
-  Move to your next turn.
-  Cast Chthonian Nightmare by paying {1}{B}.
-  When Chthonian Nightmare enters the battlefield, it triggers, causing you to get {E}{E}{E}.
-  Activate Chthonian Nightmare by paying {E}{E}{E}{E}, sacrificing a creature with mana value 2 or less, and returning Chthonian Nightmare from the battlefield to your hand, returning Ardent Elementalist from your graveyard to the battlefield.
-  When Ardent Elementalist enters the battlefield, it triggers, returning Temporal Manipulation from your graveyard to your hand.
-  Cast Chthonian Nightmare by paying {1}{B}.
-  When Chthonian Nightmare enters the battlefield, it triggers, causing you to get {E}{E}{E}.
-  Activate Chthonian Nightmare by paying at most {E}{E}, sacrificing Ardent Elementalist, and returning Chthonian Nightmare from the battlefield to your hand, returning a creature with mana value 2 or less from your graveyard to the battlefield.
-  Repeat.
-
-## Combo 2104-2707-7817
-Cards: River Song + Temporal Manipulation + Paradox Shaper // Omit Variables
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {5}{U}{U} each turn
-Produces: Infinite turns; Lock; Skip your draw steps
-Start: River Song (battlefield); Temporal Manipulation (hand); Paradox Shaper // Omit Variables (battlefield)
-Steps: Cast Temporal Manipulation by paying its mana cost, causing you to take an extra turn after this one.
-  Activate Paradox Shaper by paying {2}, causing you to put Temporal Manipulation on the bottom of your library from your graveyard.
-  Move to your next turn, drawing Temporal Manipulation from the bottom of your library due to River Song during your draw step.
-  Repeat.
-
-## Combo 2104-3277-5626
-Cards: Chthonian Nightmare + Temporal Manipulation + Izzet Chronarch
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {3}{U}{U} the first turn, with {5}{U}{U}{B}{B} each extra turn
-Produces: Infinite turns; Lock
-Start: Chthonian Nightmare (hand); Temporal Manipulation (hand); Izzet Chronarch (graveyard)
-Prerequisites: You control a nontoken creature with mana value 1 or less.
-  You have at least {E}{E}
-Steps: Cast Temporal Manipulation by paying {3}{U}{U}, causing you to take an extra turn after this one.
-  Move to your next turn.
-  Cast Chthonian Nightmare by paying {1}{B}.
-  When Chthonian Nightmare enters the battlefield, it triggers, causing you to get {E}{E}{E}.
-  Activate Chthonian Nightmare by paying {E}{E}{E}{E}{E}, sacrificing a creature with mana value 1 or less, and returning Chthonian Nightmare from the battlefield to your hand, returning Izzet Chronarch from your graveyard to the battlefield.
-  When Izzet Chronarch enters the battlefield, it triggers, returning Temporal Manipulation from your graveyard to your hand.
-  Cast Chthonian Nightmare by paying {1}{B}.
-  When Chthonian Nightmare enters the battlefield, it triggers, causing you to get {E}{E}{E}.
-  Activate Chthonian Nightmare by paying at most {E}, sacrificing Izzet Chronarch, and returning Chthonian Nightmare from the battlefield to your hand, returning a creature with mana value 1 or less from your graveyard to the battlefield.
-  Repeat.
-
-## Combo 2104-3976
-Cards: Magar of the Magic Strings + Temporal Manipulation
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 28 | Commander: legal | Mana needed: {4}{U}{U}{B}{R}
-Produces: Infinite turns; Lock
-Start: Magar of the Magic Strings (battlefield); Temporal Manipulation (hand)
-Prerequisites: An opponent is unable to block and kill creatures you control.
-Steps: Cast Temporal Manipulation by paying its mana cost, causing you to take an extra turn after this one.
-  Activate Magar by paying {1}{B}{R}, noting Temporal Manipulation and putting it face down as a 3/3 creature.
-  Move to your next turn.
-  Deal combat damage to an opponent with the face down creature.
-  The face down creature triggers, causing you to cast a copy of Temporal Manipulation without paying its mana cost.
-  Resolve the copy of Temporal Manipulation, causing you to take an extra turn after this one.
-  Repeat from step 3.
-
-## Combo 2104-5626-5913
-Cards: Chthonian Nightmare + Temporal Manipulation + Pinnacle Monk // Mystic Peak
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {3}{U}{U} the first turn, with {5}{U}{U}{B}{B} each extra turn
-Produces: Infinite turns; Lock
-Start: Chthonian Nightmare (hand); Temporal Manipulation (hand); Pinnacle Monk // Mystic Peak (graveyard)
-Prerequisites: You control a nontoken creature with mana value 1 or less.
-  You have at least {E}{E}
-Steps: Cast Temporal Manipulation by paying {3}{U}{U}, causing you to take an extra turn after this one.
-  Move to your next turn.
-  Cast Chthonian Nightmare by paying {1}{B}.
-  When Chthonian Nightmare enters the battlefield, it triggers, causing you to get {E}{E}{E}.
-  Activate Chthonian Nightmare by paying {E}{E}{E}{E}{E}, sacrificing a creature with mana value 1 or less, and returning Chthonian Nightmare from the battlefield to your hand, returning Pinnacle Monk from your graveyard to the battlefield.
-  When Pinnacle Monk enters the battlefield, it triggers, returning Temporal Manipulation from your graveyard to your hand.
-  Cast Chthonian Nightmare by paying {1}{B}.
-  When Chthonian Nightmare enters the battlefield, it triggers, causing you to get {E}{E}{E}.
-  Activate Chthonian Nightmare by paying at most {E}, sacrificing Pinnacle Monk, and returning Chthonian Nightmare from the battlefield to your hand, returning a creature with mana value 1 or less from your graveyard to the battlefield.
-  Repeat.
-
-## Combo 2104-5626-7874
-Cards: Chthonian Nightmare + Temporal Manipulation + The Immortal Weapons
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {3}{U}{U} the first turn, with {5}{U}{U}{B}{B} each extra turn
-Produces: Infinite turns; Lock
-Start: Chthonian Nightmare (hand); Temporal Manipulation (hand); The Immortal Weapons (graveyard)
-Prerequisites: You control a nontoken creature with mana value 1 or less.
-  You have at least {E}{E}
-Steps: Cast Temporal Manipulation by paying its mana cost, causing you to take an extra turn after this one.
-  Move to your next turn.
-  Cast Chthonian Nightmare by paying {1}{B}.
-  When Chthonian Nightmare enters the battlefield, it triggers, causing you to get {E}{E}{E}.
-  Activate Chthonian Nightmare by paying {E}{E}{E}{E}{E}, sacrificing a creature with mana value 1 or less, and returning Chthonian Nightmare from the battlefield to your hand, returning The Immortal Weapons from your graveyard to the battlefield.
-  When The Immortal Weapons enters the battlefield, it triggers, returning Temporal Manipulation from your graveyard to your hand.
-  Cast Chthonian Nightmare by paying {1}{B}.
-  When Chthonian Nightmare enters the battlefield, it triggers, causing you to get {E}{E}{E}.
-  Activate Chthonian Nightmare by paying at most {E}, sacrificing The Immortal Weapons, and returning Chthonian Nightmare from the battlefield to your hand, returning a creature with mana value 1 or less from your graveyard to the battlefield.
-  Repeat.
-
-## Combo 2105-4359-6911
-Cards: Impostor Syndrome + Combat Celebrant + Garna, the Bloodflame
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite combat phases; Infinite mana creatures you control can produce; Infinite combat damage; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite untap of creatures you control
-Start: Impostor Syndrome (battlefield); Combat Celebrant (battlefield); Garna, the Bloodflame (battlefield)
-Prerequisites: An opponent cannot block creatures you control.
-  Combat Celebrant has vigilance.
-Steps: Declare Combat Celebrant as an attacker, choosing to exert it as it attacks and triggering its ability, causing you to untap all other creatures you control and to get an additional combat phase after this one.
-  Deal combat damage to an opponent using Combat Celebrant, triggering Impostor Syndrome, creating a token copy of Combat Celebrant that isn't legendary.
-  During your next combat phase, declare Combat Celebrant and the Combat Celebrant token as attackers, choosing to exert the Combat Celebrant token as it attacks.
-  The Combat Celebrant token triggers, causing you to untap all other creatures you control and to get an additional combat phase after this one.
-  Repeat from step 2.
-
-## Combo 2105-6965-7196
-Cards: Grub, Storied Matriarch // Grub, Notorious Auntie + Combat Celebrant + Frostcliff Siege
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
-Produces: Infinite combat phases; Infinite creature tokens with haste; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite untap of creatures you control
-Start: Grub, Storied Matriarch // Grub, Notorious Auntie (battlefield); Combat Celebrant (battlefield: hasn't been exerted this turn); Frostcliff Siege (battlefield: with "Temur" chosen)
-Steps: Declare Grub and Combat Celebrant as attackers, choosing to exert Combat Celebrant as it attacks. Grub and Combat Celebrant trigger.
-  Resolve the Grub trigger, putting a -1/-1 counter on Combat Celebrant and then creating a tapped and attacking token copy of it.
-  Combat Celebrant dies as a state-based action due to having 0 toughness.
-  Resolve the Combat Celebrant trigger, causing you to untap all other creatures you control and causing you to get an additional combat phase after this one.
-  Repeat each combat phase, using the Combat Celebrant token instead.
-
-## Combo 2111-2292-6792
-Cards: Viscera Seer + Wingrattle Scarecrow + Mm'menon, Uthros Exile
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
-Start: Viscera Seer (battlefield); Wingrattle Scarecrow (battlefield: without a -1/-1 counter on it); Mm'menon, Uthros Exile (battlefield)
-Steps: Activate Viscera Seer by sacrificing Wingrattle Scarecrow
-  When Wingrattle Scarecrow dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
-  When Wingrattle Scarecrow enters, Mm'menon triggers, putting a +1/+1 counter on Wingrattle Scarecrow
-  Resolve the Viscera Seer ability.
-  Repeat.
-
-## Combo 2111-2438-6792
-Cards: Wingrattle Scarecrow + Carrion Feeder + Mm'menon, Uthros Exile
-Color identity: UBR | Bracket: 2-3+ (Oddball) | Popularity: 1 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Wingrattle Scarecrow (battlefield: without a -1/-1 counter on it); Carrion Feeder (battlefield); Mm'menon, Uthros Exile (battlefield)
-Steps: Activate Carrion Feeder by sacrificing Wingrattle Scarecrow
-  When Wingrattle Scarecrow dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
-  When Wingrattle Scarecrow enters, Mm'menon triggers, putting a +1/+1 counter on Wingrattle Scarecrow
-  Resolve the Carrion Feeder ability.
-  Repeat.
-
-## Combo 2111-2511-6792
-Cards: Wingrattle Scarecrow + Bloodflow Connoisseur + Mm'menon, Uthros Exile
-Color identity: UBR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Wingrattle Scarecrow (battlefield: without a -1/-1 counter on it); Bloodflow Connoisseur (battlefield); Mm'menon, Uthros Exile (battlefield)
-Steps: Activate Bloodflow Connoisseur by sacrificing Wingrattle Scarecrow
-  When Wingrattle Scarecrow dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
-  When Wingrattle Scarecrow enters, Mm'menon triggers, putting a +1/+1 counter on Wingrattle Scarecrow
-  Resolve the Bloodflow Connoisseur ability.
-  Repeat.
-
-## Combo 2111-3967-6792
-Cards: Wingrattle Scarecrow + Yahenni, Undying Partisan + Mm'menon, Uthros Exile
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Wingrattle Scarecrow (battlefield: without a -1/-1 counter on it); Yahenni, Undying Partisan (battlefield); Mm'menon, Uthros Exile (battlefield)
-Steps: Activate Yahenni by sacrificing Wingrattle Scarecrow
-  When Wingrattle Scarecrow dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
-  When Wingrattle Scarecrow enters, Mm'menon triggers, putting a +1/+1 counter on Wingrattle Scarecrow
-  Resolve the Yahenni ability.
-  Repeat.
-
-## Combo 2111-6792-6797
-Cards: Wingrattle Scarecrow + Mm'menon, Uthros Exile + Phantom Train
-Color identity: UBR | Bracket: 2-3+ (Oddball) | Popularity: 2 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Wingrattle Scarecrow (battlefield: without a -1/-1 counter on it); Mm'menon, Uthros Exile (battlefield); Phantom Train (battlefield)
-Prerequisites: You control a black creature.
-Steps: Activate Phantom Train by sacrificing Wingrattle Scarecrow
-  When Wingrattle Scarecrow dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
-  When Wingrattle Scarecrow enters, Mm'menon triggers, putting a +1/+1 counter on Wingrattle Scarecrow
-  Resolve the Phantom Train ability.
-  Repeat.
-
-## Combo 2111-6792-6798
-Cards: Umbral Collar Zealot + Wingrattle Scarecrow + Mm'menon, Uthros Exile
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 2 | Commander: legal
-Produces: Infinite surveil; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Umbral Collar Zealot (battlefield); Wingrattle Scarecrow (battlefield: without a -1/-1 counter on it); Mm'menon, Uthros Exile (battlefield)
-Steps: Activate Umbral Collar Zealot by sacrificing Wingrattle Scarecrow
-  When Wingrattle Scarecrow dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
-  When Wingrattle Scarecrow enters, Mm'menon triggers, putting a +1/+1 counter on Wingrattle Scarecrow
-  Resolve the Umbral Collar Zealot ability.
-  Repeat.
-
-## Combo 2136-2178-2412
-Cards: Orthion, Hero of Lavabrink + Thornbite Staff + Crosis's Attendant
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {7}{R}{R}{R}
-Produces: Infinite black mana; Infinite blue mana; Infinite copies of creatures you control with haste; Infinite creature tokens with haste; Infinite red mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
-Start: Orthion, Hero of Lavabrink (battlefield); Thornbite Staff (battlefield); Crosis's Attendant (battlefield)
-Prerequisites: Orthion does not have summoning sickness.
-  Thornbite Staff attached to Orthion.
-Steps: Activate Orthion's second ability by paying {6}{R}{R}{R} and tapping it, creating five token copies of Crosis's Attendant with haste.
-  Activate a Crosis's Attendant token by paying {1} and sacrificing it, adding {U}{B}{R}.
-  When the Crosis's Attendant token dies, Orthion triggers, untapping itself.
-  Repeat from step 2 for each remaining Crosis's Attendant token.
-  Repeat from step 1.
-  Once you have infinite mana, you may forego sacrificing the Crosis's Attendant tokens and/or target any other creature.
-
-## Combo 2136-2178-3381
-Cards: Orthion, Hero of Lavabrink + Thornbite Staff + Morgue Toad
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {6}{R}{R}{R}
-Produces: Infinite blue mana; Infinite copies of creatures you control with haste; Infinite creature tokens with haste; Infinite red mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
-Start: Orthion, Hero of Lavabrink (battlefield); Thornbite Staff (battlefield); Morgue Toad (battlefield)
-Prerequisites: Orthion does not have summoning sickness.
-  Thornbite Staff attached to Orthion.
-Steps: Activate Orthion's second ability by paying {6}{R}{R}{R} and tapping it, creating five token copies of Morgue Toad with haste.
-  Activate the five Morgue Toad tokens by sacrificing them, adding {U}{U}{U}{U}{U}{R}{R}{R}{R}{R}.
-  When the Morgue Toad tokens die, Orthion triggers, untapping itself.
-  Repeat.
-  Once you have infinite mana, you may forego sacrificing the Morgue Toad tokens and/or target any other creature.
-
-## Combo 2136-4071
-Cards: Be'lakor, the Dark Master + Orthion, Hero of Lavabrink
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 710 | Commander: legal | Mana needed: {6}{R}{R}{R}
-Produces: Near-infinite card draw; Near-infinite damage; Near-infinite draw triggers
-Start: Be'lakor, the Dark Master (battlefield); Orthion, Hero of Lavabrink (battlefield)
-Prerequisites: Orthion does not have summoning sickness.
-  Opponents have a collective life total of 150 or less, or your deck size is equal to or greater than 5 times the number of Demons you control and your life total is equal to or greater than that number plus one.
-Steps: Activate Orthion's second ability by paying {6}{R}{R}{R} and tapping it, creating five token copies of Be'lakor.
-  Put all the Be'lakor tokens into your graveyard due to the legend rule.
-  Each Be'lakor token's first ability triggers, the nontoken Be'lakor's second ability triggers five times, and each Be'lakor token's second ability triggers four times.
-  Resolve the nontoken Be'lakor triggers, dealing 30 damage to up to 5 targets.
-  Resolve all the Be'lakor tokens' second abilities, dealing 120 damage to up to 20 targets.
-  If needed, resolve all the Be'lakor tokens' first abilities, causing you to draw five cards for each Demon you control and lose that much life.
-
-## Combo 2139-4050-4424
-Cards: Missy + Phyrexian Altar + Ire Shaman
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 110 | Commander: legal
-Produces: Infinite death triggers; Infinite creature ETB; Infinite creature sacrifice triggers; Exile your library; Infinite creature LTB
-Start: Missy (battlefield); Phyrexian Altar (battlefield); Ire Shaman (battlefield)
-Steps: Activate Phyrexian Altar by sacrificing Ire Shaman, adding {R}.
-  When Ire Shaman dies, Missy's first ability triggers, returning Ire Shaman from your graveyard to the battlefield face down as a 2/2 Cyberman artifact creature.
-  Activate Ire Shaman's morph ability by paying {R}, turning it face up and putting a +1/+1 counter on it.
-  Ire Shaman triggers, exiling the top card of your library with the ability to play it this turn.
-  Repeat.
-
-## Combo 2178-3381-4183
-Cards: Saheeli, the Sun's Brilliance + Thornbite Staff + Morgue Toad
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {U}{R}
-Produces: Infinite mana creatures you control can produce; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite untap of creatures you control
-Start: Saheeli, the Sun's Brilliance (battlefield); Thornbite Staff (battlefield); Morgue Toad (battlefield)
-Prerequisites: Thornbite Staff attached to Saheeli.
-  Saheeli does not have summoning sickness.
-Steps: Activate Saheeli by paying {U}{R} and tapping it, creating a token copy of Morgue Toad with haste.
-  Activate the Morgue Toad token by sacrificing it, adding {U}{R}.
-  When the Morgue Toad token dies, Saheeli triggers, untapping Saheeli.
-  Repeat.
-
-## Combo 2178-4050-4319-4424
-Cards: Missy + Skirk Alarmist + Thornbite Staff + Phyrexian Altar
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite colored mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
-Start: Missy (battlefield); Skirk Alarmist (battlefield); Thornbite Staff (battlefield); Phyrexian Altar (battlefield)
-Prerequisites: You control another nontoken nonartifact creature.
-  Thornbite Staff attached to Skirk Alarmist.
-Steps: Activate Phyrexian Altar by sacrificing another nontoken nonartifact creature, adding one mana of any color.
-  When the creature dies, Missy's first ability and Skirk Alarmist trigger.
-  Resolve the Missy ability, returning the creature from your graveyard to the battlefield face down as a 2/2 Cyberman artifact creature.
-  Resolve the Skirk Alarmist trigger, untapping it.
-  Activate Skirk Alarmist by tapping it, turning the creature face up.
   Repeat.
