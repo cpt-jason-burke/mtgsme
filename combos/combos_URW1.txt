@@ -3974,6 +3974,16 @@ Steps: Cast Fractured Identity by paying {3}{W}{U}, exiling Maskwood Nexus and c
   Cast Suleiman's Legacy by paying {R}{W}. When it enters, its first ability triggers, destroying all Djinns and Efreets. Due to each opponent's Maskwood Nexus, this will result in all their creatures being destroyed.
   Whenever an opponent has a creature enter, Suleiman's Legacy's second ability will trigger, destroying that creature.
 
+## Combo 190-3140-8412
+Cards: Fractured Identity + Soltari Guerrillas + Ruric Thar, Biomagus
+Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {3}{W}{U}
+Produces: Each opponent loses the game; Infinite card draw for each opponent; Infinite draw triggers for each opponent
+Start: Fractured Identity (hand); Soltari Guerrillas (battlefield); Ruric Thar, Biomagus (battlefield)
+Steps: Cast Fractured Identity by paying {3}{W}{U}, exiling Ruric Thar and causing each opponent to create a token copy of it.
+  Activate Soltari Guerrillas an arbitrarily large number of times by paying {0}, targeting an opponent's Ruric Thar.
+  Ruric Thar triggers that many times, causing the opponent to draw that many cards and lose the game due to drawing from an empty library.
+  Repeat from step 2 for each remaining opponent.
+
 ## Combo 191-1689-7435
 Cards: Eligeth, Crossroads Augur + Curator of Mysteries + Hardened Academic
 Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -4091,7 +4101,7 @@ Steps: Cast View from Above by paying {1}{U}.
 
 ## Combo 204-776-2100
 Cards: Jeskai Ascendancy + Sorcerer Class + Searing Touch
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal
 Produces: Near-infinite blue mana that can only be spent to cast instant and/or sorcery spells; Near-infinite damage; Near-infinitely large creatures until end of turn; Near-infinite red mana that can only be spent to cast instant and/or sorcery spells; Near-infinite mana creatures you control can produce; Infinite looting; Near-infinite untap of creatures you control; Infinite draw triggers; Infinite self-discard triggers; Near-infinite magecraft triggers; Near-infinite storm count
 Start: Jeskai Ascendancy (battlefield); Sorcerer Class (battlefield); Searing Touch (hand)
 Prerequisites: Sorcerer Class is at least level two.
@@ -4688,6 +4698,19 @@ Steps: Activate Lotus Bloom by tapping and sacrificing it, adding {W}{W}{W} or {
   Activate Tameshi's second ability by paying {W} and returning Copy Artifact from the battlefield to your hand, returning Lotus Bloom from your graveyard to the battlefield.
   Repeat.
 
+## Combo 232-1069-1914
+Cards: Cowardice + Priest of Urabrask + Puresteel Paladin
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{R}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Priest of Urabrask (hand); Puresteel Paladin (battlefield)
+Prerequisites: You control three or more artifacts including an Equipment.
+Steps: Cast Priest of Urabrask by paying its mana cost.
+  When Priest of Urabrask enters, it triggers, adding {R}{R}{R}.
+  Activate an Equipment's equip ability given to it by Puresteel Paladin by paying {0}, targeting Priest of Urabrask.
+  Cowardice triggers, returning Priest of Urabrask from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
+
 ## Combo 232-1308-5778-6867
 Cards: Zinnia, Valley's Voice + Appa, Steadfast Guardian + Priest of Urabrask + Anointed Procession
 Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {4}{R}{W}{W}
@@ -4761,6 +4784,19 @@ Steps: Cast Priest of Urabrask by paying its mana cost plus an additional {2} fo
   Cast Appa from exile by paying {2} plus an additional {2} for its offspring cost.
   Repeat from step 8.
 Notes: Once you have extra mana, other nonland permanents can be airbended using Appa and returned to the battlefield each loop as desired.
+
+## Combo 232-1914-5638
+Cards: Cowardice + Priest of Urabrask + Plate Armor
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{R}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Priest of Urabrask (hand); Plate Armor (battlefield)
+Prerequisites: You control at least four Equipment.
+Steps: Cast Priest of Urabrask by paying its mana cost.
+  When Priest of Urabrask enters, it triggers, adding {R}{R}{R}.
+  Activate Plate Armor by paying {0}, targeting Priest of Urabrask.
+  Cowardice triggers, returning Priest of Urabrask from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
 
 ## Combo 232-2232-5778
 Cards: Zinnia, Valley's Voice + Cloudstone Curio + Priest of Urabrask
@@ -5513,7 +5549,7 @@ Steps: Activate Prototype Portal by paying {0} and tapping it, creating a token 
 
 ## Combo 277-774-5233
 Cards: Patron of the Moon + Tiller Engine + Boros Garrison
-Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 71 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 72 | Commander: legal | Mana needed: {1}
 Produces: Infinite red mana; Infinite white mana; Infinite landfall triggers
 Start: Patron of the Moon (battlefield); Tiller Engine (battlefield); Boros Garrison (hand)
 Steps: Pay {1} to activate Patron of the Moon, putting Boros Garrison from your hand onto the battlefield.
@@ -5537,7 +5573,7 @@ Steps: Activate Prototype Portal by paying {0} and tapping it, creating a token 
 
 ## Combo 282-1267
 Cards: Delina, Wild Mage + Medomai the Ageless
-Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 78 | Commander: legal
+Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 79 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Delina, Wild Mage (battlefield); Medomai the Ageless (battlefield)
 Prerequisites: Delina does not have summoning sickness.
@@ -6410,6 +6446,20 @@ Steps: Cast Planar Incision by paying its mana cost, blinking Abdel Adrian.
   Resolve the Abdel Adrian trigger, exiling Zealous Lorecaster and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
   Repeat.
 
+## Combo 372-673-7874
+Cards: Abdel Adrian, Gorion's Ward + The Immortal Weapons + Planar Incision
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{U}
+Produces: Infinite creature tokens; Infinitely powerful creatures you control until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite blinking of nonland permanents; Infinite magecraft triggers; Infinite storm count
+Start: Abdel Adrian, Gorion's Ward (battlefield); The Immortal Weapons (exile: exiled by Abdel Adrian); Planar Incision (hand)
+Prerequisites: You have any number of other nonland permanents that enter the battlefield untapped, and that can collectively tap to produce enough mana to cast Planar Incision exiled by Abdel Adrian.
+Steps: Cast Planar Incision by paying its mana cost, blinking Abdel Adrian.
+  Abdel Adrian leaves the battlefield, returning The Immortal Weapons and all other cards that were exiled with it to the battlefield.
+  Abdel Adrian and The Immortal Weapons trigger.
+  Resolve the The Immortal Weapons trigger, returning Planar Incision from your graveyard to your hand.
+  Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Planar Incision.
+  Resolve the Abdel Adrian trigger, exiling The Immortal Weapons and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
+  Repeat.
+
 ## Combo 372-695-3277
 Cards: Abdel Adrian, Gorion's Ward + Settle Beyond Reality + Izzet Chronarch
 Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {4}{W}
@@ -6555,6 +6605,20 @@ Steps: Cast Momentary Blink by paying its mana cost, blinking Abdel Adrian.
   Resolve the Zealous Lorecaster trigger, returning Momentary Blink from your graveyard to your hand.
   Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Momentary Blink.
   Resolve the Abdel Adrian trigger, exiling Zealous Lorecaster and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
+  Repeat.
+
+## Combo 372-1567-7874
+Cards: Abdel Adrian, Gorion's Ward + The Immortal Weapons + Momentary Blink
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Produces: Infinite creature tokens; Infinitely powerful creatures you control until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite blinking of nonland permanents; Infinite magecraft triggers; Infinite storm count
+Start: Abdel Adrian, Gorion's Ward (battlefield); The Immortal Weapons (exile: exiled by Abdel Adrian); Momentary Blink (hand)
+Prerequisites: You have any number of other nonland permanents that enter the battlefield untapped, and that can collectively tap to produce enough mana to cast Momentary Blink exiled by Abdel Adrian.
+Steps: Cast Momentary Blink by paying its mana cost, blinking Abdel Adrian.
+  Abdel Adrian leaves the battlefield, returning The Immortal Weapons and all other cards that were exiled with it to the battlefield.
+  Abdel Adrian and The Immortal Weapons trigger.
+  Resolve the The Immortal Weapons trigger, returning Momentary Blink from your graveyard to your hand.
+  Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Momentary Blink.
+  Resolve the Abdel Adrian trigger, exiling The Immortal Weapons and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
   Repeat.
 
 ## Combo 372-1809-1922
@@ -6726,6 +6790,20 @@ Steps: Cast Blur by paying its mana cost, blinking Abdel Adrian.
   Resolve the Abdel Adrian trigger, exiling Zealous Lorecaster and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
   Repeat.
 
+## Combo 372-1922-7874
+Cards: Abdel Adrian, Gorion's Ward + The Immortal Weapons + Blur
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{U}
+Produces: Infinite card draw; Near-infinite creature tokens; Infinitely powerful creatures you control until end of turn; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite blinking of nonland permanents you control; Near-infinite magecraft triggers; Near-infinite storm count
+Start: Abdel Adrian, Gorion's Ward (battlefield); The Immortal Weapons (exile: exiled by Abdel Adrian); Blur (hand)
+Prerequisites: You have any number of other nonland permanents that enter the battlefield untapped, and that can collectively tap to produce enough mana to cast Blur exiled by Abdel Adrian.
+Steps: Cast Blur by paying its mana cost, blinking Abdel Adrian.
+  Abdel Adrian leaves the battlefield, returning The Immortal Weapons and all other cards that were exiled with it to the battlefield.
+  Abdel Adrian and The Immortal Weapons trigger.
+  Resolve the The Immortal Weapons trigger, returning Blur from your graveyard to your hand.
+  Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Blur.
+  Resolve the Abdel Adrian trigger, exiling The Immortal Weapons and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
+  Repeat.
+
 ## Combo 372-1987-2239
 Cards: Abdel Adrian, Gorion's Ward + Ghostly Flicker + Ardent Elementalist
 Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 47 | Commander: legal
@@ -6801,6 +6879,20 @@ Steps: Cast Ghostly Flicker by paying its mana cost, blinking Abdel Adrian.
   Resolve the Zealous Lorecaster trigger, returning Ghostly Flicker from your graveyard to your hand.
   Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Ghostly Flicker.
   Resolve the Abdel Adrian trigger, exiling Zealous Lorecaster and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
+  Repeat.
+
+## Combo 372-1987-7874
+Cards: Abdel Adrian, Gorion's Ward + The Immortal Weapons + Ghostly Flicker
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{U}
+Produces: Infinite creature tokens; Infinitely powerful creatures you control until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite blinking of nonland permanents; Infinite magecraft triggers; Infinite storm count
+Start: Abdel Adrian, Gorion's Ward (battlefield); The Immortal Weapons (exile: exiled by Abdel Adrian); Ghostly Flicker (hand)
+Prerequisites: You have any number of other nonland permanents that enter the battlefield untapped, and that can collectively tap to produce enough mana to cast Ghostly Flicker exiled by Abdel Adrian.
+Steps: Cast Ghostly Flicker by paying its mana cost, blinking Abdel Adrian.
+  Abdel Adrian leaves the battlefield, returning The Immortal Weapons and all other cards that were exiled with it to the battlefield.
+  Abdel Adrian and The Immortal Weapons trigger.
+  Resolve the The Immortal Weapons trigger, returning Ghostly Flicker from your graveyard to your hand.
+  Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Ghostly Flicker.
+  Resolve the Abdel Adrian trigger, exiling The Immortal Weapons and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
   Repeat.
 
 ## Combo 372-2072-3277
@@ -6952,6 +7044,20 @@ Steps: Cast Siren's Ruse by paying its mana cost, blinking Abdel Adrian.
   Resolve the Zealous Lorecaster trigger, returning Siren's Ruse from your graveyard to your hand.
   Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Siren's Ruse.
   Resolve the Abdel Adrian trigger, exiling Zealous Lorecaster and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
+  Repeat.
+
+## Combo 372-2417-7874
+Cards: Abdel Adrian, Gorion's Ward + The Immortal Weapons + Siren's Ruse
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{U}
+Produces: Infinite creature tokens; Infinitely powerful creatures you control until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite blinking of nonland permanents; Infinite magecraft triggers; Infinite storm count
+Start: Abdel Adrian, Gorion's Ward (battlefield); The Immortal Weapons (exile: exiled by Abdel Adrian); Siren's Ruse (hand)
+Prerequisites: You have any number of other nonland permanents that enter the battlefield untapped, and that can collectively tap to produce enough mana to cast Siren's Ruse exiled by Abdel Adrian.
+Steps: Cast Siren's Ruse by paying its mana cost, blinking Abdel Adrian.
+  Abdel Adrian leaves the battlefield, returning The Immortal Weapons and all other cards that were exiled with it to the battlefield.
+  Abdel Adrian and The Immortal Weapons trigger.
+  Resolve the The Immortal Weapons trigger, returning Siren's Ruse from your graveyard to your hand.
+  Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Siren's Ruse.
+  Resolve the Abdel Adrian trigger, exiling The Immortal Weapons and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
   Repeat.
 
 ## Combo 372-2493-7339
@@ -7237,6 +7343,20 @@ Steps: Cast Illusionist's Stratagem by paying its mana cost, blinking Abdel Adri
   Resolve the Abdel Adrian trigger, exiling Zealous Lorecaster and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
   Repeat.
 
+## Combo 372-3378-7874
+Cards: Abdel Adrian, Gorion's Ward + The Immortal Weapons + Illusionist's Stratagem
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {3}{U}
+Produces: Infinite card draw; Near-infinite creature tokens; Infinitely powerful creatures you control until end of turn; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite blinking of nonland permanents you control; Near-infinite magecraft triggers; Near-infinite storm count
+Start: Abdel Adrian, Gorion's Ward (battlefield); The Immortal Weapons (exile: exiled by Abdel Adrian); Illusionist's Stratagem (hand)
+Prerequisites: You have any number of other nonland permanents that enter the battlefield untapped, and that can collectively tap to produce enough mana to cast Illusionist's Stratagem exiled by Abdel Adrian.
+Steps: Cast Illusionist's Stratagem by paying its mana cost, blinking Abdel Adrian.
+  Abdel Adrian leaves the battlefield, returning The Immortal Weapons and all other cards that were exiled with it to the battlefield.
+  Abdel Adrian and The Immortal Weapons trigger.
+  Resolve the The Immortal Weapons trigger, returning Illusionist's Stratagem from your graveyard to your hand.
+  Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Illusionist's Stratagem.
+  Resolve the Abdel Adrian trigger, exiling The Immortal Weapons and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
+  Repeat.
+
 ## Combo 372-3647-4863
 Cards: Abdel Adrian, Gorion's Ward + Displace + Revolutionist
 Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{U}
@@ -7253,7 +7373,7 @@ Steps: Cast Displace by paying its mana cost, blinking Abdel Adrian.
 
 ## Combo 372-3647-5913
 Cards: Abdel Adrian, Gorion's Ward + Displace + Pinnacle Monk // Mystic Peak
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 48 | Commander: legal | Mana needed: {2}{U}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 47 | Commander: legal | Mana needed: {2}{U}
 Produces: Infinite creature tokens; Infinite creature LTB; Infinite creature ETB; Infinite storm count; Infinite blinking of nonland permanents; Infinite magecraft triggers
 Start: Abdel Adrian, Gorion's Ward (battlefield); Displace (hand); Pinnacle Monk // Mystic Peak (exile)
 Prerequisites: You have any number of other nonland permanents that enter the battlefield untapped, and that can collectively tap to produce enough mana to cast Displace exiled by Abdel Adrian.
@@ -7279,6 +7399,20 @@ Steps: Cast Displace by paying its mana cost, blinking Abdel Adrian.
   Resolve the Zealous Lorecaster trigger, returning Displace from your graveyard to your hand.
   Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Displace.
   Resolve the Abdel Adrian trigger, exiling Zealous Lorecaster and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
+  Repeat.
+
+## Combo 372-3647-7874
+Cards: Abdel Adrian, Gorion's Ward + The Immortal Weapons + Displace
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{U}
+Produces: Infinite creature tokens; Infinitely powerful creatures you control until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite blinking of nonland permanents; Infinite magecraft triggers; Infinite storm count
+Start: Abdel Adrian, Gorion's Ward (battlefield); The Immortal Weapons (exile: exiled by Abdel Adrian); Displace (hand)
+Prerequisites: You have any number of other nonland permanents that enter the battlefield untapped, and that can collectively tap to produce enough mana to cast Displace exiled by Abdel Adrian.
+Steps: Cast Displace by paying its mana cost, blinking Abdel Adrian.
+  Abdel Adrian leaves the battlefield, returning The Immortal Weapons and all other cards that were exiled with it to the battlefield.
+  Abdel Adrian and The Immortal Weapons trigger.
+  Resolve the The Immortal Weapons trigger, returning Displace from your graveyard to your hand.
+  Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Displace.
+  Resolve the Abdel Adrian trigger, exiling The Immortal Weapons and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
   Repeat.
 
 ## Combo 372-3742-4846
@@ -7329,7 +7463,7 @@ Steps: Cast Essence Flux by paying its mana cost, blinking Abdel Adrian.
 
 ## Combo 372-4598-5913
 Cards: Abdel Adrian, Gorion's Ward + Essence Flux + Pinnacle Monk // Mystic Peak
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 75 | Commander: legal | Mana needed: {U}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 74 | Commander: legal | Mana needed: {U}
 Produces: Infinite creature tokens; Infinite creature LTB; Infinite creature ETB; Infinite storm count; Infinite blinking of nonland permanents; Infinite magecraft triggers
 Start: Abdel Adrian, Gorion's Ward (battlefield); Essence Flux (hand); Pinnacle Monk // Mystic Peak (exile)
 Prerequisites: You have any number of other nonland permanents that enter the battlefield untapped, and that can collectively tap to produce enough mana to cast Essence Flux exiled by Abdel Adrian.
@@ -7355,6 +7489,20 @@ Steps: Cast Essence Flux by paying its mana cost, blinking Abdel Adrian.
   Resolve the Zealous Lorecaster trigger, returning Essence Flux from your graveyard to your hand.
   Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Essence Flux.
   Resolve the Abdel Adrian trigger, exiling Zealous Lorecaster and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
+  Repeat.
+
+## Combo 372-4598-7874
+Cards: Abdel Adrian, Gorion's Ward + The Immortal Weapons + Essence Flux
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {U}
+Produces: Infinite creature tokens; Infinitely powerful creatures you control until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite blinking of nonland permanents; Infinite magecraft triggers; Infinite storm count
+Start: Abdel Adrian, Gorion's Ward (battlefield); The Immortal Weapons (exile: exiled by Abdel Adrian); Essence Flux (hand)
+Prerequisites: You have any number of other nonland permanents that enter the battlefield untapped, and that can collectively tap to produce enough mana to cast Essence Flux exiled by Abdel Adrian.
+Steps: Cast Essence Flux by paying its mana cost, blinking Abdel Adrian.
+  Abdel Adrian leaves the battlefield, returning The Immortal Weapons and all other cards that were exiled with it to the battlefield.
+  Abdel Adrian and The Immortal Weapons trigger.
+  Resolve the The Immortal Weapons trigger, returning Essence Flux from your graveyard to your hand.
+  Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Essence Flux.
+  Resolve the Abdel Adrian trigger, exiling The Immortal Weapons and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
   Repeat.
 
 ## Combo 372-4681-4890
@@ -7434,7 +7582,7 @@ Steps: Cast Go Ninja Go by paying its mana cost, blinking Abdel Adrian.
 
 ## Combo 389-1149-2736
 Cards: Zedruu the Greathearted + Shadowspear + Nine Lives
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 91 | Commander: legal | Mana needed: {1}{U}{R}{W}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 92 | Commander: legal | Mana needed: {1}{U}{R}{W}
 Produces: Target opponent loses the game
 Start: Zedruu the Greathearted (battlefield); Shadowspear (battlefield); Nine Lives (battlefield)
 Prerequisites: You have a way to cause Nine Lives to leave the battlefield.
@@ -7503,7 +7651,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 392-1645-3581
 Cards: Kykar, Wind's Fury + Crown of Flames + Birgi, God of Storytelling // Harnfel, Horn of Bounty
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 69 | Commander: legal | Mana needed: {R}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 70 | Commander: legal | Mana needed: {R}
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Kykar, Wind's Fury (battlefield); Crown of Flames (hand); Birgi, God of Storytelling // Harnfel, Horn of Bounty (battlefield)
 Steps: Cast Crown of Flames by paying {R}, targeting any creature you control, triggering Birgi and Kykar.
@@ -9434,6 +9582,19 @@ Steps: Draw a card.
   Resolve the Well of Lost Dreams trigger, causing you to pay {1} to draw a card.
   Repeat from step 2.
 
+## Combo 440-1339-2034-7818
+Cards: The Locust God + Well of Lost Dreams + Ashnod's Altar + Liliana the Faultless
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite creature tokens with haste; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
+Start: The Locust God (battlefield); Well of Lost Dreams (battlefield); Ashnod's Altar (battlefield); Liliana the Faultless (battlefield)
+Prerequisites: You have a way to draw a card.
+Steps: Draw a card.
+  The Locust God triggers, creating a 1/1 Insect creature token with flying and haste.
+  When the Insect enters the battlefield, Liliana the Faultless triggers, causing you to gain 1 life.
+  Well of Lost Dreams triggers. Holding priority, activate Ashnod's Altar by sacrificing the Insect, adding {C}{C}
+  Resolve the Well of Lost Dreams trigger, causing you to pay {1} to draw a card.
+  Repeat from step 2.
+
 ## Combo 440-1339-2275-4050
 Cards: The Locust God + Well of Lost Dreams + Shabraz, the Skyshark + Phyrexian Altar
 Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -9618,6 +9779,19 @@ Steps: Draw a card.
   Resolve the Well of Lost Dreams trigger, causing you to pay {1} to draw a card.
   Repeat from step 2.
 
+## Combo 440-1339-4050-7818
+Cards: The Locust God + Well of Lost Dreams + Phyrexian Altar + Liliana the Faultless
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
+Start: The Locust God (battlefield); Well of Lost Dreams (battlefield); Phyrexian Altar (battlefield); Liliana the Faultless (battlefield)
+Prerequisites: You have a way to draw a card.
+Steps: Draw a card.
+  The Locust God triggers, creating a 1/1 Insect creature token with flying and haste.
+  When the Insect enters the battlefield, Liliana the Faultless triggers, causing you to gain 1 life.
+  Well of Lost Dreams triggers. Holding priority, activate Phyrexian Altar by sacrificing the Insect, adding one mana of any color
+  Resolve the Well of Lost Dreams trigger, causing you to pay {1} to draw a card.
+  Repeat from step 2.
+
 ## Combo 440-1339-4268-5231
 Cards: The Locust God + Well of Lost Dreams + Kor Celebrant + Thermopod
 Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -9719,6 +9893,19 @@ Steps: Draw a card.
   The Locust God triggers, creating a 1/1 Insect creature token with flying and haste.
   When the Insect enters the battlefield, Haliya triggers, causing you to gain 1 life.
   Well of Lost Dreams triggers. Holding priority, activate Thermopod by sacrificing the Insect, adding {R}.
+  Resolve the Well of Lost Dreams trigger, causing you to pay {1} to draw a card.
+  Repeat from step 2.
+
+## Combo 440-1339-5231-7818
+Cards: The Locust God + Well of Lost Dreams + Thermopod + Liliana the Faultless
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
+Start: The Locust God (battlefield); Well of Lost Dreams (battlefield); Thermopod (battlefield); Liliana the Faultless (battlefield)
+Prerequisites: You have a way to draw a card.
+Steps: Draw a card.
+  The Locust God triggers, creating a 1/1 Insect creature token with flying and haste.
+  When the Insect enters the battlefield, Liliana the Faultless triggers, causing you to gain 1 life.
+  Well of Lost Dreams triggers. Holding priority, activate Thermopod by sacrificing the Insect, adding {R}
   Resolve the Well of Lost Dreams trigger, causing you to pay {1} to draw a card.
   Repeat from step 2.
 
@@ -9857,7 +10044,7 @@ Steps: Cast Retraction Helix by paying {U}, targeting a creature you control tha
 
 ## Combo 457-5078-5390-6747
 Cards: Urza, Lord High Artificer + Forensic Gadgeteer + Sensei's Divining Top + Sami, Wildcat Captain
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 69 | Commander: legal
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 68 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Urza, Lord High Artificer (battlefield); Forensic Gadgeteer (battlefield); Sensei's Divining Top (hand); Sami, Wildcat Captain (battlefield)
 Prerequisites: You control an artifact.
@@ -11988,6 +12175,27 @@ Steps: Activate Unnatural Selection by paying {1}, causing Magmaw to become a Pi
   Activate a Treasure by tapping and sacrificing it, adding {1}.
   Repeat from step 2.
 
+## Combo 592-2191-8412
+Cards: Martyrdom + Role Reversal + Ruric Thar, Biomagus
+Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {1}{U}{U}{R}{W}{W}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Martyrdom (hand); Role Reversal (hand); Ruric Thar, Biomagus (battlefield)
+Prerequisites: An opponent controls a permanent that shares a type with the one you intend to donate.
+Steps: Cast Martyrdom by paying {1}{W}{W}, targeting Ruric Thar.
+  Cast Role Reversal by paying {U}{U}{R}, exchanging control of a permanent an opponent controls and Ruric Thar.
+  Activate the ability granted to Ruric Thar by Martyrdom an arbitrarily large number of times by paying {0}, targeting itself.
+  Ruric Thar triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 592-3140-8412
+Cards: Soltari Guerrillas + Role Reversal + Ruric Thar, Biomagus
+Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {U}{U}{R}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Soltari Guerrillas (battlefield); Role Reversal (hand); Ruric Thar, Biomagus (battlefield)
+Prerequisites: An opponent controls a permanent that shares a type with the one you intend to donate.
+Steps: Cast Role Reversal by paying {U}{U}{R}, exchanging control of a permanent an opponent controls and Ruric Thar.
+  Activate Soltari Guerrillas an arbitrarily large number of times by paying {0}, targeting Ruric Thar.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
 ## Combo 606-1162-5313
 Cards: Enduring Angel // Angelic Enforcer + True Polymorph + Treasonous Ogre
 Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {4}{U}{U} (at most)
@@ -13955,7 +14163,7 @@ Steps: Activate Frenetic Efreet an arbitrarily large number of times by paying {
 
 ## Combo 740-6712-6781
 Cards: Sonic the Hedgehog + Krark-Clan Shaman + Grand Crescendo
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 93 | Commander: legal | Mana needed: {W}{W}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 94 | Commander: legal | Mana needed: {W}{W}
 Produces: Infinite tapped Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite damage to creatures
 Start: Sonic the Hedgehog (battlefield); Krark-Clan Shaman (battlefield); Grand Crescendo (hand)
 Prerequisites: You control an additional artifact.
@@ -14137,7 +14345,7 @@ Notes: If the method you are using to tap Kilo has additional costs, you will al
 
 ## Combo 760-2164
 Cards: Swans of Bryn Argoll + Chain of Plasma
-Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 96 | Commander: legal | Mana needed: {1}{R}
+Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 97 | Commander: legal | Mana needed: {1}{R}
 Produces: Infinite card draw; Infinite self-mill; Near-infinite looting
 Start: Swans of Bryn Argoll (battlefield); Chain of Plasma (hand)
 Steps: Cast Chains of Plasma targeting the Swans.
@@ -15844,7 +16052,7 @@ Steps: Deal combat damage using a Rogue.
 
 ## Combo 814-3259-6965
 Cards: Breath of Fury + Myrel, Shield of Argive + Frostcliff Siege
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite creature tokens with haste; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite untap of creatures you control
 Start: Breath of Fury (battlefield: attached to another creature you control ); Myrel, Shield of Argive (battlefield); Frostcliff Siege (battlefield: with "Temur" chosen)
 Prerequisites: An opponent cannot block creatures you control.
@@ -16305,6 +16513,18 @@ Steps: During an opponent's turn, cast the {0}-cost creature in your hand by pay
   Resolve the spell from step 1.
   Repeat.
 
+## Combo 862-1069-1914
+Cards: Cowardice + Crimson Kobolds + Puresteel Paladin
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Crimson Kobolds (hand); Puresteel Paladin (battlefield)
+Prerequisites: You control three or more artifacts including an Equipment.
+Steps: Cast Crimson Kobolds by paying its mana cost.
+  Activate an Equipment's equip ability given to it by Puresteel Paladin by paying {0}, targeting Crimson Kobolds.
+  Cowardice triggers, returning Crimson Kobolds from the battlefield to your hand.
+  The ability from step 2 fizzles due to having no valid target.
+  Repeat.
+
 ## Combo 862-1778-4668-6516
 Cards: Glen Elendra Pranksters + Crimson Kobolds + Memnite + Heliod, the Radiant Dawn // Heliod, the Warped Eclipse
 Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
@@ -16327,6 +16547,18 @@ Prerequisites: It is an opponent's turn.
 Steps: During an opponent's turn, cast the {0}-cost creature in your hand by paying {0}.
   Glen Elendra Pranksters triggers, returning the other {0}-cost creature from the battlefield to your hand.
   Resolve the spell from step 1.
+  Repeat.
+
+## Combo 862-1914-5638
+Cards: Cowardice + Crimson Kobolds + Plate Armor
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Crimson Kobolds (hand); Plate Armor (battlefield)
+Prerequisites: You control at least four Equipment.
+Steps: Cast Crimson Kobolds by paying its mana cost.
+  Activate Plate Armor by paying {0}, targeting Crimson Kobolds.
+  Cowardice triggers, returning Crimson Kobolds from the battlefield to your hand.
+  The ability from step 2 fizzles due to having no valid target.
   Repeat.
 
 ## Combo 862-2034-2232-5778
@@ -16923,6 +17155,20 @@ Steps: Activate Improvised Arsenal by paying {4}{R}, creating a token copy of it
   Repeat.
 Notes: The mana cost can be reduced if you control more creatures that share type(s) with the created tokens as the combo begins. You should perform step 4 only if you have no {R} in your mana pool. With infinite mana, the Improvised Arsenal tokens can be attached to creatures you control to make them infinitely large.
 
+## Combo 914-1069-1914
+Cards: Cowardice + Dockside Extortionist + Puresteel Paladin
+Color identity: URW | Bracket: none (not legal) | Popularity: 0 | Commander: not legal | Mana needed: {1}{R}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Dockside Extortionist (hand); Puresteel Paladin (battlefield)
+Prerequisites: Opponents control at least two artifacts and/or enchantments.
+  You control three or more artifacts including an Equipment.
+Steps: Cast Dockside Extortionist by paying its mana cost.
+  When Dockside Extortionist enters, it triggers, creating a Treasure for each artifact and/or enchantment your opponents control.
+  Activate an Equipment's equip ability given to it by Puresteel Paladin by paying {0}, targeting Dockside Extortionist.
+  Cowardice triggers, returning Dockside Extortionist from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
+
 ## Combo 914-1170-2493-3556
 Cards: Displacer Kitten + Dockside Extortionist + Archaeomancer + Flicker
 Color identity: URW | Bracket: none (not legal) | Popularity: 0 | Commander: not legal | Mana needed: {1}{W}
@@ -17062,6 +17308,20 @@ Steps: Cast Dockside Extortionist by paying {1}{R}.
   Resolve the Midnight Guard trigger, untapping it.
   Activate two Treasure tokens by tapping and sacrificing them, adding {1}{R}.
   Repeat from step 7.
+
+## Combo 914-1914-5638
+Cards: Cowardice + Dockside Extortionist + Plate Armor
+Color identity: URW | Bracket: none (not legal) | Popularity: 0 | Commander: not legal | Mana needed: {1}{R}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Dockside Extortionist (hand); Plate Armor (battlefield)
+Prerequisites: Opponents control at least two artifacts and/or enchantments.
+  You control at least four Equipment.
+Steps: Cast Dockside Extortionist by paying its mana cost.
+  When Dockside Extortionist enters, it triggers, creating a Treasure for each artifact and/or enchantment your opponents control.
+  Activate Plate Armor by paying {0}, targeting Dockside Extortionist.
+  Cowardice triggers, returning Dockside Extortionist from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
 
 ## Combo 914-2043-3263
 Cards: Urza, Prince of Kroog + Dockside Extortionist + Mycosynth Lattice
@@ -17866,7 +18126,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 969-6738-7011-7082
 Cards: Sokka and Suki + Sokka, Swordmaster + Razor Boomerang + Fervor
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal
 Produces: Infinite damage; Infinite tapped creature tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite storm count
 Start: Sokka and Suki (battlefield); Sokka, Swordmaster (battlefield); Razor Boomerang (hand); Fervor (battlefield)
 Prerequisites: You control three or more Allies.
@@ -18147,7 +18407,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 985-1879-5078-8171
 Cards: Vraska, Soul of Stone + Sensei's Divining Top + Mystic Forge + Rising of the Day
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 68 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 69 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Start: Vraska, Soul of Stone (battlefield); Sensei's Divining Top (battlefield); Mystic Forge (battlefield); Rising of the Day (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -18225,7 +18485,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 985-4478-5078-8171
 Cards: Vraska, Soul of Stone + Sensei's Divining Top + Mystic Forge + Roar of Resistance
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 360 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 370 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Start: Vraska, Soul of Stone (battlefield); Sensei's Divining Top (battlefield); Mystic Forge (battlefield); Roar of Resistance (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -18269,7 +18529,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 985-5078-5295-8171
 Cards: Vraska, Soul of Stone + Sensei's Divining Top + Mystic Forge + Thousand-Year Elixir
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 160 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 170 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Start: Vraska, Soul of Stone (battlefield); Sensei's Divining Top (battlefield); Mystic Forge (battlefield); Thousand-Year Elixir (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -18280,7 +18540,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 985-5078-6633-8171
 Cards: Vraska, Soul of Stone + Sensei's Divining Top + Mystic Forge + The Fire Crystal
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 55 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Start: Vraska, Soul of Stone (battlefield); Sensei's Divining Top (battlefield); Mystic Forge (battlefield); The Fire Crystal (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -18346,7 +18606,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 985-5078-7292-8171
 Cards: Vraska, Soul of Stone + Sensei's Divining Top + Mystic Forge + Krang, Utrom Warlord
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 59 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Start: Vraska, Soul of Stone (battlefield); Sensei's Divining Top (battlefield); Mystic Forge (battlefield); Krang, Utrom Warlord (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -18357,7 +18617,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 985-5078-7295-8171
 Cards: Vraska, Soul of Stone + Sensei's Divining Top + Mystic Forge + Alibou, Ancient Witness
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 260 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 270 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Start: Vraska, Soul of Stone (battlefield); Sensei's Divining Top (battlefield); Mystic Forge (battlefield); Alibou, Ancient Witness (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -18675,6 +18935,56 @@ Steps: During the end step before your turn, cast Borne Upon a Wind by paying {1
   Resolve Barren Glory.
   At the beginning of your upkeep, Barren Glory triggers, causing you to win the game.
 
+## Combo 1069-1914-2459
+Cards: Cowardice + Puresteel Paladin + Rograkh, Son of Rohgahh
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Puresteel Paladin (battlefield); Rograkh, Son of Rohgahh (hand)
+Prerequisites: You control three or more artifacts including an Equipment.
+Steps: Cast Rograkh by paying its mana cost.
+  Activate an Equipment's equip ability given to it by Puresteel Paladin by paying {0}, targeting Rograkh.
+  Cowardice triggers, returning Rograkh from the battlefield to your hand.
+  The ability from step 2 fizzles due to having no valid target.
+  Repeat.
+
+## Combo 1069-1914-3558
+Cards: Cowardice + Puresteel Paladin + Crookshank Kobolds
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Puresteel Paladin (battlefield); Crookshank Kobolds (hand)
+Prerequisites: You control three or more artifacts including an Equipment.
+Steps: Cast Crookshank Kobolds by paying its mana cost.
+  Activate an Equipment's equip ability given to it by Puresteel Paladin by paying {0}, targeting Crookshank Kobolds.
+  Cowardice triggers, returning Crookshank Kobolds from the battlefield to your hand.
+  The ability from step 2 fizzles due to having no valid target.
+  Repeat.
+
+## Combo 1069-1914-4031
+Cards: Cowardice + Puresteel Paladin + Ardent Electromancer
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{R}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Puresteel Paladin (battlefield); Ardent Electromancer (hand)
+Prerequisites: There are at least three creatures in your party.
+  You control three or more artifacts including an Equipment.
+Steps: Cast Ardent Electromancer by paying its mana cost.
+  When Ardent Electromancer enters, it triggers, adding at least {R}{R}{R}.
+  Activate an Equipment's equip ability given to it by Puresteel Paladin by paying {0}, targeting Ardent Electromancer.
+  Cowardice triggers, returning Ardent Electromancer from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
+
+## Combo 1069-1914-4336
+Cards: Cowardice + Puresteel Paladin + Kobolds of Kher Keep
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Puresteel Paladin (battlefield); Kobolds of Kher Keep (hand)
+Prerequisites: You control three or more artifacts including an Equipment.
+Steps: Cast Kobolds of Kher Keep by paying its mana cost.
+  Activate an Equipment's equip ability given to it by Puresteel Paladin by paying {0}, targeting Kobolds of Kher Keep.
+  Cowardice triggers, returning Kobolds of Kher Keep from the battlefield to your hand.
+  The ability from step 2 fizzles due to having no valid target.
+  Repeat.
+
 ## Combo 1069-3228-4785-5499
 Cards: Lotus Ring + Puresteel Paladin + Mobilization + Dynaheir, Invoker Adept
 Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{W}
@@ -18744,6 +19054,15 @@ Steps: Activate Luminarch Ascension by paying {1}{W}, creating a 4/4 Angel creat
   Activate the Angel by tapping and sacrificing it, adding {W}{W}{W}.
   Repeat.
   Once you have infinite mana, you may forego sacrificing the Angels.
+
+## Combo 1077-3140-8412
+Cards: Soltari Guerrillas + Wrong Turn + Ruric Thar, Biomagus
+Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {2}{U}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Soltari Guerrillas (battlefield); Wrong Turn (hand); Ruric Thar, Biomagus (battlefield)
+Steps: Cast Wrong Turn by paying {2}{U}, causing target opponent to gain control of Ruric Thar.
+  Activate Soltari Guerrillas an arbitrarily large number of times by paying {0}, targeting Ruric Thar.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
 
 ## Combo 1085-4053-5147
 Cards: Chronozoa + Solemnity + Goblin Bombardment
@@ -19063,7 +19382,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 1115-5078-5243-8171
 Cards: Vraska, Soul of Stone + Sensei's Divining Top + Hammer of Purphoros + The Reality Chip
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 23 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Start: Vraska, Soul of Stone (battlefield); Sensei's Divining Top (battlefield); Hammer of Purphoros (battlefield); The Reality Chip (battlefield: attached to a creature you control)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -19131,7 +19450,7 @@ Steps: Cast Razor Boomerang by paying {0} due to Sokka, Swordmaster.
 
 ## Combo 1124-1677-2034-2696
 Cards: The Chain Veil + Ashnod's Altar + Teferi, Who Slows the Sunset + Chandra, Acolyte of Flame
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
 Produces: Infinite activations of most planeswalkers; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of creatures and lands you control; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: The Chain Veil (battlefield); Ashnod's Altar (battlefield); Teferi, Who Slows the Sunset (battlefield); Chandra, Acolyte of Flame (battlefield)
 Steps: Activate Chandra's second loyalty ability by putting a loyalty counter on it, creating two 1/1 Elemental creature tokens.
@@ -19153,7 +19472,7 @@ Steps: Activate Chandra's first loyalty ability by putting two loyalty counters 
 
 ## Combo 1124-2034-2242-4356
 Cards: The Chain Veil + Ashnod's Altar + Ral Zarek + Elspeth, Sun's Champion
-Color identity: URW | Bracket: 2+ (Core) | Popularity: 19 | Commander: legal
+Color identity: URW | Bracket: 2+ (Core) | Popularity: 18 | Commander: legal
 Produces: Infinite activations of most planeswalkers; Infinite colorless mana; Infinite creature tokens; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: The Chain Veil (battlefield); Ashnod's Altar (battlefield); Ral Zarek (battlefield); Elspeth, Sun's Champion (battlefield)
 Steps: Activate Elspeth's first loyalty ability by putting two loyalty counters on it, creating three 1/1 Soldier creature tokens.
@@ -19198,7 +19517,7 @@ Steps: Activate Chandra, Hope's Beacon's second ability by putting two loyalty c
 
 ## Combo 1124-2156-2858-4554
 Cards: The Chain Veil + Chandra, Torch of Defiance + Chandra, Bold Pyromancer + Teferi, Timebender
-Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 76 | Commander: legal
+Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 75 | Commander: legal
 Produces: Infinite activations of most planeswalkers; Infinite damage; Infinite turns; Lock
 Start: The Chain Veil (battlefield); Chandra, Torch of Defiance (battlefield); Chandra, Bold Pyromancer (battlefield); Teferi, Timebender (battlefield)
 Steps: Activate Chandra, Torch of Defiance's second ability by putting a loyalty counter on it, adding {R}{R}.
@@ -19428,7 +19747,7 @@ Steps: Declare Godo and the creature with Spellbinder attached as attackers.
 
 ## Combo 1170-1328-4364
 Cards: Aurelia, the Warleader + Displacer Kitten + Spellbinder
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite casts of cards exiled with Spellbinder; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
 Start: Aurelia, the Warleader (battlefield); Displacer Kitten (battlefield); Spellbinder (battlefield)
 Prerequisites: You have an instant card exiled by Spellbinder's imprint ability that has legal targets, if needed.
@@ -19997,7 +20316,7 @@ Steps: Cast Sensei's Divining Top by paying {1}.
 
 ## Combo 1170-3363-5078-6747
 Cards: Displacer Kitten + The One Ring + Sensei's Divining Top + Sami, Wildcat Captain
-Color identity: URW | Bracket: 3+ (Powerful) | Popularity: 16 | Commander: legal
+Color identity: URW | Bracket: 3+ (Powerful) | Popularity: 15 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Displacer Kitten (battlefield); The One Ring (battlefield); Sensei's Divining Top (hand); Sami, Wildcat Captain (battlefield)
 Steps: Cast Sensei's Divining Top by paying {0}.
@@ -21520,7 +21839,7 @@ Steps: Activate Emry by tapping it, targeting Lantern of Insight.
 
 ## Combo 1329-3338-3581-6504
 Cards: Emry, Lurker of the Loch + Mirran Spy + Kykar, Wind's Fury + Conjurer's Bauble
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers
 Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Mirran Spy (battlefield); Kykar, Wind's Fury (battlefield); Conjurer's Bauble (graveyard)
 Steps: Activate Emry by tapping it, targeting Conjurer's Bauble.
@@ -22826,7 +23145,7 @@ Steps: Activate Mystic Sanctuary and Basalt Monolith by tapping them, adding {C}
 
 ## Combo 1395-1987-4423-5034
 Cards: Ghostly Flicker + Mystic Sanctuary + Elsha of the Infinite + Sol Ring
-Color identity: URW | Bracket: 2-3+ (Oddball) | Popularity: 89 | Commander: legal
+Color identity: URW | Bracket: 2-3+ (Oddball) | Popularity: 88 | Commander: legal
 Produces: Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite storm count; Infinite magecraft triggers; Infinite landfall triggers
 Start: Ghostly Flicker (hand, library: on top of your library); Mystic Sanctuary (battlefield); Elsha of the Infinite (battlefield); Sol Ring (battlefield)
 Prerequisites: You control three additional Islands.
@@ -23452,7 +23771,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 1395-5078-6965-8171
 Cards: Vraska, Soul of Stone + Sensei's Divining Top + Elsha of the Infinite + Frostcliff Siege
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 24 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Start: Vraska, Soul of Stone (battlefield); Sensei's Divining Top (battlefield); Elsha of the Infinite (battlefield); Frostcliff Siege (battlefield: with "Temur" chosen)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -25541,7 +25860,7 @@ Steps: At the beginning of your combat phase, Inspirit triggers, putting two cha
 
 ## Combo 1548-5658
 Cards: Satya, Aetherflux Genius + Port Razer
-Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 3200 | Commander: legal
+Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 3100 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite creature tokens; Infinite mana creatures you control can produce; Infinite energy counters; Infinite creature ETB; Infinite untap of creatures you control
 Start: Satya, Aetherflux Genius (battlefield); Port Razer (battlefield)
 Prerequisites: An opponent cannot block creatures you control.
@@ -26298,7 +26617,7 @@ Notes: Since Hourglass of the Lost will get infinite time counters, Kate Stewart
 
 ## Combo 1636-5663
 Cards: Cayth, Famed Mechanist + Intruder Alarm
-Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 770 | Commander: legal
+Color identity: URW | Bracket: 3-4+ (Spicy) | Popularity: 780 | Commander: legal
 Produces: Infinite creature tokens; Infinite mana creatures you control can produce; Infinite copies of creature tokens you control; Infinite untap of creatures; Infinite creature ETB
 Start: Cayth, Famed Mechanist (battlefield); Intruder Alarm (battlefield)
 Prerequisites: You control at least one creature token.
@@ -27141,7 +27460,7 @@ Steps: Attack with Gisela.
 
 ## Combo 1702-8194-8195
 Cards: Dack Fayden, Helping Hand + Venser, Fervent Forger + Jace, the Mind Sculptor
-Color identity: URW | Bracket: 2-3+ (Oddball) | Popularity: 45 | Commander: legal | Mana needed: {4}{W}{W}
+Color identity: URW | Bracket: 2-3+ (Oddball) | Popularity: 46 | Commander: legal | Mana needed: {4}{W}{W}
 Produces: Infinite creature tokens with haste; Infinite artifact tokens; Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Start: Dack Fayden, Helping Hand (hand); Venser, Fervent Forger (hand); Jace, the Mind Sculptor (battlefield)
 Prerequisites: Jace has at least one loyalty counter.
@@ -27238,7 +27557,7 @@ Notes: Due to differences in card templating between the various banisher effect
 
 ## Combo 1737-2119-2544-2713
 Cards: Filigree Sages + Prototype Portal + Seat of the Synod + Zirda, the Dawnwaker
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite tapped copies of a specific land; Infinite tapped Mountain tokens; Infinite tapped Island tokens; Infinite tapped Forest tokens; Infinite tapped Plains tokens; Infinite tapped Swamp tokens; Infinite landfall triggers
 Start: Filigree Sages (battlefield); Prototype Portal (battlefield); Seat of the Synod (exile: exiled by Prototype Portal); Zirda, the Dawnwaker (battlefield)
 Steps: Activate Prototype Portal by paying {0} and tapping it, creating a token copy of Seat of the Synod.
@@ -27696,7 +28015,7 @@ Steps: During an opponent's turn, cast the {0}-cost creature in your hand by pay
 
 ## Combo 1778-2736-2773-3892
 Cards: Zedruu the Greathearted + Warstorm Surge + Dissipation Field + Memnite
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal | Mana needed: {W}{U}{R} for each opponent
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal | Mana needed: {W}{U}{R} for each opponent
 Produces: Each opponent loses the game; Infinite damage
 Start: Zedruu the Greathearted (battlefield); Warstorm Surge (battlefield); Dissipation Field (battlefield); Memnite (hand)
 Steps: Activate Zedruu by paying {W}{U}{R}, giving Dissipation Field to any opponent.
@@ -29055,7 +29374,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 1849-5078-5243-8171
 Cards: Vraska, Soul of Stone + Sensei's Divining Top + Mass Hysteria + The Reality Chip
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal | Mana needed: {1}
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers; Near-infinite storm count
 Start: Vraska, Soul of Stone (battlefield); Sensei's Divining Top (battlefield); Mass Hysteria (battlefield); The Reality Chip (battlefield: attached to a creature you control)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -29575,6 +29894,56 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
   Activate the token by tapping and sacrificing it, adding {1}.
   Repeat.
 
+## Combo 1914-2459-5638
+Cards: Cowardice + Rograkh, Son of Rohgahh + Plate Armor
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Rograkh, Son of Rohgahh (hand); Plate Armor (battlefield)
+Prerequisites: You control at least four Equipment.
+Steps: Cast Rograkh by paying its mana cost.
+  Activate Plate Armor by paying {0}, targeting Rograkh.
+  Cowardice triggers, returning Rograkh from the battlefield to your hand.
+  The ability from step 2 fizzles due to having no valid target.
+  Repeat.
+
+## Combo 1914-3558-5638
+Cards: Cowardice + Crookshank Kobolds + Plate Armor
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Crookshank Kobolds (hand); Plate Armor (battlefield)
+Prerequisites: You control at least four Equipment.
+Steps: Cast Crookshank Kobolds by paying its mana cost.
+  Activate Plate Armor by paying {0}, targeting Crookshank Kobolds.
+  Cowardice triggers, returning Crookshank Kobolds from the battlefield to your hand.
+  The ability from step 2 fizzles due to having no valid target.
+  Repeat.
+
+## Combo 1914-4031-5638
+Cards: Cowardice + Ardent Electromancer + Plate Armor
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{R}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Ardent Electromancer (hand); Plate Armor (battlefield)
+Prerequisites: There are at least three creatures in your party.
+  You control at least four Equipment.
+Steps: Cast Ardent Electromancer by paying its mana cost.
+  When Ardent Electromancer enters, it triggers, adding at least {R}{R}{R}.
+  Activate Plate Armor by paying {0}, targeting Ardent Electromancer.
+  Cowardice triggers, returning Ardent Electromancer from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
+
+## Combo 1914-4336-5638
+Cards: Cowardice + Kobolds of Kher Keep + Plate Armor
+Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Kobolds of Kher Keep (hand); Plate Armor (battlefield)
+Prerequisites: You control at least four Equipment.
+Steps: Cast Kobolds of Kher Keep by paying its mana cost.
+  Activate Plate Armor by paying {0}, targeting Kobolds of Kher Keep.
+  Cowardice triggers, returning Kobolds of Kher Keep from the battlefield to your hand.
+  The ability from step 2 fizzles due to having no valid target.
+  Repeat.
+
 ## Combo 1938-3742-4846
 Cards: Worldgorger Dragon + Glorious Protector + Phantom Steed
 Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
@@ -29996,364 +30365,3 @@ Steps: Activate a mana-producing permanent by tapping it, adding at least {U}.
   When Revolutionist enters, it triggers, returning Ghostly Flicker from your graveyard to your hand.
   Repeat.
 Notes: You must blink a land as your mana-producing permanent to get infinite landfall triggers.
-
-## Combo 1987-4668-5913
-Cards: Ghostly Flicker + Heliod, the Radiant Dawn // Heliod, the Warped Eclipse + Pinnacle Monk // Mystic Peak
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
-Produces: Infinite creature ETB; Infinite landfall triggers; Infinite magecraft triggers; Infinite storm count
-Start: Ghostly Flicker (hand); Heliod, the Radiant Dawn // Heliod, the Warped Eclipse (battlefield); Pinnacle Monk // Mystic Peak (battlefield)
-Prerequisites: You control an artifact, creature or land that taps to produce at least {U}
-  Opponents have drawn at least two cards this turn.
-Steps: Activate a mana-producing permanent by tapping it, adding at least {U}.
-  Cast Ghostly Flicker by paying {U}, blinking the mana-producing permanent and Pinnacle Monk.
-  When Pinnacle Monk enters, it triggers, returning Ghostly Flicker from your graveyard to your hand.
-  Repeat.
-Notes: You must blink a land as your mana-producing permanent to get infinite landfall triggers.
-
-## Combo 1987-4668-7487
-Cards: Ghostly Flicker + Heliod, the Radiant Dawn // Heliod, the Warped Eclipse + Zealous Lorecaster
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite creature ETB; Infinite landfall triggers; Infinite magecraft triggers; Infinite storm count
-Start: Ghostly Flicker (hand); Heliod, the Radiant Dawn // Heliod, the Warped Eclipse (battlefield); Zealous Lorecaster (battlefield)
-Prerequisites: You control an artifact, creature or land that taps to produce at least {U}
-  Opponents have drawn at least two cards this turn.
-Steps: Activate a mana-producing permanent by tapping it, adding at least {U}.
-  Cast Ghostly Flicker by paying {U}, blinking the mana-producing permanent and Zealous Lorecaster.
-  When Zealous Lorecaster enters, it triggers, returning Ghostly Flicker from your graveyard to your hand.
-  Repeat.
-Notes: You must blink a land as your mana-producing permanent to get infinite landfall triggers.
-
-## Combo 1987-4863-6747
-Cards: Ghostly Flicker + Revolutionist + Sami, Wildcat Captain
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite creature ETB; Infinite landfall triggers; Infinite magecraft triggers; Infinite storm count
-Start: Ghostly Flicker (hand); Revolutionist (battlefield); Sami, Wildcat Captain (battlefield)
-Prerequisites: You control an artifact, creature or land that can enter and tap to produce at least {U}
-  You control at least two artifacts.
-Steps: Activate a mana-producing permanent by tapping it, adding at least {U}.
-  Cast Ghostly Flicker by paying {U}, blinking the mana-producing permanent and Revolutionist.
-  When Revolutionist enters, it triggers, returning Ghostly Flicker from your graveyard to your hand.
-  Repeat.
-Notes: You must blink a land as your mana-producing permanent to get infinite landfall triggers.
-
-## Combo 1987-5913-6747
-Cards: Ghostly Flicker + Pinnacle Monk // Mystic Peak + Sami, Wildcat Captain
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
-Produces: Infinite creature ETB; Infinite landfall triggers; Infinite magecraft triggers; Infinite storm count
-Start: Ghostly Flicker (hand); Pinnacle Monk // Mystic Peak (battlefield); Sami, Wildcat Captain (battlefield)
-Prerequisites: You control an artifact, creature or land that can enter and tap to produce at least {U}
-  You control at least two artifacts.
-Steps: Activate a mana-producing permanent by tapping it, adding at least {U}.
-  Cast Ghostly Flicker by paying {U}, blinking the mana-producing permanent and Pinnacle Monk
-  When Pinnacle Monk enters, it triggers, returning Ghostly Flicker from your graveyard to your hand.
-  Repeat.
-Notes: You must blink a land as your mana-producing permanent to get infinite landfall triggers.
-
-## Combo 1987-6747-6991
-Cards: Ghostly Flicker + Sami, Wildcat Captain + Donnie & April, Adorkable Duo
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite creature ETB; Infinite landfall triggers; Infinite magecraft triggers; Infinite storm count
-Start: Ghostly Flicker (hand); Sami, Wildcat Captain (battlefield); Donnie & April, Adorkable Duo (battlefield)
-Prerequisites: You control an artifact, creature or land that can enter and tap to produce at least {U}
-  You control at least two artifacts.
-Steps: Activate a mana-producing permanent by tapping it, adding at least {U}.
-  Cast Ghostly Flicker by paying {U}, blinking the mana-producing permanent and Donnie & April.
-  When Donnie & April enters, it triggers, returning Ghostly Flicker from your graveyard to your hand.
-  Repeat.
-Notes: You must blink a land as your mana-producing permanent to get infinite landfall triggers.
-
-## Combo 1987-6747-7487
-Cards: Ghostly Flicker + Sami, Wildcat Captain + Zealous Lorecaster
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite creature ETB; Infinite landfall triggers; Infinite magecraft triggers; Infinite storm count
-Start: Ghostly Flicker (hand); Sami, Wildcat Captain (battlefield); Zealous Lorecaster (battlefield)
-Prerequisites: You control an artifact, creature or land that can enter and tap to produce at least {U}
-  You control at least two artifacts.
-Steps: Activate a mana-producing permanent by tapping it, adding at least {U}.
-  Cast Ghostly Flicker by paying {U}, blinking the mana-producing permanent and Zealous Lorecaster.
-  When Zealous Lorecaster enters, it triggers, returning Ghostly Flicker from your graveyard to your hand.
-  Repeat.
-Notes: You must blink a land as your mana-producing permanent to get infinite landfall triggers.
-
-## Combo 1995-3609-6702
-Cards: Kilo, Apogee Mind + Magistrate's Scepter + Gauntlets of Light
-Color identity: URW | Bracket: 4+ (Ruthless) | Popularity: 2 | Commander: legal | Mana needed: {4}{W}{W} each turn
-Produces: Infinite turns; Lock
-Start: Kilo, Apogee Mind (battlefield); Magistrate's Scepter (battlefield: with a charge counter on it); Gauntlets of Light (battlefield: attached to Kilo)
-Prerequisites: You have a repeatable way to allow Kilo to tap.
-Steps: Tap Kilo by any method.
-  Kilo triggers, causing you to proliferate and put a charge counter on Magistrate's Scepter.
-  Activate Gauntlets of Light by paying {2}{W}, untapping Kilo.
-  Repeat from step 1 one additional time. Then, repeat steps 1 and 2 one additional time.
-  Activate Magistrate's Scepter's second ability by tapping it and removing three charge counters from it, causing you to take an extra turn after this one.
-Notes: You can use any method(s) to tap Kilo three times per turn. If those methods have additional costs (such as life payments, mana, etc.), then you must pay those costs three times as well.
-
-## Combo 2018-2034-5263
-Cards: Optimus Prime, Hero // Optimus Prime, Autobot Leader + Luminous Broodmoth + Ashnod's Altar
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 48 | Commander: legal
-Produces: Infinite colorless mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Optimus Prime, Hero // Optimus Prime, Autobot Leader (battlefield); Luminous Broodmoth (battlefield); Ashnod's Altar (battlefield)
-Prerequisites: It is your turn.
-Steps: Activate Ashnod's Altar by sacrificing Optimus Prime, Hero, adding {C}{C}.
-  When Optimus Prime, Hero dies, its second ability triggers, returning it from your graveyard to the battlefield as Optimus Prime, Autobot Leader.
-  Activate Ashnod's Altar by sacrificing Optimus Prime, Autobot Leader, adding {C}{C}.
-  When Optimus Prime, Autobot Leader dies, Luminous Broodmoth triggers, returning Optimus Prime from your graveyard to the battlefield as Optimus Prime, Hero with a flying counter on it.
-  Repeat.
-
-## Combo 2018-2702-2736-4050
-Cards: Zedruu the Greathearted + Archetype of Imagination + Luminous Broodmoth + Phyrexian Altar
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {U}{R}{W}
-Produces: Infinite colored mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
-Start: Zedruu the Greathearted (battlefield); Archetype of Imagination (battlefield); Luminous Broodmoth (battlefield); Phyrexian Altar (battlefield)
-Steps: Activate Zedruu by paying {W}{U}{R}, giving Archetype of Imagination to an opponent.
-  Activate Phyrexian Altar by sacrificing Zedruu, adding one mana of any color.
-  Luminous Broodmoth triggers, returning Zedruu from your graveyard to the battlefield without flying due to Archetype of Imagination.
-  Repeat from step 2.
-
-## Combo 2018-2829-5263
-Cards: Optimus Prime, Hero // Optimus Prime, Autobot Leader + Luminous Broodmoth + Arcbound Ravager
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Optimus Prime, Hero // Optimus Prime, Autobot Leader (battlefield); Luminous Broodmoth (battlefield); Arcbound Ravager (battlefield)
-Prerequisites: It is your turn.
-Steps: Activate Arcbound Ravager by sacrificing Optimus Prime, Hero.
-  When Optimus Prime, Hero dies, its second ability triggers, returning it from your graveyard to the battlefield as Optimus Prime, Autobot Leader.
-  Activate Arcbound Ravager by sacrificing Optimus Prime, Autobot Leader.
-  When Optimus Prime, Autobot Leader dies, Luminous Broodmoth triggers, returning Optimus Prime from your graveyard to the battlefield as Optimus Prime, Hero with a flying counter on it.
-  Resolve both Arcbound Ravager abilities from steps 1 and 3, putting two +1/+1 counters on it.
-  Repeat.
-
-## Combo 2018-2981-5263
-Cards: Optimus Prime, Hero // Optimus Prime, Autobot Leader + Luminous Broodmoth + Megatog
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
-Produces: Infinitely large creature until end of turn; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Optimus Prime, Hero // Optimus Prime, Autobot Leader (battlefield); Luminous Broodmoth (battlefield); Megatog (battlefield)
-Prerequisites: It is your turn.
-Steps: Activate Megatog by sacrificing Optimus Prime, Hero.
-  When Optimus Prime, Hero dies, its second ability triggers, returning it from your graveyard to the battlefield as Optimus Prime, Autobot Leader.
-  Activate Megatog by sacrificing Optimus Prime, Autobot Leader.
-  When Optimus Prime, Autobot Leader dies, Luminous Broodmoth triggers, returning Optimus Prime from your graveyard to the battlefield as Optimus Prime, Hero with a flying counter on it.
-  Resolve both Megatog abilities from steps 1 and 3, giving it +6/+6 until end of turn.
-  Repeat.
-
-## Combo 2018-2981-5570
-Cards: Luminous Broodmoth + Nardole, Resourceful Cyborg + Megatog
-Color identity: URW | Bracket: 2-3+ (Oddball) | Popularity: 1 | Commander: legal
-Produces: Infinitely large creature until end of turn; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Luminous Broodmoth (battlefield); Nardole, Resourceful Cyborg (battlefield); Megatog (battlefield)
-Steps: Activate Megatog by sacrificing Nardole.
-  When Nardole dies, its undying ability triggers if it didn't have a +1/+1 counter, and Luminous Broodmoth triggers if Nardole didn't have flying.
-  Resolve the undying trigger, if applicable, returning Nardole from your graveyard to the battlefield with either a +1/+1 counter on it.
-  Resolve the Luminous Broodmoth trigger, if applicable, returning Nardole from your graveyard to the battlefield with a flying counter on it if the creature is still in your graveyard.
-  Resolve the Megatog ability.
-  Repeat.
-
-## Combo 2018-3698-5263
-Cards: Optimus Prime, Hero // Optimus Prime, Autobot Leader + Luminous Broodmoth + Grinding Station
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
-Produces: Infinite mill; Infinite self-mill; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Optimus Prime, Hero // Optimus Prime, Autobot Leader (battlefield); Luminous Broodmoth (battlefield); Grinding Station (battlefield)
-Prerequisites: It is your turn.
-Steps: Activate Grinding Station by tapping it and sacrificing Optimus Prime, Hero.
-  When Optimus Prime, Hero dies, its second ability triggers, returning it from your graveyard to the battlefield as Optimus Prime, Autobot Leader.
-  When Optimus Prime, Autobot Leader enters the battlefield, Grinding Station triggers, untapping Grinding Station.
-  Activate Grinding Station by tapping it and sacrificing Optimus Prime, Autobot Leader.
-  When Optimus Prime, Autobot Leader dies, Luminous Broodmoth triggers, returning Optimus Prime from your graveyard to the battlefield as Optimus Prime, Hero with a flying counter on it.
-  When Optimus Prime, Hero enters the battlefield, Grinding Station triggers, untapping Grinding Station.
-  Resolve both Grinding Station abilities from steps 1 and 4, causing target player to mill six cards.
-  Repeat.
-
-## Combo 2018-3899-5263
-Cards: Optimus Prime, Hero // Optimus Prime, Autobot Leader + Luminous Broodmoth + Spawning Pit
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite charge counters on a permanent; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Optimus Prime, Hero // Optimus Prime, Autobot Leader (battlefield); Luminous Broodmoth (battlefield); Spawning Pit (battlefield)
-Prerequisites: It is your turn.
-Steps: Activate Spawning Pit by sacrificing Optimus Prime, Hero.
-  When Optimus Prime, Hero dies, its second ability triggers, returning it from your graveyard to the battlefield as Optimus Prime, Autobot Leader.
-  Activate Spawning Pit by sacrificing Optimus Prime, Autobot Leader.
-  When Optimus Prime, Autobot Leader dies, Luminous Broodmoth triggers, returning Optimus Prime from your graveyard to the battlefield as Optimus Prime, Hero with a flying counter on it.
-  Resolve both Spawning Pit abilities from steps 1 and 3
-  Repeat.
-
-## Combo 2018-4050-5263
-Cards: Optimus Prime, Hero // Optimus Prime, Autobot Leader + Luminous Broodmoth + Phyrexian Altar
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
-Produces: Infinite colored mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Optimus Prime, Hero // Optimus Prime, Autobot Leader (battlefield); Luminous Broodmoth (battlefield); Phyrexian Altar (battlefield)
-Prerequisites: It is your turn.
-Steps: Activate Phyrexian Altar by sacrificing Optimus Prime, Hero, adding one mana of any color.
-  When Optimus Prime, Hero dies, its second ability triggers, returning it from your graveyard to the battlefield as Optimus Prime, Autobot Leader.
-  Activate Phyrexian Altar by sacrificing Optimus Prime, Autobot Leader, adding one mana of any color.
-  When Optimus Prime, Autobot Leader dies, Luminous Broodmoth triggers, returning Optimus Prime from your graveyard to the battlefield as Optimus Prime, Hero with a flying counter on it.
-  Repeat.
-
-## Combo 2018-4659-5263
-Cards: Optimus Prime, Hero // Optimus Prime, Autobot Leader + Luminous Broodmoth + Krark-Clan Ironworks
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal
-Produces: Infinite colorless mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Optimus Prime, Hero // Optimus Prime, Autobot Leader (battlefield); Luminous Broodmoth (battlefield); Krark-Clan Ironworks (battlefield)
-Prerequisites: It is your turn.
-Steps: Activate Krark-Clan Ironworks by sacrificing Optimus Prime, Hero, adding {C}{C}.
-  When Optimus Prime, Hero dies, its second ability triggers, returning it from your graveyard to the battlefield as Optimus Prime, Autobot Leader.
-  Activate Krark-Clan Ironworks by sacrificing Optimus Prime, Autobot Leader, adding {C}{C}.
-  When Optimus Prime, Autobot Leader dies, Luminous Broodmoth triggers, returning Optimus Prime from your graveyard to the battlefield as Optimus Prime, Hero with a flying counter on it.
-  Repeat.
-
-## Combo 2018-4779-5263
-Cards: Optimus Prime, Hero // Optimus Prime, Autobot Leader + Luminous Broodmoth + Krark-Clan Grunt
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
-Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinitely powerful creature until end of turn
-Start: Optimus Prime, Hero // Optimus Prime, Autobot Leader (battlefield); Luminous Broodmoth (battlefield); Krark-Clan Grunt (battlefield)
-Prerequisites: It is your turn.
-Steps: Activate Krark-Clan Grunt by sacrificing Optimus Prime, Hero.
-  When Optimus Prime, Hero dies, its second ability triggers, returning it from your graveyard to the battlefield as Optimus Prime, Autobot Leader.
-  Activate Krark-Clan Grunt by sacrificing Optimus Prime, Autobot Leader.
-  When Optimus Prime, Autobot Leader dies, Luminous Broodmoth triggers, returning Optimus Prime from your graveyard to the battlefield as Optimus Prime, Hero with a flying counter on it.
-  Resolve both Krark-Clan Grunt abilities from steps 1 and 3.
-  Repeat.
-
-## Combo 2018-4779-5570
-Cards: Luminous Broodmoth + Nardole, Resourceful Cyborg + Krark-Clan Grunt
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinitely powerful creature until end of turn
-Start: Luminous Broodmoth (battlefield); Nardole, Resourceful Cyborg (battlefield); Krark-Clan Grunt (battlefield)
-Steps: Activate Krark-Clan Grunt by sacrificing Nardole.
-  When Nardole dies, its undying ability triggers if it didn't have a +1/+1 counter, and Luminous Broodmoth triggers if Nardole didn't have flying.
-  Resolve the undying trigger, if applicable, returning Nardole from your graveyard to the battlefield with either a +1/+1 counter on it.
-  Resolve the Luminous Broodmoth trigger, if applicable, returning Nardole from your graveyard to the battlefield with a flying counter on it if the creature is still in your graveyard.
-  Resolve the Krark-Clan Grunt ability.
-  Repeat.
-
-## Combo 2018-5147-5263
-Cards: Optimus Prime, Hero // Optimus Prime, Autobot Leader + Luminous Broodmoth + Goblin Bombardment
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal
-Produces: Infinite damage; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Optimus Prime, Hero // Optimus Prime, Autobot Leader (battlefield); Luminous Broodmoth (battlefield); Goblin Bombardment (battlefield)
-Prerequisites: It is your turn.
-Steps: Activate Goblin Bombardment by sacrificing Optimus Prime, Hero.
-  When Optimus Prime, Hero dies, its second ability triggers, returning it from your graveyard to the battlefield as Optimus Prime, Autobot Leader.
-  Activate Goblin Bombardment by sacrificing Optimus Prime, Autobot Leader.
-  When Optimus Prime, Autobot Leader dies, Luminous Broodmoth triggers, returning Optimus Prime from your graveyard to the battlefield as Optimus Prime, Hero with a flying counter on it.
-  Resolve both Goblin Bombardment abilities from steps 1 and 3, dealing 2 damage to any target.
-  Repeat.
-
-## Combo 2018-5231-5263
-Cards: Optimus Prime, Hero // Optimus Prime, Autobot Leader + Luminous Broodmoth + Thermopod
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite red mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Optimus Prime, Hero // Optimus Prime, Autobot Leader (battlefield); Luminous Broodmoth (battlefield); Thermopod (battlefield)
-Prerequisites: It is your turn.
-Steps: Activate Thermopod's second ability by sacrificing Optimus Prime, Hero, adding {R}.
-  When Optimus Prime, Hero dies, its second ability triggers, returning it from your graveyard to the battlefield as Optimus Prime, Autobot Leader.
-  Activate Thermopod's second ability by sacrificing Optimus Prime, Autobot Leader, adding {R}.
-  When Optimus Prime, Autobot Leader dies, Luminous Broodmoth triggers, returning Optimus Prime from your graveyard to the battlefield as Optimus Prime, Hero with a flying counter on it.
-  Repeat.
-
-## Combo 2018-5256-5263
-Cards: Optimus Prime, Hero // Optimus Prime, Autobot Leader + Luminous Broodmoth + Altar of Dementia
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal
-Produces: Infinite mill; Infinite self-mill; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Optimus Prime, Hero // Optimus Prime, Autobot Leader (battlefield); Luminous Broodmoth (battlefield); Altar of Dementia (battlefield)
-Prerequisites: It is your turn.
-Steps: Activate Altar of Dementia by sacrificing Optimus Prime, Hero.
-  When Optimus Prime, Hero dies, its second ability triggers, returning it from your graveyard to the battlefield as Optimus Prime, Autobot Leader.
-  Activate Altar of Dementia by sacrificing Optimus Prime, Autobot Leader.
-  When Optimus Prime, Autobot Leader dies, Luminous Broodmoth triggers, returning Optimus Prime from your graveyard to the battlefield as Optimus Prime, Hero with a flying counter on it.
-  Resolve both Altar of Dementia abilities from steps 1 and 3, causing target player to mill cards equal to Optimus Prime, Hero and Optimus Prime, Autobot Leader's combined power.
-  Repeat.
-
-## Combo 2018-5263-5315
-Cards: Optimus Prime, Hero // Optimus Prime, Autobot Leader + Luminous Broodmoth + Ravenous Intruder
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
-Produces: Infinitely large creature until end of turn; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Optimus Prime, Hero // Optimus Prime, Autobot Leader (battlefield); Luminous Broodmoth (battlefield); Ravenous Intruder (battlefield)
-Prerequisites: It is your turn.
-Steps: Activate Ravenous Intruder by sacrificing Optimus Prime, Hero.
-  When Optimus Prime, Hero dies, its second ability triggers, returning it from your graveyard to the battlefield as Optimus Prime, Autobot Leader.
-  Activate Ravenous Intruder by sacrificing Optimus Prime, Autobot Leader.
-  When Optimus Prime, Autobot Leader dies, Luminous Broodmoth triggers, returning Optimus Prime from your graveyard to the battlefield as Optimus Prime, Hero with a flying counter on it.
-  Resolve both Ravenous Intruder abilities from steps 1 and 3.
-  Repeat.
-
-## Combo 2018-5263-5330
-Cards: Optimus Prime, Hero // Optimus Prime, Autobot Leader + Luminous Broodmoth + Atog
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
-Produces: Infinitely large creature until end of turn; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Optimus Prime, Hero // Optimus Prime, Autobot Leader (battlefield); Luminous Broodmoth (battlefield); Atog (battlefield)
-Prerequisites: It is your turn.
-Steps: Activate Atog by sacrificing Optimus Prime, Hero.
-  When Optimus Prime, Hero dies, its second ability triggers, returning it from your graveyard to the battlefield as Optimus Prime, Autobot Leader.
-  Activate Atog by sacrificing Optimus Prime, Autobot Leader.
-  When Optimus Prime, Autobot Leader dies, Luminous Broodmoth triggers, returning Optimus Prime from your graveyard to the battlefield as Optimus Prime, Hero with a flying counter on it.
-  Resolve both Atog abilities from steps 1 and 3, giving it +4/+4 until end of turn.
-  Repeat.
-
-## Combo 2018-5315-5570
-Cards: Luminous Broodmoth + Nardole, Resourceful Cyborg + Ravenous Intruder
-Color identity: URW | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
-Produces: Infinitely large creature until end of turn; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Luminous Broodmoth (battlefield); Nardole, Resourceful Cyborg (battlefield); Ravenous Intruder (battlefield)
-Steps: Activate Ravenous Intruder by sacrificing Nardole.
-  When Nardole dies, its undying ability triggers if it didn't have a +1/+1 counter, and Luminous Broodmoth triggers if Nardole didn't have flying.
-  Resolve the undying trigger, if applicable, returning Nardole from your graveyard to the battlefield with either a +1/+1 counter on it.
-  Resolve the Luminous Broodmoth trigger, if applicable, returning Nardole from your graveyard to the battlefield with a flying counter on it if the creature is still in your graveyard.
-  Resolve the Ravenous Intruder ability.
-  Repeat.
-
-## Combo 2018-5330-5570
-Cards: Luminous Broodmoth + Nardole, Resourceful Cyborg + Atog
-Color identity: URW | Bracket: 2-3+ (Oddball) | Popularity: 1 | Commander: legal
-Produces: Infinitely large creature until end of turn; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Luminous Broodmoth (battlefield); Nardole, Resourceful Cyborg (battlefield); Atog (battlefield)
-Steps: Activate Atog by sacrificing Nardole.
-  When Nardole dies, its undying ability triggers if it didn't have a +1/+1 counter, and Luminous Broodmoth triggers if Nardole didn't have flying.
-  Resolve the undying trigger, if applicable, returning Nardole from your graveyard to the battlefield with either a +1/+1 counter on it.
-  Resolve the Luminous Broodmoth trigger, if applicable, returning Nardole from your graveyard to the battlefield with a flying counter on it if the creature is still in your graveyard.
-  Resolve the Atog ability.
-  Repeat.
-
-## Combo 2034-2178-3484-4023-4840
-Cards: Dr. Madison Li + Decoction Module + Thornbite Staff + Myr Battlesphere + Ashnod's Altar
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
-Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Dr. Madison Li (battlefield); Decoction Module (battlefield); Thornbite Staff (battlefield); Myr Battlesphere (graveyard); Ashnod's Altar (battlefield)
-Prerequisites: Dr Madison Li does not have summoning sickness.
-  Thornbite Staff attached to Dr Madison Li.
-  You have at least five energy counters.
-Steps: Activate Dr Madison Li's third ability by tapping it and paying {E}{E}{E}{E}{E}, returning Myr Battlesphere from your graveyard to the battlefield.
-  When Myr Battlepshere enters the battlefield, it and Decoction Module trigger.
-  Resolve the Myr Battlesphere trigger, creating four 1/1 Myr artifact creature tokens.
-  When the Myrs enter the battlefield, Decoction Module triggers four times.
-  Resolve all Decoction Module triggers, causing you to get {E}{E}{E}{E}{E}.
-  Activate Ashnod's Altar by sacrificing Myr Battlesphere, adding {C}{C}.
-  When Myr Battlesphere dies, Dr Madison Li triggers, untapping itself.
-  Repeat.
-
-## Combo 2034-2178-4023-4840-5870
-Cards: Guide of Souls + Dr. Madison Li + Thornbite Staff + Myr Battlesphere + Ashnod's Altar
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite colorless mana; Infinite creature tokens; Infinite lifegain; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Guide of Souls (battlefield); Dr. Madison Li (battlefield: without summoning sickness); Thornbite Staff (battlefield: attached to Dr. Madison Li); Myr Battlesphere (graveyard); Ashnod's Altar (battlefield)
-Prerequisites: You have at least {E}{E}{E}{E}{E}.
-Steps: Activate Dr Madison Li's third ability by tapping it and paying {E}{E}{E}{E}{E}, returning Myr Battlesphere from your graveyard to the battlefield.
-  When Myr Battlepshere enters the battlefield, it and Guide of Souls trigger.
-  Resolve the Myr Battlesphere trigger, creating four 1/1 Myr artifact creature tokens.
-  When the Myrs enter the battlefield, Guide of Souls triggers four times.
-  Resolve all Guide of Souls triggers, causing you to get {E}{E}{E}{E}{E} and gain 5 life.
-  Activate Ashnod's Altar by sacrificing Myr Battlesphere, adding {C}{C}.
-  When Myr Battlesphere dies, Dr Madison Li triggers, untapping itself.
-  Repeat.
-
-## Combo 2034-2178-5663
-Cards: Cayth, Famed Mechanist + Thornbite Staff + Ashnod's Altar
-Color identity: URW | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal | Mana needed: {2}
-Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Cayth, Famed Mechanist (battlefield); Thornbite Staff (battlefield); Ashnod's Altar (battlefield)
-Prerequisites: Thornbite Staff attached to Cayth.
-  Cayth does not have summoning sickness.
-  You control at least one creature token.
-Steps: Activate Cayth by paying {2} and tapping it, creating a copy of a creature token you control.
-  Activate Ashnod's Altar by sacrificing the creature token, adding {C}{C}.
-  When the creature dies, Cayth triggers, untapping Cayth.
-  Repeat.

@@ -1466,6 +1466,20 @@ Steps: Cast Daydream by paying its mana cost, blinking Abdel Adrian.
   Resolve the Abdel Adrian trigger, exiling Vampire Charmseeker and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
   Repeat.
 
+## Combo 101-372-8251
+Cards: Abdel Adrian, Gorion's Ward + Vampire Charmseeker + Vindictive Triumph
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {W}{B}{B}
+Produces: Infinite creature tokens; Infinite blinking of nonland permanents; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
+Start: Abdel Adrian, Gorion's Ward (battlefield); Vampire Charmseeker (exile: exiled by Abdel Adrian); Vindictive Triumph (hand)
+Prerequisites: You have any number of other nonland permanents that enter the battlefield untapped, and that can collectively tap to produce enough mana to cast Vindictive Triumph exiled by Abdel Adrian.
+Steps: Cast Vindictive Triumph by paying its mana cost, blinking Abdel Adrian.
+  Abdel Adrian leaves the battlefield, returning Vampire Charmseeker and all other cards that were exiled with it to the battlefield.
+  Abdel Adrian and Vampire Charmseeker trigger.
+  Resolve the Vampire Charmseeker trigger, returning Vindictive Triumph from your graveyard to your hand.
+  Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Vindictive Triumph.
+  Resolve the Abdel Adrian trigger, exiling Vampire Charmseeker and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
+  Repeat.
+
 ## Combo 101-1462-6801
 Cards: Enchanted Evening + Cleansing Meditation + Vampire Charmseeker
 Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 2 | Commander: legal
@@ -4621,6 +4635,18 @@ Start: Phage the Untouchable (battlefield); Fractured Identity (hand)
 Steps: Cast Fractured Identity by paying {3}{W}{U}, exiling Phage and causing each opponent to create a token copy of Phage.
   Each opponent's Phage enters the battlefield, causing them to lose the game.
 
+## Combo 190-3862-8412
+Cards: Orcish Bowmasters + Fractured Identity + Ruric Thar, Biomagus
+Color identity: WUB | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {4}{W}{U}{B}
+Produces: Each opponent loses the game; Infinite card draw for each opponent; Infinite draw triggers for each opponent
+Start: Orcish Bowmasters (hand); Fractured Identity (hand); Ruric Thar, Biomagus (battlefield)
+Steps: Cast Fractured Identity by paying {3}{W}{U}, exiling Ruric Thar and causing each opponent to make a copy of it.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting a copy of Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting a copy of Ruric Thar.
+  Repeat from step 4 until each opponent's library is empty, causing them to lose the game when they next attempt to draw.
+
 ## Combo 191-1742-4343-5476
 Cards: Hylda of the Icy Crown + Skirge Familiar + Elvish Mariner + Curator of Mysteries
 Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -5203,7 +5229,7 @@ Notes: Mystic Sanctuary can be tapped for mana before casting Time Walk if it's 
 
 ## Combo 193-2369-3908
 Cards: Aminatou, the Fateshifter + Spark Double + Oath of Teferi
-Color identity: WUB | Bracket: 3-4+ (Spicy) | Popularity: 7300 | Commander: legal
+Color identity: WUB | Bracket: 3-4+ (Spicy) | Popularity: 7400 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite blinking of permanents; Infinite creature ETB; Infinite creature LTB
 Start: Aminatou, the Fateshifter (battlefield: with three or more loyalty counters); Spark Double (battlefield); Oath of Teferi (battlefield)
 Steps: Activate Aminatou's second loyalty ability by removing a loyalty counter from them, blinking a permanent you own.
@@ -6190,7 +6216,7 @@ Steps: Activate Ashnod's Altar by sacrificing Wretched Throng, adding {C}{C}.
 
 ## Combo 277-774-3861
 Cards: Patron of the Moon + Tiller Engine + Orzhov Basilica
-Color identity: WUB | Bracket: 3-4+ (Spicy) | Popularity: 95 | Commander: legal | Mana needed: {1}
+Color identity: WUB | Bracket: 3-4+ (Spicy) | Popularity: 96 | Commander: legal | Mana needed: {1}
 Produces: Infinite black mana; Infinite white mana; Infinite landfall triggers
 Start: Patron of the Moon (battlefield); Tiller Engine (battlefield); Orzhov Basilica (hand)
 Steps: Pay {1} to activate Patron of the Moon, putting Orzhov Basilica from your hand onto the battlefield.
@@ -7619,6 +7645,20 @@ Steps: Cast Abdel Adrian by paying {4}{W}.
   Resolve the Grimgrin ability from step 3.
   Repeat from step 3.
 
+## Combo 372-813-8251
+Cards: Abdel Adrian, Gorion's Ward + Scholar of the Ages + Vindictive Triumph
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {W}{B}{B}
+Produces: Infinite creature tokens; Infinite blinking of nonland permanents; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count; Return all instant and sorcery cards from your graveyard to your hand
+Start: Abdel Adrian, Gorion's Ward (battlefield); Scholar of the Ages (exile: exiled by Abdel Adrian); Vindictive Triumph (hand)
+Prerequisites: You have any number of other nonland permanents that enter the battlefield untapped, and that can collectively tap to produce enough mana to cast Vindictive Triumph exiled by Abdel Adrian.
+Steps: Cast Vindictive Triumph by paying its mana cost, blinking Abdel Adrian.
+  Abdel Adrian leaves the battlefield, returning Scholar of the Ages and all other cards that were exiled with it to the battlefield.
+  Abdel Adrian and Scholar of the Ages trigger.
+  Resolve the Scholar of the Ages trigger, returning Vindictive Triumph from your graveyard to your hand.
+  Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Vindictive Triumph.
+  Resolve the Abdel Adrian trigger, exiling Scholar of the Ages and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
+  Repeat.
+
 ## Combo 372-961-2187
 Cards: Abdel Adrian, Gorion's Ward + Against All Odds + Possessed Skaab
 Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {3}{W}
@@ -7647,6 +7687,20 @@ Steps: Cast Abdel Adrian from the command zone by paying {4}{W} and command tax,
   Resolve the Hostage Taker trigger, exiling Restoration Angel until Hostage Taker leaves the battlefield.
   Resolve the Abdel Adrian trigger, exiling Hostage Taker and creating a 1/1 Soldier creature token.
   Repeat from step 3.
+
+## Combo 372-1309-8251
+Cards: Abdel Adrian, Gorion's Ward + Salvager of Secrets + Vindictive Triumph
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {W}{B}{B}
+Produces: Infinite creature tokens; Infinite blinking of nonland permanents; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
+Start: Abdel Adrian, Gorion's Ward (battlefield); Salvager of Secrets (exile: exiled by Abdel Adrian); Vindictive Triumph (hand)
+Prerequisites: You have any number of other nonland permanents that enter the battlefield untapped, and that can collectively tap to produce enough mana to cast Vindictive Triumph exiled by Abdel Adrian.
+Steps: Cast Vindictive Triumph by paying its mana cost, blinking Abdel Adrian.
+  Abdel Adrian leaves the battlefield, returning Salvager of Secrets and all other cards that were exiled with it to the battlefield.
+  Abdel Adrian and Salvager of Secrets trigger.
+  Resolve the Salvager of Secrets trigger, returning Vindictive Triumph from your graveyard to your hand.
+  Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Vindictive Triumph.
+  Resolve the Abdel Adrian trigger, exiling Salvager of Secrets and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
+  Repeat.
 
 ## Combo 372-1567-2187
 Cards: Abdel Adrian, Gorion's Ward + Momentary Blink + Possessed Skaab
@@ -7972,6 +8026,48 @@ Steps: Cast Daydream by paying its mana cost, blinking Abdel Adrian.
   Resolve the Abdel Adrian trigger, exiling Possessed Skaab and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
   Repeat.
 
+## Combo 372-2187-8251
+Cards: Abdel Adrian, Gorion's Ward + Possessed Skaab + Vindictive Triumph
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {W}{B}{B}
+Produces: Infinite creature tokens; Infinite blinking of nonland permanents; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
+Start: Abdel Adrian, Gorion's Ward (battlefield); Possessed Skaab (exile: exiled by Abdel Adrian); Vindictive Triumph (hand)
+Prerequisites: You have any number of other nonland permanents that enter the battlefield untapped, and that can collectively tap to produce enough mana to cast Vindictive Triumph exiled by Abdel Adrian.
+Steps: Cast Vindictive Triumph by paying its mana cost, blinking Abdel Adrian.
+  Abdel Adrian leaves the battlefield, returning Possessed Skaab and all other cards that were exiled with it to the battlefield.
+  Abdel Adrian and Possessed Skaab trigger.
+  Resolve the Possessed Skaab trigger, returning Vindictive Triumph from your graveyard to your hand.
+  Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Vindictive Triumph.
+  Resolve the Abdel Adrian trigger, exiling Possessed Skaab and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
+  Repeat.
+
+## Combo 372-2493-8251
+Cards: Abdel Adrian, Gorion's Ward + Archaeomancer + Vindictive Triumph
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {W}{B}{B}
+Produces: Infinite creature tokens; Infinite blinking of nonland permanents; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
+Start: Abdel Adrian, Gorion's Ward (battlefield); Archaeomancer (exile: exiled by Abdel Adrian); Vindictive Triumph (hand)
+Prerequisites: You have any number of other nonland permanents that enter the battlefield untapped, and that can collectively tap to produce enough mana to cast Vindictive Triumph exiled by Abdel Adrian.
+Steps: Cast Vindictive Triumph by paying its mana cost, blinking Abdel Adrian.
+  Abdel Adrian leaves the battlefield, returning Archaeomancer and all other cards that were exiled with it to the battlefield.
+  Abdel Adrian and Archaeomancer trigger.
+  Resolve the Archaeomancer trigger, returning Vindictive Triumph from your graveyard to your hand.
+  Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Vindictive Triumph.
+  Resolve the Abdel Adrian trigger, exiling Archaeomancer and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
+  Repeat.
+
+## Combo 372-2556-8251
+Cards: Abdel Adrian, Gorion's Ward + Mnemonic Wall + Vindictive Triumph
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {W}{B}{B}
+Produces: Infinite creature tokens; Infinite blinking of nonland permanents; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
+Start: Abdel Adrian, Gorion's Ward (battlefield); Mnemonic Wall (exile: exiled by Abdel Adrian); Vindictive Triumph (hand)
+Prerequisites: You have any number of other nonland permanents that enter the battlefield untapped, and that can collectively tap to produce enough mana to cast Vindictive Triumph exiled by Abdel Adrian.
+Steps: Cast Vindictive Triumph by paying its mana cost, blinking Abdel Adrian.
+  Abdel Adrian leaves the battlefield, returning Mnemonic Wall and all other cards that were exiled with it to the battlefield.
+  Abdel Adrian and Mnemonic Wall trigger.
+  Resolve the Mnemonic Wall trigger, returning Vindictive Triumph from your graveyard to your hand.
+  Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Vindictive Triumph.
+  Resolve the Abdel Adrian trigger, exiling Mnemonic Wall and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
+  Repeat.
+
 ## Combo 372-2781-4142
 Cards: Abdel Adrian, Gorion's Ward + Felidar Guardian + Hostage Taker
 Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 220 | Commander: legal | Mana needed: {4}{W} plus enough mana to pay for command tax, if applicable
@@ -7986,6 +8082,20 @@ Steps: Cast Abdel Adrian from the command zone by paying {4}{W} and command tax,
   Resolve the Hostage Taker trigger, exiling Felidar Guardian until Hostage Taker leaves the battlefield.
   Resolve the Abdel Adrian trigger, exiling Hostage Taker and creating a 1/1 Soldier creature token.
   Repeat from step 3.
+
+## Combo 372-3227-8251
+Cards: Abdel Adrian, Gorion's Ward + Scrivener + Vindictive Triumph
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {W}{B}{B}
+Produces: Infinite creature tokens; Infinite blinking of nonland permanents; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
+Start: Abdel Adrian, Gorion's Ward (battlefield); Scrivener (exile: exiled by Abdel Adrian); Vindictive Triumph (hand)
+Prerequisites: You have any number of other nonland permanents that enter the battlefield untapped, and that can collectively tap to produce enough mana to cast Vindictive Triumph exiled by Abdel Adrian.
+Steps: Cast Vindictive Triumph by paying its mana cost, blinking Abdel Adrian.
+  Abdel Adrian leaves the battlefield, returning Scrivener and all other cards that were exiled with it to the battlefield.
+  Abdel Adrian and Scrivener trigger.
+  Resolve the Scrivener trigger, returning Vindictive Triumph from your graveyard to your hand.
+  Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Vindictive Triumph.
+  Resolve the Abdel Adrian trigger, exiling Scrivener and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
+  Repeat.
 
 ## Combo 372-3742-3991
 Cards: Abdel Adrian, Gorion's Ward + Phantom Steed + Faceless Butcher
@@ -8051,6 +8161,20 @@ Steps: Cast Abdel Adrian for its mana cost.
   Repeat from step 2.
 Notes: Due to differences in card templating between the various banisher effects (linked triggered abilities vs "until" clause), steps 3, 5, and 7 may return the creature to the battlefield during the resolution of the preceding step rather than creating a separate event. This should not affect the overall execution of the combo, only how many objects pass through the stack (and thus rounds of priority available per loop).
 
+## Combo 372-4125-8251
+Cards: Abdel Adrian, Gorion's Ward + Shipwreck Dowser + Vindictive Triumph
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {W}{B}{B}
+Produces: Infinite creature tokens; Infinite blinking of nonland permanents; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
+Start: Abdel Adrian, Gorion's Ward (battlefield); Shipwreck Dowser (exile: exiled by Abdel Adrian); Vindictive Triumph (hand)
+Prerequisites: You have any number of other nonland permanents that enter the battlefield untapped, and that can collectively tap to produce enough mana to cast Vindictive Triumph exiled by Abdel Adrian.
+Steps: Cast Vindictive Triumph by paying its mana cost, blinking Abdel Adrian.
+  Abdel Adrian leaves the battlefield, returning Shipwreck Dowser and all other cards that were exiled with it to the battlefield.
+  Abdel Adrian and Shipwreck Dowser trigger.
+  Resolve the Shipwreck Dowser trigger, returning Vindictive Triumph from your graveyard to your hand.
+  Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Vindictive Triumph.
+  Resolve the Abdel Adrian trigger, exiling Shipwreck Dowser and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
+  Repeat.
+
 ## Combo 372-4142-4200
 Cards: Abdel Adrian, Gorion's Ward + Hostage Taker + Icewind Stalwart
 Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal
@@ -8114,6 +8238,20 @@ Steps: Cast Abdel Adrian for its mana cost.
   When All-Fates Stalker leaves the battlefield, Abdel Adrian is returned from exile to the battlefield.
   Repeat from step 2.
 Notes: Due to differences in card templating between the various banisher effects (linked triggered abilities vs "until" clause), steps 3, 5, and 7 may return the creature to the battlefield during the resolution of the preceding step rather than creating a separate event. This should not affect the overall execution of the combo, only how many objects pass through the stack (and thus rounds of priority available per loop).
+
+## Combo 372-6991-8251
+Cards: Abdel Adrian, Gorion's Ward + Donnie & April, Adorkable Duo + Vindictive Triumph
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {W}{B}{B}
+Produces: Infinite creature tokens; Infinite blinking of nonland permanents; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
+Start: Abdel Adrian, Gorion's Ward (battlefield); Donnie & April, Adorkable Duo (exile: exiled by Abdel Adrian); Vindictive Triumph (hand)
+Prerequisites: You have any number of other nonland permanents that enter the battlefield untapped, and that can collectively tap to produce enough mana to cast Vindictive Triumph exiled by Abdel Adrian.
+Steps: Cast Vindictive Triumph by paying its mana cost, blinking Abdel Adrian.
+  Abdel Adrian leaves the battlefield, returning Donnie & April and all other cards that were exiled with it to the battlefield.
+  Abdel Adrian and Donnie & April trigger.
+  Resolve the Donnie & April trigger, returning Vindictive Triumph from your graveyard to your hand.
+  Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Vindictive Triumph.
+  Resolve the Abdel Adrian trigger, exiling Donnie & April and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
+  Repeat.
 
 ## Combo 390-624-670-1619
 Cards: Sefris of the Hidden Ways + Radiant Solar + Hulking Metamorph + Phantasmal Image
@@ -9633,7 +9771,7 @@ Steps: Draw a card.
 
 ## Combo 444-5796
 Cards: Drogskol Reaver + Starving Revenant
-Color identity: WUB | Bracket: 3-4+ (Spicy) | Popularity: 290 | Commander: legal
+Color identity: WUB | Bracket: 3-4+ (Spicy) | Popularity: 280 | Commander: legal
 Produces: Infinite card draw; Near-infinite lifegain; Near-infinite lifeloss; Near-infinite lifegain triggers; Infinite draw triggers
 Start: Drogskol Reaver (battlefield); Starving Revenant (battlefield)
 Prerequisites: You have at least eight permanent cards in your graveyard.
@@ -11765,6 +11903,19 @@ Steps: Cast Priest of Gix by paying its mana cost.
   Resolve the Grimgrin ability, putting a +1/+1 counter on Grimgrin and untapping it.
   Repeat.
 
+## Combo 586-1069-1914
+Cards: Cowardice + Priest of Gix + Puresteel Paladin
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{B}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Priest of Gix (hand); Puresteel Paladin (battlefield)
+Prerequisites: You control three or more artifacts including an Equipment.
+Steps: Cast Priest of Gix by paying its mana cost.
+  When Priest of Gix enters, it triggers, adding {B}{B}{B}.
+  Activate an Equipment's equip ability given to it by Puresteel Paladin by paying {0}, targeting Priest of Gix.
+  Cowardice triggers, returning Priest of Gix from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
+
 ## Combo 586-1636-1921
 Cards: Tawnos, Solemn Survivor + Intruder Alarm + Priest of Gix
 Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal | Mana needed: {1}{W}{U}{B}
@@ -11780,6 +11931,19 @@ Steps: Activate Tawnos' second ability by paying {1}{W}{U}{B}, sacrificing two a
   Repeat from step 2.
   Once you have infinite black mana, you may instead choose any other artifact token(s) to make infinite copies of them.
 
+## Combo 586-1914-5638
+Cards: Cowardice + Priest of Gix + Plate Armor
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{B}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Priest of Gix (hand); Plate Armor (battlefield)
+Prerequisites: You control at least four Equipment.
+Steps: Cast Priest of Gix by paying its mana cost.
+  When Priest of Gix enters, it triggers, adding {B}{B}{B}.
+  Activate Plate Armor by paying {0}, targeting Priest of Gix.
+  Cowardice triggers, returning Priest of Gix from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
+
 ## Combo 586-4790-7824
 Cards: Priest of Gix + Dino DNA + Bard, King of Dale
 Color identity: WUB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
@@ -11791,7 +11955,7 @@ Steps: Activate Dino DNA by paying {6}, creating two token copies of Priest of G
 
 ## Combo 598-1303-2452-2523
 Cards: Liliana, Untouched by Death + Rooftop Storm + Ratadrabik of Urborg + Necroduality
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 700 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 710 | Commander: legal
 Produces: Infinite creature tokens; Infinite death triggers; Infinite creature ETB; Infinite creature LTB
 Start: Liliana, Untouched by Death (battlefield); Rooftop Storm (battlefield); Ratadrabik of Urborg (battlefield); Necroduality (battlefield)
 Prerequisites: Ratadrabik in hand or in your graveyard.Liliana has at least three loyalty counters on it.
@@ -11943,7 +12107,7 @@ Steps: Activate Psychic Frog by discarding a card.
 
 ## Combo 602-4691-5435
 Cards: Vilis, Broker of Blood + Feast of Sanity + Dream Trawler
-Color identity: WUB | Bracket: 2-3+ (Oddball) | Popularity: 17 | Commander: legal
+Color identity: WUB | Bracket: 2-3+ (Oddball) | Popularity: 16 | Commander: legal
 Produces: Infinite looting; Near-infinite lifegain triggers; Near-infinite power for a creature until end of turn; Infinite draw triggers; Infinite self-discard triggers
 Start: Vilis, Broker of Blood (battlefield); Feast of Sanity (battlefield); Dream Trawler (battlefield)
 Prerequisites: You have a card in hand.
@@ -12006,7 +12170,7 @@ Notes: If you are currently venturing in a dungeon when starting the combo, you 
 
 ## Combo 624-670-804-1619
 Cards: Sefris of the Hidden Ways + Radiant Solar + Phantasmal Image + Sakashima the Impostor
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 180 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 170 | Commander: legal
 Produces: Near-infinite lifeloss for all players; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers; Near-infinite creature ETB
 Start: Sefris of the Hidden Ways (battlefield); Radiant Solar (battlefield); Phantasmal Image (battlefield: as a copy of Radiant Solar); Sakashima the Impostor (battlefield: as a copy of Radiant Solar)
 Prerequisites: You have a way to cause a creature to enter the battlefield under your control.
@@ -13776,7 +13940,7 @@ Notes: If you are currently venturing in a dungeon when starting the combo, you 
 
 ## Combo 670-804-1619-5361
 Cards: Sefris of the Hidden Ways + Radiant Solar + Sakashima the Impostor + Auton Soldier
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 96 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 97 | Commander: legal
 Produces: Near-infinite lifeloss for all players; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Sefris of the Hidden Ways (battlefield); Radiant Solar (battlefield); Sakashima the Impostor (battlefield: as a copy of Radiant Solar); Auton Soldier (battlefield: as a copy of Radiant Solar)
 Prerequisites: You have a way to cause a creature to enter the battlefield under your control.
@@ -15077,7 +15241,7 @@ Steps: Cast Fiend Hunter by paying its mana cost.
 
 ## Combo 670-1619-1734-6154
 Cards: Radiant Solar + Sefris of the Hidden Ways + Fiend Hunter + White Plume Adventurer
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 92 | Commander: legal | Mana needed: {1}{W}{W}
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 93 | Commander: legal | Mana needed: {1}{W}{W}
 Produces: Near-infinite lifeloss for all players; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Radiant Solar (battlefield); Sefris of the Hidden Ways (battlefield); Fiend Hunter (hand); White Plume Adventurer (hand)
 Prerequisites: You are currently venturing in Tomb of Annihilation in the Trapped Entry room.
@@ -15647,7 +15811,7 @@ Notes: If you are currently venturing in a dungeon when starting the combo, you 
 
 ## Combo 670-1619-2719-3668
 Cards: Sefris of the Hidden Ways + Radiant Solar + Sakashima of a Thousand Faces + Flesh Duplicate
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 42 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal
 Produces: Near-infinite lifeloss for all players; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Sefris of the Hidden Ways (battlefield); Radiant Solar (battlefield); Sakashima of a Thousand Faces (battlefield: as a copy of Radiant Solar); Flesh Duplicate (battlefield: as a copy of Radiant Solar)
 Prerequisites: You have a way to cause a creature to enter the battlefield under your control.
@@ -18359,7 +18523,7 @@ Steps: Cast Phantom Steed by paying its mana cost.
 
 ## Combo 670-1619-3742-6145
 Cards: Radiant Solar + Sefris of the Hidden Ways + Phantom Steed + Passageway Seer
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 78 | Commander: legal | Mana needed: {3}{U}
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 77 | Commander: legal | Mana needed: {3}{U}
 Produces: Near-infinite lifeloss for all players; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Radiant Solar (battlefield); Sefris of the Hidden Ways (battlefield); Phantom Steed (hand); Passageway Seer (battlefield)
 Prerequisites: You are currently venturing in Tomb of Annihilation in the Trapped Entry room.
@@ -20483,7 +20647,7 @@ Notes: If you are currently venturing in a dungeon when starting the combo, you 
 
 ## Combo 670-1619-5361-6913
 Cards: Sefris of the Hidden Ways + Radiant Solar + Auton Soldier + Chameleon, Master of Disguise
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 33 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal
 Produces: Near-infinite lifeloss for all players; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Sefris of the Hidden Ways (battlefield); Radiant Solar (battlefield); Auton Soldier (battlefield: as a copy of Radiant Solar); Chameleon, Master of Disguise (battlefield: as a copy of Radiant Solar)
 Prerequisites: You have a way to cause a creature to enter the battlefield under your control.
@@ -20897,7 +21061,7 @@ Steps: Cast Werefox Bodyguard by paying its mana cost.
 
 ## Combo 670-1619-5887-6148
 Cards: Radiant Solar + Sefris of the Hidden Ways + Werefox Bodyguard + Seasoned Dungeoneer
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal | Mana needed: {1}{W}{W}
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal | Mana needed: {1}{W}{W}
 Produces: Near-infinite lifeloss for all players; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Radiant Solar (battlefield); Sefris of the Hidden Ways (battlefield); Werefox Bodyguard (hand); Seasoned Dungeoneer (battlefield)
 Prerequisites: You are currently venturing in Tomb of Annihilation in the Trapped Entry room.
@@ -21002,7 +21166,7 @@ Steps: Cast Werefox Bodyguard by paying its mana cost.
 
 ## Combo 670-1619-5887-6154
 Cards: Radiant Solar + Sefris of the Hidden Ways + Werefox Bodyguard + White Plume Adventurer
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 59 | Commander: legal | Mana needed: {1}{W}{W}
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 58 | Commander: legal | Mana needed: {1}{W}{W}
 Produces: Near-infinite lifeloss for all players; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Radiant Solar (battlefield); Sefris of the Hidden Ways (battlefield); Werefox Bodyguard (hand); White Plume Adventurer (battlefield)
 Prerequisites: You are currently venturing in Tomb of Annihilation in the Trapped Entry room.
@@ -21107,7 +21271,7 @@ Steps: Cast All-Fates Stalker by paying its mana cost.
 
 ## Combo 670-1619-6142-6966
 Cards: Radiant Solar + Sefris of the Hidden Ways + Eccentric Apprentice + All-Fates Stalker
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {1}{W}
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal | Mana needed: {1}{W}
 Produces: Near-infinite lifeloss for all players; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers; Near-infinite creature ETB
 Start: Radiant Solar (battlefield); Sefris of the Hidden Ways (battlefield); Eccentric Apprentice (battlefield); All-Fates Stalker (hand)
 Prerequisites: You are currently venturing in Tomb of Annihilation in the Trapped Entry room.
@@ -21191,7 +21355,7 @@ Steps: Cast All-Fates Stalker by paying its mana cost.
 
 ## Combo 670-1619-6147-6966
 Cards: Radiant Solar + Sefris of the Hidden Ways + Rilsa Rael, Kingpin + All-Fates Stalker
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {1}{W}
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {1}{W}
 Produces: Near-infinite lifeloss for all players; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Radiant Solar (battlefield); Sefris of the Hidden Ways (battlefield); Rilsa Rael, Kingpin (battlefield); All-Fates Stalker (hand)
 Prerequisites: You are currently venturing in Tomb of Annihilation in the Trapped Entry room.
@@ -27810,7 +27974,7 @@ Steps: Cast Angel of Glory's Rise by paying {5}{W}{W}.
 
 ## Combo 997-1462-1748
 Cards: Warehouse Tabby + Enchanted Evening + Woe Strider
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite scry 1
 Start: Warehouse Tabby (battlefield); Enchanted Evening (battlefield); Woe Strider (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -28289,211 +28453,3 @@ Steps: Activate Loyal Retainers by sacrificing it, returning Chameleon from your
   When Chameleon enters the battlefield, it triggers, returning Loyal Retainers from your graveyard to the battlefield.
   Activate Woe Strider by sacrificing Chameleon.
   Repeat.
-
-## Combo 997-2724-3194-3582
-Cards: Kaya the Inexorable + Wormfang Manta + Hushwing Gryff + Woe Strider
-Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {5}{U}{U} each turn
-Produces: Infinite turns; Lock
-Start: Kaya the Inexorable (battlefield); Wormfang Manta (battlefield); Hushwing Gryff (battlefield); Woe Strider (battlefield)
-Steps: Activate Kaya the Inexorable's first ability by putting a loyalty counter on it, putting a ghostform counter on Wormfang Manta.
-  Activate Woe Strider by sacrificing Wormfang Manta.
-  When Wormfang Manta dies, its second ability and its ghostform ability trigger.
-  Resolve the ghostform trigger, returning Wormfang Manta from your graveyard to your hand and creating a 1/1 Spirit creature token.
-  Resolve the second trigger, causing you to take an extra turn after this one.
-  Resolve the Woe Strider ability, causing you to scry 1.
-  Cast Wormfang Manta by paying {5}{U}{U}.
-  Wormfang Manta's first ability does not trigger due to Hushwing Gryff.
-  Repeat each turn.
-
-## Combo 997-2724-3217-3582
-Cards: Kaya the Inexorable + Wormfang Manta + Tocatli Honor Guard + Woe Strider
-Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {5}{U}{U} each turn
-Produces: Infinite turns; Lock
-Start: Kaya the Inexorable (battlefield); Wormfang Manta (battlefield); Tocatli Honor Guard (battlefield); Woe Strider (battlefield)
-Steps: Activate Kaya the Inexorable's first ability by putting a loyalty counter on it, putting a ghostform counter on Wormfang Manta.
-  Activate Woe Strider by sacrificing Wormfang Manta.
-  When Wormfang Manta dies, its second ability and its ghostform ability trigger.
-  Resolve the ghostform trigger, returning Wormfang Manta from your graveyard to your hand and creating a 1/1 Spirit creature token.
-  Resolve the second trigger, causing you to take an extra turn after this one.
-  Resolve the Woe Strider ability, causing you to scry 1.
-  Cast Wormfang Manta by paying {5}{U}{U}.
-  Wormfang Manta's first ability does not trigger due to Tocatli Honor Guard.
-  Repeat each turn.
-
-## Combo 997-2724-3582-3987
-Cards: Kaya the Inexorable + Wormfang Manta + Torpor Orb + Woe Strider
-Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {5}{U}{U} each turn
-Produces: Infinite turns; Lock
-Start: Kaya the Inexorable (battlefield); Wormfang Manta (battlefield); Torpor Orb (battlefield); Woe Strider (battlefield)
-Steps: Activate Kaya the Inexorable's first ability by putting a loyalty counter on it, putting a ghostform counter on Wormfang Manta.
-  Activate Woe Strider by sacrificing Wormfang Manta.
-  When Wormfang Manta dies, its second ability and its ghostform ability trigger.
-  Resolve the ghostform trigger, returning Wormfang Manta from your graveyard to your hand and creating a 1/1 Spirit creature token.
-  Resolve the second trigger, causing you to take an extra turn after this one.
-  Resolve the Woe Strider ability, causing you to scry 1.
-  Cast Wormfang Manta by paying {5}{U}{U}.
-  Wormfang Manta's first ability does not trigger due to Torpor Orb.
-  Repeat each turn.
-
-## Combo 997-2728-4153-7957
-Cards: Genestealer Patriarch + Woe Strider + Resourceful Defense + Rikku, Resourceful Guardian
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
-Produces: Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
-Start: Genestealer Patriarch (battlefield); Woe Strider (battlefield); Resourceful Defense (battlefield); Rikku, Resourceful Guardian (battlefield)
-Prerequisites: Genestealer Patriarch does not have summoning sickness.
-  An opponent controls a creature.
-  Rikku does not have summoning sickness.
-  You control at least two additional creatures.
-Steps: Declare Genestealer Patriarch as an attacker.
-  Genestealer Patriarch's first ability triggers, putting an infection counter on a creature an opponent controls.
-  Activate Rikku's ability by paying its cost, moving the infection counter from the opponent's creature onto a creature you control.
-  Activate Woe Strider by sacrificing the creature with an infection counter on it.
-  When the creature dies, Resourceful Defense and Genestealer Patriarch's second ability trigger.
-  Resolve the Resourceful Defense trigger, putting an infection counter onto another creature you control.
-  Resolve the Genestealer Patriarch trigger, causing you to create a token copy of the sacrificed creature that is a Tyranid in addition to its other types.
-  Resolve the Woe Strider ability.
-  Repeat from step 4.
-
-## Combo 997-2728-6012-7957
-Cards: Genestealer Patriarch + Woe Strider + Reluctant Role Model + Rikku, Resourceful Guardian
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
-Produces: Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
-Start: Genestealer Patriarch (battlefield); Woe Strider (battlefield); Reluctant Role Model (battlefield); Rikku, Resourceful Guardian (battlefield)
-Prerequisites: Genestealer Patriarch does not have summoning sickness.
-  An opponent controls a creature.
-  Rikku does not have summoning sickness.
-  You control at least two additional creatures.
-Steps: Declare Genestealer Patriarch as an attacker.
-  Genestealer Patriarch's first ability triggers, putting an infection counter on a creature an opponent controls.
-  Activate Rikku's ability by paying its cost, moving the infection counter from the opponent's creature onto a creature you control.
-  Activate Woe Strider by sacrificing the creature with an infection counter on it.
-  When the creature dies, Reluctant Role Model and Genestealer Patriarch's second ability trigger.
-  Resolve the Reluctant Role Model trigger, putting an infection counter onto another creature you control.
-  Resolve the Genestealer Patriarch trigger, causing you to create a token copy of the sacrificed creature that is a Tyranid in addition to its other types.
-  Resolve the Woe Strider ability.
-  Repeat from step 4.
-
-## Combo 997-2869-3184--173
-Cards: Yomiji, Who Bars the Way + Leyline of Singularity + Woe Strider
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1; Infinite storm count
-Requires: Creature castable for {0} that survives (battlefield)
-Start: Yomiji, Who Bars the Way (battlefield); Leyline of Singularity (battlefield); Woe Strider (battlefield)
-Steps: Activate Woe Strider by sacrificing the creature that costs {0}.
-  Yomiji triggers, returning that creature from your graveyard to your hand.
-  Resolve the Woe Strider ability.
-  Cast that creature by paying {0}.
-  Repeat.
-
-## Combo 997-2908-4986--44
-Cards: Teshar, Ancestor's Apostle + Woe Strider + Dream Stalker
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite scry 1; Infinite storm count
-Requires: 2x Artifact Castable for {0} that survives (hand, battlefield)
-Start: Teshar, Ancestor's Apostle (battlefield); Woe Strider (battlefield); Dream Stalker (graveyard)
-Steps: Cast an artifact in your hand by paying {0}.
-  Teshar triggers, returning Dream Stalker from your graveyard to the battlefield.
-  When Dream Stalker enters, it triggers, returning another artifact that can be cast for {0} from the battlefield to your hand.
-  Resolve the artifact spell cast in step 1.
-  Activate Woe Strider by sacrificing Dream Stalker
-  Repeat.
-Notes: One of the {0} cost artifacts must be in your hand with the other on the battlefield.
-
-## Combo 997-2961-3175
-Cards: Sun Titan + Woe Strider + False Demise
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
-Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite scry 1
-Start: Sun Titan (battlefield); Woe Strider (battlefield); False Demise (battlefield: attached to Sun Titan)
-Steps: Activate Woe Strider by sacrificing Sun Titan.
-  When Sun Titan dies, False Demise triggers, returning Sun Titan from your graveyard to the battlefield.
-  When Sun Titan enters, it triggers, returning False Demise from your graveyard to the battlefield attached to Sun Titan.
-  Resolve the Woe Strider ability.
-  Repeat.
-
-## Combo 997-2961-6553
-Cards: Brotherhood Outcast + Woe Strider + False Demise
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
-Start: Brotherhood Outcast (battlefield); Woe Strider (battlefield); False Demise (battlefield)
-Prerequisites: False Demise attached to Brotherhood Outcast.
-Steps: Activate Woe Strider by sacrificing Brotherhood Outcast.
-  When Brotherhood Outcast dies, False Demise triggers, returning Brotherhood Outcast from your graveyard to the battlefield.
-  When Brotherhood Outcast enters the battlefield, it triggers, returning False Demise from your graveyard to the battlefield attached to Brotherhood Outcast.
-  Resolve the Woe Strider ability.
-  Repeat.
-
-## Combo 997-3249-4647-5173
-Cards: Havengul Lich + Shambling Ghast + Woe Strider + Teysa Karlov
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{B}
-Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite scry 1; Infinite storm count
-Start: Havengul Lich (battlefield); Shambling Ghast (graveyard); Woe Strider (battlefield); Teysa Karlov (battlefield)
-Steps: Activate Havengul Lich by paying {1}, allowing you to cast Shambling Ghast card from your graveyard this turn.
-  Cast Shambling Ghast from your graveyard by paying {B}.
-  Activate Woe Strider by sacrificing Shambling Ghast.
-  When Shambling Ghast dies, it triggers twice, creating two Treasure tokens.
-  Resolve the Woe Strider ability.
-  Activate the Treasures by tapping and sacrificing them, adding {1}{B}
-  Repeat.
-
-## Combo 997-3249-5173-5542
-Cards: Havengul Lich + Shambling Ghast + Woe Strider + Delney, Streetwise Lookout
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{B}
-Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite scry 1; Infinite storm count
-Start: Havengul Lich (battlefield); Shambling Ghast (graveyard); Woe Strider (battlefield); Delney, Streetwise Lookout (battlefield)
-Steps: Activate Havengul Lich by paying {1}, allowing you to cast Shambling Ghast card from your graveyard this turn.
-  Cast Shambling Ghast from your graveyard by paying {B}.
-  Activate Woe Strider by sacrificing Shambling Ghast.
-  When Shambling Ghast dies, it triggers twice, creating two Treasure tokens.
-  Resolve the Woe Strider ability.
-  Activate the Treasures by tapping and sacrificing them, adding {1}{B}
-  Repeat.
-
-## Combo 997-3293-5282
-Cards: Emeria Shepherd + Wormfang Newt + Woe Strider
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite white mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1; Infinite landfall triggers
-Start: Emeria Shepherd (battlefield); Wormfang Newt (battlefield); Woe Strider (battlefield)
-Prerequisites: You have a Plains exiled by Wormfang Newt.
-Steps: Activate Woe Strider by sacrificing Wormfang Newt.
-  When Wormfang Newt dies, its second ability triggers, returning a Plains from exile to the battlefield.
-  When the Plains enters the battlefield, Emeria Shepherd triggers.
-  Holding priority, activate the Plains by tapping it, adding {W}.
-  Resolve the Emeria Shepherd trigger, returning Wormfang Newt from your graveyard to the battlefield.
-  When Wormfang Newt enters the battlefield, its first ability triggers, exiling a Plains.
-  Resolve the Woe Strider ability from step 1, causing you to scry 1.
-  Repeat.
-
-## Combo 997-3562-3817-6542
-Cards: Sidisi, Regent of the Mire + Sister Hospitaller + Woe Strider + Sky Hussar
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1; Infinite untap of creatures you control
-Start: Sidisi, Regent of the Mire (battlefield: without summoning sickness); Sister Hospitaller (graveyard); Woe Strider (battlefield); Sky Hussar (battlefield)
-Steps: Activate Sidisi by tapping it and sacrificing Sky Hussar, returning Sister Hospitaller from your graveyard to the battlefield.
-  When Sister Hospitaller enters the battlefield, it triggers, returning Sky Hussar from your graveyard to the battlefield and causing you to gain 5 life.
-  When Sky Hussar enters the battlefield, it triggers, untapping all creatures you control.
-  Activate Woe Strider by sacrificing Sister Hospitaller.
-  Repeat.
-
-## Combo 997-4019-6972
-Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Woe Strider + Vigean Graftmage
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
-Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Woe Strider (battlefield); Vigean Graftmage (battlefield: without a -1/-1 counter on it)
-Steps: Activate Woe Strider by sacrificing Vigean Graftmage.
-  When Vigean Graftmage dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to its replacement effect.
-  Resolve the Woe Strider ability.
-  Repeat.
-
-## Combo 997-4112-4375
-Cards: Sharuum the Hegemon + Technomancer + Woe Strider
-Color identity: WUB | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal | Mana needed: {3}{W}{U}{B} plus commander tax if applicable
-Produces: Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
-Start: Sharuum the Hegemon (hand, command zone); Technomancer (graveyard); Woe Strider (battlefield)
-Steps: Cast Sharuum either from your hand or from the command zone by paying {3}{W}{U}{B} plus commander tax if applicable.
-  When Sharuum enters the battlefield, it triggers, targeting Technomancer.
-  Holding priority, activate Woe Strider by sacrificing Sharuum.
-  Resolve the Sharuum trigger, returning Technomancer from your graveyard to the battlefield.
-  When Technomancer enters the battlefield, it triggers.
-  Holding priority, activate Woe Strider by sacrificing Technomancer.
-  Resolve the Technomancer trigger, causing you to mill three cards and return Sharuum from your graveyard to the battlefield.
-  Repeat from step 2.

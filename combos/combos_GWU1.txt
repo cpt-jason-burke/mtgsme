@@ -752,7 +752,7 @@ Steps: Activate Emiel the Blessed by paying {3}, blinking Eyeless Watcher.
 
 ## Combo 108-1912-4013
 Cards: Biomancer's Familiar + Eldrazi Displacer + Eyeless Watcher
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal | Mana needed: {C}
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal | Mana needed: {C}
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite blinking of most creatures; Infinite blinking
 Start: Biomancer's Familiar (battlefield); Eldrazi Displacer (battlefield); Eyeless Watcher (battlefield)
 Steps: Activate Eldrazi Displacer by paying {C}, blinking Eyeless Watcher.
@@ -1918,6 +1918,54 @@ Steps: Cast Ashaya.
   Admonition Angel's landfall ability triggers, exiling Detention Sphere.
   Repeat.
 
+## Combo 164-2191-6085
+Cards: Martyrdom + Oko, Thief of Crowns + Altanak, the Thrice-Called
+Color identity: GWU | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}{W}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Martyrdom (hand); Oko, Thief of Crowns (battlefield); Altanak, the Thrice-Called (battlefield)
+Prerequisites: Oko has five or more loyalty counters on it.
+  An opponent controls a creature with power 3 or less.
+Steps: Cast Martyrdom by paying {1}{W}{W}, targeting Altanak.
+  Activate Oko's last ability by removing five loyalty counters from it, exchanging control of a creature an opponent controls with power 3 or less and Altanak.
+  Activate the ability granted to Altanak by Martyrdom an arbitrarily large number of times by paying {0}, targeting itself.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 164-2191-8144
+Cards: Martyrdom + Oko, Thief of Crowns + Surrak, Elusive Hunter
+Color identity: GWU | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}{W}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Martyrdom (hand); Oko, Thief of Crowns (battlefield); Surrak, Elusive Hunter (battlefield)
+Prerequisites: Oko has five or more loyalty counters on it.
+  An opponent controls a creature with power 3 or less.
+Steps: Cast Martyrdom by paying {1}{W}{W}, targeting Surrak.
+  Activate Oko's last ability by removing five loyalty counters from it, exchanging control of a creature an opponent controls with power 3 or less and Surrak.
+  Activate the ability granted to Surrak by Martyrdom an arbitrarily large number of times by paying {0}, targeting itself.
+  Surrak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 164-2191-8411
+Cards: Martyrdom + Oko, Thief of Crowns + Old Fat Spider
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}{W}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Martyrdom (hand); Oko, Thief of Crowns (battlefield); Old Fat Spider (battlefield)
+Prerequisites: Oko has five or more loyalty counters on it.
+  An opponent controls a creature with power 3 or less.
+Steps: Cast Martyrdom by paying {1}{W}{W}, targeting Old Fat Spider.
+  Activate Oko's last ability by removing five loyalty counters from it, exchanging control of a creature an opponent controls with power 3 or less and Old Fat Spider.
+  Activate the ability granted to Old Fat Spider by Martyrdom an arbitrarily large number of times by paying {0}, targeting itself.
+  Old Fat Spider triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 164-2191-8412
+Cards: Martyrdom + Oko, Thief of Crowns + Ruric Thar, Biomagus
+Color identity: GWU | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}{W}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Martyrdom (hand); Oko, Thief of Crowns (battlefield); Ruric Thar, Biomagus (battlefield)
+Prerequisites: Oko has five or more loyalty counters on it.
+  An opponent controls a creature with power 3 or less.
+Steps: Cast Martyrdom by paying {1}{W}{W}, targeting Ruric Thar.
+  Activate Oko's last ability by removing five loyalty counters from it, exchanging control of a creature an opponent controls with power 3 or less and Ruric Thar.
+  Activate the ability granted to Ruric Thar by Martyrdom an arbitrarily large number of times by paying {0}, targeting itself.
+  Ruric Thar triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
 ## Combo 168-1462-2686-4129
 Cards: Enchanted Evening + Oblivion Ring + Back to Nature + Barren Glory
 Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal | Mana needed: {1}{G}
@@ -2044,7 +2092,7 @@ Steps: Activate Faerie Mastermind by paying {3}{U}, causing each player to draw 
 
 ## Combo 184-1912-4682
 Cards: Faerie Mastermind + Smothering Tithe + Biomancer's Familiar
-Color identity: GWU | Bracket: 3+ (Powerful) | Popularity: 6100 | Commander: legal | Mana needed: {1}{U}
+Color identity: GWU | Bracket: 3+ (Powerful) | Popularity: 6200 | Commander: legal | Mana needed: {1}{U}
 Produces: Infinite card draw for all players; Near-infinite colored mana; Near-infinite colorless mana; Near-infinite Treasure tokens; Infinite draw triggers for all players
 Start: Faerie Mastermind (battlefield); Smothering Tithe (battlefield); Biomancer's Familiar (battlefield)
 Prerequisites: You have at least three opponents.
@@ -2080,7 +2128,7 @@ Steps: Activate Faerie Mastermind by paying {3}{U}, causing each player to draw 
 
 ## Combo 184-3430-4682
 Cards: Faerie Mastermind + Smothering Tithe + Nyxbloom Ancient
-Color identity: GWU | Bracket: 3+ (Powerful) | Popularity: 530 | Commander: legal | Mana needed: {3}{U}
+Color identity: GWU | Bracket: 3+ (Powerful) | Popularity: 520 | Commander: legal | Mana needed: {3}{U}
 Produces: Infinite card draw for all players; Near-infinite Treasure tokens; Near-infinite colored mana; Near-infinite colorless mana; Infinite draw triggers for all players
 Start: Faerie Mastermind (battlefield); Smothering Tithe (battlefield); Nyxbloom Ancient (battlefield)
 Prerequisites: You have at least two opponents who are unable to pay for Smothering Tithe's trigger.
@@ -2103,7 +2151,7 @@ Steps: Activate Faerie Mastermind by paying {3}{U}, causing each player to draw 
 
 ## Combo 186-1741-4499
 Cards: Cloud of Faeries + Emiel the Blessed + Heartstone
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB
 Start: Cloud of Faeries (battlefield); Emiel the Blessed (battlefield); Heartstone (battlefield)
 Prerequisites: You control up to two lands that can tap to produce at least {2}.
@@ -4955,7 +5003,7 @@ Steps: Activate the mana-producing creature by tapping it, adding at least {G}.
 
 ## Combo 261-1136-1636
 Cards: Phelddagrif + Suture Priest + Intruder Alarm
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 1400 | Commander: legal
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 1300 | Commander: legal
 Produces: Infinite lifeloss; Infinite mana creatures you control can produce; Infinite untap of creatures; Infinite creature tokens for opponents; Infinite creature ETB for opponents; Infinite creature tokens for any number of opponents; Infinite creature ETB for any number of opponents
 Start: Phelddagrif (battlefield); Suture Priest (battlefield); Intruder Alarm (battlefield)
 Prerequisites: You control a creature that can tap to produce at least {G}.
@@ -4968,7 +5016,7 @@ Steps: Activate the mana-producing creature by tapping it, adding at least {G}.
 
 ## Combo 261-1409-8160
 Cards: Kwia Vigorbloom + Deadeye Navigator + Suture Priest
-Color identity: GWU | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal | Mana needed: {1}{U}
+Color identity: GWU | Bracket: 3-4+ (Spicy) | Popularity: 2 | Commander: legal | Mana needed: {1}{U}
 Produces: Infinite lifegain; Infinite colored mana; Infinite lifegain triggers; Infinite Lotus tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite blinking
 Start: Kwia Vigorbloom (battlefield); Deadeye Navigator (battlefield: is paired with Kwia); Suture Priest (battlefield)
 Steps: Activate Kwia by paying {1}{U}, blinking it.
@@ -9604,7 +9652,7 @@ Steps: Activate Llanowar Scout by tapping it, putting Selesnya Sanctuary from yo
 
 ## Combo 433-3147-7857
 Cards: Llanowar Scout + Azorius Chancery + Elven Raft-Steerer
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 99 | Commander: legal
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 100 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Llanowar Scout (battlefield: without summoning sickness); Azorius Chancery (hand); Elven Raft-Steerer (battlefield)
 Steps: Activate Llanowar Scout by tapping it, putting Azorius Chancery from your hand onto the battlefield.
@@ -9754,7 +9802,7 @@ Steps: Cast Prismatic Lace for {U}, making a permanent you control all colors.
 
 ## Combo 455-3152-5922
 Cards: Helga, Skittish Seer + Chakram Retriever + Hoverguard Sweepers
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 81 | Commander: legal
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 82 | Commander: legal
 Produces: Infinite card draw; Near-infinite lifegain; Near-infinite colored mana that can only be spent to cast creature spells with mana value 4 or greater or creature spells with X in their mana cost; Near-infinite lifegain triggers; Near-infinite +1/+1 counters on a creature; Near-infinite creature ETB; Infinite draw triggers; Near-infinite storm count; Near-infinite creature LTB; Return a portion of target creatures to their owner's hand
 Start: Helga, Skittish Seer (battlefield); Chakram Retriever (battlefield); Hoverguard Sweepers (hand)
 Prerequisites: Helga has power 8 or greater and does not have summoning sickness.
@@ -19248,7 +19296,7 @@ Steps: Cast Shrieking Drake by paying one mana.
 
 ## Combo 751-1362-3314-3470
 Cards: Chulane, Teller of Tales + Shrieking Drake + Oboro, Palace in the Clouds + Lotus Cobra
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 740 | Commander: legal | Mana needed: {U}
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 750 | Commander: legal | Mana needed: {U}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite landfall triggers; Near-infinite storm count
 Start: Chulane, Teller of Tales (battlefield); Shrieking Drake (hand); Oboro, Palace in the Clouds (hand); Lotus Cobra (battlefield)
 Steps: Cast Shrieking Drake by paying one mana.
@@ -19750,6 +19798,17 @@ Steps: Pay {1} to activate Patron of the Moon, putting Selesnya Sanctuary from y
   Resolve Selesnya Sanctuary's triggered ability, returning it from the battlefield to your hand.
   Repeat.
 
+## Combo 774-907-8345
+Cards: Patron of the Moon + Selesnya Sanctuary + Warp Speed
+Color identity: GWU | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {1}
+Produces: Infinite green mana; Infinite white mana; Infinite landfall triggers
+Start: Patron of the Moon (battlefield); Selesnya Sanctuary (hand); Warp Speed (battlefield)
+Steps: Pay {1} to activate Patron of the Moon, putting Selesnya Sanctuary from your hand onto the battlefield untapped due to Warp Speed 
+  When Selesnya Sanctuary enters, it triggers
+  Holding priority, activate Selesnya Sanctuary by tapping it, adding two mana.
+  Resolve Selesnya Sanctuary's triggered ability, returning it from the battlefield to your hand.
+  Repeat.
+
 ## Combo 774-2653-3147
 Cards: Patron of the Moon + Nissa, Resurgent Animist + Azorius Chancery
 Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 62 | Commander: legal | Mana needed: {1}
@@ -19803,6 +19862,17 @@ Start: Patron of the Moon (battlefield); Azorius Chancery (hand); Horizon Explor
 Steps: Pay {1} to activate Patron of the Moon, putting Azorius Chancery from your hand onto the battlefield untapped due to Horizon Explorer.
   When Azorius Chancery enters, it triggers.
   Activate Azorius Chancery by tapping it, adding two mana.
+  Resolve Azorius Chancery's triggered ability, returning it from the battlefield to your hand.
+  Repeat.
+
+## Combo 774-3147-8345
+Cards: Patron of the Moon + Azorius Chancery + Warp Speed
+Color identity: GWU | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {1}
+Produces: Infinite blue mana; Infinite white mana; Infinite landfall triggers
+Start: Patron of the Moon (battlefield); Azorius Chancery (hand); Warp Speed (battlefield)
+Steps: Pay {1} to activate Patron of the Moon, putting Azorius Chancery from your hand onto the battlefield untapped due to Warp Speed 
+  When Azorius Chancery enters, it triggers
+  Holding priority, activate Azorius Chancery by tapping it, adding two mana.
   Resolve Azorius Chancery's triggered ability, returning it from the battlefield to your hand.
   Repeat.
 
@@ -20168,6 +20238,16 @@ Steps: Activate Sensei's Divining Top's second ability by tapping it, causing yo
   Cast Sensei's Divining Top from the top of your library by paying {0} and removing a counter from a creature you control.
   Repeat.
 
+## Combo 777-3532-5078-8348
+Cards: Falco Spara, Pactweaver + Sensei's Divining Top + Foundry Inspector + Data, New Life
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite storm count
+Start: Falco Spara, Pactweaver (battlefield); Sensei's Divining Top (battlefield); Foundry Inspector (battlefield); Data, New Life (battlefield)
+Steps: Activate Sensei's Divining Top's second ability by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
+  Data triggers, putting a +1/+1 counter on it.
+  Cast Sensei's Divining Top from the top of your library by paying {0} and removing a counter from a creature you control.
+  Repeat.
+
 ## Combo 777-4934-5078
 Cards: Amareth, the Lustrous + Sensei's Divining Top + Foundry Inspector
 Color identity: GWU | Bracket: 3-4+ (Spicy) | Popularity: 79 | Commander: legal
@@ -20194,7 +20274,7 @@ Steps: Activate Jungle Basin and up to three other lands by tapping them, adding
 
 ## Combo 799-1891-2598-5261
 Cards: The Sixth Doctor + Karn's Temporal Sundering + Isochron Scepter + Reprieve
-Color identity: GWU | Bracket: 4+ (Ruthless) | Popularity: 3 | Commander: legal | Mana needed: {6}{U}{U} each turn
+Color identity: GWU | Bracket: 4+ (Ruthless) | Popularity: 2 | Commander: legal | Mana needed: {6}{U}{U} each turn
 Produces: Infinite turns; Lock
 Start: The Sixth Doctor (battlefield); Karn's Temporal Sundering (hand); Isochron Scepter (battlefield); Reprieve (exile: exiled by Isochron Scepter)
 Steps: Cast Karn's Temporal Sundering by paying {4}{U}{U}.
@@ -20509,7 +20589,7 @@ Notes: Once you have extra mana, you can choose the other modes of Galadriel. Yo
 
 ## Combo 804-907-1479
 Cards: Kodama of the East Tree + Sakashima the Impostor + Selesnya Sanctuary
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 92 | Commander: legal
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 91 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Sakashima the Impostor (battlefield); Selesnya Sanctuary (hand)
 Steps: Play Selesnya Sanctuary.
@@ -20915,7 +20995,7 @@ Notes: Once you have infinite mana, you may instead use Chromatic Orrery's secon
 
 ## Combo 851-1308-2557-3209
 Cards: Sprout Swarm + Adrix and Nev, Twincasters + Anointed Procession + Parallel Lives
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal | Mana needed: {4}{G}
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal | Mana needed: {4}{G}
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite magecraft triggers; Infinite storm count
 Start: Sprout Swarm (hand); Adrix and Nev, Twincasters (battlefield); Anointed Procession (battlefield); Parallel Lives (battlefield)
 Steps: Cast Sprout Swarm with buyback for {4}{G}, creating eight 1/1 green Saproling token.
@@ -20943,7 +21023,7 @@ Steps: Activate Saurian Explorer by paying {6}, creating eight untapped New Plan
 
 ## Combo 851-1308-3129-3209
 Cards: Sprout Swarm + Adrix and Nev, Twincasters + Anointed Procession + Primal Vigor
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal | Mana needed: {4}{G}
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal | Mana needed: {4}{G}
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite magecraft triggers; Infinite storm count
 Start: Sprout Swarm (hand); Adrix and Nev, Twincasters (battlefield); Anointed Procession (battlefield); Primal Vigor (battlefield)
 Steps: Cast Sprout Swarm with buyback for {4}{G}, creating eight 1/1 green Saproling token.
@@ -20971,7 +21051,7 @@ Steps: Activate Saurian Explorer by paying {6}, creating eight untapped New Plan
 
 ## Combo 851-1308-3209-4772
 Cards: Sprout Swarm + Adrix and Nev, Twincasters + Anointed Procession + Doubling Season
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal | Mana needed: {4}{G}
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal | Mana needed: {4}{G}
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite magecraft triggers; Infinite storm count
 Start: Sprout Swarm (hand); Adrix and Nev, Twincasters (battlefield); Anointed Procession (battlefield); Doubling Season (battlefield)
 Steps: Cast Sprout Swarm with buyback for {4}{G}, creating eight 1/1 green Saproling token.
@@ -22439,7 +22519,7 @@ Steps: Cast Time Warp by paying its mana cost.
 
 ## Combo 872-907-7857
 Cards: Scaled Herbalist + Selesnya Sanctuary + Elven Raft-Steerer
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 81 | Commander: legal
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 82 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Scaled Herbalist (battlefield: without summoning sickness); Selesnya Sanctuary (hand); Elven Raft-Steerer (battlefield)
 Steps: Activate Scaled Herbalist by tapping it, putting Selesnya Sanctuary from your hand onto the battlefield.
@@ -22450,7 +22530,7 @@ Steps: Activate Scaled Herbalist by tapping it, putting Selesnya Sanctuary from 
 
 ## Combo 872-3147-7857
 Cards: Scaled Herbalist + Azorius Chancery + Elven Raft-Steerer
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 71 | Commander: legal
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Scaled Herbalist (battlefield: without summoning sickness); Azorius Chancery (hand); Elven Raft-Steerer (battlefield)
 Steps: Activate Scaled Herbalist by tapping it, putting Azorius Chancery from your hand onto the battlefield.
@@ -22802,7 +22882,7 @@ Steps: Play Selesnya Sanctuary
 
 ## Combo 907-1257-7857
 Cards: Selesnya Sanctuary + Walking Atlas + Elven Raft-Steerer
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 87 | Commander: legal
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 88 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Selesnya Sanctuary (hand); Walking Atlas (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Steps: Activate Walking Atlas by tapping it, putting Selesnya Sanctuary from your hand onto the battlefield.
@@ -22959,7 +23039,7 @@ Steps: Cast Irenicus's Vile Duplication by paying {3}{U}, creating a token copy 
 
 ## Combo 907-1479-5361
 Cards: Kodama of the East Tree + Selesnya Sanctuary + Auton Soldier
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Selesnya Sanctuary (hand); Auton Soldier (battlefield)
 Steps: Play Selesnya Sanctuary.
@@ -23071,7 +23151,7 @@ Steps: Activate Selesnya Sanctuary and up to three other lands by tapping them, 
 
 ## Combo 907-1993-7857
 Cards: Selesnya Sanctuary + Budoka Gardener // Dokai, Weaver of Life + Elven Raft-Steerer
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 28 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Selesnya Sanctuary (hand); Budoka Gardener // Dokai, Weaver of Life (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Prerequisites: You control eight or fewer lands.
@@ -23111,7 +23191,7 @@ Steps: Activate Selesnya Sanctuary and another land by tapping them, adding at l
 
 ## Combo 907-2248-7857
 Cards: Selesnya Sanctuary + Skyshroud Ranger + Elven Raft-Steerer
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 76 | Commander: legal
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 78 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Selesnya Sanctuary (hand); Skyshroud Ranger (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Steps: Activate Skyshroud Ranger by tapping it, putting Selesnya Sanctuary from your hand onto the battlefield.
@@ -23193,6 +23273,100 @@ Steps: Activate Sakura-Tribe Scout by tapping it, putting Selesnya Sanctuary fro
   When Selesnya Sanctuary enters the battlefield, it and Elven Raft-Steerer trigger.
   Resolve the Selesnya Sanctuary trigger, returning itself from the battlefield to your hand.
   Resolve the Elven Raft-Steerer trigger, untapping Sakura-Tribe Scout.
+  Repeat.
+
+## Combo 907-4572-5702-8345
+Cards: Springheart Nantuko + Selesnya Sanctuary + Dryad of the Ilysian Grove + Warp Speed
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
+Start: Springheart Nantuko (battlefield: attached to Dryad of the Ilysian Grove); Selesnya Sanctuary (hand); Dryad of the Ilysian Grove (battlefield); Warp Speed (battlefield)
+Prerequisites: You are able to play a land this turn
+Steps: Play Selesnya Sanctuary. When it enters untapped due to Warp Speed, Selesnya Sanctuary and Springheart Nantuko trigger.
+  Holding priority, activate Selesnya Sanctuary by tapping it, adding {G}{W}
+  Resolve the Selesnya Sanctuary trigger, returning it from the battlefield to your hand.
+  Resolve the Springheart Nantuko trigger, causing you to pay {1}{G} to create a token copy of Dryad of the Ilysian Grove.
+  Because of the additional Dryad of the Ilysian Grove token, you can play an additional land this turn. 
+  Repeat.
+
+## Combo 907-5449-5702-8345
+Cards: Springheart Nantuko + Selesnya Sanctuary + Oracle of Mul Daya + Warp Speed
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
+Start: Springheart Nantuko (battlefield: attached to Oracle of Mul Daya); Selesnya Sanctuary (hand); Oracle of Mul Daya (battlefield); Warp Speed (battlefield)
+Prerequisites: You are able to play a land this turn
+Steps: Play Selesnya Sanctuary. When it enters untapped due to Warp Speed, Selesnya Sanctuary and Springheart Nantuko trigger.
+  Holding priority, activate Selesnya Sanctuary by tapping it, adding {G}{W}
+  Resolve the Selesnya Sanctuary trigger, returning it from the battlefield to your hand.
+  Resolve the Springheart Nantuko trigger, causing you to pay {1}{G} to create a token copy of Oracle of Mul Daya.
+  Because of the additional Oracle of Mul Daya token, you can play an additional land this turn. 
+  Repeat.
+
+## Combo 907-5451-5702-8345
+Cards: Springheart Nantuko + Selesnya Sanctuary + Wayward Swordtooth + Warp Speed
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
+Start: Springheart Nantuko (battlefield: attached to Wayward Swordtooth); Selesnya Sanctuary (hand); Wayward Swordtooth (battlefield); Warp Speed (battlefield)
+Prerequisites: You are able to play a land this turn
+Steps: Play Selesnya Sanctuary. When it enters untapped due to Warp Speed, Selesnya Sanctuary and Springheart Nantuko trigger.
+  Holding priority, activate Selesnya Sanctuary by tapping it, adding {G}{W}
+  Resolve the Selesnya Sanctuary trigger, returning it from the battlefield to your hand.
+  Resolve the Springheart Nantuko trigger, causing you to pay {1}{G} to create a token copy of Wayward Swordtooth.
+  Because of the additional Wayward Swordtooth token, you can play an additional land this turn. 
+  Repeat.
+
+## Combo 907-5478-5702-7906
+Cards: Springheart Nantuko + Spelunking + Selesnya Sanctuary + Thranduil's Company
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature tokens; Infinite green mana; Infinite white mana; Infinite creature ETB; Infinite landfall triggers
+Start: Springheart Nantuko (battlefield: attached to Thranduil's Company); Spelunking (battlefield); Selesnya Sanctuary (hand); Thranduil's Company (battlefield)
+Prerequisites: You control another Elf.
+  You are able to play a land this turn
+Steps: Play Selesnya Sanctuary. When it enters untapped due to Spelunking, Selesnya Sanctuary and Springheart Nantuko trigger.
+  Holding priority, activate Selesnya Sanctuary by tapping it, adding {G}{W}
+  Resolve the Selesnya Sanctuary trigger, returning it from the battlefield to your hand.
+  Resolve the Springheart Nantuko trigger, causing you to pay {1}{G} to create a token copy of Thranduil's Company.
+  Because of the additional Thranduil's Company token, you can play an additional land this turn. 
+  Repeat.
+
+## Combo 907-5702-6763-7906
+Cards: Springheart Nantuko + Selesnya Sanctuary + Horizon Explorer + Thranduil's Company
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
+Start: Springheart Nantuko (battlefield: attached to Thranduil's Company); Selesnya Sanctuary (hand); Horizon Explorer (battlefield); Thranduil's Company (battlefield)
+Prerequisites: You control another Elf.
+  You are able to play a land this turn
+Steps: Play Selesnya Sanctuary. When it enters untapped due to Horizon Explorer, Selesnya Sanctuary and Springheart Nantuko trigger.
+  Holding priority, activate Selesnya Sanctuary by tapping it, adding {G}{W}
+  Resolve the Selesnya Sanctuary trigger, returning it from the battlefield to your hand.
+  Resolve the Springheart Nantuko trigger, causing you to pay {1}{G} to create a token copy of Thranduil's Company.
+  Because of the additional Thranduil's Company token, you can play an additional land this turn. 
+  Repeat.
+
+## Combo 907-5702-6850-8345
+Cards: Springheart Nantuko + Selesnya Sanctuary + Icetill Explorer + Warp Speed
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite self-mill; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
+Start: Springheart Nantuko (battlefield: attached to Icetill Explorer); Selesnya Sanctuary (hand); Icetill Explorer (battlefield); Warp Speed (battlefield)
+Prerequisites: You are able to play a land this turn
+Steps: Play Selesnya Sanctuary. When it enters untapped due to Warp Speed, Selesnya Sanctuary and Springheart Nantuko trigger.
+  Holding priority, activate Selesnya Sanctuary by tapping it, adding {G}{W}
+  Resolve the Selesnya Sanctuary trigger, returning it from the battlefield to your hand.
+  Resolve the Springheart Nantuko trigger, causing you to pay {1}{G} to create a token copy of Icetill Explorer.
+  Because of the additional Icetill Explorer token, you can play an additional land this turn. 
+  Repeat.
+
+## Combo 907-5702-7906-8345
+Cards: Springheart Nantuko + Selesnya Sanctuary + Thranduil's Company + Warp Speed
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
+Start: Springheart Nantuko (battlefield: attached to Thranduil's Company); Selesnya Sanctuary (hand); Thranduil's Company (battlefield); Warp Speed (battlefield)
+Prerequisites: You control another Elf.
+  You are able to play a land this turn
+Steps: Play Selesnya Sanctuary. When it enters untapped due to Warp Speed, Selesnya Sanctuary and Springheart Nantuko trigger.
+  Holding priority, activate Selesnya Sanctuary by tapping it, adding {G}{W}
+  Resolve the Selesnya Sanctuary trigger, returning it from the battlefield to your hand.
+  Resolve the Springheart Nantuko trigger, causing you to pay {1}{G} to create a token copy of Thranduil's Company.
+  Because of the additional Thranduil's Company token, you can play an additional land this turn. 
   Repeat.
 
 ## Combo 907-6628-7857
@@ -23723,7 +23897,7 @@ Steps: Cast Cloudshift by paying {W}, blinking Skullwinder.
 
 ## Combo 1018-3115-3557
 Cards: Brago, King Eternal + Cyclonic Rift + Skullwinder
-Color identity: GWU | Bracket: 3-4+ (Spicy) | Popularity: 16 | Commander: legal | Mana needed: {6}{U} every turn
+Color identity: GWU | Bracket: 3-4+ (Spicy) | Popularity: 17 | Commander: legal | Mana needed: {6}{U} every turn
 Produces: Return all nonland permanents opponents control to their hand on each of your turns; Lock
 Start: Brago, King Eternal (battlefield: without summoning sickness); Cyclonic Rift (hand); Skullwinder (battlefield)
 Prerequisites: An opponent cannot block Brago.
@@ -24563,6 +24737,20 @@ Steps: Cast Leveler by paying {5}.
   Move to your next turn, drawing Time Warp from your library.
   Repeat from step 3.
 
+## Combo 1069-1914-4022
+Cards: Cowardice + Puresteel Paladin + Hidden Herbalists
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {G}{G}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Puresteel Paladin (battlefield); Hidden Herbalists (hand)
+Prerequisites: A permanent you control has left the battlefield this turn.
+  You control three or more artifacts including an Equipment.
+Steps: Cast Hidden Herbalists by paying its mana cost.
+  When Hidden Herbalists enters, it triggers, adding {G}{G}.
+  Activate an Equipment's equip ability given to it by Puresteel Paladin by paying {0}, targeting Hidden Herbalists.
+  Cowardice triggers, returning Hidden Herbalists from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
+
 ## Combo 1069-2907-6246
 Cards: Nadu, Winged Wisdom + Scute Swarm + Puresteel Paladin
 Color identity: GWU | Bracket: none (not legal) | Popularity: 0 | Commander: not legal
@@ -24599,14 +24787,34 @@ Steps: At the beginning of your upkeep, Celestial Force triggers, causing you to
   Repeat each turn.
 
 ## Combo 1077-2191-6085
-Cards: Altanak, the Thrice-Called + Martyrdom + Wrong Turn
+Cards: Martyrdom + Wrong Turn + Altanak, the Thrice-Called
 Color identity: GWU | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {3}{W}{W}{U}
 Produces: Target opponent loses the game; Infinite card draw for target opponent; Infinite draw triggers for target opponent
-Start: Altanak, the Thrice-Called (battlefield); Martyrdom (hand); Wrong Turn (hand)
+Start: Martyrdom (hand); Wrong Turn (hand); Altanak, the Thrice-Called (battlefield)
 Steps: Cast Martyrdom by paying {1}{W}{W}, targeting Altanak.
-  Cast Wrong Turn by paying {2}{U}, giving control of Altanak to an opponent.
-  Activate Altanak an arbitrarily large number of times by paying {0}, targeting itself.
-  Altanak triggers that many times, causing an opponent to draw that many cards and lose the game due to drawing from an empty library.
+  Cast Wrong Turn by paying {2}{U}, causing target opponent to gain control of Altanak.
+  Activate the ability granted to Altanak by Martyrdom an arbitrarily large number of times by paying {0}, targeting itself.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 1077-2191-8144
+Cards: Martyrdom + Wrong Turn + Surrak, Elusive Hunter
+Color identity: GWU | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {3}{W}{W}{U}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Martyrdom (hand); Wrong Turn (hand); Surrak, Elusive Hunter (battlefield)
+Steps: Cast Martyrdom by paying {1}{W}{W}, targeting Surrak.
+  Cast Wrong Turn by paying {2}{U}, causing target opponent to gain control of Surrak.
+  Activate the ability granted to Surrak by Martyrdom an arbitrarily large number of times by paying {0}, targeting itself.
+  Surrak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 1077-2191-8411
+Cards: Martyrdom + Wrong Turn + Old Fat Spider
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {3}{W}{W}{U}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Martyrdom (hand); Wrong Turn (hand); Old Fat Spider (battlefield)
+Steps: Cast Martyrdom by paying {1}{W}{W}, targeting Old Fat Spider.
+  Cast Wrong Turn by paying {2}{U}, causing target opponent to gain control of Old Fat Spider.
+  Activate the ability granted to Old Fat Spider by Martyrdom an arbitrarily large number of times by paying {0}, targeting itself.
+  Old Fat Spider triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
 
 ## Combo 1090-5998-6867-7055
 Cards: Appa, Steadfast Guardian + Restoration Angel + Grand Arbiter Augustin IV + Thornscape Familiar
@@ -27121,7 +27329,7 @@ Steps: Activate Chromatic Orrery by tapping it, adding {C}{C}{C}{C}{C}.
 
 ## Combo 1283-2608-4050
 Cards: Derevi, Empyrial Tactician + Chromatic Orrery + Phyrexian Altar
-Color identity: GWU | Bracket: 4+ (Ruthless) | Popularity: 61 | Commander: legal
+Color identity: GWU | Bracket: 4+ (Ruthless) | Popularity: 60 | Commander: legal
 Produces: Infinite card draw; Infinite colored mana; Infinite colorless mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite untap of creatures you control
 Start: Derevi, Empyrial Tactician (command zone: must be your commander); Chromatic Orrery (battlefield); Phyrexian Altar (battlefield)
 Steps: Tap Chromatic Orrery for 5 {C}.
@@ -27141,7 +27349,7 @@ Steps: Activate Chromatic Orrery by tapping it, adding {5}.
 
 ## Combo 1283-2608-5256
 Cards: Derevi, Empyrial Tactician + Chromatic Orrery + Altar of Dementia
-Color identity: GWU | Bracket: 4+ (Ruthless) | Popularity: 64 | Commander: legal
+Color identity: GWU | Bracket: 4+ (Ruthless) | Popularity: 63 | Commander: legal
 Produces: Infinite card draw; Infinite colored mana; Infinite colorless mana; Infinite mill; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite untap of creatures you control
 Start: Derevi, Empyrial Tactician (command zone: must be your commander); Chromatic Orrery (battlefield); Altar of Dementia (battlefield)
 Steps: Tap Chromatic Orrery for 5 {C}.
@@ -27639,7 +27847,7 @@ Steps: At the beginning of your upkeep, Progenitor Mimic triggers, creating two 
 
 ## Combo 1308-2933-4499
 Cards: Emiel the Blessed + Drowner of Hope + Anointed Procession
-Color identity: GWU | Bracket: 3-4+ (Spicy) | Popularity: 67 | Commander: legal | Mana needed: {3}
+Color identity: GWU | Bracket: 3-4+ (Spicy) | Popularity: 68 | Commander: legal | Mana needed: {3}
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite blinking
 Start: Emiel the Blessed (battlefield); Drowner of Hope (battlefield); Anointed Procession (battlefield)
 Steps: Activate Emiel the Blessed by paying {3}, blinking Drowner of Hope.
@@ -29607,7 +29815,7 @@ Steps: Activate Reaper of Flight Moonsilver by sacrificing a creature with a +1/
 
 ## Combo 1453-5641-6566
 Cards: Basking Broodscale + Arwen, Weaver of Hope + Yuna, Grand Summoner
-Color identity: GWU | Bracket: 3-4+ (Spicy) | Popularity: 510 | Commander: legal | Mana needed: {1}{G}
+Color identity: GWU | Bracket: 3-4+ (Spicy) | Popularity: 520 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite colorless mana; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (hand); Arwen, Weaver of Hope (battlefield); Yuna, Grand Summoner (battlefield)
 Steps: Cast Basking Broodscale by paying {1}{G}, which enters with a +1/+1 counter on it due to Arwen.
@@ -29949,7 +30157,7 @@ Steps: At the beginning of your upkeep, Court of Vantress triggers, creating a t
 
 ## Combo 1469-3663-4772
 Cards: Three Blind Mice + Doubling Season + Court of Vantress
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 82 | Commander: legal
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 81 | Commander: legal
 Produces: Infinite creature tokens; Infinite copies of tokens you control; Infinite copies of a specific enchantment; Infinite creature ETB
 Start: Three Blind Mice (battlefield); Doubling Season (battlefield); Court of Vantress (battlefield)
 Prerequisites: You are the monarch.
@@ -30400,7 +30608,7 @@ Steps: Play Azorius Chancery.
 
 ## Combo 1479-3147-5361
 Cards: Kodama of the East Tree + Azorius Chancery + Auton Soldier
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal
+Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Azorius Chancery (hand); Auton Soldier (battlefield)
 Steps: Play Azorius Chancery.
@@ -30535,7 +30743,7 @@ Steps: Play Azorius Chancery.
 
 ## Combo 1479-3147-7889
 Cards: Kodama of the East Tree + Azorius Chancery + Dancing from Dark to Dawn
-Color identity: GWU | Bracket: 3-4+ (Spicy) | Popularity: 44 | Commander: legal
+Color identity: GWU | Bracket: 3-4+ (Spicy) | Popularity: 43 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Azorius Chancery (hand); Dancing from Dark to Dawn (battlefield)
 Steps: Play Azorius Chancery.
@@ -31571,228 +31779,3 @@ Steps: Activate Conjurer's Bauble by tapping and sacrificing it, putting a land 
   Cast Conjurer's Bauble from your graveyard for its retrace cost by paying {0} and discarding a land.
   Lyse's prowess ability triggers, giving it +1/+1 until end of turn.
   Repeat.
-
-## Combo 1526-2608-4499
-Cards: Derevi, Empyrial Tactician + Emiel the Blessed + Circle of Dreams Druid
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 370 | Commander: legal
-Produces: Infinite green mana; Infinite mana permanents you control can produce; Infinite untap of permanents you control; Infinite creature LTB; Infinite creature ETB; Infinite blinking
-Start: Derevi, Empyrial Tactician (battlefield); Emiel the Blessed (battlefield); Circle of Dreams Druid (battlefield)
-Prerequisites: Circle of Dreams Druid does not have summoning sickness.
-Steps: Activate Circle of Dreams Druid by tapping it, adding at least {G}{G}{G}.
-  Activate Emiel by paying {3}, blinking Derevi.
-  When Derevi enters the battlefield, it triggers, untapping Circle of Dreams Druid.
-  Repeat.
-
-## Combo 1530-1671-3293
-Cards: Second Chance + Emeria Shepherd + Simic Growth Chamber
-Color identity: GWU | Bracket: 4+ (Ruthless) | Popularity: 2 | Commander: legal | Mana needed: {2}{U} each turn
-Produces: Infinite turns; Lock
-Start: Second Chance (battlefield); Emeria Shepherd (battlefield); Simic Growth Chamber (hand)
-Prerequisites: Your life total is five or less.
-Steps: At the beginning of your upkeep, Second Chance triggers, causing you to sacrifice it and take an extra turn after this one.
-  Play Simic Growth Chamber from your hand.
-  Simic Growth Chamber enters the battlefield, triggering itself and Emeria Shepherd.
-  Resolve the Simic Growth Chamber trigger, returning it from the battlefield to your hand.
-  Resolve the Emeria Shepherd trigger, returning Second Chance from your graveyard to your hand.
-  Cast Second Chance by paying {2}{U}.
-  Repeat each turn.
-
-## Combo 1530-3544-4499
-Cards: Auramancer + Second Chance + Emiel the Blessed
-Color identity: GWU | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {5}{U} each turn
-Produces: Infinite turns; Lock
-Start: Auramancer (battlefield); Second Chance (battlefield); Emiel the Blessed (battlefield)
-Prerequisites: Your life total is five or less.
-Steps: At the beginning of your upkeep, Second Chance triggers, causing you to sacrifice it and take an extra turh after this one.
-  Activate Emiel by paying {3}, blinking Auramancer.
-  Auramancer enters the battlefield, returning Second Chance from your graveyard to your hand.
-  Cast Second Chance by paying {2}{U}.
-  Repeat each turn.
-
-## Combo 1530-4053-6585
-Cards: Yuna, Hope of Spira + Second Chance + Solemnity
-Color identity: GWU | Bracket: 4+ (Ruthless) | Popularity: 5 | Commander: legal
-Produces: Infinite turns; Lock
-Start: Yuna, Hope of Spira (battlefield); Second Chance (battlefield); Solemnity (battlefield)
-Prerequisites: Your life total is 5 or less.
-Steps: At the beginning of your upkeep, Second Chance triggers, causing you to sacrifice it and causing you to take an extra turn after this one.
-  At the beginning of your end step, Yuna triggers, returning Second Chance from your graveyard to the battlefield without a finality counter on it due to Solemnity.
-  Repeat each turn.
-
-## Combo 1542-1624-7439
-Cards: Near-Death Experience + Wizards of Thay + Yavimaya Bloomsage // Channel
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {G}{G}
-Produces: Win the game
-Start: Near-Death Experience (battlefield); Wizards of Thay (battlefield); Yavimaya Bloomsage // Channel (battlefield)
-Prerequisites: Yavimaya Bloomsage is prepared.
-Steps: On the end step prior to your turn, cast a copy of Channel from exile by paying {G}{G}, unpreparing Yavimaya Bloomsage.
-  Use Channel's ability by paying 1 life, adding {C}.
-  Repeat step 2 until you have exactly 1 life.
-  At the beginning of your upkeep, Near-Death Experience triggers, causing you to win the game.
-
-## Combo 1543-2311-2369
-Cards: Huatli, Radiant Champion + Ichormoon Gauntlet + Oath of Teferi
-Color identity: GWU | Bracket: 4+ (Ruthless) | Popularity: 250 | Commander: legal
-Produces: Infinite turns; Lock
-Start: Huatli, Radiant Champion (battlefield); Ichormoon Gauntlet (battlefield); Oath of Teferi (battlefield)
-Prerequisites: The number of creatures you control plus two times the number of other planeswalkers you control is at least eleven.
-Steps: Activate Huatli's first ability by putting a loyalty counter on it, putting an additional loyalty counter on it for each creature you control.
-  If necessary, activate any other planeswalker you control by putting zero loyalty counters on it, causing you to put a loyalty counter on Huatli.
-  Repeat step 2 until Huatli has at least thirteen loyalty.
-  Activate Huatli by removing twelve loyalty counters from it, causing you to take an extra turn after this one.
-  Repeat each turn.
-
-## Combo 1545-1636-2308
-Cards: Trudge Garden + Intruder Alarm + Trostani, Selesnya's Voice
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite creature tokens; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite untap of creatures; Infinite creature ETB
-Start: Trudge Garden (battlefield); Intruder Alarm (battlefield); Trostani, Selesnya's Voice (battlefield)
-Prerequisites: Creatures you control can tap to produce at least {3}.
-  You have a way to gain life.
-Steps: Gain any amount of life.
-  Trudge Garden triggers, holding priority, activate all mana-producing creatures you control by tapping them, adding at least {3}.
-  Resolve the Trudge Garden trigger, causing you to pay {2} to create a 4/4 Fungus Beast creature token.
-  The Fungus Beast enters the battlefield, triggering Trostani and Intruder Alarm.
-  Resolve the Intruder Alarm trigger, untapping all creatures.
-  Resolve the Trostani trigger, causing you to gain life equal to the Fungus Beast's toughness.
-  Repeat from step 2.
-
-## Combo 1545-5900-8160
-Cards: Kwia Vigorbloom + Trostani, Selesnya's Voice + Lilysplash Mentor
-Color identity: GWU | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}{G/U}{U}
-Produces: Infinite lifegain; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB
-Start: Kwia Vigorbloom (battlefield); Trostani, Selesnya's Voice (battlefield); Lilysplash Mentor (battlefield)
-Steps: Activate Lilysplash Mentor by paying {1}{G}{U}, blinking Kwia.
-  When Kwia enters, Trostani triggers, causing you to gain life.
-  Kwia triggers, creating a Lotus token.
-  Activate the Lotus by tapping and sacrificing it, adding {G}{G}{G} or {U}{U}{U}.
-  Repeat.
-Notes: Alternate adding {G} and {U} each time. Start by adding the opposite of whatever mana you provide for the {G/U} in the cost.
-
-## Combo 1556-2608-4013
-Cards: Derevi, Empyrial Tactician + Scorched Ruins + Eldrazi Displacer
-Color identity: GWU | Bracket: 3-4+ (Spicy) | Popularity: 120 | Commander: legal
-Produces: Infinite colorless mana; Infinite mana permanents you control can produce; Infinite untap of permanents you control; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite blinking of most creatures
-Start: Derevi, Empyrial Tactician (battlefield); Scorched Ruins (battlefield); Eldrazi Displacer (battlefield)
-Steps: Tap Ruins, add {C}{C}{C}{C}.
-  Use {2}{C} of that to use Eldrazi Displacer's ability, blinking Derevi.
-  Derevi enters, untapping Ruins.
-  Repeat.
-
-## Combo 1556-2608-4499
-Cards: Derevi, Empyrial Tactician + Emiel the Blessed + Scorched Ruins
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 200 | Commander: legal
-Produces: Infinite creature ETB; Infinite creature LTB
-Start: Derevi, Empyrial Tactician (battlefield); Emiel the Blessed (battlefield); Scorched Ruins (battlefield)
-Steps: Activate Scorched Ruins by tapping it, adding {C}{C}{C}{C}
-  Activate Emiel by paying {3}, blinking Derevi.
-  When Derevi enters the battlefield, it triggers, untapping Scorched Ruins.
-  Repeat.
-
-## Combo 1563-2457-3499-7824
-Cards: Jaheira, Friend of the Forest + Ant Queen + Akroma's Memorial + Bard, King of Dale
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite creature ETB
-Start: Jaheira, Friend of the Forest (battlefield); Ant Queen (battlefield); Akroma's Memorial (battlefield); Bard, King of Dale (battlefield)
-Steps: Activate Ant Queen by paying {1}{G}, creating two tokens.
-  Activate the tokens by tapping them, adding {G}{G}.
-  Repeat
-
-## Combo 1563-2457-5295-7824
-Cards: Jaheira, Friend of the Forest + Ant Queen + Thousand-Year Elixir + Bard, King of Dale
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite creature ETB
-Start: Jaheira, Friend of the Forest (battlefield); Ant Queen (battlefield); Thousand-Year Elixir (battlefield); Bard, King of Dale (battlefield)
-Steps: Activate Ant Queen by paying {1}{G}, creating two tokens.
-  Activate the tokens by tapping them, adding {G}{G}.
-  Repeat
-
-## Combo 1563-2457-7730-7824
-Cards: Jaheira, Friend of the Forest + Ant Queen + Shang-Chi, Master of Kung Fu + Bard, King of Dale
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite creature ETB
-Start: Jaheira, Friend of the Forest (battlefield); Ant Queen (battlefield); Shang-Chi, Master of Kung Fu (battlefield); Bard, King of Dale (battlefield)
-Steps: Activate Ant Queen by paying {1}{G}, creating two tokens.
-  Activate the tokens by tapping them, adding {G}{G}.
-  Repeat
-
-## Combo 1563-3499-3899-7824
-Cards: Jaheira, Friend of the Forest + Spawning Pit + Akroma's Memorial + Bard, King of Dale
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}
-Produces: Infinite green mana; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Jaheira, Friend of the Forest (battlefield); Spawning Pit (battlefield: with two or more charge counters on it); Akroma's Memorial (battlefield); Bard, King of Dale (battlefield)
-Steps: Activate Spawning Pit's second ability by paying {1} and removing two charge counters from it, creating two creature tokens
-  Activate the tokens by tapping them, adding {G}{G}.
-  Activate Spawning Pit's first ability twice by sacrificing the tokens, putting two charge counters on Spawning Pit.
-  Repeat.
-
-## Combo 1563-3899-5295-7824
-Cards: Jaheira, Friend of the Forest + Spawning Pit + Thousand-Year Elixir + Bard, King of Dale
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}
-Produces: Infinite green mana; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Jaheira, Friend of the Forest (battlefield); Spawning Pit (battlefield: with two or more charge counters on it); Thousand-Year Elixir (battlefield); Bard, King of Dale (battlefield)
-Steps: Activate Spawning Pit's second ability by paying {1} and removing two charge counters from it, creating two creature tokens
-  Activate the tokens by tapping them, adding {G}{G}.
-  Activate Spawning Pit's first ability twice by sacrificing the tokens, putting two charge counters on Spawning Pit.
-  Repeat.
-
-## Combo 1563-3899-7730-7824
-Cards: Jaheira, Friend of the Forest + Spawning Pit + Shang-Chi, Master of Kung Fu + Bard, King of Dale
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}
-Produces: Infinite green mana; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Jaheira, Friend of the Forest (battlefield); Spawning Pit (battlefield: with two or more charge counters on it); Shang-Chi, Master of Kung Fu (battlefield); Bard, King of Dale (battlefield)
-Steps: Activate Spawning Pit's second ability by paying {1} and removing two charge counters from it, creating two creature tokens
-  Activate the tokens by tapping them, adding {G}{G}.
-  Activate Spawning Pit's first ability twice by sacrificing the tokens, putting two charge counters on Spawning Pit.
-  Repeat.
-
-## Combo 1567-3086-3175-4605
-Cards: Lagrella, the Magpie + Sun Titan + Preston, the Vanisher + Momentary Blink
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 99 | Commander: legal | Mana needed: {1}{W}
-Produces: Infinite creature tokens; Infinite death triggers; Infinite creature ETB; Infinite creature LTB
-Start: Lagrella, the Magpie (battlefield); Sun Titan (battlefield); Preston, the Vanisher (battlefield); Momentary Blink (hand)
-Steps: Cast Momentary Blink by paying {1}{W}, blinking Lagrella.
-  When Lagrella enters the battlefield, it and Preston triggers.
-  Resolve the Lagrella trigger, exiling Sun Titan until Lagrella leaves the battlefield.
-  Resolve the Preston trigger, creating a token copy of Lagrella that is a 0/1 Illusion.
-  Put the nontoken Lagrella into your graveyard due to the legend rule.
-  If Lagrella is your commander, choose not to return it to the command zone from your graveyard.
-  When Lagrella leaves the battlefield, Sun Titan is returned to the battlefield from exile.
-  Sun Titan, Lagrella and Preston each trigger.
-  Resolve the Preston trigger, creating a token copy of Sun Titan that is a 0/1 Illusion.
-  When the Sun Titan token enters the battlefield, it triggers, choosing to return nothing to the battlefield.
-  Resolve the Lagrella trigger, putting two +1/+1 counters on the nontoken Sun Titan.
-  Resolve the Sun Titan trigger from step 8, returning Lagrella from your graveyard to the battlefield.
-  Repeat from step 2.
-
-## Combo 1567-3086-4605-4681
-Cards: Lagrella, the Magpie + Karmic Guide + Preston, the Vanisher + Momentary Blink
-Color identity: GWU | Bracket: 1+ (Exhibition) | Popularity: 110 | Commander: legal | Mana needed: {1}{W}
-Produces: Infinite creature tokens; Infinite death triggers; Infinite creature ETB; Infinite creature LTB
-Start: Lagrella, the Magpie (battlefield); Karmic Guide (battlefield); Preston, the Vanisher (battlefield); Momentary Blink (hand)
-Steps: Cast Momentary Blink by paying {1}{W}, blinking Lagrella.
-  When Lagrella enters the battlefield, it and Preston triggers.
-  Resolve the Lagrella trigger, exiling Karmic Guide until Lagrella leaves the battlefield.
-  Resolve the Preston trigger, creating a token copy of Lagrella that is a 0/1 Illusion.
-  Put the nontoken Lagrella into your graveyard due to the legend rule.
-  If Lagrella is your commander, choose not to return it to the command zone from your graveyard.
-  When Lagrella leaves the battlefield, Karmic Guide is returned to the battlefield from exile.
-  Karmic Guide, Lagrella and Preston each trigger.
-  Resolve the Preston trigger, creating a token copy of Karmic Guide that is a 0/1 Illusion.
-  When the Karmic Guide token enters the battlefield, it triggers, choosing to return nothing to the battlefield.
-  Resolve the Lagrella trigger, putting two +1/+1 counters on the nontoken Karmic Guide.
-  Resolve the Karmic Guide trigger from step 8, returning Lagrella from your graveyard to the battlefield.
-  Repeat from step 2.
-
-## Combo 1570-2660-7028
-Cards: Wan Shi Tong, All-Knowing + Sage of the Falls + Wheel of Sun and Moon
-Color identity: GWU | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal | Mana needed: {4}{U}
-Produces: Near-infinite creature tokens; Infinite looting; Infinite self-discard triggers; Near-infinite creature ETB; Infinite draw triggers
-Start: Wan Shi Tong, All-Knowing (battlefield); Sage of the Falls (hand); Wheel of Sun and Moon (battlefield: attached to you)
-Steps: Cast Sage of the Falls by paying {4}{U}.
-  When Sage of the Falls enters, it triggers, causing you to loot. The discarded card will be put on top of your library instead of into your graveyard due to Wheel of Sun and Moon.
-  Wan Shi Tong's second ability triggers, creating two 1/1 Spirit creature tokens.
-  When the Spirits enter, Sage of the Falls triggers twice.
-  Resolve the first trigger, choosing not to draw a card.
-  Resolve the second trigger, causing you to loot. The discarded card will be put on top of your library instead of into your graveyard due to Wheel of Sun and Moon.
-  Repeat from step 3.

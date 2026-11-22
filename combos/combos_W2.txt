@@ -1,3 +1,17 @@
+## Combo 3490-4050-6097-6996
+Cards: Animation Module + Phyrexian Altar + Hinterland Sanctifier + The Destined White Mage
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}
+Produces: Infinite +1/+1 counters on creatures you control; Infinite lifegain; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
+Start: Animation Module (battlefield); Phyrexian Altar (battlefield); Hinterland Sanctifier (battlefield); The Destined White Mage (battlefield)
+Prerequisites: You have a way to gain life.
+Steps: Gain life.
+  The Destined White Mage triggers, putting a +1/+1 counter on a creature you control.
+  Animation Module triggers, causing you to pay {1} to create a 1/1 Servo artifact creature token.
+  When the Servo enters, Hinterland Sanctifier triggers, causing you to gain life.
+  The Destined White Mage triggers. Holding priority, activate Phyrexian Altar by sacrificing the Servo, adding {1}.
+  Resolve the The Destined White Mage trigger, putting a +1/+1 counter on a creature you control 
+  Repeat from step 3.
+
 ## Combo 3490-4050-6114
 Cards: Animation Module + Skyknight Squire + Phyrexian Altar
 Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal | Mana needed: {1}
@@ -1244,7 +1258,7 @@ Steps: Cast Ondu Spiritdancer by paying {4}{W}.
 
 ## Combo 3774-4013-4110
 Cards: Luxior, Giada's Gift + Eldrazi Displacer + Gideon, Martial Paragon
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
 Produces: Infinitely large creatures you control until end of turn; Infinite mana creatures you control can produce; Infinite planeswalker activations; Infinite blinking of creatures and planeswalkers; Infinite creature LTB
 Start: Luxior, Giada's Gift (battlefield); Eldrazi Displacer (battlefield); Gideon, Martial Paragon (battlefield)
 Prerequisites: Luxior attached to Gideon.
@@ -1289,7 +1303,7 @@ Steps: Deal damage to Stuffy Doll, either using its ability or another method.
 
 ## Combo 3839-4344-5887
 Cards: Changeling Hero + Lumbering Battlement + Werefox Bodyguard
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 77 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 78 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
 Produces: Infinite creature ETB; Infinite creature LTB
 Start: Changeling Hero (hand, battlefield, exile: Exiled by the creature on the battlefield); Lumbering Battlement (hand, battlefield, exile: Exiled by the creature on the battlefield); Werefox Bodyguard (hand, battlefield, exile: Exiled by the creature on the battlefield)
 Prerequisites: Werefox Bodyguard must be exiled by Lumbering Battlement, and Changeling Hero must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
@@ -1305,7 +1319,7 @@ Notes: Due to differences in card templating between the various banisher effect
 
 ## Combo 3839-4344-6966
 Cards: Changeling Hero + Lumbering Battlement + All-Fates Stalker
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 32 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 33 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
 Produces: Infinite creature ETB; Infinite creature LTB
 Start: Changeling Hero (hand, battlefield, exile: Exiled by the creature on the battlefield); Lumbering Battlement (hand, battlefield, exile: Exiled by the creature on the battlefield); All-Fates Stalker (hand, battlefield, exile: Exiled by the creature on the battlefield)
 Prerequisites: All-Fates Stalker must be exiled by Lumbering Battlement, and Changeling Hero must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
@@ -1335,7 +1349,7 @@ Steps: Cast Changeling Hero by paying {4}{W}.
 
 ## Combo 3839-5887-6966
 Cards: Changeling Hero + Werefox Bodyguard + All-Fates Stalker
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
 Produces: Infinite creature ETB; Infinite creature LTB
 Start: Changeling Hero (hand, battlefield, exile: Exiled by the creature on the battlefield); Werefox Bodyguard (hand, battlefield, exile: Exiled by the creature on the battlefield); All-Fates Stalker (hand, battlefield, exile: Exiled by the creature on the battlefield)
 Prerequisites: All-Fates Stalker must be exiled by Werefox Bodyguard, and Changeling Hero must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
@@ -1632,7 +1646,7 @@ Steps: Gain life.
 
 ## Combo 4017-4506-7690--165
 Cards: Invisible Woman, Sue Storm + Sunbond + Auriok Champion
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Sunbond (battlefield: attached to the other Hero); Auriok Champion (battlefield)
@@ -1717,7 +1731,7 @@ Steps: Gain life.
 
 ## Combo 4017-5870-7690--165
 Cards: Guide of Souls + Invisible Woman, Sue Storm + Sunbond
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB; Infinite energy counters
 Requires: Hero Creature (battlefield)
 Start: Guide of Souls (battlefield); Invisible Woman, Sue Storm (battlefield); Sunbond (battlefield: attached to the other Hero)
@@ -1730,7 +1744,7 @@ Steps: Gain life.
 
 ## Combo 4017-6097-7690--165
 Cards: Invisible Woman, Sue Storm + Sunbond + Hinterland Sanctifier
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Sunbond (battlefield: attached to the other Hero); Hinterland Sanctifier (battlefield)
@@ -1756,7 +1770,7 @@ Steps: Gain life.
 
 ## Combo 4017-6720-7690--165
 Cards: Invisible Woman, Sue Storm + Sunbond + Case of the Uneaten Feast
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Sunbond (battlefield: attached to the other Hero); Case of the Uneaten Feast (battlefield)
@@ -1769,7 +1783,7 @@ Steps: Gain life.
 
 ## Combo 4017-6752-7690--165
 Cards: Invisible Woman, Sue Storm + Sunbond + Haliya, Guided by Light
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Sunbond (battlefield: attached to the other Hero); Haliya, Guided by Light (battlefield)
@@ -1782,7 +1796,7 @@ Steps: Gain life.
 
 ## Combo 4017-6823-7690--165
 Cards: Invisible Woman, Sue Storm + Sunbond + Aunt May
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Sunbond (battlefield: attached to the other Hero); Aunt May (battlefield)
@@ -1809,7 +1823,7 @@ Notes: One of the {0} cost artifacts must be in your hand with the other on the 
 
 ## Combo 4027-4986-5256--44
 Cards: Teshar, Ancestor's Apostle + Altar of Dementia + Glint Hawk
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 610 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 600 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Requires: 2x Artifact Castable for {0} that survives (hand, battlefield)
 Start: Teshar, Ancestor's Apostle (battlefield); Altar of Dementia (battlefield); Glint Hawk (graveyard)
@@ -1982,7 +1996,7 @@ Steps: Activate Sacred Mesa by paying {1}{W}, creating two 1/1 Pegasus creature 
 
 ## Combo 4050-4365-4770-6090
 Cards: Arahbo, the First Fang + Whitemane Lion + Phyrexian Altar + Mondrak, Glory Dominus
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 64 | Commander: legal | Mana needed: {1}{W}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 63 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Arahbo, the First Fang (battlefield); Whitemane Lion (hand); Phyrexian Altar (battlefield); Mondrak, Glory Dominus (battlefield)
 Steps: Cast Whitemane Lion by paying {1}{W}.
@@ -2058,7 +2072,7 @@ Steps: Cast Whitemane Lion by paying {1}{W}.
 
 ## Combo 4050-4770-6090-6441
 Cards: Arahbo, the First Fang + Whitemane Lion + Phyrexian Altar + Elspeth, Storm Slayer
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal | Mana needed: {1}{W}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Arahbo, the First Fang (battlefield); Whitemane Lion (hand); Phyrexian Altar (battlefield); Elspeth, Storm Slayer (battlefield)
 Steps: Cast Whitemane Lion by paying {1}{W}.
@@ -2121,7 +2135,7 @@ Notes: One of the {0} cost artifacts must be in your hand with the other on the 
 
 ## Combo 4050-4986-6635--44
 Cards: Teshar, Ancestor's Apostle + Phyrexian Altar + Ambrosia Whiteheart
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 53 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal
 Produces: Infinite colored mana; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count
 Requires: 2x Artifact Castable for {0} that survives (hand, battlefield)
 Start: Teshar, Ancestor's Apostle (battlefield); Phyrexian Altar (battlefield); Ambrosia Whiteheart (graveyard)
@@ -2394,7 +2408,7 @@ Notes: You can instead use Resourceful Defense's activated ability to move the c
 
 ## Combo 4153-5256--5--195
 Cards: Altar of Dementia + Resourceful Defense
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 800 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 810 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: 2x Persist Creature (battlefield)
 Requires: Increases +1/+1 Counter Placement but not -1/-1 (battlefield)
@@ -2410,7 +2424,7 @@ Steps: Activate Altar of Dementia by sacrificing the persist creature that has a
 
 ## Combo 4200-4605-7431
 Cards: Preston, the Vanisher + Icewind Stalwart + Daydream
-Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 490 | Commander: legal | Mana needed: {W}
+Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 500 | Commander: legal | Mana needed: {W}
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite blinking
 Start: Preston, the Vanisher (battlefield); Icewind Stalwart (battlefield); Daydream (hand)
 Steps: Cast Daydream by paying its mana cost, blinking Icewind Stalwart.
@@ -2787,7 +2801,7 @@ Steps: Gain life.
 
 ## Combo 4486-4944
 Cards: Crackdown Construct + Mirror Entity
-Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 260 | Commander: legal
+Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 250 | Commander: legal
 Produces: Infinitely large creature until end of turn
 Start: Crackdown Construct (battlefield); Mirror Entity (battlefield)
 Steps: Activate Mirror Entity by paying {0}.
@@ -2808,7 +2822,7 @@ Notes: Once you have infinite mana, you may forego sacrificing the Phyrexian Mit
 
 ## Combo 4506-6824-7690
 Cards: Invisible Woman, Sue Storm + Spider-Man, Peter Parker + Auriok Champion
-Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 35 | Commander: legal
+Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 36 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on certain creatures; Infinite lifegain triggers; Infinite creature ETB
 Start: Invisible Woman, Sue Storm (battlefield); Spider-Man, Peter Parker (battlefield); Auriok Champion (battlefield)
 Prerequisites: You have a way to gain life.
@@ -3034,7 +3048,7 @@ Notes: You want to reduce the affinity creature's cost by {2} or more using its 
 
 ## Combo 4636-5391-5870
 Cards: Automated Assembly Line + Gonti's Aether Heart + Guide of Souls
-Color identity: W | Bracket: 2+ (Core) | Popularity: 8600 | Commander: legal
+Color identity: W | Bracket: 2+ (Core) | Popularity: 8500 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite creature ETB
 Start: Automated Assembly Line (battlefield); Gonti's Aether Heart (battlefield); Guide of Souls (battlefield)
 Prerequisites: You have at least {E}{E}{E}.
@@ -3311,7 +3325,7 @@ Steps: Activate Gleaming Splendor by paying {2}{W}, causing two opponents to eac
 
 ## Combo 4682-6753-7890
 Cards: Gleaming Splendor + Smothering Tithe + Exalted Sunborn
-Color identity: W | Bracket: 3+ (Powerful) | Popularity: 4800 | Commander: legal | Mana needed: {2}{W}
+Color identity: W | Bracket: 3+ (Powerful) | Popularity: 4900 | Commander: legal | Mana needed: {2}{W}
 Produces: Infinite card draw for any number of players; Near-infinite Treasure tokens; Near-infinite colored mana; Infinite draw triggers for any number of players; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers
 Start: Gleaming Splendor (battlefield); Smothering Tithe (battlefield); Exalted Sunborn (battlefield)
 Prerequisites: At least two opponents cannot pay for Smothering Tithe's trigger.
@@ -3437,7 +3451,7 @@ Notes: One of the {0} cost artifacts must be in your hand with the other on the 
 
 ## Combo 4986-5256-6635--44
 Cards: Teshar, Ancestor's Apostle + Altar of Dementia + Ambrosia Whiteheart
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 79 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 80 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count
 Requires: 2x Artifact Castable for {0} that survives (hand, battlefield)
 Start: Teshar, Ancestor's Apostle (battlefield); Altar of Dementia (battlefield); Ambrosia Whiteheart (graveyard)
@@ -3539,7 +3553,7 @@ Steps: Animate Isochron Scepter using Living Brain.
 
 ## Combo 5166-7872--86
 Cards: Guilty Conscience + Black Panther, Most Dangerous
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 630 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 640 | Commander: legal
 Produces: Infinite damage
 Requires: Card That Gives Indestructible (hand, battlefield)
 Start: Guilty Conscience (battlefield: attached to Black Panther); Black Panther, Most Dangerous (battlefield)
@@ -3686,7 +3700,7 @@ Steps: Gain life.
 
 ## Combo 5870-6824-7690
 Cards: Invisible Woman, Sue Storm + Spider-Man, Peter Parker + Guide of Souls
-Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 47 | Commander: legal
+Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 49 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on certain creatures; Infinite lifegain triggers; Infinite creature ETB; Infinite energy counters
 Start: Invisible Woman, Sue Storm (battlefield); Spider-Man, Peter Parker (battlefield); Guide of Souls (battlefield)
 Prerequisites: You have a way to gain life.
@@ -3734,7 +3748,7 @@ Steps: Activate Dissection Tools' equip ability by sacrificing the creature it i
 
 ## Combo 6097-6824-7690
 Cards: Invisible Woman, Sue Storm + Spider-Man, Peter Parker + Hinterland Sanctifier
-Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 45 | Commander: legal
+Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 46 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on certain creatures; Infinite lifegain triggers; Infinite creature ETB
 Start: Invisible Woman, Sue Storm (battlefield); Spider-Man, Peter Parker (battlefield); Hinterland Sanctifier (battlefield)
 Prerequisites: You have a way to gain life.
@@ -3803,7 +3817,7 @@ Steps: Gain life.
 
 ## Combo 6720-6824-7690
 Cards: Invisible Woman, Sue Storm + Spider-Man, Peter Parker + Case of the Uneaten Feast
-Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 25 | Commander: legal
+Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 26 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on certain creatures; Infinite lifegain triggers; Infinite creature ETB
 Start: Invisible Woman, Sue Storm (battlefield); Spider-Man, Peter Parker (battlefield); Case of the Uneaten Feast (battlefield)
 Prerequisites: You have a way to gain life.
@@ -3829,7 +3843,7 @@ Steps: Gain life.
 
 ## Combo 6752-6824-7690
 Cards: Invisible Woman, Sue Storm + Spider-Man, Peter Parker + Haliya, Guided by Light
-Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 63 | Commander: legal
+Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 64 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on certain creatures; Infinite lifegain triggers; Infinite creature ETB
 Start: Invisible Woman, Sue Storm (battlefield); Spider-Man, Peter Parker (battlefield); Haliya, Guided by Light (battlefield)
 Prerequisites: You have a way to gain life.
@@ -3899,7 +3913,7 @@ Steps: Whenever damage would be dealt to you, With Great Power... causes that da
 
 ## Combo 6899-7407
 Cards: Inviolability + With Great Power . . .
-Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 500 | Commander: legal
+Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 510 | Commander: legal
 Produces: Lock; Prevent all damage that would be dealt to you
 Start: Inviolability (battlefield); With Great Power . . . (battlefield: attached to [creature])
 Prerequisites: Inviolability and With Great Power... are attached to the same creature.

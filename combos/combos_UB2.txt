@@ -1,3 +1,58 @@
+## Combo 1558-4840-6911
+Cards: Impostor Syndrome + Time Sieve + Myr Battlesphere
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 16 | Commander: legal
+Produces: Infinite turns; Lock
+Start: Impostor Syndrome (battlefield); Time Sieve (battlefield); Myr Battlesphere (battlefield: without summoning sickness)
+Prerequisites: An opponent cannot block Myr Battlesphere.
+Steps: Deal combat damage to an opponent using Myr Battlesphere, triggering Impostor Syndrome, creating a token copy of Myr Battlesphere.
+  When the Myr Battlesphere token enters, it triggers, creating four 1/1 Myr artifact creature tokens.
+  Activate Time Sieve by tapping it, sacrificing the four Myr tokens and sacrificing the Myr Battlesphere token, causing you to take an extra turn after this one.
+  Repeat each turn.
+
+## Combo 1558-4840-7631
+Cards: Echocasting Symposium + Myr Battlesphere + Time Sieve
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 11 | Commander: legal | Mana needed: {4}{U}{U}
+Produces: Infinite turns; Lock
+Start: Echocasting Symposium (hand); Myr Battlesphere (battlefield); Time Sieve (battlefield)
+Steps: Cast Echocasting Symposium by paying {4}{U}{U}, creating a token copy of Myr Battlesphere and exiling Echocasting Symposium.
+  When Myr Battlesphere enters, it triggers, creating four 1/1 Myr artifact creature tokens.
+  Activate Time Sieve by tapping it, sacrificing the Myr Battlesphere token and the four Myr tokens, causing you to take an extra turn after this one.
+  Move to your next turn. At the beginning of your precombat main phase, Echocasting Symposium's paradigm ability triggers, causing you to cast a copy of it from exile. Resolve the copy, creating a token copy of Myr Battlesphere.
+  Repeat from step 2.
+
+## Combo 1558-4840-7650
+Cards: Time Sieve + Myr Battlesphere + Bilbo, Thief in the Night
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 10 | Commander: legal | Mana needed: {6} each turn
+Produces: Infinite turns; Lock
+Start: Time Sieve (battlefield); Myr Battlesphere (graveyard); Bilbo, Thief in the Night (battlefield: without summoning sickness)
+Prerequisites: An opponent cannot block and kill Bilbo.
+Steps: Declare Bilbo as an attacker, triggering its ability, causing you to cast Myr Battlesphere from your graveyard by paying {6}.
+  When Myr Battlesphere enters, it triggers, creating four 1/1 Myr creature tokens.
+  Activate Time Sieve by tapping it, sacrificing Myr Battlesphere and sacrificing the four Myr tokens, causing you to take an extra turn after this one.
+  Repeat each turn.
+
+## Combo 1558-4840-8193
+Cards: Time Sieve + Myr Battlesphere + Avacyn, Angel of Horror
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 4 | Commander: legal | Mana needed: {7}
+Produces: Infinite turns; Lock
+Start: Time Sieve (battlefield); Myr Battlesphere (hand); Avacyn, Angel of Horror (battlefield)
+Steps: Cast Myr Battlesphere by paying {7}.
+  When Myr Battlesphere enters, it triggers, creating four 1/1 Myr creature tokens.
+  Activate Time Sieve by tapping it, sacrificing Myr Battlesphere and sacrificing the four Myr tokens, causing you to take an extra turn after this one.
+  At the beginning of your end step, Avacyn triggers, returning Myr Battlesphere from your graveyard to the battlefield.
+  When Myr Battlesphere enters, it triggers, creating four 1/1 Myr creature tokens.
+  Repeat from step 3 each turn.
+
+## Combo 1558-5146
+Cards: Thopter Assembly + Time Sieve
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 6400 | Commander: legal | Mana needed: {6}
+Produces: Infinite turns; Lock
+Start: Thopter Assembly (battlefield); Time Sieve (battlefield)
+Prerequisites: Thopter Assembly is your only thopter.
+Steps: At the beginning of your upkeep, Thopter Assembly triggers, returning itself it your hand and creating 5 Thopter tokens .Sacrifice those tokens to Time Sieve to take an extra turn.
+  Cast Thopter Assembly for {6}.
+  Repeat for infinite turns.
+
 ## Combo 1558-5325
 Cards: Time Sieve + Exsanguinator Cavalry
 Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 130 | Commander: legal
@@ -581,7 +636,7 @@ Steps: Activate Ashnod's Altar by sacrificing Wretched Throng, adding {C}{C}.
 
 ## Combo 1599-3338-3685
 Cards: Spine of Ish Sah + Priest of Yawgmoth + Mirran Spy
-Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 30 | Commander: legal
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 29 | Commander: legal
 Produces: Destroy any number of target permanents opponents control; Near-infinite storm count; Mass Land Denial
 Start: Spine of Ish Sah (battlefield); Priest of Yawgmoth (battlefield); Mirran Spy (battlefield)
 Prerequisites: Priest of Yawgmoth does not have summoning sickness.
@@ -884,7 +939,7 @@ Steps: Activate Fain's third ability by tapping it and sacrificing another artif
 
 ## Combo 1636-2034-4599
 Cards: Gravespawn Sovereign + Intruder Alarm + Ashnod's Altar
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 40 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal
 Produces: Infinite colorless mana; Infinite mana creatures you control can produce; Infinite untap of creatures; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Gravespawn Sovereign (battlefield); Intruder Alarm (battlefield); Ashnod's Altar (battlefield)
 Prerequisites: You control at least four other Zombies and an additional nontoken creature.
@@ -895,7 +950,7 @@ Steps: Activate Ashnod's Altar by sacrificing a nontoken creature, adding {C}{C}
 
 ## Combo 1636-2034-6095
 Cards: Zul Ashur, Lich Lord + Intruder Alarm + Ashnod's Altar
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 100 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 99 | Commander: legal
 Produces: Infinite colorless mana; Infinite mana creatures you control can produce; Infinite untap of creatures; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Zul Ashur, Lich Lord (battlefield); Intruder Alarm (battlefield); Ashnod's Altar (battlefield)
 Prerequisites: You have a Zombie creature card in your graveyard.
@@ -1062,7 +1117,7 @@ Steps: Activate Fain's third ability by tapping it and sacrificing another artif
 
 ## Combo 1636-2438-4599
 Cards: Gravespawn Sovereign + Intruder Alarm + Carrion Feeder
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 48 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 47 | Commander: legal
 Produces: Infinite mana creatures you control can produce; Infinite +1/+1 counters on a creature; Infinite untap of creatures; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Gravespawn Sovereign (battlefield); Intruder Alarm (battlefield); Carrion Feeder (battlefield)
 Prerequisites: You control at least three other Zombies and an additional nontoken creature.
@@ -1073,7 +1128,7 @@ Steps: Activate Carrion Feeder by sacrificing a nontoken creature, putting a +1/
 
 ## Combo 1636-2438-6095
 Cards: Zul Ashur, Lich Lord + Intruder Alarm + Carrion Feeder
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 120 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 110 | Commander: legal
 Produces: Infinite mana creatures you control can produce; Infinite untap of creatures; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Zul Ashur, Lich Lord (battlefield); Intruder Alarm (battlefield); Carrion Feeder (battlefield)
 Prerequisites: You have a Zombie creature card in your graveyard.
@@ -1511,7 +1566,7 @@ Steps: Activate a creature by tapping it, adding at least {U}.
 
 ## Combo 1636-4888
 Cards: Intruder Alarm + Puppet Conjurer
-Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 32 | Commander: legal | Mana needed: {U} from creature sources
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 33 | Commander: legal | Mana needed: {U} from creature sources
 Produces: Infinite mana creatures you control can produce; Infinite creature tokens with 0 power; Infinite creature ETB; Infinite untap of creatures you control
 Start: Intruder Alarm (battlefield); Puppet Conjurer (battlefield)
 Prerequisites: Puppet Conjurer does not have summoning sickness.
@@ -1688,7 +1743,7 @@ Steps: Activate Throne of Geth by tapping it and sacrificing an artifact creatur
 
 ## Combo 1655-2792-3489
 Cards: Satoru Umezawa + Great Whale + Ninja of the Deep Hours
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 420 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 430 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite untap of lands you control; Infinite creature ETB; Infinite creature LTB
 Start: Satoru Umezawa (battlefield); Great Whale (hand); Ninja of the Deep Hours (battlefield)
 Prerequisites: Ninja of the Deep Hours does not have summoning sickness and cannot be blocked by an opponent.
@@ -3086,7 +3141,7 @@ Steps: Activate Trazyn using Thran Dynamo's ability by tapping it, adding {C}{C}
 
 ## Combo 1778-2034-3249
 Cards: Havengul Lich + Ashnod's Altar + Memnite
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal
 Produces: Infinite colorless mana; Infinite artifact ETB; Infinite artifact LTB; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Havengul Lich (battlefield); Ashnod's Altar (battlefield); Memnite (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Memnite, adding {C}{C}.
@@ -3326,7 +3381,7 @@ Steps: Activate Krark-Clan Ironworks by sacrificing another creature you control
 
 ## Combo 1808-4694
 Cards: Eloise, Nephalia Sleuth + March of the Machines
-Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 730 | Commander: legal
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 740 | Commander: legal
 Produces: Draw the game; Infinite death triggers; Infinite creature ETB; Infinite creature LTB
 Start: Eloise, Nephalia Sleuth (battlefield); March of the Machines (battlefield)
 Prerequisites: You have a way to kill a creature.
@@ -3662,6 +3717,20 @@ Steps: Cast Fateful Handoff by paying {2}{U}{B}, causing you to draw four cards 
   Consecrated Sphinx triggers twice.
   Resolve the first trigger, causing the opponent to draw two cards due to Notion Thief.
   Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+
+## Combo 1844-3862-8412
+Cards: Orcish Bowmasters + Fateful Handoff + Ruric Thar, Biomagus
+Color identity: UB | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {4}{B}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Fateful Handoff (hand); Ruric Thar, Biomagus (battlefield)
+Prerequisites: You have at least as many cards in your library as the mana value of the permanent you intend to donate.
+Steps: Pay {3}{B} to cast Fateful Handoff, causing target opponent to gain control of (and you to draw cards equal to the mana value of) Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
 
 ## Combo 1847-2577-3918-4824
 Cards: Trazyn the Infinite + The Golden Throne + Gravecrawler + Soliton
@@ -4357,7 +4426,7 @@ Steps: Maralen prevents players from drawing, but allows tutors, Mindlock Orb pr
 
 ## Combo 2006-2452
 Cards: Sedraxis Alchemist + Rooftop Storm
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 560 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 570 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Sedraxis Alchemist (hand); Rooftop Storm (battlefield)
 Steps: Cast Sedraxis Alchemist by paying {0}.
@@ -4933,7 +5002,7 @@ Steps: Activate Ashnod's Altar by sacrificing the creature that can be cast usin
 
 ## Combo 2034-3249-3652
 Cards: Havengul Lich + Ashnod's Altar + Ornithopter
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 50 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 51 | Commander: legal
 Produces: Infinite colorless mana; Infinite artifact ETB; Infinite artifact LTB; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Havengul Lich (battlefield); Ashnod's Altar (battlefield); Ornithopter (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Ornithopter, adding {C}{C}.
@@ -5688,7 +5757,7 @@ Steps: Activate Ashnod's Altar by sacrificing Wretched Throng, adding {C}{C}.
 
 ## Combo 2034-5011-5326
 Cards: The Master, Formed Anew + Cavalier of Night + Ashnod's Altar
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal | Mana needed: {U}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 28 | Commander: legal | Mana needed: {U}{B}
 Produces: Infinite colorless mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: The Master, Formed Anew (battlefield); Cavalier of Night (exile); Ashnod's Altar (battlefield)
 Prerequisites: Cavalier of Night in exile with a takeover counter on it.
@@ -5797,7 +5866,7 @@ Steps: Activate Ashnod's Altar by sacrificing the nontoken creature, adding {C}{
 
 ## Combo 2034-5326--5--6
 Cards: The Master, Formed Anew + Ashnod's Altar
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 150 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 160 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (exile: with a takeover counter on it)
 Requires: Undying Creature (exile: with a takeover counter on it)
@@ -7347,7 +7416,7 @@ Notes: This combo will steadily put more +1/+1 counters on Ebondeath and the Zom
 
 ## Combo 2292-2525-6132
 Cards: Metamorphosis Fanatic + Body Double + Viscera Seer
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Start: Metamorphosis Fanatic (hand); Body Double (graveyard); Viscera Seer (battlefield)
 Steps: Cast Metamorphosis Fanatic by paying {4}{B}{B}.
@@ -7390,7 +7459,7 @@ Steps: Donate Blightbeetle to an opponent
 
 ## Combo 2292-2777-5326
 Cards: The Master, Formed Anew + Driver of the Dead + Viscera Seer
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal | Mana needed: {U}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal | Mana needed: {U}{B}
 Produces: Infinite colorless mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: The Master, Formed Anew (battlefield); Driver of the Dead (exile); Viscera Seer (battlefield)
 Prerequisites: Driver of the Dead in exile with a takeover counter on it.
@@ -7759,7 +7828,7 @@ Steps: Activate Viscera Seer by sacrificing the nontoken creature.
 
 ## Combo 2292-5011-5326
 Cards: The Master, Formed Anew + Cavalier of Night + Viscera Seer
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal | Mana needed: {U}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 28 | Commander: legal | Mana needed: {U}{B}
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite scry 1
 Start: The Master, Formed Anew (battlefield); Cavalier of Night (exile); Viscera Seer (battlefield)
 Prerequisites: Cavalier of Night in exile with a takeover counter on it.
@@ -7881,7 +7950,7 @@ Steps: Cast Gutterbones by paying {B}.
 
 ## Combo 2306-2792-3489
 Cards: Satoru Umezawa + Great Whale + Prosperous Thief
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 600 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 610 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite untap of lands you control; Infinite creature ETB; Infinite creature LTB
 Start: Satoru Umezawa (battlefield); Great Whale (hand); Prosperous Thief (battlefield)
 Prerequisites: Prosperous Thief does not have summoning sickness and cannot be blocked by an opponent.
@@ -7926,7 +7995,7 @@ Steps: Declare Moon-Circuit Hacker as an attacker.
 
 ## Combo 2327-3489-3542
 Cards: Satoru Umezawa + Palinchron + Moon-Circuit Hacker
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 380 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 370 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite untap of lands you control; Infinite creature ETB; Infinite creature LTB
 Start: Satoru Umezawa (battlefield); Palinchron (hand); Moon-Circuit Hacker (battlefield)
 Prerequisites: Moon-Circuit Hacker does not have summoning sickness and cannot be blocked by an opponent.
@@ -8035,7 +8104,7 @@ Steps: Activate Trazyn using Firemind Vessel's ability by tapping it, adding {U}
 
 ## Combo 2351-3410-4050
 Cards: Kels, Fight Fixer + The Watcher in the Water + Phyrexian Altar
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 65 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 64 | Commander: legal
 Produces: Infinite card draw; Near-infinite untap of some creatures you control; Infinite draw triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers
 Start: Kels, Fight Fixer (battlefield); The Watcher in the Water (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: It is an opponent's turn.
@@ -8297,7 +8366,7 @@ Notes: This combo will steadily put more +1/+1 counters on Ebondeath and the Zom
 
 ## Combo 2438-2525-6132
 Cards: Metamorphosis Fanatic + Body Double + Carrion Feeder
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Metamorphosis Fanatic (hand); Body Double (graveyard); Carrion Feeder (battlefield)
 Steps: Cast Metamorphosis Fanatic by paying {4}{B}{B}.
@@ -9228,7 +9297,7 @@ Steps: Activate up to seven lands you control by tapping them, adding at least {
 
 ## Combo 2493-2596-3821-4050
 Cards: Living Death + Peregrine Drake + Archaeomancer + Phyrexian Altar
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 48 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite blinking for all players; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite creature sacrifice triggers; Infinite storm count
 Start: Living Death (hand); Peregrine Drake (battlefield); Archaeomancer (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: You control up to five lands that can tap to produce at least {4}.
@@ -11010,6 +11079,19 @@ Steps: Donate control of Avacyn to an opponent using Donate.
   At the beginning of the next end step, Avacyn triggers, returning Phage from your graveyard to the battlefield under the opponent's control.
   When Phage enters, its first ability triggers, causing the opponent to lose the game.
 
+## Combo 2770-3862-8412
+Cards: Orcish Bowmasters + Donate + Ruric Thar, Biomagus
+Color identity: UB | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {3}{U}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Donate (hand); Ruric Thar, Biomagus (battlefield)
+Steps: Cast Donate by paying {2}{U}, causing target opponent to gain control of Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
+
 ## Combo 2770-3899-5571--6
 Cards: Blightbeetle + Spawning Pit + Donate
 Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{U}
@@ -11047,7 +11129,7 @@ Steps: Donate Blightbeetle to an opponent
 
 ## Combo 2770-4126-4158
 Cards: Staff of Compleation + Nefarious Lich + Donate
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 71 | Commander: legal | Mana needed: {2}{U}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal | Mana needed: {2}{U}
 Produces: Target opponent loses the game
 Start: Staff of Compleation (battlefield); Nefarious Lich (battlefield); Donate (hand)
 Prerequisites: Your life total is at least 2.
@@ -11303,7 +11385,7 @@ Steps: Declare Biting-Palm Ninja as an attacker.
 
 ## Combo 2792-3489-3960
 Cards: Satoru Umezawa + Great Whale + Walker of Secret Ways
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 76 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 77 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite untap of lands you control; Infinite creature ETB; Infinite creature LTB
 Start: Satoru Umezawa (battlefield); Great Whale (hand); Walker of Secret Ways (battlefield)
 Prerequisites: Walker of Secret Ways does not have summoning sickness and cannot be blocked by an opponent.
@@ -11958,7 +12040,7 @@ Steps: Activate Imagecrafter by tapping it, causing Trazyn to become a Sliver un
 
 ## Combo 2974-3047-4871
 Cards: Pitiless Plunderer + Repository Skaab + Feign Death
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {3}{U}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal | Mana needed: {3}{U}{B}
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count; Infinite magecraft triggers
 Start: Pitiless Plunderer (battlefield); Repository Skaab (hand); Feign Death (hand)
 Steps: Cast Repository Skaab by paying {3}{U}.
@@ -11997,7 +12079,7 @@ Steps: Cast Walk the Aeons by paying its mana cost, causing you to take an extra
 
 ## Combo 2974-4871-5117
 Cards: Pitiless Plunderer + Repository Skaab + Undying Malice
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal | Mana needed: {3}{U}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal | Mana needed: {3}{U}{B}
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count; Infinite magecraft triggers
 Start: Pitiless Plunderer (battlefield); Repository Skaab (hand); Undying Malice (hand)
 Steps: Cast Repository Skaab by paying {3}{U}.
@@ -12108,6 +12190,20 @@ Steps: Activate Yawgmoth by paying 1 life and sacrificing the undying creature.
   When the creature dies, Bastion of Remembrance triggers, causing you to gain 1 life and each opponent to lose 1 life 
   Resolve the Yawgmoth ability, putting a -1/-1 counter on the undying creature and drawing a card.
   Repeat.
+
+## Combo 3037-3862-8412
+Cards: Orcish Bowmasters + Gauntlets of Chaos + Ruric Thar, Biomagus
+Color identity: UB | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {6}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Gauntlets of Chaos (battlefield); Ruric Thar, Biomagus (battlefield)
+Prerequisites: An opponent controls a permanent that shares a type with the one you intend to donate.
+Steps: Activate Gauntlets of Chaos by paying {5} and sacrificing it, exchanging control of (and destroying all Auras attached to) a permanent an opponent controls and Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
 
 ## Combo 3047-3191-4050
 Cards: Kairi, the Swirling Sky + Feign Death + Phyrexian Altar
@@ -12494,6 +12590,20 @@ Steps: Donate control of Avacyn to an opponent using Switcheroo.
   Kill Phage by any method.
   At the beginning of the next end step, Avacyn triggers, returning Phage from your graveyard to the battlefield under the opponent's control.
   When Phage enters, its first ability triggers, causing the opponent to lose the game.
+
+## Combo 3174-3862-8412
+Cards: Orcish Bowmasters + Switcheroo + Ruric Thar, Biomagus
+Color identity: UB | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {5}{U}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Switcheroo (hand); Ruric Thar, Biomagus (battlefield)
+Prerequisites: An opponent controls a creature.
+Steps: Pay {4}{U} to cast Switcheroo, exchanging control of a creature an opponent controls and Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
 
 ## Combo 3174-3899-5571--6
 Cards: Blightbeetle + Spawning Pit + Switcheroo
@@ -12974,7 +13084,7 @@ Steps: Cast Clone by paying {3}{U}, having it enter the battlefield as a copy of
 
 ## Combo 3270-4753-5220
 Cards: Gyruda, Doom of Depths + Mortuary + Clever Impersonator
-Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 880 | Commander: legal | Mana needed: {2}{U}{U}
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 890 | Commander: legal | Mana needed: {2}{U}{U}
 Produces: Infinite mill; Infinite self-mill; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Gyruda, Doom of Depths (battlefield); Mortuary (battlefield); Clever Impersonator (hand)
 Steps: Cast Clever Impersonator by paying {2}{U}{U}, having it enter the battlefield as a copy of Gyruda.
@@ -13359,7 +13469,7 @@ Steps: Declare Biting-Palm Ninja as an attacker.
 
 ## Combo 3489-3542-3960
 Cards: Satoru Umezawa + Palinchron + Walker of Secret Ways
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite untap of lands you control; Infinite creature ETB; Infinite creature LTB
 Start: Satoru Umezawa (battlefield); Palinchron (hand); Walker of Secret Ways (battlefield)
 Prerequisites: Walker of Secret Ways does not have summoning sickness and cannot be blocked by an opponent.
@@ -13404,7 +13514,7 @@ Steps: Declare another nontoken creature as an attacker.
 
 ## Combo 3489-3542-4623
 Cards: Satoru Umezawa + Palinchron + Mist-Syndicate Naga
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 120 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 110 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB
 Start: Satoru Umezawa (battlefield); Palinchron (hand); Mist-Syndicate Naga (battlefield)
 Prerequisites: Mist-Syndicate Naga does not have summoning sickness and cannot be blocked by an opponent.
@@ -14864,6 +14974,234 @@ Steps: Cast Orcish Bowmasters by paying {1}{B}.
   Resolve the first remaining Orcish Bowmasters trigger, creating a 0/0 Orc Army token if you do not control one, then putting a +1/+1 counter on an Army you control and dealing 1 damage to any target.
   Repeat from step 7 for each remaining trigger.
   At the beginning of your end step, each Orc Army that used Magus of the Jar's ability triggers, returning all cards exiled with them to their owner's hands.
+
+## Combo 3862-4368-8412
+Cards: Orcish Bowmasters + Sudden Substitution + Ruric Thar, Biomagus
+Color identity: UB | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {3}{U}{U}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Sudden Substitution (hand); Ruric Thar, Biomagus (battlefield)
+Prerequisites: An opponent controls a noncreature spell on the stack.
+Steps: Cast Sudden Substitution by paying {2}{U}, exchanging control of your opponent's noncreature spell and Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
+
+## Combo 3862-5169-8412
+Cards: Orcish Bowmasters + Daring Thief + Ruric Thar, Biomagus
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {1}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Daring Thief (battlefield: is tapped); Ruric Thar, Biomagus (battlefield)
+Prerequisites: You have a way to untap Daring Thief.
+  An opponent must control a permanent that shares a type with the one you wish to exchange.
+Steps: Untap Daring Thief using any method. It triggers, exchanging control of a permanent an opponent controls and Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
+
+## Combo 3862-6922-8412
+Cards: Orcish Bowmasters + Coveted Falcon + Ruric Thar, Biomagus
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {2}{U}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Coveted Falcon (battlefield: is face down); Ruric Thar, Biomagus (battlefield)
+Prerequisites: There is at least one card in your library.
+Steps: Pay {1}{U} to turn Coveted Falcon face up, drawing a card and causing target opponent to gain control of Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
+
+## Combo 3862-7310-8412
+Cards: Orcish Bowmasters + Kitsune, Dragon's Daughter + Ruric Thar, Biomagus
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {1}{B} plus {4}{U}{U} or {0}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Kitsune, Dragon's Daughter (hand, battlefield); Ruric Thar, Biomagus (battlefield)
+Prerequisites: An opponent controls a creature.
+  If Kitsune is on the battlefield, it must not have summoning sickness and an opponent must be unable to block it.
+Steps: Cause Kitsune to enter or deal combat damage to a player, exchanging control of a creature an opponent controls and Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
+
+## Combo 3862-7666-8412
+Cards: Orcish Bowmasters + Bilbo, Luckwearer // Burglar's Plot + Ruric Thar, Biomagus
+Color identity: UB | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {5}{U}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Bilbo, Luckwearer // Burglar's Plot (hand); Ruric Thar, Biomagus (battlefield)
+Prerequisites: An opponent controls a permanent that shares a type with the one you plan to give away.
+Steps: Pay {4}{U} to cast Burglar's Plot, exchanging control of a permanent an opponent controls and Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
+
+## Combo 3862-8396-8412
+Cards: Orcish Bowmasters + Rules of Acquisition + Ruric Thar, Biomagus
+Color identity: UB | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {4}{U}{U}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Rules of Acquisition (hand); Ruric Thar, Biomagus (battlefield)
+Prerequisites: There are at least three cards in your library.
+Steps: Cast Rules of Acquisition by paying {3}{U}{U}, drawing three cards and causing target opponent to gain control of Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
+
+## Combo 3862-8412-8413
+Cards: Orcish Bowmasters + Ruric Thar, Biomagus + Chromeshell Crab
+Color identity: UB | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {5}{U}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Ruric Thar, Biomagus (battlefield); Chromeshell Crab (battlefield: is face down)
+Prerequisites: An opponent controls a creature.
+Steps: Turn Chromeshell Crab face up by paying {4}{U}, exchanging control of a creature an opponent controls and Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
+
+## Combo 3862-8412-8414
+Cards: Orcish Bowmasters + Ruric Thar, Biomagus + Cultural Exchange
+Color identity: UB | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {5}{U}{U}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Ruric Thar, Biomagus (battlefield); Cultural Exchange (hand)
+Prerequisites: An opponent controls a creature.
+Steps: Cast Cultural Exchange by paying {4}{U}{U}, exchanging control of a creature an opponent controls and Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
+
+## Combo 3862-8412-8416
+Cards: Orcish Bowmasters + Ruric Thar, Biomagus + Legerdemain
+Color identity: UB | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {3}{U}{U}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Ruric Thar, Biomagus (battlefield); Legerdemain (hand)
+Prerequisites: An opponent must control either an artifact or creature depending on the card being donated.
+Steps: Cast Legerdemain by paying {2}{U}, exchanging control of an artifact or creature an opponent controls and Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
+
+## Combo 3862-8412-8417
+Cards: Orcish Bowmasters + Ruric Thar, Biomagus + Modify Memory
+Color identity: UB | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {5}{U}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Ruric Thar, Biomagus (battlefield); Modify Memory (hand)
+Prerequisites: An opponent must control a creature.
+Steps: Cast Modify Memory by paying {4}{U}, exchanging control of a creature an opponent controls and Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
+
+## Combo 3862-8412-8418
+Cards: Orcish Bowmasters + Ruric Thar, Biomagus + Puca's Mischief
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {1}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Ruric Thar, Biomagus (battlefield); Puca's Mischief (battlefield)
+Prerequisites: An opponent controls a nonland permanent with an equal or lesser mana value than the one you wish to donate.
+Steps: At the beginning of your upkeep, Puca's Mischief triggers, exchanging control of a nonland permanent an opponent controls with equal or lesser mana value and Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
+
+## Combo 3862-8412-8419
+Cards: Orcish Bowmasters + Ruric Thar, Biomagus + Shifting Grift
+Color identity: UB | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {3}{U}{U}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Ruric Thar, Biomagus (battlefield); Shifting Grift (hand)
+Prerequisites: An opponent must control a creature.
+Steps: Cast Shifting Grift for its first spree cost by paying {2}{U}{U}, exchanging control of a creature an opponent controls and Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
+
+## Combo 3862-8412-8420
+Cards: Orcish Bowmasters + Ruric Thar, Biomagus + Shifting Loyalties
+Color identity: UB | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {6}{U}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Ruric Thar, Biomagus (battlefield); Shifting Loyalties (hand)
+Prerequisites: An opponent controls a permanent that shares a card type with the one you intend to donate.
+Steps: Cast Shifting Loyalties by paying {5}{U}, exchanging control of a permanent an opponent controls and Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
+
+## Combo 3862-8412-8422
+Cards: Orcish Bowmasters + Ruric Thar, Biomagus + Spawnbroker
+Color identity: UB | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {3}{U}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Ruric Thar, Biomagus (battlefield); Spawnbroker (hand)
+Prerequisites: An opponent controls a creature with power less than or equal to the creature you intend to donate.
+Steps: Cast Spawnbroker by paying {2}{U}.
+  When Spawnbroker enters, it triggers, exchanging control of a creature an opponent controls with equal or lesser power and Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 5 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
+
+## Combo 3862-8412-8423
+Cards: Orcish Bowmasters + Ruric Thar, Biomagus + The Trickster-God's Heist
+Color identity: UB | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {3}{U}{B}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Ruric Thar, Biomagus (battlefield); The Trickster-God's Heist (hand)
+Prerequisites: An opponent controls a creature.
+Steps: Cast The Trickster God's Heist by paying {2}{U}{B}, causing its first chapter ability to trigger when it enters.
+  Resolve the chapter ability, exchanging control of a creature an opponent controls and Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 5 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
+
+## Combo 3862-8412-8424
+Cards: Orcish Bowmasters + Ruric Thar, Biomagus + Trade the Helm
+Color identity: UB | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {5}{U}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Ruric Thar, Biomagus (battlefield); Trade the Helm (hand)
+Prerequisites: An opponent controls an artifact or creature.
+Steps: Cast Trade the Helm by paying {4}{U}, exchanging control of an artifact or creature an opponent controls and Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
 
 ## Combo 3885-4050-4052-6518
 Cards: The Sibsig Ceremony + Phyrexian Altar + Stinkweed Imp + Kindred Discovery
@@ -17102,7 +17440,7 @@ Steps: Activate Umbral Collar Zealot by sacrificing any other creature.
 
 ## Combo 4375-4659-5361
 Cards: Technomancer + Krark-Clan Ironworks + Auton Soldier
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal | Mana needed: {5}{B}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 40 | Commander: legal | Mana needed: {5}{B}{B}
 Produces: Infinite self-mill; Infinite colorless mana; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Technomancer (hand); Krark-Clan Ironworks (battlefield); Auton Soldier (graveyard)
 Steps: Cast Technomancer by paying {5}{B}{B}.
@@ -18100,7 +18438,7 @@ Steps: Activate Golgari Thug's cycling ability by paying {0} and discarding it, 
 
 ## Combo 5011-5256-5326
 Cards: The Master, Formed Anew + Cavalier of Night + Altar of Dementia
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal | Mana needed: {U}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 46 | Commander: legal | Mana needed: {U}{B}
 Produces: Infinite mill; Infinite self-mill; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: The Master, Formed Anew (battlefield); Cavalier of Night (exile); Altar of Dementia (battlefield)
 Prerequisites: Cavalier of Night in exile with a takeover counter on it.
@@ -18170,6 +18508,17 @@ Prerequisites: You control at least seven tokens.
 Steps: Cast Sway of the Stars by paying {8}{U}{U}, causing each player to shuffle their hand, graveyard and all permanents they own into their library, then causing each player to draw seven cards and set their life total to 7.
   Nadier's Nightblade triggers for each token you control that leaves the battlefield, causing each opponent to lose at least 7 life and you to gain at least 7 life.
   Each opponent loses the game due to having 0 life.
+
+## Combo 5169-6676
+Cards: Demonic Pact + Daring Thief
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Target opponent loses the game at the beginning of their next upkeep
+Start: Demonic Pact (battlefield); Daring Thief (battlefield: is tapped)
+Prerequisites: You have a way to untap Daring Thief.
+  An opponent must control a permanent that shares a type with the one you wish to exchange.
+  The first three modes of Demonic Pact have been selected.
+Steps: Untap Daring Thief using any method. It triggers, exchanging control of a permanent an opponent controls and Demonic Pact.
+  At the beginning of the opponent's upkeep, Demonic Pact triggers, causing them to select the fourth mode and lose the game.
 
 ## Combo 5173-5553-5626-7056
 Cards: Chthonian Nightmare + Greedy Freebooter + Shambling Ghast + Stormscape Familiar
@@ -18289,7 +18638,7 @@ Steps: Activate Phantom Train by sacrificing The Master.
 
 ## Combo 5326-6798--5--6
 Cards: The Master, Formed Anew + Umbral Collar Zealot
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal
 Produces: Infinite surveil; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (exile: with a takeover counter on it)
 Requires: Undying Creature (exile: with a takeover counter on it)
@@ -18664,7 +19013,7 @@ Steps: Cast Sway of the Stars by paying {8}{U}{U}, causing each player to shuffl
 
 ## Combo 6316-7181
 Cards: Mirrorform + Vela the Night-Clad
-Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 79 | Commander: legal
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 81 | Commander: legal
 Produces: Near-infinite lifeloss
 Start: Mirrorform (hand); Vela the Night-Clad (battlefield)
 Prerequisites: You control other nonland permanents.
@@ -18686,12 +19035,66 @@ Steps: Activate Coveted Falcon by paying {1}{U}, turning it face up.
 
 ## Combo 6676-7666
 Cards: Demonic Pact + Bilbo, Luckwearer // Burglar's Plot
-Color identity: UB | Bracket: 2-3+ (Oddball) | Popularity: 73 | Commander: legal | Mana needed: {4}{U}
+Color identity: UB | Bracket: 2-3+ (Oddball) | Popularity: 76 | Commander: legal | Mana needed: {4}{U}
 Produces: Target opponent loses the game at the beginning of their next upkeep
 Start: Demonic Pact (battlefield); Bilbo, Luckwearer // Burglar's Plot (hand)
 Prerequisites: An opponent controls an enchantment.
   The first three modes of Demonic Pact have been selected.
 Steps: Donate Demonic Pact to an opponent.
+  At the beginning of the opponent's upkeep, Demonic Pact triggers, causing them to select the fourth mode and lose the game.
+
+## Combo 6676-8396
+Cards: Demonic Pact + Rules of Acquisition
+Color identity: UB | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {3}{U}{U}
+Produces: Target opponent loses the game at the beginning of their next upkeep
+Start: Demonic Pact (battlefield); Rules of Acquisition (hand)
+Prerequisites: There are at least three cards in your library.
+  The first three modes of Demonic Pact have been selected.
+Steps: Cast Rules of Acquisition by paying {3}{U}{U}, drawing three cards and causing target opponent to gain control of Demonic Pact.
+  At the beginning of the opponent's upkeep, Demonic Pact triggers, causing them to select the fourth mode and lose the game.
+
+## Combo 6676-8418
+Cards: Demonic Pact + Puca's Mischief
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Target opponent loses the game at the beginning of their next upkeep
+Start: Demonic Pact (battlefield); Puca's Mischief (battlefield)
+Prerequisites: An opponent controls a nonland permanent with an equal or lesser mana value than Demonic Pact.
+  Two out of the first three modes of Demonic Pact have been selected.
+Steps: At the beginning of your upkeep, Puca's Mischief and Demonic Pact trigger.
+  Resolve the Demonic Pact trigger, choosing the remaining mode other than the fourth.
+  Resolve the Puca's Mischief trigger, exchanging control of a nonland permanent an opponent controls with equal or lesser mana value and Demonic Pact.
+  At the beginning of the opponent's upkeep, Demonic Pact triggers, causing them to select the fourth mode and lose the game.
+
+## Combo 6676-8419
+Cards: Demonic Pact + Shifting Grift
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {1}{U}{U}
+Produces: Target opponent loses the game at the beginning of their next upkeep
+Start: Demonic Pact (battlefield); Shifting Grift (hand)
+Prerequisites: An opponent must control an enchantment.
+  The first three modes of Demonic Pact have been selected.
+Steps: Cast Shifting Grift for its third spree cost by paying {1}{U}{U}, exchanging control of an enchantment an opponent controls and Demonic Pact.
+  At the beginning of the opponent's upkeep, Demonic Pact triggers, causing them to select the fourth mode and lose the game.
+
+## Combo 6676-8420
+Cards: Demonic Pact + Shifting Loyalties
+Color identity: UB | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {5}{U}
+Produces: Target opponent loses the game at the beginning of their next upkeep
+Start: Demonic Pact (battlefield); Shifting Loyalties (hand)
+Prerequisites: An opponent controls a permanent that shares a card type with the one you intend to donate.
+  The first three modes of Demonic Pact have been selected.
+Steps: Cast Shifting Loyalties by paying {5}{U}, exchanging control of a permanent an opponent controls and Demonic Pact.
+  At the beginning of the opponent's upkeep, Demonic Pact triggers, causing them to select the fourth mode and lose the game.
+
+## Combo 6676-8423
+Cards: Demonic Pact + The Trickster-God's Heist
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Target opponent loses the game at the beginning of their next upkeep
+Start: Demonic Pact (battlefield); The Trickster-God's Heist (battlefield)
+Prerequisites: The Trickster-God's Heist has one lore counter on it.
+  An opponent controls a permanent that shares a type with the one you intend to donate.
+  The first three modes of Demonic Pact have been selected.
+Steps: At the beginning of your first main phase, put a lore counter on The Trickster God's Heist, causing its second chapter ability to trigger.
+  Resolve the chapter ability, exchanging control of a nonbasic, noncreature permanent an opponent controls and Demonic Pact.
   At the beginning of the opponent's upkeep, Demonic Pact triggers, causing them to select the fourth mode and lose the game.
 
 ## Combo 6797-7936--5
@@ -18709,7 +19112,7 @@ Steps: Activate Phantom Train by sacrificing Dominion Saboteur.
 
 ## Combo 6798-7936--5
 Cards: Dominion Saboteur + Umbral Collar Zealot
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
 Produces: Infinite surveil; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Dominion Saboteur (battlefield: as a copy of the creature with persist); Umbral Collar Zealot (battlefield)
@@ -18732,3 +19135,15 @@ Steps: Activate Hammerhead by sacrificing Dominion Saboteur.
   Remove a +1/+1 counter and a -1/-1 counter from Dominion Saboteur as a state-based action.
   Resolve the Hammerhead ability.
   Repeat.
+
+## Combo 8297-8423
+Cards: Kobayashi Maru Scenario + The Trickster-God's Heist
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Target opponent loses the game at the beginning of their next upkeep
+Start: Kobayashi Maru Scenario (battlefield); The Trickster-God's Heist (battlefield)
+Prerequisites: The Trickster-God's Heist has one lore counter on it.
+  An opponent controls a permanent that shares a type with the one you intend to donate.
+  All modes but "Abandon Ship" have been chosen for Kobayashi Maru Scenario.
+Steps: At the beginning of your first main phase, put a lore counter on The Trickster God's Heist, causing its second chapter ability to trigger.
+  Resolve the chapter ability, exchanging control of a nonbasic, noncreature permanent an opponent controls and Kobayashi Maru Scenario.
+  At the beginning of that opponent's upkeep, they are forced to choose the "Abandon Ship" mode and lose the game.

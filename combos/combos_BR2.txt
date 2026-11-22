@@ -1,3 +1,58 @@
+## Combo 997-5805--5
+Cards: Woe Strider + Gev, Scaled Scorch
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 1700 | Commander: legal
+Produces: Infinite scry 1; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Requires: Persist Creature (battlefield)
+Start: Woe Strider (battlefield); Gev, Scaled Scorch (battlefield)
+Prerequisites: At least one opponent has lost life this turn.
+Steps: Activate Woe Strider by sacrificing the creature with persist.
+  The persist ability triggers, returning that creature to the battlefield with a -1/-1 counter on it, as well as a +1/+1 counter due to Gev.
+  The +1/+1 and -1/-1 counters on that creature are removed as a state-based action.
+  Resolve the ability from step 1, scrying 1.
+  Repeat.
+
+## Combo 997-5961--5
+Cards: Woe Strider + Uncivil Unrest
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 820 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite scry 1
+Requires: Persist Creature (battlefield: without a -1/-1 counter on it)
+Start: Woe Strider (battlefield); Uncivil Unrest (battlefield)
+Steps: Activate Woe Strider by sacrificing the persist creature.
+  When the persist creature dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to Uncivil Unrest
+  Resolve the Woe Strider ability.
+  Repeat
+
+## Combo 997-6247-6249--5
+Cards: Olivia, Mobilized for War + Woe Strider + High-Society Hunter
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
+Produces: Infinite looting; Near-infinite creature ETB; Infinite draw triggers; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers; Infinite self-discard triggers
+Requires: Persist Creature (battlefield)
+Start: Olivia, Mobilized for War (battlefield); Woe Strider (battlefield); High-Society Hunter (battlefield)
+Prerequisites: The persist creature does not have a -1/-1 counter on it.
+Steps: Activate Woe Strider by sacrificing the persist creature.
+  When the persist creature dies, it and High-Society Hunter trigger.
+  Resolve the High-Society Hunter trigger, causing you to draw a card.
+  Resolve the persist creature's trigger, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
+  When the persist creature enters the battlefield, Olivia triggers, putting a +1/+1 counter on the persist creature and causing you to discard a card.
+  Resolve the Woe Strider ability.
+  Repeat.
+
+## Combo 997-6249-7256--5
+Cards: Olivia, Mobilized for War + Woe Strider + Warhost's Frenzy
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{B}{R}
+Produces: Infinite looting; Infinite draw triggers; Infinite self-discard triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
+Requires: Persist Creature (battlefield)
+Start: Olivia, Mobilized for War (battlefield); Woe Strider (battlefield); Warhost's Frenzy (battlefield)
+Prerequisites: The persist creature does not have a -1/-1 counter on it.
+Steps: Cast Warhost's Frenzy with kicker by paying {2}{B}{R}.
+  Activate Woe Strider by sacrificing the persist creature.
+  When the persist creature dies, it and Warhost's Frenzy trigger.
+  Resolve the Warhost's Frenzy trigger, causing you to draw a card.
+  Resolve the persist creature's trigger, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
+  When the persist creature enters the battlefield, Olivia triggers, putting a +1/+1 counter on the persist creature and causing you to discard a card.
+  Resolve the Woe Strider ability.
+  Repeat from step 2
+
 ## Combo 1003-2099-2173-5220
 Cards: Mortuary + Phyrexian Walker + Sarcatog + Bolas's Citadel
 Color identity: BR | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal
@@ -2115,7 +2170,7 @@ Steps: Activate Phyrexian Altar by sacrificing Bloodsoaked Champion, adding {B}.
 
 ## Combo 1263-4556-4871-5147
 Cards: Blight Mound + Goblin Bombardment + Bloodsoaked Champion + Pitiless Plunderer
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 58 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 57 | Commander: legal
 Produces: Infinite damage; Infinite lifegain; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
 Start: Blight Mound (battlefield); Goblin Bombardment (battlefield); Bloodsoaked Champion (graveyard); Pitiless Plunderer (battlefield)
 Prerequisites: You have attacked this turn.
@@ -2147,7 +2202,7 @@ Steps: Activate Goblin Bombardment by sacrificing Bloodsoaked Champion.
 
 ## Combo 1263-4871-5075-5147
 Cards: Goblin Bombardment + Bloodsoaked Champion + Pitiless Plunderer + Ogre Slumlord
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 87 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal
 Produces: Infinite damage; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Goblin Bombardment (battlefield); Bloodsoaked Champion (graveyard); Pitiless Plunderer (battlefield); Ogre Slumlord (battlefield)
 Prerequisites: You have attacked this turn.
@@ -3135,7 +3190,7 @@ Steps: At the beginning of your combat phase, Ayara triggers, returning Scourge 
 
 ## Combo 1405-2292-2923
 Cards: Ayara, Widow of the Realm // Ayara, Furnace Queen + Scourge of the Throne + Viscera Seer
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 82 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 81 | Commander: legal
 Produces: Infinite combat phases; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Start: Ayara, Widow of the Realm // Ayara, Furnace Queen (battlefield); Scourge of the Throne (graveyard); Viscera Seer (battlefield)
 Prerequisites: An opponent's life total is higher than or equal to your life total.
@@ -3191,7 +3246,7 @@ Steps: At the beginning of your combat phase, Ayara triggers, returning Scourge 
 
 ## Combo 1405-2923-3967
 Cards: Ayara, Widow of the Realm // Ayara, Furnace Queen + Scourge of the Throne + Yahenni, Undying Partisan
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal
 Produces: Infinite combat phases; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Ayara, Widow of the Realm // Ayara, Furnace Queen (battlefield); Scourge of the Throne (graveyard); Yahenni, Undying Partisan (battlefield)
 Prerequisites: An opponent's life total is higher than or equal to your life total.
@@ -4331,7 +4386,7 @@ Steps: Activate Yawgmoth by paying 1 life and sacrificing the undying creature.
 
 ## Combo 1537-1785-5003
 Cards: Soldevi Adnate + Nim Deathmantle + Zealous Conscripts
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 66 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 67 | Commander: legal
 Produces: Infinite black mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Soldevi Adnate (battlefield); Nim Deathmantle (battlefield); Zealous Conscripts (battlefield)
 Prerequisites: Soldevi Adnate does not have summoning sickness.
@@ -4392,7 +4447,7 @@ Steps: Activate Luxurious Locomotive's crew ability by tapping seven creatures y
 
 ## Combo 1548-2292-4897
 Cards: Olivia, Crimson Bride + Port Razer + Viscera Seer
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 340 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 350 | Commander: legal
 Produces: Infinite combat phases; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite scry 1
 Start: Olivia, Crimson Bride (battlefield); Port Razer (graveyard); Viscera Seer (battlefield)
 Prerequisites: Olivia does not have summoning sickness.
@@ -4643,7 +4698,7 @@ Steps: Cast Peer into the Abyss by paying {4}{B}{B}{B}, causing an opponent to d
 
 ## Combo 1569-2232-2983-3806
 Cards: Sethron, Hurloon General + Cloudstone Curio + Ragemonger + Wee Champion
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Sethron, Hurloon General (battlefield); Cloudstone Curio (battlefield); Ragemonger (battlefield); Wee Champion (hand)
 Steps: Cast Wee Champion by paying {0} due to Ragemonger.
@@ -5003,7 +5058,7 @@ Steps: Activate Goblin Bombardment by sacrificing Reassembling Skeleton.
 
 ## Combo 1580-4871-5231
 Cards: Pitiless Plunderer + Reassembling Skeleton + Thermopod
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 300 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 290 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Pitiless Plunderer (battlefield); Reassembling Skeleton (graveyard); Thermopod (battlefield)
 Steps: Activate Thermopod by sacrificing Reassembling Skeleton, adding {R}.
@@ -5142,7 +5197,7 @@ Steps: Deal damage to Barbed Servitor
 
 ## Combo 1640-4083-5356
 Cards: Repercussion + Barbed Servitor + Pariah's Shield
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 380 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 370 | Commander: legal
 Produces: Infinite lifeloss
 Start: Repercussion (battlefield); Barbed Servitor (battlefield); Pariah's Shield (battlefield: attached to Barbed Servitor)
 Prerequisites: You have a way to deal damage to Barbed Servitor.
@@ -5537,7 +5592,7 @@ Steps: Activate Chthonian Nightmare by paying at most {E}{E}{E}, sacrificing Pat
 
 ## Combo 1656-3358-4068
 Cards: Hell's Caretaker + Necrotic Ooze + Anger
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 23 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 24 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Hell's Caretaker (graveyard); Necrotic Ooze (battlefield); Anger (graveyard)
 Prerequisites: You control a Mountain.
@@ -5591,7 +5646,7 @@ Steps: Activate Phyrexian Altar by sacrificing Puppeteer Clique, adding one mana
 
 ## Combo 1657-5805
 Cards: Murderous Redcap + Gev, Scaled Scorch
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 7600 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 7700 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite death triggers
 Start: Murderous Redcap (hand); Gev, Scaled Scorch (battlefield)
 Prerequisites: An opponent has lost life this turn.
@@ -5817,7 +5872,7 @@ Notes: Once you have two or less opponents, the combo no longer makes enough lif
 
 ## Combo 1699-7839
 Cards: Smaug the Impenetrable + Scourge of Kher Ridges
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 53 | Commander: legal | Mana needed: {5}{R}
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 52 | Commander: legal | Mana needed: {5}{R}
 Produces: Infinite damage to some creatures; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
 Start: Smaug the Impenetrable (battlefield); Scourge of Kher Ridges (battlefield)
 Steps: Activate Scourge of Kher Ridges by paying {5}{R}, dealing 6 damage to each other creature with flying.
@@ -5866,7 +5921,7 @@ Steps: Activate Relic of Legends's second ability by tapping an untapped legenda
 
 ## Combo 1707-7839
 Cards: Smaug the Impenetrable + Last Laugh
-Color identity: BR | Bracket: 4+ (Ruthless) | Popularity: 850 | Commander: legal
+Color identity: BR | Bracket: 4+ (Ruthless) | Popularity: 840 | Commander: legal
 Produces: Near-infinite damage to all players; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Near-infinite damage to creatures
 Start: Smaug the Impenetrable (battlefield); Last Laugh (battlefield)
 Prerequisites: You control a Treasure.
@@ -6016,7 +6071,7 @@ Steps: Activate Lord of the Forsaken by paying 1 life.
 
 ## Combo 1751-2373
 Cards: Storm King's Thunder + Phyresis Outbreak
-Color identity: BR | Bracket: 2+ (Core) | Popularity: 36 | Commander: legal | Mana needed: {11}{B}{R}{R}{R}
+Color identity: BR | Bracket: 2+ (Core) | Popularity: 37 | Commander: legal | Mana needed: {11}{B}{R}{R}{R}
 Produces: Each opponent loses the game
 Start: Storm King's Thunder (hand); Phyresis Outbreak (hand)
 Steps: Cast Storm King's Thunder by paying {9}{R}{R}{R}, copying the next instant or sorcery spell you cast nine times.
@@ -6040,7 +6095,7 @@ Steps: Cast Storm King's Thunder by paying {9}{R}{R}{R}, copying the next instan
 
 ## Combo 1777-3368
 Cards: Burnt Offering + Reiterate
-Color identity: BR | Bracket: 2-3+ (Oddball) | Popularity: 1200 | Commander: legal | Mana needed: {4}{B}{R}{R}
+Color identity: BR | Bracket: 2-3+ (Oddball) | Popularity: 1300 | Commander: legal | Mana needed: {4}{B}{R}{R}
 Produces: Infinite black mana; Infinite red mana; Infinite magecraft triggers; Infinite storm count
 Start: Burnt Offering (hand); Reiterate (hand)
 Prerequisites: You control a creature with mana value seven or greater.
@@ -6823,7 +6878,7 @@ Steps: Activate Epitaph Golem by paying {2}, putting Orcish Bowmasters on the bo
 
 ## Combo 1799-2034-5359-5496
 Cards: Grenzo, Dungeon Warden + Threefold Thunderhulk + Ashnod's Altar + Tomb Trawler
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 390 | Commander: legal | Mana needed: {4}
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 400 | Commander: legal | Mana needed: {4}
 Produces: Infinite colorless mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Grenzo, Dungeon Warden (battlefield); Threefold Thunderhulk (battlefield); Ashnod's Altar (battlefield); Tomb Trawler (battlefield)
 Steps: Activate Tomb Trawler by paying {2}, putting Threefold Thunderhulk on the bottom of your library from your graveyard.
@@ -7561,7 +7616,7 @@ Steps: Activate Kuro by paying 1 life.
 
 ## Combo 1844-4691-5919
 Cards: Razorkin Needlehead + Vilis, Broker of Blood + Fateful Handoff
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 48 | Commander: legal | Mana needed: {3}{B}
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal | Mana needed: {3}{B}
 Produces: Target opponent loses the game; Infinite card draw for target opponent; Near-infinite damage to one opponent; Infinite draw triggers for target opponent
 Start: Razorkin Needlehead (battlefield); Vilis, Broker of Blood (battlefield); Fateful Handoff (hand)
 Prerequisites: Your deck size is at least nine.
@@ -8767,7 +8822,7 @@ Steps: Activate Luxurious Locomotive's crew ability by tapping five creatures yo
 
 ## Combo 2034-2173-2459-5220
 Cards: Mortuary + Ashnod's Altar + Bolas's Citadel + Rograkh, Son of Rohgahh
-Color identity: BR | Bracket: 3+ (Powerful) | Popularity: 16 | Commander: legal
+Color identity: BR | Bracket: 3+ (Powerful) | Popularity: 15 | Commander: legal
 Produces: Infinite colorless mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Mortuary (battlefield); Ashnod's Altar (battlefield); Bolas's Citadel (battlefield); Rograkh, Son of Rohgahh (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Rograkh
@@ -8777,7 +8832,7 @@ Steps: Activate Ashnod's Altar by sacrificing Rograkh
 
 ## Combo 2034-2173-3558-5220
 Cards: Mortuary + Ashnod's Altar + Bolas's Citadel + Crookshank Kobolds
-Color identity: BR | Bracket: 3+ (Powerful) | Popularity: 12 | Commander: legal
+Color identity: BR | Bracket: 3+ (Powerful) | Popularity: 11 | Commander: legal
 Produces: Infinite colorless mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Mortuary (battlefield); Ashnod's Altar (battlefield); Bolas's Citadel (battlefield); Crookshank Kobolds (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Crookshank Kobolds
@@ -8787,7 +8842,7 @@ Steps: Activate Ashnod's Altar by sacrificing Crookshank Kobolds
 
 ## Combo 2034-2173-4336-5220
 Cards: Mortuary + Ashnod's Altar + Bolas's Citadel + Kobolds of Kher Keep
-Color identity: BR | Bracket: 3+ (Powerful) | Popularity: 14 | Commander: legal
+Color identity: BR | Bracket: 3+ (Powerful) | Popularity: 13 | Commander: legal
 Produces: Infinite colorless mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Mortuary (battlefield); Ashnod's Altar (battlefield); Bolas's Citadel (battlefield); Kobolds of Kher Keep (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Kobolds of Kher Keep
@@ -8933,7 +8988,7 @@ Steps: Cast Rograkh for {0}.
 
 ## Combo 2034-2393-4144
 Cards: Kuldotha Phoenix + Ashnod's Altar + Sifter of Skulls
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Kuldotha Phoenix (battlefield); Ashnod's Altar (battlefield); Sifter of Skulls (battlefield)
 Prerequisites: It is your upkeep step.
@@ -9078,7 +9133,7 @@ Steps: Cast Soul Collector by paying {3}{B}{B}.
 
 ## Combo 2034-2658-5003
 Cards: Nim Deathmantle + Ashnod's Altar + Charforger
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {2}
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {2}
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Charforger (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Charforger, adding {C}{C}.
@@ -9294,7 +9349,7 @@ Notes: You may repeat this loop whenever a creature enters the battlefield under
 
 ## Combo 2034-3490-4968
 Cards: Deathbringer Thoctar + Animation Module + Ashnod's Altar
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 82 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 81 | Commander: legal
 Produces: Infinite colorless mana; Infinite damage; Infinite +1/+1 counters on a creature; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Deathbringer Thoctar (battlefield); Animation Module (battlefield); Ashnod's Altar (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -9891,7 +9946,7 @@ Steps: Activate Ashnod's Altar by sacrificing the creature with persist, adding 
 
 ## Combo 2034-6247-6249--5
 Cards: Olivia, Mobilized for War + Ashnod's Altar + High-Society Hunter
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 85 | Commander: legal
 Produces: Near-infinite colorless mana; Infinite looting; Near-infinite creature ETB; Infinite draw triggers; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers; Infinite self-discard triggers
 Requires: Persist Creature (battlefield)
 Start: Olivia, Mobilized for War (battlefield); Ashnod's Altar (battlefield); High-Society Hunter (battlefield)
@@ -10367,7 +10422,7 @@ Steps: Activate Sarcatog by sacrificing another artifact creature.
 
 ## Combo 2105-2215-3337
 Cards: Fable of the Mirror-Breaker // Reflection of Kiki-Jiki + Combat Celebrant + Grim Hireling
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 530 | Commander: legal | Mana needed: {1}
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 520 | Commander: legal | Mana needed: {1}
 Produces: Infinite Treasure tokens; Infinite colored mana; Infinite combat phases; Infinite creature tokens with haste; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Fable of the Mirror-Breaker // Reflection of Kiki-Jiki (battlefield); Combat Celebrant (battlefield); Grim Hireling (battlefield)
 Prerequisites: Reflection of Kiki-Jiki does not have summoning sickness.
@@ -10479,7 +10534,7 @@ Steps: At the beginning of your combat phase, Ayara triggers, returning Combat C
 
 ## Combo 2105-2923-4050
 Cards: Ayara, Widow of the Realm // Ayara, Furnace Queen + Combat Celebrant + Phyrexian Altar
-Color identity: BR | Bracket: 3-4+ (Spicy) | Popularity: 100 | Commander: legal
+Color identity: BR | Bracket: 3-4+ (Spicy) | Popularity: 110 | Commander: legal
 Produces: Infinite colored mana; Infinite combat phases; Infinite mana creatures you control can produce; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite untap of creatures you control
 Start: Ayara, Widow of the Realm // Ayara, Furnace Queen (battlefield); Combat Celebrant (graveyard); Phyrexian Altar (battlefield)
 Steps: At the beginning of your combat phase, Ayara triggers, returning Combat Celebrant from your graveyard to the battlefield and giving it haste.
@@ -11067,7 +11122,7 @@ Notes: Assuming you control no other creatures with power 4 or greater, this com
 
 ## Combo 2152-3090-4691
 Cards: Vilis, Broker of Blood + Harmless Offering + Fate Unraveler
-Color identity: BR | Bracket: 3-4+ (Spicy) | Popularity: 72 | Commander: legal | Mana needed: {2}{R}
+Color identity: BR | Bracket: 3-4+ (Spicy) | Popularity: 73 | Commander: legal | Mana needed: {2}{R}
 Produces: Infinite card draw for target opponent; Infinite draw triggers for target opponent; Near-infinite damage to one opponent
 Start: Vilis, Broker of Blood (battlefield); Harmless Offering (hand); Fate Unraveler (battlefield)
 Steps: Cast Harmless Offering by paying {2}{R}, giving an opponent control of Vilis.
@@ -11078,7 +11133,7 @@ Steps: Cast Harmless Offering by paying {2}{R}, giving an opponent control of Vi
 
 ## Combo 2152-3769-4691
 Cards: Blim, Comedic Genius + Vilis, Broker of Blood + Fate Unraveler
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 48 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal
 Produces: Infinite card draw for target opponent; Infinite draw triggers for target opponent; Near-infinite damage to one opponent
 Start: Blim, Comedic Genius (battlefield); Vilis, Broker of Blood (battlefield); Fate Unraveler (battlefield)
 Prerequisites: Blim does not have summoning sickness and cannot be blocked and killed by an opponent.
@@ -11545,7 +11600,7 @@ Steps: Activate Phantom Train by sacrificing Rograkh
 
 ## Combo 2173-2459-5220-6798
 Cards: Mortuary + Umbral Collar Zealot + Bolas's Citadel + Rograkh, Son of Rohgahh
-Color identity: BR | Bracket: 3+ (Powerful) | Popularity: 2 | Commander: legal
+Color identity: BR | Bracket: 3+ (Powerful) | Popularity: 3 | Commander: legal
 Produces: Infinite surveil; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Mortuary (battlefield); Umbral Collar Zealot (battlefield); Bolas's Citadel (battlefield); Rograkh, Son of Rohgahh (battlefield)
 Steps: Activate Umbral Collar Zealot by sacrificing Rograkh
@@ -11759,7 +11814,7 @@ Steps: Activate Phantom Train by sacrificing Crookshank Kobolds
 
 ## Combo 2173-3558-5220-6798
 Cards: Mortuary + Umbral Collar Zealot + Bolas's Citadel + Crookshank Kobolds
-Color identity: BR | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal
+Color identity: BR | Bracket: 3+ (Powerful) | Popularity: 1 | Commander: legal
 Produces: Infinite surveil; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Mortuary (battlefield); Umbral Collar Zealot (battlefield); Bolas's Citadel (battlefield); Crookshank Kobolds (battlefield)
 Steps: Activate Umbral Collar Zealot by sacrificing Crookshank Kobolds
@@ -11955,7 +12010,7 @@ Steps: Activate Phantom Train by sacrificing Kobolds of Kher Keep
 
 ## Combo 2173-4336-5220-6798
 Cards: Mortuary + Umbral Collar Zealot + Bolas's Citadel + Kobolds of Kher Keep
-Color identity: BR | Bracket: 3+ (Powerful) | Popularity: 1 | Commander: legal
+Color identity: BR | Bracket: 3+ (Powerful) | Popularity: 2 | Commander: legal
 Produces: Infinite surveil; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Mortuary (battlefield); Umbral Collar Zealot (battlefield); Bolas's Citadel (battlefield); Kobolds of Kher Keep (battlefield)
 Steps: Activate Umbral Collar Zealot by sacrificing Kobolds of Kher Keep
@@ -12812,7 +12867,7 @@ Steps: Cast Changeling Outcast by paying {B}.
 
 ## Combo 2232-2983-3806-4466
 Cards: Sethron, Hurloon General + Cloudstone Curio + Ragemonger + Slaughter-Priest of Mogis
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 93 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 92 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Sethron, Hurloon General (battlefield); Cloudstone Curio (battlefield); Ragemonger (battlefield); Slaughter-Priest of Mogis (hand)
 Steps: Cast Slaughter-Priest of Mogis by paying {0} due to Ragemonger.
@@ -12924,7 +12979,7 @@ Steps: Cast Afterlife from the Loam by paying at most {5}{B}{B}{B}, returning Ar
 
 ## Combo 2240-4829-5147-5220
 Cards: _____ Goblin + Mortuary + Conspicuous Snoop + Goblin Bombardment
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {2}{R}
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {2}{R}
 Produces: Infinite damage; Infinite red mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: _____ Goblin (battlefield); Mortuary (battlefield); Conspicuous Snoop (battlefield); Goblin Bombardment (battlefield)
 Prerequisites: At least eight of your ten sticker sheets have a name sicker with four unique vowels.
@@ -13660,7 +13715,7 @@ Steps: Activate Goblin Warrens by paying {2}{R} and sacrificing two Goblins.
 
 ## Combo 2323-3490-4050
 Cards: Body Dropper + Animation Module + Phyrexian Altar
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Body Dropper (battlefield); Animation Module (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -13855,7 +13910,7 @@ Steps: Gain life.
 
 ## Combo 2393-2738-4871-5147
 Cards: Tenacious Dead + Pitiless Plunderer + Goblin Bombardment + Sifter of Skulls
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 69 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 68 | Commander: legal
 Produces: Infinite colored mana; Infinite damage; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Tenacious Dead (battlefield); Pitiless Plunderer (battlefield); Goblin Bombardment (battlefield); Sifter of Skulls (battlefield)
 Steps: Activate Goblin Bombardment by sacrificing Tenacious Dead.
@@ -13886,7 +13941,7 @@ Steps: Activate Blood Pet by sacrificing it, adding {B}.
 
 ## Combo 2393-4050-4516
 Cards: The Balrog, Durin's Bane + Phyrexian Altar + Sifter of Skulls
-Color identity: BR | Bracket: 2-3+ (Oddball) | Popularity: 46 | Commander: legal | Mana needed: {B}{R}
+Color identity: BR | Bracket: 2-3+ (Oddball) | Popularity: 47 | Commander: legal | Mana needed: {B}{R}
 Produces: Infinite commander casts; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: The Balrog, Durin's Bane (command zone: must be your commander); Phyrexian Altar (battlefield); Sifter of Skulls (battlefield)
 Prerequisites: There have been a number of permanents sacrificed this turn equal to five plus The Balrog's commander tax.
@@ -14508,7 +14563,7 @@ Steps: Activate a Treasure by tapping and sacrificing it, adding {R}.
 
 ## Combo 2438-4871-8168
 Cards: Pitiless Plunderer + Draconic Visitor + Carrion Feeder
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Pitiless Plunderer (battlefield); Draconic Visitor (battlefield); Carrion Feeder (battlefield)
 Prerequisites: You control another creature.
@@ -14647,7 +14702,7 @@ Steps: Activate Carrion Feeder by sacrificing the creature with persist.
 
 ## Combo 2438-5961--5
 Cards: Carrion Feeder + Uncivil Unrest
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 5800 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 5900 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Requires: Persist Creature (battlefield: without a -1/-1 counter on it)
 Start: Carrion Feeder (battlefield); Uncivil Unrest (battlefield)
@@ -14827,7 +14882,7 @@ Steps: Activate Thermopod by sacrificing a nontoken Dragon with mana value 8 or 
 
 ## Combo 2440-8159
 Cards: Ingris Stingerquill + Mana Echoes
-Color identity: BR | Bracket: 3-4+ (Spicy) | Popularity: 520 | Commander: legal | Mana needed: {4}
+Color identity: BR | Bracket: 3-4+ (Spicy) | Popularity: 530 | Commander: legal | Mana needed: {4}
 Produces: Infinite colorless mana; Infinite creature tokens with haste; Infinite damage; Infinite creature ETB
 Start: Ingris Stingerquill (battlefield); Mana Echoes (battlefield)
 Prerequisites: You control three in any combination of Wizards and/or Soldiers.
@@ -15035,7 +15090,7 @@ Steps: Cast Phyrexian Dreadnought from the top of your library by paying 1 life.
 
 ## Combo 2484-2615-3041
 Cards: Tree of Perdition + Blasphemous Act + Coalhauler Swine
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 24 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal
 Produces: Target opponent loses the game
 Start: Tree of Perdition (battlefield); Blasphemous Act (hand); Coalhauler Swine (battlefield)
 Prerequisites: Tree of Perdition does not have summoning sickness.
@@ -15538,7 +15593,7 @@ Steps: Activate Bloodflow Connoisseur by sacrificing the creature with persist.
 
 ## Combo 2511-5961--5
 Cards: Bloodflow Connoisseur + Uncivil Unrest
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 1400 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 1500 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Requires: Persist Creature (battlefield: without a -1/-1 counter on it)
 Start: Bloodflow Connoisseur (battlefield); Uncivil Unrest (battlefield)
@@ -16479,7 +16534,7 @@ Steps: Activate Heartless HIdetsugu by tapping it, dealing damage to each player
 
 ## Combo 2607-3485
 Cards: Havoc Festival + Archfiend of Despair
-Color identity: BR | Bracket: 4+ (Ruthless) | Popularity: 1800 | Commander: legal
+Color identity: BR | Bracket: 4+ (Ruthless) | Popularity: 1700 | Commander: legal
 Produces: Each opponent loses the game; Near-infinite lifeloss
 Start: Havoc Festival (battlefield); Archfiend of Despair (battlefield)
 Steps: At the beginning of each opponent's upkeep, Havoc Festival triggers, causing them to lose half their life total, rounded up.
@@ -16500,7 +16555,7 @@ Steps: Activate Tree of Perdition, exchanging target opponent's life total with 
 
 ## Combo 2615-3041-4150
 Cards: Tree of Perdition + Shivan Meteor + Coalhauler Swine
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {3}{R}{R}
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal | Mana needed: {3}{R}{R}
 Produces: Target opponent loses the game
 Start: Tree of Perdition (battlefield); Shivan Meteor (hand); Coalhauler Swine (battlefield)
 Prerequisites: Tree of Perdition does not have summoning sickness.
@@ -16545,7 +16600,7 @@ Notes: Regardless of the opponent's life total, they will go down to 0 or less l
 
 ## Combo 2615-3799-4150
 Cards: Stuffy Doll + Shivan Meteor + Tree of Perdition
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal | Mana needed: {3}{R}{R}
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal | Mana needed: {3}{R}{R}
 Produces: Target player loses the game
 Start: Stuffy Doll (battlefield); Shivan Meteor (hand); Tree of Perdition (battlefield)
 Prerequisites: Tree of Perdition does not have summoning sickness.
@@ -16850,7 +16905,7 @@ Steps: Cast Harmless Offering by paying {2}{R}, giving an opponent control of Vi
 
 ## Combo 2720-3769-4691
 Cards: Blim, Comedic Genius + Vilis, Broker of Blood + Underworld Dreams
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 74 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 75 | Commander: legal
 Produces: Infinite card draw for target opponent; Infinite draw triggers for target opponent; Near-infinite damage to one opponent
 Start: Blim, Comedic Genius (battlefield); Vilis, Broker of Blood (battlefield); Underworld Dreams (battlefield)
 Prerequisites: Blim does not have summoning sickness and cannot be blocked and killed by an opponent.
@@ -16862,7 +16917,7 @@ Steps: Attack with Blim, dealing combat damage to an opponent.
 
 ## Combo 2721-4050-4313
 Cards: Bloodline Necromancer + Flameshadow Conjuring + Phyrexian Altar
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal | Mana needed: {4}{B}
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal | Mana needed: {4}{B}
 Produces: Infinite colored mana; Infinite creature tokens with haste; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Return some creature cards from your graveyard to the battlefield
 Start: Bloodline Necromancer (hand); Flameshadow Conjuring (battlefield); Phyrexian Altar (battlefield)
 Steps: Cast Bloodline Necromancer by paying {4}{B}.
@@ -16978,7 +17033,7 @@ Steps: Activate Goblin Bombardment by sacrificing Tenacious Dead.
 
 ## Combo 2738-4556-4871-5147
 Cards: Tenacious Dead + Pitiless Plunderer + Goblin Bombardment + Blight Mound
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
 Produces: Infinite colored mana; Infinite damage; Infinite lifegain; Infinite lifegain triggers; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Tenacious Dead (battlefield); Pitiless Plunderer (battlefield); Goblin Bombardment (battlefield); Blight Mound (battlefield)
 Steps: Activate Goblin Bombardment by sacrificing Tenacious Dead.
@@ -17708,7 +17763,7 @@ Steps: Activate Phyrexian Altar by sacrificing Cult Conscript, adding {B}.
 
 ## Combo 2946-4556-4871-5147
 Cards: Blight Mound + Goblin Bombardment + Cult Conscript + Pitiless Plunderer
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 59 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 58 | Commander: legal
 Produces: Infinite damage; Infinite lifegain; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
 Start: Blight Mound (battlefield); Goblin Bombardment (battlefield); Cult Conscript (graveyard); Pitiless Plunderer (battlefield)
 Prerequisites: A non-Skeleton creature has died under your control this turn.
@@ -18306,7 +18361,7 @@ Steps: Cast Harmless Offering by paying {2}{R}, giving an opponent control of Vi
 
 ## Combo 3090-4691-5165
 Cards: Vilis, Broker of Blood + Ob Nixilis, the Hate-Twisted + Harmless Offering
-Color identity: BR | Bracket: 3-4+ (Spicy) | Popularity: 41 | Commander: legal | Mana needed: {2}{R}
+Color identity: BR | Bracket: 3-4+ (Spicy) | Popularity: 42 | Commander: legal | Mana needed: {2}{R}
 Produces: Infinite card draw for target opponent; Infinite draw triggers for target opponent; Near-infinite damage to one opponent
 Start: Vilis, Broker of Blood (battlefield); Ob Nixilis, the Hate-Twisted (battlefield); Harmless Offering (hand)
 Steps: Donate control of Vilis to an opponent using Harmless Offering
@@ -18317,7 +18372,7 @@ Steps: Donate control of Vilis to an opponent using Harmless Offering
 
 ## Combo 3090-4691-5919
 Cards: Razorkin Needlehead + Vilis, Broker of Blood + Harmless Offering
-Color identity: BR | Bracket: 3-4+ (Spicy) | Popularity: 98 | Commander: legal | Mana needed: {2}{R}
+Color identity: BR | Bracket: 3-4+ (Spicy) | Popularity: 99 | Commander: legal | Mana needed: {2}{R}
 Produces: Target opponent loses the game; Infinite card draw for target opponent; Near-infinite damage to one opponent; Infinite draw triggers for target opponent
 Start: Razorkin Needlehead (battlefield); Vilis, Broker of Blood (battlefield); Harmless Offering (hand)
 Steps: Cast Harmless Offering by paying {2}{R}, giving control of Vilis to an opponent.
@@ -19317,7 +19372,7 @@ Steps: Kill the nontoken creature with haste that does not have Breath of Fury a
 
 ## Combo 3259-4653
 Cards: Breath of Fury + Lagomos, Hand of Hatred
-Color identity: BR | Bracket: 3-4+ (Spicy) | Popularity: 2000 | Commander: legal
+Color identity: BR | Bracket: 3-4+ (Spicy) | Popularity: 1900 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite mana creatures you control can produce; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite untap of creatures you control
 Start: Breath of Fury (battlefield: attached to any other creature you control that does not have summoning sickness); Lagomos, Hand of Hatred (battlefield)
 Prerequisites: An opponent cannot block creatures you control.
@@ -19392,7 +19447,7 @@ Steps: Deal combat damage using the creature that has Breath of Fury attached an
 
 ## Combo 3259-4897
 Cards: Olivia, Crimson Bride + Breath of Fury
-Color identity: BR | Bracket: 3-4+ (Spicy) | Popularity: 510 | Commander: legal
+Color identity: BR | Bracket: 3-4+ (Spicy) | Popularity: 500 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite mana creatures you control can produce; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite untap of creatures you control
 Start: Olivia, Crimson Bride (battlefield); Breath of Fury (battlefield)
 Prerequisites: Breath of Fury attached to another nontoken creature you control that has haste.
@@ -20176,7 +20231,7 @@ Steps: Cast Hellkite Courser by paying {4}{R}{R}.
 
 ## Combo 3362-4881
 Cards: Bladewing the Risen + Activated Sleeper
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 80 | Commander: legal | Mana needed: {2}{B}
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 79 | Commander: legal | Mana needed: {2}{B}
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB
 Start: Bladewing the Risen (battlefield); Activated Sleeper (hand)
 Prerequisites: You have a way to kill Bladewing the Risen.
@@ -20189,7 +20244,7 @@ Steps: Kill Bladewing.
 
 ## Combo 3362-5291
 Cards: Bladewing the Risen + Cursed Mirror
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 2200 | Commander: legal | Mana needed: {2}{R}
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 2300 | Commander: legal | Mana needed: {2}{R}
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB
 Start: Bladewing the Risen (battlefield); Cursed Mirror (hand)
 Steps: Cast Cursed Mirror by paying {2}{R}, choosing to have it enter the battlefield as a copy of Bladewing with haste.
@@ -20559,7 +20614,7 @@ Notes: You may repeat this loop whenever a creature enters the battlefield under
 
 ## Combo 3490-4050-4968
 Cards: Deathbringer Thoctar + Animation Module + Phyrexian Altar
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 28 | Commander: legal
 Produces: Infinite damage; Infinite +1/+1 counters on a creature; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Deathbringer Thoctar (battlefield); Animation Module (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -20607,7 +20662,7 @@ Notes: You may repeat this loop whenever a creature enters the battlefield under
 
 ## Combo 3490-4659-4968
 Cards: Deathbringer Thoctar + Animation Module + Krark-Clan Ironworks
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
 Produces: Infinite colorless mana; Infinite damage; Infinite +1/+1 counters on a creature; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Deathbringer Thoctar (battlefield); Animation Module (battlefield); Krark-Clan Ironworks (battlefield)
 Prerequisites: You control at least one additional artifact.
@@ -21104,7 +21159,7 @@ Notes: You can repeat this loop with any number of additional creatures. This wi
 
 ## Combo 3593-4359-5231
 Cards: Garna, the Bloodflame + Sneak Attack + Thermopod
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 62 | Commander: legal | Mana needed: {R}
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 63 | Commander: legal | Mana needed: {R}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite blinking
 Start: Garna, the Bloodflame (hand); Sneak Attack (battlefield); Thermopod (battlefield)
 Steps: Activate Sneak Attack by paying {R}, putting Garna from your hand onto the battlefield.
@@ -21672,7 +21727,7 @@ Steps: Donate control of Avacyn to an opponent using Bazaar Trader.
 
 ## Combo 3764-4871-5147
 Cards: Summoning Station + Pitiless Plunderer + Goblin Bombardment
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 56 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 55 | Commander: legal
 Produces: Infinite damage; Infinite colored mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Summoning Station (battlefield); Pitiless Plunderer (battlefield); Goblin Bombardment (battlefield)
 Steps: Activate Summoning Station by tapping it, creating a 2/2 Pincher creature token.
@@ -21685,7 +21740,7 @@ Steps: Activate Summoning Station by tapping it, creating a 2/2 Pincher creature
 
 ## Combo 3764-4871-5231
 Cards: Summoning Station + Pitiless Plunderer + Thermopod
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
 Produces: Infinite colored mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Summoning Station (battlefield); Pitiless Plunderer (battlefield); Thermopod (battlefield)
 Steps: Activate Summoning Station by tapping it, creating a 2/2 Pincher creature token.
@@ -21697,7 +21752,7 @@ Steps: Activate Summoning Station by tapping it, creating a 2/2 Pincher creature
 
 ## Combo 3764-4871-6495
 Cards: Summoning Station + Pitiless Plunderer + Evereth, Viceroy of Plunder
-Color identity: BR | Bracket: 3-4+ (Spicy) | Popularity: 48 | Commander: legal
+Color identity: BR | Bracket: 3-4+ (Spicy) | Popularity: 49 | Commander: legal
 Produces: Infinite colored mana; Infinite damage; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Summoning Station (battlefield); Pitiless Plunderer (battlefield); Evereth, Viceroy of Plunder (battlefield)
 Steps: Activate Summoning Station by tapping it, creating a 2/2 Pincher creature token.
@@ -21785,7 +21840,7 @@ Steps: Attack with Blim, dealing combat damage to an opponent.
 
 ## Combo 3769-4691-5165
 Cards: Vilis, Broker of Blood + Ob Nixilis, the Hate-Twisted + Blim, Comedic Genius
-Color identity: BR | Bracket: 3-4+ (Spicy) | Popularity: 24 | Commander: legal
+Color identity: BR | Bracket: 3-4+ (Spicy) | Popularity: 25 | Commander: legal
 Produces: Infinite card draw for target opponent; Infinite draw triggers for target opponent; Near-infinite damage to one opponent
 Start: Vilis, Broker of Blood (battlefield); Ob Nixilis, the Hate-Twisted (battlefield); Blim, Comedic Genius (battlefield)
 Prerequisites: Blim does not have summoning sickness and cannot be blocked by an opponent.
@@ -21797,7 +21852,7 @@ Steps: Donate control of Vilis to an opponent using Blim
 
 ## Combo 3769-4691-5919
 Cards: Razorkin Needlehead + Vilis, Broker of Blood + Blim, Comedic Genius
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 52 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 53 | Commander: legal
 Produces: Target opponent loses the game; Infinite card draw for target opponent; Near-infinite damage to one opponent; Infinite draw triggers for target opponent
 Start: Razorkin Needlehead (battlefield); Vilis, Broker of Blood (battlefield); Blim, Comedic Genius (battlefield)
 Prerequisites: Blim does not have summoning sickness and cannot be blocked by an opponent.
@@ -22041,7 +22096,7 @@ Steps: Use Bazaar Trader to give Blightbeetle to an opponent
 
 ## Combo 3899-5805--5
 Cards: Spawning Pit + Gev, Scaled Scorch
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 500 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 510 | Commander: legal
 Produces: Infinite charge counters on a permanent; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Spawning Pit (battlefield); Gev, Scaled Scorch (battlefield)
@@ -22289,7 +22344,7 @@ Steps: Activate a Treasure by tapping and sacrificing it, adding {R}.
 
 ## Combo 3967-4871-8168
 Cards: Pitiless Plunderer + Draconic Visitor + Yahenni, Undying Partisan
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 23 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 24 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Pitiless Plunderer (battlefield); Draconic Visitor (battlefield); Yahenni, Undying Partisan (battlefield)
 Prerequisites: You control another creature.
@@ -22583,7 +22638,7 @@ Steps: Cast The Balrog from the command zone by paying {B}{R}.
 
 ## Combo 4050-4516-4871
 Cards: The Balrog, Durin's Bane + Phyrexian Altar + Pitiless Plunderer
-Color identity: BR | Bracket: 2-3+ (Oddball) | Popularity: 390 | Commander: legal | Mana needed: {B}{R}
+Color identity: BR | Bracket: 2-3+ (Oddball) | Popularity: 400 | Commander: legal | Mana needed: {B}{R}
 Produces: Infinite commander casts; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: The Balrog, Durin's Bane (command zone: must be your commander); Phyrexian Altar (battlefield); Pitiless Plunderer (battlefield)
 Prerequisites: There have been a number of permanents sacrificed this turn equal to five plus The Balrog's commander tax.
@@ -22744,7 +22799,7 @@ Steps: Cast Afterlife from the Loam by paying at most {5}{B}{B}{B}, returning Th
 
 ## Combo 4050-4871-8168
 Cards: Pitiless Plunderer + Draconic Visitor + Phyrexian Altar
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 87 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 88 | Commander: legal
 Produces: Infinite colored mana; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Pitiless Plunderer (battlefield); Draconic Visitor (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: You control another creature.
@@ -23353,7 +23408,7 @@ Steps: Activate Bloodthrone Vampire by sacrificing the persist creature.
 
 ## Combo 4247-5961--5
 Cards: Bloodthrone Vampire + Uncivil Unrest
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 130 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 140 | Commander: legal
 Produces: Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Bloodthrone Vampire (battlefield); Uncivil Unrest (battlefield)
@@ -24049,7 +24104,7 @@ Steps: Activate Thermopod by sacrificing Metamorphosis Fanatic.
 
 ## Combo 4447-4691-5919
 Cards: Vilis, Broker of Blood + Assault Suit + Razorkin Needlehead
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 32 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 33 | Commander: legal
 Produces: Near-infinite damage; Each opponent loses the game; Infinite card draw for each opponent; Infinite draw triggers for each opponent
 Start: Vilis, Broker of Blood (battlefield); Assault Suit (hand); Razorkin Needlehead (battlefield)
 Prerequisites: Assault Suit attached to Vilis.
@@ -24574,7 +24629,7 @@ Steps: Activate Workhorse using Pack Rat's ability by paying {3} and discarding 
 
 ## Combo 4613-4968-5338
 Cards: Agatha's Soul Cauldron + Francisco, Fowl Marauder + Deathbringer Thoctar
-Color identity: BR | Bracket: 3-4+ (Spicy) | Popularity: 10 | Commander: legal
+Color identity: BR | Bracket: 3-4+ (Spicy) | Popularity: 9 | Commander: legal
 Produces: Infinite damage
 Start: Agatha's Soul Cauldron (battlefield); Francisco, Fowl Marauder (battlefield); Deathbringer Thoctar (exile)
 Prerequisites: Francisco has a +1/+1 counter on it.
@@ -24662,7 +24717,7 @@ Steps: Activate Krark-Clan Ironworks by sacrificing the nontoken artifact creatu
 
 ## Combo 4691-5541-5919
 Cards: Razorkin Needlehead + Vilis, Broker of Blood + Bazaar Trader
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal | Mana needed: {2}{U}
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 50 | Commander: legal | Mana needed: {2}{U}
 Produces: Target opponent loses the game; Infinite card draw for target opponent; Near-infinite damage to one opponent; Infinite draw triggers for target opponent
 Start: Razorkin Needlehead (battlefield); Vilis, Broker of Blood (battlefield); Bazaar Trader (battlefield)
 Prerequisites: Bazaar Trader does not have summoning sickness.
@@ -24905,7 +24960,7 @@ Steps: Activate Umbral Collar Zealot by sacrificing Shambling Ghast.
 
 ## Combo 4871-5184-5626
 Cards: Chthonian Nightmare + Pitiless Plunderer + Xorn
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 770 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 760 | Commander: legal
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite energy counters; Infinite creature sacrifice triggers; Infinite storm count
 Start: Chthonian Nightmare (battlefield); Pitiless Plunderer (battlefield); Xorn (battlefield)
 Prerequisites: You control another nontoken creature.
@@ -24981,7 +25036,7 @@ Steps: Activate Umbral Collar Zealot by sacrificing the Goblin, Orc or Army
 
 ## Combo 4871-5231-5433
 Cards: Krenko, Baron of Tin Street + Pitiless Plunderer + Thermopod
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal
 Produces: Infinite colored mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Krenko, Baron of Tin Street (battlefield); Pitiless Plunderer (battlefield); Thermopod (battlefield)
 Prerequisites: You control at least one Treasure.
@@ -25050,7 +25105,7 @@ Steps: Activate Thermopod's second ability by sacrificing Undead Sprinter, addin
 
 ## Combo 4871-5231-6115
 Cards: Ozox, the Clattering King + Pitiless Plunderer + Thermopod
-Color identity: BR | Bracket: 3-4+ (Spicy) | Popularity: 27 | Commander: legal
+Color identity: BR | Bracket: 3-4+ (Spicy) | Popularity: 26 | Commander: legal
 Produces: Infinite colored mana; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Ozox, the Clattering King (battlefield); Pitiless Plunderer (battlefield); Thermopod (battlefield)
 Steps: Activate Thermopod's second ability by sacrificing Ozox, adding {R}.
@@ -25113,7 +25168,7 @@ Steps: Activate Thermopod by sacrificing another creature.
 
 ## Combo 4871-5256-5433
 Cards: Krenko, Baron of Tin Street + Pitiless Plunderer + Altar of Dementia
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 59 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 58 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Krenko, Baron of Tin Street (battlefield); Pitiless Plunderer (battlefield); Altar of Dementia (battlefield)
 Prerequisites: You control at least one Treasure.
@@ -25261,7 +25316,7 @@ Steps: Activate Phantom Train by sacrificing another creature.
 
 ## Combo 4871-6798-8168
 Cards: Pitiless Plunderer + Draconic Visitor + Umbral Collar Zealot
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 55 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 56 | Commander: legal
 Produces: Infinite surveil; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Pitiless Plunderer (battlefield); Draconic Visitor (battlefield); Umbral Collar Zealot (battlefield)
 Prerequisites: You control another creature.
@@ -26655,7 +26710,7 @@ Steps: Cast Chthonian Nightmare by paying {1}{B}.
 
 ## Combo 5184-7839-7926
 Cards: Smaug the Impenetrable + Xorn + Slag Strider
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal | Mana needed: {1}
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal | Mana needed: {1}
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
 Start: Smaug the Impenetrable (battlefield); Xorn (battlefield); Slag Strider (battlefield)
 Prerequisites: You control another creature or artifact.
@@ -26891,7 +26946,7 @@ Steps: Donate Blightbeetle to an opponent
 
 ## Combo 5231-5805--5
 Cards: Thermopod + Gev, Scaled Scorch
-Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 250 | Commander: legal
+Color identity: BR | Bracket: 1+ (Exhibition) | Popularity: 240 | Commander: legal
 Produces: Infinite red mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Thermopod (battlefield); Gev, Scaled Scorch (battlefield)

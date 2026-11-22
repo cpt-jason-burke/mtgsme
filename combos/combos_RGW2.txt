@@ -18,7 +18,7 @@ Steps: Activate Sunforger by paying {R}{W} and unattaching it, searching your li
 
 ## Combo 1990-8194-8195
 Cards: Dack Fayden, Helping Hand + Venser, Fervent Forger + Worldly Tutor
-Color identity: RGW | Bracket: 3+ (Powerful) | Popularity: 58 | Commander: legal | Mana needed: {4}{G}{W}{W}
+Color identity: RGW | Bracket: 3+ (Powerful) | Popularity: 61 | Commander: legal | Mana needed: {4}{G}{W}{W}
 Produces: Infinite creature tokens with haste; Infinite artifact tokens; Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Start: Dack Fayden, Helping Hand (hand); Venser, Fervent Forger (library); Worldly Tutor (hand)
 Steps: Cast Worldly Tutor by paying {G}, searching your library for Venser and revealing it, then shuffling your library and putting that card on top.
@@ -868,7 +868,7 @@ Notes: You can return all nonland permanents in your graveyard and library to th
 
 ## Combo 2034-3263-6871--183
 Cards: Toph, the First Metalbender + Ashnod's Altar + Mycosynth Lattice
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 680 | Commander: legal | Mana needed: {0} plus the cost of the creature that earthbends
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 690 | Commander: legal | Mana needed: {0} plus the cost of the creature that earthbends
 Produces: Infinite colored mana; Infinite colorless mana; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers; Infinite artifact ETB
 Requires: Creature that earthbends on entering (hand)
 Start: Toph, the First Metalbender (battlefield); Ashnod's Altar (battlefield); Mycosynth Lattice (battlefield)
@@ -880,7 +880,7 @@ Steps: Cast the earthbending creature by paying its mana cost, causing it to ent
 
 ## Combo 2034-3263-6871--211
 Cards: Toph, the First Metalbender + Ashnod's Altar + Mycosynth Lattice
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 680 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 690 | Commander: legal
 Produces: Infinite colored mana; Infinite colorless mana; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Requires: Creature with ETB: Earthbend (hand)
 Start: Toph, the First Metalbender (battlefield); Ashnod's Altar (battlefield); Mycosynth Lattice (battlefield)
@@ -1859,7 +1859,7 @@ Steps: Cast Storm Herd by paying {8}{W}{W}, causing you to create a number of 1/
 
 ## Combo 2070-3858
 Cards: Mayael's Aria + Ancient Imperiosaur
-Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 270 | Commander: legal
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 260 | Commander: legal
 Produces: Win the game at the beginning of your next upkeep
 Start: Mayael's Aria (battlefield); Ancient Imperiosaur (hand)
 Prerequisites: You control at least seven untapped creatures, two or which are green.
@@ -2506,7 +2506,7 @@ Steps: Cast a copy of Seething Song from exile by paying no more than {1}{R}, ad
 
 ## Combo 2154-8194-8195
 Cards: Dack Fayden, Helping Hand + Venser, Fervent Forger + Sylvan Tutor
-Color identity: RGW | Bracket: 2+ (Core) | Popularity: 13 | Commander: legal | Mana needed: {4}{G}{W}{W}
+Color identity: RGW | Bracket: 2+ (Core) | Popularity: 12 | Commander: legal | Mana needed: {4}{G}{W}{W}
 Produces: Infinite creature tokens with haste; Infinite artifact tokens; Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Start: Dack Fayden, Helping Hand (hand); Venser, Fervent Forger (library); Sylvan Tutor (hand)
 Steps: Cast Sylvan Tutor by paying {G}, searching your library for Venser and revealing it, then shuffling your library and putting that card on top.
@@ -2655,25 +2655,97 @@ Steps: Play Dark Depths, which enters with zero ice counters due to Solemnity.
   At the beginning of your next upkeep, Mayael's Aria triggers, causing you to gain ten life and win the game.
 
 ## Combo 2191-3090-6085
-Cards: Altanak, the Thrice-Called + Martyrdom + Harmless Offering
+Cards: Martyrdom + Harmless Offering + Altanak, the Thrice-Called
 Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal | Mana needed: {3}{R}{W}{W}
 Produces: Target opponent loses the game; Infinite card draw for target opponent; Infinite draw triggers for target opponent
-Start: Altanak, the Thrice-Called (battlefield); Martyrdom (hand); Harmless Offering (hand)
+Start: Martyrdom (hand); Harmless Offering (hand); Altanak, the Thrice-Called (battlefield)
 Steps: Cast Martyrdom by paying {1}{W}{W}, targeting Altanak.
-  Cast Harmless Offering by paying {2}{R}, giving control of Altanak to an opponent.
-  Activate Altanak an arbitrarily large number of times by paying {0}, targeting itself.
-  Altanak triggers that many times, causing an opponent to draw that many cards and lose the game due to drawing from an empty library.
+  Cast Harmless Offering by paying {2}{R}, causing target opponent to gain control of Altanak.
+  Activate the ability granted to Altanak by Martyrdom an arbitrarily large number of times by paying {0}, targeting itself.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 2191-3090-8144
+Cards: Martyrdom + Harmless Offering + Surrak, Elusive Hunter
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {3}{R}{W}{W}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Martyrdom (hand); Harmless Offering (hand); Surrak, Elusive Hunter (battlefield)
+Steps: Cast Martyrdom by paying {1}{W}{W}, targeting Surrak.
+  Cast Harmless Offering by paying {2}{R}, causing target opponent to gain control of Surrak.
+  Activate the ability granted to Surrak by Martyrdom an arbitrarily large number of times by paying {0}, targeting itself.
+  Surrak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 2191-3090-8411
+Cards: Martyrdom + Harmless Offering + Old Fat Spider
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {3}{R}{W}{W}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Martyrdom (hand); Harmless Offering (hand); Old Fat Spider (battlefield)
+Steps: Cast Martyrdom by paying {1}{W}{W}, targeting Old Fat Spider.
+  Cast Harmless Offering by paying {2}{R}, causing target opponent to gain control of Old Fat Spider.
+  Activate the ability granted to Old Fat Spider by Martyrdom an arbitrarily large number of times by paying {0}, targeting itself.
+  Old Fat Spider triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
 
 ## Combo 2191-5541-6085
-Cards: Altanak, the Thrice-Called + Martyrdom + Bazaar Trader
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}{W}{W}
+Cards: Martyrdom + Bazaar Trader + Altanak, the Thrice-Called
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 2 | Commander: legal | Mana needed: {1}{W}{W}
 Produces: Target opponent loses the game; Infinite card draw for target opponent; Infinite draw triggers for target opponent
-Start: Altanak, the Thrice-Called (battlefield); Martyrdom (hand); Bazaar Trader (battlefield)
+Start: Martyrdom (hand); Bazaar Trader (battlefield); Altanak, the Thrice-Called (battlefield)
 Prerequisites: Bazaar Trader does not have summoning sickness.
 Steps: Cast Martyrdom by paying {1}{W}{W}, targeting Altanak.
-  Activate Bazaar Trader by tapping it, giving control of Altanak to an opponent.
-  Activate Altanak an arbitrarily large number of times by paying {0}, targeting itself.
-  Altanak triggers that many times, causing an opponent to draw that many cards and lose the game due to drawing from an empty library.
+  Activate Bazaar Trader by tapping it, causing target opponent to gain control of Altanak.
+  Activate the ability granted to Altanak by Martyrdom an arbitrarily large number of times by paying {0}, targeting itself.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 2191-5541-8144
+Cards: Martyrdom + Bazaar Trader + Surrak, Elusive Hunter
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}{W}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Martyrdom (hand); Bazaar Trader (battlefield); Surrak, Elusive Hunter (battlefield)
+Prerequisites: Bazaar Trader does not have summoning sickness.
+Steps: Cast Martyrdom by paying {1}{W}{W}, targeting Surrak.
+  Activate Bazaar Trader by tapping it, causing target opponent to gain control of Surrak.
+  Activate the ability granted to Surrak by Martyrdom an arbitrarily large number of times by paying {0}, targeting itself.
+  Surrak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 2191-5541-8411
+Cards: Martyrdom + Bazaar Trader + Old Fat Spider
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}{W}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Martyrdom (hand); Bazaar Trader (battlefield); Old Fat Spider (battlefield)
+Prerequisites: Bazaar Trader does not have summoning sickness.
+Steps: Cast Martyrdom by paying {1}{W}{W}, targeting Old Fat Spider.
+  Activate Bazaar Trader by tapping it, causing target opponent to gain control of Old Fat Spider.
+  Activate the ability granted to Old Fat Spider by Martyrdom an arbitrarily large number of times by paying {0}, targeting itself.
+  Old Fat Spider triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 2191-6085-7046
+Cards: Martyrdom + Altanak, the Thrice-Called + Iroh, Tea Master
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}{W}
+Produces: Target opponent loses the game; Infinite card draw for target opponent; Infinite draw triggers for target opponent
+Start: Martyrdom (hand); Altanak, the Thrice-Called (battlefield); Iroh, Tea Master (battlefield)
+Steps: Cast Martyrdom by paying {1}{W}{W}, targeting Altanak.
+  At the beginning of combat on your turn, Iroh triggers, causing (among other effects) target opponent to gain control of Altanak.
+  Activate the ability granted to Altanak by Martyrdom an arbitrarily large number of times by paying {0}, targeting itself.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 2191-7046-8144
+Cards: Martyrdom + Iroh, Tea Master + Surrak, Elusive Hunter
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}{W}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Martyrdom (hand); Iroh, Tea Master (battlefield); Surrak, Elusive Hunter (battlefield)
+Steps: Cast Martyrdom by paying {1}{W}{W}, targeting Surrak.
+  At the beginning of combat on your turn, Iroh triggers, causing (among other effects) target opponent to gain control of Surrak.
+  Activate the ability granted to Surrak by Martyrdom an arbitrarily large number of times by paying {0}, targeting itself.
+  Surrak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 2191-7046-8411
+Cards: Martyrdom + Iroh, Tea Master + Old Fat Spider
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}{W}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Martyrdom (hand); Iroh, Tea Master (battlefield); Old Fat Spider (battlefield)
+Steps: Cast Martyrdom by paying {1}{W}{W}, targeting Old Fat Spider.
+  At the beginning of combat on your turn, Iroh triggers, causing (among other effects) target opponent to gain control of Old Fat Spider.
+  Activate the ability granted to Old Fat Spider by Martyrdom an arbitrarily large number of times by paying {0}, targeting itself.
+  Old Fat Spider triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
 
 ## Combo 2203-4657-5295-6871
 Cards: Toph, the First Metalbender + Magus of the Candelabra + Thousand-Year Elixir + Vorinclex, Voice of Hunger
@@ -3265,7 +3337,7 @@ Steps: Activate Relic of Legends' first ability by tapping it, adding {G/W}.
 
 ## Combo 2281-4050-5756
 Cards: Havi, the All-Father + Saffi Eriksdotter + Phyrexian Altar
-Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 200 | Commander: legal
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 190 | Commander: legal
 Produces: Infinite colored mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Havi, the All-Father (battlefield); Saffi Eriksdotter (battlefield); Phyrexian Altar (battlefield)
 Steps: Activate Saffi by sacrificing it, targeting Havi.
@@ -3746,7 +3818,7 @@ Notes: This loop is written if you want the player before you in turn order to h
 
 ## Combo 2376-4929-5224
 Cards: Cryptic Trilobite + Together Forever + Rhythm of the Wild
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal | Mana needed: {1}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana that can only be spent to activate abilities; Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite storm count
 Start: Cryptic Trilobite (hand, battlefield); Together Forever (battlefield); Rhythm of the Wild (battlefield)
 Steps: Cast Cryptic Trilobite by paying {0}, causing it to enter the battlefield with a +1/+1 counter on it due to Rhythm of the Wild.
@@ -4088,7 +4160,7 @@ Steps: Activate Ant Queen by paying {1}{G}, creating two 2/2 Cat creature tokens
 
 ## Combo 2457-2557-3129-5794
 Cards: Baylen, the Haymaker + Ant Queen + Parallel Lives + Primal Vigor
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 96 | Commander: legal | Mana needed: {1}{G}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 95 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite colored mana; Infinite card draw; Infinite tapped creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite draw triggers
 Start: Baylen, the Haymaker (battlefield); Ant Queen (battlefield); Parallel Lives (battlefield); Primal Vigor (battlefield)
 Steps: Activate Ant Queen by paying {1}{G}, creating four 1/1 Insect creature tokens.
@@ -4292,7 +4364,7 @@ Steps: Activate Ant Queen by paying {1}{G}, creating four 1/1 Insect creature to
 
 ## Combo 2457-3129-4772-5794
 Cards: Baylen, the Haymaker + Ant Queen + Primal Vigor + Doubling Season
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 95 | Commander: legal | Mana needed: {1}{G}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 96 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite colored mana; Infinite card draw; Infinite tapped creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite draw triggers
 Start: Baylen, the Haymaker (battlefield); Ant Queen (battlefield); Primal Vigor (battlefield); Doubling Season (battlefield)
 Steps: Activate Ant Queen by paying {1}{G}, creating four 1/1 Insect creature tokens.
@@ -4310,7 +4382,7 @@ Steps: Activate Ant Queen by paying {1}{G}, creating four 1/1 Insect creature to
 
 ## Combo 2457-3129-5794-6705
 Cards: Baylen, the Haymaker + Ant Queen + Primal Vigor + Quina, Qu Gourmet
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal | Mana needed: {1}{G}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite colored mana; Infinite card draw; Infinite tapped creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite draw triggers
 Start: Baylen, the Haymaker (battlefield); Ant Queen (battlefield); Primal Vigor (battlefield); Quina, Qu Gourmet (battlefield)
 Steps: Activate Ant Queen by paying {1}{G}, creating two 1/1 Insect and two 1/1 Frog creature tokens.
@@ -4522,7 +4594,7 @@ Steps: Activate Ant Queen by paying {1}{G}, creating two creature tokens.
 
 ## Combo 2457-4289-4365-8201
 Cards: Cryptolith Rite + Ant Queen + Mondrak, Glory Dominus + Samut, Hazoret's Champion
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {1}{G}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite tapped creature tokens; Infinite creature ETB
 Start: Cryptolith Rite (battlefield); Ant Queen (battlefield); Mondrak, Glory Dominus (battlefield); Samut, Hazoret's Champion (battlefield)
 Steps: Activate Ant Queen by paying {1}{G}, creating two creature tokens.
@@ -4729,7 +4801,7 @@ Steps: Activate Ant Queen by paying {1}{G}, creating two creature tokens.
 
 ## Combo 2457-4289-6441-8201
 Cards: Cryptolith Rite + Ant Queen + Elspeth, Storm Slayer + Samut, Hazoret's Champion
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}{G}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite tapped creature tokens; Infinite creature ETB
 Start: Cryptolith Rite (battlefield); Ant Queen (battlefield); Elspeth, Storm Slayer (battlefield); Samut, Hazoret's Champion (battlefield)
 Steps: Activate Ant Queen by paying {1}{G}, creating two creature tokens.
@@ -4810,7 +4882,7 @@ Steps: Activate Ant Queen by paying {1}{G}, creating two creature tokens.
 
 ## Combo 2457-4289-6753-8201
 Cards: Cryptolith Rite + Ant Queen + Exalted Sunborn + Samut, Hazoret's Champion
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {1}{G}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite tapped creature tokens; Infinite creature ETB
 Start: Cryptolith Rite (battlefield); Ant Queen (battlefield); Exalted Sunborn (battlefield); Samut, Hazoret's Champion (battlefield)
 Steps: Activate Ant Queen by paying {1}{G}, creating two creature tokens.
@@ -4837,7 +4909,7 @@ Steps: Activate Ant Queen by paying {1}{G}, creating four tokens.
 
 ## Combo 2457-4321-4772-5794
 Cards: Baylen, the Haymaker + Ant Queen + Peregrin Took + Doubling Season
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 210 | Commander: legal | Mana needed: {1}{G}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 220 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite colored mana; Infinite card draw; Infinite tapped creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite draw triggers
 Start: Baylen, the Haymaker (battlefield); Ant Queen (battlefield); Peregrin Took (battlefield); Doubling Season (battlefield)
 Steps: Activate Ant Queen by paying {1}{G}, creating four tokens.
@@ -4909,7 +4981,7 @@ Steps: Activate Ant Queen by paying {1}{G}, creating four 1/1 Insect creature to
 
 ## Combo 2457-4772-5794-6705
 Cards: Baylen, the Haymaker + Ant Queen + Doubling Season + Quina, Qu Gourmet
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal | Mana needed: {1}{G}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite colored mana; Infinite card draw; Infinite tapped creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite draw triggers
 Start: Baylen, the Haymaker (battlefield); Ant Queen (battlefield); Doubling Season (battlefield); Quina, Qu Gourmet (battlefield)
 Steps: Activate Ant Queen by paying {1}{G}, creating two 1/1 Insect and two 1/1 Frog creature tokens.
@@ -5076,7 +5148,7 @@ Steps: Cast Esika's Chariot by paying {3}{G}.
 
 ## Combo 2488-3213-7167
 Cards: Apex Altisaur + Wrathful Raptors + Boromir, Warden of the Tower
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 83 | Commander: legal | Mana needed: {7}{G}{G}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 84 | Commander: legal | Mana needed: {7}{G}{G}
 Produces: Near-infinite damage; Destroy all creatures opponents control
 Start: Apex Altisaur (hand); Wrathful Raptors (battlefield); Boromir, Warden of the Tower (battlefield)
 Steps: Cast Apex Altisaur by paying {7}{G}{G}.
@@ -5359,7 +5431,7 @@ Steps: Activate Phyrexian Altar by sacrificing Emrakul's Hatcher, adding {W}.
 
 ## Combo 2550-4499
 Cards: Emrakul's Hatcher + Emiel the Blessed
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 280 | Commander: legal | Mana needed: {3}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 290 | Commander: legal | Mana needed: {3}
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Emrakul's Hatcher (battlefield); Emiel the Blessed (battlefield)
 Steps: Activate Emiel by paying {3}, blinking Emrakul's Hatcher.
@@ -5910,7 +5982,7 @@ Steps: Activate Boros Garrison by tapping it, adding {R}{R}{R}{W}{W}{W} due to N
 
 ## Combo 2645-3664-5963-6871-7115
 Cards: Marvin, Murderous Mimic + Toph, Hardheaded Teacher + Toph, the First Metalbender + Staff of Domination + Lotus Field
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal | Mana needed: {5}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 23 | Commander: legal | Mana needed: {5}
 Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
 Start: Marvin, Murderous Mimic (hand); Toph, Hardheaded Teacher (battlefield); Toph, the First Metalbender (battlefield); Staff of Domination (battlefield); Lotus Field (battlefield)
 Steps: Cast Staff of Domination by paying {3}.
@@ -7249,7 +7321,7 @@ Steps: Cast Seething Anger with buyback by paying {R}.
 
 ## Combo 2893-3470-5478-6168
 Cards: Fertilid + Lotus Cobra + Spelunking + Obuun, Mul Daya Ancestor
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 80 | Commander: legal | Mana needed: {1}{G}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 79 | Commander: legal | Mana needed: {1}{G}
 Produces: Near-infinite landfall triggers; Put all basic lands from your library onto the battlefield tapped
 Start: Fertilid (battlefield: with a +1/+1 counter on it); Lotus Cobra (battlefield); Spelunking (battlefield); Obuun, Mul Daya Ancestor (battlefield)
 Steps: Activate Fertilid by paying {1}{G} and removing a +1/+1 counter from it, causing you to search your library for a basic land card and put it on the battlefield untapped due to Spelunking.
@@ -7273,7 +7345,7 @@ Steps: Activate Fertilid by paying {1}{G} and removing a +1/+1 counter from it, 
 
 ## Combo 2893-3875-5478-6168
 Cards: Fertilid + Tireless Provisioner + Spelunking + Obuun, Mul Daya Ancestor
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal | Mana needed: {1}{G}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 71 | Commander: legal | Mana needed: {1}{G}
 Produces: Near-infinite landfall triggers; Put all basic lands from your library onto the battlefield tapped
 Start: Fertilid (battlefield: with a +1/+1 counter on it); Tireless Provisioner (battlefield); Spelunking (battlefield); Obuun, Mul Daya Ancestor (battlefield)
 Steps: Activate Fertilid by paying {1}{G} and removing a +1/+1 counter from it, causing you to search your library for a basic land card and put it on the battlefield untapped due to Spelunking.
@@ -7623,14 +7695,34 @@ Steps: Cast Conclave Sledge-Captain by paying {5}{G}.
   At the beginning of your next upkeep, Mayael's Aria triggers, causing you to put a +1/+1 counter on each creature you control, gain ten life, and win the game.
 
 ## Combo 3037-3140-6085
-Cards: Altanak, the Thrice-Called + Gauntlets of Chaos + Soltari Guerrillas
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {5}
+Cards: Soltari Guerrillas + Gauntlets of Chaos + Altanak, the Thrice-Called
+Color identity: RGW | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {5}
 Produces: Target opponent loses the game; Infinite card draw for target opponent; Infinite draw triggers for target opponent
-Start: Altanak, the Thrice-Called (battlefield); Gauntlets of Chaos (battlefield); Soltari Guerrillas (battlefield)
-Prerequisites: An opponent controls a creature.
-Steps: Activate Gauntlets of Chaos by paying {5} and sacrificing it, exchanging control of Altanak and target creature an opponent controls.
+Start: Soltari Guerrillas (battlefield); Gauntlets of Chaos (battlefield); Altanak, the Thrice-Called (battlefield)
+Prerequisites: An opponent controls a permanent that shares a type with the one you intend to donate.
+Steps: Activate Gauntlets of Chaos by paying {5} and sacrificing it, exchanging control of (and destroying all Auras attached to) a permanent an opponent controls and Altanak.
   Activate Soltari Guerrillas an arbitrarily large number of times by paying {0}, targeting Altanak.
-  Altanak triggers that many times, causing an opponent to draw that many cards and lose the game due to drawing from an empty library.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 3037-3140-8144
+Cards: Soltari Guerrillas + Gauntlets of Chaos + Surrak, Elusive Hunter
+Color identity: RGW | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {5}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Soltari Guerrillas (battlefield); Gauntlets of Chaos (battlefield); Surrak, Elusive Hunter (battlefield)
+Prerequisites: An opponent controls a permanent that shares a type with the one you intend to donate.
+Steps: Activate Gauntlets of Chaos by paying {5} and sacrificing it, exchanging control of (and destroying all Auras attached to) a permanent an opponent controls and Surrak.
+  Activate Soltari Guerrillas an arbitrarily large number of times by paying {0}, targeting Surrak.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 3037-3140-8411
+Cards: Soltari Guerrillas + Gauntlets of Chaos + Old Fat Spider
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {5}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Soltari Guerrillas (battlefield); Gauntlets of Chaos (battlefield); Old Fat Spider (battlefield)
+Prerequisites: An opponent controls a permanent that shares a type with the one you intend to donate.
+Steps: Activate Gauntlets of Chaos by paying {5} and sacrificing it, exchanging control of (and destroying all Auras attached to) a permanent an opponent controls and Old Fat Spider.
+  Activate Soltari Guerrillas an arbitrarily large number of times by paying {0}, targeting Old Fat Spider.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
 
 ## Combo 3038-3858
 Cards: Mayael's Aria + Colossification
@@ -7649,13 +7741,31 @@ Prerequisites: An opponent has a life total of 37 or higher.
 Steps: At the beginning of your upkeep, Mayael's Aria triggers, causing you to put a +1/+1 counter on each creature you control, gain 10 life and win the game.
 
 ## Combo 3090-3140-6085
-Cards: Altanak, the Thrice-Called + Soltari Guerrillas + Harmless Offering
+Cards: Soltari Guerrillas + Harmless Offering + Altanak, the Thrice-Called
 Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal | Mana needed: {2}{R}
 Produces: Target opponent loses the game; Infinite card draw for target opponent; Infinite draw triggers for target opponent
-Start: Altanak, the Thrice-Called (battlefield); Soltari Guerrillas (battlefield); Harmless Offering (hand)
-Steps: Cast Harmless Offering by paying {2}{R}, giving control of Altanak to an opponent.
+Start: Soltari Guerrillas (battlefield); Harmless Offering (hand); Altanak, the Thrice-Called (battlefield)
+Steps: Cast Harmless Offering by paying {2}{R}, causing target opponent to gain control of Altanak.
   Activate Soltari Guerrillas an arbitrarily large number of times by paying {0}, targeting Altanak.
-  Altanak triggers that many times, causing an opponent to draw that many cards and lose the game due to drawing from an empty library.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 3090-3140-8144
+Cards: Soltari Guerrillas + Harmless Offering + Surrak, Elusive Hunter
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {2}{R}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Soltari Guerrillas (battlefield); Harmless Offering (hand); Surrak, Elusive Hunter (battlefield)
+Steps: Cast Harmless Offering by paying {2}{R}, causing target opponent to gain control of Surrak.
+  Activate Soltari Guerrillas an arbitrarily large number of times by paying {0}, targeting Surrak.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 3090-3140-8411
+Cards: Soltari Guerrillas + Harmless Offering + Old Fat Spider
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{R}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Soltari Guerrillas (battlefield); Harmless Offering (hand); Old Fat Spider (battlefield)
+Steps: Cast Harmless Offering by paying {2}{R}, causing target opponent to gain control of Old Fat Spider.
+  Activate Soltari Guerrillas an arbitrarily large number of times by paying {0}, targeting Old Fat Spider.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
 
 ## Combo 3090-4050-5434-5555
 Cards: Yarus, Roar of the Old Gods + Karlov Watchdog + Phyrexian Altar + Harmless Offering
@@ -7814,24 +7924,94 @@ Steps: Activate Soltari Guerrillas by paying {0}, targeting itself.
   Repeat.
 
 ## Combo 3140-5541-6085
-Cards: Altanak, the Thrice-Called + Soltari Guerrillas + Bazaar Trader
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
+Cards: Soltari Guerrillas + Bazaar Trader + Altanak, the Thrice-Called
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 2 | Commander: legal
 Produces: Target opponent loses the game; Infinite card draw for target opponent; Infinite draw triggers for target opponent
-Start: Altanak, the Thrice-Called (battlefield); Soltari Guerrillas (battlefield); Bazaar Trader (battlefield)
+Start: Soltari Guerrillas (battlefield); Bazaar Trader (battlefield); Altanak, the Thrice-Called (battlefield)
 Prerequisites: Bazaar Trader does not have summoning sickness.
-Steps: Activate Bazaar Trader by tapping it, giving control of Altanak to an opponent.
+Steps: Activate Bazaar Trader by tapping it, causing target opponent to gain control of Altanak.
   Activate Soltari Guerrillas an arbitrarily large number of times by paying {0}, targeting Altanak.
-  Altanak triggers that many times, causing an opponent to draw that many cards and lose the game due to drawing from an empty library.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 3140-5541-8144
+Cards: Soltari Guerrillas + Bazaar Trader + Surrak, Elusive Hunter
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Soltari Guerrillas (battlefield); Bazaar Trader (battlefield); Surrak, Elusive Hunter (battlefield)
+Prerequisites: Bazaar Trader does not have summoning sickness.
+Steps: Activate Bazaar Trader by tapping it, causing target opponent to gain control of Surrak.
+  Activate Soltari Guerrillas an arbitrarily large number of times by paying {0}, targeting Surrak.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 3140-5541-8411
+Cards: Soltari Guerrillas + Bazaar Trader + Old Fat Spider
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Soltari Guerrillas (battlefield); Bazaar Trader (battlefield); Old Fat Spider (battlefield)
+Prerequisites: Bazaar Trader does not have summoning sickness.
+Steps: Activate Bazaar Trader by tapping it, causing target opponent to gain control of Old Fat Spider.
+  Activate Soltari Guerrillas an arbitrarily large number of times by paying {0}, targeting Old Fat Spider.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
 
 ## Combo 3140-6085-6331
-Cards: Altanak, the Thrice-Called + Soltari Guerrillas + Stiltzkin, Moogle Merchant
+Cards: Soltari Guerrillas + Altanak, the Thrice-Called + Stiltzkin, Moogle Merchant
 Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal | Mana needed: {2}
 Produces: Target opponent loses the game; Infinite card draw for target opponent; Infinite draw triggers for target opponent
-Start: Altanak, the Thrice-Called (battlefield); Soltari Guerrillas (battlefield); Stiltzkin, Moogle Merchant (battlefield)
-Prerequisites: Stiltzkin, Moogle Merchant does not have summoning sickness.
-Steps: Activate Stiltzkin by paying {2} and tapping it, giving control of Altanak to an opponent.
+Start: Soltari Guerrillas (battlefield); Altanak, the Thrice-Called (battlefield); Stiltzkin, Moogle Merchant (battlefield)
+Prerequisites: Stiltzkin does not have summoning sickness.
+  There is at least one card in your library.
+Steps: Activate Stiltzkin by paying {2} and tapping it, drawing a card and causing target opponent to gain control of Altanak.
   Activate Soltari Guerrillas an arbitrarily large number of times by paying {0}, targeting Altanak.
-  Altanak triggers that many times, causing an opponent to draw that many cards and lose the game due to drawing from an empty library.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 3140-6085-7046
+Cards: Soltari Guerrillas + Altanak, the Thrice-Called + Iroh, Tea Master
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Target opponent loses the game; Infinite card draw for target opponent; Infinite draw triggers for target opponent
+Start: Soltari Guerrillas (battlefield); Altanak, the Thrice-Called (battlefield); Iroh, Tea Master (battlefield)
+Steps: At the beginning of combat on your turn, Iroh triggers, causing (among other effects) target opponent to gain control of Altanak.
+  Activate Soltari Guerrillas an arbitrarily large number of times by paying {0}, targeting Altanak.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 3140-6331-8144
+Cards: Soltari Guerrillas + Stiltzkin, Moogle Merchant + Surrak, Elusive Hunter
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {2}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Soltari Guerrillas (battlefield); Stiltzkin, Moogle Merchant (battlefield); Surrak, Elusive Hunter (battlefield)
+Prerequisites: Stiltzkin does not have summoning sickness.
+  There is at least one card in your library.
+Steps: Activate Stiltzkin by paying {2} and tapping it, drawing a card and causing target opponent to gain control of Surrak.
+  Activate Soltari Guerrillas an arbitrarily large number of times by paying {0}, targeting Surrak.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 3140-6331-8411
+Cards: Soltari Guerrillas + Stiltzkin, Moogle Merchant + Old Fat Spider
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {2}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Soltari Guerrillas (battlefield); Stiltzkin, Moogle Merchant (battlefield); Old Fat Spider (battlefield)
+Prerequisites: Stiltzkin does not have summoning sickness.
+  There is at least one card in your library.
+Steps: Activate Stiltzkin by paying {2} and tapping it, drawing a card and causing target opponent to gain control of Old Fat Spider.
+  Activate Soltari Guerrillas an arbitrarily large number of times by paying {0}, targeting Old Fat Spider.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 3140-7046-8144
+Cards: Soltari Guerrillas + Iroh, Tea Master + Surrak, Elusive Hunter
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Soltari Guerrillas (battlefield); Iroh, Tea Master (battlefield); Surrak, Elusive Hunter (battlefield)
+Steps: At the beginning of combat on your turn, Iroh triggers, causing (among other effects) target opponent to gain control of Surrak.
+  Activate Soltari Guerrillas an arbitrarily large number of times by paying {0}, targeting Surrak.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 3140-7046-8411
+Cards: Soltari Guerrillas + Iroh, Tea Master + Old Fat Spider
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Soltari Guerrillas (battlefield); Iroh, Tea Master (battlefield); Old Fat Spider (battlefield)
+Steps: At the beginning of combat on your turn, Iroh triggers, causing (among other effects) target opponent to gain control of Old Fat Spider.
+  Activate Soltari Guerrillas an arbitrarily large number of times by paying {0}, targeting Old Fat Spider.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
 
 ## Combo 3149-4831-4849
 Cards: Cacophodon + Hammerfist Giant + Avacyn, Angel of Hope
@@ -9559,7 +9739,7 @@ Steps: Activate Argothian Elder by tapping it, untapping it as it's a land due t
 
 ## Combo 3263-3899-6871--211
 Cards: Toph, the First Metalbender + Spawning Pit + Mycosynth Lattice
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite charge counters on a permanent; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Requires: Creature with ETB: Earthbend (hand)
 Start: Toph, the First Metalbender (battlefield); Spawning Pit (battlefield); Mycosynth Lattice (battlefield)
@@ -9719,7 +9899,7 @@ Notes: Depending on the earthbend creature used, you may receive additional resu
 
 ## Combo 3263-5256-6871--183
 Cards: Toph, the First Metalbender + Altar of Dementia + Mycosynth Lattice
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 110 | Commander: legal | Mana needed: {0} plus the cost of the creature that earthbends
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 100 | Commander: legal | Mana needed: {0} plus the cost of the creature that earthbends
 Produces: Infinite mill; Infinite self-mill; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers; Infinite artifact ETB
 Requires: Creature that earthbends on entering (hand)
 Start: Toph, the First Metalbender (battlefield); Altar of Dementia (battlefield); Mycosynth Lattice (battlefield)
@@ -9732,7 +9912,7 @@ Steps: Cast the earthbending creature by paying its mana cost, causing it to ent
 
 ## Combo 3263-5256-6871--211
 Cards: Toph, the First Metalbender + Altar of Dementia + Mycosynth Lattice
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 110 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 100 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Requires: Creature with ETB: Earthbend (hand)
 Start: Toph, the First Metalbender (battlefield); Altar of Dementia (battlefield); Mycosynth Lattice (battlefield)
@@ -10187,7 +10367,7 @@ Steps: Declare Rith and Hellkite Charger as attackers.
 
 ## Combo 3398-3973-4214
 Cards: Rith, the Awakener + Hellkite Charger + Utopia Mycon
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal | Mana needed: {7}{R}{R}{G}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal | Mana needed: {7}{R}{R}{G}
 Produces: Infinite colored mana; Infinite combat damage; Infinite combat phases; Infinite creature tokens; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Rith, the Awakener (battlefield); Hellkite Charger (battlefield); Utopia Mycon (battlefield)
 Prerequisites: Rith does not have summoning sickness.
@@ -10934,7 +11114,7 @@ Steps: Activate Phyrexian Altar by sacrificing the creature with the Aura attach
 
 ## Combo 3587-3614-7711
 Cards: Red Hulk + Boros Reckoner + Heroic Intervention
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 290 | Commander: legal | Mana needed: {1}{G}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 300 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite damage to one opponent; Infinite +1/+1 counters on a creature
 Start: Red Hulk (battlefield); Boros Reckoner (battlefield); Heroic Intervention (hand)
 Prerequisites: You have a way to deal damage to Red Hulk.
@@ -11644,7 +11824,7 @@ Steps: Deal combat damage using Rith.
 
 ## Combo 3750-3973-4214
 Cards: Rith, the Awakener + Aggravated Assault + Utopia Mycon
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal | Mana needed: {2}{G}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal | Mana needed: {2}{G}
 Produces: Infinite colored mana; Infinite combat damage; Infinite combat phases; Infinite creature tokens; Infinite mana creatures you control can produce; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite untap of creatures you control
 Start: Rith, the Awakener (battlefield); Aggravated Assault (battlefield); Utopia Mycon (battlefield)
 Prerequisites: Rith does not have summoning sickness.
@@ -11663,7 +11843,7 @@ Steps: Deal combat damage using Rith.
 
 ## Combo 3750-4050-4373
 Cards: Ghalta and Mavren + Aggravated Assault + Phyrexian Altar
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 42 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 41 | Commander: legal
 Produces: Infinite colored mana; Infinite combat phases; Infinite creature tokens; Infinite mana creatures you control can produce; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite untap of creatures you control
 Start: Ghalta and Mavren (battlefield); Aggravated Assault (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: You control at least six creatures that can attack this turn.
@@ -12171,7 +12351,7 @@ Steps: At the beginning of your upkeep, Mayael's Aria triggers.
 
 ## Combo 3858-6189
 Cards: Mayael's Aria + Tyvar, the Pummeler
-Color identity: RGW | Bracket: 2+ (Core) | Popularity: 260 | Commander: legal | Mana needed: {9} plus six {G} at most
+Color identity: RGW | Bracket: 2+ (Core) | Popularity: 270 | Commander: legal | Mana needed: {9} plus six {G} at most
 Produces: Win the game
 Start: Mayael's Aria (battlefield); Tyvar, the Pummeler (battlefield)
 Steps: At the beginning of your upkeep, Mayael's Aria triggers.
@@ -12201,7 +12381,7 @@ Steps: At the beginning of your upkeep, Mayael's Aria triggers, causing you to p
 
 ## Combo 3858-6864
 Cards: Mayael's Aria + Chameleon Colossus
-Color identity: RGW | Bracket: 4+ (Ruthless) | Popularity: 640 | Commander: legal | Mana needed: {6} plus six {G}
+Color identity: RGW | Bracket: 4+ (Ruthless) | Popularity: 630 | Commander: legal | Mana needed: {6} plus six {G}
 Produces: Win the game
 Start: Mayael's Aria (battlefield); Chameleon Colossus (battlefield)
 Steps: At the beginning of your upkeep, Mayael's Aria triggers.
@@ -12953,7 +13133,7 @@ Steps: Gain life.
 
 ## Combo 4186-8174
 Cards: Mabel, Valley Hero + Scurry Oak
-Color identity: RGW | Bracket: 4+ (Ruthless) | Popularity: 72 | Commander: legal | Mana needed: {1}{G}
+Color identity: RGW | Bracket: 4+ (Ruthless) | Popularity: 73 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Mabel, Valley Hero (battlefield); Scurry Oak (hand)
 Steps: Cast Scurry Oak by paying its mana cost.
@@ -13397,7 +13577,7 @@ Steps: Cast Esika's Chariot by paying {3}{G}.
 
 ## Combo 4381-4929-5224
 Cards: Cryptic Trilobite + Together Forever + Grumgully, the Generous
-Color identity: RGW | Bracket: 2-3+ (Oddball) | Popularity: 9 | Commander: legal | Mana needed: {1}
+Color identity: RGW | Bracket: 2-3+ (Oddball) | Popularity: 8 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana that can only be spent to activate abilities; Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite storm count
 Start: Cryptic Trilobite (hand, battlefield); Together Forever (battlefield); Grumgully, the Generous (battlefield)
 Steps: Cast Cryptic Trilobite by paying {0}, causing it to enter the battlefield with a +1/+1 counter on it due to Grumgully.
@@ -13602,7 +13782,7 @@ Steps: Activate Phyrexian Devourer by exiling the top card of your library, putt
 
 ## Combo 4490-5292--210
 Cards: Shalai and Hallar + Voice of the Blessed
-Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 430 | Commander: legal
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 440 | Commander: legal
 Produces: Infinite damage; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers
 Requires: Card That Gives Lifelink (hand, battlefield)
 Start: Shalai and Hallar (battlefield); Voice of the Blessed (battlefield)
@@ -13755,7 +13935,7 @@ Notes: Additional mana and/or prerequisites may be required depending on the met
 
 ## Combo 4490-6996
 Cards: Shalai and Hallar + The Destined White Mage
-Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 200 | Commander: legal
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 210 | Commander: legal
 Produces: Infinite +1/+1 counters on creatures you control; Infinite damage; Infinite lifegain; Infinite lifegain triggers
 Start: Shalai and Hallar (battlefield); The Destined White Mage (battlefield)
 Prerequisites: You have a way to give Shalai and Hallar lifelink.
@@ -13768,7 +13948,7 @@ Steps: Give Shalai and Hallar lifelink by any method.
 
 ## Combo 4490-6996--210
 Cards: Shalai and Hallar + The Destined White Mage
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 200 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 210 | Commander: legal
 Produces: Infinite +1/+1 counters on creatures you control; Infinite damage; Infinite lifegain; Infinite lifegain triggers
 Requires: Card That Gives Lifelink (hand, battlefield)
 Start: Shalai and Hallar (battlefield); The Destined White Mage (battlefield)
@@ -15450,7 +15630,7 @@ Notes: One of the {0} cost artifacts must be in your hand with the other on the 
 
 ## Combo 5016-5358
 Cards: Wayta, Trainer Prodigy + Spitemare
-Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 3100 | Commander: legal
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 3200 | Commander: legal
 Produces: Infinite damage
 Start: Wayta, Trainer Prodigy (battlefield); Spitemare (battlefield)
 Prerequisites: Spitemare has indestructible.
@@ -16831,6 +17011,42 @@ Steps: Activate Anzrag by paying {3}{G}{G}{R}{R}, causing opponents to block Anz
   Declare Anzrag as an attacker, attacking the opponent who controls the enchanted creature.
   The opponent is forced to block Anzrag with the enchanted creature, triggering Anzrag, untapping all creatures you control and causing you to get an additional combat phase after this one.
   Repeat from step 4.
+
+## Combo 6085-6086-6087-7046
+Cards: Sentinel + Lure + Altanak, the Thrice-Called + Iroh, Tea Master
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Target opponent loses the game; Infinite card draw for target opponent; Infinite draw triggers for target opponent
+Start: Sentinel (battlefield); Lure (battlefield); Altanak, the Thrice-Called (battlefield); Iroh, Tea Master (battlefield)
+Prerequisites: Lure attached to Sentinel.
+  Sentinel does not have summoning sickness.
+Steps: At the beginning of combat on your turn, Iroh triggers, causing (among other effects) target opponent to gain control of Altanak.
+  During your next declare attackers step, declare Sentinel as an attacker, forcing Altanak to block it due to Lure.
+  Holding priority, activate Sentinel an arbitrarily large number of times by paying {0}, targeting Altanak.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 6086-6087-7046-8144
+Cards: Sentinel + Lure + Iroh, Tea Master + Surrak, Elusive Hunter
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Sentinel (battlefield); Lure (battlefield); Iroh, Tea Master (battlefield); Surrak, Elusive Hunter (battlefield)
+Prerequisites: Lure attached to Sentinel.
+  Sentinel does not have summoning sickness.
+Steps: At the beginning of combat on your turn, Iroh triggers, causing (among other effects) target opponent to gain control of Surrak.
+  During your next declare attackers step, declare Sentinel as an attacker, forcing Surrak to block it due to Lure.
+  Holding priority, activate Sentinel an arbitrarily large number of times by paying {0}, targeting Surrak.
+  Surrak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 6086-6087-7046-8411
+Cards: Sentinel + Lure + Iroh, Tea Master + Old Fat Spider
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Sentinel (battlefield); Lure (battlefield); Iroh, Tea Master (battlefield); Old Fat Spider (battlefield)
+Prerequisites: Lure attached to Sentinel.
+  Sentinel does not have summoning sickness.
+Steps: At the beginning of combat on your turn, Iroh triggers, causing (among other effects) target opponent to gain control of Old Fat Spider.
+  During your next declare attackers step, declare Sentinel as an attacker, forcing Old Fat Spider to block it due to Lure.
+  Holding priority, activate Sentinel an arbitrarily large number of times by paying {0}, targeting Old Fat Spider.
+  Old Fat Spider triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
 
 ## Combo 6620-6871-6879-6880
 Cards: Toph, the First Metalbender + Haru, Hidden Talent + Stonework Puma + Sylvan Safekeeper

@@ -8777,6 +8777,18 @@ Steps: Activate Cavern Harpy by paying 1 life.
   The opponent loses the game due to having zero life.
   You may repeat this on each of your turns.
 
+## Combo 273-586-1914
+Cards: Cowardice + Shuko + Priest of Gix
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{B}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Shuko (battlefield); Priest of Gix (hand)
+Steps: Cast Priest of Gix by paying its mana cost.
+  When Priest of Gix enters, it triggers, adding {B}{B}{B}.
+  Activate Shuko by paying {0}, targeting Priest of Gix.
+  Cowardice triggers, returning Priest of Gix from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
+
 ## Combo 275-893-1558-4840
 Cards: Myr Turbine + Time Sieve + Myr Battlesphere + Transplant Theorist
 Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 7 | Commander: legal | Mana needed: {2} each turn
@@ -10512,7 +10524,7 @@ Steps: Declare Skullsnatcher as an attacker.
 
 ## Combo 344-3489-3821
 Cards: Satoru Umezawa + Peregrine Drake + Skullsnatcher
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 760 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 770 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB
 Start: Satoru Umezawa (battlefield); Peregrine Drake (hand); Skullsnatcher (battlefield)
 Prerequisites: Skullsnatcher does not have summoning sickness and cannot be blocked by an opponent.
@@ -13839,7 +13851,7 @@ Steps: Activate an animated land by tapping it, adding at least {U}.
 
 ## Combo 565-3418-3634
 Cards: Orvar, the All-Form + Venser, Shaper Savant + Deadly Rollick
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 33 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
 Produces: Infinite artifact ETB; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite creature sacrifice triggers; Infinite storm count
 Start: Orvar, the All-Form (battlefield); Venser, Shaper Savant (battlefield); Deadly Rollick (hand)
 Prerequisites: You control a commander.
@@ -14006,6 +14018,18 @@ Steps: Activate Dinosaur Headdress' equip ability by paying {2}, attaching it to
   When Priest of Gix dies, its second ability triggers, returning itself from your graveyard to the battlefield.
   When Priest of Gix enters the battlefield, it triggers, adding {B}{B}{B}.
   Resolve the Grimgrin ability
+  Repeat.
+
+## Combo 586-876-1914
+Cards: Cowardice + Priest of Gix + Lightning Greaves
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{B}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Priest of Gix (hand); Lightning Greaves (battlefield)
+Steps: Cast Priest of Gix by paying its mana cost.
+  When Priest of Gix enters, it triggers, adding {B}{B}{B}.
+  Activate Lightning Greaves by paying {0}, targeting Priest of Gix.
+  Cowardice triggers, returning Priest of Gix from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
   Repeat.
 
 ## Combo 586-1003-1048-3800-5283
@@ -14203,6 +14227,43 @@ Steps: Activate Dino DNA by paying {6}, creating a token copy of Priest of Gix t
   When the Priest of Gix token enters the battlefield, it triggers twice, adding six {B}.
   Repeat.
 
+## Combo 586-1914-2816
+Cards: Cowardice + Priest of Gix + Umbral Mantle
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{B}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Priest of Gix (hand); Umbral Mantle (battlefield)
+Steps: Cast Priest of Gix by paying its mana cost.
+  When Priest of Gix enters, it triggers, adding {B}{B}{B}.
+  Activate Umbral Mantle by paying {0}, targeting Priest of Gix.
+  Cowardice triggers, returning Priest of Gix from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
+
+## Combo 586-1914-4955
+Cards: Cowardice + Priest of Gix + Grafted Wargear
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{B}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Priest of Gix (hand); Grafted Wargear (battlefield)
+Steps: Cast Priest of Gix by paying its mana cost.
+  When Priest of Gix enters, it triggers, adding {B}{B}{B}.
+  Activate Grafted Wargear by paying {0}, targeting Priest of Gix.
+  Cowardice triggers, returning Priest of Gix from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
+
+## Combo 586-1914-5639
+Cards: Cowardice + Priest of Gix + Arm-Mounted Anchor
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{B}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Priest of Gix (hand); Arm-Mounted Anchor (battlefield)
+Prerequisites: You have one or fewer cards in hand.
+Steps: Cast Priest of Gix by paying its mana cost.
+  When Priest of Gix enters, it triggers, adding {B}{B}{B}.
+  Activate Arm-Mounted Anchor by paying {0}, targeting Priest of Gix.
+  Cowardice triggers, returning Priest of Gix from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
+
 ## Combo 586-2034-2397-2493-2588
 Cards: Ashnod's Altar + Priest of Gix + Archaeomancer + Agadeem's Awakening // Agadeem, the Undercrypt + Panharmonicon
 Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {4}{B}{B}{B}
@@ -14314,7 +14375,7 @@ Steps: Activate Nantuko Husk's ability by sacrificing Gravecrawler, Nantuko gets
 
 ## Combo 598-728-5173
 Cards: Liliana, Untouched by Death + Shambling Ghast + Grimgrin, Corpse-Born
-Color identity: UB | Bracket: 2-3+ (Oddball) | Popularity: 680 | Commander: legal
+Color identity: UB | Bracket: 2-3+ (Oddball) | Popularity: 670 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Liliana, Untouched by Death (battlefield: with at least three loyalty counters on it); Shambling Ghast (battlefield); Grimgrin, Corpse-Born (battlefield)
 Steps: Activate Liliana's third loyalty ability by removing three loyalty counters from it, allowing you to cast Zombie spells from your graveyard this turn.
@@ -14327,7 +14388,7 @@ Steps: Activate Liliana's third loyalty ability by removing three loyalty counte
 
 ## Combo 598-997-2452
 Cards: Liliana, Untouched by Death + Rooftop Storm + Woe Strider
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 57 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 59 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite scry 1; Infinite storm count
 Start: Liliana, Untouched by Death (battlefield: with at least three loyalty counters on it); Rooftop Storm (battlefield); Woe Strider (battlefield)
 Prerequisites: You have a Zombie card in hand or in your graveyard.
@@ -14409,7 +14470,7 @@ Steps: Activate Liliana's third ability by removing three loyalty counters from 
 
 ## Combo 598-2452-3967
 Cards: Liliana, Untouched by Death + Rooftop Storm + Yahenni, Undying Partisan
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 62 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count
 Start: Liliana, Untouched by Death (battlefield: with at least three loyalty counters on it); Rooftop Storm (battlefield); Yahenni, Undying Partisan (battlefield)
 Prerequisites: You have a Zombie card in hand or in your graveyard.
@@ -14542,7 +14603,7 @@ Steps: Activate a mana-producing permanent by tapping it, adding at least {1}.
 
 ## Combo 602-3017-4691
 Cards: Vilis, Broker of Blood + Feast of Sanity + Ghostly Pilferer
-Color identity: UB | Bracket: 2-3+ (Oddball) | Popularity: 72 | Commander: legal
+Color identity: UB | Bracket: 2-3+ (Oddball) | Popularity: 71 | Commander: legal
 Produces: Infinite looting; Near-infinite lifegain triggers; Infinite draw triggers; Infinite self-discard triggers
 Start: Vilis, Broker of Blood (battlefield); Feast of Sanity (battlefield); Ghostly Pilferer (battlefield)
 Prerequisites: You have a card in hand.
@@ -14710,7 +14771,7 @@ Steps: Activate Phyrexian Altar by sacrificing Phantasmal Image, adding {B}.
 
 ## Combo 624-1558-2740-4231
 Cards: Time Sieve + Tamiyo's Journal + Academy Manufactor + Phantasmal Image
-Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 53 | Commander: legal
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 54 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Time Sieve (battlefield); Tamiyo's Journal (battlefield); Academy Manufactor (battlefield); Phantasmal Image (battlefield: as a copy of Academy Manufactor)
 Steps: At the beginning of your upkeep, Tamiyo's Journal triggers, creating three Food, three Clue, and three Treasure tokens.
@@ -16741,7 +16802,7 @@ Steps: Cast Ugin's Conjurant either from your hand or from the top of your libra
 
 ## Combo 661-1558-2740-4231
 Cards: Time Sieve + Tamiyo's Journal + Academy Manufactor + Sculpting Steel
-Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 99 | Commander: legal
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 98 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Time Sieve (battlefield); Tamiyo's Journal (battlefield); Academy Manufactor (battlefield); Sculpting Steel (battlefield: as a copy of Academy Manufactor)
 Steps: At the beginning of your upkeep, Tamiyo's Journal triggers, creating three Food, three Clue, and three Treasure tokens.
@@ -19834,7 +19895,7 @@ Steps: Cast Windfall by paying {2}{U}, causing each player to discard their hand
 
 ## Combo 731-790-5076
 Cards: Windfall + Corrupted Conscience + Kederekt Parasite
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 180 | Commander: legal | Mana needed: {2}{U}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 190 | Commander: legal | Mana needed: {2}{U}
 Produces: Each opponent loses the game
 Start: Windfall (battlefield); Corrupted Conscience (battlefield: attached to Kederekt Parasite); Kederekt Parasite (battlefield)
 Prerequisites: You control a red permanent.
@@ -19994,7 +20055,7 @@ Steps: Cast Demonic Consultation by paying {B}, naming Jace, Wielder of Mysterie
 
 ## Combo 742-8266
 Cards: Fblthp, Impossibly Lost + Demonic Consultation
-Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 820 | Commander: legal | Mana needed: {B}
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 830 | Commander: legal | Mana needed: {B}
 Produces: Win the game; Exile your library
 Start: Fblthp, Impossibly Lost (battlefield); Demonic Consultation (hand)
 Prerequisites: You control a creature that doesn't have summoning sickness and that cannot be blocked by an opponent.
@@ -20534,7 +20595,7 @@ Steps: Cast Windfall by paying {2}{U}, causing each player to discard their hand
 
 ## Combo 796-997-1762
 Cards: Wilhelt, the Rotcleaver + Poppet Stitcher // Poppet Factory + Woe Strider
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 92 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 95 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Start: Wilhelt, the Rotcleaver (battlefield); Poppet Stitcher // Poppet Factory (battlefield); Woe Strider (battlefield)
 Prerequisites: You control an additional Zombie creature.
@@ -20555,7 +20616,7 @@ Steps: Activate Ashnod's Altar by  sacrificing a Zombie creature, adding {C}{C}.
 
 ## Combo 796-1762-2292
 Cards: Wilhelt, the Rotcleaver + Poppet Stitcher // Poppet Factory + Viscera Seer
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 910 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 920 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite scry 1
 Start: Wilhelt, the Rotcleaver (battlefield); Poppet Stitcher // Poppet Factory (battlefield); Viscera Seer (battlefield)
 Prerequisites: You control an additional Zombie creature.
@@ -20588,7 +20649,7 @@ Steps: Activate Bloodflow Connoisseur by  sacrificing a Zombie creature.
 
 ## Combo 796-1762-3967
 Cards: Wilhelt, the Rotcleaver + Poppet Stitcher // Poppet Factory + Yahenni, Undying Partisan
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 50 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 51 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Wilhelt, the Rotcleaver (battlefield); Poppet Stitcher // Poppet Factory (battlefield); Yahenni, Undying Partisan (battlefield)
 Prerequisites: You control an additional Zombie creature.
@@ -20609,7 +20670,7 @@ Steps: Activate Phyrexian Altar by  sacrificing a Zombie creature, adding one ma
 
 ## Combo 796-1762-5256
 Cards: Wilhelt, the Rotcleaver + Poppet Stitcher // Poppet Factory + Altar of Dementia
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 2500 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 2600 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Wilhelt, the Rotcleaver (battlefield); Poppet Stitcher // Poppet Factory (battlefield); Altar of Dementia (battlefield)
 Prerequisites: You control an additional Zombie creature.
@@ -21453,7 +21514,7 @@ Steps: Cast Sacrifice by paying {B} and sacrificing Scholar of the Ages, adding 
 
 ## Combo 813-1181-8129
 Cards: Scholar of the Ages + Sacrifice + Stitch Together
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 110 | Commander: legal | Mana needed: {B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 100 | Commander: legal | Mana needed: {B}
 Produces: Infinite black mana; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite magecraft triggers; Infinite storm count; Return all instant and sorcery cards from your graveyard to your hand
 Start: Scholar of the Ages (battlefield); Sacrifice (hand); Stitch Together (hand)
 Prerequisites: There are at least seven cards in your graveyard.
@@ -21531,7 +21592,7 @@ Steps: Cast Culling the Weak by paying {B} and sacrificing Scholar of the Ages, 
 
 ## Combo 813-2081-8129
 Cards: Scholar of the Ages + Culling the Weak + Stitch Together
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 64 | Commander: legal | Mana needed: {B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 63 | Commander: legal | Mana needed: {B}
 Produces: Infinite black mana; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite magecraft triggers; Infinite storm count; Return all instant and sorcery cards from your graveyard to your hand
 Start: Scholar of the Ages (battlefield); Culling the Weak (hand); Stitch Together (hand)
 Prerequisites: There are at least seven cards in your graveyard.
@@ -22621,7 +22682,7 @@ Steps: At the beginning of your end step, Jon Irenicus triggers, causing an oppo
 
 ## Combo 933-1061-1576
 Cards: Forerunner of the Coalition + Timestream Navigator + Conjurer's Closet
-Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 190 | Commander: legal | Mana needed: {2}{U}{U} the first turn, with {3}{U}{U}{U} available each extra turn
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 200 | Commander: legal | Mana needed: {2}{U}{U} the first turn, with {3}{U}{U}{U} available each extra turn
 Produces: Infinite turns; Lock
 Start: Forerunner of the Coalition (battlefield); Timestream Navigator (battlefield); Conjurer's Closet (battlefield)
 Prerequisites: You have the city's blessing.
@@ -23090,7 +23151,7 @@ Steps: Cast Relentless Dead by paying {0}.
 
 ## Combo 945-1303-2034
 Cards: Relentless Dead + Necroduality + Ashnod's Altar
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 7500 | Commander: legal | Mana needed: {B}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 7600 | Commander: legal | Mana needed: {B}{B}
 Produces: Infinite colorless mana; Infinite recursion of Zombie cards in your graveyard; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Relentless Dead (hand); Necroduality (battlefield); Ashnod's Altar (battlefield)
 Steps: Cast Relentless Dead by paying {B}{B}.
@@ -23235,7 +23296,7 @@ Steps: Activate Siren of the Silent Song using Fatestitcher's ability by tapping
 
 ## Combo 950-2034-3069
 Cards: Void Maw + Fatestitcher + Ashnod's Altar
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite colorless mana; Infinitely large creature until end of turn; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Void Maw (battlefield); Fatestitcher (graveyard); Ashnod's Altar (battlefield)
 Prerequisites: You control a permanent that can tap to produce at least {U}.
@@ -23293,7 +23354,7 @@ Steps: Activate the mana-producing permanent by tapping it, adding {U}.
 
 ## Combo 950-3069-5256
 Cards: Void Maw + Fatestitcher + Altar of Dementia
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinitely large creature until end of turn; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Void Maw (battlefield); Fatestitcher (graveyard); Altar of Dementia (battlefield)
 Prerequisites: You control a permanent that can tap to produce at least {U}.
@@ -23489,7 +23550,7 @@ Steps: Cast Ugin's Nexus by paying {5}.
 
 ## Combo 970-1369-1742
 Cards: Asmodeus the Archfiend + Quicksilver Elemental + Skirge Familiar
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 87 | Commander: legal | Mana needed: {U}{B}{B}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal | Mana needed: {U}{B}{B}{B}
 Produces: Near-infinite black mana; Near-infinite card draw; Infinite looting; Infinite self-discard triggers; Infinite draw triggers
 Start: Asmodeus the Archfiend (battlefield); Quicksilver Elemental (battlefield); Skirge Familiar (battlefield)
 Prerequisites: You have a way to remove Asmodeus from the battlefield.
@@ -24102,7 +24163,7 @@ Steps: Activate Woe Strider by sacrificing another creature you control.
 
 ## Combo 997-2452-2577
 Cards: Gravecrawler + Rooftop Storm + Woe Strider
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 290 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 300 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1; Infinite storm count
 Start: Gravecrawler (battlefield); Rooftop Storm (battlefield); Woe Strider (battlefield)
 Prerequisites: You control at least one additional Zombie.
@@ -25793,7 +25854,7 @@ Steps: Activate King Macar by tapping it, adding {U}.
 
 ## Combo 1074-3525-4549
 Cards: King Macar, the Gold-Cursed + Relic of Legends + Pemmin's Aura
-Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 46 | Commander: legal
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 45 | Commander: legal
 Produces: Exile all creatures opponents control; Exile any creature that enters under an opponents control; Lock
 Start: King Macar, the Gold-Cursed (battlefield); Relic of Legends (battlefield); Pemmin's Aura (battlefield)
 Prerequisites: Pemmin's Aura attached to King Macar.
@@ -25952,6 +26013,19 @@ Steps: Donate control of Avacyn to an opponent using Wrong Turn.
   Kill Phage by any method.
   At the beginning of the next end step, Avacyn triggers, returning Phage from your graveyard to the battlefield under the opponent's control.
   When Phage enters, its first ability triggers, causing the opponent to lose the game.
+
+## Combo 1077-3862-8412
+Cards: Orcish Bowmasters + Wrong Turn + Ruric Thar, Biomagus
+Color identity: UB | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {3}{U}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Wrong Turn (hand); Ruric Thar, Biomagus (battlefield)
+Steps: Cast Wrong Turn by paying {2}{U}, causing target opponent to gain control of Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
 
 ## Combo 1077-3899-5571--6
 Cards: Blightbeetle + Spawning Pit + Wrong Turn
@@ -26478,7 +26552,7 @@ Steps: Cast Heartless Act by paying {1}{B}, removing up to three oil counters fr
 
 ## Combo 1165-2861-7666
 Cards: Archfiend of the Dross + Heartless Act + Bilbo, Luckwearer // Burglar's Plot
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal | Mana needed: {8}{U}{B}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal | Mana needed: {8}{U}{B}{B}
 Produces: Target opponent loses the game at the beginning of their next upkeep
 Start: Archfiend of the Dross (battlefield); Heartless Act (hand); Bilbo, Luckwearer // Burglar's Plot (hand)
 Prerequisites: An opponent controls a creature.
@@ -26660,7 +26734,7 @@ Steps: Cast Dark Ritual by paying {B}.
 
 ## Combo 1170-2196-2556-2701
 Cards: Displacer Kitten + Frantic Search + Dark Ritual + Mnemonic Wall
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal | Mana needed: {B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal | Mana needed: {B}
 Produces: Near-infinite mana lands you control can produce; Near-infinite black mana; Infinite looting; Near-infinite untap of lands you control; Infinite self-discard triggers; Near-infinite creature ETB; Infinite draw triggers; Near-infinite storm count; Near-infinite creature LTB; Near-infinite magecraft triggers
 Start: Displacer Kitten (battlefield); Frantic Search (graveyard); Dark Ritual (hand); Mnemonic Wall (battlefield)
 Prerequisites: You control up to three lands that can tap to produce at least {U}.
@@ -26711,7 +26785,7 @@ Steps: Cast Dark Ritual by paying {B}.
 
 ## Combo 1170-2196-2701-6991
 Cards: Displacer Kitten + Frantic Search + Dark Ritual + Donnie & April, Adorkable Duo
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal | Mana needed: {B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {B}
 Produces: Near-infinite mana lands you control can produce; Near-infinite black mana; Infinite looting; Near-infinite untap of lands you control; Infinite self-discard triggers; Near-infinite creature ETB; Infinite draw triggers; Near-infinite storm count; Near-infinite creature LTB; Near-infinite magecraft triggers
 Start: Displacer Kitten (battlefield); Frantic Search (graveyard); Dark Ritual (hand); Donnie & April, Adorkable Duo (battlefield)
 Prerequisites: You control up to three lands that can tap to produce at least {U}.
@@ -26936,7 +27010,7 @@ Steps: Cast Stonecoil Serpent by paying {0}.
 
 ## Combo 1202-2034-3249
 Cards: Havengul Lich + Ashnod's Altar + Myr Moonvessel
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
 Produces: Infinite colorless mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Havengul Lich (battlefield); Ashnod's Altar (battlefield); Myr Moonvessel (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Myr Moonvessel, adding {C}{C}.
@@ -27067,7 +27141,7 @@ Steps: Cast Tainted Strike by paying {B}, giving Kederekt Parasite +1/+0 and inf
 
 ## Combo 1223-2034-3191
 Cards: Kairi, the Swirling Sky + Fake Your Own Death + Ashnod's Altar
-Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 81 | Commander: legal | Mana needed: {1}{B}
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 80 | Commander: legal | Mana needed: {1}{B}
 Produces: Infinite colorless mana; Infinite self-mill; Return all instant and sorcery cards from your graveyard to your hand; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite creature sacrifice triggers; Infinite storm count
 Start: Kairi, the Swirling Sky (battlefield); Fake Your Own Death (hand); Ashnod's Altar (battlefield)
 Steps: Cast Fake Your Own Death by paying {1}{B}, targeting Kairi.
@@ -27080,7 +27154,7 @@ Steps: Cast Fake Your Own Death by paying {1}{B}, targeting Kairi.
 
 ## Combo 1223-2974-4871
 Cards: Pitiless Plunderer + Repository Skaab + Fake Your Own Death
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal | Mana needed: {3}{U}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal | Mana needed: {3}{U}{B}
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count; Infinite magecraft triggers
 Start: Pitiless Plunderer (battlefield); Repository Skaab (hand); Fake Your Own Death (hand)
 Steps: Cast Repository Skaab by paying {3}{U}.
@@ -28063,7 +28137,7 @@ Steps: Activate Havengul Lich by paying {1}, allowing you to cast Shambling Ghas
 
 ## Combo 1303-2438-3249-5173
 Cards: Havengul Lich + Necroduality + Shambling Ghast + Carrion Feeder
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 690 | Commander: legal | Mana needed: {1}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 700 | Commander: legal | Mana needed: {1}{B}
 Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count
 Start: Havengul Lich (battlefield); Necroduality (battlefield); Shambling Ghast (graveyard); Carrion Feeder (battlefield)
 Steps: Activate Havengul Lich by paying {1}, allowing you to cast Shambling Ghast card from your graveyard this turn.
@@ -28766,7 +28840,7 @@ Steps: Activate Emry by tapping it, targeting Lantern of Insight.
 
 ## Combo 1329-3338-6504-7054
 Cards: Emry, Lurker of the Loch + Mirran Spy + Conjurer's Bauble + Gravebreaker Lamia
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers
 Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Mirran Spy (battlefield); Conjurer's Bauble (graveyard); Gravebreaker Lamia (battlefield)
 Steps: Activate Emry by tapping it, targeting Conjurer's Bauble.
@@ -29289,7 +29363,7 @@ Steps: Cast Nexus of Fate by paying {5}{U}{U}, causing you to get an extra turn 
 
 ## Combo 1367-1982-3409
 Cards: Gisa and Geralf + Sidisi, Undead Vizier + Nexus of Fate
-Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 26 | Commander: legal | Mana needed: {8}{U}{U}{B}{B} each turn
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 27 | Commander: legal | Mana needed: {8}{U}{U}{B}{B} each turn
 Produces: Infinite turns; Lock
 Start: Gisa and Geralf (battlefield); Sidisi, Undead Vizier (graveyard); Nexus of Fate (library)
 Prerequisites: You have not cast a creature spell using Gisa and Geralf this turn.
@@ -29354,7 +29428,7 @@ Steps: At the beginning of your upkeep, Venser's Journal and Endless Ranks of th
 
 ## Combo 1367-3482-3838
 Cards: Runo Stromkirk // Krothuss, Lord of the Deep + Rune-Scarred Demon + Nexus of Fate
-Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 98 | Commander: legal | Mana needed: {5}{U}{U} each turn
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 97 | Commander: legal | Mana needed: {5}{U}{U} each turn
 Produces: Infinite turns; Lock
 Start: Runo Stromkirk // Krothuss, Lord of the Deep (battlefield); Rune-Scarred Demon (battlefield); Nexus of Fate (library)
 Prerequisites: Rune-Scarred Demon and Krothuss do not have summoning sickness.
@@ -30704,7 +30778,7 @@ Steps: Cast Cryptic Trilobite either from your hand or from the top of your libr
 
 ## Combo 1458-1547-3682
 Cards: Rona, Herald of Invasion // Rona, Tolarian Obliterator + Mox Amber + Banishing Knack
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 760 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 770 | Commander: legal
 Produces: Infinite blue mana; Infinite mana among colors of legendary creatures and planeswalkers you control; Infinite storm count
 Start: Rona, Herald of Invasion // Rona, Tolarian Obliterator (battlefield); Mox Amber (battlefield); Banishing Knack (hand)
 Prerequisites: Rona does not have summoning sickness.
@@ -31606,7 +31680,7 @@ Steps: Activate Siren of the Silent Song using Aphetto Alchemist's ability by ta
 
 ## Combo 1557-4222-4474
 Cards: Siren of the Silent Song + Freed from the Real + Paradise Mantle
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 56 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 57 | Commander: legal
 Produces: Infinite mill
 Start: Siren of the Silent Song (battlefield: without summoning sickness); Freed from the Real (battlefield: attached to Siren of the Silent Song); Paradise Mantle (battlefield: attached to Siren of the Silent Song)
 Steps: Activate Siren of the Silent Song by tapping it, adding {U}.
@@ -31737,7 +31811,7 @@ Steps: At the beginning of your combat step, Helm of the Host triggers, creating
 
 ## Combo 1558-1692-4840
 Cards: Time Sieve + Myr Battlesphere + Helm of the Host
-Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 250 | Commander: legal
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 260 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Time Sieve (battlefield); Myr Battlesphere (battlefield); Helm of the Host (battlefield)
 Prerequisites: Helm of the Host attached to Myr Battlesphere.
@@ -32228,58 +32302,3 @@ Steps: Cast Myr Battlesphere by paying {7}.
   Resolve the Time Sieve ability, causing you to take an extra turn after this one.
   Move to your next turn, drawing Myr Battlesphere during your draw step.
   Repeat.
-
-## Combo 1558-4840-6911
-Cards: Impostor Syndrome + Time Sieve + Myr Battlesphere
-Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 16 | Commander: legal
-Produces: Infinite turns; Lock
-Start: Impostor Syndrome (battlefield); Time Sieve (battlefield); Myr Battlesphere (battlefield: without summoning sickness)
-Prerequisites: An opponent cannot block Myr Battlesphere.
-Steps: Deal combat damage to an opponent using Myr Battlesphere, triggering Impostor Syndrome, creating a token copy of Myr Battlesphere.
-  When the Myr Battlesphere token enters, it triggers, creating four 1/1 Myr artifact creature tokens.
-  Activate Time Sieve by tapping it, sacrificing the four Myr tokens and sacrificing the Myr Battlesphere token, causing you to take an extra turn after this one.
-  Repeat each turn.
-
-## Combo 1558-4840-7631
-Cards: Echocasting Symposium + Myr Battlesphere + Time Sieve
-Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 11 | Commander: legal | Mana needed: {4}{U}{U}
-Produces: Infinite turns; Lock
-Start: Echocasting Symposium (hand); Myr Battlesphere (battlefield); Time Sieve (battlefield)
-Steps: Cast Echocasting Symposium by paying {4}{U}{U}, creating a token copy of Myr Battlesphere and exiling Echocasting Symposium.
-  When Myr Battlesphere enters, it triggers, creating four 1/1 Myr artifact creature tokens.
-  Activate Time Sieve by tapping it, sacrificing the Myr Battlesphere token and the four Myr tokens, causing you to take an extra turn after this one.
-  Move to your next turn. At the beginning of your precombat main phase, Echocasting Symposium's paradigm ability triggers, causing you to cast a copy of it from exile. Resolve the copy, creating a token copy of Myr Battlesphere.
-  Repeat from step 2.
-
-## Combo 1558-4840-7650
-Cards: Time Sieve + Myr Battlesphere + Bilbo, Thief in the Night
-Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 10 | Commander: legal | Mana needed: {6} each turn
-Produces: Infinite turns; Lock
-Start: Time Sieve (battlefield); Myr Battlesphere (graveyard); Bilbo, Thief in the Night (battlefield: without summoning sickness)
-Prerequisites: An opponent cannot block and kill Bilbo.
-Steps: Declare Bilbo as an attacker, triggering its ability, causing you to cast Myr Battlesphere from your graveyard by paying {6}.
-  When Myr Battlesphere enters, it triggers, creating four 1/1 Myr creature tokens.
-  Activate Time Sieve by tapping it, sacrificing Myr Battlesphere and sacrificing the four Myr tokens, causing you to take an extra turn after this one.
-  Repeat each turn.
-
-## Combo 1558-4840-8193
-Cards: Time Sieve + Myr Battlesphere + Avacyn, Angel of Horror
-Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 4 | Commander: legal | Mana needed: {7}
-Produces: Infinite turns; Lock
-Start: Time Sieve (battlefield); Myr Battlesphere (hand); Avacyn, Angel of Horror (battlefield)
-Steps: Cast Myr Battlesphere by paying {7}.
-  When Myr Battlesphere enters, it triggers, creating four 1/1 Myr creature tokens.
-  Activate Time Sieve by tapping it, sacrificing Myr Battlesphere and sacrificing the four Myr tokens, causing you to take an extra turn after this one.
-  At the beginning of your end step, Avacyn triggers, returning Myr Battlesphere from your graveyard to the battlefield.
-  When Myr Battlesphere enters, it triggers, creating four 1/1 Myr creature tokens.
-  Repeat from step 3 each turn.
-
-## Combo 1558-5146
-Cards: Thopter Assembly + Time Sieve
-Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 6400 | Commander: legal | Mana needed: {6}
-Produces: Infinite turns; Lock
-Start: Thopter Assembly (battlefield); Time Sieve (battlefield)
-Prerequisites: Thopter Assembly is your only thopter.
-Steps: At the beginning of your upkeep, Thopter Assembly triggers, returning itself it your hand and creating 5 Thopter tokens .Sacrifice those tokens to Time Sieve to take an extra turn.
-  Cast Thopter Assembly for {6}.
-  Repeat for infinite turns.

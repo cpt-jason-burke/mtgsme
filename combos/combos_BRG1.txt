@@ -153,7 +153,7 @@ Steps: Cast Reincarnation by paying its mana cost.
 
 ## Combo 16-4552
 Cards: Lavaclaw Reaches + Blossoming Tortoise
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 480 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 470 | Commander: legal
 Produces: Infinitely powerful creature until end of turn
 Start: Lavaclaw Reaches (battlefield); Blossoming Tortoise (battlefield)
 Steps: Activate Lavaclaw Reaches by paying {B}{R} due to Blossoming Tortoise, causing it to become a 2/2 Elemental creature until end of turn.
@@ -8824,7 +8824,7 @@ Steps: Activate Phyrexian Altar twice by sacrificing Priest of Gix and Slimefoot
 
 ## Combo 222-629-997-4871
 Cards: Slimefoot and Squee + Pitiless Plunderer + Gruff Triplets + Woe Strider
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 28 | Commander: legal | Mana needed: {1} plus either {B}, {R} or {G}
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal | Mana needed: {1} plus either {B}, {R} or {G}
 Produces: Infinite colored mana; Infinite creature tokens; Infinite Treasure tokens; Infinite artifact tokens; Infinite +1/+1 counters on certain creatures; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite scry 1
 Start: Slimefoot and Squee (battlefield); Pitiless Plunderer (battlefield); Gruff Triplets (battlefield); Woe Strider (battlefield)
 Prerequisites: You control at least one Saproling.
@@ -8920,7 +8920,7 @@ Steps: Activate Bloodflow Connoisseur twice by sacrificing Gruff Triplets and Sl
 
 ## Combo 222-629-3967-4871
 Cards: Slimefoot and Squee + Pitiless Plunderer + Gruff Triplets + Yahenni, Undying Partisan
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal | Mana needed: {1} plus either {B}, {R} or {G}
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal | Mana needed: {1} plus either {B}, {R} or {G}
 Produces: Infinite colored mana; Infinite creature tokens; Infinite Treasure tokens; Infinite artifact tokens; Infinite +1/+1 counters on certain creatures; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Slimefoot and Squee (battlefield); Pitiless Plunderer (battlefield); Gruff Triplets (battlefield); Yahenni, Undying Partisan (battlefield)
 Prerequisites: You control at least one Saproling.
@@ -9117,7 +9117,7 @@ Steps: Activate Woe Strider twice by sacrificing Sporuting Thrinax and Slimefoot
 
 ## Combo 222-1116-4050
 Cards: Slimefoot and Squee + Sek'Kuar, Deathkeeper + Phyrexian Altar
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 71 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Slimefoot and Squee (battlefield); Sek'Kuar, Deathkeeper (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: You control at least one Saproling.
@@ -9262,7 +9262,7 @@ Steps: Activate Ashnod's Altar twice by sacrificing another nontoken creature yo
 
 ## Combo 222-2034-5003
 Cards: Nim Deathmantle + Ashnod's Altar + Slimefoot and Squee
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 89 | Commander: legal | Mana needed: {2}
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 88 | Commander: legal | Mana needed: {2}
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Slimefoot and Squee (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Slimefoot and Squee, adding {C}{C}.
@@ -12890,7 +12890,7 @@ Steps: Activate Clickslither by sacrificing Putrid Goblin.
 
 ## Combo 301-2813-4381
 Cards: Putrid Goblin + Goblin Trashmaster + Grumgully, the Generous
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 550 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 540 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Putrid Goblin (battlefield: without a -1/-1 counter on it); Goblin Trashmaster (battlefield); Grumgully, the Generous (battlefield)
 Prerequisites: There's an artifact on the battlefield.
@@ -13384,7 +13384,7 @@ Notes: If you have a way to kill Evereth and {1}{B/R} available, you can do so a
 
 ## Combo 317-2034-3192
 Cards: Ulasht, the Hate Seed + Mazirek, Kraul Death Priest + Ashnod's Altar
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 50 | Commander: legal | Mana needed: {1}
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite +1/+1 counters on most creatures you control; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Ulasht, the Hate Seed (battlefield); Mazirek, Kraul Death Priest (battlefield); Ashnod's Altar (battlefield)
 Prerequisites: Ulasht has at least two +1/+1 counters on it.
@@ -14817,9 +14817,61 @@ Steps: Cast the creature with MV>=4 for its blitz cost by paying {0}.
   Resolve the Blasting Station ability, dealing 1 damage to any target.
   Repeat.
 
+## Combo 413-967-2097-3809-7087
+Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Jolene, the Plunder Queen + Blasting Station
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
+Produces: Infinite colored mana; Infinite Treasure tokens; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count; Exile your library
+Start: Prosper, Tome-Bound (battlefield); Goldspan Dragon (battlefield); Flameskull (battlefield, exile); Jolene, the Plunder Queen (battlefield); Blasting Station (battlefield)
+Steps: Activate Blasting Station by sacrificing Flameskull
+  When Flameskull dies, it triggers, exiling it and the top card of your library with the ability to cast one from exile this turn.
+  Resolve the Blasting Station ability, dealing 1 damage to its target.
+  Cast Flameskull from exile by paying {1}{R}{R}.
+  Prosper's second ability triggers, creating two Treasure tokens due to Jolene.
+  Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
+  Repeat from step 1
+
+## Combo 413-967-2557-3809-7087
+Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Blasting Station + Parallel Lives
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
+Produces: Infinite colored mana; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count; Exile your library
+Start: Prosper, Tome-Bound (battlefield); Goldspan Dragon (battlefield); Flameskull (battlefield, exile); Blasting Station (battlefield); Parallel Lives (battlefield)
+Steps: Activate Blasting Station by sacrificing Flameskull
+  When Flameskull dies, it triggers, exiling it and the top card of your library with the ability to cast one from exile this turn.
+  Resolve the Blasting Station ability, dealing 1 damage to its target.
+  Cast Flameskull from exile by paying {1}{R}{R}.
+  Prosper's second ability triggers, creating two Treasure tokens due to Parallel Lives.
+  Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
+  Repeat from step 1
+
+## Combo 413-967-3129-3809-7087
+Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Blasting Station + Primal Vigor
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
+Produces: Infinite colored mana; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count; Exile your library
+Start: Prosper, Tome-Bound (battlefield); Goldspan Dragon (battlefield); Flameskull (battlefield, exile); Blasting Station (battlefield); Primal Vigor (battlefield)
+Steps: Activate Blasting Station by sacrificing Flameskull
+  When Flameskull dies, it triggers, exiling it and the top card of your library with the ability to cast one from exile this turn.
+  Resolve the Blasting Station ability, dealing 1 damage to its target.
+  Cast Flameskull from exile by paying {1}{R}{R}.
+  Prosper's second ability triggers, creating two Treasure tokens due to Primal Vigor.
+  Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
+  Repeat from step 1
+
+## Combo 413-967-3809-4772-7087
+Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Blasting Station + Doubling Season
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
+Produces: Infinite colored mana; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count; Exile your library
+Start: Prosper, Tome-Bound (battlefield); Goldspan Dragon (battlefield); Flameskull (battlefield, exile); Blasting Station (battlefield); Doubling Season (battlefield)
+Steps: Activate Blasting Station by sacrificing Flameskull
+  When Flameskull dies, it triggers, exiling it and the top card of your library with the ability to cast one from exile this turn.
+  Resolve the Blasting Station ability, dealing 1 damage to its target.
+  Cast Flameskull from exile by paying {1}{R}{R}.
+  Prosper's second ability triggers, creating two Treasure tokens due to Doubling Season.
+  Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
+  Repeat from step 1
+
 ## Combo 413-1116-1263-4871
 Cards: Blasting Station + Sek'Kuar, Deathkeeper + Bloodsoaked Champion + Pitiless Plunderer
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal
 Produces: Infinite damage; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Blasting Station (battlefield); Sek'Kuar, Deathkeeper (battlefield); Bloodsoaked Champion (graveyard); Pitiless Plunderer (battlefield)
 Prerequisites: You have attacked this turn.
@@ -14837,7 +14889,7 @@ Steps: Activate Blasting Station by tapping it and sacrificing Bloodsoaked Champ
 
 ## Combo 413-1116-1580-4871
 Cards: Blasting Station + Sek'Kuar, Deathkeeper + Reassembling Skeleton + Pitiless Plunderer
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 32 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 33 | Commander: legal
 Produces: Infinite damage; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Blasting Station (battlefield); Sek'Kuar, Deathkeeper (battlefield); Reassembling Skeleton (graveyard); Pitiless Plunderer (battlefield)
 Steps: Activate Blasting Station by tapping it and sacrificing Reassembling Skeleton.
@@ -19324,7 +19376,7 @@ Steps: Activate Ant Queen by paying {1}{G}, creating two creature tokens.
 
 ## Combo 647-2563-3259
 Cards: Xira, the Golden Sting + Breath of Fury + Urabrask the Hidden
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal
 Produces: Infinite card draw; Near-infinite combat damage; Near-infinite combat phases; Infinite draw triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers
 Start: Xira, the Golden Sting (battlefield); Breath of Fury (battlefield); Urabrask the Hidden (battlefield)
 Prerequisites: Breath of Fury attached to any other creature you control with an egg counter on it.
@@ -20000,7 +20052,7 @@ Steps: Activate Hammerhead by sacrificing Rograkh.
 
 ## Combo 713-1657
 Cards: Murderous Redcap + Surrak and Goreclaw
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 50 | Commander: legal | Mana needed: {2}{B/R}{B/R}
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 51 | Commander: legal | Mana needed: {2}{B/R}{B/R}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite death triggers
 Start: Murderous Redcap (hand); Surrak and Goreclaw (battlefield)
 Steps: Cast Murderous Redcap by paying {2}{B/R}{B/R}.
@@ -23310,7 +23362,7 @@ Steps: Cast the creature with MV>=4 for its blitz cost by paying {0}.
 
 ## Combo 866-2438-5220--66
 Cards: Henzie "Toolbox" Torre + Mortuary + Carrion Feeder
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count; Infinite draw triggers
 Requires: Creature with MV>=4 that has a generic mana cost (hand)
 Start: Henzie "Toolbox" Torre (battlefield: must be your commander); Mortuary (battlefield); Carrion Feeder (battlefield)
@@ -23565,7 +23617,7 @@ Steps: Activate Delif's Cone by tapping and sacrificing it.
 
 ## Combo 878-1605-3059
 Cards: Ziatora, the Incinerator + Malignus + Gratuitous Violence
-Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 370 | Commander: legal
+Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 380 | Commander: legal
 Produces: Target opponent loses the game; Near-infinite damage to one opponent
 Start: Ziatora, the Incinerator (battlefield); Malignus (battlefield); Gratuitous Violence (battlefield)
 Steps: At the beginning of your end step, Ziatora triggers, causing you to sacrifice Malignus, deal damage equal to two times Malignus's power to target opponent, and create three Treasure tokens.
@@ -24416,6 +24468,46 @@ Steps: Activate Hammerhead by sacrificing Flameskull.
   Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
   Repeat.
 
+## Combo 967-2097-3809-7087-8227
+Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Jolene, the Plunder Queen + Loot, the Anomaly
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite +1/+1 counters on a creature; Infinite artifact tokens; Exile your library; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Prosper, Tome-Bound (battlefield); Goldspan Dragon (battlefield); Flameskull (battlefield, exile); Jolene, the Plunder Queen (battlefield); Loot, the Anomaly (battlefield)
+Prerequisites: You have at least seven cards in your graveyard.
+Steps: Activate Loot by sacrificing Flameskull
+  When Flameskull dies, it triggers, exiling it and the top card of your library with the ability to cast one from exile this turn.
+  Resolve Loot's ability, giving them -2/-0 until end of turn.
+  Cast Flameskull from exile by paying {1}{R}{R}.
+  Prosper's second ability triggers, creating two Treasure tokens due to Jolene.
+  Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
+  Repeat from step 1
+
+## Combo 967-2097-3809-7087-8249
+Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Jolene, the Plunder Queen + Defiant Salvager
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite +1/+1 counters on a creature; Infinite artifact tokens; Exile your library; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Prosper, Tome-Bound (battlefield); Goldspan Dragon (battlefield); Flameskull (battlefield, exile); Jolene, the Plunder Queen (battlefield); Defiant Salvager (battlefield)
+Steps: Activate Defiant Salvager by sacrificing Flameskull
+  When Flameskull dies, it triggers, exiling it and the top card of your library with the ability to cast one from exile this turn.
+  Resolve Defiant Salvager's ability, putting a +1/+1 counter on it.
+  Cast Flameskull from exile by paying {1}{R}{R}.
+  Prosper's second ability triggers, creating two Treasure tokens due to Jolene.
+  Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
+  Repeat from step 1
+
+## Combo 967-2097-3809-7087-8250
+Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Jolene, the Plunder Queen + Scarland Thrinax
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite +1/+1 counters on a creature; Infinite artifact tokens; Exile your library; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Prosper, Tome-Bound (battlefield); Goldspan Dragon (battlefield); Flameskull (battlefield, exile); Jolene, the Plunder Queen (battlefield); Scarland Thrinax (battlefield)
+Steps: Activate Scarland Thrinax by sacrificing Flameskull
+  When Flameskull dies, it triggers, exiling it and the top card of your library with the ability to cast one from exile this turn.
+  Resolve Scarland Thrinax's ability, putting a +1/+1 counter on it.
+  Cast Flameskull from exile by paying {1}{R}{R}.
+  Prosper's second ability triggers, creating two Treasure tokens due to Jolene.
+  Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
+  Repeat from step 1
+
 ## Combo 967-2292-2557-3809-7087
 Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Viscera Seer + Parallel Lives
 Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
@@ -24651,6 +24743,46 @@ Steps: Activate Hammerhead by sacrificing Flameskull.
   Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
   Repeat.
 
+## Combo 967-2557-3809-7087-8227
+Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Parallel Lives + Loot, the Anomaly
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite artifact tokens; Exile your library; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Prosper, Tome-Bound (battlefield); Goldspan Dragon (battlefield); Flameskull (battlefield, exile); Parallel Lives (battlefield); Loot, the Anomaly (battlefield)
+Prerequisites: You have at least seven cards in your graveyard.
+Steps: Activate Loot by sacrificing Flameskull
+  When Flameskull dies, it triggers, exiling it and the top card of your library with the ability to cast one from exile this turn.
+  Resolve Loot's ability, giving them -2/-0 until end of turn.
+  Cast Flameskull from exile by paying {1}{R}{R}.
+  Prosper's second ability triggers, creating two Treasure tokens due to Parallel Lives.
+  Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
+  Repeat from step 1
+
+## Combo 967-2557-3809-7087-8249
+Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Defiant Salvager + Parallel Lives
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite +1/+1 counters on a creature; Infinite artifact tokens; Exile your library; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Prosper, Tome-Bound (battlefield); Goldspan Dragon (battlefield); Flameskull (battlefield, exile); Defiant Salvager (battlefield); Parallel Lives (battlefield)
+Steps: Activate Defiant Salvager by sacrificing Flameskull
+  When Flameskull dies, it triggers, exiling it and the top card of your library with the ability to cast one from exile this turn.
+  Resolve Defiant Salvager's ability, putting a +1/+1 counter on it.
+  Cast Flameskull from exile by paying {1}{R}{R}.
+  Prosper's second ability triggers, creating two Treasure tokens due to Parallel Lives.
+  Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
+  Repeat from step 1
+
+## Combo 967-2557-3809-7087-8250
+Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Parallel Lives + Scarland Thrinax
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite artifact tokens; Exile your library; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Prosper, Tome-Bound (battlefield); Goldspan Dragon (battlefield); Flameskull (battlefield, exile); Parallel Lives (battlefield); Scarland Thrinax (battlefield)
+Steps: Activate Scarland Thrinax by sacrificing Flameskull
+  When Flameskull dies, it triggers, exiling it and the top card of your library with the ability to cast one from exile this turn.
+  Resolve Scarland Thrinax's ability, putting a +1/+1 counter on it.
+  Cast Flameskull from exile by paying {1}{R}{R}.
+  Prosper's second ability triggers, creating two Treasure tokens due to Parallel Lives.
+  Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
+  Repeat from step 1
+
 ## Combo 967-3129-3809-3899-7087
 Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Primal Vigor + Spawning Pit
 Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
@@ -24769,6 +24901,46 @@ Steps: Activate Hammerhead by sacrificing Flameskull.
   Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
   Repeat.
 
+## Combo 967-3129-3809-7087-8227
+Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Primal Vigor + Loot, the Anomaly
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite artifact tokens; Exile your library; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Prosper, Tome-Bound (battlefield); Goldspan Dragon (battlefield); Flameskull (battlefield, exile); Primal Vigor (battlefield); Loot, the Anomaly (battlefield)
+Prerequisites: You have at least seven cards in your graveyard.
+Steps: Activate Loot by sacrificing Flameskull
+  When Flameskull dies, it triggers, exiling it and the top card of your library with the ability to cast one from exile this turn.
+  Resolve Loot's ability, giving them -2/-0 until end of turn.
+  Cast Flameskull from exile by paying {1}{R}{R}.
+  Prosper's second ability triggers, creating two Treasure tokens due to Primal Vigor.
+  Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
+  Repeat from step 1
+
+## Combo 967-3129-3809-7087-8249
+Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Defiant Salvager + Primal Vigor
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite +1/+1 counters on a creature; Infinite artifact tokens; Exile your library; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Prosper, Tome-Bound (battlefield); Goldspan Dragon (battlefield); Flameskull (battlefield, exile); Defiant Salvager (battlefield); Primal Vigor (battlefield)
+Steps: Activate Defiant Salvager by sacrificing Flameskull
+  When Flameskull dies, it triggers, exiling it and the top card of your library with the ability to cast one from exile this turn.
+  Resolve Defiant Salvager's ability, putting a +1/+1 counter on it.
+  Cast Flameskull from exile by paying {1}{R}{R}.
+  Prosper's second ability triggers, creating two Treasure tokens due to Primal Vigor.
+  Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
+  Repeat from step 1
+
+## Combo 967-3129-3809-7087-8250
+Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Primal Vigor + Scarland Thrinax
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite artifact tokens; Exile your library; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Prosper, Tome-Bound (battlefield); Goldspan Dragon (battlefield); Flameskull (battlefield, exile); Primal Vigor (battlefield); Scarland Thrinax (battlefield)
+Steps: Activate Scarland Thrinax by sacrificing Flameskull
+  When Flameskull dies, it triggers, exiling it and the top card of your library with the ability to cast one from exile this turn.
+  Resolve Scarland Thrinax's ability, putting a +1/+1 counter on it.
+  Cast Flameskull from exile by paying {1}{R}{R}.
+  Prosper's second ability triggers, creating two Treasure tokens due to Primal Vigor.
+  Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
+  Repeat from step 1
+
 ## Combo 967-3809-3899-4772-7087
 Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Spawning Pit + Doubling Season
 Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
@@ -24886,6 +25058,59 @@ Steps: Activate Hammerhead by sacrificing Flameskull.
   Prosper's second ability triggers, creating two Treasure tokens.
   Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
   Repeat.
+
+## Combo 967-3809-4772-7087-8227
+Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Doubling Season + Loot, the Anomaly
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite artifact tokens; Exile your library; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Prosper, Tome-Bound (battlefield); Goldspan Dragon (battlefield); Flameskull (battlefield, exile); Doubling Season (battlefield); Loot, the Anomaly (battlefield)
+Prerequisites: You have at least seven cards in your graveyard.
+Steps: Activate Loot by sacrificing Flameskull
+  When Flameskull dies, it triggers, exiling it and the top card of your library with the ability to cast one from exile this turn.
+  Resolve Loot's ability, giving them -2/-0 until end of turn.
+  Cast Flameskull from exile by paying {1}{R}{R}.
+  Prosper's second ability triggers, creating two Treasure tokens due to Doubling Season.
+  Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
+  Repeat from step 1
+
+## Combo 967-3809-4772-7087-8249
+Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Defiant Salvager + Doubling Season
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite +1/+1 counters on a creature; Infinite artifact tokens; Exile your library; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Prosper, Tome-Bound (battlefield); Goldspan Dragon (battlefield); Flameskull (battlefield, exile); Defiant Salvager (battlefield); Doubling Season (battlefield)
+Steps: Activate Defiant Salvager by sacrificing Flameskull
+  When Flameskull dies, it triggers, exiling it and the top card of your library with the ability to cast one from exile this turn.
+  Resolve Defiant Salvager's ability, putting a +1/+1 counter on it.
+  Cast Flameskull from exile by paying {1}{R}{R}.
+  Prosper's second ability triggers, creating two Treasure tokens due to Doubling Season.
+  Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
+  Repeat from step 1
+
+## Combo 967-3809-4772-7087-8250
+Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Doubling Season + Scarland Thrinax
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite artifact tokens; Exile your library; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Prosper, Tome-Bound (battlefield); Goldspan Dragon (battlefield); Flameskull (battlefield, exile); Doubling Season (battlefield); Scarland Thrinax (battlefield)
+Steps: Activate Scarland Thrinax by sacrificing Flameskull
+  When Flameskull dies, it triggers, exiling it and the top card of your library with the ability to cast one from exile this turn.
+  Resolve Scarland Thrinax's ability, putting a +1/+1 counter on it.
+  Cast Flameskull from exile by paying {1}{R}{R}.
+  Prosper's second ability triggers, creating two Treasure tokens due to Doubling Season.
+  Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
+  Repeat from step 1
+
+## Combo 967-3809-5184-7087-8250
+Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Xorn + Scarland Thrinax
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite artifact tokens; Exile your library; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Prosper, Tome-Bound (battlefield); Goldspan Dragon (battlefield); Flameskull (battlefield, exile); Xorn (battlefield); Scarland Thrinax (battlefield)
+Steps: Activate Scarland Thrinax by sacrificing Flameskull
+  When Flameskull dies, it triggers, exiling it and the top card of your library with the ability to cast one from exile this turn.
+  Resolve Scarland Thrinax's ability, putting a +1/+1 counter on it.
+  Cast Flameskull from exile by paying {1}{R}{R}.
+  Prosper's second ability triggers, creating two Treasure tokens due to Xorn.
+  Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
+  Repeat from step 1
 
 ## Combo 967-4390-5078-6757-7633
 Cards: Meria, Scholar of Antiquity + Sensei's Divining Top + Weapons Manufacturing + Ravenous Robots + Prosper, Tome-Bound
@@ -25529,7 +25754,7 @@ Steps: Activate Woe Strider by sacrificing the persist creature.
 
 ## Combo 997-3020-6701
 Cards: Szarel, Genesis Shepherd + Puppeteer Clique + Woe Strider
-Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 17 | Commander: legal
+Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 18 | Commander: legal
 Produces: Infinite +1/+1 counters on creatures you control; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Start: Szarel, Genesis Shepherd (battlefield); Puppeteer Clique (battlefield: without a -1/-1 counter on it); Woe Strider (battlefield)
 Prerequisites: An opponent has a creature card in their graveyard.
@@ -25604,7 +25829,7 @@ Steps: Activate Woe Strider by sacrificing another creature.
 
 ## Combo 997-3602--5
 Cards: Bhaal, Lord of Murder + Woe Strider
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 420 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 410 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Requires: 2x Persist Creature (battlefield)
 Start: Bhaal, Lord of Murder (battlefield); Woe Strider (battlefield)
@@ -25648,7 +25873,7 @@ Steps: Cast Etali by paying {5}{R}{R}.
 
 ## Combo 997-4381--5
 Cards: Woe Strider + Grumgully, the Generous
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 360 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 370 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite scry 1
 Requires: Persist Creature (battlefield: without a -1/-1 counter on it)
 Start: Woe Strider (battlefield); Grumgully, the Generous (battlefield)
@@ -25853,7 +26078,7 @@ Notes: You can instead sacrifice the creature tokens to their own abilities inst
 
 ## Combo 997-6701--5
 Cards: Szarel, Genesis Shepherd + Woe Strider
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 210 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 220 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Requires: 2x Persist Creature (battlefield)
 Start: Szarel, Genesis Shepherd (battlefield); Woe Strider (battlefield)
@@ -26664,7 +26889,7 @@ Steps: Activate Phantom Train by sacrificing Bloodsoaked Champion.
 
 ## Combo 1116-1263-4871-6798
 Cards: Umbral Collar Zealot + Sek'Kuar, Deathkeeper + Bloodsoaked Champion + Pitiless Plunderer
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 62 | Commander: legal
 Produces: Infinite surveil; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Umbral Collar Zealot (battlefield); Sek'Kuar, Deathkeeper (battlefield); Bloodsoaked Champion (graveyard); Pitiless Plunderer (battlefield)
 Prerequisites: You have attacked this turn.
@@ -26964,7 +27189,7 @@ Steps: Activate Ashnod's Altar by sacrificing Nether Traitor, adding {C}{C}
 
 ## Combo 1116-2034-5003
 Cards: Nim Deathmantle + Ashnod's Altar + Sek'Kuar, Deathkeeper
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 58 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Sek'Kuar, Deathkeeper (battlefield)
 Prerequisites: You control at least one additional nontoken creature.
@@ -27099,7 +27324,7 @@ Steps: Activate Viscera Seer by sacrificing Nether Traitor
 
 ## Combo 1116-2292-7084
 Cards: Beifong's Bounty Hunters + Viscera Seer + Sek'Kuar, Deathkeeper
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 62 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers; Infinite scry 1
 Start: Beifong's Bounty Hunters (battlefield); Viscera Seer (battlefield); Sek'Kuar, Deathkeeper (battlefield)
 Prerequisites: You control a land.
@@ -27209,7 +27434,7 @@ Steps: Activate Carrion Feeder by sacrificing Nether Traitor
 
 ## Combo 1116-2438-7084
 Cards: Beifong's Bounty Hunters + Sek'Kuar, Deathkeeper + Carrion Feeder
-Color identity: BRG | Bracket: 2-3+ (Oddball) | Popularity: 37 | Commander: legal
+Color identity: BRG | Bracket: 2-3+ (Oddball) | Popularity: 38 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers; Infinite creature ETB
 Start: Beifong's Bounty Hunters (battlefield); Sek'Kuar, Deathkeeper (battlefield); Carrion Feeder (battlefield)
 Prerequisites: You control a land.
@@ -27941,7 +28166,7 @@ Steps: Activate Yahenni by sacrificing Nether Traitor
 
 ## Combo 1116-3240-4050
 Cards: Nether Traitor + Phyrexian Altar + Sek'Kuar, Deathkeeper
-Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 250 | Commander: legal
+Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 260 | Commander: legal
 Produces: Infinite colored mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Nether Traitor (battlefield); Phyrexian Altar (battlefield); Sek'Kuar, Deathkeeper (battlefield)
 Steps: Activate Phyrexian Altar by sacrificing Nether Traitor, adding {B}.
@@ -28404,7 +28629,7 @@ Steps: Activate Warren Soultrader by sacrificing Nether Traitor and paying 1 lif
 
 ## Combo 1116-3240-5670-6578
 Cards: Sek'Kuar, Deathkeeper + Warren Soultrader + Nether Traitor + Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 33 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal
 Produces: Infinite colored mana; Infinite Treasure tokens; Infinite lifeloss; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Sek'Kuar, Deathkeeper (battlefield); Warren Soultrader (battlefield); Nether Traitor (battlefield); Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel (battlefield)
 Prerequisites: Your life total is at least 2.
@@ -28729,7 +28954,7 @@ Steps: Activate Scarland Thrinax by sacrificing Nether Traitor
 
 ## Combo 1116-3967-7084
 Cards: Beifong's Bounty Hunters + Sek'Kuar, Deathkeeper + Yahenni, Undying Partisan
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal
+Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers
 Start: Beifong's Bounty Hunters (battlefield); Sek'Kuar, Deathkeeper (battlefield); Yahenni, Undying Partisan (battlefield)
 Prerequisites: You control a land.
@@ -29043,7 +29268,7 @@ Steps: Activate Yawgmoth by paying 1 life and sacrificing the undying creature.
 
 ## Combo 1116-5147-7084
 Cards: Beifong's Bounty Hunters + Goblin Bombardment + Sek'Kuar, Deathkeeper
-Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 54 | Commander: legal
+Color identity: BRG | Bracket: 3-4+ (Spicy) | Popularity: 55 | Commander: legal
 Produces: Infinite damage; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers
 Start: Beifong's Bounty Hunters (battlefield); Goblin Bombardment (battlefield); Sek'Kuar, Deathkeeper (battlefield)
 Prerequisites: You control a land.
@@ -30204,243 +30429,3 @@ Steps: Activate Thermopod by sacrificing Bloodsoaked Champion, adding {R}
   Activate Bloodsoaked Champion by paying {1}{B}, returning it from your graveyard to the battlefield.
   When Bloodsoaked Champion enters, Davvol triggers, adding {B} and causing you to lose 1 life.
   Repeat.
-
-## Combo 1263-1531-5231-8125
-Cards: Bloodsoaked Champion + Deathgreeter + Thermopod + Davvol, Evincar of Rath
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B}
-Produces: Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Bloodsoaked Champion (graveyard); Deathgreeter (battlefield); Thermopod (battlefield); Davvol, Evincar of Rath (battlefield)
-Prerequisites: You have attacked this turn.
-Steps: Activate Thermopod by sacrificing Bloodsoaked Champion, adding {R}
-  When Bloodsoaked Champion dies, Deathgreeter triggers, causing you to gain 1 life
-  Activate Bloodsoaked Champion by paying {1}{B}, returning it from your graveyard to the battlefield.
-  When Bloodsoaked Champion enters, Davvol triggers, adding {B} and causing you to lose 1 life.
-  Repeat.
-
-## Combo 1263-1829-5231-8125
-Cards: Bloodsoaked Champion + Vindictive Vampire + Thermopod + Davvol, Evincar of Rath
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B}
-Produces: Infinite damage; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Bloodsoaked Champion (battlefield); Vindictive Vampire (battlefield); Thermopod (battlefield); Davvol, Evincar of Rath (battlefield)
-Prerequisites: You have attacked this turn.
-Steps: Activate Thermopod by sacrificing Bloodsoaked Champion, adding {R}
-  When Bloodsoaked Champion dies, Vindictive Vampire triggers, causing you to gain 1 life and dealing 1 damage to each opponent
-  Activate Bloodsoaked Champion by paying {1}{B}, returning it from your graveyard to the battlefield.
-  When Bloodsoaked Champion enters, Davvol triggers, adding {B} and causing you to lose 1 life.
-  Repeat.
-
-## Combo 1263-2034-2060-3602
-Cards: Bhaal, Lord of Murder + Bloodsoaked Champion + Crystalline Crawler + Ashnod's Altar
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
-Produces: Infinite colorless mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
-Start: Bhaal, Lord of Murder (battlefield); Bloodsoaked Champion (battlefield); Crystalline Crawler (battlefield); Ashnod's Altar (battlefield)
-Prerequisites: You have attacked this turn.
-Steps: Activate Ashnod's Altar by sacrificing Bloodsoaked Champion, adding {C}{C}.
-  When Bloodsoaked Champion dies, Bhaal triggers, putting a +1/+1 counter on Crystalline Crawler and goading it.
-  Activate Crystalline Crawler's first ability by removing a +1/+1 counter from it, adding {B}.
-  Activate Bloodsoaked Champion by paying {1}{B}, returning it from your graveyard to the battlefield tapped.
-  Repeat.
-
-## Combo 1263-2034-2060-6701
-Cards: Szarel, Genesis Shepherd + Crystalline Crawler + Ashnod's Altar + Bloodsoaked Champion
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
-Produces: Infinite colored mana; Infinite colorless mana; Infinite +1/+1 counters on creatures you control; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Szarel, Genesis Shepherd (battlefield); Crystalline Crawler (battlefield); Ashnod's Altar (battlefield); Bloodsoaked Champion (graveyard)
-Prerequisites: You have attacked this turn.
-Steps: Activate Bloodsoaked Champion by paying {1}{B}, returning it from your graveyard to the battlefield.
-  Activate Ashnod's Altar by sacrificing Bloodsoaked Champion.
-  When Bloodsoaked Champion is sacrificed, Szarel triggers, putting a number of +1/+1 counters equal to Szarel's power on Crystalline Crawler.
-  Activate Crystalline Crawler twice by removing two +1/+1 counters from it, adding {1}{B}.
-  Repeat.
-Notes: This combo can put infinite +1/+1 counters on each creature you control except Szarel so long as its power is greater than the mana needed to activate the creature's ability from your graveyard.
-
-## Combo 1263-2034-7918-8125
-Cards: Ashnod's Altar + Bloodsoaked Champion + Sifa Grent + Davvol, Evincar of Rath
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B}
-Produces: Infinite colorless mana; Infinite lifeloss; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Ashnod's Altar (battlefield); Bloodsoaked Champion (battlefield); Sifa Grent (battlefield); Davvol, Evincar of Rath (battlefield)
-Prerequisites: You have attacked this turn.
-Steps: Activate Ashnod's Altar by sacrificing Bloodsoaked Champion, adding {C}{C}
-  When Bloodsoaked Champion dies, Sifa Grent triggers, causing you to gain 1 life and target opponent to lose 1 life
-  Activate Bloodsoaked Champion by paying {1}{B}, returning it from your graveyard to the battlefield.
-  When Bloodsoaked Champion enters, Davvol triggers, adding {B} and causing you to lose 1 life.
-  Repeat.
-
-## Combo 1263-2060-2292-6701
-Cards: Szarel, Genesis Shepherd + Crystalline Crawler + Viscera Seer + Bloodsoaked Champion
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
-Produces: Infinite colored mana; Infinite +1/+1 counters on creatures you control; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
-Start: Szarel, Genesis Shepherd (battlefield); Crystalline Crawler (battlefield); Viscera Seer (battlefield); Bloodsoaked Champion (graveyard)
-Prerequisites: You have attacked this turn.
-Steps: Activate Bloodsoaked Champion by paying {1}{B}, returning it from your graveyard to the battlefield.
-  Activate Viscera Seer by sacrificing Bloodsoaked Champion.
-  When Bloodsoaked Champion is sacrificed, Szarel triggers, putting a number of +1/+1 counters equal to Szarel's power on Crystalline Crawler.
-  Resolve the Viscera Seer ability.
-  Activate Crystalline Crawler twice by removing two +1/+1 counters from it, adding {1}{B}.
-  Repeat.
-Notes: This combo can put infinite +1/+1 counters on each creature you control except Szarel so long as its power is greater than the mana needed to activate the creature's ability from your graveyard.
-
-## Combo 1263-2060-2438-6701
-Cards: Szarel, Genesis Shepherd + Crystalline Crawler + Bloodsoaked Champion + Carrion Feeder
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite colored mana; Infinite +1/+1 counters on creatures you control; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Szarel, Genesis Shepherd (battlefield); Crystalline Crawler (battlefield); Bloodsoaked Champion (graveyard); Carrion Feeder (battlefield)
-Prerequisites: You have attacked this turn.
-Steps: Activate Bloodsoaked Champion by paying {1}{B}, returning it from your graveyard to the battlefield.
-  Activate Carrion Feeder by sacrificing Bloodsoaked Champion.
-  When Bloodsoaked Champion is sacrificed, Szarel triggers, putting a number of +1/+1 counters equal to Szarel's power on Crystalline Crawler.
-  Resolve the Carrion Feeder ability.
-  Activate Crystalline Crawler twice by removing two +1/+1 counters from it, adding {1}{B}.
-  Repeat.
-Notes: This combo can put infinite +1/+1 counters on each creature you control except Szarel so long as its power is greater than the mana needed to activate the creature's ability from your graveyard.
-
-## Combo 1263-2060-2511-6701
-Cards: Szarel, Genesis Shepherd + Crystalline Crawler + Bloodsoaked Champion + Bloodflow Connoisseur
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite +1/+1 counters on creatures you control; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Szarel, Genesis Shepherd (battlefield); Crystalline Crawler (battlefield); Bloodsoaked Champion (graveyard); Bloodflow Connoisseur (battlefield)
-Prerequisites: You have attacked this turn.
-Steps: Activate Bloodsoaked Champion by paying {1}{B}, returning it from your graveyard to the battlefield.
-  Activate Bloodflow Connoisseur by sacrificing Bloodsoaked Champion.
-  When Bloodsoaked Champion is sacrificed, Szarel triggers, putting a number of +1/+1 counters equal to Szarel's power on Crystalline Crawler.
-  Resolve the Bloodflow Connoisseur ability.
-  Activate Crystalline Crawler twice by removing two +1/+1 counters from it, adding {1}{B}.
-  Repeat.
-Notes: This combo can put infinite +1/+1 counters on each creature you control except Szarel so long as its power is greater than the mana needed to activate the creature's ability from your graveyard.
-
-## Combo 1263-2060-3602-4050
-Cards: Bhaal, Lord of Murder + Bloodsoaked Champion + Crystalline Crawler + Phyrexian Altar
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
-Start: Bhaal, Lord of Murder (battlefield); Bloodsoaked Champion (battlefield); Crystalline Crawler (battlefield); Phyrexian Altar (battlefield)
-Prerequisites: You have attacked this turn.
-Steps: Activate Phyrexian Altar by sacrificing Bloodsoaked Champion, adding {B}.
-  When Bloodsoaked Champion dies, Bhaal triggers, putting a +1/+1 counter on Crystalline Crawler and goading it.
-  Activate Crystalline Crawler's first ability by removing a +1/+1 counter from it, adding {1}.
-  Activate Bloodsoaked Champion by paying {1}{B}, returning it from your graveyard to the battlefield tapped.
-  Repeat.
-
-## Combo 1263-2060-3899-6701
-Cards: Szarel, Genesis Shepherd + Crystalline Crawler + Spawning Pit + Bloodsoaked Champion
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on creatures you control; Infinite colored mana; Infinite creature tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite charge counters on a permanent; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Szarel, Genesis Shepherd (battlefield); Crystalline Crawler (battlefield); Spawning Pit (battlefield); Bloodsoaked Champion (graveyard)
-Prerequisites: You've attacked this turn.
-Steps: Activate Bloodsoaked Champion by paying {1}{B}, returning it from your graveyard to the battlefield.
-  Activate Spawning Pit by sacrificing Bloodsoaked Champion.
-  When Bloodsoaked Champion is sacrificed, Szarel triggers, putting a number of +1/+1 counters equal to Szarel's power on Crystalline Crawler.
-  Resolve the Spawning Pit ability.
-  Activate Crystalline Crawler twice by removing two +1/+1 counters from it, adding {1}{B}.
-  Repeat.
-Notes: This combo can put infinite +1/+1 counters on each creature you control except Szarel so long as its power is greater than the mana needed to activate the creature's ability from your graveyard.
-
-## Combo 1263-2060-3967-6701
-Cards: Szarel, Genesis Shepherd + Crystalline Crawler + Bloodsoaked Champion + Yahenni, Undying Partisan
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite +1/+1 counters on creatures you control; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Szarel, Genesis Shepherd (battlefield); Crystalline Crawler (battlefield); Bloodsoaked Champion (graveyard); Yahenni, Undying Partisan (battlefield)
-Prerequisites: You have attacked this turn.
-Steps: Activate Bloodsoaked Champion by paying {1}{B}, returning it from your graveyard to the battlefield.
-  Activate Yahenni by sacrificing Bloodsoaked Champion.
-  When Bloodsoaked Champion is sacrificed, Szarel triggers, putting a number of +1/+1 counters equal to Szarel's power on Crystalline Crawler.
-  Resolve the Yahenni ability.
-  Activate Crystalline Crawler twice by removing two +1/+1 counters from it, adding {1}{B}.
-  Repeat.
-Notes: This combo can put infinite +1/+1 counters on each creature you control except Szarel so long as its power is greater than the mana needed to activate the creature's ability from your graveyard.
-
-## Combo 1263-2060-4050-6701
-Cards: Szarel, Genesis Shepherd + Crystalline Crawler + Phyrexian Altar + Bloodsoaked Champion
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
-Produces: Infinite colored mana; Infinite +1/+1 counters on creatures you control; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Szarel, Genesis Shepherd (battlefield); Crystalline Crawler (battlefield); Phyrexian Altar (battlefield); Bloodsoaked Champion (graveyard)
-Prerequisites: You have attacked this turn.
-Steps: Activate Bloodsoaked Champion by paying {1}{B}, returning it from your graveyard to the battlefield.
-  Activate Phyrexian Altar by sacrificing Bloodsoaked Champion.
-  When Bloodsoaked Champion is sacrificed, Szarel triggers, putting a number of +1/+1 counters equal to Szarel's power on Crystalline Crawler.
-  Activate Crystalline Crawler twice by removing two +1/+1 counters from it, adding {1}{B}.
-  Repeat.
-Notes: This combo can put infinite +1/+1 counters on each creature you control except Szarel so long as its power is greater than the mana needed to activate the creature's ability from your graveyard.
-
-## Combo 1263-2060-4247-6701
-Cards: Szarel, Genesis Shepherd + Crystalline Crawler + Bloodsoaked Champion + Bloodthrone Vampire
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on creatures you control; Infinite colored mana; Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Szarel, Genesis Shepherd (battlefield); Crystalline Crawler (battlefield); Bloodsoaked Champion (graveyard); Bloodthrone Vampire (battlefield)
-Prerequisites: You've attacked this turn.
-Steps: Activate Bloodsoaked Champion by paying {1}{B}, returning it from your graveyard to the battlefield.
-  Activate Bloodthrone Vampire by sacrificing Bloodsoaked Champion.
-  When Bloodsoaked Champion is sacrificed, Szarel triggers, putting a number of +1/+1 counters equal to Szarel's power on Crystalline Crawler.
-  Resolve the Bloodthrone Vampire ability.
-  Activate Crystalline Crawler twice by removing two +1/+1 counters from it, adding {1}{B}.
-  Repeat.
-Notes: This combo can put infinite +1/+1 counters on each creature you control except Szarel so long as its power is greater than the mana needed to activate the creature's ability from your graveyard.
-
-## Combo 1263-2060-5147-6701
-Cards: Szarel, Genesis Shepherd + Crystalline Crawler + Goblin Bombardment + Bloodsoaked Champion
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite colored mana; Infinite damage; Infinite +1/+1 counters on creatures you control; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Szarel, Genesis Shepherd (battlefield); Crystalline Crawler (battlefield); Goblin Bombardment (battlefield); Bloodsoaked Champion (graveyard)
-Prerequisites: You have attacked this turn.
-Steps: Activate Bloodsoaked Champion by paying {1}{B}, returning it from your graveyard to the battlefield.
-  Activate Goblin Bombardment by sacrificing Bloodsoaked Champion.
-  When Bloodsoaked Champion is sacrificed, Szarel triggers, putting a number of +1/+1 counters equal to Szarel's power on Crystalline Crawler.
-  Resolve the Goblin Bombardment ability.
-  Activate Crystalline Crawler twice by removing two +1/+1 counters from it, adding {1}{B}.
-  Repeat.
-Notes: This combo can put infinite +1/+1 counters on each creature you control except Szarel so long as its power is greater than the mana needed to activate the creature's ability from your graveyard.
-
-## Combo 1263-2060-5231-6701
-Cards: Szarel, Genesis Shepherd + Crystalline Crawler + Thermopod + Bloodsoaked Champion
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite colored mana; Infinite +1/+1 counters on creatures you control; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Szarel, Genesis Shepherd (battlefield); Crystalline Crawler (battlefield); Thermopod (battlefield); Bloodsoaked Champion (graveyard)
-Prerequisites: You have attacked this turn.
-Steps: Activate Bloodsoaked Champion by paying {1}{B}, returning it from your graveyard to the battlefield.
-  Activate Thermopod by sacrificing Bloodsoaked Champion.
-  When Bloodsoaked Champion is sacrificed, Szarel triggers, putting a number of +1/+1 counters equal to Szarel's power on Crystalline Crawler.
-  Activate Crystalline Crawler twice by removing two +1/+1 counters from it, adding {1}{B}.
-  Repeat.
-Notes: This combo can put infinite +1/+1 counters on each creature you control except Szarel so long as its power is greater than the mana needed to activate the creature's ability from your graveyard.
-
-## Combo 1263-2060-5256-6701
-Cards: Szarel, Genesis Shepherd + Crystalline Crawler + Altar of Dementia + Bloodsoaked Champion
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
-Produces: Infinite colored mana; Infinite mill; Infinite self-mill; Infinite +1/+1 counters on creatures you control; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Szarel, Genesis Shepherd (battlefield); Crystalline Crawler (battlefield); Altar of Dementia (battlefield); Bloodsoaked Champion (graveyard)
-Prerequisites: You have attacked this turn.
-Steps: Activate Bloodsoaked Champion by paying {1}{B}, returning it from your graveyard to the battlefield.
-  Activate Altar of Dementia by sacrificing Bloodsoaked Champion.
-  When Bloodsoaked Champion is sacrificed, Szarel triggers, putting a number of +1/+1 counters equal to Szarel's power on Crystalline Crawler.
-  Resolve the Altar of Dementia ability.
-  Activate Crystalline Crawler twice by removing two +1/+1 counters from it, adding {1}{B}.
-  Repeat.
-Notes: This combo can put infinite +1/+1 counters on each creature you control except Szarel so long as its power is greater than the mana needed to activate the creature's ability from your graveyard.
-
-## Combo 1263-2060-6495-6701
-Cards: Szarel, Genesis Shepherd + Crystalline Crawler + Evereth, Viceroy of Plunder + Bloodsoaked Champion
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite +1/+1 counters on creatures you control; Infinite colored mana; Infinite damage; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Szarel, Genesis Shepherd (battlefield); Crystalline Crawler (battlefield); Evereth, Viceroy of Plunder (battlefield); Bloodsoaked Champion (graveyard)
-Prerequisites: You've attacked this turn.
-Steps: Activate Bloodsoaked Champion by paying {1}{B}, returning it from your graveyard to the battlefield.
-  Activate Evereth by sacrificing Bloodsoaked Champion.
-  When Bloodsoaked Champion is sacrificed, Szarel triggers, putting a number of +1/+1 counters equal to Szarel's power on Crystalline Crawler.
-  Resolve the Evereth ability.
-  Activate Crystalline Crawler twice by removing two +1/+1 counters from it, adding {1}{B}.
-  Repeat.
-Notes: This combo can put infinite +1/+1 counters on each creature you control except Szarel so long as its power is greater than the mana needed to activate the creature's ability from your graveyard.
-  If you have a way to kill Evereth and {1}{B/R} available, you can do so after putting a significant amount of +1/+1 counters on it to deal damage to each opponent using its second ability.
-
-## Combo 1263-2060-6701-6797
-Cards: Szarel, Genesis Shepherd + Crystalline Crawler + Bloodsoaked Champion + Phantom Train
-Color identity: BRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{B}
-Produces: Infinite colored mana; Infinite +1/+1 counters on creatures you control; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Szarel, Genesis Shepherd (battlefield); Crystalline Crawler (battlefield); Bloodsoaked Champion (graveyard); Phantom Train (battlefield)
-Prerequisites: You have attacked this turn.
-Steps: Activate Bloodsoaked Champion by paying {1}{B}, returning it from your graveyard to the battlefield.
-  Activate Phantom Train by sacrificing Bloodsoaked Champion.
-  When Bloodsoaked Champion is sacrificed, Szarel triggers, putting a number of +1/+1 counters equal to Szarel's power on Crystalline Crawler.
-  Resolve the Phantom Train ability.
-  Activate Crystalline Crawler twice by removing two +1/+1 counters from it, adding {1}{B}.
-  Repeat.
-Notes: This combo can put infinite +1/+1 counters on each creature you control except Szarel so long as its power is greater than the mana needed to activate the creature's ability from your graveyard.

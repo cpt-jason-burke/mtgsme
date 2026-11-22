@@ -166,7 +166,7 @@ Steps: Activate Everflowing Chalice by tapping it, adding at least {C}{C}{C}{C}.
 
 ## Combo 2-1651-1822-2593
 Cards: Gandalf the White + Ancestral Statue + Clock of Omens + Astral Cornucopia
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite colored mana; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Gandalf the White (battlefield); Ancestral Statue (hand); Clock of Omens (battlefield); Astral Cornucopia (battlefield)
 Prerequisites: Astral Cornucopia has at least four charge counters on it.
@@ -182,7 +182,7 @@ Steps: Activate Astral Cornucopia by tapping it, adding at least {4}.
 
 ## Combo 2-1651-1822-4306
 Cards: Gandalf the White + Ancestral Statue + Clock of Omens + Nyx Lotus
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite mana among colors with which you have devotion; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Gandalf the White (battlefield); Ancestral Statue (hand); Clock of Omens (battlefield); Nyx Lotus (battlefield)
 Prerequisites: You have at least four devotion to any color.
@@ -198,7 +198,7 @@ Steps: Activate Nyx Lotus by tapping it, adding at least {4}.
 
 ## Combo 2-1651-1822-4563
 Cards: Gandalf the White + Ancestral Statue + Clock of Omens + Everflowing Chalice
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Gandalf the White (battlefield); Ancestral Statue (hand); Clock of Omens (battlefield); Everflowing Chalice (battlefield)
 Prerequisites: Everflowing Chalice has at least four charge counters on it.
@@ -221,6 +221,17 @@ Steps: Cast Ancestral Statue by paying {4}
   Oltec Matterweaver triggers, creating two 1/1 Gnome artifact creature tokens.
   When Ancestral Statue enters the battlefield, it triggers, returning itself from the battlefield to your hand.
   Activate Ashnod's Altar by sacrificing the Gnomes, adding {C}{C}{C}{C}.
+  Repeat.
+
+## Combo 2-2034-5554-6291
+Cards: Oltec Matterweaver + Ancestral Statue + Ashnod's Altar + Stridehangar Automaton
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {4}
+Produces: Infinite artifact ETB; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Oltec Matterweaver (battlefield); Ancestral Statue (hand); Ashnod's Altar (battlefield); Stridehangar Automaton (battlefield)
+Steps: Cast Ancestral Statue by paying {4}
+  Oltec Matterweaver triggers, creating a 1/1 Gnome and a 1/1 Thopter artifact creature token due to Stridehangar Automaton.
+  When Ancestral Statue enters the battlefield, it triggers, returning itself from the battlefield to your hand.
+  Activate Ashnod's Altar twice by sacrificing two creature tokens, adding {C}{C}{C}{C}.
   Repeat.
 
 ## Combo 2-2034-5554-6441
@@ -372,7 +383,7 @@ Steps: Activate Parallax Wave by removing a fade counter from it, exiling Reveil
 
 ## Combo 67-413-2781
 Cards: Felidar Guardian + Reveillark + Blasting Station
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 910 | Commander: legal | Mana needed: {3}{W}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 920 | Commander: legal | Mana needed: {3}{W}
 Produces: Infinite damage; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite recursion of creature cards with power 2 or less
 Start: Felidar Guardian (hand); Reveillark (battlefield); Blasting Station (battlefield)
 Steps: Cast Felidar Guardian by paying {3}{W}.
@@ -761,7 +772,7 @@ Steps: Activate Ashnod's Altar by sacrificing Elgaud Inquisitor, adding {C}{C}.
 
 ## Combo 104-261-2034-3490
 Cards: Animation Module + Ashnod's Altar + Cleric Class + Suture Priest
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 52 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 53 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Cleric Class (battlefield: is at least level 2); Suture Priest (battlefield)
 Prerequisites: You have a way to gain life.
@@ -803,7 +814,7 @@ Steps: Gain life.
 
 ## Combo 104-261-7690--165
 Cards: Invisible Woman, Sue Storm + Cleric Class + Suture Priest
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 75 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 77 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Cleric Class (battlefield: is at least level 2); Suture Priest (battlefield)
@@ -828,7 +839,7 @@ Notes: Once you have infinite mana, you may use it to activate Staff of Dominati
 
 ## Combo 104-360-2034-3490
 Cards: Animation Module + Ashnod's Altar + Cleric Class + Soul Warden
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 93 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 94 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Cleric Class (battlefield: is at least level 2); Soul Warden (battlefield)
 Prerequisites: You have a way to gain life.
@@ -883,7 +894,7 @@ Steps: Gain life.
 
 ## Combo 104-567-2034-3490
 Cards: Animation Module + Ashnod's Altar + Cleric Class + Soul's Attendant
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 75 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 76 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Cleric Class (battlefield: is at least level 2); Soul's Attendant (battlefield)
 Prerequisites: You have a way to gain life.
@@ -925,7 +936,7 @@ Steps: Gain life.
 
 ## Combo 104-567-7690--165
 Cards: Invisible Woman, Sue Storm + Cleric Class + Soul's Attendant
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 99 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 100 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Cleric Class (battlefield: is at least level 2); Soul's Attendant (battlefield)
@@ -983,7 +994,7 @@ Steps: Gain life.
 
 ## Combo 104-671-7690--165
 Cards: Invisible Woman, Sue Storm + Cleric Class + Daxos, Blessed by the Sun
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 67 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 69 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Cleric Class (battlefield: is at least level 2); Daxos, Blessed by the Sun (battlefield)
@@ -1161,7 +1172,7 @@ Steps: Gain life.
 
 ## Combo 104-1874-2034-3490
 Cards: Animation Module + Ashnod's Altar + Cleric Class + Ajani's Welcome
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 50 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 51 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Cleric Class (battlefield: is at least level 2); Ajani's Welcome (battlefield)
 Prerequisites: You have a way to gain life.
@@ -1203,7 +1214,7 @@ Steps: Gain life.
 
 ## Combo 104-1874-7690--165
 Cards: Invisible Woman, Sue Storm + Cleric Class + Ajani's Welcome
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 89 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 93 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Cleric Class (battlefield: is at least level 2); Ajani's Welcome (battlefield)
@@ -1264,7 +1275,7 @@ Steps: Gain life.
 
 ## Combo 104-1939-7690--165
 Cards: Invisible Woman, Sue Storm + Cleric Class + Lunarch Veteran // Luminous Phantom
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Cleric Class (battlefield: is at least level 2); Lunarch Veteran // Luminous Phantom (battlefield)
@@ -1333,7 +1344,7 @@ Steps: Gain life.
 
 ## Combo 104-2034-3490-4506
 Cards: Animation Module + Ashnod's Altar + Cleric Class + Auriok Champion
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Cleric Class (battlefield: is at least level 2); Auriok Champion (battlefield)
 Prerequisites: You have a way to gain life.
@@ -1375,7 +1386,7 @@ Steps: Gain life.
 
 ## Combo 104-2034-3490-5870
 Cards: Animation Module + Ashnod's Altar + Guide of Souls + Cleric Class
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite energy counters
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Guide of Souls (battlefield); Cleric Class (battlefield: is at least level 2)
 Prerequisites: You have a way to gain life.
@@ -1431,7 +1442,7 @@ Steps: Gain life.
 
 ## Combo 104-2034-3490-6752
 Cards: Animation Module + Ashnod's Altar + Cleric Class + Haliya, Guided by Light
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 40 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Cleric Class (battlefield: is at least level 2); Haliya, Guided by Light (battlefield)
 Prerequisites: You have a way to gain life.
@@ -1459,7 +1470,7 @@ Steps: Gain life.
 
 ## Combo 104-2034-3490-7818
 Cards: Animation Module + Ashnod's Altar + Cleric Class + Liliana the Faultless
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {1}
 Produces: Infinite +1/+1 counters on creatures you control; Infinite colorless mana; Infinite lifegain; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Cleric Class (battlefield: is at least level 2); Liliana the Faultless (battlefield)
 Prerequisites: You have a way to gain life.
@@ -1473,7 +1484,7 @@ Steps: Gain life.
 
 ## Combo 104-2034-3490-8333
 Cards: Animation Module + Ashnod's Altar + Cleric Class + Sickbay
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}
 Produces: Infinite +1/+1 counters on creatures you control; Infinite colorless mana; Infinite lifegain; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Cleric Class (battlefield: is at least level 2); Sickbay (battlefield)
 Prerequisites: You have a way to gain life.
@@ -2015,7 +2026,7 @@ Steps: Gain life.
 
 ## Combo 104-3641-7690--165
 Cards: Invisible Woman, Sue Storm + Cleric Class + Distinguished Conjurer
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Cleric Class (battlefield: is at least level 2); Distinguished Conjurer (battlefield)
@@ -2127,7 +2138,7 @@ Steps: Gain life.
 
 ## Combo 104-4506-7690--165
 Cards: Invisible Woman, Sue Storm + Cleric Class + Auriok Champion
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Cleric Class (battlefield: is at least level 2); Auriok Champion (battlefield)
@@ -2212,7 +2223,7 @@ Steps: Gain life.
 
 ## Combo 104-5870-7690--165
 Cards: Guide of Souls + Invisible Woman, Sue Storm + Cleric Class
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 47 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB; Infinite energy counters
 Requires: Hero Creature (battlefield)
 Start: Guide of Souls (battlefield); Invisible Woman, Sue Storm (battlefield); Cleric Class (battlefield: is at least level 2)
@@ -2225,7 +2236,7 @@ Steps: Gain life.
 
 ## Combo 104-6097-7690--165
 Cards: Invisible Woman, Sue Storm + Cleric Class + Hinterland Sanctifier
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 58 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 59 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Cleric Class (battlefield: is at least level 2); Hinterland Sanctifier (battlefield)
@@ -2251,7 +2262,7 @@ Steps: Gain life.
 
 ## Combo 104-6720-7690--165
 Cards: Invisible Woman, Sue Storm + Cleric Class + Case of the Uneaten Feast
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Cleric Class (battlefield: is at least level 2); Case of the Uneaten Feast (battlefield)
@@ -2264,7 +2275,7 @@ Steps: Gain life.
 
 ## Combo 104-6752-7690--165
 Cards: Invisible Woman, Sue Storm + Cleric Class + Haliya, Guided by Light
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 69 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 70 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Cleric Class (battlefield: is at least level 2); Haliya, Guided by Light (battlefield)
@@ -2277,7 +2288,7 @@ Steps: Gain life.
 
 ## Combo 104-6823-7690--165
 Cards: Invisible Woman, Sue Storm + Cleric Class + Aunt May
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 68 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 70 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Cleric Class (battlefield: is at least level 2); Aunt May (battlefield)
@@ -2350,7 +2361,7 @@ Steps: Activate Serra's Sanctum by tapping it, adding at least {W}{W}{W}{W}{W}.
 
 ## Combo 145-943-4235
 Cards: Rings of Brighthearth + Deserted Temple + Serra's Sanctum
-Color identity: W | Bracket: 3+ (Powerful) | Popularity: 39 | Commander: legal
+Color identity: W | Bracket: 3+ (Powerful) | Popularity: 40 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite white mana; Infinite untap of lands you control
 Start: Rings of Brighthearth (battlefield); Deserted Temple (battlefield); Serra's Sanctum (battlefield)
 Prerequisites: You control at least four enchantments.
@@ -2392,7 +2403,7 @@ Steps: Animate Isochron Scepter using Karn.
 
 ## Combo 151-5089-5261
 Cards: Isochron Scepter + To Arms! + Karn, the Great Creator
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal
 Produces: Infinite card draw; Near-infinite mana creatures you control can produce; Near-infinite untap of creatures you control; Infinite draw triggers; Near-infinite magecraft triggers; Near-infinite storm count
 Start: Isochron Scepter (battlefield); To Arms! (exile); Karn, the Great Creator (battlefield)
 Prerequisites: To Arms! is exiled by Isochron Scepter.
@@ -2586,7 +2597,7 @@ Steps: Cast Lumbering Battlement by paying {4}{W}.
 
 ## Combo 168-372-5276
 Cards: Abdel Adrian, Gorion's Ward + Oblivion Ring + Leonin Relic-Warder
-Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 980 | Commander: legal | Mana needed: {2}{W}
+Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 990 | Commander: legal | Mana needed: {2}{W}
 Produces: Infinite creature tokens; Infinite blinking of nonland permanents; Infinite creature ETB; Infinite creature LTB
 Start: Abdel Adrian, Gorion's Ward (battlefield); Oblivion Ring (hand); Leonin Relic-Warder (exile: exiled by Abdel Adrian)
 Steps: Cast Oblivion Ring by paying {2}{W}.
@@ -2717,7 +2728,7 @@ Steps: Urborg turns all lands into Swamps.
 
 ## Combo 228-678-1069-1778
 Cards: Enduring Renewal + Memnite + Skullclamp + Puresteel Paladin
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 87 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite storm count
 Start: Enduring Renewal (battlefield); Memnite (battlefield); Skullclamp (battlefield); Puresteel Paladin (battlefield)
 Prerequisites: You control at least three artifacts.
@@ -2925,7 +2936,7 @@ Steps: Gain life.
 
 ## Combo 261-338-7690--165
 Cards: Invisible Woman, Sue Storm + Suture Priest + Light of Promise
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Suture Priest (battlefield); Light of Promise (battlefield: attached to the other Hero)
@@ -2972,7 +2983,7 @@ Steps: Cast Sculpting Steel by paying {3}, causing it to enter the battlefield a
 
 ## Combo 261-1274-2034-3490
 Cards: Animation Module + Ashnod's Altar + Suture Priest + Heliod, Sun-Crowned
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 89 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 91 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Suture Priest (battlefield); Heliod, Sun-Crowned (battlefield)
 Prerequisites: You have a way to gain life.
@@ -3014,7 +3025,7 @@ Steps: Gain life.
 
 ## Combo 261-1274-7690--165
 Cards: Invisible Woman, Sue Storm + Suture Priest + Heliod, Sun-Crowned
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 50 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Suture Priest (battlefield); Heliod, Sun-Crowned (battlefield)
@@ -3041,7 +3052,7 @@ Steps: Declare Phyrexian Vindicator as an attacker.
 
 ## Combo 261-2034-2919-3490
 Cards: Animation Module + Ashnod's Altar + Archangel of Thune + Suture Priest
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 63 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 64 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Archangel of Thune (battlefield); Suture Priest (battlefield)
 Prerequisites: You have a way to gain life.
@@ -3055,7 +3066,7 @@ Steps: Gain life.
 
 ## Combo 261-2034-3490-4017
 Cards: Animation Module + Ashnod's Altar + Suture Priest + Sunbond
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Suture Priest (battlefield); Sunbond (battlefield: attached to a creature you control)
 Prerequisites: You have a way to gain life.
@@ -3261,7 +3272,7 @@ Steps: Gain life.
 
 ## Combo 261-4017-7690--165
 Cards: Invisible Woman, Sue Storm + Suture Priest + Sunbond
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Suture Priest (battlefield); Sunbond (battlefield: attached to the other Hero)
@@ -3285,7 +3296,7 @@ Notes: Once you have infinite mana, you may forego sacrificing the Phyrexian Mit
 
 ## Combo 261-6824-7690
 Cards: Invisible Woman, Sue Storm + Spider-Man, Peter Parker + Suture Priest
-Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 67 | Commander: legal
+Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 69 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on certain creatures; Infinite lifegain triggers; Infinite creature ETB
 Start: Invisible Woman, Sue Storm (battlefield); Spider-Man, Peter Parker (battlefield); Suture Priest (battlefield)
 Prerequisites: You have a way to gain life.
@@ -3634,7 +3645,7 @@ Steps: Gain life.
 
 ## Combo 338-360-7690--165
 Cards: Invisible Woman, Sue Storm + Light of Promise + Soul Warden
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Light of Promise (battlefield: attached to the other Hero); Soul Warden (battlefield)
@@ -3689,7 +3700,7 @@ Steps: Gain life.
 
 ## Combo 338-567-7690--165
 Cards: Invisible Woman, Sue Storm + Light of Promise + Soul's Attendant
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Light of Promise (battlefield: attached to the other Hero); Soul's Attendant (battlefield)
@@ -3747,7 +3758,7 @@ Steps: Gain life.
 
 ## Combo 338-671-7690--165
 Cards: Invisible Woman, Sue Storm + Light of Promise + Daxos, Blessed by the Sun
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Light of Promise (battlefield: attached to the other Hero); Daxos, Blessed by the Sun (battlefield)
@@ -3929,7 +3940,7 @@ Steps: Gain life.
 
 ## Combo 338-1874-2034-3490
 Cards: Animation Module + Ashnod's Altar + Light of Promise + Ajani's Welcome
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Light of Promise (battlefield: attached to a creature you control); Ajani's Welcome (battlefield)
 Prerequisites: You have a way to gain life.
@@ -3971,7 +3982,7 @@ Steps: Gain life.
 
 ## Combo 338-1874-7690--165
 Cards: Invisible Woman, Sue Storm + Light of Promise + Ajani's Welcome
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Light of Promise (battlefield: attached to the other Hero); Ajani's Welcome (battlefield)
@@ -4032,7 +4043,7 @@ Steps: Gain life.
 
 ## Combo 338-1939-7690--165
 Cards: Invisible Woman, Sue Storm + Light of Promise + Lunarch Veteran // Luminous Phantom
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Light of Promise (battlefield: attached to the other Hero); Lunarch Veteran // Luminous Phantom (battlefield)
@@ -4143,7 +4154,7 @@ Steps: Gain life.
 
 ## Combo 338-2034-3490-5870
 Cards: Animation Module + Ashnod's Altar + Guide of Souls + Light of Promise
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite energy counters
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Guide of Souls (battlefield); Light of Promise (battlefield: attached to a creature you control)
 Prerequisites: You have a way to gain life.
@@ -4800,7 +4811,7 @@ Steps: Gain life.
 
 ## Combo 338-4506-7690--165
 Cards: Invisible Woman, Sue Storm + Light of Promise + Auriok Champion
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Light of Promise (battlefield: attached to the other Hero); Auriok Champion (battlefield)
@@ -4885,7 +4896,7 @@ Steps: Gain life.
 
 ## Combo 338-5870-7690--165
 Cards: Guide of Souls + Invisible Woman, Sue Storm + Light of Promise
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB; Infinite energy counters
 Requires: Hero Creature (battlefield)
 Start: Guide of Souls (battlefield); Invisible Woman, Sue Storm (battlefield); Light of Promise (battlefield: attached to the other Hero)
@@ -4898,7 +4909,7 @@ Steps: Gain life.
 
 ## Combo 338-6097-7690--165
 Cards: Invisible Woman, Sue Storm + Light of Promise + Hinterland Sanctifier
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 28 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Light of Promise (battlefield: attached to the other Hero); Hinterland Sanctifier (battlefield)
@@ -4924,7 +4935,7 @@ Steps: Gain life.
 
 ## Combo 338-6720-7690--165
 Cards: Invisible Woman, Sue Storm + Light of Promise + Case of the Uneaten Feast
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Light of Promise (battlefield: attached to the other Hero); Case of the Uneaten Feast (battlefield)
@@ -4937,7 +4948,7 @@ Steps: Gain life.
 
 ## Combo 338-6752-7690--165
 Cards: Invisible Woman, Sue Storm + Light of Promise + Haliya, Guided by Light
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 40 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 41 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Light of Promise (battlefield: attached to the other Hero); Haliya, Guided by Light (battlefield)
@@ -4950,7 +4961,7 @@ Steps: Gain life.
 
 ## Combo 338-6823-7690--165
 Cards: Invisible Woman, Sue Storm + Light of Promise + Aunt May
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 51 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 52 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Light of Promise (battlefield: attached to the other Hero); Aunt May (battlefield)
@@ -4976,7 +4987,7 @@ Steps: Activate Blasting Station by tapping it and sacrificing another creature 
 
 ## Combo 345-1992-2034
 Cards: Basri's Lieutenant + Metallic Mimic + Ashnod's Altar
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 90 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 91 | Commander: legal
 Produces: Infinite colorless mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Basri's Lieutenant (battlefield); Metallic Mimic (battlefield); Ashnod's Altar (battlefield)
 Prerequisites: You control at least one additional creature that has a +1/+1 counter on it.
@@ -4987,7 +4998,7 @@ Steps: Activate Ashnod's Altar by sacrificing another creature with a +1/+1 coun
 
 ## Combo 345-1992-4050
 Cards: Basri's Lieutenant + Metallic Mimic + Phyrexian Altar
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 66 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 67 | Commander: legal
 Produces: Infinite colored mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Basri's Lieutenant (battlefield); Metallic Mimic (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: You control at least one additional creature that has a +1/+1 counter on it.
@@ -5186,7 +5197,7 @@ Steps: Gain life.
 
 ## Combo 360-1308-1981-4591-4740
 Cards: Darien, King of Kjeldor + Aetherflux Reservoir + Platinum Angel + Soul Warden + Anointed Procession
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 33 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain triggers; Infinite creature ETB
 Start: Darien, King of Kjeldor (battlefield); Aetherflux Reservoir (battlefield); Platinum Angel (battlefield); Soul Warden (battlefield); Anointed Procession (battlefield)
 Prerequisites: Your life total is at least fifty.
@@ -5270,7 +5281,7 @@ Steps: Activate Aetherflux Reservoir by paying 50 life, dealing 50 damage to you
 
 ## Combo 360-1981-4365-4591-4740
 Cards: Darien, King of Kjeldor + Mondrak, Glory Dominus + Aetherflux Reservoir + Platinum Angel + Soul Warden
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 23 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 24 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain triggers; Infinite creature ETB
 Start: Darien, King of Kjeldor (battlefield); Mondrak, Glory Dominus (battlefield); Aetherflux Reservoir (battlefield); Platinum Angel (battlefield); Soul Warden (battlefield)
 Prerequisites: Your life total is at least fifty.
@@ -5306,7 +5317,7 @@ Steps: Activate Aetherflux Resevoir by paying fifty life, dealing fifty damage t
 
 ## Combo 360-2034-2919-3490
 Cards: Animation Module + Archangel of Thune + Ashnod's Altar + Soul Warden
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 99 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 100 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Animation Module (battlefield); Archangel of Thune (battlefield); Ashnod's Altar (battlefield); Soul Warden (battlefield)
 Prerequisites: You have a way to cause a creature to enter the battlefield under your control.
@@ -5323,7 +5334,7 @@ Steps: Cause a creature to enter the battlefield under your control.
 
 ## Combo 360-2034-3490-4017
 Cards: Animation Module + Ashnod's Altar + Soul Warden + Sunbond
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Soul Warden (battlefield); Sunbond (battlefield: attached to a creature you control)
 Prerequisites: You have a way to gain life.
@@ -5535,7 +5546,7 @@ Steps: Gain life.
 
 ## Combo 360-4017-7690--165
 Cards: Invisible Woman, Sue Storm + Soul Warden + Sunbond
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Soul Warden (battlefield); Sunbond (battlefield: attached to the other Hero)
@@ -5822,7 +5833,7 @@ Steps: Cast Abdel Adrian from the command zone by paying {4}{W} and command tax,
 
 ## Combo 372-1621-1938
 Cards: Abdel Adrian, Gorion's Ward + Wispweaver Angel + Glorious Protector
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 770 | Commander: legal | Mana needed: {4}{W} plus enough mana to pay for command tax, if applicable
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 780 | Commander: legal | Mana needed: {4}{W} plus enough mana to pay for command tax, if applicable
 Produces: Infinite creature tokens; Infinite creature LTB; Infinite creature ETB; Infinite blinking of nonland permanents
 Start: Abdel Adrian, Gorion's Ward (hand); Wispweaver Angel (exile); Glorious Protector (battlefield)
 Prerequisites: Wispweaver Angel exiled by Glorious Protector
@@ -5837,7 +5848,7 @@ Steps: Cast Abdel Adrian from the command zone by paying {4}{W} and command tax,
 
 ## Combo 372-1621-2072
 Cards: Abdel Adrian, Gorion's Ward + Wispweaver Angel + Scrollshift
-Color identity: W | Bracket: 2-3+ (Oddball) | Popularity: 350 | Commander: legal | Mana needed: {6}{W}{W} plus enough mana to pay commander tax, if applicable
+Color identity: W | Bracket: 2-3+ (Oddball) | Popularity: 360 | Commander: legal | Mana needed: {6}{W}{W} plus enough mana to pay commander tax, if applicable
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite blinking of nonland permanents
 Start: Abdel Adrian, Gorion's Ward (hand, command zone); Wispweaver Angel (battlefield); Scrollshift (hand)
 Steps: Cast Abdel Adrian either from your hand or from the command zone by paying {4}{W} and commander tax, if applicable.
@@ -6211,7 +6222,7 @@ Steps: Cast Abdel Adrian from the command zone by paying {4}{W} and command tax,
 
 ## Combo 372-1938-2902
 Cards: Abdel Adrian, Gorion's Ward + Glorious Protector + Journey to Nowhere
-Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 960 | Commander: legal | Mana needed: {2}{W}, plus an additional {W} if Glorious Protector was not foretold
+Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 970 | Commander: legal | Mana needed: {2}{W}, plus an additional {W} if Glorious Protector was not foretold
 Produces: Infinite creature tokens; Infinite blinking of nonland permanents; Infinite creature ETB; Infinite creature LTB
 Start: Abdel Adrian, Gorion's Ward (battlefield); Glorious Protector (hand, exile); Journey to Nowhere (exile: exiled by Abdel Adrian)
 Steps: Cast Glorious Protector by paying {2}{W}{W}.
@@ -6303,7 +6314,7 @@ Notes: Due to differences in card templating between the various banisher effect
 
 ## Combo 372-1938-6966
 Cards: Abdel Adrian, Gorion's Ward + Glorious Protector + All-Fates Stalker
-Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 930 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
+Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 940 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
 Produces: Infinite creature tokens; Infinite blinking of nonland permanents; Infinite creature ETB; Infinite creature LTB
 Start: Abdel Adrian, Gorion's Ward (hand, battlefield, exile: Exiled by the creature on the battlefield); Glorious Protector (hand, battlefield, exile: Exiled by the creature on the battlefield); All-Fates Stalker (hand, battlefield, exile: Exiled by the creature on the battlefield)
 Prerequisites: All-Fates Stalker must be exiled by Glorious Protector, and Abdel Adrian must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
@@ -6369,7 +6380,7 @@ Steps: Cast Abdel Adrian either from your hand or from the command zone by payin
 
 ## Combo 372-2232-4050
 Cards: Abdel Adrian, Gorion's Ward + Cloudstone Curio + Phyrexian Altar
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 73 | Commander: legal | Mana needed: {4}{W} plus enough mana to pay for commander tax, if applicable
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 74 | Commander: legal | Mana needed: {4}{W} plus enough mana to pay for commander tax, if applicable
 Produces: Infinite colored mana; Infinite creature tokens; Infinite blinking; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count; Infinite blinking of nonland permanents
 Start: Abdel Adrian, Gorion's Ward (hand, command zone); Cloudstone Curio (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: You control at least five other nonland permanents.
@@ -6605,7 +6616,7 @@ Steps: Cast Mysterious Limousine by paying {3}{W}{W}.
 
 ## Combo 372-3839-4344
 Cards: Abdel Adrian, Gorion's Ward + Changeling Hero + Lumbering Battlement
-Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 97 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
+Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 98 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
 Produces: Infinite creature tokens; Infinite blinking of nonland permanents; Infinite creature ETB; Infinite creature LTB
 Start: Abdel Adrian, Gorion's Ward (hand, battlefield, exile: Exiled by the creature on the battlefield); Changeling Hero (hand, battlefield, exile: Exiled by the creature on the battlefield); Lumbering Battlement (hand, battlefield, exile: Exiled by the creature on the battlefield)
 Prerequisites: Lumbering Battlement must be exiled by Changeling Hero, and Abdel Adrian must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
@@ -6621,7 +6632,7 @@ Notes: Due to differences in card templating between the various banisher effect
 
 ## Combo 372-3839-5887
 Cards: Abdel Adrian, Gorion's Ward + Changeling Hero + Werefox Bodyguard
-Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 86 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
+Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 87 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
 Produces: Infinite creature tokens; Infinite blinking of nonland permanents; Infinite creature ETB; Infinite creature LTB
 Start: Abdel Adrian, Gorion's Ward (hand, battlefield, exile: Exiled by the creature on the battlefield); Changeling Hero (hand, battlefield, exile: Exiled by the creature on the battlefield); Werefox Bodyguard (hand, battlefield, exile: Exiled by the creature on the battlefield)
 Prerequisites: Werefox Bodyguard must be exiled by Changeling Hero, and Abdel Adrian must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
@@ -6637,7 +6648,7 @@ Notes: Due to differences in card templating between the various banisher effect
 
 ## Combo 372-3839-6966
 Cards: Abdel Adrian, Gorion's Ward + Changeling Hero + All-Fates Stalker
-Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 39 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
+Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 40 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
 Produces: Infinite creature tokens; Infinite blinking of nonland permanents; Infinite creature ETB; Infinite creature LTB
 Start: Abdel Adrian, Gorion's Ward (hand, battlefield, exile: Exiled by the creature on the battlefield); Changeling Hero (hand, battlefield, exile: Exiled by the creature on the battlefield); All-Fates Stalker (hand, battlefield, exile: Exiled by the creature on the battlefield)
 Prerequisites: All-Fates Stalker must be exiled by Changeling Hero, and Abdel Adrian must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
@@ -6858,7 +6869,7 @@ Steps: Activate Eldrazi Displacer by paying {2}{C}, blinking Basilica Shepherd.
 
 ## Combo 382-2034-5003
 Cards: Nim Deathmantle + Ashnod's Altar + Basilica Shepherd
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 180 | Commander: legal | Mana needed: {2}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 170 | Commander: legal | Mana needed: {2}
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Basilica Shepherd (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Basilica Shepherd, adding {C}{C}.
@@ -6944,7 +6955,7 @@ Steps: Activate Eldrazi Displacer by paying {2}{C}, blinking any other nontoken 
 
 ## Combo 396-2034-5003
 Cards: Nim Deathmantle + Ashnod's Altar + Blessed Sanctuary
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 32 | Commander: legal | Mana needed: {2}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 33 | Commander: legal | Mana needed: {2}
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Blessed Sanctuary (battlefield)
 Prerequisites: You control at least one nontoken creature.
@@ -7245,7 +7256,7 @@ Steps: Activate Blasting Station by tapping it and sacrificing Danitha.
 
 ## Combo 413-764-1069-2018
 Cards: Luminous Broodmoth + Colossus Hammer + Puresteel Paladin + Blasting Station
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
 Produces: Infinite damage; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Luminous Broodmoth (battlefield); Colossus Hammer (battlefield); Puresteel Paladin (battlefield); Blasting Station (battlefield)
 Prerequisites: You control at least 3 artifacts.
@@ -7297,7 +7308,7 @@ Steps: Activate Blasting Station by tapping it and sacrificing the creature with
 
 ## Combo 413-1003-1069-5222
 Cards: Halvar, God of Battle // Sword of the Realms + Puresteel Paladin + Phyrexian Walker + Blasting Station
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal
 Produces: Infinite damage; Infinite artifact ETB; Infinite artifact LTB; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Halvar, God of Battle // Sword of the Realms (battlefield); Puresteel Paladin (battlefield); Phyrexian Walker (hand); Blasting Station (battlefield)
 Steps: Cast Phyrexian Walker.
@@ -7345,7 +7356,7 @@ Steps: Activate Lotus Petal by tapping and sacrificing it, adding one mana of an
 
 ## Combo 413-1020-1492-4986
 Cards: Teshar, Ancestor's Apostle + Myr Retriever + Blasting Station + Welding Jar
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 590 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 580 | Commander: legal
 Produces: Infinite damage; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Teshar, Ancestor's Apostle (battlefield); Myr Retriever (battlefield); Blasting Station (battlefield); Welding Jar (battlefield)
 Steps: Activate Welding Jar by sacrificing it.
@@ -7404,7 +7415,7 @@ Steps: Cast the 0-cost artifact creature by paying {0}.
 
 ## Combo 413-1069-1778-5222
 Cards: Halvar, God of Battle // Sword of the Realms + Puresteel Paladin + Memnite + Blasting Station
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal
 Produces: Infinite damage; Infinite artifact ETB; Infinite artifact LTB; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Halvar, God of Battle // Sword of the Realms (battlefield); Puresteel Paladin (battlefield); Memnite (hand); Blasting Station (battlefield)
 Steps: Cast Memnite.
@@ -7416,7 +7427,7 @@ Steps: Cast Memnite.
 
 ## Combo 413-1069-2018-4232
 Cards: Luminous Broodmoth + Magebane Armor + Puresteel Paladin + Blasting Station
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite damage; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Luminous Broodmoth (battlefield); Magebane Armor (battlefield); Puresteel Paladin (battlefield); Blasting Station (battlefield)
 Prerequisites: You control at least 3 artifacts.
@@ -7428,7 +7439,7 @@ Steps: Pay {0} to equip Luminous Broodmoth with Magebane Armor.
 
 ## Combo 413-1069-3652-5222
 Cards: Halvar, God of Battle // Sword of the Realms + Puresteel Paladin + Ornithopter + Blasting Station
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
 Produces: Infinite damage; Infinite artifact ETB; Infinite artifact LTB; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Halvar, God of Battle // Sword of the Realms (battlefield); Puresteel Paladin (battlefield); Ornithopter (hand); Blasting Station (battlefield)
 Steps: Cast Ornithopter.
@@ -7509,7 +7520,7 @@ Steps: Activate Thraben Doomsayer by tapping it, creating a 1/1 Human creature t
 
 ## Combo 413-1414-2866-4986
 Cards: Teshar, Ancestor's Apostle + Scrap Trawler + Blasting Station + Lotus Petal
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 980 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 970 | Commander: legal
 Produces: Infinite colored mana; Infinite damage; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Teshar, Ancestor's Apostle (battlefield); Scrap Trawler (graveyard); Blasting Station (battlefield); Lotus Petal (hand)
 Steps: Cast Lotus Petal by paying its mana cost.
@@ -8435,7 +8446,7 @@ Steps: Activate Blasting Station by tapping it and sacrificing Shield Sphere.
 
 ## Combo 413-4027-4986--44
 Cards: Teshar, Ancestor's Apostle + Blasting Station + Glint Hawk
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 720 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 710 | Commander: legal
 Produces: Infinite damage; Infinite artifact ETB; Infinite artifact LTB; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Requires: 2x Artifact Castable for {0} that survives (hand, battlefield)
 Start: Teshar, Ancestor's Apostle (battlefield); Blasting Station (battlefield); Glint Hawk (graveyard)
@@ -9124,7 +9135,7 @@ Steps: Gain life.
 
 ## Combo 567-1274-7690--165
 Cards: Invisible Woman, Sue Storm + Soul's Attendant + Heliod, Sun-Crowned
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 87 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Soul's Attendant (battlefield); Heliod, Sun-Crowned (battlefield)
@@ -9137,7 +9148,7 @@ Steps: Gain life.
 
 ## Combo 567-1308-1981-4591-4740
 Cards: Darien, King of Kjeldor + Aetherflux Reservoir + Platinum Angel + Soul's Attendant + Anointed Procession
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 33 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain triggers; Infinite creature ETB
 Start: Darien, King of Kjeldor (battlefield); Aetherflux Reservoir (battlefield); Platinum Angel (battlefield); Soul's Attendant (battlefield); Anointed Procession (battlefield)
 Prerequisites: Your life total is at least 50.
@@ -9181,7 +9192,7 @@ Steps: Activate Aetherflux Reservoir by paying 50 life, dealing 50 damage to you
 
 ## Combo 567-1981-4365-4591-4740
 Cards: Darien, King of Kjeldor + Mondrak, Glory Dominus + Aetherflux Reservoir + Platinum Angel + Soul's Attendant
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 24 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain triggers; Infinite creature ETB
 Start: Darien, King of Kjeldor (battlefield); Mondrak, Glory Dominus (battlefield); Aetherflux Reservoir (battlefield); Platinum Angel (battlefield); Soul's Attendant (battlefield)
 Prerequisites: Your life total is at least 50.
@@ -9217,7 +9228,7 @@ Steps: Activate Aetherflux Reservoir by paying 50 life, dealing 50 damage to you
 
 ## Combo 567-2034-2919-3490
 Cards: Animation Module + Archangel of Thune + Ashnod's Altar + Soul's Attendant
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 87 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Animation Module (battlefield); Archangel of Thune (battlefield); Ashnod's Altar (battlefield); Soul's Attendant (battlefield)
 Prerequisites: You have a way to cause a creature to enter the battlefield under your control.
@@ -9234,7 +9245,7 @@ Steps: Cause a creature to enter the battlefield under your control.
 
 ## Combo 567-2034-3490-4017
 Cards: Animation Module + Ashnod's Altar + Soul's Attendant + Sunbond
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Soul's Attendant (battlefield); Sunbond (battlefield: attached to a creature you control)
 Prerequisites: You have a way to gain life.
@@ -9446,7 +9457,7 @@ Steps: Gain life.
 
 ## Combo 567-4017-7690--165
 Cards: Invisible Woman, Sue Storm + Soul's Attendant + Sunbond
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Soul's Attendant (battlefield); Sunbond (battlefield: attached to the other Hero)
@@ -9493,7 +9504,7 @@ Steps: Cast Ephemerate by paying {W}, blinking Ratchet, causing it to enter the 
 
 ## Combo 567-6824-7690
 Cards: Invisible Woman, Sue Storm + Spider-Man, Peter Parker + Soul's Attendant
-Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 93 | Commander: legal
+Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 95 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on certain creatures; Infinite lifegain triggers; Infinite creature ETB
 Start: Invisible Woman, Sue Storm (battlefield); Spider-Man, Peter Parker (battlefield); Soul's Attendant (battlefield)
 Prerequisites: You have a way to gain life.
@@ -10069,7 +10080,7 @@ Steps: Activate Leashling by putting a card from your hand on top of your librar
 
 ## Combo 671-1274-2034-3490
 Cards: Animation Module + Ashnod's Altar + Daxos, Blessed by the Sun + Heliod, Sun-Crowned
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 81 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 82 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Daxos, Blessed by the Sun (battlefield); Heliod, Sun-Crowned (battlefield)
 Prerequisites: You have a way to gain life.
@@ -10117,7 +10128,7 @@ Steps: Gain life.
 
 ## Combo 671-1274-7690--165
 Cards: Invisible Woman, Sue Storm + Daxos, Blessed by the Sun + Heliod, Sun-Crowned
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 56 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 57 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Daxos, Blessed by the Sun (battlefield); Heliod, Sun-Crowned (battlefield)
@@ -10144,7 +10155,7 @@ Steps: Declare Phyrexian Vindicator as an attacker.
 
 ## Combo 671-2034-2919-3490
 Cards: Animation Module + Ashnod's Altar + Archangel of Thune + Daxos, Blessed by the Sun
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 57 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 58 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Archangel of Thune (battlefield); Daxos, Blessed by the Sun (battlefield)
 Prerequisites: You have a way to gain life.
@@ -10334,7 +10345,7 @@ Steps: Gain life.
 
 ## Combo 671-4017-7690--165
 Cards: Invisible Woman, Sue Storm + Daxos, Blessed by the Sun + Sunbond
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Daxos, Blessed by the Sun (battlefield); Sunbond (battlefield: attached to the other Hero)
@@ -10347,7 +10358,7 @@ Steps: Gain life.
 
 ## Combo 671-6824-7690
 Cards: Invisible Woman, Sue Storm + Spider-Man, Peter Parker + Daxos, Blessed by the Sun
-Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 57 | Commander: legal
+Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 58 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on certain creatures; Infinite lifegain triggers; Infinite creature ETB
 Start: Invisible Woman, Sue Storm (battlefield); Spider-Man, Peter Parker (battlefield); Daxos, Blessed by the Sun (battlefield)
 Prerequisites: You have a way to gain life.
@@ -10914,7 +10925,7 @@ Steps: Activate Ajani's Pridemate by using Triskelion's ability by removing a +1
 
 ## Combo 701-1874-2034-3490
 Cards: Ajani's Pridemate + Animation Module + Ajani's Welcome + Ashnod's Altar
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 79 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 78 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Ajani's Pridemate (battlefield); Animation Module (battlefield); Ajani's Welcome (battlefield); Ashnod's Altar (battlefield)
 Prerequisites: You have a way to cause a creature to enter the battlefield under your control.
@@ -10929,7 +10940,7 @@ Steps: Cause a creature to enter the battlefield under your control.
 
 ## Combo 701-3693-4613
 Cards: Agatha's Soul Cauldron + Ajani's Pridemate + Walking Ballista
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 230 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 220 | Commander: legal
 Produces: Infinite damage; Infinite lifegain; Infinite lifegain triggers
 Start: Agatha's Soul Cauldron (battlefield); Ajani's Pridemate (battlefield: with a +1/+1 counter on it and has lifelink); Walking Ballista (exile: by Agatha's Soul Cauldron)
 Steps: Activate Ajani's Pridemate by using Walking Ballista's ability by removing a +1/+1 counter from it, dealing 1 damage to any target and causing you to gain 1 life due to its lifelink.
@@ -11131,7 +11142,7 @@ Steps: Activate Juju Bubble by paying {2}, causing you to gain 1 life.
 
 ## Combo 764-1069-2018-5256
 Cards: Luminous Broodmoth + Colossus Hammer + Puresteel Paladin + Altar of Dementia
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal
 Produces: Infinite mill; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Luminous Broodmoth (battlefield); Colossus Hammer (battlefield); Puresteel Paladin (battlefield); Altar of Dementia (battlefield)
 Prerequisites: You control at least 3 artifacts.
@@ -11293,7 +11304,7 @@ Steps: Activate Magus of the Disk's ability to destroy all creatures artifacts a
 
 ## Combo 814-1651-2034-2751
 Cards: Myrel, Shield of Argive + Strionic Resonator + Clock of Omens + Ashnod's Altar
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 90 | Commander: legal | Mana needed: {2}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 88 | Commander: legal | Mana needed: {2}
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite mana artifacts you control can produce; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite untap of artifacts you control
 Start: Myrel, Shield of Argive (battlefield); Strionic Resonator (battlefield); Clock of Omens (battlefield); Ashnod's Altar (battlefield)
 Prerequisites: You control at least two Soldiers.
@@ -11307,7 +11318,7 @@ Steps: Declare Myrel as an attacker, triggering its ability.
 
 ## Combo 814-1651-2034-3094
 Cards: Myrel, Shield of Argive + Lithoform Engine + Clock of Omens + Ashnod's Altar
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal | Mana needed: {2}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 52 | Commander: legal | Mana needed: {2}
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite mana artifacts you control can produce; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite untap of artifacts you control
 Start: Myrel, Shield of Argive (battlefield); Lithoform Engine (battlefield); Clock of Omens (battlefield); Ashnod's Altar (battlefield)
 Prerequisites: You control at least two Soldiers.
@@ -11321,7 +11332,7 @@ Steps: Declare Myrel as an attacker, triggering its ability.
 
 ## Combo 814-1651-2751-4050
 Cards: Myrel, Shield of Argive + Strionic Resonator + Clock of Omens + Phyrexian Altar
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal | Mana needed: {2}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal | Mana needed: {2}
 Produces: Infinite colored mana; Infinite creature tokens; Infinite mana artifacts you control can produce; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite untap of artifacts you control
 Start: Myrel, Shield of Argive (battlefield); Strionic Resonator (battlefield); Clock of Omens (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: You control at least three Soldiers.
@@ -11349,7 +11360,7 @@ Steps: Declare Myrel as an attacker, triggering its ability.
 
 ## Combo 814-1651-3094-4050
 Cards: Myrel, Shield of Argive + Lithoform Engine + Clock of Omens + Phyrexian Altar
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal | Mana needed: {2}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal | Mana needed: {2}
 Produces: Infinite colored mana; Infinite creature tokens; Infinite mana artifacts you control can produce; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite untap of artifacts you control
 Start: Myrel, Shield of Argive (battlefield); Lithoform Engine (battlefield); Clock of Omens (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: You control at least three Soldiers.
@@ -11461,7 +11472,7 @@ Steps: Declare Myrel as an attacker, triggering its ability.
 
 ## Combo 816-1640
 Cards: Rune-Tail, Kitsune Ascendant // Rune-Tail's Essence + Pariah's Shield
-Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 1200 | Commander: legal
+Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 1300 | Commander: legal
 Produces: Prevent all damage that would be dealt to creatures you control; Prevent all damage that would be dealt to you; Lock
 Start: Rune-Tail, Kitsune Ascendant // Rune-Tail's Essence (battlefield); Pariah's Shield (battlefield: attached to a creature you control)
 Steps: When damage would be dealt to you, that damage is redirected to the creature that has Pariah's Shield attached instead.
@@ -12340,7 +12351,7 @@ Steps: Activate Phyrexian Altar by sacrificing Cathodion, adding {W}.
 
 ## Combo 944-4200-6867
 Cards: Appa, Steadfast Guardian + Planar Gate + Icewind Stalwart
-Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 56 | Commander: legal | Mana needed: {W}{W} plus commander tax if applicable
+Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 57 | Commander: legal | Mana needed: {W}{W} plus commander tax if applicable
 Produces: Infinite creature tokens; Infinite creature LTB; Infinite creature ETB; Infinite storm count
 Start: Appa, Steadfast Guardian (hand, command zone); Planar Gate (battlefield); Icewind Stalwart (hand)
 Steps: Cast Appa either from your hand or from the command zone by paying {W}{W} plus commander tax, if applicable.
@@ -12598,7 +12609,7 @@ Steps: Activate Culling Dais' first ability by tapping it and sacrificing Lesser
 
 ## Combo 978-2034--5
 Cards: Vizier of Remedies + Ashnod's Altar
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 3200 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 3300 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Vizier of Remedies (battlefield); Ashnod's Altar (battlefield)
@@ -12687,7 +12698,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 1003-1069-2034-5222
 Cards: Halvar, God of Battle // Sword of the Realms + Puresteel Paladin + Phyrexian Walker + Ashnod's Altar
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 23 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal
 Produces: Infinite colorless mana; Infinite artifact ETB; Infinite artifact LTB; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Halvar, God of Battle // Sword of the Realms (battlefield); Puresteel Paladin (battlefield); Phyrexian Walker (hand); Ashnod's Altar (battlefield)
 Steps: Cast Phyrexian Walker.
@@ -12709,7 +12720,7 @@ Steps: Cast Phyrexian Walker.
 
 ## Combo 1003-1069-5222-5256
 Cards: Halvar, God of Battle // Sword of the Realms + Puresteel Paladin + Phyrexian Walker + Altar of Dementia
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Halvar, God of Battle // Sword of the Realms (battlefield); Puresteel Paladin (battlefield); Phyrexian Walker (hand); Altar of Dementia (battlefield)
 Steps: Cast Phyrexian Walker.
@@ -12770,7 +12781,7 @@ Steps: Activate Phyrexian Altar by sacrificing Phyrexian Walker.
 
 ## Combo 1003-2626-4986-5256
 Cards: Teshar, Ancestor's Apostle + Salvager of Ruin + Altar of Dementia + Phyrexian Walker
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 460 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 450 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
 Start: Teshar, Ancestor's Apostle (battlefield); Salvager of Ruin (battlefield); Altar of Dementia (battlefield); Phyrexian Walker (battlefield)
 Steps: Activate Altar of Dementia by sacrificing Phyrexian Walker.
@@ -13116,7 +13127,7 @@ Notes: The chosen Eldrazi must be colorless.
 
 ## Combo 1069-1778-2034-5222
 Cards: Halvar, God of Battle // Sword of the Realms + Puresteel Paladin + Memnite + Ashnod's Altar
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 52 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 51 | Commander: legal
 Produces: Infinite colorless mana; Infinite artifact ETB; Infinite artifact LTB; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Halvar, God of Battle // Sword of the Realms (battlefield); Puresteel Paladin (battlefield); Memnite (hand); Ashnod's Altar (battlefield)
 Steps: Cast Memnite.
@@ -13138,7 +13149,7 @@ Steps: Cast Memnite.
 
 ## Combo 1069-1778-5222-5256
 Cards: Halvar, God of Battle // Sword of the Realms + Puresteel Paladin + Memnite + Altar of Dementia
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 28 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Halvar, God of Battle // Sword of the Realms (battlefield); Puresteel Paladin (battlefield); Memnite (hand); Altar of Dementia (battlefield)
 Steps: Cast Memnite.
@@ -13149,7 +13160,7 @@ Steps: Cast Memnite.
 
 ## Combo 1069-2018-4232-5256
 Cards: Luminous Broodmoth + Magebane Armor + Puresteel Paladin + Altar of Dementia
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite mill; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Luminous Broodmoth (battlefield); Magebane Armor (battlefield); Puresteel Paladin (battlefield); Altar of Dementia (battlefield)
 Prerequisites: You control at least 3 artifacts.
@@ -13174,7 +13185,7 @@ Steps: Activate an Equipment by paying {0}, targeting another nontoken creature 
 
 ## Combo 1069-2034-3652-5222
 Cards: Halvar, God of Battle // Sword of the Realms + Puresteel Paladin + Ornithopter + Ashnod's Altar
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 58 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 57 | Commander: legal
 Produces: Infinite colorless mana; Infinite artifact ETB; Infinite artifact LTB; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Halvar, God of Battle // Sword of the Realms (battlefield); Puresteel Paladin (battlefield); Ornithopter (hand); Ashnod's Altar (battlefield)
 Steps: Cast Ornithopter.
@@ -13332,7 +13343,7 @@ Steps: Cast Ornithopter.
 
 ## Combo 1069-3652-5222-5256
 Cards: Halvar, God of Battle // Sword of the Realms + Puresteel Paladin + Ornithopter + Altar of Dementia
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Halvar, God of Battle // Sword of the Realms (battlefield); Puresteel Paladin (battlefield); Ornithopter (hand); Altar of Dementia (battlefield)
 Steps: Cast Ornithopter.
@@ -13737,7 +13748,7 @@ Steps: Cast Appa either from your hand or from the command zone by paying {W}{W}
 
 ## Combo 1090-1594-3375-6867
 Cards: Appa, Steadfast Guardian + Restoration Angel + Helm of Awakening + The Immortal Sun
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 88 | Commander: legal | Mana needed: {W}{W} plus commander tax if applicable
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 89 | Commander: legal | Mana needed: {W}{W} plus commander tax if applicable
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Appa, Steadfast Guardian (hand); Restoration Angel (hand); Helm of Awakening (battlefield); The Immortal Sun (battlefield)
 Steps: Cast Appa either from your hand or from the command zone by paying {W}{W} plus commander tax, if applicable.
@@ -13929,7 +13940,7 @@ Steps: Cast Appa either from your hand or from the command zone by paying {W}{W}
 
 ## Combo 1090-2146-6626-6867
 Cards: Appa, Steadfast Guardian + Restoration Angel + Cloud Key + The Wind Crystal
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 510 | Commander: legal | Mana needed: {W}{W} plus commander tax if applicable
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 520 | Commander: legal | Mana needed: {W}{W} plus commander tax if applicable
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Appa, Steadfast Guardian (hand); Restoration Angel (hand); Cloud Key (battlefield: with "Creature" chosen); The Wind Crystal (battlefield)
 Steps: Cast Appa either from your hand or from the command zone by paying {W}{W} plus commander tax, if applicable.
@@ -14696,7 +14707,7 @@ Steps: Activate Twilight Drover by paying {2}{W} and removing a +1/+1 counter fr
 
 ## Combo 1270-4050-4770-6090
 Cards: Arahbo, the First Fang + Whitemane Lion + Phyrexian Altar + Ojer Taq, Deepest Foundation // Temple of Civilization
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal | Mana needed: {1}{W}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite creature tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Arahbo, the First Fang (battlefield); Whitemane Lion (hand); Phyrexian Altar (battlefield); Ojer Taq, Deepest Foundation // Temple of Civilization (battlefield)
 Steps: Cast Whitemane Lion by paying {1}{W}.
@@ -14889,7 +14900,7 @@ Steps: Gain life.
 
 ## Combo 1274-1874-7690--165
 Cards: Invisible Woman, Sue Storm + Heliod, Sun-Crowned + Ajani's Welcome
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 58 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 59 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Heliod, Sun-Crowned (battlefield); Ajani's Welcome (battlefield)
@@ -14950,7 +14961,7 @@ Steps: Gain life.
 
 ## Combo 1274-1939-7690--165
 Cards: Invisible Woman, Sue Storm + Heliod, Sun-Crowned + Lunarch Veteran // Luminous Phantom
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 23 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 24 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Heliod, Sun-Crowned (battlefield); Lunarch Veteran // Luminous Phantom (battlefield)
@@ -15019,7 +15030,7 @@ Steps: Gain life.
 
 ## Combo 1274-2034-3490-4506
 Cards: Animation Module + Ashnod's Altar + Heliod, Sun-Crowned + Auriok Champion
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 64 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 65 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Heliod, Sun-Crowned (battlefield); Auriok Champion (battlefield)
 Prerequisites: You have a way to gain life.
@@ -15061,7 +15072,7 @@ Steps: Gain life.
 
 ## Combo 1274-2034-3490-5870
 Cards: Animation Module + Ashnod's Altar + Guide of Souls + Heliod, Sun-Crowned
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 71 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 73 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite energy counters
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Guide of Souls (battlefield); Heliod, Sun-Crowned (battlefield)
 Prerequisites: You have a way to gain life.
@@ -15117,7 +15128,7 @@ Steps: Gain life.
 
 ## Combo 1274-2034-3490-6752
 Cards: Animation Module + Ashnod's Altar + Heliod, Sun-Crowned + Haliya, Guided by Light
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 62 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 64 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Heliod, Sun-Crowned (battlefield); Haliya, Guided by Light (battlefield)
 Prerequisites: You have a way to gain life.
@@ -15145,7 +15156,7 @@ Steps: Gain life.
 
 ## Combo 1274-2034-3490-7818
 Cards: Animation Module + Ashnod's Altar + Heliod, Sun-Crowned + Liliana the Faultless
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal | Mana needed: {1}
 Produces: Infinite +1/+1 counters on creatures you control; Infinite colorless mana; Infinite lifegain; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Heliod, Sun-Crowned (battlefield); Liliana the Faultless (battlefield)
 Prerequisites: You have a way to gain life.
@@ -15805,7 +15816,7 @@ Steps: Gain life.
 
 ## Combo 1274-4506-7690--165
 Cards: Invisible Woman, Sue Storm + Heliod, Sun-Crowned + Auriok Champion
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Heliod, Sun-Crowned (battlefield); Auriok Champion (battlefield)
@@ -15890,7 +15901,7 @@ Steps: Gain life.
 
 ## Combo 1274-5870-7690--165
 Cards: Guide of Souls + Invisible Woman, Sue Storm + Heliod, Sun-Crowned
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB; Infinite energy counters
 Requires: Hero Creature (battlefield)
 Start: Guide of Souls (battlefield); Invisible Woman, Sue Storm (battlefield); Heliod, Sun-Crowned (battlefield)
@@ -15903,7 +15914,7 @@ Steps: Gain life.
 
 ## Combo 1274-6097-7690--165
 Cards: Invisible Woman, Sue Storm + Heliod, Sun-Crowned + Hinterland Sanctifier
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Heliod, Sun-Crowned (battlefield); Hinterland Sanctifier (battlefield)
@@ -15929,7 +15940,7 @@ Steps: Gain life.
 
 ## Combo 1274-6720-7690--165
 Cards: Invisible Woman, Sue Storm + Heliod, Sun-Crowned + Case of the Uneaten Feast
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Heliod, Sun-Crowned (battlefield); Case of the Uneaten Feast (battlefield)
@@ -15942,7 +15953,7 @@ Steps: Gain life.
 
 ## Combo 1274-6752-7690--165
 Cards: Invisible Woman, Sue Storm + Heliod, Sun-Crowned + Haliya, Guided by Light
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 50 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Heliod, Sun-Crowned (battlefield); Haliya, Guided by Light (battlefield)
@@ -15955,7 +15966,7 @@ Steps: Gain life.
 
 ## Combo 1274-6823-7690--165
 Cards: Invisible Woman, Sue Storm + Heliod, Sun-Crowned + Aunt May
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 48 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Heliod, Sun-Crowned (battlefield); Aunt May (battlefield)
@@ -16125,7 +16136,7 @@ Steps: Activate Ashnod's Altar by sacrificing Reborn Hero, adding {C}{C}.
 
 ## Combo 1283-2055-4659--175
 Cards: Auriok Salvagers + Krark-Clan Ironworks + Chromatic Orrery
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Requires: Artifact with MV=0 (battlefield)
 Start: Auriok Salvagers (battlefield); Krark-Clan Ironworks (battlefield); Chromatic Orrery (battlefield)
@@ -16214,7 +16225,7 @@ Notes: This combo creates a mandatory infinite loop at step 4 that will cause th
 
 ## Combo 1308-1575-1651-4659
 Cards: Nuka-Cola Vending Machine + Clock of Omens + Krark-Clan Ironworks + Anointed Procession
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 840 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 850 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite tapped Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite tapped Food tokens
 Start: Nuka-Cola Vending Machine (battlefield); Clock of Omens (battlefield); Krark-Clan Ironworks (battlefield); Anointed Procession (battlefield)
 Steps: Activate Nuka-Cola Vending Machine by paying {1} and tapping it, creating two Food artifact tokens.
@@ -16429,7 +16440,7 @@ Notes: If you sacrifice a creature to start using Ashnod's Altar, the starting c
 
 ## Combo 1308-2143
 Cards: Spawnsire of Ulamog + Anointed Procession
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 930 | Commander: legal | Mana needed: {4}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 940 | Commander: legal | Mana needed: {4}
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Spawnsire of Ulamog (battlefield); Anointed Procession (battlefield)
 Steps: Activate Spawnsire of Ulamog by paying {4}, creating four 0/1 Eldrazi Spawn creature tokens.
@@ -16877,7 +16888,7 @@ Steps: Activate Thraben Doomsayer by tapping it, creating a 1/1 Human creature t
 
 ## Combo 1414-1477-2866-4986
 Cards: Teshar, Ancestor's Apostle + Scrap Trawler + Lotus Petal + Extruder
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal
 Produces: Infinite colored mana; Infinite +1/+1 counters on creatures you control; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Teshar, Ancestor's Apostle (battlefield); Scrap Trawler (graveyard); Lotus Petal (hand); Extruder (battlefield)
 Steps: Cast Lotus Petal by paying its mana cost.
@@ -16977,7 +16988,7 @@ Steps: Cast Lotus Petal by paying its mana cost.
 
 ## Combo 1414-2866-4986-5256
 Cards: Teshar, Ancestor's Apostle + Scrap Trawler + Lotus Petal + Altar of Dementia
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 810 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 800 | Commander: legal
 Produces: Infinite colored mana; Infinite mill; Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Teshar, Ancestor's Apostle (battlefield); Scrap Trawler (graveyard); Lotus Petal (hand); Altar of Dementia (battlefield)
 Steps: Cast Lotus Petal by paying its mana cost.
@@ -17604,7 +17615,7 @@ Steps: Cast Jeweled Lotus by paying its mana cost.
 
 ## Combo 1492-2034-2866-4986
 Cards: Teshar, Ancestor's Apostle + Scrap Trawler + Ashnod's Altar + Welding Jar
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 650 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 640 | Commander: legal
 Produces: Infinite colorless mana; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Teshar, Ancestor's Apostle (battlefield); Scrap Trawler (graveyard); Ashnod's Altar (battlefield); Welding Jar (hand)
 Prerequisites: There is at least one additional artifact on the battlefield.
@@ -17757,7 +17768,7 @@ Notes: You can forego step 4 to simply put infinite +1/+1 counters on Triskelion
 
 ## Combo 1495-4017
 Cards: Triskelion + Sunbond
-Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 520 | Commander: legal
+Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 530 | Commander: legal
 Produces: Infinite damage; Infinite lifegain; Infinite lifegain triggers
 Start: Triskelion (battlefield); Sunbond (battlefield)
 Prerequisites: Sunbond attached to Triskelion.
@@ -18139,7 +18150,7 @@ Steps: Cast Appa either from your hand or from the command zone by paying {W}{W}
 
 ## Combo 1594-1895-4200-6867
 Cards: Appa, Steadfast Guardian + Helm of Awakening + Pearl Medallion + Icewind Stalwart
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 190 | Commander: legal | Mana needed: {W}{W} plus commander tax if applicable
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 200 | Commander: legal | Mana needed: {W}{W} plus commander tax if applicable
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Appa, Steadfast Guardian (hand); Helm of Awakening (battlefield); Pearl Medallion (battlefield); Icewind Stalwart (hand)
 Steps: Cast Appa either from your hand or from the command zone by paying {W}{W} plus commander tax, if applicable.
@@ -18230,7 +18241,7 @@ Steps: Cast Appa either from your hand or from the command zone by paying {W}{W}
 
 ## Combo 1594-2146-4200-6867
 Cards: Appa, Steadfast Guardian + Helm of Awakening + Cloud Key + Icewind Stalwart
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 180 | Commander: legal | Mana needed: {W}{W} plus commander tax if applicable
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 190 | Commander: legal | Mana needed: {W}{W} plus commander tax if applicable
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Appa, Steadfast Guardian (hand); Helm of Awakening (battlefield); Cloud Key (battlefield: with "Creature" chosen); Icewind Stalwart (hand)
 Steps: Cast Appa either from your hand or from the command zone by paying {W}{W} plus commander tax, if applicable.
@@ -18277,7 +18288,7 @@ Steps: Cast Hangarback Walker by paying {1} due to Helm of Awakening, causing it
 
 ## Combo 1594-2781-3375-6867
 Cards: Appa, Steadfast Guardian + Helm of Awakening + Felidar Guardian + The Immortal Sun
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 82 | Commander: legal | Mana needed: {W}{W} plus commander tax if applicable
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 83 | Commander: legal | Mana needed: {W}{W} plus commander tax if applicable
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Appa, Steadfast Guardian (hand); Helm of Awakening (battlefield); Felidar Guardian (hand); The Immortal Sun (battlefield)
 Steps: Cast Appa either from your hand or from the command zone by paying {W}{W} plus commander tax, if applicable.
@@ -18313,7 +18324,7 @@ Steps: Cast Appa either from your hand or from the command zone by paying {W}{W}
 
 ## Combo 1594-3375-4200-6867
 Cards: Appa, Steadfast Guardian + Helm of Awakening + The Immortal Sun + Icewind Stalwart
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal | Mana needed: {W}{W} plus commander tax if applicable
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal | Mana needed: {W}{W} plus commander tax if applicable
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Appa, Steadfast Guardian (hand); Helm of Awakening (battlefield); The Immortal Sun (battlefield); Icewind Stalwart (hand)
 Steps: Cast Appa either from your hand or from the command zone by paying {W}{W} plus commander tax, if applicable.
@@ -18371,7 +18382,7 @@ Steps: Cast Appa either from your hand or from the command zone by paying {W}{W}
 
 ## Combo 1594-4399-4518--228
 Cards: Defiler of Faith + Helm of Awakening + Kor Skyfisher
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal | Mana needed: {W/P}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal | Mana needed: {W/P}
 Produces: Infinite creature tokens; Infinite lifegain; Infinite lifeloss; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite energy counters; Infinite storm count
 Requires: Soul Sister (Gain life when a creature enters) (battlefield)
 Start: Defiler of Faith (battlefield); Helm of Awakening (battlefield); Kor Skyfisher (hand)
@@ -18388,7 +18399,7 @@ Notes: The infinite lifegain, infinite lifeloss, and infinite energy counter res
 
 ## Combo 1594-4399-4770--228
 Cards: Defiler of Faith + Helm of Awakening + Whitemane Lion
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 77 | Commander: legal | Mana needed: {W/P}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 76 | Commander: legal | Mana needed: {W/P}
 Produces: Infinite creature tokens; Infinite lifegain; Infinite lifeloss; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite energy counters; Infinite storm count
 Requires: Soul Sister (Gain life when a creature enters) (battlefield)
 Start: Defiler of Faith (battlefield); Helm of Awakening (battlefield); Whitemane Lion (hand)
@@ -18787,7 +18798,7 @@ Steps: Cast Flicker of Fate by paying its mana cost, blinking Wispweaver Angel.
 
 ## Combo 1621-3603-4344
 Cards: Lumbering Battlement + Wispweaver Angel + Cloudshift
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 410 | Commander: legal | Mana needed: {W}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 420 | Commander: legal | Mana needed: {W}
 Produces: Infinite blinking; Infinite creature ETB; Infinite creature LTB
 Start: Lumbering Battlement (battlefield); Wispweaver Angel (exile: exiled by Lumbering Battlement); Cloudshift (hand)
 Steps: Cast Cloudshift by paying {W}, blinking Lumbering Battlement.
@@ -18934,7 +18945,7 @@ Steps: During the end step prior to your turn, activate Ethereal Champion by pay
 
 ## Combo 1640-5739
 Cards: Caduceus, Staff of Hermes + Pariah's Shield
-Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 3300 | Commander: legal
+Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 3400 | Commander: legal
 Produces: Prevent all damage that would be dealt to you; Lock
 Start: Caduceus, Staff of Hermes (battlefield); Pariah's Shield (battlefield: attached to [creature])
 Prerequisites: Caduceus and Pariah's Shield are attached to the same creature.
@@ -18953,7 +18964,7 @@ Steps: Whenever damage would be dealt to you, Pariah's Shield causes that damage
 
 ## Combo 1640-7407
 Cards: Inviolability + Pariah's Shield
-Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 180 | Commander: legal
+Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 190 | Commander: legal
 Produces: Lock; Prevent all damage that would be dealt to you
 Start: Inviolability (battlefield); Pariah's Shield (battlefield: attached to [creature])
 Prerequisites: Inviolability and Pariah's Shield are attached to the same creature.
@@ -18991,7 +19002,7 @@ Steps: Activate Prototype Portal by paying {2} and tapping it, creating two toke
 
 ## Combo 1651-2034-2797-4365
 Cards: Retrofitter Foundry + Ashnod's Altar + Clock of Omens + Mondrak, Glory Dominus
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 62 | Commander: legal | Mana needed: {2}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 63 | Commander: legal | Mana needed: {2}
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite mana artifacts you control can produce; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite untap of artifacts you control
 Start: Retrofitter Foundry (battlefield); Ashnod's Altar (battlefield); Clock of Omens (battlefield); Mondrak, Glory Dominus (battlefield)
 Steps: Activate Retrofitter Foundry's second ability by paying {2} and tapping it, creating two 1/1 Servo artifact creature tokens.
@@ -19036,7 +19047,7 @@ Steps: Activate Isochron Scepter by paying {2} and tapping it, casting Raise the
 
 ## Combo 1651-2410-3163
 Cards: Myr Galvanizer + Clock of Omens + Gold Myr
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 6700 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 6800 | Commander: legal
 Produces: Infinite mana Myr you control can produce; Infinite untap of Myr you control
 Start: Myr Galvanizer (battlefield); Clock of Omens (battlefield); Gold Myr (battlefield)
 Prerequisites: Gold Myr and Myr Galvanizer do not have summoning sickness.
@@ -19185,7 +19196,7 @@ Steps: Activate Transmutation Font's first ability by tapping it, creating two C
 
 ## Combo 1651-4365-7318
 Cards: Clock of Omens + Coin of Mastery + Mondrak, Glory Dominus
-Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 200 | Commander: legal
+Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 210 | Commander: legal
 Produces: Infinite tapped Treasure tokens; Infinite artifact tokens; Infinite artifact ETB
 Start: Clock of Omens (battlefield); Coin of Mastery (battlefield); Mondrak, Glory Dominus (battlefield)
 Steps: Activate Coin of Mastery by tapping it, creating two Treasure tokens due to Mondrak.
@@ -19207,7 +19218,7 @@ Steps: Activate Temple Bell by tapping it, causing each player to draw a card.
 
 ## Combo 1651-5469-6441
 Cards: Transmutation Font + Clock of Omens + Elspeth, Storm Slayer
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 270 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 280 | Commander: legal
 Produces: Infinite tapped Food tokens; Infinite tapped Clue tokens; Infinite tapped Blood tokens
 Start: Transmutation Font (battlefield); Clock of Omens (battlefield); Elspeth, Storm Slayer (battlefield)
 Steps: Activate Transmutation Font's first ability by tapping it, creating two Clue, Food or Blood artifact tokens.
@@ -19280,7 +19291,7 @@ Steps: Activate Antler Skulkin by paying {2}, giving Boss's Chauffeur persist un
 
 ## Combo 1676-2034-5003
 Cards: Nim Deathmantle + Ashnod's Altar + Boss's Chauffeur
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 81 | Commander: legal | Mana needed: {2}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 82 | Commander: legal | Mana needed: {2}
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Boss's Chauffeur (battlefield)
 Prerequisites: Boss's Chauffeur has at least one +1/+1 counter on it.
@@ -19667,7 +19678,7 @@ Notes: Due to differences in card templating between the various banisher effect
 
 ## Combo 1734-3839-5887
 Cards: Fiend Hunter + Changeling Hero + Werefox Bodyguard
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 90 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 91 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
 Produces: Infinite creature ETB; Infinite creature LTB
 Start: Fiend Hunter (hand, battlefield, exile: Exiled by the creature on the battlefield); Changeling Hero (hand, battlefield, exile: Exiled by the creature on the battlefield); Werefox Bodyguard (hand, battlefield, exile: Exiled by the creature on the battlefield)
 Prerequisites: Werefox Bodyguard must be exiled by Changeling Hero, and Fiend Hunter must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
@@ -19683,7 +19694,7 @@ Notes: Due to differences in card templating between the various banisher effect
 
 ## Combo 1734-3839-6966
 Cards: Fiend Hunter + Changeling Hero + All-Fates Stalker
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 41 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 42 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
 Produces: Infinite creature ETB; Infinite creature LTB
 Start: Fiend Hunter (hand, battlefield, exile: Exiled by the creature on the battlefield); Changeling Hero (hand, battlefield, exile: Exiled by the creature on the battlefield); All-Fates Stalker (hand, battlefield, exile: Exiled by the creature on the battlefield)
 Prerequisites: All-Fates Stalker must be exiled by Changeling Hero, and Fiend Hunter must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
@@ -19786,7 +19797,7 @@ Steps: Cast Ephemerate by paying {W}, blinking Lumbering Battlement.
 
 ## Combo 1734-4344-5887
 Cards: Fiend Hunter + Lumbering Battlement + Werefox Bodyguard
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 790 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 800 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
 Produces: Infinite creature ETB; Infinite creature LTB
 Start: Fiend Hunter (hand, battlefield, exile: Exiled by the creature on the battlefield); Lumbering Battlement (hand, battlefield, exile: Exiled by the creature on the battlefield); Werefox Bodyguard (hand, battlefield, exile: Exiled by the creature on the battlefield)
 Prerequisites: Werefox Bodyguard must be exiled by Lumbering Battlement, and Fiend Hunter must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
@@ -20839,7 +20850,7 @@ Steps: Activate Krark-Clan Ironworks by sacrificing a nontoken artifact Phyrexia
 
 ## Combo 1826-2034-2073
 Cards: Origin Spellbomb + Salvaging Station + Ashnod's Altar
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 57 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 56 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Origin Spellbomb (battlefield); Salvaging Station (battlefield); Ashnod's Altar (battlefield)
 Steps: Activate Origin Spellbomb by paying {1}, tapping and sacrificing it, creating a 1/1 Myr artifact creature token.
@@ -20897,7 +20908,7 @@ Steps: Activate Aetherflux Resevoir by paying 50 life, targeting yourself, but i
 
 ## Combo 1870-3609-4153
 Cards: Eternity Vessel + Magistrate's Scepter + Resourceful Defense
-Color identity: W | Bracket: 4+ (Ruthless) | Popularity: 680 | Commander: legal | Mana needed: {6}
+Color identity: W | Bracket: 4+ (Ruthless) | Popularity: 670 | Commander: legal | Mana needed: {6}
 Produces: Near-infinite turns; Lock
 Start: Eternity Vessel (hand); Magistrate's Scepter (battlefield); Resourceful Defense (battlefield)
 Prerequisites: You have a way to put an artifact into your graveyard from the battlefield.
@@ -20949,7 +20960,7 @@ Steps: Cause a creature to enter the battlefield under your control.
 
 ## Combo 1874-2034-3490-4017
 Cards: Animation Module + Ashnod's Altar + Ajani's Welcome + Sunbond
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Ajani's Welcome (battlefield); Sunbond (battlefield: attached to a creature you control)
 Prerequisites: You have a way to gain life.
@@ -20963,7 +20974,7 @@ Steps: Gain life.
 
 ## Combo 1874-2034-3490-6824
 Cards: Animation Module + Ashnod's Altar + Ajani's Welcome + Spider-Man, Peter Parker
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Ajani's Welcome (battlefield); Spider-Man, Peter Parker (battlefield)
 Prerequisites: You have a way to gain life.
@@ -21058,7 +21069,7 @@ Steps: Gain life.
 
 ## Combo 1874-2919-7690--165
 Cards: Archangel of Thune + Invisible Woman, Sue Storm + Ajani's Welcome
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 62 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 63 | Commander: legal
 Produces: Infinite +1/+1 counters on creatures you control; Infinite creature tokens; Infinite lifegain; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Archangel of Thune (battlefield); Invisible Woman, Sue Storm (battlefield); Ajani's Welcome (battlefield)
@@ -21155,7 +21166,7 @@ Steps: Gain life.
 
 ## Combo 1874-4017-7690--165
 Cards: Invisible Woman, Sue Storm + Ajani's Welcome + Sunbond
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Ajani's Welcome (battlefield); Sunbond (battlefield: attached to the other Hero)
@@ -21202,7 +21213,7 @@ Steps: Cast Ephemerate by paying {W}, blinking Ratchet, causing it to enter the 
 
 ## Combo 1874-6824-7690
 Cards: Invisible Woman, Sue Storm + Spider-Man, Peter Parker + Ajani's Welcome
-Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 77 | Commander: legal
+Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 79 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on certain creatures; Infinite lifegain triggers; Infinite creature ETB
 Start: Invisible Woman, Sue Storm (battlefield); Spider-Man, Peter Parker (battlefield); Ajani's Welcome (battlefield)
 Prerequisites: You have a way to gain life.
@@ -21322,7 +21333,7 @@ Steps: Cast Appa either from your hand or from the command zone by paying {W}{W}
 
 ## Combo 1895-3375-4200-6867
 Cards: Appa, Steadfast Guardian + Pearl Medallion + The Immortal Sun + Icewind Stalwart
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal | Mana needed: {W}{W} plus commander tax if applicable
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal | Mana needed: {W}{W} plus commander tax if applicable
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Appa, Steadfast Guardian (hand); Pearl Medallion (battlefield); The Immortal Sun (battlefield); Icewind Stalwart (hand)
 Steps: Cast Appa either from your hand or from the command zone by paying {W}{W} plus commander tax, if applicable.
@@ -21489,7 +21500,7 @@ Notes: Due to differences in card templating between the various banisher effect
 
 ## Combo 1938-3839-5887
 Cards: Glorious Protector + Changeling Hero + Werefox Bodyguard
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 82 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 83 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
 Produces: Infinite creature ETB; Infinite creature LTB
 Start: Glorious Protector (hand, battlefield, exile: Exiled by the creature on the battlefield); Changeling Hero (hand, battlefield, exile: Exiled by the creature on the battlefield); Werefox Bodyguard (hand, battlefield, exile: Exiled by the creature on the battlefield)
 Prerequisites: Werefox Bodyguard must be exiled by Changeling Hero, and Glorious Protector must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
@@ -21505,7 +21516,7 @@ Notes: Due to differences in card templating between the various banisher effect
 
 ## Combo 1938-3839-6966
 Cards: Glorious Protector + Changeling Hero + All-Fates Stalker
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
 Produces: Infinite creature ETB; Infinite creature LTB
 Start: Glorious Protector (hand, battlefield, exile: Exiled by the creature on the battlefield); Changeling Hero (hand, battlefield, exile: Exiled by the creature on the battlefield); All-Fates Stalker (hand, battlefield, exile: Exiled by the creature on the battlefield)
 Prerequisites: All-Fates Stalker must be exiled by Changeling Hero, and Glorious Protector must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
@@ -21781,7 +21792,7 @@ Steps: Gain life.
 
 ## Combo 1939-4017-7690--165
 Cards: Invisible Woman, Sue Storm + Lunarch Veteran // Luminous Phantom + Sunbond
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Lunarch Veteran // Luminous Phantom (battlefield); Sunbond (battlefield: attached to the other Hero)
@@ -21806,7 +21817,7 @@ Notes: Once you have infinite mana, you may forego sacrificing the Phyrexian Mit
 
 ## Combo 1939-6824-7690
 Cards: Invisible Woman, Sue Storm + Spider-Man, Peter Parker + Lunarch Veteran // Luminous Phantom
-Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 26 | Commander: legal
+Color identity: W | Bracket: 3-4+ (Spicy) | Popularity: 27 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on certain creatures; Infinite lifegain triggers; Infinite creature ETB
 Start: Invisible Woman, Sue Storm (battlefield); Spider-Man, Peter Parker (battlefield); Lunarch Veteran // Luminous Phantom (battlefield)
 Prerequisites: You have a way to gain life.
@@ -21933,7 +21944,7 @@ Steps: Pay {1}{W} to exile Village Bell-Ringer with a aegis counter.
 
 ## Combo 1961-2793-3334-5089
 Cards: Lae'zel, Vlaakith's Champion + Karn, the Great Creator + Ugin's Nexus + Throne of Geth
-Color identity: W | Bracket: 4+ (Ruthless) | Popularity: 5 | Commander: legal | Mana needed: {5} each extra turn
+Color identity: W | Bracket: 4+ (Ruthless) | Popularity: 4 | Commander: legal | Mana needed: {5} each extra turn
 Produces: Infinite turns; Lock
 Start: Lae'zel, Vlaakith's Champion (battlefield); Karn, the Great Creator (battlefield); Ugin's Nexus (battlefield); Throne of Geth (battlefield)
 Steps: Activate Throne of Geth by tapping it and sacrificing Ugin's Nexus.
@@ -22452,7 +22463,7 @@ Steps: Activate Ashnod's Altar by sacrificing Suncleanser, adding {C}{C}.
 
 ## Combo 2018-2034-4053
 Cards: Luminous Broodmoth + Solemnity + Ashnod's Altar
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 1900 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 2000 | Commander: legal
 Produces: Infinite colorless mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Luminous Broodmoth (battlefield); Solemnity (battlefield); Ashnod's Altar (battlefield)
 Prerequisites: You control at least one additional nontoken creature that does not have flying.
@@ -23138,7 +23149,7 @@ Steps: Activate Ashnod's Altar by sacrificing Syndicate Messenger, adding {C}{C}
 
 ## Combo 2034-2510-3693-5224
 Cards: Together Forever + Ashnod's Altar + Walking Ballista + Semblance Anvil
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 42 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 41 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite damage; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Together Forever (battlefield); Ashnod's Altar (battlefield); Walking Ballista (hand); Semblance Anvil (battlefield)
 Prerequisites: There is a creature card exiled with Semblance Anvil.
@@ -23593,7 +23604,7 @@ Steps: Gain life.
 
 ## Combo 2034-2919-3490-5870
 Cards: Animation Module + Ashnod's Altar + Archangel of Thune + Guide of Souls
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 42 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite energy counters
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Archangel of Thune (battlefield); Guide of Souls (battlefield)
 Prerequisites: You have a way to gain life.
@@ -23649,7 +23660,7 @@ Steps: Gain life.
 
 ## Combo 2034-2919-3490-6752
 Cards: Animation Module + Ashnod's Altar + Archangel of Thune + Haliya, Guided by Light
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 40 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Archangel of Thune (battlefield); Haliya, Guided by Light (battlefield)
 Prerequisites: You have a way to gain life.
@@ -23725,7 +23736,7 @@ Steps: Activate Triskelavus by paying {1} and removing a +1/+1 counter from it, 
 
 ## Combo 2034-2958-5003
 Cards: Nim Deathmantle + Ashnod's Altar + Sensor Splicer
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal | Mana needed: {2}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal | Mana needed: {2}
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Sensor Splicer (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Sensor Splicer, adding {C}{C}.
@@ -24181,7 +24192,7 @@ Steps: Gain life.
 
 ## Combo 2034-3490-4017-4506
 Cards: Animation Module + Ashnod's Altar + Sunbond + Auriok Champion
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Sunbond (battlefield: attached to a creature you control); Auriok Champion (battlefield)
 Prerequisites: You have a way to gain life.
@@ -24223,7 +24234,7 @@ Steps: Gain life.
 
 ## Combo 2034-3490-4017-5870
 Cards: Animation Module + Ashnod's Altar + Guide of Souls + Sunbond
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite energy counters
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Guide of Souls (battlefield); Sunbond (battlefield: attached to a creature you control)
 Prerequisites: You have a way to gain life.
@@ -24279,7 +24290,7 @@ Steps: Gain life.
 
 ## Combo 2034-3490-4017-6752
 Cards: Animation Module + Ashnod's Altar + Sunbond + Haliya, Guided by Light
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Sunbond (battlefield: attached to a creature you control); Haliya, Guided by Light (battlefield)
 Prerequisites: You have a way to gain life.
@@ -24432,7 +24443,7 @@ Steps: Gain life.
 
 ## Combo 2034-3490-5532
 Cards: Battle of Hoover Dam + Animation Module + Ashnod's Altar
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 85 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal
 Produces: Infinite colorless mana; Infinite +1/+1 counters on creatures you control; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Battle of Hoover Dam (battlefield); Animation Module (battlefield); Ashnod's Altar (battlefield)
 Prerequisites: "Legion" chosen with Battle of Hoover Dam.
@@ -24472,7 +24483,7 @@ Steps: Gain life.
 
 ## Combo 2034-3490-5870-6824
 Cards: Animation Module + Ashnod's Altar + Guide of Souls + Spider-Man, Peter Parker
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite energy counters
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Guide of Souls (battlefield); Spider-Man, Peter Parker (battlefield)
 Prerequisites: You have a way to gain life.
@@ -24500,7 +24511,7 @@ Steps: Gain life.
 
 ## Combo 2034-3490-5994
 Cards: Animation Module + Securitron Squadron + Ashnod's Altar
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 74 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 75 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite death triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers
 Start: Animation Module (battlefield); Securitron Squadron (battlefield); Ashnod's Altar (battlefield)
 Prerequisites: You have a way to put a +1/+1 counter on a creature you control.
@@ -24681,7 +24692,7 @@ Steps: Gain life.
 
 ## Combo 2034-3490-6824-8333
 Cards: Animation Module + Ashnod's Altar + Spider-Man, Peter Parker + Sickbay
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}
 Produces: Infinite +1/+1 counters on creatures you control; Infinite colorless mana; Infinite lifegain; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Spider-Man, Peter Parker (battlefield); Sickbay (battlefield)
 Prerequisites: You have a way to gain life.
@@ -24885,7 +24896,7 @@ Steps: Activate Ashnod's Altar by sacrificing Doomed Traveler, adding {C}{C}.
 
 ## Combo 2034-3994-4013
 Cards: Eldrazi Displacer + Ashnod's Altar + Precursor Golem
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal | Mana needed: {2}{C}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal | Mana needed: {2}{C}
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite blinking; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite blinking of most creatures
 Start: Eldrazi Displacer (battlefield); Ashnod's Altar (battlefield); Precursor Golem (battlefield)
 Steps: Activate Eldrazi Displacer by paying {2}{C}, blinking Precursor Golem.
@@ -26122,7 +26133,7 @@ Steps: Cast Hangarback Walker by paying {1} due to Cloud Key, causing it to ente
 
 ## Combo 2146-2781-3375-6867
 Cards: Appa, Steadfast Guardian + Cloud Key + Felidar Guardian + The Immortal Sun
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 90 | Commander: legal | Mana needed: {W}{W} plus commander tax if applicable
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 91 | Commander: legal | Mana needed: {W}{W} plus commander tax if applicable
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Appa, Steadfast Guardian (hand); Cloud Key (battlefield: with "Creature" chosen); Felidar Guardian (hand); The Immortal Sun (battlefield)
 Steps: Cast Appa either from your hand or from the command zone by paying {W}{W} plus commander tax, if applicable.
@@ -26158,7 +26169,7 @@ Steps: Cast Appa either from your hand or from the command zone by paying {W}{W}
 
 ## Combo 2146-3375-4200-6867
 Cards: Appa, Steadfast Guardian + Cloud Key + The Immortal Sun + Icewind Stalwart
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal | Mana needed: {W}{W} plus commander tax if applicable
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal | Mana needed: {W}{W} plus commander tax if applicable
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Appa, Steadfast Guardian (hand); Cloud Key (battlefield: with "Creature" chosen); The Immortal Sun (battlefield); Icewind Stalwart (hand)
 Steps: Cast Appa either from your hand or from the command zone by paying {W}{W} plus commander tax, if applicable.
@@ -26275,7 +26286,7 @@ Steps: Cast Marketback Walker by paying {1} due to Cloud Key, causing it to ente
 
 ## Combo 2178-2857-4050
 Cards: Adarkar Valkyrie + Thornbite Staff + Phyrexian Altar
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 52 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 53 | Commander: legal
 Produces: Infinite colored mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Adarkar Valkyrie (battlefield); Thornbite Staff (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: Thornbite Staff attached to Adarkar Valkyrie.
@@ -26289,7 +26300,7 @@ Steps: Activate Adarkar Valkyrie by tapping it, targeting another creature you c
 
 ## Combo 2178-2857-5256
 Cards: Adarkar Valkyrie + Thornbite Staff + Altar of Dementia
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Adarkar Valkyrie (battlefield); Thornbite Staff (battlefield); Altar of Dementia (battlefield)
 Prerequisites: Thornbite Staff attached to Adarkar Valkyrie.
@@ -27110,7 +27121,7 @@ Steps: Cast Mishra's Bauble by paying its mana cost.
 
 ## Combo 2478-2866-4986-5256
 Cards: Teshar, Ancestor's Apostle + Scrap Trawler + Mishra's Bauble + Altar of Dementia
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 910 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 900 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite card draw at the beginning of the next upkeep; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count; Infinite draw triggers at the beginning of the next upkeep
 Start: Teshar, Ancestor's Apostle (battlefield); Scrap Trawler (graveyard); Mishra's Bauble (hand); Altar of Dementia (battlefield)
 Steps: Cast Mishra's Bauble by paying its mana cost.
@@ -27907,7 +27918,7 @@ Steps: Cast Leonardo either from your hand or from the command zone by paying {W
 
 ## Combo 2624-4050-4770-6090
 Cards: Arahbo, the First Fang + Whitemane Lion + Phyrexian Altar + God-Eternal Oketra
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {1}{W}
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Arahbo, the First Fang (battlefield); Whitemane Lion (hand); Phyrexian Altar (battlefield); God-Eternal Oketra (battlefield)
 Steps: Cast Whitemane Lion by paying {1}{W}.
@@ -28775,7 +28786,7 @@ Steps: At the beginning of your upkeep, Axis of Mortaility triggers.
 
 ## Combo 2816-3168-7070
 Cards: Monk Gyatso + Umbral Mantle + Urza's Incubator
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 380 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 370 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite storm count
 Start: Monk Gyatso (battlefield); Umbral Mantle (battlefield); Urza's Incubator (battlefield)
 Prerequisites: You control another nontoken creature.
@@ -28836,7 +28847,7 @@ Steps: Activate Altar of Dementia by sacrificing Sun Titan.
 
 ## Combo 2829-2866-3200-4986
 Cards: Teshar, Ancestor's Apostle + Scrap Trawler + Urza's Bauble + Arcbound Ravager
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 520 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 510 | Commander: legal
 Produces: Infinite card draw at the beginning of the next upkeep; Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count; Infinite draw triggers at the beginning of the next upkeep
 Start: Teshar, Ancestor's Apostle (battlefield); Scrap Trawler (graveyard); Urza's Bauble (hand); Arcbound Ravager (battlefield)
 Steps: Cast Urza's Bauble by paying its mana cost.
@@ -28944,7 +28955,7 @@ Steps: Activate Adarkar Valkyrie by tapping it, making it so the next time Sparr
 
 ## Combo 2866-3200-3698-4986
 Cards: Teshar, Ancestor's Apostle + Scrap Trawler + Urza's Bauble + Grinding Station
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 680 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 670 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite card draw at the beginning of the next upkeep; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count; Infinite draw triggers at the beginning of the next upkeep
 Start: Teshar, Ancestor's Apostle (battlefield); Scrap Trawler (graveyard); Urza's Bauble (hand); Grinding Station (battlefield)
 Steps: Cast Urza's Bauble by paying its mana cost.
@@ -30125,7 +30136,7 @@ Steps: Gain life.
 
 ## Combo 3002-5065
 Cards: Helm of Obedience + Rest in Peace
-Color identity: W | Bracket: 4+ (Ruthless) | Popularity: 4300 | Commander: legal | Mana needed: {1}
+Color identity: W | Bracket: 4+ (Ruthless) | Popularity: 4400 | Commander: legal | Mana needed: {1}
 Produces: Exile target opponent's library
 Start: Helm of Obedience (battlefield); Rest in Peace (battlefield)
 Steps: Activate Helm of Obedience by paying {1} and tapping it, causing target opponent to mill a card.
@@ -30535,7 +30546,7 @@ Steps: Activate Antler Skulkin by paying {2}, giving target white creature you c
 
 ## Combo 3169-3484-4374
 Cards: Aethergeode Miner + Decoction Module + Genesis Chamber
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 42 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 41 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB
 Start: Aethergeode Miner (battlefield); Decoction Module (battlefield); Genesis Chamber (battlefield)
 Prerequisites: Genesis Chamber is untapped.
@@ -30821,7 +30832,7 @@ Steps: Players cannot generate mana from activated abilities, making it nearly i
 
 ## Combo 3263-4325
 Cards: Stony Silence + Mycosynth Lattice
-Color identity: W | Bracket: 4+ (Ruthless) | Popularity: 320 | Commander: legal
+Color identity: W | Bracket: 4+ (Ruthless) | Popularity: 330 | Commander: legal
 Produces: Activated abilities can't be activated; Lock; Mass Land Denial
 Start: Stony Silence (battlefield); Mycosynth Lattice (battlefield)
 Steps: Mycosynth Lattice turns all permanents into artifacts.
@@ -30984,7 +30995,7 @@ Steps: Cast Walking Ballista by paying {1} due to The Immortal Sun, causing it t
 
 ## Combo 3375-4200-6626-6867
 Cards: Appa, Steadfast Guardian + The Immortal Sun + Icewind Stalwart + The Wind Crystal
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 24 | Commander: legal | Mana needed: {W}{W} plus commander tax if applicable
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal | Mana needed: {W}{W} plus commander tax if applicable
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Appa, Steadfast Guardian (hand); The Immortal Sun (battlefield); Icewind Stalwart (hand); The Wind Crystal (battlefield)
 Steps: Cast Appa either from your hand or from the command zone by paying {W}{W} plus commander tax, if applicable.
@@ -31172,7 +31183,7 @@ Notes: Note that if Herald of Eternal Dawn is removed from the battlefield, you 
 
 ## Combo 3473-7841
 Cards: Transcendence + Darksteel Angel
-Color identity: W | Bracket: 4+ (Ruthless) | Popularity: 83 | Commander: legal | Mana needed: {3}{W}{W}{W}
+Color identity: W | Bracket: 4+ (Ruthless) | Popularity: 84 | Commander: legal | Mana needed: {3}{W}{W}{W}
 Produces: Draw the game
 Start: Transcendence (hand); Darksteel Angel (battlefield)
 Prerequisites: Your life total is 20 or higher.
@@ -31193,7 +31204,7 @@ Steps: Activate Aethergeode Miner by paying {E}{E}, blinking it.
 
 ## Combo 3484-4374-5684
 Cards: Metastatic Evangel + Aethergeode Miner + Decoction Module
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 530 | Commander: legal
+Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 540 | Commander: legal
 Produces: Infinite proliferate; Infinite creature LTB; Infinite creature ETB
 Start: Metastatic Evangel (battlefield); Aethergeode Miner (battlefield); Decoction Module (battlefield)
 Prerequisites: You have at least {E}{E}.
@@ -31866,18 +31877,4 @@ Steps: Gain life.
   When the Servo enters, Hinterland Sanctifier triggers, causing you to gain life.
   Spider-Man triggers. Holding priority, activate Phyrexian Altar by sacrificing the Servo, adding {1}.
   Resolve the Spider-Man trigger, putting a +1/+1 counter on a creature you control.
-  Repeat from step 3.
-
-## Combo 3490-4050-6097-6996
-Cards: Animation Module + Phyrexian Altar + Hinterland Sanctifier + The Destined White Mage
-Color identity: W | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}
-Produces: Infinite +1/+1 counters on creatures you control; Infinite lifegain; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Animation Module (battlefield); Phyrexian Altar (battlefield); Hinterland Sanctifier (battlefield); The Destined White Mage (battlefield)
-Prerequisites: You have a way to gain life.
-Steps: Gain life.
-  The Destined White Mage triggers, putting a +1/+1 counter on a creature you control.
-  Animation Module triggers, causing you to pay {1} to create a 1/1 Servo artifact creature token.
-  When the Servo enters, Hinterland Sanctifier triggers, causing you to gain life.
-  The Destined White Mage triggers. Holding priority, activate Phyrexian Altar by sacrificing the Servo, adding {1}.
-  Resolve the The Destined White Mage trigger, putting a +1/+1 counter on a creature you control 
   Repeat from step 3.

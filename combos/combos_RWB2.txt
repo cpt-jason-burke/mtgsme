@@ -1,3 +1,648 @@
+## Combo 1734-3991-4846
+Cards: Worldgorger Dragon + Fiend Hunter + Faceless Butcher
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
+Produces: Infinite mana lands you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite blinking of permanents
+Start: Worldgorger Dragon (hand, battlefield, exile: Exiled by the creature on the battlefield); Fiend Hunter (hand, battlefield, exile: Exiled by the creature on the battlefield); Faceless Butcher (hand, battlefield, exile: Exiled by the creature on the battlefield)
+Prerequisites: Faceless Butcher must be exiled by Fiend Hunter, and Worldgorger Dragon must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
+Steps: Cast Worldgorger Dragon for its mana cost.
+  When Worldgorger Dragon enters, it exiles Fiend Hunter until Worldgorger Dragon leaves the battlefield. Resolve any additional effects of Worldgorger Dragon's ETB.
+  When Fiend Hunter leaves the battlefield, Faceless Butcher is returned from exile to the battlefield.
+  When Faceless Butcher enters, it exiles Worldgorger Dragon until Faceless Butcher leaves the battlefield. Resolve any additional effects of Faceless Butcher's ETB.
+  When Worldgorger Dragon leaves the battlefield, Fiend Hunter is returned from exile to the battlefield.
+  When Fiend Hunter enters, it exiles Faceless Butcher until Fiend Hunter leaves the battlefield. Resolve any additional effects of Fiend Hunter's ETB.
+  When Faceless Butcher leaves the battlefield, Worldgorger Dragon is returned from exile to the battlefield.
+  Repeat from step 2.
+Notes: Due to differences in card templating between the various banisher effects (linked triggered abilities vs "until" clause), steps 3, 5, and 7 may return the creature to the battlefield during the resolution of the preceding step rather than creating a separate event. This should not affect the overall execution of the combo, only how many objects pass through the stack (and thus rounds of priority available per loop).
+
+## Combo 1734-3991-6473
+Cards: Fiend Hunter + Faceless Butcher + Mardu Siegebreaker
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
+Produces: Infinite creature ETB; Infinite creature LTB
+Start: Fiend Hunter (hand, battlefield, exile: Exiled by the creature on the battlefield); Faceless Butcher (hand, battlefield, exile: Exiled by the creature on the battlefield); Mardu Siegebreaker (hand, battlefield, exile: Exiled by the creature on the battlefield)
+Prerequisites: Mardu Siegebreaker must be exiled by Faceless Butcher, and Fiend Hunter must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
+Steps: Cast Fiend Hunter for its mana cost.
+  When Fiend Hunter enters, it exiles Faceless Butcher until Fiend Hunter leaves the battlefield. Resolve any additional effects of Fiend Hunter's ETB.
+  When Faceless Butcher leaves the battlefield, Mardu Siegebreaker is returned from exile to the battlefield.
+  When Mardu Siegebreaker enters, it exiles Fiend Hunter until Mardu Siegebreaker leaves the battlefield. Resolve any additional effects of Mardu Siegebreaker's ETB.
+  When Fiend Hunter leaves the battlefield, Faceless Butcher is returned from exile to the battlefield.
+  When Faceless Butcher enters, it exiles Mardu Siegebreaker until Faceless Butcher leaves the battlefield. Resolve any additional effects of Faceless Butcher's ETB.
+  When Mardu Siegebreaker leaves the battlefield, Fiend Hunter is returned from exile to the battlefield.
+  Repeat from step 2.
+Notes: Due to differences in card templating between the various banisher effects (linked triggered abilities vs "until" clause), steps 3, 5, and 7 may return the creature to the battlefield during the resolution of the preceding step rather than creating a separate event. This should not affect the overall execution of the combo, only how many objects pass through the stack (and thus rounds of priority available per loop).
+
+## Combo 1734-4344-6473
+Cards: Fiend Hunter + Lumbering Battlement + Mardu Siegebreaker
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
+Produces: Infinite creature ETB; Infinite creature LTB
+Start: Fiend Hunter (hand, battlefield, exile: Exiled by the creature on the battlefield); Lumbering Battlement (hand, battlefield, exile: Exiled by the creature on the battlefield); Mardu Siegebreaker (hand, battlefield, exile: Exiled by the creature on the battlefield)
+Prerequisites: Mardu Siegebreaker must be exiled by Lumbering Battlement, and Fiend Hunter must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
+Steps: Cast Fiend Hunter for its mana cost.
+  When Fiend Hunter enters, it exiles Lumbering Battlement until Fiend Hunter leaves the battlefield. Resolve any additional effects of Fiend Hunter's ETB.
+  When Lumbering Battlement leaves the battlefield, Mardu Siegebreaker is returned from exile to the battlefield.
+  When Mardu Siegebreaker enters, it exiles Fiend Hunter until Mardu Siegebreaker leaves the battlefield. Resolve any additional effects of Mardu Siegebreaker's ETB.
+  When Fiend Hunter leaves the battlefield, Lumbering Battlement is returned from exile to the battlefield.
+  When Lumbering Battlement enters, it exiles Mardu Siegebreaker until Lumbering Battlement leaves the battlefield. Resolve any additional effects of Lumbering Battlement's ETB.
+  When Mardu Siegebreaker leaves the battlefield, Fiend Hunter is returned from exile to the battlefield.
+  Repeat from step 2.
+Notes: Due to differences in card templating between the various banisher effects (linked triggered abilities vs "until" clause), steps 3, 5, and 7 may return the creature to the battlefield during the resolution of the preceding step rather than creating a separate event. This should not affect the overall execution of the combo, only how many objects pass through the stack (and thus rounds of priority available per loop).
+
+## Combo 1734-4681-6495
+Cards: Evereth, Viceroy of Plunder + Fiend Hunter + Karmic Guide
+Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 25 | Commander: legal | Mana needed: {1}{W}{W}
+Produces: Infinite damage; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Evereth, Viceroy of Plunder (battlefield); Fiend Hunter (hand); Karmic Guide (battlefield)
+Steps: Cast Fiend Hunter by paying its mana cost.
+  When Fiend Hunter enters, its first ability triggers, exiling Karmic Guide.
+  Activate Evereth by sacrificing Fiend Hunter.
+  When Fiend Hunter dies, its second ability triggers, returning Karmic Guide from exile to the battlefield.
+  When Karmic Guide enters, it triggers, returning Fiend Hunter from your graveyard to the battlefield.
+  When Fiend Hunter enters, its first ability triggers, exiling Karmic Guide.
+  Resolve the Evereth ability.
+  Repeat from step 3.
+Notes: If you have a way to kill Evereth and {1}{B/R} available, you can do so after putting a significant amount of +1/+1 counters on it to deal damage to each opponent using its second ability.
+
+## Combo 1734-4846-6473
+Cards: Worldgorger Dragon + Fiend Hunter + Mardu Siegebreaker
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
+Produces: Infinite mana lands you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite blinking of permanents
+Start: Worldgorger Dragon (hand, battlefield, exile: Exiled by the creature on the battlefield); Fiend Hunter (hand, battlefield, exile: Exiled by the creature on the battlefield); Mardu Siegebreaker (hand, battlefield, exile: Exiled by the creature on the battlefield)
+Prerequisites: Mardu Siegebreaker must be exiled by Fiend Hunter, and Worldgorger Dragon must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
+Steps: Cast Worldgorger Dragon for its mana cost.
+  When Worldgorger Dragon enters, it exiles Fiend Hunter until Worldgorger Dragon leaves the battlefield. Resolve any additional effects of Worldgorger Dragon's ETB.
+  When Fiend Hunter leaves the battlefield, Mardu Siegebreaker is returned from exile to the battlefield.
+  When Mardu Siegebreaker enters, it exiles Worldgorger Dragon until Mardu Siegebreaker leaves the battlefield. Resolve any additional effects of Mardu Siegebreaker's ETB.
+  When Worldgorger Dragon leaves the battlefield, Fiend Hunter is returned from exile to the battlefield.
+  When Fiend Hunter enters, it exiles Mardu Siegebreaker until Fiend Hunter leaves the battlefield. Resolve any additional effects of Fiend Hunter's ETB.
+  When Mardu Siegebreaker leaves the battlefield, Worldgorger Dragon is returned from exile to the battlefield.
+  Repeat from step 2.
+Notes: Due to differences in card templating between the various banisher effects (linked triggered abilities vs "until" clause), steps 3, 5, and 7 may return the creature to the battlefield during the resolution of the preceding step rather than creating a separate event. This should not affect the overall execution of the combo, only how many objects pass through the stack (and thus rounds of priority available per loop).
+
+## Combo 1734-5147-6132
+Cards: Goblin Bombardment + Fiend Hunter + Metamorphosis Fanatic
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal | Mana needed: {1}{W}{W}
+Produces: Infinite damage; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Goblin Bombardment (battlefield); Fiend Hunter (hand); Metamorphosis Fanatic (battlefield)
+Steps: Cast Fiend Hunter by paying its mana cost.
+  When Fiend Hunter enters, its first ability triggers, exiling Metamorphosis Fanatic.
+  Activate Goblin Bombardment by sacrificing Fiend Hunter.
+  When Fiend Hunter dies, its second ability triggers, returning Metamorphosis Fanatic from exile to the battlefield.
+  When Metamorphosis Fanatic enters, it triggers, returning Fiend Hunter from your graveyard to the battlefield.
+  When Fiend Hunter enters, its first ability triggers, exiling Metamorphosis Fanatic.
+  Resolve the Goblin Bombardment ability.
+  Repeat from step 3.
+
+## Combo 1734-5231-6132
+Cards: Thermopod + Fiend Hunter + Metamorphosis Fanatic
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal | Mana needed: {1}{W}{W}
+Produces: Infinite red mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Thermopod (battlefield); Fiend Hunter (hand); Metamorphosis Fanatic (battlefield)
+Steps: Cast Fiend Hunter by paying its mana cost.
+  When Fiend Hunter enters, its first ability triggers, exiling Metamorphosis Fanatic.
+  Activate Thermopod by sacrificing Fiend Hunter.
+  When Fiend Hunter dies, its second ability triggers, returning Metamorphosis Fanatic from exile to the battlefield.
+  When Metamorphosis Fanatic enters, it triggers, returning Fiend Hunter from your graveyard to the battlefield.
+  When Fiend Hunter enters, its first ability triggers, exiling Metamorphosis Fanatic.
+  Repeat from step 3.
+
+## Combo 1734-5887-6473
+Cards: Fiend Hunter + Werefox Bodyguard + Mardu Siegebreaker
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
+Produces: Infinite creature ETB; Infinite creature LTB
+Start: Fiend Hunter (hand, battlefield, exile: Exiled by the creature on the battlefield); Werefox Bodyguard (hand, battlefield, exile: Exiled by the creature on the battlefield); Mardu Siegebreaker (hand, battlefield, exile: Exiled by the creature on the battlefield)
+Prerequisites: Mardu Siegebreaker must be exiled by Werefox Bodyguard, and Fiend Hunter must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
+Steps: Cast Fiend Hunter for its mana cost.
+  When Fiend Hunter enters, it exiles Werefox Bodyguard until Fiend Hunter leaves the battlefield. Resolve any additional effects of Fiend Hunter's ETB.
+  When Werefox Bodyguard leaves the battlefield, Mardu Siegebreaker is returned from exile to the battlefield.
+  When Mardu Siegebreaker enters, it exiles Fiend Hunter until Mardu Siegebreaker leaves the battlefield. Resolve any additional effects of Mardu Siegebreaker's ETB.
+  When Fiend Hunter leaves the battlefield, Werefox Bodyguard is returned from exile to the battlefield.
+  When Werefox Bodyguard enters, it exiles Mardu Siegebreaker until Werefox Bodyguard leaves the battlefield. Resolve any additional effects of Werefox Bodyguard's ETB.
+  When Mardu Siegebreaker leaves the battlefield, Fiend Hunter is returned from exile to the battlefield.
+  Repeat from step 2.
+Notes: Due to differences in card templating between the various banisher effects (linked triggered abilities vs "until" clause), steps 3, 5, and 7 may return the creature to the battlefield during the resolution of the preceding step rather than creating a separate event. This should not affect the overall execution of the combo, only how many objects pass through the stack (and thus rounds of priority available per loop).
+
+## Combo 1734-5987-6495
+Cards: Evereth, Viceroy of Plunder + Fiend Hunter + Angel of Indemnity
+Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 2 | Commander: legal | Mana needed: {1}{W}{W}
+Produces: Infinite damage; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Evereth, Viceroy of Plunder (battlefield); Fiend Hunter (hand); Angel of Indemnity (battlefield)
+Steps: Cast Fiend Hunter by paying its mana cost.
+  When Fiend Hunter enters, its first ability triggers, exiling Angel of Indemnity.
+  Activate Evereth by sacrificing Fiend Hunter.
+  When Fiend Hunter dies, its second ability triggers, returning Angel of Indemnity from exile to the battlefield.
+  When Angel of Indemnity enters, it triggers, returning Fiend Hunter from your graveyard to the battlefield.
+  When Fiend Hunter enters, its first ability triggers, exiling Angel of Indemnity.
+  Resolve the Evereth ability.
+  Repeat from step 3.
+Notes: If you have a way to kill Evereth and {1}{B/R} available, you can do so after putting a significant amount of +1/+1 counters on it to deal damage to each opponent using its second ability.
+
+## Combo 1734-6132-6495
+Cards: Evereth, Viceroy of Plunder + Fiend Hunter + Metamorphosis Fanatic
+Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 4 | Commander: legal | Mana needed: {1}{W}{W}
+Produces: Infinite damage; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Evereth, Viceroy of Plunder (battlefield); Fiend Hunter (hand); Metamorphosis Fanatic (battlefield)
+Steps: Cast Fiend Hunter by paying its mana cost.
+  When Fiend Hunter enters, its first ability triggers, exiling Metamorphosis Fanatic.
+  Activate Evereth by sacrificing Fiend Hunter.
+  When Fiend Hunter dies, its second ability triggers, returning Metamorphosis Fanatic from exile to the battlefield.
+  When Metamorphosis Fanatic enters, it triggers, returning Fiend Hunter from your graveyard to the battlefield.
+  When Fiend Hunter enters, its first ability triggers, exiling Metamorphosis Fanatic.
+  Resolve the Evereth ability.
+  Repeat from step 3.
+Notes: If you have a way to kill Evereth and {1}{B/R} available, you can do so after putting a significant amount of +1/+1 counters on it to deal damage to each opponent using its second ability.
+
+## Combo 1734-6473-6966
+Cards: Fiend Hunter + Mardu Siegebreaker + All-Fates Stalker
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
+Produces: Infinite creature ETB; Infinite creature LTB
+Start: Fiend Hunter (hand, battlefield, exile: Exiled by the creature on the battlefield); Mardu Siegebreaker (hand, battlefield, exile: Exiled by the creature on the battlefield); All-Fates Stalker (hand, battlefield, exile: Exiled by the creature on the battlefield)
+Prerequisites: All-Fates Stalker must be exiled by Mardu Siegebreaker, and Fiend Hunter must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
+Steps: Cast Fiend Hunter for its mana cost.
+  When Fiend Hunter enters, it exiles Mardu Siegebreaker until Fiend Hunter leaves the battlefield. Resolve any additional effects of Fiend Hunter's ETB.
+  When Mardu Siegebreaker leaves the battlefield, All-Fates Stalker is returned from exile to the battlefield.
+  When All-Fates Stalker enters, it exiles Fiend Hunter until All-Fates Stalker leaves the battlefield. Resolve any additional effects of All-Fates Stalker's ETB.
+  When Fiend Hunter leaves the battlefield, Mardu Siegebreaker is returned from exile to the battlefield.
+  When Mardu Siegebreaker enters, it exiles All-Fates Stalker until Mardu Siegebreaker leaves the battlefield. Resolve any additional effects of Mardu Siegebreaker's ETB.
+  When All-Fates Stalker leaves the battlefield, Fiend Hunter is returned from exile to the battlefield.
+  Repeat from step 2.
+Notes: Due to differences in card templating between the various banisher effects (linked triggered abilities vs "until" clause), steps 3, 5, and 7 may return the creature to the battlefield during the resolution of the preceding step rather than creating a separate event. This should not affect the overall execution of the combo, only how many objects pass through the stack (and thus rounds of priority available per loop).
+
+## Combo 1736-2034-5003
+Cards: Nim Deathmantle + Ashnod's Altar + Ponyback Brigade
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal | Mana needed: {2}
+Produces: Infinite colored mana; Infinite creature tokens; Infinite colorless mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
+Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Ponyback Brigade (battlefield)
+Steps: Activate Ashnod's Altar by sacrificing Ponyback Brigade, adding {C}{C}.
+  Ponyback Brigade dies, triggering Nim Deathmantle, causing you to pay {4} to return Ponyback Brigade from your graveyard to the battlefield, and attach Nim Deathmantle to it.
+  Ponyback Brigade enters the battlefield, creating three 1/1 Goblin creature tokens.
+  Activate Ashnod's Altar by sacrificing a Goblin, adding {C}{C}.
+  Repeat.
+
+## Combo 1736-4050-5003
+Cards: Nim Deathmantle + Phyrexian Altar + Ponyback Brigade
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {3}
+Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
+Start: Nim Deathmantle (battlefield); Phyrexian Altar (battlefield); Ponyback Brigade (battlefield)
+Steps: Activate Phyrexian Altar by sacrificing Ponyback Brigade, adding {1}.
+  Ponyback Brigade dies, triggering Nim Deathmantle, causing you to pay {4} to return Ponyback Brigade from your graveyard to the battlefield, and attach Nim Deathmantle to it.
+  Ponyback Brigade enters the battlefield, creating three 1/1 Goblin creature tokens.
+  Activate Phyrexian Altar three times by sacrificing the Goblins, adding {3}.
+  Repeat.
+
+## Combo 1736-5003-5231
+Cards: Nim Deathmantle + Thermopod + Ponyback Brigade
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {3}
+Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
+Start: Nim Deathmantle (battlefield); Thermopod (battlefield); Ponyback Brigade (battlefield)
+Steps: Activate Thermopod's second ability by sacrificing Ponyback Brigade, adding {R}.
+  Ponyback Brigade dies, triggering Nim Deathmantle, causing you to pay {4} to return Ponyback Brigade from your graveyard to the battlefield, and attach Nim Deathmantle to it.
+  Ponyback Brigade enters the battlefield, creating three 1/1 Goblin creature tokens.
+  Activate Thermopod three times by sacrificing the Goblins, adding {R}{R}{R}.
+  Repeat.
+
+## Combo 1742-2035-2279
+Cards: Gollum, Patient Plotter + Skirge Familiar + Quintorius, Field Historian
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
+Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite self-discard triggers
+Start: Gollum, Patient Plotter (hand); Skirge Familiar (battlefield); Quintorius, Field Historian (battlefield)
+Prerequisites: You control an additional creature.
+Steps: Activate Skirge Familiar by discarding Gollum, adding {B}.
+  Activate Gollum by paying {B} and sacrificing a creature, returning Gollum from your graveyard to your hand.
+  Quintorius triggers, creating a creature token.
+  Repeat.
+
+## Combo 1742-2035-7396
+Cards: Gollum, Patient Plotter + Skirge Familiar + Quintorius, History Chaser
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite self-discard triggers
+Start: Gollum, Patient Plotter (hand); Skirge Familiar (battlefield); Quintorius, History Chaser (battlefield)
+Prerequisites: You control an additional creature.
+Steps: Activate Skirge Familiar by discarding Gollum, adding {B}.
+  Activate Gollum by paying {B} and sacrificing a creature, returning Gollum from your graveyard to your hand.
+  Quintorius, History Chaser triggers, creating a creature token.
+  Repeat.
+
+## Combo 1742-2793-3743-4094-5089
+Cards: Osgir, the Reconstructor + Karn, the Great Creator + Ugin's Nexus + Skirge Familiar + Kaya, Geist Hunter
+Color identity: RWB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {5} available, with an additional {5} every fourth turn
+Produces: Infinite turns; Lock
+Start: Osgir, the Reconstructor (battlefield); Karn, the Great Creator (battlefield); Ugin's Nexus (graveyard); Skirge Familiar (battlefield); Kaya, Geist Hunter (battlefield)
+Prerequisites: Kaya has at least two loyalty counters on it.
+Steps: Activate Kaya's second loyalty ability by removing two loyalty counters from it, causing you to double any tokens you create this turn.
+  Activate Osgir by paying {5}, tapping it and exiling Ugin's Nexus from your graveyard, creating four token copies of Ugin's Nexus.
+  Put three of the Ugin's Nexus tokens into exile due to the legend rule and their replacement effects, causing you to take three extra turns after this one.
+  Activate Karn's first loyalty ability by putting a loyalty counter on it, choosing to do nothing.
+  Move to your next extra turn.
+  Activate Kaya's first loyalty ability by putting a loyalty counter on it, giving creatures you control deathtouch until end of turn and putting a +1/+1 counter on a creature token you control.
+  Repeat from step 4 one additional time.
+  Activate Karn's second loyalty ability by removing two loyalty counters from it, returning Ugin's Nexus from exile to your hand.
+  Activate Skirge Familiar by discarding Ugin's Nexus.
+  Move to your last extra turn.
+  Repeat.
+
+## Combo 1742-2793-3743-4365-5089
+Cards: Osgir, the Reconstructor + Karn, the Great Creator + Ugin's Nexus + Skirge Familiar + Mondrak, Glory Dominus
+Color identity: RWB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {5} available, with an additional {5} every fourth turn
+Produces: Infinite turns; Lock
+Start: Osgir, the Reconstructor (battlefield); Karn, the Great Creator (battlefield); Ugin's Nexus (graveyard); Skirge Familiar (battlefield); Mondrak, Glory Dominus (battlefield)
+Steps: Activate Osgir by paying {5}, tapping it and exiling Ugin's Nexus from your graveyard, creating four token copies of Ugin's Nexus.
+  Put three of the Ugin's Nexus tokens into exile due to the legend rule and their replacement effects, causing you to take three extra turns after this one.
+  Activate Karn's first loyalty ability by putting a loyalty counter on it, choosing to do nothing.
+  Move to your next extra turn.
+  Repeat from step 3 one additional time.
+  Activate Karn's second loyalty ability by removing two loyalty counters from it, returning Ugin's Nexus from exile to your hand.
+  Activate Skirge Familiar by discarding Ugin's Nexus.
+  Move to your last extra turn.
+  Repeat.
+
+## Combo 1742-2793-3743-5089-6441
+Cards: Osgir, the Reconstructor + Karn, the Great Creator + Ugin's Nexus + Skirge Familiar + Elspeth, Storm Slayer
+Color identity: RWB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {5} available, with an additional {5} every fourth turn
+Produces: Infinite turns; Lock
+Start: Osgir, the Reconstructor (battlefield); Karn, the Great Creator (battlefield); Ugin's Nexus (graveyard); Skirge Familiar (battlefield); Elspeth, Storm Slayer (battlefield)
+Steps: Activate Osgir by paying {5}, tapping it and exiling Ugin's Nexus from your graveyard, creating four token copies of Ugin's Nexus.
+  Put three of the Ugin's Nexus tokens into exile due to the legend rule and their replacement effects, causing you to take three extra turns after this one.
+  Activate Karn's first loyalty ability by putting a loyalty counter on it, choosing to do nothing.
+  Move to your next extra turn.
+  Repeat from step 3 one additional time.
+  Activate Karn's second loyalty ability by removing two loyalty counters from it, returning Ugin's Nexus from exile to your hand.
+  Activate Skirge Familiar by discarding Ugin's Nexus.
+  Move to your last extra turn.
+  Repeat.
+
+## Combo 1742-2793-3743-5089-6753
+Cards: Osgir, the Reconstructor + Karn, the Great Creator + Ugin's Nexus + Skirge Familiar + Exalted Sunborn
+Color identity: RWB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {5} available, with an additional {5} every fourth turn
+Produces: Infinite turns; Lock
+Start: Osgir, the Reconstructor (battlefield); Karn, the Great Creator (battlefield); Ugin's Nexus (graveyard); Skirge Familiar (battlefield); Exalted Sunborn (battlefield)
+Steps: Activate Osgir by paying {5}, tapping it and exiling Ugin's Nexus from your graveyard, creating four token copies of Ugin's Nexus.
+  Put three of the Ugin's Nexus tokens into exile due to the legend rule and their replacement effects, causing you to take three extra turns after this one.
+  Activate Karn's first loyalty ability by putting a loyalty counter on it, choosing to do nothing.
+  Move to your next extra turn.
+  Repeat from step 3 one additional time.
+  Activate Karn's second loyalty ability by removing two loyalty counters from it, returning Ugin's Nexus from exile to your hand.
+  Activate Skirge Familiar by discarding Ugin's Nexus.
+  Move to your last extra turn.
+  Repeat.
+
+## Combo 1746-5147-6972
+Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Goblin Bombardment + Accomplished Automaton
+Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite damage; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Goblin Bombardment (battlefield); Accomplished Automaton (battlefield: without a -1/-1 counter on it)
+Steps: Activate Goblin Bombardment by sacrificing Accomplished Automaton.
+  When Accomplished Automaton dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
+  When Accomplished Automaton enters, its fabricate ability triggers, putting a +1/+1 counter on it.
+  Resolve the Goblin Bombardment ability.
+  Repeat.
+
+## Combo 1746-5231-6972
+Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Thermopod + Accomplished Automaton
+Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite red mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Thermopod (battlefield); Accomplished Automaton (battlefield: without a -1/-1 counter on it)
+Steps: Activate Thermopod by sacrificing Accomplished Automaton.
+  When Accomplished Automaton dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
+  When Accomplished Automaton enters, its fabricate ability triggers, putting a +1/+1 counter on it.
+  Repeat.
+
+## Combo 1746-6495-6972
+Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Evereth, Viceroy of Plunder + Accomplished Automaton
+Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite damage; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Evereth, Viceroy of Plunder (battlefield); Accomplished Automaton (battlefield: without a -1/-1 counter on it)
+Steps: Activate Evereth by sacrificing Accomplished Automaton.
+  When Accomplished Automaton dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
+  When Accomplished Automaton enters, its fabricate ability triggers, putting a +1/+1 counter on it.
+  Resolve the Evereth ability.
+  Repeat.
+Notes: If you have a way to kill Evereth and {1}{B/R} available, you can do so after putting a significant amount of +1/+1 counters on it to deal damage to each opponent using its second ability.
+
+## Combo 1750-2099-2793-5261-5740
+Cards: Layla Hassan + Ugin's Nexus + Isochron Scepter + Pull from Eternity + Sarcatog
+Color identity: RWB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {7} each extra turn
+Produces: Infinite turns; Lock
+Start: Layla Hassan (battlefield); Ugin's Nexus (battlefield); Isochron Scepter (battlefield); Pull from Eternity (exile: exiled by Isochron Scepter); Sarcatog (battlefield)
+Prerequisites: You control at least one Assassin that cannot be blocked by an opponent.
+Steps: Activate Sarcatog's second ability by sacrificing Ugin's Nexus, giving it +1/+1 until end of turn.
+  When Ugin's Nexus is sacrificed, it is exiled instead of being put into your graveyard, causing you to take an extra turn after this one.
+  Move to your next turn.
+  Activate Isochron Scepter by paying {2} and tapping it, casting a copy of Pull from Eternity without paying its mana cost.
+  Resolve Pull from Eternity, putting Ugin's Nexus from exile into your graveyard.
+  Deal combat damage to an opponent using an Assassin, triggering Layla Hassan, returning Ugin's Nexus from your graveyard to your hand.
+  Cast Ugin's Nexus by paying {5}.
+  Repeat.
+
+## Combo 1775-2968-6831
+Cards: Toralf, God of Fury // Toralf's Hammer + Ajani's Presence + Neriv, Heart of the Storm
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {4}{R}{R}{W}{W}
+Produces: Infinite damage to one opponent
+Start: Toralf, God of Fury // Toralf's Hammer (hand); Ajani's Presence (hand); Neriv, Heart of the Storm (battlefield)
+Prerequisites: An opponent controls two or more creatures that can be targeted by spells and abilities you control.
+  You have a way to deal noncombat damage to one of the indestructible creatures such that the excess damage doubled will deal excess damage to the second indestructible creature.
+Steps: Cast Ajani's Presence by paying {2}{W}{W} total, giving two creatures an opponent controls indestructible until end of turn.
+  Cast Toralf by paying {2}{R}{R}.
+  Deal noncombat damage to one of the indestructible creatures.
+  Toralf triggers, dealing an amount of damage over the excess damage to the second indestructible creature due to Neriv.
+  Toralf triggers, dealing an amount of damage over the excess damage to the first indestructible creature due to Neriv.
+  Repeat from step 3 an arbitrarily large number of times.
+  Resolve a Toralf trigger, dealing infinite damage to any target.
+Notes: An example of the pre-requisite: If you give two creatures an opponent controls with toughness 2 and 3 indestructible, you would need to start the loop by dealing 4 noncombat damage to the creature with toughness equal to 2. This will deal 2 excess damage, which will be amplified to 4, thus dealing excess damage to the second creature and continuing the loop. It is recommended to start by giving the two smallest creatures possible indestructible and to target the smaller of the two creatures first.
+
+## Combo 1775-5427-6488
+Cards: Toralf, God of Fury // Toralf's Hammer + Deathless Angel + Tor Wauki the Younger
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {W}{W}{W}{W}
+Produces: Infinite damage to one opponent
+Start: Toralf, God of Fury // Toralf's Hammer (battlefield); Deathless Angel (battlefield); Tor Wauki the Younger (battlefield)
+Prerequisites: An opponent controls two or more creatures that can be targeted by spells and abilities you control.
+  You have a way to deal noncombat damage to one of the indestructible creatures such that the excess damage doubled will deal excess damage to the second indestructible creature.
+Steps: Activate Deathless Angel twice by paying {W}{W}{W}{W}, giving two creatures an opponent controls indestructible until end of turn.
+  Deal noncombat damage to one of the indestructible creatures, dealing an increased amount of damage instead due to Tor Wauki the Younger.
+  Toralf triggers, dealing an amount of damage over the excess damage to the second indestructible creature due to Tor Wauki the Younger.
+  Toralf triggers, dealing an amount of damage over the excess damage to the first indestructible creature due to Tor Wauki the Younger.
+  Repeat from step 3 an arbitrarily large number of times.
+  Resolve a Toralf trigger, dealing infinite damage to any target.
+Notes: An example of the pre-requisite: If you give two creatures an opponent controls with toughness 2 and 3 indestructible, you would need to start the loop by dealing 4 noncombat damage to the creature with toughness equal to 2. This will deal 2 excess damage, which will be amplified to 4, thus dealing excess damage to the second creature and continuing the loop. It is recommended to start by giving the two smallest creatures possible indestructible and to target the smaller of the two creatures first.
+
+## Combo 1775-6488-6831
+Cards: Toralf, God of Fury // Toralf's Hammer + Deathless Angel + Neriv, Heart of the Storm
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{R}{R}{W}{W}{W}{W}
+Produces: Infinite damage to one opponent
+Start: Toralf, God of Fury // Toralf's Hammer (hand); Deathless Angel (battlefield); Neriv, Heart of the Storm (battlefield)
+Prerequisites: An opponent controls two or more creatures that can be targeted by spells and abilities you control.
+  You have a way to deal noncombat damage to one of the indestructible creatures such that the excess damage doubled will deal excess damage to the second indestructible creature.
+Steps: Activate Deathless Angel twice by paying {W}{W}{W}{W}, giving two creatures an opponent controls indestructible until end of turn.
+  Cast Toralf by paying {2}{R}{R}.
+  Deal noncombat damage to one of the indestructible creatures.
+  Toralf triggers, dealing double the excess damage to the second indestructible creature due to Neriv.
+  Toralf triggers, dealing double the excess damage to the first indestructible creature due to Neriv.
+  Repeat from step 3 an arbitrarily large number of times.
+  Resolve a Toralf trigger, dealing infinite damage to any target.
+Notes: An example of the pre-requisite: If you give two creatures an opponent controls with toughness 2 and 3 indestructible, you would need to start the loop by dealing 4 noncombat damage to the creature with toughness equal to 2. This will deal 2 excess damage, which will be amplified to 4, thus dealing excess damage to the second creature and continuing the loop. It is recommended to start by giving the two smallest creatures possible indestructible and to target the smaller of the two creatures first.
+
+## Combo 1778-2099-4053-6989
+Cards: Leonardo, Sewer Samurai + Solemnity + Memnite + Sarcatog
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Leonardo, Sewer Samurai (battlefield); Solemnity (battlefield); Memnite (battlefield); Sarcatog (battlefield)
+Steps: Activate Sarcatog by sacrificing Memnite.
+  Cast Memnite from your graveyard by paying {0}. It will not enter with a finality counter on it due to Solemnity.
+  Repeat.
+
+## Combo 1778-4053-6495-6989
+Cards: Leonardo, Sewer Samurai + Solemnity + Evereth, Viceroy of Plunder + Memnite
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite damage; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count; Infinite artifact ETB; Infinite artifact LTB
+Start: Leonardo, Sewer Samurai (battlefield); Solemnity (battlefield); Evereth, Viceroy of Plunder (battlefield); Memnite (battlefield)
+Steps: Activate Evereth by sacrificing Memnite.
+  Cast Memnite from your graveyard by paying {0}. It will not enter with a finality counter on it due to Solemnity.
+  Repeat.
+Notes: If you have a way to kill Evereth and {1}{B/R} available, you can do so after putting a significant amount of +1/+1 counters on it to deal damage to each opponent using its second ability.
+
+## Combo 1778-5006-5147-8170
+Cards: Lurrus of the Dream-Den + Flickering Hound + Goblin Bombardment + Memnite
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite damage; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Lurrus of the Dream-Den (battlefield); Flickering Hound (battlefield); Goblin Bombardment (battlefield); Memnite (hand, graveyard)
+Prerequisites: You haven't cast a spell using Lurrus this turn if Memnite is starting in your graveyard.
+Steps: Cast Memnite by paying {0}.
+  Flickering Hound triggers, blinking Lurrus.
+  Resolve the Memnite spell. Then, activate Goblin Bombardment by sacrificing Memnite, dealing 1 damage to any target
+  Repeat.
+
+## Combo 1778-5006-5231-8170
+Cards: Lurrus of the Dream-Den + Flickering Hound + Thermopod + Memnite
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite red mana; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Lurrus of the Dream-Den (battlefield); Flickering Hound (battlefield); Thermopod (battlefield); Memnite (hand, graveyard)
+Prerequisites: You haven't cast a spell using Lurrus this turn if Memnite is starting in your graveyard.
+Steps: Cast Memnite by paying {0}.
+  Flickering Hound triggers, blinking Lurrus.
+  Resolve the Memnite spell. Then, activate Thermopod by sacrificing Memnite, adding {R}
+  Repeat.
+
+## Combo 1778-5006-6495-8170
+Cards: Lurrus of the Dream-Den + Flickering Hound + Evereth, Viceroy of Plunder + Memnite
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite damage; Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Lurrus of the Dream-Den (battlefield); Flickering Hound (battlefield); Evereth, Viceroy of Plunder (battlefield); Memnite (hand, graveyard)
+Prerequisites: You haven't cast a spell using Lurrus this turn if Memnite is starting in your graveyard.
+Steps: Cast Memnite by paying {0}.
+  Flickering Hound triggers, blinking Lurrus.
+  Resolve the Memnite spell. Then, activate Evereth by sacrificing Memnite, putting a +1/+1 counter on Evereth
+  Repeat.
+Notes: If you have a way to kill Evereth and {1}{B/R} available, you can do so after putting a significant amount of +1/+1 counters on it to deal damage to each opponent using its second ability.
+
+## Combo 1778-5147-5220-5683
+Cards: Remembrance + Mortuary + Goblin Bombardment + Memnite
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
+Produces: Infinite damage; Infinite artifact ETB; Infinite artifact LTB; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Remembrance (battlefield); Mortuary (battlefield); Goblin Bombardment (battlefield); Memnite (battlefield)
+Steps: Activate Goblin Bombardment by sacrificing Memnite.
+  When Memnite dies, Mortuary and Remembrance trigger.
+  Resolve the Mortuary trigger, putting Memnite from your graveyard on top of your library.
+  Resolve the Remembrance trigger, searching your library for Memnite and putting it into your hand.
+  Resolve the Goblin Bombardment ability, dealing 1 damage to any target.
+  Cast Memnite by paying {0}.
+  Repeat.
+
+## Combo 1781-4853-4917-6429
+Cards: Jan Jansen, Chaos Crafter + Razorlash Transmogrant + Dross Scorpion + Thran Forge
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {2}
+Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Jan Jansen, Chaos Crafter (battlefield); Razorlash Transmogrant (battlefield); Dross Scorpion (battlefield); Thran Forge (battlefield)
+Prerequisites: An opponent controls four or more nonbasic lands.
+Steps: Activate Thran Forge by paying {2}, causing Jan Jansen to become an artifact until end of turn.
+  Activate Jan Jansen's first ability by tapping it and sacrificing Razorlash Transmogrant.
+  When Razorlash Transmogrant dies, Dross Scorpion triggers, untapping Jan Jansen.
+  Resolve the Jan Jansen ability, creating two Treasure tokens.
+  Activate the Treasures by tapping and sacrificing them, adding {B}{B}.
+  Activate Razorlash Transmogrant by paying {B}{B}, putting it from your graveyard onto the battlefield.
+  Repeat from step 2.
+
+## Combo 1789-2921-4875-5649
+Cards: Lathliss, Dragon Queen + Bladewing's Thrall + Bartolomé del Presidio + Conspiracy
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{B}{B}
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Lathliss, Dragon Queen (battlefield); Bladewing's Thrall (hand); Bartolomé del Presidio (battlefield); Conspiracy (battlefield)
+Prerequisites: Conspiracy on the battlefield with "Dragon" chosen.
+Steps: Cast Bladewing's Thrall by paying {2}{B}{B}.
+  When Bladewing's Thrall enters the battlefield, Lathliss triggers.
+  Holding priority, activate Bartolomé del Presidio by sacrificing Bladewing's Thrall.
+  Resolve the Lathliss trigger, creating a 5/5 Dragon creature token.
+  When the Dragon enters the battlefield, Bladewing's Thrall triggers, returning itself from your graveyard to the battlefield.
+  Repeat from step 2.
+
+## Combo 1789-4875-5649-5686
+Cards: Lathliss, Dragon Queen + Bladewing's Thrall + Shilgengar, Sire of Famine + Conspiracy
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{B}{B}
+Produces: Infinite creature tokens; Infinite artifact tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite Blood tokens
+Start: Lathliss, Dragon Queen (battlefield); Bladewing's Thrall (hand); Shilgengar, Sire of Famine (battlefield); Conspiracy (battlefield)
+Prerequisites: Conspiracy on the battlefield with "Dragon" chosen.
+Steps: Cast Bladewing's Thrall by paying {2}{B}{B}.
+  When Bladewing's Thrall enters the battlefield, Lathliss triggers.
+  Holding priority, activate Shilgengar by sacrificing Bladewing's Thrall.
+  Resolve the Lathliss trigger, creating a 5/5 Dragon creature token.
+  When the Dragon enters the battlefield, Bladewing's Thrall triggers, returning itself from your graveyard to the battlefield.
+  Repeat from step 2.
+
+## Combo 1793-2921-6249--5
+Cards: Olivia, Mobilized for War + Harvester of Souls + Bartolomé del Presidio
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite looting; Near-infinite +1/+1 counters on a creature; Near-infinite creature ETB; Infinite draw triggers; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers; Infinite self-discard triggers
+Requires: Persist Creature (battlefield)
+Start: Olivia, Mobilized for War (battlefield); Harvester of Souls (battlefield); Bartolomé del Presidio (battlefield)
+Prerequisites: The persist creature does not have a -1/-1 counter on it.
+Steps: Activate Bartolomé del Presidio by sacrificing the persist creature.
+  When the persist creature dies, it and Harvester of Souls trigger.
+  Resolve the Harvester of Souls trigger, causing you to draw a card.
+  Resolve the persist creature's trigger, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
+  When the persist creature enters the battlefield, Olivia triggers, putting a +1/+1 counter on the persist creature and causing you to discard a card.
+  Resolve the Bartolomé del Presidio ability.
+  Repeat.
+
+## Combo 1793-5686-6249--5
+Cards: Olivia, Mobilized for War + Shilgengar, Sire of Famine + Harvester of Souls
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
+Produces: Near-infinite artifact tokens; Infinite looting; Near-infinite creature ETB; Infinite draw triggers; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers; Near-infinite Blood tokens; Infinite self-discard triggers
+Requires: Persist Creature (battlefield)
+Start: Olivia, Mobilized for War (battlefield); Shilgengar, Sire of Famine (battlefield); Harvester of Souls (battlefield)
+Prerequisites: The persist creature does not have a -1/-1 counter on it.
+Steps: Activate Shilgengar by sacrificing the persist creature.
+  When the persist creature dies, it and Harvester of Souls trigger.
+  Resolve the Harvester of Souls trigger, causing you to draw a card.
+  Resolve the persist creature's trigger, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
+  When the persist creature enters the battlefield, Olivia triggers, putting a +1/+1 counter on the persist creature and causing you to discard a card.
+  Resolve the Shilgengar ability.
+  Repeat.
+
+## Combo 1799-1809-2579-2701-4050
+Cards: Grenzo, Dungeon Warden + The Cauldron of Eternity + Phyrexian Altar + Dark Ritual + Returned Pastcaller
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B}
+Produces: Infinite colored mana; Put a selection of creature cards from your library onto the battlefield; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite creature sacrifice triggers; Infinite storm count
+Start: Grenzo, Dungeon Warden (battlefield); The Cauldron of Eternity (battlefield); Phyrexian Altar (battlefield); Dark Ritual (hand); Returned Pastcaller (battlefield)
+Prerequisites: Grenzo has power 2 or greater.
+Steps: Cast Dark Ritual by paying {B}, adding {B}{B}{B}.
+  Activate Phyrexian Altar by sacrificing Returned Pastcaller, adding one mana of any color.
+  When Returned Pastcaller dies, The Cauldron of Eternity triggers, putting Returned Pastcaller from your graveyard onto the bottom of your library.
+  Activate Grenzo by paying {2}, putting Returned Pastcaller from the bottom of your library into your graveyard, and then putting it onto the battlefield.
+  When Returned Pastcaller enters the battlefield, it triggers, returning Dark Ritual from your graveyard to your hand.
+  Repeat.
+  Once you have infinite mana, you may activate Grenzo's ability any number of times.
+
+## Combo 1802-1873-5356
+Cards: Fiendlash + Barbed Servitor + Gideon's Sacrifice
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 220 | Commander: legal | Mana needed: {W}
+Produces: Infinite damage to one opponent; Infinite lifeloss
+Start: Fiendlash (battlefield: attached to Barbed Servitor); Barbed Servitor (battlefield); Gideon's Sacrifice (hand)
+Prerequisites: You have a way to deal damage to Barbed Servitor.
+Steps: Cast Gideon's Sacrifice by paying {W}, targeting Barbed Servitor
+  Deal damage to Barbed Servitor
+  Barbed Servitor and Fiendlash trigger.
+  Resolve the Barbed Servitor trigger, causing an opponent to lose life equal to the damage dealt to Barbed Servitor.
+  Resolve the Fiendlash trigger, targeting you, but dealing damage to Barbed Servitor instead due to Gideon's Sacrifice.
+  Repeat from step 3.
+
+## Combo 1802-5109-7839
+Cards: Smaug the Impenetrable + Volcano Hellion + Gideon's Sacrifice
+Color identity: RWB | Bracket: 2-3+ (Oddball) | Popularity: 10 | Commander: legal | Mana needed: {2}{R}{R}{W}
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
+Start: Smaug the Impenetrable (battlefield); Volcano Hellion (hand); Gideon's Sacrifice (hand)
+Steps: Cast Gideon's Sacrifice by paying {W}, targeting Smaug.
+  Cast Volcano Hellion by paying {2}{R}{R}.
+  When Volcano Hellion enters, it triggers, dealing an arbitrarily large amount of damage to Smaug
+  Smaug triggers, creating an amount of Treasure tokens equal to the damage it was dealt.
+
+## Combo 1806-2034-4590-4666
+Cards: Commander Liara Portyr + Eternal Scourge + Ashnod's Altar + Planar Void
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
+Produces: Infinite colorless mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
+Start: Commander Liara Portyr (battlefield); Eternal Scourge (battlefield); Ashnod's Altar (battlefield); Planar Void (battlefield)
+Prerequisites: You control at least two creatures that can attack this turn.
+  You have at least two opponents.
+Steps: Declare at least two creatures you control as attackers, attacking at least two opponent.
+  Liara triggers, causing all spells you cast from exile this turn to cost at least {2} less, and exiling at least two cards from the top of your library and allowing you to play them this turn.
+  Move to your post-combat main phase.
+  Activate Ashnod's Altar by sacrificing Eternal Scourge, adding {C}{C}.
+  Planar Void triggers, exiling Eternal Scourge from your graveyard.
+  Cast Eternal Scourge from exile by paying {1}.
+  Repeat from step 4.
+
+## Combo 1809-2034-4871-6476
+Cards: Afterlife from the Loam + Pitiless Plunderer + Returned Pastcaller + Ashnod's Altar
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite colored mana; Infinite colorless mana; Infinite Treasure tokens; Infinite recursion of creature cards in your graveyard; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count; Infinite magecraft triggers
+Start: Afterlife from the Loam (hand); Pitiless Plunderer (battlefield); Returned Pastcaller (graveyard); Ashnod's Altar (battlefield)
+Prerequisites: You have at least two opponents that each have a creature card that will enter the battlefield with greater than 0 toughness in their graveyard.
+Steps: Cast Afterlife from the Loam by paying at most {5}{B}{B}{B}, returning Returned Pastcaller and at least two other creatures from graveyards to the battlefield under your control.
+  When Returned Pastcaller enters the battlefield, it triggers, returning Afterlife from the Loam from your graveyard to your hand.
+  Activate Ashnod's Altar four times by sacrificing three of the creatures returned in step 1, adding six {C}.
+  When the creatures die, Pitiless Plunderer triggers four times, creating three Treasure tokens.
+  Activate the three Treasures by tapping and sacrificing them, adding {B}{B}{B}.
+  Repeat.
+
+## Combo 1809-2080-4050
+Cards: Rise of the Dark Realms + Phyrexian Altar + Returned Pastcaller
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {7}{B} at most
+Produces: Infinite colored mana; Return all creature cards from all graveyards to the battlefield under your control; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count; Infinite magecraft triggers
+Start: Rise of the Dark Realms (hand); Phyrexian Altar (battlefield); Returned Pastcaller (battlefield)
+Prerequisites: The number of nontoken creatures you control plus the number of creature cards in all graveyards is at least nine.
+Steps: Activate Phyrexian Altar twice by sacrificing Returned Pastcaller, adding {B}.
+  Repeat step 1 for each other nontoken creature you control.
+  Cast Rise of the Dark Realms by paying {7}{B}{B}, returning all creature cards from all graveyards to the battlefield under your control.
+  When Returned Pastcaller enters the battlefield, it triggers, returning Rise of the Dark Realms to your hand from your graveyard.
+  Repeat.
+
+## Combo 1809-2254-5626
+Cards: Songs of the Damned + Chthonian Nightmare + Returned Pastcaller
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B}
+Produces: Infinite black mana; Infinite energy counters; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count; Infinite magecraft triggers
+Start: Songs of the Damned (hand); Chthonian Nightmare (hand); Returned Pastcaller (battlefield)
+Prerequisites: You have at least five creature cards in your graveyard, and one of those creature cards has mana value zero.
+Steps: Cast Songs of the Damned by paying {B}, adding {B} for each creature card in your graveyard.
+  Cast Chthonian Nightmare by paying {1}{B}.
+  When Chthonian Nightmare enters the battlefield, it triggers, causing you to get {E}{E}{E}.
+  Activate Chthonian Nightmare by paying zero {E}, sacrificing Returned Pastcaller, and returning Chthonian Nightmare from the battlefield to your hand, returning a creature card from your graveyard to the battlefield.
+  Cast Chthonian Nightmare by paying {1}{B}.
+  When Chthonian Nightmare enters the battlefield, it triggers, causing you to get {E}{E}{E}.
+  Activate Chthonian Nightmare by paying an amount of {E} equal to Returned Pastcaller's mana value, sacrificing the creature you returned in step 4, and returning Chthonian Nightmare from the battlefield to your hand, returning Returned Pastcaller from your graveyard to the battlefield.
+  When Returned Pastcaller enters the battlefield, it triggers, returning Songs of the Damned from your graveyard to your hand.
+  Repeat.
+
+## Combo 1809-3047-4050
+Cards: Feign Death + Phyrexian Altar + Returned Pastcaller
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {B}
+Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite creature sacrifice triggers; Infinite storm count
+Start: Feign Death (hand); Phyrexian Altar (battlefield); Returned Pastcaller (battlefield)
+Steps: Cast Feign Death by paying {B}, targeting Returned Pastcaller.
+  Activate Phyrexian Altar by sacrificing Returned Pastcaller, adding {B}.
+  When Returned Pastcaller dies, it triggers, returning it from your graveyard to the battlefield.
+  When Returned Pastcaller enters the battlefield, it triggers, returning Feign Death from your graveyard to your hand.
+  Repeat.
+
+## Combo 1809-4050-4871-6476
+Cards: Afterlife from the Loam + Pitiless Plunderer + Returned Pastcaller + Phyrexian Altar
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite recursion of creature cards in your graveyard; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count; Infinite magecraft triggers
+Start: Afterlife from the Loam (hand); Pitiless Plunderer (battlefield); Returned Pastcaller (graveyard); Phyrexian Altar (battlefield)
+Prerequisites: You have at least three opponents that each have a creature card that will enter the battlefield with greater than 0 toughness in their graveyard.
+Steps: Cast Afterlife from the Loam by paying at most {5}{B}{B}{B}, returning Returned Pastcaller and at least three other creatures from graveyards to the battlefield under your control.
+  When Returned Pastcaller enters the battlefield, it triggers, returning Afterlife from the Loam from your graveyard to your hand.
+  Activate Phyrexian Altar four times by sacrificing four of the creatures returned in step 1, including Returned Pastcaller, adding {4}.
+  When the creatures die, Pitiless Plunderer triggers four times, creating four Treasure tokens.
+  Activate the four Treasures by tapping and sacrificing them, adding {1}{B}{B}{B}.
+  Repeat.
+
+## Combo 1809-4050-5117
+Cards: Undying Malice + Phyrexian Altar + Returned Pastcaller
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {B}
+Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite creature sacrifice triggers; Infinite storm count
+Start: Undying Malice (hand); Phyrexian Altar (battlefield); Returned Pastcaller (battlefield)
+Steps: Cast Undying Malice by paying {B}, targeting Returned Pastcaller.
+  Activate Phyrexian Altar by sacrificing Returned Pastcaller, adding {B}.
+  When Returned Pastcaller dies, it triggers, returning it from your graveyard to the battlefield.
+  When Returned Pastcaller enters the battlefield, it triggers, returning Undying Malice from your graveyard to your hand.
+  Repeat.
+
 ## Combo 1809-4871-5231-6476
 Cards: Afterlife from the Loam + Pitiless Plunderer + Returned Pastcaller + Thermopod
 Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -430,7 +1075,7 @@ Steps: Cast Acererak by paying {B}.
 
 ## Combo 1827-8194-8195
 Cards: Dack Fayden, Helping Hand + Venser, Fervent Forger + Vampiric Tutor
-Color identity: RWB | Bracket: 3+ (Powerful) | Popularity: 170 | Commander: legal | Mana needed: {4}{W}{W}{B}
+Color identity: RWB | Bracket: 3+ (Powerful) | Popularity: 180 | Commander: legal | Mana needed: {4}{W}{W}{B}
 Produces: Infinite creature tokens with haste; Infinite artifact tokens; Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Start: Dack Fayden, Helping Hand (hand); Venser, Fervent Forger (library); Vampiric Tutor (hand)
 Prerequisites: You have at least 3 life.
@@ -797,7 +1442,7 @@ Steps: Deal damage to Barbed Servitor
 
 ## Combo 1873-5356-6899
 Cards: Fiendlash + Barbed Servitor + With Great Power . . .
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 96 | Commander: legal
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 95 | Commander: legal
 Produces: Infinite damage to one opponent; Infinite lifeloss
 Start: Fiendlash (battlefield: attached to Barbed Servitor); Barbed Servitor (battlefield); With Great Power . . . (battlefield: attached to Barbed Servitor)
 Prerequisites: You have a way to deal damage to Barbed Servitor.
@@ -9447,7 +10092,7 @@ Steps: Declare Phyrexian Vindicator as an attacker.
 
 ## Combo 1981-5147-5468
 Cards: Darien, King of Kjeldor + Goblin Bombardment + Kambal, Profiteering Mayor
-Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 68 | Commander: legal
+Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 67 | Commander: legal
 Produces: Infinite lifeloss; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Darien, King of Kjeldor (battlefield); Goblin Bombardment (battlefield); Kambal, Profiteering Mayor (battlefield)
 Prerequisites: You control an additional creature.
@@ -10550,7 +11195,7 @@ Steps: Declare Squall and Fear of Missing Out as attackers.
 
 ## Combo 2034-6431--5
 Cards: Celes, Rune Knight + Ashnod's Altar
-Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 7500 | Commander: legal
+Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 7600 | Commander: legal
 Produces: Infinite colorless mana; Infinite +1/+1 counters on creatures you control; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield: without a -1/-1 counter on it)
 Start: Celes, Rune Knight (battlefield); Ashnod's Altar (battlefield)
@@ -15050,7 +15695,7 @@ Steps: Activate Viscera Seer by sacrificing the creature with Griffin Guide atta
 
 ## Combo 2292-6188-6591--85
 Cards: Squall, SeeD Mercenary + Fear of Missing Out + Viscera Seer
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 590 | Commander: legal
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 600 | Commander: legal
 Produces: Near-infinite combat damage; Near-infinite combat phases; Infinite rummaging; Infinite self-discard triggers; Near-infinite creature ETB; Infinite draw triggers; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Requires: Haste Enabler (battlefield)
 Start: Squall, SeeD Mercenary (battlefield); Fear of Missing Out (battlefield); Viscera Seer (battlefield)
@@ -15065,7 +15710,7 @@ Steps: Declare Squall and Fear of Missing Out as attackers.
 
 ## Combo 2292-6431--5
 Cards: Celes, Rune Knight + Viscera Seer
-Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 8900 | Commander: legal
+Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 9000 | Commander: legal
 Produces: Infinite +1/+1 counters on creatures you control; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Requires: Persist Creature (battlefield: without a -1/-1 counter on it)
 Start: Celes, Rune Knight (battlefield); Viscera Seer (battlefield)
@@ -17159,7 +17804,7 @@ Steps: Activate Mishra's Bauble by tapping and sacrificing it, looking at the to
 
 ## Combo 2484-2615-3587
 Cards: Tree of Perdition + Blasphemous Act + Boros Reckoner
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal
 Produces: Target opponent loses the game
 Start: Tree of Perdition (battlefield); Blasphemous Act (hand); Boros Reckoner (battlefield)
 Prerequisites: Tree of Perdition does not have summoning sickness.
@@ -17170,7 +17815,7 @@ Steps: Activate Tree of Perdition, exchanging target opponent's life total with 
 
 ## Combo 2484-2615-5016
 Cards: Tree of Perdition + Blasphemous Act + Spitemare
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 32 | Commander: legal
 Produces: Target opponent loses the game
 Start: Tree of Perdition (battlefield); Blasphemous Act (hand); Spitemare (battlefield)
 Prerequisites: Tree of Perdition does not have summoning sickness.
@@ -17181,7 +17826,7 @@ Steps: Activate Tree of Perdition, exchanging target opponent's life total with 
 
 ## Combo 2506-2721-2921
 Cards: Bloodline Necromancer + Molten Echoes + Bartolomé del Presidio
-Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 79 | Commander: legal | Mana needed: {4}{B}
+Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 80 | Commander: legal | Mana needed: {4}{B}
 Produces: Infinite creature tokens with haste; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Return some creature cards from your graveyard to the battlefield
 Start: Bloodline Necromancer (hand); Molten Echoes (battlefield: with "Vampire" or "Wizard" chosen); Bartolomé del Presidio (battlefield)
 Steps: Cast Bloodline Necromancer by paying {4}{B}.
@@ -18887,7 +19532,7 @@ Steps: Activate Tree of Perdition, exchanging target opponent's life total with 
 
 ## Combo 2615-3587-4150
 Cards: Tree of Perdition + Shivan Meteor + Boros Reckoner
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {3}{R}{R}
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {3}{R}{R}
 Produces: Target opponent loses the game
 Start: Tree of Perdition (battlefield); Shivan Meteor (hand); Boros Reckoner (battlefield)
 Prerequisites: Tree of Perdition does not have summoning sickness.
@@ -18907,7 +19552,7 @@ Steps: Activate Tree of Perdition, exchanging target opponent's life total with 
 
 ## Combo 2615-4150-5016
 Cards: Tree of Perdition + Shivan Meteor + Spitemare
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {3}{R}{R}
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {3}{R}{R}
 Produces: Target opponent loses the game
 Start: Tree of Perdition (battlefield); Shivan Meteor (hand); Spitemare (battlefield)
 Prerequisites: Tree of Perdition does not have summoning sickness.
@@ -20023,7 +20668,7 @@ Steps: Gain life.
 
 ## Combo 2815-3259-5549
 Cards: Vihaan, Goldwaker + Breath of Fury + Professional Face-Breaker
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 85 | Commander: legal
 Produces: Infinite combat phases; Infinite mana creatures you control can produce; Infinite combat damage; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite untap of creatures you control
 Start: Vihaan, Goldwaker (battlefield); Breath of Fury (battlefield: attached to another creature you control without summoning sickness ); Professional Face-Breaker (battlefield)
 Prerequisites: You control an additional creature that does not have summoning sickness, or you control a Treasure.
@@ -20095,7 +20740,7 @@ Steps: Activate Umbral Mantle's equip ability by paying {0}, attaching it to Gre
 
 ## Combo 2816-3809-4917-5184
 Cards: Jan Jansen, Chaos Crafter + Goldspan Dragon + Umbral Mantle + Xorn
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 98 | Commander: legal
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 97 | Commander: legal
 Produces: Infinite Treasure tokens; Infinite colored mana; Infinite creature tokens; Infinite mana creatures you control can produce; Infinite artifact tokens; Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite untap of creatures you control
 Start: Jan Jansen, Chaos Crafter (battlefield); Goldspan Dragon (battlefield); Umbral Mantle (battlefield: attached to Jan Jansen); Xorn (battlefield)
 Prerequisites: You control at least two other artifact creatures.
@@ -22292,7 +22937,7 @@ Steps: Activate Liliana's second ability by removing two loyalty counters from h
 
 ## Combo 3050-5256
 Cards: Kroxa and Kunoros + Altar of Dementia
-Color identity: RWB | Bracket: 4+ (Ruthless) | Popularity: 920 | Commander: legal | Mana needed: {3}{R}{W}{B} plus enough mana to pay for commander tax, if applicable
+Color identity: RWB | Bracket: 4+ (Ruthless) | Popularity: 930 | Commander: legal | Mana needed: {3}{R}{W}{B} plus enough mana to pay for commander tax, if applicable
 Produces: Infinite self-mill; Exile your library
 Start: Kroxa and Kunoros (hand, command zone); Altar of Dementia (battlefield)
 Steps: Cast Kroxa and Kunoros either from your hand or from the command zone by paying {3}{R}{W}{B} and commander tax, if applicable.
@@ -23773,7 +24418,7 @@ Notes: If you have a way to kill Evereth and {1}{B/R} available, you can do so a
 
 ## Combo 3305-4681-5147
 Cards: Body Launderer + Karmic Guide + Goblin Bombardment
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 290 | Commander: legal
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 280 | Commander: legal
 Produces: Near-infinite damage; Infinite looting; Infinite draw triggers; Infinite self-discard triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers
 Start: Body Launderer (battlefield); Karmic Guide (battlefield); Goblin Bombardment (battlefield)
 Steps: Activate Goblin Bombardment by sacrificing Karmic Guide.
@@ -26864,7 +27509,7 @@ Steps: Declare Altaïr as an attacker. Altaïr triggers, exiling Éomer from you
 
 ## Combo 3951-5703-5744-7122
 Cards: Altaïr Ibn-La'Ahad + Éomer, Marshal of Rohan + Roshan, Hidden Magister + Windcrag Siege
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 89 | Commander: legal
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 90 | Commander: legal
 Produces: Infinite combat phases; Infinite creature LTB; Infinite creature ETB; Infinite death triggers
 Start: Altaïr Ibn-La'Ahad (battlefield: without summoning sickness and cannot be blocked and killed by an opponent); Éomer, Marshal of Rohan (graveyard); Roshan, Hidden Magister (battlefield); Windcrag Siege (battlefield: with "Mardu" chosen)
 Steps: Declare Altaïr as an attacker, triggering its ability twice.
@@ -27115,7 +27760,7 @@ Steps: Activate Yahenni by sacrificing the creature with Griffin Guide attached.
 
 ## Combo 3967-6188-6591--85
 Cards: Squall, SeeD Mercenary + Fear of Missing Out + Yahenni, Undying Partisan
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 59 | Commander: legal
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal
 Produces: Near-infinite combat damage; Near-infinite combat phases; Infinite rummaging; Infinite self-discard triggers; Near-infinite creature ETB; Infinite draw triggers; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Requires: Haste Enabler (battlefield)
 Start: Squall, SeeD Mercenary (battlefield); Fear of Missing Out (battlefield); Yahenni, Undying Partisan (battlefield)
@@ -27584,7 +28229,7 @@ Steps: Cast Kobolds of Kher Keep by paying {0}.
 
 ## Combo 4050-4364-4681-6332
 Cards: Terra, Herald of Hope + Aurelia, the Warleader + Phyrexian Altar + Karmic Guide
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 710 | Commander: legal
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 720 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite self-mill; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Terra, Herald of Hope (battlefield); Aurelia, the Warleader (battlefield); Phyrexian Altar (battlefield); Karmic Guide (battlefield)
 Prerequisites: An opponent cannot block creatures you control.
@@ -27817,7 +28462,7 @@ Notes: If you have an enduring story, Bifur will trigger twice, and the other co
 
 ## Combo 4050-6972-8174
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Phyrexian Altar + Mabel, Valley Hero
-Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 5 | Commander: legal
+Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 6 | Commander: legal
 Produces: Infinite colored mana; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Phyrexian Altar (battlefield); Mabel, Valley Hero (battlefield: without a -1/-1 counter on it)
 Steps: Activate Phyrexian Altar by sacrificing Mabel.
@@ -27995,7 +28640,7 @@ Steps: Activate Fanatical Firebrand by tapping and sacrificing it.
 
 ## Combo 4079-8194-8195
 Cards: Dack Fayden, Helping Hand + Venser, Fervent Forger + Scheming Symmetry
-Color identity: RWB | Bracket: 2+ (Core) | Popularity: 62 | Commander: legal | Mana needed: {4}{W}{W}{B}
+Color identity: RWB | Bracket: 2+ (Core) | Popularity: 67 | Commander: legal | Mana needed: {4}{W}{W}{B}
 Produces: Infinite creature tokens with haste; Infinite artifact tokens; Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Start: Dack Fayden, Helping Hand (hand); Venser, Fervent Forger (library); Scheming Symmetry (hand)
 Steps: Cast Scheming Symmetry targeting yourself and an opponent by paying {B}, searching your library for Venser, shuffling your library, and putting that card on top. The opponent you targeted does the same for their own chosen card.
@@ -28465,7 +29110,7 @@ Steps: Activate Bloodthrone Vampire by sacrificing Mabel.
 
 ## Combo 4247-7435--5
 Cards: Bloodthrone Vampire + Hardened Academic
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 23 | Commander: legal
 Produces: Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Bloodthrone Vampire (battlefield); Hardened Academic (battlefield)
@@ -28940,7 +29585,7 @@ Steps: At the beginning of your combat phase, Terra's first ability triggers, ca
 
 ## Combo 4364-5686-7917
 Cards: Aurelia, the Warleader + Seluma, Light of Aysen + Shilgengar, Sire of Famine
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite mana creatures you control can produce; Infinite artifact tokens; Infinite Blood tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite untap of creatures you control
 Start: Aurelia, the Warleader (battlefield); Seluma, Light of Aysen (battlefield: without summoning sickness); Shilgengar, Sire of Famine (battlefield)
 Prerequisites: Aurelia hasn't attacked this turn.
@@ -30368,705 +31013,3 @@ Steps: Activate Krark-Clan Grunt by sacrificing Arcbound Bruiser.
   Resolve the persist trigger, returning Arcbound Bruiser from your graveyard to the battlefield. It will not have a -1/-1 counter on it due to its modular ability.
   Resolve the Krark-Clan Grunt ability.
   Repeat.
-
-## Combo 4779-6972-7154
-Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Krark-Clan Grunt + Arcbound Condor
-Color identity: RWB | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on certain creatures; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinitely powerful creature until end of turn
-Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Krark-Clan Grunt (battlefield); Arcbound Condor (battlefield)
-Steps: Activate Krark-Clan Grunt by sacrificing Arcbound Condor.
-  When Arcbound Condor dies, its modular ability and persist ability trigger.
-  Resolve the modular trigger, putting Arcbound Condor's +1/+1 counters on another artifact creature.
-  Resolve the persist trigger, returning Arcbound Condor from your graveyard to the battlefield. It will not have a -1/-1 counter on it due to its modular ability.
-  Resolve the Krark-Clan Grunt ability.
-  Repeat.
-
-## Combo 4779-6972-7155
-Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Krark-Clan Grunt + Arcbound Fiend
-Color identity: RWB | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on certain creatures; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinitely powerful creature until end of turn
-Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Krark-Clan Grunt (battlefield); Arcbound Fiend (battlefield)
-Steps: Activate Krark-Clan Grunt by sacrificing Arcbound Fiend.
-  When Arcbound Fiend dies, its modular ability and persist ability trigger.
-  Resolve the modular trigger, putting Arcbound Fiend's +1/+1 counters on another artifact creature.
-  Resolve the persist trigger, returning Arcbound Fiend from your graveyard to the battlefield. It will not have a -1/-1 counter on it due to its modular ability.
-  Resolve the Krark-Clan Grunt ability.
-  Repeat.
-
-## Combo 4779-6972-7156
-Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Krark-Clan Grunt + Arcbound Hybrid
-Color identity: RWB | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on certain creatures; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinitely powerful creature until end of turn
-Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Krark-Clan Grunt (battlefield); Arcbound Hybrid (battlefield)
-Steps: Activate Krark-Clan Grunt by sacrificing Arcbound Hybrid.
-  When Arcbound Hybrid dies, its modular ability and persist ability trigger.
-  Resolve the modular trigger, putting Arcbound Hybrid's +1/+1 counters on another artifact creature.
-  Resolve the persist trigger, returning Arcbound Hybrid from your graveyard to the battlefield. It will not have a -1/-1 counter on it due to its modular ability.
-  Resolve the Krark-Clan Grunt ability.
-  Repeat.
-
-## Combo 4779-6972-7157
-Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Krark-Clan Grunt + Arcbound Lancer
-Color identity: RWB | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on certain creatures; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinitely powerful creature until end of turn
-Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Krark-Clan Grunt (battlefield); Arcbound Lancer (battlefield)
-Steps: Activate Krark-Clan Grunt by sacrificing Arcbound Lancer.
-  When Arcbound Lancer dies, its modular ability and persist ability trigger.
-  Resolve the modular trigger, putting Arcbound Lancer's +1/+1 counters on another artifact creature.
-  Resolve the persist trigger, returning Arcbound Lancer from your graveyard to the battlefield. It will not have a -1/-1 counter on it due to its modular ability.
-  Resolve the Krark-Clan Grunt ability.
-  Repeat.
-
-## Combo 4779-6972-7158
-Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Krark-Clan Grunt + Arcbound Slasher
-Color identity: RWB | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on certain creatures; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinitely powerful creature until end of turn
-Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Krark-Clan Grunt (battlefield); Arcbound Slasher (battlefield)
-Steps: Activate Krark-Clan Grunt by sacrificing Arcbound Slasher.
-  When Arcbound Slasher dies, its modular ability and persist ability trigger.
-  Resolve the modular trigger, putting Arcbound Slasher's +1/+1 counters on another artifact creature.
-  Resolve the persist trigger, returning Arcbound Slasher from your graveyard to the battlefield. It will not have a -1/-1 counter on it due to its modular ability.
-  Resolve the Krark-Clan Grunt ability.
-  Repeat.
-
-## Combo 4779-6972-7159
-Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Krark-Clan Grunt + Arcbound Tracker
-Color identity: RWB | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on certain creatures; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinitely powerful creature until end of turn
-Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Krark-Clan Grunt (battlefield); Arcbound Tracker (battlefield)
-Steps: Activate Krark-Clan Grunt by sacrificing Arcbound Tracker.
-  When Arcbound Tracker dies, its modular ability and persist ability trigger.
-  Resolve the modular trigger, putting Arcbound Tracker's +1/+1 counters on another artifact creature.
-  Resolve the persist trigger, returning Arcbound Tracker from your graveyard to the battlefield. It will not have a -1/-1 counter on it due to its modular ability.
-  Resolve the Krark-Clan Grunt ability.
-  Repeat.
-
-## Combo 4779-6972-7160
-Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Krark-Clan Grunt + Arcbound Whelp
-Color identity: RWB | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on certain creatures; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinitely powerful creature until end of turn
-Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Krark-Clan Grunt (battlefield); Arcbound Whelp (battlefield)
-Steps: Activate Krark-Clan Grunt by sacrificing Arcbound Whelp.
-  When Arcbound Whelp dies, its modular ability and persist ability trigger.
-  Resolve the modular trigger, putting Arcbound Whelp's +1/+1 counters on another artifact creature.
-  Resolve the persist trigger, returning Arcbound Whelp from your graveyard to the battlefield. It will not have a -1/-1 counter on it due to its modular ability.
-  Resolve the Krark-Clan Grunt ability.
-  Repeat.
-
-## Combo 4779-6972-7782
-Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Krark-Clan Grunt + Clockwork Hydra
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinitely powerful creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
-Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Krark-Clan Grunt (battlefield); Clockwork Hydra (battlefield: without a -1/-1 counter on it)
-Steps: Activate Krark-Clan Grunt by sacrificing Clockwork Hydra.
-  When Clockwork Hydra dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to its replacement effect.
-  Resolve the Krark-Clan Grunt ability.
-  Repeat.
-
-## Combo 4798-5631-5686-7435
-Cards: Shilgengar, Sire of Famine + Ovalchase Daredevil + Skeleton Crew + Hardened Academic
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite artifact tokens; Infinite Blood tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite self-discard triggers
-Start: Shilgengar, Sire of Famine (battlefield); Ovalchase Daredevil (hand); Skeleton Crew (battlefield); Hardened Academic (battlefield)
-Prerequisites: You control at least one additional creature.
-Steps: Activate Hardened Academic by discarding Ovalchase Daredevil.
-  Activate Shilgengar's first ability by sacrificing another creature, creating a Blood token.
-  When the Blood enters the battlefield, Ovalchase Daredevil triggers, returning Ovalchase Daredevil from your graveyard to your hand.
-  Skeleton Crew triggers, creating a 2/2 Skeleton Pirate creature token.
-  Repeat.
-
-## Combo 4812-5145-5147
-Cards: Archon of Falling Stars + Animate Dead + Goblin Bombardment
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
-Produces: Infinite damage; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
-Start: Archon of Falling Stars (battlefield); Animate Dead (graveyard); Goblin Bombardment (battlefield)
-Steps: Activate Goblin Bombardment by sacrificing Archon of Falling Stars.
-  When Archon of Falling Stars dies, it triggers, returning Animate Dead from your graveyard to the battlefield.
-  When Animate Dead enters the battlefield, it triggers, returning Archon of Falling Stars from your graveyard to the battlefield, and attaching Animate Dead to it.
-  Resolve the Goblin Bombardment ability, dealing 1 damage to any target.
-  Repeat.
-
-## Combo 4812-5145-5231
-Cards: Archon of Falling Stars + Animate Dead + Thermopod
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite red mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
-Start: Archon of Falling Stars (battlefield); Animate Dead (graveyard); Thermopod (battlefield)
-Steps: Activate Thermopod's second ability by sacrificing Archon of Falling Stars, adding {R}.
-  When Archon of Falling Stars dies, it triggers, returning Animate Dead from your graveyard to the battlefield.
-  When Animate Dead enters the battlefield, it triggers, returning Archon of Falling Stars from your graveyard to the battlefield, and attaching Animate Dead to it.
-  Repeat.
-
-## Combo 4846-5887-6473
-Cards: Worldgorger Dragon + Werefox Bodyguard + Mardu Siegebreaker
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
-Produces: Infinite mana lands you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite blinking of permanents
-Start: Worldgorger Dragon (hand, battlefield, exile: Exiled by the creature on the battlefield); Werefox Bodyguard (hand, battlefield, exile: Exiled by the creature on the battlefield); Mardu Siegebreaker (hand, battlefield, exile: Exiled by the creature on the battlefield)
-Prerequisites: Mardu Siegebreaker must be exiled by Werefox Bodyguard, and Worldgorger Dragon must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
-Steps: Cast Worldgorger Dragon for its mana cost.
-  When Worldgorger Dragon enters, it exiles Werefox Bodyguard until Worldgorger Dragon leaves the battlefield. Resolve any additional effects of Worldgorger Dragon's ETB.
-  When Werefox Bodyguard leaves the battlefield, Mardu Siegebreaker is returned from exile to the battlefield.
-  When Mardu Siegebreaker enters, it exiles Worldgorger Dragon until Mardu Siegebreaker leaves the battlefield. Resolve any additional effects of Mardu Siegebreaker's ETB.
-  When Worldgorger Dragon leaves the battlefield, Werefox Bodyguard is returned from exile to the battlefield.
-  When Werefox Bodyguard enters, it exiles Mardu Siegebreaker until Werefox Bodyguard leaves the battlefield. Resolve any additional effects of Werefox Bodyguard's ETB.
-  When Mardu Siegebreaker leaves the battlefield, Worldgorger Dragon is returned from exile to the battlefield.
-  Repeat from step 2.
-Notes: Due to differences in card templating between the various banisher effects (linked triggered abilities vs "until" clause), steps 3, 5, and 7 may return the creature to the battlefield during the resolution of the preceding step rather than creating a separate event. This should not affect the overall execution of the combo, only how many objects pass through the stack (and thus rounds of priority available per loop).
-
-## Combo 4846-6473-6966
-Cards: Worldgorger Dragon + Mardu Siegebreaker + All-Fates Stalker
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
-Produces: Infinite mana lands you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite blinking of permanents
-Start: Worldgorger Dragon (hand, battlefield, exile: Exiled by the creature on the battlefield); Mardu Siegebreaker (hand, battlefield, exile: Exiled by the creature on the battlefield); All-Fates Stalker (hand, battlefield, exile: Exiled by the creature on the battlefield)
-Prerequisites: All-Fates Stalker must be exiled by Mardu Siegebreaker, and Worldgorger Dragon must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
-Steps: Cast Worldgorger Dragon for its mana cost.
-  When Worldgorger Dragon enters, it exiles Mardu Siegebreaker until Worldgorger Dragon leaves the battlefield. Resolve any additional effects of Worldgorger Dragon's ETB.
-  When Mardu Siegebreaker leaves the battlefield, All-Fates Stalker is returned from exile to the battlefield.
-  When All-Fates Stalker enters, it exiles Worldgorger Dragon until All-Fates Stalker leaves the battlefield. Resolve any additional effects of All-Fates Stalker's ETB.
-  When Worldgorger Dragon leaves the battlefield, Mardu Siegebreaker is returned from exile to the battlefield.
-  When Mardu Siegebreaker enters, it exiles All-Fates Stalker until Mardu Siegebreaker leaves the battlefield. Resolve any additional effects of Mardu Siegebreaker's ETB.
-  When All-Fates Stalker leaves the battlefield, Worldgorger Dragon is returned from exile to the battlefield.
-  Repeat from step 2.
-Notes: Due to differences in card templating between the various banisher effects (linked triggered abilities vs "until" clause), steps 3, 5, and 7 may return the creature to the battlefield during the resolution of the preceding step rather than creating a separate event. This should not affect the overall execution of the combo, only how many objects pass through the stack (and thus rounds of priority available per loop).
-
-## Combo 4871-5147-6010--5
-Cards: Builder's Talent + Goblin Bombardment + Pitiless Plunderer
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite colored mana; Infinite damage; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Requires: Persist Creature (battlefield: without a -1/-1 counter on it)
-Start: Builder's Talent (battlefield: is level 2 or higher); Goblin Bombardment (battlefield); Pitiless Plunderer (battlefield)
-Steps: Activate Goblin Bombardment by sacrificing the persist creature.
-  When the persist creature dies, its persist ability and Pitiless Plunderer trigger.
-  Resolve the persist creature trigger, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
-  Resolve the Pitiless Plunderer ability, creating a Treasure token.
-  When the Treasure token enters the battlefield, Builder's Talent's second ability triggers, putting a +1/+1 counter on the persist creature.
-  Resolve the Goblin Bombardment ability.
-  Repeat.
-
-## Combo 4871-5173-5258-5618-5686
-Cards: Rakdos, the Muscle + Shambling Ghast + Haunted Crossroads + Pitiless Plunderer + Shilgengar, Sire of Famine
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite artifact tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count; Infinite Blood tokens
-Start: Rakdos, the Muscle (battlefield); Shambling Ghast (battlefield); Haunted Crossroads (battlefield); Pitiless Plunderer (battlefield); Shilgengar, Sire of Famine (battlefield)
-Steps: Activate Shilgengar by sacrificing Shambling Ghast.
-  When Shambling Ghast dies, it, Pitiless Plunderer and Rakdos trigger.
-  Resolve the Shambling Ghast and Pitiless Plunderer triggers, creating two Treasure tokens.
-  Activate the Treasures by tapping and sacrificing them, adding {1}{B}.
-  Holding priority, activate Haunted Crossroads by paying {B}, putting Shambling Ghast from your graveyard onto the top of your library.
-  Resolve the Rakdos trigger, exiling Shambling Ghast from the top of your library with the ability to cast it until your next turn.
-  Resolve the Shilgengar ability, creating a Blood token.
-  Cast Shambling Ghast from exile by paying {1}.
-  Repeat.
-
-## Combo 4871-5220-5686-7855--180
-Cards: The Great Goblin + Mortuary + Pitiless Plunderer + Shilgengar, Sire of Famine
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
-Requires: Goblin, Orc or Army Creature Castable for One Colored Mana (battlefield)
-Start: The Great Goblin (battlefield); Mortuary (battlefield); Pitiless Plunderer (battlefield); Shilgengar, Sire of Famine (battlefield)
-Steps: Activate Shilgengar by sacrificing the Goblin, Orc or Army
-  When the Goblin, Orc or Army dies, Pitiless Plunderer, The Great Goblin's second ability and Mortuary trigger.
-  Resolve the Pitiless Plunderer trigger, creating a Treasure token.
-  Resolve the Mortuary trigger, putting the Goblin, Orc or Army onto the top of your library from your graveyard.
-  Resolve the Great Goblin trigger, exiling the Goblin, Orc or Army from the top of your library with the ability to play it until the end of your next turn.
-  Resolve the Shilgengar ability
-  Activate the Treasure by tapping and sacrificing it, adding one mana of any color.
-  Cast the Goblin, Orc or Army from exile by paying its mana cost.
-  Repeat
-
-## Combo 4871-5231-6010--5
-Cards: Builder's Talent + Thermopod + Pitiless Plunderer
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Requires: Persist Creature (battlefield: without a -1/-1 counter on it)
-Start: Builder's Talent (battlefield: is level 2 or higher); Thermopod (battlefield); Pitiless Plunderer (battlefield)
-Steps: Activate Thermopod by sacrificing the persist creature, adding {R}.
-  When the persist creature dies, its persist ability and Pitiless Plunderer trigger.
-  Resolve the persist creature trigger, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
-  Resolve the Pitiless Plunderer ability, creating a Treasure token.
-  When the Treasure token enters the battlefield, Builder's Talent's second ability triggers, putting a +1/+1 counter on the persist creature.
-  Repeat.
-
-## Combo 4871-5433-5686
-Cards: Krenko, Baron of Tin Street + Pitiless Plunderer + Shilgengar, Sire of Famine
-Color identity: RWB | Bracket: 2-3+ (Oddball) | Popularity: 1 | Commander: legal
-Produces: Infinite artifact tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite Blood tokens
-Start: Krenko, Baron of Tin Street (battlefield); Pitiless Plunderer (battlefield); Shilgengar, Sire of Famine (battlefield)
-Prerequisites: You control at least one Treasure.
-Steps: Activate a Treasure by tapping and sacrificing it, adding {R}.
-  Krenko triggers, causing you to pay {R} to create a 1/1 Goblin creature token with haste.
-  Activate Shilgengar by sacrificing the Goblin token.
-  When the Goblin dies, Pitiless Plunderer triggers, creating a Treasure token.
-  Resolve the Shilgengar ability
-  Repeat.
-
-## Combo 4905-5220-5332-6900
-Cards: Mortuary + Carmen, Cruel Skymarcher + Fanatical Firebrand + Gwenom, Remorseless
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite damage; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
-Start: Mortuary (battlefield); Carmen, Cruel Skymarcher (battlefield); Fanatical Firebrand (battlefield); Gwenom, Remorseless (battlefield)
-Prerequisites: Gwenom has attacked this turn.
-Steps: Activate Fanatical Firebrand by tapping and sacrificing it.
-  When Fanatical Firebrand dies, Mortuary and Carmen trigger.
-  Resolve the Mortuary trigger, putting Fanatical Firebrand from your graveyard onto the top of your library.
-  Resolve the Carmen trigger, causing you to gain 1 life and put a +1/+1 counter on Carmen.
-  Resolve the Fanatical Firebrand ability.
-  Cast Fanatical Firebrand from the top of your library by paying 1 life.
-  Repeat.
-
-## Combo 4905-5220-6273-6900
-Cards: Mortuary + Fanatical Firebrand + Embalmed Ascendant + Gwenom, Remorseless
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite damage; Infinite lifeloss; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
-Start: Mortuary (battlefield); Fanatical Firebrand (battlefield); Embalmed Ascendant (battlefield); Gwenom, Remorseless (battlefield)
-Prerequisites: You have max speed.
-  Gwenom has attacked this turn.
-Steps: Activate Fanatical Firebrand by tapping and sacrificing it.
-  When Fanatical Firebrand dies, Mortuary and Embalmed Ascendant trigger.
-  Resolve the Mortuary trigger, putting Fanatical Firebrand from your graveyard onto the top of your library.
-  Resolve the Embalmed Ascendant trigger, causing you to gain 1 life and each opponent to lose 1 life.
-  Resolve the Fanatical Firebrand ability.
-  Cast Fanatical Firebrand from the top of your library by paying 1 life.
-  Repeat.
-
-## Combo 4905-5220-6772-6900
-Cards: Mortuary + Syr Vondam, Sunstar Exemplar + Fanatical Firebrand + Gwenom, Remorseless
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite damage; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count
-Start: Mortuary (battlefield); Syr Vondam, Sunstar Exemplar (battlefield); Fanatical Firebrand (battlefield); Gwenom, Remorseless (battlefield)
-Prerequisites: Gwenom has attacked this turn.
-Steps: Activate Fanatical Firebrand by tapping and sacrificing it.
-  When Fanatical Firebrand dies, Mortuary and Syr Vondam trigger.
-  Resolve the Mortuary trigger, putting Fanatical Firebrand from your graveyard onto the top of your library.
-  Resolve the Syr Vondam trigger, causing you to gain 1 life and putting a +1/+1 counter on Syr Vondam.
-  Resolve the Fanatical Firebrand ability.
-  Cast Fanatical Firebrand from the top of your library by paying 1 life.
-  Repeat.
-
-## Combo 4907-5147-6972
-Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Tatterkite + Goblin Bombardment
-Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 2 | Commander: legal
-Produces: Infinite damage; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Tatterkite (battlefield); Goblin Bombardment (battlefield)
-Steps: Activate Goblin Bombardment by sacrificing Tatterkite
-  When Tatterkite dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to its static effect.
-  Resolve the Goblin Bombardment ability.
-  Repeat.
-
-## Combo 4907-5231-6972
-Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Tatterkite + Thermopod
-Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal
-Produces: Infinite red mana; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Tatterkite (battlefield); Thermopod (battlefield)
-Steps: Activate Thermopod by sacrificing Tatterkite
-  When Tatterkite dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to its static effect.
-  Repeat.
-
-## Combo 4907-5315-6972
-Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Tatterkite + Ravenous Intruder
-Color identity: RWB | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
-Produces: Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Tatterkite (battlefield); Ravenous Intruder (battlefield)
-Steps: Activate Ravenous Intruder by sacrificing Tatterkite
-  When Tatterkite dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to its static effect.
-  Resolve the Ravenous Intruder ability.
-  Repeat.
-
-## Combo 4907-5330-6972
-Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Tatterkite + Atog
-Color identity: RWB | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
-Produces: Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Tatterkite (battlefield); Atog (battlefield)
-Steps: Activate Atog by sacrificing Tatterkite
-  When Tatterkite dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to its static effect.
-  Resolve the Atog ability.
-  Repeat.
-
-## Combo 4907-5686-6747-6989
-Cards: Leonardo, Sewer Samurai + Tatterkite + Shilgengar, Sire of Famine + Sami, Wildcat Captain
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite Blood tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count
-Start: Leonardo, Sewer Samurai (battlefield); Tatterkite (graveyard); Shilgengar, Sire of Famine (battlefield); Sami, Wildcat Captain (battlefield)
-Prerequisites: You control at least three artifacts.
-Steps: Cast Tatterkite from your graveyard by paying {0} due to Sami. It won't enter with a finality counter on it due to its static effect.
-  Activate Shilgengar by sacrificing Tatterkite.
-  Repeat.
-
-## Combo 4907-6747-6797-6989
-Cards: Leonardo, Sewer Samurai + Tatterkite + Sami, Wildcat Captain + Phantom Train
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count
-Start: Leonardo, Sewer Samurai (battlefield); Tatterkite (graveyard); Sami, Wildcat Captain (battlefield); Phantom Train (battlefield)
-Prerequisites: You control at least three artifacts.
-Steps: Cast Tatterkite from your graveyard by paying {0} due to Sami. It won't enter with a finality counter on it due to its static effect.
-  Activate Phantom Train by sacrificing Tatterkite.
-  Repeat.
-
-## Combo 4907-6747-6798-6989
-Cards: Leonardo, Sewer Samurai + Tatterkite + Umbral Collar Zealot + Sami, Wildcat Captain
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite surveil; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count
-Start: Leonardo, Sewer Samurai (battlefield); Tatterkite (graveyard); Umbral Collar Zealot (battlefield); Sami, Wildcat Captain (battlefield)
-Prerequisites: You control at least three artifacts.
-Steps: Cast Tatterkite from your graveyard by paying {0} due to Sami. It won't enter with a finality counter on it due to its static effect.
-  Activate Umbral Collar Zealot by sacrificing Tatterkite.
-  Repeat.
-
-## Combo 4929-5224-5805
-Cards: Cryptic Trilobite + Together Forever + Gev, Scaled Scorch
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}
-Produces: Infinite colorless mana that can only be spent to activate abilities; Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite storm count
-Start: Cryptic Trilobite (hand, battlefield); Together Forever (battlefield); Gev, Scaled Scorch (battlefield)
-Prerequisites: At least one opponent has lost life this turn.
-Steps: Cast Cryptic Trilobite by paying {0}, causing it to enter the battlefield with at least one +1/+1 counter on it due to Gev.
-  Activate Together Forever by paying {1}, targeting Cryptic Trilobite.
-  Activate Cryptic Trilobite by removing a +1/+1 counter from it, adding {C}{C} that can only be spent to activate abilities.
-  Repeat step 3 until Cryptic Trilobite dies as a state-based action due to having 0 toughness.
-  When Cryptic Trilobite dies, Together Forever triggers, returning Cryptic Trilobite from your graveyard to your hand.
-  Repeat.
-
-## Combo 4968-6593-7803
-Cards: Gatta and Luzzu + Deathbringer Thoctar + Brad Boimler, Eager Ensign
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{W}
-Produces: Infinite damage; Infinite +1/+1 counters on a creature
-Start: Gatta and Luzzu (hand); Deathbringer Thoctar (battlefield: with a +1/+1 counter on it); Brad Boimler, Eager Ensign (battlefield)
-Prerequisites: Brad Boimler has been tapped this turn.
-Steps: Cast Gatta and Luzzu by paying {2}{W}.
-  When Gatta and Luzzu enters the battlefield, it triggers, targeting Deathbringer Thoctar.
-  Activate Deathbringer Thoctar by removing a +1/+1 counter from it, targeting itself, but instead putting two +1/+1 counters on it due to Gatta and Luzzu and Brad Boimler.
-  Activate Deathbringer Thoctar by removing a +1/+1 counter from it, dealing 1 damage to any target.
-  Repeat from step 3.
-Notes: You can forego step 4 to simply put infinite +1/+1 counters on Deathbringer Thoctar if desired.
-
-## Combo 4968-6593-8320
-Cards: Gatta and Luzzu + Deathbringer Thoctar + Yoshimaru, Beloved Companion
-Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {2}{W}
-Produces: Infinite damage; Infinite +1/+1 counters on a creature
-Start: Gatta and Luzzu (hand); Deathbringer Thoctar (battlefield: with a +1/+1 counter on it); Yoshimaru, Beloved Companion (battlefield)
-Steps: Cast Gatta and Luzzu by paying {2}{W}.
-  When Gatta and Luzzu enters the battlefield, it triggers, targeting Deathbringer Thoctar.
-  Activate Deathbringer Thoctar by removing a +1/+1 counter from it, targeting itself, but instead putting two +1/+1 counters on it due to Gatta and Luzzu and Yoshimaru.
-  Activate Deathbringer Thoctar by removing a +1/+1 counter from it, dealing 1 damage to any target.
-  Repeat from step 3.
-Notes: You can forego step 4 to simply put infinite +1/+1 counters on Deathbringer Thoctar if desired.
-
-## Combo 4968-6824
-Cards: Deathbringer Thoctar + Spider-Man, Peter Parker
-Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 6 | Commander: legal
-Produces: Infinite damage; Infinite lifegain; Infinite lifegain triggers
-Start: Deathbringer Thoctar (battlefield: with a +1/+1 counter on it); Spider-Man, Peter Parker (battlefield)
-Prerequisites: You have a way to give Deathbringer Thoctar lifelink.
-Steps: Give Deathbringer Thoctar lifelink.
-  Activate Deathbringer Thoctar by removing a +1/+1 counter from it, dealing 1 damage to any target and causing you to gain 1 life.
-  Spider-Man triggers, putting a +1/+1 counter on Deathbringer Thoctar.
-  Repeat.
-
-## Combo 4968-6996
-Cards: Deathbringer Thoctar + The Destined White Mage
-Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 2 | Commander: legal
-Produces: Infinite damage; Infinite lifegain; Infinite lifegain triggers
-Start: Deathbringer Thoctar (battlefield: with a +1/+1 counter on it); The Destined White Mage (battlefield)
-Prerequisites: You have a way to give Deathbringer Thoctar lifelink.
-Steps: Give Deathbringer Thoctar lifelink.
-  Activate Deathbringer Thoctar by removing a +1/+1 counter from it, dealing 1 damage to any target and causing you to gain 1 life.
-  The Destined White Mage triggers, putting a +1/+1 counter on Deathbringer Thoctar.
-  Repeat.
-
-## Combo 5003-5686-7283-7649
-Cards: Thorin, Mountain-king + Raphael, Ninja Destroyer + Nim Deathmantle + Shilgengar, Sire of Famine
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {4}
-Produces: Infinite red mana; Infinite artifact tokens; Infinite rummaging; Infinite Blood tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite draw triggers; Infinite creature sacrifice triggers; Infinite self-discard triggers
-Start: Thorin, Mountain-king (battlefield); Raphael, Ninja Destroyer (battlefield); Nim Deathmantle (battlefield); Shilgengar, Sire of Famine (battlefield)
-Prerequisites: Raphael has indestructible.
-Steps: Activate Shilgengar by sacrificing Thorin.
-  When Thorin dies, Nim Deathmantle triggers, causing you to pay {4} to return Thorin from your graveyard to the battlefield and attach Nim Deathmantle to it.
-  When Thorin enters, it triggers, attaching Nim Deathmantle to Raphael, and then having Raphael deal 6 damage to itself.
-  Raphael triggers, adding six {R}.
-  Resolve the Shilgengar ability.
-  Repeat.
-Notes: Once you have infinite mana, the damage dealt to Raphael can instead be dealt to any creature(s).
-
-## Combo 5016-6831
-Cards: Neriv, Heart of the Storm + Spitemare
-Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 47 | Commander: legal | Mana needed: {2}{R/W}{R/W}
-Produces: Infinite damage to one opponent
-Start: Neriv, Heart of the Storm (battlefield); Spitemare (hand)
-Prerequisites: You have a way to give Spitemare indestructible after it enters.
-  You have a way to deal damage to Spitemare after it enters.
-Steps: Cast Spitemare by paying its mana cost.
-  Give Spitemare indestructible.
-  Deal damage to Spitemare.
-  Spitemare triggers, dealing double that much damage to itself due to Neriv.
-  Repeat step 4 an arbitrarily large number of times.
-  Resolve the final Spitemare trigger, dealing an arbitrarily large amount of damage to any target.
-Notes: If the source that is dealing damage to Spitemare is repeatable (such as Pyrohemia), you can deal damage to Spitemare again and redirect the damage elsewhere.
-
-## Combo 5058-5147-7396
-Cards: Screams from Within + Goblin Bombardment + Quintorius, History Chaser
-Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal
-Produces: Infinite damage; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Screams from Within (battlefield: attached to another creature you control); Goblin Bombardment (battlefield); Quintorius, History Chaser (battlefield)
-Prerequisites: You control an additional creature.
-Steps: Activate Goblin Bombardment by sacrificing the creature that has Screams from Within attached.
-  When the creature dies, Screams from Within triggers, returning it from your graveyard to the battlefield attached to another creature you control.
-  Quintorius, History Chaser triggers, creating a creature token.
-  Resolve the Goblin Bombardment ability.
-  Repeat.
-
-## Combo 5058-5231-7396
-Cards: Screams from Within + Thermopod + Quintorius, History Chaser
-Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal
-Produces: Infinite red mana; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Screams from Within (battlefield: attached to another creature you control); Thermopod (battlefield); Quintorius, History Chaser (battlefield)
-Prerequisites: You control an additional creature.
-Steps: Activate Thermopod by sacrificing the creature that has Screams from Within attached.
-  When the creature dies, Screams from Within triggers, returning it from your graveyard to the battlefield attached to another creature you control.
-  Quintorius, History Chaser triggers, creating a creature token.
-  Repeat.
-
-## Combo 5058-5256-7396
-Cards: Screams from Within + Altar of Dementia + Quintorius, History Chaser
-Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal
-Produces: Infinite mill; Infinite self-mill; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Screams from Within (battlefield: attached to another creature you control); Altar of Dementia (battlefield); Quintorius, History Chaser (battlefield)
-Prerequisites: You control an additional creature.
-Steps: Activate Altar of Dementia by sacrificing the creature that has Screams from Within attached.
-  When the creature dies, Screams from Within triggers, returning it from your graveyard to the battlefield attached to another creature you control.
-  Quintorius, History Chaser triggers, creating a creature token.
-  Resolve the Altar of Dementia ability.
-  Repeat.
-
-## Combo 5058-5686-7396
-Cards: Screams from Within + Shilgengar, Sire of Famine + Quintorius, History Chaser
-Color identity: RWB | Bracket: 2-3+ (Oddball) | Popularity: 1 | Commander: legal
-Produces: Infinite artifact tokens; Infinite Blood tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Screams from Within (battlefield: attached to another creature you control); Shilgengar, Sire of Famine (battlefield); Quintorius, History Chaser (battlefield)
-Prerequisites: You control an additional creature.
-Steps: Activate Shilgengar by sacrificing the creature that has Screams from Within attached.
-  When the creature dies, Screams from Within triggers, returning it from your graveyard to the battlefield attached to another creature you control.
-  Quintorius, History Chaser triggers, creating a creature token.
-  Resolve the Shilgengar ability.
-  Repeat.
-
-## Combo 5058-5686-7422
-Cards: Screams from Within + Shilgengar, Sire of Famine + Garrison Excavator
-Color identity: RWB | Bracket: 2-3+ (Oddball) | Popularity: 1 | Commander: legal
-Produces: Infinite artifact tokens; Infinite Blood tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Screams from Within (battlefield: attached to another creature you control); Shilgengar, Sire of Famine (battlefield); Garrison Excavator (battlefield)
-Prerequisites: You control an additional creature.
-Steps: Activate Shilgengar by sacrificing the creature that has Screams from Within attached.
-  When the creature dies, Screams from Within triggers, returning it from your graveyard to the battlefield attached to another creature you control.
-  Garrison Excavator triggers, creating a creature token.
-  Resolve the Shilgengar ability.
-  Repeat.
-
-## Combo 5058-6495-7396
-Cards: Screams from Within + Evereth, Viceroy of Plunder + Quintorius, History Chaser
-Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
-Produces: Infinite damage; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Screams from Within (battlefield: attached to another creature you control); Evereth, Viceroy of Plunder (battlefield); Quintorius, History Chaser (battlefield)
-Prerequisites: You control an additional creature.
-Steps: Activate Evereth by sacrificing the creature that has Screams from Within attached.
-  When the creature dies, Screams from Within triggers, returning it from your graveyard to the battlefield attached to another creature you control.
-  Quintorius, History Chaser triggers, creating a creature token.
-  Resolve the Evereth ability.
-  Repeat.
-Notes: If you have a way to kill Evereth and {1}{B/R} available, you can do so after putting a significant amount of +1/+1 counters on it to deal damage to each opponent using its second ability.
-
-## Combo 5058-6797-7396
-Cards: Screams from Within + Phantom Train + Quintorius, History Chaser
-Color identity: RWB | Bracket: 2-3+ (Oddball) | Popularity: 1 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Screams from Within (battlefield: attached to another creature you control); Phantom Train (battlefield); Quintorius, History Chaser (battlefield)
-Prerequisites: You control an additional creature.
-Steps: Activate Phantom Train by sacrificing the creature that has Screams from Within attached.
-  When the creature dies, Screams from Within triggers, returning it from your graveyard to the battlefield attached to another creature you control.
-  Quintorius, History Chaser triggers, creating a creature token.
-  Resolve the Phantom Train ability.
-  Repeat.
-
-## Combo 5058-6798-7396
-Cards: Screams from Within + Umbral Collar Zealot + Quintorius, History Chaser
-Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal
-Produces: Infinite surveil; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Screams from Within (battlefield: attached to another creature you control); Umbral Collar Zealot (battlefield); Quintorius, History Chaser (battlefield)
-Prerequisites: You control an additional creature.
-Steps: Activate Umbral Collar Zealot by sacrificing the creature that has Screams from Within attached.
-  When the creature dies, Screams from Within triggers, returning it from your graveyard to the battlefield attached to another creature you control.
-  Quintorius, History Chaser triggers, creating a creature token.
-  Resolve the Umbral Collar Zealot ability.
-  Repeat.
-
-## Combo 5058-7396-8095
-Cards: Screams from Within + Quintorius, History Chaser + Hammerhead, Maggia Boss
-Color identity: RWB | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Screams from Within (battlefield: attached to another creature you control); Quintorius, History Chaser (battlefield); Hammerhead, Maggia Boss (battlefield)
-Prerequisites: You control an additional creature.
-Steps: Activate Hammerhead by sacrificing the creature that has Screams from Within attached.
-  When the creature dies, Screams from Within triggers, returning it from your graveyard to the battlefield attached to another creature you control.
-  Quintorius, History Chaser triggers, creating a creature token.
-  Resolve the Hammerhead ability.
-  Repeat.
-
-## Combo 5058-7396-8249
-Cards: Screams from Within + Defiant Salvager + Quintorius, History Chaser
-Color identity: RWB | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Screams from Within (battlefield: attached to another creature you control); Defiant Salvager (battlefield); Quintorius, History Chaser (battlefield)
-Prerequisites: You control an additional creature.
-Steps: Activate Defiant Salvager by sacrificing the creature that has Screams from Within attached.
-  When the creature dies, Screams from Within triggers, returning it from your graveyard to the battlefield attached to another creature you control.
-  Quintorius, History Chaser triggers, creating a creature token.
-  Resolve the Defiant Salvager ability.
-  Repeat.
-
-## Combo 5078-6890-6900
-Cards: Sensei's Divining Top + Arbaaz Mir + Gwenom, Remorseless
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
-Produces: Infinite card draw; Near-infinite damage; Near-infinite lifegain triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
-Start: Sensei's Divining Top (battlefield); Arbaaz Mir (battlefield); Gwenom, Remorseless (battlefield)
-Prerequisites: Your life total is 2 or greater.
-  Gwenom has attacked this turn.
-Steps: Activate Sensei's Divining Top's second ability by tapping it, causing you to draw a card and put Sensei's Divining Top from the battlefield onto the top of your library.
-  Cast Sensei's Divining Top from the top of your library by paying 1 life.
-  When Sensei's Divining Top enters the battlefield, Arbaaz Mir triggers, dealing 1 damage to each opponent and causing you to gain 1 life.
-  Repeat.
-
-## Combo 5086-5147-6972
-Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Goblin Bombardment + Triskelavus
-Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
-Produces: Infinite damage; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Goblin Bombardment (battlefield); Triskelavus (battlefield: without a -1/-1 counter on it)
-Steps: Activate Goblin Bombardment by sacrificing Triskelavus.
-  When Triskelavus dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to its replacement effect.
-  Resolve the Goblin Bombardment ability.
-  Repeat.
-
-## Combo 5086-5231-6972
-Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Triskelavus + Thermopod
-Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
-Produces: Infinite red mana; Infinite creature tokens; Infinite damage; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Triskelavus (battlefield: without a -1/-1 counter on it); Thermopod (battlefield)
-Steps: Activate Thermopod by sacrificing Triskelavus.
-  When Triskelavus dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to its replacement effect.
-  Repeat.
-Notes: You can sacrifice the Triskelavite tokens to their own abilities to deal infinite damage.
-  Each loop, you can use mana from the previous loop and remove a +1/+1 counter from Triskelavus to make creature tokens.
-
-## Combo 5086-5315-6972
-Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Ravenous Intruder + Triskelavus
-Color identity: RWB | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
-Produces: Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
-Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Ravenous Intruder (battlefield); Triskelavus (battlefield: without a -1/-1 counter on it)
-Steps: Activate Ravenous Intruder by sacrificing Triskelavus.
-  When Triskelavus dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to its replacement effect.
-  Resolve the Ravenous Intruder ability.
-  Repeat.
-
-## Combo 5086-5330-6972
-Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Triskelavus + Atog
-Color identity: RWB | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
-Produces: Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
-Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Triskelavus (battlefield: without a -1/-1 counter on it); Atog (battlefield)
-Steps: Activate Atog by sacrificing Triskelavus.
-  When Triskelavus dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to its replacement effect.
-  Resolve the Atog ability.
-  Repeat.
-
-## Combo 5086-6495-6972
-Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Evereth, Viceroy of Plunder + Triskelavus
-Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
-Produces: Infinite damage; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Evereth, Viceroy of Plunder (battlefield); Triskelavus (battlefield: without a -1/-1 counter on it)
-Steps: Activate Evereth by sacrificing Triskelavus.
-  When Triskelavus dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to its replacement effect.
-  Resolve the Evereth ability.
-  Repeat.
-Notes: If you have a way to kill Evereth and {1}{B/R} available, you can do so after putting a significant amount of +1/+1 counters on it to deal damage to each opponent using its second ability.
-
-## Combo 5109-6899-7839
-Cards: Smaug the Impenetrable + Volcano Hellion + With Great Power . . .
-Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 10 | Commander: legal | Mana needed: {2}{R}{R}
-Produces: Infinite Treasure tokens; Infinite colored mana; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
-Start: Smaug the Impenetrable (battlefield); Volcano Hellion (hand); With Great Power . . . (battlefield: attached to any creature you control)
-Steps: Cast Volcano Hellion by paying {2}{R}{R}.
-  When Volcano Hellion enters, it triggers, dealing an arbitrarily large amount of damage to Smaug and the creature with With Great Power . . . attached.
-  Smaug triggers, creating an amount of Treasure tokens equal to the damage it was dealt.
-
-## Combo 5147-5170-6132-6273
-Cards: Junji, the Midnight Sky + Goblin Bombardment + Metamorphosis Fanatic + Embalmed Ascendant
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite damage; Infinite lifeloss; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Junji, the Midnight Sky (battlefield); Goblin Bombardment (battlefield); Metamorphosis Fanatic (battlefield); Embalmed Ascendant (battlefield)
-Prerequisites: You have max speed.
-Steps: Activate Goblin Bombardment by sacrificing Metamorphosis Fanatic.
-  When Metamorphosis Fanatic dies, Embalmed Ascendant triggers, causing you to gain 1 life and each opponent to lose 1 life.
-  Resolve the Goblin Bombardment ability.
-  Activate Goblin Bombardment by sacrificing Junji.
-  When Junji dies, it and Embalmed Ascendant trigger.
-  Resolve the Embalmed Ascendant trigger, causing you to gain 1 life and each opponent to lose 1 life.
-  Resolve the Junji trigger, returning Metamorphosis Fanatic from your graveyard to the battlefield and causing you to lose 2 life.
-  When Metamorphosis Fanatic enters, it triggers, returning Junji from your graveyard to the battlefield.
-  Resolve the Goblin Bombardment ability.
-  Repeat.
-
-## Combo 5147-5170-6132-6772
-Cards: Junji, the Midnight Sky + Goblin Bombardment + Syr Vondam, Sunstar Exemplar + Metamorphosis Fanatic
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite damage; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Junji, the Midnight Sky (battlefield); Goblin Bombardment (battlefield); Syr Vondam, Sunstar Exemplar (battlefield); Metamorphosis Fanatic (battlefield)
-Steps: Activate Goblin Bombardment by sacrificing Metamorphosis Fanatic.
-  When Metamorphosis Fanatic dies, Syr Vondam triggers, putting a +1/+1 counter on it and causing you to gain 1 life.
-  Resolve the Goblin Bombardment ability.
-  Activate Goblin Bombardment by sacrificing Junji.
-  When Junji dies, it and Syr Vondam trigger.
-  Resolve the Syr Vondam trigger, putting a +1/+1 counter on it and causing you to gain 1 life.
-  Resolve the Junji trigger, returning Metamorphosis Fanatic from your graveyard to the battlefield and causing you to lose 2 life.
-  When Metamorphosis Fanatic enters, it triggers, returning Junji from your graveyard to the battlefield.
-  Resolve the Goblin Bombardment ability.
-  Repeat.
-
-## Combo 5147-5170-6132-8175
-Cards: Junji, the Midnight Sky + Goblin Bombardment + Metamorphosis Fanatic + Edgar, Ancient Bloodlord
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite damage; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Junji, the Midnight Sky (battlefield); Goblin Bombardment (battlefield); Metamorphosis Fanatic (battlefield); Edgar, Ancient Bloodlord (battlefield)
-Steps: Activate Goblin Bombardment by sacrificing Metamorphosis Fanatic.
-  When Metamorphosis Fanatic dies, Edgar triggers, causing you to gain 1 life
-  Resolve the Goblin Bombardment ability, dealing 1 damage to any target
-  Activate Goblin Bombardment by sacrificing Junji.
-  When Junji dies, it and Edgar trigger.
-  Resolve the Edgar trigger, causing you to gain 1 life
-  Resolve the Junji trigger, returning Metamorphosis Fanatic from your graveyard to the battlefield and causing you to lose 2 life.
-  When Metamorphosis Fanatic enters, it triggers, returning Junji from your graveyard to the battlefield.
-  Resolve the Goblin Bombardment ability, dealing 1 damage to any target
-  Repeat.
-
-## Combo 5147-5205-6972
-Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Goblin Bombardment + Glint-Sleeve Artisan
-Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
-Produces: Infinite damage; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Goblin Bombardment (battlefield); Glint-Sleeve Artisan (battlefield: without a -1/-1 counter on it)
-Steps: Activate Goblin Bombardment by sacrificing Glint-Sleeve Artisan.
-  When Glint-Sleeve Artisan dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
-  When Glint-Sleeve Artisan enters, its fabricate ability triggers, putting a +1/+1 counter on it.
-  Resolve the Goblin Bombardment ability.
-  Repeat.
-
-## Combo 5147-5276-5332-6524
-Cards: Carmen, Cruel Skymarcher + Leonin Relic-Warder + All-Out Assault + Goblin Bombardment
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {2}{R}{W}{B}
-Produces: Infinite damage; Infinite lifegain; Infinite combat phases; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite untap of creatures you control
-Start: Carmen, Cruel Skymarcher (battlefield: without summoning sickness and cannot be blocked and killed by an opponent ); Leonin Relic-Warder (graveyard); All-Out Assault (hand); Goblin Bombardment (battlefield)
-Steps: Cast All-Out Assault by paying {2}{R}{W}{B}.
-  When All-Out Assault enters the battlefield, it triggers, causing you to get an additional combat and main phase after this one.
-  Move to your extra combat phase. All-Out Assault triggers, untapping each creature you control.
-  Declare Carmen as an attacker, triggering its second ability, returning Leonin Relic-Warder form your graveyard to the battlefield.
-  When Leonin Relic-Warder enters the battlefield, its first ability triggers, exiling All-Out Assault.
-  Move to your postcombat main phase, and activate Goblin Bombardment by sacrificing Leonin Relic-Warder.
-  When Leonin Relic-Warder dies, its second ability and Carmen's first ability trigger.
-  Resolve the Carmen trigger, putting a +1/+1 counter on it and causing you to gain 1 life.
-  Resolve the Leonin Relic-Warder trigger, returning All-Out Assault from exile to the battlefield.
-  When All-Out Assault enters the battlefield, it triggers, causing you to get an additional combat and main phase after this one.
-  Resolve the Goblin Bombardment ability.
-  Repeat from step 3.

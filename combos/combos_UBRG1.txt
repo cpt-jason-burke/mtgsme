@@ -2454,7 +2454,7 @@ Steps: Activate Zimone's first ability by paying {1} and tapping it, putting Rak
 
 ## Combo 224-433-3257
 Cards: Retreat to Coralhelm + Llanowar Scout + Rakdos Carnarium
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 290 | Commander: legal
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 300 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Retreat to Coralhelm (battlefield); Llanowar Scout (battlefield: without summoning sickness); Rakdos Carnarium (hand)
 Steps: Activate Llanowar Scout by tapping it, putting Rakdos Carnarium from your hand onto the battlefield.
@@ -2580,7 +2580,7 @@ Steps: Activate Zimone's first ability by paying {1} and tapping it, putting Rak
 
 ## Combo 224-1772-3257-3875
 Cards: Zimone, Quandrix Prodigy + Retreat to Coralhelm + Rakdos Carnarium + Tireless Provisioner
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 88 | Commander: legal | Mana needed: {1}
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 89 | Commander: legal | Mana needed: {1}
 Produces: Infinite landfall triggers
 Start: Zimone, Quandrix Prodigy (battlefield: without summoning sickness); Retreat to Coralhelm (battlefield); Rakdos Carnarium (hand); Tireless Provisioner (battlefield)
 Steps: Activate Zimone's first ability by paying {1} and tapping it, putting Rakdos Carnarium from your hand onto the battlefield.
@@ -2721,7 +2721,7 @@ Steps: Activate Wight of the Reliquary by tapping it and sacrificing another cre
 
 ## Combo 224-3177-3257
 Cards: Retreat to Coralhelm + Sakura-Tribe Scout + Rakdos Carnarium
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 290 | Commander: legal
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 300 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Retreat to Coralhelm (battlefield); Sakura-Tribe Scout (battlefield: without summoning sickness); Rakdos Carnarium (hand)
 Steps: Activate Sakura-Tribe Scout by tapping it, putting Rakdos Carnarium from your hand onto the battlefield.
@@ -4715,6 +4715,19 @@ Steps: Activate Blasting Station by tapping it and sacrificing Priest of Gix.
   When Priest of Gix enters the battlefield, it and Blasting Station trigger, adding {B}{B}{B} and untapping Blasting Station.
   Repeat.
 
+## Combo 413-851-967-3809-7087
+Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Blasting Station + Adrix and Nev, Twincasters
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
+Produces: Infinite colored mana; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count; Exile your library
+Start: Prosper, Tome-Bound (battlefield); Goldspan Dragon (battlefield); Flameskull (battlefield, exile); Blasting Station (battlefield); Adrix and Nev, Twincasters (battlefield)
+Steps: Activate Blasting Station by sacrificing Flameskull
+  When Flameskull dies, it triggers, exiling it and the top card of your library with the ability to cast one from exile this turn.
+  Resolve the Blasting Station ability, dealing 1 damage to its target.
+  Cast Flameskull from exile by paying {1}{R}{R}.
+  Prosper's second ability triggers, creating two Treasure tokens due to Adrix and Nev.
+  Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
+  Repeat from step 1
+
 ## Combo 413-851-4559-7839
 Cards: Smaug the Impenetrable + Metalwork Colossus + Blasting Station + Adrix and Nev, Twincasters
 Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -5037,7 +5050,7 @@ Steps: Cast PuPu UFO by paying {2}.
 
 ## Combo 433-3257-7857
 Cards: Llanowar Scout + Rakdos Carnarium + Elven Raft-Steerer
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 40 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Llanowar Scout (battlefield: without summoning sickness); Rakdos Carnarium (hand); Elven Raft-Steerer (battlefield)
 Steps: Activate Llanowar Scout by tapping it, putting Rakdos Carnarium from your hand onto the battlefield.
@@ -6098,6 +6111,20 @@ Steps: Play Gruul Turf. When it enters untapped due to Archelos, Gruul Turf and 
   Because of the additional Icetill Explorer token, you can play an additional land this turn. 
   Repeat.
 
+## Combo 573-4826-5702-7906
+Cards: Springheart Nantuko + Gruul Turf + Archelos, Lagoon Mystic + Thranduil's Company
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
+Start: Springheart Nantuko (battlefield: attached to Thranduil's Company); Gruul Turf (hand); Archelos, Lagoon Mystic (battlefield: untapped); Thranduil's Company (battlefield)
+Prerequisites: You control another Elf.
+  You are able to play a land this turn
+Steps: Play Gruul Turf. When it enters untapped due to Archelos, Gruul Turf and Springheart Nantuko trigger.
+  Holding priority, activate Gruul Turf by tapping it, adding {R}{G}
+  Resolve the Gruul Turf trigger, returning it from the battlefield to your hand.
+  Resolve the Springheart Nantuko trigger, causing you to pay {1}{G} to create a token copy of Thranduil's Company.
+  Because of the additional Thranduil's Company token, you can play an additional land this turn. 
+  Repeat.
+
 ## Combo 573-4913-5310-7857
 Cards: Zimone and Dina + Bloodghast + Gruul Turf + Elven Raft-Steerer
 Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -6703,6 +6730,48 @@ Steps: Activate Hammerhead by sacrificing Priest of Gix.
   Cast Priest of Gix from exile by paying at most {2}.
   When Priest of Gix enters the battlefield, it triggers, adding {B}{B}{B}.
   Repeat.
+
+## Combo 592-3862-6085
+Cards: Orcish Bowmasters + Role Reversal + Altanak, the Thrice-Called
+Color identity: UBRG | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {1}{U}{U}{B}{R}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Role Reversal (hand); Altanak, the Thrice-Called (battlefield)
+Prerequisites: An opponent controls a permanent that shares a type with the one you intend to donate.
+Steps: Cast Role Reversal by paying {U}{U}{R}, exchanging control of a permanent an opponent controls and Altanak.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Altanak.
+  Altanak's second ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Altanak.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
+
+## Combo 592-3862-8144
+Cards: Orcish Bowmasters + Role Reversal + Surrak, Elusive Hunter
+Color identity: UBRG | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {1}{U}{U}{B}{R}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Role Reversal (hand); Surrak, Elusive Hunter (battlefield)
+Prerequisites: An opponent controls a permanent that shares a type with the one you intend to donate.
+Steps: Cast Role Reversal by paying {U}{U}{R}, exchanging control of a permanent an opponent controls and Surrak.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Surrak.
+  Surrak's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Surrak.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
+
+## Combo 592-3862-8411
+Cards: Orcish Bowmasters + Role Reversal + Old Fat Spider
+Color identity: UBRG | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {1}{U}{U}{B}{R}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Role Reversal (hand); Old Fat Spider (battlefield)
+Prerequisites: An opponent controls a permanent that shares a type with the one you intend to donate.
+Steps: Cast Role Reversal by paying {U}{U}{R}, exchanging control of a permanent an opponent controls and Old Fat Spider.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Old Fat Spider.
+  Old Fat Spider's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Old Fat Spider.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
 
 ## Combo 600-1180-3062
 Cards: Jace, Cunning Castaway + Nicol Bolas, Dragon-God + Pir, Imaginative Rascal
@@ -9311,6 +9380,17 @@ Steps: Pay {1} to activate Patron of the Moon, putting Rakdos Carnarium from you
   Resolve Rakdos Carnarium's triggered ability, returning it from the battlefield to your hand.
   Repeat.
 
+## Combo 774-3257-8345
+Cards: Patron of the Moon + Rakdos Carnarium + Warp Speed
+Color identity: UBRG | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {1}
+Produces: Infinite black mana; Infinite red mana; Infinite landfall triggers
+Start: Patron of the Moon (battlefield); Rakdos Carnarium (hand); Warp Speed (battlefield)
+Steps: Pay {1} to activate Patron of the Moon, putting Rakdos Carnarium from your hand onto the battlefield untapped due to Warp Speed 
+  When Rakdos Carnarium enters, it triggers
+  Holding priority, activate Rakdos Carnarium by tapping it, adding two mana.
+  Resolve Rakdos Carnarium's triggered ability, returning it from the battlefield to your hand.
+  Repeat.
+
 ## Combo 774-3756-4826
 Cards: Patron of the Moon + Izzet Boilerworks + Archelos, Lagoon Mystic
 Color identity: UBRG | Bracket: 3-4+ (Spicy) | Popularity: 20 | Commander: legal | Mana needed: {1}
@@ -10075,6 +10155,46 @@ Steps: Activate Hammerhead by sacrificing Flameskull.
   Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
   Repeat.
 
+## Combo 851-967-3809-7087-8227
+Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Adrix and Nev, Twincasters + Loot, the Anomaly
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite artifact tokens; Exile your library; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Prosper, Tome-Bound (battlefield); Goldspan Dragon (battlefield); Flameskull (battlefield, exile); Adrix and Nev, Twincasters (battlefield); Loot, the Anomaly (battlefield)
+Prerequisites: You have at least seven cards in your graveyard.
+Steps: Activate Loot by sacrificing Flameskull
+  When Flameskull dies, it triggers, exiling it and the top card of your library with the ability to cast one from exile this turn.
+  Resolve Loot's ability, giving them -2/-0 until end of turn.
+  Cast Flameskull from exile by paying {1}{R}{R}.
+  Prosper's second ability triggers, creating two Treasure tokens due to Adrix and Nev.
+  Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
+  Repeat from step 1
+
+## Combo 851-967-3809-7087-8249
+Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Defiant Salvager + Adrix and Nev, Twincasters
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite +1/+1 counters on a creature; Infinite artifact tokens; Exile your library; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Prosper, Tome-Bound (battlefield); Goldspan Dragon (battlefield); Flameskull (battlefield, exile); Defiant Salvager (battlefield); Adrix and Nev, Twincasters (battlefield)
+Steps: Activate Defiant Salvager by sacrificing Flameskull
+  When Flameskull dies, it triggers, exiling it and the top card of your library with the ability to cast one from exile this turn.
+  Resolve Defiant Salvager's ability, putting a +1/+1 counter on it.
+  Cast Flameskull from exile by paying {1}{R}{R}.
+  Prosper's second ability triggers, creating two Treasure tokens due to Adrix and Nev.
+  Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
+  Repeat from step 1
+
+## Combo 851-967-3809-7087-8250
+Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Adrix and Nev, Twincasters + Scarland Thrinax
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite artifact tokens; Exile your library; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Prosper, Tome-Bound (battlefield); Goldspan Dragon (battlefield); Flameskull (battlefield, exile); Adrix and Nev, Twincasters (battlefield); Scarland Thrinax (battlefield)
+Steps: Activate Scarland Thrinax by sacrificing Flameskull
+  When Flameskull dies, it triggers, exiling it and the top card of your library with the ability to cast one from exile this turn.
+  Resolve Scarland Thrinax's ability, putting a +1/+1 counter on it.
+  Cast Flameskull from exile by paying {1}{R}{R}.
+  Prosper's second ability triggers, creating two Treasure tokens due to Adrix and Nev.
+  Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
+  Repeat from step 1
+
 ## Combo 851-1251-1563-2457
 Cards: Jaheira, Friend of the Forest + Ant Queen + Adrix and Nev, Twincasters + Dragonlord Kolaghan
 Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
@@ -10786,7 +10906,7 @@ Steps: Cast Kindred Charge for free due to Vision, choosing a creature type gran
 
 ## Combo 872-3257-7857
 Cards: Scaled Herbalist + Rakdos Carnarium + Elven Raft-Steerer
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Scaled Herbalist (battlefield: without summoning sickness); Rakdos Carnarium (hand); Elven Raft-Steerer (battlefield)
 Steps: Activate Scaled Herbalist by tapping it, putting Rakdos Carnarium from your hand onto the battlefield.
@@ -17298,6 +17418,16 @@ Steps: Activate Yawgmoth's first ability by paying 1 life and sacrificing anothe
   When the Insect enters the battlefield, Bogwater Lumaret triggers, causing you to gain 1 life.
   Repeat.
 
+## Combo 1339-4321-5349
+Cards: Izoni, Center of the Web + The Locust God + Peregrin Took
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB
+Start: Izoni, Center of the Web (battlefield); The Locust God (battlefield); Peregrin Took (battlefield)
+Prerequisites: You control at least four tokens.
+Steps: Activate Izoni by sacrificing four tokens, causing you to surveil 2, draw two cards, and gain 2 life.
+  The Locust God triggers twice, creating four tokens due to Peregrin Took.
+  Repeat.
+
 ## Combo 1339-4616-5147
 Cards: The Locust God + Moldervine Reclamation + Goblin Bombardment
 Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
@@ -17414,6 +17544,26 @@ Steps: Activate Altar of Dementia by sacrificing another creature.
   When the creature dies, Dragon Appeasement triggers, causing you to draw a card.
   The Locust God triggers, creating a 1/1 Insect creature token with flying and haste.
   Resolve the Altar of Dementia ability.
+  Repeat.
+
+## Combo 1339-5349-6705
+Cards: Izoni, Center of the Web + The Locust God + Quina, Qu Gourmet
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB
+Start: Izoni, Center of the Web (battlefield); The Locust God (battlefield); Quina, Qu Gourmet (battlefield)
+Prerequisites: You control at least four tokens.
+Steps: Activate Izoni by sacrificing four tokens, causing you to surveil 2, draw two cards, and gain 2 life.
+  The Locust God triggers twice, creating four tokens due to Quina.
+  Repeat.
+
+## Combo 1339-5349-7810
+Cards: Izoni, Center of the Web + The Locust God + Tippy-Toe, Terrific Partner
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB
+Start: Izoni, Center of the Web (battlefield); The Locust God (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Prerequisites: You control at least four tokens.
+Steps: Activate Izoni by sacrificing four tokens, causing you to surveil 2, draw two cards, and gain 2 life.
+  The Locust God triggers twice, creating four tokens due to Tippy-Toe.
   Repeat.
 
 ## Combo 1339-5572-6495
@@ -21773,7 +21923,7 @@ Steps: Activate Sarcatog by sacrificing another artifact creature.
 
 ## Combo 1993-3257-7857
 Cards: Budoka Gardener // Dokai, Weaver of Life + Rakdos Carnarium + Elven Raft-Steerer
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Budoka Gardener // Dokai, Weaver of Life (battlefield: without summoning sickness); Rakdos Carnarium (hand); Elven Raft-Steerer (battlefield)
 Prerequisites: You control eight or fewer lands.
@@ -23841,7 +23991,7 @@ Steps: Cast the extra turn spell by paying its mana cost, causing you to take an
 
 ## Combo 2248-3257-7857
 Cards: Skyshroud Ranger + Rakdos Carnarium + Elven Raft-Steerer
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Skyshroud Ranger (battlefield: without summoning sickness); Rakdos Carnarium (hand); Elven Raft-Steerer (battlefield)
 Steps: Activate Skyshroud Ranger by tapping it, putting Rakdos Carnarium from your hand onto the battlefield.
@@ -25592,7 +25742,7 @@ Steps: Activate Gwenna by tapping it, adding {U}{B} that can only be spent to ca
 
 ## Combo 2665-3362
 Cards: Bladewing the Risen + Progenitor Mimic
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 32 | Commander: legal
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 33 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite death triggers
 Start: Bladewing the Risen (battlefield); Progenitor Mimic (hand)
 Prerequisites: You have enough mana to cast Progenitor Mimic
@@ -26151,7 +26301,7 @@ Steps: Activate Songbird by discarding Gilded Assault Cart.
 
 ## Combo 3177-3257-7857
 Cards: Sakura-Tribe Scout + Rakdos Carnarium + Elven Raft-Steerer
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Sakura-Tribe Scout (battlefield: without summoning sickness); Rakdos Carnarium (hand); Elven Raft-Steerer (battlefield)
 Steps: Activate Sakura-Tribe Scout by tapping it, putting Rakdos Carnarium from your hand onto the battlefield.
@@ -27373,6 +27523,20 @@ Steps: Activate Zimone and Dina by tapping it and sacrificing Bloodghast, causin
   Resolve the Bloodghast trigger, returning it from your graveyard to the battlefield.
   Resolve the Elven Raft-Steerer trigger, untapping Zimone and Dina.
   Repeat.
+
+## Combo 3769-6086-6087-8412
+Cards: Sentinel + Lure + Blim, Comedic Genius + Ruric Thar, Biomagus
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Sentinel (battlefield); Lure (battlefield); Blim, Comedic Genius (battlefield); Ruric Thar, Biomagus (battlefield)
+Prerequisites: Blim does not have summoning sickness and cannot be blocked by an opponent.
+  Lure attached to Sentinel.
+  Sentinel does not have summoning sickness.
+Steps: Deal combat damage to an opponent with Blim.
+  When Blim deals combat damage, Blim triggers, causing (among other effects) target opponent to gain control of Ruric Thar.
+  During your next declare attackers step, declare Sentinel as an attacker, forcing Ruric Thar to block it due to Lure.
+  Holding priority, activate Sentinel an arbitrarily large number of times by paying {0}, targeting Ruric Thar.
+  Ruric Thar triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
 
 ## Combo 3771-3967-4484-4871-5643
 Cards: Geralf, the Fleshwright + Pitiless Plunderer + Ebondeath, Dracolich + Animar, Soul of Elements + Yahenni, Undying Partisan

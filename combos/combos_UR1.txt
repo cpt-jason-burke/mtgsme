@@ -961,7 +961,7 @@ Steps: Cast the additional sorcery by paying its mana cost.
 
 ## Combo 46-6452
 Cards: Adaptive Training Post + Refuse // Cooperate
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 91 | Commander: legal
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 92 | Commander: legal
 Produces: Infinite magecraft triggers
 Start: Adaptive Training Post (battlefield: with two or more charge counters on it); Refuse // Cooperate (graveyard)
 Prerequisites: You have an instant or sorcery card in hand with enough mana to cast it.
@@ -2250,7 +2250,7 @@ Steps: Activate any creature you control that does not have summoning sickness b
 
 ## Combo 112-392-4280-5195
 Cards: Veyran, Voice of Duality + Birgi, God of Storytelling // Harnfel, Horn of Bounty + Storm-Kiln Artist + Clockspinning
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 79 | Commander: legal | Mana needed: {3}{U}
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 80 | Commander: legal | Mana needed: {3}{U}
 Produces: Infinitely large creature until end of turn; Infinite proliferate; Infinite artifact ETB; Infinite artifact LTB; Infinite magecraft triggers; Infinite storm count
 Start: Veyran, Voice of Duality (battlefield); Birgi, God of Storytelling // Harnfel, Horn of Bounty (battlefield); Storm-Kiln Artist (battlefield); Clockspinning (hand)
 Steps: Cast Clockspinning with buyback by paying {3}{U}.
@@ -2950,7 +2950,7 @@ Steps: Cast Heat Shimmer by paying its mana cost, targeting a creature you contr
 
 ## Combo 141-5487
 Cards: Naru Meha, Master Wizard + Molten Duplication
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 790 | Commander: legal | Mana needed: {2}{U}{U}
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 780 | Commander: legal | Mana needed: {2}{U}{U}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite magecraft triggers
 Start: Naru Meha, Master Wizard (hand); Molten Duplication (hand)
 Prerequisites: You control at least one creature.
@@ -3004,7 +3004,7 @@ Steps: Cast Kindle the Inner Flame by paying its mana cost, targeting a creature
 
 ## Combo 142-486-1434
 Cards: Saheeli Rai + Liquimetal Torque + Mirror Box
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 51 | Commander: legal
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 52 | Commander: legal
 Produces: Infinite copies of a specific planeswalker
 Start: Saheeli Rai (battlefield); Liquimetal Torque (battlefield); Mirror Box (battlefield)
 Prerequisites: Saheeli Rai has at least two loyalty counters on it.
@@ -3722,7 +3722,7 @@ Steps: Cast Irenicus's Vile Duplication by paying its mana cost, targeting a cre
 
 ## Combo 147-4598
 Cards: Dualcaster Mage + Essence Flux
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 11000 | Commander: legal | Mana needed: {1}{U}{R}{R}
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 12000 | Commander: legal | Mana needed: {1}{U}{R}{R}
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers
 Start: Dualcaster Mage (hand); Essence Flux (hand)
 Prerequisites: There are legal target(s) for Essence Flux.
@@ -4294,7 +4294,7 @@ Steps: Cast Walk the Aeons by paying {4}{U}{U}, causing you to take an extra tur
 
 ## Combo 185-4293-4872
 Cards: Mystic Retrieval + Runic Repetition + Time Warp
-Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 87 | Commander: legal | Mana needed: {10}{U}{U}{U}{U}{R} each turn
+Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 86 | Commander: legal | Mana needed: {10}{U}{U}{U}{U}{R} each turn
 Produces: Infinite turns; Lock
 Start: Mystic Retrieval (hand); Runic Repetition (graveyard); Time Warp (battlefield)
 Steps: Cast Time Warp by paying {3}{U}{U}, causing you to take an extra turn after this one.
@@ -5262,7 +5262,7 @@ Steps: Activate any creature you control that does not have summoning sickness b
 
 ## Combo 204-3368-5851
 Cards: Stormsplitter + Sorcerer Class + Reiterate
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 700 | Commander: legal | Mana needed: {10} at most, depending on how many Stormsplitters and/or other creatures you control without summoning sickness
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 690 | Commander: legal | Mana needed: {10} at most, depending on how many Stormsplitters and/or other creatures you control without summoning sickness
 Produces: Infinite damage; Infinite creature tokens with haste; Infinite copies of instant and sorcery spells on the stack; Infinite blue mana that can only be spent to cast instant and sorcery spells; Infinite red mana that can only be spent to cast instant and sorcery spells; Infinite creature LTB; Infinite creature ETB; Infinite storm count; Infinite magecraft triggers
 Start: Stormsplitter (battlefield); Sorcerer Class (battlefield); Reiterate (hand)
 Prerequisites: You have another instant or sorcery card in hand with the mana to cast it.
@@ -6003,6 +6003,18 @@ Steps: Draw a card.
   Activate Phyrexian Altar by sacrificing an Insect token, adding {1}.
   Repeat from step 3.
 
+## Combo 232-273-1914
+Cards: Cowardice + Priest of Urabrask + Shuko
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{R}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Priest of Urabrask (hand); Shuko (battlefield)
+Steps: Cast Priest of Urabrask by paying its mana cost.
+  When Priest of Urabrask enters, it triggers, adding {R}{R}{R}.
+  Activate Shuko by paying {0}, targeting Priest of Urabrask.
+  Cowardice triggers, returning Priest of Urabrask from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
+
 ## Combo 232-307-2232-3612
 Cards: Arni Metalbrow + Thousand-Faced Shadow + Cloudstone Curio + Priest of Urabrask
 Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}
@@ -6259,6 +6271,18 @@ Steps: Cast Priest of Urabrask by paying its mana cost.
   Resolve the Inexorable Tide trigger, causing you to proliferate, thus putting an ice counter on Iceberg.
   Holding priority, activate Iceberg's second ability by removing an ice counter, adding {C}.
   Resolve the Equilibrium trigger, causing you to pay {1} to return Priest of Urabrask from the battlefield to your hand.
+  Repeat.
+
+## Combo 232-876-1914
+Cards: Cowardice + Priest of Urabrask + Lightning Greaves
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {2}{R}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Priest of Urabrask (hand); Lightning Greaves (battlefield)
+Steps: Cast Priest of Urabrask by paying its mana cost.
+  When Priest of Urabrask enters, it triggers, adding {R}{R}{R}.
+  Activate Lightning Greaves by paying {0}, targeting Priest of Urabrask.
+  Cowardice triggers, returning Priest of Urabrask from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
   Repeat.
 
 ## Combo 232-1003-1048-3800-5283
@@ -6758,6 +6782,43 @@ Steps: Activate Reflection of Kiki-Jiki by paying {1} and tapping it, creating a
   The Priest of Urabrask token enters the battlefield, triggering itself and Intruder Alarm.
   Resolve the Priest of Urabrask trigger, adding {R}{R}{R}.
   Resolve the Intruder Alarm trigger, untapping all creatures.
+  Repeat.
+
+## Combo 232-1914-2816
+Cards: Cowardice + Priest of Urabrask + Umbral Mantle
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{R}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Priest of Urabrask (hand); Umbral Mantle (battlefield)
+Steps: Cast Priest of Urabrask by paying its mana cost.
+  When Priest of Urabrask enters, it triggers, adding {R}{R}{R}.
+  Activate Umbral Mantle by paying {0}, targeting Priest of Urabrask.
+  Cowardice triggers, returning Priest of Urabrask from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
+
+## Combo 232-1914-4955
+Cards: Cowardice + Priest of Urabrask + Grafted Wargear
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{R}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Priest of Urabrask (hand); Grafted Wargear (battlefield)
+Steps: Cast Priest of Urabrask by paying its mana cost.
+  When Priest of Urabrask enters, it triggers, adding {R}{R}{R}.
+  Activate Grafted Wargear by paying {0}, targeting Priest of Urabrask.
+  Cowardice triggers, returning Priest of Urabrask from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
+
+## Combo 232-1914-5639
+Cards: Cowardice + Priest of Urabrask + Arm-Mounted Anchor
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{R}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Priest of Urabrask (hand); Arm-Mounted Anchor (battlefield)
+Prerequisites: You have one or fewer cards in hand.
+Steps: Cast Priest of Urabrask by paying its mana cost.
+  When Priest of Urabrask enters, it triggers, adding {R}{R}{R}.
+  Activate Arm-Mounted Anchor by paying {0}, targeting Priest of Urabrask.
+  Cowardice triggers, returning Priest of Urabrask from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
   Repeat.
 
 ## Combo 232-2034-4790-5149
@@ -7277,6 +7338,76 @@ Steps: Cast Déjà Vu by paying {1}{U}, targeting Call to Mind.
   Activate the Treasure token by tapping and sacrificing it, adding {U}{U}.
   Repeat.
 
+## Combo 273-862-1914
+Cards: Cowardice + Shuko + Crimson Kobolds
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Shuko (battlefield); Crimson Kobolds (hand)
+Steps: Cast Crimson Kobolds by paying its mana cost.
+  Activate Shuko by paying {0}, targeting Crimson Kobolds.
+  Cowardice triggers, returning Crimson Kobolds from the battlefield to your hand.
+  The ability from step 2 fizzles due to having no valid target.
+  Repeat.
+
+## Combo 273-914-1914
+Cards: Cowardice + Shuko + Dockside Extortionist
+Color identity: UR | Bracket: none (not legal) | Popularity: 0 | Commander: not legal | Mana needed: {1}{R}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Shuko (battlefield); Dockside Extortionist (hand)
+Prerequisites: Opponents control at least two artifacts and/or enchantments.
+Steps: Cast Dockside Extortionist by paying its mana cost.
+  When Dockside Extortionist enters, it triggers, creating a Treasure for each artifact and/or enchantment your opponents control.
+  Activate Shuko by paying {0}, targeting Dockside Extortionist.
+  Cowardice triggers, returning Dockside Extortionist from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
+
+## Combo 273-1914-2459
+Cards: Cowardice + Shuko + Rograkh, Son of Rohgahh
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Shuko (battlefield); Rograkh, Son of Rohgahh (hand)
+Steps: Cast Rograkh by paying its mana cost.
+  Activate Shuko by paying {0}, targeting Rograkh.
+  Cowardice triggers, returning Rograkh from the battlefield to your hand.
+  The ability from step 2 fizzles due to having no valid target.
+  Repeat.
+
+## Combo 273-1914-3558
+Cards: Cowardice + Shuko + Crookshank Kobolds
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Shuko (battlefield); Crookshank Kobolds (hand)
+Steps: Cast Crookshank Kobolds by paying its mana cost.
+  Activate Shuko by paying {0}, targeting Crookshank Kobolds.
+  Cowardice triggers, returning Crookshank Kobolds from the battlefield to your hand.
+  The ability from step 2 fizzles due to having no valid target.
+  Repeat.
+
+## Combo 273-1914-4031
+Cards: Cowardice + Shuko + Ardent Electromancer
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{R}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Shuko (battlefield); Ardent Electromancer (hand)
+Prerequisites: There are at least three creatures in your party.
+Steps: Cast Ardent Electromancer by paying its mana cost.
+  When Ardent Electromancer enters, it triggers, adding at least {R}{R}{R}.
+  Activate Shuko by paying {0}, targeting Ardent Electromancer.
+  Cowardice triggers, returning Ardent Electromancer from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
+
+## Combo 273-1914-4336
+Cards: Cowardice + Shuko + Kobolds of Kher Keep
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Shuko (battlefield); Kobolds of Kher Keep (hand)
+Steps: Cast Kobolds of Kher Keep by paying its mana cost.
+  Activate Shuko by paying {0}, targeting Kobolds of Kher Keep.
+  Cowardice triggers, returning Kobolds of Kher Keep from the battlefield to your hand.
+  The ability from step 2 fizzles due to having no valid target.
+  Repeat.
+
 ## Combo 275-392-5078
 Cards: Sensei's Divining Top + Transplant Theorist + Birgi, God of Storytelling // Harnfel, Horn of Bounty
 Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 59 | Commander: legal | Mana needed: {1}
@@ -7341,7 +7472,7 @@ Steps: Cast Time Warp by paying its mana cost, causing you to take an extra turn
 
 ## Combo 275-3446-5078
 Cards: Sensei's Divining Top + Transplant Theorist + Herald of Kozilek
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal
 Produces: Infinite looting; Infinite draw triggers; Infinite self-discard triggers; Near-infinite storm count
 Start: Sensei's Divining Top (hand); Transplant Theorist (battlefield); Herald of Kozilek (battlefield)
 Steps: Cast Sensei's Divining Top by paying {0} due to Herald of Kozilek.
@@ -7522,7 +7653,7 @@ Steps: Cast Lay Claim by {5}{U}{U}, targeting any permanent on the battlefield.
 
 ## Combo 279-1368-2196
 Cards: Underworld Breach + Frantic Search + Drowned Secrets
-Color identity: UR | Bracket: 3+ (Powerful) | Popularity: 49 | Commander: legal
+Color identity: UR | Bracket: 3+ (Powerful) | Popularity: 48 | Commander: legal
 Produces: Near-infinite mill; Near-infinite self-mill; Near-infinite looting; Near-infinite draw triggers; Near-infinite magecraft triggers; Near-infinite self-discard triggers; Near-infinite storm count
 Start: Underworld Breach (battlefield); Frantic Search (graveyard); Drowned Secrets (battlefield)
 Prerequisites: You have at least three other cards in your graveyard.
@@ -7736,7 +7867,7 @@ Steps: Declare Dockside Extortionist as an attacker.
 
 ## Combo 324-1379-4096
 Cards: Encroaching Mycosynth + Scrap Welder + Goblin Welder
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 160 | Commander: legal
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 170 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Encroaching Mycosynth (battlefield); Scrap Welder (battlefield); Goblin Welder (graveyard)
 Prerequisites: You have a static effect that grants your creatures haste.
@@ -8120,7 +8251,7 @@ Steps: Cast Baral's Expertise by paying {3}{U}{U}.
 
 ## Combo 352-2196-3756
 Cards: Frantic Search + Izzet Boilerworks + Nivix Guildmage
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 580 | Commander: legal | Mana needed: {4}{U}{U}{R}
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 570 | Commander: legal | Mana needed: {4}{U}{U}{R}
 Produces: Infinite looting
 Start: Frantic Search (hand); Izzet Boilerworks (battlefield); Nivix Guildmage (battlefield)
 Prerequisites: At least two additional lands on the battlefield.
@@ -9195,7 +9326,7 @@ Steps: Cast a copy of Molten Tide from exile by paying one mana, unpreparing Pyr
 
 ## Combo 392-1170-7525
 Cards: Displacer Kitten + Pigment Wrangler // Striking Palette + Birgi, God of Storytelling // Harnfel, Horn of Bounty
-Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 67 | Commander: legal | Mana needed: {R}
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 68 | Commander: legal | Mana needed: {R}
 Produces: Infinite copies of instants and sorceries; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
 Start: Displacer Kitten (battlefield); Pigment Wrangler // Striking Palette (battlefield: prepared); Birgi, God of Storytelling // Harnfel, Horn of Bounty (battlefield)
 Steps: Cast a copy of the prepared spell from exile by paying one mana, unpreparing Pigment Wrangler // Striking Palette.
@@ -9235,7 +9366,7 @@ Steps: Cast Haze of Rage with buyback by paying {3}{R}.
 
 ## Combo 392-1329-3338-5569
 Cards: Emry, Lurker of the Loch + Mirran Spy + Birgi, God of Storytelling // Harnfel, Horn of Bounty + Lantern of Insight
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite storm count
 Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Mirran Spy (battlefield); Birgi, God of Storytelling // Harnfel, Horn of Bounty (battlefield); Lantern of Insight (graveyard)
 Steps: Activate Emry by tapping it, targeting Lantern of Insight.
@@ -9248,7 +9379,7 @@ Steps: Activate Emry by tapping it, targeting Lantern of Insight.
 
 ## Combo 392-1329-3338-6504
 Cards: Emry, Lurker of the Loch + Mirran Spy + Birgi, God of Storytelling // Harnfel, Horn of Bounty + Conjurer's Bauble
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers
 Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Mirran Spy (battlefield); Birgi, God of Storytelling // Harnfel, Horn of Bounty (battlefield); Conjurer's Bauble (graveyard)
 Steps: Activate Emry by tapping it, targeting Conjurer's Bauble.
@@ -9326,7 +9457,7 @@ Steps: If you have six or more cards in hand, activate Birgi, God of Storytellin
 
 ## Combo 392-1661-5078
 Cards: Sensei's Divining Top + Birgi, God of Storytelling // Harnfel, Horn of Bounty + Magus of the Future
-Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 39 | Commander: legal | Mana needed: {1}
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 40 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Birgi, God of Storytelling // Harnfel, Horn of Bounty (battlefield); Magus of the Future (battlefield)
 Steps: Activate Sensei's Divining Top's second ability by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -9823,7 +9954,7 @@ Steps: Activate Gilded Lotus by tapping it, adding {U}{U}{U}.
 
 ## Combo 392-4869-6092
 Cards: Niv-Mizzet, Visionary + Glint-Horn Buccaneer + Birgi, God of Storytelling // Harnfel, Horn of Bounty
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 380 | Commander: legal
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 370 | Commander: legal
 Produces: Near-infinite damage; Near-infinite card draw; Near-infinite looting; Cast a subset of spells in your library; Infinite draw triggers; Near-infinite self-discard triggers
 Start: Niv-Mizzet, Visionary (battlefield); Glint-Horn Buccaneer (battlefield); Birgi, God of Storytelling // Harnfel, Horn of Bounty (battlefield)
 Prerequisites: You have at least one card in hand.
@@ -9943,7 +10074,7 @@ Steps: Activate Sensei's Divining Top's second ability by tapping it, causing yo
 
 ## Combo 392-5078-7650
 Cards: Birgi, God of Storytelling // Harnfel, Horn of Bounty + Sensei's Divining Top + Bilbo, Thief in the Night
-Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 300 | Commander: legal
+Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 310 | Commander: legal
 Produces: Near-infinite looting; Near-infinite draw triggers; Near-infinite self-discard triggers; Near-infinite storm count
 Start: Birgi, God of Storytelling // Harnfel, Horn of Bounty (battlefield); Sensei's Divining Top (battlefield); Bilbo, Thief in the Night (battlefield)
 Steps: Activate Sensei's Divining Top's second ability by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -10006,7 +10137,7 @@ Steps: Activate Sensei's Divining Top's second ability by tapping it, causing yo
 
 ## Combo 392-5078-8176
 Cards: Birgi, God of Storytelling // Harnfel, Horn of Bounty + Sensei's Divining Top + Geist of Saint Thalia
-Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 620 | Commander: legal
+Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 640 | Commander: legal
 Produces: Near-infinite looting; Near-infinite draw triggers; Near-infinite self-discard triggers; Near-infinite storm count
 Start: Birgi, God of Storytelling // Harnfel, Horn of Bounty (battlefield); Sensei's Divining Top (battlefield); Geist of Saint Thalia (battlefield)
 Steps: Activate Sensei's Divining Top's second ability by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -10040,7 +10171,7 @@ Steps: Draw a card.
 
 ## Combo 406-1339-5719
 Cards: The Locust God + Tandem Lookout + Molten Gatekeeper
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 480 | Commander: legal
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 490 | Commander: legal
 Produces: Near-infinite damage; Infinite card draw; Near-infinite creature tokens with haste; Near-infinite creature ETB; Infinite draw triggers
 Start: The Locust God (battlefield); Tandem Lookout (battlefield); Molten Gatekeeper (battlefield)
 Prerequisites: Tandem Lookout paired with Molten Gatekeeper.
@@ -10700,7 +10831,7 @@ Steps: Cast Stream of Consciousness by paying its mana cost, targeting yourself.
 
 ## Combo 424-4276
 Cards: Turnabout + Mirror Sheen
-Color identity: UR | Bracket: 3+ (Powerful) | Popularity: 54 | Commander: legal | Mana needed: {3}{U}{U}{U/R}{U/R}, {3}{U/R}{U/R} of which are from the same type among lands
+Color identity: UR | Bracket: 3+ (Powerful) | Popularity: 53 | Commander: legal | Mana needed: {3}{U}{U}{U/R}{U/R}, {3}{U/R}{U/R} of which are from the same type among lands
 Produces: Infinite colored mana; Infinite colorless mana
 Start: Turnabout (hand); Mirror Sheen (battlefield)
 Steps: Cast Turnabout targeting yourself naming untap lands, hold priority.
@@ -11015,6 +11146,45 @@ Steps: Activate Neurok Transmuter's first ability by paying {U}, causing Sphinx'
   Sphinx's Disciple triggers, causing you to draw a card.
   Repeat from step 6.
 
+## Combo 440-1339-2034-8333
+Cards: The Locust God + Well of Lost Dreams + Ashnod's Altar + Sickbay
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite creature tokens with haste; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
+Start: The Locust God (battlefield); Well of Lost Dreams (battlefield); Ashnod's Altar (battlefield); Sickbay (battlefield)
+Prerequisites: You have a way to draw a card.
+Steps: Draw a card.
+  The Locust God triggers, creating a 1/1 Insect creature token with flying and haste.
+  When the Insect enters the battlefield, Sickbay triggers, causing you to gain 1 life.
+  Well of Lost Dreams triggers. Holding priority, activate Ashnod's Altar by sacrificing the Insect, adding {C}{C}
+  Resolve the Well of Lost Dreams trigger, causing you to pay {1} to draw a card.
+  Repeat from step 2.
+
+## Combo 440-1339-4050-8333
+Cards: The Locust God + Well of Lost Dreams + Phyrexian Altar + Sickbay
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
+Start: The Locust God (battlefield); Well of Lost Dreams (battlefield); Phyrexian Altar (battlefield); Sickbay (battlefield)
+Prerequisites: You have a way to draw a card.
+Steps: Draw a card.
+  The Locust God triggers, creating a 1/1 Insect creature token with flying and haste.
+  When the Insect enters the battlefield, Sickbay triggers, causing you to gain 1 life.
+  Well of Lost Dreams triggers. Holding priority, activate Phyrexian Altar by sacrificing the Insect, adding one mana of any color
+  Resolve the Well of Lost Dreams trigger, causing you to pay {1} to draw a card.
+  Repeat from step 2.
+
+## Combo 440-1339-5231-8333
+Cards: The Locust God + Well of Lost Dreams + Thermopod + Sickbay
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
+Start: The Locust God (battlefield); Well of Lost Dreams (battlefield); Thermopod (battlefield); Sickbay (battlefield)
+Prerequisites: You have a way to draw a card.
+Steps: Draw a card.
+  The Locust God triggers, creating a 1/1 Insect creature token with flying and haste.
+  When the Insect enters the battlefield, Sickbay triggers, causing you to gain 1 life.
+  Well of Lost Dreams triggers. Holding priority, activate Thermopod by sacrificing the Insect, adding {R}
+  Resolve the Well of Lost Dreams trigger, causing you to pay {1} to draw a card.
+  Repeat from step 2.
+
 ## Combo 455-3593-4031
 Cards: Sneak Attack + Hoverguard Sweepers + Ardent Electromancer
 Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {R}
@@ -11150,7 +11320,7 @@ Notes: If you control an artifact creature, it can be untapped by the second Sew
 
 ## Combo 457-1329-5315-7340
 Cards: Emry, Lurker of the Loch + Sewer-veillance Cam + Urza, Lord High Artificer + Ravenous Intruder
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {U}
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {U}
 Produces: Cast all spells in your library; Infinite blue mana; Infinite mana creatures you control can produce; Infinite card draw; Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Exile your library; Infinite storm count; Infinite untap of creatures you control; Infinite draw triggers
 Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Sewer-veillance Cam (graveyard); Urza, Lord High Artificer (battlefield); Ravenous Intruder (battlefield)
 Steps: Activate Emry by tapping it, allowing you to cast Sewer-veillance Cam from your graveyard this turn.
@@ -11386,7 +11556,7 @@ Steps: Cast Retraction Helix by paying {U}, targeting a creature you control tha
 
 ## Combo 457-3446-5078-5390
 Cards: Urza, Lord High Artificer + Forensic Gadgeteer + Sensei's Divining Top + Herald of Kozilek
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 85 | Commander: legal
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 84 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Urza, Lord High Artificer (battlefield); Forensic Gadgeteer (battlefield); Sensei's Divining Top (hand); Herald of Kozilek (battlefield)
 Steps: Cast Sensei's Divining Top by paying {0}.
@@ -13992,7 +14162,7 @@ Steps: Activate a creature by tapping it, adding at least {U}.
 
 ## Combo 551-1528-2539
 Cards: Dual Casting + Hidden Strings + Twinning Staff
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal | Mana needed: {1}{U}{R}
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal | Mana needed: {1}{U}{R}
 Produces: Infinite colored mana; Infinite mana creatures you control can produce; Infinite untap of creatures you control
 Start: Dual Casting (battlefield); Hidden Strings (hand); Twinning Staff (battlefield)
 Prerequisites: Dual Casting attached to any creature you control without summoning sickness.
@@ -14492,6 +14662,44 @@ Steps: Activate Unnatural Selection by paying {1}, causing HYDRA Assault Robot t
   Malcolm triggers, creating a Treasure token
   When the Treasure enters, HYDRA Assault Robot triggers, dealing 1 damage to target opponent.
   Repeat from step 4.
+
+## Combo 592-8195--222
+Cards: Venser, Fervent Forger + Role Reversal
+Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {U}{U}{R} and {0} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Instant or Sorcery that Creates One or More Copies of an Opposing Creature (hand)
+Start: Venser, Fervent Forger (battlefield); Role Reversal (hand)
+Prerequisites: An opponent controls a permanent that shares a type with the one you intend to donate.
+Steps: Cast Role Reversal by paying {U}{U}{R}, exchanging control of a permanent an opponent controls and Venser.
+  Cast your copy spell from the templated list by paying its mana cost, choosing the necessary targets to create at least one copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 3).
+  Repeat Step 4 until you have created two copies of Venser.
+  Repeat from Step 3. Depending on the permanents targeted in Step 4, the features produced will change.
+
+## Combo 592-8195--223
+Cards: Venser, Fervent Forger + Role Reversal
+Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {U}{U}{R} and {0} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Clone — Can Copy Opponent's Creatures (hand)
+Start: Venser, Fervent Forger (battlefield); Role Reversal (hand)
+Prerequisites: An opponent controls a permanent that shares a type with the one you intend to donate.
+Steps: Cast Role Reversal by paying {U}{U}{R}, exchanging control of a permanent an opponent controls and Venser.
+  Cast your clone spell from the templated list for its mana cost, choosing to have it enter as a copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 3).
+  Repeat Step 4 until you have created two copies of Venser.
+  Repeat from Step 3. Depending on the permanents targeted in Step 4, the features produced will change.
+
+## Combo 592-8297
+Cards: Kobayashi Maru Scenario + Role Reversal
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {U}{U}{R}
+Produces: Target opponent loses the game at the beginning of their next upkeep
+Start: Kobayashi Maru Scenario (battlefield); Role Reversal (hand)
+Prerequisites: An opponent controls a permanent that shares a type with the one you intend to donate.
+  All modes but "Abandon Ship" have been chosen for Kobayashi Maru Scenario.
+Steps: Cast Role Reversal by paying {U}{U}{R}, exchanging control of a permanent an opponent controls and Kobayashi Maru Scenario.
+  At the beginning of that opponent's upkeep, they are forced to choose the "Abandon Ship" mode and lose the game.
 
 ## Combo 610-2164-3799
 Cards: Archmage Emeritus + Chain of Plasma + Stuffy Doll
@@ -15008,7 +15216,7 @@ Steps: Activate Kiki-Jiki by tapping it, creating a token copy of Goatnapper wit
 
 ## Combo 618-725-1741
 Cards: Aura of Dominion + Kiki-Jiki, Mirror Breaker + Cloud of Faeries
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite colored mana; Infinite colorless mana; Infinite tapped tokens; Infinite creature ETB; Infinite creature LTB; Infinite untap of creatures you control
 Start: Aura of Dominion (battlefield); Kiki-Jiki, Mirror Breaker (battlefield); Cloud of Faeries (battlefield)
 Prerequisites: Aura of Dominion attached to Kiki-Jiki, Mirror Breaker.
@@ -15241,7 +15449,7 @@ Notes: Once you have infinite mana, you may instead target other creature(s) usi
 
 ## Combo 618-1295-4091
 Cards: Kiki-Jiki, Mirror Breaker + Aphetto Alchemist + Thassa's Oracle
-Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 55 | Commander: legal | Mana needed: {U}{U}
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 56 | Commander: legal | Mana needed: {U}{U}
 Produces: Infinite tapped creature tokens with haste; Win the game; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Kiki-Jiki, Mirror Breaker (battlefield); Aphetto Alchemist (battlefield); Thassa's Oracle (hand)
 Steps: Activate Kiki-Jiki by tapping it, creating a token copy of Aphetto Alchemist.
@@ -15574,7 +15782,7 @@ Steps: Cast Temporal Manipulation by paying {3}{U}{U}, causing you to take an ex
 
 ## Combo 618-2198
 Cards: Kiki-Jiki, Mirror Breaker + Deceiver Exarch
-Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 2500 | Commander: legal
+Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 2600 | Commander: legal
 Produces: Infinite creature tokens with haste; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Kiki-Jiki, Mirror Breaker (battlefield); Deceiver Exarch (battlefield)
 Steps: Activate Kiki-Jiki by tapping it, creating a token copy of Deceiver Exarch with haste.
@@ -15847,7 +16055,7 @@ Notes: The chosen anthem effect must increase Mercurial Pretender's toughness.
 
 ## Combo 618-3525--140
 Cards: Kiki-Jiki, Mirror Breaker + Pemmin's Aura
-Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 440 | Commander: legal
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 450 | Commander: legal
 Produces: Infinite tapped creature tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Mana Dork or Mana Dork Creator (battlefield)
 Start: Kiki-Jiki, Mirror Breaker (battlefield); Pemmin's Aura (battlefield: attached to Kiki-Jiki)
@@ -15859,7 +16067,7 @@ Notes: The chosen mana-producing creature must tap to produce at least {U} and n
 
 ## Combo 618-3525-4050
 Cards: Kiki-Jiki, Mirror Breaker + Phyrexian Altar + Pemmin's Aura
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 33 | Commander: legal
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Kiki-Jiki, Mirror Breaker (battlefield); Phyrexian Altar (battlefield); Pemmin's Aura (battlefield)
 Prerequisites: Pemmin's Aura attached to Kiki-Jiki.
@@ -16068,7 +16276,7 @@ Notes: The chosen anthem effect must increase Spark Double's toughness.
 
 ## Combo 618-4050-4222
 Cards: Kiki-Jiki, Mirror Breaker + Phyrexian Altar + Freed from the Real
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 53 | Commander: legal
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Kiki-Jiki, Mirror Breaker (battlefield); Phyrexian Altar (battlefield); Freed from the Real (battlefield)
 Prerequisites: Freed from the Real attached to Kiki-Jiki.
@@ -16122,7 +16330,7 @@ Steps: Cast Time Warp by paying {3}{U}{U}, causing you to take an extra turn.
 
 ## Combo 618-4222--140
 Cards: Kiki-Jiki, Mirror Breaker + Freed from the Real
-Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 960 | Commander: legal
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 970 | Commander: legal
 Produces: Infinite tapped creature tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Mana Dork or Mana Dork Creator (battlefield)
 Start: Kiki-Jiki, Mirror Breaker (battlefield); Freed from the Real (battlefield: attached to Kiki-Jiki)
@@ -16291,7 +16499,7 @@ Steps: Activate Captain of the Mists using Kiki-Jiki's ability by tapping it, cr
 
 ## Combo 618-4644
 Cards: Kiki-Jiki, Mirror Breaker + Tidewater Minion
-Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 28 | Commander: legal
+Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 29 | Commander: legal
 Produces: Infinite tapped creature tokens with haste; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Kiki-Jiki, Mirror Breaker (battlefield); Tidewater Minion (battlefield)
 Steps: Tap Kiki-Jiki to make a token copy of Tidewater Minion with haste.
@@ -17960,7 +18168,7 @@ Steps: Activate Krenko by tapping it, creating at least one 1/1 Goblin creature 
 
 ## Combo 659-3525-4050
 Cards: Krenko, Mob Boss + Phyrexian Altar + Pemmin's Aura
-Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 18 | Commander: legal
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 19 | Commander: legal
 Produces: Infinite colored mana; Infinite creature tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Krenko, Mob Boss (battlefield); Phyrexian Altar (battlefield); Pemmin's Aura (battlefield)
 Prerequisites: Krenko, Mob Boss does not have summoning sickness.
@@ -20302,7 +20510,7 @@ Steps: Activate Galazeth Prismari by paying {1}{U}, blinking it.
 
 ## Combo 773-1409-2397
 Cards: Deadeye Navigator + Galazeth Prismari + Panharmonicon
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 110 | Commander: legal | Mana needed: {1}{U}
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 120 | Commander: legal | Mana needed: {1}{U}
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB
 Start: Deadeye Navigator (battlefield: is paired with Galazeth Prismari); Galazeth Prismari (battlefield); Panharmonicon (battlefield)
 Steps: Activate Galazeth Prismari by paying {1}{U}, blinking it.
@@ -20327,7 +20535,7 @@ Steps: Activate Galazeth Prismari by paying {1}{U}, blinking it.
 
 ## Combo 773-1409-5184
 Cards: Deadeye Navigator + Galazeth Prismari + Xorn
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 88 | Commander: legal | Mana needed: {1}{U}
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 89 | Commander: legal | Mana needed: {1}{U}
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Deadeye Navigator (battlefield); Galazeth Prismari (battlefield); Xorn (battlefield)
 Prerequisites: Deadeye Navigator is paired with Galazeth Prismari.
@@ -20353,7 +20561,7 @@ Steps: Activate Galazeth Prismari by paying {1}{U}, blinking it.
 
 ## Combo 773-1409-6751
 Cards: Deadeye Navigator + Galazeth Prismari + Starfield Vocalist
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 42 | Commander: legal | Mana needed: {1}{U}
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal | Mana needed: {1}{U}
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB
 Start: Deadeye Navigator (battlefield: is paired with Galazeth Prismari); Galazeth Prismari (battlefield); Starfield Vocalist (battlefield)
 Steps: Activate Galazeth Prismari by paying {1}{U}, blinking it.
@@ -20701,7 +20909,7 @@ Steps: Declare Combat Celebrant and the creature with Stolen Identity encoded as
 
 ## Combo 797-1061-1953
 Cards: Brudiclad, Telchor Engineer + Timestream Navigator + Stolen Identity
-Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 83 | Commander: legal | Mana needed: {6}{U}{U}{U}{U} on your first turn, with {2}{U}{U} available on each extra turn
+Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 84 | Commander: legal | Mana needed: {6}{U}{U}{U}{U} on your first turn, with {2}{U}{U} available on each extra turn
 Produces: Infinite turns; Lock
 Start: Brudiclad, Telchor Engineer (battlefield); Timestream Navigator (battlefield); Stolen Identity (hand)
 Prerequisites: You have the city's blessing.
@@ -20727,7 +20935,7 @@ Steps: Declare Combat Celebrant and the creature with Stolen Identity encoded as
 
 ## Combo 797-1953-2105
 Cards: Brudiclad, Telchor Engineer + Combat Celebrant + Stolen Identity
-Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 260 | Commander: legal | Mana needed: {4}{U}{U}
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 250 | Commander: legal | Mana needed: {4}{U}{U}
 Produces: Infinite combat phases; Infinite damage
 Start: Brudiclad, Telchor Engineer (battlefield); Combat Celebrant (battlefield); Stolen Identity (hand)
 Steps: Cast Stolen Identity by paying {4}{U}{U}, creating a token copy of Combat Celebrant.
@@ -22087,7 +22295,7 @@ Steps: Cast Kindred Charge for free due to Vision, choosing a creature type gran
 
 ## Combo 813-7493-7494
 Cards: Choreographed Sparks + Blazing Firesinger // Seething Song + Scholar of the Ages
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {7}{U}{U}{R}{R}{R}
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {7}{U}{U}{R}{R}{R}
 Produces: Infinite creature tokens with haste; Infinite red mana; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite magecraft triggers; Infinite creature sacrifice triggers; Infinite storm count; Return all instant and sorcery cards from your graveyard to your hand
 Start: Choreographed Sparks (hand); Blazing Firesinger // Seething Song (battlefield); Scholar of the Ages (hand)
 Prerequisites: Blazing Firesinger is prepared.
@@ -22528,6 +22736,17 @@ Steps: Activate Amoeboid Changeling by tapping it, causing HYDRA Assault Robot t
   When the Treasure enters, HYDRA Assault Robot triggers, dealing 1 damage to target opponent.
   Repeat from step 4.
 
+## Combo 862-876-1914
+Cards: Cowardice + Crimson Kobolds + Lightning Greaves
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Crimson Kobolds (hand); Lightning Greaves (battlefield)
+Steps: Cast Crimson Kobolds by paying its mana cost.
+  Activate Lightning Greaves by paying {0}, targeting Crimson Kobolds.
+  Cowardice triggers, returning Crimson Kobolds from the battlefield to your hand.
+  The ability from step 2 fizzles due to having no valid target.
+  Repeat.
+
 ## Combo 862-939-1636-4694
 Cards: Soul Foundry + Intruder Alarm + March of the Machines + Crimson Kobolds
 Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
@@ -22782,7 +23001,7 @@ Steps: Cast Crimson Kobolds by paying its mana cost.
 
 ## Combo 862-1048-3800-3821-5283
 Cards: Iceberg + Inexorable Tide + Equilibrium + Crimson Kobolds + Peregrine Drake
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {4}{U}
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {4}{U}
 Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Crimson Kobolds (hand); Peregrine Drake (battlefield)
 Prerequisites: Iceberg has at least one ice counter on it.
@@ -22975,6 +23194,40 @@ Prerequisites: It is an opponent's turn.
 Steps: During an opponent's turn, cast the {0}-cost creature in your hand by paying {0}.
   Glen Elendra Pranksters triggers, returning the other {0}-cost creature from the battlefield to your hand.
   Resolve the spell from step 1.
+  Repeat.
+
+## Combo 862-1914-2816
+Cards: Cowardice + Crimson Kobolds + Umbral Mantle
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Crimson Kobolds (hand); Umbral Mantle (battlefield)
+Steps: Cast Crimson Kobolds by paying its mana cost.
+  Activate Umbral Mantle by paying {0}, targeting Crimson Kobolds.
+  Cowardice triggers, returning Crimson Kobolds from the battlefield to your hand.
+  The ability from step 2 fizzles due to having no valid target.
+  Repeat.
+
+## Combo 862-1914-4955
+Cards: Cowardice + Crimson Kobolds + Grafted Wargear
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Crimson Kobolds (hand); Grafted Wargear (battlefield)
+Steps: Cast Crimson Kobolds by paying its mana cost.
+  Activate Grafted Wargear by paying {0}, targeting Crimson Kobolds.
+  Cowardice triggers, returning Crimson Kobolds from the battlefield to your hand.
+  The ability from step 2 fizzles due to having no valid target.
+  Repeat.
+
+## Combo 862-1914-5639
+Cards: Cowardice + Crimson Kobolds + Arm-Mounted Anchor
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Crimson Kobolds (hand); Arm-Mounted Anchor (battlefield)
+Prerequisites: You have one or fewer cards in hand.
+Steps: Cast Crimson Kobolds by paying its mana cost.
+  Activate Arm-Mounted Anchor by paying {0}, targeting Crimson Kobolds.
+  Cowardice triggers, returning Crimson Kobolds from the battlefield to your hand.
+  The ability from step 2 fizzles due to having no valid target.
   Repeat.
 
 ## Combo 862-1927-2459-6516
@@ -23726,6 +23979,19 @@ Steps: Activate Emry by tapping it, allowing you to cast Delif's Cone from your 
   Activate Delif's Cone by tapping and sacrificing it.
   Repeat.
 
+## Combo 876-914-1914
+Cards: Cowardice + Lightning Greaves + Dockside Extortionist
+Color identity: UR | Bracket: none (not legal) | Popularity: 0 | Commander: not legal | Mana needed: {1}{R}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Lightning Greaves (battlefield); Dockside Extortionist (hand)
+Prerequisites: Opponents control at least two artifacts and/or enchantments.
+Steps: Cast Dockside Extortionist by paying its mana cost.
+  When Dockside Extortionist enters, it triggers, creating a Treasure for each artifact and/or enchantment your opponents control.
+  Activate Lightning Greaves by paying {0}, targeting Dockside Extortionist.
+  Cowardice triggers, returning Dockside Extortionist from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
+
 ## Combo 876-914-3036
 Cards: Dockside Extortionist + Wizard Mentor + Lightning Greaves
 Color identity: UR | Bracket: none (not legal) | Popularity: 0 | Commander: not legal | Mana needed: {1}{R}
@@ -23740,6 +24006,52 @@ Steps: Cast Dockside Extortionist by paying {1}{R}.
   Activate Wizard Mentor by tapping it, returning it and Dockside Extortionist to your hand from the battlefield.
   Repeat.
   If opponents control at least six artifacts and/or enchantments, this combo nets infinite Treasure tokens.
+
+## Combo 876-1914-2459
+Cards: Cowardice + Lightning Greaves + Rograkh, Son of Rohgahh
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Lightning Greaves (battlefield); Rograkh, Son of Rohgahh (hand)
+Steps: Cast Rograkh by paying its mana cost.
+  Activate Lightning Greaves by paying {0}, targeting Rograkh.
+  Cowardice triggers, returning Rograkh from the battlefield to your hand.
+  The ability from step 2 fizzles due to having no valid target.
+  Repeat.
+
+## Combo 876-1914-3558
+Cards: Cowardice + Lightning Greaves + Crookshank Kobolds
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Lightning Greaves (battlefield); Crookshank Kobolds (hand)
+Steps: Cast Crookshank Kobolds by paying its mana cost.
+  Activate Lightning Greaves by paying {0}, targeting Crookshank Kobolds.
+  Cowardice triggers, returning Crookshank Kobolds from the battlefield to your hand.
+  The ability from step 2 fizzles due to having no valid target.
+  Repeat.
+
+## Combo 876-1914-4031
+Cards: Cowardice + Lightning Greaves + Ardent Electromancer
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{R}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Lightning Greaves (battlefield); Ardent Electromancer (hand)
+Prerequisites: There are at least three creatures in your party.
+Steps: Cast Ardent Electromancer by paying its mana cost.
+  When Ardent Electromancer enters, it triggers, adding at least {R}{R}{R}.
+  Activate Lightning Greaves by paying {0}, targeting Ardent Electromancer.
+  Cowardice triggers, returning Ardent Electromancer from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
+
+## Combo 876-1914-4336
+Cards: Cowardice + Lightning Greaves + Kobolds of Kher Keep
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Lightning Greaves (battlefield); Kobolds of Kher Keep (hand)
+Steps: Cast Kobolds of Kher Keep by paying its mana cost.
+  Activate Lightning Greaves by paying {0}, targeting Kobolds of Kher Keep.
+  Cowardice triggers, returning Kobolds of Kher Keep from the battlefield to your hand.
+  The ability from step 2 fizzles due to having no valid target.
+  Repeat.
 
 ## Combo 888-898-1173-5261
 Cards: Tawnos, Urza's Apprentice + Isochron Scepter + Stifle + Final Fortune
@@ -24889,6 +25201,46 @@ Steps: Cast Dockside Extortionist by paying {1}{R}.
   Activate Lady Sun by tapping it, returning it and Dockside Extortionist from the battlefield to your hand.
   Repeat.
 Notes: If opponents control at least six artifacts and/or enchantments, this combo nets infinite Treasure tokens.
+
+## Combo 914-1914-2816
+Cards: Cowardice + Dockside Extortionist + Umbral Mantle
+Color identity: UR | Bracket: none (not legal) | Popularity: 0 | Commander: not legal | Mana needed: {1}{R}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Dockside Extortionist (hand); Umbral Mantle (battlefield)
+Prerequisites: Opponents control at least two artifacts and/or enchantments.
+Steps: Cast Dockside Extortionist by paying its mana cost.
+  When Dockside Extortionist enters, it triggers, creating a Treasure for each artifact and/or enchantment your opponents control.
+  Activate Umbral Mantle by paying {0}, targeting Dockside Extortionist.
+  Cowardice triggers, returning Dockside Extortionist from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
+
+## Combo 914-1914-4955
+Cards: Cowardice + Dockside Extortionist + Grafted Wargear
+Color identity: UR | Bracket: none (not legal) | Popularity: 0 | Commander: not legal | Mana needed: {1}{R}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Dockside Extortionist (hand); Grafted Wargear (battlefield)
+Prerequisites: Opponents control at least two artifacts and/or enchantments.
+Steps: Cast Dockside Extortionist by paying its mana cost.
+  When Dockside Extortionist enters, it triggers, creating a Treasure for each artifact and/or enchantment your opponents control.
+  Activate Grafted Wargear by paying {0}, targeting Dockside Extortionist.
+  Cowardice triggers, returning Dockside Extortionist from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
+
+## Combo 914-1914-5639
+Cards: Cowardice + Dockside Extortionist + Arm-Mounted Anchor
+Color identity: UR | Bracket: none (not legal) | Popularity: 0 | Commander: not legal | Mana needed: {1}{R}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Dockside Extortionist (hand); Arm-Mounted Anchor (battlefield)
+Prerequisites: Opponents control at least two artifacts and/or enchantments.
+  You have one or fewer cards in hand.
+Steps: Cast Dockside Extortionist by paying its mana cost.
+  When Dockside Extortionist enters, it triggers, creating a Treasure for each artifact and/or enchantment your opponents control.
+  Activate Arm-Mounted Anchor by paying {0}, targeting Dockside Extortionist.
+  Cowardice triggers, returning Dockside Extortionist from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
 
 ## Combo 914-1927-2234-3094
 Cards: Baral's Expertise + Dockside Extortionist + Lithoform Engine + Vedalken Orrery
@@ -26055,7 +26407,7 @@ Steps: Cast Whirlwind Technique by paying its mana cost, targeting any applicabl
 
 ## Combo 950-1432-7786
 Cards: Hawkeye's Bow + Fatestitcher + Ioreth of the Healing House
-Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 83 | Commander: legal
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 84 | Commander: legal
 Produces: Infinite damage
 Start: Hawkeye's Bow (battlefield: attached to either Fatestitcher or Ioreth of the Healing House); Fatestitcher (battlefield: without summoning sickness); Ioreth of the Healing House (battlefield: without summoning sickness)
 Steps: Activate Fatestitcher by tapping it, targeting Ioreth of the Healing House.
@@ -26081,7 +26433,7 @@ Steps: Activate Forbidden Orchard by tapping it, adding one mana of any color.
 
 ## Combo 950-1719-7786
 Cards: Hawkeye's Bow + Fatestitcher + Vizier of Tumbling Sands
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 85 | Commander: legal
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal
 Produces: Infinite damage
 Start: Hawkeye's Bow (battlefield: attached to either Fatestitcher or Vizier of Tumbling Sands); Fatestitcher (battlefield: without summoning sickness); Vizier of Tumbling Sands (battlefield: without summoning sickness)
 Steps: Activate Fatestitcher by tapping it, targeting Vizier of Tumbling Sands.
@@ -26094,7 +26446,7 @@ Steps: Activate Fatestitcher by tapping it, targeting Vizier of Tumbling Sands.
 
 ## Combo 950-2085-7786
 Cards: Hawkeye's Bow + Fatestitcher + Kelpie Guide
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 84 | Commander: legal
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 85 | Commander: legal
 Produces: Infinite damage
 Start: Hawkeye's Bow (battlefield: attached to either Fatestitcher or Kelpie Guide); Fatestitcher (battlefield: without summoning sickness); Kelpie Guide (battlefield: without summoning sickness)
 Steps: Activate Fatestitcher by tapping it, targeting Kelpie Guide.
@@ -26107,7 +26459,7 @@ Steps: Activate Fatestitcher by tapping it, targeting Kelpie Guide.
 
 ## Combo 950-2872-7786
 Cards: Hawkeye's Bow + Fatestitcher + Clever Conjurer
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal
 Produces: Infinite damage
 Start: Hawkeye's Bow (battlefield: attached to either Fatestitcher or Clever Conjurer); Fatestitcher (battlefield: without summoning sickness); Clever Conjurer (battlefield: without summoning sickness)
 Steps: Activate Fatestitcher by tapping it, targeting Clever Conjurer.
@@ -26157,7 +26509,7 @@ Steps: Activate Kragma Butcher using Fatestitcher's ability by tapping it, untap
 
 ## Combo 950-5475-7786
 Cards: Hawkeye's Bow + Fatestitcher + Forensic Researcher
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 73 | Commander: legal
 Produces: Infinite damage
 Start: Hawkeye's Bow (battlefield: attached to either Fatestitcher or Forensic Researcher); Fatestitcher (battlefield: without summoning sickness); Forensic Researcher (battlefield: without summoning sickness)
 Steps: Activate Fatestitcher by tapping it, targeting Forensic Researcher.
@@ -26170,7 +26522,7 @@ Steps: Activate Fatestitcher by tapping it, targeting Forensic Researcher.
 
 ## Combo 950-7014-7786
 Cards: Hawkeye's Bow + Fatestitcher + North Pole Patrol
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 46 | Commander: legal
 Produces: Infinite damage
 Start: Hawkeye's Bow (battlefield: attached to either Fatestitcher or North Pole Patrol); Fatestitcher (battlefield: without summoning sickness); North Pole Patrol (battlefield: without summoning sickness)
 Steps: Activate Fatestitcher by tapping it, targeting North Pole Patrol.
@@ -27432,7 +27784,7 @@ Steps: At the beginning of your precombat main phase, There and Back Again trigg
 
 ## Combo 974-2178-4183
 Cards: Saheeli, the Sun's Brilliance + There and Back Again + Thornbite Staff
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {U}{R}
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {U}{R}
 Produces: Infinite colored mana; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite death triggers; Infinite creature ETB; Infinite creature LTB
 Start: Saheeli, the Sun's Brilliance (battlefield); There and Back Again (battlefield); Thornbite Staff (battlefield)
 Prerequisites: Saheeli does not have summoning sickness.
@@ -28650,7 +29002,7 @@ Steps: Cast Shield Sphere by paying its mana cost.
 
 ## Combo 1048-2459-3800-3821-5283
 Cards: Iceberg + Inexorable Tide + Equilibrium + Rograkh, Son of Rohgahh + Peregrine Drake
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {4}{U}
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {4}{U}
 Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Rograkh, Son of Rohgahh (hand); Peregrine Drake (battlefield)
 Prerequisites: Iceberg has at least one ice counter on it.
@@ -28804,7 +29156,7 @@ Steps: Cast Crookshank Kobolds by paying its mana cost.
 
 ## Combo 1048-3558-3800-3821-5283
 Cards: Iceberg + Inexorable Tide + Equilibrium + Crookshank Kobolds + Peregrine Drake
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {4}{U}
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {4}{U}
 Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Crookshank Kobolds (hand); Peregrine Drake (battlefield)
 Prerequisites: Iceberg has at least one ice counter on it.
@@ -28878,7 +29230,7 @@ Steps: Cast Shield Sphere by paying its mana cost.
 
 ## Combo 1048-3800-3821-4336-5283
 Cards: Iceberg + Inexorable Tide + Equilibrium + Peregrine Drake + Kobolds of Kher Keep
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {4}{U}
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {4}{U}
 Produces: Infinite proliferate; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Iceberg (battlefield); Inexorable Tide (battlefield); Equilibrium (battlefield); Peregrine Drake (hand); Kobolds of Kher Keep (battlefield)
 Prerequisites: Iceberg has at least one ice counter on it.
@@ -28921,7 +29273,7 @@ Steps: Cast Twinflame by paying {1}{R}, creating a token copy of Timestream Navi
 
 ## Combo 1061-1339-4189
 Cards: The Locust God + Jalira, Master Polymorphist + Timestream Navigator
-Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 6 | Commander: legal | Mana needed: {4}{U}{U}{U} each turn
+Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 5 | Commander: legal | Mana needed: {4}{U}{U}{U} each turn
 Produces: Infinite turns; Lock
 Start: The Locust God (battlefield); Jalira, Master Polymorphist (battlefield); Timestream Navigator (battlefield)
 Prerequisites: You have the city's blessing.
@@ -29037,7 +29389,7 @@ Steps: Cast Fated Infatuation by paying {U}{U}{U}, creating a token copy of Time
 
 ## Combo 1061-2136
 Cards: Orthion, Hero of Lavabrink + Timestream Navigator
-Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 540 | Commander: legal | Mana needed: {3}{U}{U}{R} each turn
+Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 550 | Commander: legal | Mana needed: {3}{U}{U}{R} each turn
 Produces: Infinite turns; Lock
 Start: Orthion, Hero of Lavabrink (battlefield); Timestream Navigator (battlefield)
 Prerequisites: You have the city's blessing and/or control nine or more permanents.
@@ -29100,7 +29452,7 @@ Steps: Activate Reflection of Kiki-Jiki by paying {1} and tapping it, creating a
 
 ## Combo 1061-3395-4313
 Cards: Timestream Navigator + Flameshadow Conjuring + Crystal Shard
-Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 46 | Commander: legal | Mana needed: {2}{U}{U} each turn, plus an additional {3} or {U} available each turn
+Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 47 | Commander: legal | Mana needed: {2}{U}{U} each turn, plus an additional {3} or {U} available each turn
 Produces: Infinite turns; Lock
 Start: Timestream Navigator (hand); Flameshadow Conjuring (battlefield); Crystal Shard (battlefield)
 Prerequisites: You have the city's blessing and/or control at least eight permanents.
@@ -29195,7 +29547,7 @@ Steps: Cast Borne Upon a Wind by paying {1}{U}, allowing you to cast spells as t
 
 ## Combo 1077-8195--222
 Cards: Venser, Fervent Forger + Wrong Turn
-Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 45 | Commander: legal | Mana needed: {2}{U} plus the cost of copying Venser
+Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 46 | Commander: legal | Mana needed: {2}{U} plus the cost of copying Venser
 Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Requires: Instant or Sorcery that Creates One or More Copies of an Opposing Creature (hand)
 Start: Venser, Fervent Forger (battlefield); Wrong Turn (hand)
@@ -29208,7 +29560,7 @@ Steps: Cast Wrong Turn by paying {2}{U}, causing target opponent to gain control
 
 ## Combo 1077-8195--223
 Cards: Venser, Fervent Forger + Wrong Turn
-Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 45 | Commander: legal | Mana needed: {2}{U} plus the cost of copying Venser
+Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 46 | Commander: legal | Mana needed: {2}{U} plus the cost of copying Venser
 Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Requires: Clone — Can Copy Opponent's Creatures (hand)
 Start: Venser, Fervent Forger (battlefield); Wrong Turn (hand)
@@ -29221,7 +29573,7 @@ Steps: Cast Wrong Turn by paying {2}{U}, causing target opponent to gain control
 
 ## Combo 1085-1618-2440
 Cards: The Tenth Doctor + Chronozoa + Mana Echoes
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal | Mana needed: {7}, plus an additional {1} available if you control exactly one additional Illusion, or an additional {3} available if you do not control another Illusion
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal | Mana needed: {7}, plus an additional {1} available if you control exactly one additional Illusion, or an additional {3} available if you do not control another Illusion
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: The Tenth Doctor (battlefield); Chronozoa (battlefield); Mana Echoes (battlefield)
 Prerequisites: Chronozoa has at least one time counter on it.
@@ -29261,7 +29613,7 @@ Steps: Draw a card.
 
 ## Combo 1089-1339-6096
 Cards: The Locust God + Curiosity + General Kreat, the Boltbringer
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 240 | Commander: legal
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 230 | Commander: legal
 Produces: Near-infinite damage; Infinite card draw; Near-infinite creature tokens with haste; Near-infinite creature ETB; Infinite draw triggers
 Start: The Locust God (battlefield); Curiosity (battlefield); General Kreat, the Boltbringer (battlefield)
 Prerequisites: Curiosity attached to General Kreat.
@@ -29336,7 +29688,7 @@ Steps: Draw a card.
 
 ## Combo 1089-4703
 Cards: Brallin, Skyshark Rider + Curiosity
-Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 5300 | Commander: legal
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 5400 | Commander: legal
 Produces: Infinite card draw; Near-infinite damage; Near-infinite +1/+1 counters on a creature; Infinite draw triggers; Near-infinite self-discard triggers
 Start: Brallin, Skyshark Rider (battlefield); Curiosity (battlefield)
 Prerequisites: Curiosity attached to Brallin.
@@ -29816,7 +30168,7 @@ Steps: Activate Chandra's first loyalty ability by putting a loyalty counter on 
 
 ## Combo 1124-1677-2034-4356
 Cards: The Chain Veil + Ashnod's Altar + Ral Zarek + Chandra, Acolyte of Flame
-Color identity: UR | Bracket: 2+ (Core) | Popularity: 8 | Commander: legal
+Color identity: UR | Bracket: 2+ (Core) | Popularity: 7 | Commander: legal
 Produces: Infinite activations of most planeswalkers; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: The Chain Veil (battlefield); Ashnod's Altar (battlefield); Ral Zarek (battlefield); Chandra, Acolyte of Flame (battlefield)
 Steps: Activate Chandra's second loyalty ability by putting a loyalty counter on it, creating two 1/1 Elemental creature tokens.
@@ -29827,7 +30179,7 @@ Steps: Activate Chandra's second loyalty ability by putting a loyalty counter on
 
 ## Combo 1124-1766-2495-4356
 Cards: The Chain Veil + Tezzeret the Seeker + Ral Zarek + Thran Dynamo
-Color identity: UR | Bracket: 2+ (Core) | Popularity: 79 | Commander: legal
+Color identity: UR | Bracket: 2+ (Core) | Popularity: 81 | Commander: legal
 Produces: Infinite activations of most planeswalkers; Infinite colorless mana; Infinite mana permanents you control can produce; Infinite untap of permanents you control
 Start: The Chain Veil (battlefield); Tezzeret the Seeker (battlefield); Ral Zarek (battlefield); Thran Dynamo (battlefield)
 Steps: Activate Thran Dynamo by tapping it, adding {C}{C}{C}.
@@ -29953,7 +30305,7 @@ Steps: Activate Chandra, Torch of Defiance's second ability by putting a loyalty
 
 ## Combo 1124-4356-6636
 Cards: Edgar, King of Figaro + Ral Zarek + The Chain Veil
-Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 44 | Commander: legal | Mana needed: {4} each turn
+Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 45 | Commander: legal | Mana needed: {4} each turn
 Produces: Infinite turns; Lock
 Start: Edgar, King of Figaro (battlefield); Ral Zarek (battlefield: with seven or more loyalty counters); The Chain Veil (battlefield)
 Prerequisites: You have not flipped any coins this turn.
@@ -30708,323 +31060,3 @@ Steps: Declare Godo and the creature with Spellbinder attached as attackers.
   When Godo enters the battlefield, its first ability triggers, allowing you to search your library for an Equipment card and put it onto the battlefield.
   Resolve the spell cast in step 4.
   Repeat each combat phase.
-
-## Combo 1170-1328-4251-7297
-Cards: Godo, Bandit Warlord + Displacer Kitten + Spellbinder + Barbarian Class
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite combat damage; Infinite combat phases; Infinite casts of cards exiled with Spellbinder; Put all Equipment cards from your library onto the battlefield; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
-Start: Godo, Bandit Warlord (battlefield); Displacer Kitten (battlefield); Spellbinder (battlefield); Barbarian Class (battlefield: is level 3)
-Prerequisites: You have an instant card exiled by Spellbinder's imprint ability that has legal targets, if needed.
-  An opponent cannot block creatures you control.
-  Spellbinder attached to any Samurai you control.
-Steps: Declare Godo and the creature with Spellbinder attached as attackers.
-  Godo's second ability triggers, causing you to untap it and all Samurai you control, and to get an additional combat phase after this one.
-  Deal combat damage using the creature that has Spellbinder attached.
-  Spellbinder triggers, causing you to copy a card exiled with it, and cast the copy without paying its mana cost.
-  Displacer Kitten triggers, blinking Godo.
-  When Godo enters the battlefield, its first ability triggers, allowing you to search your library for an Equipment card and put it onto the battlefield.
-  Resolve the spell cast in step 4.
-  Repeat each combat phase.
-
-## Combo 1170-1329-1414-1537
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Lotus Petal + Zealous Conscripts
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite colored mana; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Displacer Kitten (battlefield); Lotus Petal (graveyard); Zealous Conscripts (battlefield)
-Steps: Activate Emry by tapping it, targeting Lotus Petal.
-  Cast Lotus Petal from your graveyard by paying {0}.
-  Displacer Kitten triggers, blinking Zealous Conscripts.
-  When Zealous Conscripts enters, it triggers, untapping Emry.
-  Activate Lotus Petal by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-1414-1849
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Lotus Petal + Mass Hysteria
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
-Produces: Infinite colored mana; Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Lotus Petal (battlefield); Mass Hysteria (battlefield)
-Steps: Activate Emry by tapping it, allowing you to cast Lotus Petal from your graveyard.
-  Cast Lotus Petal by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Lotus Petal by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-1414-1879
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Lotus Petal + Rising of the Day
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
-Produces: Infinite colored mana; Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Lotus Petal (battlefield); Rising of the Day (battlefield)
-Steps: Activate Emry by tapping it, allowing you to cast Lotus Petal from your graveyard.
-  Cast Lotus Petal by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Lotus Petal by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-1414-2534
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Lotus Petal + Coercive Recruiter
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
-Produces: Infinite colored mana; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Displacer Kitten (battlefield); Lotus Petal (graveyard); Coercive Recruiter (battlefield)
-Steps: Activate Emry by tapping it, targeting Lotus Petal.
-  Cast Lotus Petal from your graveyard by paying {0}.
-  Displacer Kitten triggers, blinking Coercive Recruiter.
-  When Coercive Recruiter enters, it triggers, untapping Emry.
-  Activate Lotus Petal by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-1414-2846
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Lotus Petal + Dominating Vampire
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Displacer Kitten (battlefield); Lotus Petal (graveyard); Dominating Vampire (battlefield)
-Prerequisites: You control at least two Vampires.
-Steps: Activate Emry by tapping it, targeting Lotus Petal.
-  Cast Lotus Petal from your graveyard by paying {0}.
-  Displacer Kitten triggers, blinking Dominating Vampire.
-  When Dominating Vampire enters, it triggers, untapping Emry.
-  Activate Lotus Petal by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-1414-3480
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Lotus Petal + Purphoros, Bronze-Blooded
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Lotus Petal (battlefield); Purphoros, Bronze-Blooded (battlefield)
-Steps: Activate Emry by tapping it, allowing you to cast Lotus Petal from your graveyard.
-  Cast Lotus Petal by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Lotus Petal by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-1414-4068
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Lotus Petal + Anger
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal
-Produces: Infinite colored mana; Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Lotus Petal (battlefield); Anger (graveyard)
-Prerequisites: You control at least one Mountain.
-Steps: Activate Emry by tapping it, allowing you to cast Lotus Petal from your graveyard.
-  Cast Lotus Petal by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Lotus Petal by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-1414-4460
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Lotus Petal + Cyclops of Eternal Fury
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Lotus Petal (battlefield); Cyclops of Eternal Fury (battlefield)
-Steps: Activate Emry by tapping it, allowing you to cast Lotus Petal from your graveyard.
-  Cast Lotus Petal by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Lotus Petal by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-1414-4885
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Lotus Petal + Tuktuk Rubblefort
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Lotus Petal (battlefield); Tuktuk Rubblefort (battlefield)
-Steps: Activate Emry by tapping it, allowing you to cast Lotus Petal from your graveyard.
-  Cast Lotus Petal by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Lotus Petal by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-1414-6633
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Lotus Petal + The Fire Crystal
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal
-Produces: Infinite colored mana; Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Lotus Petal (battlefield); The Fire Crystal (battlefield)
-Steps: Activate Emry by tapping it, allowing you to cast Lotus Petal from your graveyard.
-  Cast Lotus Petal by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Lotus Petal by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-1414-6791
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Lotus Petal + Tannuk, Steadfast Second
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite colored mana; Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Lotus Petal (battlefield); Tannuk, Steadfast Second (battlefield)
-Steps: Activate Emry by tapping it, allowing you to cast Lotus Petal from your graveyard.
-  Cast Lotus Petal by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Lotus Petal by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-1414-6965
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Lotus Petal + Frostcliff Siege
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal
-Produces: Infinite colored mana; Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Lotus Petal (battlefield); Frostcliff Siege (battlefield: with "Temur" chosen)
-Steps: Activate Emry by tapping it, allowing you to cast Lotus Petal from your graveyard.
-  Cast Lotus Petal by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Lotus Petal by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-1414-6968
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Lotus Petal + Kratos, God of War
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite colored mana; Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Lotus Petal (battlefield); Kratos, God of War (battlefield)
-Steps: Activate Emry by tapping it, allowing you to cast Lotus Petal from your graveyard.
-  Cast Lotus Petal by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Lotus Petal by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-1414-7060
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Lotus Petal + Smellerbee, Rebel Fighter
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Lotus Petal (battlefield); Smellerbee, Rebel Fighter (battlefield)
-Steps: Activate Emry by tapping it, allowing you to cast Lotus Petal from your graveyard.
-  Cast Lotus Petal by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Lotus Petal by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-1414-7296
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Lotus Petal + Gimli's Reckless Might
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Lotus Petal (battlefield); Gimli's Reckless Might (battlefield)
-Steps: Activate Emry by tapping it, allowing you to cast Lotus Petal from your graveyard.
-  Cast Lotus Petal by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Lotus Petal by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-1414-7297
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Lotus Petal + Barbarian Class
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Lotus Petal (battlefield); Barbarian Class (battlefield: is level 3)
-Steps: Activate Emry by tapping it, allowing you to cast Lotus Petal from your graveyard.
-  Cast Lotus Petal by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Lotus Petal by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-1414-8201
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Lotus Petal + Samut, Hazoret's Champion
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal
-Produces: Infinite colored mana; Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Lotus Petal (battlefield); Samut, Hazoret's Champion (battlefield)
-Steps: Activate Emry by tapping it, allowing you to cast Lotus Petal from your graveyard.
-  Cast Lotus Petal by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Lotus Petal by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-1482-1537
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Jeweled Lotus + Zealous Conscripts
-Color identity: UR | Bracket: none (not legal) | Popularity: 0 | Commander: not legal
-Produces: Infinite colored mana that can only be spent to cast your commander; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Displacer Kitten (battlefield); Jeweled Lotus (graveyard); Zealous Conscripts (battlefield)
-Steps: Activate Emry by tapping it, targeting Jeweled Lotus.
-  Cast Jeweled Lotus from your graveyard by paying {0}.
-  Displacer Kitten triggers, blinking Zealous Conscripts.
-  When Zealous Conscripts enters, it triggers, untapping Emry.
-  Activate Jeweled Lotus by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-1482-1849
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Jeweled Lotus + Mass Hysteria
-Color identity: UR | Bracket: none (not legal) | Popularity: 0 | Commander: not legal
-Produces: Infinite self-mill; Infinite colored mana that can only be spent to cast your commander; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Jeweled Lotus (battlefield); Mass Hysteria (battlefield)
-Steps: Activate Emry by tapping it, allowing you to cast Jeweled Lotus from your graveyard.
-  Cast Jeweled Lotus by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Jeweled Lotus by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-1482-1879
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Jeweled Lotus + Rising of the Day
-Color identity: UR | Bracket: none (not legal) | Popularity: 0 | Commander: not legal
-Produces: Infinite self-mill; Infinite colored mana that can only be spent to cast your commander; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Jeweled Lotus (battlefield); Rising of the Day (battlefield)
-Steps: Activate Emry by tapping it, allowing you to cast Jeweled Lotus from your graveyard.
-  Cast Jeweled Lotus by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Jeweled Lotus by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-1482-2534
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Jeweled Lotus + Coercive Recruiter
-Color identity: UR | Bracket: none (not legal) | Popularity: 0 | Commander: not legal
-Produces: Infinite colored mana that can only be spent to cast your commander; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Displacer Kitten (battlefield); Jeweled Lotus (graveyard); Coercive Recruiter (battlefield)
-Steps: Activate Emry by tapping it, targeting Jeweled Lotus.
-  Cast Jeweled Lotus from your graveyard by paying {0}.
-  Displacer Kitten triggers, blinking Coercive Recruiter.
-  When Coercive Recruiter enters, it triggers, untapping Emry.
-  Activate Jeweled Lotus by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-1482-3480
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Jeweled Lotus + Purphoros, Bronze-Blooded
-Color identity: UR | Bracket: none (not legal) | Popularity: 0 | Commander: not legal
-Produces: Infinite self-mill; Infinite colored mana that can only be spent to cast your commander; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Jeweled Lotus (battlefield); Purphoros, Bronze-Blooded (battlefield)
-Steps: Activate Emry by tapping it, allowing you to cast Jeweled Lotus from your graveyard.
-  Cast Jeweled Lotus by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Jeweled Lotus by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-1482-4068
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Jeweled Lotus + Anger
-Color identity: UR | Bracket: none (not legal) | Popularity: 0 | Commander: not legal
-Produces: Infinite self-mill; Infinite colored mana that can only be spent to cast your commander; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Jeweled Lotus (battlefield); Anger (graveyard)
-Prerequisites: You control at least one Mountain.
-Steps: Activate Emry by tapping it, allowing you to cast Jeweled Lotus from your graveyard.
-  Cast Jeweled Lotus by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Jeweled Lotus by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-1482-4460
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Jeweled Lotus + Cyclops of Eternal Fury
-Color identity: UR | Bracket: none (not legal) | Popularity: 0 | Commander: not legal
-Produces: Infinite self-mill; Infinite colored mana that can only be spent to cast your commander; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Jeweled Lotus (battlefield); Cyclops of Eternal Fury (battlefield)
-Steps: Activate Emry by tapping it, allowing you to cast Jeweled Lotus from your graveyard.
-  Cast Jeweled Lotus by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Jeweled Lotus by tapping and sacrificing it.
-  Repeat.
-
-## Combo 1170-1329-1482-4885
-Cards: Emry, Lurker of the Loch + Displacer Kitten + Jeweled Lotus + Tuktuk Rubblefort
-Color identity: UR | Bracket: none (not legal) | Popularity: 0 | Commander: not legal
-Produces: Infinite self-mill; Infinite colored mana that can only be spent to cast your commander; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
-Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Jeweled Lotus (battlefield); Tuktuk Rubblefort (battlefield)
-Steps: Activate Emry by tapping it, allowing you to cast Jeweled Lotus from your graveyard.
-  Cast Jeweled Lotus by paying {0}.
-  Displacer Kitten triggers, blinking Emry.
-  When Emry enters, it triggers, causing you to mill four cards.
-  Activate Jeweled Lotus by tapping and sacrificing it.
-  Repeat.

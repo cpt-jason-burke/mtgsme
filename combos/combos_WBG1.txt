@@ -4460,7 +4460,7 @@ Steps: Play Dakmor Salvage.
 
 ## Combo 250-779-1315-1479-2374
 Cards: The Gitrog Monster + Kodama of the East Tree + Dakmor Salvage + Zuran Orb + Maja, Bretagard Protector
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal
 Produces: Near-infinite lifegain; Near-infinite creature tokens; Near-infinite card draw; Infinite self-mill; Near-infinite lifegain triggers; Near-infinite creature ETB; Near-infinite landfall triggers; Near-infinite draw triggers; Near-infinite self-discard triggers
 Start: The Gitrog Monster (battlefield); Kodama of the East Tree (battlefield); Dakmor Salvage (hand); Zuran Orb (battlefield); Maja, Bretagard Protector (battlefield)
 Prerequisites: You are able to play a land this turn.
@@ -7684,7 +7684,7 @@ Steps: Activate Ghave's first ability by paying {1} and removing a +1/+1 counter
 
 ## Combo 317-2060-5189
 Cards: Ghave, Guru of Spores + Mazirek, Kraul Death Priest + Crystalline Crawler
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 330 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 340 | Commander: legal
 Produces: Infinite +1/+1 counters on most creatures you control; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Ghave, Guru of Spores (battlefield); Mazirek, Kraul Death Priest (battlefield); Crystalline Crawler (battlefield)
 Prerequisites: Crystalline Crawler has at least two +1/+1 counters on it.
@@ -9098,7 +9098,7 @@ Steps: Activate a Food by paying {1} due to Sam, tapping and sacrificing it.
 
 ## Combo 342-4321-5777-7343
 Cards: Sam, Loyal Attendant + Mutagen Man, Living Ooze + Peregrin Took + Camellia, the Seedmiser
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 580 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 570 | Commander: legal
 Produces: Infinite card draw; Infinite creature tokens; Infinite lifegain; Infinite lifegain triggers; Infinite creature ETB; Infinite Food tokens; Infinite draw triggers
 Start: Sam, Loyal Attendant (battlefield); Mutagen Man, Living Ooze (battlefield); Peregrin Took (battlefield); Camellia, the Seedmiser (battlefield)
 Prerequisites: You control a Food.
@@ -9137,7 +9137,7 @@ Steps: Activate Ghave's first ability by paying {1} and removing a +1/+1 counter
 
 ## Combo 345-2086-2292
 Cards: Metallic Mimic + Kitchen Finks + Viscera Seer
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 33 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite scry 1
 Start: Metallic Mimic (battlefield); Kitchen Finks (battlefield); Viscera Seer (battlefield)
 Prerequisites: "Ouphe" chosen with Metallic Mimic.
@@ -9268,6 +9268,34 @@ Steps: Activate Warren Soultrader by paying 1 life and sacrificing another creat
   When the creature token enters the battlefield, Soul Warden triggers, causing you to gain 1 life.
   Repeat.
 
+## Combo 372-864-8251
+Cards: Abdel Adrian, Gorion's Ward + Eternal Witness + Vindictive Triumph
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {W}{B}{B}
+Produces: Infinite creature tokens; Infinite blinking of nonland permanents; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
+Start: Abdel Adrian, Gorion's Ward (battlefield); Eternal Witness (exile: exiled by Abdel Adrian); Vindictive Triumph (hand)
+Prerequisites: You have any number of other nonland permanents that enter the battlefield untapped, and that can collectively tap to produce enough mana to cast Vindictive Triumph exiled by Abdel Adrian.
+Steps: Cast Vindictive Triumph by paying its mana cost, blinking Abdel Adrian.
+  Abdel Adrian leaves the battlefield, returning Eternal Witness and all other cards that were exiled with it to the battlefield.
+  Abdel Adrian and Eternal Witness trigger.
+  Resolve the Eternal Witness trigger, returning Vindictive Triumph from your graveyard to your hand.
+  Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Vindictive Triumph.
+  Resolve the Abdel Adrian trigger, exiling Eternal Witness and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
+  Repeat.
+
+## Combo 372-1018-8251
+Cards: Abdel Adrian, Gorion's Ward + Skullwinder + Vindictive Triumph
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {W}{B}{B}
+Produces: Infinite creature tokens; Infinite blinking of nonland permanents; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count; Target opponent returns all cards in their graveyard to their hand
+Start: Abdel Adrian, Gorion's Ward (battlefield); Skullwinder (exile: exiled by Abdel Adrian); Vindictive Triumph (hand)
+Prerequisites: You have any number of other nonland permanents that enter the battlefield untapped, and that can collectively tap to produce enough mana to cast Vindictive Triumph exiled by Abdel Adrian.
+Steps: Cast Vindictive Triumph by paying its mana cost, blinking Abdel Adrian.
+  Abdel Adrian leaves the battlefield, returning Skullwinder and all other cards that were exiled with it to the battlefield.
+  Abdel Adrian and Skullwinder trigger.
+  Resolve the Skullwinder trigger, returning Vindictive Triumph from your graveyard to your hand.
+  Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Vindictive Triumph.
+  Resolve the Abdel Adrian trigger, exiling Skullwinder and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
+  Repeat.
+
 ## Combo 372-1916-3991
 Cards: Abdel Adrian, Gorion's Ward + Changeling Titan + Faceless Butcher
 Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 6 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
@@ -9299,6 +9327,34 @@ Steps: Cast Abdel Adrian for its mana cost.
   When Faceless Butcher leaves the battlefield, Abdel Adrian is returned from exile to the battlefield.
   Repeat from step 2.
 Notes: Due to differences in card templating between the various banisher effects (linked triggered abilities vs "until" clause), steps 3, 5, and 7 may return the creature to the battlefield during the resolution of the preceding step rather than creating a separate event. This should not affect the overall execution of the combo, only how many objects pass through the stack (and thus rounds of priority available per loop).
+
+## Combo 372-4477-8251
+Cards: Abdel Adrian, Gorion's Ward + Greenwarden of Murasa + Vindictive Triumph
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {W}{B}{B}
+Produces: Infinite creature tokens; Infinite blinking of nonland permanents; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
+Start: Abdel Adrian, Gorion's Ward (battlefield); Greenwarden of Murasa (exile: exiled by Abdel Adrian); Vindictive Triumph (hand)
+Prerequisites: You have any number of other nonland permanents that enter the battlefield untapped, and that can collectively tap to produce enough mana to cast Vindictive Triumph exiled by Abdel Adrian.
+Steps: Cast Vindictive Triumph by paying its mana cost, blinking Abdel Adrian.
+  Abdel Adrian leaves the battlefield, returning Greenwarden of Murasa and all other cards that were exiled with it to the battlefield.
+  Abdel Adrian and Greenwarden of Murasa trigger.
+  Resolve the Greenwarden of Murasa trigger, returning Vindictive Triumph from your graveyard to your hand.
+  Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Vindictive Triumph.
+  Resolve the Abdel Adrian trigger, exiling Greenwarden of Murasa and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
+  Repeat.
+
+## Combo 372-4823-8251
+Cards: Abdel Adrian, Gorion's Ward + Timeless Witness + Vindictive Triumph
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {W}{B}{B}
+Produces: Infinite creature tokens; Infinite blinking of nonland permanents; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
+Start: Abdel Adrian, Gorion's Ward (battlefield); Timeless Witness (exile: exiled by Abdel Adrian); Vindictive Triumph (hand)
+Prerequisites: You have any number of other nonland permanents that enter the battlefield untapped, and that can collectively tap to produce enough mana to cast Vindictive Triumph exiled by Abdel Adrian.
+Steps: Cast Vindictive Triumph by paying its mana cost, blinking Abdel Adrian.
+  Abdel Adrian leaves the battlefield, returning Timeless Witness and all other cards that were exiled with it to the battlefield.
+  Abdel Adrian and Timeless Witness trigger.
+  Resolve the Timeless Witness trigger, returning Vindictive Triumph from your graveyard to your hand.
+  Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Vindictive Triumph.
+  Resolve the Abdel Adrian trigger, exiling Timeless Witness and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
+  Repeat.
 
 ## Combo 379-3865-4013-4440-5311
 Cards: Varragoth, Bloodsky Sire + Timesifter + Eldrazi Displacer + Riftsweeper + Draco
@@ -12572,7 +12628,7 @@ Steps: Activate Ghave's second ability by paying {1} and sacrificing Young Wolf.
 
 ## Combo 528-4050-4350-5189
 Cards: Ghave, Guru of Spores + Phyrexian Altar + Butcher Ghoul + Corpse Knight
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 92 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 91 | Commander: legal
 Produces: Infinite colored mana; Infinite creature tokens; Infinite lifeloss; Infinite +1/+1 counters on creatures you control; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Ghave, Guru of Spores (battlefield); Phyrexian Altar (battlefield); Butcher Ghoul (battlefield); Corpse Knight (battlefield)
 Prerequisites: Butcher Ghoul does not have a +1/+1 counter on it.
@@ -14533,7 +14589,7 @@ Steps: Activate Warren Soultrader by paying 1 life and sacrificing another creat
 
 ## Combo 567-3097-5641
 Cards: Basking Broodscale + Valentin, Dean of the Vein // Lisette, Dean of the Root + Soul's Attendant
-Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 22 | Commander: legal | Mana needed: {2}{G}
+Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 23 | Commander: legal | Mana needed: {2}{G}
 Produces: Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (hand); Valentin, Dean of the Vein // Lisette, Dean of the Root (battlefield); Soul's Attendant (battlefield)
 Steps: Cast Basking Broodscale by paying {1}{G}.
@@ -19197,7 +19253,7 @@ Notes: This order of operations (and the additional {2} starting mana) are neces
 
 ## Combo 687-2167-2404-6099
 Cards: Tayam, Luminous Enigma + Mossborn Hydra + Squandered Resources + Gaea's Cradle
-Color identity: WBG | Bracket: 3+ (Powerful) | Popularity: 28 | Commander: legal
+Color identity: WBG | Bracket: 3+ (Powerful) | Popularity: 29 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite green mana; Infinite self-mill; Infinite +1/+1 counters on a creature; Infinite landfall triggers
 Start: Tayam, Luminous Enigma (battlefield); Mossborn Hydra (battlefield: with three or more counters on it); Squandered Resources (battlefield); Gaea's Cradle (battlefield)
 Prerequisites: There are three removable counters among creatures you control excluding the first three +1/+1 counters on Mossborn Hydra.
@@ -19299,7 +19355,7 @@ Steps: Activate Tayam by paying {3} and removing three counters from creatures y
 
 ## Combo 687-2301-2511-5004
 Cards: Tayam, Luminous Enigma + Cathodion + Abzan Ascendancy + Bloodflow Connoisseur
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 99 | Commander: legal | Mana needed: {3}
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 98 | Commander: legal | Mana needed: {3}
 Produces: Infinite creature tokens; Infinite self-mill; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Tayam, Luminous Enigma (battlefield); Cathodion (battlefield); Abzan Ascendancy (battlefield); Bloodflow Connoisseur (battlefield)
 Prerequisites: There are at least three counters among creatures you control.
@@ -19562,7 +19618,7 @@ Steps: Activate Tayam by paying {3} and removing three counters from creatures y
 
 ## Combo 687-2438-4314-5004
 Cards: Tayam, Luminous Enigma + Cathodion + Carrion Feeder + Pawn of Ulamog
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 47 | Commander: legal | Mana needed: {3}
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 46 | Commander: legal | Mana needed: {3}
 Produces: Infinite creature tokens; Infinite self-mill; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Tayam, Luminous Enigma (battlefield); Cathodion (battlefield); Carrion Feeder (battlefield); Pawn of Ulamog (battlefield)
 Prerequisites: There are at least three counters among creatures you control.
@@ -19747,7 +19803,7 @@ Steps: Activate Tayam by paying {3} and removing three counters from creatures y
 
 ## Combo 687-2511-4314-5004
 Cards: Tayam, Luminous Enigma + Cathodion + Bloodflow Connoisseur + Pawn of Ulamog
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal | Mana needed: {3}
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal | Mana needed: {3}
 Produces: Infinite creature tokens; Infinite self-mill; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Tayam, Luminous Enigma (battlefield); Cathodion (battlefield); Bloodflow Connoisseur (battlefield); Pawn of Ulamog (battlefield)
 Prerequisites: There are at least three counters among creatures you control.
@@ -20076,7 +20132,7 @@ Steps: Activate Tayam by paying {3} and removing three counters from creatures y
 
 ## Combo 687-2921-4314-5004
 Cards: Tayam, Luminous Enigma + Cathodion + Bartolomé del Presidio + Pawn of Ulamog
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 33 | Commander: legal | Mana needed: {3}
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 32 | Commander: legal | Mana needed: {3}
 Produces: Infinite creature tokens; Infinite self-mill; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Tayam, Luminous Enigma (battlefield); Cathodion (battlefield); Bartolomé del Presidio (battlefield); Pawn of Ulamog (battlefield)
 Prerequisites: There are at least three counters among creatures you control.
@@ -21240,7 +21296,7 @@ Steps: Activate Noose Constrictor by discarding Ovalchase Daredevil.
 
 ## Combo 717-5671--37
 Cards: The Necrobloom + Bone Miser
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 590 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 580 | Commander: legal
 Produces: Infinite self-mill; Near-infinite black mana; Near-infinite self-discard triggers
 Requires: Land with Cycling Cost that can be paid using {B}{B} (hand)
 Start: The Necrobloom (battlefield); Bone Miser (battlefield)
@@ -21451,7 +21507,7 @@ Steps: Activate Phyrexian Altar by sacrificing another nonland creature you cont
 
 ## Combo 730-4247-7084
 Cards: Beifong's Bounty Hunters + Bloodthrone Vampire + Emeria Angel
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
 Produces: Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Bloodthrone Vampire (battlefield); Emeria Angel (battlefield)
 Prerequisites: You control a land.
@@ -21515,7 +21571,7 @@ Steps: Activate Phantom Train by sacrificing another nonland creature you contro
 
 ## Combo 730-6798-7084
 Cards: Beifong's Bounty Hunters + Umbral Collar Zealot + Emeria Angel
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal
 Produces: Infinite surveil; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Umbral Collar Zealot (battlefield); Emeria Angel (battlefield)
 Prerequisites: You control a land.
@@ -22435,7 +22491,7 @@ Notes: Note that the starting mana can come from activating Crystalline Crawler'
 
 ## Combo 855-2313-3099-4762
 Cards: Devoted Druid + Leyline of Abundance + Corpsejack Menace + Conclave Mentor
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {6}{G}{G}
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {6}{G}{G}
 Produces: Infinite +1/+1 counters on most creatures you control
 Start: Devoted Druid (battlefield: without summoning sickness and without a -1/-1 counter on it); Leyline of Abundance (battlefield); Corpsejack Menace (battlefield); Conclave Mentor (battlefield)
 Steps: Activate Leyline of Abundance by paying {6}{G}{G}, putting four +1/+1 counters on each creature you control due to Conclave Mentor and Corpsejack Menace.
@@ -22541,7 +22597,7 @@ Steps: Activate Woe Strider by sacrificing Cauldron Familiar.
 
 ## Combo 856-997-5270
 Cards: Samwise Gamgee + Cauldron Familiar + Woe Strider
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 230 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 240 | Commander: legal
 Produces: Infinite lifegain; Infinite lifeloss; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Start: Samwise Gamgee (battlefield); Cauldron Familiar (battlefield); Woe Strider (battlefield)
 Prerequisites: You control a Food token.
@@ -24769,7 +24825,7 @@ Steps: Play Selesnya Sanctuary.
 
 ## Combo 907-1479-6529
 Cards: Kodama of the East Tree + Selesnya Sanctuary + Curse of the Restless Dead
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Selesnya Sanctuary (hand); Curse of the Restless Dead (battlefield: attached to you)
 Prerequisites: You are able to play a land this turn.
@@ -28275,7 +28331,7 @@ Steps: Activate Umbral Collar Zealot by sacrificing Kitchen Finks.
 
 ## Combo 1274-2811-3197
 Cards: Heliod, Sun-Crowned + Elas il-Kor, Sadistic Pilgrim + Herd Baloth
-Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 67 | Commander: legal
+Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 66 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Heliod, Sun-Crowned (battlefield); Elas il-Kor, Sadistic Pilgrim (battlefield); Herd Baloth (battlefield)
 Prerequisites: You have a way to gain life.
@@ -28578,7 +28634,7 @@ Steps: Activate Spawning Pit's second ability by paying {1} and removing two cha
 
 ## Combo 1308-1563-4321-5777
 Cards: Camellia, the Seedmiser + Peregrin Took + Jaheira, Friend of the Forest + Anointed Procession
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 550 | Commander: legal | Mana needed: {2}
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 540 | Commander: legal | Mana needed: {2}
 Produces: Infinite card draw; Infinite +1/+1 counters on an infinite number of creature tokens; Infinite +1/+1 counters on Squirrels you control; Infinite creature ETB; Infinite draw triggers; Infinite tapped Food tokens
 Start: Camellia, the Seedmiser (battlefield); Peregrin Took (battlefield); Jaheira, Friend of the Forest (battlefield); Anointed Procession (battlefield)
 Prerequisites: You control a Food.
@@ -28701,7 +28757,7 @@ Steps: Activate Kaya's second loyalty ability by removing two loyalty counters f
 
 ## Combo 1308-2757-5189
 Cards: Ghave, Guru of Spores + Earthcraft + Anointed Procession
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 380 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 390 | Commander: legal
 Produces: Infinite tapped creature tokens; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Ghave, Guru of Spores (battlefield); Earthcraft (battlefield); Anointed Procession (battlefield)
 Prerequisites: There is a +1/+1 counter on a creature you control.
@@ -28902,7 +28958,7 @@ Notes: You can replace step 1 with using the Food's own ability to sacrifice it.
 
 ## Combo 1308-4321-5777-6451
 Cards: Camellia, the Seedmiser + Peregrin Took + Night of the Sweets' Revenge + Anointed Procession
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 470 | Commander: legal | Mana needed: {2}
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 460 | Commander: legal | Mana needed: {2}
 Produces: Infinite card draw; Infinite +1/+1 counters on an infinite number of creature tokens; Infinite +1/+1 counters on Squirrels you control; Infinite creature ETB; Infinite draw triggers; Infinite tapped Food tokens
 Start: Camellia, the Seedmiser (battlefield); Peregrin Took (battlefield); Night of the Sweets' Revenge (battlefield); Anointed Procession (battlefield)
 Prerequisites: You control a Food.
@@ -29489,7 +29545,7 @@ Steps: Activate Phyrexian Altar by sacrificing Strangleroot Geist, adding {1}.
 
 ## Combo 1385-2012-4929-5189
 Cards: Ghave, Guru of Spores + Cryptic Trilobite + Strangleroot Geist + Zulaport Cutthroat
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 430 | Commander: legal | Mana needed: {1}
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 440 | Commander: legal | Mana needed: {1}
 Produces: Infinite creature tokens; Infinite lifegain; Infinite lifeloss; Infinite +1/+1 counters on creatures you control; Infinite colorless mana that can only be spent to activate abilities; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB
 Start: Ghave, Guru of Spores (battlefield); Cryptic Trilobite (battlefield); Strangleroot Geist (battlefield); Zulaport Cutthroat (battlefield)
 Prerequisites: Strangleroot Geist does not have a +1/+1 counter on it.
@@ -30109,7 +30165,7 @@ Steps: Play Orzhov Basilica.
 
 ## Combo 1479-2841-3318-5671
 Cards: Kodama of the East Tree + Ghost Town + Fabled Passage + The Necrobloom
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 40 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Ghost Town (hand); Fabled Passage (battlefield); The Necrobloom (battlefield)
 Prerequisites: It is not your turn.
@@ -30294,7 +30350,7 @@ Steps: Fetch a land using Elven Passage.
 
 ## Combo 1479-2841-5671-8101
 Cards: Kodama of the East Tree + Ghost Town + The Necrobloom + Wooded Foothills
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Ghost Town (hand); The Necrobloom (battlefield); Wooded Foothills (battlefield)
 Prerequisites: It is not your turn.
@@ -30313,7 +30369,7 @@ Steps: Fetch a land using Wooded Foothills.
 
 ## Combo 1479-2841-5671-8102
 Cards: Kodama of the East Tree + Ghost Town + The Necrobloom + Windswept Heath
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 48 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 47 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Ghost Town (hand); The Necrobloom (battlefield); Windswept Heath (battlefield)
 Prerequisites: It is not your turn.
@@ -30332,7 +30388,7 @@ Steps: Fetch a land using Windswept Heath.
 
 ## Combo 1479-2841-5671-8103
 Cards: Kodama of the East Tree + Ghost Town + The Necrobloom + Verdant Catacombs
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Ghost Town (hand); The Necrobloom (battlefield); Verdant Catacombs (battlefield)
 Prerequisites: It is not your turn.
@@ -30468,7 +30524,7 @@ Steps: Play Orzhov Basilica.
 
 ## Combo 1479-3703-3861
 Cards: Kodama of the East Tree + Sporemound + Orzhov Basilica
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 88 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 89 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Sporemound (battlefield); Orzhov Basilica (hand)
 Prerequisites: You are able to play a land this turn.
@@ -30524,79 +30580,4 @@ Steps: Play Orzhov Basilica.
   Resolve the Zendikar's Roil trigger, creating a token.
   When the token enters the battlefield, Kodama triggers, putting Orzhov Basilica from your hand onto the battlefield.
   When Orzhov Basilica enters the battlefield, it and Zendikar's Roil trigger.
-  Repeat from step 4.
-
-## Combo 1479-3861-5671
-Cards: Kodama of the East Tree + Orzhov Basilica + The Necrobloom
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 1900 | Commander: legal
-Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
-Start: Kodama of the East Tree (battlefield); Orzhov Basilica (hand); The Necrobloom (battlefield)
-Prerequisites: You are able to play a land this turn.
-Steps: Play Orzhov Basilica.
-  When Orzhov Basilica enters the battlefield, it, The Necrobloom, and Kodama of the East Tree trigger.
-  Resolve the Kodama of the East Tree trigger, choosing not to put anything from your hand onto the battlefield.
-  Resolve the Orzhov Basilica trigger, returning it from the battlefield to your hand.
-  Resolve the The Necrobloom trigger, creating a token.
-  When the token enters the battlefield, Kodama triggers, putting Orzhov Basilica from your hand onto the battlefield.
-  When Orzhov Basilica enters the battlefield, it and The Necrobloom trigger.
-  Repeat from step 4.
-
-## Combo 1479-3861-5702
-Cards: Kodama of the East Tree + Orzhov Basilica + Springheart Nantuko
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 1000 | Commander: legal
-Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
-Start: Kodama of the East Tree (battlefield); Orzhov Basilica (hand); Springheart Nantuko (battlefield)
-Prerequisites: You are able to play a land this turn.
-Steps: Play Orzhov Basilica.
-  When Orzhov Basilica enters the battlefield, it, Springheart Nantuko, and Kodama of the East Tree trigger.
-  Resolve the Kodama of the East Tree trigger, choosing not to put anything from your hand onto the battlefield.
-  Resolve the Orzhov Basilica trigger, returning it from the battlefield to your hand.
-  Resolve the Springheart Nantuko trigger, creating a token.
-  When the token enters the battlefield, Kodama triggers, putting Orzhov Basilica from your hand onto the battlefield.
-  When Orzhov Basilica enters the battlefield, it and Springheart Nantuko trigger.
-  Repeat from step 4.
-
-## Combo 1479-3861-6528
-Cards: Kodama of the East Tree + Orzhov Basilica + Elfsworn Giant
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 59 | Commander: legal
-Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
-Start: Kodama of the East Tree (battlefield); Orzhov Basilica (hand); Elfsworn Giant (battlefield)
-Prerequisites: You are able to play a land this turn.
-Steps: Play Orzhov Basilica.
-  When Orzhov Basilica enters the battlefield, it, Elfsworn Giant, and Kodama of the East Tree trigger.
-  Resolve the Kodama of the East Tree trigger, choosing not to put anything from your hand onto the battlefield.
-  Resolve the Orzhov Basilica trigger, returning it from the battlefield to your hand.
-  Resolve the Elfsworn Giant trigger, creating a token.
-  When the token enters the battlefield, Kodama triggers, putting Orzhov Basilica from your hand onto the battlefield.
-  When Orzhov Basilica enters the battlefield, it and Elfsworn Giant trigger.
-  Repeat from step 4.
-
-## Combo 1479-3861-6529
-Cards: Kodama of the East Tree + Orzhov Basilica + Curse of the Restless Dead
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal
-Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
-Start: Kodama of the East Tree (battlefield); Orzhov Basilica (hand); Curse of the Restless Dead (battlefield: attached to you)
-Prerequisites: You are able to play a land this turn.
-Steps: Play Orzhov Basilica.
-  When Orzhov Basilica enters the battlefield, it, Curse of the Restless Dead, and Kodama of the East Tree trigger.
-  Resolve the Kodama of the East Tree trigger, choosing not to put anything from your hand onto the battlefield.
-  Resolve the Orzhov Basilica trigger, returning it from the battlefield to your hand.
-  Resolve the Curse of the Restless Dead trigger, creating a token.
-  When the token enters the battlefield, Kodama triggers, putting Orzhov Basilica from your hand onto the battlefield.
-  When Orzhov Basilica enters the battlefield, it and Curse of the Restless Dead trigger.
-  Repeat from step 4.
-
-## Combo 1479-3861-6662
-Cards: Kodama of the East Tree + Chocobo Racetrack + Orzhov Basilica
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 150 | Commander: legal
-Produces: Infinite creature tokens; Infinitely powerful Bird tokens you control until end of turn; Infinite creature ETB; Infinite landfall triggers
-Start: Kodama of the East Tree (battlefield); Chocobo Racetrack (battlefield); Orzhov Basilica (hand)
-Prerequisites: You are able to play a land this turn.
-Steps: Play Orzhov Basilica.
-  When Orzhov Basilica enters the battlefield, it, Chocobo Racetrack, and Kodama of the East Tree trigger.
-  Resolve the Kodama of the East Tree trigger, choosing not to put anything from your hand onto the battlefield.
-  Resolve the Orzhov Basilica trigger, returning it from the battlefield to your hand.
-  Resolve the Chocobo Racetrack trigger, creating a token.
-  When the token enters the battlefield, Kodama triggers, putting Orzhov Basilica from your hand onto the battlefield.
-  When Orzhov Basilica enters the battlefield, it and Chocobo Racetrack trigger.
   Repeat from step 4.

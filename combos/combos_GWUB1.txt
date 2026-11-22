@@ -1392,6 +1392,42 @@ Steps: Cast Fractured Identity by paying {3}{W}{U}, exiling Illusions of Grandeu
   Each opponent's Illusions of Grandeur leaves the battlefield, causing them to lose twenty life.
   At the beginning of your end step, Archfiend of Despair triggers, causing each opponent to lose life equal to the life they lost this turn.
 
+## Combo 190-3862-6085
+Cards: Orcish Bowmasters + Fractured Identity + Altanak, the Thrice-Called
+Color identity: GWUB | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {4}{W}{U}{B}
+Produces: Each opponent loses the game; Infinite card draw for each opponent; Infinite draw triggers for each opponent
+Start: Orcish Bowmasters (hand); Fractured Identity (hand); Altanak, the Thrice-Called (battlefield)
+Steps: Cast Fractured Identity by paying {3}{W}{U}, exiling Altanak and causing each opponent to make a copy of it.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting a copy of Altanak.
+  Altanak's second ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting a copy of Altanak.
+  Repeat from step 4 until each opponent's library is empty, causing them to lose the game when they next attempt to draw.
+
+## Combo 190-3862-8144
+Cards: Orcish Bowmasters + Fractured Identity + Surrak, Elusive Hunter
+Color identity: GWUB | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {4}{W}{U}{B}
+Produces: Each opponent loses the game; Infinite card draw for each opponent; Infinite draw triggers for each opponent
+Start: Orcish Bowmasters (hand); Fractured Identity (hand); Surrak, Elusive Hunter (battlefield)
+Steps: Cast Fractured Identity by paying {3}{W}{U}, exiling Surrak and causing each opponent to make a copy of it.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting a copy of Surrak.
+  Surrak's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting a copy of Surrak.
+  Repeat from step 4 until each opponent's library is empty, causing them to lose the game when they next attempt to draw.
+
+## Combo 190-3862-8411
+Cards: Orcish Bowmasters + Fractured Identity + Old Fat Spider
+Color identity: GWUB | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {4}{W}{U}{B}
+Produces: Each opponent loses the game; Infinite card draw for each opponent; Infinite draw triggers for each opponent
+Start: Orcish Bowmasters (hand); Fractured Identity (hand); Old Fat Spider (battlefield)
+Steps: Cast Fractured Identity by paying {3}{W}{U}, exiling Old Fat Spider and causing each opponent to make a copy of it.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting a copy of Old Fat Spider.
+  Old Fat Spider's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting a copy of Old Fat Spider.
+  Repeat from step 4 until each opponent's library is empty, causing them to lose the game when they next attempt to draw.
+
 ## Combo 193-1543-1887-1940
 Cards: Aminatou, the Fateshifter + Ichormoon Gauntlet + Vorinclex, Monstrous Raider + Liliana, Dreadhorde General
 Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 960 | Commander: legal
@@ -1445,7 +1481,7 @@ Steps: Activate Aminatou's second loyalty ability by removing a loyalty counter 
 
 ## Combo 193-1543-2032-4772
 Cards: Aminatou, the Fateshifter + Ichormoon Gauntlet + Doubling Season + Kiora, Behemoth Beckoner
-Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 91 | Commander: legal
+Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 93 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Aminatou, the Fateshifter (battlefield); Ichormoon Gauntlet (battlefield); Doubling Season (battlefield); Kiora, Behemoth Beckoner (battlefield)
 Prerequisites: You control at least one additional planeswalker.
@@ -4559,6 +4595,17 @@ Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count;
 Start: Falco Spara, Pactweaver (battlefield); Sensei's Divining Top (battlefield); Umori, the Collector (battlefield: with "Artifact" chosen); Ravenhill Flock (battlefield)
 Steps: Activate Sensei's Divining Top's second ability by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
   Ravenhill Flock triggers, putting a +1/+1 counter on it.
+  Cast Sensei's Divining Top from the top of your library by paying {0} and removing a counter from a creature you control.
+  Repeat.
+
+## Combo 341-3532-5078-8348
+Cards: Falco Spara, Pactweaver + Sensei's Divining Top + Umori, the Collector + Data, New Life
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Infinite draw triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite storm count
+Start: Falco Spara, Pactweaver (battlefield); Sensei's Divining Top (battlefield); Umori, the Collector (battlefield); Data, New Life (battlefield)
+Prerequisites: "Artifact" chosen with Umori
+Steps: Activate Sensei's Divining Top's second ability by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
+  Data triggers, putting a +1/+1 counter on it.
   Cast Sensei's Divining Top from the top of your library by paying {0} and removing a counter from a creature you control.
   Repeat.
 
@@ -14260,6 +14307,17 @@ Steps: Pay {1} to activate Patron of the Moon, putting Orzhov Basilica from your
   Resolve Orzhov Basilica's triggered ability, returning it from the battlefield to your hand.
   Repeat.
 
+## Combo 774-3861-8345
+Cards: Patron of the Moon + Orzhov Basilica + Warp Speed
+Color identity: GWUB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {1}
+Produces: Infinite black mana; Infinite white mana; Infinite landfall triggers
+Start: Patron of the Moon (battlefield); Orzhov Basilica (hand); Warp Speed (battlefield)
+Steps: Pay {1} to activate Patron of the Moon, putting Orzhov Basilica from your hand onto the battlefield untapped due to Warp Speed 
+  When Orzhov Basilica enters, it triggers
+  Holding priority, activate Orzhov Basilica by tapping it, adding two mana.
+  Resolve Orzhov Basilica's triggered ability, returning it from the battlefield to your hand.
+  Repeat.
+
 ## Combo 777-1170-2921-5131--202
 Cards: Muldrotha, the Gravetide + Displacer Kitten + Foundry Inspector + Bartolomé del Presidio
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -14326,7 +14384,7 @@ Steps: Cast Kaya the Inexorable by paying {3}{W}{B}, causing her to enter with t
 
 ## Combo 799-3582-5902
 Cards: Kaya the Inexorable + Karn's Temporal Sundering + Innkeeper's Talent
-Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 52 | Commander: legal | Mana needed: {3}{W}{B}
+Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 53 | Commander: legal | Mana needed: {3}{W}{B}
 Produces: Infinite turns; Lock
 Start: Kaya the Inexorable (hand); Karn's Temporal Sundering (hand, exile, graveyard); Innkeeper's Talent (battlefield: is level 3)
 Prerequisites: Kaya must be able to survive one turn cycle, or you control an additional legendary creature or planeswalker.
@@ -16404,6 +16462,20 @@ Steps: Play Selesnya Sanctuary. When it enters untapped due to Archelos, Selesny
   Because of the additional Icetill Explorer token, you can play an additional land this turn. 
   Repeat.
 
+## Combo 907-4826-5702-7906
+Cards: Springheart Nantuko + Selesnya Sanctuary + Archelos, Lagoon Mystic + Thranduil's Company
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
+Start: Springheart Nantuko (battlefield: attached to Thranduil's Company); Selesnya Sanctuary (hand); Archelos, Lagoon Mystic (battlefield: untapped); Thranduil's Company (battlefield)
+Prerequisites: You control another Elf.
+  You are able to play a land this turn
+Steps: Play Selesnya Sanctuary. When it enters untapped due to Archelos, Selesnya Sanctuary and Springheart Nantuko trigger.
+  Holding priority, activate Selesnya Sanctuary by tapping it, adding {G}{W}
+  Resolve the Selesnya Sanctuary trigger, returning it from the battlefield to your hand.
+  Resolve the Springheart Nantuko trigger, causing you to pay {1}{G} to create a token copy of Thranduil's Company.
+  Because of the additional Thranduil's Company token, you can play an additional land this turn. 
+  Repeat.
+
 ## Combo 907-4913-5310-7857
 Cards: Zimone and Dina + Bloodghast + Selesnya Sanctuary + Elven Raft-Steerer
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -17552,7 +17624,7 @@ Steps: Cast Appa by paying {W}{W}
 
 ## Combo 1114-1414-2369-4450
 Cards: Carth the Lion + Wrenn and Realmbreaker + Lotus Petal + Oath of Teferi
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 220 | Commander: legal
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 230 | Commander: legal
 Produces: Infinite colored mana; Cast all permanent cards in your graveyard; Infinite storm count
 Start: Carth the Lion (battlefield); Wrenn and Realmbreaker (battlefield); Lotus Petal (graveyard); Oath of Teferi (battlefield)
 Prerequisites: Wrenn and Realmbreaker has at least four loyalty counters on it.
@@ -21286,7 +21358,7 @@ Steps: Play Petrified Field.
 
 ## Combo 1479-3861-3908
 Cards: Kodama of the East Tree + Orzhov Basilica + Spark Double
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Orzhov Basilica (hand); Spark Double (battlefield)
 Steps: Play Orzhov Basilica.
@@ -26497,6 +26569,42 @@ Steps: Activate Xavier Sal's first ability by tapping it and removing a +1/+1 co
   Resolve the Shilgengar ability
   Repeat.
 
+## Combo 2191-6085-8423
+Cards: Martyrdom + Altanak, the Thrice-Called + The Trickster-God's Heist
+Color identity: GWUB | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {3}{W}{W}{U}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Martyrdom (hand); Altanak, the Thrice-Called (battlefield); The Trickster-God's Heist (hand)
+Prerequisites: An opponent controls a creature.
+Steps: Cast Martyrdom by paying {1}{W}{W}, targeting Altanak.
+  Cast The Trickster God's Heist by paying {2}{U}{B}, putting a lore counter on it as it enters and causing its first chapter ability to trigger.
+  Resolve the chapter ability, exchanging control of a creature an opponent controls and Altanak.
+  Activate the ability granted to Altanak by Martyrdom an arbitrarily large number of times by paying {0}, targeting itself.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 2191-8144-8423
+Cards: Martyrdom + Surrak, Elusive Hunter + The Trickster-God's Heist
+Color identity: GWUB | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {3}{W}{W}{U}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Martyrdom (hand); Surrak, Elusive Hunter (battlefield); The Trickster-God's Heist (hand)
+Prerequisites: An opponent controls a creature.
+Steps: Cast Martyrdom by paying {1}{W}{W}, targeting Surrak.
+  Cast The Trickster God's Heist by paying {2}{U}{B}, putting a lore counter on it as it enters and causing its first chapter ability to trigger.
+  Resolve the chapter ability, exchanging control of a creature an opponent controls and Surrak.
+  Activate the ability granted to Surrak by Martyrdom an arbitrarily large number of times by paying {0}, targeting itself.
+  Surrak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 2191-8411-8423
+Cards: Martyrdom + Old Fat Spider + The Trickster-God's Heist
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {3}{W}{W}{U}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Martyrdom (hand); Old Fat Spider (battlefield); The Trickster-God's Heist (hand)
+Prerequisites: An opponent controls a creature.
+Steps: Cast Martyrdom by paying {1}{W}{W}, targeting Old Fat Spider.
+  Cast The Trickster God's Heist by paying {2}{U}{B}, putting a lore counter on it as it enters and causing its first chapter ability to trigger.
+  Resolve the chapter ability, exchanging control of a creature an opponent controls and Old Fat Spider.
+  Activate the ability granted to Old Fat Spider by Martyrdom an arbitrarily large number of times by paying {0}, targeting itself.
+  Old Fat Spider triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
 ## Combo 2228-2335-3143-4613
 Cards: Xavier Sal, Infested Captain + Agatha's Soul Cauldron + Hapatra, Vizier of Poisons + Barrenton Medic
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -29619,108 +29727,3 @@ Steps: Activate Bartolomé del Presidio by sacrificing a creature with a +1/+1 c
   Each Mutagen artifact creature token enters with at least one +1/+1 counter on it due to Renata.
   Resolve the Bartolomé del Presidio ability, putting a +1/+1 counter on them.
   Repeat from step 1.
-
-## Combo 2921-4493-5365
-Cards: Lonis, Genetics Expert + Bartolomé del Presidio + Irenicus's Vile Duplication
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on creatures you control; Infinite artifact tokens; Infinite Clue tokens
-Start: Lonis, Genetics Expert (battlefield); Bartolomé del Presidio (battlefield); Irenicus's Vile Duplication (hand)
-Prerequisites: You control at least one Clue token.
-  You have enough mana to cast Irenicus's Vile Duplication
-Steps: Cast Irenicus's Vile Duplication by paying its mana cost, creating a token copy of Lonis that isn't legendary.
-  Activate Bartolomé del Presidio by sacrificing a Clue.
-  Lonis and the Lonis token's second abilities trigger.
-  Resolve the nontoken Lonis trigger, putting a +1/+1 counter on the token Lonis.
-  The token Lonis's first ability triggers, creating a Clue artifact token.
-  Resolve the token Lonis's trigger from step 2, putting a +1/+1 counter on the nontoken Lonis.
-  The nontoken Lonis's first ability triggers, creating a Clue artifact token.
-  Resolve the Bartolomé del Presidio ability.
-  Repeat from step 2.
-Notes: You may optionally target any other creature using one of the triggers to put infinite +1/+1 counters on that creature.
-
-## Combo 2921-4559-4802-7306
-Cards: Metalwork Colossus + The Ooze + Bartolomé del Presidio + Master Biomancer
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite Mutagen tokens; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count
-Start: Metalwork Colossus (hand); The Ooze (battlefield); Bartolomé del Presidio (battlefield); Master Biomancer (battlefield)
-Prerequisites: Noncreature artifacts you control have total mana value 11 or greater.
-Steps: Cast Metalwork Colossus by paying {0}, which enters with at least two +1/+1 counters on it due to Master Biomancer.
-  Activate Bartolomé del Presidio by sacrificing Metalwork Colossus.
-  When Metalwork Colossus dies, The Ooze triggers, creating a Mutagen token for each +1/+1 counter Metalwork Colossus had.
-  Resolve the Bartolomé del Presidio ability.
-  Activate Metalwork Colossus by sacrificing two Mutagens, returning it from your graveyard to your hand.
-  Repeat.
-
-## Combo 2921-4694-4802-7306
-Cards: The Ooze + Bartolomé del Presidio + March of the Machines + Master Biomancer
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite artifact tokens; Infinite Mutagen tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Bartolomé del Presidio (battlefield); March of the Machines (battlefield); Master Biomancer (battlefield)
-Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
-Steps: Activate Bartolomé del Presidio by sacrificing a creature with a +1/+1 counter on it.
-  When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
-  Each Mutagen artifact creature token enters with at least one +1/+1 counter on it due to Master Biomancer.
-  Resolve the Bartolomé del Presidio ability, putting a +1/+1 counter on them.
-  Repeat from step 1.
-
-## Combo 2921-4694-6258-7306
-Cards: The Ooze + Bartolomé del Presidio + March of the Machines + Thunderous Velocipede
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Bartolomé del Presidio (battlefield); March of the Machines (battlefield); Thunderous Velocipede (battlefield)
-Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
-Steps: Activate Bartolomé del Presidio by sacrificing a creature with a +1/+1 counter on it.
-  When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
-  Each Mutagen artifact creature token enters with at least one +1/+1 counter on it due to Thunderous Velocipede.
-  Resolve the Bartolomé del Presidio ability, putting a +1/+1 counter on them.
-  Repeat from step 1.
-
-## Combo 2921-4694-7652
-Cards: Tom, Bert, and William + March of the Machines + Bartolomé del Presidio
-Color identity: GWUB | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Tom, Bert, and William (battlefield); March of the Machines (battlefield); Bartolomé del Presidio (battlefield)
-Steps: Activate Bartolomé del Presidio by sacrificing Tom, Bert, and William.
-  When Tom, Bert, and William die, they trigger, returning them from your graveyard to the battlefield as a noncreature artifact.
-  Because Tom, Bert, and William enter as a noncreature artifact, March of the Machines will then cause Tom, Bert, and William to be a 5/5 artifact creature.
-  Resolve the Bartolomé del Presidio ability.
-  Repeat.
-
-## Combo 2921-4802--5
-Cards: Bartolomé del Presidio + Master Biomancer
-Color identity: GWUB | Bracket: 2-3+ (Oddball) | Popularity: 51 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Requires: Persist Creature (battlefield: without a -1/-1 counter on it)
-Start: Bartolomé del Presidio (battlefield); Master Biomancer (battlefield)
-Steps: Activate Bartolomé del Presidio by sacrificing the persist creature.
-  When the persist creature dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to Master Biomancer
-  Resolve the Bartolomé del Presidio ability.
-  Repeat
-
-## Combo 2921-4826-5003-6644
-Cards: Ancient Adamantoise + Nim Deathmantle + Bartolomé del Presidio + Archelos, Lagoon Mystic
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {4}
-Produces: Infinite colored mana; Infinite Treasure tokens; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Ancient Adamantoise (battlefield); Nim Deathmantle (battlefield); Bartolomé del Presidio (battlefield); Archelos, Lagoon Mystic (battlefield: untapped)
-Steps: Activate Bartolomé del Presidio by sacrificing Ancient Adamantoise.
-  When Ancient Adamantoise dies, it and Nim Deathmantle trigger.
-  Resolve the Nim Deathmantle trigger, causing you to pay {4} to return Ancient Adamantoise from your graveyard to the battlefield and attach Nim Deathmantle to it.
-  Resolve the Ancient Adamantoise trigger, creating ten Treasure tokens that enter untapped due to Archelos.
-  Resolve the Bartolomé del Presidio ability.
-  Activate four Treasures by tapping and sacrificing them, adding {4}.
-  Repeat.
-
-## Combo 2921-4826-5222-6644
-Cards: Halvar, God of Battle // Sword of the Realms + Ancient Adamantoise + Bartolomé del Presidio + Archelos, Lagoon Mystic
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
-Start: Halvar, God of Battle // Sword of the Realms (battlefield: attached to Ancient Adamantoise); Ancient Adamantoise (battlefield); Bartolomé del Presidio (battlefield); Archelos, Lagoon Mystic (battlefield: untapped)
-Steps: Activate Bartolomé del Presidio by sacrificing Ancient Adamantoise.
-  When Ancient Adamantoise dies, it and Sword of the Realms trigger.
-  Resolve the Sword of the Realms trigger, returning Ancient Adamantoise from your graveyard to your hand.
-  Resolve the Ancient Adamantoise trigger, creating ten Treasure tokens that are untapped due to Archelos.
-  Resolve the Bartolomé del Presidio ability.
-  Activate the Treasures by tapping and sacrificing them, adding {6}{G}{G}{G}{W}.
-  Cast Ancient Adamantoise by paying {5}{G}{G}{G}.
-  Activate Sword of the Realms by paying {1}{W}, attaching it to Ancient Adamantoise.
-  Repeat.

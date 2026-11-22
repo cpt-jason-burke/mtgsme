@@ -1,3 +1,79 @@
+## Combo 2099-4375-5400
+Cards: Technomancer + Synth Infiltrator + Sarcatog
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {5}{B}{B}
+Produces: Infinite self-mill; Infinitely large creature until end of turn; Put all artifact creature cards with mana value 1 or less from your library onto the battlefield; Put all artifact creature cards with mana value 1 or less from your graveyard onto the battlefield; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Technomancer (hand); Synth Infiltrator (graveyard); Sarcatog (battlefield)
+Steps: Cast Technomancer by paying {5}{B}{B}.
+  When Technomancer enters, it triggers, causing you to mill three cards and return Synth Infiltrator from your graveyard to the battlefield as a copy of Technomancer.
+  When Synth Infiltrator enters, it triggers. Holding priority, activate Sarcatog by sacrificing Synth Infiltrator.
+  Resolve the Synth Infiltrator trigger, causing you to mill three cards and return Synth Infiltrator from your graveyard to the battlefield as a copy of Technomancer.
+  Repeat from step 3.
+
+## Combo 2099-4694-5805-7306
+Cards: The Ooze + Sarcatog + March of the Machines + Gev, Scaled Scorch
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature tokens; Infinite artifact tokens; Infinitely large creature until end of turn; Infinite Mutagen tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: The Ooze (battlefield); Sarcatog (battlefield); March of the Machines (battlefield); Gev, Scaled Scorch (battlefield)
+Prerequisites: At least one opponent has lost life this turn.
+  You control at least one additional creature with a +1/+1 counter on it.
+Steps: Activate Sarcatog by sacrificing a creature with a +1/+1 counter on it.
+  When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
+  Each Mutagen artifact creature token enters with at least one +1/+1 counter on it due to Gev.
+  Resolve the Sarcatog ability, giving it +1/+1 until end of turn.
+  Repeat from step 1.
+
+## Combo 2099-4853-6810
+Cards: Dross Scorpion + Detective's Satchel + Sarcatog
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
+Produces: Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Dross Scorpion (battlefield); Detective's Satchel (battlefield); Sarcatog (battlefield)
+Prerequisites: You've sacrificed an artifact this turn.
+Steps: Activate Detective's Satchel by tapping it, creating a 1/1 Thopter artifact creature token.
+  Activate Sarcatog by sacrificing the Thopter.
+  When the Thopter dies, Dross Scorpion triggers, untapping Detective's Satchel.
+  Resolve the Sarcatog ability.
+  Repeat.
+
+## Combo 2099-5394-6291
+Cards: Nick Valentine, Private Eye + Stridehangar Automaton + Sarcatog
+Color identity: UBR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
+Produces: Infinite artifact tokens; Infinitely large creature until end of turn; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite Clue tokens
+Start: Nick Valentine, Private Eye (battlefield); Stridehangar Automaton (battlefield); Sarcatog (battlefield)
+Prerequisites: You control another artifact creature.
+Steps: Activate Sarcatog by sacrificing another artifact creature.
+  When the creature dies, Nick Valentine triggers, creating a Clue token and a 1/1 Thopter artifact creature token.
+  Resolve the Sarcatog ability.
+  Repeat.
+
+## Combo 2103-2187-4702
+Cards: Splinter Twin + Possessed Skaab + Capture of Jingzhou
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {3}{U}{U} each turn
+Produces: Infinite turns; Lock
+Start: Splinter Twin (battlefield); Possessed Skaab (battlefield); Capture of Jingzhou (hand)
+Steps: Cast Capture of Jingzhou getting an extra turn after this one.
+  Pass the turn.
+  Activate Possessed Skaab, by tapping it, creating a token copy of it with haste.
+  The token copy of Possessed Skaab enters the battlefield, returning Capture of Jingzhou from your graveyard to your hand.
+  Repeat.
+
+## Combo 2103-2239-5626
+Cards: Chthonian Nightmare + Capture of Jingzhou + Ardent Elementalist
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {3}{U}{U} the first turn, with {5}{U}{U}{B}{B} each extra turn
+Produces: Infinite turns; Lock
+Start: Chthonian Nightmare (hand); Capture of Jingzhou (hand); Ardent Elementalist (graveyard)
+Prerequisites: You control a nontoken creature with mana value 2 or less.
+  You have at least {E}.
+Steps: Cast Capture of Jingzhou by paying {3}{U}{U}, causing you to take an extra turn after this one.
+  Move to your next turn.
+  Cast Chthonian Nightmare by paying {1}{B}.
+  When Chthonian Nightmare enters the battlefield, it triggers, causing you to get {E}{E}{E}.
+  Activate Chthonian Nightmare by paying {E}{E}{E}{E}, sacrificing a creature with mana value 2 or less, and returning Chthonian Nightmare from the battlefield to your hand, returning Ardent Elementalist from your graveyard to the battlefield.
+  When Ardent Elementalist enters the battlefield, it triggers, returning Capture of Jingzhou from your graveyard to your hand.
+  Cast Chthonian Nightmare by paying {1}{B}.
+  When Chthonian Nightmare enters the battlefield, it triggers, causing you to get {E}{E}{E}.
+  Activate Chthonian Nightmare by paying at most {E}{E}, sacrificing Ardent Elementalist, and returning Chthonian Nightmare from the battlefield to your hand, returning a creature with mana value 2 or less from your graveyard to the battlefield.
+  Repeat.
+
 ## Combo 2103-2707-7817
 Cards: River Song + Capture of Jingzhou + Paradox Shaper // Omit Variables
 Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {5}{U}{U} each turn
@@ -701,7 +777,7 @@ Steps: Activate Phyrexian Altar by sacrificing Dulcet Sirens, adding {U}.
 
 ## Combo 2257-4508-4875
 Cards: Malcolm, Keen-Eyed Navigator + Reckless Fireweaver + Conspiracy
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 83 | Commander: legal
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 81 | Commander: legal
 Produces: Infinite colored mana; Infinite damage; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
 Start: Malcolm, Keen-Eyed Navigator (battlefield); Reckless Fireweaver (battlefield); Conspiracy (battlefield: with "Pirate" chosen)
 Prerequisites: You have a way to cause an artifact to enter the battlefield under your control.
@@ -834,7 +910,7 @@ Steps: Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can 
 
 ## Combo 2292-3440-4867-6809
 Cards: Cormela, Glamour Thief + Demonic Gifts + Scion of Opulence + Viscera Seer
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal | Mana needed: {1}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 33 | Commander: legal | Mana needed: {1}
 Produces: Infinite red mana that can only be spent to cast instant and sorcery spells; Infinite blue mana that can only be spent to cast instant and sorcery spells; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1; Infinite storm count; Infinite magecraft triggers
 Start: Cormela, Glamour Thief (battlefield); Demonic Gifts (hand); Scion of Opulence (battlefield); Viscera Seer (battlefield)
 Steps: Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can only be spent to cast instant or sorcery spells.
@@ -887,7 +963,7 @@ Steps: Activate Detective's Satchel by tapping it, creating a 1/1 Thopter artifa
 
 ## Combo 2292-5853-5929
 Cards: Wick, the Whorled Mind + Viscera Seer + Leyline of Transformation
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 150 | Commander: legal | Mana needed: {3}{B} plus enough mana to pay for commander tax, if applicable
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 140 | Commander: legal | Mana needed: {3}{B} plus enough mana to pay for commander tax, if applicable
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Start: Wick, the Whorled Mind (hand, command zone); Viscera Seer (battlefield); Leyline of Transformation (battlefield)
 Prerequisites: "Rat" chosen with Leyline of Transformation.
@@ -1739,7 +1815,7 @@ Steps: During your upkeep, activate Hell's Caretaker by tapping and sacrificing 
 
 ## Combo 2525-3358-4068
 Cards: Hell's Caretaker + Body Double + Anger
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Hell's Caretaker (battlefield); Body Double (graveyard); Anger (graveyard)
 Prerequisites: You control at least one Mountain.
@@ -2415,7 +2491,7 @@ Steps: Activate Thermopod's second ability by sacrificing The Master, adding {R}
 
 ## Combo 2789-4050-4424
 Cards: Missy + Phyrexian Altar + Voidmage Prodigy
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 90 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 91 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Missy (battlefield); Phyrexian Altar (battlefield); Voidmage Prodigy (battlefield)
 Steps: Activate Phyrexian Altar by sacrificing Voidmage Prodigy, adding {U}.
@@ -3011,7 +3087,7 @@ Steps: Cast Feign Death by paying {B}, targeting Izzet Chronarch.
 
 ## Combo 3056-4968
 Cards: Dismiss into Dream + Deathbringer Thoctar
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 11 | Commander: legal
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 10 | Commander: legal
 Produces: Destroy all creatures opponents control; Destroy each creature that enters the battlefield under an opponent's control; Lock
 Start: Dismiss into Dream (battlefield); Deathbringer Thoctar (battlefield)
 Prerequisites: Deathbringer Thoctar has a +1/+1 counter on it.
@@ -3031,6 +3107,19 @@ Steps: Cast Harmless Offering by paying {2}{R}, giving control of Notion Thief t
   Consecrated Sphinx triggers twice.
   Resolve the first trigger, causing the opponent to draw two cards due to Notion Thief.
   Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+
+## Combo 3090-3862-8412
+Cards: Orcish Bowmasters + Harmless Offering + Ruric Thar, Biomagus
+Color identity: UBR | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {3}{B}{R}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Harmless Offering (hand); Ruric Thar, Biomagus (battlefield)
+Steps: Cast Harmless Offering by paying {2}{R}, causing target opponent to gain control of Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
 
 ## Combo 3094-3649-5940
 Cards: Etrata, the Silencer + Lithoform Engine + Return the Favor
@@ -3499,7 +3588,7 @@ Steps: Activate Shivan Hellkite by paying {1}{R}, dealing 1 damage to an opponen
 
 ## Combo 3257-6628-7857
 Cards: Rakdos Carnarium + PuPu UFO + Elven Raft-Steerer
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 160 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 170 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Rakdos Carnarium (hand); PuPu UFO (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Steps: Activate PuPu UFO by tapping it, putting Rakdos Carnarium from your hand onto the battlefield.
@@ -3774,7 +3863,7 @@ Steps: Declare the creature with Breath of Fury attached and Maestros Diabolist 
 
 ## Combo 3259-6998
 Cards: Edea, Possessed Sorceress + Breath of Fury
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 630 | Commander: legal
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 640 | Commander: legal
 Produces: Infinite card draw; Near-infinite combat damage; Near-infinite combat phases; Near-infinite creature ETB; Infinite draw triggers; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers; Near-infinite creature ETB for target opponent
 Start: Edea, Possessed Sorceress (battlefield); Breath of Fury (battlefield)
 Prerequisites: An opponent controls a nontoken creature.
@@ -4833,7 +4922,7 @@ Steps: Activate Mairsil using Ventifact Bottle's ability by paying {4} and tappi
 
 ## Combo 3609-5471-6807
 Cards: Obeka, Splitter of Seconds + Magistrate's Scepter + Vedalken Infuser
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 27 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 26 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Obeka, Splitter of Seconds (battlefield: without summoning sickness); Magistrate's Scepter (battlefield); Vedalken Infuser (battlefield)
 Prerequisites: Obeka cannot be blocked by an opponent
@@ -4944,7 +5033,7 @@ Steps: Cast Carnage by paying {2}{B}{R}. When it enters, it triggers, returning 
 
 ## Combo 3670-4508-4875
 Cards: Malcolm, Keen-Eyed Navigator + Ingenious Artillerist + Conspiracy
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 45 | Commander: legal
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 44 | Commander: legal
 Produces: Infinite colored mana; Infinite damage; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
 Start: Malcolm, Keen-Eyed Navigator (battlefield); Ingenious Artillerist (battlefield); Conspiracy (battlefield: with "Pirate" chosen)
 Prerequisites: You have a way to cause an artifact to enter the battlefield under your control.
@@ -5480,7 +5569,7 @@ Steps: Deal combat damage using Obeka. Obeka triggers, causing you to get at lea
 
 ## Combo 3750-5471-7651
 Cards: Obeka, Splitter of Seconds + Smaug the Magnificent + Aggravated Assault
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 170 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 180 | Commander: legal
 Produces: Infinite Treasure tokens; Infinite colored mana; Infinite combat damage; Infinite combat phases; Infinite damage; Infinite mana creatures you control can produce; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite untap of creatures you control
 Start: Obeka, Splitter of Seconds (battlefield: without summoning sickness and with power 5 or greater); Smaug the Magnificent (battlefield); Aggravated Assault (battlefield)
 Prerequisites: An opponent cannot block Obeka.
@@ -5504,7 +5593,7 @@ Steps: Activate Phyrexian Altar by sacrificing Gudul Lurker, adding {U}.
 
 ## Combo 3764-6495-7924
 Cards: Flitwing, Lyev Detective + Summoning Station + Evereth, Viceroy of Plunder
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal
 Produces: Infinite damage; Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
 Start: Flitwing, Lyev Detective (battlefield); Summoning Station (battlefield); Evereth, Viceroy of Plunder (battlefield)
 Steps: Activate Summoning Station by tapping it, creating a Clue token due to Flitwing.
@@ -5523,6 +5612,32 @@ Steps: Cast Worldfire by paying {6}{R}{R}{R}, exiling all permanents, all cards 
   When Vela leaves the battlefield, it triggers, causing each opponent to lose 1 life.
   Each opponent loses the game as a state-based action due to having 0 life.
 
+## Combo 3769-3862-8412
+Cards: Orcish Bowmasters + Blim, Comedic Genius + Ruric Thar, Biomagus
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {1}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Blim, Comedic Genius (battlefield); Ruric Thar, Biomagus (battlefield)
+Prerequisites: Blim does not have summoning sickness and cannot be blocked by an opponent.
+Steps: Deal combat damage to an opponent with Blim.
+  When Blim deals combat damage, Blim triggers, causing (among other effects) target opponent to gain control of Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 5 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
+
+## Combo 3769-8297
+Cards: Kobayashi Maru Scenario + Blim, Comedic Genius
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 33 | Commander: legal
+Produces: Target opponent loses the game at the beginning of their next upkeep
+Start: Kobayashi Maru Scenario (battlefield); Blim, Comedic Genius (battlefield)
+Prerequisites: Blim does not have summoning sickness and cannot be blocked by an opponent.
+  All modes but "Abandon Ship" have been chosen for Kobayashi Maru Scenario.
+Steps: Deal combat damage to an opponent with Blim.
+  When Blim deals combat damage, Blim triggers, causing (among other effects) target opponent to gain control of Kobayashi Maru Scenario.
+  At the beginning of that opponent's upkeep, they are forced to choose the "Abandon Ship" mode and lose the game.
+
 ## Combo 3809-4152-4222
 Cards: Undercity Scrounger + Freed from the Real + Goldspan Dragon
 Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -5538,7 +5653,7 @@ Steps: Activate Undercity Scrounger by tapping it, creating a Treasure token.
 
 ## Combo 3809-4231-5041-5184
 Cards: Deadeye Plunderers + Goldspan Dragon + Xorn + Academy Manufactor
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 71 | Commander: legal | Mana needed: {2}{U}{B}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 70 | Commander: legal | Mana needed: {2}{U}{B}
 Produces: Infinite artifact tokens; Infinitely large creature; Infinite Clue tokens; Infinite Food tokens
 Start: Deadeye Plunderers (battlefield); Goldspan Dragon (battlefield); Xorn (battlefield); Academy Manufactor (battlefield)
 Steps: Activate Deadeye Plunderers by paying {2}{U}{B}, creating two Treasure, one Food and one Clue artifact token.
@@ -5592,6 +5707,20 @@ Steps: Cast Chthonian Nightmare by paying {1}{B}.
   Cast Chthonian Nightmare by paying {1}{B}.
   Saruman triggers, creating a 0/0 Orc Army creature token and putting two +1/+1 counters on it.
   Repeat from step 5.
+
+## Combo 3862-5541-8412
+Cards: Orcish Bowmasters + Bazaar Trader + Ruric Thar, Biomagus
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {1}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Bazaar Trader (battlefield); Ruric Thar, Biomagus (battlefield)
+Prerequisites: Bazaar Trader does not have summoning sickness.
+Steps: Activate Bazaar Trader by tapping it, causing target opponent to gain control of Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
 
 ## Combo 3899-4694-5805-7306
 Cards: The Ooze + Spawning Pit + March of the Machines + Gev, Scaled Scorch
@@ -6762,7 +6891,7 @@ Notes: Once you have one opponent remaining, the loop fails to create enough Tre
 
 ## Combo 4508-4875-6847
 Cards: Malcolm, Keen-Eyed Navigator + Conspiracy + Weftstalker Ardent
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 24 | Commander: legal
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 23 | Commander: legal
 Produces: Infinite colored mana; Infinite damage; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
 Start: Malcolm, Keen-Eyed Navigator (battlefield); Conspiracy (battlefield: with "Pirate" chosen); Weftstalker Ardent (battlefield)
 Prerequisites: You have a way to cause an artifact to enter the battlefield under your control.
@@ -6775,7 +6904,7 @@ Steps: Cause an artifact to enter the battlefield under your control.
 
 ## Combo 4508-4875-7746
 Cards: Malcolm, Keen-Eyed Navigator + Conspiracy + HYDRA Assault Robot
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 5 | Commander: legal
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 4 | Commander: legal
 Produces: Infinite Treasure tokens; Infinite colored mana; Infinite damage; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
 Start: Malcolm, Keen-Eyed Navigator (battlefield); Conspiracy (battlefield: with "Pirate" chosen); HYDRA Assault Robot (battlefield)
 Prerequisites: You have a way to cause an artifact to enter the battlefield under your control.
@@ -6954,7 +7083,7 @@ Steps: At the beginning of combat, Mishra triggers, creating a 4/4 artifact crea
 
 ## Combo 4636-5159-5491
 Cards: Mishra, Eminent One + Gonti's Aether Heart + Worldwalker Helm
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 660 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 650 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Mishra, Eminent One (battlefield); Gonti's Aether Heart (battlefield); Worldwalker Helm (battlefield)
 Steps: At the beginning of your combat phase, Mishra triggers, creating a 4/4 artifact creature token copy of Gonti's Aether Heart named Mishra's Warform and a Map token.
@@ -8694,3 +8823,33 @@ Steps: Draw a card.
   Human Torch triggers, dealing 1 damage.
   Kefka, Ruler of Ruin triggers, causing you to draw a card.
   Repeat from step 2.
+
+## Combo 8195-8423--222
+Cards: Venser, Fervent Forger + The Trickster-God's Heist
+Color identity: UBR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {2}{U}{B} and {0} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Instant or Sorcery that Creates One or More Copies of an Opposing Creature (hand)
+Start: Venser, Fervent Forger (battlefield); The Trickster-God's Heist (hand)
+Prerequisites: An opponent controls a creature.
+Steps: Cast The Trickster God's Heist by paying {2}{U}{B}, putting a lore counter on it as it enters and causing its first chapter ability to trigger.
+  Resolve the chapter ability, exchanging control of a creature an opponent controls and Venser.
+  Cast your copy spell from the templated list by paying its mana cost, choosing the necessary targets to create at least one copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 4).
+  Repeat Step 5 until you have created two copies of Venser.
+  Repeat from Step 4. Depending on the permanents targeted in Step 5, the features produced will change.
+
+## Combo 8195-8423--223
+Cards: Venser, Fervent Forger + The Trickster-God's Heist
+Color identity: UBR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {2}{U}{B} and {0} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Clone — Can Copy Opponent's Creatures (hand)
+Start: Venser, Fervent Forger (battlefield); The Trickster-God's Heist (hand)
+Prerequisites: An opponent controls a creature.
+Steps: Cast The Trickster God's Heist by paying {2}{U}{B}, putting a lore counter on it as it enters and causing its first chapter ability to trigger.
+  Resolve the chapter ability, exchanging control of a creature an opponent controls and Venser.
+  Cast your clone spell from the templated list for its mana cost, choosing to have it enter as a copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 4).
+  Repeat Step 5 until you have created two copies of Venser.
+  Repeat from Step 4. Depending on the permanents targeted in Step 5, the features produced will change.

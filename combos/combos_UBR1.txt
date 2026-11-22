@@ -328,7 +328,7 @@ Steps: Declare Fire Lord Azula as an attacker, triggering its firebending abilit
 
 ## Combo 11-1927-2104-7089
 Cards: Fire Lord Azula + Narset's Reversal + Vedalken Orrery + Temporal Manipulation
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 65 | Commander: legal | Mana needed: {1}{U}{U}{U}{U} each other turn
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 64 | Commander: legal | Mana needed: {1}{U}{U}{U}{U} each other turn
 Produces: Infinite turns; Lock
 Start: Fire Lord Azula (battlefield: without summoning sickness); Narset's Reversal (hand); Vedalken Orrery (battlefield); Temporal Manipulation (hand)
 Prerequisites: An opponent cannot block and kill Fire Lord Azula
@@ -376,7 +376,7 @@ Steps: Declare Fire Lord Azula as an attacker, triggering its firebending abilit
 
 ## Combo 11-1927-2631-7089
 Cards: Fire Lord Azula + Narset's Reversal + Vedalken Orrery + Alrund's Epiphany
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 5 | Commander: legal | Mana needed: {3}{U}{U}{U}{U} each other turn
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 6 | Commander: legal | Mana needed: {3}{U}{U}{U}{U} each other turn
 Produces: Infinite turns; Lock
 Start: Fire Lord Azula (battlefield: without summoning sickness); Narset's Reversal (hand); Vedalken Orrery (battlefield); Alrund's Epiphany (hand)
 Prerequisites: An opponent cannot block and kill Fire Lord Azula
@@ -521,7 +521,7 @@ Steps: Declare Fire Lord Azula as an attacker, triggering its firebending abilit
 
 ## Combo 11-2103-5864-7089
 Cards: Fire Lord Azula + Narset's Reversal + Capture of Jingzhou + Valley Floodcaller
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 30 | Commander: legal | Mana needed: {1}{U}{U}{U}{U} each other turn
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 31 | Commander: legal | Mana needed: {1}{U}{U}{U}{U} each other turn
 Produces: Infinite turns; Lock
 Start: Fire Lord Azula (battlefield: without summoning sickness); Narset's Reversal (hand); Capture of Jingzhou (hand); Valley Floodcaller (battlefield)
 Prerequisites: An opponent cannot block and kill Fire Lord Azula
@@ -553,7 +553,7 @@ Steps: Declare Fire Lord Azula as an attacker, triggering its firebending abilit
 
 ## Combo 11-2104-5864-7089
 Cards: Fire Lord Azula + Narset's Reversal + Temporal Manipulation + Valley Floodcaller
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 57 | Commander: legal | Mana needed: {1}{U}{U}{U}{U} each other turn
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 56 | Commander: legal | Mana needed: {1}{U}{U}{U}{U} each other turn
 Produces: Infinite turns; Lock
 Start: Fire Lord Azula (battlefield: without summoning sickness); Narset's Reversal (hand); Temporal Manipulation (hand); Valley Floodcaller (battlefield)
 Prerequisites: An opponent cannot block and kill Fire Lord Azula
@@ -5610,7 +5610,7 @@ Steps: Activate Walking Atlas by tapping it, putting Rakdos Carnarium from your 
 
 ## Combo 224-3257-6628
 Cards: Retreat to Coralhelm + Rakdos Carnarium + PuPu UFO
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 590 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 600 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Retreat to Coralhelm (battlefield); Rakdos Carnarium (hand); PuPu UFO (battlefield: without summoning sickness)
 Steps: Activate PuPu UFO by tapping it, putting Rakdos Carnarium from your hand onto the battlefield.
@@ -6127,7 +6127,7 @@ Steps: Cast Tainted Strike by paying {B}, giving Lord of Tresserhorn +1/+0 and i
 
 ## Combo 264-3681
 Cards: Lord of Tresserhorn + Grafted Exoskeleton
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 230 | Commander: legal
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 240 | Commander: legal
 Produces: Target opponent loses the game
 Start: Lord of Tresserhorn (battlefield); Grafted Exoskeleton (battlefield)
 Prerequisites: Grafted Exoskeleton attached to Lord of Tresserhorn.
@@ -6146,6 +6146,19 @@ Prerequisites: Phyresis attached to Lord of Tresserhorn.
   An opponent is unable to block and kill Lord of Tresserhorn.
 Steps: Deal combat damage with Lord of Tresserhorn, causing target opponent to get ten poison counters.
   The opponent loses the game due to having ten or more poison counters.
+
+## Combo 273-1914-5865
+Cards: Cowardice + Shuko + Flamecache Gecko
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Shuko (battlefield); Flamecache Gecko (hand)
+Prerequisites: An opponent has lost life this turn.
+Steps: Cast Flamecache Gecko by paying its mana cost.
+  When Flamecache Gecko enters, it triggers, adding {B}{R}.
+  Activate Shuko by paying {0}, targeting Flamecache Gecko.
+  Cowardice triggers, returning Flamecache Gecko from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
 
 ## Combo 275-751-3390-6075
 Cards: Shrieking Drake + Abaddon the Despoiler + Lotus Bloom + Transplant Theorist
@@ -6423,7 +6436,7 @@ Steps: Activate Ashnod's Altar by sacrificing Wretched Throng, adding {C}{C}.
 
 ## Combo 277-774-3257
 Cards: Patron of the Moon + Tiller Engine + Rakdos Carnarium
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 56 | Commander: legal | Mana needed: {1}
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 57 | Commander: legal | Mana needed: {1}
 Produces: Infinite black mana; Infinite red mana; Infinite landfall triggers
 Start: Patron of the Moon (battlefield); Tiller Engine (battlefield); Rakdos Carnarium (hand)
 Steps: Pay {1} to activate Patron of the Moon, putting Rakdos Carnarium from your hand onto the battlefield.
@@ -6826,7 +6839,7 @@ Steps: Cast Chain of Smog by paying {1}{B}, targeting yourself.
 
 ## Combo 326-4280
 Cards: Chain of Smog + Veyran, Voice of Duality
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 570 | Commander: legal | Mana needed: {1}{B}
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 580 | Commander: legal | Mana needed: {1}{B}
 Produces: Infinitely large creature until end of turn; Infinite magecraft triggers
 Start: Chain of Smog (hand); Veyran, Voice of Duality (battlefield)
 Steps: Cast Chain of Smog by paying {1}{B}, targeting yourself.
@@ -7381,7 +7394,7 @@ Steps: Activate Goblin Bombardment by sacrificing Iridescent Drake.
 
 ## Combo 375-4508-4875
 Cards: Malcolm, Keen-Eyed Navigator + Hedron Detonator + Conspiracy
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 24 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 23 | Commander: legal
 Produces: Infinite colored mana; Infinite damage; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
 Start: Malcolm, Keen-Eyed Navigator (battlefield); Hedron Detonator (battlefield); Conspiracy (battlefield)
 Prerequisites: You have a way to cause an artifact to enter the battlefield under your control.
@@ -8043,7 +8056,7 @@ Steps: Cast Bladewing's Thrall by paying {2}{B}{B}.
 
 ## Combo 413-803-5853
 Cards: Wick, the Whorled Mind + Blasting Station + Arcane Adaptation
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 120 | Commander: legal | Mana needed: {3}{B} plus enough mana to pay for commander tax, if applicable
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 110 | Commander: legal | Mana needed: {3}{B} plus enough mana to pay for commander tax, if applicable
 Produces: Infinite damage; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Wick, the Whorled Mind (hand, command zone); Blasting Station (battlefield); Arcane Adaptation (battlefield)
 Prerequisites: Arcane Adaptation on the battlefield with "Rat" chosen.
@@ -8969,7 +8982,7 @@ Steps: Activate Zevlor by paying {2} and tapping it, causing you to copy the nex
 
 ## Combo 461-1561-4475
 Cards: Zevlor, Elturel Exile + Peer into the Abyss + Wound Reflection
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal | Mana needed: {6}{B}{B}{B}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal | Mana needed: {6}{B}{B}{B}
 Produces: Each opponent loses the game; Near-infinite card draw for each opponent; Near-infinite lifeloss; Near-infinite draw triggers for each opponent
 Start: Zevlor, Elturel Exile (battlefield); Peer into the Abyss (hand); Wound Reflection (battlefield)
 Steps: Activate Zevlor by paying {2} and tapping it, causing you to copy the next spell you cast this turn that targets a single opponent for each other opponent.
@@ -10331,7 +10344,7 @@ Steps: Cast Culling the Weak by paying {B} and sacrificing another creature, add
 
 ## Combo 500-2103-4867
 Cards: Cormela, Glamour Thief + Saw in Half + Capture of Jingzhou
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 27 | Commander: legal | Mana needed: {5}{U} each turn
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 28 | Commander: legal | Mana needed: {5}{U} each turn
 Produces: Infinite turns; Lock
 Start: Cormela, Glamour Thief (battlefield); Saw in Half (hand); Capture of Jingzhou (hand)
 Steps: Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can only be spent to cast instant or sorcery spells.
@@ -10343,7 +10356,7 @@ Steps: Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can 
 
 ## Combo 500-2104-4867
 Cards: Cormela, Glamour Thief + Saw in Half + Temporal Manipulation
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 66 | Commander: legal | Mana needed: {5}{U} each turn
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 67 | Commander: legal | Mana needed: {5}{U} each turn
 Produces: Infinite turns; Lock
 Start: Cormela, Glamour Thief (battlefield); Saw in Half (hand); Temporal Manipulation (hand)
 Steps: Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can only be spent to cast instant or sorcery spells.
@@ -10415,7 +10428,7 @@ Steps: Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can 
 
 ## Combo 500-4867-4872
 Cards: Cormela, Glamour Thief + Saw in Half + Time Warp
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 88 | Commander: legal | Mana needed: {5}{U} each turn
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 90 | Commander: legal | Mana needed: {5}{U} each turn
 Produces: Infinite turns; Lock
 Start: Cormela, Glamour Thief (battlefield); Saw in Half (hand); Time Warp (hand)
 Steps: Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can only be spent to cast instant or sorcery spells.
@@ -11449,6 +11462,20 @@ Prerequisites: An opponent controls a creature.
 Steps: Cast Role Reversal targeting Vilis, Broker of Blood and a creature an opponent controls.
   Once that opponent draws a card they draw their entire library and take damage equal to the amount of cards drawn.
 
+## Combo 592-3862-8412
+Cards: Orcish Bowmasters + Role Reversal + Ruric Thar, Biomagus
+Color identity: UBR | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {1}{U}{U}{B}{R}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Role Reversal (hand); Ruric Thar, Biomagus (battlefield)
+Prerequisites: An opponent controls a permanent that shares a type with the one you intend to donate.
+Steps: Cast Role Reversal by paying {U}{U}{R}, exchanging control of a permanent an opponent controls and Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
+
 ## Combo 592-4126-4158
 Cards: Staff of Compleation + Nefarious Lich + Role Reversal
 Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal | Mana needed: {U}{U}{R}
@@ -11459,6 +11486,16 @@ Prerequisites: Your life total is at least 2.
 Steps: Cast Role Reversal by paying {U}{U}{R}, exchanging control of an enchantment an opponent controls and Nefarious Lich.
   Activate Staff of Compleation's first ability by tapping it and paying 1 life, destroying Nefarious Lich.
   When Nefarious Lich leaves the battlefield, it triggers, causing its controller to lose the game.
+
+## Combo 592-6676
+Cards: Demonic Pact + Role Reversal
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {U}{U}{R}
+Produces: Target opponent loses the game at the beginning of their next upkeep
+Start: Demonic Pact (battlefield); Role Reversal (hand)
+Prerequisites: An opponent controls a permanent that shares a type with the one you intend to donate.
+  The first three modes of Demonic Pact have been selected.
+Steps: Cast Role Reversal by paying {U}{U}{R}, exchanging control of a permanent an opponent controls and Demonic Pact.
+  At the beginning of the opponent's upkeep, Demonic Pact triggers, causing them to select the fourth mode and lose the game.
 
 ## Combo 598-2452-5147
 Cards: Liliana, Untouched by Death + Rooftop Storm + Goblin Bombardment
@@ -13854,7 +13891,7 @@ Steps: Activate Tortured Existence by paying {B} and discarding a creature card.
 
 ## Combo 719-1678-4508
 Cards: Malcolm, Keen-Eyed Navigator + Xenograft + Mayhem Devil
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 23 | Commander: legal
 Produces: Infinite colored mana; Infinite damage
 Start: Malcolm, Keen-Eyed Navigator (battlefield); Xenograft (battlefield); Mayhem Devil (battlefield)
 Prerequisites: You control at least one Treasure token.
@@ -14280,7 +14317,7 @@ Steps: Cast Wick either from your hand or from the command zone by paying {3}{B}
 
 ## Combo 719-4050-5853
 Cards: Wick, the Whorled Mind + Phyrexian Altar + Xenograft
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 65 | Commander: legal | Mana needed: {3}{B} plus enough mana to pay for commander tax, if applicable
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 66 | Commander: legal | Mana needed: {3}{B} plus enough mana to pay for commander tax, if applicable
 Produces: Infinite colored mana; Near-infinite damage; Infinite card draw; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite draw triggers
 Start: Wick, the Whorled Mind (battlefield); Phyrexian Altar (battlefield); Xenograft (battlefield)
 Prerequisites: Xenograft on the battlefield with "Rat" chosen.
@@ -14383,7 +14420,7 @@ Steps: Cast Wick either from your hand or from the command zone by paying {3}{B}
 
 ## Combo 719-5256-5853
 Cards: Wick, the Whorled Mind + Altar of Dementia + Xenograft
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 47 | Commander: legal | Mana needed: {3}{B} plus enough mana to pay for commander tax, if applicable
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 48 | Commander: legal | Mana needed: {3}{B} plus enough mana to pay for commander tax, if applicable
 Produces: Infinite mill; Infinite self-mill; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Wick, the Whorled Mind (hand, command zone); Altar of Dementia (battlefield); Xenograft (battlefield)
 Prerequisites: Xenograft on the battlefield with "Rat" chosen.
@@ -15238,7 +15275,7 @@ Steps: Activate Grimgrin by sacrificing the persist creature.
 
 ## Combo 731-790-1972
 Cards: Windfall + Corrupted Conscience + Nekusar, the Mindrazer
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 300 | Commander: legal | Mana needed: {2}{U}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 310 | Commander: legal | Mana needed: {2}{U}
 Produces: Each opponent loses the game
 Start: Windfall (battlefield); Corrupted Conscience (battlefield: attached to Nekusar); Nekusar, the Mindrazer (battlefield)
 Prerequisites: A player has a number of cards in hand that is greater than or equal to 10 minus the lowest amount of poison counters an opponent has.
@@ -15262,7 +15299,7 @@ Steps: Cast Echo of Eons by paying {4}{U}{U}, causing each player to discard the
 
 ## Combo 745-3362
 Cards: Bladewing the Risen + Mirrorhall Mimic // Ghastly Mimicry
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite death triggers
 Start: Bladewing the Risen (battlefield); Mirrorhall Mimic // Ghastly Mimicry (hand)
 Prerequisites: You have enough mana to cast Mirrorhall Mimic // Ghastly Mimicry
@@ -16029,7 +16066,7 @@ Steps: Cast Bladewing's Thrall by paying {2}{B}{B}.
 
 ## Combo 803-997-5853
 Cards: Wick, the Whorled Mind + Woe Strider + Arcane Adaptation
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal | Mana needed: {3}{B} plus enough mana to pay for commander tax, if applicable
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal | Mana needed: {3}{B} plus enough mana to pay for commander tax, if applicable
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Start: Wick, the Whorled Mind (hand, command zone); Woe Strider (battlefield); Arcane Adaptation (battlefield)
 Prerequisites: Arcane Adaptation on the battlefield with "Rat" chosen.
@@ -16410,7 +16447,7 @@ Steps: Cast Dread Slaver by paying {3}{B}{B}.
 
 ## Combo 803-2034-5853
 Cards: Wick, the Whorled Mind + Ashnod's Altar + Arcane Adaptation
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 420 | Commander: legal | Mana needed: {3}{B} plus enough mana to pay for commander tax, if applicable
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 410 | Commander: legal | Mana needed: {3}{B} plus enough mana to pay for commander tax, if applicable
 Produces: Infinite colorless mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Wick, the Whorled Mind (hand, command zone); Ashnod's Altar (battlefield); Arcane Adaptation (battlefield)
 Prerequisites: Arcane Adaptation on the battlefield with "Rat" chosen.
@@ -16435,7 +16472,7 @@ Steps: Cast Kindred Charge for free due to Vision, choosing a creature type gran
 
 ## Combo 803-2292-5853
 Cards: Wick, the Whorled Mind + Viscera Seer + Arcane Adaptation
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 140 | Commander: legal | Mana needed: {3}{B} plus enough mana to pay for commander tax, if applicable
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 130 | Commander: legal | Mana needed: {3}{B} plus enough mana to pay for commander tax, if applicable
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Start: Wick, the Whorled Mind (hand, command zone); Viscera Seer (battlefield); Arcane Adaptation (battlefield)
 Prerequisites: Arcane Adaptation on the battlefield with "Rat" chosen.
@@ -16657,7 +16694,7 @@ Steps: Cast Grub's Command by paying its mana cost, creating a token copy of Car
 
 ## Combo 803-5147-5853
 Cards: Wick, the Whorled Mind + Goblin Bombardment + Arcane Adaptation
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 660 | Commander: legal | Mana needed: {3}{B} plus enough mana to pay for commander tax, if applicable
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 650 | Commander: legal | Mana needed: {3}{B} plus enough mana to pay for commander tax, if applicable
 Produces: Infinite damage; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Wick, the Whorled Mind (hand, command zone); Goblin Bombardment (battlefield); Arcane Adaptation (battlefield)
 Prerequisites: Arcane Adaptation on the battlefield with "Rat" chosen.
@@ -16887,7 +16924,7 @@ Steps: Cast Burnt Offering by paying {B} and sacrificing Scholar of the Ages, ad
 
 ## Combo 813-1777-8129
 Cards: Scholar of the Ages + Burnt Offering + Stitch Together
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 96 | Commander: legal | Mana needed: {B}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 95 | Commander: legal | Mana needed: {B}
 Produces: Infinite black mana; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite magecraft triggers; Infinite storm count; Return all instant and sorcery cards from your graveyard to your hand
 Start: Scholar of the Ages (battlefield); Burnt Offering (hand); Stitch Together (hand)
 Prerequisites: There are at least seven cards in your graveyard.
@@ -17328,6 +17365,19 @@ Steps: Activate Emry by tapping it, allowing you to cast Delif's Cone from your 
   Activate Delif's Cone by tapping and sacrificing it.
   Repeat.
 
+## Combo 876-1914-5865
+Cards: Cowardice + Lightning Greaves + Flamecache Gecko
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Lightning Greaves (battlefield); Flamecache Gecko (hand)
+Prerequisites: An opponent has lost life this turn.
+Steps: Cast Flamecache Gecko by paying its mana cost.
+  When Flamecache Gecko enters, it triggers, adding {B}{R}.
+  Activate Lightning Greaves by paying {0}, targeting Flamecache Gecko.
+  Cowardice triggers, returning Flamecache Gecko from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
+
 ## Combo 876-2068-4283
 Cards: Ashnod the Uncaring + Whisper, Blood Liturgist + Lightning Greaves
 Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 200 | Commander: legal
@@ -17422,7 +17472,7 @@ Notes: You must choose a black persist creature.
 
 ## Combo 888-1167-2341-5159
 Cards: Mishra, Eminent One + Mindslaver + Tawnos, Urza's Apprentice + The Peregrine Dynamo
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 12 | Commander: legal | Mana needed: {5}{U}{R} each turn
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 13 | Commander: legal | Mana needed: {5}{U}{R} each turn
 Produces: You control up to three opponents on each of their turns; Lock
 Start: Mishra, Eminent One (battlefield); Mindslaver (battlefield); Tawnos, Urza's Apprentice (battlefield); The Peregrine Dynamo (battlefield)
 Steps: At the beginning of your combat phase, Mishra triggers, creating a token copy of Mindslaver that is a 4/4 artifact creature named Mishra's Warform in addition to it's other types.
@@ -18238,7 +18288,7 @@ Steps: At the beginning of your end step, Conjurer's Closet triggers, blinking T
 
 ## Combo 934-1678-4508
 Cards: Malcolm, Keen-Eyed Navigator + Mayhem Devil + Amorphous Axe
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal
 Produces: Infinite colored mana; Infinite damage
 Start: Malcolm, Keen-Eyed Navigator (battlefield); Mayhem Devil (battlefield); Amorphous Axe (battlefield)
 Prerequisites: You control at least one Treasure token.
@@ -18619,7 +18669,7 @@ Steps: Activate Woe Strider by sacrificing another creature with haste or flash.
 
 ## Combo 997-1339-7920
 Cards: The Locust God + Woe Strider + Tresserhorn's Lord, Returned
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 62 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: The Locust God (battlefield); Woe Strider (battlefield); Tresserhorn's Lord, Returned (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -18780,7 +18830,7 @@ Steps: Activate Detective's Satchel by tapping it, creating a 1/1 Thopter artifa
 
 ## Combo 997-5853-5929
 Cards: Wick, the Whorled Mind + Woe Strider + Leyline of Transformation
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 42 | Commander: legal | Mana needed: {3}{B} plus enough mana to pay for commander tax, if applicable
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 41 | Commander: legal | Mana needed: {3}{B} plus enough mana to pay for commander tax, if applicable
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Start: Wick, the Whorled Mind (hand, command zone); Woe Strider (battlefield); Leyline of Transformation (battlefield)
 Prerequisites: "Rat" chosen with Leyline of Transformation.
@@ -23075,7 +23125,7 @@ Steps: Activate Hammerhead by sacrificing another creature.
 
 ## Combo 1339-2034-2425
 Cards: The Locust God + Ashnod's Altar + Smothering Abomination
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 59 | Commander: legal
 Produces: Near-infinite lifegain; Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers
 Start: The Locust God (battlefield); Ashnod's Altar (battlefield); Smothering Abomination (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -23122,7 +23172,7 @@ Steps: Draw a card.
 
 ## Combo 1339-2292-2425
 Cards: The Locust God + Viscera Seer + Smothering Abomination
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 55 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: The Locust God (battlefield); Viscera Seer (battlefield); Smothering Abomination (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -23169,7 +23219,7 @@ Steps: Activate Viscera Seer by sacrificing another creature with haste or flash
 
 ## Combo 1339-2292-7920
 Cards: The Locust God + Viscera Seer + Tresserhorn's Lord, Returned
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 210 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 220 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: The Locust God (battlefield); Viscera Seer (battlefield); Tresserhorn's Lord, Returned (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -23241,7 +23291,7 @@ Steps: Activate Spawning Pit by sacrificing another creature.
 
 ## Combo 1339-2425-3967
 Cards: The Locust God + Smothering Abomination + Yahenni, Undying Partisan
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: The Locust God (battlefield); Smothering Abomination (battlefield); Yahenni, Undying Partisan (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -23253,7 +23303,7 @@ Steps: Activate Yahenni by sacrificing another creature.
 
 ## Combo 1339-2425-4050
 Cards: The Locust God + Smothering Abomination + Phyrexian Altar
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 42 | Commander: legal
 Produces: Near-infinite colorless mana; Near-infinite lifegain; Infinite card draw; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers
 Start: The Locust God (battlefield); Smothering Abomination (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -23276,7 +23326,7 @@ Steps: Activate Bloodthrone Vampire by sacrificing another creature.
 
 ## Combo 1339-2425-5147
 Cards: The Locust God + Smothering Abomination + Goblin Bombardment
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 59 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 58 | Commander: legal
 Produces: Near-infinite colorless mana; Near-infinite lifegain; Infinite card draw; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers
 Start: The Locust God (battlefield); Smothering Abomination (battlefield); Goblin Bombardment (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -23395,7 +23445,7 @@ Steps: Activate Carrion Feeder by sacrificing another creature.
 
 ## Combo 1339-2498-4279
 Cards: Yawgmoth, Thran Physician + The Locust God + Sheoldred, the Apocalypse
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 93 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 94 | Commander: legal
 Produces: Infinite card draw; Near-infinite lifegain; Near-infinite lifegain triggers; Near-infinite creature ETB; Infinite draw triggers; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers; Near-infinite -1/-1 counters
 Start: Yawgmoth, Thran Physician (battlefield); The Locust God (battlefield); Sheoldred, the Apocalypse (battlefield)
 Prerequisites: Your life total is at least 2.
@@ -23617,7 +23667,7 @@ Steps: Draw a card.
 
 ## Combo 1339-3899-7920
 Cards: The Locust God + Spawning Pit + Tresserhorn's Lord, Returned
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: The Locust God (battlefield); Spawning Pit (battlefield); Tresserhorn's Lord, Returned (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -23641,7 +23691,7 @@ Steps: Activate Yahenni by sacrificing another creature with haste or flash.
 
 ## Combo 1339-3967-7920
 Cards: The Locust God + Yahenni, Undying Partisan + Tresserhorn's Lord, Returned
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 46 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: The Locust God (battlefield); Yahenni, Undying Partisan (battlefield); Tresserhorn's Lord, Returned (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -23727,7 +23777,7 @@ Steps: Activate Yawgmoth's first ability by paying 1 life and sacrificing anothe
 
 ## Combo 1339-4279-6578
 Cards: Yawgmoth, Thran Physician + The Locust God + Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 62 | Commander: legal
 Produces: Infinite card draw; Near-infinite lifeloss; Near-infinite lifegain triggers; Near-infinite creature ETB; Infinite draw triggers; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers; Near-infinite -1/-1 counters
 Start: Yawgmoth, Thran Physician (battlefield); The Locust God (battlefield); Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel (battlefield)
 Prerequisites: Your life total is at least 2.
@@ -23838,7 +23888,7 @@ Steps: Activate Altar of Dementia by sacrificing another creature with haste or 
 
 ## Combo 1339-5256-7920
 Cards: The Locust God + Altar of Dementia + Tresserhorn's Lord, Returned
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 23 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: The Locust God (battlefield); Altar of Dementia (battlefield); Tresserhorn's Lord, Returned (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -23886,7 +23936,7 @@ Steps: Activate Phantom Train by sacrificing another creature.
 
 ## Combo 1339-6798-7920
 Cards: The Locust God + Umbral Collar Zealot + Tresserhorn's Lord, Returned
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 80 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 81 | Commander: legal
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: The Locust God (battlefield); Umbral Collar Zealot (battlefield); Tresserhorn's Lord, Returned (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -25888,7 +25938,7 @@ Steps: Cast Peer into the Abyss by paying {4}{B}{B}{B}, causing you to lose half
 
 ## Combo 1547-1792-2459
 Cards: Rona, Herald of Invasion // Rona, Tolarian Obliterator + Retraction Helix + Rograkh, Son of Rohgahh
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 28 | Commander: legal | Mana needed: {U}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal | Mana needed: {U}
 Produces: Infinite storm count
 Start: Rona, Herald of Invasion // Rona, Tolarian Obliterator (battlefield); Retraction Helix (hand); Rograkh, Son of Rohgahh (battlefield)
 Prerequisites: Rona does not have summoning sickness.
@@ -27320,7 +27370,7 @@ Steps: Activate a Treasure token by tapping and sacrificing it, adding one mana 
 
 ## Combo 1678-2211-4508
 Cards: Malcolm, Keen-Eyed Navigator + Mayhem Devil + Captain's Hook
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 58 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 57 | Commander: legal
 Produces: Infinite colored mana; Infinite damage
 Start: Malcolm, Keen-Eyed Navigator (battlefield); Mayhem Devil (battlefield); Captain's Hook (battlefield)
 Prerequisites: You control at least one Treasure token.
@@ -27332,7 +27382,7 @@ Steps: Activate a Treasure token by tapping and sacrificing it, adding one mana 
 
 ## Combo 1678-4508-4875
 Cards: Malcolm, Keen-Eyed Navigator + Conspiracy + Mayhem Devil
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 58 | Commander: legal
 Produces: Infinite colored mana; Infinite damage
 Start: Malcolm, Keen-Eyed Navigator (battlefield); Conspiracy (battlefield); Mayhem Devil (battlefield)
 Prerequisites: You control at least one Treasure token.
@@ -28551,6 +28601,46 @@ Steps: Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can 
   Cast Shallow Grave by paying {1}{B}, putting Cormela from your graveyard onto the battlefield.
   Repeat.
 
+## Combo 1914-2816-5865
+Cards: Cowardice + Umbral Mantle + Flamecache Gecko
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Umbral Mantle (battlefield); Flamecache Gecko (hand)
+Prerequisites: An opponent has lost life this turn.
+Steps: Cast Flamecache Gecko by paying its mana cost.
+  When Flamecache Gecko enters, it triggers, adding {B}{R}.
+  Activate Umbral Mantle by paying {0}, targeting Flamecache Gecko.
+  Cowardice triggers, returning Flamecache Gecko from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
+
+## Combo 1914-4955-5865
+Cards: Cowardice + Grafted Wargear + Flamecache Gecko
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Grafted Wargear (battlefield); Flamecache Gecko (hand)
+Prerequisites: An opponent has lost life this turn.
+Steps: Cast Flamecache Gecko by paying its mana cost.
+  When Flamecache Gecko enters, it triggers, adding {B}{R}.
+  Activate Grafted Wargear by paying {0}, targeting Flamecache Gecko.
+  Cowardice triggers, returning Flamecache Gecko from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
+
+## Combo 1914-5639-5865
+Cards: Cowardice + Arm-Mounted Anchor + Flamecache Gecko
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Arm-Mounted Anchor (battlefield); Flamecache Gecko (hand)
+Prerequisites: An opponent has lost life this turn.
+  You have one or fewer cards in hand.
+Steps: Cast Flamecache Gecko by paying its mana cost.
+  When Flamecache Gecko enters, it triggers, adding {B}{R}.
+  Activate Arm-Mounted Anchor by paying {0}, targeting Flamecache Gecko.
+  Cowardice triggers, returning Flamecache Gecko from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
+
 ## Combo 1940-2882-4128-4662--1
 Cards: Unstable Shapeshifter + Chainer, Nightmare Adept + Infinite Reflection + Liliana, Dreadhorde General
 Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
@@ -28816,7 +28906,7 @@ Steps: Cast Quicksilver Gargantuan by paying its mana cost, choosing to have it 
 
 ## Combo 1978-2364-5159
 Cards: Mishra, Eminent One + Voltaic Construct + Mana Vault
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 32 | Commander: legal
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 31 | Commander: legal
 Produces: Infinite colorless mana; Infinite untap of artifact creatures you control
 Start: Mishra, Eminent One (battlefield); Voltaic Construct (battlefield); Mana Vault (battlefield)
 Steps: At the beginning of your combat phase, Mishra triggers, creaitng a token copy of Mana Vault that is a 4/4 Construct artifact creature token with haste named Mishra's Warform in addition to its other types.
@@ -28869,7 +28959,7 @@ Steps: At the beginning of your combat phase, Mishra triggers, creaitng a token 
 
 ## Combo 1978-5116-5159
 Cards: Mishra, Eminent One + Voltaic Construct + Gilded Lotus
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 69 | Commander: legal
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 70 | Commander: legal
 Produces: Infinite colored mana; Infinite untap of artifact creatures you control
 Start: Mishra, Eminent One (battlefield); Voltaic Construct (battlefield); Gilded Lotus (battlefield)
 Steps: At the beginning of your combat phase, Mishra triggers, creaitng a token copy of Gilded Lotus that is a 4/4 Construct artifact creature token with haste named Mishra's Warform in addition to its other types.
@@ -29513,7 +29603,7 @@ Steps: Cast Orcish Bowmasters by paying {1}{B}.
 
 ## Combo 2034-3440-4867
 Cards: Cormela, Glamour Thief + Demonic Gifts + Ashnod's Altar
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 540 | Commander: legal | Mana needed: {1}
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 530 | Commander: legal | Mana needed: {1}
 Produces: Infinite blue mana that can only be spent to cast instant and sorcery spells; Infinite colorless mana; Infinite red mana that can only be spent to cast instant and sorcery spells; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite creature sacrifice triggers; Infinite storm count
 Start: Cormela, Glamour Thief (battlefield); Demonic Gifts (hand); Ashnod's Altar (battlefield)
 Steps: Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can only be spent to cast instant or sorcery spells.
@@ -29655,7 +29745,7 @@ Steps: Activate Ashnod's Altar by sacrificing Atsushi, adding {C}{C}.
 
 ## Combo 2034-4424-5003
 Cards: Missy + Nim Deathmantle + Ashnod's Altar
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Missy (battlefield); Nim Deathmantle (battlefield); Ashnod's Altar (battlefield)
 Prerequisites: You control another nontoken nonartifact creature.
@@ -29867,7 +29957,7 @@ Steps: Activate Bolas's Citadel by tapping it and sacrificing ten other nonland 
 
 ## Combo 2068-2173-4993
 Cards: Ashnod the Uncaring + Manifold Key + Bolas's Citadel
-Color identity: UBR | Bracket: 3+ (Powerful) | Popularity: 68 | Commander: legal | Mana needed: {1}
+Color identity: UBR | Bracket: 3+ (Powerful) | Popularity: 67 | Commander: legal | Mana needed: {1}
 Produces: Each opponent loses the game; Near-infinite damage
 Start: Ashnod the Uncaring (battlefield); Manifold Key (battlefield); Bolas's Citadel (battlefield)
 Prerequisites: Each opponent's life total is no greater than 40.
@@ -30282,79 +30372,3 @@ Steps: Cast Technomancer by paying {5}{B}{B}.
   When Auton Soldier enters, it triggers. Holding priority, activate Sarcatog by sacrificing Auton Soldier.
   Resolve the Auton Soldier trigger, causing you to mill three cards and return Auton Soldier from your graveyard to the battlefield as a copy of Technomancer.
   Repeat from step 3.
-
-## Combo 2099-4375-5400
-Cards: Technomancer + Synth Infiltrator + Sarcatog
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {5}{B}{B}
-Produces: Infinite self-mill; Infinitely large creature until end of turn; Put all artifact creature cards with mana value 1 or less from your library onto the battlefield; Put all artifact creature cards with mana value 1 or less from your graveyard onto the battlefield; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Technomancer (hand); Synth Infiltrator (graveyard); Sarcatog (battlefield)
-Steps: Cast Technomancer by paying {5}{B}{B}.
-  When Technomancer enters, it triggers, causing you to mill three cards and return Synth Infiltrator from your graveyard to the battlefield as a copy of Technomancer.
-  When Synth Infiltrator enters, it triggers. Holding priority, activate Sarcatog by sacrificing Synth Infiltrator.
-  Resolve the Synth Infiltrator trigger, causing you to mill three cards and return Synth Infiltrator from your graveyard to the battlefield as a copy of Technomancer.
-  Repeat from step 3.
-
-## Combo 2099-4694-5805-7306
-Cards: The Ooze + Sarcatog + March of the Machines + Gev, Scaled Scorch
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite creature tokens; Infinite artifact tokens; Infinitely large creature until end of turn; Infinite Mutagen tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Sarcatog (battlefield); March of the Machines (battlefield); Gev, Scaled Scorch (battlefield)
-Prerequisites: At least one opponent has lost life this turn.
-  You control at least one additional creature with a +1/+1 counter on it.
-Steps: Activate Sarcatog by sacrificing a creature with a +1/+1 counter on it.
-  When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
-  Each Mutagen artifact creature token enters with at least one +1/+1 counter on it due to Gev.
-  Resolve the Sarcatog ability, giving it +1/+1 until end of turn.
-  Repeat from step 1.
-
-## Combo 2099-4853-6810
-Cards: Dross Scorpion + Detective's Satchel + Sarcatog
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
-Produces: Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Dross Scorpion (battlefield); Detective's Satchel (battlefield); Sarcatog (battlefield)
-Prerequisites: You've sacrificed an artifact this turn.
-Steps: Activate Detective's Satchel by tapping it, creating a 1/1 Thopter artifact creature token.
-  Activate Sarcatog by sacrificing the Thopter.
-  When the Thopter dies, Dross Scorpion triggers, untapping Detective's Satchel.
-  Resolve the Sarcatog ability.
-  Repeat.
-
-## Combo 2099-5394-6291
-Cards: Nick Valentine, Private Eye + Stridehangar Automaton + Sarcatog
-Color identity: UBR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
-Produces: Infinite artifact tokens; Infinitely large creature until end of turn; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite Clue tokens
-Start: Nick Valentine, Private Eye (battlefield); Stridehangar Automaton (battlefield); Sarcatog (battlefield)
-Prerequisites: You control another artifact creature.
-Steps: Activate Sarcatog by sacrificing another artifact creature.
-  When the creature dies, Nick Valentine triggers, creating a Clue token and a 1/1 Thopter artifact creature token.
-  Resolve the Sarcatog ability.
-  Repeat.
-
-## Combo 2103-2187-4702
-Cards: Splinter Twin + Possessed Skaab + Capture of Jingzhou
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {3}{U}{U} each turn
-Produces: Infinite turns; Lock
-Start: Splinter Twin (battlefield); Possessed Skaab (battlefield); Capture of Jingzhou (hand)
-Steps: Cast Capture of Jingzhou getting an extra turn after this one.
-  Pass the turn.
-  Activate Possessed Skaab, by tapping it, creating a token copy of it with haste.
-  The token copy of Possessed Skaab enters the battlefield, returning Capture of Jingzhou from your graveyard to your hand.
-  Repeat.
-
-## Combo 2103-2239-5626
-Cards: Chthonian Nightmare + Capture of Jingzhou + Ardent Elementalist
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {3}{U}{U} the first turn, with {5}{U}{U}{B}{B} each extra turn
-Produces: Infinite turns; Lock
-Start: Chthonian Nightmare (hand); Capture of Jingzhou (hand); Ardent Elementalist (graveyard)
-Prerequisites: You control a nontoken creature with mana value 2 or less.
-  You have at least {E}.
-Steps: Cast Capture of Jingzhou by paying {3}{U}{U}, causing you to take an extra turn after this one.
-  Move to your next turn.
-  Cast Chthonian Nightmare by paying {1}{B}.
-  When Chthonian Nightmare enters the battlefield, it triggers, causing you to get {E}{E}{E}.
-  Activate Chthonian Nightmare by paying {E}{E}{E}{E}, sacrificing a creature with mana value 2 or less, and returning Chthonian Nightmare from the battlefield to your hand, returning Ardent Elementalist from your graveyard to the battlefield.
-  When Ardent Elementalist enters the battlefield, it triggers, returning Capture of Jingzhou from your graveyard to your hand.
-  Cast Chthonian Nightmare by paying {1}{B}.
-  When Chthonian Nightmare enters the battlefield, it triggers, causing you to get {E}{E}{E}.
-  Activate Chthonian Nightmare by paying at most {E}{E}, sacrificing Ardent Elementalist, and returning Chthonian Nightmare from the battlefield to your hand, returning a creature with mana value 2 or less from your graveyard to the battlefield.
-  Repeat.

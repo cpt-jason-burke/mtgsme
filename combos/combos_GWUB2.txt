@@ -1,3 +1,108 @@
+## Combo 2921-4493-5365
+Cards: Lonis, Genetics Expert + Bartolomé del Presidio + Irenicus's Vile Duplication
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite +1/+1 counters on creatures you control; Infinite artifact tokens; Infinite Clue tokens
+Start: Lonis, Genetics Expert (battlefield); Bartolomé del Presidio (battlefield); Irenicus's Vile Duplication (hand)
+Prerequisites: You control at least one Clue token.
+  You have enough mana to cast Irenicus's Vile Duplication
+Steps: Cast Irenicus's Vile Duplication by paying its mana cost, creating a token copy of Lonis that isn't legendary.
+  Activate Bartolomé del Presidio by sacrificing a Clue.
+  Lonis and the Lonis token's second abilities trigger.
+  Resolve the nontoken Lonis trigger, putting a +1/+1 counter on the token Lonis.
+  The token Lonis's first ability triggers, creating a Clue artifact token.
+  Resolve the token Lonis's trigger from step 2, putting a +1/+1 counter on the nontoken Lonis.
+  The nontoken Lonis's first ability triggers, creating a Clue artifact token.
+  Resolve the Bartolomé del Presidio ability.
+  Repeat from step 2.
+Notes: You may optionally target any other creature using one of the triggers to put infinite +1/+1 counters on that creature.
+
+## Combo 2921-4559-4802-7306
+Cards: Metalwork Colossus + The Ooze + Bartolomé del Presidio + Master Biomancer
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite Mutagen tokens; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count
+Start: Metalwork Colossus (hand); The Ooze (battlefield); Bartolomé del Presidio (battlefield); Master Biomancer (battlefield)
+Prerequisites: Noncreature artifacts you control have total mana value 11 or greater.
+Steps: Cast Metalwork Colossus by paying {0}, which enters with at least two +1/+1 counters on it due to Master Biomancer.
+  Activate Bartolomé del Presidio by sacrificing Metalwork Colossus.
+  When Metalwork Colossus dies, The Ooze triggers, creating a Mutagen token for each +1/+1 counter Metalwork Colossus had.
+  Resolve the Bartolomé del Presidio ability.
+  Activate Metalwork Colossus by sacrificing two Mutagens, returning it from your graveyard to your hand.
+  Repeat.
+
+## Combo 2921-4694-4802-7306
+Cards: The Ooze + Bartolomé del Presidio + March of the Machines + Master Biomancer
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite artifact tokens; Infinite Mutagen tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: The Ooze (battlefield); Bartolomé del Presidio (battlefield); March of the Machines (battlefield); Master Biomancer (battlefield)
+Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
+Steps: Activate Bartolomé del Presidio by sacrificing a creature with a +1/+1 counter on it.
+  When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
+  Each Mutagen artifact creature token enters with at least one +1/+1 counter on it due to Master Biomancer.
+  Resolve the Bartolomé del Presidio ability, putting a +1/+1 counter on them.
+  Repeat from step 1.
+
+## Combo 2921-4694-6258-7306
+Cards: The Ooze + Bartolomé del Presidio + March of the Machines + Thunderous Velocipede
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: The Ooze (battlefield); Bartolomé del Presidio (battlefield); March of the Machines (battlefield); Thunderous Velocipede (battlefield)
+Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
+Steps: Activate Bartolomé del Presidio by sacrificing a creature with a +1/+1 counter on it.
+  When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
+  Each Mutagen artifact creature token enters with at least one +1/+1 counter on it due to Thunderous Velocipede.
+  Resolve the Bartolomé del Presidio ability, putting a +1/+1 counter on them.
+  Repeat from step 1.
+
+## Combo 2921-4694-7652
+Cards: Tom, Bert, and William + March of the Machines + Bartolomé del Presidio
+Color identity: GWUB | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
+Start: Tom, Bert, and William (battlefield); March of the Machines (battlefield); Bartolomé del Presidio (battlefield)
+Steps: Activate Bartolomé del Presidio by sacrificing Tom, Bert, and William.
+  When Tom, Bert, and William die, they trigger, returning them from your graveyard to the battlefield as a noncreature artifact.
+  Because Tom, Bert, and William enter as a noncreature artifact, March of the Machines will then cause Tom, Bert, and William to be a 5/5 artifact creature.
+  Resolve the Bartolomé del Presidio ability.
+  Repeat.
+
+## Combo 2921-4802--5
+Cards: Bartolomé del Presidio + Master Biomancer
+Color identity: GWUB | Bracket: 2-3+ (Oddball) | Popularity: 51 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
+Requires: Persist Creature (battlefield: without a -1/-1 counter on it)
+Start: Bartolomé del Presidio (battlefield); Master Biomancer (battlefield)
+Steps: Activate Bartolomé del Presidio by sacrificing the persist creature.
+  When the persist creature dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to Master Biomancer
+  Resolve the Bartolomé del Presidio ability.
+  Repeat
+
+## Combo 2921-4826-5003-6644
+Cards: Ancient Adamantoise + Nim Deathmantle + Bartolomé del Presidio + Archelos, Lagoon Mystic
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {4}
+Produces: Infinite colored mana; Infinite Treasure tokens; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Ancient Adamantoise (battlefield); Nim Deathmantle (battlefield); Bartolomé del Presidio (battlefield); Archelos, Lagoon Mystic (battlefield: untapped)
+Steps: Activate Bartolomé del Presidio by sacrificing Ancient Adamantoise.
+  When Ancient Adamantoise dies, it and Nim Deathmantle trigger.
+  Resolve the Nim Deathmantle trigger, causing you to pay {4} to return Ancient Adamantoise from your graveyard to the battlefield and attach Nim Deathmantle to it.
+  Resolve the Ancient Adamantoise trigger, creating ten Treasure tokens that enter untapped due to Archelos.
+  Resolve the Bartolomé del Presidio ability.
+  Activate four Treasures by tapping and sacrificing them, adding {4}.
+  Repeat.
+
+## Combo 2921-4826-5222-6644
+Cards: Halvar, God of Battle // Sword of the Realms + Ancient Adamantoise + Bartolomé del Presidio + Archelos, Lagoon Mystic
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Halvar, God of Battle // Sword of the Realms (battlefield: attached to Ancient Adamantoise); Ancient Adamantoise (battlefield); Bartolomé del Presidio (battlefield); Archelos, Lagoon Mystic (battlefield: untapped)
+Steps: Activate Bartolomé del Presidio by sacrificing Ancient Adamantoise.
+  When Ancient Adamantoise dies, it and Sword of the Realms trigger.
+  Resolve the Sword of the Realms trigger, returning Ancient Adamantoise from your graveyard to your hand.
+  Resolve the Ancient Adamantoise trigger, creating ten Treasure tokens that are untapped due to Archelos.
+  Resolve the Bartolomé del Presidio ability.
+  Activate the Treasures by tapping and sacrificing them, adding {6}{G}{G}{G}{W}.
+  Cast Ancient Adamantoise by paying {5}{G}{G}{G}.
+  Activate Sword of the Realms by paying {1}{W}, attaching it to Ancient Adamantoise.
+  Repeat.
+
 ## Combo 2921-4871-5695-5752
 Cards: Brokkos, Apex of Forever + Infested Thrinax + Pitiless Plunderer + Bartolomé del Presidio
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {3}{B}{G}

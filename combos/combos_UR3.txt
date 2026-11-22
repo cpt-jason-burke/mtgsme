@@ -1,6 +1,496 @@
+## Combo 4331-4993-5116-7356
+Cards: Drafna, Founder of Lat-Nam + Manifold Key + Longshot, Rebel Bowman + Gilded Lotus
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
+Produces: Infinite damage; Infinite artifact ETB; Infinite artifact LTB; Infinite storm count
+Start: Drafna, Founder of Lat-Nam (battlefield); Manifold Key (battlefield); Longshot, Rebel Bowman (battlefield); Gilded Lotus (battlefield)
+Steps: Activate Gilded Lotus by tapping it, adding {U}{U}{U}.
+  Activate Manifold Key's first ability by paying {1} and tapping it, untapping Gilded Lotus.
+  Activate Drafna's first ability by paying {1}{U}, returning Manifold Key from the battlefield to your hand.
+  Cast Manifold Key by paying {0} due to Longshot.
+  Longshot triggers, dealing 2 damage to each opponent.
+  Repeat.
+
+## Combo 4331-4993-5116-7693
+Cards: Drafna, Founder of Lat-Nam + Manifold Key + Gilded Lotus + Armor Wars
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite storm count
+Start: Drafna, Founder of Lat-Nam (battlefield); Manifold Key (battlefield); Gilded Lotus (battlefield); Armor Wars (battlefield)
+Prerequisites: Armor Wars' second chapter ability has resolved this turn.
+Steps: Activate Gilded Lotus by tapping it, adding {U}{U}{U}.
+  Activate Manifold Key by paying {1} and tapping it, untapping Gilded Lotus.
+  Activate Drafna's first ability by paying {1}{U}, returning Manifold Key from the battlefield to your hand.
+  Cast Manifold Key by paying {0}.
+  Repeat.
+
+## Combo 4331-4993-5116-7729
+Cards: Drafna, Founder of Lat-Nam + Manifold Key + The Vision and Scarlet Witch + Gilded Lotus
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
+Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite storm count
+Start: Drafna, Founder of Lat-Nam (battlefield); Manifold Key (battlefield); The Vision and Scarlet Witch (battlefield); Gilded Lotus (battlefield)
+Steps: Activate Gilded Lotus by tapping it, adding {U}{U}{U}.
+  Activate Manifold Key by paying {1} and tapping it, untapping Gilded Lotus.
+  Activate Drafna's first ability by paying {1}{U}, returning Manifold Key from the battlefield to your hand.
+  Cast Manifold Key by paying {1}.
+  The Vision and Scarlet Witch triggers, adding {R} and putting a +1/+1 counter on it.
+  Repeat.
+
+## Combo 4331-4993-5116-7913
+Cards: Drafna, Founder of Lat-Nam + Manifold Key + Gilded Lotus + Iron Lad, Young Avenger
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
+Produces: Infinite storm count; Infinite artifact ETB; Infinite artifact LTB
+Start: Drafna, Founder of Lat-Nam (battlefield); Manifold Key (battlefield); Gilded Lotus (battlefield); Iron Lad, Young Avenger (battlefield)
+Steps: Activate Gilded Lotus by tapping it, adding {U}{U}{U}.
+  Activate Manifold Key's first ability by paying {1} and tapping it, untapping Gilded Lotus.
+  Activate Drafna's first ability by paying {1}{U}, returning Manifold Key from the battlefield to your hand.
+  Cast Manifold Key by paying {0} due to Iron Lad.
+  Repeat.
+
+## Combo 4367-7346
+Cards: Irma, Part-Time Mutant + Akki Battle Squad
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 120 | Commander: legal
+Produces: Infinite combat phases; Infinite +1/+1 counters on a creature; Infinite untap of modified creatures you control
+Start: Irma, Part-Time Mutant (battlefield: without summoning sickness); Akki Battle Squad (battlefield)
+Prerequisites: An opponent cannot block and kill Irma.
+Steps: At the beginning of your combat phase, Irma triggers, causing it to become a copy of Akki Battle Squad and putting a +1/+1 counter on it.
+  Declare Irma as an attacker. Irma triggers, untapping all modified creatures you control and causing you to get an additional combat phase after this one.
+  Repeat.
+
+## Combo 4368-8195--222
+Cards: Venser, Fervent Forger + Sudden Substitution
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{U}{U} and {0} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Instant or Sorcery that Creates One or More Copies of an Opposing Creature (hand)
+Start: Venser, Fervent Forger (battlefield); Sudden Substitution (hand)
+Prerequisites: An opponent controls a noncreature spell on the stack.
+Steps: Cast Sudden Substitution by paying {2}{U}, exchanging control of your opponent's noncreature spell and Venser.
+  Cast your copy spell from the templated list by paying its mana cost, choosing the necessary targets to create at least one copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 3).
+  Repeat Step 4 until you have created two copies of Venser.
+  Repeat from Step 3. Depending on the permanents targeted in Step 4, the features produced will change.
+
+## Combo 4368-8195--223
+Cards: Venser, Fervent Forger + Sudden Substitution
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{U}{U} and {0} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Clone — Can Copy Opponent's Creatures (hand)
+Start: Venser, Fervent Forger (battlefield); Sudden Substitution (hand)
+Prerequisites: An opponent controls a noncreature spell on the stack.
+Steps: Cast Sudden Substitution by paying {2}{U}, exchanging control of your opponent's noncreature spell and Venser.
+  Cast your clone spell from the templated list for its mana cost, choosing to have it enter as a copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 3).
+  Repeat Step 4 until you have created two copies of Venser.
+  Repeat from Step 3. Depending on the permanents targeted in Step 4, the features produced will change.
+
+## Combo 4377-4428-7722
+Cards: Thor, God of Thunder + Walk the Aeons + Thassa, Deep-Dwelling
+Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 1 | Commander: legal | Mana needed: {4}{U}{U} each turn
+Produces: Infinite turns; Lock
+Start: Thor, God of Thunder (battlefield); Walk the Aeons (hand); Thassa, Deep-Dwelling (battlefield)
+Steps: Cast Walk the Aeons by paying its mana cost.
+  Thor's second ability triggers, dealing damage to any target.
+  Resolve Walk the Aeons, causing you to take an extra turn after this one
+  Blink Thor using Thassa.
+  When Thor enters, it triggers, exiling Walk the Aeons from your graveyard and allowing you to cast it from exile until the end of your next turn.
+  Move to your next turn.
+  Cast Walk the Aeons from exile by paying its mana cost.
+  Repeat from step 2.
+
+## Combo 4377-4428-7757-7758
+Cards: Doom's Time Platform + Shivan Sand-Mage + Walk the Aeons + Thassa, Deep-Dwelling
+Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {4}{U}{U}
+Produces: Infinite turns; Lock
+Start: Doom's Time Platform (battlefield); Shivan Sand-Mage (battlefield); Walk the Aeons (graveyard); Thassa, Deep-Dwelling (battlefield)
+Prerequisites: You control a creature that can attack and that cannot be blocked or killed by an opponent.
+Steps: Declare any creature as an attacker. When you do, Doom's Time Platform triggers, exiling Walk the Aeons from your graveyard with two time counters on it.
+  Blink Shivan Sand-Mage using Thassa.
+  When Shivan Sand-Mage enters, it triggers, removing two time counters from Walk the Aeons.
+  Walk the Aeons's suspend ability triggers, causing you to cast it without paying its mana cost.
+  Resolve Walk the Aeons, causing you to take an extra turn after this one.
+  Repeat each turn.
+
+## Combo 4377-4863-6122
+Cards: Dour Port-Mage + Walk the Aeons + Revolutionist
+Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 1 | Commander: legal
+Produces: Infinite turns; Lock
+Start: Dour Port-Mage (battlefield); Walk the Aeons (hand); Revolutionist (hand)
+Prerequisites: {1}{U} available plus enough mana to cast Walk the Aeons and Revolutionist each turn.
+Steps: Cast Walk the Aeons by paying its mana cost, causing you to take an extra turn after this one.
+  Cast Revolutionist by paying its mana cost.
+  When Revolutionist enters the battlefield, it triggers, returning Walk the Aeons from your graveyard to your hand.
+  Move to your next turn.
+  Activate Dour Port-Mage by paying {1}{U} and tapping it, returning Revolutionist from the battlefield to your hand.
+  Dour Port-Mage triggers, causing you to draw a card.
+  Repeat.
+
+## Combo 4377-4863-7631
+Cards: Echocasting Symposium + Walk the Aeons + Revolutionist
+Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 1 | Commander: legal | Mana needed: {4}{U}{U} each turn
+Produces: Infinite turns; Lock
+Start: Echocasting Symposium (exile: exiled by its paradigm ability); Walk the Aeons (hand); Revolutionist (battlefield)
+Steps: Cast Walk the Aeons by paying its mana cost, causing you to take an extra turn after this one.
+  Move to your next turn. At the beginning of your precombat main phase, Echocasting Symposium's paradigm ability triggers, causing you to cast a copy of it from exile. 
+  Resolve the copy, creating a token copy of Revolutionist
+  When the Revolutionist token enters, it triggers, returning Walk the Aeons from your graveyard to your hand.
+  Repeat.
+
+## Combo 4377-5913-6122
+Cards: Dour Port-Mage + Walk the Aeons + Pinnacle Monk // Mystic Peak
+Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 3 | Commander: legal | Mana needed: {8}{U}{U}{U}{R}{R} each turn
+Produces: Infinite turns; Lock
+Start: Dour Port-Mage (battlefield); Walk the Aeons (hand); Pinnacle Monk // Mystic Peak (hand)
+Steps: Cast Walk the Aeons by paying its mana cost, causing you to take an extra turn after this one.
+  Cast Pinnacle Monk by paying its mana cost.
+  When Pinnacle Monk enters the battlefield, it triggers, returning Walk the Aeons from your graveyard to your hand.
+  Move to your next turn.
+  Activate Dour Port-Mage by paying {1}{U} and tapping it, returning Pinnacle Monk from the battlefield to your hand.
+  Dour Port-Mage triggers, causing you to draw a card.
+  Repeat.
+
+## Combo 4377-5913-7631
+Cards: Echocasting Symposium + Walk the Aeons + Pinnacle Monk // Mystic Peak
+Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 11 | Commander: legal | Mana needed: {4}{U}{U} each turn
+Produces: Infinite turns; Lock
+Start: Echocasting Symposium (exile: exiled by its paradigm ability); Walk the Aeons (hand); Pinnacle Monk // Mystic Peak (battlefield)
+Steps: Cast Walk the Aeons by paying its mana cost, causing you to take an extra turn after this one.
+  Move to your next turn. At the beginning of your precombat main phase, Echocasting Symposium's paradigm ability triggers, causing you to cast a copy of it from exile. 
+  Resolve the copy, creating a token copy of Pinnacle Monk
+  When the Pinnacle Monk token enters, it triggers, returning Walk the Aeons from your graveyard to your hand.
+  Repeat.
+
+## Combo 4377-6568-7722
+Cards: Thor, God of Thunder + Walk the Aeons + Y'shtola Rhul
+Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {4}{U}{U} each turn
+Produces: Infinite turns; Lock
+Start: Thor, God of Thunder (battlefield); Walk the Aeons (hand); Y'shtola Rhul (battlefield)
+Steps: Cast Walk the Aeons by paying its mana cost.
+  Thor's second ability triggers, dealing damage to any target.
+  Resolve Walk the Aeons, causing you to take an extra turn after this one
+  Blink Thor using Y'shtola Rhul.
+  When Thor enters, it triggers, exiling Walk the Aeons from your graveyard and allowing you to cast it from exile until the end of your next turn.
+  Move to your next turn.
+  Cast Walk the Aeons from exile by paying its mana cost.
+  Repeat from step 2.
+
+## Combo 4377-6568-7757-7758
+Cards: Doom's Time Platform + Shivan Sand-Mage + Walk the Aeons + Y'shtola Rhul
+Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {4}{U}{U}
+Produces: Infinite turns; Lock
+Start: Doom's Time Platform (battlefield); Shivan Sand-Mage (battlefield); Walk the Aeons (graveyard); Y'shtola Rhul (battlefield)
+Prerequisites: You control a creature that can attack and that cannot be blocked or killed by an opponent.
+Steps: Declare any creature as an attacker. When you do, Doom's Time Platform triggers, exiling Walk the Aeons from your graveyard with two time counters on it.
+  Blink Shivan Sand-Mage using Y'shtola Rhul.
+  When Shivan Sand-Mage enters, it triggers, removing two time counters from Walk the Aeons.
+  Walk the Aeons's suspend ability triggers, causing you to cast it without paying its mana cost.
+  Resolve Walk the Aeons, causing you to take an extra turn after this one.
+  Repeat each turn.
+
+## Combo 4377-7068-7722
+Cards: Thor, God of Thunder + Walk the Aeons + Baboon Spirit
+Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {7}{U}{U}{U} each turn
+Produces: Infinite turns; Lock
+Start: Thor, God of Thunder (battlefield); Walk the Aeons (hand); Baboon Spirit (hand, battlefield)
+Steps: Cast Walk the Aeons by paying its mana cost.
+  Thor's second ability triggers, dealing damage to any target.
+  Resolve Walk the Aeons, causing you to take an extra turn after this one
+  Blink Thor using Baboon Spirit.
+  When Thor enters, it triggers, exiling Walk the Aeons from your graveyard and allowing you to cast it from exile until the end of your next turn.
+  Move to your next turn.
+  Cast Walk the Aeons from exile by paying its mana cost.
+  Repeat from step 2.
+
+## Combo 4377-7487-7631
+Cards: Echocasting Symposium + Walk the Aeons + Zealous Lorecaster
+Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 2 | Commander: legal | Mana needed: {4}{U}{U} each turn
+Produces: Infinite turns; Lock
+Start: Echocasting Symposium (exile: exiled by its paradigm ability); Walk the Aeons (hand); Zealous Lorecaster (battlefield)
+Steps: Cast Walk the Aeons by paying its mana cost, causing you to take an extra turn after this one.
+  Move to your next turn. At the beginning of your precombat main phase, Echocasting Symposium's paradigm ability triggers, causing you to cast a copy of it from exile. 
+  Resolve the copy, creating a token copy of Zealous Lorecaster
+  When the Zealous Lorecaster token enters, it triggers, returning Walk the Aeons from your graveyard to your hand.
+  Repeat.
+
+## Combo 4377-7722-7843
+Cards: Thor, God of Thunder + Walk the Aeons + Elrond, Moon-Reader
+Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {9}{U}{U}{U}{U} each turn
+Produces: Infinite turns; Lock
+Start: Thor, God of Thunder (battlefield); Walk the Aeons (hand); Elrond, Moon-Reader (battlefield)
+Steps: Cast Walk the Aeons by paying its mana cost.
+  Thor's second ability triggers, dealing damage to any target.
+  Resolve Walk the Aeons, causing you to take an extra turn after this one
+  Blink Thor using Elrond.
+  When Thor enters, it triggers, exiling Walk the Aeons from your graveyard and allowing you to cast it from exile until the end of your next turn.
+  Move to your next turn.
+  Cast Walk the Aeons from exile by paying its mana cost.
+  Repeat from step 2.
+
+## Combo 4377-7757-7758-7843
+Cards: Doom's Time Platform + Shivan Sand-Mage + Walk the Aeons + Elrond, Moon-Reader
+Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {9}{U}{U}{U}{U} each turn
+Produces: Infinite turns; Lock
+Start: Doom's Time Platform (battlefield); Shivan Sand-Mage (battlefield); Walk the Aeons (graveyard); Elrond, Moon-Reader (battlefield)
+Prerequisites: You control a creature that can attack and that cannot be blocked or killed by an opponent.
+Steps: Declare any creature as an attacker. When you do, Doom's Time Platform triggers, exiling Walk the Aeons from your graveyard with two time counters on it.
+  Blink Shivan Sand-Mage using Elrond.
+  When Shivan Sand-Mage enters, it triggers, removing two time counters from Walk the Aeons.
+  Walk the Aeons's suspend ability triggers, causing you to cast it without paying its mana cost.
+  Resolve Walk the Aeons, causing you to take an extra turn after this one.
+  Repeat each turn.
+
+## Combo 4404-4702
+Cards: Splinter Twin + Corridor Monitor
+Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 290 | Commander: legal
+Produces: Infinite creature tokens with haste; Infinite creature ETB
+Start: Splinter Twin (battlefield); Corridor Monitor (battlefield)
+Prerequisites: Splinter Twin attached to Corridor Monitor.
+Steps: Activate Corridor Monitor by tapping it, creating a token copy of itself with haste.
+  When the token Corridor Monitor enters the battlefield, it triggers, untapping the nontoken Corridor Monitor.
+  Repeat.
+
+## Combo 4410-6500
+Cards: Tephraderm + Hermetic Study
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 2 | Commander: legal
+Produces: Draw the game
+Start: Tephraderm (battlefield: without summoning sickness); Hermetic Study (battlefield: attached to Tephraderm)
+Prerequisites: You have a way to give Tephraderm indestructible.
+Steps: Activate Tephraderm by tapping it, dealing 1 damage to itself.
+  Tephraderm triggers, dealing 1 damage to itself.
+  Step 2 repeats in an infinite loop, causing the game to end in a draw.
+
+## Combo 4428-4872-7722
+Cards: Thor, God of Thunder + Thassa, Deep-Dwelling + Time Warp
+Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 3 | Commander: legal | Mana needed: {3}{U}{U} each turn
+Produces: Infinite turns; Lock
+Start: Thor, God of Thunder (battlefield); Thassa, Deep-Dwelling (battlefield); Time Warp (hand)
+Steps: Cast Time Warp by paying its mana cost.
+  Thor's second ability triggers, dealing damage to any target.
+  Resolve Time Warp, causing you to take an extra turn after this one
+  Blink Thor using Thassa.
+  When Thor enters, it triggers, exiling Time Warp from your graveyard and allowing you to cast it from exile until the end of your next turn.
+  Move to your next turn.
+  Cast Time Warp from exile by paying its mana cost.
+  Repeat from step 2.
+
+## Combo 4428-4872-7757-7758
+Cards: Doom's Time Platform + Shivan Sand-Mage + Thassa, Deep-Dwelling + Time Warp
+Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {3}{U}{U}
+Produces: Infinite turns; Lock
+Start: Doom's Time Platform (battlefield); Shivan Sand-Mage (battlefield); Thassa, Deep-Dwelling (battlefield); Time Warp (graveyard)
+Prerequisites: You control a creature that can attack and that cannot be blocked or killed by an opponent.
+Steps: Declare any creature as an attacker. When you do, Doom's Time Platform triggers, exiling Time Warp from your graveyard with two time counters on it.
+  Blink Shivan Sand-Mage using Thassa.
+  When Shivan Sand-Mage enters, it triggers, removing two time counters from Time Warp.
+  Time Warp's suspend ability triggers, causing you to cast it without paying its mana cost.
+  Resolve Time Warp, causing you to take an extra turn after this one.
+  Repeat each turn.
+
+## Combo 4449-4474-4893
+Cards: Hateflayer + Training Grounds + Paradise Mantle
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal
+Produces: Infinite damage
+Start: Hateflayer (battlefield); Training Grounds (battlefield); Paradise Mantle (battlefield)
+Prerequisites: Paradise Mantle attached to Hateflayer.
+  Hateflayer does not have summoning sickness.
+Steps: Activate Hateflayer by tapping it, adding {R}.
+  Activate Hateflayer by paying {R} and untapping it, causing it to deal damage equal to its power to any target.
+  Repeat.
+
+## Combo 4460-4947-5078-6766
+Cards: Mm'menon, the Right Hand + Sai, Master Thopterist + Sensei's Divining Top + Cyclops of Eternal Fury
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
+Produces: Infinite card draw; Near-infinite tapped creature tokens; Infinite draw triggers; Near-infinite creature ETB; Near-infinite storm count
+Start: Mm'menon, the Right Hand (battlefield); Sai, Master Thopterist (battlefield); Sensei's Divining Top (battlefield); Cyclops of Eternal Fury (battlefield)
+Steps: Activate Sensei's Divining Top's second ability by tapping it, causing you to draw a card and put Sensei's Diving Top on top of your library.
+  Cast Sensei's Divining Top from the top of your library by paying {1}.
+  Sai triggers, creating a 1/1 Thopter artifact creature token.
+  Activate the Thopter token by tapping it, adding {U} that can only be spent to cast spells from anywhere except your hand.
+  Repeat.
+
+## Combo 4478-4947-5078-6766
+Cards: Mm'menon, the Right Hand + Sai, Master Thopterist + Sensei's Divining Top + Roar of Resistance
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {1}
+Produces: Infinite card draw; Near-infinite tapped creature tokens; Infinite draw triggers; Near-infinite creature ETB; Near-infinite storm count
+Start: Mm'menon, the Right Hand (battlefield); Sai, Master Thopterist (battlefield); Sensei's Divining Top (battlefield); Roar of Resistance (battlefield)
+Steps: Activate Sensei's Divining Top's second ability by tapping it, causing you to draw a card and put Sensei's Diving Top on top of your library.
+  Cast Sensei's Divining Top from the top of your library by paying {1}.
+  Sai triggers, creating a 1/1 Thopter artifact creature token.
+  Activate the Thopter token by tapping it, adding {U} that can only be spent to cast spells from anywhere except your hand.
+  Repeat.
+
+## Combo 4508-4869
+Cards: Malcolm, Keen-Eyed Navigator + Glint-Horn Buccaneer
+Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 23000 | Commander: legal | Mana needed: {1}{R}
+Produces: Near-infinite damage; Near-infinite self-discard triggers; Near-infinite draw triggers
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Glint-Horn Buccaneer (battlefield)
+Prerequisites: You have a card in hand.
+  You have at least two opponents.
+Steps: Declare Glint-Horn Buccaneer as an attacker.
+  Holding priority, activate Glint-Horn Buccaneer by paying {1}{R} and discarding a card.
+  Glint-Horn Buccaneer triggers, dealing 1 damage to each opponent.
+  Malcolm triggers, creating a Treasure token for each opponent dealt damage this way.
+  Resolve the Glint-Horn Buccaneer ability, causing you to draw a card.
+  Activate two Treasures by tapping and sacrificing them, adding {1}{R}.
+  Repeat from step 2.
+Notes: The combo stops creating enough Treasures once you have one opponent remaining. If you start the combo with three or more opponents, you will make additional Treasures each iteration, which you could use for extra iterations while you only have one opponent. Depending on the life totals of your opponents and your deck size, the combo may also stop once your library is empty.
+
+## Combo 4508-5184-5396-5880
+Cards: Malcolm, Keen-Eyed Navigator + Magmaw + Xorn + Trickery Charm
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {1}
+Produces: Infinite damage
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Magmaw (battlefield); Xorn (battlefield); Trickery Charm (battlefield)
+Prerequisites: You control an additional nonland permanent.
+Steps: Cast Trickery Charm by paying {U}, causing Magmaw to become a Pirate until end of turn.
+  Activate Magmaw by paying {1} and sacrificing another nonland permanent, dealing 1 damage to an opponent.
+  Malcolm triggers, creating a Treasure token plus at least one additional token due to Xorn.
+  Activate a Treasure by tapping and sacrificing it, adding {1}.
+  Repeat from step 2.
+
+## Combo 4508-5184-5880-5929
+Cards: Malcolm, Keen-Eyed Navigator + Magmaw + Xorn + Leyline of Transformation
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal | Mana needed: {1}
+Produces: Infinite damage
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Magmaw (battlefield); Xorn (battlefield); Leyline of Transformation (battlefield)
+Prerequisites: "Pirate" chosen with Leyline of Transformation.
+  You control another nonland permanent.
+Steps: Activate Magmaw by paying {1} and sacrificing another nonland permanent, dealing 1 damage to an opponent.
+  Malcolm triggers, creating two Treasure tokens.
+  Activate a Treasure by tapping and sacrificing it, adding {1}.
+  Repeat.
+
+## Combo 4508-5184-5880-7040
+Cards: Malcolm, Keen-Eyed Navigator + Magmaw + Xorn + Psychic Paper
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}
+Produces: Infinite damage
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Magmaw (battlefield); Xorn (battlefield); Psychic Paper (battlefield: attached to Magmaw with "Pirate" chosen)
+Prerequisites: You control another nonland permanent.
+Steps: Activate Magmaw by paying {1} and sacrificing another nonland permanent, dealing 1 damage to an opponent.
+  Malcolm triggers, creating two Treasure tokens.
+  Activate a Treasure by tapping and sacrificing it, adding {1}.
+  Repeat.
+
+## Combo 4508-5184-5880-7223
+Cards: Malcolm, Keen-Eyed Navigator + Magmaw + Xorn + Stalactite Dagger
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {1}
+Produces: Infinite damage
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Magmaw (battlefield); Xorn (battlefield); Stalactite Dagger (battlefield: attached to Magmaw)
+Prerequisites: You control another nonland permanent.
+Steps: Activate Magmaw by paying {1} and sacrificing another nonland permanent, dealing 1 damage to an opponent.
+  Malcolm triggers, creating two Treasure tokens.
+  Activate a Treasure by tapping and sacrificing it, adding {1}.
+  Repeat.
+
+## Combo 4508-5396-5491-5880
+Cards: Malcolm, Keen-Eyed Navigator + Magmaw + Trickery Charm + Worldwalker Helm
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
+Produces: Infinite damage
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Magmaw (battlefield); Trickery Charm (battlefield); Worldwalker Helm (battlefield)
+Prerequisites: You control an additional nonland permanent.
+Steps: Cast Trickery Charm by paying {U}, causing Magmaw to become a Pirate until end of turn.
+  Activate Magmaw by paying {1} and sacrificing another nonland permanent, dealing 1 damage to an opponent.
+  Malcolm triggers, creating a Treasure token plus at least one additional token due to Worldwalker Helm.
+  Activate a Treasure by tapping and sacrificing it, adding {1}.
+  Repeat from step 2.
+
+## Combo 4508-5396-5880-6291
+Cards: Malcolm, Keen-Eyed Navigator + Magmaw + Trickery Charm + Stridehangar Automaton
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
+Produces: Infinite damage; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Magmaw (battlefield); Trickery Charm (battlefield); Stridehangar Automaton (battlefield)
+Prerequisites: You control an additional nonland permanent.
+Steps: Cast Trickery Charm by paying {U}, causing Magmaw to become a Pirate until end of turn.
+  Activate Magmaw by paying {1} and sacrificing another nonland permanent, dealing 1 damage to an opponent.
+  Malcolm triggers, creating a Treasure token plus at least one additional token due to Stridehangar Automaton.
+  Activate a Treasure by tapping and sacrificing it, adding {1}.
+  Repeat from step 2.
+
+## Combo 4508-5396-6847
+Cards: Malcolm, Keen-Eyed Navigator + Trickery Charm + Weftstalker Ardent
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 3300 | Commander: legal | Mana needed: {U}
+Produces: Infinite colored mana; Infinite damage; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Trickery Charm (hand); Weftstalker Ardent (battlefield)
+Prerequisites: You have a way to cause an artifact to enter the battlefield under your control.
+Steps: Cast Trickery Charm by paying {U}, giving Weftstalker Ardent the Pirate creature type until end of turn.
+  Cause an artifact to enter the battlefield under your control.
+  Weftstalker Ardent triggers, dealing 1 damage to each opponent.
+  Malcolm triggers, as Weftstalker Ardent is a Pirate due to Trickery Charm, creating a Treasure token for each opponent dealt damage this way.
+  When the Treasure(s) enter, Weftstalker Ardent triggers that many times.
+  Resolve the first Weftstalker Ardent trigger, dealing 1 damage to each opponent.
+  Repeat from step 4.
+
+## Combo 4508-5396-7746
+Cards: Malcolm, Keen-Eyed Navigator + Trickery Charm + HYDRA Assault Robot
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 560 | Commander: legal | Mana needed: {U}
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite damage; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Trickery Charm (hand); HYDRA Assault Robot (battlefield)
+Prerequisites: You have a way to cause an artifact to enter the battlefield under your control.
+Steps: Cast Trickery Charm by paying {U}, causing HYDRA Assault Robot to become a Pirate until end of turn.
+  Cause an artifact to enter the battlefield under your control.
+  HYDRA Assault Robot triggers, dealing 1 damage to target opponent.
+  Malcolm triggers, creating a Treasure token
+  When the Treasure enters, HYDRA Assault Robot triggers, dealing 1 damage to target opponent.
+  Repeat from step 4.
+
+## Combo 4508-5491-5880-5929
+Cards: Malcolm, Keen-Eyed Navigator + Magmaw + Worldwalker Helm + Leyline of Transformation
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
+Produces: Infinite damage
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Magmaw (battlefield); Worldwalker Helm (battlefield); Leyline of Transformation (battlefield)
+Prerequisites: "Pirate" chosen with Leyline of Transformation.
+  You control another nonland permanent.
+Steps: Activate Magmaw by paying {1} and sacrificing another nonland permanent, dealing 1 damage to an opponent.
+  Malcolm triggers, creating a Treasure and Map token.
+  Activate the Treasure by tapping and sacrificing it, adding {1}.
+  Repeat.
+
+## Combo 4508-5491-5880-7040
+Cards: Malcolm, Keen-Eyed Navigator + Magmaw + Worldwalker Helm + Psychic Paper
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
+Produces: Infinite damage
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Magmaw (battlefield); Worldwalker Helm (battlefield); Psychic Paper (battlefield: attached to Magmaw with "Pirate" chosen)
+Prerequisites: You control another nonland permanent.
+Steps: Activate Magmaw by paying {1} and sacrificing another nonland permanent, dealing 1 damage to an opponent.
+  Malcolm triggers, creating a Map and a Treasure tokens.
+  Activate a Treasure by tapping and sacrificing it, adding {1}.
+  Repeat.
+
+## Combo 4508-5880-5929-6291
+Cards: Malcolm, Keen-Eyed Navigator + Magmaw + Leyline of Transformation + Stridehangar Automaton
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
+Produces: Infinite damage; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Magmaw (battlefield); Leyline of Transformation (battlefield: with "Pirate" chosen); Stridehangar Automaton (battlefield)
+Prerequisites: You control another nonland permanent.
+Steps: Activate Magmaw by paying {1} and sacrificing another nonland permanent, dealing 1 damage to an opponent.
+  Malcolm triggers, creating two Treasure tokens.
+  Activate a Treasure by tapping and sacrificing it, adding {1}.
+  Repeat.
+
+## Combo 4508-5880-6291-7040
+Cards: Malcolm, Keen-Eyed Navigator + Magmaw + Stridehangar Automaton + Psychic Paper
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
+Produces: Infinite damage; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Malcolm, Keen-Eyed Navigator (battlefield); Magmaw (battlefield); Stridehangar Automaton (battlefield); Psychic Paper (battlefield: attached to Magmaw with "Pirate" chosen)
+Prerequisites: You control another nonland permanent.
+Steps: Activate Magmaw by paying {1} and sacrificing another nonland permanent, dealing 1 damage to an opponent.
+  Malcolm triggers, creating a 1/1 Thopter artifact creature token and a Treasure token.
+  Activate a Treasure by tapping and sacrificing it, adding {1}.
+  Repeat.
+
+## Combo 4508-5929-6310
+Cards: Shao Jun + Malcolm, Keen-Eyed Navigator + Leyline of Transformation
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 1600 | Commander: legal
+Produces: Near-infinite damage; Near-infinite tapped Treasure tokens
+Start: Shao Jun (battlefield); Malcolm, Keen-Eyed Navigator (battlefield); Leyline of Transformation (battlefield)
+Prerequisites: You have at least two opponents.
+  Leyline of Transformation on the battlefield with "Pirate" chosen.
+Steps: Activate Shao Jun by tapping two artifacts, dealing 1 damage to each opponent.
+  Malcolm triggers, creating a Treasure for each opponent dealt damage this way.
+  Repeat.
+Notes: Once you have one opponent remaining, the loop fails to create enough Treasures to sustain itself. You may use other artifacts as desired or wait another turn until your artifacts are untapped. If you have more than two opponents, this combo will net Treasure(s) per loop, and those can also be used once you only have one opponent remaining.
+
 ## Combo 4508-5929-6847
 Cards: Malcolm, Keen-Eyed Navigator + Leyline of Transformation + Weftstalker Ardent
-Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 2700 | Commander: legal
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 2800 | Commander: legal
 Produces: Infinite colored mana; Infinite damage; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
 Start: Malcolm, Keen-Eyed Navigator (battlefield); Leyline of Transformation (battlefield: with "Pirate" chosen); Weftstalker Ardent (battlefield)
 Prerequisites: You have a way to cause an artifact to enter the battlefield under your control.
@@ -273,7 +763,7 @@ Steps: Activate Howlsquad Heavy by tapping it, adding at least {R}{R}
 
 ## Combo 4644-7786
 Cards: Hawkeye's Bow + Tidewater Minion
-Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 44 | Commander: legal
+Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 45 | Commander: legal
 Produces: Infinite damage
 Start: Hawkeye's Bow (battlefield: attached to Tidewater Minion); Tidewater Minion (battlefield: without summoning sickness)
 Steps: Activate Tidewater Minion by tapping it, targeting itself.
@@ -315,7 +805,7 @@ Steps: Activate Breaching Hippocamp by tapping it, creating a token copy of itse
 
 ## Combo 4702-7220
 Cards: Splinter Twin + Glamermite
-Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 77 | Commander: legal
+Color identity: UR | Bracket: 4+ (Ruthless) | Popularity: 78 | Commander: legal
 Produces: Infinite creature tokens with haste; Infinite creature ETB
 Start: Splinter Twin (battlefield); Glamermite (battlefield)
 Prerequisites: Splinter Twin attached to Glamermite.
@@ -336,7 +826,7 @@ Steps: Cast a copy of Maestro's Gift from exile by paying {3}{U}{R}.
 
 ## Combo 4740-5078-5243-5313
 Cards: Sensei's Divining Top + Aetherflux Reservoir + Treasonous Ogre + The Reality Chip
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal | Mana needed: {2} minus {1} for each 3 life you have and minus {1} if your storm count is 2 or greater
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 28 | Commander: legal | Mana needed: {2} minus {1} for each 3 life you have and minus {1} if your storm count is 2 or greater
 Produces: Near-infinite damage; Infinite card draw; Near-infinite lifegain; Near-infinite red mana; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Aetherflux Reservoir (battlefield); Treasonous Ogre (battlefield); The Reality Chip (battlefield)
 Prerequisites: The Reality Chip attached to a creature you control.
@@ -460,7 +950,7 @@ Steps: Activate Krark-Clan Grunt by sacrificing another artifact creature.
 
 ## Combo 4821-5054
 Cards: League Guildmage + Dramatic Reversal
-Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 270 | Commander: legal | Mana needed: {3}{U}{R}
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 260 | Commander: legal | Mana needed: {3}{U}{R}
 Produces: Infinite colored mana
 Start: League Guildmage (battlefield); Dramatic Reversal (hand)
 Prerequisites: One or more nonland permanents able to produce {3}{R}.
@@ -632,7 +1122,7 @@ Steps: Cast Face Yourself for free due to Vision, targeting yourself and creatin
 
 ## Combo 4869-5437-6092
 Cards: Niv-Mizzet, Visionary + Glint-Horn Buccaneer + Prognostic Sphinx
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
 Produces: Near-infinite damage; Near-infinite card draw; Near-infinite looting; Infinite draw triggers; Near-infinite self-discard triggers
 Start: Niv-Mizzet, Visionary (battlefield); Glint-Horn Buccaneer (battlefield); Prognostic Sphinx (battlefield)
 Prerequisites: You have at least one card in hand.
@@ -866,7 +1356,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 4908-5078-7902
 Cards: Sensei's Divining Top + Enthusiastic Mechanaut + Fateful Discovery
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 740 | Commander: legal
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 750 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (hand); Enthusiastic Mechanaut (battlefield); Fateful Discovery (battlefield)
 Steps: Cast Sensei's Divining Top by paying {0} due to Enthusiastic Mechanaut.
@@ -1107,7 +1597,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 5078-5243-7356
 Cards: Sensei's Divining Top + Longshot, Rebel Bowman + The Reality Chip
-Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 260 | Commander: legal
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 270 | Commander: legal
 Produces: Infinite card draw; Near-infinite damage; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Longshot, Rebel Bowman (battlefield); The Reality Chip (battlefield: attached to a creature you control)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -1238,7 +1728,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 5078-5849-7444
 Cards: Sensei's Divining Top + Fortune Teller's Talent + Advanced Reconstruction
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 46 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Fortune Teller's Talent (battlefield: is at least level 2 is level 3); Advanced Reconstruction (battlefield: is level 3)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -1583,7 +2073,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 5078-7356-7902
 Cards: Sensei's Divining Top + Longshot, Rebel Bowman + Fateful Discovery
-Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 92 | Commander: legal
+Color identity: UR | Bracket: 3-4+ (Spicy) | Popularity: 94 | Commander: legal
 Produces: Infinite card draw; Near-infinite damage; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (hand); Longshot, Rebel Bowman (battlefield); Fateful Discovery (battlefield)
 Steps: Cast Sensei's Divining Top by paying {0} due to Longshot.
@@ -1700,6 +2190,36 @@ Steps: Activate Endrider Catalyzer by tapping it, adding {R}{R}.
   Activate Sword of the Paruns by paying {1}, untapping Endrider Catalyzer.
   Repeat.
 Notes: Once you have infinite mana, you may attach Sword of the Paruns to any other creature(s) to untap them.
+
+## Combo 5169-8195--222
+Cards: Venser, Fervent Forger + Daring Thief
+Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {0} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Instant or Sorcery that Creates One or More Copies of an Opposing Creature (hand)
+Start: Venser, Fervent Forger (battlefield); Daring Thief (battlefield: is tapped)
+Prerequisites: You have a way to untap Daring Thief.
+  An opponent must control a permanent that shares a type with the one you wish to exchange.
+Steps: Untap Daring Thief using any method. It triggers, exchanging control of a permanent an opponent controls and Venser.
+  Cast your copy spell from the templated list by paying its mana cost, choosing the necessary targets to create at least one copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 3).
+  Repeat Step 4 until you have created two copies of Venser.
+  Repeat from Step 3. Depending on the permanents targeted in Step 4, the features produced will change.
+
+## Combo 5169-8195--223
+Cards: Venser, Fervent Forger + Daring Thief
+Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {0} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Clone — Can Copy Opponent's Creatures (hand)
+Start: Venser, Fervent Forger (battlefield); Daring Thief (battlefield: is tapped)
+Prerequisites: You have a way to untap Daring Thief.
+  An opponent must control a permanent that shares a type with the one you wish to exchange.
+Steps: Untap Daring Thief using any method. It triggers, exchanging control of a permanent an opponent controls and Venser.
+  Cast your clone spell from the templated list for its mana cost, choosing to have it enter as a copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 3).
+  Repeat Step 4 until you have created two copies of Venser.
+  Repeat from Step 3. Depending on the permanents targeted in Step 4, the features produced will change.
 
 ## Combo 5184-5437-5742-5743
 Cards: Mary Read and Anne Bonny + Gilded Assault Cart + Xorn + Prognostic Sphinx
@@ -1919,7 +2439,7 @@ Steps: Declare Raphael as an attacker. Shaun triggers, creating a tapped and att
 
 ## Combo 5475-7014-7786
 Cards: Hawkeye's Bow + Forensic Researcher + North Pole Patrol
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 63 | Commander: legal
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 64 | Commander: legal
 Produces: Infinite damage
 Start: Hawkeye's Bow (battlefield: attached to either Forensic Researcher or North Pole Patrol); Forensic Researcher (battlefield: without summoning sickness); North Pole Patrol (battlefield: without summoning sickness)
 Steps: Activate Forensic Researcher by tapping it, targeting North Pole Patrol.
@@ -2264,7 +2784,7 @@ Steps: Cast the additional instant or sorcery by paying its mana cost.
 
 ## Combo 5941-7683
 Cards: Prismari, the Inspiration + Wild Ricochet
-Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 340 | Commander: legal | Mana needed: {2}{R}{R}
+Color identity: UR | Bracket: 1+ (Exhibition) | Popularity: 350 | Commander: legal | Mana needed: {2}{R}{R}
 Produces: Infinite magecraft triggers
 Start: Prismari, the Inspiration (battlefield); Wild Ricochet (hand)
 Prerequisites: You have another instant or sorcery card in hand with the mana to cast it and applicable target(s) if needed.
@@ -2533,6 +3053,260 @@ Requires: Clone — Can Copy Opponent's Creatures (hand)
 Start: Venser, Fervent Forger (battlefield); Rules of Acquisition (hand)
 Prerequisites: There are at least three cards in your library.
 Steps: Cast Rules of Acquisition by paying {3}{U}{U}, drawing three cards and causing target opponent to gain control of Venser.
+  Cast your clone spell from the templated list for its mana cost, choosing to have it enter as a copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 3).
+  Repeat Step 4 until you have created two copies of Venser.
+  Repeat from Step 3. Depending on the permanents targeted in Step 4, the features produced will change.
+
+## Combo 8195-8413--222
+Cards: Venser, Fervent Forger + Chromeshell Crab
+Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {4}{U} and {0} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Instant or Sorcery that Creates One or More Copies of an Opposing Creature (hand)
+Start: Venser, Fervent Forger (battlefield); Chromeshell Crab (battlefield: is face down)
+Prerequisites: An opponent controls a creature.
+Steps: Turn Chromeshell Crab face up by paying {4}{U}, exchanging control of a creature an opponent controls and Venser.
+  Cast your copy spell from the templated list by paying its mana cost, choosing the necessary targets to create at least one copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 3).
+  Repeat Step 4 until you have created two copies of Venser.
+  Repeat from Step 3. Depending on the permanents targeted in Step 4, the features produced will change.
+
+## Combo 8195-8413--223
+Cards: Venser, Fervent Forger + Chromeshell Crab
+Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {4}{U} and {0} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Clone — Can Copy Opponent's Creatures (hand)
+Start: Venser, Fervent Forger (battlefield); Chromeshell Crab (battlefield: is face down)
+Prerequisites: An opponent controls a creature.
+Steps: Turn Chromeshell Crab face up by paying {4}{U}, exchanging control of a creature an opponent controls and Venser.
+  Cast your clone spell from the templated list for its mana cost, choosing to have it enter as a copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 3).
+  Repeat Step 4 until you have created two copies of Venser.
+  Repeat from Step 3. Depending on the permanents targeted in Step 4, the features produced will change.
+
+## Combo 8195-8414--222
+Cards: Venser, Fervent Forger + Cultural Exchange
+Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {4}{U}{U} and {0} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Instant or Sorcery that Creates One or More Copies of an Opposing Creature (hand)
+Start: Venser, Fervent Forger (battlefield); Cultural Exchange (hand)
+Prerequisites: An opponent controls a creature.
+Steps: Cast Cultural Exchange by paying {4}{U}{U}, exchanging control of a creature an opponent controls and Venser.
+  Cast your copy spell from the templated list by paying its mana cost, choosing the necessary targets to create at least one copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 3).
+  Repeat Step 4 until you have created two copies of Venser.
+  Repeat from Step 3. Depending on the permanents targeted in Step 4, the features produced will change.
+
+## Combo 8195-8414--223
+Cards: Venser, Fervent Forger + Cultural Exchange
+Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {4}{U}{U} and {0} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Clone — Can Copy Opponent's Creatures (hand)
+Start: Venser, Fervent Forger (battlefield); Cultural Exchange (hand)
+Prerequisites: An opponent controls a creature.
+Steps: Cast Cultural Exchange by paying {4}{U}{U}, exchanging control of a creature an opponent controls and Venser.
+  Cast your clone spell from the templated list for its mana cost, choosing to have it enter as a copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 3).
+  Repeat Step 4 until you have created two copies of Venser.
+  Repeat from Step 3. Depending on the permanents targeted in Step 4, the features produced will change.
+
+## Combo 8195-8416--222
+Cards: Venser, Fervent Forger + Legerdemain
+Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {2}{U}{U} and {0} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Instant or Sorcery that Creates One or More Copies of an Opposing Creature (hand)
+Start: Venser, Fervent Forger (battlefield); Legerdemain (hand)
+Prerequisites: An opponent must control either an artifact or creature depending on the card being donated.
+Steps: Cast Legerdemain by paying {2}{U}, exchanging control of an artifact or creature an opponent controls and Venser.
+  Cast your copy spell from the templated list by paying its mana cost, choosing the necessary targets to create at least one copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 3).
+  Repeat Step 4 until you have created two copies of Venser.
+  Repeat from Step 3. Depending on the permanents targeted in Step 4, the features produced will change.
+
+## Combo 8195-8416--223
+Cards: Venser, Fervent Forger + Legerdemain
+Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {2}{U}{U} and {0} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Clone — Can Copy Opponent's Creatures (hand)
+Start: Venser, Fervent Forger (battlefield); Legerdemain (hand)
+Prerequisites: An opponent must control either an artifact or creature depending on the card being donated.
+Steps: Cast Legerdemain by paying {2}{U}, exchanging control of an artifact or creature an opponent controls and Venser.
+  Cast your clone spell from the templated list for its mana cost, choosing to have it enter as a copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 3).
+  Repeat Step 4 until you have created two copies of Venser.
+  Repeat from Step 3. Depending on the permanents targeted in Step 4, the features produced will change.
+
+## Combo 8195-8417--222
+Cards: Venser, Fervent Forger + Modify Memory
+Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {4}{U} and {0} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Instant or Sorcery that Creates One or More Copies of an Opposing Creature (hand)
+Start: Venser, Fervent Forger (battlefield); Modify Memory (hand)
+Prerequisites: An opponent must control a creature.
+Steps: Cast Modify Memory by paying {4}{U}, exchanging control of a creature an opponent controls and Venser.
+  Cast your copy spell from the templated list by paying its mana cost, choosing the necessary targets to create at least one copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 3).
+  Repeat Step 4 until you have created two copies of Venser.
+  Repeat from Step 3. Depending on the permanents targeted in Step 4, the features produced will change.
+
+## Combo 8195-8417--223
+Cards: Venser, Fervent Forger + Modify Memory
+Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {4}{U} and {0} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Clone — Can Copy Opponent's Creatures (hand)
+Start: Venser, Fervent Forger (battlefield); Modify Memory (hand)
+Prerequisites: An opponent must control a creature.
+Steps: Cast Modify Memory by paying {4}{U}, exchanging control of a creature an opponent controls and Venser.
+  Cast your clone spell from the templated list for its mana cost, choosing to have it enter as a copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 3).
+  Repeat Step 4 until you have created two copies of Venser.
+  Repeat from Step 3. Depending on the permanents targeted in Step 4, the features produced will change.
+
+## Combo 8195-8418--222
+Cards: Venser, Fervent Forger + Puca's Mischief
+Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {0} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Instant or Sorcery that Creates One or More Copies of an Opposing Creature (hand)
+Start: Venser, Fervent Forger (battlefield); Puca's Mischief (battlefield)
+Prerequisites: An opponent controls a nonland permanent with an equal or lesser mana value than the one you wish to donate.
+Steps: At the beginning of your upkeep, Puca's Mischief triggers, exchanging control of a nonland permanent an opponent controls with equal or lesser mana value and Venser.
+  Cast your copy spell from the templated list by paying its mana cost, choosing the necessary targets to create at least one copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 3).
+  Repeat Step 4 until you have created two copies of Venser.
+  Repeat from Step 3. Depending on the permanents targeted in Step 4, the features produced will change.
+
+## Combo 8195-8418--223
+Cards: Venser, Fervent Forger + Puca's Mischief
+Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {0} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Clone — Can Copy Opponent's Creatures (hand)
+Start: Venser, Fervent Forger (battlefield); Puca's Mischief (battlefield)
+Prerequisites: An opponent controls a nonland permanent with an equal or lesser mana value than the one you wish to donate.
+Steps: At the beginning of your upkeep, Puca's Mischief triggers, exchanging control of a nonland permanent an opponent controls with equal or lesser mana value and Venser.
+  Cast your clone spell from the templated list for its mana cost, choosing to have it enter as a copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 3).
+  Repeat Step 4 until you have created two copies of Venser.
+  Repeat from Step 3. Depending on the permanents targeted in Step 4, the features produced will change.
+
+## Combo 8195-8419--222
+Cards: Venser, Fervent Forger + Shifting Grift
+Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {2}{U}{U} and {0} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Instant or Sorcery that Creates One or More Copies of an Opposing Creature (hand)
+Start: Venser, Fervent Forger (battlefield); Shifting Grift (hand)
+Prerequisites: An opponent must control a creature.
+Steps: Cast Shifting Grift for its first spree cost by paying {2}{U}{U}, exchanging control of a creature an opponent controls and Venser.
+  Cast your copy spell from the templated list by paying its mana cost, choosing the necessary targets to create at least one copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 3).
+  Repeat Step 4 until you have created two copies of Venser.
+  Repeat from Step 3. Depending on the permanents targeted in Step 4, the features produced will change.
+
+## Combo 8195-8419--223
+Cards: Venser, Fervent Forger + Shifting Grift
+Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {2}{U}{U} and {0} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Clone — Can Copy Opponent's Creatures (hand)
+Start: Venser, Fervent Forger (battlefield); Shifting Grift (hand)
+Prerequisites: An opponent must control a creature.
+Steps: Cast Shifting Grift for its first spree cost by paying {2}{U}{U}, exchanging control of a creature an opponent controls and Venser.
+  Cast your clone spell from the templated list for its mana cost, choosing to have it enter as a copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 3).
+  Repeat Step 4 until you have created two copies of Venser.
+  Repeat from Step 3. Depending on the permanents targeted in Step 4, the features produced will change.
+
+## Combo 8195-8420--222
+Cards: Venser, Fervent Forger + Shifting Loyalties
+Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {5}{U} and {0} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Instant or Sorcery that Creates One or More Copies of an Opposing Creature (hand)
+Start: Venser, Fervent Forger (battlefield); Shifting Loyalties (hand)
+Prerequisites: An opponent controls a permanent that shares a card type with the one you intend to donate.
+Steps: Cast Shifting Loyalties by paying {5}{U}, exchanging control of a permanent an opponent controls and Venser.
+  Cast your copy spell from the templated list by paying its mana cost, choosing the necessary targets to create at least one copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 3).
+  Repeat Step 4 until you have created two copies of Venser.
+  Repeat from Step 3. Depending on the permanents targeted in Step 4, the features produced will change.
+
+## Combo 8195-8420--223
+Cards: Venser, Fervent Forger + Shifting Loyalties
+Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {5}{U} and {0} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Clone — Can Copy Opponent's Creatures (hand)
+Start: Venser, Fervent Forger (battlefield); Shifting Loyalties (hand)
+Prerequisites: An opponent controls a permanent that shares a card type with the one you intend to donate.
+Steps: Cast Shifting Loyalties by paying {5}{U}, exchanging control of a permanent an opponent controls and Venser.
+  Cast your clone spell from the templated list for its mana cost, choosing to have it enter as a copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 3).
+  Repeat Step 4 until you have created two copies of Venser.
+  Repeat from Step 3. Depending on the permanents targeted in Step 4, the features produced will change.
+
+## Combo 8195-8422--222
+Cards: Venser, Fervent Forger + Spawnbroker
+Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {2}{U} and {0} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Instant or Sorcery that Creates One or More Copies of an Opposing Creature (hand)
+Start: Venser, Fervent Forger (battlefield); Spawnbroker (hand)
+Prerequisites: An opponent controls a creature with power less than or equal to the creature you intend to donate.
+Steps: Cast Spawnbroker by paying {2}{U}.
+  When Spawnbroker enters, it triggers, exchanging control of a creature an opponent controls with equal or lesser power and Venser.
+  Cast your copy spell from the templated list by paying its mana cost, choosing the necessary targets to create at least one copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 4).
+  Repeat Step 5 until you have created two copies of Venser.
+  Repeat from Step 4. Depending on the permanents targeted in Step 5, the features produced will change.
+
+## Combo 8195-8422--223
+Cards: Venser, Fervent Forger + Spawnbroker
+Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {2}{U} and {0} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Clone — Can Copy Opponent's Creatures (hand)
+Start: Venser, Fervent Forger (battlefield); Spawnbroker (hand)
+Prerequisites: An opponent controls a creature with power less than or equal to the creature you intend to donate.
+Steps: Cast Spawnbroker by paying {2}{U}.
+  When Spawnbroker enters, it triggers, exchanging control of a creature an opponent controls with equal or lesser power and Venser.
+  Cast your clone spell from the templated list for its mana cost, choosing to have it enter as a copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 4).
+  Repeat Step 5 until you have created two copies of Venser.
+  Repeat from Step 4. Depending on the permanents targeted in Step 5, the features produced will change.
+
+## Combo 8195-8424--222
+Cards: Venser, Fervent Forger + Trade the Helm
+Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {4}{U} and {0} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Instant or Sorcery that Creates One or More Copies of an Opposing Creature (hand)
+Start: Venser, Fervent Forger (battlefield); Trade the Helm (hand)
+Prerequisites: An opponent controls an artifact or creature.
+Steps: Cast Trade the Helm by paying {4}{U}, exchanging control of an artifact or creature an opponent controls and Venser.
+  Cast your copy spell from the templated list by paying its mana cost, choosing the necessary targets to create at least one copy of Venser.
+  Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
+  Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 3).
+  Repeat Step 4 until you have created two copies of Venser.
+  Repeat from Step 3. Depending on the permanents targeted in Step 4, the features produced will change.
+
+## Combo 8195-8424--223
+Cards: Venser, Fervent Forger + Trade the Helm
+Color identity: UR | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {4}{U} and {0} plus the cost of copying Venser
+Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
+Requires: Clone — Can Copy Opponent's Creatures (hand)
+Start: Venser, Fervent Forger (battlefield); Trade the Helm (hand)
+Prerequisites: An opponent controls an artifact or creature.
+Steps: Cast Trade the Helm by paying {4}{U}, exchanging control of an artifact or creature an opponent controls and Venser.
   Cast your clone spell from the templated list for its mana cost, choosing to have it enter as a copy of Venser.
   Each Venser that entered triggers. Put those triggers on the stack, choosing the second mode and targeting the Venser your opponent controls for at least one copy.
   Resolve a Venser trigger, creating two copies of a permanent an opponent controls (this must be Venser if you only put one trigger on the stack in Step 3).

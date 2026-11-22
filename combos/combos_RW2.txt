@@ -1,3 +1,177 @@
+## Combo 2512-3140-3588
+Cards: Daru Spiritualist + Animal Boneyard + Soltari Guerrillas
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Produces: Infinite lifegain
+Start: Daru Spiritualist (battlefield); Animal Boneyard (battlefield: attached to an untapped land you control); Soltari Guerrillas (battlefield)
+Steps: Activate Soltari Guerrillas by paying {0}, targeting Daru Spiritualist.
+  Daru Spiritualist triggers, giving it +0/+2 until end of turn.
+  Repeat an arbitrarily large number of times.
+  Activate the land with Animal Boneyard attached by tapping it and sacrificing Daru Spiritualist, causing you to gain life equal to Daru Spiritualist's toughness.
+
+## Combo 2517-2822-2936-3765
+Cards: Kediss, Emberclaw Familiar + Worldfire + Parallax Wave + Bloodsworn Steward
+Color identity: RW | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {6}{R}{R}{R}
+Produces: Each opponent loses the game; Near-infinite lifeloss; Exile all permanents; Exile all cards in hands and graveyards; Mass Land Denial
+Start: Kediss, Emberclaw Familiar (exile: exiled by Parallax Wave); Worldfire (hand); Parallax Wave (battlefield); Bloodsworn Steward (exile: exiled by Parallax Wave)
+Steps: Cast Worldfire by paying {6}{R}{R}{R}, exiling all permanents, all cards in all hands and graveyards, and setting each player's life total to one.
+  Parallax Wave leaves the battlefield, returning Kediss and Bloodswarn Steward from exile to the battlefield.
+  Deal combat damage to an opponent with Kediss.
+  The opponent dealt damage loses the game due to having less than zero life.
+  Kediss triggers, dealing damage equal to the combat damage dealt to each other opponent.
+  Each other opponent loses the game due to having less than zero life.
+
+## Combo 2517-2822-3765-4460
+Cards: Kediss, Emberclaw Familiar + Worldfire + Parallax Wave + Cyclops of Eternal Fury
+Color identity: RW | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {6}{R}{R}{R}
+Produces: Each opponent loses the game; Near-infinite lifeloss; Exile all permanents; Exile all cards in hands and graveyards; Mass Land Denial
+Start: Kediss, Emberclaw Familiar (exile: exiled by Parallax Wave); Worldfire (hand); Parallax Wave (battlefield); Cyclops of Eternal Fury (exile: exiled by Parallax Wave)
+Steps: Cast Worldfire by paying {6}{R}{R}{R}, exiling all permanents, all cards in all hands and graveyards, and setting each player's life total to one.
+  Parallax Wave leaves the battlefield, returning Kediss and Bloodswarn Steward from exile to the battlefield.
+  Deal combat damage to an opponent with Kediss.
+  The opponent dealt damage loses the game due to having less than zero life.
+  Kediss triggers, dealing damage equal to the combat damage dealt to each other opponent.
+  Each other opponent loses the game due to having less than zero life.
+
+## Combo 2517-4681-5147-5276
+Cards: Parallax Wave + Leonin Relic-Warder + Karmic Guide + Goblin Bombardment
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {W}{W}
+Produces: Infinite damage; Infinite blinking; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
+Start: Parallax Wave (battlefield); Leonin Relic-Warder (hand); Karmic Guide (battlefield); Goblin Bombardment (battlefield)
+Prerequisites: Parallax Wave has at least one fade counter on it.
+Steps: Cast Leonin Relic-Warder by paying {W}{W}.
+  When Leonin Relic-Warder enters the battlefield, its first ability triggers.
+  Holding priority, activate Parallax Wave by removing a fade counter from it, exiling Karmic Guide.
+  Resolve the Leonin Relic-Warder trigger, exiling Parallax Wave.
+  When Parallax Wave leaves the battlefield, it triggers.
+  Holding priority, activate Goblin Bombardment by sacrificing Leonin Relic-Warder.
+  When Leonin Relic-Warder leaves the battlefield, its second ability triggers, returning Parallax Wave from exile to the battlefield.
+  Resolve the Goblin Bombardment ability, dealing 1 damage to any target.
+  Resolve the Parallax Wave trigger from step 5, returning Karmic Guide from exile to the battlefield.
+  When Karmic Guide enters the battlefield, it triggers, returning Leonin Relic-Warder from your graveyard to the battlefield.
+  Repeat from step 2.
+
+## Combo 2517-4681-5231-5276
+Cards: Parallax Wave + Leonin Relic-Warder + Karmic Guide + Thermopod
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {W}{W}
+Produces: Infinite red mana; Infinite blinking; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
+Start: Parallax Wave (battlefield); Leonin Relic-Warder (hand); Karmic Guide (battlefield); Thermopod (battlefield)
+Prerequisites: Parallax Wave has at least one fade counter on it.
+Steps: Cast Leonin Relic-Warder by paying {W}{W}.
+  When Leonin Relic-Warder enters the battlefield, its first ability triggers.
+  Holding priority, activate Parallax Wave by removing a fade counter from it, exiling Karmic Guide.
+  Resolve the Leonin Relic-Warder trigger, exiling Parallax Wave.
+  When Parallax Wave leaves the battlefield, it triggers.
+  Holding priority, activate Thermopod's second ability by sacrificing Leonin Relic-Warder, adding {R}.
+  When Leonin Relic-Warder leaves the battlefield, its second ability triggers, returning Parallax Wave from exile to the battlefield.
+  Resolve the Parallax Wave trigger from step 5, returning Karmic Guide from exile to the battlefield.
+  When Karmic Guide enters the battlefield, it triggers, returning Leonin Relic-Warder from your graveyard to the battlefield.
+  Repeat from step 2.
+
+## Combo 2532-2534-4617-4906
+Cards: Agrus Kos, Eternal Soldier + Jaxis, the Troublemaker + Soulbright Flamekin + Coercive Recruiter
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {3}{R/W}
+Produces: Near-infinite creature tokens with haste; Near-infinite red mana; Infinite rummaging; Infinite draw triggers; Infinite self-discard triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers
+Start: Agrus Kos, Eternal Soldier (battlefield); Jaxis, the Troublemaker (battlefield); Soulbright Flamekin (battlefield); Coercive Recruiter (battlefield)
+Prerequisites: Jaxis does not have summoning sickness.
+  You have at least one card in hand.
+Steps: Activate Soulbright Flamekin by paying {2}, targeting Agrus Kos.
+  Agrus Kos triggers, causing you to pay {1}{R/W} to copy Soulbright Flamekin's ability, targeting every other creature you control.
+  Resolve all Soulbright Flamekin abilities, adding eight {R} and giving creatures you control trample until end of turn.
+  Activate Jaxis by paying {R}, tapping it and discarding a card, targeting Agrus Kos.
+  Agrus Kos triggers, causing you to pay {1}{R/W} to copy Jaxis' ability, targeting every other creature you control.
+  Resolve all Jaxis abilities, creating a token that's a copy of each other creature you control with haste.
+  Put the token Agrus Kos into your graveyard due to the legend rule.
+  The Agrus Kos and Coercive Recruiter tokens trigger.
+  Resolve the Agrus Kos trigger, causing you to draw a card.
+  Resolve the Coercive Recruiter trigger, untapping Jaxis.
+  Repeat, using the Soulbright Flamekin token instead.
+
+## Combo 2532-4050-4730
+Cards: Jaxis, the Troublemaker + Sparring Mummy + Phyrexian Altar
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {R}
+Produces: Infinite looting; Infinite draw triggers; Infinite self-discard triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers
+Start: Jaxis, the Troublemaker (battlefield); Sparring Mummy (battlefield); Phyrexian Altar (battlefield)
+Prerequisites: Jaxis does not have summoning sickness.
+  You have at least one card in hand.
+Steps: Activate Jaxis by paying {R}, tapping it and discarding a card, creating a token copy of Sparring Mummy with haste.
+  The Sparring Mummy token enters the battlefield, untapping Jaxis.
+  Activate Phyrexian Altar by sacrificing the Sparring Mummy token, adding {R}.
+  The Sparring Mummy token dies, causing you to draw a card.
+  Repeat.
+
+## Combo 2532-4617-4730-4906
+Cards: Agrus Kos, Eternal Soldier + Jaxis, the Troublemaker + Soulbright Flamekin + Sparring Mummy
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {3}{R/W}
+Produces: Near-infinite creature tokens with haste; Near-infinite red mana; Infinite rummaging; Infinite self-discard triggers; Near-infinite creature ETB; Infinite draw triggers; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
+Start: Agrus Kos, Eternal Soldier (battlefield); Jaxis, the Troublemaker (battlefield); Soulbright Flamekin (battlefield); Sparring Mummy (battlefield)
+Prerequisites: Jaxis does not have summoning sickness.
+  You have at least one card in hand.
+Steps: Activate Soulbright Flamekin by paying {2}, targeting Agrus Kos.
+  Agrus Kos triggers, causing you to pay {1}{R/W} to copy Soulbright Flamekin's ability, targeting every other creature you control.
+  Resolve all Soulbright Flamekin abilities, adding eight {R} and giving creatures you control trample until end of turn.
+  Activate Jaxis by paying {R}, tapping it and discarding a card, targeting Agrus Kos.
+  Agrus Kos triggers, causing you to pay {1}{R/W} to copy Jaxis' ability, targeting every other creature you control.
+  Resolve all Jaxis abilities, creating a token that's a copy of each other creature you control with haste.
+  Put the token Agrus Kos into your graveyard due to the legend rule.
+  The Agrus Kos and Sparring Mummy tokens trigger.
+  Resolve the Agrus Kos trigger, causing you to draw a card.
+  Resolve the Sparring Mummy trigger, untapping Jaxis.
+  Repeat, using the Soulbright Flamekin token instead.
+
+## Combo 2533-5147-5925--70
+Cards: Jackdaw Savior + Loyal Retainers + Goblin Bombardment
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal
+Produces: Infinite damage; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Requires: Legendary Creature with Flying and MV >= 4 (battlefield)
+Start: Jackdaw Savior (battlefield); Loyal Retainers (graveyard); Goblin Bombardment (battlefield)
+Steps: During your precombat main phase, activate Goblin Bombardment by sacrificing the legendary creature with flying.
+  When the creature dies, Jackdaw Savior triggers, returning Loyal Retainers from your graveyard to the battlefield.
+  Resolve the Goblin Bombardment ability, dealing 1 damage to any target.
+  Activate Loyal Retainers by sacrificing it, returning the legendary creature with flying from your graveyard to the battlefield.
+  Repeat.
+
+## Combo 2533-5231-5925--70
+Cards: Jackdaw Savior + Loyal Retainers + Thermopod
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal
+Produces: Infinite red mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Requires: Legendary Creature with Flying and MV >= 4 (battlefield)
+Start: Jackdaw Savior (battlefield); Loyal Retainers (graveyard); Thermopod (battlefield)
+Steps: During your precombat main phase, activate Thermopod's second ability by sacrificing the legendary creature with flying, adding {R}.
+  When the creature dies, Jackdaw Savior triggers, returning Loyal Retainers from your graveyard to the battlefield.
+  Activate Loyal Retainers by sacrificing it, returning the legendary creature with flying from your graveyard to the battlefield.
+  Repeat.
+
+## Combo 2534-5917
+Cards: The Jolly Balloon Man + Coercive Recruiter
+Color identity: RW | Bracket: 3-4+ (Spicy) | Popularity: 3800 | Commander: legal
+Produces: Infinite creature tokens with haste; Infinite mana creatures you control can produce; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: The Jolly Balloon Man (battlefield); Coercive Recruiter (battlefield)
+Prerequisites: You control a creature that can tap to produce at least {1}.
+Steps: Activate a creature by tapping it, adding {1}.
+  Activate The Jolly Balloon Man by paying {1} and tapping it, creating a token copy of Coercive Recruiter with haste that is a 1/1 Balloon in addition to its other types.
+  When the Coercive Recruiter token enters the battlefield, each Coercive Recruiter you control triggers.
+  Resolve the first two triggers, untapping the mana-producing creature and The Jolly Balloon Man.
+  Resolve all other Coercive Recruiter triggers, if applicable.
+  Repeat.
+Notes: You can use the extra Coercive Recruiter triggers to infinitely untap the mana-producing creature for extra mana.
+
+## Combo 2548-3149
+Cards: Avacyn, Angel of Hope + Obliterate
+Color identity: RW | Bracket: 4+ (Ruthless) | Popularity: 1600 | Commander: legal | Mana needed: {6}{R}{R}
+Produces: Destroy all lands, creatures, and artifacts your opponents control; Mass Land Denial
+Start: Avacyn, Angel of Hope (battlefield); Obliterate (hand)
+Steps: Cast Obliterate for {6}{R}{R}, destroying all lands, creatures, and artifacts your opponent control.
+
+## Combo 2548-5141
+Cards: Teferi's Protection + Obliterate
+Color identity: RW | Bracket: 4+ (Ruthless) | Popularity: 2400 | Commander: legal | Mana needed: {8}{R}{R}{W}
+Produces: Mass Land Denial; Destroy all lands, creatures, and artifacts your opponents control
+Start: Teferi's Protection (hand); Obliterate (hand)
+Steps: Float at least {8}{W}{R}{R}.
+  Cast Teferi's Protection for {2}{W}, phasing out all of your permanents.
+  Cast Obliterate for {6}{R}{R}, destroying all lands, artifacts and creatures.
+  At the beginning of your next upkeep, your permanents phase back in.
+
 ## Combo 2550-4013
 Cards: Emrakul's Hatcher + Eldrazi Displacer
 Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 5500 | Commander: legal | Mana needed: {2}{C}
@@ -1638,7 +1812,7 @@ Steps: Activate Umbral Mantle's equip ability by paying {0}, targeting another n
 
 ## Combo 2820-3175-5147
 Cards: Sun Titan + Angelic Renewal + Goblin Bombardment
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 380 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 370 | Commander: legal
 Produces: Infinite damage; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Sun Titan (battlefield); Angelic Renewal (battlefield); Goblin Bombardment (battlefield)
 Steps: Activate Goblin Bombardment by sacrificing Sun Titan.
@@ -1745,7 +1919,7 @@ Notes: The amount of damage this combo deals is highly variable by how many Drag
 
 ## Combo 2857-4364-5147
 Cards: Aurelia, the Warleader + Adarkar Valkyrie + Goblin Bombardment
-Color identity: RW | Bracket: 3-4+ (Spicy) | Popularity: 96 | Commander: legal
+Color identity: RW | Bracket: 3-4+ (Spicy) | Popularity: 97 | Commander: legal
 Produces: Infinite combat phases; Infinite damage; Infinite mana creatures you control can produce; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite untap of creatures you control
 Start: Aurelia, the Warleader (battlefield); Adarkar Valkyrie (battlefield); Goblin Bombardment (battlefield)
 Steps: Declare Aurelia as an attacker.
@@ -2412,7 +2586,7 @@ Steps: Activate Heartless Hidetsugu by tapping it, dealing damage to each oppone
 
 ## Combo 2942-3059-5253
 Cards: Brion Stoutarm + Malignus + Fiery Emancipation
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 700 | Commander: legal | Mana needed: {R}
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 710 | Commander: legal | Mana needed: {R}
 Produces: Near-infinite lifegain; Target opponent loses the game; Near-infinite damage to one opponent
 Start: Brion Stoutarm (battlefield); Malignus (battlefield); Fiery Emancipation (battlefield)
 Prerequisites: Brion does not have summoning sickness.
@@ -2766,7 +2940,7 @@ Steps: Activate Eldrazi Displacer by paying {2}{C}, blinking Famished Foragers.
 
 ## Combo 3055-3118
 Cards: Bearer of the Heavens + Gift of Immortality
-Color identity: RW | Bracket: 4+ (Ruthless) | Popularity: 260 | Commander: legal
+Color identity: RW | Bracket: 4+ (Ruthless) | Popularity: 270 | Commander: legal
 Produces: Destroy all permanents each turn; Lock; Mass Land Denial
 Start: Bearer of the Heavens (battlefield); Gift of Immortality (battlefield)
 Prerequisites: Gift of Immortality attached to Bearer of the Heavens.
@@ -2844,7 +3018,7 @@ Steps: Activate Brion by paying {R}, tapping it and sacrificing Malignus, dealin
 
 ## Combo 3090-3508-4879
 Cards: Sacred Ground + Price of Glory + Harmless Offering
-Color identity: RW | Bracket: 4+ (Ruthless) | Popularity: 68 | Commander: legal | Mana needed: {2}{R}
+Color identity: RW | Bracket: 4+ (Ruthless) | Popularity: 67 | Commander: legal | Mana needed: {2}{R}
 Produces: Infinite mana lands you control can produce during each opponent's turn; Infinite landfall triggers
 Start: Sacred Ground (battlefield); Price of Glory (battlefield); Harmless Offering (hand)
 Prerequisites: You control a destructible land that enters the battlefield untapped and can tap to produce at least {1}.
@@ -3731,7 +3905,7 @@ Steps: Deal combat damage to an opponent using the creature that has Breath of F
 
 ## Combo 3259-3480-4689
 Cards: Breath of Fury + Otharri, Suns' Glory + Purphoros, Bronze-Blooded
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 83 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 84 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite creature tokens with haste; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite untap of creatures you control; Infinite experience counters
 Start: Breath of Fury (battlefield: attached to another creature you control ); Otharri, Suns' Glory (battlefield); Purphoros, Bronze-Blooded (battlefield)
 Prerequisites: An opponent cannot block creatures you control.
@@ -4101,7 +4275,7 @@ Steps: Deal combat damage to an opponent using the creature that has Breath of F
 
 ## Combo 3259-4068-4689
 Cards: Breath of Fury + Otharri, Suns' Glory + Anger
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 120 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 130 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite creature tokens with haste; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite untap of creatures you control; Infinite experience counters
 Start: Breath of Fury (battlefield: attached to another creature you control ); Otharri, Suns' Glory (battlefield); Anger (graveyard)
 Prerequisites: An opponent cannot block creatures you control.
@@ -4579,7 +4753,7 @@ Steps: Declare the creature with Breath of Fury attached and Otharri as attacker
 
 ## Combo 3259-4689-4885
 Cards: Breath of Fury + Otharri, Suns' Glory + Tuktuk Rubblefort
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite creature tokens with haste; Infinite mana creatures you control can produce; Infinite death triggers; Infinite untap of creatures you control; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite experience counters
 Start: Breath of Fury (battlefield: attached to another creature you control ); Otharri, Suns' Glory (battlefield); Tuktuk Rubblefort (battlefield)
 Prerequisites: An opponent cannot block creatures you control.
@@ -4615,7 +4789,7 @@ Steps: Declare the creature with Breath of Fury attached and Otharri as attacker
 
 ## Combo 3259-4689-6968
 Cards: Breath of Fury + Otharri, Suns' Glory + Kratos, God of War
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 90 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 91 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite creature tokens with haste; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite untap of creatures you control; Infinite experience counters
 Start: Breath of Fury (battlefield: attached to another creature you control ); Otharri, Suns' Glory (battlefield); Kratos, God of War (battlefield)
 Prerequisites: An opponent cannot block creatures you control.
@@ -5704,7 +5878,7 @@ Notes: One of the two additional Angels must be on the battlefield with the othe
 
 ## Combo 3259-7354-8201
 Cards: Breath of Fury + Endless Foot Assault + Samut, Hazoret's Champion
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite creature tokens with haste; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite untap of creatures you control
 Start: Breath of Fury (battlefield: attached to another creature you control); Endless Foot Assault (battlefield); Samut, Hazoret's Champion (battlefield)
 Prerequisites: An opponent cannot block creatures you control.
@@ -6007,7 +6181,7 @@ Steps: Cause Ill-Tempered Loner // Howlpack Avenger to take damage by any method
 
 ## Combo 3417-5178-7711
 Cards: Red Hulk + Ill-Tempered Loner // Howlpack Avenger + Odric, Lunarch Marshal
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite damage to one opponent; Infinite +1/+1 counters on a creature
 Start: Red Hulk (battlefield); Ill-Tempered Loner // Howlpack Avenger (battlefield: can be transformed); Odric, Lunarch Marshal (battlefield)
 Prerequisites: You have a way to deal damage to Red Hulk.
@@ -6047,7 +6221,7 @@ Notes: The final instance of damage can be flung at an opponent for infinite dam
 
 ## Combo 3417-6777-7711
 Cards: Red Hulk + Ill-Tempered Loner // Howlpack Avenger + Unbreakable Formation
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 47 | Commander: legal | Mana needed: {2}{W}
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 48 | Commander: legal | Mana needed: {2}{W}
 Produces: Infinite damage to one opponent; Infinite +1/+1 counters on a creature
 Start: Red Hulk (battlefield); Ill-Tempered Loner // Howlpack Avenger (battlefield: can be transformed); Unbreakable Formation (hand)
 Prerequisites: You have a way to deal damage to Red Hulk.
@@ -7032,7 +7206,7 @@ Steps: Cause Boros Reckoner to take damage by any method.
 
 ## Combo 3587-5178-7711
 Cards: Red Hulk + Boros Reckoner + Odric, Lunarch Marshal
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
 Produces: Infinite damage to one opponent; Infinite +1/+1 counters on a creature
 Start: Red Hulk (battlefield); Boros Reckoner (battlefield); Odric, Lunarch Marshal (battlefield)
 Prerequisites: You have a way to deal damage to Red Hulk.
@@ -7072,7 +7246,7 @@ Notes: The final instance of damage can be flung at an opponent for infinite dam
 
 ## Combo 3587-6758
 Cards: Dawnsire, Sunstar Dreadnought + Boros Reckoner
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 2300 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 2400 | Commander: legal
 Produces: Near-infinite damage to one opponent
 Start: Dawnsire, Sunstar Dreadnought (battlefield); Boros Reckoner (battlefield)
 Prerequisites: You control a creature that can attack this turn.
@@ -7766,7 +7940,7 @@ Steps: Activate all your mana-producing permanents, adding at least {8}{W}{R}{R}
 
 ## Combo 3799-4090-5109
 Cards: Volcano Hellion + Stuffy Doll + Pariah
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 590 | Commander: legal | Mana needed: {2}{R}{R}
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 600 | Commander: legal | Mana needed: {2}{R}{R}
 Produces: Draw the game; Infinite damage to one opponent
 Start: Volcano Hellion (hand); Stuffy Doll (battlefield); Pariah (battlefield: attached to Stuffy Doll)
 Steps: Cast Volcano Hellion by paying {2}{R}{R}.
@@ -7786,7 +7960,7 @@ Notes: If Stuffy Doll has you chosen as the player, this combo starts an infinit
 
 ## Combo 3809-4682-7890
 Cards: Gleaming Splendor + Smothering Tithe + Goldspan Dragon
-Color identity: RW | Bracket: 3+ (Powerful) | Popularity: 4200 | Commander: legal | Mana needed: {2}{W}
+Color identity: RW | Bracket: 3+ (Powerful) | Popularity: 4300 | Commander: legal | Mana needed: {2}{W}
 Produces: Infinite card draw for any number of players; Near-infinite Treasure tokens; Near-infinite colored mana; Infinite draw triggers for any number of players; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers
 Start: Gleaming Splendor (battlefield); Smothering Tithe (battlefield); Goldspan Dragon (battlefield)
 Prerequisites: At least two opponents cannot pay for Smothering Tithe's trigger.
@@ -7950,7 +8124,7 @@ Steps: Cast Volcano Hellion by paying {2}{R}{R}.
 
 ## Combo 3901-5166--86
 Cards: Guilty Conscience + Wrathful Red Dragon
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 610 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 620 | Commander: legal
 Produces: Infinite damage
 Requires: Card That Gives Indestructible (hand, battlefield)
 Start: Guilty Conscience (battlefield: attached to Wrathful Red Dragon); Wrathful Red Dragon (battlefield)
@@ -9324,7 +9498,7 @@ Steps: Declare Aurelia and The Neutrinos as attackers, triggering their abilitie
 
 ## Combo 4365-4659-5346-7311
 Cards: Improvised Arsenal + Crime Novelist + Krark-Clan Ironworks + Mondrak, Glory Dominus
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {4}{R}
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal | Mana needed: {4}{R}
 Produces: Infinite colorless mana; Infinite red mana; Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
 Start: Improvised Arsenal (battlefield); Crime Novelist (battlefield); Krark-Clan Ironworks (battlefield); Mondrak, Glory Dominus (battlefield)
 Steps: Activate Improvised Arsenal by paying {4}{R}, creating two token copies of it due to Mondrak.
@@ -9596,7 +9770,7 @@ Steps: Cast Marketback Walker by paying {2}.
 
 ## Combo 4659-5346-6441-7311
 Cards: Improvised Arsenal + Crime Novelist + Krark-Clan Ironworks + Elspeth, Storm Slayer
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {4}{R}
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {4}{R}
 Produces: Infinite colorless mana; Infinite red mana; Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
 Start: Improvised Arsenal (battlefield); Crime Novelist (battlefield); Krark-Clan Ironworks (battlefield); Elspeth, Storm Slayer (battlefield)
 Steps: Activate Improvised Arsenal by paying {4}{R}, creating two token copies of it due to Elspeth, Storm Slayer.
@@ -9616,7 +9790,7 @@ Steps: Activate Improvised Arsenal by paying {4}{R}, creating two token copies o
 
 ## Combo 4682-5184-7890
 Cards: Gleaming Splendor + Smothering Tithe + Xorn
-Color identity: RW | Bracket: 3+ (Powerful) | Popularity: 3900 | Commander: legal | Mana needed: {2}{W}
+Color identity: RW | Bracket: 3+ (Powerful) | Popularity: 4000 | Commander: legal | Mana needed: {2}{W}
 Produces: Infinite card draw for any number of players; Near-infinite Treasure tokens; Near-infinite colored mana; Infinite draw triggers for any number of players; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers
 Start: Gleaming Splendor (battlefield); Smothering Tithe (battlefield); Xorn (battlefield)
 Prerequisites: At least two opponents cannot pay for Smothering Tithe's trigger.
@@ -10031,7 +10205,7 @@ Steps: Cause Spitemare to take damage by any method.
 
 ## Combo 5016-5178-7711
 Cards: Red Hulk + Spitemare + Odric, Lunarch Marshal
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
 Produces: Infinite damage to one opponent; Infinite +1/+1 counters on a creature
 Start: Red Hulk (battlefield); Spitemare (battlefield); Odric, Lunarch Marshal (battlefield)
 Prerequisites: You have a way to deal damage to Red Hulk.
@@ -10220,7 +10394,7 @@ Notes: Karn, the Great Creator prevents the opponents from sacrificing the Treas
 
 ## Combo 5109-5183
 Cards: Volcano Hellion + True Conviction
-Color identity: RW | Bracket: 4+ (Ruthless) | Popularity: 35 | Commander: legal | Mana needed: {2}{R}{R}
+Color identity: RW | Bracket: 4+ (Ruthless) | Popularity: 36 | Commander: legal | Mana needed: {2}{R}{R}
 Produces: Infinite lifegain
 Start: Volcano Hellion (hand); True Conviction (battlefield)
 Steps: Cast Volcano Hellion by paying {2}{R}{R}.
@@ -10383,7 +10557,7 @@ Steps: Cause Wrathful Raptors to take damage by any method.
 
 ## Combo 5178-5759-7711
 Cards: Red Hulk + Odric, Lunarch Marshal + Screaming Nemesis
-Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
+Color identity: RW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite damage to one opponent; Infinite +1/+1 counters on a creature
 Start: Red Hulk (battlefield); Odric, Lunarch Marshal (battlefield); Screaming Nemesis (battlefield)
 Prerequisites: You have a way to deal damage to Red Hulk.
@@ -10706,7 +10880,7 @@ Notes: Once you have infinite mana, you may activate a Boommobile to deal infini
 
 ## Combo 6331-8195--222
 Cards: Venser, Fervent Forger + Stiltzkin, Moogle Merchant
-Color identity: RW | Bracket: 2-3+ (Oddball) | Popularity: 52 | Commander: legal | Mana needed: {2} plus the cost of copying Venser
+Color identity: RW | Bracket: 2-3+ (Oddball) | Popularity: 53 | Commander: legal | Mana needed: {2} plus the cost of copying Venser
 Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Requires: Instant or Sorcery that Creates One or More Copies of an Opposing Creature (hand)
 Start: Venser, Fervent Forger (battlefield); Stiltzkin, Moogle Merchant (battlefield)
@@ -10721,7 +10895,7 @@ Steps: Activate Stiltzkin by paying {2} and tapping it, drawing a card and causi
 
 ## Combo 6331-8195--223
 Cards: Venser, Fervent Forger + Stiltzkin, Moogle Merchant
-Color identity: RW | Bracket: 2-3+ (Oddball) | Popularity: 52 | Commander: legal | Mana needed: {2} plus the cost of copying Venser
+Color identity: RW | Bracket: 2-3+ (Oddball) | Popularity: 53 | Commander: legal | Mana needed: {2} plus the cost of copying Venser
 Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Requires: Clone — Can Copy Opponent's Creatures (hand)
 Start: Venser, Fervent Forger (battlefield); Stiltzkin, Moogle Merchant (battlefield)
@@ -10853,7 +11027,7 @@ Steps: Cast Appa by paying {W}{W}.
 
 ## Combo 6996-7362
 Cards: Casey Jones, Back Alley Brute + The Destined White Mage
-Color identity: RW | Bracket: 3-4+ (Spicy) | Popularity: 95 | Commander: legal
+Color identity: RW | Bracket: 3-4+ (Spicy) | Popularity: 96 | Commander: legal
 Produces: Infinite damage; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers
 Start: Casey Jones, Back Alley Brute (battlefield); The Destined White Mage (battlefield)
 Prerequisites: Casey has lifelink.
@@ -10865,7 +11039,7 @@ Steps: Gain life.
 
 ## Combo 7046-8195--222
 Cards: Venser, Fervent Forger + Iroh, Tea Master
-Color identity: RW | Bracket: 2-3+ (Oddball) | Popularity: 58 | Commander: legal | Mana needed: {0} plus the cost of copying Venser
+Color identity: RW | Bracket: 2-3+ (Oddball) | Popularity: 59 | Commander: legal | Mana needed: {0} plus the cost of copying Venser
 Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Requires: Instant or Sorcery that Creates One or More Copies of an Opposing Creature (hand)
 Start: Venser, Fervent Forger (battlefield); Iroh, Tea Master (battlefield)
@@ -10878,7 +11052,7 @@ Steps: At the beginning of combat on your turn, Iroh triggers, causing (among ot
 
 ## Combo 7046-8195--223
 Cards: Venser, Fervent Forger + Iroh, Tea Master
-Color identity: RW | Bracket: 2-3+ (Oddball) | Popularity: 58 | Commander: legal | Mana needed: {0} plus the cost of copying Venser
+Color identity: RW | Bracket: 2-3+ (Oddball) | Popularity: 59 | Commander: legal | Mana needed: {0} plus the cost of copying Venser
 Produces: Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Requires: Clone — Can Copy Opponent's Creatures (hand)
 Start: Venser, Fervent Forger (battlefield); Iroh, Tea Master (battlefield)

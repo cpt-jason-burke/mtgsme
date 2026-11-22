@@ -53,7 +53,7 @@ Steps: Cast Temporal Trespass by paying {8}{U}{U}{U}, causing you to take an ext
 
 ## Combo 33-1558-2963-4840
 Cards: Time Sieve + Myr Battlesphere + Teleportation Circle + Loyal Apprentice
-Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 44 | Commander: legal
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 43 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Time Sieve (battlefield); Myr Battlesphere (battlefield); Teleportation Circle (battlefield); Loyal Apprentice (battlefield)
 Prerequisites: Your commander is on the battlefield.
@@ -135,6 +135,20 @@ Steps: Activate any number of lands you control by tapping them, adding at least
   When Vampire Charmseeker and Warden of the Eye enter the battlefield, they trigger, returning Turnabout and Ghostly Flicker from your graveyard to your hand.
   Repeat.
 Notes: If lands you control can tap to produce at least {5}{U}{U}{U}, this combo nets infinite mana. You can then stop casting Turnabout and blink one other permanent using Ghostly Flicker. You may also tap artifacts and/or creatures instead for mana if desired.
+
+## Combo 64-372-8251
+Cards: Abdel Adrian, Gorion's Ward + Warden of the Eye + Vindictive Triumph
+Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {W}{B}{B}
+Produces: Infinite creature tokens; Infinite blinking of nonland permanents; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
+Start: Abdel Adrian, Gorion's Ward (battlefield); Warden of the Eye (exile: exiled by Abdel Adrian); Vindictive Triumph (hand)
+Prerequisites: You have any number of other nonland permanents that enter the battlefield untapped, and that can collectively tap to produce enough mana to cast Vindictive Triumph exiled by Abdel Adrian.
+Steps: Cast Vindictive Triumph by paying its mana cost, blinking Abdel Adrian.
+  Abdel Adrian leaves the battlefield, returning Warden of the Eye and all other cards that were exiled with it to the battlefield.
+  Abdel Adrian and Warden of the Eye trigger.
+  Resolve the Warden of the Eye trigger, returning Vindictive Triumph from your graveyard to your hand.
+  Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Vindictive Triumph.
+  Resolve the Abdel Adrian trigger, exiling Warden of the Eye and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
+  Repeat.
 
 ## Combo 64-500-1181
 Cards: Saw in Half + Sacrifice + Warden of the Eye
@@ -1210,7 +1224,7 @@ Steps: Activate The Chain Veil by paying {4} and tapping it, allowing an extra a
 
 ## Combo 193-1124-3604
 Cards: Cadric, Soul Kindler + Aminatou, the Fateshifter + The Chain Veil
-Color identity: WUBR | Bracket: 3-4+ (Spicy) | Popularity: 53 | Commander: legal | Mana needed: {W}{U}{B}
+Color identity: WUBR | Bracket: 3-4+ (Spicy) | Popularity: 52 | Commander: legal | Mana needed: {W}{U}{B}
 Produces: Infinite mana permanents you control that enter the battlefield untapped can produce; Infinite mana lands you control can produce; Infinite creature LTB; Infinite creature ETB; Infinite landfall triggers; Infinite blinking of permanents; Infinite copies of legendary permanents you own in play until end of turn
 Start: Cadric, Soul Kindler (battlefield); Aminatou, the Fateshifter (hand); The Chain Veil (battlefield)
 Prerequisites: You control a permanent that enters the battlefield untapped and can tap to produce at least {1}.
@@ -2504,7 +2518,7 @@ Steps: Cast Metallic Sliver by paying {0}.
 
 ## Combo 321-399-2475-3168-4648
 Cards: Metallic Sliver + Lavabelly Sliver + Hibernation Sliver + Essence Sliver + Urza's Incubator
-Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 90 | Commander: legal
+Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 91 | Commander: legal
 Produces: Infinite damage; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Metallic Sliver (hand); Lavabelly Sliver (battlefield); Hibernation Sliver (battlefield); Essence Sliver (battlefield); Urza's Incubator (battlefield)
 Prerequisites: "Sliver" chosen with Urza's Incubator.
@@ -3206,6 +3220,20 @@ Steps: Cast Go Ninja Go by paying its mana cost, blinking Abdel Adrian.
   Resolve the Abdel Adrian trigger, exiling Possessed Skaab and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
   Repeat.
 
+## Combo 372-3277-8251
+Cards: Abdel Adrian, Gorion's Ward + Izzet Chronarch + Vindictive Triumph
+Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {W}{B}{B}
+Produces: Infinite creature tokens; Infinite blinking of nonland permanents; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
+Start: Abdel Adrian, Gorion's Ward (battlefield); Izzet Chronarch (exile: exiled by Abdel Adrian); Vindictive Triumph (hand)
+Prerequisites: You have any number of other nonland permanents that enter the battlefield untapped, and that can collectively tap to produce enough mana to cast Vindictive Triumph exiled by Abdel Adrian.
+Steps: Cast Vindictive Triumph by paying its mana cost, blinking Abdel Adrian.
+  Abdel Adrian leaves the battlefield, returning Izzet Chronarch and all other cards that were exiled with it to the battlefield.
+  Abdel Adrian and Izzet Chronarch trigger.
+  Resolve the Izzet Chronarch trigger, returning Vindictive Triumph from your graveyard to your hand.
+  Holding priority, activate any number of nonland permanents you control by tapping them, adding at least enough mana to cast Vindictive Triumph.
+  Resolve the Abdel Adrian trigger, exiling Izzet Chronarch and the mana-producing permanents until Abdel Adrian leaves the battlefield, and creating a 1/1 Soldier creature token for each permanent exiled this way.
+  Repeat.
+
 ## Combo 372-3742-6473
 Cards: Abdel Adrian, Gorion's Ward + Phantom Steed + Mardu Siegebreaker
 Color identity: WUBR | Bracket: 3-4+ (Spicy) | Popularity: 5 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
@@ -3459,6 +3487,22 @@ Steps: Declare Alesha as an attacker.
   Deal combat damage using Chameleon.
   Chameleon triggers, causing you to take an extra turn after this one.
   Activate Blasting Station by tapping it and sacrificing Chameleon
+  Repeat each turn.
+
+## Combo 413-645-1267-8341
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Blasting Station + Colossal Clone Master
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Blasting Station (battlefield); Colossal Clone Master (graveyard)
+Prerequisites: You control a land.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Colossal Clone Master from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  When Colossal Clone Master enters, Blasting Station triggers, untapping Blasting Station
+  Deal combat damage using Colossal Clone Master.
+  Colossal Clone Master triggers, causing you to take an extra turn after this one.
+  Activate Blasting Station by tapping it and sacrificing Colossal Clone Master, dealing 1 damage to any target
   Repeat each turn.
 
 ## Combo 413-803-3951-5703
@@ -5561,6 +5605,118 @@ Steps: Activate Relic of Sauron's first ability by tapping it, adding {U}{U}.
   Cast Relic of Sauron by paying {0}.
   Repeat.
 
+## Combo 574-645-804-1267
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Vish Kal, Blood Arbiter + Sakashima the Impostor
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Vish Kal, Blood Arbiter (battlefield); Sakashima the Impostor (graveyard)
+Prerequisites: An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Sakashima the Impostor from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Sakashima the Impostor.
+  Sakashima the Impostor triggers, causing you to take an extra turn after this one.
+  Activate Vish Kal by sacrificing Sakashima the Impostor, putting a number of +1/+1 counters on Vish Kal equal to the sacrificed creature's power
+  Repeat each turn.
+
+## Combo 574-645-1267-2719
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Vish Kal, Blood Arbiter + Sakashima of a Thousand Faces
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Vish Kal, Blood Arbiter (battlefield); Sakashima of a Thousand Faces (graveyard)
+Prerequisites: An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Sakashima of a Thousand Faces from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Sakashima of a Thousand Faces.
+  Sakashima of a Thousand Faces triggers, causing you to take an extra turn after this one.
+  Activate Vish Kal by sacrificing Sakashima of a Thousand Faces, putting a number of +1/+1 counters on Vish Kal equal to the sacrificed creature's power
+  Repeat each turn.
+
+## Combo 574-645-1267-3908
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Vish Kal, Blood Arbiter + Spark Double
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Vish Kal, Blood Arbiter (battlefield); Spark Double (graveyard)
+Prerequisites: An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Spark Double from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Spark Double.
+  Spark Double triggers, causing you to take an extra turn after this one.
+  Activate Vish Kal by sacrificing Spark Double, putting a number of +1/+1 counters on Vish Kal equal to the sacrificed creature's power
+  Repeat each turn.
+
+## Combo 574-645-1267-5361
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Vish Kal, Blood Arbiter + Auton Soldier
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Vish Kal, Blood Arbiter (battlefield); Auton Soldier (graveyard)
+Prerequisites: An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Auton Soldier from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Auton Soldier.
+  Auton Soldier triggers, causing you to take an extra turn after this one.
+  Activate Vish Kal by sacrificing Auton Soldier, putting a number of +1/+1 counters on Vish Kal equal to the sacrificed creature's power
+  Repeat each turn.
+
+## Combo 574-645-1267-6913
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Vish Kal, Blood Arbiter + Chameleon, Master of Disguise
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Vish Kal, Blood Arbiter (battlefield); Chameleon, Master of Disguise (graveyard)
+Prerequisites: An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Chameleon from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Chameleon.
+  Chameleon triggers, causing you to take an extra turn after this one.
+  Activate Vish Kal by sacrificing Chameleon, putting a number of +1/+1 counters on Vish Kal equal to the sacrificed creature's power
+  Repeat each turn.
+
+## Combo 574-645-1267-7936
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Vish Kal, Blood Arbiter + Dominion Saboteur
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Vish Kal, Blood Arbiter (battlefield); Dominion Saboteur (graveyard)
+Prerequisites: An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Dominion Saboteur from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Dominion Saboteur.
+  Dominion Saboteur triggers, causing you to take an extra turn after this one.
+  Activate Vish Kal by sacrificing Dominion Saboteur, putting a number of +1/+1 counters on Vish Kal equal to the sacrificed creature's power
+  Repeat each turn.
+
+## Combo 574-645-1267-8341
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Vish Kal, Blood Arbiter + Colossal Clone Master
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Vish Kal, Blood Arbiter (battlefield); Colossal Clone Master (graveyard)
+Prerequisites: You control a land.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Colossal Clone Master from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Colossal Clone Master.
+  Colossal Clone Master triggers, causing you to take an extra turn after this one.
+  Activate Vish Kal by sacrificing Colossal Clone Master, putting a number of +1/+1 counters on Vish Kal equal to the sacrificed creature's power
+  Repeat each turn.
+
+## Combo 574-967-3809-7087-7824
+Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Vish Kal, Blood Arbiter + Bard, King of Dale
+Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite artifact tokens; Exile your library; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Prosper, Tome-Bound (battlefield); Goldspan Dragon (battlefield); Flameskull (battlefield, exile); Vish Kal, Blood Arbiter (battlefield); Bard, King of Dale (battlefield)
+Steps: Activate Vish Kal by sacrificing Flameskull
+  When Flameskull dies, it triggers, exiling it and the top card of your library with the ability to cast one from exile this turn.
+  Resolve Vish Kal's ability, putting a number of +1/+1 counters on them equal to the sacrificed creature's power.
+  Cast Flameskull from exile by paying {1}{R}{R}.
+  Prosper's second ability triggers, creating two Treasure tokens due to Bard.
+  Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
+  Repeat from step 1
+
 ## Combo 574-4694-5805-7306
 Cards: The Ooze + Vish Kal, Blood Arbiter + March of the Machines + Gev, Scaled Scorch
 Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -5772,7 +5928,7 @@ Steps: Cast Nicol Bolas by paying {U}{B}{B}{B}{R}.
 
 ## Combo 600-1180-4329
 Cards: Jace, Cunning Castaway + Nicol Bolas, Dragon-God + Oath of Gideon
-Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 730 | Commander: legal
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 740 | Commander: legal
 Produces: Infinite card draw; Infinite creature tokens; Infinite copies of a specific planeswalker; Exile all permanents opponents control; Infinite draw triggers; Infinite creature ETB; Mass Land Denial
 Start: Jace, Cunning Castaway (battlefield); Nicol Bolas, Dragon-God (battlefield); Oath of Gideon (battlefield)
 Prerequisites: Nicol Bolas has at least five loyalty counters on it.
@@ -6634,10 +6790,10 @@ Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefie
 Prerequisites: An opponent cannot block creatures you control.
   Alesha does not have summoning sickness.
 Steps: Declare Alesha as an attacker.
-  Alesha triggers, causing you to pay {U/B}{U/B} to return Sakashima of a Thousand Faces from your graveyard to the battlefield tapped and attacking as a nonlegendary copy of Medomai the Ageless.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Sakashima of a Thousand Faces from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
   Deal combat damage using Sakashima of a Thousand Faces.
   Sakashima of a Thousand Faces triggers, causing you to take an extra turn after this one.
-  Activate Grimgrin by sacrificing Sakashima of a Thousand Faces
+  Activate Grimgrin by sacrificing Sakashima of a Thousand Faces, putting a +1/+1 counter on Grimgrin and untapping it
   Repeat each turn.
 
 ## Combo 645-728-1267-3908
@@ -6680,6 +6836,21 @@ Steps: Declare Alesha as an attacker.
   Deal combat damage using Chameleon.
   Chameleon triggers, causing you to take an extra turn after this one.
   Activate Grimgrin by sacrificing Chameleon
+  Repeat each turn.
+
+## Combo 645-728-1267-8341
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Grimgrin, Corpse-Born + Colossal Clone Master
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Grimgrin, Corpse-Born (battlefield); Colossal Clone Master (graveyard)
+Prerequisites: You control a land.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Colossal Clone Master from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Colossal Clone Master.
+  Colossal Clone Master triggers, causing you to take an extra turn after this one.
+  Activate Grimgrin by sacrificing Colossal Clone Master, putting a +1/+1 counter on Grimgrin and untapping it
   Repeat each turn.
 
 ## Combo 645-728-2060-3750-6835
@@ -6769,6 +6940,21 @@ Steps: Declare Alesha as an attacker.
   Activate Umbral Collar Zealot by sacrificing Sakashima the Impostor
   Repeat each turn.
 
+## Combo 645-804-1267-7272
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Sakashima the Impostor + Reaper of Flight Moonsilver
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Sakashima the Impostor (graveyard); Reaper of Flight Moonsilver (battlefield)
+Prerequisites: You have at least four card types in your graveyard.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Sakashima the Impostor from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Sakashima the Impostor.
+  Sakashima the Impostor triggers, causing you to take an extra turn after this one.
+  Activate Reaper of Flight Moonsilver by sacrificing Sakashima the Impostor, giving Reaper of Flight Moonsilver +2/+1 until end of turn
+  Repeat each turn.
+
 ## Combo 645-804-1267-8095
 Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Sakashima the Impostor + Hammerhead, Maggia Boss
 Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
@@ -6781,6 +6967,35 @@ Steps: Declare Alesha as an attacker.
   Deal combat damage using Sakashima the Impostor.
   Sakashima the Impostor triggers, causing you to take an extra turn after this one.
   Activate Hammerhead by sacrificing Sakashima the Impostor
+  Repeat each turn.
+
+## Combo 645-804-1267-8227
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Sakashima the Impostor + Loot, the Anomaly
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Sakashima the Impostor (graveyard); Loot, the Anomaly (battlefield)
+Prerequisites: You have at least seven cards in your graveyard.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Sakashima the Impostor from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Sakashima the Impostor.
+  Sakashima the Impostor triggers, causing you to take an extra turn after this one.
+  Activate Loot by sacrificing Sakashima the Impostor, giving Loot -2/-0 until end of turn
+  Repeat each turn.
+
+## Combo 645-804-1267-8249
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Sakashima the Impostor + Defiant Salvager
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Sakashima the Impostor (graveyard); Defiant Salvager (battlefield)
+Prerequisites: An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Sakashima the Impostor from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Sakashima the Impostor.
+  Sakashima the Impostor triggers, causing you to take an extra turn after this one.
+  Activate Defiant Salvager by sacrificing Sakashima the Impostor, putting a +1/+1 counter on Defiant Salvager
   Repeat each turn.
 
 ## Combo 645-997-1267-3908
@@ -6825,6 +7040,21 @@ Steps: Declare Alesha as an attacker.
   Activate Woe Strider by sacrificing Chameleon
   Repeat each turn.
 
+## Combo 645-997-1267-8341
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Woe Strider + Colossal Clone Master
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Woe Strider (battlefield); Colossal Clone Master (graveyard)
+Prerequisites: You control a land.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Colossal Clone Master from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Colossal Clone Master.
+  Colossal Clone Master triggers, causing you to take an extra turn after this one.
+  Activate Woe Strider by sacrificing Colossal Clone Master, causing you to scry 1
+  Repeat each turn.
+
 ## Combo 645-1267-2034-3908
 Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Ashnod's Altar + Spark Double
 Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
@@ -6865,6 +7095,21 @@ Steps: Declare Alesha as an attacker.
   Deal combat damage using Chameleon.
   Chameleon triggers, causing you to take an extra turn after this one.
   Activate Ashnod's Altar by sacrificing Chameleon
+  Repeat each turn.
+
+## Combo 645-1267-2034-8341
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Ashnod's Altar + Colossal Clone Master
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Ashnod's Altar (battlefield); Colossal Clone Master (graveyard)
+Prerequisites: You control a land.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Colossal Clone Master from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Colossal Clone Master.
+  Colossal Clone Master triggers, causing you to take an extra turn after this one.
+  Activate Ashnod's Altar by sacrificing Colossal Clone Master, adding {C}{C}
   Repeat each turn.
 
 ## Combo 645-1267-2292-3908
@@ -6909,6 +7154,21 @@ Steps: Declare Alesha as an attacker.
   Activate Viscera Seer by sacrificing Chameleon
   Repeat each turn.
 
+## Combo 645-1267-2292-8341
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Viscera Seer + Colossal Clone Master
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Viscera Seer (battlefield); Colossal Clone Master (graveyard)
+Prerequisites: You control a land.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Colossal Clone Master from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Colossal Clone Master.
+  Colossal Clone Master triggers, causing you to take an extra turn after this one.
+  Activate Viscera Seer by sacrificing Colossal Clone Master, causing you to scry 1
+  Repeat each turn.
+
 ## Combo 645-1267-2438-3908
 Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Carrion Feeder + Spark Double
 Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
@@ -6949,6 +7209,21 @@ Steps: Declare Alesha as an attacker.
   Deal combat damage using Chameleon.
   Chameleon triggers, causing you to take an extra turn after this one.
   Activate Carrion Feeder by sacrificing Chameleon
+  Repeat each turn.
+
+## Combo 645-1267-2438-8341
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Carrion Feeder + Colossal Clone Master
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Carrion Feeder (battlefield); Colossal Clone Master (graveyard)
+Prerequisites: You control a land.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Colossal Clone Master from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Colossal Clone Master.
+  Colossal Clone Master triggers, causing you to take an extra turn after this one.
+  Activate Carrion Feeder by sacrificing Colossal Clone Master, putting a +1/+1 counter on Carrion Feeder
   Repeat each turn.
 
 ## Combo 645-1267-2511-3908
@@ -6993,6 +7268,21 @@ Steps: Declare Alesha as an attacker.
   Activate Bloodflow Connoisseur by sacrificing Chameleon
   Repeat each turn.
 
+## Combo 645-1267-2511-8341
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Bloodflow Connoisseur + Colossal Clone Master
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Bloodflow Connoisseur (battlefield); Colossal Clone Master (graveyard)
+Prerequisites: You control a land.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Colossal Clone Master from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Colossal Clone Master.
+  Colossal Clone Master triggers, causing you to take an extra turn after this one.
+  Activate Bloodflow Connoisseur by sacrificing Colossal Clone Master, putting a +1/+1 counter on Bloodflow Connoisseur
+  Repeat each turn.
+
 ## Combo 645-1267-2719-3899
 Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Sakashima of a Thousand Faces + Spawning Pit
 Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
@@ -7001,10 +7291,10 @@ Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefie
 Prerequisites: An opponent cannot block creatures you control.
   Alesha does not have summoning sickness.
 Steps: Declare Alesha as an attacker.
-  Alesha triggers, causing you to pay {U/B}{U/B} to return Sakashima of a Thousand Faces from your graveyard to the battlefield tapped and attacking as a nonlegendary copy of Medomai the Ageless.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Sakashima of a Thousand Faces from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
   Deal combat damage using Sakashima of a Thousand Faces.
   Sakashima of a Thousand Faces triggers, causing you to take an extra turn after this one.
-  Activate Spawning Pit by sacrificing Sakashima of a Thousand Faces
+  Activate Spawning Pit by sacrificing Sakashima of a Thousand Faces, putting a charge counter on Spawning Pit
   Repeat each turn.
 
 ## Combo 645-1267-2719-4247
@@ -7015,10 +7305,10 @@ Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefie
 Prerequisites: An opponent cannot block creatures you control.
   Alesha does not have summoning sickness.
 Steps: Declare Alesha as an attacker.
-  Alesha triggers, causing you to pay {U/B}{U/B} to return Sakashima of a Thousand Faces from your graveyard to the battlefield tapped and attacking as a nonlegendary copy of Medomai the Ageless.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Sakashima of a Thousand Faces from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
   Deal combat damage using Sakashima of a Thousand Faces.
   Sakashima of a Thousand Faces triggers, causing you to take an extra turn after this one.
-  Activate Bloodthrone Vampire by sacrificing Sakashima of a Thousand Faces
+  Activate Bloodthrone Vampire by sacrificing Sakashima of a Thousand Faces, giving Bloodthrone Vampire +2/+2 until end of turn
   Repeat each turn.
 
 ## Combo 645-1267-2719-6495
@@ -7029,10 +7319,10 @@ Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefie
 Prerequisites: An opponent cannot block creatures you control.
   Alesha does not have summoning sickness.
 Steps: Declare Alesha as an attacker.
-  Alesha triggers, causing you to pay {U/B}{U/B} to return Sakashima of a Thousand Faces from your graveyard to the battlefield tapped and attacking as a nonlegendary copy of Medomai the Ageless.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Sakashima of a Thousand Faces from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
   Deal combat damage using Sakashima of a Thousand Faces.
   Sakashima of a Thousand Faces triggers, causing you to take an extra turn after this one.
-  Activate Evereth by sacrificing Sakashima of a Thousand Faces
+  Activate Evereth by sacrificing Sakashima of a Thousand Faces, putting a +1/+1 counter on Evereth
   Repeat each turn.
 
 ## Combo 645-1267-2719-6797
@@ -7046,7 +7336,7 @@ Steps: Declare Alesha as an attacker.
   Alesha triggers, causing you to pay {U/B}{U/B} to return Sakashima of a Thousand Faces from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
   Deal combat damage using Sakashima of a Thousand Faces.
   Sakashima of a Thousand Faces triggers, causing you to take an extra turn after this one.
-  Activate Phantom Train by sacrificing Sakashima of a Thousand Faces
+  Activate Phantom Train by sacrificing Sakashima of a Thousand Faces, putting a +1/+1 counter on Phantom Train and causing it to become a creature until end of turn
   Repeat each turn.
 
 ## Combo 645-1267-2719-6798
@@ -7060,7 +7350,22 @@ Steps: Declare Alesha as an attacker.
   Alesha triggers, causing you to pay {U/B}{U/B} to return Sakashima of a Thousand Faces from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
   Deal combat damage using Sakashima of a Thousand Faces.
   Sakashima of a Thousand Faces triggers, causing you to take an extra turn after this one.
-  Activate Umbral Collar Zealot by sacrificing Sakashima of a Thousand Faces
+  Activate Umbral Collar Zealot by sacrificing Sakashima of a Thousand Faces, causing you to surveil 1
+  Repeat each turn.
+
+## Combo 645-1267-2719-7272
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Sakashima of a Thousand Faces + Reaper of Flight Moonsilver
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Sakashima of a Thousand Faces (graveyard); Reaper of Flight Moonsilver (battlefield)
+Prerequisites: You have at least four card types in your graveyard.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Sakashima of a Thousand Faces from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Sakashima of a Thousand Faces.
+  Sakashima of a Thousand Faces triggers, causing you to take an extra turn after this one.
+  Activate Reaper of Flight Moonsilver by sacrificing Sakashima of a Thousand Faces, giving Reaper of Flight Moonsilver +2/+1 until end of turn
   Repeat each turn.
 
 ## Combo 645-1267-2719-8095
@@ -7071,10 +7376,39 @@ Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefie
 Prerequisites: An opponent cannot block creatures you control.
   Alesha does not have summoning sickness.
 Steps: Declare Alesha as an attacker.
-  Alesha triggers, causing you to pay {U/B}{U/B} to return Sakashima of a Thousand Faces from your graveyard to the battlefield tapped and attacking as a nonlegendary copy of Medomai the Ageless.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Sakashima of a Thousand Faces from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
   Deal combat damage using Sakashima of a Thousand Faces.
   Sakashima of a Thousand Faces triggers, causing you to take an extra turn after this one.
-  Activate Hammerhead by sacrificing Sakashima of a Thousand Faces
+  Activate Hammerhead by sacrificing Sakashima of a Thousand Faces, putting a +1/+1 counter on Hammerhead
+  Repeat each turn.
+
+## Combo 645-1267-2719-8227
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Sakashima of a Thousand Faces + Loot, the Anomaly
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Sakashima of a Thousand Faces (graveyard); Loot, the Anomaly (battlefield)
+Prerequisites: You have at least seven cards in your graveyard.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Sakashima of a Thousand Faces from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Sakashima of a Thousand Faces.
+  Sakashima of a Thousand Faces triggers, causing you to take an extra turn after this one.
+  Activate Loot by sacrificing Sakashima of a Thousand Faces, giving Loot -2/-0 until end of turn
+  Repeat each turn.
+
+## Combo 645-1267-2719-8249
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Sakashima of a Thousand Faces + Defiant Salvager
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Sakashima of a Thousand Faces (graveyard); Defiant Salvager (battlefield)
+Prerequisites: An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Sakashima of a Thousand Faces from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Sakashima of a Thousand Faces.
+  Sakashima of a Thousand Faces triggers, causing you to take an extra turn after this one.
+  Activate Defiant Salvager by sacrificing Sakashima of a Thousand Faces, putting a +1/+1 counter on Defiant Salvager
   Repeat each turn.
 
 ## Combo 645-1267-2921-3908
@@ -7119,6 +7453,21 @@ Steps: Declare Alesha as an attacker.
   Activate Bartolomé del Presidio by sacrificing Chameleon
   Repeat each turn.
 
+## Combo 645-1267-2921-8341
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Bartolomé del Presidio + Colossal Clone Master
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Bartolomé del Presidio (battlefield); Colossal Clone Master (graveyard)
+Prerequisites: You control a land.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Colossal Clone Master from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Colossal Clone Master.
+  Colossal Clone Master triggers, causing you to take an extra turn after this one.
+  Activate Bartolomé del Presidio by sacrificing Colossal Clone Master, putting a +1/+1 counter on Bartolomé del Presidio
+  Repeat each turn.
+
 ## Combo 645-1267-3899-3908
 Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Spawning Pit + Spark Double
 Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
@@ -7159,6 +7508,21 @@ Steps: Declare Alesha as an attacker.
   Deal combat damage using Chameleon.
   Chameleon triggers, causing you to take an extra turn after this one.
   Activate Spawning Pit by sacrificing Chameleon
+  Repeat each turn.
+
+## Combo 645-1267-3899-8341
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Spawning Pit + Colossal Clone Master
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Spawning Pit (battlefield); Colossal Clone Master (graveyard)
+Prerequisites: You control a land.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Colossal Clone Master from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Colossal Clone Master.
+  Colossal Clone Master triggers, causing you to take an extra turn after this one.
+  Activate Spawning Pit by sacrificing Colossal Clone Master, putting a charge counter on Spawning Pit
   Repeat each turn.
 
 ## Combo 645-1267-3908-3967
@@ -7301,6 +7665,21 @@ Steps: Declare Alesha as an attacker.
   Activate Umbral Collar Zealot by sacrificing Spark Double
   Repeat each turn.
 
+## Combo 645-1267-3908-7272
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Spark Double + Reaper of Flight Moonsilver
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Spark Double (graveyard); Reaper of Flight Moonsilver (battlefield)
+Prerequisites: You have at least four card types in your graveyard.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Spark Double from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Spark Double.
+  Spark Double triggers, causing you to take an extra turn after this one.
+  Activate Reaper of Flight Moonsilver by sacrificing Spark Double, giving Reaper of Flight Moonsilver +2/+1 until end of turn
+  Repeat each turn.
+
 ## Combo 645-1267-3908-8095
 Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Spark Double + Hammerhead, Maggia Boss
 Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
@@ -7313,6 +7692,35 @@ Steps: Declare Alesha as an attacker.
   Deal combat damage using Spark Double.
   Spark Double triggers, causing you to take an extra turn after this one.
   Activate Hammerhead by sacrificing Spark Double
+  Repeat each turn.
+
+## Combo 645-1267-3908-8227
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Spark Double + Loot, the Anomaly
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Spark Double (graveyard); Loot, the Anomaly (battlefield)
+Prerequisites: You have at least seven cards in your graveyard.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Spark Double from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Spark Double.
+  Spark Double triggers, causing you to take an extra turn after this one.
+  Activate Loot by sacrificing Spark Double, giving Loot -2/-0 until end of turn
+  Repeat each turn.
+
+## Combo 645-1267-3908-8249
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Spark Double + Defiant Salvager
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Spark Double (graveyard); Defiant Salvager (battlefield)
+Prerequisites: An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Spark Double from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Spark Double.
+  Spark Double triggers, causing you to take an extra turn after this one.
+  Activate Defiant Salvager by sacrificing Spark Double, putting a +1/+1 counter on Defiant Salvager
   Repeat each turn.
 
 ## Combo 645-1267-3967-5361
@@ -7343,6 +7751,21 @@ Steps: Declare Alesha as an attacker.
   Activate Yahenni by sacrificing Chameleon
   Repeat each turn.
 
+## Combo 645-1267-3967-8341
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Yahenni, Undying Partisan + Colossal Clone Master
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Yahenni, Undying Partisan (battlefield); Colossal Clone Master (graveyard)
+Prerequisites: You control a land.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Colossal Clone Master from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Colossal Clone Master.
+  Colossal Clone Master triggers, causing you to take an extra turn after this one.
+  Activate Yahenni by sacrificing Colossal Clone Master, giving Yahenni indestructible until end of turn
+  Repeat each turn.
+
 ## Combo 645-1267-4050-5361
 Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Phyrexian Altar + Auton Soldier
 Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
@@ -7369,6 +7792,21 @@ Steps: Declare Alesha as an attacker.
   Deal combat damage using Chameleon.
   Chameleon triggers, causing you to take an extra turn after this one.
   Activate Phyrexian Altar by sacrificing Chameleon
+  Repeat each turn.
+
+## Combo 645-1267-4050-8341
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Phyrexian Altar + Colossal Clone Master
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Phyrexian Altar (battlefield); Colossal Clone Master (graveyard)
+Prerequisites: You control a land.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Colossal Clone Master from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Colossal Clone Master.
+  Colossal Clone Master triggers, causing you to take an extra turn after this one.
+  Activate Phyrexian Altar by sacrificing Colossal Clone Master, adding one mana of any color
   Repeat each turn.
 
 ## Combo 645-1267-4247-5361
@@ -7399,6 +7837,21 @@ Steps: Declare Alesha as an attacker.
   Activate Bloodthrone Vampire by sacrificing Chameleon
   Repeat each turn.
 
+## Combo 645-1267-4247-8341
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Bloodthrone Vampire + Colossal Clone Master
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Bloodthrone Vampire (battlefield); Colossal Clone Master (graveyard)
+Prerequisites: You control a land.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Colossal Clone Master from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Colossal Clone Master.
+  Colossal Clone Master triggers, causing you to take an extra turn after this one.
+  Activate Bloodthrone Vampire by sacrificing Colossal Clone Master, giving Bloodthrone Vampire +2/+2 until end of turn
+  Repeat each turn.
+
 ## Combo 645-1267-5147-5361
 Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Goblin Bombardment + Auton Soldier
 Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
@@ -7425,6 +7878,21 @@ Steps: Declare Alesha as an attacker.
   Deal combat damage using Chameleon.
   Chameleon triggers, causing you to take an extra turn after this one.
   Activate Goblin Bombardment by sacrificing Chameleon
+  Repeat each turn.
+
+## Combo 645-1267-5147-8341
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Goblin Bombardment + Colossal Clone Master
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Goblin Bombardment (battlefield); Colossal Clone Master (graveyard)
+Prerequisites: You control a land.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Colossal Clone Master from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Colossal Clone Master.
+  Colossal Clone Master triggers, causing you to take an extra turn after this one.
+  Activate Goblin Bombardment by sacrificing Colossal Clone Master, dealing 1 damage to any target
   Repeat each turn.
 
 ## Combo 645-1267-5231-5361
@@ -7455,6 +7923,21 @@ Steps: Declare Alesha as an attacker.
   Activate Thermopod by sacrificing Chameleon
   Repeat each turn.
 
+## Combo 645-1267-5231-8341
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Thermopod + Colossal Clone Master
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Thermopod (battlefield); Colossal Clone Master (graveyard)
+Prerequisites: You control a land.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Colossal Clone Master from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Colossal Clone Master.
+  Colossal Clone Master triggers, causing you to take an extra turn after this one.
+  Activate Thermopod by sacrificing Colossal Clone Master, adding {R}
+  Repeat each turn.
+
 ## Combo 645-1267-5256-5361
 Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Altar of Dementia + Auton Soldier
 Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
@@ -7481,6 +7964,21 @@ Steps: Declare Alesha as an attacker.
   Deal combat damage using Chameleon.
   Chameleon triggers, causing you to take an extra turn after this one.
   Activate Altar of Dementia by sacrificing Chameleon
+  Repeat each turn.
+
+## Combo 645-1267-5256-8341
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Altar of Dementia + Colossal Clone Master
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Altar of Dementia (battlefield); Colossal Clone Master (graveyard)
+Prerequisites: You control a land.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Colossal Clone Master from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Colossal Clone Master.
+  Colossal Clone Master triggers, causing you to take an extra turn after this one.
+  Activate Altar of Dementia by sacrificing Colossal Clone Master, causing a player to mill a number of cards equal to the sacrificed creature's power
   Repeat each turn.
 
 ## Combo 645-1267-5361-5686
@@ -7539,6 +8037,21 @@ Steps: Declare Alesha as an attacker.
   Activate Umbral Collar Zealot by sacrificing Auton Soldier
   Repeat each turn.
 
+## Combo 645-1267-5361-7272
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Auton Soldier + Reaper of Flight Moonsilver
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Auton Soldier (graveyard); Reaper of Flight Moonsilver (battlefield)
+Prerequisites: You have at least four card types in your graveyard.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Auton Soldier from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Auton Soldier.
+  Auton Soldier triggers, causing you to take an extra turn after this one.
+  Activate Reaper of Flight Moonsilver by sacrificing Auton Soldier, giving Reaper of Flight Moonsilver +2/+1 until end of turn
+  Repeat each turn.
+
 ## Combo 645-1267-5361-8095
 Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Auton Soldier + Hammerhead, Maggia Boss
 Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
@@ -7551,6 +8064,35 @@ Steps: Declare Alesha as an attacker.
   Deal combat damage using Auton Soldier.
   Auton Soldier triggers, causing you to take an extra turn after this one.
   Activate Hammerhead by sacrificing Auton Soldier
+  Repeat each turn.
+
+## Combo 645-1267-5361-8227
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Auton Soldier + Loot, the Anomaly
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Auton Soldier (graveyard); Loot, the Anomaly (battlefield)
+Prerequisites: You have at least seven cards in your graveyard.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Auton Soldier from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Auton Soldier.
+  Auton Soldier triggers, causing you to take an extra turn after this one.
+  Activate Loot by sacrificing Auton Soldier, giving Loot -2/-0 until end of turn
+  Repeat each turn.
+
+## Combo 645-1267-5361-8249
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Auton Soldier + Defiant Salvager
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Auton Soldier (graveyard); Defiant Salvager (battlefield)
+Prerequisites: An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Auton Soldier from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Auton Soldier.
+  Auton Soldier triggers, causing you to take an extra turn after this one.
+  Activate Defiant Salvager by sacrificing Auton Soldier, putting a +1/+1 counter on Defiant Salvager
   Repeat each turn.
 
 ## Combo 645-1267-5686-6913
@@ -7567,6 +8109,21 @@ Steps: Declare Alesha as an attacker.
   Activate Shilgengar by sacrificing Chameleon
   Repeat each turn.
 
+## Combo 645-1267-5686-8341
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Shilgengar, Sire of Famine + Colossal Clone Master
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Shilgengar, Sire of Famine (battlefield); Colossal Clone Master (graveyard)
+Prerequisites: You control a land.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Colossal Clone Master from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Colossal Clone Master.
+  Colossal Clone Master triggers, causing you to take an extra turn after this one.
+  Activate Shilgengar by sacrificing Colossal Clone Master, creating a Blood token
+  Repeat each turn.
+
 ## Combo 645-1267-6495-6913
 Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Evereth, Viceroy of Plunder + Chameleon, Master of Disguise
 Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
@@ -7579,6 +8136,21 @@ Steps: Declare Alesha as an attacker.
   Deal combat damage using Chameleon.
   Chameleon triggers, causing you to take an extra turn after this one.
   Activate Evereth by sacrificing Chameleon
+  Repeat each turn.
+
+## Combo 645-1267-6495-8341
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Evereth, Viceroy of Plunder + Colossal Clone Master
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Evereth, Viceroy of Plunder (battlefield); Colossal Clone Master (graveyard)
+Prerequisites: You control a land.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Colossal Clone Master from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Colossal Clone Master.
+  Colossal Clone Master triggers, causing you to take an extra turn after this one.
+  Activate Evereth by sacrificing Colossal Clone Master, putting a +1/+1 counter on Evereth
   Repeat each turn.
 
 ## Combo 645-1267-6797-6913
@@ -7595,6 +8167,21 @@ Steps: Declare Alesha as an attacker.
   Activate Phantom Train by sacrificing Chameleon
   Repeat each turn.
 
+## Combo 645-1267-6797-8341
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Phantom Train + Colossal Clone Master
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Phantom Train (battlefield); Colossal Clone Master (graveyard)
+Prerequisites: You control a land.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Colossal Clone Master from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Colossal Clone Master.
+  Colossal Clone Master triggers, causing you to take an extra turn after this one.
+  Activate Phantom Train by sacrificing Colossal Clone Master, putting a +1/+1 counter on Phantom Train and causing it to become a creature until end of turn
+  Repeat each turn.
+
 ## Combo 645-1267-6798-6913
 Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Umbral Collar Zealot + Chameleon, Master of Disguise
 Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
@@ -7609,6 +8196,36 @@ Steps: Declare Alesha as an attacker.
   Activate Umbral Collar Zealot by sacrificing Chameleon
   Repeat each turn.
 
+## Combo 645-1267-6798-8341
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Umbral Collar Zealot + Colossal Clone Master
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Umbral Collar Zealot (battlefield); Colossal Clone Master (graveyard)
+Prerequisites: You control a land.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Colossal Clone Master from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Colossal Clone Master.
+  Colossal Clone Master triggers, causing you to take an extra turn after this one.
+  Activate Umbral Collar Zealot by sacrificing Colossal Clone Master, causing you to surveil 1
+  Repeat each turn.
+
+## Combo 645-1267-6913-7272
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Chameleon, Master of Disguise + Reaper of Flight Moonsilver
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Chameleon, Master of Disguise (graveyard); Reaper of Flight Moonsilver (battlefield)
+Prerequisites: You have at least four card types in your graveyard.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Chameleon from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Chameleon.
+  Chameleon triggers, causing you to take an extra turn after this one.
+  Activate Reaper of Flight Moonsilver by sacrificing Chameleon, giving Reaper of Flight Moonsilver +2/+1 until end of turn
+  Repeat each turn.
+
 ## Combo 645-1267-6913-8095
 Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Chameleon, Master of Disguise + Hammerhead, Maggia Boss
 Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
@@ -7621,6 +8238,141 @@ Steps: Declare Alesha as an attacker.
   Deal combat damage using Chameleon.
   Chameleon triggers, causing you to take an extra turn after this one.
   Activate Hammerhead by sacrificing Chameleon
+  Repeat each turn.
+
+## Combo 645-1267-6913-8227
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Chameleon, Master of Disguise + Loot, the Anomaly
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Chameleon, Master of Disguise (graveyard); Loot, the Anomaly (battlefield)
+Prerequisites: You have at least seven cards in your graveyard.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Chameleon from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Chameleon.
+  Chameleon triggers, causing you to take an extra turn after this one.
+  Activate Loot by sacrificing Chameleon, giving Loot -2/-0 until end of turn
+  Repeat each turn.
+
+## Combo 645-1267-6913-8249
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Chameleon, Master of Disguise + Defiant Salvager
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Chameleon, Master of Disguise (graveyard); Defiant Salvager (battlefield)
+Prerequisites: An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Chameleon from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Chameleon.
+  Chameleon triggers, causing you to take an extra turn after this one.
+  Activate Defiant Salvager by sacrificing Chameleon, putting a +1/+1 counter on Defiant Salvager
+  Repeat each turn.
+
+## Combo 645-1267-7272-7936
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Reaper of Flight Moonsilver + Dominion Saboteur
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Reaper of Flight Moonsilver (battlefield); Dominion Saboteur (graveyard)
+Prerequisites: You have at least four card types in your graveyard.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Dominion Saboteur from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Dominion Saboteur.
+  Dominion Saboteur triggers, causing you to take an extra turn after this one.
+  Activate Reaper of Flight Moonsilver by sacrificing Dominion Saboteur, giving Reaper of Flight Moonsilver +2/+1 until end of turn
+  Repeat each turn.
+
+## Combo 645-1267-7272-8341
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Reaper of Flight Moonsilver + Colossal Clone Master
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Reaper of Flight Moonsilver (battlefield); Colossal Clone Master (graveyard)
+Prerequisites: You control a land.
+  You have at least four card types in your graveyard.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Colossal Clone Master from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Colossal Clone Master.
+  Colossal Clone Master triggers, causing you to take an extra turn after this one.
+  Activate Reaper of Flight Moonsilver by sacrificing Colossal Clone Master, giving Reaper of Flight Moonsilver +2/+1 until end of turn
+  Repeat each turn.
+
+## Combo 645-1267-7936-8227
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Dominion Saboteur + Loot, the Anomaly
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Dominion Saboteur (graveyard); Loot, the Anomaly (battlefield)
+Prerequisites: You have at least seven cards in your graveyard.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Dominion Saboteur from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Dominion Saboteur.
+  Dominion Saboteur triggers, causing you to take an extra turn after this one.
+  Activate Loot by sacrificing Dominion Saboteur, giving Loot -2/-0 until end of turn
+  Repeat each turn.
+
+## Combo 645-1267-7936-8249
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Dominion Saboteur + Defiant Salvager
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Dominion Saboteur (graveyard); Defiant Salvager (battlefield)
+Prerequisites: An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Dominion Saboteur from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Dominion Saboteur.
+  Dominion Saboteur triggers, causing you to take an extra turn after this one.
+  Activate Defiant Salvager by sacrificing Dominion Saboteur, putting a +1/+1 counter on Defiant Salvager
+  Repeat each turn.
+
+## Combo 645-1267-8095-8341
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Hammerhead, Maggia Boss + Colossal Clone Master
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Hammerhead, Maggia Boss (battlefield); Colossal Clone Master (graveyard)
+Prerequisites: You control a land.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Colossal Clone Master from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Colossal Clone Master.
+  Colossal Clone Master triggers, causing you to take an extra turn after this one.
+  Activate Hammerhead by sacrificing Colossal Clone Master, putting a +1/+1 counter on Hammerhead
+  Repeat each turn.
+
+## Combo 645-1267-8227-8341
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Loot, the Anomaly + Colossal Clone Master
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Loot, the Anomaly (battlefield); Colossal Clone Master (graveyard)
+Prerequisites: You control a land.
+  You have at least seven cards in your graveyard.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Colossal Clone Master from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Colossal Clone Master.
+  Colossal Clone Master triggers, causing you to take an extra turn after this one.
+  Activate Loot by sacrificing Colossal Clone Master, giving Loot -2/-0 until end of turn
+  Repeat each turn.
+
+## Combo 645-1267-8249-8341
+Cards: Medomai the Ageless + Alesha, Who Smiles at Death + Defiant Salvager + Colossal Clone Master
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {U/B}{U/B} each turn
+Produces: Infinite turns; Lock
+Start: Medomai the Ageless (battlefield); Alesha, Who Smiles at Death (battlefield); Defiant Salvager (battlefield); Colossal Clone Master (graveyard)
+Prerequisites: You control a land.
+  An opponent cannot block creatures you control.
+  Alesha does not have summoning sickness.
+Steps: Declare Alesha as an attacker.
+  Alesha triggers, causing you to pay {U/B}{U/B} to return Colossal Clone Master from your graveyard to the battlefield tapped and attacking as a copy of Medomai the Ageless.
+  Deal combat damage using Colossal Clone Master.
+  Colossal Clone Master triggers, causing you to take an extra turn after this one.
+  Activate Defiant Salvager by sacrificing Colossal Clone Master, putting a +1/+1 counter on Defiant Salvager
   Repeat each turn.
 
 ## Combo 647-3259-4034
@@ -12682,6 +13434,20 @@ Steps: Activate Umbral Collar Zealot by sacrificing Flameskull.
   Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
   Repeat.
 
+## Combo 967-3809-7087-7272-7824
+Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Reaper of Flight Moonsilver + Bard, King of Dale
+Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite artifact tokens; Exile your library; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Prosper, Tome-Bound (battlefield); Goldspan Dragon (battlefield); Flameskull (battlefield, exile); Reaper of Flight Moonsilver (battlefield); Bard, King of Dale (battlefield)
+Prerequisites: You have at least four card types in your graveyard.
+Steps: Activate Reaper of Flight Moonsilver by sacrificing Flameskull
+  When Flameskull dies, it triggers, exiling it and the top card of your library with the ability to cast one from exile this turn.
+  Resolve Reaper of Flight Moonsilver's ability, giving it +2/+1 until end of turn.
+  Cast Flameskull from exile by paying {1}{R}{R}.
+  Prosper's second ability triggers, creating two Treasure tokens due to Bard.
+  Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
+  Repeat from step 1
+
 ## Combo 967-3809-7087-7824-8095
 Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Bard, King of Dale + Hammerhead, Maggia Boss
 Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
@@ -12694,6 +13460,33 @@ Steps: Activate Hammerhead by sacrificing Flameskull.
   Prosper's second ability triggers, creating two Treasure tokens.
   Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
   Repeat.
+
+## Combo 967-3809-7087-7824-8227
+Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Bard, King of Dale + Loot, the Anomaly
+Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite artifact tokens; Exile your library; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Prosper, Tome-Bound (battlefield); Goldspan Dragon (battlefield); Flameskull (battlefield, exile); Bard, King of Dale (battlefield); Loot, the Anomaly (battlefield)
+Prerequisites: You have at least seven cards in your graveyard.
+Steps: Activate Loot by sacrificing Flameskull
+  When Flameskull dies, it triggers, exiling it and the top card of your library with the ability to cast one from exile this turn.
+  Resolve Loot's ability, giving them -2/-0 until end of turn.
+  Cast Flameskull from exile by paying {1}{R}{R}.
+  Prosper's second ability triggers, creating two Treasure tokens due to Bard.
+  Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
+  Repeat from step 1
+
+## Combo 967-3809-7087-7824-8249
+Cards: Prosper, Tome-Bound + Goldspan Dragon + Flameskull + Defiant Salvager + Bard, King of Dale
+Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}{R}
+Produces: Infinite Treasure tokens; Infinite colored mana; Infinite +1/+1 counters on a creature; Infinite artifact tokens; Exile your library; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Prosper, Tome-Bound (battlefield); Goldspan Dragon (battlefield); Flameskull (battlefield, exile); Defiant Salvager (battlefield); Bard, King of Dale (battlefield)
+Steps: Activate Defiant Salvager by sacrificing Flameskull
+  When Flameskull dies, it triggers, exiling it and the top card of your library with the ability to cast one from exile this turn.
+  Resolve Defiant Salvager's ability, putting a +1/+1 counter on it.
+  Cast Flameskull from exile by paying {1}{R}{R}.
+  Prosper's second ability triggers, creating two Treasure tokens due to Bard.
+  Activate the Treasures by tapping and sacrificing them, adding {2}{R}{R}.
+  Repeat from step 1
 
 ## Combo 969-3259-4034
 Cards: Breath of Fury + Yore-Tiller Nephilim + Fervor
@@ -13312,6 +14105,20 @@ Steps: Activate Lotus Ring's equip ability by paying {0}, attaching it to the Kn
   Cast the Knight from your graveyard by paying its mana cost.
   Repeat.
   If the Knight has mana value 2 or less, this combo nets infinite mana.
+
+## Combo 1069-1914-5865
+Cards: Cowardice + Puresteel Paladin + Flamecache Gecko
+Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Puresteel Paladin (battlefield); Flamecache Gecko (hand)
+Prerequisites: An opponent has lost life this turn.
+  You control three or more artifacts including an Equipment.
+Steps: Cast Flamecache Gecko by paying its mana cost.
+  When Flamecache Gecko enters, it triggers, adding {B}{R}.
+  Activate an Equipment's equip ability given to it by Puresteel Paladin by paying {0}, targeting Flamecache Gecko.
+  Cowardice triggers, returning Flamecache Gecko from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
+  Repeat.
 
 ## Combo 1074-1379-1651-5640
 Cards: Ertha Jo, Frontier Mentor + Clock of Omens + King Macar, the Gold-Cursed + Encroaching Mycosynth
@@ -18836,7 +19643,7 @@ Steps: Draw a card.
 
 ## Combo 1786-6574
 Cards: Kefka, Court Mage // Kefka, Ruler of Ruin + Queza, Augur of Agonies
-Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 62 | Commander: legal
+Color identity: WUBR | Bracket: 4+ (Ruthless) | Popularity: 63 | Commander: legal
 Produces: Infinite card draw; Near-infinite lifegain; Near-infinite lifeloss; Near-infinite lifegain triggers; Infinite draw triggers
 Start: Kefka, Court Mage // Kefka, Ruler of Ruin (battlefield); Queza, Augur of Agonies (battlefield)
 Prerequisites: You have a way to draw a card.
@@ -19013,6 +19820,16 @@ Steps: Activate Evereth by sacrificing Stormbound Geist
   Repeat.
 Notes: If Stormbound Geist starts with a +1/+1 counter on it, then you may start the combo from step 3 instead.
 
+## Combo 1844-3140-8412
+Cards: Soltari Guerrillas + Fateful Handoff + Ruric Thar, Biomagus
+Color identity: WUBR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {3}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Soltari Guerrillas (battlefield); Fateful Handoff (hand); Ruric Thar, Biomagus (battlefield)
+Prerequisites: You have at least as many cards in your library as the mana value of the permanent you intend to donate.
+Steps: Pay {3}{B} to cast Fateful Handoff, causing target opponent to gain control of (and you to draw cards equal to the mana value of) Ruric Thar.
+  Activate Soltari Guerrillas an arbitrarily large number of times by paying {0}, targeting Ruric Thar.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
 ## Combo 1849-3259-4034
 Cards: Breath of Fury + Yore-Tiller Nephilim + Mass Hysteria
 Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
@@ -19096,6 +19913,20 @@ Steps: Activate Warren Soultrader by paying 1 life and sacrificing the persist c
   When the persist creature enters, Ajani's Welcome triggers, causing you to gain 1 life.
   Resolve the Warren Soultrader ability, creating a Treasure token.
   When the Treasure enters, Mm'menon triggers, putting a +1/+1 counter on the persist creature.
+  Repeat.
+
+## Combo 1914-5638-5865
+Cards: Cowardice + Plate Armor + Flamecache Gecko
+Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{R}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cowardice (battlefield); Plate Armor (battlefield); Flamecache Gecko (hand)
+Prerequisites: An opponent has lost life this turn.
+  You control at least four Equipment.
+Steps: Cast Flamecache Gecko by paying its mana cost.
+  When Flamecache Gecko enters, it triggers, adding {B}{R}.
+  Activate Plate Armor by paying {0}, targeting Flamecache Gecko.
+  Cowardice triggers, returning Flamecache Gecko from the battlefield to your hand.
+  The ability from step 3 fizzles due to having no valid target.
   Repeat.
 
 ## Combo 1921-2034-2534
@@ -19582,7 +20413,7 @@ Steps: Activate Hammerhead by sacrificing Optimus Prime, Hero.
 
 ## Combo 2034-2043-3910-5346
 Cards: Breya, Etherium Shaper + Crime Novelist + Urza, Prince of Kroog + Ashnod's Altar
-Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 63 | Commander: legal | Mana needed: {6}
+Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 62 | Commander: legal | Mana needed: {6}
 Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Breya, Etherium Shaper (battlefield); Crime Novelist (battlefield); Urza, Prince of Kroog (battlefield); Ashnod's Altar (battlefield)
 Steps: Activate Urza by paying {6}, creating a token copy of Breya that is a 1/1 Soldier.
@@ -20454,6 +21285,18 @@ Steps: Cast Daydream by paying {W}, targeting Possessed Skaab
   When Possessed Skaab enters the battlefield, it triggers, returning Daydream to your hand from your graveyard.
   Activate the Treasure by tapping and sacrificing it, adding {W}.
   Repeat.
+
+## Combo 2191-3769-8412
+Cards: Martyrdom + Blim, Comedic Genius + Ruric Thar, Biomagus
+Color identity: WUBR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}{W}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Martyrdom (hand); Blim, Comedic Genius (battlefield); Ruric Thar, Biomagus (battlefield)
+Prerequisites: Blim does not have summoning sickness and cannot be blocked by an opponent.
+Steps: Cast Martyrdom by paying {1}{W}{W}, targeting Ruric Thar.
+  Deal combat damage to an opponent with Blim.
+  When Blim deals combat damage, Blim triggers, causing (among other effects) target opponent to gain control of Ruric Thar.
+  Activate the ability granted to Ruric Thar by Martyrdom an arbitrarily large number of times by paying {0}, targeting itself.
+  Ruric Thar triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
 
 ## Combo 2201-2558-2921-5687
 Cards: Skittering Precursor + Sword of the Meek + Godhead of Awe + Bartolomé del Presidio
@@ -22569,6 +23412,19 @@ Steps: Donate control of Avacyn to an opponent using Zedruu the Greathearted.
   At the beginning of the next end step, Avacyn triggers, returning Phage from your graveyard to the battlefield under the opponent's control.
   When Phage enters, its first ability triggers, causing the opponent to lose the game.
 
+## Combo 2736-3862-8412
+Cards: Orcish Bowmasters + Zedruu the Greathearted + Ruric Thar, Biomagus
+Color identity: WUBR | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}{U}{B}{R}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Zedruu the Greathearted (battlefield); Ruric Thar, Biomagus (battlefield)
+Steps: Activate Zedruu by paying {U}{R}{W}, causing target opponent to gain control of Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
+
 ## Combo 2736-3899-5571--6
 Cards: Blightbeetle + Spawning Pit + Zedruu the Greathearted
 Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {U}{R}{W}
@@ -23620,6 +24476,28 @@ Steps: Cast Undercover Operative by paying its mana cost. Choose to have it ente
   Resolve Undercover Operative's second trigger and Rakdos Joins Up's trigger, dealing damage to target opponent.
   Resolve Undercover Operative's first trigger, returning it from your graveyard to the battlefield with two +1/+1 counters on it as a copy of Rakdos Joins Up.
   Repeat from step 2.
+
+## Combo 3140-3769-8412
+Cards: Soltari Guerrillas + Blim, Comedic Genius + Ruric Thar, Biomagus
+Color identity: WUBR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Soltari Guerrillas (battlefield); Blim, Comedic Genius (battlefield); Ruric Thar, Biomagus (battlefield)
+Prerequisites: Blim does not have summoning sickness and cannot be blocked by an opponent.
+Steps: Deal combat damage to an opponent with Blim.
+  When Blim deals combat damage, Blim triggers, causing (among other effects) target opponent to gain control of Ruric Thar.
+  Activate Soltari Guerrillas an arbitrarily large number of times by paying {0}, targeting Ruric Thar.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 3140-8412-8423
+Cards: Soltari Guerrillas + Ruric Thar, Biomagus + The Trickster-God's Heist
+Color identity: WUBR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {2}{U}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Soltari Guerrillas (battlefield); Ruric Thar, Biomagus (battlefield); The Trickster-God's Heist (hand)
+Prerequisites: An opponent controls a creature.
+Steps: Cast The Trickster God's Heist by paying {2}{U}{B}, putting a lore counter on it as it enters and causing its first chapter ability to trigger.
+  Resolve the chapter ability, exchanging control of a creature an opponent controls and Ruric Thar.
+  Activate Soltari Guerrillas an arbitrarily large number of times by paying {0}, targeting Ruric Thar.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
 
 ## Combo 3249-4647-5147-5173
 Cards: Havengul Lich + Shambling Ghast + Goblin Bombardment + Teysa Karlov
@@ -24820,6 +25698,19 @@ Steps: Cast Cavern Harpy by paying {U}{B}.
   When Cavern Harpy enters the battlefield, it triggers, returning itself from the battlefield to your hand.
   Activate two Treasures by tapping and sacrificing them, adding {U}{B}.
   Repeat.
+
+## Combo 3862-7046-8412
+Cards: Orcish Bowmasters + Iroh, Tea Master + Ruric Thar, Biomagus
+Color identity: WUBR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {1}{B}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Orcish Bowmasters (hand); Iroh, Tea Master (battlefield); Ruric Thar, Biomagus (battlefield)
+Steps: At the beginning of combat on your turn, Iroh triggers, causing (among other effects) target opponent to gain control of Ruric Thar.
+  Cast Orcish Bowmasters by paying {1}{B}.
+  When Orcish Bowmasters enters, it triggers, targeting Ruric Thar.
+  Ruric Thar's last ability triggers, causing its controller to draw a card.
+  Orcish Bowmasters triggers, targeting Ruric Thar.
+  Repeat from step 4 until the opponent loses the game due to drawing from an empty library.
+Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fizzle as they no longer have legal targets.
 
 ## Combo 3899-3951-5703-5929
 Cards: Éomer, Marshal of Rohan + Altaïr Ibn-La'Ahad + Spawning Pit + Leyline of Transformation
@@ -27588,7 +28479,7 @@ Steps: Activate Psychic Frog by discarding Gilded Assault Cart.
 
 ## Combo 5663-5686--5
 Cards: Shilgengar, Sire of Famine + Cayth, Famed Mechanist
-Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal
+Color identity: WUBR | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
 Produces: Infinite artifact tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite Blood tokens
 Requires: Persist Creature (battlefield)
 Start: Shilgengar, Sire of Famine (battlefield); Cayth, Famed Mechanist (battlefield)

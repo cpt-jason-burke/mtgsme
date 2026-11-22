@@ -1,3 +1,50 @@
+## Combo 1899-2232-2600-3558
+Cards: Cloudstone Curio + Beastcaller Savant + Bosk Banneret + Crookshank Kobolds
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cloudstone Curio (battlefield); Beastcaller Savant (battlefield); Bosk Banneret (battlefield); Crookshank Kobolds (hand)
+Steps: Activate Beastcaller Savant by tapping it, adding {G} that can only be spent to cast a creature spell.
+  Cast Crookshank Kobolds by paying {0}.
+  When Crookshank Kobolds enters the battlefield, Cloudstone Curio triggers, returning Beastcaller Savant to your hand from the battlefield.
+  Cast Beastcaller Savant by paying {G} due to Bosk Banneret.
+  When Beastcaller Savant enters the battlefield, Cloudstone Curio triggers, returning Crookshank Kobolds to your hand from the battlefield.
+  Repeat.
+
+## Combo 1899-2232-2600-4336
+Cards: Cloudstone Curio + Beastcaller Savant + Bosk Banneret + Kobolds of Kher Keep
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Cloudstone Curio (battlefield); Beastcaller Savant (battlefield); Bosk Banneret (battlefield); Kobolds of Kher Keep (hand)
+Steps: Activate Beastcaller Savant by tapping it, adding {G} that can only be spent to cast a creature spell.
+  Cast Kobolds of Kher Keep by paying {0}.
+  When Kobolds of Kher Keep enters the battlefield, Cloudstone Curio triggers, returning Beastcaller Savant to your hand from the battlefield.
+  Cast Beastcaller Savant by paying {G} due to Bosk Banneret.
+  When Beastcaller Savant enters the battlefield, Cloudstone Curio triggers, returning Kobolds of Kher Keep to your hand from the battlefield.
+  Repeat.
+
+## Combo 1902-3457-7791
+Cards: Battlemage's Bracers + Wirewood Channeler + Seeker of Skybreak
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Produces: Infinite colored mana; Infinite mana creatures you control can produce; Infinite untap of creatures you control
+Start: Battlemage's Bracers (battlefield: attached to Seeker of Skybreak); Wirewood Channeler (battlefield: without summoning sickness); Seeker of Skybreak (battlefield)
+Steps: Activate Wirewood Channeler by tapping it, adding at least two mana of any color
+  Activate Seeker of Skybreak by tapping it, targeting Wirewood Channeler.
+  Battlemage's Bracers triggers, causing you to pay {1} to copy Seeker of Skybreak's ability, targeting Seeker of Skybreak.
+  Resolve both Seeker of Skybreak abilities, untapping it and Wirewood Channeler.
+  Repeat.
+
+## Combo 1902-3750
+Cards: Aggravated Assault + Wirewood Channeler
+Color identity: RG | Bracket: 3-4+ (Spicy) | Popularity: 600 | Commander: legal
+Produces: Infinite colored mana; Infinite combat phases; Infinite mana creatures you control can produce; Infinite untap of creatures you control
+Start: Aggravated Assault (battlefield); Wirewood Channeler (battlefield)
+Prerequisites: You control at least four other Elves.
+  Wirewood Channeler does not have summoning sickness.
+Steps: Activate Wirewood Channeler  by tapping it, adding at least {R}{R}{R}{R}{R}.
+  Activate Aggravated Assault by paying {3}{R}{R}.
+  Repeat.
+Notes: The infinite mana result requires you to control at least six total Elves.
+
 ## Combo 1903-2033-3490-7075
 Cards: Tale of Katara and Toph + Animation Module + Thopter Engineer + Citanul Hierophants
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -348,7 +395,7 @@ Steps: Activate Prismatic Geoscope by tapping it, adding at least three mana of 
 
 ## Combo 1978-3099-3139-5793
 Cards: Bello, Bard of the Brambles + Voltaic Construct + Leyline of Abundance + The Great Henge
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 58 | Commander: legal
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 59 | Commander: legal
 Produces: Infinite lifegain; Infinite mana artifact creatures you control can produce; Infinite mana most artifacts you control can produce; Infinite +1/+1 counters on creatures you control; Infinite green mana; Infinite mana artifacts you control can produce; Infinite lifegain triggers; Infinite untap of artifacts you control
 Start: Bello, Bard of the Brambles (battlefield); Voltaic Construct (battlefield); Leyline of Abundance (battlefield); The Great Henge (battlefield)
 Steps: Activate The Great Henge by tapping it, adding two mana and gaining 2 life.
@@ -361,7 +408,7 @@ Steps: Activate The Great Henge by tapping it, adding two mana and gaining 2 lif
 
 ## Combo 1978-3099-3980-5793
 Cards: Bello, Bard of the Brambles + Voltaic Construct + Leyline of Abundance + Sisay's Ring
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
 Produces: Infinite mana artifact creatures you control can produce; Infinite mana most artifacts you control can produce; Infinite +1/+1 counters on creatures you control; Infinite colorless mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
 Start: Bello, Bard of the Brambles (battlefield); Voltaic Construct (battlefield); Leyline of Abundance (battlefield); Sisay's Ring (battlefield)
 Steps: Activate Sisay's Ring by tapping it, adding two mana.
@@ -371,7 +418,7 @@ Steps: Activate Sisay's Ring by tapping it, adding two mana.
 
 ## Combo 1978-3099-4045-5793
 Cards: Bello, Bard of the Brambles + Voltaic Construct + Leyline of Abundance + Ur-Golem's Eye
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal
 Produces: Infinite mana artifact creatures you control can produce; Infinite mana most artifacts you control can produce; Infinite +1/+1 counters on creatures you control; Infinite colorless mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
 Start: Bello, Bard of the Brambles (battlefield); Voltaic Construct (battlefield); Leyline of Abundance (battlefield); Ur-Golem's Eye (battlefield)
 Steps: Activate Ur-Golem's Eye by tapping it, adding two mana.
@@ -435,7 +482,7 @@ Steps: Activate The Great Henge by tapping it, adding {G}{G} and causing you to 
 
 ## Combo 1978-3139-5793-7008
 Cards: Bello, Bard of the Brambles + Voltaic Construct + The Great Henge + Badgermole Cub
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal
 Produces: Infinite lifegain; Infinite mana artifact creatures you control can produce; Infinite mana most artifacts you control can produce; Infinite green mana; Infinite mana artifacts you control can produce; Infinite lifegain triggers; Infinite untap of artifacts you control
 Start: Bello, Bard of the Brambles (battlefield); Voltaic Construct (battlefield); The Great Henge (battlefield); Badgermole Cub (battlefield)
 Steps: Activate The Great Henge by tapping it, adding two mana and gaining 2 life.
@@ -565,7 +612,7 @@ Steps: Activate Nyx Lotus by tapping it, adding at least {3}
 
 ## Combo 1978-5116-5793
 Cards: Voltaic Construct + Gilded Lotus + Bello, Bard of the Brambles
-Color identity: RG | Bracket: 3-4+ (Spicy) | Popularity: 670 | Commander: legal
+Color identity: RG | Bracket: 3-4+ (Spicy) | Popularity: 680 | Commander: legal
 Produces: Infinite colored mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
 Start: Voltaic Construct (battlefield); Gilded Lotus (battlefield); Bello, Bard of the Brambles (battlefield)
 Steps: Activate Gilded Lotus by tapping it, adding three mana of any color
@@ -686,7 +733,7 @@ Steps: Activate Ulasht by paying {1} and removing a +1/+1 counter from it, creat
 
 ## Combo 1988-3192-4214
 Cards: Ulasht, the Hate Seed + Blade of the Bloodchief + Utopia Mycon
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 90 | Commander: legal | Mana needed: {1}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 92 | Commander: legal | Mana needed: {1}
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Ulasht, the Hate Seed (battlefield); Blade of the Bloodchief (battlefield); Utopia Mycon (battlefield)
 Prerequisites: Blade of the Bloodchief attached to Ulasht.
@@ -698,7 +745,7 @@ Steps: Activate Ulasht by paying {1} and removing a +1/+1 counter from it, creat
 
 ## Combo 1988-3192-5231
 Cards: Ulasht, the Hate Seed + Blade of the Bloodchief + Thermopod
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 41 | Commander: legal | Mana needed: {1}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 42 | Commander: legal | Mana needed: {1}
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Ulasht, the Hate Seed (battlefield); Blade of the Bloodchief (battlefield); Thermopod (battlefield)
 Prerequisites: Blade of the Bloodchief attached to Ulasht.
@@ -962,7 +1009,7 @@ Steps: Activate Balduvian Trading Post by tapping it, adding {C}{C}{C}{R}{R}{R} 
 
 ## Combo 2026-2681-5881-5885
 Cards: Anzrag, the Quake-Mole + Obscuring Haze + Forbidden Orchard + Voyaging Satyr
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 23 | Commander: legal | Mana needed: {3}{R}{R}{G}{G}, plus an additional {2}{G} if you don't control a commander
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal | Mana needed: {3}{R}{R}{G}{G}, plus an additional {2}{G} if you don't control a commander
 Produces: Infinite combat phases; Infinite mana creatures you control can produce; Infinite untap of creatures you control; Infinite creature ETB for target opponent; Infinite death triggers for target opponent; Infinite creature LTB for target opponent
 Start: Anzrag, the Quake-Mole (battlefield); Obscuring Haze (hand); Forbidden Orchard (battlefield); Voyaging Satyr (battlefield)
 Prerequisites: Anzrag and Voyaging Satyr do not have summoning sickness.
@@ -2292,7 +2339,7 @@ Steps: Cast Abby from the command zone by paying {1}{R}{G} plus commander tax if
 
 ## Combo 2034-4289-5081-5434
 Cards: Yarus, Roar of the Old Gods + Cryptolith Rite + Obscuring Aether + Ashnod's Altar
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 73 | Commander: legal | Mana needed: {1}{G}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite colorless mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Yarus, Roar of the Old Gods (battlefield); Cryptolith Rite (battlefield); Obscuring Aether (battlefield); Ashnod's Altar (battlefield)
 Steps: Activate Obscuring Aether by paying {1}{G}, turning it face-down as a 2/2 creature.
@@ -2649,7 +2696,7 @@ Steps: Activate Ashnod's Altar by sacrificing Palani's Hatcher, adding {C}{C}.
 
 ## Combo 2034-5003-8162
 Cards: Nim Deathmantle + Ashnod's Altar + Aerid Konstrari
-Color identity: RG | Bracket: 2-3+ (Oddball) | Popularity: 53 | Commander: legal | Mana needed: {1}
+Color identity: RG | Bracket: 2-3+ (Oddball) | Popularity: 54 | Commander: legal | Mana needed: {1}
 Produces: Infinite tapped artifact tokens; Infinite artifact ETB; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite tapped Heartwood tokens
 Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Aerid Konstrari (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Aerid, adding {C}{C}.
@@ -3268,7 +3315,7 @@ Steps: Activate Minsc & Boo's second loyalty ability by removing two loyalty cou
 
 ## Combo 2037-3059-4847
 Cards: Minsc & Boo, Timeless Heroes + Malignus + Solphim, Mayhem Dominus
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 160 | Commander: legal
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 150 | Commander: legal
 Produces: Target opponent loses the game; Near-infinite damage to one opponent
 Start: Minsc & Boo, Timeless Heroes (battlefield); Malignus (battlefield); Solphim, Mayhem Dominus (battlefield)
 Prerequisites: Minsc & Boo has at least two loyalty counters on it.
@@ -3301,7 +3348,7 @@ Steps: Declare the creature with Breath of Fury attached and Ogre Chitterlord as
 
 ## Combo 2051-2546-2657-3178
 Cards: Life from the Loam + Surly Badgersaur + Ayula's Influence + Forgotten Cave
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 130 | Commander: legal | Mana needed: {R}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 140 | Commander: legal | Mana needed: {R}
 Produces: Infinite self-mill; Near-infinite creature tokens; Near-infinite creature ETB; Near-infinite magecraft triggers; Near-infinite self-discard triggers; Near-infinite storm count
 Start: Life from the Loam (graveyard); Surly Badgersaur (battlefield); Ayula's Influence (battlefield); Forgotten Cave (hand)
 Prerequisites: You have at least two additional land cards in hand.
@@ -3335,7 +3382,7 @@ Steps: Activate Tranquil Thicket's cycling ability by paying {G} and discarding 
 
 ## Combo 2051-2546-3178-3872
 Cards: Life from the Loam + Surly Badgersaur + Land's Edge + Forgotten Cave
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 67 | Commander: legal | Mana needed: {R}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 69 | Commander: legal | Mana needed: {R}
 Produces: Infinite self-mill; Near-infinite damage; Near-infinite magecraft triggers; Near-infinite self-discard triggers; Near-infinite storm count
 Start: Life from the Loam (graveyard); Surly Badgersaur (battlefield); Land's Edge (battlefield); Forgotten Cave (hand)
 Prerequisites: You have at least two additional land cards in hand.
@@ -3369,7 +3416,7 @@ Steps: Activate Forgotten Cave's cycling ability by paying {R} and discarding it
 
 ## Combo 2051-2546-3872-4578
 Cards: Life from the Loam + Surly Badgersaur + Land's Edge + Tranquil Thicket
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 63 | Commander: legal | Mana needed: {G}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 65 | Commander: legal | Mana needed: {G}
 Produces: Infinite self-mill; Near-infinite damage; Near-infinite magecraft triggers; Near-infinite self-discard triggers; Near-infinite storm count
 Start: Life from the Loam (graveyard); Surly Badgersaur (battlefield); Land's Edge (battlefield); Tranquil Thicket (hand)
 Prerequisites: You have at least two additional land cards in hand.
@@ -3386,7 +3433,7 @@ Steps: Activate Tranquil Thicket's cycling ability by paying {G} and discarding 
 
 ## Combo 2051-2546-4298-4578
 Cards: Borborygmos Enraged + Life from the Loam + Surly Badgersaur + Tranquil Thicket
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 650 | Commander: legal | Mana needed: {G}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 660 | Commander: legal | Mana needed: {G}
 Produces: Infinite self-mill; Near-infinite damage; Near-infinite magecraft triggers; Near-infinite self-discard triggers; Near-infinite storm count
 Start: Borborygmos Enraged (battlefield); Life from the Loam (graveyard); Surly Badgersaur (battlefield); Tranquil Thicket (hand)
 Prerequisites: You have at least two additional land cards in hand.
@@ -3698,7 +3745,7 @@ Steps: Cast Mana Geyser by paying {3}{R}{R}, adding {R} for each tapped land you
 
 ## Combo 2091-4823-6785
 Cards: Devastating Onslaught + Mana Geyser + Timeless Witness
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 40 | Commander: legal | Mana needed: {3}{R}{R}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal | Mana needed: {3}{R}{R}
 Produces: Infinite red mana; Infinite creature tokens with haste; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count; Infinite magecraft triggers
 Start: Devastating Onslaught (hand); Mana Geyser (hand); Timeless Witness (battlefield)
 Prerequisites: Opponents control at least ten tapped lands.
@@ -3731,7 +3778,7 @@ Notes: Once you have infinite mana, you may tap and untap any other land(s) you 
 
 ## Combo 2092-2246-3657-6726
 Cards: Ruby, Daring Tracker + Bard Class + Agatha of the Vile Cauldron + Kogla, the Titan Ape
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
 Produces: Exile your library with the ability to play the exiled cards until end of turn; Infinite creature LTB; Infinite creature ETB; Infinite storm count
 Start: Ruby, Daring Tracker (hand, command zone); Bard Class (battlefield: is level 2 or higher); Agatha of the Vile Cauldron (battlefield); Kogla, the Titan Ape (battlefield)
 Steps: Cast Ruby either from your hand or from the command zone by paying {0} due to Bard Class plus commander tax, if applicable.
@@ -3788,7 +3835,7 @@ Steps: Activate up to six lands by tapping them, adding at least {6}.
 
 ## Combo 2092-2757-2816
 Cards: Agatha of the Vile Cauldron + Umbral Mantle + Earthcraft
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 33 | Commander: legal
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal
 Produces: Infinitely large creature until end of turn
 Start: Agatha of the Vile Cauldron (battlefield); Umbral Mantle (battlefield); Earthcraft (battlefield)
 Prerequisites: Umbral Mantle attached to a creature that does not have summoning sickness.
@@ -4100,7 +4147,7 @@ Notes: Once you have infinite mana, you may tap and untap any other land(s) you 
 
 ## Combo 2092-4289-4449
 Cards: Agatha of the Vile Cauldron + Hateflayer + Cryptolith Rite
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 73 | Commander: legal
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal
 Produces: Infinite damage; Infinite -1/-1 counters
 Start: Agatha of the Vile Cauldron (battlefield); Hateflayer (battlefield); Cryptolith Rite (battlefield)
 Prerequisites: Hateflayer does not have summoning sickness.
@@ -4111,7 +4158,7 @@ Steps: Activate Hateflayer by tapping it, adding {R}.
 
 ## Combo 2092-4449-4474
 Cards: Agatha of the Vile Cauldron + Hateflayer + Paradise Mantle
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 55 | Commander: legal
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal
 Produces: Infinite damage; Infinite -1/-1 counters
 Start: Agatha of the Vile Cauldron (battlefield); Hateflayer (battlefield); Paradise Mantle (battlefield)
 Prerequisites: Paradise Mantle attached to Hateflayer.
@@ -4214,7 +4261,7 @@ Notes: Once you have infinite mana, you may tap and untap any other land(s) you 
 
 ## Combo 2092-4954-5227
 Cards: Silvanus's Invoker + Agatha of the Vile Cauldron + Utopia Sprawl
-Color identity: RG | Bracket: 3-4+ (Spicy) | Popularity: 330 | Commander: legal
+Color identity: RG | Bracket: 3-4+ (Spicy) | Popularity: 320 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite power and toughness for most creatures you control until end of turn; Infinite untap of lands you control
 Start: Silvanus's Invoker (battlefield); Agatha of the Vile Cauldron (battlefield: with power 7 or greater); Utopia Sprawl (battlefield: attached to a Forest you control)
 Steps: Activate the land with Utopia Sprawl attached by tapping it, adding {1}.
@@ -4237,7 +4284,7 @@ Notes: Once you have infinite mana, you may tap and untap any other land(s) you 
 
 ## Combo 2092-4954-5621
 Cards: Silvanus's Invoker + Agatha of the Vile Cauldron + Arid Archway
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 59 | Commander: legal
 Produces: Infinite colorless mana; Infinite mana lands you control can produce; Infinite power and toughness for most creatures you control until end of turn; Infinite untap of lands you control
 Start: Silvanus's Invoker (battlefield); Agatha of the Vile Cauldron (battlefield); Arid Archway (battlefield)
 Prerequisites: Agatha of the Vile Cauldron has at least 7 power.
@@ -4407,7 +4454,7 @@ Steps: Declare Goldspan Dragon as an attacker.
 
 ## Combo 2105-3337-5607
 Cards: Fable of the Mirror-Breaker // Reflection of Kiki-Jiki + Combat Celebrant + Klauth, Unrivaled Ancient
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 32 | Commander: legal | Mana needed: {1}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal | Mana needed: {1}
 Produces: Infinite colored mana; Infinite combat phases; Infinite creature tokens with haste; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Fable of the Mirror-Breaker // Reflection of Kiki-Jiki (battlefield); Combat Celebrant (battlefield); Klauth, Unrivaled Ancient (battlefield)
 Prerequisites: Reflection of Kiki-Jiki does not have summoning sickness.
@@ -4569,7 +4616,7 @@ Steps: Activate Orthion's second ability by paying {6}{R}{R}{R} and tapping it, 
 
 ## Combo 2146-4390-5078-6757-7633
 Cards: Meria, Scholar of Antiquity + Sensei's Divining Top + Weapons Manufacturing + Ravenous Robots + Cloud Key
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal
 Produces: Infinite card draw; Near-infinite tapped creature tokens; Near-infinite artifact ETB; Near-infinite artifact LTB; Infinite draw triggers; Near-infinite creature ETB; Near-infinite storm count; Near-infinite tapped Munitions tokens
 Start: Meria, Scholar of Antiquity (battlefield); Sensei's Divining Top (battlefield); Weapons Manufacturing (battlefield); Ravenous Robots (battlefield); Cloud Key (battlefield: with "Artifact" chosen)
 Prerequisites: You control two other untapped artifacts.
@@ -5092,7 +5139,7 @@ Steps: Cast Accomplished Alchemist by paying {3}{G}.
 
 ## Combo 2232-2506-4939
 Cards: Molten Echoes + Cloudstone Curio + Burning-Tree Emissary
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal | Mana needed: {R/G}{R/G}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal | Mana needed: {R/G}{R/G}
 Produces: Infinite creature tokens with haste; Infinite green mana; Infinite red mana; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Molten Echoes (battlefield); Cloudstone Curio (battlefield); Burning-Tree Emissary (hand)
 Prerequisites: "Human" or "Shaman" chosen with Molten Echoes.
@@ -8123,7 +8170,7 @@ Steps: Activate Ant Queen by paying {1}{G}, creating two creature tokens.
 
 ## Combo 2457-2557-4289-8201
 Cards: Cryptolith Rite + Ant Queen + Parallel Lives + Samut, Hazoret's Champion
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {1}{G}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite tapped creature tokens; Infinite creature ETB
 Start: Cryptolith Rite (battlefield); Ant Queen (battlefield); Parallel Lives (battlefield); Samut, Hazoret's Champion (battlefield)
 Steps: Activate Ant Queen by paying {1}{G}, creating two creature tokens.
@@ -8679,7 +8726,7 @@ Steps: Activate Traxos by tapping it, adding {1}.
 
 ## Combo 2474-3693-4120
 Cards: Vigor + Walking Ballista + City on Fire
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 57 | Commander: legal
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 58 | Commander: legal
 Produces: Infinite damage; Infinite +1/+1 counters on creatures you control
 Start: Vigor (battlefield); Walking Ballista (battlefield: with at least two +1/+1 counters on it); City on Fire (battlefield)
 Steps: Activate Walking Ballista's second ability by removing a +1/+1 counter from it, putting three +1/+1 counters on it due to Vigor.
@@ -9802,7 +9849,7 @@ Steps: Give Vrondiss indestructible by any method.
 
 ## Combo 2681-2930-5881-5885
 Cards: Anzrag, the Quake-Mole + Obscuring Haze + Forbidden Orchard + Portent Tracker
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal | Mana needed: {3}{R}{R}{G}{G}, plus an additional {2}{G} if you don't control a commander
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal | Mana needed: {3}{R}{R}{G}{G}, plus an additional {2}{G} if you don't control a commander
 Produces: Infinite combat phases; Infinite mana creatures you control can produce; Infinite untap of creatures you control; Infinite creature ETB for target opponent; Infinite death triggers for target opponent; Infinite creature LTB for target opponent
 Start: Anzrag, the Quake-Mole (battlefield); Obscuring Haze (hand); Forbidden Orchard (battlefield); Portent Tracker (battlefield)
 Prerequisites: Anzrag and Portent Tracker do not have summoning sickness.
@@ -9818,7 +9865,7 @@ Steps: Activate Anzrag by paying {3}{R}{R}{G}{G}, causing opponents to block Anz
 
 ## Combo 2681-3181-5881-5885
 Cards: Anzrag, the Quake-Mole + Obscuring Haze + Forbidden Orchard + Krosan Restorer
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {3}{R}{R}{G}{G}, plus an additional {2}{G} if you don't control a commander
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {3}{R}{R}{G}{G}, plus an additional {2}{G} if you don't control a commander
 Produces: Infinite combat phases; Infinite mana creatures you control can produce; Infinite untap of creatures you control; Infinite creature ETB for target opponent; Infinite death triggers for target opponent; Infinite creature LTB for target opponent
 Start: Anzrag, the Quake-Mole (battlefield); Obscuring Haze (hand); Forbidden Orchard (battlefield); Krosan Restorer (battlefield)
 Prerequisites: Anzrag and Krosan Restorer do not have summoning sickness.
@@ -10474,7 +10521,7 @@ Steps: Activate Aerie Ouphes by sacrificing itself.
 
 ## Combo 2942-3693-4120
 Cards: Vigor + Walking Ballista + Fiery Emancipation
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 73 | Commander: legal
 Produces: Infinite damage; Infinite +1/+1 counters on creatures you control
 Start: Vigor (battlefield); Walking Ballista (battlefield: with at least two +1/+1 counters on it); Fiery Emancipation (battlefield)
 Steps: Activate Walking Ballista's second ability by removing a +1/+1 counter from it, putting three +1/+1 counters on it due to Vigor.
@@ -10662,16 +10709,40 @@ Steps: Attack with both Lightning Runners.
   Repeat.
 
 ## Combo 3090-6085-6086-6087
-Cards: Altanak, the Thrice-Called + Sentinel + Lure + Harmless Offering
+Cards: Sentinel + Lure + Harmless Offering + Altanak, the Thrice-Called
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {2}{R}
 Produces: Target opponent loses the game; Infinite card draw for target opponent; Infinite draw triggers for target opponent
-Start: Altanak, the Thrice-Called (battlefield); Sentinel (battlefield); Lure (battlefield); Harmless Offering (hand)
+Start: Sentinel (battlefield); Lure (battlefield); Harmless Offering (hand); Altanak, the Thrice-Called (battlefield)
 Prerequisites: Lure attached to Sentinel.
   Sentinel does not have summoning sickness.
-Steps: Cast Harmless Offering by paying {2}{R}, giving control of Altanak to an opponent.
-  Declare Sentinel as an attacker, forcing Altanak to block it due to Lure.
+Steps: Cast Harmless Offering by paying {2}{R}, causing target opponent to gain control of Altanak.
+  During your next declare attackers step, declare Sentinel as an attacker, forcing Altanak to block it due to Lure.
   Holding priority, activate Sentinel an arbitrarily large number of times by paying {0}, targeting Altanak.
-  Altanak triggers that many times, causing an opponent to draw that many cards and lose the game due to drawing from an empty library.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 3090-6086-6087-8144
+Cards: Sentinel + Lure + Harmless Offering + Surrak, Elusive Hunter
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{R}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Sentinel (battlefield); Lure (battlefield); Harmless Offering (hand); Surrak, Elusive Hunter (battlefield)
+Prerequisites: Lure attached to Sentinel.
+  Sentinel does not have summoning sickness.
+Steps: Cast Harmless Offering by paying {2}{R}, causing target opponent to gain control of Surrak.
+  During your next declare attackers step, declare Sentinel as an attacker, forcing Surrak to block it due to Lure.
+  Holding priority, activate Sentinel an arbitrarily large number of times by paying {0}, targeting Surrak.
+  Surrak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 3090-6086-6087-8411
+Cards: Sentinel + Lure + Harmless Offering + Old Fat Spider
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{R}
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Sentinel (battlefield); Lure (battlefield); Harmless Offering (hand); Old Fat Spider (battlefield)
+Prerequisites: Lure attached to Sentinel.
+  Sentinel does not have summoning sickness.
+Steps: Cast Harmless Offering by paying {2}{R}, causing target opponent to gain control of Old Fat Spider.
+  During your next declare attackers step, declare Sentinel as an attacker, forcing Old Fat Spider to block it due to Lure.
+  Holding priority, activate Sentinel an arbitrarily large number of times by paying {0}, targeting Old Fat Spider.
+  Old Fat Spider triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
 
 ## Combo 3099-3360-3755
 Cards: Leyline of Abundance + Torchling + Elven Chorus
@@ -11963,7 +12034,7 @@ Steps: Activate Patchwork Gnomes by discarding a card.
 
 ## Combo 3311-6428
 Cards: Magmakin Artillerist + Snake Umbra
-Color identity: RG | Bracket: 3-4+ (Spicy) | Popularity: 450 | Commander: legal
+Color identity: RG | Bracket: 3-4+ (Spicy) | Popularity: 460 | Commander: legal
 Produces: Near-infinite damage; Infinite rummaging; Infinite self-discard triggers; Infinite draw triggers
 Start: Magmakin Artillerist (battlefield); Snake Umbra (battlefield: attached to Magmakin Artillerist)
 Prerequisites: You have more cards in hand than your maximum hand size.
@@ -12342,7 +12413,7 @@ Steps: Declare Hellkite Charger as an attacker, triggering its ability.
 
 ## Combo 3398-4228
 Cards: Hellkite Charger + Bear Umbra
-Color identity: RG | Bracket: 3-4+ (Spicy) | Popularity: 3800 | Commander: legal
+Color identity: RG | Bracket: 3-4+ (Spicy) | Popularity: 3700 | Commander: legal
 Produces: Infinite combat phases
 Start: Hellkite Charger (battlefield); Bear Umbra (battlefield)
 Prerequisites: Hellkite Charger does not have summoning sickness.
@@ -12771,7 +12842,7 @@ Steps: Activate Topiary Lecturer by tapping it, adding at least {G}{G}.
 
 ## Combo 3457-7786
 Cards: Hawkeye's Bow + Seeker of Skybreak
-Color identity: RG | Bracket: 4+ (Ruthless) | Popularity: 1000 | Commander: legal
+Color identity: RG | Bracket: 4+ (Ruthless) | Popularity: 1100 | Commander: legal
 Produces: Infinite damage
 Start: Hawkeye's Bow (battlefield: attached to Seeker of Skybreak); Seeker of Skybreak (battlefield: without summoning sickness)
 Steps: Activate Seeker of Skybreak by tapping it, targeting itself.
@@ -12891,7 +12962,7 @@ Steps: Play any land.
 
 ## Combo 3470-5226-5720-5721
 Cards: Shifting Woodland + Aftermath Analyst + Lotus Cobra + Lithatog
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 69 | Commander: legal | Mana needed: {5}{G}{G}{G}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 68 | Commander: legal | Mana needed: {5}{G}{G}{G}
 Produces: Infinite colored mana; Infinitely large creature until end of turn; Infinite death triggers; Infinite landfall triggers; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Shifting Woodland (battlefield); Aftermath Analyst (graveyard); Lotus Cobra (battlefield); Lithatog (battlefield)
 Prerequisites: There are at least four card types among cards in your graveyard.
@@ -13816,7 +13887,7 @@ Steps: Put a land onto the battlefield.
 
 ## Combo 3510-3703-5147
 Cards: Sporemound + Life and Limb + Goblin Bombardment
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 370 | Commander: legal
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 360 | Commander: legal
 Produces: Draw the game; Infinite creature tokens; Infinite damage; Infinite death triggers; Infinite creature ETB; Infinite landfall triggers; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Sporemound (battlefield); Life and Limb (battlefield); Goblin Bombardment (battlefield)
 Prerequisites: An additional land card in hand.
@@ -14330,7 +14401,7 @@ Steps: Activate at least five creatures you control by tapping them, adding at l
 
 ## Combo 3750-4306-5793
 Cards: Bello, Bard of the Brambles + Aggravated Assault + Nyx Lotus
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 210 | Commander: legal
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 200 | Commander: legal
 Produces: Infinite mana among colors with which you have devotion; Infinite combat phases; Infinite mana creatures you control can produce; Infinite mana non-Equipment artifacts with mana value 4 or greater you control can produce; Infinite untap of creatures you control; Infinite untap of some non-Equipment artifacts you control
 Start: Bello, Bard of the Brambles (battlefield); Aggravated Assault (battlefield); Nyx Lotus (battlefield)
 Prerequisites: Your devotion to red is at least five
@@ -14616,7 +14687,7 @@ Notes: You'll create double as many Squirrels each loop. All Squirrels beyond th
 
 ## Combo 3755-7060-7686
 Cards: The Unbeatable Squirrel Girl + Elven Chorus + Smellerbee, Rebel Fighter
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {1}{G}{G}{G}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {1}{G}{G}{G}
 Produces: Infinite colored mana; Infinite creature tokens with haste; Infinite creature ETB
 Start: The Unbeatable Squirrel Girl (battlefield); Elven Chorus (battlefield); Smellerbee, Rebel Fighter (battlefield)
 Prerequisites: You control four or more Squirrels.
@@ -14943,7 +15014,7 @@ Steps: Cast Electric Seaweed by paying {2}{R}{R}.
 
 ## Combo 4050-4289-5081-5434
 Cards: Yarus, Roar of the Old Gods + Cryptolith Rite + Obscuring Aether + Phyrexian Altar
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 32 | Commander: legal | Mana needed: {1}{G}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Yarus, Roar of the Old Gods (battlefield); Cryptolith Rite (battlefield); Obscuring Aether (battlefield); Phyrexian Altar (battlefield)
 Steps: Activate Obscuring Aether by paying {1}{G}, turning it face-down as a 2/2 creature.
@@ -15876,7 +15947,7 @@ Notes: You'll create double as many Squirrels each loop. All Squirrels beyond th
 
 ## Combo 4477-7493-7494
 Cards: Choreographed Sparks + Blazing Firesinger // Seething Song + Greenwarden of Murasa
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {6}{R}{R}{R}{G}{G}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {6}{R}{R}{R}{G}{G}
 Produces: Infinite creature tokens with haste; Infinite red mana; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite magecraft triggers; Infinite creature sacrifice triggers; Infinite storm count
 Start: Choreographed Sparks (hand); Blazing Firesinger // Seething Song (battlefield); Greenwarden of Murasa (hand)
 Prerequisites: Blazing Firesinger is prepared.
@@ -16262,7 +16333,7 @@ Steps: Cast Sol Ring by paying its mana cost.
 
 ## Combo 4823-7493-7494
 Cards: Choreographed Sparks + Blazing Firesinger // Seething Song + Timeless Witness
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {4}{R}{R}{R}{G}{G}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {4}{R}{R}{R}{G}{G}
 Produces: Infinite creature tokens with haste; Infinite red mana; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite magecraft triggers; Infinite creature sacrifice triggers; Infinite storm count
 Start: Choreographed Sparks (hand); Blazing Firesinger // Seething Song (battlefield); Timeless Witness (hand)
 Prerequisites: Blazing Firesinger is prepared.
@@ -16861,7 +16932,7 @@ Steps: Activate any number of other lands by tapping them, adding at least {4}{C
 
 ## Combo 5226-5478-5720-5721
 Cards: Shifting Woodland + Aftermath Analyst + Lithatog + Spelunking
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 64 | Commander: legal | Mana needed: {5}{G}{G}{G}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 63 | Commander: legal | Mana needed: {5}{G}{G}{G}
 Produces: Infinite mana lands you control can produce; Infinitely large creature until end of turn; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Shifting Woodland (battlefield); Aftermath Analyst (graveyard); Lithatog (battlefield); Spelunking (battlefield)
 Prerequisites: There are at least four card types among cards in your graveyard.
@@ -17094,7 +17165,7 @@ Steps: Activate Altar of Dementia by sacrificing the creature with power 4 or gr
 
 ## Combo 5411-5478-5531-6621
 Cards: Lumra, Bellow of the Woods + Mirrorpool + Need for Speed + Spelunking
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 230 | Commander: legal
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 240 | Commander: legal
 Produces: Infinite self-mill; Infinite mana lands you control can produce; Put all land cards from your library and graveyard onto the battlefield; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers
 Start: Lumra, Bellow of the Woods (battlefield); Mirrorpool (battlefield); Need for Speed (battlefield); Spelunking (battlefield)
 Prerequisites: Other lands you control can tap to produce at least {4}{C}.
@@ -17108,7 +17179,7 @@ Steps: Activate any number of other lands by tapping them, adding at least {4}{C
 
 ## Combo 5411-5478-5720-5721
 Cards: Shifting Woodland + Aftermath Analyst + Need for Speed + Spelunking
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 720 | Commander: legal | Mana needed: {5}{G}{G}{G}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 730 | Commander: legal | Mana needed: {5}{G}{G}{G}
 Produces: Infinite mana lands you control can produce; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Shifting Woodland (battlefield); Aftermath Analyst (graveyard); Need for Speed (battlefield); Spelunking (battlefield)
 Prerequisites: There are at least four card types among cards in your graveyard.
@@ -17267,16 +17338,43 @@ Steps: Activate any number of lands by tapping them, adding at least {2}{C}{C}.
 Notes: If you can generate infinite {C} once you have all the lands on the battlefield, you can forego blinking Lumra and Famished Worldsire, and instead elect to blink The Immortal Weapons and choose any two other modes from Eldrazi Confluence. This can allow you to blink other creatures, create infinite Eldrazi Spawn tokens and/or reduce any number of creatures' toughness to 0.
 
 ## Combo 5541-6085-6086-6087
-Cards: Altanak, the Thrice-Called + Sentinel + Lure + Bazaar Trader
+Cards: Sentinel + Lure + Bazaar Trader + Altanak, the Thrice-Called
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Target opponent loses the game; Infinite card draw for target opponent; Infinite draw triggers for target opponent
-Start: Altanak, the Thrice-Called (battlefield); Sentinel (battlefield); Lure (battlefield); Bazaar Trader (battlefield)
-Prerequisites: Lure attached to Sentinel.
-  Bazaar Trader and Sentinel do not have summoning sickness.
-Steps: Activate Bazaar Trader by tapping it, giving control of Altanak to an opponent.
-  Declare Sentinel as an attacker, forcing Altanak to block it due to Lure.
+Start: Sentinel (battlefield); Lure (battlefield); Bazaar Trader (battlefield); Altanak, the Thrice-Called (battlefield)
+Prerequisites: Bazaar Trader does not have summoning sickness.
+  Lure attached to Sentinel.
+  Sentinel does not have summoning sickness.
+Steps: Activate Bazaar Trader by tapping it, causing target opponent to gain control of Altanak.
+  During your next declare attackers step, declare Sentinel as an attacker, forcing Altanak to block it due to Lure.
   Holding priority, activate Sentinel an arbitrarily large number of times by paying {0}, targeting Altanak.
-  Altanak triggers that many times, causing an opponent to draw that many cards and lose the game due to drawing from an empty library.
+  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 5541-6086-6087-8144
+Cards: Sentinel + Lure + Bazaar Trader + Surrak, Elusive Hunter
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Sentinel (battlefield); Lure (battlefield); Bazaar Trader (battlefield); Surrak, Elusive Hunter (battlefield)
+Prerequisites: Bazaar Trader does not have summoning sickness.
+  Lure attached to Sentinel.
+  Sentinel does not have summoning sickness.
+Steps: Activate Bazaar Trader by tapping it, causing target opponent to gain control of Surrak.
+  During your next declare attackers step, declare Sentinel as an attacker, forcing Surrak to block it due to Lure.
+  Holding priority, activate Sentinel an arbitrarily large number of times by paying {0}, targeting Surrak.
+  Surrak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
+
+## Combo 5541-6086-6087-8411
+Cards: Sentinel + Lure + Bazaar Trader + Old Fat Spider
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
+Start: Sentinel (battlefield); Lure (battlefield); Bazaar Trader (battlefield); Old Fat Spider (battlefield)
+Prerequisites: Bazaar Trader does not have summoning sickness.
+  Lure attached to Sentinel.
+  Sentinel does not have summoning sickness.
+Steps: Activate Bazaar Trader by tapping it, causing target opponent to gain control of Old Fat Spider.
+  During your next declare attackers step, declare Sentinel as an attacker, forcing Old Fat Spider to block it due to Lure.
+  Holding priority, activate Sentinel an arbitrarily large number of times by paying {0}, targeting Old Fat Spider.
+  Old Fat Spider triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
 
 ## Combo 5881--101
 Cards: Anzrag, the Quake-Mole
