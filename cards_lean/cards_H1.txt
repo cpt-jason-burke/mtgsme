@@ -1669,6 +1669,11 @@ Text: Target opponent puts the cards from their hand on top of their library. Se
 Cost: {1}{w} | Type: Creature — Andorian Soldier | Color identity: W | P/T: 2/2 | Commander: legal
 Text: First strike (This creature deals combat damage before creatures without first strike.)
 
+## Head of Security (Rank)
+Cost: — | Type: Rank | Color identity: colorless | Commander: legal
+Text: Weapons Hot — Attacking nontoken creatures you control get +1/+0.
+  Confine to Quarters — {2}: Remove all attacking creatures from combat. Activate only once.
+
 ## Head of the Homestead
 Cost: {3}{g/w}{g/w} | Type: Creature — Rabbit Citizen | Color identity: GW | P/T: 3/2 | Commander: legal
 Text: When this creature enters, create two 1/1 white Rabbit creature tokens.
@@ -3822,7 +3827,7 @@ Text: Target player sacrifices an artifact or creature of their choice. Hit deal
 ## Hit It!
 Cost: {1}{r}{g} | Type: Enchantment | Color identity: GR | Commander: legal
 Text: Creatures you control have haste.
-  When this enchantment enters, look at the top five cards of your library. Put a land card from among them onto the battlefield tapped and the rest into your graveyard.
+  When this enchantment enters, reveal the top five cards of your library. Put a land card from among them onto the battlefield tapped and the rest into your graveyard.
 
 ## Hit the Mother Lode
 Cost: {4}{r}{r}{r} | Type: Sorcery | Color identity: R | Commander: legal

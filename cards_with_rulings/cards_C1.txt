@@ -1657,6 +1657,11 @@ Ruling (2022-06-10): If you cast an adventurer card as an Adventure, use only it
 Ruling (2022-06-10): When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
 Ruling (2022-06-10): You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
 
+## Captain (Rank)
+Cost: — | Type: Rank | Color identity: colorless | Commander: legal
+Text: The Big Chair — You choose the starting player. You start the game with a Treasure token.
+  Command Codes — {4}: Gain control of target creature until end of turn. Untap that creature. Until end of turn, it gains haste and can't attack its owner. Activate only once.
+
 ## Captain America's Motorcycle
 Cost: {1}{r} | Type: Artifact — Vehicle | Color identity: R | P/T: 3/1 | Commander: legal
 Text: Flash
@@ -6363,6 +6368,11 @@ Ruling (2024-01-12): Tapping an untapped creature that's attacking or blocking t
 Ruling (2024-01-12): When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
 Ruling (2024-01-12): You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
 
+## Chief Engineer (Rank)
+Cost: — | Type: Rank | Color identity: colorless | Commander: legal
+Text: Watchful Eye — At the beginning of combat on your turn, target creature you control gains vigilance until end of turn.
+  Miracle Worker — {5}: Reveal cards from the top of your library until you reveal a nonland card. You may cast that card without paying its mana cost. Activate only once.
+
 ## Chief Kyle, Transporter Tech
 Cost: {2}{w}{u} | Type: Legendary Creature — Human Artificer | Color identity: UW | P/T: 3/2 | Commander: legal
 Text: Landfall — Whenever a land you control enters, exile up to one other target creature you control. Return that card to the battlefield under its owner's control at the beginning of the next end step.
@@ -6376,6 +6386,11 @@ Ruling (2026-10-07): Whenever a land you control enters, each landfall ability o
 Cost: {4}{r}{w} | Type: Legendary Creature — Human Noble | Color identity: RW | P/T: 3/3 | Commander: legal
 Text: When Chief Magistrate of Mercadia enters, you become the monarch.
   At the beginning of your upkeep, create a 2/1 red Goblin creature token with haste. Then if you're the monarch, for each creature token you control, create a token that's a copy of it.
+
+## Chief Medical Officer (Rank)
+Cost: — | Type: Rank | Color identity: colorless | Commander: legal
+Text: Bio-Filtration System — You start at 50 life.
+  Resuscitation Pack — {5}: Return target creature card from your graveyard to the battlefield. Activate only as a sorcery and only once.
 
 ## Chief Montgomery Scott
 Cost: {2}{g}{u} | Type: Legendary Creature — Human Artificer | Color identity: GU | P/T: 3/3 | Commander: legal
