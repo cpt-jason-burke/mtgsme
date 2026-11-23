@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 /* Synergy finder on the command line (docs/synergy.js), for the rules judge.
 
-   node tools/synergy.js "Card A" "Card B" [--colors WUBRG] [--limit 20]
-       cards that are not listed but work with these: known combos first, then possible loops and links
+   node tools/synergy.js "Card A" ["Card B" ...] [--colors WUBRG] [--limit 20]
+       cards that are not listed but work with these: known combos first, then possible loops and links.
+       One card finds that card's partners (two-card combos it finishes, the rest of its longer combos, then links)
    node tools/synergy.js --measure [--sample 400] [--seed 1]
        hide one card of known three-card combos and see how often the text-reading path alone
        (no combo list) ranks it in its top 10                                                        */
@@ -53,7 +54,7 @@ if (measure) {
   process.exit(0);
 }
 
-if (!args.length) { console.log("usage: node tools/synergy.js \"Card A\" \"Card B\" [--colors WUBRG] [--limit 20]   |   --measure"); process.exit(1); }
+if (!args.length) { console.log("usage: node tools/synergy.js \"Card A\" [\"Card B\" ...] [--colors WUBRG] [--limit 20]   |   --measure"); process.exit(1); }
 const chosen = [], missing = [];
 for (const a of args) { const c = lookup(a); if (c) chosen.push(c); else missing.push(a); }
 if (missing.length) { console.log("Not found in the card data (check the spelling; do not guess): " + missing.join(", ")); process.exit(1); }

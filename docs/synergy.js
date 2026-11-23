@@ -1,8 +1,10 @@
-/* MTGSME synergy finder: for two or more chosen cards, cards not yet listed that work with them.
+/* MTGSME synergy finder: for one or more chosen cards, cards not yet listed that work with them.
  *
  * Ranked: finishes a known combo (Commander Spellbook), then makes a possible loop, then links to two or
  * more of the chosen cards, then to one. Combo results come from the combo list; every other link is found
- * by reading card text (engine.js events, effects.js layers), so it is marked "possible" and must be checked. */
+ * by reading card text (engine.js events, effects.js layers), so it is marked "possible" and must be checked.
+ * With a single chosen card it finds that card's partners: two-card combos it finishes, the other cards in
+ * its longer known combos, possible loops, then cards that trigger on what it causes or cause what it triggers on. */
 (function (root) {
   "use strict";
   const node = typeof module !== "undefined" && module.exports;
@@ -86,7 +88,10 @@
   function find(chosen, ix, opts) {
     opts = opts || {};
     const cite = (n) => (!opts.cr || (opts.cr.rules && opts.cr.rules[n]) ? [n] : []);
-    const ident = opts.identity != null ? opts.identity : "WUBRG".split("").filter((ch) => chosen.some((c) => c.ci.includes(ch))).join("");
+    const single = chosen.length === 1;
+    const union = "WUBRG".split("").filter((ch) => chosen.some((c) => c.ci.includes(ch))).join("");
+    // one colorless card fits any deck, so its partners may be any color
+    const ident = opts.identity != null ? opts.identity : single && !union ? "WUBRG" : union;
     const allowed = new Set(ident);
     const picked = new Set(chosen.map((c) => c.n));
     const mine = chosen.map((c) => ({ c, t: tag(c) }));
@@ -103,8 +108,8 @@
         const cb = g.combos[0];
         it.why.push({ text: "Finishes a known combo with " + cb.cards.filter((x) => x !== g.n).map(short).join(" + ") + (cb.needs.length ? " (also needs " + cb.needs.join(", ") + ")" : "") + ": " + cb.results.slice(0, 3).join(", ") + ".", combo: cb });
       }
-      if (chosen.length > 1) {
-        const w = C.withCards(cx, chosen.map((c) => c.n), 12);
+      if (chosen.length) {   // known combos that use all the chosen cards; for one card, its own combos (most popular first), which brings in its partners
+        const w = C.withCards(cx, chosen.map((c) => c.n), single ? 150 : 12);
         for (const cb of w.combos) {
           if (!cb.known || cb.tag === "B") continue;
           for (const n of cb.cards) {
@@ -115,7 +120,9 @@
             if (it.combos.some((x) => x.id === cb.id)) continue;
             if (it.tier > 1) { it.tier = Math.min(it.tier, 1.5); it.score += 50 + Math.log(1 + cb.pop); }
             it.combos.push(cb);
-            if (it.why.length < 2) it.why.push({ text: "Part of a known combo that uses all of your cards (" + cb.cards.length + " cards in total): " + cb.results.slice(0, 3).join(", ") + ".", combo: cb });
+            if (it.why.length < 2) it.why.push({ text: single
+              ? "Part of a known combo with " + [short(chosen[0].n)].concat(cb.cards.filter((x) => x !== n && x !== chosen[0].n).map(short)).join(" + ") + " (" + cb.cards.length + " cards in total" + (cb.needs.length ? ", also needs " + cb.needs.join(", ") : "") + "): " + cb.results.slice(0, 3).join(", ") + "."
+              : "Part of a known combo that uses all of your cards (" + cb.cards.length + " cards in total): " + cb.results.slice(0, 3).join(", ") + ".", combo: cb });
           }
         }
       }
@@ -195,7 +202,9 @@
         keep.push(it);
       }
       out.length = 0; out.push(...keep);
-      const TIER = { 1: "Finishes a known combo", 1.5: "In a known combo with all your cards", 2: "Possible loop", 3: "Works with two or more of your cards", 4: "Works with one of your cards" };
+      const TIER = single
+        ? { 1: "Finishes a known combo with this card", 1.5: "In a known combo with this card", 2: "Possible loop", 4: "Works with this card" }   // no tier 3: that needs links to two chosen cards
+        : { 1: "Finishes a known combo", 1.5: "In a known combo with all your cards", 2: "Possible loop", 3: "Works with two or more of your cards", 4: "Works with one of your cards" };
       const limit = opts.limit || 30;
       return { identity: ident, total: items.size, linked: new Set(items.keys()), items: out.slice(0, limit).map((it) => ({ n: it.n, card: it.card, tier: it.tier, label: TIER[it.tier] || "", score: Math.round(it.score * 100) / 100, why: it.why.filter((w) => w.combo).concat(it.why.filter((w) => !w.combo)).slice(0, 3), links: [...it.links], combos: it.combos.slice(0, 2), warn: it.warn || null, possible: it.tier >= 2 })) };
     }

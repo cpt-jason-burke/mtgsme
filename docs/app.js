@@ -236,7 +236,7 @@
     hydrate(sheet);
     lazyPrints(sheet);
     const img = $("#sheet-root .cardimg"); if (img) tiltFlat(img);
-    if (v.type === "card") loadPrintings(v);
+    if (v.type === "card") { loadPrintings(v); synPaintCard(v); }
     if (v.type === "deck") deckValue(v);
     if (v.type === "set" || v.type === "deck") renderTop25(v);
     if (v.type === "set") renderSealed(v);
@@ -281,6 +281,11 @@
       if (act === "trek") return openTrek();
       if (act === "hlzoom") { const c = hlCard(a.dataset.key); if (c && c.img) lightbox(c.img.l || c.img.n, c.img.n, c.name, c.set + " #" + c.num + (c.signer ? " \u00B7 signed by " + c.signer : "")); return; }
       const v = stack[stack.length - 1];
+      if (act === "synrun") {   // "Find synergies" at the top of a card page also scrolls down to the block
+        runSyn(v.syn || (v.syn = newSyn()), () => [v.card], () => synPaintCard(v));
+        if (a.dataset.jump) { const el = $("#synsheet"); if (el) el.scrollIntoView({ block: "start", behavior: "smooth" }); }
+        return;
+      }
       if (act === "kw") { leaveSheets(); showTab("search"); setKeyword(a.dataset.v); return; }
       if (act === "theme") { leaveSheets(); showTab("search"); setTheme(a.dataset.v); return; }
       if (act === "pfin") { v.fin = a.dataset.v; store.set("fin", v.fin); return renderPrintings(v, printCache.get(v.card.n) || []); }
@@ -308,6 +313,7 @@
   });
   $("#sheet-root").addEventListener("change", (e) => {
     const t = e.target, v = stack[stack.length - 1];
+    if (t.dataset.act === "syncolors" && v && v.type === "card") { (v.syn || (v.syn = newSyn())).colors = t.value; synPaintCard(v); }
     if (t.dataset.act === "psort") { v.psort = t.value; renderPrintings(v, printCache.get(v.card.n) || []); }
     if (t.dataset.act === "ssort") { v.sort = t.value; drawSheet(); }
   });
@@ -448,9 +454,11 @@
       '<div class="oracle">' + linkRules(mana(c.o)) + "</div></div>";
     const inDeck = state.deck && (state.deck.cards.find((x) => x.n === c.n) || state.deck.commanders.includes(c.n) || (state.deck.companions || []).includes(c.n));
     h += '<div class="chips"><button class="btn primary small" data-act="interact" data-name="' + esc(c.n) + '">Add to Interact</button>' +
+      '<button class="btn small" data-act="synrun" data-jump="1">Find synergies</button>' +
       '<button class="btn small" data-act="deck-add" data-name="' + esc(c.n) + '">' + (inDeck ? "+1 in deck" : "Add to deck") + "</button>" +
       (inDeck ? '<button class="btn small" data-act="deck-sub" data-name="' + esc(c.n) + '">Remove one</button>' : "") +
       (MTGDeck.canBeCommander(c) || MTGDeck.isBackground(c) ? '<button class="btn small" data-act="deck-cmd" data-name="' + esc(c.n) + '">Make commander</button>' : "") + "</div>";
+    h += '<section class="block" id="synsheet"></section>';   // "Cards that work with this card", filled in by synPaintCard
     if (c.k && c.k.length) h += '<section class="block"><h2>Keywords, from the rules</h2><div class="chips" style="flex-wrap:wrap">' + c.k.map((k) => {
       const n = CR.kw[k.toLowerCase()];
       return n ? '<button class="chip rule" data-rule="' + n + '">' + esc(k) + " → CR " + n + "</button>" : '<span class="chip">' + esc(k) + "</span>";
@@ -805,11 +813,11 @@
     });
     $("#analysis").addEventListener("change", (e) => {
       const f = e.target.closest("[data-f]"); if (!f) return;
-      if (f.dataset.f === "syn-colors") { SYN.colors = f.value; const el = $("#syn"); if (el) el.innerHTML = synInner(state.picked.map(card).filter(Boolean)); return; }
+      if (f.dataset.f === "syn-colors") { SYN.colors = f.value; synPaint(); return; }
       boardChange(f);
     });
     $("#analysis").addEventListener("click", (e) => {
-      const b = e.target.closest("[data-b]"); if (b) return b.dataset.b === "syn" ? runSyn() : boardAct(b);
+      const b = e.target.closest("[data-b]"); if (b) return b.dataset.b === "syn" ? runSyn(SYN, synCards, synPaint) : boardAct(b);
       const r = e.target.closest("[data-rule]"); if (r) return openSheet({ type: "rule", rule: r.dataset.rule });
       const c = e.target.closest("[data-card]"); if (c) openSheet({ type: "card", card: card(c.dataset.card) });
     });
@@ -977,22 +985,28 @@
   }
 
   // ---------- interact: cards that work with these (synergy.js) ----------
-  const SYN = { ix: null, busy: "", key: "", res: null, colors: "auto", error: "" };
-  const synKey = (cards) => cards.map((c) => c.n).join("|") + "#" + SYN.colors;
-  function synIdentity(cards) {
-    if (SYN.colors === "all") return "WUBRG";
-    if (SYN.colors === "deck" && state.deck && state.deck.commanders.length) return "WUBRG".split("").filter((ch) => state.deck.commanders.some((n) => (card(n) || { ci: "" }).ci.includes(ch))).join("");
-    return undefined;
+  // One chosen card is enough: the finder then looks for that card's partners. Interact keeps its state in SYN; a card's own page
+  // (Search > a card) keeps its state on the page object (v.syn, from newSyn()). The card index, SYN.ix, is built once and shared.
+  const newSyn = () => ({ busy: "", key: "", res: null, colors: "auto", error: "" });
+  const SYN = Object.assign(newSyn(), { ix: null });
+  const synKey = (cards, S) => cards.map((c) => c.n).join("|") + "#" + S.colors;
+  function synIdentity(cards, S) {
+    if (S.colors === "all") return "WUBRG";
+    if (S.colors === "deck" && state.deck && state.deck.commanders.length) return "WUBRG".split("").filter((ch) => state.deck.commanders.some((n) => (card(n) || { ci: "" }).ci.includes(ch))).join("");
+    return undefined;   // the cards' own colors (one colorless card: any color)
   }
-  function synInner(cards) {
+  function synInner(cards, S) {
+    const one = cards.length === 1, inter = S === SYN, colorless = one && !cards[0].ci;
     const deckCmd = state.deck && state.deck.commanders.length ? state.deck.commanders.map((n) => n.split(",")[0]).join(" + ") : "";
-    let h = '<h2>Cards that work with these</h2><div class="bctl" style="margin:0 0 10px"><select class="sel" data-f="syn-colors"><option value="auto"' + (SYN.colors === "auto" ? " selected" : "") + ">In these cards’ colors</option>" +
-      (deckCmd ? '<option value="deck"' + (SYN.colors === "deck" ? " selected" : "") + ">In my deck’s colors (" + esc(deckCmd) + ")</option>" : "") + '<option value="all"' + (SYN.colors === "all" ? " selected" : "") + '>In any colors</option></select>' +
-      '<button class="btn small primary" data-b="syn"' + (SYN.busy ? " disabled" : "") + ">" + (SYN.busy ? esc(SYN.busy) : SYN.res && SYN.key === synKey(cards) ? "Find again" : "Find cards") + "</button></div>";
-    if (SYN.error) h += '<div class="panel item"><div class="d">' + esc(SYN.error) + "</div></div>";
-    if (!SYN.res || SYN.key !== synKey(cards)) return h + '<div class="d" style="margin:0 2px;color:var(--mute);font-size:13.5px">Looks for cards not listed here: ones that finish a known combo with these, then possible loops, then cards that link to two or more of them.</div>';
-    const r = SYN.res;
-    if (!r.items.length) return h + '<div class="panel item"><div class="d">Nothing found in ' + (r.identity ? "colors " + esc(r.identity) : "colorless") + ".</div></div>";
+    let h = "<h2>" + (one ? "Cards that work with this card" : "Cards that work with these") + '</h2><div class="bctl" style="margin:0 0 10px"><select class="sel" ' + (inter ? 'data-f="syn-colors"' : 'data-act="syncolors"') + '><option value="auto"' + (S.colors === "auto" || (colorless && S.colors === "all") ? " selected" : "") + ">" + (colorless ? "In any colors (colorless card)" : one ? "In this card’s colors" : "In these cards’ colors") + "</option>" +
+      (deckCmd ? '<option value="deck"' + (S.colors === "deck" ? " selected" : "") + ">In my deck’s colors (" + esc(deckCmd) + ")</option>" : "") + (colorless ? "" : '<option value="all"' + (S.colors === "all" ? " selected" : "") + ">In any colors</option>") + "</select>" +
+      '<button class="btn small primary" ' + (inter ? 'data-b="syn"' : 'data-act="synrun"') + (S.busy ? " disabled" : "") + ">" + (S.busy ? esc(S.busy) : S.res && S.key === synKey(cards, S) ? "Find again" : "Find cards") + "</button></div>";
+    if (S.error) h += '<div class="panel item"><div class="d">' + esc(S.error) + "</div></div>";
+    if (!S.res || S.key !== synKey(cards, S)) return h + '<div class="d" style="margin:0 2px;color:var(--mute);font-size:13.5px">' + (one
+      ? "Looks for cards that work with this one: partners in known combos, then possible loops, then cards that trigger on what it causes or cause what it triggers on."
+      : "Looks for cards not listed here: ones that finish a known combo with these, then possible loops, then cards that link to two or more of them.") + "</div>";
+    const r = S.res;
+    if (!r.items.length) return h + '<div class="panel item"><div class="d">Nothing found in ' + (r.identity ? "colors " + esc(r.identity) : "colorless") + "." + (one && r.identity !== "WUBRG" ? " Try “In any colors”." : "") + "</div></div>";
     let last = "";
     for (const it of r.items) {
       if (it.label !== last) { h += '<div class="bsub">' + esc(it.label) + (it.possible ? " · possible, check the card" : "") + "</div>"; last = it.label; }
@@ -1003,21 +1017,30 @@
     }
     return h + '<div class="d" style="margin:10px 2px 0;color:var(--mute);font-size:13px">Combos come from Commander Spellbook’s list (' + esc(COMBOS.updated || "date unknown") + "). The rest is found by reading card text, so treat it as a lead, not a ruling. " + r.total.toLocaleString() + " cards had some link; the top " + r.items.length + " are shown.</div>";
   }
-  function runSyn() {
-    const cards = state.picked.map(card).filter(Boolean);
-    if (cards.length < 2 || SYN.busy) return;
-    const paint = () => { const el = $("#syn"); if (el) el.innerHTML = synInner(state.picked.map(card).filter(Boolean)); };
-    SYN.error = ""; SYN.busy = "Reading cards…"; paint();
+  // getCards(): the cards to look for partners of; paint(): redraws the block (it can be called while the work is still going on)
+  function runSyn(S, getCards, paint) {
+    const cards = getCards();
+    if (!cards.length || S.busy) return;
+    S.error = ""; S.busy = "Reading cards…"; paint();
     if (!SYN.ix) SYN.ix = MTGSynergy.index(CARDS);
     if (!COMBOS.ix && !COMBOS.error) ensureCombos();
     const go = () => {
-      if (!SYN.ix.step(1200)) { SYN.busy = "Reading cards… " + Math.round(100 * SYN.ix.at / CARDS.length) + "%"; paint(); return setTimeout(go, 0); }
-      if (COMBOS.promise) { SYN.busy = "Loading combos…"; paint(); return COMBOS.promise.then(() => setTimeout(go, 0)); }
-      try { SYN.res = MTGSynergy.find(cards, SYN.ix, { identity: synIdentity(cards), combos: COMBOS.ix ? { api: MTGCombos, ix: COMBOS.ix } : null, cr: CR, limit: 30, lookup: (nm) => card(nm) }); SYN.key = synKey(cards); if (COMBOS.error) SYN.error = "The combo list could not be loaded, so only text links are shown."; }
-      catch (e) { SYN.error = "Could not search: " + (e.message || e); }
-      SYN.busy = ""; paint();
+      if (!SYN.ix.step(1200)) { S.busy = "Reading cards… " + Math.round(100 * SYN.ix.at / CARDS.length) + "%"; paint(); return setTimeout(go, 0); }
+      if (COMBOS.promise) { S.busy = "Loading combos…"; paint(); return COMBOS.promise.then(() => setTimeout(go, 0)); }
+      try { S.res = MTGSynergy.find(cards, SYN.ix, { identity: synIdentity(cards, S), combos: COMBOS.ix ? { api: MTGCombos, ix: COMBOS.ix } : null, cr: CR, limit: 30, lookup: (nm) => card(nm) }); S.key = synKey(cards, S); if (COMBOS.error) S.error = "The combo list could not be loaded, so only text links are shown."; }
+      catch (e) { S.error = "Could not search: " + (e.message || e); }
+      S.busy = ""; paint();
     };
     setTimeout(go, 20);
+  }
+  const synCards = () => state.picked.map(card).filter(Boolean);
+  const synPaint = () => { const el = $("#syn"); if (el) el.innerHTML = synInner(synCards(), SYN); };
+  // a card's own page: its block, for that one card on its own
+  function synPaintCard(v) {
+    const el = $("#synsheet");
+    if (!el || stack[stack.length - 1] !== v) return;   // another page is on top; it has its own block
+    if (!v.syn) v.syn = newSyn();
+    el.innerHTML = synInner([v.card], v.syn);
   }
 
   function say(msg, bad) { const el = $("#pickmsg"); el.textContent = msg; el.style.color = bad ? "var(--bad)" : "var(--good)"; }
@@ -1081,7 +1104,7 @@
     let h = "", board = null;
     try { board = boardHTML(cards); } catch (e) { board = null; }
     const token = ++BOARD.token;
-    if (cards.length < 2) h += '<div class="panel item">Add a second card to see how they interact.</div>';
+    if (cards.length < 2) h += '<div class="panel item">Add a second card to see how they interact, or find cards that work with this one.</div><section class="block" id="syn">' + synInner(cards, SYN) + "</section>";
     else {
       const sum = MTGEngine.summary(r).filter((x) => !/^No direct trigger/.test(x) || !(board && board.lines.length));
       h += '<div class="verdict"><small>Bottom line</small><p>' + (board ? board.lines.slice(0, 4) : []).concat(sum).map(esc).join("<br>") + '</p><p id="bverdict" style="font-size:14.5px;color:var(--ember-hi)"></p></div>';
@@ -1105,7 +1128,7 @@
     if (r.layers.length && !board) h += '<section class="block"><h2>Layers, if effects overlap</h2>' + r.layers.map((l) => '<div class="panel item"><b>' + esc(l.card) + "</b> · " + esc(l.why) + " " + ruleChip(l.rule) + '<div class="d">' + mana(l.text) + "</div></div>").join("") + "</section>";
     if (r.keywords.length) h += '<section class="block"><h2>Keywords, from the rules</h2><div class="chips" style="flex-wrap:wrap">' + r.keywords.map((k) => '<button class="chip rule" data-rule="' + k.rule + '">' + esc(k.card.split(",")[0]) + ": " + esc(k.keyword) + " → CR " + k.rule + "</button>").join("") + "</div></section>";
     if (r.rulingLinks.length) h += '<section class="block"><h2>Official rulings that mention both</h2>' + r.rulingLinks.map((x) => '<div class="panel item"><div class="d">' + esc(x.date) + " · on " + esc(x.about) + "</div>" + linkRules(mana(x.text)) + "</div>").join("") + "</section>";
-    if (cards.length > 1) h += '<section class="block" id="syn">' + synInner(cards) + "</section>";
+    if (cards.length > 1) h += '<section class="block" id="syn">' + synInner(cards, SYN) + "</section>";
     if (board) r.gotchas = r.gotchas.filter((g) => !/^Several continuous effects touch/.test(g.text));
     if (cards.length > 1 && allWords.length > words.length) h += '<details class="ball"><summary>All wording notes (' + allWords.length + ")</summary>" + allWords.map(wordItem).join("") + "</details>";
     if (r.gotchas.length) h += '<section class="block"><h2>Watch out</h2>' + r.gotchas.map((g) => '<div class="panel item">' + esc(g.text) + '<div style="margin-top:8px">' + cites(g.cites) + "</div></div>").join("") + "</section>";
