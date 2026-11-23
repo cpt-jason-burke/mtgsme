@@ -18,7 +18,7 @@ Pocket Commander rules judge and deck-building tools: Comprehensive Rules, card 
 | `tools/build_sealed.py` | Script that compares sealed product prices (TCGplayer via TCGCSV, Card Kingdom) into `docs/data/sealed.json`; list prices are hand-entered in `tools/sealed_list.json` |
 | `tools/combos.js` | Combo lookup for a deck list or for named cards, using the same code as the web app |
 | `tools/layers.js` | Layer engine on the command line: what a list of cards looks like on the battlefield after rule 613, every result when arrival order matters, and `--coverage` for how much card text the effect reader understands |
-| `tools/synergy.js` | Cards that work with the named cards (known combos, then text-found links), and `--measure` for how well the text-found links do on known combos |
+| `tools/synergy.js` | Cards that work with one or more named cards (known combos, then text-found links; one card finds that card's partners), and `--measure` for how well the text-found links do on known combos |
 | `tools/tests/` | `logic.js` (deck checks, commanders, combos, wording, synergy) and `layers.js` (every example under rule 613, official rulings, derived cases). Run both before pushing logic changes. |
 | `tools/build_headliners.py` | Script that rebuilds `docs/data/headliners.json`: the cards Scryfall tags as headliners, with TCGplayer prices (from TCGCSV) and the hand-entered facts in `tools/headliner_facts.json` |
 | `docs/data/headliner-finds.json` | Reported pulls, sales and listings of headliner cards. Hand-maintained: an entry is added only after the owner approves it in a Claude chat. |

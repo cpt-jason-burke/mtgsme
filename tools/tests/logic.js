@@ -224,6 +224,44 @@ t("synergy: text-found links are marked possible, and Humility draws a warning o
   assert.ok(r.items.length && r.items.every((x) => x.possible));
   assert.ok(r.items.some((x) => x.warn && /Humility/.test(x.warn.text)));
 });
+// synergy finder with one card: that card's partners
+t("synergy: one card finds the cards that finish its two-card combos first, then the rest of its longer combos", () => {
+  const S = require(path.join(root, "docs/synergy.js")), short = (n) => n.split(",")[0];
+  assert.ok(card("Sanguine Bond") && card("Exquisite Blood"), "precondition: both cards are in the card data");
+  const small = cards.filter((c) => /\bB\b|^$/.test(c.ci) && c.ci.length < 2).slice(0, 4000).concat(card("Sanguine Bond"), card("Exquisite Blood"));
+  const ix = S.index(small); ix.step();
+  const cx = C.index(require(path.join(root, "docs/data/combos.json")), card);
+  const r = S.find([card("Sanguine Bond")], ix, { combos: { api: C, ix: cx }, cr });
+  assert.strictEqual(r.items[0].tier, 1); assert.ok(r.items[0].why[0].combo && r.items[0].why[0].combo.id);
+  assert.ok(r.items.some((x) => x.n === "Exquisite Blood" && x.tier === 1), "Exquisite Blood should finish a known combo with Sanguine Bond (is that combo still in the combo list?)");
+  assert.ok(r.items.some((x) => x.tier === 1.5), "Sanguine Bond should have partners in longer known combos");
+  assert.ok(r.items.every((x) => !x.card || [...x.card.ci].every((ch) => "B".includes(ch))), "stays inside the card's colors");
+  assert.ok(r.items.every((x) => !/\ball your cards\b|two or more|one of your cards/.test(x.label)), "labels talk about one card");
+  // the longer combos name the other cards they need, so the suggestion can be judged
+  for (const x of r.items.filter((y) => y.tier === 1.5)) for (const w of x.why.filter((z) => z.combo)) {
+    assert.ok(/Part of a known combo with Sanguine Bond/.test(w.text), w.text);
+    for (const other of w.combo.cards.filter((n) => n !== x.n && n !== "Sanguine Bond")) assert.ok(w.text.includes(short(other)), w.text + " should name " + other);
+  }
+});
+t("synergy: one colorless card looks in any color, a card with colors stays in its own, and two cards keep their labels", () => {
+  const S = require(path.join(root, "docs/synergy.js"));
+  const named = ["Sol Ring", "Humility", "Soul Warden"].map(card);
+  assert.ok(named.every(Boolean), "precondition: Sol Ring, Humility and Soul Warden are in the card data");
+  const ix = S.index(cards.filter((c) => c.ci === "W" || c.ci === "" || c.ci === "B").slice(0, 7000).concat(named)); ix.step();
+  assert.strictEqual(S.find([card("Sol Ring")], ix, { cr }).identity, "WUBRG");
+  assert.strictEqual(S.find([card("Sol Ring")], ix, { cr, identity: "" }).identity, "", "an identity given by the caller wins");
+  assert.strictEqual(S.find([card("Humility")], ix, { cr }).identity, "W");
+  const one = S.find([card("Soul Warden")], ix, { cr, limit: 40 }), two = S.find([card("Humility"), card("Soul Warden")], ix, { cr, limit: 40 });
+  assert.ok(one.items.length && one.items.every((x) => /this card|Possible loop/.test(x.label)), one.items.map((x) => x.label).join("; "));
+  assert.ok(two.items.every((x) => !/this card/.test(x.label)));
+});
+t("synergy: a card with nothing to link to (Grizzly Bears, no combo list) gives an empty list, not an error", () => {
+  const S = require(path.join(root, "docs/synergy.js"));
+  assert.ok(card("Grizzly Bears"), "precondition: Grizzly Bears is in the card data");
+  const ix = S.index(cards.slice(0, 3000)); ix.step();
+  const r = S.find([card("Grizzly Bears")], ix, { cr });
+  assert.deepStrictEqual([r.items.length, r.total], [0, 0]);
+});
 
 console.log(pass + " passed, " + fail + " failed");
 process.exit(fail ? 1 : 0);
