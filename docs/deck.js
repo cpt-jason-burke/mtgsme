@@ -231,6 +231,16 @@
     return deck.commanders.map((n) => "1 " + n + tag(n) + " *CMDR*").concat(deck.cards.map((x) => x.q + " " + x.n + tag(x.n)), comp).join("\n");
   }
 
-  const api = { parse, check, suggest, manaValue, mainType, exportText, canBeCommander, canPair, isBackground, partners, copyLimit, guessCommanders, fillCommanders, TYPE_ORDER, norm };
+  // The Game Changers list: every card the card data flags (c.g), narrowed by color identity and sorted.
+  // opts.ci: letters that must all be in the card's identity ("C" alone: colorless only); opts.sort: "name" (default), "mv" or "color" (white first, multicolor, colorless last).
+  function gameChangers(cards, opts) {
+    const o = opts || {}, ci = o.ci || "";
+    const col = (c) => (c.ci.length > 1 ? 10 : c.ci === "" ? 11 : "WUBRG".indexOf(c.ci));
+    const byName = (a, b) => a.n.localeCompare(b.n);
+    const by = { name: byName, mv: (a, b) => manaValue(a.m) - manaValue(b.m) || byName(a, b), color: (a, b) => col(a) - col(b) || byName(a, b) }[o.sort] || byName;
+    return cards.filter((c) => c.g && (!ci || (ci === "C" ? c.ci === "" : [...ci].every((x) => c.ci.includes(x))))).sort(by);
+  }
+
+  const api = { parse, check, suggest, manaValue, gameChangers, mainType, exportText, canBeCommander, canPair, isBackground, partners, copyLimit, guessCommanders, fillCommanders, TYPE_ORDER, norm };
   if (typeof module !== "undefined" && module.exports) module.exports = api; else root.MTGDeck = api;
 })(typeof self !== "undefined" ? self : this);
