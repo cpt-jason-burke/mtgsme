@@ -1,6 +1,6 @@
 # Handoff: next MTGSME features
 
-Written 2026-11-15 for a fresh Claude Code session. Read all of it before you start.
+Written 2026-11-15 for a fresh Claude Code session; last brought up to date 2026-11-24. Read all of it before you start.
 
 The user may run these steps on their most capable (and most expensive) model. Check facts carefully, but keep token use down (section 11).
 
@@ -13,7 +13,7 @@ When you finish a step, update the status table at the end of this file in the s
 3. Read `CLAUDE.md` and `README.md`, then the part of section 10 for your step.
 4. If the user didn't name a step, ask which (see "Next up" in section 10), then ask that step's open questions. Use AskUserQuestion with the recommended option first; the user likes that format.
 5. Build, then test (section 12).
-6. Commit to `main` and push; that is how the site deploys. Then watch the Actions runs with the GitHub MCP tools (`actions_list`, `get_job_logs`).
+6. Follow the Git hygiene rules in `CLAUDE.md`: work on one short-lived `claude/*` branch (your session's instructions name it), push it, open a pull request, squash-merge it, and delete the branch afterwards (PRs #2 and #3 went this way). Hand-kept data lists may go straight to `main`. A merge that touches `tools/**` re-runs the whole refresh workflow (about 2 minutes), and GitHub Pages then deploys: watch both with the GitHub MCP tools (`actions_list`, `get_job_logs`). Auto mode refuses force-pushes, so after a squash-merge bring the branch up to date with `git merge origin/main` instead of resetting it.
 7. Tell the user in plain words what changed, how to see it on their phone, and what's next.
 
 ## 2. The user
@@ -95,7 +95,7 @@ Everything below is live on `main`. The site is https://cpt-jason-burke.github.i
   - Hand-kept: `precon-themes.json` (152 summaries copied from the Artifact; 34 decks have none: the 2011–2015 decks, the two Commander Anthology sets, Hatsune Miku, Odds and Ends and the four Star Trek decks) and `precon-upcoming.json` (announced decks the source lacks; empty).
   - Polling: when the sheet opens and when the user returns to the app (at most every 5 minutes), `tlCheck` fetches `data/built-at.txt` uncached. A stamp newer than `DATA_V` shows "Reload to see it" (a new build moves the card positions, so the page never mixes two builds). "Check for new decks" does the same on tap.
   - Left out on purpose: the Artifact's commander pictures (the picker avoids pictures) and its guessed EDHREC links. Checked with Playwright at 390×844 (22 checks, run by hand; the script isn't kept in the repo) and 10 new checks in `tools/tests/logic.js`. A first code review (medium) found one real problem, fixed: a failed load of the two hand-kept files was kept for the whole session. It also led to in-place filter buttons, keyboard focus kept on the year bars, and a looser "already in the data" match for announced decks. Not changed: `TODAY` is the app's UTC date, so a deck can show as upcoming for a few hours around midnight.
-- Two old branches, `add-combo-checker` and `combos-on-main`, are merged or obsolete. The last session couldn't delete them; the user can, in the GitHub app.
+- Leftover branches on 2026-11-24: `combos-on-main` is fully merged, and `add-combo-checker` holds five commits from 2026-10-24 that an earlier note called obsolete (main has the combo work). Neither starts with `claude/`, so ask before deleting them. `claude/trusting-faraday-tn4cth` holds one unmerged commit, a research report ("Claude showcases vs logic engines", 2026-11-21). The weekly `Branch cleanup` workflow logs stale `claude/*` branches (and deletes them once the repo variable `CLEANUP_LIVE` is `true`).
 
 ## 4. Environment and tools
 
@@ -112,6 +112,7 @@ Everything below is live on `main`. The site is https://cpt-jason-burke.github.i
 - WebSearch works for research. WebFetch and curl only reach allowed hosts.
 - The container has Python 3.13, Node 22, and Chromium with Playwright preinstalled (`require('playwright')`, `chromium.launch()`, no install step).
 - There is no `gh` CLI; use the GitHub MCP tools.
+- Two workflows: `Refresh card data` (every 6 hours, and on a push to `main` that touches `tools/**`) and `Branch cleanup` (Mondays; finds `claude/*` branches that are merged or have had no open pull request and no commits for 14+ days; it only logs them until the repo variable `CLEANUP_LIVE` is `true`, then it deletes them).
 - A stop hook asks you to commit and push before a turn ends. Keep scratch files in the session scratchpad, not the repo, and delete `tools/__pycache__`.
 - Logic tests live in `tools/tests/` (`node tools/tests/logic.js`: deck checks, commanders, companions, combos, engine cites, wording, synergy; `node tools/tests/layers.js`: the layer engine). They must pass before you push; add cases when you change rules logic.
 - `git clone --depth 1 --filter=blob:none --no-checkout https://github.com/taw/magic-search-engine` works from the container (the workflow's own command), so `tools/build_site.py` can be run here when the build changes.
@@ -122,10 +123,10 @@ Everything below is live on `main`. The site is https://cpt-jason-burke.github.i
 All the CSS: a dark "grimoire" theme with variables `--bg --panel --line --text --mute --ember --ember-hi --good --bad --warn`. It also holds the header toolbars `#tb-<tab>`, the tab sections `#tab-<tab>` and the bottom tab bar. The bar already has 6 tabs, so a 7th is tight on a phone.
 
 ### `docs/app.js`
-About 100 KB. Don't read it whole: `grep -n`, then `sed -n 'a,bp'`.
+About 200 KB (2,260 lines). Don't read it whole: `grep -n`, then `sed -n 'a,bp'`.
 
 - **Loading:** `load()` fetches `cards.json` and `cr.json`, with `DATA_V` (the built-at stamp) as a cache-buster. It then runs `initSearch`, `initInteract`, `initDecks` and `initRules`, then `loadHome()`.
-- **Sheets:** `openSheet({type, ...})` uses the `VIEWS` map (`card`, `settings`, `keywords`, `set`, `sld`, `deck`, `rule`), where each entry is `[title(v), body(v)]`. `drawSheet()` draws the page. Back gestures work through `navPush`, and `saveNav`/`restoreNav` survive reloads.
+- **Sheets:** `openSheet({type, ...})` uses the `VIEWS` map (`card`, `settings`, `keywords`, `set`, `sld`, `deck`, `rule`, `headliners`, `sealed`, `headliner`, `precons`, `timeline`, `gamechangers`, `upgrade`), where each entry is `[title(v), body(v)]`. `drawSheet()` draws the page. Back gestures work through `navPush`, and `saveNav`/`restoreNav` survive reloads.
 - **Pictures:**
   - `hydrate(root)` fills elements that have `data-img="Card Name"` and `data-kind="art|small|normal"`.
   - `lazyPrints(root)` fills tiles that have `data-print="set/num"`.
@@ -139,7 +140,8 @@ About 100 KB. Don't read it whole: `grep -n`, then `sed -n 'a,bp'`.
 - **Helpers:**
   - `esc()`: escape everything you put into HTML.
   - `mana()`, `money()`, `shortDate()`, `TODAY`, `symbol(code)`
-  - `rowHTML(card, extra, why)`
+  - `rowHTML(card, extra, why, skipGc)`
+- **Newer screens** (their bullets are in section 3): the Precon timeline (`tl*` in `app.js`, counts and grouping in `docs/timeline.js`), synergy suggestions for one card (`synInner`, `runSyn`, `synPaintCard`), and the Game Changer list (`gcView`, with its filter and sort in `MTGDeck.gameChangers`).
 
 ### `docs/scry.js`
 Talks to Scryfall from the viewer's browser.
@@ -158,7 +160,7 @@ All are generated, except the two marked hand-maintained.
 | `rulings.json`, `cr.json` | `tools/build_site.py` | Official rulings; the Comprehensive Rules |
 | `sets.json` | `tools/build_site.py` | `[{c code, n name, d date, k kind, t card count, h hidden, cm paired Commander set, bs base set size}]`, where `k` is main, commander, secret, reprint, jumpstart, draft or other |
 | `setcards.json` | `tools/build_site.py` | `{n, s: {set: [[cardIndex, collectorNumber, rarity]]}}`, rarity 0–5 = L C U R M S |
-| `precons.json` | `tools/build_site.py` | `{n, d: [{n, y: "cmd"\|"sld", s, sn, d, cmd: [[qty, cardIndex, set, num]], main: [...]}]}`: 206 Commander decks and 786 Secret Lair drops |
+| `precons.json` | `tools/build_site.py` | `{n, d: [{n, y: "cmd"\|"sld", s, sn, d, cmd: [[qty, cardIndex, set, num]], main: [...]}]}`: 206 Commander decks (9 of them Secret Lair Commander decks, set code `sld`) and 791 Secret Lair drops |
 | `combos.json` | `tools/build_combos.py` | Keyed by card names, so it skips `DATA_V` |
 | `news.json` | `tools/fetch_news.py` | Headlines |
 | `headliners.json` | `tools/build_headliners.py` | `{about, featured, checked, sets: [...facts], cards: [{key "set/num", set, num, name, date, artist, fin, tags, border, img {s,n,l,a}, scry, cmd, tcg {id, url, low, market}, sf, signer?}]}` |
@@ -188,7 +190,7 @@ All are generated, except the two marked hand-maintained.
   - Publish runs `git add -A`, so every file a builder writes gets committed.
 - **Git:**
   - Pull first; the bot only touches generated data.
-  - After local tests, commit to `main`. Never force-push.
+  - After local tests, commit to your session's `claude/*` branch and merge it by pull request (Start here, step 6). Hand-kept data lists may go straight to `main`. Never force-push.
   - End commit messages with the attribution lines your session's instructions give.
   - Never edit generated files by hand.
 - **Fetching from websites:**
@@ -236,6 +238,7 @@ All are generated, except the two marked hand-maintained.
 - No footage, audio or logos from the show, and sounds start off.
 - The user sees a private preview of the console (a claude.ai Artifact) before it goes into the app.
 - Prices exclude shipping and tax, and say so.
+- The Game Changer list says only that the cards are marked in the card data; it never claims to be Wizards' list.
 
 ## 9. Verified facts
 
@@ -295,7 +298,7 @@ Several of these are also `is:serialized`. There are 298 serialized printings in
 
 ## 10. The plan
 
-**Steps 6 and 7 are done** (section 3). Nothing new is planned yet; ask the user. Steps 4b and 5 are paused (section 7, 2026-11-17).
+**Steps 6 and 7 are done** (section 3), and so are three things added after the plan: the Precon timeline, synergy suggestions for one card and the Game Changer list. Nothing new is planned yet; ask the user. Steps 4b and 5 are paused (section 7, 2026-11-17).
 
 Follow-ups for Step 6, in order of value: grow effect coverage from `node tools/layers.js --coverage --kind static`; tokens on the board; triggers and replacement effects in the same engine (today they are pattern links); cost and resource links in the synergy finder.
 
@@ -492,6 +495,8 @@ const { chromium } = require('playwright');
 - mtg.wtf lists 2× Mossfire Valley in the Upgrades Unleashed precon (NEC), so the deck check flags it. Source data, not the checker.
 - A split card's mana value in the deck curve uses the half that was looked up (Fire counts as 2, not 4).
 - Repo size: the combo text files change a little every day. If history grows too fast, refresh the combos weekly instead.
+- The Game Changer flag is copied from the card source (`gc`); nobody has checked it against Wizards' own list.
+- `precon-themes.json` has no summary for 34 decks (the 2011–2015 decks, the two Commander Anthology sets, Hatsune Miku, Odds and Ends and the four Star Trek decks).
 
 ## Status
 
