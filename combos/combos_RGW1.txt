@@ -1075,7 +1075,7 @@ Steps: Activate all mana-producing creatures you control by tapping them, adding
 
 ## Combo 176-560-5147
 Cards: Requiem Angel + Queen Allenal of Ruadach + Goblin Bombardment
-Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 350 | Commander: legal
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 360 | Commander: legal
 Produces: Infinite damage; Infinite creature tokens; Infinitely large creature until end of turn; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Requiem Angel (battlefield); Queen Allenal of Ruadach (battlefield); Goblin Bombardment (battlefield)
 Prerequisites: You control an additional non-Spirit creature.
@@ -4029,7 +4029,7 @@ Notes: This combo will only fetch every creature in your library if all creature
 
 ## Combo 240-526-5231
 Cards: Atla Palani, Nest Tender + Life Finds a Way + Thermopod
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 64 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 65 | Commander: legal
 Produces: Put all creature cards from your library onto the battlefield
 Start: Atla Palani, Nest Tender (battlefield); Life Finds a Way (battlefield); Thermopod (battlefield)
 Prerequisites: You control at least two Egg creature tokens.
@@ -7171,7 +7171,7 @@ Steps: Create a nonlegendary copy of Kodama of the East Tree using Delina (this 
 
 ## Combo 283-1335-2034
 Cards: Marath, Will of the Wild + Ashnod's Altar + Illusionist's Bracers
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 330 | Commander: legal | Mana needed: {1}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 340 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite damage; Infinite +1/+1 counters on creatures you control; Infinite creature tokens that are infinitely large; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Marath, Will of the Wild (battlefield); Ashnod's Altar (battlefield); Illusionist's Bracers (battlefield)
 Prerequisites: Illusionist's Bracers attached to Marath.
@@ -7604,6 +7604,26 @@ Steps: Gain any amount of life.
   Resolve the Soul Warden trigger, causing you to gain 1 life.
   Repeat from step 2.
 
+## Combo 362-4321-7916
+Cards: Peregrin Took + Bludgeon Brawl + Ekthi, Contaminator Priest
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal
+Produces: Draw the game; Infinite card draw; Infinite creature tokens; Infinite Food tokens; Infinite artifact ETB; Infinite creature ETB; Infinite draw triggers
+Start: Peregrin Took (battlefield); Bludgeon Brawl (battlefield); Ekthi, Contaminator Priest (battlefield)
+Steps: Cause a noncreature artifact to enter the battlefield under your control, which will be an Equipment due to Bludgeon Brawl if it isn't an Equipment already, causing the living weapon ability granted by Ekthi to trigger.
+  Resolve the living weapon trigger granted by Ekthi, creating (and attaching the Equipment that entered to) a 0/0 black Phyrexian Germ token plus creating an additional artifact token through Peregrin Took (which will be an Equipment due to Bludgeon Brawl), causing the living weapon ability granted by Ekthi to trigger.
+  Repeat from step 2.
+Notes: The combo creates a mandatory infinite loop in step 2. This must be stopped at some point or the game ends in a draw.
+
+## Combo 362-7810-7916
+Cards: Tippy-Toe, Terrific Partner + Bludgeon Brawl + Ekthi, Contaminator Priest
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal
+Produces: Draw the game; Infinite creature tokens; Infinite Food tokens; Infinite artifact ETB; Infinite creature ETB
+Start: Tippy-Toe, Terrific Partner (battlefield); Bludgeon Brawl (battlefield); Ekthi, Contaminator Priest (battlefield)
+Steps: Cause a noncreature artifact to enter the battlefield under your control, which will be an Equipment due to Bludgeon Brawl if it isn't an Equipment already, causing the living weapon ability granted by Ekthi to trigger.
+  Resolve the living weapon trigger granted by Ekthi, creating (and attaching the Equipment that entered to) a 0/0 black Phyrexian Germ token plus creating an additional artifact token through Tippy-Toe (which will be an Equipment due to Bludgeon Brawl), causing the living weapon ability granted by Ekthi to trigger.
+  Repeat from step 2.
+Notes: The combo creates a mandatory infinite loop in step 2. This must be stopped at some point or the game ends in a draw.
+
 ## Combo 372-864-7339
 Cards: Abdel Adrian, Gorion's Ward + Eternal Witness + Go Ninja Go
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {R}{W}
@@ -7960,7 +7980,7 @@ Steps: Activate Stimulus Package by sacrificing a Treasure, creating two 1/1 Cit
 
 ## Combo 397-2557-3868
 Cards: Stimulus Package + Prosperous Partnership + Parallel Lives
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 370 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 380 | Commander: legal
 Produces: Infinite colored mana; Infinite creature tokens; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB
 Start: Stimulus Package (battlefield); Prosperous Partnership (battlefield); Parallel Lives (battlefield)
 Prerequisites: You control a Treasure token, and at least one creature.
@@ -9312,7 +9332,7 @@ Steps: Activate Selvala by paying {G} and tapping it, adding at least {3}{G}
 
 ## Combo 527-969-4499
 Cards: Selvala, Heart of the Wilds + Emiel the Blessed + Fervor
-Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 15 | Commander: legal | Mana needed: {G}
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 14 | Commander: legal | Mana needed: {G}
 Produces: Infinite colored mana; Infinite creature LTB; Infinite creature ETB; Infinite blinking
 Start: Selvala, Heart of the Wilds (battlefield); Emiel the Blessed (battlefield); Fervor (battlefield)
 Steps: Activate Selvala by paying {G} and tapping it, adding at least {3}{G}
@@ -9379,7 +9399,7 @@ Steps: Activate Selvala by paying {G} and tapping it, adding at least {3}{G}
 
 ## Combo 527-4068-4499
 Cards: Selvala, Heart of the Wilds + Emiel the Blessed + Anger
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal | Mana needed: {G}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal | Mana needed: {G}
 Produces: Infinite colored mana; Infinite creature LTB; Infinite creature ETB; Infinite blinking
 Start: Selvala, Heart of the Wilds (battlefield); Emiel the Blessed (battlefield); Anger (graveyard)
 Prerequisites: You control at least one Mountain.
@@ -9398,7 +9418,7 @@ Steps: Activate Selvala by paying {G} and tapping it, adding at least {3}{G}
 
 ## Combo 527-4499-5223
 Cards: Selvala, Heart of the Wilds + Emiel the Blessed + Fires of Yavimaya
-Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 23 | Commander: legal | Mana needed: {G}
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 22 | Commander: legal | Mana needed: {G}
 Produces: Infinite colored mana; Infinite creature LTB; Infinite creature ETB; Infinite blinking
 Start: Selvala, Heart of the Wilds (battlefield); Emiel the Blessed (battlefield); Fires of Yavimaya (battlefield)
 Steps: Activate Selvala by paying {G} and tapping it, adding at least {3}{G}
@@ -9464,7 +9484,7 @@ Steps: Cast Crimson Kobolds by paying {0}.
 
 ## Combo 539-1090-7038
 Cards: Toph, Greatest Earthbender + Ashaya, Soul of the Wild + Restoration Angel
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {3}{W}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {3}{W}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers
 Start: Toph, Greatest Earthbender (battlefield); Ashaya, Soul of the Wild (battlefield); Restoration Angel (hand)
 Steps: Cast Restoration Angel by paying its mana cost.
@@ -9555,7 +9575,7 @@ Steps: Acitvate the creature with haste by tapping it, adding {G}.
 
 ## Combo 539-2713-4657
 Cards: Ashaya, Soul of the Wild + Magus of the Candelabra + Zirda, the Dawnwaker
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 85 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal
 Produces: Infinite green mana; Infinite mana lands you control can produce; Infinite mana nontoken creatures you control can produce; Infinite untap of nontoken creatures you control; Infinite untap of lands you control
 Start: Ashaya, Soul of the Wild (battlefield); Magus of the Candelabra (battlefield: without summoning sickness); Zirda, the Dawnwaker (battlefield)
 Prerequisites: You control two creatures excluding Magus of the Candelabra that do not have summoning sickness.
@@ -9565,7 +9585,7 @@ Steps: Activate two creatures other than Magus of the Candelabra by tapping them
 
 ## Combo 539-2781-7038
 Cards: Toph, Greatest Earthbender + Ashaya, Soul of the Wild + Felidar Guardian
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {3}{W}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal | Mana needed: {3}{W}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers
 Start: Toph, Greatest Earthbender (battlefield); Ashaya, Soul of the Wild (battlefield); Felidar Guardian (hand)
 Steps: Cast Felidar Guardian by paying its mana cost.
@@ -11040,7 +11060,7 @@ Steps: Play Gruul Turf.
 
 ## Combo 573-1479-8337
 Cards: Kodama of the East Tree + Gruul Turf + M'Ress, Crew Coordinator
-Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 2 | Commander: legal
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 3 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Gruul Turf (hand); M'Ress, Crew Coordinator (battlefield)
 Steps: Play Gruul Turf.
@@ -11054,7 +11074,7 @@ Steps: Play Gruul Turf.
 
 ## Combo 573-1479-8338
 Cards: Kodama of the East Tree + Gruul Turf + Shuttlecraft Galileo
-Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 2 | Commander: legal
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 3 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Gruul Turf (hand); Shuttlecraft Galileo (battlefield)
 Steps: Play Gruul Turf.
@@ -12062,7 +12082,7 @@ Steps: Cast Everquill Phoenix for its mutate cost by paying {3}{R}, putting it u
 
 ## Combo 643-2034-6871-6879
 Cards: Toph, the First Metalbender + Haru, Hidden Talent + Ashnod's Altar + Maskwood Nexus
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal
 Produces: Infinite colorless mana; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Toph, the First Metalbender (battlefield); Haru, Hidden Talent (battlefield); Ashnod's Altar (battlefield); Maskwood Nexus (battlefield)
 Prerequisites: You have an artifact creature in hand with the mana to cast it.
@@ -13412,7 +13432,7 @@ Steps: At the beginning of your upkeep, Mayael's Aria triggers.
 
 ## Combo 740-2488-7167
 Cards: Apex Altisaur + Wrathful Raptors + Grand Crescendo
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 66 | Commander: legal | Mana needed: {7}{G}{G}{W}{W}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 67 | Commander: legal | Mana needed: {7}{G}{G}{W}{W}
 Produces: Near-infinite damage; Destroy all creatures opponents control
 Start: Apex Altisaur (hand); Wrathful Raptors (battlefield); Grand Crescendo (hand)
 Steps: Cast Apex Altisaur by paying {7}{G}{G}.
@@ -14029,7 +14049,7 @@ Steps: Put a +1/+1 counter on a creature you control.
 
 ## Combo 907-1168-1479
 Cards: Kodama of the East Tree + Toggo, Goblin Weaponsmith + Selesnya Sanctuary
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 87 | Commander: legal
 Produces: Infinite artifact tokens; Infinite landfall triggers; Infinite Rock tokens
 Start: Kodama of the East Tree (battlefield); Toggo, Goblin Weaponsmith (battlefield); Selesnya Sanctuary (hand)
 Prerequisites: You are able to play a land this turn.
@@ -14137,7 +14157,7 @@ Steps: Play Selesnya Sanctuary.
 
 ## Combo 907-1479-8293
 Cards: Kodama of the East Tree + Selesnya Sanctuary + Cleveland Booker, Empath
-Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 2 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Selesnya Sanctuary (hand); Cleveland Booker, Empath (battlefield)
 Steps: Play Selesnya Sanctuary.
@@ -16817,7 +16837,7 @@ Steps: Cast Whitemane Lion by paying its mana cost.
 
 ## Combo 1115-5470-6188
 Cards: Ghired, Mirror of the Wilds + Fear of Missing Out + Hammer of Purphoros
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
 Produces: Near-infinite combat phases; Near-infinite tapped creature tokens; Infinite rummaging; Infinite self-discard triggers; Infinite draw triggers; Near-infinite creature ETB
 Start: Ghired, Mirror of the Wilds (battlefield); Fear of Missing Out (battlefield); Hammer of Purphoros (battlefield)
 Prerequisites: You have a way to create a token copy of Fear of Missing Out.
@@ -17115,7 +17135,7 @@ Steps: At the beginning of your end step, Toph triggers, causing Mindslaver to b
 
 ## Combo 1168-1479-5233
 Cards: Kodama of the East Tree + Toggo, Goblin Weaponsmith + Boros Garrison
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 82 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 83 | Commander: legal
 Produces: Infinite artifact tokens; Infinite landfall triggers; Infinite Rock tokens
 Start: Kodama of the East Tree (battlefield); Toggo, Goblin Weaponsmith (battlefield); Boros Garrison (hand)
 Prerequisites: You are able to play a land this turn.
@@ -17684,7 +17704,7 @@ Steps: Declare the creature with Breath of Fury attached and Hanweir Garrison as
 
 ## Combo 1169-3259--95
 Cards: Breath of Fury + Phabine, Boss's Confidant
-Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 47 | Commander: legal
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 48 | Commander: legal
 Produces: Infinite card draw for all players; Near-infinite combat damage; Near-infinite combat phases; Near-infinite creature tokens; Near-infinite creature tokens with haste; Near-infinite mana creatures you control can produce; Near-infinite untap of creatures you control; Infinite draw triggers; Infinite draw triggers for all players; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers; Near-infinitely large creatures you control until end of turn
 Requires: Creature with Mobilize (battlefield: without summoning sickness and cannot be blcoked and killed by an opponent)
 Start: Breath of Fury (battlefield: attached to another creature you control that does not have summoning sickness and cannot be blocked by an opponent); Phabine, Boss's Confidant (battlefield)
@@ -17709,7 +17729,7 @@ Steps: Deal combat damage using the creature that has Breath of Fury attached.
 
 ## Combo 1169-3259-3699
 Cards: Breath of Fury + Phabine, Boss's Confidant + Cadira, Caller of the Small
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
 Produces: Infinite card draw for all players; Near-infinite combat damage; Near-infinite combat phases; Near-infinite creature tokens; Near-infinite mana creatures you control can produce; Near-infinite creature tokens with haste; Near-infinite untap of creatures you control; Infinite draw triggers; Infinite draw triggers for all players; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers; Near-infinitely large creatures you control until end of turn
 Start: Breath of Fury (battlefield: attached to any other creature you control); Phabine, Boss's Confidant (battlefield); Cadira, Caller of the Small (battlefield: without summoning sickness)
 Prerequisites: At least one opponent cannot block creatures you control.
@@ -17925,7 +17945,7 @@ Steps: Declare the creature with Breath of Fury attached and Pugnacious Pugilist
 
 ## Combo 1169-3259-7605
 Cards: Breath of Fury + Indulge // Excess + Phabine, Boss's Confidant
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal | Mana needed: {2}{R}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal | Mana needed: {2}{R}
 Produces: Infinite card draw for all players; Near-infinite Treasure tokens; Near-infinite colored mana; Near-infinite combat damage; Near-infinite combat phases; Near-infinite creature tokens; Near-infinite mana creatures you control can produce; Infinite artifact tokens; Near-infinite untap of creatures you control; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite draw triggers; Infinite draw triggers for all players; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers; Near-infinitely large creatures you control until end of turn
 Start: Breath of Fury (battlefield: attached to another creature you control that doesn't have summoning sickness); Indulge // Excess (hand); Phabine, Boss's Confidant (battlefield)
 Prerequisites: An opponent cannot block creatures you control.
@@ -18165,7 +18185,7 @@ Steps: Activate Sunforger by paying {R}{W} and unattaching it, searching your li
 
 ## Combo 1185-2226-2713
 Cards: Zacama, Primal Calamity + Zirda, the Dawnwaker + Prize Pig
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal
 Produces: Infinite lifegain; Infinite lifegain triggers
 Start: Zacama, Primal Calamity (battlefield); Zirda, the Dawnwaker (battlefield); Prize Pig (battlefield)
 Prerequisites: Prize Pig does not have summoning sickness.
@@ -18712,7 +18732,7 @@ Steps: Activate Ant Queen by paying {1}{G}, creating six 1/1 Insect creature tok
 
 ## Combo 1270-2457-2837-4289
 Cards: Cryptolith Rite + Ant Queen + Jinnie Fay, Jetmir's Second + Ojer Taq, Deepest Foundation // Temple of Civilization
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
 Produces: Infinite colored mana; Infinite creature tokens with haste; Infinite creature ETB
 Start: Cryptolith Rite (battlefield); Ant Queen (battlefield); Jinnie Fay, Jetmir's Second (hand); Ojer Taq, Deepest Foundation // Temple of Civilization (battlefield)
 Steps: Activate Ant Queen by paying {1}{G}, creating three 2/2 Cat creature tokens with haste.
@@ -18830,7 +18850,7 @@ Steps: Activate Ant Queen by paying {1}{G}, creating three 1/1 Insect creature t
 
 ## Combo 1270-2457-4289-7060
 Cards: Cryptolith Rite + Ant Queen + Ojer Taq, Deepest Foundation // Temple of Civilization + Smellerbee, Rebel Fighter
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}{G}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite colored mana; Infinite creature tokens with haste; Infinite creature ETB
 Start: Cryptolith Rite (battlefield); Ant Queen (battlefield); Ojer Taq, Deepest Foundation // Temple of Civilization (battlefield); Smellerbee, Rebel Fighter (battlefield)
 Steps: Activate Ant Queen by paying {1}{G}, creating three creature tokens.
@@ -19538,7 +19558,7 @@ Steps: Activate Ant Queen by paying {1}{G}, creating two creature tokens.
 
 ## Combo 1308-1563-2457-8201
 Cards: Jaheira, Friend of the Forest + Ant Queen + Anointed Procession + Samut, Hazoret's Champion
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite tapped creature tokens; Infinite creature ETB
 Start: Jaheira, Friend of the Forest (battlefield); Ant Queen (battlefield); Anointed Procession (battlefield); Samut, Hazoret's Champion (battlefield)
 Steps: Activate Ant Queen by paying {1}{G}, creating two tokens.
@@ -19804,7 +19824,7 @@ Steps: Activate Ant Queen by paying {1}{G}, creating four 1/1 Insect creature to
 
 ## Combo 1308-2457-2837-4289
 Cards: Cryptolith Rite + Ant Queen + Jinnie Fay, Jetmir's Second + Anointed Procession
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
 Produces: Infinite tapped creature tokens; Infinite creature ETB
 Start: Cryptolith Rite (battlefield); Ant Queen (battlefield); Jinnie Fay, Jetmir's Second (battlefield); Anointed Procession (battlefield)
 Steps: Activate Ant Queen by paying {1}{G}, creating two 2/2 Cat creature tokens with haste.
@@ -19922,7 +19942,7 @@ Steps: Activate Ant Queen by paying {1}{G}, creating two 1/1 Insect creature tok
 
 ## Combo 1308-2457-4289-7060
 Cards: Cryptolith Rite + Ant Queen + Anointed Procession + Smellerbee, Rebel Fighter
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}{G}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite tapped creature tokens; Infinite creature ETB
 Start: Cryptolith Rite (battlefield); Ant Queen (battlefield); Anointed Procession (battlefield); Smellerbee, Rebel Fighter (battlefield)
 Steps: Activate Ant Queen by paying {1}{G}, creating two creature tokens.
@@ -19958,7 +19978,7 @@ Steps: Activate Ant Queen by paying {1}{G}, creating two creature tokens.
 
 ## Combo 1308-2457-4289-8201
 Cards: Cryptolith Rite + Ant Queen + Anointed Procession + Samut, Hazoret's Champion
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}{G}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite tapped creature tokens; Infinite creature ETB
 Start: Cryptolith Rite (battlefield); Ant Queen (battlefield); Anointed Procession (battlefield); Samut, Hazoret's Champion (battlefield)
 Steps: Activate Ant Queen by paying {1}{G}, creating two creature tokens.
@@ -20830,7 +20850,7 @@ Steps: Activate Marath by paying {1} and removing a +1/+1 counter from it, creat
 
 ## Combo 1335-2034-2216
 Cards: Marath, Will of the Wild + Unbound Flourishing + Ashnod's Altar
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 550 | Commander: legal | Mana needed: {1}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 560 | Commander: legal | Mana needed: {1}
 Produces: Infinite damage; Infinite +1/+1 counters on creatures you control; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Marath, Will of the Wild (battlefield); Unbound Flourishing (battlefield); Ashnod's Altar (battlefield)
 Prerequisites: At least three +1/+1 counters on Marath.
@@ -20992,7 +21012,7 @@ Steps: Activate Marath by paying {1}, creating a 1/1 Elemental token.
 
 ## Combo 1335-2060-2744-3062
 Cards: Marath, Will of the Wild + Cathars' Crusade + Crystalline Crawler + Pir, Imaginative Rascal
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal | Mana needed: {1}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 50 | Commander: legal | Mana needed: {1}
 Produces: Infinite colored mana; Infinite creature tokens; Infinite damage; Infinite +1/+1 counters on creatures you control; Infinite creature tokens that are infinitely large; Infinite death triggers; Infinite creature ETB; Infinite creature LTB
 Start: Marath, Will of the Wild (battlefield); Cathars' Crusade (battlefield); Crystalline Crawler (battlefield); Pir, Imaginative Rascal (battlefield)
 Prerequisites: Marath has at least two +1/+1 counters on it.
@@ -21003,7 +21023,7 @@ Steps: Activate Marath by paying {1}, creating a 1/1 Elemental token.
 
 ## Combo 1335-2060-2744-3129
 Cards: Marath, Will of the Wild + Cathars' Crusade + Crystalline Crawler + Primal Vigor
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 75 | Commander: legal | Mana needed: {1}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 76 | Commander: legal | Mana needed: {1}
 Produces: Infinite colored mana; Infinite creature tokens; Infinite damage; Infinite +1/+1 counters on creatures you control; Infinite creature tokens that are infinitely large; Infinite death triggers; Infinite creature ETB; Infinite creature LTB
 Start: Marath, Will of the Wild (battlefield); Cathars' Crusade (battlefield); Crystalline Crawler (battlefield); Primal Vigor (battlefield)
 Prerequisites: Marath has at least two +1/+1 counters on it.
@@ -21145,7 +21165,7 @@ Steps: Activate Marath by paying {1}, creating a 1/1 Elemental token.
 
 ## Combo 1335-2265-3129-4762
 Cards: Marath, Will of the Wild + Devoted Druid + Hardened Scales + Primal Vigor
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 87 | Commander: legal | Mana needed: {1}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 88 | Commander: legal | Mana needed: {1}
 Produces: Infinite creature tokens; Infinite damage; Infinite green mana; Infinite +1/+1 counters on creatures you control; Infinite creature tokens that are infinitely large; Infinite creature ETB
 Start: Marath, Will of the Wild (battlefield); Devoted Druid (battlefield); Hardened Scales (battlefield); Primal Vigor (battlefield)
 Prerequisites: Marath has at least two +1/+1 counters on it.
@@ -21329,7 +21349,7 @@ Steps: Activate Marath by paying {1}, creating a 1/1 Elemental token.
 
 ## Combo 1335-2445-3129-4762
 Cards: Marath, Will of the Wild + Devoted Druid + Primal Vigor + Branching Evolution
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 69 | Commander: legal | Mana needed: {1}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 70 | Commander: legal | Mana needed: {1}
 Produces: Infinite creature tokens; Infinite damage; Infinite green mana; Infinite +1/+1 counters on creatures you control; Infinite creature tokens that are infinitely large; Infinite creature ETB
 Start: Marath, Will of the Wild (battlefield); Devoted Druid (battlefield); Primal Vigor (battlefield); Branching Evolution (battlefield)
 Prerequisites: Marath has at least two +1/+1 counters on it.
@@ -21393,7 +21413,7 @@ Steps: Activate Marath by paying {1}, creating two 1/1 Elemental tokens.
 
 ## Combo 1335-2744-4929
 Cards: Marath, Will of the Wild + Cathars' Crusade + Cryptic Trilobite
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 990 | Commander: legal | Mana needed: {1}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 980 | Commander: legal | Mana needed: {1}
 Produces: Infinite creature tokens; Infinite +1/+1 counters on creatures you control; Infinite colorless mana that can only be spent to activate abilities; Infinite creature ETB
 Start: Marath, Will of the Wild (battlefield); Cathars' Crusade (battlefield); Cryptic Trilobite (battlefield)
 Prerequisites: Marath has at least two +1/+1 counters on it.
@@ -21474,7 +21494,7 @@ Steps: Activate Marath by paying {1} and removing a +1/+1 counter from it, creat
 
 ## Combo 1335-2850-5231
 Cards: Marath, Will of the Wild + Ivy Lane Denizen + Thermopod
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Marath, Will of the Wild (battlefield: with two or more +1/+1 counters on it); Ivy Lane Denizen (battlefield); Thermopod (battlefield)
 Steps: Activate Marath by paying {1} and removing a +1/+1 counter from it, creating a 1/1 Elemental creature token.
@@ -21583,7 +21603,7 @@ Steps: Activate Marath by paying {1} and removing a +1/+1 counter from it, putti
 
 ## Combo 1335-5231-5445
 Cards: Marath, Will of the Wild + Tarrian's Soulcleaver + Thermopod
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal | Mana needed: {1}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal | Mana needed: {1}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Marath, Will of the Wild (battlefield); Tarrian's Soulcleaver (battlefield); Thermopod (battlefield)
 Prerequisites: Tarrian's Soulcleaver attached to Marath.
@@ -22834,7 +22854,7 @@ Steps: Activate Godsire by tapping it, creating a creature token.
 
 ## Combo 1420-2178-4050
 Cards: Thornbite Staff + Phyrexian Altar + Godsire
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 82 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 81 | Commander: legal
 Produces: Infinite colored mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Thornbite Staff (battlefield); Phyrexian Altar (battlefield); Godsire (battlefield)
 Prerequisites: Godsire doesn't have summoning sickness.
@@ -23322,7 +23342,7 @@ Steps: Play a Desert.
 
 ## Combo 1479-2232-3604
 Cards: Kodama of the East Tree + Cloudstone Curio + Cadric, Soul Kindler
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {5}{G}{G}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {5}{G}{G}
 Produces: Infinite creature ETB; Infinite landfall triggers; Infinite creature LTB; Put a selection of permanent cards from your hand onto the battlefield
 Start: Kodama of the East Tree (hand); Cloudstone Curio (battlefield); Cadric, Soul Kindler (battlefield)
 Prerequisites: An additional nonartifact permanent card in your hand that you are able to play.
@@ -23608,7 +23628,7 @@ Steps: Play Boros Garrison.
 
 ## Combo 1479-4862-5233
 Cards: Kodama of the East Tree + Omnath, Locus of Rage + Boros Garrison
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 2600 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 2700 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Omnath, Locus of Rage (battlefield); Boros Garrison (hand)
 Prerequisites: You are able to play a land this turn.
@@ -23638,7 +23658,7 @@ Steps: Play Boros Garrison.
 
 ## Combo 1479-5233-6528
 Cards: Kodama of the East Tree + Boros Garrison + Elfsworn Giant
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 79 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 80 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Boros Garrison (hand); Elfsworn Giant (battlefield)
 Prerequisites: You are able to play a land this turn.
@@ -23697,7 +23717,7 @@ Steps: Play Boros Garrison.
 
 ## Combo 1479-5233-7705
 Cards: Kodama of the East Tree + Boros Garrison + Mole Man, Moloid Master
-Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 96 | Commander: legal
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 98 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Boros Garrison (hand); Mole Man, Moloid Master (battlefield)
 Steps: Play Boros Garrison.
@@ -23711,7 +23731,7 @@ Steps: Play Boros Garrison.
 
 ## Combo 1479-5233-7885
 Cards: Kodama of the East Tree + Boros Garrison + Down in the Valley
-Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Boros Garrison (hand); Down in the Valley (battlefield: with two or more lore counters on it)
 Steps: Play Boros Garrison.
@@ -23739,7 +23759,7 @@ Steps: Play Boros Garrison.
 
 ## Combo 1479-5233-8293
 Cards: Kodama of the East Tree + Boros Garrison + Cleveland Booker, Empath
-Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 2 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Boros Garrison (hand); Cleveland Booker, Empath (battlefield)
 Steps: Play Boros Garrison.
@@ -23753,7 +23773,7 @@ Steps: Play Boros Garrison.
 
 ## Combo 1479-5233-8337
 Cards: Kodama of the East Tree + Boros Garrison + M'Ress, Crew Coordinator
-Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 2 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Boros Garrison (hand); M'Ress, Crew Coordinator (battlefield)
 Steps: Play Boros Garrison.
@@ -23767,7 +23787,7 @@ Steps: Play Boros Garrison.
 
 ## Combo 1479-5233-8338
 Cards: Kodama of the East Tree + Boros Garrison + Shuttlecraft Galileo
-Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 2 | Commander: legal
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 3 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Boros Garrison (hand); Shuttlecraft Galileo (battlefield)
 Steps: Play Boros Garrison.
@@ -23817,7 +23837,7 @@ Steps: Cast Welding Jar by paying its mana cost.
 
 ## Combo 1492-3678-6871-6879
 Cards: Toph, the First Metalbender + Retreat to Emeria + Haru, Hidden Talent + Welding Jar
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 79 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 78 | Commander: legal
 Produces: Infinite creature tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite landfall triggers
 Start: Toph, the First Metalbender (battlefield); Retreat to Emeria (battlefield); Haru, Hidden Talent (battlefield); Welding Jar (hand)
 Prerequisites: There is at least one additional artifact on the battlefield.
@@ -25352,7 +25372,7 @@ Steps: Activate Ant Queen by paying {1}{G}, creating two creature tokens.
 
 ## Combo 1563-2457-6441-8201
 Cards: Jaheira, Friend of the Forest + Ant Queen + Elspeth, Storm Slayer + Samut, Hazoret's Champion
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite tapped creature tokens; Infinite creature ETB
 Start: Jaheira, Friend of the Forest (battlefield); Ant Queen (battlefield); Elspeth, Storm Slayer (battlefield); Samut, Hazoret's Champion (battlefield)
 Steps: Activate Ant Queen by paying {1}{G}, creating two tokens.
@@ -26854,7 +26874,7 @@ Steps: At the beginning of your combat phase, Helm of the Host triggers.
 
 ## Combo 1692-6705-7150
 Cards: Kirol, Attentive First-Year + Helm of the Host + Quina, Qu Gourmet
-Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
 Produces: Infinite tapped creature tokens; Infinite creature ETB
 Start: Kirol, Attentive First-Year (battlefield); Helm of the Host (battlefield: attached to Kirol); Quina, Qu Gourmet (battlefield)
 Steps: At the beginning of your combat phase, Helm of the Host triggers.
@@ -27970,7 +27990,7 @@ Steps: Cast Whitemane Lion by paying its mana cost.
 
 ## Combo 1753-4289-7686
 Cards: The Unbeatable Squirrel Girl + Cryptolith Rite + Samut, Voice of Dissent
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {1}{G}{G}{G}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {1}{G}{G}{G}
 Produces: Infinite colored mana; Infinite creature tokens with haste; Infinite creature ETB
 Start: The Unbeatable Squirrel Girl (battlefield); Cryptolith Rite (battlefield); Samut, Voice of Dissent (battlefield)
 Prerequisites: You control four or more Squirrels.
@@ -28053,7 +28073,7 @@ Steps: Create a token copy of Fear of Missing Out.
 
 ## Combo 1753-6006-7686
 Cards: The Unbeatable Squirrel Girl + Samut, Voice of Dissent + Enduring Vitality
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal | Mana needed: {1}{G}{G}{G}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal | Mana needed: {1}{G}{G}{G}
 Produces: Infinite colored mana; Infinite creature tokens with haste; Infinite creature ETB
 Start: The Unbeatable Squirrel Girl (battlefield); Samut, Voice of Dissent (battlefield); Enduring Vitality (battlefield)
 Prerequisites: You control four or more Squirrels.
@@ -28248,6 +28268,17 @@ Steps: Activate Altar of Dementia by sacrificing another creature that has an Au
   When the Aura enters the battlefield, Chishiro triggers, creating a creature token.
   Resolve the Altar of Dementia ability.
   Repeat.
+
+## Combo 1765-8090-8091
+Cards: Chishiro, the Shattered Blade + Armed with Proof + Case of the Pilfered Proof
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Draw the game; Infinite creature tokens; Infinite artifact ETB; Infinite creature ETB
+Start: Chishiro, the Shattered Blade (battlefield); Armed with Proof (battlefield); Case of the Pilfered Proof (battlefield)
+Prerequisites: Case of the Pilfered Proof has been solved.
+Steps: Cause a noncreature Clue to enter the battlefield under your control, which will be an Equipment due to Armed with Proof if it isn't an Equipment already, causing Chishiro to trigger.
+  Resolve Chishiro's first ability, creating a 2/2 red Spirit creature token with menace plus creating an additional Clue token through Case of the Pilfered Proof (which will be an Equipment due to Armed with Proof), causing Chishiro to trigger.
+  Repeat from step 2.
+Notes: The combo creates a mandatory infinite loop in step 2. This must be stopped at some point or the game ends in a draw.
 
 ## Combo 1768-2034-2459-5224
 Cards: Rograkh, Son of Rohgahh + Together Forever + Ashnod's Altar + Juniper Order Ranger
@@ -28457,7 +28488,7 @@ Steps: Activate all mana-producing lands you control by tapping them, adding at 
 
 ## Combo 1770-2226-4770
 Cards: Zacama, Primal Calamity + Elesh Norn, Mother of Machines + Whitemane Lion
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal
 Produces: Infinite lifegain; Infinite mana lands you control can produce; Infinite lifegain triggers; Destroy all artifacts and enchantments opponents control; Infinite creature ETB; Infinite creature LTB; Infinite damage to creatures; Infinite storm count
 Start: Zacama, Primal Calamity (hand, command zone); Elesh Norn, Mother of Machines (battlefield); Whitemane Lion (hand)
 Prerequisites: Lands you control tap for at least {2}{R}{G}{W} plus half the cost of your self-bouncing creature.
@@ -29220,7 +29251,7 @@ Steps: Cast Whitemane Lion by paying its mana cost.
 
 ## Combo 1879-5470-6188
 Cards: Ghired, Mirror of the Wilds + Fear of Missing Out + Rising of the Day
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
 Produces: Near-infinite combat phases; Near-infinite tapped creature tokens; Infinite rummaging; Infinite self-discard triggers; Infinite draw triggers; Near-infinite creature ETB
 Start: Ghired, Mirror of the Wilds (battlefield); Fear of Missing Out (battlefield); Rising of the Day (battlefield)
 Prerequisites: You have a way to create a token copy of Fear of Missing Out.
@@ -30006,52 +30037,4 @@ Prerequisites: You control an additional creature.
 Steps: Activate Goblin Bombardment by sacrificing any other creature you control, dealing 1 damage to yourself.
   Darien triggers, causing you to create a 1/1 Soldier creature token.
   When the Soldier enters, Essence Warden triggers, causing you to gain 1 life.
-  Repeat.
-
-## Combo 1981-3188-5147
-Cards: Darien, King of Kjeldor + Social Climber + Goblin Bombardment
-Color identity: RGW | Bracket: 2-3+ (Oddball) | Popularity: 1 | Commander: legal
-Produces: Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Darien, King of Kjeldor (battlefield); Social Climber (battlefield); Goblin Bombardment (battlefield)
-Prerequisites: You control an additional creature.
-  Your life total is at least 2.
-Steps: Activate Goblin Bombardment by sacrificing any other creature you control, dealing 1 damage to yourself.
-  Darien triggers, causing you to create a 1/1 Soldier creature token.
-  When the Soldier enters, Social Climber triggers, causing you to gain 1 life.
-  Repeat.
-
-## Combo 1981-3330-5147
-Cards: Darien, King of Kjeldor + Leyline of Vitality + Goblin Bombardment
-Color identity: RGW | Bracket: 2-3+ (Oddball) | Popularity: 1 | Commander: legal
-Produces: Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Darien, King of Kjeldor (battlefield); Leyline of Vitality (battlefield); Goblin Bombardment (battlefield)
-Prerequisites: You control an additional creature.
-  Your life total is at least 2.
-Steps: Activate Goblin Bombardment by sacrificing any other creature you control, dealing 1 damage to yourself.
-  Darien triggers, causing you to create a 1/1 Soldier creature token.
-  When the Soldier enters, Leyline of Vitality triggers, causing you to gain 1 life.
-  Repeat.
-
-## Combo 1981-4716-5147
-Cards: Darien, King of Kjeldor + Prosperous Innkeeper + Goblin Bombardment
-Color identity: RGW | Bracket: 2-3+ (Oddball) | Popularity: 8 | Commander: legal
-Produces: Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Darien, King of Kjeldor (battlefield); Prosperous Innkeeper (battlefield); Goblin Bombardment (battlefield)
-Prerequisites: You control an additional creature.
-  Your life total is at least 2.
-Steps: Activate Goblin Bombardment by sacrificing any other creature you control, dealing 1 damage to yourself.
-  Darien triggers, causing you to create a 1/1 Soldier creature token.
-  When the Soldier enters, Prosperous Innkeeper triggers, causing you to gain 1 life.
-  Repeat.
-
-## Combo 1981-5147-7173
-Cards: Darien, King of Kjeldor + Goblin Bombardment + Virulent Emissary
-Color identity: RGW | Bracket: 2-3+ (Oddball) | Popularity: 2 | Commander: legal
-Produces: Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Darien, King of Kjeldor (battlefield); Goblin Bombardment (battlefield); Virulent Emissary (battlefield)
-Prerequisites: You control an additional creature.
-  Your life total is at least 2.
-Steps: Activate Goblin Bombardment by sacrificing any other creature you control, dealing 1 damage to yourself.
-  Darien triggers, causing you to create a 1/1 Soldier creature token.
-  When the Soldier enters, Virulent Emissary triggers, causing you to gain 1 life.
   Repeat.

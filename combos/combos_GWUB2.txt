@@ -1,3 +1,109 @@
+## Combo 2921-3497-4484-4871-5643
+Cards: Geralf, the Fleshwright + Pitiless Plunderer + Ebondeath, Dracolich + Bartolomé del Presidio + Ezzaroot Channeler
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B}{B}
+Produces: Infinite +1/+1 counters on a creature token; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Geralf, the Fleshwright (battlefield); Pitiless Plunderer (battlefield); Ebondeath, Dracolich (graveyard); Bartolomé del Presidio (battlefield); Ezzaroot Channeler (battlefield)
+Prerequisites: A creature not named Ebondeath, Dracolich has died this turn.
+  You've cast a spell this turn.
+  You've gained at least 2 life this turn.
+Steps: Cast Ebondeath from your graveyard by paying {B}{B}.
+  Geralf's first ability triggers, creating a 2/2 Zombie Rogue creature token.
+  When the Zombie Rogue enters the battlefield, Geralf's second ability triggers,  putting a number of +1/+1 counters on the Zombie Rogue equal to the number of other Zombies that entered the battlefield under your control.
+  When Ebondeath enters the battlefield, Geralf's second ability triggers, putting a number of +1/+1 counters on Ebondeath equal to the number of other Zombies that entered the battlefield under your control.
+  Activate Bartolomé del Presidio twice by sacrificing the Zombie Rogue and Ebondeath.
+  When the Zombie Rogue and Ebondeath die, Pitiless Plunderer triggers twice, creating two Treasure tokens.
+  Resolve both Bartolomé del Presidio abilities.
+  Activate the Treasures by tapping and sacrificing them, adding {B}{B}.
+  Repeat.
+Notes: This combo will steadily put more +1/+1 counters on Ebondeath and the Zombie Rogue token, eventually resulting in an infinite number of them.
+
+## Combo 2921-3564-4275-5329
+Cards: Kumena, Tyrant of Orazca + Deeproot Pilgrimage + Faces of the Past + Bartolomé del Presidio
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature tokens; Infinite card draw; Infinite +1/+1 counters on a creature; Infinite +1/+1 counters on Merfolk you control; Infinite untap of all Merfolk; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite draw triggers
+Start: Kumena, Tyrant of Orazca (battlefield); Deeproot Pilgrimage (battlefield); Faces of the Past (battlefield); Bartolomé del Presidio (battlefield)
+Prerequisites: You control another untapped nontoken Merfolk.
+Steps: Activate Kumena's first ability by tapping another nontoken Merfolk you control.
+  Deeproot Pilgrimage triggers, creating a 1/1 Merfolk creature token.
+  Resolve the Kumena ability.
+  Activate Bartolomé del Presidio by sacrificing the Merfolk token.
+  When the Merfolk dies, Faces of the Past triggers, untapping all Merfolk.
+  Resolve the Bartolomé del Presidio ability.
+  Repeat.
+Notes: You can tap as many nontoken Merfolk as able each iteration by repeating steps 1 through 3 for each Merfolk. They will all be untapped by Faces of the Past.
+
+## Combo 2921-3908-5365
+Cards: Lonis, Genetics Expert + Bartolomé del Presidio + Spark Double
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite +1/+1 counters on creatures you control; Infinite artifact tokens; Infinite Clue tokens
+Start: Lonis, Genetics Expert (battlefield); Bartolomé del Presidio (battlefield); Spark Double (battlefield)
+Prerequisites: You control at least one Clue token.
+  Spark Double on the battlefield as a copy of Lonis.
+Steps: Activate Bartolomé del Presidio by sacrificing a Clue.
+  Lonis and Spark Double's second abilities trigger.
+  Resolve the Lonis trigger, putting a +1/+1 counter on Spark Double.
+  Spark Double's first ability triggers, creating a Clue artifact token.
+  Resolve the Spark Double trigger from step 2, putting a +1/+1 counter on Lonis.
+  Lonis' first ability triggers, creating a Clue artifact token.
+  Resolve the Bartolomé del Presidio ability.
+  Repeat.
+Notes: You may optionally target any other creature using one of the triggers to put infinite +1/+1 counters on that creature.
+
+## Combo 2921-4186-6566--196
+Cards: Bartolomé del Presidio + Scurry Oak + Yuna, Grand Summoner
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Requires: Gives +1/+1 counter to creatures that enter (battlefield)
+Start: Bartolomé del Presidio (battlefield); Scurry Oak (hand); Yuna, Grand Summoner (battlefield)
+Steps: Cast Scurry Oak by paying its mana cost.
+  When Scurry Oak enters, the effect that adds +1/+1 counters to entering creatures triggers or applies its replacement effect, putting at least one +1/+1 counter on Scurry Oak.
+  Scurry Oak triggers, creating a creature token.
+  When the creature token enters, that same effect causes you to place at least one +1/+1 counter on it.
+  Activate Bartolomé del Presidio by sacrificing the creature token.
+  When the creature token dies, Yuna triggers, putting at least one +1/+1 counter on Scurry Oak
+  Repeat steps 3 and 4 once.
+  Resolve the Bartolomé del Presidio ability.
+  Repeat from step 5.
+
+## Combo 2921-4215-6730
+Cards: Sin, Unending Cataclysm + Verdant Succession + Bartolomé del Presidio
+Color identity: GWUB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite +1/+1 counters on creatures you control; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Sin, Unending Cataclysm (battlefield); Verdant Succession (battlefield); Bartolomé del Presidio (battlefield)
+Steps: Activate Bartolomé del Presidio by sacrificing Sin.
+  When Sin dies, it and Verdant Succession trigger.
+  Resolve the Sin trigger, moving any counters from it onto another creature you control, and then shuffling Sin into your library.
+  Resolve the Verdant Succession trigger, searching your library for Sin and putting it onto the battlefield.
+  Resolve the Bartolomé del Presidio ability.
+  Repeat.
+Notes: In order to get infinite +1/+1 counters, remove as many counters as possible when Sin enters, putting twice that many +1/+1 counters on Sin as it enters. Those counters can then be moved to another creature when Sin dies.
+
+## Combo 2921-4275-5003-7892
+Cards: Thranduil the Strategist + Faces of the Past + Nim Deathmantle + Bartolomé del Presidio
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite blue mana; Infinite green mana; Infinite +1/+1 counters on a creature; Infinite untap of all creatures of a certain creature type; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
+Start: Thranduil the Strategist (battlefield); Faces of the Past (battlefield); Nim Deathmantle (battlefield); Bartolomé del Presidio (battlefield)
+Prerequisites: You control at least four other Elves that do not have summoning sickness.
+Steps: Activate at least four Elves other than Thranduil by tapping them, adding at least four in any combination of {G} and/or {U}.
+  Activate Bartolomé del Presidio by sacrificing Thranduil.
+  When Thranduil dies, Nim Deathmantle and Faces of the Past trigger.
+  Resolve the Nim Deathmantle trigger, causing you to pay {4} to return Thranduil from your graveyard to the battlefield and attach Nim Deathmantle to it.
+  Resolve the Faces of the Past trigger, untapping all Elves and Nobles.
+  Resolve the Bartolomé del Presidio ability.
+  Repeat.
+
+## Combo 2921-4419-4694-7306
+Cards: The Ooze + Bartolomé del Presidio + Renata, Called to the Hunt + March of the Machines
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: The Ooze (battlefield); Bartolomé del Presidio (battlefield); Renata, Called to the Hunt (battlefield); March of the Machines (battlefield)
+Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
+Steps: Activate Bartolomé del Presidio by sacrificing a creature with a +1/+1 counter on it.
+  When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
+  Each Mutagen artifact creature token enters with at least one +1/+1 counter on it due to Renata.
+  Resolve the Bartolomé del Presidio ability, putting a +1/+1 counter on them.
+  Repeat from step 1.
+
 ## Combo 2921-4493-5365
 Cards: Lonis, Genetics Expert + Bartolomé del Presidio + Irenicus's Vile Duplication
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -1641,7 +1747,7 @@ Steps: Activate Shilgengar by sacrificing Moritte of the Frost.
 
 ## Combo 3388-5686--5
 Cards: Moritte of the Frost + Shilgengar, Sire of Famine
-Color identity: GWUB | Bracket: 2-3+ (Oddball) | Popularity: 7 | Commander: legal
+Color identity: GWUB | Bracket: 2-3+ (Oddball) | Popularity: 8 | Commander: legal
 Produces: Infinite artifact tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite Blood tokens
 Requires: Persist Creature (battlefield)
 Start: Moritte of the Frost (battlefield: as a copy of the creature with persist.); Shilgengar, Sire of Famine (battlefield)
@@ -1807,6 +1913,18 @@ Steps: Cast Ebondeath from your graveyard by paying {B}{B}.
   Activate the Treasures by tapping and sacrificing them, adding {B}{B}.
   Repeat.
 Notes: This combo will steadily put more +1/+1 counters on Ebondeath and the Zombie Rogue token, eventually resulting in an infinite number of them.
+
+## Combo 3510-5671-5929
+Cards: Life and Limb + The Necrobloom + Leyline of Transformation
+Color identity: GWUB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Draw the game; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
+Start: Life and Limb (battlefield); The Necrobloom (battlefield); Leyline of Transformation (battlefield)
+Prerequisites: You can cause a creature or land to enter under your control.
+  Saproling has been chosen with Leyline of Transformation.
+Steps: Cause a creature or land to enter under your control.
+  The permanent that entered is a Saproling through Leyline of Transformation and a Forest in addition to its other types due to Life and Limb, causing The Necrobloom to trigger.
+  Resolve the The Necrobloom trigger, creating a creature token.
+  Repeat steps 2-3. Unless you have a way to remove one of the pieces, this will cause an infinite mandatory loop and draw the game.
 
 ## Combo 3557-5261-6587-6588
 Cards: Ultimecia, Time Sorceress // Ultimecia, Omnipotent + Moonmist + Isochron Scepter + Brago, King Eternal
@@ -3430,6 +3548,21 @@ Steps: Activate Lilysplash Mentor by paying {1}{G}{U}, blinking Kwia.
   Repeat.
 Notes: Alternate adding {G} and {U} each time. Start by adding the opposite of whatever mana you provide for the {G/U} in the cost.
 
+## Combo 4210-6845-8160-8170
+Cards: Flickering Hound + Kwia Vigorbloom + Pious Evangel // Wayward Disciple + Spider-Byte, Web Warden
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{U}
+Produces: Infinite lifegain; Infinite lifeloss; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Pious Evangel // Wayward Disciple (battlefield); Spider-Byte, Web Warden (battlefield)
+Steps: Cast Spider-Byte by paying its mana cost.
+  Flickering Hound triggers, blinking Kwia.
+  When Kwia enters, Pious Evangel triggers, causing you to gain 1 life.
+  Kwia triggers, creating a Lotus artifact token.
+  Resolve Spider-Byte. When it enters, it and Pious Evangel trigger.
+  Resolve the Pious Evangel trigger, causing you to gain 1 life.
+  Resolve the Spider-Byte trigger, returning itself from the battlefield to your hand.
+  Activate the Lotus by tapping and sacrificing it, adding {U}{U}{U}.
+  Repeat
+
 ## Combo 4214-5189-5439-7824
 Cards: Adaptive Gemguard + Ghave, Guru of Spores + Utopia Mycon + Bard, King of Dale
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
@@ -4995,6 +5128,21 @@ Steps: Activate Hammerhead by sacrificing the additional creature.
   Resolve the second Sin trigger, putting the counters it had on it when it was sacrificed onto a creature you control and failing to shuffle it into your library as it's no longer in your graveyard.
   Resolve the Hammerhead ability from step 4.
   Repeat.
+
+## Combo 6845-7399-8160-8170
+Cards: Flickering Hound + Kwia Vigorbloom + Spider-Byte, Web Warden + Bogwater Lumaret
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{U}
+Produces: Infinite lifegain; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
+Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Spider-Byte, Web Warden (hand); Bogwater Lumaret (battlefield)
+Steps: Cast Spider-Byte by paying its mana cost.
+  Flickering Hound triggers, blinking Kwia.
+  When Kwia enters, Bogwater Lumaret triggers, causing you to gain 1 life.
+  Kwia triggers, creating a Lotus artifact token.
+  Resolve Spider-Byte. When it enters, it and Bogwater Lumaret trigger.
+  Resolve the Bogwater Lumaret trigger, causing you to gain 1 life.
+  Resolve the Spider-Byte trigger, returning itself from the battlefield to your hand.
+  Activate the Lotus by tapping and sacrificing it, adding {U}{U}{U}.
+  Repeat
 
 ## Combo 7084-7272-7892
 Cards: Beifong's Bounty Hunters + Reaper of Flight Moonsilver + Thranduil the Strategist

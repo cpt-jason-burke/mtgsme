@@ -1,3 +1,40 @@
+## Combo 1545-2919-5641
+Cards: Basking Broodscale + Archangel of Thune + Trostani, Selesnya's Voice
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 440 | Commander: legal
+Produces: Infinite creature tokens; Infinite lifegain; Infinite colorless mana; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Basking Broodscale (battlefield); Archangel of Thune (battlefield); Trostani, Selesnya's Voice (battlefield)
+Prerequisites: You have a way to put a +1/+1 counter on Basking Broodscale.
+Steps: Put a +1/+1 counter on Basking Broodscale.
+  Basking Broodscale triggers, creating a 0/1 Eldrazi Spawn creature token.
+  When the Eldrazi Spawn enters the battlefield, Trostani, Selesnya's Voice triggers, causing you to gain 1 life.
+  Archangel of Thune triggers, putting a +1/+1 counter on each creature you control.
+  Repeat from step 2.
+
+## Combo 1545-2919-7690--165
+Cards: Archangel of Thune + Invisible Woman, Sue Storm + Trostani, Selesnya's Voice
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal
+Produces: Infinite +1/+1 counters on creatures you control; Infinite creature tokens; Infinite lifegain; Infinite lifegain triggers; Infinite creature ETB
+Requires: Hero Creature (battlefield)
+Start: Archangel of Thune (battlefield); Invisible Woman, Sue Storm (battlefield); Trostani, Selesnya's Voice (battlefield)
+Prerequisites: You have a way to gain life.
+Steps: Gain life.
+  Archangel of Thune triggers, putting a +1/+1 counter on each creature you control
+  Invisible Woman triggers, creating a creature token.
+  When the creature token enters the battlefield, Trostani triggers, causing you to gain life.
+  Repeat from step 2.
+
+## Combo 1545-3197-4017
+Cards: Trostani, Selesnya's Voice + Herd Baloth + Sunbond
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 77 | Commander: legal
+Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
+Start: Trostani, Selesnya's Voice (battlefield); Herd Baloth (battlefield); Sunbond (battlefield: attached to Herd Baloth)
+Prerequisites: You have a way to gain life.
+Steps: Gain life.
+  Sunbond triggers, putting a +1/+1 counter on Herd Baloth.
+  Herd Baloth triggers, creating a creature token.
+  When the creature token enters the battlefield, Trostani triggers, causing you to gain 4 life.
+  Repeat from step 2.
+
 ## Combo 1545-3197-6996
 Cards: Trostani, Selesnya's Voice + Herd Baloth + The Destined White Mage
 Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 15 | Commander: legal
@@ -175,7 +212,7 @@ Steps: Cast Whitemane Lion by paying {1} and either {W} or two life.
 
 ## Combo 1545-4186-4384
 Cards: Treebeard, Gracious Host + Scurry Oak + Trostani, Selesnya's Voice
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 770 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 760 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Start: Treebeard, Gracious Host (battlefield); Scurry Oak (battlefield); Trostani, Selesnya's Voice (battlefield)
 Prerequisites: You have a way to gain life.
@@ -199,7 +236,7 @@ Steps: Gain life.
 
 ## Combo 1545-4186-6996
 Cards: Trostani, Selesnya's Voice + Scurry Oak + The Destined White Mage
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 35 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 36 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Start: Trostani, Selesnya's Voice (battlefield); Scurry Oak (battlefield); The Destined White Mage (battlefield)
 Prerequisites: You have a way to gain life.
@@ -226,7 +263,7 @@ Steps: Cast Stonecloaker by paying its mana cost.
 
 ## Combo 1545-4499-8160
 Cards: Kwia Vigorbloom + Trostani, Selesnya's Voice + Emiel the Blessed
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 630 | Commander: legal | Mana needed: {3}
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 640 | Commander: legal | Mana needed: {3}
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB
 Start: Kwia Vigorbloom (battlefield); Trostani, Selesnya's Voice (battlefield); Emiel the Blessed (battlefield)
 Steps: Activate Emiel the Blessed by paying {3}, blinking Kwia.
@@ -237,7 +274,7 @@ Steps: Activate Emiel the Blessed by paying {3}, blinking Kwia.
 
 ## Combo 1545-4518-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Trostani, Selesnya's Voice + Kor Skyfisher
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Trostani, Selesnya's Voice (battlefield); Kor Skyfisher (hand)
 Steps: Cast Kor Skyfisher by paying its mana cost.
@@ -264,7 +301,7 @@ Notes: Once you have infinite mana, you may forego sacrificing the Phyrexian Mit
 
 ## Combo 1545-4770-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Trostani, Selesnya's Voice + Whitemane Lion
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Trostani, Selesnya's Voice (battlefield); Whitemane Lion (hand)
 Steps: Cast Whitemane Lion by paying its mana cost.
@@ -1812,7 +1849,7 @@ Notes: Due to differences in card templating between the various banisher effect
 
 ## Combo 1734-1971-4344
 Cards: Yannik, Scavenging Sentinel + Fiend Hunter + Lumbering Battlement
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 230 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 240 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
 Produces: Infinite +1/+1 counters on creatures you control; Infinite creature ETB; Infinite creature LTB
 Start: Yannik, Scavenging Sentinel (hand, battlefield, exile: Exiled by the creature on the battlefield); Fiend Hunter (hand, battlefield, exile: Exiled by the creature on the battlefield); Lumbering Battlement (hand, battlefield, exile: Exiled by the creature on the battlefield)
 Prerequisites: Lumbering Battlement must be exiled by Fiend Hunter, and Yannik must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
@@ -1828,7 +1865,7 @@ Notes: Due to differences in card templating between the various banisher effect
 
 ## Combo 1734-1971-5887
 Cards: Yannik, Scavenging Sentinel + Fiend Hunter + Werefox Bodyguard
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 210 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 220 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
 Produces: Infinite +1/+1 counters on creatures you control; Infinite creature ETB; Infinite creature LTB
 Start: Yannik, Scavenging Sentinel (hand, battlefield, exile: Exiled by the creature on the battlefield); Fiend Hunter (hand, battlefield, exile: Exiled by the creature on the battlefield); Werefox Bodyguard (hand, battlefield, exile: Exiled by the creature on the battlefield)
 Prerequisites: Werefox Bodyguard must be exiled by Fiend Hunter, and Yannik must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
@@ -2848,7 +2885,7 @@ Steps: Cast Gingerbrute by paying {1}.
 
 ## Combo 1867-2206-4231-4365-5270
 Cards: Samwise Gamgee + Vegetation Abomination + Gingerbrute + Academy Manufactor + Mondrak, Glory Dominus
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal | Mana needed: {2}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 55 | Commander: legal | Mana needed: {2}
 Produces: Infinite artifact tokens; Infinite Clue tokens; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Samwise Gamgee (battlefield); Vegetation Abomination (graveyard); Gingerbrute (hand); Academy Manufactor (battlefield); Mondrak, Glory Dominus (battlefield)
 Steps: Cast Gingerbrute by paying {1}.
@@ -2941,7 +2978,7 @@ Steps: Gain life.
 
 ## Combo 1874-2919-5641
 Cards: Basking Broodscale + Archangel of Thune + Ajani's Welcome
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 190 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 200 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite colorless mana; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Archangel of Thune (battlefield); Ajani's Welcome (battlefield)
 Prerequisites: You have a way to put a +1/+1 counter on Basking Broodscale.
@@ -3126,7 +3163,7 @@ Steps: Activate Emiel the Blessed by paying {3}, blinking Kwia.
 
 ## Combo 1874-4518-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Ajani's Welcome + Kor Skyfisher
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Ajani's Welcome (battlefield); Kor Skyfisher (hand)
 Steps: Cast Kor Skyfisher by paying its mana cost.
@@ -3142,7 +3179,7 @@ Notes: Once you have infinite mana, you can forego sacrificing the Lotus tokens 
 
 ## Combo 1874-4770-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Ajani's Welcome + Whitemane Lion
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Ajani's Welcome (battlefield); Whitemane Lion (hand)
 Steps: Cast Whitemane Lion by paying its mana cost.
@@ -3446,7 +3483,7 @@ Steps: Activate Automated Assembly Line by paying {E}{E}{E}, creating two tapped
 
 ## Combo 1887-3484-4374
 Cards: Aethergeode Miner + Decoction Module + Vorinclex, Monstrous Raider
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 40 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 41 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB
 Start: Aethergeode Miner (battlefield); Decoction Module (battlefield); Vorinclex, Monstrous Raider (battlefield)
 Prerequisites: You have at least two energy counters.
@@ -3563,7 +3600,7 @@ Steps: Activate Architect of the Untamed by paying eight {E}, creating two 6/6 B
 
 ## Combo 1887-4636-5391
 Cards: Automated Assembly Line + Gonti's Aether Heart + Vorinclex, Monstrous Raider
-Color identity: GW | Bracket: 2+ (Core) | Popularity: 35 | Commander: legal
+Color identity: GW | Bracket: 2+ (Core) | Popularity: 36 | Commander: legal
 Produces: Infinite creature tokens; Infinite energy counters; Infinite creature ETB
 Start: Automated Assembly Line (battlefield); Gonti's Aether Heart (battlefield); Vorinclex, Monstrous Raider (battlefield)
 Prerequisites: You have at least {E}{E}{E}.
@@ -4537,7 +4574,7 @@ Notes: Once you have infinite mana, you may forego sacrificing the creature toke
 
 ## Combo 1939-2919-3197
 Cards: Archangel of Thune + Lunarch Veteran // Luminous Phantom + Herd Baloth
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 81 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 82 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature ETB
 Start: Archangel of Thune (battlefield); Lunarch Veteran // Luminous Phantom (battlefield); Herd Baloth (battlefield)
 Prerequisites: You have a way to gain life.
@@ -4549,7 +4586,7 @@ Steps: Gain life.
 
 ## Combo 1939-2919-4186
 Cards: Archangel of Thune + Lunarch Veteran // Luminous Phantom + Scurry Oak
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 230 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 240 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature ETB
 Start: Archangel of Thune (battlefield); Lunarch Veteran // Luminous Phantom (battlefield); Scurry Oak (battlefield)
 Prerequisites: You have a way to gain life.
@@ -4561,7 +4598,7 @@ Steps: Gain life.
 
 ## Combo 1939-2919-5641
 Cards: Basking Broodscale + Archangel of Thune + Lunarch Veteran // Luminous Phantom
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 100 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 110 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite colorless mana; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Archangel of Thune (battlefield); Lunarch Veteran // Luminous Phantom (battlefield)
 Prerequisites: You have a way to put a +1/+1 counter on Basking Broodscale.
@@ -4624,7 +4661,7 @@ Steps: Gain any amount of life.
 
 ## Combo 1939-4415-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Lunarch Veteran // Luminous Phantom + Stonecloaker
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {2}{W}
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Lunarch Veteran // Luminous Phantom (battlefield); Stonecloaker (hand)
 Steps: Cast Stonecloaker by paying its mana cost.
@@ -4666,7 +4703,7 @@ Notes: Once you have infinite mana, you can forego sacrificing the Lotus tokens 
 
 ## Combo 1939-4770-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Lunarch Veteran // Luminous Phantom + Whitemane Lion
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Lunarch Veteran // Luminous Phantom (battlefield); Whitemane Lion (hand)
 Steps: Cast Whitemane Lion by paying its mana cost.
@@ -5173,7 +5210,7 @@ Steps: Activate Brigid by tapping it, adding at least {W}{W}{W}{W}
 
 ## Combo 1995-7308
 Cards: Gauntlets of Light + Mona Lisa, Science Geek
-Color identity: GW | Bracket: 4+ (Ruthless) | Popularity: 47 | Commander: legal
+Color identity: GW | Bracket: 4+ (Ruthless) | Popularity: 48 | Commander: legal
 Produces: Infinite colored mana
 Start: Gauntlets of Light (battlefield: attached to Mona Lisa); Mona Lisa, Science Geek (battlefield: without summoning sickness and with power 4 or greater)
 Steps: Activate Mona Lisa by tapping it, adding at least {W}{W}{W}{W}
@@ -5390,7 +5427,7 @@ Notes: The mana prerequisite can be reduced by up to {2}{G/W} if Woodland Weavem
 
 ## Combo 2024-8190
 Cards: Seedcradle Witch + Loot, the Nexus
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 19 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 20 | Commander: legal
 Produces: Infinite colored mana; Infinite mana creatures you control can produce; Infinitely large creatures you control until end of turn; Infinite untap of creatures you control
 Start: Seedcradle Witch (battlefield: attached to Loot); Loot, the Nexus (battlefield)
 Prerequisites: You control at least four creatures with different powers.
@@ -5794,7 +5831,7 @@ Steps: Gain any amount of life.
 
 ## Combo 2034-2308-4506
 Cards: Trudge Garden + Ashnod's Altar + Auriok Champion
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal | Mana needed: {2}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal | Mana needed: {2}
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Trudge Garden (battlefield); Ashnod's Altar (battlefield); Auriok Champion (battlefield)
 Prerequisites: You have a way to gain life.
@@ -6225,7 +6262,7 @@ Steps: Cast Growth-Chamber Guardian by paying {1}{G}.
 
 ## Combo 2034-2741-2919-3490
 Cards: Animation Module + Ashnod's Altar + Archangel of Thune + Essence Warden
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal | Mana needed: {1}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Archangel of Thune (battlefield); Essence Warden (battlefield)
 Prerequisites: You have a way to gain life.
@@ -6376,7 +6413,7 @@ Steps: Activate Earthcraft to tap Emmara, Soul of the Accord and untap a basic l
 
 ## Combo 2034-2816-4289-5251-5295
 Cards: Emmara, Soul of the Accord + Ashnod's Altar + Cryptolith Rite + Umbral Mantle + Thousand-Year Elixir
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal
 Produces: Infinite colored mana; Infinite colorless mana; Infinite creature tokens; Infinitely large creature; Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite untap of creatures you control; Infinite death triggers
 Start: Emmara, Soul of the Accord (battlefield); Ashnod's Altar (battlefield); Cryptolith Rite (battlefield); Umbral Mantle (battlefield); Thousand-Year Elixir (battlefield)
 Prerequisites: Umbral Mantle attached to Emmara, Soul of the Accord.
@@ -6485,7 +6522,7 @@ Steps: Gain life.
 
 ## Combo 2034-2919-3490-4716
 Cards: Animation Module + Ashnod's Altar + Archangel of Thune + Prosperous Innkeeper
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal | Mana needed: {1}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal | Mana needed: {1}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Ashnod's Altar (battlefield); Archangel of Thune (battlefield); Prosperous Innkeeper (battlefield)
 Prerequisites: You have a way to gain life.
@@ -6673,7 +6710,7 @@ Steps: Cast Herd Baloth by paying its mana cost.
 
 ## Combo 2034-3197-6012--196
 Cards: Ashnod's Altar + Herd Baloth + Reluctant Role Model
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
 Produces: Infinite colorless mana; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Gives +1/+1 counter to creatures that enter (battlefield)
 Start: Ashnod's Altar (battlefield); Herd Baloth (hand); Reluctant Role Model (battlefield)
@@ -7264,7 +7301,7 @@ Steps: Cast the creature from your hand by paying {2} or less, causing the creat
 
 ## Combo 2034-4186-6012--196
 Cards: Ashnod's Altar + Scurry Oak + Reluctant Role Model
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 55 | Commander: legal
 Produces: Infinite colorless mana; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Gives +1/+1 counter to creatures that enter (battlefield)
 Start: Ashnod's Altar (battlefield); Scurry Oak (hand); Reluctant Role Model (battlefield)
@@ -8692,7 +8729,7 @@ Steps: Cast Crystalline Crawler giving it six +1/+1 counters because of Doubling
 
 ## Combo 2066-2757-4573
 Cards: Earthcraft + Fertile Ground + Sacred Mesa
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite tapped creature tokens; Infinite creature ETB
 Start: Earthcraft (battlefield); Fertile Ground (battlefield: attached to a basic Plains you control); Sacred Mesa (battlefield)
 Steps: Activate Sacred Mesa by paying {1}{W}, creating a 1/1 Pegasus creature token
@@ -8968,7 +9005,7 @@ Steps: Cast Martyrdom by paying {1}{W}{W}, targeting Altanak.
 
 ## Combo 2191-6331-8144
 Cards: Martyrdom + Stiltzkin, Moogle Merchant + Surrak, Elusive Hunter
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {3}{W}{W}
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal | Mana needed: {3}{W}{W}
 Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
 Start: Martyrdom (hand); Stiltzkin, Moogle Merchant (battlefield); Surrak, Elusive Hunter (battlefield)
 Prerequisites: Stiltzkin does not have summoning sickness.
@@ -8992,7 +9029,7 @@ Steps: Cast Martyrdom by paying {1}{W}{W}, targeting Old Fat Spider.
 
 ## Combo 2203-2757-4573
 Cards: Earthcraft + Vorinclex, Voice of Hunger + Sacred Mesa
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite tapped creature tokens; Infinite creature ETB
 Start: Earthcraft (battlefield); Vorinclex, Voice of Hunger (battlefield); Sacred Mesa (battlefield)
 Prerequisites: You control a basic Plains.
@@ -9140,7 +9177,7 @@ Steps: Activate a basic land by tapping it, adding {1}.
 
 ## Combo 2281-3175-3899
 Cards: Saffi Eriksdotter + Sun Titan + Spawning Pit
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 290 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 300 | Commander: legal
 Produces: Infinite charge counters on a permanent; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Saffi Eriksdotter (battlefield); Sun Titan (battlefield); Spawning Pit (battlefield)
 Steps: Activate Saffi by sacrificing it, targeting Sun Titan
@@ -10637,7 +10674,7 @@ Notes: The number of Wolves and/or Werewolves you'll control after performing st
 
 ## Combo 2557-4518-5554
 Cards: Oltec Matterweaver + Kor Skyfisher + Parallel Lives
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite artifact ETB; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Oltec Matterweaver (battlefield); Kor Skyfisher (hand); Parallel Lives (battlefield)
 Prerequisites: You control at least one Treasure or Gold token.
@@ -10936,7 +10973,7 @@ Steps: Activate Altar of Dementia by sacrificing another creature.
 
 ## Combo 2597-2757-4573
 Cards: Earthcraft + Wild Growth + Sacred Mesa
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite tapped creature tokens; Infinite creature ETB
 Start: Earthcraft (battlefield); Wild Growth (battlefield: attached to a basic Plains); Sacred Mesa (battlefield)
 Steps: Activate Sacred Mesa by paying {1}{W}, creating a 1/1 Pegasus creature token
@@ -11074,7 +11111,7 @@ Steps: Activate Eldrazi Displacer by paying {2}{C}, blinking Cryptic Trilobite.
 
 ## Combo 2646-4153-5641
 Cards: Basking Broodscale + Bloodspore Thrinax + Resourceful Defense
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 89 | Commander: legal | Mana needed: {1}{G}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 90 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite colorless mana; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (hand); Bloodspore Thrinax (battlefield: with a +1/+1 counter on it); Resourceful Defense (battlefield)
 Steps: Cast Basking Broodscale by paying {1}{G}, which enters with a +1/+1 counter on it due to Bloodspore Thrinax.
@@ -11817,7 +11854,7 @@ Steps: Gain life.
 
 ## Combo 2741-2919-4186
 Cards: Archangel of Thune + Essence Warden + Scurry Oak
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1400 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1500 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature ETB
 Start: Archangel of Thune (battlefield); Essence Warden (battlefield); Scurry Oak (battlefield)
 Prerequisites: You have a way to gain life.
@@ -12060,7 +12097,7 @@ Steps: Gain life.
 
 ## Combo 2741-4415-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Essence Warden + Stonecloaker
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {2}{W}
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Essence Warden (battlefield); Stonecloaker (hand)
 Steps: Cast Stonecloaker by paying its mana cost.
@@ -12086,7 +12123,7 @@ Steps: Activate Emiel the Blessed by paying {3}, blinking Kwia.
 
 ## Combo 2741-4518-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Essence Warden + Kor Skyfisher
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Essence Warden (battlefield); Kor Skyfisher (hand)
 Steps: Cast Kor Skyfisher by paying its mana cost.
@@ -12113,7 +12150,7 @@ Notes: Once you have infinite mana, you may forego sacrificing the Phyrexian Mit
 
 ## Combo 2741-4770-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Essence Warden + Whitemane Lion
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 76 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Essence Warden (battlefield); Whitemane Lion (hand)
 Steps: Cast Whitemane Lion by paying its mana cost.
@@ -12346,7 +12383,7 @@ Steps: Activate any number of creatures you control by tapping them, adding at l
 
 ## Combo 2757-2800-4573
 Cards: Earthcraft + Mirari's Wake + Sacred Mesa
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 32 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite tapped creature tokens; Infinite creature ETB
 Start: Earthcraft (battlefield); Mirari's Wake (battlefield); Sacred Mesa (battlefield)
 Prerequisites: You control a basic Plains.
@@ -12412,7 +12449,7 @@ Steps: Cast Whitemane Lion by paying {W}.
 
 ## Combo 2757-3430-4499
 Cards: Emiel the Blessed + Earthcraft + Nyxbloom Ancient
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 46 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB
 Start: Emiel the Blessed (battlefield); Earthcraft (battlefield); Nyxbloom Ancient (battlefield)
 Prerequisites: You control a basic land.
@@ -12584,7 +12621,7 @@ Steps: Activate Sacred Mesa by paying {1}{W}, creating a 1/1 Pegasus creature to
 
 ## Combo 2757-4573-5227
 Cards: Earthcraft + Sacred Mesa + Utopia Sprawl
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite tapped creature tokens; Infinite creature ETB
 Start: Earthcraft (battlefield); Sacred Mesa (battlefield); Utopia Sprawl (battlefield: attached to a basic Forest you control and with "White" chosen)
 Steps: Activate Sacred Mesa by paying {1}{W}, creating a 1/1 Pegasus creature token
@@ -12981,7 +13018,7 @@ Steps: Gain life.
 
 ## Combo 2919-2999-4186
 Cards: Archangel of Thune + Impassioned Orator + Scurry Oak
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 87 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 88 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature ETB
 Start: Archangel of Thune (battlefield); Impassioned Orator (battlefield); Scurry Oak (battlefield)
 Prerequisites: You have a way to gain life.
@@ -12993,7 +13030,7 @@ Steps: Gain life.
 
 ## Combo 2919-2999-5641
 Cards: Basking Broodscale + Archangel of Thune + Impassioned Orator
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 48 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal
 Produces: Infinite colorless mana; Infinite +1/+1 counters on creatures you control; Infinite creature tokens; Infinite lifegain; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Archangel of Thune (battlefield); Impassioned Orator (battlefield)
 Prerequisites: You have a way to put a +1/+1 counter on Basking Broodscale.
@@ -13355,7 +13392,7 @@ Steps: Gain life.
 
 ## Combo 2919-3641-4186
 Cards: Archangel of Thune + Distinguished Conjurer + Scurry Oak
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 76 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 77 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature ETB
 Start: Archangel of Thune (battlefield); Distinguished Conjurer (battlefield); Scurry Oak (battlefield)
 Prerequisites: You have a way to gain life.
@@ -13367,7 +13404,7 @@ Steps: Gain life.
 
 ## Combo 2919-3641-5641
 Cards: Basking Broodscale + Archangel of Thune + Distinguished Conjurer
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 50 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 51 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite colorless mana; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Archangel of Thune (battlefield); Distinguished Conjurer (battlefield)
 Prerequisites: You have a way to put a +1/+1 counter on Basking Broodscale.
@@ -13463,7 +13500,7 @@ Steps: Gain life.
 
 ## Combo 2919-4186-5789
 Cards: Archangel of Thune + Scurry Oak + Lifecreed Duo
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature ETB
 Start: Archangel of Thune (battlefield); Scurry Oak (battlefield); Lifecreed Duo (battlefield)
 Prerequisites: You have a way to gain life.
@@ -13511,7 +13548,7 @@ Steps: Gain life.
 
 ## Combo 2919-4186-6752
 Cards: Archangel of Thune + Scurry Oak + Haliya, Guided by Light
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 590 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 600 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature ETB
 Start: Archangel of Thune (battlefield); Scurry Oak (battlefield); Haliya, Guided by Light (battlefield)
 Prerequisites: You have a way to gain life.
@@ -13523,7 +13560,7 @@ Steps: Gain life.
 
 ## Combo 2919-4186-6823
 Cards: Archangel of Thune + Scurry Oak + Aunt May
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 55 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 56 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature ETB
 Start: Archangel of Thune (battlefield); Scurry Oak (battlefield); Aunt May (battlefield)
 Prerequisites: You have a way to gain life.
@@ -13583,7 +13620,7 @@ Steps: Activate Triskelavus by paying {1} and removing a +1/+1 counter from it, 
 
 ## Combo 2919-4716-5641
 Cards: Basking Broodscale + Archangel of Thune + Prosperous Innkeeper
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 420 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 430 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite colorless mana; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Archangel of Thune (battlefield); Prosperous Innkeeper (battlefield)
 Prerequisites: You have a way to put a +1/+1 counter on Basking Broodscale.
@@ -13620,7 +13657,7 @@ Steps: Put a +1/+1 counter on Basking Broodscale.
 
 ## Combo 2919-5641-5789
 Cards: Basking Broodscale + Archangel of Thune + Lifecreed Duo
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite colorless mana; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Archangel of Thune (battlefield); Lifecreed Duo (battlefield)
 Prerequisites: You have a way to put a +1/+1 counter on Basking Broodscale.
@@ -13644,7 +13681,7 @@ Steps: Put a +1/+1 counter on Basking Broodscale.
 
 ## Combo 2919-5641-6097
 Cards: Basking Broodscale + Archangel of Thune + Hinterland Sanctifier
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 95 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 96 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite colorless mana; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Archangel of Thune (battlefield); Hinterland Sanctifier (battlefield)
 Prerequisites: You have a way to put a +1/+1 counter on Basking Broodscale.
@@ -13951,7 +13988,7 @@ Steps: Gain life.
 
 ## Combo 2999-4186-4384
 Cards: Treebeard, Gracious Host + Scurry Oak + Impassioned Orator
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 73 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Start: Treebeard, Gracious Host (battlefield); Scurry Oak (battlefield); Impassioned Orator (battlefield)
 Prerequisites: You have a way to gain life.
@@ -14041,7 +14078,7 @@ Notes: Once you have infinite mana, you can forego sacrificing the Lotus tokens 
 
 ## Combo 2999-4770-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Impassioned Orator + Whitemane Lion
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Impassioned Orator (battlefield); Whitemane Lion (hand)
 Steps: Cast Whitemane Lion by paying its mana cost.
@@ -14197,7 +14234,7 @@ Steps: Animate a Forest that enters untapped using Nissa, Vital Force
 
 ## Combo 3028-5702-6441
 Cards: Springheart Nantuko + Nissa, Vital Force + Elspeth, Storm Slayer
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal | Mana needed: {2}{G}{G}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal | Mana needed: {2}{G}{G}
 Produces: Infinite creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (hand); Nissa, Vital Force (battlefield); Elspeth, Storm Slayer (battlefield)
 Prerequisites: You control a Forest that enters the battlefield untapped.
@@ -14986,7 +15023,7 @@ Notes: The number of Wolves and/or Werewolves you'll control after performing st
 
 ## Combo 3129-4518-5554
 Cards: Oltec Matterweaver + Kor Skyfisher + Primal Vigor
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite artifact ETB; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Oltec Matterweaver (battlefield); Kor Skyfisher (hand); Primal Vigor (battlefield)
 Prerequisites: You control at least one Treasure or Gold token.
@@ -15064,7 +15101,7 @@ Steps: Activate Triskelavus by paying {1} and removing a +1/+1 counter from it, 
 
 ## Combo 3129-4682-7890
 Cards: Gleaming Splendor + Smothering Tithe + Primal Vigor
-Color identity: GW | Bracket: 3+ (Powerful) | Popularity: 250 | Commander: legal | Mana needed: {2}{W}
+Color identity: GW | Bracket: 3+ (Powerful) | Popularity: 260 | Commander: legal | Mana needed: {2}{W}
 Produces: Infinite card draw for any number of players; Near-infinite Treasure tokens; Near-infinite colored mana; Infinite draw triggers for any number of players; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers
 Start: Gleaming Splendor (battlefield); Smothering Tithe (battlefield); Primal Vigor (battlefield)
 Prerequisites: At least two opponents cannot pay for Smothering Tithe's trigger.
@@ -16580,7 +16617,7 @@ Notes: You can return all nonland permanents in your graveyard to the battlefiel
 
 ## Combo 3293-5531-6620
 Cards: Emeria Shepherd + Lumra, Bellow of the Woods + Sylvan Safekeeper
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 580 | Commander: legal | Mana needed: {4}{G}{G}
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 590 | Commander: legal | Mana needed: {4}{G}{G}
 Produces: Infinite self-mill; Put all permanent cards from your graveyard and library onto the battlefield; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Emeria Shepherd (battlefield); Lumra, Bellow of the Woods (battlefield); Sylvan Safekeeper (battlefield)
 Prerequisites: You control a Plains or have a Plains in your graveyard.
@@ -16832,7 +16869,7 @@ Notes: Once you have infinite mana, you may forego sacrificing the Phyrexian Mit
 
 ## Combo 3330-4770-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Leyline of Vitality + Whitemane Lion
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Leyline of Vitality (battlefield); Whitemane Lion (hand)
 Steps: Cast Whitemane Lion by paying its mana cost.
@@ -18286,7 +18323,7 @@ Steps: Gain life.
 
 ## Combo 3641-4415-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Distinguished Conjurer + Stonecloaker
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {2}{W}
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Distinguished Conjurer (battlefield); Stonecloaker (hand)
 Steps: Cast Stonecloaker by paying its mana cost.
@@ -18312,7 +18349,7 @@ Steps: Activate Emiel the Blessed by paying {3}, blinking Kwia.
 
 ## Combo 3641-4518-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Distinguished Conjurer + Kor Skyfisher
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Distinguished Conjurer (battlefield); Kor Skyfisher (hand)
 Steps: Cast Kor Skyfisher by paying its mana cost.
@@ -18328,7 +18365,7 @@ Notes: Once you have infinite mana, you can forego sacrificing the Lotus tokens 
 
 ## Combo 3641-4770-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Distinguished Conjurer + Whitemane Lion
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Distinguished Conjurer (battlefield); Whitemane Lion (hand)
 Steps: Cast Whitemane Lion by paying its mana cost.
@@ -18446,7 +18483,7 @@ Steps: Play Glacial Chasm.
 
 ## Combo 3678-4050-6879
 Cards: Retreat to Emeria + Haru, Hidden Talent + Phyrexian Altar
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 180 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 170 | Commander: legal
 Produces: Infinite colored mana; Infinite creature tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Retreat to Emeria (battlefield); Haru, Hidden Talent (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: You are able to play a land this turn.
@@ -19142,7 +19179,7 @@ Notes: You will also lose the game if you control no creatures as Biorhythm reso
 
 ## Combo 3779-6323
 Cards: Swords to Plowshares + Jumbo Cactuar
-Color identity: GW | Bracket: 4+ (Ruthless) | Popularity: 12000 | Commander: legal | Mana needed: {W}
+Color identity: GW | Bracket: 4+ (Ruthless) | Popularity: 13000 | Commander: legal | Mana needed: {W}
 Produces: Near-infinite lifegain
 Start: Swords to Plowshares (hand); Jumbo Cactuar (battlefield)
 Prerequisites: Jumbo Cactuar does not have summoning sickness.
@@ -20651,7 +20688,7 @@ Steps: Gain life.
 
 ## Combo 4186-4384-5789
 Cards: Treebeard, Gracious Host + Scurry Oak + Lifecreed Duo
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Start: Treebeard, Gracious Host (battlefield); Scurry Oak (battlefield); Lifecreed Duo (battlefield)
 Prerequisites: You have a way to gain life.
@@ -20699,7 +20736,7 @@ Steps: Gain life.
 
 ## Combo 4186-4384-6823
 Cards: Treebeard, Gracious Host + Scurry Oak + Aunt May
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 42 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Start: Treebeard, Gracious Host (battlefield); Scurry Oak (battlefield); Aunt May (battlefield)
 Prerequisites: You have a way to gain life.
@@ -20711,7 +20748,7 @@ Steps: Gain life.
 
 ## Combo 4186-4384-7173
 Cards: Treebeard, Gracious Host + Scurry Oak + Virulent Emissary
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 87 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 88 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Start: Treebeard, Gracious Host (battlefield); Scurry Oak (battlefield); Virulent Emissary (battlefield)
 Prerequisites: You have a way to gain life.
@@ -20771,7 +20808,7 @@ Steps: Gain life.
 
 ## Combo 4186-4506-6996
 Cards: Scurry Oak + Auriok Champion + The Destined White Mage
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 45 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 44 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Start: Scurry Oak (battlefield); Auriok Champion (battlefield); The Destined White Mage (battlefield)
 Prerequisites: You have a way to gain life.
@@ -20807,7 +20844,7 @@ Steps: Gain life.
 
 ## Combo 4186-4716-6996
 Cards: Scurry Oak + Prosperous Innkeeper + The Destined White Mage
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 42 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 43 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Start: Scurry Oak (battlefield); Prosperous Innkeeper (battlefield); The Destined White Mage (battlefield)
 Prerequisites: You have a way to gain life.
@@ -20895,7 +20932,7 @@ Steps: Gain life.
 
 ## Combo 4186-5870-6996
 Cards: Guide of Souls + Scurry Oak + The Destined White Mage
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 52 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 51 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB; Infinite energy counters
 Start: Guide of Souls (battlefield); Scurry Oak (battlefield); The Destined White Mage (battlefield)
 Prerequisites: You have a way to gain life.
@@ -21250,7 +21287,7 @@ Notes: Once you have infinite mana, you can forego sacrificing the Lotus tokens 
 
 ## Combo 4268-4770-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Kor Celebrant + Whitemane Lion
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Kor Celebrant (battlefield); Whitemane Lion (hand)
 Steps: Cast Whitemane Lion by paying its mana cost.
@@ -21779,7 +21816,7 @@ Steps: Cast Stonecloaker by paying its mana cost.
 
 ## Combo 4415-4506-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Stonecloaker + Auriok Champion
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {2}{W}
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Stonecloaker (hand); Auriok Champion (battlefield)
 Steps: Cast Stonecloaker by paying its mana cost.
@@ -21794,7 +21831,7 @@ Steps: Cast Stonecloaker by paying its mana cost.
 
 ## Combo 4415-4716-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Stonecloaker + Prosperous Innkeeper
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {2}{W}
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Stonecloaker (hand); Prosperous Innkeeper (battlefield)
 Steps: Cast Stonecloaker by paying its mana cost.
@@ -21851,7 +21888,7 @@ Steps: Cast Stonecloaker by paying its mana cost.
 
 ## Combo 4415-5870-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Guide of Souls + Stonecloaker
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {2}{W}
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite energy counters; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Guide of Souls (battlefield); Stonecloaker (hand)
 Steps: Cast Stonecloaker by paying its mana cost.
@@ -21866,7 +21903,7 @@ Steps: Cast Stonecloaker by paying its mana cost.
 
 ## Combo 4415-6097-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Stonecloaker + Hinterland Sanctifier
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {2}{W}
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Stonecloaker (hand); Hinterland Sanctifier (battlefield)
 Steps: Cast Stonecloaker by paying its mana cost.
@@ -21896,7 +21933,7 @@ Steps: Cast Stonecloaker by paying its mana cost.
 
 ## Combo 4415-6720-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Stonecloaker + Case of the Uneaten Feast
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {2}{W}
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Stonecloaker (hand); Case of the Uneaten Feast (battlefield)
 Steps: Cast Stonecloaker by paying its mana cost.
@@ -21926,7 +21963,7 @@ Steps: Cast Stonecloaker by paying its mana cost.
 
 ## Combo 4415-7173-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Stonecloaker + Virulent Emissary
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {2}{W}
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Stonecloaker (hand); Virulent Emissary (battlefield)
 Steps: Cast Stonecloaker by paying its mana cost.
@@ -21941,7 +21978,7 @@ Steps: Cast Stonecloaker by paying its mana cost.
 
 ## Combo 4415-7818-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Stonecloaker + Liliana the Faultless
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {2}{W}
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Stonecloaker (hand); Liliana the Faultless (battlefield)
 Steps: Cast Stonecloaker by paying its mana cost.
@@ -21956,7 +21993,7 @@ Steps: Cast Stonecloaker by paying its mana cost.
 
 ## Combo 4415-8160-8170-8319
 Cards: Flickering Hound + Kwia Vigorbloom + Stonecloaker + Greenhouse Propagator
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {2}{W}
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Stonecloaker (hand); Greenhouse Propagator (battlefield)
 Steps: Cast Stonecloaker by paying its mana cost.
@@ -22159,7 +22196,7 @@ Steps: Activate Emiel the Blessed by paying {3}, blinking Prosperous Innkeeper.
 
 ## Combo 4499-4659-5474
 Cards: Bristlebud Farmer + Krark-Clan Ironworks + Emiel the Blessed
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 29 | Commander: legal | Mana needed: {3}
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 28 | Commander: legal | Mana needed: {3}
 Produces: Infinite colorless mana; Infinite lifegain; Infinite lifegain triggers; Infinite blinking; Infinite creature ETB; Infinite Food tokens; Infinite creature LTB
 Start: Bristlebud Farmer (battlefield); Krark-Clan Ironworks (battlefield); Emiel the Blessed (battlefield)
 Steps: Activate Emiel the Blessed by paying {3}, blinking Bristlebud Farmer.
@@ -22211,7 +22248,7 @@ Steps: Remove 3 +1/+1 counters from Workhorse to add {3}.
 
 ## Combo 4499-5789-8160
 Cards: Kwia Vigorbloom + Emiel the Blessed + Lifecreed Duo
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 60 | Commander: legal | Mana needed: {3}
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 61 | Commander: legal | Mana needed: {3}
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB
 Start: Kwia Vigorbloom (battlefield); Emiel the Blessed (battlefield); Lifecreed Duo (battlefield)
 Steps: Activate Emiel the Blessed by paying {3}, blinking Kwia.
@@ -22222,7 +22259,7 @@ Steps: Activate Emiel the Blessed by paying {3}, blinking Kwia.
 
 ## Combo 4499-5870-8160
 Cards: Kwia Vigorbloom + Guide of Souls + Emiel the Blessed
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 940 | Commander: legal | Mana needed: {3}
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 950 | Commander: legal | Mana needed: {3}
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite energy counters
 Start: Kwia Vigorbloom (battlefield); Guide of Souls (battlefield); Emiel the Blessed (battlefield)
 Steps: Activate Emiel the Blessed by paying {3}, blinking Kwia.
@@ -22268,7 +22305,7 @@ Steps: Activate any number of Elves you control by tapping them, adding at least
 
 ## Combo 4499-6719-8160
 Cards: Kwia Vigorbloom + Emiel the Blessed + Dazzling Angel
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 43 | Commander: legal | Mana needed: {3}
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 44 | Commander: legal | Mana needed: {3}
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB
 Start: Kwia Vigorbloom (battlefield); Emiel the Blessed (battlefield); Dazzling Angel (battlefield)
 Steps: Activate Emiel the Blessed by paying {3}, blinking Kwia.
@@ -22334,7 +22371,7 @@ Steps: Activate Emiel the Blessed by paying {3}, blinking Kwia.
 
 ## Combo 4506-4518-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Auriok Champion + Kor Skyfisher
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Auriok Champion (battlefield); Kor Skyfisher (hand)
 Steps: Cast Kor Skyfisher by paying its mana cost.
@@ -22350,7 +22387,7 @@ Notes: Once you have infinite mana, you can forego sacrificing the Lotus tokens 
 
 ## Combo 4506-4770-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Auriok Champion + Whitemane Lion
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Auriok Champion (battlefield); Whitemane Lion (hand)
 Steps: Cast Whitemane Lion by paying its mana cost.
@@ -22378,7 +22415,7 @@ Steps: Gain life.
 
 ## Combo 4506-5641-6996
 Cards: Basking Broodscale + Auriok Champion + The Destined White Mage
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 47 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 46 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Basking Broodscale (battlefield); Auriok Champion (battlefield); The Destined White Mage (battlefield)
 Prerequisites: You have a way to gain life.
@@ -22427,7 +22464,7 @@ Steps: Gain life.
 
 ## Combo 4518-4716-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Kor Skyfisher + Prosperous Innkeeper
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Kor Skyfisher (hand); Prosperous Innkeeper (battlefield)
 Steps: Cast Kor Skyfisher by paying its mana cost.
@@ -22443,7 +22480,7 @@ Notes: Once you have infinite mana, you can forego sacrificing the Lotus tokens 
 
 ## Combo 4518-4772-5554
 Cards: Oltec Matterweaver + Kor Skyfisher + Doubling Season
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite artifact ETB; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Oltec Matterweaver (battlefield); Kor Skyfisher (hand); Doubling Season (battlefield)
 Prerequisites: You control at least one Treasure or Gold token.
@@ -22499,7 +22536,7 @@ Notes: Once you have infinite mana, you can forego sacrificing the Lotus tokens 
 
 ## Combo 4518-5870-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Guide of Souls + Kor Skyfisher
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite energy counters; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Guide of Souls (battlefield); Kor Skyfisher (hand)
 Steps: Cast Kor Skyfisher by paying its mana cost.
@@ -22595,7 +22632,7 @@ Notes: Once you have infinite mana, you can forego sacrificing the Lotus tokens 
 
 ## Combo 4518-7818-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Kor Skyfisher + Liliana the Faultless
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Kor Skyfisher (hand); Liliana the Faultless (battlefield)
 Steps: Cast Kor Skyfisher by paying its mana cost.
@@ -22691,7 +22728,7 @@ Steps: Cast Basking Broodscale by paying {1}{G}.
 
 ## Combo 4535-5641-7306
 Cards: The Ooze + Basking Broodscale + Good-Fortune Unicorn
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 71 | Commander: legal | Mana needed: {1}{G}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: The Ooze (battlefield); Basking Broodscale (hand); Good-Fortune Unicorn (battlefield)
 Steps: Cast Basking Broodscale by paying {1}{G}.
@@ -22967,7 +23004,7 @@ Steps: Cast Dark Sphere by paying its mana cost.
 
 ## Combo 4716-4770-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Prosperous Innkeeper + Whitemane Lion
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Prosperous Innkeeper (battlefield); Whitemane Lion (hand)
 Steps: Cast Whitemane Lion by paying its mana cost.
@@ -23070,7 +23107,7 @@ Steps: Cast Whitemane Lion by paying {1}{W}.
 
 ## Combo 4770-5070-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Whitemane Lion + Angelic Chorus
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Whitemane Lion (hand); Angelic Chorus (battlefield)
 Steps: Cast Whitemane Lion by paying its mana cost.
@@ -23122,7 +23159,7 @@ Steps: Cast Whitemane Lion by paying {E} due to Primal Prayers, if able, or by p
 
 ## Combo 4770-5789-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Whitemane Lion + Lifecreed Duo
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Whitemane Lion (hand); Lifecreed Duo (battlefield)
 Steps: Cast Whitemane Lion by paying its mana cost.
@@ -23138,7 +23175,7 @@ Notes: Once you have infinite mana, you can forego sacrificing the Lotus tokens 
 
 ## Combo 4770-5870-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Guide of Souls + Whitemane Lion
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 32 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite energy counters; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Guide of Souls (battlefield); Whitemane Lion (hand)
 Steps: Cast Whitemane Lion by paying its mana cost.
@@ -23178,7 +23215,7 @@ Steps: Cast Whitemane Lion by paying its mana cost.
 
 ## Combo 4770-6097-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Whitemane Lion + Hinterland Sanctifier
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Whitemane Lion (hand); Hinterland Sanctifier (battlefield)
 Steps: Cast Whitemane Lion by paying its mana cost.
@@ -23194,7 +23231,7 @@ Notes: Once you have infinite mana, you can forego sacrificing the Lotus tokens 
 
 ## Combo 4770-6719-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Whitemane Lion + Dazzling Angel
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Whitemane Lion (hand); Dazzling Angel (battlefield)
 Steps: Cast Whitemane Lion by paying its mana cost.
@@ -23210,7 +23247,7 @@ Notes: Once you have infinite mana, you can forego sacrificing the Lotus tokens 
 
 ## Combo 4770-6720-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Whitemane Lion + Case of the Uneaten Feast
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Whitemane Lion (hand); Case of the Uneaten Feast (battlefield)
 Steps: Cast Whitemane Lion by paying its mana cost.
@@ -23226,7 +23263,7 @@ Notes: Once you have infinite mana, you can forego sacrificing the Lotus tokens 
 
 ## Combo 4770-6823-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Whitemane Lion + Aunt May
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Whitemane Lion (hand); Aunt May (battlefield)
 Steps: Cast Whitemane Lion by paying its mana cost.
@@ -23242,7 +23279,7 @@ Notes: Once you have infinite mana, you can forego sacrificing the Lotus tokens 
 
 ## Combo 4770-7173-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Whitemane Lion + Virulent Emissary
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Whitemane Lion (hand); Virulent Emissary (battlefield)
 Steps: Cast Whitemane Lion by paying its mana cost.
@@ -23258,7 +23295,7 @@ Notes: Once you have infinite mana, you can forego sacrificing the Lotus tokens 
 
 ## Combo 4770-7818-8160-8170
 Cards: Flickering Hound + Kwia Vigorbloom + Whitemane Lion + Liliana the Faultless
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 62 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Whitemane Lion (hand); Liliana the Faultless (battlefield)
 Steps: Cast Whitemane Lion by paying its mana cost.
@@ -23274,7 +23311,7 @@ Notes: Once you have infinite mana, you can forego sacrificing the Lotus tokens 
 
 ## Combo 4770-8160-8170-8319
 Cards: Flickering Hound + Kwia Vigorbloom + Whitemane Lion + Greenhouse Propagator
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal | Mana needed: {1}{W}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Lotus tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Flickering Hound (battlefield); Kwia Vigorbloom (battlefield); Whitemane Lion (hand); Greenhouse Propagator (battlefield)
 Steps: Cast Whitemane Lion by paying its mana cost.
@@ -23543,7 +23580,7 @@ Steps: Cast Workhorse by paying {6}, causing it to enter the battlefield with fo
 
 ## Combo 5248-7299
 Cards: Biorhythm + Cleansing Nova
-Color identity: GW | Bracket: 3+ (Powerful) | Popularity: 53 | Commander: legal | Mana needed: {9}{G}{G}{W}{W}
+Color identity: GW | Bracket: 3+ (Powerful) | Popularity: 54 | Commander: legal | Mana needed: {9}{G}{G}{W}{W}
 Produces: Draw the game; Each opponent loses the game
 Start: Biorhythm (hand); Cleansing Nova (hand)
 Steps: Cast Cleansing Nova by paying its mana cost, destroying all creatures.
@@ -23868,7 +23905,7 @@ Steps: Gain life.
 
 ## Combo 5641-5789-7743
 Cards: Basking Broodscale + Lifecreed Duo + Heroic Feast
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Basking Broodscale (battlefield); Lifecreed Duo (battlefield); Heroic Feast (battlefield)
 Prerequisites: You have a way to gain life.
@@ -23880,7 +23917,7 @@ Steps: Gain life.
 
 ## Combo 5641-5870-6996
 Cards: Basking Broodscale + Guide of Souls + The Destined White Mage
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 59 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 58 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite energy counters
 Start: Basking Broodscale (battlefield); Guide of Souls (battlefield); The Destined White Mage (battlefield)
 Prerequisites: You have a way to gain life.
@@ -24357,7 +24394,7 @@ Notes: You will also lose the game if you control no creatures as Biorhythm reso
 
 ## Combo 6323-6325
 Cards: Wall of Reverence + Jumbo Cactuar
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 810 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 820 | Commander: legal
 Produces: Near-infinite lifegain
 Start: Wall of Reverence (battlefield); Jumbo Cactuar (battlefield)
 Prerequisites: Jumbo Cactuar does not have summoning sickness.
@@ -24378,7 +24415,7 @@ Steps: Declare Jumbo Cactuar as an attacker, triggering its ability, giving it +
 
 ## Combo 6323-6327
 Cards: Dazzling Reflection + Jumbo Cactuar
-Color identity: GW | Bracket: 4+ (Ruthless) | Popularity: 140 | Commander: legal | Mana needed: {1}{W}
+Color identity: GW | Bracket: 4+ (Ruthless) | Popularity: 150 | Commander: legal | Mana needed: {1}{W}
 Produces: Near-infinite lifegain
 Start: Dazzling Reflection (hand); Jumbo Cactuar (battlefield)
 Prerequisites: Jumbo Cactuar does not have summoning sickness.

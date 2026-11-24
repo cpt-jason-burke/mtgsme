@@ -9043,7 +9043,7 @@ Steps: Activate Warren Soultrader by paying 1 life and sacrificing another creat
 
 ## Combo 342-2916-5856
 Cards: Sam, Loyal Attendant + Pippin, Warden of Isengard + Hazel's Brewmaster
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 3700 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 3600 | Commander: legal
 Produces: Infinite tapped Food tokens
 Start: Sam, Loyal Attendant (battlefield); Pippin, Warden of Isengard (exile: exiled by Hazel's Brewmaster); Hazel's Brewmaster (battlefield)
 Prerequisites: You control at least one Food.
@@ -10325,7 +10325,7 @@ Steps: Activate Blasting Station by tapping it and sacrificing Enraged Huorn.
 
 ## Combo 413-2730-5237
 Cards: Kaya's Ghostform + Blasting Station + Renegade Rallier
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 23 | Commander: legal
 Produces: Infinite damage; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Kaya's Ghostform (battlefield: attached to Renegade Rallier); Blasting Station (battlefield); Renegade Rallier (battlefield)
 Steps: Activate Blasting Station by tapping it and sacrificing Renegade Rallier.
@@ -16077,6 +16077,17 @@ Steps: Cast Herd Baloth by paying its mana cost.
   When the creature token enters, Olag and Miau's first and second abilities trigger.
   Repeat from step 3.
 
+## Combo 643-3510-5671
+Cards: Life and Limb + Maskwood Nexus + The Necrobloom
+Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 12 | Commander: legal
+Produces: Draw the game; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
+Start: Life and Limb (battlefield); Maskwood Nexus (battlefield); The Necrobloom (battlefield)
+Prerequisites: You can cause a creature or land to enter under your control.
+Steps: Cause a creature or land to enter under your control.
+  The permanent that entered is a Saproling through Maskwood Nexus and a Forest in addition to its other types due to Life and Limb, causing The Necrobloom to trigger.
+  Resolve the The Necrobloom trigger, creating a creature token.
+  Repeat steps 2-3. Unless you have a way to remove one of the pieces, this will cause an infinite mandatory loop and draw the game.
+
 ## Combo 643-4186-8329
 Cards: Olag and Miau, New Friends + Maskwood Nexus + Scurry Oak
 Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 15 | Commander: legal | Mana needed: {2}{G}
@@ -19086,7 +19097,7 @@ Notes: This order of operations (and the additional {2} starting mana) are neces
 
 ## Combo 687-2034-3921-8130
 Cards: Tayam, Luminous Enigma + Wall of Roots + Ashnod's Altar + Winding Constrictor
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 980 | Commander: legal | Mana needed: {2}
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 990 | Commander: legal | Mana needed: {2}
 Produces: Infinite self-mill; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Tayam, Luminous Enigma (battlefield); Wall of Roots (battlefield); Ashnod's Altar (battlefield); Winding Constrictor (battlefield)
 Prerequisites: There is at least one counter on a creature you control.
@@ -19445,7 +19456,7 @@ Steps: Activate Tayam by paying {3} and removing three counters from creatures y
 
 ## Combo 687-2335-2387
 Cards: Tayam, Luminous Enigma + Rishkar, Peema Renegade + Barrenton Medic
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 52 | Commander: legal
 Produces: Infinite self-mill; Put a selection of permanant cards from your library and graveyard onto the battlefield
 Start: Tayam, Luminous Enigma (battlefield); Rishkar, Peema Renegade (battlefield); Barrenton Medic (battlefield)
 Prerequisites: Barrenton Medic has a vigilance counter on it.
@@ -20395,7 +20406,7 @@ Notes: This order of operations (and the additional {2} starting mana) are neces
 
 ## Combo 687-4050-4626
 Cards: Tayam, Luminous Enigma + Promise of Bunrei + Phyrexian Altar
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 610 | Commander: legal | Mana needed: {2}
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 600 | Commander: legal | Mana needed: {2}
 Produces: Infinite colored mana; Infinite creature tokens; Infinite self-mill; Put a selection of permanant cards from your library and graveyard onto the battlefield; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Tayam, Luminous Enigma (battlefield); Promise of Bunrei (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -21260,7 +21271,7 @@ Steps: Activate Hammerhead by sacrificing Danitha
 
 ## Combo 713-2921--5
 Cards: Surrak and Goreclaw + Bartolomé del Presidio
-Color identity: WBG | Bracket: 2-3+ (Oddball) | Popularity: 62 | Commander: legal
+Color identity: WBG | Bracket: 2-3+ (Oddball) | Popularity: 61 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Requires: Persist Creature (battlefield: without a -1/-1 counter on it)
 Start: Surrak and Goreclaw (battlefield); Bartolomé del Presidio (battlefield)
@@ -21338,7 +21349,7 @@ Steps: Activate Woe Strider by sacrificing another nonland creature you control.
 
 ## Combo 730-1479-3861
 Cards: Kodama of the East Tree + Emeria Angel + Orzhov Basilica
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 630 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 620 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Emeria Angel (battlefield); Orzhov Basilica (hand)
 Prerequisites: You are able to play a land this turn.
@@ -21458,6 +21469,18 @@ Steps: Activate Bartolomé del Presidio by sacrificing another nonland creature 
   When the land enters, Emeria Angel triggers, creating a creature token.
   Resolve the Bartolomé del Presidio ability.
   Repeat.
+
+## Combo 730-3510-4875
+Cards: Life and Limb + Emeria Angel + Conspiracy
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
+Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
+Start: Life and Limb (battlefield); Emeria Angel (battlefield); Conspiracy (battlefield)
+Prerequisites: You can cause a creature or land to enter under your control.
+  Saproling has been chosen with Conspiracy.
+Steps: Cause a creature or land to enter under your control.
+  The permanent that entered is a Saproling through Conspiracy and a Forest in addition to its other types due to Life and Limb, causing Emeria Angel to trigger.
+  Resolve the Emeria Angel trigger, choosing to create a creature token.
+  Repeat steps 2-3.
 
 ## Combo 730-3899-7084
 Cards: Beifong's Bounty Hunters + Spawning Pit + Emeria Angel
@@ -23415,7 +23438,7 @@ Steps: Activate Shilgengar by sacrificing Cauldron Familiar.
 
 ## Combo 856-5270-6797
 Cards: Samwise Gamgee + Cauldron Familiar + Phantom Train
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal
 Produces: Infinite lifegain; Infinite lifeloss; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Samwise Gamgee (battlefield); Cauldron Familiar (battlefield); Phantom Train (battlefield)
 Prerequisites: You control a Food token.
@@ -24162,7 +24185,7 @@ Steps: Activate Perilous Forays by paying {1} and sacrificing a creature.
 
 ## Combo 880-2757-5671
 Cards: Perilous Forays + Earthcraft + The Necrobloom
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal | Mana needed: {1}
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal | Mana needed: {1}
 Produces: Put all lands with a basic land type from your library onto the battlefield
 Start: Perilous Forays (battlefield); Earthcraft (battlefield); The Necrobloom (battlefield)
 Prerequisites: You control an additional creature.
@@ -24174,7 +24197,7 @@ Steps: Activate Perilous Forays by paying {1} and sacrificing a creature, causin
 
 ## Combo 880-3470-5671
 Cards: Perilous Forays + Lotus Cobra + The Necrobloom
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 710 | Commander: legal | Mana needed: {1}
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 700 | Commander: legal | Mana needed: {1}
 Produces: Put all lands with a basic land type from your library onto the battlefield tapped
 Start: Perilous Forays (battlefield); Lotus Cobra (battlefield); The Necrobloom (battlefield)
 Prerequisites: You control an additional creature.
@@ -27005,7 +27028,7 @@ Steps: Activate Carrion Feeder by sacrificing Junk Diver.
 
 ## Combo 1144-1262-3510
 Cards: Drana and Linvala + Yavimaya, Cradle of Growth + Life and Limb
-Color identity: WBG | Bracket: 4+ (Ruthless) | Popularity: 51 | Commander: legal
+Color identity: WBG | Bracket: 4+ (Ruthless) | Popularity: 50 | Commander: legal
 Produces: Opponents can't activate abilities of lands or creatures they control; Lock; Mass Land Denial
 Start: Drana and Linvala (battlefield); Yavimaya, Cradle of Growth (battlefield); Life and Limb (battlefield)
 Steps: Life and Limb and Yavimaya cause all lands to be 1/1 Saproling creatures that are also Forests in addition to their other types.
@@ -27013,7 +27036,7 @@ Steps: Life and Limb and Yavimaya cause all lands to be 1/1 Saproling creatures 
 
 ## Combo 1144-1262-4180
 Cards: Drana and Linvala + Yavimaya, Cradle of Growth + Living Lands
-Color identity: WBG | Bracket: 4+ (Ruthless) | Popularity: 42 | Commander: legal
+Color identity: WBG | Bracket: 4+ (Ruthless) | Popularity: 41 | Commander: legal
 Produces: Opponents can't activate abilities of lands or creatures they control; Lock; Mass Land Denial
 Start: Drana and Linvala (battlefield); Yavimaya, Cradle of Growth (battlefield); Living Lands (battlefield)
 Steps: Living Lands and Yavimaya cause all lands to be 1/1 creatures that are also Forests in addition to their other types.
@@ -27021,7 +27044,7 @@ Steps: Living Lands and Yavimaya cause all lands to be 1/1 creatures that are al
 
 ## Combo 1144-3510-3972
 Cards: Yavimaya, Cradle of Growth + Life and Limb + Ethereal Absolution
-Color identity: WBG | Bracket: 4+ (Ruthless) | Popularity: 37 | Commander: legal
+Color identity: WBG | Bracket: 4+ (Ruthless) | Popularity: 36 | Commander: legal
 Produces: Destroy all lands opponents control; Destroy all lands that enter the battlefield under an opponent's control; Lock; Mass Land Denial
 Start: Yavimaya, Cradle of Growth (battlefield); Life and Limb (battlefield); Ethereal Absolution (battlefield)
 Steps: Yavimaya causes all lands to be Forests in addition to their other types, thus Life and Limb causes all lands to be 1/1 Saproling creatures.
@@ -28970,7 +28993,7 @@ Steps: Activate Camellia by paying {2} and sacrificing a Food.
 
 ## Combo 1308-4571-5702
 Cards: Springheart Nantuko + Anointed Procession + Life // Death
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal | Mana needed: {2}{G}{G}{G}
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {2}{G}{G}{G}
 Produces: Infinite creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (hand); Anointed Procession (battlefield); Life // Death (hand)
 Prerequisites: You control a Forest that enters the battlefield untapped.
@@ -29504,7 +29527,7 @@ Notes: It is recommended to pay at least {1} additional to start to get infinite
 
 ## Combo 1353-1887-3323-4020
 Cards: Tevesh Szat, Doom of Fools + Sidar Kondo of Jamuraa + Norn's Choirmaster + Vorinclex, Monstrous Raider
-Color identity: WBG | Bracket: 2-3+ (Oddball) | Popularity: 5 | Commander: legal | Mana needed: {4}{B}, plus commander tax (if applicable)
+Color identity: WBG | Bracket: 2-3+ (Oddball) | Popularity: 6 | Commander: legal | Mana needed: {4}{B}, plus commander tax (if applicable)
 Produces: Infinite proliferate; Gain control of all commanders; Put all commanders from the command zone onto the battlefield
 Start: Tevesh Szat, Doom of Fools (hand, command zone: must be your commander); Sidar Kondo of Jamuraa (hand, battlefield, command zone, exile, graveyard, library: must be your commander); Norn's Choirmaster (battlefield); Vorinclex, Monstrous Raider (battlefield)
 Prerequisites: Tevesh Szat and Sidar Kondo of Jamuraa are your commanders.
@@ -29518,7 +29541,7 @@ Steps: Cast Tevesh Szat by paying {4}{B}, plus commander tax (if applicable).
 
 ## Combo 1353-3323-4020-4772
 Cards: Tevesh Szat, Doom of Fools + Sidar Kondo of Jamuraa + Norn's Choirmaster + Doubling Season
-Color identity: WBG | Bracket: 2-3+ (Oddball) | Popularity: 5 | Commander: legal | Mana needed: {4}{B}, plus commander tax (if applicable)
+Color identity: WBG | Bracket: 2-3+ (Oddball) | Popularity: 6 | Commander: legal | Mana needed: {4}{B}, plus commander tax (if applicable)
 Produces: Infinite proliferate; Gain control of all commanders; Put all commanders from the command zone onto the battlefield
 Start: Tevesh Szat, Doom of Fools (hand, command zone: must be your commander); Sidar Kondo of Jamuraa (hand, battlefield, command zone, exile, graveyard, library: must be your commander); Norn's Choirmaster (battlefield); Doubling Season (battlefield)
 Prerequisites: Tevesh Szat and Sidar Kondo of Jamuraa are your commanders.
@@ -29532,7 +29555,7 @@ Steps: Cast Tevesh Szat by paying {4}{B}, plus commander tax (if applicable).
 
 ## Combo 1385-2012-4050-5189
 Cards: Ghave, Guru of Spores + Phyrexian Altar + Strangleroot Geist + Zulaport Cutthroat
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 360 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 350 | Commander: legal
 Produces: Infinite colored mana; Infinite creature tokens; Infinite lifegain; Infinite lifeloss; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Ghave, Guru of Spores (battlefield); Phyrexian Altar (battlefield); Strangleroot Geist (battlefield); Zulaport Cutthroat (battlefield)
 Prerequisites: Strangleroot Geist does not have a +1/+1 counter on it.
@@ -30509,7 +30532,7 @@ Steps: Play Orzhov Basilica.
 
 ## Combo 1479-3678-3861
 Cards: Kodama of the East Tree + Retreat to Emeria + Orzhov Basilica
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 260 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 250 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Retreat to Emeria (battlefield); Orzhov Basilica (hand)
 Prerequisites: You are able to play a land this turn.
@@ -30550,34 +30573,4 @@ Steps: Play Orzhov Basilica.
   Resolve the Tireless Provisioner trigger, creating a token.
   When the token enters the battlefield, Kodama triggers, putting Orzhov Basilica from your hand onto the battlefield.
   When Orzhov Basilica enters the battlefield, it and Tireless Provisioner trigger.
-  Repeat from step 4.
-
-## Combo 1479-3861-4488
-Cards: Kodama of the East Tree + Orzhov Basilica + Rampaging Baloths
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 1000 | Commander: legal
-Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
-Start: Kodama of the East Tree (battlefield); Orzhov Basilica (hand); Rampaging Baloths (battlefield)
-Prerequisites: You are able to play a land this turn.
-Steps: Play Orzhov Basilica.
-  When Orzhov Basilica enters the battlefield, it, Rampaging Baloths, and Kodama of the East Tree trigger.
-  Resolve the Kodama of the East Tree trigger, choosing not to put anything from your hand onto the battlefield.
-  Resolve the Orzhov Basilica trigger, returning it from the battlefield to your hand.
-  Resolve the Rampaging Baloths trigger, creating a token.
-  When the token enters the battlefield, Kodama triggers, putting Orzhov Basilica from your hand onto the battlefield.
-  When Orzhov Basilica enters the battlefield, it and Rampaging Baloths trigger.
-  Repeat from step 4.
-
-## Combo 1479-3861-4677
-Cards: Kodama of the East Tree + Orzhov Basilica + Zendikar's Roil
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 290 | Commander: legal
-Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
-Start: Kodama of the East Tree (battlefield); Orzhov Basilica (hand); Zendikar's Roil (battlefield)
-Prerequisites: You are able to play a land this turn.
-Steps: Play Orzhov Basilica.
-  When Orzhov Basilica enters the battlefield, it, Zendikar's Roil, and Kodama of the East Tree trigger.
-  Resolve the Kodama of the East Tree trigger, choosing not to put anything from your hand onto the battlefield.
-  Resolve the Orzhov Basilica trigger, returning it from the battlefield to your hand.
-  Resolve the Zendikar's Roil trigger, creating a token.
-  When the token enters the battlefield, Kodama triggers, putting Orzhov Basilica from your hand onto the battlefield.
-  When Orzhov Basilica enters the battlefield, it and Zendikar's Roil trigger.
   Repeat from step 4.

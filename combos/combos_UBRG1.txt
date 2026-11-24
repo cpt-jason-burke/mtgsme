@@ -2568,7 +2568,7 @@ Steps: Activate Zimone's first ability by paying {1} and tapping it, putting Rak
 
 ## Combo 224-1772-3257-3470
 Cards: Zimone, Quandrix Prodigy + Retreat to Coralhelm + Rakdos Carnarium + Lotus Cobra
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal | Mana needed: {1}
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 53 | Commander: legal | Mana needed: {1}
 Produces: Infinite landfall triggers
 Start: Zimone, Quandrix Prodigy (battlefield: without summoning sickness); Retreat to Coralhelm (battlefield); Rakdos Carnarium (hand); Lotus Cobra (battlefield)
 Steps: Activate Zimone's first ability by paying {1} and tapping it, putting Rakdos Carnarium from your hand onto the battlefield.
@@ -2605,7 +2605,7 @@ Steps: Activate Zimone's first ability by paying {1} and tapping it, putting Rak
 
 ## Combo 224-1772-3257-5478
 Cards: Zimone, Quandrix Prodigy + Retreat to Coralhelm + Spelunking + Rakdos Carnarium
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal | Mana needed: {1}
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal | Mana needed: {1}
 Produces: Infinite red mana; Infinite black mana; Infinite landfall triggers
 Start: Zimone, Quandrix Prodigy (battlefield: without summoning sickness); Retreat to Coralhelm (battlefield); Spelunking (battlefield); Rakdos Carnarium (hand)
 Steps: Activate Zimone's first ability by paying {1} and tapping it, putting Rakdos Carnarium from your hand onto the battlefield untapped due to Spelunking.
@@ -2831,7 +2831,7 @@ Steps: Activate a land by tapping it, adding at least {1}.
 
 ## Combo 224-6701-6756
 Cards: Hearthhull, the Worldseed + Retreat to Coralhelm + Szarel, Genesis Shepherd
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 53 | Commander: legal
 Produces: Infinite card draw; Near-infinite lifeloss; Infinite draw triggers; Near-infinite landfall triggers
 Start: Hearthhull, the Worldseed (battlefield); Retreat to Coralhelm (battlefield); Szarel, Genesis Shepherd (battlefield)
 Prerequisites: You control a land that enters the battlefield untapped and that can tap to produce at least {1}.
@@ -9360,7 +9360,7 @@ Steps: Pay {1} to activate Patron of the Moon, putting Rakdos Carnarium onto the
 
 ## Combo 774-3257-5478
 Cards: Patron of the Moon + Spelunking + Rakdos Carnarium
-Color identity: UBRG | Bracket: 3-4+ (Spicy) | Popularity: 65 | Commander: legal | Mana needed: {1}
+Color identity: UBRG | Bracket: 3-4+ (Spicy) | Popularity: 64 | Commander: legal | Mana needed: {1}
 Produces: Infinite black mana; Infinite red mana; Infinite landfall triggers
 Start: Patron of the Moon (battlefield); Spelunking (battlefield); Rakdos Carnarium (hand)
 Steps: Pay {1} to activate Patron of the Moon, putting  Rakdos Carnarium from your hand onto the battlefield untapped due to Spelunking.
@@ -16299,7 +16299,7 @@ Steps: Cast the artifact from your graveyard using Muldrotha's ability by paying
 
 ## Combo 1170-5195-7499
 Cards: Displacer Kitten + Storm-Kiln Artist + Lluwen, Exchange Student // Pest Friend
-Color identity: UBRG | Bracket: 3-4+ (Spicy) | Popularity: 300 | Commander: legal | Mana needed: {B/G}
+Color identity: UBRG | Bracket: 3-4+ (Spicy) | Popularity: 310 | Commander: legal | Mana needed: {B/G}
 Produces: Infinite creature tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
 Start: Displacer Kitten (battlefield); Storm-Kiln Artist (battlefield); Lluwen, Exchange Student // Pest Friend (battlefield)
 Steps: Cast a copy of the prepared spell from exile by paying one mana, unpreparing Lluwen, Exchange Student.
@@ -27273,6 +27273,30 @@ Steps: Cast Ebondeath from your graveyard by paying {B}{B}.
   Repeat.
 Notes: This combo will steadily put more +1/+1 counters on Ebondeath and the Zombie Rogue token, eventually resulting in an infinite number of them.
 
+## Combo 3510-4875-6517
+Cards: Life and Limb + Conspiracy + Dragonback Assault
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Draw the game; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
+Start: Life and Limb (battlefield); Conspiracy (battlefield); Dragonback Assault (battlefield)
+Prerequisites: You can cause a creature or land to enter under your control.
+  Saproling has been chosen with Conspiracy.
+Steps: Cause a creature or land to enter under your control.
+  The permanent that entered is a Saproling through Conspiracy and a Forest in addition to its other types due to Life and Limb, causing Dragonback Assault to trigger.
+  Resolve the Dragonback Assault trigger, creating a creature token.
+  Repeat steps 2-3. Unless you have a way to remove one of the pieces, this will cause an infinite mandatory loop and draw the game.
+
+## Combo 3510-4875-7374
+Cards: Life and Limb + Conspiracy + The Lost and the Damned
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Draw the game; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
+Start: Life and Limb (battlefield); Conspiracy (battlefield); The Lost and the Damned (battlefield)
+Prerequisites: You can cause a creature or land to enter under your control from anywhere other than your hand.
+  If Conspiracy requires you to choose a type, Saproling was chosen.
+Steps: Cause a creature or land to enter under your control from anywhere other than your hand.
+  Each permanent that entered is a Saproling through Conspiracy and a Forest in addition to its other types due to Life and Limb, causing The Lost and the Damned to trigger that many times.
+  Resolve a The Lost and the Damned trigger, creating a 3/3 red Spawn creature token.
+  Repeat steps 2-3. Unless you have a way to remove one of the pieces, this will cause an infinite mandatory loop and draw the game.
+
 ## Combo 3512-4826-5702-5954
 Cards: Springheart Nantuko + Overlord of the Hauntwoods + Mana Flare + Archelos, Lagoon Mystic
 Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -28978,7 +29002,7 @@ Steps: Cast the extra turn spell by paying its mana cost, causing you to take an
 
 ## Combo 4867-5352
 Cards: Doppelgang + Cormela, Glamour Thief
-Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 32 | Commander: legal | Mana needed: {11}{G}
+Color identity: UBRG | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal | Mana needed: {11}{G}
 Produces: Infinite creature tokens; Infinite copies of all permanents; Infinite mana permanents you control can produce; Infinite casts of instants and sorceries in your hand and graveyard; Infinite creature ETB; Infinite storm count; Infinite magecraft triggers; Infinite landfall triggers
 Start: Doppelgang (hand); Cormela, Glamour Thief (battlefield)
 Prerequisites: There are three permanents on the battlefield that can collectively tap to produce at least {2}{G}
