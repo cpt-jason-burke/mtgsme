@@ -60,3 +60,12 @@ When the user sends a link to a pull, sale or listing of a headliner card (`docs
 
 ## Rebuilding the data
 `tools/build_site.py` and `tools/build_cards.py` regenerate the data from a checkout of https://github.com/taw/magic-search-engine, and `tools/build_combos.py` regenerates the combos from Commander Spellbook's export (see README.md). Do not edit the generated files by hand.
+
+## Git hygiene (standard procedure for every session)
+
+- **Code repo: one short-lived branch per task.** Open a PR, squash-merge it, and delete the branch right after merge. Never leave a session's branch behind.
+- **Continuing the same task?** Reuse the existing open `claude/*` branch instead of starting a new one.
+- **Start of every session:** list stale `claude/*` branches (merged, or no open PR and no commits for 14+ days) and offer to clean them up. Never touch `main` or branches that don't start with `claude/` without asking.
+- **Before ending a session:** check for leftover branches Jason owns here and say so in the final message.
+- `.github/workflows/branch-cleanup.yml` runs weekly. It is dry-run until the repo variable `CLEANUP_LIVE` is set to `true`.
+- Exception: the hand-kept data lists described above (events, announced sets, precon files, headliner finds) may be committed straight to `main`, as those sections say.
