@@ -1,0 +1,58 @@
+name: Branch cleanup (claude/*)
+
+# Weekly. Deletes ONLY branches named claude/* that are
+#   (a) fully merged into the default branch, or
+#   (b) have no open PR and no commits for 14+ days.
+# Never touches the default branch or any non-claude/* branch.
+#
+# DRY-RUN BY DEFAULT (logs only). To go live: repo Settings > Secrets and
+# variables > Actions > Variables > New variable  CLEANUP_LIVE = true
+# (or run the workflow manually and set "live" to true).
+
+on:
+  schedule:
+    - cron: "17 9 * * 1"
+  workflow_dispatch:
+    inputs:
+      live:
+        description: "Actually delete (true) or log only (false)"
+        default: "false"
+
+permissions:
+  contents: write
+  pull-requests: read
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+      DEFAULT: ${{ github.event.repository.default_branch }}
+      LIVE: ${{ github.event.inputs.live || vars.CLEANUP_LIVE || 'false' }}
+      MAX_AGE_DAYS: "14"
+    steps:
+      - name: Find and delete stale claude/* branches
+        run: |
+          set -euo pipefail
+          echo "Mode: $([ "$LIVE" = "true" ] && echo LIVE || echo DRY-RUN)  default=$DEFAULT"
+          cutoff=$(date -u -d "-${MAX_AGE_DAYS} days" +%s)
+          gh api --paginate "repos/$REPO/branches?per_page=100" --jq '.[].name' | grep '^claude/' | while read -r b; do
+            [ "$b" = "$DEFAULT" ] && continue
+            enc=$(printf '%s' "$b" | sed 's#/#%2F#g')
+            ahead=$(gh api "repos/$REPO/compare/$DEFAULT...$enc" --jq '.ahead_by')
+            open=$(gh api "repos/$REPO/pulls?state=open&head=${REPO%%/*}:$enc" --jq 'length')
+            last=$(gh api "repos/$REPO/commits/$enc" --jq '.commit.committer.date')
+            age=$(date -u -d "$last" +%s)
+            reason=""
+            if [ "$open" != "0" ]; then reason=""
+            elif [ "$ahead" = "0" ]; then reason="merged into $DEFAULT"
+            elif [ "$age" -lt "$cutoff" ]; then reason="no open PR, last commit $last (14+ days)"
+            fi
+            if [ -z "$reason" ]; then echo "KEEP   $b (ahead=$ahead openPRs=$open last=$last)"; continue; fi
+            if [ "$LIVE" = "true" ]; then
+              gh api -X DELETE "repos/$REPO/git/refs/heads/$b" && echo "DELETED $b ($reason)"
+            else
+              echo "WOULD DELETE $b ($reason)"
+            fi
+          done
