@@ -1,3 +1,17 @@
+## Combo 1734-3913-5147
+Cards: Crypt Champion + Fiend Hunter + Goblin Bombardment
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {1}{W}{W}
+Produces: Infinite damage; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
+Start: Crypt Champion (battlefield); Fiend Hunter (hand); Goblin Bombardment (battlefield)
+Steps: Cast Fiend Hunter by paying {1}{W}{W}.
+  Fiend Hunter enters the battlefield, exiling Crypt Champion.
+  Activate Goblin Bombardment by sacrificing Fiend Hunter.
+  Fiend Hunter leaves the battlefield, returning Crypt Champion from exile to the battlefield.
+  Crypt Champion enters the battlefield, triggering its first and second abilities.
+  Resolve the first Crypt Champion trigger, returning Fiend Hunter from your graveyard to the battlefield.
+  Repeat from step 2.
+  Once you have a large amount of Goblin Bombardment triggers, you may stop the loop and deal infinite damage to any target(s).
+
 ## Combo 1734-3991-4846
 Cards: Worldgorger Dragon + Fiend Hunter + Faceless Butcher
 Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
@@ -168,7 +182,7 @@ Notes: Due to differences in card templating between the various banisher effect
 
 ## Combo 1736-2034-5003
 Cards: Nim Deathmantle + Ashnod's Altar + Ponyback Brigade
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal | Mana needed: {2}
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal | Mana needed: {2}
 Produces: Infinite colored mana; Infinite creature tokens; Infinite colorless mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Ponyback Brigade (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Ponyback Brigade, adding {C}{C}.
@@ -1075,7 +1089,7 @@ Steps: Cast Acererak by paying {B}.
 
 ## Combo 1827-8194-8195
 Cards: Dack Fayden, Helping Hand + Venser, Fervent Forger + Vampiric Tutor
-Color identity: RWB | Bracket: 3+ (Powerful) | Popularity: 180 | Commander: legal | Mana needed: {4}{W}{W}{B}
+Color identity: RWB | Bracket: 3+ (Powerful) | Popularity: 190 | Commander: legal | Mana needed: {4}{W}{W}{B}
 Produces: Infinite creature tokens with haste; Infinite artifact tokens; Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Start: Dack Fayden, Helping Hand (hand); Venser, Fervent Forger (library); Vampiric Tutor (hand)
 Prerequisites: You have at least 3 life.
@@ -1339,7 +1353,7 @@ Steps: Activate Defiant Salvager by sacrificing a creature
 
 ## Combo 1829-3054-3416-5670
 Cards: Edgar Markov + Oathsworn Vampire + Warren Soultrader + Vindictive Vampire
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 50 | Commander: legal | Mana needed: {1}{B}
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal | Mana needed: {1}{B}
 Produces: Infinite damage; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Edgar Markov (battlefield); Oathsworn Vampire (battlefield); Warren Soultrader (battlefield); Vindictive Vampire (battlefield)
 Prerequisites: You've gained life this turn if Oathsworn Vampire is in your graveyard.
@@ -1731,7 +1745,7 @@ Notes: Due to differences in card templating between the various banisher effect
 
 ## Combo 1938-5887-6473
 Cards: Glorious Protector + Werefox Bodyguard + Mardu Siegebreaker
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
 Produces: Infinite creature ETB; Infinite creature LTB
 Start: Glorious Protector (hand, battlefield, exile: Exiled by the creature on the battlefield); Werefox Bodyguard (hand, battlefield, exile: Exiled by the creature on the battlefield); Mardu Siegebreaker (hand, battlefield, exile: Exiled by the creature on the battlefield)
 Prerequisites: Mardu Siegebreaker must be exiled by Werefox Bodyguard, and Glorious Protector must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
@@ -19304,7 +19318,7 @@ Steps: Activate Bartolomé del Presidio by sacrificing Sword of the Meek.
 
 ## Combo 2558-2921-5346-5433
 Cards: Krenko, Baron of Tin Street + Crime Novelist + Sword of the Meek + Bartolomé del Presidio
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite creature tokens with haste; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Krenko, Baron of Tin Street (battlefield); Crime Novelist (battlefield); Sword of the Meek (battlefield); Bartolomé del Presidio (battlefield)
 Steps: Activate Bartolomé del Presidio by sacrificing Sword of the Meek.
@@ -20876,7 +20890,7 @@ Steps: Cast Oathsworn Vampire either from your hand or graveyard by paying {1}{B
 
 ## Combo 2842-4681-5147-5170
 Cards: Junji, the Midnight Sky + Goblin Bombardment + Blood Artist + Karmic Guide
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 40 | Commander: legal
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 41 | Commander: legal
 Produces: Infinite damage; Infinite lifeloss; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Junji, the Midnight Sky (battlefield); Goblin Bombardment (battlefield); Blood Artist (battlefield); Karmic Guide (battlefield)
 Steps: Activate Goblin Bombardment by sacrificing Karmic Guide.
@@ -22851,7 +22865,7 @@ Steps: Cast Oathsworn Vampire either from your hand or graveyard by paying {1}{B
 
 ## Combo 3025-4681-5147-5170
 Cards: Junji, the Midnight Sky + Goblin Bombardment + Bastion of Remembrance + Karmic Guide
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 23 | Commander: legal
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 24 | Commander: legal
 Produces: Infinite damage; Infinite lifeloss; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Junji, the Midnight Sky (battlefield); Goblin Bombardment (battlefield); Bastion of Remembrance (battlefield); Karmic Guide (battlefield)
 Steps: Activate Goblin Bombardment by sacrificing Karmic Guide.
@@ -22920,7 +22934,7 @@ Notes: If Vengeful Vampire starts with a +1/+1 counter on it, then you may start
 
 ## Combo 3039-8194-8195
 Cards: Dack Fayden, Helping Hand + Venser, Fervent Forger + Liliana Vess
-Color identity: RWB | Bracket: 3+ (Powerful) | Popularity: 5 | Commander: legal | Mana needed: {4}{W}{W}
+Color identity: RWB | Bracket: 3+ (Powerful) | Popularity: 6 | Commander: legal | Mana needed: {4}{W}{W}
 Produces: Infinite creature tokens with haste; Infinite artifact tokens; Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Start: Dack Fayden, Helping Hand (hand); Venser, Fervent Forger (library); Liliana Vess (battlefield)
 Prerequisites: Liliana Vess has at least two loyalty counters.
@@ -24403,7 +24417,7 @@ Steps: Activate Thermopod by sacrificing Sister Hospitaller.
 
 ## Combo 3305-3817-6495
 Cards: Body Launderer + Sister Hospitaller + Evereth, Viceroy of Plunder
-Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 18 | Commander: legal
+Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 19 | Commander: legal
 Produces: Near-infinite lifegain; Near-infinite damage; Infinite looting; Near-infinite +1/+1 counters on a creature; Near-infinite lifegain triggers; Infinite draw triggers; Infinite self-discard triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: Body Launderer (battlefield); Sister Hospitaller (battlefield); Evereth, Viceroy of Plunder (battlefield)
 Steps: Activate Evereth by sacrificing Sister Hospitaller.
@@ -24418,7 +24432,7 @@ Notes: If you have a way to kill Evereth and {1}{B/R} available, you can do so a
 
 ## Combo 3305-4681-5147
 Cards: Body Launderer + Karmic Guide + Goblin Bombardment
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 280 | Commander: legal
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 290 | Commander: legal
 Produces: Near-infinite damage; Infinite looting; Infinite draw triggers; Infinite self-discard triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers
 Start: Body Launderer (battlefield); Karmic Guide (battlefield); Goblin Bombardment (battlefield)
 Steps: Activate Goblin Bombardment by sacrificing Karmic Guide.
@@ -27760,7 +27774,7 @@ Steps: Activate Yahenni by sacrificing the creature with Griffin Guide attached.
 
 ## Combo 3967-6188-6591--85
 Cards: Squall, SeeD Mercenary + Fear of Missing Out + Yahenni, Undying Partisan
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal
 Produces: Near-infinite combat damage; Near-infinite combat phases; Infinite rummaging; Infinite self-discard triggers; Near-infinite creature ETB; Infinite draw triggers; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Requires: Haste Enabler (battlefield)
 Start: Squall, SeeD Mercenary (battlefield); Fear of Missing Out (battlefield); Yahenni, Undying Partisan (battlefield)
@@ -28640,7 +28654,7 @@ Steps: Activate Fanatical Firebrand by tapping and sacrificing it.
 
 ## Combo 4079-8194-8195
 Cards: Dack Fayden, Helping Hand + Venser, Fervent Forger + Scheming Symmetry
-Color identity: RWB | Bracket: 2+ (Core) | Popularity: 67 | Commander: legal | Mana needed: {4}{W}{W}{B}
+Color identity: RWB | Bracket: 2+ (Core) | Popularity: 70 | Commander: legal | Mana needed: {4}{W}{W}{B}
 Produces: Infinite creature tokens with haste; Infinite artifact tokens; Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Start: Dack Fayden, Helping Hand (hand); Venser, Fervent Forger (library); Scheming Symmetry (hand)
 Steps: Cast Scheming Symmetry targeting yourself and an opponent by paying {B}, searching your library for Venser, shuffling your library, and putting that card on top. The opponent you targeted does the same for their own chosen card.
@@ -28982,7 +28996,7 @@ Steps: Activate Bloodthrone Vampire by sacrificing the creature with Griffin Gui
 
 ## Combo 4247-6431--5
 Cards: Celes, Rune Knight + Bloodthrone Vampire
-Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 360 | Commander: legal
+Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 370 | Commander: legal
 Produces: Infinite +1/+1 counters on creatures you control; Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield: without a -1/-1 counter on it)
 Start: Celes, Rune Knight (battlefield); Bloodthrone Vampire (battlefield)
@@ -29585,7 +29599,7 @@ Steps: At the beginning of your combat phase, Terra's first ability triggers, ca
 
 ## Combo 4364-5686-7917
 Cards: Aurelia, the Warleader + Seluma, Light of Aysen + Shilgengar, Sire of Famine
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite mana creatures you control can produce; Infinite artifact tokens; Infinite Blood tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite untap of creatures you control
 Start: Aurelia, the Warleader (battlefield); Seluma, Light of Aysen (battlefield: without summoning sickness); Shilgengar, Sire of Famine (battlefield)
 Prerequisites: Aurelia hasn't attacked this turn.
@@ -30999,17 +31013,5 @@ Steps: Activate Krark-Clan Grunt by sacrificing Arcbound Overseer.
   When Arcbound Overseer dies, its modular ability and persist ability trigger.
   Resolve the modular trigger, putting Arcbound Overseer's +1/+1 counters on another artifact creature.
   Resolve the persist trigger, returning Arcbound Overseer from your graveyard to the battlefield. It will not have a -1/-1 counter on it due to its modular ability.
-  Resolve the Krark-Clan Grunt ability.
-  Repeat.
-
-## Combo 4779-6972-7153
-Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Krark-Clan Grunt + Arcbound Bruiser
-Color identity: RWB | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on certain creatures; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinitely powerful creature until end of turn
-Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Krark-Clan Grunt (battlefield); Arcbound Bruiser (battlefield)
-Steps: Activate Krark-Clan Grunt by sacrificing Arcbound Bruiser.
-  When Arcbound Bruiser dies, its modular ability and persist ability trigger.
-  Resolve the modular trigger, putting Arcbound Bruiser's +1/+1 counters on another artifact creature.
-  Resolve the persist trigger, returning Arcbound Bruiser from your graveyard to the battlefield. It will not have a -1/-1 counter on it due to its modular ability.
   Resolve the Krark-Clan Grunt ability.
   Repeat.

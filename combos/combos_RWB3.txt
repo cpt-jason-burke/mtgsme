@@ -1,3 +1,15 @@
+## Combo 4779-6972-7153
+Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Krark-Clan Grunt + Arcbound Bruiser
+Color identity: RWB | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
+Produces: Infinite +1/+1 counters on certain creatures; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinitely powerful creature until end of turn
+Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Krark-Clan Grunt (battlefield); Arcbound Bruiser (battlefield)
+Steps: Activate Krark-Clan Grunt by sacrificing Arcbound Bruiser.
+  When Arcbound Bruiser dies, its modular ability and persist ability trigger.
+  Resolve the modular trigger, putting Arcbound Bruiser's +1/+1 counters on another artifact creature.
+  Resolve the persist trigger, returning Arcbound Bruiser from your graveyard to the battlefield. It will not have a -1/-1 counter on it due to its modular ability.
+  Resolve the Krark-Clan Grunt ability.
+  Repeat.
+
 ## Combo 4779-6972-7154
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Krark-Clan Grunt + Arcbound Condor
 Color identity: RWB | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
@@ -551,7 +563,7 @@ Steps: Activate Defiant Salvager by sacrificing the creature that has Screams fr
 
 ## Combo 5078-6890-6900
 Cards: Sensei's Divining Top + Arbaaz Mir + Gwenom, Remorseless
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
 Produces: Infinite card draw; Near-infinite damage; Near-infinite lifegain triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Arbaaz Mir (battlefield); Gwenom, Remorseless (battlefield)
 Prerequisites: Your life total is 2 or greater.
@@ -2573,6 +2585,16 @@ Steps: Declare Squall and Fear of Missing Out as attackers.
   When Fear of Missing Out enters the battlefield, its first ability triggers, causing you to rummage.
   Repeat each combat phase.
 
+## Combo 5686-6213-7916
+Cards: Shilgengar, Sire of Famine + Dan Lewis + Ekthi, Contaminator Priest
+Color identity: RWB | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal
+Produces: Infinite artifact tokens; Infinite Blood tokens; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Shilgengar, Sire of Famine (battlefield); Dan Lewis (battlefield); Ekthi, Contaminator Priest (battlefield)
+Steps: Cause a noncreature artifact to enter the battlefield under your control, which will be an Equipment due to Dan Lewis if it isn't an Equipment already, causing the living weapon ability granted by Ekthi to trigger.
+  Resolve the living weapon trigger granted by Ekthi, creating (and attaching the Equipment that entered to) a 0/0 black Phyrexian Germ token.
+  Activate Shilgengar by sacrificing a creature, creating a Blood token which will be an Equipment due to Dan Lewis, and causing the living weapon ability granted by Ekthi to trigger.
+  Repeat from step 2.
+
 ## Combo 5686-6247-6249--5
 Cards: Olivia, Mobilized for War + Shilgengar, Sire of Famine + High-Society Hunter
 Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
@@ -3311,7 +3333,7 @@ Notes: If you have a way to kill Evereth and {1}{B/R} available, you can do so a
 
 ## Combo 6495-7435--5
 Cards: Evereth, Viceroy of Plunder + Hardened Academic
-Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 28 | Commander: legal
+Color identity: RWB | Bracket: 3-4+ (Spicy) | Popularity: 29 | Commander: legal
 Produces: Infinite damage; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Evereth, Viceroy of Plunder (battlefield); Hardened Academic (battlefield)
@@ -3628,7 +3650,7 @@ Steps: Activate Umbral Collar Zealot by sacrificing Mabel.
 
 ## Combo 6798-7435--5
 Cards: Umbral Collar Zealot + Hardened Academic
-Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 470 | Commander: legal
+Color identity: RWB | Bracket: 1+ (Exhibition) | Popularity: 480 | Commander: legal
 Produces: Infinite surveil; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Umbral Collar Zealot (battlefield); Hardened Academic (battlefield)

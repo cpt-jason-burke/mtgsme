@@ -1,3 +1,33 @@
+## Combo 1479-3861-4488
+Cards: Kodama of the East Tree + Orzhov Basilica + Rampaging Baloths
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 1000 | Commander: legal
+Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
+Start: Kodama of the East Tree (battlefield); Orzhov Basilica (hand); Rampaging Baloths (battlefield)
+Prerequisites: You are able to play a land this turn.
+Steps: Play Orzhov Basilica.
+  When Orzhov Basilica enters the battlefield, it, Rampaging Baloths, and Kodama of the East Tree trigger.
+  Resolve the Kodama of the East Tree trigger, choosing not to put anything from your hand onto the battlefield.
+  Resolve the Orzhov Basilica trigger, returning it from the battlefield to your hand.
+  Resolve the Rampaging Baloths trigger, creating a token.
+  When the token enters the battlefield, Kodama triggers, putting Orzhov Basilica from your hand onto the battlefield.
+  When Orzhov Basilica enters the battlefield, it and Rampaging Baloths trigger.
+  Repeat from step 4.
+
+## Combo 1479-3861-4677
+Cards: Kodama of the East Tree + Orzhov Basilica + Zendikar's Roil
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 290 | Commander: legal
+Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
+Start: Kodama of the East Tree (battlefield); Orzhov Basilica (hand); Zendikar's Roil (battlefield)
+Prerequisites: You are able to play a land this turn.
+Steps: Play Orzhov Basilica.
+  When Orzhov Basilica enters the battlefield, it, Zendikar's Roil, and Kodama of the East Tree trigger.
+  Resolve the Kodama of the East Tree trigger, choosing not to put anything from your hand onto the battlefield.
+  Resolve the Orzhov Basilica trigger, returning it from the battlefield to your hand.
+  Resolve the Zendikar's Roil trigger, creating a token.
+  When the token enters the battlefield, Kodama triggers, putting Orzhov Basilica from your hand onto the battlefield.
+  When Orzhov Basilica enters the battlefield, it and Zendikar's Roil trigger.
+  Repeat from step 4.
+
 ## Combo 1479-3861-5671
 Cards: Kodama of the East Tree + Orzhov Basilica + The Necrobloom
 Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 1900 | Commander: legal
@@ -30,7 +60,7 @@ Steps: Play Orzhov Basilica.
 
 ## Combo 1479-3861-6528
 Cards: Kodama of the East Tree + Orzhov Basilica + Elfsworn Giant
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Orzhov Basilica (hand); Elfsworn Giant (battlefield)
 Prerequisites: You are able to play a land this turn.
@@ -75,7 +105,7 @@ Steps: Play Orzhov Basilica.
 
 ## Combo 1479-3861-6754
 Cards: Kodama of the East Tree + Orzhov Basilica + Eusocial Engineering
-Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 82 | Commander: legal
+Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 83 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Orzhov Basilica (hand); Eusocial Engineering (battlefield)
 Steps: Play Orzhov Basilica.
@@ -89,7 +119,7 @@ Steps: Play Orzhov Basilica.
 
 ## Combo 1479-3861-7201
 Cards: Kodama of the East Tree + Orzhov Basilica + Sapling Nursery
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 87 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 88 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Orzhov Basilica (hand); Sapling Nursery (battlefield)
 Prerequisites: You are able to play a land this turn.
@@ -1506,7 +1536,7 @@ Steps: Activate Necrotic Ooze using Boa Constrictor's ability by tapping it, giv
 
 ## Combo 1656-2335-2987
 Cards: Necrotic Ooze + Barrenton Medic + Channeler Initiate
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
 Produces: Infinite colored mana
 Start: Necrotic Ooze (battlefield); Barrenton Medic (graveyard); Channeler Initiate (graveyard)
 Prerequisites: Necrotic Ooze does not have summoning sickness.
@@ -3022,7 +3052,7 @@ Steps: Cast Martyrdom by paying {1}{W}{W}, targeting Altanak.
 
 ## Combo 1844-2191-8144
 Cards: Martyrdom + Fateful Handoff + Surrak, Elusive Hunter
-Color identity: WBG | Bracket: 2-3+ (Oddball) | Popularity: 0 | Commander: legal | Mana needed: {4}{W}{W}{B}
+Color identity: WBG | Bracket: 2-3+ (Oddball) | Popularity: 1 | Commander: legal | Mana needed: {4}{W}{W}{B}
 Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
 Start: Martyrdom (hand); Fateful Handoff (hand); Surrak, Elusive Hunter (battlefield)
 Prerequisites: You have at least as many cards in your library as the mana value of the permanent you intend to donate.
@@ -4271,7 +4301,7 @@ Steps: Activate Relic of Legends' second ability twice by tapping Lurrus and Saf
 
 ## Combo 2034-2281-6125
 Cards: Saffi Eriksdotter + Fiendish Panda + Ashnod's Altar
-Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 12 | Commander: legal
+Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 11 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Saffi Eriksdotter (battlefield); Fiendish Panda (battlefield); Ashnod's Altar (battlefield)
 Steps: Activate Saffi by sacrificing it, targeting Fiendish Panda.
@@ -4283,7 +4313,7 @@ Steps: Activate Saffi by sacrificing it, targeting Fiendish Panda.
 
 ## Combo 2034-2281-6132
 Cards: Saffi Eriksdotter + Ashnod's Altar + Metamorphosis Fanatic
-Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 54 | Commander: legal
+Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 53 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature LTB; Infinite creature ETB; Infinite death triggers
 Start: Saffi Eriksdotter (battlefield); Ashnod's Altar (battlefield); Metamorphosis Fanatic (hand)
 Steps: Activate Saffi by sacrificing it, targeting Metamorphosis Fanatic
@@ -5745,7 +5775,7 @@ Notes: Once you have infinite mana, you may forego sacrificing the creature toke
 
 ## Combo 2034-4365-5189
 Cards: Ghave, Guru of Spores + Ashnod's Altar + Mondrak, Glory Dominus
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 1800 | Commander: legal | Mana needed: {1}
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 1700 | Commander: legal | Mana needed: {1}
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Ghave, Guru of Spores (battlefield); Ashnod's Altar (battlefield); Mondrak, Glory Dominus (battlefield)
 Prerequisites: You control a creature with a +1/+1 counter on it.
@@ -8599,7 +8629,7 @@ Notes: You may also repeat this loop whenever a creature enters the battlefield 
 
 ## Combo 2228-2744-4762
 Cards: Cathars' Crusade + Devoted Druid + Hapatra, Vizier of Poisons
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal
 Produces: Infinite creature tokens; Infinite green mana; Infinite +1/+1 counters on creatures you control; Infinite creature ETB
 Start: Cathars' Crusade (battlefield); Devoted Druid (battlefield); Hapatra, Vizier of Poisons (battlefield)
 Prerequisites: Devoted Druid does not have summoning sickness.
@@ -9045,7 +9075,7 @@ Steps: Activate Saffi by sacrificing it, targeting Jackdaw Savior.
 
 ## Combo 2281-2292-5987
 Cards: Saffi Eriksdotter + Viscera Seer + Angel of Indemnity
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 70 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 71 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite scry 1
 Start: Saffi Eriksdotter (battlefield); Viscera Seer (battlefield); Angel of Indemnity (hand)
 Steps: Activate Saffi by sacrificing it, targeting Angel of Indemnity
@@ -9057,7 +9087,7 @@ Steps: Activate Saffi by sacrificing it, targeting Angel of Indemnity
 
 ## Combo 2281-2292-6125
 Cards: Saffi Eriksdotter + Fiendish Panda + Viscera Seer
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Start: Saffi Eriksdotter (battlefield); Fiendish Panda (battlefield); Viscera Seer (battlefield)
 Steps: Activate Saffi by sacrificing it, targeting Fiendish Panda.
@@ -9226,7 +9256,7 @@ Steps: Activate Saffi by sacrificing it, targeting Angel of Indemnity
 
 ## Combo 2281-2438-6125
 Cards: Saffi Eriksdotter + Fiendish Panda + Carrion Feeder
-Color identity: WBG | Bracket: 2-3+ (Oddball) | Popularity: 11 | Commander: legal
+Color identity: WBG | Bracket: 2-3+ (Oddball) | Popularity: 10 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Saffi Eriksdotter (battlefield); Fiendish Panda (battlefield); Carrion Feeder (battlefield)
 Steps: Activate Saffi by sacrificing it, targeting Fiendish Panda.
@@ -9239,7 +9269,7 @@ Steps: Activate Saffi by sacrificing it, targeting Fiendish Panda.
 
 ## Combo 2281-2438-6132
 Cards: Saffi Eriksdotter + Carrion Feeder + Metamorphosis Fanatic
-Color identity: WBG | Bracket: 2-3+ (Oddball) | Popularity: 60 | Commander: legal
+Color identity: WBG | Bracket: 2-3+ (Oddball) | Popularity: 59 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite death triggers
 Start: Saffi Eriksdotter (battlefield); Carrion Feeder (battlefield); Metamorphosis Fanatic (hand)
 Steps: Activate Saffi by sacrificing it, targeting Metamorphosis Fanatic
@@ -10030,7 +10060,7 @@ Steps: Activate Saffi by sacrificing it, targeting Metamorphosis Fanatic
 
 ## Combo 2281-3942-4050-4871
 Cards: Karador, Ghost Chieftain + Saffi Eriksdotter + Phyrexian Altar + Pitiless Plunderer
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 56 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 55 | Commander: legal
 Produces: Infinite colored mana; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Karador, Ghost Chieftain (battlefield); Saffi Eriksdotter (battlefield); Phyrexian Altar (battlefield); Pitiless Plunderer (battlefield)
 Steps: Activate Saffi by sacrificing it, targeting Karador.
@@ -10174,7 +10204,7 @@ Steps: Activate Saffi by sacrificing it, targeting Lurrus.
 
 ## Combo 2281-4050-6125
 Cards: Saffi Eriksdotter + Fiendish Panda + Phyrexian Altar
-Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 10 | Commander: legal
+Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 9 | Commander: legal
 Produces: Infinite colored mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Saffi Eriksdotter (battlefield); Fiendish Panda (battlefield); Phyrexian Altar (battlefield)
 Steps: Activate Saffi by sacrificing it, targeting Fiendish Panda.
@@ -10186,7 +10216,7 @@ Steps: Activate Saffi by sacrificing it, targeting Fiendish Panda.
 
 ## Combo 2281-4050-6132
 Cards: Saffi Eriksdotter + Phyrexian Altar + Metamorphosis Fanatic
-Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 60 | Commander: legal
+Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 59 | Commander: legal
 Produces: Infinite colored mana; Infinite creature LTB; Infinite creature ETB; Infinite death triggers
 Start: Saffi Eriksdotter (battlefield); Phyrexian Altar (battlefield); Metamorphosis Fanatic (hand)
 Steps: Activate Saffi by sacrificing it, targeting Metamorphosis Fanatic
@@ -10398,7 +10428,7 @@ Steps: Activate Saffi by sacrificing it, targeting Renegade Rallier
 
 ## Combo 2281-5256-6125
 Cards: Saffi Eriksdotter + Fiendish Panda + Altar of Dementia
-Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 8 | Commander: legal
+Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 7 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Saffi Eriksdotter (battlefield); Fiendish Panda (battlefield); Altar of Dementia (battlefield)
 Steps: Activate Saffi by sacrificing it, targeting Fiendish Panda.
@@ -10411,7 +10441,7 @@ Steps: Activate Saffi by sacrificing it, targeting Fiendish Panda.
 
 ## Combo 2281-5256-6132
 Cards: Saffi Eriksdotter + Altar of Dementia + Metamorphosis Fanatic
-Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 93 | Commander: legal
+Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 92 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite creature LTB; Infinite creature ETB; Infinite death triggers
 Start: Saffi Eriksdotter (battlefield); Altar of Dementia (battlefield); Metamorphosis Fanatic (hand)
 Steps: Activate Saffi by sacrificing it, targeting Metamorphosis Fanatic
@@ -10536,7 +10566,7 @@ Steps: Activate Saffi by sacrificing it, targeting Angel of Indemnity
 
 ## Combo 2281-5987-6798
 Cards: Saffi Eriksdotter + Umbral Collar Zealot + Angel of Indemnity
-Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 42 | Commander: legal
+Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 43 | Commander: legal
 Produces: Infinite surveil; Infinite creature LTB; Infinite creature ETB; Infinite death triggers
 Start: Saffi Eriksdotter (battlefield); Umbral Collar Zealot (battlefield); Angel of Indemnity (hand)
 Steps: Activate Saffi by sacrificing it, targeting Angel of Indemnity
@@ -12710,7 +12740,7 @@ Steps: Play Glacial Chasm either from your hand or from your graveyard.
 
 ## Combo 2315-3946-7705
 Cards: Glacial Chasm + Thalia and The Gitrog Monster + Mole Man, Moloid Master
-Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 500 | Commander: legal
+Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 510 | Commander: legal
 Produces: Lock; Prevent all damage that would be dealt to you
 Start: Glacial Chasm (battlefield); Thalia and The Gitrog Monster (battlefield); Mole Man, Moloid Master (battlefield)
 Prerequisites: You control another land.
@@ -13099,6 +13129,18 @@ Steps: Activate Bartolomé del Presidio by sacrificing another nonland creature 
   When the land enters, Maja triggers, creating a creature token.
   Resolve the Bartolomé del Presidio ability.
   Repeat.
+
+## Combo 2374-3510-4875
+Cards: Life and Limb + Maja, Bretagard Protector + Conspiracy
+Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 2 | Commander: legal
+Produces: Draw the game; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
+Start: Life and Limb (battlefield); Maja, Bretagard Protector (battlefield); Conspiracy (battlefield)
+Prerequisites: You can cause a creature or land to enter under your control.
+  Saproling has been chosen with Conspiracy.
+Steps: Cause a creature or land to enter under your control.
+  The permanent that entered is a Saproling through Conspiracy and a Forest in addition to its other types due to Life and Limb, causing Maja to trigger.
+  Resolve the Maja trigger, creating a creature token.
+  Repeat steps 2-3. Unless you have a way to remove one of the pieces, this will cause an infinite mandatory loop and draw the game.
 
 ## Combo 2374-3899-7084
 Cards: Beifong's Bounty Hunters + Spawning Pit + Maja, Bretagard Protector
@@ -13581,7 +13623,7 @@ Steps: Activate Carrion Feeder by sacrificing another nonland creature you contr
 
 ## Combo 2438-2730-5237
 Cards: Kaya's Ghostform + Carrion Feeder + Renegade Rallier
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 87 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Kaya's Ghostform (battlefield: attached to Renegade Rallier); Carrion Feeder (battlefield); Renegade Rallier (battlefield)
 Steps: Activate Carrion Feeder by sacrificing Renegade Rallier.
@@ -14307,7 +14349,7 @@ Steps: Activate Carrion Feeder by sacrificing Cold-Blooded Crew.
 
 ## Combo 2438-6972-8329--225
 Cards: Olag and Miau, New Friends + Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Carrion Feeder
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite +1/+1 counters on certain creatures; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Zombie Cat Creature (battlefield)
 Start: Olag and Miau, New Friends (battlefield); Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Carrion Feeder (battlefield)
@@ -16003,7 +16045,7 @@ Steps: Activate Hammerhead by sacrificing another creature.
 
 ## Combo 2590-2921-5776
 Cards: Ygra, Eater of All + Experimental Confectioner + Bartolomé del Presidio
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 320 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 310 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Ygra, Eater of All (battlefield); Experimental Confectioner (battlefield); Bartolomé del Presidio (battlefield)
 Prerequisites: You control at least one additional creature
@@ -16370,6 +16412,18 @@ Steps: Activate Bartolomé del Presidio by sacrificing another nonland creature 
   Resolve the Bartolomé del Presidio ability.
   Repeat.
 
+## Combo 2692-3510-4875
+Cards: Life and Limb + Felidar Retreat + Conspiracy
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
+Produces: Draw the game; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
+Start: Life and Limb (battlefield); Felidar Retreat (battlefield); Conspiracy (battlefield)
+Prerequisites: You can cause a creature or land to enter under your control.
+  Saproling has been chosen with Conspiracy.
+Steps: Cause a creature or land to enter under your control.
+  The permanent that entered is a Saproling through Conspiracy and a Forest in addition to its other types due to Life and Limb, causing Felidar Retreat to trigger.
+  Resolve the Felidar Retreat trigger, creating a creature token.
+  Repeat steps 2-3. Unless you have a way to remove one of the pieces, this will cause an infinite mandatory loop and draw the game.
+
 ## Combo 2692-3899-7084
 Cards: Beifong's Bounty Hunters + Spawning Pit + Felidar Retreat
 Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
@@ -16482,7 +16536,7 @@ Steps: Activate Phantom Train by sacrificing another nonland creature you contro
 
 ## Combo 2692-6798-7084
 Cards: Beifong's Bounty Hunters + Umbral Collar Zealot + Felidar Retreat
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 51 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 52 | Commander: legal
 Produces: Infinite surveil; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Umbral Collar Zealot (battlefield); Felidar Retreat (battlefield)
 Prerequisites: You control a land.
@@ -16637,7 +16691,7 @@ Steps: Activate Phyrexian Altar by sacrificing Renegade Rallier.
 
 ## Combo 2730-5237-5256
 Cards: Kaya's Ghostform + Altar of Dementia + Renegade Rallier
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 77 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 78 | Commander: legal
 Produces: Infinite self-mill; Infinite mill; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Kaya's Ghostform (battlefield: attached to Renegade Rallier); Altar of Dementia (battlefield); Renegade Rallier (battlefield)
 Steps: Activate Altar of Dementia by sacrificing Renegade Rallier.
@@ -16670,7 +16724,7 @@ Steps: Activate Phantom Train by sacrificing Renegade Rallier.
 
 ## Combo 2730-5237-6798
 Cards: Kaya's Ghostform + Umbral Collar Zealot + Renegade Rallier
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal
 Produces: Infinite surveil; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Kaya's Ghostform (battlefield: attached to Renegade Rallier); Umbral Collar Zealot (battlefield); Renegade Rallier (battlefield)
 Steps: Activate Umbral Collar Zealot by sacrificing Renegade Rallier.
@@ -16806,7 +16860,7 @@ Steps: Activate a basic land by tapping it, adding {1}.
 
 ## Combo 2744-2760-4762
 Cards: Cathars' Crusade + Devoted Druid + Nest of Scarabs
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
 Produces: Infinite creature tokens; Infinite green mana; Infinite +1/+1 counters on creatures you control; Infinite creature ETB
 Start: Cathars' Crusade (battlefield); Devoted Druid (battlefield); Nest of Scarabs (battlefield)
 Prerequisites: Devoted Druid does not have summoning sickness.
@@ -17022,7 +17076,7 @@ Steps: Activate the basic land by tapping it, adding {1}.
 
 ## Combo 2757-4350-5189
 Cards: Ghave, Guru of Spores + Earthcraft + Butcher Ghoul
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 73 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal
 Produces: Infinite tapped creature tokens; Infinite +1/+1 counters on certain creatures; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Ghave, Guru of Spores (battlefield); Earthcraft (battlefield); Butcher Ghoul (battlefield)
 Prerequisites: You control a basic land.
@@ -17440,7 +17494,7 @@ Steps: Activate Ghave's second ability by paying {1} and sacrificing Young Wolf.
 
 ## Combo 2842-4050-4350-5189
 Cards: Ghave, Guru of Spores + Phyrexian Altar + Butcher Ghoul + Blood Artist
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 130 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 120 | Commander: legal
 Produces: Infinite colored mana; Infinite creature tokens; Infinite lifegain; Infinite lifeloss; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Ghave, Guru of Spores (battlefield); Phyrexian Altar (battlefield); Butcher Ghoul (battlefield); Blood Artist (battlefield)
 Prerequisites: Butcher Ghoul does not have a +1/+1 counter on it.
@@ -19234,7 +19288,7 @@ Steps: Activate Bartolomé del Presidio by sacrificing the persist creature that
 
 ## Combo 2921-6872--5
 Cards: Long Feng, Grand Secretariat + Bartolomé del Presidio
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 560 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 550 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: 2x Persist Creature (battlefield)
 Start: Long Feng, Grand Secretariat (battlefield); Bartolomé del Presidio (battlefield)
@@ -20116,7 +20170,7 @@ Steps: Activate Ghave's second ability by paying {1} and sacrificing another cre
 
 ## Combo 3000-5332-5670
 Cards: Warren Soultrader + Carmen, Cruel Skymarcher + Chatterfang, Squirrel General
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 75 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 74 | Commander: legal
 Produces: Infinite colored mana; Infinite Treasure tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Warren Soultrader (battlefield); Carmen, Cruel Skymarcher (battlefield); Chatterfang, Squirrel General (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -21908,7 +21962,7 @@ Notes: You can return all nonland permanents in your graveyard to the battlefiel
 
 ## Combo 3293-4693-5531
 Cards: Emeria Shepherd + Lumra, Bellow of the Woods + Overgrown Estate
-Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 49 | Commander: legal | Mana needed: {4}{G}{G}
+Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 50 | Commander: legal | Mana needed: {4}{G}{G}
 Produces: Infinite self-mill; Infinite lifegain; Infinite lifegain triggers; Put all permanent cards from your graveyard and library onto the battlefield; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Emeria Shepherd (battlefield); Lumra, Bellow of the Woods (battlefield); Overgrown Estate (battlefield)
 Prerequisites: You control a Plains or have a Plains in your graveyard.
@@ -22308,10 +22362,10 @@ Steps: Cast Tatterkite from your graveyard by paying {0} due to Ezzaroot Channel
   Repeat.
 
 ## Combo 3510-3678-4875
-Cards: Life and Limb + Conspiracy + Retreat to Emeria
+Cards: Life and Limb + Retreat to Emeria + Conspiracy
 Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Draw the game; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
-Start: Life and Limb (battlefield); Conspiracy (battlefield); Retreat to Emeria (battlefield)
+Start: Life and Limb (battlefield); Retreat to Emeria (battlefield); Conspiracy (battlefield)
 Prerequisites: You have a land card in hand.
   "Saproling" chosen with Conspiracy.
 Steps: Play any land.
@@ -22334,6 +22388,42 @@ Steps: Activate Kaya's second loyalty ability by removing two loyalty counters f
   Resolve the first Springheart Nantuko trigger, choosing not to pay and creating two 1/1 Insect creature tokens.
   Resolve the second Springheart Nantuko trigger, causing you to pay {1}{G} to create two token copies of the Forest that enters untapped.
   Repeat from step 4.
+
+## Combo 3510-4875-5671
+Cards: Life and Limb + Conspiracy + The Necrobloom
+Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 4 | Commander: legal
+Produces: Draw the game; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
+Start: Life and Limb (battlefield); Conspiracy (battlefield); The Necrobloom (battlefield)
+Prerequisites: You can cause a creature or land to enter under your control.
+  Saproling has been chosen for Conspiracy.
+Steps: Cause a creature or land to enter under your control.
+  The permanent that entered is a Saproling through Conspiracy and a Forest in addition to its other types due to Life and Limb, causing The Necrobloom to trigger.
+  Resolve the The Necrobloom trigger, creating a creature token.
+  Repeat steps 2-3. Unless you have a way to remove one of the pieces, this will cause an infinite mandatory loop and draw the game.
+
+## Combo 3510-4875-8337
+Cards: Life and Limb + Conspiracy + M'Ress, Crew Coordinator
+Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Draw the game; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
+Start: Life and Limb (battlefield); Conspiracy (battlefield); M'Ress, Crew Coordinator (battlefield)
+Prerequisites: You can cause a creature or land to enter under your control.
+  Saproling has been chosen with Conspiracy.
+Steps: Cause a creature or land to enter under your control.
+  Each permanent that entered is a Saproling through Conspiracy and a Forest in addition to its other types due to Life and Limb, causing M'Ress to trigger that many times.
+  Resolve an M'Ress trigger, creating two creature tokens.
+  Repeat steps 2-3. Unless you have a way to remove one of the pieces, this will cause an infinite mandatory loop and draw the game.
+
+## Combo 3510-4875-8338
+Cards: Life and Limb + Conspiracy + Shuttlecraft Galileo
+Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Draw the game; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
+Start: Life and Limb (battlefield); Conspiracy (battlefield); Shuttlecraft Galileo (battlefield)
+Prerequisites: You can cause a creature or land to enter under your control.
+  Saproling has been chosen with Conspiracy.
+Steps: Cause a creature or land to enter under your control.
+  The permanent that entered is a Saproling through Conspiracy and a Forest in addition to its other types due to Life and Limb, causing Shuttlecraft Galileo to trigger.
+  Resolve the Shuttlecraft Galileo trigger, creating a creature token.
+  Repeat steps 2-3. Unless you have a way to remove one of the pieces, this will cause an infinite mandatory loop and draw the game.
 
 ## Combo 3533-4658-5755
 Cards: Doomgape + Soul of Eternity + Enduring Tenacity
@@ -22954,7 +23044,7 @@ Steps: Activate Anti-Venom using Walking Ballista's ability by removing a +1/+1 
 
 ## Combo 3693-3921-6593
 Cards: Gatta and Luzzu + Walking Ballista + Winding Constrictor
-Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 74 | Commander: legal | Mana needed: {2}{W}
+Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 75 | Commander: legal | Mana needed: {2}{W}
 Produces: Infinite damage; Infinite +1/+1 counters on a creature
 Start: Gatta and Luzzu (hand); Walking Ballista (battlefield: with two or more +1/+1 counters on it); Winding Constrictor (battlefield)
 Steps: Cast Gatta and Luzzu by paying {2}{W}.
@@ -23420,7 +23510,7 @@ Steps: Activate Ghave's first ability by paying {1} and removing a +1/+1 counter
 
 ## Combo 3819-5671-7114
 Cards: The Necrobloom + Cultivator Colossus + Lake of the Dead
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 84 | Commander: legal | Mana needed: {4}{G}{G}{G}
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 83 | Commander: legal | Mana needed: {4}{G}{G}{G}
 Produces: Infinite self-mill; Near-infinite landfall triggers; Put most lands from your library and graveyard onto the battlefield tapped
 Start: The Necrobloom (battlefield); Cultivator Colossus (hand); Lake of the Dead (hand)
 Steps: Cast Cultivator Colossus by paying {4}{G}{G}{G}.
@@ -24478,7 +24568,7 @@ Steps: Activate Yahenni by sacrificing another nonland creature you control
 
 ## Combo 3972-4221
 Cards: Living Plane + Ethereal Absolution
-Color identity: WBG | Bracket: 4+ (Ruthless) | Popularity: 70 | Commander: legal
+Color identity: WBG | Bracket: 4+ (Ruthless) | Popularity: 69 | Commander: legal
 Produces: Destroy all lands opponents control; Mass Land Denial
 Start: Living Plane (battlefield); Ethereal Absolution (battlefield)
 Steps: Living Plane makes all lands 1/1 creatures, and Ethereal Absolution gives opponent creatures -1/-1.
@@ -24630,7 +24720,7 @@ Steps: Cast Chord of Calling by paying at most {4}{G}{G}{G}, searching your libr
 
 ## Combo 4013-4151-4659
 Cards: Vishgraz, the Doomhive + Eldrazi Displacer + Krark-Clan Ironworks
-Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 55 | Commander: legal | Mana needed: {2}{C}
+Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 56 | Commander: legal | Mana needed: {2}{C}
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite blinking; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite blinking of most creatures
 Start: Vishgraz, the Doomhive (battlefield); Eldrazi Displacer (battlefield); Krark-Clan Ironworks (battlefield)
 Steps: Activate Eldrazi Displacer by paying {2}{C}, blinking Vishgraz.
@@ -24902,7 +24992,7 @@ Steps: Activate Ghave's first ability by paying {1} and removing a +1/+1 counter
 
 ## Combo 4050-5189-5319
 Cards: Ghave, Guru of Spores + Geralf's Messenger + Phyrexian Altar
-Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 720 | Commander: legal
+Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 710 | Commander: legal
 Produces: Infinite colored mana; Infinite creature tokens; Infinite lifeloss; Infinite +1/+1 counters on creatures you control; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Ghave, Guru of Spores (battlefield); Geralf's Messenger (battlefield); Phyrexian Altar (battlefield)
 Steps: Activate Phyrexian Altar by sacrificing Geralf's Messenger, adding {1}.
@@ -25917,7 +26007,7 @@ Notes: Once you have infinite mana, Chrome Dome can target other artifacts as de
 
 ## Combo 4151-4499-4659
 Cards: Vishgraz, the Doomhive + Emiel the Blessed + Krark-Clan Ironworks
-Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 50 | Commander: legal | Mana needed: {3}
+Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 51 | Commander: legal | Mana needed: {3}
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite blinking; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Vishgraz, the Doomhive (battlefield); Emiel the Blessed (battlefield); Krark-Clan Ironworks (battlefield)
 Steps: Activate Emiel by paying {3}, blinking Vishgraz.
@@ -27213,7 +27303,7 @@ Steps: Cast Metalwork Colossus by paying {0}.
 
 ## Combo 4321-5777-6441-6451
 Cards: Camellia, the Seedmiser + Peregrin Took + Night of the Sweets' Revenge + Elspeth, Storm Slayer
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 220 | Commander: legal | Mana needed: {2}
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 230 | Commander: legal | Mana needed: {2}
 Produces: Infinite card draw; Infinite +1/+1 counters on an infinite number of creature tokens; Infinite +1/+1 counters on Squirrels you control; Infinite creature ETB; Infinite draw triggers; Infinite tapped Food tokens
 Start: Camellia, the Seedmiser (battlefield); Peregrin Took (battlefield); Night of the Sweets' Revenge (battlefield); Elspeth, Storm Slayer (battlefield)
 Prerequisites: You control a Food.
@@ -27237,7 +27327,7 @@ Steps: Activate Camellia by paying {2} and sacrificing a Food.
 
 ## Combo 4365-4571-5702
 Cards: Springheart Nantuko + Mondrak, Glory Dominus + Life // Death
-Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 9 | Commander: legal | Mana needed: {2}{G}{G}{G}
+Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 8 | Commander: legal | Mana needed: {2}{G}{G}{G}
 Produces: Infinite creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (hand); Mondrak, Glory Dominus (battlefield); Life // Death (hand)
 Prerequisites: You control a Forest that enters the battlefield untapped.
@@ -27252,7 +27342,7 @@ Steps: Animate a Forest that enters untapped using Life // Death
 
 ## Combo 4365-4871-5189
 Cards: Ghave, Guru of Spores + Pitiless Plunderer + Mondrak, Glory Dominus
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 1400 | Commander: legal | Mana needed: {2}
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 1300 | Commander: legal | Mana needed: {2}
 Produces: Infinite creature tokens; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Ghave, Guru of Spores (battlefield); Pitiless Plunderer (battlefield); Mondrak, Glory Dominus (battlefield)
 Prerequisites: Ghave has at least two +1/+1 counters on it, or there is a +1/+1 counter on another creature you control.
@@ -28850,7 +28940,7 @@ Steps: Activate Spore Frog by sacrificing it.
 
 ## Combo 5256-5662-6972
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Altar of Dementia + Reyhan, Last of the Abzan
-Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 18 | Commander: legal
+Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 19 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite +1/+1 counters on creatures you control; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Altar of Dementia (battlefield); Reyhan, Last of the Abzan (battlefield: without a -1/-1 counter on it)
 Steps: Activate Altar of Dementia by sacrificing Reyhan.
@@ -29132,7 +29222,7 @@ Notes: The chosen Mutant must have toughness 2 or greater.
 
 ## Combo 5256-6972-7804
 Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Altar of Dementia + Captain Kathryn Janeway
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Altar of Dementia (battlefield); Captain Kathryn Janeway (battlefield: without a -1/-1 counter on it)
 Prerequisites: The top card of your library is a nonland card.
@@ -31123,89 +31213,4 @@ Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Umbra
 Steps: Activate Umbral Collar Zealot by sacrificing Voracious Brood.
   When Voracious Brood dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to its replacement effect.
   Resolve the Umbral Collar Zealot ability.
-  Repeat.
-
-## Combo 6798-6972-7754--167
-Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + X-23, Deadly Weapon + Umbral Collar Zealot
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite surveil; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Requires: Mutant Creature (battlefield: without a -1/-1 counter on it)
-Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); X-23, Deadly Weapon (battlefield); Umbral Collar Zealot (battlefield)
-Steps: Activate Umbral Collar Zealot by sacrificing the other Mutant.
-  When the Mutant dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
-  When the Mutant enters, X-23 triggers, putting a +1/+1 counter on X-23 and the other Mutant.
-  Resolve the Umbral Collar Zealot ability.
-  Repeat.
-Notes: The chosen Mutant must have toughness 2 or greater.
-
-## Combo 6798-6972-7804
-Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Umbral Collar Zealot + Captain Kathryn Janeway
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite surveil; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Umbral Collar Zealot (battlefield); Captain Kathryn Janeway (battlefield: without a -1/-1 counter on it)
-Prerequisites: The top card of your library is a nonland card.
-Steps: Activate Umbral Collar Zealot by sacrificing Captain Kathryn Janeway.
-  When Captain Kathryn Janeway dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
-  When Captain Kathryn Janeway enters, it triggers, revealing the top card of your library, putting the card back on top of your library, and then putting a +1/+1 counter on Captain Kathryn Janeway.
-  Resolve the Umbral Collar Zealot ability.
-  Repeat.
-
-## Combo 6798-6972-7933
-Cards: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Umbral Collar Zealot + Cold-Blooded Crew
-Color identity: WBG | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
-Produces: Infinite surveil; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Umbral Collar Zealot (battlefield); Cold-Blooded Crew (battlefield: without a -1/-1 counter on it)
-Steps: Activate Umbral Collar Zealot by sacrificing Cold-Blooded Crew.
-  When Cold-Blooded Crew dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
-  When Cold-Blooded Crew enters, it triggers, putting a +1/+1 counter on it.
-  Resolve the Umbral Collar Zealot ability.
-  Repeat.
-
-## Combo 6798-6972-8329--225
-Cards: Olag and Miau, New Friends + Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Umbral Collar Zealot
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
-Produces: Infinite surveil; Infinite +1/+1 counters on certain creatures; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Requires: Zombie Cat Creature (battlefield)
-Start: Olag and Miau, New Friends (battlefield); Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield); Umbral Collar Zealot (battlefield)
-Prerequisites: The Zombie Cat doesn't have a -1/-1 counter on it and has base toughness 2 or greater.
-Steps: Activate Umbral Collar Zealot by sacrificing the Zombie Cat.
-  When the Zombie Cat dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
-  When the Zombie Cat enters, Olag and Miau's first and second abilities trigger.
-  Resolve the first trigger, putting a +1/+1 counter on the Zombie Cat.
-  Resolve the second trigger, putting a +1/+1 counter on either a Zombie or Cat you control.
-  Resolve the Umbral Collar Zealot ability, causing you to surveil 1
-  Repeat.
-Notes: You can use either Olag and Miau trigger to put a +1/+1 counter on the Zombie Cat. The other ability can put the counter on any Zombie or Cat you control depending on which trigger is left.
-
-## Combo 6798-7084-8232
-Cards: Alharu, Solemn Ritualist + Beifong's Bounty Hunters + Umbral Collar Zealot
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite surveil; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
-Start: Alharu, Solemn Ritualist (battlefield); Beifong's Bounty Hunters (battlefield); Umbral Collar Zealot (battlefield)
-Prerequisites: You control a land.
-  You control another nonland creature.
-Steps: Activate Umbral Collar Zealot by sacrificing another nonland creature you control.
-  When the creature dies, Beifong's Bounty Hunters triggers, earthbending a land you control.
-  Resolve the Umbral Collar Zealot ability, causing you to surveil 1
-  Activate Umbral Collar Zealot by sacrificing the earthbent land.
-  When the land dies, Beifong's Bounty Hunters and Alharu trigger.
-  Resolve the Beifong's Bounty Hunters trigger, returning it from your graveyard to the battlefield tapped.
-  Resolve the Alharu trigger, creating a 1/1 Spirit creature token.
-  Resolve the Umbral Collar Zealot ability, causing you to surveil 1
-  Repeat.
-
-## Combo 6798-7084-8337
-Cards: Beifong's Bounty Hunters + Umbral Collar Zealot + M'Ress, Crew Coordinator
-Color identity: WBG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite surveil; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
-Start: Beifong's Bounty Hunters (battlefield); Umbral Collar Zealot (battlefield); M'Ress, Crew Coordinator (battlefield)
-Prerequisites: You control a land.
-  You control another nonland creature.
-Steps: Activate Umbral Collar Zealot by sacrificing another nonland creature you control
-  When the creature dies, Beifong's Bounty Hunters triggers, earthbending a land.
-  Resolve the Umbral Collar Zealot ability, surveiling 1.
-  Activate Umbral Collar Zealot by sacrificing the land
-  When the land dies, Beifong's Bounty Hunters triggers, returning the land from your graveyard to the battlefield tapped.
-  When the land enters, M'Ress triggers, creating two 1/1 red Officer creature tokens
-  Resolve the Umbral Collar Zealot ability, surveiling 1.
   Repeat.
