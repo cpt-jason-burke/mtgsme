@@ -165,6 +165,7 @@
     if (!CR) return;
     const ser = (v) => (v.type === "card" ? { type: "card", n: v.card.n } : v.type === "precons" ? { type: "precons", q: v.q, set: v.set, year: v.year, sort: v.sort, ci: v.ci }
       : v.type === "timeline" ? { type: "timeline", from: v.from, to: v.to, sl: v.sl, ce: v.ce, q: v.q, yr: v.yr }
+      : v.type === "gamechangers" ? { type: "gamechangers", ci: v.ci, sort: v.sort }
       : v.type === "upgrade" ? { type: "upgrade", manual: v.manual || {} } : { type: v.type, rule: v.rule, code: v.code, i: v.i, year: v.year, view: v.view, sort: v.sort, key: v.key });
     try {
       sessionStorage.setItem("nav", JSON.stringify({ tab: curTab, q: $("#q").value, ci: [...state.ci], type: state.type, legal: state.legal, gc: state.gc, kw: state.kw || "", theme: state.theme || "",
@@ -216,6 +217,7 @@
     headliner: [(v) => (hlCard(v.key) || {}).name || "Headliner", hlCardView],
     precons: [() => "Load a precon", preconsView],
     timeline: [() => "Precon timeline", timelineView],
+    gamechangers: [() => "Game Changers", gcView],
     upgrade: [() => "Upgrade printings", upgradeView],
   };
   function drawSheet() {
@@ -286,6 +288,7 @@
         if (a.dataset.jump) { const el = $("#synsheet"); if (el) el.scrollIntoView({ block: "start", behavior: "smooth" }); }
         return;
       }
+      if (act === "glci") { const x = a.dataset.v; v.ci = v.ci.includes(x) ? v.ci.replace(x, "") : x === "C" ? "C" : v.ci.replace("C", "") + x; return drawSheet(); }   // Game Changers list: color buttons
       if (act === "kw") { leaveSheets(); showTab("search"); setKeyword(a.dataset.v); return; }
       if (act === "theme") { leaveSheets(); showTab("search"); setTheme(a.dataset.v); return; }
       if (act === "pfin") { v.fin = a.dataset.v; store.set("fin", v.fin); return renderPrintings(v, printCache.get(v.card.n) || []); }
@@ -313,6 +316,7 @@
   });
   $("#sheet-root").addEventListener("change", (e) => {
     const t = e.target, v = stack[stack.length - 1];
+    if (t.dataset.act === "glsort" && v && v.type === "gamechangers") { v.sort = t.value; drawSheet(); }
     if (t.dataset.act === "syncolors" && v && v.type === "card") { (v.syn || (v.syn = newSyn())).colors = t.value; synPaintCard(v); }
     if (t.dataset.act === "psort") { v.psort = t.value; renderPrintings(v, printCache.get(v.card.n) || []); }
     if (t.dataset.act === "ssort") { v.sort = t.value; drawSheet(); }
@@ -444,8 +448,8 @@
     els.forEach((el) => io.observe(el));
   }
 
-  function flags(c) {
-    return (c.u && c.u > TODAY ? '<span class="badge up">Upcoming \u00B7 ' + esc(shortDate(c.u)) + "</span>" : "") + (c.s ? '<span class="badge ' + (c.s === "banned" ? "bad" : "warn") + '">' + esc(c.s.replace(/_/g, " ")) + "</span>" : "") + (c.g ? '<span class="badge warn">Game Changer</span>' : "");
+  function flags(c, skipGc) {   // skipGc: the Game Changers list leaves the badge off, since every row on it has one
+    return (c.u && c.u > TODAY ? '<span class="badge up">Upcoming \u00B7 ' + esc(shortDate(c.u)) + "</span>" : "") + (c.s ? '<span class="badge ' + (c.s === "banned" ? "bad" : "warn") + '">' + esc(c.s.replace(/_/g, " ")) + "</span>" : "") + (c.g && !skipGc ? '<span class="badge warn">Game Changer</span>' : "");
   }
   function cardView(c) {
     let h = Scry.state.enabled ? '<div class="pswipe" id="pswipe"><div class="pslide"><div class="cardimg" data-img="' + esc(c.n) + '" data-kind="normal" data-zoom="' + esc(c.n) + '"></div></div></div><div class="pcap" id="pcap"></div>' : "";
@@ -513,8 +517,8 @@
   }
 
   // ---------- search ----------
-  function rowHTML(c, extra, why) {
-    return '<div class="panel row" data-card="' + esc(c.n) + '"><div class="thumb" style="--cc:' + artColor(c) + '" data-img="' + esc(c.n) + '" data-kind="art" data-zoom="' + esc(c.n) + '"></div><div class="body"><h4>' + esc(c.n) + " " + (c.m ? mana(c.m) : "") + flags(c) + '</h4><div class="ty">' + esc(c.t) + (c.pt ? " · " + esc(c.pt) : "") + "</div>" + (why ? '<div class="why">' + esc(why) + "</div>" : "") + '<div class="tx">' + mana(c.o).replace(/\n/g, " · ") + "</div></div>" + (extra || "") + "</div>";
+  function rowHTML(c, extra, why, skipGc) {
+    return '<div class="panel row" data-card="' + esc(c.n) + '"><div class="thumb" style="--cc:' + artColor(c) + '" data-img="' + esc(c.n) + '" data-kind="art" data-zoom="' + esc(c.n) + '"></div><div class="body"><h4>' + esc(c.n) + " " + (c.m ? mana(c.m) : "") + flags(c, skipGc) + '</h4><div class="ty">' + esc(c.t) + (c.pt ? " · " + esc(c.pt) : "") + "</div>" + (why ? '<div class="why">' + esc(why) + "</div>" : "") + '<div class="tx">' + mana(c.o).replace(/\n/g, " · ") + "</div></div>" + (extra || "") + "</div>";
   }
   // Themes span several keywords or plain wording.
   const THEMES = {
@@ -551,7 +555,7 @@
       '<select class="sel" id="type"><option value="">Any type</option>' + types.map((t) => "<option>" + t + "</option>").join("") + "</select>" +
       '<select class="sel" id="kwsel"><option value="">Any keyword</option>' + kws.map(([k, n]) => '<option value="' + esc(k) + '">' + esc(title(k)) + " (" + n.toLocaleString() + ")</option>").join("") + "</select>" +
       '<select class="sel" id="themesel"><option value="">Any theme</option>' + Object.entries(THEMES).map(([k, v]) => '<option value="' + k + '">' + esc(v[0]) + "</option>").join("") + "</select>" +
-      '<button class="chip" id="legal">Commander legal</button><button class="chip" id="gc">Game Changer</button><button class="chip" id="kwbrowse">Browse keywords</button>';
+      '<button class="chip" id="legal">Commander legal</button><button class="chip" id="gc">Game Changer</button><button class="chip" id="gclist">Game Changer list</button><button class="chip" id="kwbrowse">Browse keywords</button>';
     let timer;
     $("#q").addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(() => { state.shown = 50; renderResults(); }, 160); });
     $("#q").addEventListener("keydown", (e) => { if (e.key === "Enter") $("#q").blur(); });
@@ -559,6 +563,7 @@
     $("#filters").addEventListener("click", (e) => {
       const b = e.target.closest("button"); if (!b) return;
       if (b.id === "kwbrowse") return openSheet({ type: "keywords" });
+      if (b.id === "gclist") return openSheet(newGcList());
       if (b.dataset.ci) { const c = b.dataset.ci; state.ci.has(c) ? state.ci.delete(c) : state.ci.add(c); b.classList.toggle("on"); }
       if (b.id === "legal") { state.legal = !state.legal; b.classList.toggle("on", state.legal); }
       if (b.id === "gc") { state.gc = !state.gc; b.classList.toggle("on", state.gc); }
@@ -652,6 +657,22 @@
       if (have.length) h += '<section class="block"><h2>' + esc(g) + '</h2><div class="chips" style="padding-top:0">' + have.map((k) => '<button class="chip" data-act="kw" data-v="' + esc(k) + '">' + esc(title(k)) + ' <span style="color:var(--mute)">' + KW.get(k).toLocaleString() + "</span></button>").join("") + "</div></section>";
     }
     h += '<section class="block"><h2>All keywords A–Z</h2><div class="chips" style="padding-top:0">' + [...KW.entries()].sort((a, b) => a[0].localeCompare(b[0])).map(([k, n]) => '<button class="chip" data-act="kw" data-v="' + esc(k) + '">' + esc(title(k)) + ' <span style="color:var(--mute)">' + n.toLocaleString() + "</span></button>").join("") + "</div></section>";
+    return h;
+  }
+
+  // ---------- Game Changers: every card the card data flags as one, as a list of its own (Search > Filters > Game Changer list) ----------
+  // The flag comes from the card data (c.g); the app doesn't judge power itself. Colors mean "has all of these" and C means colorless, as in the precon picker.
+  const newGcList = () => ({ type: "gamechangers", ci: "", sort: "name" });
+  function gcView(v) {
+    const all = MTGDeck.gameChangers(CARDS), rows = MTGDeck.gameChangers(all, v);
+    const dk = state.deck, companions = (dk && dk.companions) || [];
+    const hasDeck = !!(dk && (dk.cards.length || dk.commanders.length || companions.length));
+    const mine = new Set(hasDeck ? dk.cards.map((x) => x.n).concat(dk.commanders || [], companions) : []);
+    let h = '<div class="d" style="margin-bottom:8px">' + all.length + " cards are marked Game Changer in the card data. Tap a card for its page.</div>" +
+      '<div class="chips" style="padding-top:0">' + "WUBRGC".split("").map((x) => '<button class="chip' + (v.ci.includes(x) ? " on" : "") + '" data-act="glci" data-v="' + x + '" aria-pressed="' + v.ci.includes(x) + '" aria-label="Color ' + x + '">' + mana("{" + x + "}") + "</button>").join("") +
+      '<select class="sel" data-act="glsort" aria-label="Sort">' + [["name", "Sort: Name"], ["mv", "Sort: Mana value"], ["color", "Sort: Color"]].map(([k, l]) => '<option value="' + k + '"' + (v.sort === k ? " selected" : "") + ">" + l + "</option>").join("") + "</select></div>" +
+      '<div class="d" style="margin:8px 2px 6px;font-size:12.5px">' + rows.length + " card" + (rows.length === 1 ? "" : "s") + (v.ci ? (v.ci === "C" ? ", colorless" : ", with these colors") : "") + (hasDeck ? " · <b>" + all.filter((c) => mine.has(c.n)).length + "</b> of all " + all.length + " in your deck" : "") + "</div>";
+    h += rows.length ? rows.map((c) => rowHTML(c, mine.has(c.n) ? '<span class="badge good" style="align-self:center;margin:0">In your deck</span>' : "", "", true)).join("") : '<div class="empty">No Game Changer has these colors. Clear a color.</div>';
     return h;
   }
 
@@ -1157,6 +1178,7 @@
         const act = a.dataset.act;
         if (act === "import") return doImport();
         if (act === "prefield") return preToggle();
+        if (act === "gclist") return openSheet(newGcList());
         if (act === "new") { state.deck = { commanders: [], cards: [] }; saveDeck(); return; }
         if (act === "replace") { state.deck = null; state.importNote = ""; saveDeck(); return; }
         if (act === "export") return doExport(a);
@@ -1258,7 +1280,7 @@
     if (chk.offColor.length) warn.push("Outside your commander's colors: " + chk.offColor.map(esc).join(", ") + ' <a class="rl" data-rule="903.5c">903.5c</a>');
     if (chk.duplicates.length) warn.push("More than one copy: " + chk.duplicates.map(esc).join(", ") + ' <a class="rl" data-rule="903.5b">903.5b</a>');
     if (chk.banned.length) warn.push("Banned in Commander: " + chk.banned.map(esc).join(", "));
-    if (chk.gameChangers.length) warn.push("Game Changers (" + chk.gameChangers.length + "): " + chk.gameChangers.map(esc).join(", "));
+    if (chk.gameChangers.length) warn.push("Game Changers (" + chk.gameChangers.length + "): " + chk.gameChangers.map(esc).join(", ") + ' <button class="tllink" data-act="gclist">See the full list</button>');
     if (warn.length) h += '<section class="block"><h2>Check</h2>' + warn.map((w) => '<div class="panel item warnline">' + w + "</div>").join("") + "</section>";
     const max = Math.max(1, ...chk.curve);
     h += '<section class="block"><h2>Mana curve</h2><div class="panel"><div class="curve">' + chk.curve.map((n) => '<div style="height:' + Math.round((n / max) * 100) + '%"><span>' + (n || "") + "</span></div>").join("") +

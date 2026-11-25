@@ -224,6 +224,28 @@ t("synergy: text-found links are marked possible, and Humility draws a warning o
   assert.ok(r.items.length && r.items.every((x) => x.possible));
   assert.ok(r.items.some((x) => x.warn && /Humility/.test(x.warn.text)));
 });
+// Game Changers: the list screen (Search > Filters > Game Changer list) and the Game Changer filter read the flag in the card data
+t("Game Changers: the card data flags a believable number of cards (the flag has not gone missing)", () => {
+  const g = cards.filter((c) => c.g);
+  assert.ok(g.length >= 30, g.length + " cards flagged: has the source's Game Changer flag gone missing or changed?");
+  assert.ok(g.every((c) => c.n && typeof c.ci === "string"), "every flagged card has a name and a color identity");
+});
+
+t("Game Changers list: colors mean 'has all of these', C means colorless, and the sorts put the cards in order", () => {
+  const all = D.gameChangers(cards), n = (o) => D.gameChangers(cards, o).map((c) => c.n);
+  assert.strictEqual(all.length, cards.filter((c) => c.g).length, "every flagged card is listed");
+  assert.deepStrictEqual(n({ ci: "G" }), all.filter((c) => c.ci.includes("G")).map((c) => c.n));
+  assert.ok(D.gameChangers(cards, { ci: "UG" }).every((c) => c.ci.includes("U") && c.ci.includes("G")), "blue and green need both");
+  const none = D.gameChangers(cards, { ci: "C" });
+  assert.ok(none.length > 3 && none.every((c) => c.ci === ""), "colorless only");
+  const mv = D.gameChangers(cards, { sort: "mv" }).map((c) => D.manaValue(c.m));
+  assert.ok(mv.every((v, i) => !i || v >= mv[i - 1]), "mana value order");
+  const col = D.gameChangers(cards, { sort: "color" }).map((c) => (c.ci.length > 1 ? 10 : c.ci === "" ? 11 : "WUBRG".indexOf(c.ci)));
+  assert.ok(col.every((v, i) => !i || v >= col[i - 1]), "white first, multicolor, colorless last");
+  assert.deepStrictEqual(n({}), [...n({})].sort((a, b) => a.localeCompare(b)), "name order by default");
+  assert.deepStrictEqual(n({ sort: "nonsense" }), n({}), "an unknown sort falls back to name");
+});
+
 // synergy finder with one card: that card's partners
 t("synergy: one card finds the cards that finish its two-card combos first, then the rest of its longer combos", () => {
   const S = require(path.join(root, "docs/synergy.js")), short = (n) => n.split(",")[0];
