@@ -759,7 +759,7 @@ Steps: Activate Irrigated Farmland's cycling ability by paying {0} and discardin
 
 ## Combo 65-717-864-881-2628
 Cards: Escape Protocol + Fluctuator + Bone Miser + Eternal Witness + Scattered Groves
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 47 | Commander: legal
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 48 | Commander: legal
 Produces: Infinite black mana; Infinite card draw; Infinite creature ETB; Infinite creature LTB
 Start: Escape Protocol (battlefield); Fluctuator (battlefield); Bone Miser (battlefield); Eternal Witness (battlefield); Scattered Groves (hand)
 Steps: Activate Scattered Groves's cycling ability by paying {0} and discarding it.
@@ -785,7 +785,7 @@ Steps: Activate Drifting Meadow's cycling ability by paying {0} and discarding i
 
 ## Combo 65-717-864-2628-4371
 Cards: Escape Protocol + Fluctuator + Bone Miser + Eternal Witness + Irrigated Farmland
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 50 | Commander: legal
 Produces: Infinite black mana; Infinite card draw; Infinite creature ETB; Infinite creature LTB
 Start: Escape Protocol (battlefield); Fluctuator (battlefield); Bone Miser (battlefield); Eternal Witness (battlefield); Irrigated Farmland (hand)
 Steps: Activate Irrigated Farmland's cycling ability by paying {0} and discarding it.
@@ -1228,7 +1228,7 @@ Steps: Activate Kiora's Follower by tapping it.
 ## Combo 116-2645-3430-3861
 Cards: Staff of Domination + Nyxbloom Ancient + Kiora's Follower + Orzhov Basilica
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite black mana; Infinite card draw; Infinite lifegain; Infinite white mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite black mana; Infinite card draw; Infinite lifegain; Infinite white mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Kiora's Follower (battlefield); Orzhov Basilica (battlefield)
 Prerequisites: Kiora's Follower doesn't have summoning sickness.
 Steps: Activate Orzhov Basilica by tapping it, adding {W}{W}{W}{B}{B}{B} due to Nyxbloom Ancient
@@ -1443,7 +1443,7 @@ Steps: Activate Aminatou's second loyalty ability by removing a loyalty counter 
 
 ## Combo 193-1543-1887-2032
 Cards: Aminatou, the Fateshifter + Ichormoon Gauntlet + Vorinclex, Monstrous Raider + Kiora, Behemoth Beckoner
-Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 73 | Commander: legal
+Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 74 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Aminatou, the Fateshifter (battlefield); Ichormoon Gauntlet (battlefield); Vorinclex, Monstrous Raider (battlefield); Kiora, Behemoth Beckoner (battlefield)
 Prerequisites: You control at least one additional planeswalker.
@@ -1481,7 +1481,7 @@ Steps: Activate Aminatou's second loyalty ability by removing a loyalty counter 
 
 ## Combo 193-1543-2032-4772
 Cards: Aminatou, the Fateshifter + Ichormoon Gauntlet + Doubling Season + Kiora, Behemoth Beckoner
-Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 94 | Commander: legal
+Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 95 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Aminatou, the Fateshifter (battlefield); Ichormoon Gauntlet (battlefield); Doubling Season (battlefield); Kiora, Behemoth Beckoner (battlefield)
 Prerequisites: You control at least one additional planeswalker.
@@ -2042,7 +2042,7 @@ Steps: Activate Zimone and Dina by tapping it and sacrificing another creature, 
 ## Combo 224-730-5627
 Cards: Wight of the Reliquary + Retreat to Coralhelm + Emeria Angel
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 63 | Commander: legal
-Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
+Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); Retreat to Coralhelm (battlefield); Emeria Angel (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
   You control at least one additional creature.
@@ -2276,10 +2276,10 @@ Steps: Activate Zimone's first ability by paying {1} and tapping it, putting Orz
   Repeat.
 
 ## Combo 224-1772-3861-5478
-Cards: Zimone, Quandrix Prodigy + Retreat to Coralhelm + Spelunking + Orzhov Basilica
+Cards: Zimone, Quandrix Prodigy + Spelunking + Retreat to Coralhelm + Orzhov Basilica
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal | Mana needed: {1}
 Produces: Infinite black mana; Infinite white mana; Infinite landfall triggers
-Start: Zimone, Quandrix Prodigy (battlefield: without summoning sickness); Retreat to Coralhelm (battlefield); Spelunking (battlefield); Orzhov Basilica (hand)
+Start: Zimone, Quandrix Prodigy (battlefield: without summoning sickness); Spelunking (battlefield); Retreat to Coralhelm (battlefield); Orzhov Basilica (hand)
 Steps: Activate Zimone's first ability by paying {1} and tapping it, putting Orzhov Basilica from your hand onto the battlefield untapped due to Spelunking.
   When Orzhov Basilica enters the battlefield, it and Retreat to Coralhelm trigger.
   Holding priority, activate Orzhov Basilica by tapping it, adding {W}{B}.
@@ -2362,7 +2362,7 @@ Steps: Activate Skyshroud Ranger by tapping it, putting Orzhov Basilica from you
 ## Combo 224-2374-5627
 Cards: Wight of the Reliquary + Retreat to Coralhelm + Maja, Bretagard Protector
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
-Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
+Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); Retreat to Coralhelm (battlefield); Maja, Bretagard Protector (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
   You control at least one additional creature.
@@ -2389,7 +2389,7 @@ Steps: Tap Rootgrazer, putting a basic land into play.
 ## Combo 224-2692-5627
 Cards: Wight of the Reliquary + Retreat to Coralhelm + Felidar Retreat
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 130 | Commander: legal
-Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
+Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); Retreat to Coralhelm (battlefield); Felidar Retreat (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
   You control at least one additional creature.
@@ -2441,7 +2441,7 @@ Steps: Activate Sakura-Tribe Scout by tapping it, putting Orzhov Basilica from y
 ## Combo 224-3678-5627
 Cards: Wight of the Reliquary + Retreat to Coralhelm + Retreat to Emeria
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 23 | Commander: legal
-Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
+Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); Retreat to Coralhelm (battlefield); Retreat to Emeria (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
   You control at least one additional creature.
@@ -2466,7 +2466,7 @@ Steps: Activate Zimone and Dina by tapping it and sacrificing Bloodghast, causin
 ## Combo 224-5627-5671
 Cards: Wight of the Reliquary + Retreat to Coralhelm + The Necrobloom
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 150 | Commander: legal
-Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
+Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); Retreat to Coralhelm (battlefield); The Necrobloom (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
   You control at least one additional creature.
@@ -7694,7 +7694,7 @@ Notes: Once Vish Kal has infinite +1/+1 counters, you may activate its last abil
 ## Combo 574-7084-7892
 Cards: Beifong's Bounty Hunters + Vish Kal, Blood Arbiter + Thranduil the Strategist
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Destroy all creatures opponents control; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Destroy all creatures opponents control; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Vish Kal, Blood Arbiter (battlefield); Thranduil the Strategist (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -7711,7 +7711,7 @@ Notes: Once Vish Kal has infinite +1/+1 counters, you may activate its last abil
 ## Combo 574-7084-7893
 Cards: Beifong's Bounty Hunters + Vish Kal, Blood Arbiter + Thranduil, Sindarin Liege // Silvan Rally
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Destroy all creatures opponents control; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Destroy all creatures opponents control; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Vish Kal, Blood Arbiter (battlefield); Thranduil, Sindarin Liege // Silvan Rally (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -11626,10 +11626,21 @@ Steps: Cast Bloodghast by paying {B}{B}.
   Repeat from step 3.
 Notes: If the chosen land can enter untapped and produce mana, you may do so each iteration to get infinite mana of those color(s) and type(s).
 
+## Combo 723-1167-7817
+Cards: Captain Sisay + Mindslaver + Paradox Shaper // Omit Variables
+Color identity: GWUB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {6} the first turn, with {12} available each following turn
+Produces: You control one opponent on their turn each turn cycle; Lock
+Start: Captain Sisay (battlefield); Mindslaver (battlefield); Paradox Shaper // Omit Variables (battlefield)
+Steps: Activate Mindslaver by paying {4}, tapping and sacrificing it, causing you to gain control of target opponent during their next turn.
+  Activate Paradox Shaper by paying {2}, putting Mindslaver from your graveyard onto the bottom of your library
+  During your next turn, activate Captain Sisay by tapping it, searching your library for Mindslaver and putting it into your hand.
+  Cast Mindslaver by paying {6}.
+  Repeat.
+
 ## Combo 728-730-7084
 Cards: Beifong's Bounty Hunters + Grimgrin, Corpse-Born + Emeria Angel
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Grimgrin, Corpse-Born (battlefield); Emeria Angel (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -12434,7 +12445,7 @@ Steps: Activate Grimgrin's ability from A Realm Reborn by tapping Grimgrin, addi
 ## Combo 728-2374-7084
 Cards: Beifong's Bounty Hunters + Grimgrin, Corpse-Born + Maja, Bretagard Protector
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Grimgrin, Corpse-Born (battlefield); Maja, Bretagard Protector (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -12743,7 +12754,7 @@ Steps: Activate Grimgrin's ability from A Realm Reborn by tapping Grimgrin, addi
 ## Combo 728-2692-7084
 Cards: Beifong's Bounty Hunters + Grimgrin, Corpse-Born + Felidar Retreat
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Grimgrin, Corpse-Born (battlefield); Felidar Retreat (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -13547,7 +13558,7 @@ Steps: Activate Grimgrin's ability from A Realm Reborn by tapping Grimgrin, addi
 ## Combo 728-3678-7084
 Cards: Beifong's Bounty Hunters + Grimgrin, Corpse-Born + Retreat to Emeria
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Grimgrin, Corpse-Born (battlefield); Retreat to Emeria (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -13638,7 +13649,7 @@ Steps: Activate Grimgrin by sacrificing Ghave.
 ## Combo 728-5671-7084
 Cards: Beifong's Bounty Hunters + Grimgrin, Corpse-Born + The Necrobloom
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Grimgrin, Corpse-Born (battlefield); The Necrobloom (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -13864,7 +13875,7 @@ Steps: Activate Grimgrin by sacrificing another nonland creature you control.
 ## Combo 728-7084-8337
 Cards: Beifong's Bounty Hunters + Grimgrin, Corpse-Born + M'Ress, Crew Coordinator
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Grimgrin, Corpse-Born (battlefield); M'Ress, Crew Coordinator (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -13880,7 +13891,7 @@ Steps: Activate Grimgrin by sacrificing another nonland creature you control
 ## Combo 728-7084-8338
 Cards: Beifong's Bounty Hunters + Grimgrin, Corpse-Born + Shuttlecraft Galileo
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Grimgrin, Corpse-Born (battlefield); Shuttlecraft Galileo (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -13967,7 +13978,7 @@ Steps: Play Petrified Field.
 ## Combo 730-1636-5627
 Cards: Wight of the Reliquary + Intruder Alarm + Emeria Angel
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
-Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
+Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); Intruder Alarm (battlefield); Emeria Angel (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
   You control at least one additional creature.
@@ -13979,7 +13990,7 @@ Steps: Activate Wight of the Reliquary by tapping it and sacrificing another cre
 ## Combo 730-5627-7857
 Cards: Wight of the Reliquary + Emeria Angel + Elven Raft-Steerer
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
-Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
+Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); Emeria Angel (battlefield); Elven Raft-Steerer (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
   You control at least one additional creature.
@@ -14430,7 +14441,7 @@ Steps: Cast Kaya the Inexorable by paying {3}{W}{B}, causing her to enter with t
 
 ## Combo 799-3582-4772
 Cards: Kaya the Inexorable + Karn's Temporal Sundering + Doubling Season
-Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 170 | Commander: legal | Mana needed: {3}{W}{B}
+Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 160 | Commander: legal | Mana needed: {3}{W}{B}
 Produces: Infinite turns; Lock
 Start: Kaya the Inexorable (hand); Karn's Temporal Sundering (hand, exile, graveyard); Doubling Season (battlefield)
 Prerequisites: Kaya must be able to survive one turn cycle, or you control an additional legendary creature or planeswalker.
@@ -16019,18 +16030,6 @@ Steps: Activate Cauldron Familiar by sacrificing a Food.
   Resolve the Shilgengar ability.
   Repeat.
 
-## Combo 864-1805-4067-6281
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Eternal Witness + Pyramid of the Pantheon
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Eternal Witness (hand); Pyramid of the Pantheon (battlefield: with three or more brick counters on it)
-Steps: Activate Pyramid of the Pantheon by tapping it, adding {U}{U}{U}.
-  Activate Mind Over Matter by discarding Eternal Witness.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Eternal Witness that is a 4/4 Zombie.
-  When the Eternal Witness token enters the battlefield, it triggers, returning Eternal Witness from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping Pyramid of the Pantheon.
-  Repeat.
-
 ## Combo 864-2593-4067-6281
 Cards: Hashaton, Scarab's Fist + Mind Over Matter + Eternal Witness + Astral Cornucopia
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -16092,19 +16091,6 @@ Steps: Activate Gilded Lotus by tapping it, adding {U}{U}{U}.
   Resolve the Mind Over Matter ability, untapping Gilded Lotus.
   Repeat.
 
-## Combo 864-4067-5527-6281
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Eternal Witness + Five Hundred Year Diary
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite blue mana; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Eternal Witness (hand); Five Hundred Year Diary (battlefield)
-Prerequisites: You control at least three Clues.
-Steps: Activate Five Hundred Year Diary by tapping it, adding at least {U}{U}{U}.
-  Activate Mind Over Matter by discarding Eternal Witness.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Eternal Witness that is a 4/4 Zombie.
-  When the Eternal Witness token enters the battlefield, it triggers, returning Eternal Witness from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping Five Hundred Year Diary.
-  Repeat.
-
 ## Combo 864-4067-6281-6893
 Cards: Hashaton, Scarab's Fist + Mind Over Matter + Eternal Witness + The Eternity Elevator
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -16116,19 +16102,6 @@ Steps: Activate The Eternity Elevator by tapping it, adding at least twenty {U}.
   Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Eternal Witness that is a 4/4 Zombie.
   When the Eternal Witness token enters the battlefield, it triggers, returning Eternal Witness from your graveyard to your hand.
   Resolve the Mind Over Matter ability, untapping The Eternity Elevator.
-  Repeat.
-
-## Combo 864-4067-6281-7013
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Eternal Witness + White Lotus Tile
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite colored mana; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Eternal Witness (hand); White Lotus Tile (battlefield)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Activate White Lotus Tile by tapping it, adding at least {U}{U}{U}.
-  Activate Mind Over Matter by discarding Eternal Witness.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Eternal Witness that is a 4/4 Zombie.
-  When the Eternal Witness token enters the battlefield, it triggers, returning Eternal Witness from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping White Lotus Tile.
   Repeat.
 
 ## Combo 872-3861-7857
@@ -16494,7 +16467,7 @@ Steps: Play Selesnya Sanctuary. When it enters untapped due to Archelos, Selesny
 
 ## Combo 907-4826-5449-5702
 Cards: Springheart Nantuko + Selesnya Sanctuary + Archelos, Lagoon Mystic + Oracle of Mul Daya
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
 Produces: Infinite creature tokens; Infinite landfall triggers; Infinite creature ETB
 Start: Springheart Nantuko (battlefield: attached to Oracle of Mul Daya); Selesnya Sanctuary (hand); Archelos, Lagoon Mystic (battlefield: untapped); Oracle of Mul Daya (battlefield)
 Prerequisites: You are able to play a land this turn
@@ -16507,7 +16480,7 @@ Steps: Play Selesnya Sanctuary. When it enters untapped due to Archelos, Selesny
 
 ## Combo 907-4826-5451-5702
 Cards: Springheart Nantuko + Selesnya Sanctuary + Archelos, Lagoon Mystic + Wayward Swordtooth
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
 Produces: Infinite creature tokens; Infinite landfall triggers; Infinite creature ETB
 Start: Springheart Nantuko (battlefield: attached to Wayward Swordtooth); Selesnya Sanctuary (hand); Archelos, Lagoon Mystic (battlefield: untapped); Wayward Swordtooth (battlefield)
 Prerequisites: You are able to play a land this turn
@@ -16636,7 +16609,7 @@ Steps: During an opponent's turn, activate Heart of Kiran by tapping Wylie Duke.
 ## Combo 950-2645-3430-3861
 Cards: Staff of Domination + Nyxbloom Ancient + Fatestitcher + Orzhov Basilica
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite black mana; Infinite card draw; Infinite lifegain; Infinite white mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite black mana; Infinite card draw; Infinite lifegain; Infinite white mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Fatestitcher (battlefield); Orzhov Basilica (battlefield)
 Prerequisites: Fatestitcher doesn't have summoning sickness.
 Steps: Activate Orzhov Basilica by tapping it, adding {W}{W}{W}{B}{B}{B} due to Nyxbloom Ancient
@@ -17255,18 +17228,6 @@ Steps: Declare Genestealer Patriarch as an attacker.
   Resolve the Shilgengar ability.
   Repeat from step 4.
 
-## Combo 1018-1805-4067-6281
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Skullwinder + Pyramid of the Pantheon
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite creature ETB; Infinite self-discard triggers; Target opponent returns all cards in their graveyard to their hand
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Skullwinder (hand); Pyramid of the Pantheon (battlefield: with three or more brick counters on it)
-Steps: Activate Pyramid of the Pantheon by tapping it, adding {U}{U}{U}.
-  Activate Mind Over Matter by discarding Skullwinder.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Skullwinder that is a 4/4 Zombie.
-  When the Skullwinder token enters the battlefield, it triggers, returning Skullwinder from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping Pyramid of the Pantheon.
-  Repeat.
-
 ## Combo 1018-2593-4067-6281
 Cards: Hashaton, Scarab's Fist + Mind Over Matter + Skullwinder + Astral Cornucopia
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -17328,19 +17289,6 @@ Steps: Activate Gilded Lotus by tapping it, adding {U}{U}{U}.
   Resolve the Mind Over Matter ability, untapping Gilded Lotus.
   Repeat.
 
-## Combo 1018-4067-5527-6281
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Skullwinder + Five Hundred Year Diary
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite blue mana; Infinite creature ETB; Infinite self-discard triggers; Target opponent returns all cards in their graveyard to their hand
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Skullwinder (hand); Five Hundred Year Diary (battlefield)
-Prerequisites: You control at least three Clues.
-Steps: Activate Five Hundred Year Diary by tapping it, adding at least {U}{U}{U}.
-  Activate Mind Over Matter by discarding Skullwinder.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Skullwinder that is a 4/4 Zombie.
-  When the Skullwinder token enters the battlefield, it triggers, returning Skullwinder from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping Five Hundred Year Diary.
-  Repeat.
-
 ## Combo 1018-4067-6281-6893
 Cards: Hashaton, Scarab's Fist + Mind Over Matter + Skullwinder + The Eternity Elevator
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -17352,19 +17300,6 @@ Steps: Activate The Eternity Elevator by tapping it, adding at least twenty {U}.
   Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Skullwinder that is a 4/4 Zombie.
   When the Skullwinder token enters the battlefield, it triggers, returning Skullwinder from your graveyard to your hand.
   Resolve the Mind Over Matter ability, untapping The Eternity Elevator.
-  Repeat.
-
-## Combo 1018-4067-6281-7013
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Skullwinder + White Lotus Tile
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite colored mana; Infinite creature ETB; Infinite self-discard triggers; Target opponent returns all cards in their graveyard to their hand
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Skullwinder (hand); White Lotus Tile (battlefield)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Activate White Lotus Tile by tapping it, adding at least {U}{U}{U}.
-  Activate Mind Over Matter by discarding Skullwinder.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Skullwinder that is a 4/4 Zombie.
-  When the Skullwinder token enters the battlefield, it triggers, returning Skullwinder from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping White Lotus Tile.
   Repeat.
 
 ## Combo 1021-1669-4826-6303
@@ -20989,7 +20924,7 @@ Steps: Activate Automated Assembly Line by paying {E}{E}{E}, creating a tapped 3
 ## Combo 1432-2645-3430-3861
 Cards: Staff of Domination + Nyxbloom Ancient + Ioreth of the Healing House + Orzhov Basilica
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite black mana; Infinite card draw; Infinite lifegain; Infinite white mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite black mana; Infinite card draw; Infinite lifegain; Infinite white mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Ioreth of the Healing House (battlefield); Orzhov Basilica (battlefield)
 Prerequisites: Ioreth of the Healing House doesn't have summoning sickness.
 Steps: Activate Orzhov Basilica by tapping it, adding {W}{W}{W}{B}{B}{B} due to Nyxbloom Ancient
@@ -21054,10 +20989,10 @@ Steps: Activate Bogbrew Witch by paying {2} and tapping it, searching your libra
   Repeat.
 
 ## Combo 1453-2921-4694-7306
-Cards: The Ooze + Bartolomé del Presidio + Arwen, Weaver of Hope + March of the Machines
+Cards: The Ooze + Arwen, Weaver of Hope + Bartolomé del Presidio + March of the Machines
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite artifact tokens; Infinite Mutagen tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Bartolomé del Presidio (battlefield); Arwen, Weaver of Hope (battlefield); March of the Machines (battlefield)
+Start: The Ooze (battlefield); Arwen, Weaver of Hope (battlefield); Bartolomé del Presidio (battlefield); March of the Machines (battlefield)
 Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Bartolomé del Presidio by sacrificing a creature with a +1/+1 counter on it.
   When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
@@ -23086,7 +23021,7 @@ Steps: Activate Shilgengar by sacrificing another creature.
 ## Combo 1636-2374-5627
 Cards: Wight of the Reliquary + Intruder Alarm + Maja, Bretagard Protector
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
-Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
+Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); Intruder Alarm (battlefield); Maja, Bretagard Protector (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
   You control at least one additional creature.
@@ -23160,7 +23095,7 @@ Steps: Activate Xavier Sal by tapping it and removing a counter from a permanent
 ## Combo 1636-2692-5627
 Cards: Wight of the Reliquary + Intruder Alarm + Felidar Retreat
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
-Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
+Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); Intruder Alarm (battlefield); Felidar Retreat (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
   You control at least one additional creature.
@@ -23326,7 +23261,7 @@ Steps: Activate Xavier Sal by tapping it and removing a counter from a permanent
 ## Combo 1636-3678-5627
 Cards: Wight of the Reliquary + Intruder Alarm + Retreat to Emeria
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
-Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
+Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); Intruder Alarm (battlefield); Retreat to Emeria (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
   You control at least one additional creature.
@@ -23353,7 +23288,7 @@ Steps: During your precombat main phase, activate Shilgengar by sacrificing the 
 ## Combo 1636-5627-5671
 Cards: Wight of the Reliquary + Intruder Alarm + The Necrobloom
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
-Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
+Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); Intruder Alarm (battlefield); The Necrobloom (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
   You control at least one additional creature.
@@ -23587,7 +23522,7 @@ Notes: You may optionally target any other creature using one of the triggers to
 ## Combo 1719-2645-3430-3861
 Cards: Staff of Domination + Nyxbloom Ancient + Vizier of Tumbling Sands + Orzhov Basilica
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite black mana; Infinite card draw; Infinite lifegain; Infinite white mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite black mana; Infinite card draw; Infinite lifegain; Infinite white mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Vizier of Tumbling Sands (battlefield); Orzhov Basilica (battlefield)
 Prerequisites: Vizier of Tumbling Sands doesn't have summoning sickness.
 Steps: Activate Orzhov Basilica by tapping it, adding {W}{W}{W}{B}{B}{B} due to Nyxbloom Ancient
@@ -24047,116 +23982,6 @@ Steps: Cast Ebondeath from your graveyard by paying {B}{B}.
   Activate the Treasures by tapping and sacrificing them, adding {B}{B}.
   Repeat.
 Notes: This combo will steadily put more +1/+1 counters on Ebondeath and the Zombie Rogue token, eventually resulting in an infinite number of them.
-
-## Combo 1805-4067-4477-6281
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Pyramid of the Pantheon + Greenwarden of Murasa
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Pyramid of the Pantheon (battlefield: with three or more brick counters on it); Greenwarden of Murasa (hand)
-Steps: Activate Pyramid of the Pantheon by tapping it, adding {U}{U}{U}.
-  Activate Mind Over Matter by discarding Greenwarden of Murasa.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Greenwarden of Murasa that is a 4/4 Zombie.
-  When the Greenwarden of Murasa token enters the battlefield, it triggers, returning Greenwarden of Murasa from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping Pyramid of the Pantheon.
-  Repeat.
-
-## Combo 1805-4067-4823-6281
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Pyramid of the Pantheon + Timeless Witness
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Pyramid of the Pantheon (battlefield: with three or more brick counters on it); Timeless Witness (hand)
-Steps: Activate Pyramid of the Pantheon by tapping it, adding {U}{U}{U}.
-  Activate Mind Over Matter by discarding Timeless Witness.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Timeless Witness that is a 4/4 Zombie.
-  When the Timeless Witness token enters the battlefield, it triggers, returning Timeless Witness from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping Pyramid of the Pantheon.
-  Repeat.
-
-## Combo 1805-4067-5181-6281
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Pyramid of the Pantheon + Golgari Findbroker
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Pyramid of the Pantheon (battlefield: with three or more brick counters on it); Golgari Findbroker (hand)
-Steps: Activate Pyramid of the Pantheon by tapping it, adding {U}{U}{U}.
-  Activate Mind Over Matter by discarding Golgari Findbroker.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Golgari Findbroker that is a 4/4 Zombie.
-  When the Golgari Findbroker token enters the battlefield, it triggers, returning Golgari Findbroker from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping Pyramid of the Pantheon.
-  Repeat.
-
-## Combo 1805-4067-6100-6281
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Pyramid of the Pantheon + Elvish Regrower
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Pyramid of the Pantheon (battlefield: with three or more brick counters on it); Elvish Regrower (hand)
-Steps: Activate Pyramid of the Pantheon by tapping it, adding {U}{U}{U}.
-  Activate Mind Over Matter by discarding Elvish Regrower.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Elvish Regrower that is a 4/4 Zombie.
-  When the Elvish Regrower token enters the battlefield, it triggers, returning Elvish Regrower from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping Pyramid of the Pantheon.
-  Repeat.
-
-## Combo 1805-4067-6281-6435
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Pyramid of the Pantheon + Coati Scavenger
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Pyramid of the Pantheon (battlefield: with three or more brick counters on it); Coati Scavenger (hand)
-Prerequisites: There are four or more permanent cards in your graveyard.
-Steps: Activate Pyramid of the Pantheon by tapping it, adding {U}{U}{U}.
-  Activate Mind Over Matter by discarding Coati Scavenger.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Coati Scavenger that is a 4/4 Zombie.
-  When the Coati Scavenger token enters the battlefield, it triggers, returning Coati Scavenger from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping Pyramid of the Pantheon.
-  Repeat.
-
-## Combo 1805-4067-6281-6927
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Pyramid of the Pantheon + Damage Control Crew
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Pyramid of the Pantheon (battlefield: with three or more brick counters on it); Damage Control Crew (hand)
-Steps: Activate Pyramid of the Pantheon by tapping it, adding {U}{U}{U}.
-  Activate Mind Over Matter by discarding Damage Control Crew.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Damage Control Crew that is a 4/4 Zombie.
-  When the Damage Control Crew token enters the battlefield, it triggers, returning Damage Control Crew from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping Pyramid of the Pantheon.
-  Repeat.
-
-## Combo 1805-4067-6281-7206
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Pyramid of the Pantheon + Dundoolin Weaver
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Pyramid of the Pantheon (battlefield: with three or more brick counters on it); Dundoolin Weaver (hand)
-Prerequisites: You control three or more creatures.
-Steps: Activate Pyramid of the Pantheon by tapping it, adding {U}{U}{U}.
-  Activate Mind Over Matter by discarding Dundoolin Weaver.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Dundoolin Weaver that is a 4/4 Zombie.
-  When the Dundoolin Weaver token enters the battlefield, it triggers, returning Dundoolin Weaver from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping Pyramid of the Pantheon.
-  Repeat.
-
-## Combo 1805-4067-6281-7252
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Grave Sifter + Pyramid of the Pantheon
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Each opponent returns all creature cards from their graveyard to their hand; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Grave Sifter (hand); Pyramid of the Pantheon (battlefield: with three or more brick counters on it)
-Steps: Activate Pyramid of the Pantheon by tapping it, adding {U}{U}{U}.
-  Activate Mind Over Matter by discarding Grave Sifter.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Grave Sifter that is a 4/4 Zombie.
-  When the Grave Sifter token enters the battlefield, it triggers, returning Grave Sifter from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping Pyramid of the Pantheon.
-  Repeat.
-
-## Combo 1805-4067-6281-7327
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Pyramid of the Pantheon + Ragamuffin Raptor
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Pyramid of the Pantheon (battlefield: with three or more brick counters on it); Ragamuffin Raptor (hand)
-Steps: Activate Pyramid of the Pantheon by tapping it, adding {U}{U}{U}.
-  Activate Mind Over Matter by discarding Ragamuffin Raptor.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Ragamuffin Raptor that is a 4/4 Zombie.
-  When the Ragamuffin Raptor token enters the battlefield, it triggers, returning Ragamuffin Raptor from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping Pyramid of the Pantheon.
-  Repeat.
 
 ## Combo 1808-2921-3000
 Cards: Eloise, Nephalia Sleuth + Chatterfang, Squirrel General + Bartolomé del Presidio
@@ -26429,7 +26254,7 @@ Steps: Activate Shilgengar by sacrificing another creature.
 ## Combo 2085-2645-3430-3861
 Cards: Staff of Domination + Nyxbloom Ancient + Kelpie Guide + Orzhov Basilica
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite black mana; Infinite card draw; Infinite lifegain; Infinite white mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite black mana; Infinite card draw; Infinite lifegain; Infinite white mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Kelpie Guide (battlefield); Orzhov Basilica (battlefield)
 Prerequisites: Kelpie Guide doesn't have summoning sickness.
 Steps: Activate Orzhov Basilica by tapping it, adding {W}{W}{W}{B}{B}{B} due to Nyxbloom Ancient
@@ -26503,10 +26328,10 @@ Steps: Activate Zameck Guildmage's first ability by paying {G}{U}.
   Repeat from step 2.
 
 ## Combo 2169-2921-4694-7306
-Cards: The Ooze + Bartolomé del Presidio + Zameck Guildmage + March of the Machines
+Cards: The Ooze + Zameck Guildmage + Bartolomé del Presidio + March of the Machines
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {G}{U}
 Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Bartolomé del Presidio (battlefield); Zameck Guildmage (battlefield); March of the Machines (battlefield)
+Start: The Ooze (battlefield); Zameck Guildmage (battlefield); Bartolomé del Presidio (battlefield); March of the Machines (battlefield)
 Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Zameck Guildmage's first ability by paying {U}{G}, causing each creature you control to enter with an additional +1/+1 counter this turn.
   Activate Bartolomé del Presidio by sacrificing a creature with a +1/+1 counter on it.
@@ -27188,7 +27013,7 @@ Steps: Activate Krark-Clan Ironworks by exiling Ugin's Nexus, adding {C}{C}.
 ## Combo 2374-5627-7857
 Cards: Wight of the Reliquary + Maja, Bretagard Protector + Elven Raft-Steerer
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
+Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); Maja, Bretagard Protector (battlefield); Elven Raft-Steerer (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
   You control at least one additional creature.
@@ -27654,10 +27479,10 @@ Steps: At the beginning of your upkeep, Panoptic Mirror triggers, casting a copy
   Repeat each turn.
 
 ## Combo 2486-2921-4694-7306
-Cards: The Ooze + Bartolomé del Presidio + Master Chef + March of the Machines
+Cards: The Ooze + Master Chef + Bartolomé del Presidio + March of the Machines
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Bartolomé del Presidio (battlefield); Master Chef (battlefield); March of the Machines (battlefield)
+Start: The Ooze (battlefield); Master Chef (battlefield); Bartolomé del Presidio (battlefield); March of the Machines (battlefield)
 Prerequisites: You control your commander.
   You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Bartolomé del Presidio by sacrificing a creature with a +1/+1 counter on it.
@@ -28794,10 +28619,10 @@ Steps: Activate Combine Guildmage's first ability by paying {1}{G} and tapping i
   Repeat from step 2.
 
 ## Combo 2595-2921-4694-7306
-Cards: The Ooze + Bartolomé del Presidio + Combine Guildmage + March of the Machines
+Cards: The Ooze + Combine Guildmage + Bartolomé del Presidio + March of the Machines
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Bartolomé del Presidio (battlefield); Combine Guildmage (battlefield); March of the Machines (battlefield)
+Start: The Ooze (battlefield); Combine Guildmage (battlefield); Bartolomé del Presidio (battlefield); March of the Machines (battlefield)
 Prerequisites: Combine Guildmage does not have summoning sickness.
   You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Combine Guildmage's first ability by paying {1}{G} and tapping it, causing each creature you control to enter with an additional +1/+1 counter this turn.
@@ -29058,7 +28883,7 @@ Notes: During step 2, you can recur other creatures with suitable powers. This w
 ## Combo 2645-2872-3430-3861
 Cards: Staff of Domination + Nyxbloom Ancient + Clever Conjurer + Orzhov Basilica
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite black mana; Infinite card draw; Infinite lifegain; Infinite white mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite black mana; Infinite card draw; Infinite lifegain; Infinite white mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Clever Conjurer (battlefield); Orzhov Basilica (battlefield)
 Prerequisites: Clever Conjurer doesn't have summoning sickness.
 Steps: Activate Orzhov Basilica by tapping it, adding {W}{W}{W}{B}{B}{B} due to Nyxbloom Ancient
@@ -29070,7 +28895,7 @@ Steps: Activate Orzhov Basilica by tapping it, adding {W}{W}{W}{B}{B}{B} due to 
 ## Combo 2645-3430-3861-4644
 Cards: Staff of Domination + Nyxbloom Ancient + Orzhov Basilica + Tidewater Minion
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite black mana; Infinite card draw; Infinite lifegain; Infinite white mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite black mana; Infinite card draw; Infinite lifegain; Infinite white mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Orzhov Basilica (battlefield); Tidewater Minion (battlefield)
 Prerequisites: Tidewater Minion doesn't have summoning sickness.
 Steps: Activate Orzhov Basilica by tapping it, adding {W}{W}{W}{B}{B}{B} due to Nyxbloom Ancient
@@ -29082,7 +28907,7 @@ Steps: Activate Orzhov Basilica by tapping it, adding {W}{W}{W}{B}{B}{B} due to 
 ## Combo 2645-3430-3861-5475
 Cards: Staff of Domination + Nyxbloom Ancient + Orzhov Basilica + Forensic Researcher
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite black mana; Infinite card draw; Infinite lifegain; Infinite white mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite black mana; Infinite card draw; Infinite lifegain; Infinite white mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Orzhov Basilica (battlefield); Forensic Researcher (battlefield)
 Prerequisites: Forensic Researcher doesn't have summoning sickness.
 Steps: Activate Orzhov Basilica by tapping it, adding {W}{W}{W}{B}{B}{B} due to Nyxbloom Ancient
@@ -29094,7 +28919,7 @@ Steps: Activate Orzhov Basilica by tapping it, adding {W}{W}{W}{B}{B}{B} due to 
 ## Combo 2645-3430-3861-7014
 Cards: Staff of Domination + Nyxbloom Ancient + Orzhov Basilica + North Pole Patrol
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite black mana; Infinite card draw; Infinite lifegain; Infinite white mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite black mana; Infinite card draw; Infinite lifegain; Infinite white mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Orzhov Basilica (battlefield); North Pole Patrol (battlefield)
 Prerequisites: North Pole Patrol doesn't have summoning sickness.
 Steps: Activate Orzhov Basilica by tapping it, adding {W}{W}{W}{B}{B}{B} due to Nyxbloom Ancient
@@ -29106,7 +28931,7 @@ Steps: Activate Orzhov Basilica by tapping it, adding {W}{W}{W}{B}{B}{B} due to 
 ## Combo 2653-2692-2893-4826
 Cards: Fertilid + Nissa, Resurgent Animist + Felidar Retreat + Archelos, Lagoon Mystic
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Near-infinite landfall triggers; Put all basic lands from your library onto the battlefield tapped
+Produces: Near-infinite creature tokens; Near-infinite creature ETB; Near-infinite landfall triggers; Put all basic lands from your library onto the battlefield tapped
 Start: Fertilid (battlefield: with a +1/+1 counter on it); Nissa, Resurgent Animist (battlefield); Felidar Retreat (battlefield); Archelos, Lagoon Mystic (battlefield: untapped)
 Steps: Activate Fertilid by paying {1}{G} and removing a +1/+1 counter from it, causing you to search your library for a basic land card and put it on the battlefield untapped due to Archelos.
   When the basic land enters, Nissa and Felidar Retreat trigger.
@@ -29128,7 +28953,7 @@ Steps: At the beginning of your upkeep, Progenitor Mimic triggers, creating two 
 ## Combo 2692-2893-3470-4826
 Cards: Fertilid + Felidar Retreat + Lotus Cobra + Archelos, Lagoon Mystic
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Near-infinite landfall triggers; Put all basic lands from your library onto the battlefield tapped
+Produces: Near-infinite creature tokens; Near-infinite creature ETB; Near-infinite landfall triggers; Put all basic lands from your library onto the battlefield tapped
 Start: Fertilid (battlefield: with a +1/+1 counter on it); Felidar Retreat (battlefield); Lotus Cobra (battlefield); Archelos, Lagoon Mystic (battlefield: untapped)
 Steps: Activate Fertilid by paying {1}{G} and removing a +1/+1 counter from it, causing you to search your library for a basic land card and put it on the battlefield untapped due to Archelos.
   When the basic land enters, Lotus Cobra and Felidar Retreat trigger.
@@ -29140,7 +28965,7 @@ Steps: Activate Fertilid by paying {1}{G} and removing a +1/+1 counter from it, 
 ## Combo 2692-2893-3875-4826
 Cards: Fertilid + Felidar Retreat + Tireless Provisioner + Archelos, Lagoon Mystic
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Near-infinite landfall triggers; Put all basic lands from your library onto the battlefield tapped
+Produces: Near-infinite creature tokens; Near-infinite creature ETB; Near-infinite landfall triggers; Put all basic lands from your library onto the battlefield tapped
 Start: Fertilid (battlefield: with a +1/+1 counter on it); Felidar Retreat (battlefield); Tireless Provisioner (battlefield); Archelos, Lagoon Mystic (battlefield: untapped)
 Steps: Activate Fertilid by paying {1}{G} and removing a +1/+1 counter from it, causing you to search your library for a basic land card and put it on the battlefield untapped due to Archelos.
   When the basic land enters, Tireless Provisioner and Felidar Retreat trigger.
@@ -29153,7 +28978,7 @@ Steps: Activate Fertilid by paying {1}{G} and removing a +1/+1 counter from it, 
 ## Combo 2692-5627-7857
 Cards: Wight of the Reliquary + Felidar Retreat + Elven Raft-Steerer
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
-Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
+Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); Felidar Retreat (battlefield); Elven Raft-Steerer (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
   You control at least one additional creature.
@@ -29750,3 +29575,152 @@ Steps: Activate Bartolomé del Presidio by sacrificing another artifact or creat
   Resolve the Animation Module trigger, causing you to pay {1} to create a 1/1 Servo artifact creature token.
   Resolve the Bartolomé del Presidio ability.
   Repeat
+
+## Combo 2921-3497-4484-4871-5643
+Cards: Geralf, the Fleshwright + Pitiless Plunderer + Ebondeath, Dracolich + Bartolomé del Presidio + Ezzaroot Channeler
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B}{B}
+Produces: Infinite +1/+1 counters on a creature token; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Start: Geralf, the Fleshwright (battlefield); Pitiless Plunderer (battlefield); Ebondeath, Dracolich (graveyard); Bartolomé del Presidio (battlefield); Ezzaroot Channeler (battlefield)
+Prerequisites: A creature not named Ebondeath, Dracolich has died this turn.
+  You've cast a spell this turn.
+  You've gained at least 2 life this turn.
+Steps: Cast Ebondeath from your graveyard by paying {B}{B}.
+  Geralf's first ability triggers, creating a 2/2 Zombie Rogue creature token.
+  When the Zombie Rogue enters the battlefield, Geralf's second ability triggers,  putting a number of +1/+1 counters on the Zombie Rogue equal to the number of other Zombies that entered the battlefield under your control.
+  When Ebondeath enters the battlefield, Geralf's second ability triggers, putting a number of +1/+1 counters on Ebondeath equal to the number of other Zombies that entered the battlefield under your control.
+  Activate Bartolomé del Presidio twice by sacrificing the Zombie Rogue and Ebondeath.
+  When the Zombie Rogue and Ebondeath die, Pitiless Plunderer triggers twice, creating two Treasure tokens.
+  Resolve both Bartolomé del Presidio abilities.
+  Activate the Treasures by tapping and sacrificing them, adding {B}{B}.
+  Repeat.
+Notes: This combo will steadily put more +1/+1 counters on Ebondeath and the Zombie Rogue token, eventually resulting in an infinite number of them.
+
+## Combo 2921-3564-4275-5329
+Cards: Kumena, Tyrant of Orazca + Deeproot Pilgrimage + Faces of the Past + Bartolomé del Presidio
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature tokens; Infinite card draw; Infinite +1/+1 counters on a creature; Infinite +1/+1 counters on Merfolk you control; Infinite untap of all Merfolk; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite draw triggers
+Start: Kumena, Tyrant of Orazca (battlefield); Deeproot Pilgrimage (battlefield); Faces of the Past (battlefield); Bartolomé del Presidio (battlefield)
+Prerequisites: You control another untapped nontoken Merfolk.
+Steps: Activate Kumena's first ability by tapping another nontoken Merfolk you control.
+  Deeproot Pilgrimage triggers, creating a 1/1 Merfolk creature token.
+  Resolve the Kumena ability.
+  Activate Bartolomé del Presidio by sacrificing the Merfolk token.
+  When the Merfolk dies, Faces of the Past triggers, untapping all Merfolk.
+  Resolve the Bartolomé del Presidio ability.
+  Repeat.
+Notes: You can tap as many nontoken Merfolk as able each iteration by repeating steps 1 through 3 for each Merfolk. They will all be untapped by Faces of the Past.
+
+## Combo 2921-3908-5365
+Cards: Lonis, Genetics Expert + Bartolomé del Presidio + Spark Double
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite +1/+1 counters on creatures you control; Infinite artifact tokens; Infinite Clue tokens
+Start: Lonis, Genetics Expert (battlefield); Bartolomé del Presidio (battlefield); Spark Double (battlefield)
+Prerequisites: You control at least one Clue token.
+  Spark Double on the battlefield as a copy of Lonis.
+Steps: Activate Bartolomé del Presidio by sacrificing a Clue.
+  Lonis and Spark Double's second abilities trigger.
+  Resolve the Lonis trigger, putting a +1/+1 counter on Spark Double.
+  Spark Double's first ability triggers, creating a Clue artifact token.
+  Resolve the Spark Double trigger from step 2, putting a +1/+1 counter on Lonis.
+  Lonis' first ability triggers, creating a Clue artifact token.
+  Resolve the Bartolomé del Presidio ability.
+  Repeat.
+Notes: You may optionally target any other creature using one of the triggers to put infinite +1/+1 counters on that creature.
+
+## Combo 2921-4186-6566--196
+Cards: Bartolomé del Presidio + Scurry Oak + Yuna, Grand Summoner
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Requires: Gives +1/+1 counter to creatures that enter (battlefield)
+Start: Bartolomé del Presidio (battlefield); Scurry Oak (hand); Yuna, Grand Summoner (battlefield)
+Steps: Cast Scurry Oak by paying its mana cost.
+  When Scurry Oak enters, the effect that adds +1/+1 counters to entering creatures triggers or applies its replacement effect, putting at least one +1/+1 counter on Scurry Oak.
+  Scurry Oak triggers, creating a creature token.
+  When the creature token enters, that same effect causes you to place at least one +1/+1 counter on it.
+  Activate Bartolomé del Presidio by sacrificing the creature token.
+  When the creature token dies, Yuna triggers, putting at least one +1/+1 counter on Scurry Oak
+  Repeat steps 3 and 4 once.
+  Resolve the Bartolomé del Presidio ability.
+  Repeat from step 5.
+
+## Combo 2921-4215-6730
+Cards: Sin, Unending Cataclysm + Verdant Succession + Bartolomé del Presidio
+Color identity: GWUB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite +1/+1 counters on creatures you control; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Sin, Unending Cataclysm (battlefield); Verdant Succession (battlefield); Bartolomé del Presidio (battlefield)
+Steps: Activate Bartolomé del Presidio by sacrificing Sin.
+  When Sin dies, it and Verdant Succession trigger.
+  Resolve the Sin trigger, moving any counters from it onto another creature you control, and then shuffling Sin into your library.
+  Resolve the Verdant Succession trigger, searching your library for Sin and putting it onto the battlefield.
+  Resolve the Bartolomé del Presidio ability.
+  Repeat.
+Notes: In order to get infinite +1/+1 counters, remove as many counters as possible when Sin enters, putting twice that many +1/+1 counters on Sin as it enters. Those counters can then be moved to another creature when Sin dies.
+
+## Combo 2921-4275-5003-7892
+Cards: Thranduil the Strategist + Faces of the Past + Nim Deathmantle + Bartolomé del Presidio
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite blue mana; Infinite green mana; Infinite +1/+1 counters on a creature; Infinite untap of all creatures of a certain creature type; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
+Start: Thranduil the Strategist (battlefield); Faces of the Past (battlefield); Nim Deathmantle (battlefield); Bartolomé del Presidio (battlefield)
+Prerequisites: You control at least four other Elves that do not have summoning sickness.
+Steps: Activate at least four Elves other than Thranduil by tapping them, adding at least four in any combination of {G} and/or {U}.
+  Activate Bartolomé del Presidio by sacrificing Thranduil.
+  When Thranduil dies, Nim Deathmantle and Faces of the Past trigger.
+  Resolve the Nim Deathmantle trigger, causing you to pay {4} to return Thranduil from your graveyard to the battlefield and attach Nim Deathmantle to it.
+  Resolve the Faces of the Past trigger, untapping all Elves and Nobles.
+  Resolve the Bartolomé del Presidio ability.
+  Repeat.
+
+## Combo 2921-4419-4694-7306
+Cards: The Ooze + Bartolomé del Presidio + Renata, Called to the Hunt + March of the Machines
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: The Ooze (battlefield); Bartolomé del Presidio (battlefield); Renata, Called to the Hunt (battlefield); March of the Machines (battlefield)
+Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
+Steps: Activate Bartolomé del Presidio by sacrificing a creature with a +1/+1 counter on it.
+  When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
+  Each Mutagen artifact creature token enters with at least one +1/+1 counter on it due to Renata.
+  Resolve the Bartolomé del Presidio ability, putting a +1/+1 counter on them.
+  Repeat from step 1.
+
+## Combo 2921-4493-5365
+Cards: Lonis, Genetics Expert + Bartolomé del Presidio + Irenicus's Vile Duplication
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite +1/+1 counters on creatures you control; Infinite artifact tokens; Infinite Clue tokens
+Start: Lonis, Genetics Expert (battlefield); Bartolomé del Presidio (battlefield); Irenicus's Vile Duplication (hand)
+Prerequisites: You control at least one Clue token.
+  You have enough mana to cast Irenicus's Vile Duplication
+Steps: Cast Irenicus's Vile Duplication by paying its mana cost, creating a token copy of Lonis that isn't legendary.
+  Activate Bartolomé del Presidio by sacrificing a Clue.
+  Lonis and the Lonis token's second abilities trigger.
+  Resolve the nontoken Lonis trigger, putting a +1/+1 counter on the token Lonis.
+  The token Lonis's first ability triggers, creating a Clue artifact token.
+  Resolve the token Lonis's trigger from step 2, putting a +1/+1 counter on the nontoken Lonis.
+  The nontoken Lonis's first ability triggers, creating a Clue artifact token.
+  Resolve the Bartolomé del Presidio ability.
+  Repeat from step 2.
+Notes: You may optionally target any other creature using one of the triggers to put infinite +1/+1 counters on that creature.
+
+## Combo 2921-4559-4802-7306
+Cards: Metalwork Colossus + The Ooze + Bartolomé del Presidio + Master Biomancer
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite Mutagen tokens; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count
+Start: Metalwork Colossus (hand); The Ooze (battlefield); Bartolomé del Presidio (battlefield); Master Biomancer (battlefield)
+Prerequisites: Noncreature artifacts you control have total mana value 11 or greater.
+Steps: Cast Metalwork Colossus by paying {0}, which enters with at least two +1/+1 counters on it due to Master Biomancer.
+  Activate Bartolomé del Presidio by sacrificing Metalwork Colossus.
+  When Metalwork Colossus dies, The Ooze triggers, creating a Mutagen token for each +1/+1 counter Metalwork Colossus had.
+  Resolve the Bartolomé del Presidio ability.
+  Activate Metalwork Colossus by sacrificing two Mutagens, returning it from your graveyard to your hand.
+  Repeat.
+
+## Combo 2921-4694-4802-7306
+Cards: The Ooze + Bartolomé del Presidio + March of the Machines + Master Biomancer
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite artifact tokens; Infinite Mutagen tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: The Ooze (battlefield); Bartolomé del Presidio (battlefield); March of the Machines (battlefield); Master Biomancer (battlefield)
+Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
+Steps: Activate Bartolomé del Presidio by sacrificing a creature with a +1/+1 counter on it.
+  When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
+  Each Mutagen artifact creature token enters with at least one +1/+1 counter on it due to Master Biomancer.
+  Resolve the Bartolomé del Presidio ability, putting a +1/+1 counter on them.
+  Repeat from step 1.

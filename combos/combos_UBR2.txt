@@ -1,14 +1,3 @@
-## Combo 2099-4375-5400
-Cards: Technomancer + Synth Infiltrator + Sarcatog
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {5}{B}{B}
-Produces: Infinite self-mill; Infinitely large creature until end of turn; Put all artifact creature cards with mana value 1 or less from your library onto the battlefield; Put all artifact creature cards with mana value 1 or less from your graveyard onto the battlefield; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Technomancer (hand); Synth Infiltrator (graveyard); Sarcatog (battlefield)
-Steps: Cast Technomancer by paying {5}{B}{B}.
-  When Technomancer enters, it triggers, causing you to mill three cards and return Synth Infiltrator from your graveyard to the battlefield as a copy of Technomancer.
-  When Synth Infiltrator enters, it triggers. Holding priority, activate Sarcatog by sacrificing Synth Infiltrator.
-  Resolve the Synth Infiltrator trigger, causing you to mill three cards and return Synth Infiltrator from your graveyard to the battlefield as a copy of Technomancer.
-  Repeat from step 3.
-
 ## Combo 2099-4694-5805-7306
 Cards: The Ooze + Sarcatog + March of the Machines + Gev, Scaled Scorch
 Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -1239,7 +1228,7 @@ Steps: Activate Deathbringer Thoctar by removing a +1/+1 counter from it, dealin
 
 ## Combo 2397-4636-5159
 Cards: Gonti's Aether Heart + Mishra, Eminent One + Panharmonicon
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 810 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 820 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Gonti's Aether Heart (battlefield); Mishra, Eminent One (battlefield); Panharmonicon (battlefield)
 Steps: At the beginning of combat, Mishra triggers, creating a 4/4 artifact creature token copy of Gonti's Aether Heart named Mishra's Warform.
@@ -2110,7 +2099,7 @@ Steps: Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can 
 
 ## Combo 2633-3440-4867-5256
 Cards: Cormela, Glamour Thief + Demonic Gifts + Urabrask // The Great Work + Altar of Dementia
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal | Mana needed: {1}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal | Mana needed: {1}
 Produces: Infinite blue mana that can only be spent to cast instant and sorcery spells; Infinite damage; Infinite mill; Infinite red mana that can only be spent to cast instant and sorcery spells; Infinite self-mill; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite creature sacrifice triggers; Infinite storm count
 Start: Cormela, Glamour Thief (battlefield); Demonic Gifts (hand); Urabrask // The Great Work (battlefield); Altar of Dementia (battlefield)
 Steps: Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can only be spent to cast instant or sorcery spells.
@@ -2408,7 +2397,7 @@ Steps: Activate Grim Poppet by removing a -1/-1 counter from it, putting a -1/-1
 ## Combo 2770-4691-5919
 Cards: Razorkin Needlehead + Vilis, Broker of Blood + Donate
 Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 22 | Commander: legal | Mana needed: {2}{U}
-Produces: Target opponent loses the game; Infinite card draw for target opponent; Near-infinite damage to one opponent; Infinite draw triggers for target opponent
+Produces: Target opponent loses the game; Near-infinite damage to one opponent; Infinite card draw for target opponent; Infinite draw triggers for target opponent
 Start: Razorkin Needlehead (battlefield); Vilis, Broker of Blood (battlefield); Donate (hand)
 Steps: Cast Donate by paying {2}{U}, giving control of Vilis to an opponent.
   During that opponent's draw step, they draw a card.
@@ -3281,7 +3270,7 @@ Steps: Cast Ebondeath from your graveyard by paying {B}{B} due to Green Goblin.
 ## Combo 3174-4691-5919
 Cards: Razorkin Needlehead + Vilis, Broker of Blood + Switcheroo
 Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {4}{U}
-Produces: Target opponent loses the game; Infinite card draw for target opponent; Near-infinite damage to one opponent; Infinite draw triggers for target opponent
+Produces: Target opponent loses the game; Near-infinite damage to one opponent; Infinite card draw for target opponent; Infinite draw triggers for target opponent
 Start: Razorkin Needlehead (battlefield); Vilis, Broker of Blood (battlefield); Switcheroo (hand)
 Prerequisites: An opponent controls a creature.
 Steps: Cast Switcheroo by paying {4}{U}, exchanging control of Vilis and another creature with an opponent.
@@ -3863,7 +3852,7 @@ Steps: Declare the creature with Breath of Fury attached and Maestros Diabolist 
 
 ## Combo 3259-6998
 Cards: Edea, Possessed Sorceress + Breath of Fury
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 640 | Commander: legal
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 650 | Commander: legal
 Produces: Infinite card draw; Near-infinite combat damage; Near-infinite combat phases; Near-infinite creature ETB; Infinite draw triggers; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers; Near-infinite creature ETB for target opponent
 Start: Edea, Possessed Sorceress (battlefield); Breath of Fury (battlefield)
 Prerequisites: An opponent controls a nontoken creature.
@@ -4149,7 +4138,7 @@ Steps: During your upkeep, activate Hell's Caretaker by tapping and sacrificing 
 
 ## Combo 3362-3455
 Cards: Bladewing the Risen + Vizier of Many Faces
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite death triggers
 Start: Bladewing the Risen (battlefield); Vizier of Many Faces (hand)
 Prerequisites: You have enough mana to cast Vizier of Many Faces
@@ -4252,7 +4241,7 @@ Steps: Cast Vesuvan Doppelganger by paying its mana cost, choosing to have it en
 
 ## Combo 3362-4753
 Cards: Bladewing the Risen + Clever Impersonator
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 48 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 47 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite death triggers
 Start: Bladewing the Risen (battlefield); Clever Impersonator (hand)
 Prerequisites: You have enough mana to cast Clever Impersonator
@@ -4532,7 +4521,7 @@ Steps: Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can 
 
 ## Combo 3440-4867-4871-5256
 Cards: Cormela, Glamour Thief + Demonic Gifts + Pitiless Plunderer + Altar of Dementia
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal | Mana needed: {1}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 28 | Commander: legal | Mana needed: {1}
 Produces: Infinite blue mana that can only be spent to cast instant and sorcery spells; Infinite mill; Infinite red mana that can only be spent to cast instant and sorcery spells; Infinite self-mill; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite creature sacrifice triggers; Infinite storm count
 Start: Cormela, Glamour Thief (battlefield); Demonic Gifts (hand); Pitiless Plunderer (battlefield); Altar of Dementia (battlefield)
 Steps: Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can only be spent to cast instant or sorcery spells.
@@ -4852,7 +4841,7 @@ Notes: The discard outlet is provided as a method of getting Rise of the Eldrazi
 
 ## Combo 3565-4050-4424
 Cards: Missy + Phyrexian Altar + Dragon's Eye Savants
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 260 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 270 | Commander: legal
 Produces: Infinite colored mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Missy (battlefield); Phyrexian Altar (battlefield); Dragon's Eye Savants (battlefield)
 Prerequisites: You have at least one blue card in hand.
@@ -5629,7 +5618,7 @@ Notes: Once the opponent loses the game, all Orcish Bowmasters abilities will fi
 
 ## Combo 3769-8297
 Cards: Kobayashi Maru Scenario + Blim, Comedic Genius
-Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 34 | Commander: legal
+Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 36 | Commander: legal
 Produces: Target opponent loses the game at the beginning of their next upkeep
 Start: Kobayashi Maru Scenario (battlefield); Blim, Comedic Genius (battlefield)
 Prerequisites: Blim does not have summoning sickness and cannot be blocked by an opponent.
@@ -7083,7 +7072,7 @@ Steps: At the beginning of combat, Mishra triggers, creating a 4/4 artifact crea
 
 ## Combo 4636-5159-5491
 Cards: Mishra, Eminent One + Gonti's Aether Heart + Worldwalker Helm
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 650 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 660 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Mishra, Eminent One (battlefield); Gonti's Aether Heart (battlefield); Worldwalker Helm (battlefield)
 Steps: At the beginning of your combat phase, Mishra triggers, creating a 4/4 artifact creature token copy of Gonti's Aether Heart named Mishra's Warform and a Map token.
@@ -7093,7 +7082,7 @@ Steps: At the beginning of your combat phase, Mishra triggers, creating a 4/4 ar
 
 ## Combo 4636-5159-5921
 Cards: Gonti's Aether Heart + Mishra, Eminent One + Mirror Room // Fractured Realm
-Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 25 | Commander: legal
+Color identity: UBR | Bracket: 4+ (Ruthless) | Popularity: 24 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Gonti's Aether Heart (battlefield); Mishra, Eminent One (battlefield); Mirror Room // Fractured Realm (battlefield)
 Prerequisites: Fractured Realm is unlocked.
@@ -7166,7 +7155,7 @@ Steps: Draw a card.
 ## Combo 4691-5919-6922
 Cards: Razorkin Needlehead + Vilis, Broker of Blood + Coveted Falcon
 Color identity: UBR | Bracket: 3-4+ (Spicy) | Popularity: 5 | Commander: legal | Mana needed: {3}{U}{U}
-Produces: Target opponent loses the game; Infinite card draw for target opponent; Near-infinite damage to one opponent; Infinite draw triggers for target opponent
+Produces: Target opponent loses the game; Near-infinite damage to one opponent; Infinite card draw for target opponent; Infinite draw triggers for target opponent
 Start: Razorkin Needlehead (battlefield); Vilis, Broker of Blood (battlefield); Coveted Falcon (battlefield: is face down)
 Prerequisites: Your deck size is at least 2.
 Steps: Activate Coveted Falcon by paying {1}{U}, turning it face up.
@@ -7179,7 +7168,7 @@ Steps: Activate Coveted Falcon by paying {1}{U}, turning it face up.
 ## Combo 4691-5919-7666
 Cards: Razorkin Needlehead + Vilis, Broker of Blood + Bilbo, Luckwearer // Burglar's Plot
 Color identity: UBR | Bracket: 2-3+ (Oddball) | Popularity: 3 | Commander: legal | Mana needed: {6}{U}{U}
-Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent; Near-infinite damage to one opponent
+Produces: Infinite card draw for target opponent; Near-infinite damage to one opponent; Target opponent loses the game; Infinite draw triggers for target opponent
 Start: Razorkin Needlehead (battlefield); Vilis, Broker of Blood (battlefield); Bilbo, Luckwearer // Burglar's Plot (hand)
 Prerequisites: An opponent controls a creature.
 Steps: Donate Vilis to an opponent
@@ -7265,10 +7254,10 @@ Steps: Activate Ravenous Intruder by sacrificing a creature with a +1/+1 counter
   Repeat from step 1.
 
 ## Combo 4694-5330-5805-7306
-Cards: The Ooze + Atog + March of the Machines + Gev, Scaled Scorch
+Cards: The Ooze + March of the Machines + Atog + Gev, Scaled Scorch
 Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite artifact tokens; Infinitely large creature until end of turn; Infinite Mutagen tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Atog (battlefield); March of the Machines (battlefield); Gev, Scaled Scorch (battlefield)
+Start: The Ooze (battlefield); March of the Machines (battlefield); Atog (battlefield); Gev, Scaled Scorch (battlefield)
 Prerequisites: At least one opponent has lost life this turn.
   You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Atog by sacrificing a creature with a +1/+1 counter on it.
@@ -7292,10 +7281,10 @@ Steps: Activate Evereth by sacrificing a creature with a +1/+1 counter on it.
 Notes: If you have a way to kill Evereth and {1}{B/R} available, you can do so after putting a significant amount of +1/+1 counters on it to deal damage to each opponent using its second ability.
 
 ## Combo 4694-5805-6797-7306
-Cards: The Ooze + Phantom Train + March of the Machines + Gev, Scaled Scorch
+Cards: The Ooze + March of the Machines + Gev, Scaled Scorch + Phantom Train
 Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite artifact tokens; Infinite Mutagen tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Phantom Train (battlefield); March of the Machines (battlefield); Gev, Scaled Scorch (battlefield)
+Start: The Ooze (battlefield); March of the Machines (battlefield); Gev, Scaled Scorch (battlefield); Phantom Train (battlefield)
 Prerequisites: At least one opponent has lost life this turn.
   You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Phantom Train by sacrificing a creature with a +1/+1 counter on it.
@@ -7318,10 +7307,10 @@ Steps: Activate Umbral Collar Zealot by sacrificing a creature with a +1/+1 coun
   Repeat from step 1.
 
 ## Combo 4694-5805-7306-8095
-Cards: The Ooze + Hammerhead, Maggia Boss + March of the Machines + Gev, Scaled Scorch
+Cards: The Ooze + March of the Machines + Gev, Scaled Scorch + Hammerhead, Maggia Boss
 Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite artifact tokens; Infinite Mutagen tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Hammerhead, Maggia Boss (battlefield); March of the Machines (battlefield); Gev, Scaled Scorch (battlefield)
+Start: The Ooze (battlefield); March of the Machines (battlefield); Gev, Scaled Scorch (battlefield); Hammerhead, Maggia Boss (battlefield)
 Prerequisites: At least one opponent has lost life this turn.
   You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Hammerhead by sacrificing a creature with a +1/+1 counter on it.
@@ -7500,7 +7489,7 @@ Steps: Activate Putrid Imp by discarding a card.
 
 ## Combo 4869-5436-6092
 Cards: Niv-Mizzet, Visionary + Glint-Horn Buccaneer + Witch-king of Angmar
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal
 Produces: Near-infinite damage; Near-infinite card draw; Near-infinite looting; Infinite draw triggers; Near-infinite self-discard triggers
 Start: Niv-Mizzet, Visionary (battlefield); Glint-Horn Buccaneer (battlefield); Witch-king of Angmar (battlefield)
 Prerequisites: You have at least one card in hand.
@@ -8328,7 +8317,7 @@ Steps: Activate Thermopod by sacrificing the persist creature.
 
 ## Combo 5231-7766-7767
 Cards: Ultron, Unlimited + Prowler, Clawed Thief + Thermopod
-Color identity: UBR | Bracket: 2-3+ (Oddball) | Popularity: 6 | Commander: legal | Mana needed: {2}{U}{B} plus commander tax if applicable
+Color identity: UBR | Bracket: 2-3+ (Oddball) | Popularity: 7 | Commander: legal | Mana needed: {2}{U}{B} plus commander tax if applicable
 Produces: Infinite looting; Near-infinite +1/+1 counters on a creature; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Infinite draw triggers; Infinite self-discard triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Ultron, Unlimited (hand, command zone); Prowler, Clawed Thief (battlefield); Thermopod (battlefield)
 Steps: Cast Ultron either from your hand or from the command zone by paying {1}{U}{B} plus commander tax if applicable.
@@ -8340,7 +8329,7 @@ Steps: Cast Ultron either from your hand or from the command zone by paying {1}{
 
 ## Combo 5232-5718-5913
 Cards: Hidetsugu and Kairi + Clone Legion + Pinnacle Monk // Mystic Peak
-Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal | Mana needed: {7}{U}{U}
+Color identity: UBR | Bracket: 1+ (Exhibition) | Popularity: 24 | Commander: legal | Mana needed: {7}{U}{U}
 Produces: Infinite card draw; Near-infinite lifeloss; Near-infinite creature tokens; Near-infinite copies of creatures you control; Near-infinite creature ETB; Infinite draw triggers; Near-infinite storm count; Near-infinite creature LTB; Near-infinite magecraft triggers; Near-infinite death triggers
 Start: Hidetsugu and Kairi (battlefield); Clone Legion (hand); Pinnacle Monk // Mystic Peak (battlefield)
 Steps: Cast Clone Legion by paying {7}{U}{U}, causing you to create a token copy of Hidetsugu and Kairi and Pinnacle Monk.

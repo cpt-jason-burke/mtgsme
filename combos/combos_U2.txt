@@ -1,49 +1,3 @@
-## Combo 1494-5437-6822-7720
-Cards: Sage of Hours + The Ten Rings + Prognostic Sphinx + Lyla, Holographic Assistant
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
-Produces: Near-infinite turns; Lock
-Start: Sage of Hours (battlefield); The Ten Rings (battlefield); Prognostic Sphinx (battlefield); Lyla, Holographic Assistant (battlefield)
-Steps: If you have six or more cards in hand, activate Prognostic Sphinx by discarding a card.
-  Repeat step 1 until you have five or fewer cards in hand.
-  At the beginning of your end step, The Ten Rings triggers, causing you to draw cards until you have ten cards in your hand.
-  Lyla triggers for each card drawn, putting that many +1/+1 counters on Sage of Hours.
-  Activate Sage of Hours by removing all +1/+1 counters from it, causing you to take at least one extra turn after this one.
-  Repeat each turn.
-
-## Combo 1494-5437-7720-7737
-Cards: Sage of Hours + The Ten Rings + Prognostic Sphinx + Stark's Ingenuity
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
-Produces: Near-infinite turns; Lock
-Start: Sage of Hours (battlefield); The Ten Rings (battlefield); Prognostic Sphinx (battlefield); Stark's Ingenuity (battlefield: attached to Sage of Hours)
-Steps: If you have six or more cards in hand, activate Prognostic Sphinx by discarding a card.
-  Repeat step 1 until you have five or fewer cards in hand.
-  At the beginning of your end step, The Ten Rings triggers, causing you to draw cards until you have ten cards in your hand.
-  Stark's Ingenuity triggers for each card drawn, putting that many +1/+1 counters on Sage of Hours.
-  Activate Sage of Hours by removing all +1/+1 counters from it, causing you to take at least one extra turn after this one.
-  Repeat each turn.
-
-## Combo 1494-5437-7720-7811
-Cards: Sage of Hours + The Ten Rings + Prognostic Sphinx + Iron Man, Armored Avenger
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
-Produces: Near-infinite turns; Lock
-Start: Sage of Hours (battlefield); The Ten Rings (battlefield); Prognostic Sphinx (battlefield); Iron Man, Armored Avenger (battlefield)
-Steps: If you have six or more cards in hand, activate Prognostic Sphinx by discarding a card.
-  Repeat step 1 until you have five or fewer cards in hand.
-  At the beginning of your end step, The Ten Rings triggers, causing you to draw cards until you have ten cards in your hand.
-  Iron Man triggers for each card drawn, putting that many +1/+1 counters on Sage of Hours.
-  Activate Sage of Hours by removing all +1/+1 counters from it, causing you to take at least one extra turn after this one.
-  Repeat each turn.
-
-## Combo 1495-2396-6822
-Cards: Lyla, Holographic Assistant + Triskelion + Ophidian Eye
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 38 | Commander: legal
-Produces: Near-infinite damage; Infinite card draw; Infinite draw triggers
-Start: Lyla, Holographic Assistant (battlefield); Triskelion (battlefield: with a +1/+1 counter on it); Ophidian Eye (battlefield: attached to Triskelion)
-Steps: Activate Triskelion by removing a +1/+1 counter from it, dealing 1 damage to an opponent.
-  Ophidian Eye triggers, causing you to draw a card.
-  Lyla triggers, putting a +1/+1 counter on Triskelion.
-  Repeat.
-
 ## Combo 1510-2034-4574-5849
 Cards: Fortune Teller's Talent + Arcbound Reclaimer + Arcbound Stinger + Ashnod's Altar
 Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
@@ -878,7 +832,7 @@ Steps: Activate up to five mana-producing lands by tapping them, adding at least
 
 ## Combo 1562-3995-4684
 Cards: Machine God's Effigy + Horseshoe Crab + Mesmeric Orb
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 32 | Commander: legal | Mana needed: {4}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 33 | Commander: legal | Mana needed: {4}
 Produces: Infinite self-mill
 Start: Machine God's Effigy (hand); Horseshoe Crab (battlefield); Mesmeric Orb (battlefield)
 Steps: Cast Machine God's Effigy by paying {4}, choosing to have it enter the battlefield as a copy of Horseshoe Crab that is an artifact.
@@ -947,7 +901,7 @@ Steps: Activate Teferi's Isle by tapping it, adding {U}{U}.
 
 ## Combo 1584-1719-4222
 Cards: Freed from the Real + Vizier of Tumbling Sands + Teferi's Isle
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 70 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 71 | Commander: legal
 Produces: Infinite blue mana; Infinite mana permanents you control can produce; Infinite untap of permanents you control
 Start: Freed from the Real (battlefield); Vizier of Tumbling Sands (battlefield); Teferi's Isle (battlefield)
 Prerequisites: Vizier of Tumbling Sands does not have summoning sickness.
@@ -1068,7 +1022,7 @@ Steps: Cast the creature using its morph or megamorph cost by paying {0}, puttin
 ## Combo 1594-3941-4331-4993
 Cards: Drafna, Founder of Lat-Nam + Manifold Key + Coveted Jewel + Helm of Awakening
 Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
-Produces: Infinite card draw; Infinite artifact ETB; Infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
+Produces: Infinite card draw; Near-infinite artifact ETB; Near-infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
 Start: Drafna, Founder of Lat-Nam (battlefield); Manifold Key (battlefield); Coveted Jewel (battlefield); Helm of Awakening (battlefield)
 Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
   Activate Manifold Key by paying {1} and tapping it, untapping Coveted Jewel.
@@ -1101,7 +1055,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 1594-4311-5078
 Cards: Sensei's Divining Top + Helm of Awakening + Future Sight
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 700 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 710 | Commander: legal
 Produces: Infinite card draw; Near-infinite storm count; Infinite draw triggers
 Start: Sensei's Divining Top (battlefield); Helm of Awakening (battlefield); Future Sight (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -1294,7 +1248,7 @@ Steps: Cast any spell using only colorless mana.
 
 ## Combo 1623-5055
 Cards: Guile + In the Eye of Chaos
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 41 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 42 | Commander: legal
 Produces: Infinite magecraft triggers; Infinite storm count
 Start: Guile (battlefield); In the Eye of Chaos (battlefield)
 Prerequisites: You have any instant in hand with the mana to cast it.
@@ -1626,7 +1580,7 @@ Steps: Activate any number of creatures by tapping them, adding at least {U} plu
 
 ## Combo 1636-2654-7542
 Cards: Intruder Alarm + Harmonized Trio // Brainstorm + Shark Typhoon
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal
 Produces: Infinite card draw; Near-infinite creature tokens; Near-infinite untap of all creatures; Infinite draw triggers; Near-infinite creature ETB; Near-infinite magecraft triggers; Near-infinite storm count
 Start: Intruder Alarm (battlefield); Harmonized Trio // Brainstorm (battlefield: without summoning sickness); Shark Typhoon (battlefield)
 Prerequisites: You control a creature that can tap to produce at least {U}.
@@ -1816,7 +1770,7 @@ Steps: Activate Pestered Wellguard by tapping it.
 
 ## Combo 1636-4485-7542
 Cards: Intruder Alarm + Harmonized Trio // Brainstorm + Docent of Perfection // Final Iteration
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 41 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 40 | Commander: legal
 Produces: Infinite card draw; Near-infinite creature tokens; Near-infinite untap of all creatures; Infinite draw triggers; Near-infinite creature ETB; Near-infinite magecraft triggers; Near-infinite storm count
 Start: Intruder Alarm (battlefield); Harmonized Trio // Brainstorm (battlefield: without summoning sickness); Docent of Perfection // Final Iteration (battlefield)
 Prerequisites: You control a creature that can tap to produce at least {U}.
@@ -1932,7 +1886,7 @@ Steps: Activate Prototype Portal by paying {0}, creating a token copy of Seat of
 
 ## Combo 1651-1737-2119-3698
 Cards: Prototype Portal + Clock of Omens + Grinding Station + Seat of the Synod
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 93 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 94 | Commander: legal
 Produces: Infinite tapped land tokens; Infinite landfall triggers
 Start: Prototype Portal (battlefield); Clock of Omens (battlefield); Grinding Station (battlefield); Seat of the Synod (exile: exiled by Prototype Portal)
 Steps: Activate Prototype Portal by paying {0} and tapping it, creating a token copy of Seat of the Synod.
@@ -2003,7 +1957,7 @@ Steps: Activate Salvaging Station by tapping it, returning a noncreature artifac
 
 ## Combo 1651-2410-4777
 Cards: Myr Galvanizer + Clock of Omens + Silver Myr
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 6800 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 6900 | Commander: legal
 Produces: Infinite mana Myr you control can produce; Infinite untap of Myr you control
 Start: Myr Galvanizer (battlefield); Clock of Omens (battlefield); Silver Myr (battlefield)
 Prerequisites: Silver Myr and Myr Galvanizer do not have summoning sickness.
@@ -2432,7 +2386,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 1661-5078-5705
 Cards: Sensei's Divining Top + Glaring Fleshraker + Magus of the Future
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 88 | Commander: legal | Mana needed: {1}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Near-infinite damage; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite draw triggers; Near-infinite storm count; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Sensei's Divining Top (battlefield); Glaring Fleshraker (battlefield); Magus of the Future (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -2473,7 +2427,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 1661-5078-7692
 Cards: Sensei's Divining Top + Magus of the Future + Shuri, Wakandan Inventor
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 37 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 38 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Magus of the Future (battlefield); Shuri, Wakandan Inventor (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -2482,7 +2436,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 1661-5078-7753
 Cards: Sensei's Divining Top + Magus of the Future + Valeria Richards, Precocious
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 13 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 14 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Magus of the Future (battlefield); Valeria Richards, Precocious (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -2491,7 +2445,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 1661-5078-8176
 Cards: Sensei's Divining Top + Magus of the Future + Geist of Saint Thalia
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 30 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 31 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Magus of the Future (battlefield); Geist of Saint Thalia (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -3775,7 +3729,7 @@ Steps: Cast Rite of Replication with kicker by paying {7}{U}{U}, creating five t
 
 ## Combo 1766-1978-2416
 Cards: Voltaic Construct + Thran Dynamo + Rise and Shine
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 70 | Commander: legal | Mana needed: {1}{U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 69 | Commander: legal | Mana needed: {1}{U}
 Produces: Infinite colorless mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
 Start: Voltaic Construct (battlefield); Thran Dynamo (battlefield: without summoning sickness); Rise and Shine (hand)
 Steps: Animate Thran Dynamo using Rise and Shine.
@@ -3951,7 +3905,7 @@ Steps: Activate Mystic Sanctuary and Thran Dynamo by tapping them, adding {C}{C}
 
 ## Combo 1766-1999-3263-7340
 Cards: Master Transmuter + Sewer-veillance Cam + Thran Dynamo + Mycosynth Lattice
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal
 Produces: Infinite colored mana; Infinite colorless mana; Infinite artifact ETB; Infinite artifact LTB
 Start: Master Transmuter (battlefield); Sewer-veillance Cam (hand); Thran Dynamo (battlefield); Mycosynth Lattice (battlefield)
 Prerequisites: Master Transmuter does not have summoning sickness.
@@ -4532,114 +4486,6 @@ Steps: Activate Pyramid of the Pantheon by tapping it, adding {U}{U}{U}.
   Cast Manifold Key by paying {0}.
   Repeat.
 
-## Combo 1805-1978-2416
-Cards: Voltaic Construct + Pyramid of the Pantheon + Rise and Shine
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{U}
-Produces: Infinite colored mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
-Start: Voltaic Construct (battlefield); Pyramid of the Pantheon (battlefield: without summoning sickness); Rise and Shine (hand)
-Steps: Animate Pyramid of the Pantheon using Rise and Shine.
-  Activate Pyramid of the Pantheon by tapping it, adding three mana of any color
-  Activate Voltaic Construct by paying {2}, untapping Pyramid of the Pantheon.
-  Repeat from step 2.
-
-## Combo 1805-1978-2734
-Cards: Voltaic Construct + Pyramid of the Pantheon + Cyberdrive Awakener
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {5}{U}
-Produces: Infinite colored mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
-Start: Voltaic Construct (battlefield); Pyramid of the Pantheon (battlefield: without summoning sickness); Cyberdrive Awakener (hand)
-Steps: Animate Pyramid of the Pantheon using Cyberdrive Awakener.
-  Activate Pyramid of the Pantheon by tapping it, adding three mana of any color
-  Activate Voltaic Construct by paying {2}, untapping Pyramid of the Pantheon.
-  Repeat from step 2.
-
-## Combo 1805-1978-3301
-Cards: Voltaic Construct + Pyramid of the Pantheon + Tezzeret, Betrayer of Flesh
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite colored mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Pyramid of the Pantheon (battlefield: without summoning sickness); Tezzeret, Betrayer of Flesh (battlefield: with two or more loyalty counters on it)
-Steps: Animate Pyramid of the Pantheon using Tezzeret, Betrayer of Flesh.
-  Activate Pyramid of the Pantheon by tapping it, adding three mana of any color
-  Activate Voltaic Construct by paying {2}, untapping Pyramid of the Pantheon.
-  Repeat from step 2.
-
-## Combo 1805-1978-3488
-Cards: Voltaic Construct + Pyramid of the Pantheon + Katsumasa, the Animator
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 2 | Commander: legal | Mana needed: {2}{U}
-Produces: Infinite colored mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Pyramid of the Pantheon (battlefield: without summoning sickness); Katsumasa, the Animator (battlefield)
-Steps: Animate Pyramid of the Pantheon using Katsumasa.
-  Activate Pyramid of the Pantheon by tapping it, adding three mana of any color
-  Activate Voltaic Construct by paying {2}, untapping Pyramid of the Pantheon.
-  Repeat from step 2.
-
-## Combo 1805-1978-3789
-Cards: Voltaic Construct + Pyramid of the Pantheon + The Blackstaff of Waterdeep
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{U}
-Produces: Infinite colored mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Pyramid of the Pantheon (battlefield: without summoning sickness); The Blackstaff of Waterdeep (battlefield)
-Steps: Animate Pyramid of the Pantheon using The Blackstaff of Waterdeep.
-  Activate Pyramid of the Pantheon by tapping it, adding three mana of any color
-  Activate Voltaic Construct by paying {2}, untapping Pyramid of the Pantheon.
-  Repeat from step 2.
-
-## Combo 1805-1978-4324
-Cards: Voltaic Construct + Pyramid of the Pantheon + Workshop Elders
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Pyramid of the Pantheon (battlefield: without summoning sickness); Workshop Elders (battlefield)
-Steps: Animate Pyramid of the Pantheon using Workshop Elders.
-  Activate Pyramid of the Pantheon by tapping it, adding three mana of any color
-  Activate Voltaic Construct by paying {2}, untapping Pyramid of the Pantheon.
-  Repeat from step 2.
-
-## Combo 1805-1978-4694
-Cards: Voltaic Construct + Pyramid of the Pantheon + March of the Machines
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
-Produces: Infinite colored mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
-Start: Voltaic Construct (battlefield); Pyramid of the Pantheon (battlefield: without summoning sickness); March of the Machines (battlefield)
-Steps: Activate Pyramid of the Pantheon by tapping it, adding three mana of any color
-  Activate Voltaic Construct by paying {2}, untapping Pyramid of the Pantheon.
-  Repeat
-
-## Combo 1805-1978-4832
-Cards: Voltaic Construct + Pyramid of the Pantheon + Ensoul Artifact
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
-Produces: Infinite colored mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Pyramid of the Pantheon (battlefield: without summoning sickness); Ensoul Artifact (battlefield: attached to Pyramid of the Pantheon)
-Steps: Activate Pyramid of the Pantheon by tapping it, adding three mana of any color
-  Activate Voltaic Construct by paying {2}, untapping Pyramid of the Pantheon.
-  Repeat
-
-## Combo 1805-1978-7280
-Cards: Voltaic Construct + Pyramid of the Pantheon + Donatello, Mutant Mechanic
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal
-Produces: Infinite colored mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Pyramid of the Pantheon (battlefield: without summoning sickness); Donatello, Mutant Mechanic (battlefield: without summoning sickness)
-Steps: Animate Pyramid of the Pantheon using Donatello.
-  Activate Pyramid of the Pantheon by tapping it, adding three mana of any color
-  Activate Voltaic Construct by paying {2}, untapping Pyramid of the Pantheon.
-  Repeat from step 2.
-
-## Combo 1805-1978-7290
-Cards: Voltaic Construct + Pyramid of the Pantheon + Does Machines
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Pyramid of the Pantheon (battlefield: without summoning sickness and with three or more brick counters on it); Does Machines (battlefield: is level 3)
-Steps: Animate Pyramid of the Pantheon using Does Machines.
-  Activate Pyramid of the Pantheon by tapping it, adding three mana of any color
-  Activate Voltaic Construct by paying {2}, untapping Pyramid of the Pantheon.
-  Repeat from step 2.
-
-## Combo 1805-1978-7329
-Cards: Voltaic Construct + Pyramid of the Pantheon + Mind Transfer Protocol
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{U}
-Produces: Infinite colored mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Pyramid of the Pantheon (battlefield: without summoning sickness and with three or more brick counters on it); Mind Transfer Protocol (hand)
-Steps: Animate Pyramid of the Pantheon using Mind Transfer Protocol.
-  Activate Pyramid of the Pantheon by tapping it, adding three mana of any color.
-  Activate Voltaic Construct by paying {2}, untapping Pyramid of the Pantheon.
-  Repeat from step 2.
-
 ## Combo 1805-2146-4331-4993
 Cards: Drafna, Founder of Lat-Nam + Manifold Key + Pyramid of the Pantheon + Cloud Key
 Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
@@ -4963,7 +4809,7 @@ Steps: During an opponent's turn, cast the {0}-cost creature in your hand by pay
 
 ## Combo 1846-1987-2397-2493
 Cards: Panharmonicon + Archaeomancer + High Tide + Ghostly Flicker
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 3600 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 3700 | Commander: legal
 Produces: Infinite blue mana; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Panharmonicon (battlefield); Archaeomancer (battlefield); High Tide (hand); Ghostly Flicker (hand)
 Prerequisites: You control at least 1 island.
@@ -5043,7 +4889,7 @@ Steps: Cast High Tide by paying {U}.
 
 ## Combo 1846-2719-3546-3783-4300
 Cards: Minn, Wily Illusionist + Meloku the Clouded Mirror + High Market + High Tide + Sakashima of a Thousand Faces
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 41 | Commander: legal | Mana needed: {U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 40 | Commander: legal | Mana needed: {U}
 Produces: Infinite creature tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Minn, Wily Illusionist (battlefield); Meloku the Clouded Mirror (battlefield); High Market (battlefield); High Tide (hand); Sakashima of a Thousand Faces (battlefield: as a copy of Minn)
 Prerequisites: You control an Island that enters the battlefield untapped.
@@ -6054,7 +5900,7 @@ Steps: Activate Forensic Researcher by tapping it, targeting Quicksilver Gargant
 ## Combo 1976-3941-4331-4993
 Cards: Drafna, Founder of Lat-Nam + Manifold Key + Coveted Jewel + Etherium Sculptor
 Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 190 | Commander: legal
-Produces: Infinite card draw; Infinite artifact ETB; Infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
+Produces: Infinite card draw; Near-infinite artifact ETB; Near-infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
 Start: Drafna, Founder of Lat-Nam (battlefield); Manifold Key (battlefield); Coveted Jewel (battlefield); Etherium Sculptor (battlefield)
 Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
   Activate Manifold Key by paying {1} and tapping it, untapping Coveted Jewel.
@@ -6187,7 +6033,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 1976-5078-7902
 Cards: Sensei's Divining Top + Etherium Sculptor + Fateful Discovery
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 2800 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 2900 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (hand); Etherium Sculptor (battlefield); Fateful Discovery (battlefield)
 Steps: Cast Sensei's Divining Top by paying {0} due to Etherium Sculptor.
@@ -6406,17 +6252,6 @@ Steps: Animate Gilded Lotus using Rise and Shine.
   Activate Voltaic Construct by paying {2}, untapping Gilded Lotus.
   Repeat from step 2.
 
-## Combo 1978-2416-5527
-Cards: Voltaic Construct + Rise and Shine + Five Hundred Year Diary
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal | Mana needed: {1}{U}
-Produces: Infinite blue mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
-Start: Voltaic Construct (battlefield); Rise and Shine (hand); Five Hundred Year Diary (battlefield: without summoning sickness)
-Prerequisites: You control at least three Clues.
-Steps: Animate Five Hundred Year Diary using Rise and Shine.
-  Activate Five Hundred Year Diary by tapping it, adding {U} for each Clue you control
-  Activate Voltaic Construct by paying {2}, untapping Five Hundred Year Diary.
-  Repeat from step 2.
-
 ## Combo 1978-2416-6893
 Cards: Voltaic Construct + Rise and Shine + The Eternity Elevator
 Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 14 | Commander: legal | Mana needed: {1}{U}
@@ -6427,17 +6262,6 @@ Steps: Animate The Eternity Elevator using Rise and Shine.
   Activate Voltaic Construct by paying {2}, untapping The Eternity Elevator.
   Repeat from step 2.
 Notes: If The Eternity Elevator has twenty or more charge counters on it, you can instead use its second ability to get infinite colored mana. You can also use both interchangeably, if desired.
-
-## Combo 1978-2416-7013
-Cards: Voltaic Construct + Rise and Shine + White Lotus Tile
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{U}
-Produces: Infinite colored mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
-Start: Voltaic Construct (battlefield); Rise and Shine (hand); White Lotus Tile (battlefield: without summoning sickness)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Animate White Lotus Tile using Rise and Shine.
-  Activate White Lotus Tile by tapping it, adding at least three mana of any color.
-  Activate Voltaic Construct by paying {2}, untapping White Lotus Tile.
-  Repeat from step 2.
 
 ## Combo 1978-2416-7434--148
 Cards: Brass Infiniscope + Voltaic Construct + Rise and Shine
@@ -6463,17 +6287,6 @@ Start: Voltaic Construct (battlefield); Rise and Shine (hand); Arc Reactor (batt
 Steps: Animate Arc Reactor using Rise and Shine.
   Activate Arc Reactor by tapping it, adding {C}{C}{C}
   Activate Voltaic Construct by paying {2}, untapping Arc Reactor.
-  Repeat from step 2.
-
-## Combo 1978-2416-7826
-Cards: Voltaic Construct + Rise and Shine + Bag End Banquet
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}{U}
-Produces: Infinite colorless mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
-Start: Voltaic Construct (battlefield); Rise and Shine (hand); Bag End Banquet (battlefield: without summoning sickness)
-Prerequisites: You control at least three Foods.
-Steps: Animate Bag End Banquet using Rise and Shine.
-  Activate Bag End Banquet by tapping it, adding {C}{C}{C}
-  Activate Voltaic Construct by paying {2}, untapping Bag End Banquet.
   Repeat from step 2.
 
 ## Combo 1978-2585-2734
@@ -6745,17 +6558,6 @@ Steps: Animate Gilded Lotus using Cyberdrive Awakener.
   Activate Voltaic Construct by paying {2}, untapping Gilded Lotus.
   Repeat from step 2.
 
-## Combo 1978-2734-5527
-Cards: Voltaic Construct + Cyberdrive Awakener + Five Hundred Year Diary
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal | Mana needed: {5}{U}
-Produces: Infinite blue mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
-Start: Voltaic Construct (battlefield); Cyberdrive Awakener (hand); Five Hundred Year Diary (battlefield: without summoning sickness)
-Prerequisites: You control at least three Clues.
-Steps: Animate Five Hundred Year Diary using Cyberdrive Awakener.
-  Activate Five Hundred Year Diary by tapping it, adding {U} for each Clue you control
-  Activate Voltaic Construct by paying {2}, untapping Five Hundred Year Diary.
-  Repeat from step 2.
-
 ## Combo 1978-2734-6893
 Cards: Voltaic Construct + Cyberdrive Awakener + The Eternity Elevator
 Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 160 | Commander: legal | Mana needed: {5}{U}
@@ -6766,17 +6568,6 @@ Steps: Animate The Eternity Elevator using Cyberdrive Awakener.
   Activate Voltaic Construct by paying {2}, untapping The Eternity Elevator.
   Repeat from step 2.
 Notes: If The Eternity Elevator has twenty or more charge counters on it, you can instead use its second ability to get infinite colored mana. You can also use both interchangeably, if desired.
-
-## Combo 1978-2734-7013
-Cards: Voltaic Construct + Cyberdrive Awakener + White Lotus Tile
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {5}{U}
-Produces: Infinite colored mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
-Start: Voltaic Construct (battlefield); Cyberdrive Awakener (hand); White Lotus Tile (battlefield: without summoning sickness)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Animate White Lotus Tile using Cyberdrive Awakener.
-  Activate White Lotus Tile by tapping it, adding at least three mana of any color.
-  Activate Voltaic Construct by paying {2}, untapping White Lotus Tile.
-  Repeat from step 2.
 
 ## Combo 1978-2734-7434--148
 Cards: Brass Infiniscope + Voltaic Construct + Cyberdrive Awakener
@@ -6796,23 +6587,12 @@ Notes: Each activation of Brass Infiniscope adds a delayed triggered ability tha
 
 ## Combo 1978-2734-7685
 Cards: Voltaic Construct + Cyberdrive Awakener + Arc Reactor
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal | Mana needed: {5}{U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal | Mana needed: {5}{U}
 Produces: Infinite colorless mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
 Start: Voltaic Construct (battlefield); Cyberdrive Awakener (hand); Arc Reactor (battlefield: without summoning sickness)
 Steps: Animate Arc Reactor using Cyberdrive Awakener.
   Activate Arc Reactor by tapping it, adding {C}{C}{C}
   Activate Voltaic Construct by paying {2}, untapping Arc Reactor.
-  Repeat from step 2.
-
-## Combo 1978-2734-7826
-Cards: Voltaic Construct + Cyberdrive Awakener + Bag End Banquet
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {5}{U}
-Produces: Infinite colorless mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
-Start: Voltaic Construct (battlefield); Cyberdrive Awakener (hand); Bag End Banquet (battlefield: without summoning sickness)
-Prerequisites: You control at least three Foods.
-Steps: Animate Bag End Banquet using Cyberdrive Awakener.
-  Activate Bag End Banquet by tapping it, adding {C}{C}{C}
-  Activate Voltaic Construct by paying {2}, untapping Bag End Banquet.
   Repeat from step 2.
 
 ## Combo 1978-2750-3784
@@ -6823,18 +6603,6 @@ Start: Voltaic Construct (battlefield); Memnarch (battlefield); Vhal, Candlekeep
 Steps: Cause Vhal to become an artifact using Memnarch.
   Activate Vhal by tapping it, adding at least {C}{C}{C}.
   Activate Voltaic Construct by paying {2}, untapping Vhal.
-  Repeat from step 2.
-
-## Combo 1978-3007-5527
-Cards: Voltaic Construct + Toymaker + Five Hundred Year Diary
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}
-Produces: Infinite blue mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Toymaker (battlefield: without summoning sickness); Five Hundred Year Diary (battlefield: without summoning sickness)
-Prerequisites: You have a card in hand.
-  You control at least three Clues.
-Steps: Animate Five Hundred Year Diary using Toymaker.
-  Activate Five Hundred Year Diary by tapping it, adding {U} for each Clue you control
-  Activate Voltaic Construct by paying {2}, untapping Five Hundred Year Diary.
   Repeat from step 2.
 
 ## Combo 1978-3053-3301
@@ -6996,17 +6764,6 @@ Steps: Animate Gilded Lotus using Tezzeret, Betrayer of Flesh.
   Activate Voltaic Construct by paying {2}, untapping Gilded Lotus.
   Repeat from step 2.
 
-## Combo 1978-3301-5527
-Cards: Voltaic Construct + Tezzeret, Betrayer of Flesh + Five Hundred Year Diary
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
-Produces: Infinite blue mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Tezzeret, Betrayer of Flesh (battlefield: with two or more loyalty counters on it); Five Hundred Year Diary (battlefield: without summoning sickness)
-Prerequisites: You control at least three Clues.
-Steps: Animate Five Hundred Year Diary using Tezzeret, Betrayer of Flesh.
-  Activate Five Hundred Year Diary by tapping it, adding {U} for each Clue you control
-  Activate Voltaic Construct by paying {2}, untapping Five Hundred Year Diary.
-  Repeat from step 2.
-
 ## Combo 1978-3301-6893
 Cards: Voltaic Construct + Tezzeret, Betrayer of Flesh + The Eternity Elevator
 Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 71 | Commander: legal
@@ -7017,17 +6774,6 @@ Steps: Animate The Eternity Elevator using Tezzeret, Betrayer of Flesh.
   Activate Voltaic Construct by paying {2}, untapping The Eternity Elevator.
   Repeat from step 2.
 Notes: If The Eternity Elevator has twenty or more charge counters on it, you can instead use its second ability to get infinite colored mana. You can also use both interchangeably, if desired.
-
-## Combo 1978-3301-7013
-Cards: Voltaic Construct + Tezzeret, Betrayer of Flesh + White Lotus Tile
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Tezzeret, Betrayer of Flesh (battlefield: with two or more loyalty counters on it); White Lotus Tile (battlefield: without summoning sickness)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Animate White Lotus Tile using Tezzeret, Betrayer of Flesh.
-  Activate White Lotus Tile by tapping it, adding at least three mana of any color.
-  Activate Voltaic Construct by paying {2}, untapping White Lotus Tile.
-  Repeat from step 2.
 
 ## Combo 1978-3301-7434--148
 Cards: Brass Infiniscope + Voltaic Construct + Tezzeret, Betrayer of Flesh
@@ -7053,17 +6799,6 @@ Start: Voltaic Construct (battlefield); Tezzeret, Betrayer of Flesh (battlefield
 Steps: Animate Arc Reactor using Tezzeret, Betrayer of Flesh.
   Activate Arc Reactor by tapping it, adding {C}{C}{C}
   Activate Voltaic Construct by paying {2}, untapping Arc Reactor.
-  Repeat from step 2.
-
-## Combo 1978-3301-7826
-Cards: Voltaic Construct + Tezzeret, Betrayer of Flesh + Bag End Banquet
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colorless mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Tezzeret, Betrayer of Flesh (battlefield: with two or more loyalty counters on it); Bag End Banquet (battlefield: without summoning sickness)
-Prerequisites: You control at least three Foods.
-Steps: Animate Bag End Banquet using Tezzeret, Betrayer of Flesh.
-  Activate Bag End Banquet by tapping it, adding {C}{C}{C}
-  Activate Voltaic Construct by paying {2}, untapping Bag End Banquet.
   Repeat from step 2.
 
 ## Combo 1978-3488-3941
@@ -7128,17 +6863,6 @@ Steps: Animate Gilded Lotus using Katsumasa.
   Activate Voltaic Construct by paying {2}, untapping Gilded Lotus.
   Repeat from step 2.
 
-## Combo 1978-3488-5527
-Cards: Voltaic Construct + Katsumasa, the Animator + Five Hundred Year Diary
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {2}{U}
-Produces: Infinite blue mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Katsumasa, the Animator (battlefield); Five Hundred Year Diary (battlefield: without summoning sickness)
-Prerequisites: You control at least three Clues.
-Steps: Animate Five Hundred Year Diary using Katsumasa.
-  Activate Five Hundred Year Diary by tapping it, adding {U} for each Clue you control
-  Activate Voltaic Construct by paying {2}, untapping Five Hundred Year Diary.
-  Repeat from step 2.
-
 ## Combo 1978-3488-6893
 Cards: Voltaic Construct + Katsumasa, the Animator + The Eternity Elevator
 Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 17 | Commander: legal | Mana needed: {2}{U}
@@ -7149,17 +6873,6 @@ Steps: Animate The Eternity Elevator using Katsumasa.
   Activate Voltaic Construct by paying {2}, untapping The Eternity Elevator.
   Repeat from step 2.
 Notes: If The Eternity Elevator has twenty or more charge counters on it, you can instead use its second ability to get infinite colored mana. You can also use both interchangeably, if desired.
-
-## Combo 1978-3488-7013
-Cards: Voltaic Construct + Katsumasa, the Animator + White Lotus Tile
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {2}{U}
-Produces: Infinite colored mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Katsumasa, the Animator (battlefield); White Lotus Tile (battlefield: without summoning sickness)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Animate White Lotus Tile using Katsumasa.
-  Activate White Lotus Tile by tapping it, adding at least three mana of any color.
-  Activate Voltaic Construct by paying {2}, untapping White Lotus Tile.
-  Repeat from step 2.
 
 ## Combo 1978-3488-7434--148
 Cards: Brass Infiniscope + Voltaic Construct + Katsumasa, the Animator
@@ -7185,17 +6898,6 @@ Start: Voltaic Construct (battlefield); Katsumasa, the Animator (battlefield); A
 Steps: Animate Arc Reactor using Katsumasa.
   Activate Arc Reactor by tapping it, adding {C}{C}{C}
   Activate Voltaic Construct by paying {2}, untapping Arc Reactor.
-  Repeat from step 2.
-
-## Combo 1978-3488-7826
-Cards: Voltaic Construct + Katsumasa, the Animator + Bag End Banquet
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {2}{U}
-Produces: Infinite colorless mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Katsumasa, the Animator (battlefield); Bag End Banquet (battlefield: without summoning sickness)
-Prerequisites: You control at least three Foods.
-Steps: Animate Bag End Banquet using Katsumasa.
-  Activate Bag End Banquet by tapping it, adding {C}{C}{C}
-  Activate Voltaic Construct by paying {2}, untapping Bag End Banquet.
   Repeat from step 2.
 
 ## Combo 1978-3660-4893
@@ -7312,17 +7014,6 @@ Steps: Animate Gilded Lotus using The Blackstaff of Waterdeep.
   Activate Voltaic Construct by paying {2}, untapping Gilded Lotus.
   Repeat from step 2.
 
-## Combo 1978-3789-5527
-Cards: Voltaic Construct + The Blackstaff of Waterdeep + Five Hundred Year Diary
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}{U}
-Produces: Infinite blue mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); The Blackstaff of Waterdeep (battlefield); Five Hundred Year Diary (battlefield: without summoning sickness)
-Prerequisites: You control at least three Clues.
-Steps: Animate Five Hundred Year Diary using The Blackstaff of Waterdeep.
-  Activate Five Hundred Year Diary by tapping it, adding {U} for each Clue you control
-  Activate Voltaic Construct by paying {2}, untapping Five Hundred Year Diary.
-  Repeat from step 2.
-
 ## Combo 1978-3789-6893
 Cards: Voltaic Construct + The Blackstaff of Waterdeep + The Eternity Elevator
 Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 3 | Commander: legal | Mana needed: {1}{U}
@@ -7333,17 +7024,6 @@ Steps: Animate The Eternity Elevator using The Blackstaff of Waterdeep.
   Activate Voltaic Construct by paying {2}, untapping The Eternity Elevator.
   Repeat from step 2.
 Notes: If The Eternity Elevator has twenty or more charge counters on it, you can instead use its second ability to get infinite colored mana. You can also use both interchangeably, if desired.
-
-## Combo 1978-3789-7013
-Cards: Voltaic Construct + The Blackstaff of Waterdeep + White Lotus Tile
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{U}
-Produces: Infinite colored mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); The Blackstaff of Waterdeep (battlefield); White Lotus Tile (battlefield: without summoning sickness)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Animate White Lotus Tile using The Blackstaff of Waterdeep.
-  Activate White Lotus Tile by tapping it, adding at least three mana of any color.
-  Activate Voltaic Construct by paying {2}, untapping White Lotus Tile.
-  Repeat from step 2.
 
 ## Combo 1978-3789-7434--148
 Cards: Brass Infiniscope + Voltaic Construct + The Blackstaff of Waterdeep
@@ -7369,17 +7049,6 @@ Start: Voltaic Construct (battlefield); The Blackstaff of Waterdeep (battlefield
 Steps: Animate Arc Reactor using The Blackstaff of Waterdeep.
   Activate Arc Reactor by tapping it, adding {C}{C}{C}
   Activate Voltaic Construct by paying {2}, untapping Arc Reactor.
-  Repeat from step 2.
-
-## Combo 1978-3789-7826
-Cards: Voltaic Construct + The Blackstaff of Waterdeep + Bag End Banquet
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{U}
-Produces: Infinite colorless mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); The Blackstaff of Waterdeep (battlefield); Bag End Banquet (battlefield: without summoning sickness)
-Prerequisites: You control at least three Foods.
-Steps: Animate Bag End Banquet using The Blackstaff of Waterdeep.
-  Activate Bag End Banquet by tapping it, adding {C}{C}{C}
-  Activate Voltaic Construct by paying {2}, untapping Bag End Banquet.
   Repeat from step 2.
 
 ## Combo 1978-3941-4324
@@ -7562,17 +7231,6 @@ Steps: Animate Basalt Monolith using Mind Transfer Protocol.
   Activate Voltaic Construct by paying {2}, untapping Basalt Monolith.
   Repeat from step 2.
 
-## Combo 1978-4241-5527
-Cards: Voltaic Construct + Karn, Silver Golem + Five Hundred Year Diary
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}
-Produces: Infinite blue mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Karn, Silver Golem (battlefield); Five Hundred Year Diary (battlefield: without summoning sickness)
-Prerequisites: You control at least three Clues.
-Steps: Animate Five Hundred Year Diary using Karn.
-  Activate Five Hundred Year Diary by tapping it, adding {U} for each Clue you control
-  Activate Voltaic Construct by paying {2}, untapping Five Hundred Year Diary.
-  Repeat from step 2.
-
 ## Combo 1978-4306-4324
 Cards: Voltaic Construct + Nyx Lotus + Workshop Elders
 Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
@@ -7657,17 +7315,6 @@ Steps: Animate Gilded Lotus using Workshop Elders.
   Activate Voltaic Construct by paying {2}, untapping Gilded Lotus.
   Repeat from step 2.
 
-## Combo 1978-4324-5527
-Cards: Voltaic Construct + Workshop Elders + Five Hundred Year Diary
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite blue mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Workshop Elders (battlefield); Five Hundred Year Diary (battlefield: without summoning sickness)
-Prerequisites: You control at least three Clues.
-Steps: Animate Five Hundred Year Diary using Workshop Elders.
-  Activate Five Hundred Year Diary by tapping it, adding {U} for each Clue you control
-  Activate Voltaic Construct by paying {2}, untapping Five Hundred Year Diary.
-  Repeat from step 2.
-
 ## Combo 1978-4324-6893
 Cards: Voltaic Construct + Workshop Elders + The Eternity Elevator
 Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 2 | Commander: legal
@@ -7678,17 +7325,6 @@ Steps: Animate The Eternity Elevator using Workshop Elders.
   Activate Voltaic Construct by paying {2}, untapping The Eternity Elevator.
   Repeat from step 2.
 Notes: If The Eternity Elevator has twenty or more charge counters on it, you can instead use its second ability to get infinite colored mana. You can also use both interchangeably, if desired.
-
-## Combo 1978-4324-7013
-Cards: Voltaic Construct + Workshop Elders + White Lotus Tile
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
-Produces: Infinite colored mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Workshop Elders (battlefield); White Lotus Tile (battlefield: without summoning sickness)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Animate White Lotus Tile using Workshop Elders.
-  Activate White Lotus Tile by tapping it, adding at least three mana of any color.
-  Activate Voltaic Construct by paying {2}, untapping White Lotus Tile.
-  Repeat from step 2.
 
 ## Combo 1978-4324-7434--148
 Cards: Brass Infiniscope + Voltaic Construct + Workshop Elders
@@ -7714,17 +7350,6 @@ Start: Voltaic Construct (battlefield); Workshop Elders (battlefield); Arc React
 Steps: Animate Arc Reactor using Workshop Elders.
   Activate Arc Reactor by tapping it, adding {C}{C}{C}
   Activate Voltaic Construct by paying {2}, untapping Arc Reactor.
-  Repeat from step 2.
-
-## Combo 1978-4324-7826
-Cards: Voltaic Construct + Workshop Elders + Bag End Banquet
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colorless mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Workshop Elders (battlefield); Bag End Banquet (battlefield: without summoning sickness)
-Prerequisites: You control at least three Foods.
-Steps: Animate Bag End Banquet using Workshop Elders.
-  Activate Bag End Banquet by tapping it, adding {C}{C}{C}
-  Activate Voltaic Construct by paying {2}, untapping Bag End Banquet.
   Repeat from step 2.
 
 ## Combo 1978-4563-4694
@@ -7784,16 +7409,6 @@ Steps: Activate Gilded Lotus by tapping it, adding three mana of any color
   Activate Voltaic Construct by paying {2}, untapping Gilded Lotus.
   Repeat
 
-## Combo 1978-4694-5527
-Cards: Voltaic Construct + March of the Machines + Five Hundred Year Diary
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
-Produces: Infinite blue mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
-Start: Voltaic Construct (battlefield); March of the Machines (battlefield); Five Hundred Year Diary (battlefield: without summoning sickness)
-Prerequisites: You control at least three Clues.
-Steps: Activate Five Hundred Year Diary by tapping it, adding {U} for each Clue you control
-  Activate Voltaic Construct by paying {2}, untapping Five Hundred Year Diary.
-  Repeat
-
 ## Combo 1978-4694-6893
 Cards: Voltaic Construct + March of the Machines + The Eternity Elevator
 Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 13 | Commander: legal
@@ -7803,16 +7418,6 @@ Steps: Activate The Eternity Elevator by tapping it, adding {C}{C}{C}.
   Activate Voltaic Construct by paying {2}, untapping The Eternity Elevator.
   Repeat.
 Notes: If The Eternity Elevator has twenty or more charge counters on it, you can instead use its second ability to get infinite colored mana. You can also use both interchangeably, if desired.
-
-## Combo 1978-4694-7013
-Cards: Voltaic Construct + March of the Machines + White Lotus Tile
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
-Produces: Infinite colored mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
-Start: Voltaic Construct (battlefield); March of the Machines (battlefield); White Lotus Tile (battlefield: without summoning sickness)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Activate White Lotus Tile by tapping it, adding at least three mana of any color.
-  Activate Voltaic Construct by paying {2}, untapping White Lotus Tile.
-  Repeat
 
 ## Combo 1978-4694-7434--148
 Cards: Brass Infiniscope + Voltaic Construct + March of the Machines
@@ -7838,16 +7443,6 @@ Steps: Activate Arc Reactor by tapping it, adding {C}{C}{C}
   Activate Voltaic Construct by paying {2}, untapping Arc Reactor.
   Repeat
 
-## Combo 1978-4694-7826
-Cards: Voltaic Construct + March of the Machines + Bag End Banquet
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colorless mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
-Start: Voltaic Construct (battlefield); March of the Machines (battlefield); Bag End Banquet (battlefield: without summoning sickness)
-Prerequisites: You control at least three Foods.
-Steps: Activate Bag End Banquet by tapping it, adding {C}{C}{C}
-  Activate Voltaic Construct by paying {2}, untapping Bag End Banquet.
-  Repeat
-
 ## Combo 1978-4832-5116
 Cards: Voltaic Construct + Ensoul Artifact + Gilded Lotus
 Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal
@@ -7855,16 +7450,6 @@ Produces: Infinite colored mana; Infinite untap of artifact creatures you contro
 Start: Voltaic Construct (battlefield); Ensoul Artifact (battlefield: attached to Gilded Lotus); Gilded Lotus (battlefield: without summoning sickness)
 Steps: Activate Gilded Lotus by tapping it, adding three mana of any color
   Activate Voltaic Construct by paying {2}, untapping Gilded Lotus.
-  Repeat
-
-## Combo 1978-4832-5527
-Cards: Voltaic Construct + Ensoul Artifact + Five Hundred Year Diary
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
-Produces: Infinite blue mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Ensoul Artifact (battlefield: attached to Five Hundred Year Diary); Five Hundred Year Diary (battlefield: without summoning sickness)
-Prerequisites: You control at least three Clues.
-Steps: Activate Five Hundred Year Diary by tapping it, adding {U} for each Clue you control
-  Activate Voltaic Construct by paying {2}, untapping Five Hundred Year Diary.
   Repeat
 
 ## Combo 1978-4832-6893
@@ -7876,16 +7461,6 @@ Steps: Activate The Eternity Elevator by tapping it, adding {C}{C}{C}.
   Activate Voltaic Construct by paying {2}, untapping The Eternity Elevator.
   Repeat.
 Notes: If The Eternity Elevator has twenty or more charge counters on it, you can instead use its second ability to get infinite colored mana. You can also use both interchangeably, if desired.
-
-## Combo 1978-4832-7013
-Cards: Voltaic Construct + Ensoul Artifact + White Lotus Tile
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Ensoul Artifact (battlefield: attached to White Lotus Tile); White Lotus Tile (battlefield: without summoning sickness)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Activate White Lotus Tile by tapping it, adding at least three mana of any color.
-  Activate Voltaic Construct by paying {2}, untapping White Lotus Tile.
-  Repeat.
 
 ## Combo 1978-4832-7434--148
 Cards: Brass Infiniscope + Voltaic Construct + Ensoul Artifact
@@ -7904,33 +7479,12 @@ Notes: Each activation of Brass Infiniscope adds a delayed triggered ability tha
 
 ## Combo 1978-4832-7685
 Cards: Voltaic Construct + Ensoul Artifact + Arc Reactor
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite colorless mana; Infinite untap of artifact creatures you control
 Start: Voltaic Construct (battlefield); Ensoul Artifact (battlefield: attached to Arc Reactor); Arc Reactor (battlefield: without summoning sickness)
 Steps: Activate Arc Reactor by tapping it, adding {C}{C}{C}
   Activate Voltaic Construct by paying {2}, untapping Arc Reactor.
   Repeat
-
-## Combo 1978-4832-7826
-Cards: Voltaic Construct + Ensoul Artifact + Bag End Banquet
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colorless mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Ensoul Artifact (battlefield: attached to Bag End Banquet); Bag End Banquet (battlefield: without summoning sickness)
-Prerequisites: You control at least three Foods.
-Steps: Activate Bag End Banquet by tapping it, adding {C}{C}{C}
-  Activate Voltaic Construct by paying {2}, untapping Bag End Banquet.
-  Repeat
-
-## Combo 1978-5089-5527
-Cards: Voltaic Construct + Karn, the Great Creator + Five Hundred Year Diary
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite blue mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Karn, the Great Creator (battlefield); Five Hundred Year Diary (battlefield: without summoning sickness)
-Prerequisites: You control at least three Clues.
-Steps: Animate Five Hundred Year Diary using Karn, the Great Creator.
-  Activate Five Hundred Year Diary by tapping it, adding {U} for each Clue you control
-  Activate Voltaic Construct by paying {2}, untapping Five Hundred Year Diary.
-  Repeat from step 2.
 
 ## Combo 1978-5116-7280
 Cards: Voltaic Construct + Gilded Lotus + Donatello, Mutant Mechanic
@@ -7961,63 +7515,6 @@ Steps: Animate Gilded Lotus using Mind Transfer Protocol.
   Activate Gilded Lotus by tapping it, adding three mana of any color
   Activate Voltaic Construct by paying {2}, untapping Gilded Lotus.
   Repeat from step 2.
-
-## Combo 1978-5527-7170
-Cards: Voltaic Construct + Five Hundred Year Diary + Living Brain, Mechanical Marvel
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite blue mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Five Hundred Year Diary (battlefield: without summoning sickness); Living Brain, Mechanical Marvel (battlefield)
-Prerequisites: You control at least three Clues.
-Steps: Animate Five Hundred Year Diary using Living Brain.
-  Activate Five Hundred Year Diary by tapping it, adding at least {U}{U}{U}
-  Activate Voltaic Construct by paying {2}, untapping Five Hundred Year Diary.
-  Repeat from step 2.
-
-## Combo 1978-5527-7280
-Cards: Voltaic Construct + Five Hundred Year Diary + Donatello, Mutant Mechanic
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite blue mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Five Hundred Year Diary (battlefield: without summoning sickness); Donatello, Mutant Mechanic (battlefield: without summoning sickness)
-Prerequisites: You control at least three Clues.
-Steps: Animate Five Hundred Year Diary using Donatello.
-  Activate Five Hundred Year Diary by tapping it, adding at least {U}{U}{U}
-  Activate Voltaic Construct by paying {2}, untapping Five Hundred Year Diary.
-  Repeat from step 2.
-
-## Combo 1978-5527-7290
-Cards: Voltaic Construct + Five Hundred Year Diary + Does Machines
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite blue mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Five Hundred Year Diary (battlefield: without summoning sickness); Does Machines (battlefield: is level 3)
-Prerequisites: You control at least three Clues.
-Steps: Animate Five Hundred Year Diary using Does Machines.
-  Activate Five Hundred Year Diary by tapping it, adding at least {U}{U}{U}
-  Activate Voltaic Construct by paying {2}, untapping Five Hundred Year Diary.
-  Repeat from step 2.
-
-## Combo 1978-5527-7329
-Cards: Voltaic Construct + Five Hundred Year Diary + Mind Transfer Protocol
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {2}{U}
-Produces: Infinite blue mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Five Hundred Year Diary (battlefield: without summoning sickness); Mind Transfer Protocol (hand)
-Prerequisites: You control at least three Clues.
-Steps: Animate Five Hundred Year Diary using Mind Transfer Protocol.
-  Activate Five Hundred Year Diary by tapping it, adding at least {U}{U}{U}
-  Activate Voltaic Construct by paying {2}, untapping Five Hundred Year Diary.
-  Repeat from step 2.
-
-## Combo 1978-5527-7714
-Cards: Ultron, Artificial Malevolence + Voltaic Construct + Five Hundred Year Diary
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {5}{U}
-Produces: Infinite blue mana
-Start: Ultron, Artificial Malevolence (battlefield); Voltaic Construct (battlefield); Five Hundred Year Diary (hand)
-Prerequisites: You control at least two Clues.
-Steps: Cast Five Hundred Year Diary by paying its mana cost.
-  When Five Hundred Year Diary enters, Ultron triggers, causing you to pay {2} to create a copy of Five Hundred Year Diary that is a 2/2 Robot Villain creature.
-  Put the nontoken Five Hundred Year Diary into your graveyard due to the legend rule.
-  During your next turn, activate the Five Hundred Year Diary token by tapping it, adding {U} for each Clue you control
-  Activate Voltaic Construct by paying {2}, untapping the Five Hundred Year Diary token.
-  Repeat from step 4.
 
 ## Combo 1978-6893-7280
 Cards: Voltaic Construct + The Eternity Elevator + Donatello, Mutant Mechanic
@@ -8052,39 +7549,6 @@ Steps: Animate The Eternity Elevator using Mind Transfer Protocol.
   Repeat from step 2.
 Notes: You can instead tap The Eternity Elevator for colored mana if you're able to do so.
 
-## Combo 1978-7013-7280
-Cards: Voltaic Construct + White Lotus Tile + Donatello, Mutant Mechanic
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); White Lotus Tile (battlefield: without summoning sickness); Donatello, Mutant Mechanic (battlefield: without summoning sickness)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Animate White Lotus Tile using Donatello.
-  Activate White Lotus Tile by tapping it, adding at least three mana of any color.
-  Activate Voltaic Construct by paying {2}, untapping White Lotus Tile.
-  Repeat from step 2.
-
-## Combo 1978-7013-7290
-Cards: Voltaic Construct + White Lotus Tile + Does Machines
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); White Lotus Tile (battlefield: without summoning sickness); Does Machines (battlefield: is level 3)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Animate White Lotus Tile using Does Machines.
-  Activate White Lotus Tile by tapping it, adding at least three mana of any color.
-  Activate Voltaic Construct by paying {2}, untapping White Lotus Tile.
-  Repeat from step 2.
-
-## Combo 1978-7013-7329
-Cards: Voltaic Construct + White Lotus Tile + Mind Transfer Protocol
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{U}
-Produces: Infinite colored mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); White Lotus Tile (battlefield: without summoning sickness); Mind Transfer Protocol (hand)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Animate White Lotus Tile using Mind Transfer Protocol.
-  Activate White Lotus Tile by tapping it, adding at least three mana of any color.
-  Activate Voltaic Construct by paying {2}, untapping White Lotus Tile.
-  Repeat from step 2.
-
 ## Combo 1978-7280-7434--148
 Cards: Brass Infiniscope + Voltaic Construct + Donatello, Mutant Mechanic
 Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -8111,17 +7575,6 @@ Steps: Animate Arc Reactor using Donatello.
   Activate Voltaic Construct by paying {2}, untapping Arc Reactor.
   Repeat from step 2.
 
-## Combo 1978-7280-7826
-Cards: Voltaic Construct + Donatello, Mutant Mechanic + Bag End Banquet
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal
-Produces: Infinite colorless mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Donatello, Mutant Mechanic (battlefield: without summoning sickness); Bag End Banquet (battlefield: without summoning sickness)
-Prerequisites: You control at least three Foods.
-Steps: Animate Bag End Banquet using Donatello.
-  Activate Bag End Banquet by tapping it, adding {C}{C}{C}
-  Activate Voltaic Construct by paying {2}, untapping Bag End Banquet.
-  Repeat from step 2.
-
 ## Combo 1978-7290-7434--148
 Cards: Brass Infiniscope + Voltaic Construct + Does Machines
 Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -8140,23 +7593,12 @@ Notes: Each activation of Brass Infiniscope adds a delayed triggered ability tha
 
 ## Combo 1978-7290-7685
 Cards: Voltaic Construct + Does Machines + Arc Reactor
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
 Produces: Infinite colorless mana; Infinite untap of artifact creatures you control
 Start: Voltaic Construct (battlefield); Does Machines (battlefield: is level 3); Arc Reactor (battlefield: without summoning sickness)
 Steps: Animate Arc Reactor using Does Machines.
   Activate Arc Reactor by tapping it, adding {C}{C}{C}
   Activate Voltaic Construct by paying {2}, untapping Arc Reactor.
-  Repeat from step 2.
-
-## Combo 1978-7290-7826
-Cards: Voltaic Construct + Does Machines + Bag End Banquet
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite colorless mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Does Machines (battlefield: is level 3); Bag End Banquet (battlefield: without summoning sickness)
-Prerequisites: You control at least three Foods.
-Steps: Animate Bag End Banquet using Does Machines.
-  Activate Bag End Banquet by tapping it, adding {C}{C}{C}
-  Activate Voltaic Construct by paying {2}, untapping Bag End Banquet.
   Repeat from step 2.
 
 ## Combo 1978-7329-7434--148
@@ -8184,18 +7626,6 @@ Prerequisites: Your deck size is 2 or greater.
 Steps: Animate Arc Reactor using Mind Transfer Protocol.
   Activate Arc Reactor by tapping it, adding {C}{C}{C}
   Activate Voltaic Construct by paying {2}, untapping Arc Reactor.
-  Repeat from step 2.
-
-## Combo 1978-7329-7826
-Cards: Voltaic Construct + Mind Transfer Protocol + Bag End Banquet
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{U}
-Produces: Infinite colorless mana; Infinite untap of artifact creatures you control
-Start: Voltaic Construct (battlefield); Mind Transfer Protocol (hand); Bag End Banquet (battlefield: without summoning sickness)
-Prerequisites: Your deck size is 2 or greater.
-  You control at least three Foods.
-Steps: Animate Bag End Banquet using Mind Transfer Protocol.
-  Activate Bag End Banquet by tapping it, adding {C}{C}{C}
-  Activate Voltaic Construct by paying {2}, untapping Bag End Banquet.
   Repeat from step 2.
 
 ## Combo 1980-2134-4050-8240
@@ -8867,7 +8297,7 @@ Notes: Each activation of Brass Infiniscope adds a delayed triggered ability tha
 
 ## Combo 1987-2493-2510
 Cards: Ghostly Flicker + Semblance Anvil + Archaeomancer
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 280 | Commander: legal | Mana needed: {U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 290 | Commander: legal | Mana needed: {U}
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count; Infinite landfall triggers; Infinite magecraft triggers
 Start: Ghostly Flicker (hand); Semblance Anvil (battlefield); Archaeomancer (battlefield)
 Prerequisites: Any instant exiled by Semblance Anvil.You control an artifact or land that enters the battlefield untapped and can produce {U}.
@@ -8949,7 +8379,7 @@ Notes: If lands you control can tap to produce at least {5}{U}{U}{U}, this combo
 
 ## Combo 1987-2493-2792
 Cards: Ghostly Flicker + Great Whale + Archaeomancer
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 900 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 910 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite untap of lands you control; Infinite blinking; Infinite creature ETB; Infinite landfall triggers; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
 Start: Ghostly Flicker (hand); Great Whale (battlefield); Archaeomancer (battlefield)
 Prerequisites: You control up to seven lands that can tap to produce at least {2}{U}.
@@ -9043,7 +8473,7 @@ Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
 
 ## Combo 1987-2493-4125-4276
 Cards: Turnabout + Ghostly Flicker + Archaeomancer + Shipwreck Dowser
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 300 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 310 | Commander: legal
 Produces: Infinite mana permanents you control can produce; Infinite untap of permanents you control; Infinite creature LTB; Infinite creature ETB; Infinite storm count; Infinite magecraft triggers; Infinite blinking; Infinite landfall triggers
 Start: Turnabout (hand); Ghostly Flicker (hand); Archaeomancer (battlefield); Shipwreck Dowser (battlefield)
 Prerequisites: Lands you control can tap to produce at least {4}{U}{U}{U}.
@@ -9099,7 +8529,7 @@ Steps: Activate Mystic Sanctuary by tapping it, adding {U}.
 
 ## Combo 1987-2493-4423-5733
 Cards: Ghostly Flicker + Mystic Sanctuary + Archaeomancer + Notorious Throng
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 83 | Commander: legal | Mana needed: {7}{U} each turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 84 | Commander: legal | Mana needed: {7}{U} each turn
 Produces: Infinite turns; Skip your draw steps; Lock
 Start: Ghostly Flicker (hand); Mystic Sanctuary (battlefield); Archaeomancer (battlefield); Notorious Throng (hand)
 Prerequisites: You control a Rogue that does not have summoning sickness and that cannot be blocked by an opponent.
@@ -9116,7 +8546,7 @@ Steps: Deal combat damage to an opponent using a Rogue.
 
 ## Combo 1987-2493-5116
 Cards: Ghostly Flicker + Archaeomancer + Gilded Lotus
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 6900 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 7000 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
 Start: Ghostly Flicker (hand); Archaeomancer (battlefield); Gilded Lotus (battlefield)
 Steps: Activate Gilded Lotus by tapping it, adding {U}{U}{U}.
@@ -9385,7 +8815,7 @@ Steps: Activate up to seven lands by tapping them, adding at least {2}{U}.
 
 ## Combo 1987-2556-3120
 Cards: Ghostly Flicker + Mindsplice Apparatus + Mnemonic Wall
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 160 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 150 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count; Infinite landfall triggers
 Start: Ghostly Flicker (hand); Mindsplice Apparatus (battlefield); Mnemonic Wall (battlefield)
 Prerequisites: Mindsplice Apparatus has at least two oil counters on it.
@@ -10098,7 +9528,7 @@ Steps: Activate Mystic Sanctuary and Basalt Monolith by tapping them, adding {C}
 
 ## Combo 1987-4131-4423-6650
 Cards: Ghostly Flicker + Mystic Sanctuary + Basalt Monolith + The Lunar Whale
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 5 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 6 | Commander: legal
 Produces: Infinite colorless mana; Infinite blue mana; Infinite artifact ETB; Infinite artifact LTB; Infinite storm count; Infinite magecraft triggers; Infinite landfall triggers
 Start: Ghostly Flicker (hand, library: on top of your library ); Mystic Sanctuary (battlefield); Basalt Monolith (battlefield); The Lunar Whale (battlefield)
 Prerequisites: The Lunar Whale has attacked this turn.
@@ -10500,7 +9930,7 @@ Steps: Cast Aeon Engine by paying {5}.
 
 ## Combo 1999-2793-5129
 Cards: Master Transmuter + Ugin's Nexus + Mirrorworks
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 650 | Commander: legal | Mana needed: {7}{U} each turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 640 | Commander: legal | Mana needed: {7}{U} each turn
 Produces: Infinite turns; Lock
 Start: Master Transmuter (battlefield); Ugin's Nexus (hand); Mirrorworks (battlefield)
 Prerequisites: Master Transmuter does not have summoning sickness.
@@ -10512,7 +9942,7 @@ Steps: Cast Ugin's Nexus by paying {5}.
 
 ## Combo 1999-3263-4131-7340
 Cards: Master Transmuter + Sewer-veillance Cam + Mycosynth Lattice + Basalt Monolith
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 55 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 56 | Commander: legal
 Produces: Infinite colored mana; Infinite colorless mana; Infinite artifact ETB; Infinite artifact LTB
 Start: Master Transmuter (battlefield); Sewer-veillance Cam (hand); Mycosynth Lattice (battlefield); Basalt Monolith (battlefield)
 Prerequisites: Master Transmuter does not have summoning sickness.
@@ -10921,7 +10351,7 @@ Steps: Cast Hollow One either from your hand or from your graveyard by paying at
 
 ## Combo 2034-2933-5003
 Cards: Nim Deathmantle + Ashnod's Altar + Drowner of Hope
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal | Mana needed: {2}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal | Mana needed: {2}
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite creature ETB
 Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Drowner of Hope (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Drowner of Hope, adding {C}{C}.
@@ -10977,7 +10407,7 @@ Steps: Cast Baithook Angler from your graveyard for its disturb cost by paying {
 
 ## Combo 2034-3380-5003
 Cards: Nim Deathmantle + Ashnod's Altar + Shadow Puppeteers
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal | Mana needed: {2}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal | Mana needed: {2}
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Shadow Puppeteers (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Shadow Puppeteers, adding {C}{C}.
@@ -11167,7 +10597,7 @@ Steps: Activate Ashnod's Altar by sacrificing Falcon, adding {C}{C}.
 
 ## Combo 2034-5003-7700
 Cards: Nim Deathmantle + Ashnod's Altar + Eldrazi Skyspawner
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal | Mana needed: {2}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal | Mana needed: {2}
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Eldrazi Skyspawner (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Eldrazi Skyspawner, adding {C}{C}.
@@ -11303,7 +10733,7 @@ Steps: Activate Ashnod's Altar by sacrificing another artifact creature, adding 
 
 ## Combo 2034-7936--5
 Cards: Dominion Saboteur + Ashnod's Altar
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 55 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Dominion Saboteur (battlefield: as a copy of the creature with persist); Ashnod's Altar (battlefield)
@@ -11315,7 +10745,7 @@ Steps: Activate Ashnod's Altar by sacrificing Dominion Saboteur, adding {C}{C}.
 
 ## Combo 2034-8304--73
 Cards: Lieutenant Commander Data + Ashnod's Altar
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 41 | Commander: legal | Mana needed: {1} if all three of the persist or undying creatures have a -1/-1 or +1/+1 counter on them respectively
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 42 | Commander: legal | Mana needed: {1} if all three of the persist or undying creatures have a -1/-1 or +1/+1 counter on them respectively
 Produces: Infinite card draw; Near-infinite colorless mana; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Requires: 3x Creature with Persist or Undying (battlefield)
 Start: Lieutenant Commander Data (battlefield); Ashnod's Altar (battlefield)
@@ -11327,7 +10757,7 @@ Steps: If any of the creatures with persist or undying do not have a -1/-1 or +1
 
 ## Combo 2047-2719-3094-4659
 Cards: Sakashima of a Thousand Faces + Mechanized Production + Lithoform Engine + Krark-Clan Ironworks
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal | Mana needed: {4}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal | Mana needed: {4}
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Sakashima of a Thousand Faces (battlefield); Mechanized Production (battlefield); Lithoform Engine (battlefield); Krark-Clan Ironworks (battlefield)
 Prerequisites: Mechanized Production attached to Lithoform Engine.
@@ -12272,7 +11702,7 @@ Steps: Cast Multiversal Incursion by paying its mana cost, creating a token copy
 
 ## Combo 2084-7936
 Cards: Mirror-Mad Phantasm + Dominion Saboteur
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 4 | Commander: legal | Mana needed: {1}{U}
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 5 | Commander: legal | Mana needed: {1}{U}
 Produces: Infinite self-mill
 Start: Mirror-Mad Phantasm (hand, battlefield, command zone, exile, graveyard); Dominion Saboteur (battlefield: as a copy of Mirror-Mad Phantasm)
 Steps: Activate Dominion Saboteur by paying {1}{U}, shuffling Dominion Saboteur into your library and milling your entire library due to it not having a card named Mirror-Mad Phantasm in it.
@@ -13274,7 +12704,7 @@ Steps: Cast Baithook Angler from your graveyard for its disturb cost by paying {
 ## Combo 2146-3941-4331-4993
 Cards: Drafna, Founder of Lat-Nam + Manifold Key + Coveted Jewel + Cloud Key
 Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 96 | Commander: legal
-Produces: Infinite card draw; Infinite artifact ETB; Infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
+Produces: Infinite card draw; Near-infinite artifact ETB; Near-infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
 Start: Drafna, Founder of Lat-Nam (battlefield); Manifold Key (battlefield); Coveted Jewel (battlefield); Cloud Key (battlefield: with "Artifact" chosen)
 Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
   Activate Manifold Key by paying {1} and tapping it, untapping Coveted Jewel.
@@ -14046,7 +13476,7 @@ Notes: If you control eight or more Treasures, use eight Treasures to cast Marut
 
 ## Combo 2232-3908-6749
 Cards: Anticausal Vestige + Cloudstone Curio + Spark Double
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal | Mana needed: {3}{U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal | Mana needed: {3}{U}
 Produces: Infinite card draw; Near-infinite creature ETB; Infinite draw triggers; Near-infinite storm count; Near-infinite creature LTB
 Start: Anticausal Vestige (battlefield); Cloudstone Curio (battlefield); Spark Double (hand)
 Prerequisites: You control six or more lands.
@@ -14316,7 +13746,7 @@ Steps: Activate Tezzeret's first loyalty ability by putting a loyalty counter on
 
 ## Combo 2341-2495-2585
 Cards: Tezzeret the Seeker + The Peregrine Dynamo + Grim Monolith
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 60 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 61 | Commander: legal
 Produces: Infinite colorless mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
 Start: Tezzeret the Seeker (battlefield); The Peregrine Dynamo (battlefield); Grim Monolith (battlefield)
 Steps: Activate Tezzeret's first loyalty ability by putting a loyalty counter on it, targeting Grim Monolith and The Peregrine Dynamo.
@@ -14534,7 +13964,7 @@ Steps: Activate Tezzeret's first loyalty ability by putting a loyalty counter on
 ## Combo 2350-3941-4331-4993
 Cards: Drafna, Founder of Lat-Nam + Manifold Key + Coveted Jewel + Stone Calendar
 Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite card draw; Infinite artifact ETB; Infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
+Produces: Infinite card draw; Near-infinite artifact ETB; Near-infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
 Start: Drafna, Founder of Lat-Nam (battlefield); Manifold Key (battlefield); Coveted Jewel (battlefield); Stone Calendar (battlefield)
 Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
   Activate Manifold Key by paying {1} and tapping it, untapping Coveted Jewel.
@@ -15388,7 +14818,7 @@ Steps: Activate Karn's first loyalty ability by putting a loyalty counter on it,
 
 ## Combo 2493-2792-3647
 Cards: Displace + Great Whale + Archaeomancer
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 480 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 490 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite untap of lands you control; Infinite blinking; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count; Infinite landfall triggers
 Start: Displace (hand); Great Whale (battlefield); Archaeomancer (battlefield)
 Prerequisites: You control up to seven lands that can tap to produce at least {2}{U}.
@@ -15607,7 +15037,7 @@ Steps: Cast Essence Flux by tapping Archaeomancer due to Essence Flux's convoke 
 
 ## Combo 2493-4113-5895
 Cards: Archaeomancer + Invasion of Segovia // Caetus, Sea Tyrant of Segovia + Splash Portal
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 62 | Commander: legal | Mana needed: {U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal | Mana needed: {U}
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
 Start: Archaeomancer (battlefield); Invasion of Segovia // Caetus, Sea Tyrant of Segovia (battlefield); Splash Portal (hand)
 Steps: Cast Splash Portal by tapping Archaeomancer due to Splash Portal's convoke ability, blinking Archaeomancer.
@@ -15616,7 +15046,7 @@ Steps: Cast Splash Portal by tapping Archaeomancer due to Splash Portal's convok
 
 ## Combo 2493-4113-7495
 Cards: Archaeomancer + Invasion of Segovia // Caetus, Sea Tyrant of Segovia + Skycoach Conductor // All Aboard
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 47 | Commander: legal | Mana needed: {U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 46 | Commander: legal | Mana needed: {U}
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
 Start: Archaeomancer (battlefield); Invasion of Segovia // Caetus, Sea Tyrant of Segovia (battlefield); Skycoach Conductor // All Aboard (battlefield: is prepared.)
 Steps: Cast Skycoach Conductor // All Aboard by tapping Archaeomancer due to Skycoach Conductor // All Aboard's convoke ability, blinking Archaeomancer.
@@ -15708,7 +15138,7 @@ Steps: Cast Time Warp by paying its mana cost, causing you to take an extra turn
 
 ## Combo 2493-4872-7631
 Cards: Echocasting Symposium + Archaeomancer + Time Warp
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 220 | Commander: legal | Mana needed: {3}{U}{U} each turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 230 | Commander: legal | Mana needed: {3}{U}{U} each turn
 Produces: Infinite turns; Lock
 Start: Echocasting Symposium (exile: exiled by its paradigm ability); Archaeomancer (battlefield); Time Warp (hand)
 Steps: Cast Time Warp by paying its mana cost, causing you to take an extra turn after this one.
@@ -15847,7 +15277,7 @@ Steps: Cast Mystic Speculation by paying {U} due to Semblance Anvil.
 ## Combo 2510-3941-4331-4993
 Cards: Drafna, Founder of Lat-Nam + Manifold Key + Coveted Jewel + Semblance Anvil
 Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 46 | Commander: legal
-Produces: Infinite card draw; Infinite artifact ETB; Infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
+Produces: Infinite card draw; Near-infinite artifact ETB; Near-infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
 Start: Drafna, Founder of Lat-Nam (battlefield); Manifold Key (battlefield); Coveted Jewel (battlefield); Semblance Anvil (battlefield)
 Prerequisites: There is an artifact card exiled with Semblance Anvil.
 Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
@@ -15904,7 +15334,7 @@ Steps: Activate Gilded Lotus by tapping it, adding {U}{U}{U}.
 
 ## Combo 2510-5078-5243
 Cards: Sensei's Divining Top + Semblance Anvil + The Reality Chip
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 3800 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 3900 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Semblance Anvil (battlefield: with an artifact card exiled); The Reality Chip (battlefield: attached to a creature you control)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -16071,7 +15501,7 @@ Steps: Tap Doubling Cube for {3} to add an additional {6}{U}.
 
 ## Combo 2544-3053
 Cards: Filigree Sages + Prismatic Geoscope
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 33 | Commander: legal
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 34 | Commander: legal
 Produces: Infinite colored mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
 Start: Filigree Sages (battlefield); Prismatic Geoscope (battlefield)
 Prerequisites: There are at least four basic land types among lands you control
@@ -16212,7 +15642,7 @@ Notes: This combo can be repeated whenever you want to cast an artifact spell. I
 
 ## Combo 2544-5527
 Cards: Filigree Sages + Five Hundred Year Diary
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 190 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 200 | Commander: legal
 Produces: Infinite blue mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
 Start: Filigree Sages (battlefield); Five Hundred Year Diary (battlefield)
 Prerequisites: You control at least four Clues.
@@ -16671,7 +16101,7 @@ Steps: Activate Grim Monolith by tapping it, adding {C}{C}{C}.
 
 ## Combo 2585-4241-4893
 Cards: Training Grounds + Grim Monolith + Karn, Silver Golem
-Color identity: U | Bracket: 3+ (Powerful) | Popularity: 48 | Commander: legal
+Color identity: U | Bracket: 3+ (Powerful) | Popularity: 49 | Commander: legal
 Produces: Infinite colorless mana
 Start: Training Grounds (battlefield); Grim Monolith (battlefield); Karn, Silver Golem (battlefield)
 Prerequisites: Grim Monolith does not have summoning sickness.
@@ -16751,7 +16181,7 @@ Steps: Cast the creature using its morph or megamorph cost by paying {0}, puttin
 ## Combo 2604-3941-4331-4993
 Cards: Drafna, Founder of Lat-Nam + Manifold Key + Coveted Jewel + Ugin, the Ineffable
 Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
-Produces: Infinite card draw; Infinite artifact ETB; Infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
+Produces: Infinite card draw; Near-infinite artifact ETB; Near-infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
 Start: Drafna, Founder of Lat-Nam (battlefield); Manifold Key (battlefield); Coveted Jewel (battlefield); Ugin, the Ineffable (battlefield)
 Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
   Activate Manifold Key by paying {1} and tapping it, untapping Coveted Jewel.
@@ -16950,7 +16380,7 @@ Steps: Activate Tidewater Minion's last ability by tapping it, targeting itself.
 
 ## Combo 2619-4483-5116
 Cards: Rod of Absorption + Echo Storm + Gilded Lotus
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal | Mana needed: {2}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal | Mana needed: {2}
 Produces: Infinite colored mana; Infinite copies of artifacts you control; Infinite magecraft triggers; Infinite storm count
 Start: Rod of Absorption (battlefield); Echo Storm (hand); Gilded Lotus (battlefield)
 Prerequisites: You've cast your commander from the command zone at least twice.
@@ -17394,7 +16824,7 @@ Notes: This combo can be repeated whenever you want to cast an artifact spell. I
 
 ## Combo 2734-4740
 Cards: Aetherflux Reservoir + Cyberdrive Awakener
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 7600 | Commander: legal | Mana needed: {5}{U}
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 7700 | Commander: legal | Mana needed: {5}{U}
 Produces: Infinite damage; Infinite lifegain triggers
 Start: Aetherflux Reservoir (battlefield); Cyberdrive Awakener (hand)
 Prerequisites: You have a way to give Aetherflux Reservoir lifelink.
@@ -17496,7 +16926,7 @@ Steps: Activate Grimoire Thief by tapping it, adding {U}.
 
 ## Combo 2762-4659-5491
 Cards: Thopter Squadron + Krark-Clan Ironworks + Worldwalker Helm
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal | Mana needed: {1}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 40 | Commander: legal | Mana needed: {1}
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Thopter Squadron (battlefield: with two or more +1/+1 counters on it); Krark-Clan Ironworks (battlefield); Worldwalker Helm (battlefield)
 Steps: Activate Thopter Squadron's first ability by paying {1} and removing a +1/+1 counter from it, creating a Map and a 1/1 Thopter artifact creature tokens.
@@ -17654,7 +17084,7 @@ Steps: Activate up to seven lands by tapping them, adding at least {4}.
 
 ## Combo 2793-2829-5483
 Cards: Ugin's Nexus + Esoteric Duplicator + Arcbound Ravager
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 96 | Commander: legal | Mana needed: {2} each turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 95 | Commander: legal | Mana needed: {2} each turn
 Produces: Infinite turns; Lock
 Start: Ugin's Nexus (battlefield); Esoteric Duplicator (battlefield); Arcbound Ravager (battlefield)
 Steps: During your end step, activate Arcbound Ravager by sacrificing Ugin's Nexus.
@@ -17667,7 +17097,7 @@ Steps: During your end step, activate Arcbound Ravager by sacrificing Ugin's Nex
 
 ## Combo 2793-3698-5483
 Cards: Ugin's Nexus + Esoteric Duplicator + Grinding Station
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 290 | Commander: legal | Mana needed: {2} each turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 280 | Commander: legal | Mana needed: {2} each turn
 Produces: Infinite turns; Lock
 Start: Ugin's Nexus (battlefield); Esoteric Duplicator (battlefield); Grinding Station (battlefield)
 Steps: During your end step, activate Grinding Station by tapping it and sacrificing Ugin's Nexus.
@@ -17680,7 +17110,7 @@ Steps: During your end step, activate Grinding Station by tapping it and sacrifi
 
 ## Combo 2793-4331
 Cards: Drafna, Founder of Lat-Nam + Ugin's Nexus
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 680 | Commander: legal | Mana needed: {9}{U} each turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 670 | Commander: legal | Mana needed: {9}{U} each turn
 Produces: Infinite turns; Lock
 Start: Drafna, Founder of Lat-Nam (battlefield); Ugin's Nexus (hand)
 Prerequisites: Drafna does not have summoning sickness.
@@ -17831,7 +17261,7 @@ Steps: Activate Summoning Station by tapping it, creating a Clue token due to Fl
 
 ## Combo 2829-5394-6291
 Cards: Nick Valentine, Private Eye + Stridehangar Automaton + Arcbound Ravager
-Color identity: U | Bracket: 2-3+ (Oddball) | Popularity: 240 | Commander: legal
+Color identity: U | Bracket: 2-3+ (Oddball) | Popularity: 230 | Commander: legal
 Produces: Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite Clue tokens
 Start: Nick Valentine, Private Eye (battlefield); Stridehangar Automaton (battlefield); Arcbound Ravager (battlefield)
 Prerequisites: You control another artifact creature.
@@ -17864,7 +17294,7 @@ Steps: Cast Paradigm Shift by paying {1}{U}, exiling your library and shuffling 
 
 ## Combo 2836-4899
 Cards: Laboratory Maniac + Phyrexian Devourer
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 460 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 470 | Commander: legal
 Produces: Win the game; Exile your library
 Start: Laboratory Maniac (battlefield); Phyrexian Devourer (battlefield)
 Prerequisites: You have a way to draw a card.
@@ -17886,7 +17316,7 @@ Steps: Activate Thought Lash by exiling the top card of your library, preventing
 
 ## Combo 2853-8266
 Cards: Fblthp, Impossibly Lost + Thought Lash
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 440 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 450 | Commander: legal
 Produces: Win the game; Exile your library
 Start: Fblthp, Impossibly Lost (battlefield); Thought Lash (battlefield)
 Prerequisites: You control a creature that doesn't have summoning sickness and that cannot be blocked by an opponent.
@@ -18488,7 +17918,7 @@ Steps: Cast Paradigm Shift by paying {1}{U}, exiling your library and shuffling 
 
 ## Combo 3096-4899
 Cards: Jace, Wielder of Mysteries + Phyrexian Devourer
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 310 | Commander: legal
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 320 | Commander: legal
 Produces: Win the game; Exile your library
 Start: Jace, Wielder of Mysteries (battlefield); Phyrexian Devourer (battlefield)
 Steps: Activate Phyrexian Devourer by exiling the top card of your library.
@@ -18827,7 +18257,7 @@ Steps: Activate Phyrexian Devourer by exiling the top card of your library.
 
 ## Combo 3263-3401-5803
 Cards: Kitsa, Otterball Elite + Blinkmoth Infusion + Mycosynth Lattice
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {2}, plus an additional {11} minus {1} for each other artifact you control
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {2}, plus an additional {11} minus {1} for each other artifact you control
 Produces: Infinite mana permanents you control can produce; Infinite colored mana; Infinite untap of permanents you control; Infinite magecraft triggers
 Start: Kitsa, Otterball Elite (battlefield); Blinkmoth Infusion (hand); Mycosynth Lattice (battlefield)
 Prerequisites: Kitsa has power 2 or greater and does not have summoning sickness.
@@ -18874,7 +18304,7 @@ Steps: Activate Apprentice Wizard by paying {1} and tapping it, adding {3}.
 
 ## Combo 3263-3576-4222
 Cards: Vedalken Engineer + Mycosynth Lattice + Freed from the Real
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 57 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 58 | Commander: legal
 Produces: Infinite colored mana that can only be spent to cast artifact spells; Infinite colored mana that can only be spent to activate abilities
 Start: Vedalken Engineer (battlefield); Mycosynth Lattice (battlefield); Freed from the Real (battlefield)
 Prerequisites: Freed from the Real attached to Vedalken Engineer.
@@ -18896,7 +18326,7 @@ Steps: Activate Vhal by tapping it, adding at least {3} that cannot be spent to 
 
 ## Combo 3263-3793-4222
 Cards: Apprentice Wizard + Freed from the Real + Mycosynth Lattice
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal | Mana needed: {1}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal | Mana needed: {1}
 Produces: Infinite colored mana; Infinite colorless mana
 Start: Apprentice Wizard (battlefield); Freed from the Real (battlefield); Mycosynth Lattice (battlefield)
 Prerequisites: Freed from the Real attached to Apprentice Wizard.
@@ -18939,7 +18369,7 @@ Notes: This combo can be repeated whenever you want to cast an artifact spell. I
 
 ## Combo 3301-4131-4893
 Cards: Basalt Monolith + Tezzeret, Betrayer of Flesh + Training Grounds
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 550 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 560 | Commander: legal
 Produces: Infinite colorless mana
 Start: Basalt Monolith (battlefield); Tezzeret, Betrayer of Flesh (battlefield); Training Grounds (battlefield)
 Prerequisites: Tezzeret has at least two loyalty counters on it.
@@ -19150,7 +18580,7 @@ Steps: Cast The One Ring by paying {4}.
 ## Combo 3375-3941-4331-4993
 Cards: Drafna, Founder of Lat-Nam + Manifold Key + Coveted Jewel + The Immortal Sun
 Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
-Produces: Infinite card draw; Infinite artifact ETB; Infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
+Produces: Infinite card draw; Near-infinite artifact ETB; Near-infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
 Start: Drafna, Founder of Lat-Nam (battlefield); Manifold Key (battlefield); Coveted Jewel (battlefield); The Immortal Sun (battlefield)
 Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
   Activate Manifold Key by paying {1} and tapping it, untapping Coveted Jewel.
@@ -19203,7 +18633,7 @@ Steps: Activate Gilded Lotus by tapping it, adding {U}{U}{U}.
 
 ## Combo 3375-5078-5243
 Cards: Sensei's Divining Top + The Immortal Sun + The Reality Chip
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 910 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 920 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); The Immortal Sun (battlefield); The Reality Chip (battlefield: attached to a creature you control)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -19253,7 +18683,7 @@ Steps: Cast Sensei's Divining Top by paying {0} due to The Immortal Sun.
 
 ## Combo 3375-5078-6766
 Cards: Sensei's Divining Top + The Immortal Sun + Mm'menon, the Right Hand
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 170 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 160 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); The Immortal Sun (battlefield); Mm'menon, the Right Hand (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -19271,7 +18701,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 3375-5078-7902
 Cards: Sensei's Divining Top + The Immortal Sun + Fateful Discovery
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 120 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 130 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (hand); The Immortal Sun (battlefield); Fateful Discovery (battlefield)
 Steps: Cast Sensei's Divining Top by paying {0} due to The Immortal Sun.
@@ -20018,7 +19448,7 @@ Steps: Activate Tui and La by tapping it, adding {U}.
 
 ## Combo 3525-4474-7208
 Cards: Pemmin's Aura + Paradise Mantle + Pestered Wellguard
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 76 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 77 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB
 Start: Pemmin's Aura (battlefield: attached to Pestered Wellguard); Paradise Mantle (battlefield: attached to Pestered Wellguard); Pestered Wellguard (battlefield: without summoning sickness)
 Steps: Activate Pestered Wellguard by tapping it, adding {U}.
@@ -20711,7 +20141,7 @@ Steps: Activate Forensic Researcher by tapping it, targeting Flesh Duplicate.
 
 ## Combo 3680-4004-7149
 Cards: Princess Yue + Wormfang Turtle + Stunt Double
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 600 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 610 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Start: Princess Yue (battlefield: is not a land); Wormfang Turtle (battlefield); Stunt Double (hand)
 Steps: Cast Stunt Double by paying its mana cost. Choose to have it enter as a copy of Princess Yue.
@@ -20930,7 +20360,7 @@ Steps: Cast Phyrexian Metamorph by paying its mana cost. Choose to have it enter
 
 ## Combo 3734-5282-7149
 Cards: Princess Yue + Wormfang Newt + Phyrexian Metamorph
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 880 | Commander: legal | Mana needed: {3}{U/P}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 890 | Commander: legal | Mana needed: {3}{U/P}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers
 Start: Princess Yue (battlefield: is not a land); Wormfang Newt (battlefield); Phyrexian Metamorph (hand)
 Steps: Cast Phyrexian Metamorph by paying its mana cost. Choose to have it enter as a copy of Princess Yue.
@@ -21107,7 +20537,7 @@ Steps: Optionally, activate a land by tapping it, adding at least {1}.
 
 ## Combo 3783-4300-4955
 Cards: Meloku the Clouded Mirror + Minn, Wily Illusionist + Grafted Wargear
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 280 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 290 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Meloku the Clouded Mirror (battlefield); Minn, Wily Illusionist (battlefield); Grafted Wargear (battlefield)
 Prerequisites: You control an Illusion that has Grafted Wargear attached to it.
@@ -21261,7 +20691,7 @@ Steps: Activate Forensic Researcher by tapping it, targeting Gogo.
 
 ## Combo 3784-6657-7014
 Cards: Gogo, Master of Mimicry + Vhal, Candlekeep Researcher + North Pole Patrol
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 41 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 42 | Commander: legal
 Produces: Infinite mana permanents you control can produce; Infinite untap of permanents you control; Infinite colorless mana that can't be spent to cast spells from your hand
 Start: Gogo, Master of Mimicry (battlefield: without summoning sickness ); Vhal, Candlekeep Researcher (battlefield: without summoning sickness and with toughness 5 or greater ); North Pole Patrol (battlefield: without summoning sickness)
 Steps: Activate North Pole Patrol by tapping it, targeting Gogo.
@@ -21663,7 +21093,7 @@ Steps: Activate Karn's first loyalty ability, causing Coveted Jewel to become an
 ## Combo 3941-4331-4985-4993
 Cards: Drafna, Founder of Lat-Nam + Manifold Key + Coveted Jewel + Jhoira's Familiar
 Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 78 | Commander: legal
-Produces: Infinite card draw; Infinite artifact ETB; Infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
+Produces: Infinite card draw; Near-infinite artifact ETB; Near-infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
 Start: Drafna, Founder of Lat-Nam (battlefield); Manifold Key (battlefield); Coveted Jewel (battlefield); Jhoira's Familiar (battlefield)
 Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
   Activate Manifold Key by paying {1} and tapping it, untapping Coveted Jewel.
@@ -21674,7 +21104,7 @@ Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
 ## Combo 3941-4331-4993-5705
 Cards: Drafna, Founder of Lat-Nam + Manifold Key + Glaring Fleshraker + Coveted Jewel
 Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 53 | Commander: legal | Mana needed: {1}
-Produces: Near-infinite damage; Infinite card draw; Infinite artifact ETB; Infinite artifact LTB; Near-infinite creature ETB; Infinite draw triggers; Near-infinite storm count; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
+Produces: Near-infinite damage; Infinite card draw; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite creature ETB; Infinite draw triggers; Near-infinite storm count; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Drafna, Founder of Lat-Nam (battlefield); Manifold Key (battlefield); Glaring Fleshraker (battlefield); Coveted Jewel (battlefield)
 Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
   Activate Manifold Key's first ability by paying {1} and tapping it, untapping Coveted Jewel.
@@ -21688,7 +21118,7 @@ Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
 ## Combo 3941-4331-4993-6709
 Cards: Drafna, Founder of Lat-Nam + Manifold Key + Coveted Jewel + Ballad of the Black Flag
 Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite card draw; Infinite artifact ETB; Infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
+Produces: Infinite card draw; Near-infinite artifact ETB; Near-infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
 Start: Drafna, Founder of Lat-Nam (battlefield); Manifold Key (battlefield); Coveted Jewel (battlefield); Ballad of the Black Flag (graveyard)
 Prerequisites: Ballad of the Black Flag's fourth chapter ability has triggered this turn
 Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
@@ -21700,7 +21130,7 @@ Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
 ## Combo 3941-4331-4993-7010
 Cards: Drafna, Founder of Lat-Nam + Manifold Key + Coveted Jewel + Gran-Gran
 Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite card draw; Infinite artifact ETB; Infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
+Produces: Infinite card draw; Near-infinite artifact ETB; Near-infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
 Start: Drafna, Founder of Lat-Nam (battlefield); Manifold Key (battlefield); Coveted Jewel (battlefield); Gran-Gran (battlefield)
 Prerequisites: There are at least three Lesson cards in your graveyard.
 Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
@@ -21712,7 +21142,7 @@ Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
 ## Combo 3941-4331-4993-7692
 Cards: Drafna, Founder of Lat-Nam + Manifold Key + Coveted Jewel + Shuri, Wakandan Inventor
 Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal
-Produces: Infinite card draw; Infinite artifact ETB; Infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
+Produces: Infinite card draw; Near-infinite artifact ETB; Near-infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
 Start: Drafna, Founder of Lat-Nam (battlefield); Manifold Key (battlefield); Coveted Jewel (battlefield); Shuri, Wakandan Inventor (battlefield)
 Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
   Activate Manifold Key by paying {1} and tapping it, untapping Coveted Jewel.
@@ -21723,7 +21153,7 @@ Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
 ## Combo 3941-4331-4993-7753
 Cards: Drafna, Founder of Lat-Nam + Manifold Key + Coveted Jewel + Valeria Richards, Precocious
 Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite card draw; Infinite artifact ETB; Infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
+Produces: Infinite card draw; Near-infinite artifact ETB; Near-infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
 Start: Drafna, Founder of Lat-Nam (battlefield); Manifold Key (battlefield); Coveted Jewel (battlefield); Valeria Richards, Precocious (battlefield)
 Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
   Activate Manifold Key by paying {1} and tapping it, untapping Coveted Jewel.
@@ -21734,7 +21164,7 @@ Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
 ## Combo 3941-4331-4993-8176
 Cards: Drafna, Founder of Lat-Nam + Manifold Key + Coveted Jewel + Geist of Saint Thalia
 Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal
-Produces: Infinite card draw; Infinite artifact ETB; Infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
+Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count; Near-infinite artifact ETB; Near-infinite artifact LTB
 Start: Drafna, Founder of Lat-Nam (battlefield); Manifold Key (battlefield); Coveted Jewel (battlefield); Geist of Saint Thalia (battlefield)
 Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
   Activate Manifold Key's first ability by paying {1} and tapping it, untapping Coveted Jewel.
@@ -22300,7 +21730,7 @@ Steps: Activate Phyrexian Altar by sacrificing another artifact creature, adding
 
 ## Combo 4050-7936--5
 Cards: Dominion Saboteur + Phyrexian Altar
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 32 | Commander: legal
 Produces: Infinite colored mana; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Dominion Saboteur (battlefield: as a copy of the creature with persist); Phyrexian Altar (battlefield)
@@ -22422,7 +21852,7 @@ Steps: Activate Nyx Lotus by tapping it, adding at least six {U}.
 
 ## Combo 4067-4182-5527
 Cards: Mind Over Matter + Whispers of the Muse + Five Hundred Year Diary
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite blue mana; Near-infinite mana permanents you control can produce; Infinite looting; Near-infinite untap of permanents you control; Infinite self-discard triggers; Infinite draw triggers; Near-infinite storm count; Near-infinite magecraft triggers
 Start: Mind Over Matter (battlefield); Whispers of the Muse (battlefield); Five Hundred Year Diary (battlefield)
 Prerequisites: You control at least six Clues.
@@ -22670,7 +22100,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 4067-5078-6766
 Cards: Sensei's Divining Top + Mind Over Matter + Mm'menon, the Right Hand
-Color identity: U | Bracket: 2-3+ (Oddball) | Popularity: 80 | Commander: legal
+Color identity: U | Bracket: 2-3+ (Oddball) | Popularity: 79 | Commander: legal
 Produces: Infinite looting; Infinite draw triggers; Infinite self-discard triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Mind Over Matter (battlefield); Mm'menon, the Right Hand (battlefield)
 Prerequisites: You control a mana-producing permanent.
@@ -22760,7 +22190,7 @@ Steps: Activate Idol of Oblivion by tapping it, causing you to draw a card.
 
 ## Combo 4067-5745
 Cards: Mind Over Matter + Staff of Eden, Vault's Key
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 47 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 46 | Commander: legal
 Produces: Near-infinite card draw; Near-infinite mana permanents you control can produce; Infinite looting; Near-infinite untap of permanents you control; Infinite self-discard triggers; Infinite draw triggers
 Start: Mind Over Matter (battlefield); Staff of Eden, Vault's Key (battlefield)
 Prerequisites: You control a permanent that you don't own.
@@ -22935,7 +22365,7 @@ Steps: Activate Diary of Dreams by tapping it, causing you to draw a card.
 
 ## Combo 4067-7801
 Cards: Mind Over Matter + Spock, Logical Choice
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 35 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 36 | Commander: legal
 Produces: Infinite looting; Infinite draw triggers; Infinite self-discard triggers
 Start: Mind Over Matter (battlefield); Spock, Logical Choice (battlefield: without summoning sickness)
 Steps: Activate Spock, Logical Choice by tapping it, causing you to draw a card.
@@ -23306,7 +22736,7 @@ Steps: Cast Basalt Monolith by paying its mana cost.
 
 ## Combo 4131-4639-4694
 Cards: Unctus, Grand Metatect + Basalt Monolith + March of the Machines
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 55 | Commander: legal | Mana needed: {U/P}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal | Mana needed: {U/P}
 Produces: Infinite looting; Infinite draw triggers; Infinite self-discard triggers
 Start: Unctus, Grand Metatect (battlefield); Basalt Monolith (battlefield); March of the Machines (battlefield)
 Prerequisites: Basalt Monolith does not have summoning sickness.
@@ -23562,7 +22992,7 @@ Steps: Activate Tui and La by tapping it, adding {U}.
 
 ## Combo 4222-4474-7208
 Cards: Freed from the Real + Paradise Mantle + Pestered Wellguard
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 89 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 90 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB
 Start: Freed from the Real (battlefield: attached to Pestered Wellguard); Paradise Mantle (battlefield: attached to Pestered Wellguard); Pestered Wellguard (battlefield: without summoning sickness)
 Steps: Activate Pestered Wellguard by tapping it, adding {U}.
@@ -23714,7 +23144,7 @@ Notes: Once you have infinite mana, you may cast James infinitely if desired. Yo
 
 ## Combo 4270-6628-7857
 Cards: Trade Routes + PuPu UFO + Elven Raft-Steerer
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 560 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 570 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Trade Routes (battlefield); PuPu UFO (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Prerequisites: You control a land that enters the battlefield untapped and can tap to produce at least {1}.
@@ -23737,7 +23167,7 @@ Steps: Activate any number of lands you control except Conqueror's Foothold by t
 
 ## Combo 4284-5282-7149
 Cards: Princess Yue + Wormfang Newt + Clone
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 680 | Commander: legal | Mana needed: {3}{U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 690 | Commander: legal | Mana needed: {3}{U}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers
 Start: Princess Yue (battlefield: is not a land); Wormfang Newt (battlefield); Clone (hand)
 Steps: Cast Clone by paying its mana cost. Choose to have it enter as a copy of Princess Yue.
@@ -23764,7 +23194,7 @@ Steps: Activate Forensic Researcher by tapping it, targeting Clone.
 
 ## Combo 4300-6628-7857
 Cards: Meloku the Clouded Mirror + PuPu UFO + Elven Raft-Steerer
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 570 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 580 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Meloku the Clouded Mirror (battlefield); PuPu UFO (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Prerequisites: You have a land card in hand that enters the battlefield untapped and can tap to produce at least {1}.
@@ -23832,7 +23262,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 4311-5078-5705
 Cards: Sensei's Divining Top + Glaring Fleshraker + Future Sight
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 220 | Commander: legal | Mana needed: {1}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 210 | Commander: legal | Mana needed: {1}
 Produces: Infinite card draw; Near-infinite damage; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite draw triggers; Near-infinite storm count; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Sensei's Divining Top (battlefield); Glaring Fleshraker (battlefield); Future Sight (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -23873,7 +23303,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 4311-5078-7692
 Cards: Sensei's Divining Top + Future Sight + Shuri, Wakandan Inventor
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 110 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 120 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Future Sight (battlefield); Shuri, Wakandan Inventor (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -23882,7 +23312,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 4311-5078-7753
 Cards: Sensei's Divining Top + Future Sight + Valeria Richards, Precocious
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 40 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 41 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Future Sight (battlefield); Valeria Richards, Precocious (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -24712,7 +24142,7 @@ Steps: Activate Avatar Kuruk by paying {20} minus {1} for each creature and/or a
 
 ## Combo 4899-8266
 Cards: Fblthp, Impossibly Lost + Phyrexian Devourer
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 42 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 44 | Commander: legal
 Produces: Win the game; Exile your library
 Start: Fblthp, Impossibly Lost (battlefield); Phyrexian Devourer (battlefield)
 Prerequisites: You control a creature that doesn't have summoning sickness and that cannot be blocked by an opponent.
@@ -24721,7 +24151,7 @@ Steps: Activate Phyrexian Devourer a number of times by exiling all the cards in
 
 ## Combo 4930-7788
 Cards: Trench Gorger + Goblin Charbelcher
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 95 | Commander: legal | Mana needed: {9}{U}{U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 96 | Commander: legal | Mana needed: {9}{U}{U}
 Produces: Near-infinite damage to any target; Arrange your library in any order
 Start: Trench Gorger (hand); Goblin Charbelcher (battlefield)
 Steps: Cast Trench Gorger by paying {6}{U}{U}.
@@ -24886,7 +24316,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 5078-5243-6709
 Cards: Sensei's Divining Top + The Reality Chip + Ballad of the Black Flag
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 150 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 160 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); The Reality Chip (battlefield: attached to a creature you control); Ballad of the Black Flag (graveyard)
 Prerequisites: Ballad of the Black Flag's fourth chapter ability has triggered this turn
@@ -24968,7 +24398,7 @@ Steps: Cast Sensei's Divining Top by paying {0}.
 
 ## Combo 5078-5642-7692
 Cards: Sensei's Divining Top + Echoes of Eternity + Shuri, Wakandan Inventor
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 44 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 43 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (hand); Echoes of Eternity (battlefield); Shuri, Wakandan Inventor (battlefield)
 Steps: Cast Sensei's Divining Top by paying {0}.
@@ -24992,7 +24422,7 @@ Steps: Cast Sensei's Divining Top by paying {0}.
 
 ## Combo 5078-5642-8176
 Cards: Sensei's Divining Top + Echoes of Eternity + Geist of Saint Thalia
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 11 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 12 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (hand); Echoes of Eternity (battlefield); Geist of Saint Thalia (battlefield)
 Steps: Cast Sensei's Divining Top by paying {0}.
@@ -25142,7 +24572,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 5078-5741-8176
 Cards: Sensei's Divining Top + Crystal Skull, Isu Spyglass + Geist of Saint Thalia
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 1100 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 1200 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Crystal Skull, Isu Spyglass (battlefield); Geist of Saint Thalia (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -25294,7 +24724,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 5078-6650-8176
 Cards: Sensei's Divining Top + The Lunar Whale + Geist of Saint Thalia
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 44 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 45 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); The Lunar Whale (battlefield); Geist of Saint Thalia (battlefield)
 Prerequisites: The Lunar Whale has attacked this turn.
@@ -25361,7 +24791,7 @@ Steps: Cast Sensei's Divining Top by paying {0} due to Geist of Saint Thalia.
 
 ## Combo 5078-6709-6766
 Cards: Sensei's Divining Top + Ballad of the Black Flag + Mm'menon, the Right Hand
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 52 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 53 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Ballad of the Black Flag (graveyard); Mm'menon, the Right Hand (battlefield)
 Prerequisites: Ballad of the Black Flag's fourth chapter ability has triggered this turn
@@ -25424,7 +24854,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 5078-6766-7692
 Cards: Sensei's Divining Top + Mm'menon, the Right Hand + Shuri, Wakandan Inventor
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 880 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 890 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Mm'menon, the Right Hand (battlefield); Shuri, Wakandan Inventor (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -25433,7 +24863,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 5078-6766-7753
 Cards: Sensei's Divining Top + Mm'menon, the Right Hand + Valeria Richards, Precocious
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 56 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 58 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Mm'menon, the Right Hand (battlefield); Valeria Richards, Precocious (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -25453,7 +24883,7 @@ Steps: Activate Sensei's Divining Top's second ability by tapping it, causing yo
 
 ## Combo 5078-6766-8176
 Cards: Sensei's Divining Top + Mm'menon, the Right Hand + Geist of Saint Thalia
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 380 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 390 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Mm'menon, the Right Hand (battlefield); Geist of Saint Thalia (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -25520,7 +24950,7 @@ Steps: Cast Sensei's Divining Top by paying {0} due to Gran-Gran.
 
 ## Combo 5078-7692-7902
 Cards: Sensei's Divining Top + Shuri, Wakandan Inventor + Fateful Discovery
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 900 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 910 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (hand); Shuri, Wakandan Inventor (battlefield); Fateful Discovery (battlefield)
 Steps: Cast Sensei's Divining Top by paying {0} due to Shuri.
@@ -25570,7 +25000,7 @@ Steps: Cast Maddening Cacophony with kicker by paying {4}{U}{U}, causing each op
 
 ## Combo 5169-8297
 Cards: Kobayashi Maru Scenario + Daring Thief
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 56 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 58 | Commander: legal
 Produces: Target opponent loses the game at the beginning of their next upkeep
 Start: Kobayashi Maru Scenario (battlefield); Daring Thief (battlefield: is tapped)
 Prerequisites: You have a way to untap Daring Thief.
@@ -25648,7 +25078,7 @@ Steps: Activate Altar of Dementia by sacrificing another artifact creature.
 
 ## Combo 5256-7936--5
 Cards: Dominion Saboteur + Altar of Dementia
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Dominion Saboteur (battlefield: as a copy of the creature with persist); Altar of Dementia (battlefield)
@@ -25782,7 +25212,7 @@ Steps: Activate Forensic Researcher by tapping it, targeting Chameleon.
 
 ## Combo 5329-5475-7014
 Cards: Deeproot Pilgrimage + Forensic Researcher + North Pole Patrol
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 47 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 48 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB
 Start: Deeproot Pilgrimage (battlefield); Forensic Researcher (battlefield: without summoning sickness); North Pole Patrol (battlefield: without summoning sickness)
 Prerequisites: Neither creature has summoning sickness.
@@ -25840,7 +25270,7 @@ Notes: The animated land needs to have power 2 or greater for the combo to net r
 
 ## Combo 5621-6628-7857
 Cards: Arid Archway + PuPu UFO + Elven Raft-Steerer
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 600 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 610 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Arid Archway (hand); PuPu UFO (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Steps: Activate PuPu UFO by tapping it, putting Arid Archway from your hand onto the battlefield.
@@ -25973,7 +25403,7 @@ Steps: Activate Chameleon using Avatar Kuruk's ability by paying {20} minus {1} 
 
 ## Combo 6922-8297
 Cards: Kobayashi Maru Scenario + Coveted Falcon
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 200 | Commander: legal | Mana needed: {1}{U}
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 210 | Commander: legal | Mana needed: {1}{U}
 Produces: Target opponent loses the game at the beginning of their next upkeep
 Start: Kobayashi Maru Scenario (battlefield); Coveted Falcon (battlefield: is face down)
 Prerequisites: There is at least one card in your library.
@@ -26029,7 +25459,7 @@ Steps: Draw a card.
 
 ## Combo 7666-8297
 Cards: Kobayashi Maru Scenario + Bilbo, Luckwearer // Burglar's Plot
-Color identity: U | Bracket: 2-3+ (Oddball) | Popularity: 36 | Commander: legal | Mana needed: {4}{U}
+Color identity: U | Bracket: 2-3+ (Oddball) | Popularity: 38 | Commander: legal | Mana needed: {4}{U}
 Produces: Target opponent loses the game at the beginning of their next upkeep
 Start: Kobayashi Maru Scenario (battlefield); Bilbo, Luckwearer // Burglar's Plot (hand)
 Prerequisites: An opponent controls an enchantment.
@@ -26039,7 +25469,7 @@ Steps: Pay {4}{U} to cast Burglar's Plot, exchanging control of a permanent an o
 
 ## Combo 8297-8396
 Cards: Kobayashi Maru Scenario + Rules of Acquisition
-Color identity: U | Bracket: 2-3+ (Oddball) | Popularity: 240 | Commander: legal | Mana needed: {3}{U}{U}
+Color identity: U | Bracket: 2-3+ (Oddball) | Popularity: 250 | Commander: legal | Mana needed: {3}{U}{U}
 Produces: Target opponent loses the game at the beginning of their next upkeep
 Start: Kobayashi Maru Scenario (battlefield); Rules of Acquisition (hand)
 Prerequisites: There are at least three cards in your library.
@@ -26061,7 +25491,7 @@ Steps: At the beginning of your upkeep, Puca's Mischief and Kobayashi Maru Scena
 
 ## Combo 8297-8419
 Cards: Kobayashi Maru Scenario + Shifting Grift
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 240 | Commander: legal | Mana needed: {1}{U}{U}
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 250 | Commander: legal | Mana needed: {1}{U}{U}
 Produces: Target opponent loses the game at the beginning of their next upkeep
 Start: Kobayashi Maru Scenario (battlefield); Shifting Grift (hand)
 Prerequisites: An opponent must control an enchantment.

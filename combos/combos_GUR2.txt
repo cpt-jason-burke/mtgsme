@@ -1,3 +1,21 @@
+## Combo 1479-2783-4543
+Cards: Kodama of the East Tree + Trench Behemoth + Nesting Dragon
+Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
+Produces: Infinite creature tokens; Infinite mana basic lands you control can produce; Infinite creature ETB; Infinite landfall triggers
+Start: Kodama of the East Tree (battlefield); Trench Behemoth (battlefield); Nesting Dragon (battlefield)
+Prerequisites: You have a land card in hand.
+Steps: Play a land card from your hand.
+  Kodama, Trench Behemoth and Nesting Dragon trigger.
+  If the land played was a basic land, you may activate it by tapping it, adding at least {1}.
+  Resolve the Kodama trigger, choosing to put nothing onto the battlefield from your hand.
+  Resolve the Trench Behemoth trigger, targeting any creature an opponent controls.
+  Resolve the Nesting Dragon trigger, creating a 0/2 Dragon Egg creature token.
+  The Dragon Egg enters the battlefield, triggering Kodama.
+  Holding priority, activate Trench Behemoth by returning a land from the battlefield to your hand, untapping Trench Behemoth.
+  Resolve the Kodama trigger, putting a land onto the battlefield from your hand.
+  Trench Behemoth and Nesting Dragon trigger.
+  Repeat from step 5.
+
 ## Combo 1479-2783-5700-5701-8345
 Cards: Kodama of the East Tree + Petrified Field + Echoing Deeps + Nesting Dragon + Warp Speed
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -55,7 +73,7 @@ Steps: Fetch a land using Terramorphic Expanse.
 
 ## Combo 1479-2841-6155-6517
 Cards: Kodama of the East Tree + Ghost Town + Arid Mesa + Dragonback Assault
-Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 73 | Commander: legal
+Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 74 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Ghost Town (hand); Arid Mesa (battlefield); Dragonback Assault (battlefield)
 Prerequisites: It is not your turn.
@@ -204,7 +222,7 @@ Steps: Fetch a land using Elven Passage.
 
 ## Combo 1479-2841-6517-8101
 Cards: Kodama of the East Tree + Ghost Town + Dragonback Assault + Wooded Foothills
-Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 99 | Commander: legal
+Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 100 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Ghost Town (hand); Dragonback Assault (battlefield); Wooded Foothills (battlefield)
 Prerequisites: It is not your turn.
@@ -261,7 +279,7 @@ Steps: Fetch a land using Verdant Catacombs.
 
 ## Combo 1479-2841-6517-8104
 Cards: Kodama of the East Tree + Ghost Town + Dragonback Assault + Misty Rainforest
-Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 96 | Commander: legal
+Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 97 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Ghost Town (hand); Dragonback Assault (battlefield); Misty Rainforest (battlefield)
 Prerequisites: It is not your turn.
@@ -796,7 +814,7 @@ Steps: Play Petrified Field.
 
 ## Combo 1479-5621-6517
 Cards: Kodama of the East Tree + Arid Archway + Dragonback Assault
-Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 95 | Commander: legal
+Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 96 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Arid Archway (hand); Dragonback Assault (battlefield)
 Prerequisites: You are able to play a land this turn.
@@ -903,7 +921,7 @@ Steps: Cast Artificial Evolution targeting Magda, changing all instances of "Dwa
 
 ## Combo 1486-3457-5929
 Cards: Magda, Brazen Outlaw + Seeker of Skybreak + Leyline of Transformation
-Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal
+Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
 Produces: Infinite colored mana; Infinite Treasure tokens; Put all artifact cards and a subset of creature cards from your library onto the battlefield; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
 Start: Magda, Brazen Outlaw (battlefield); Seeker of Skybreak (battlefield); Leyline of Transformation (battlefield)
 Prerequisites: Seeker of Skybreak does not have summoning sickness.
@@ -2312,7 +2330,7 @@ Steps: Verify that Magmaw's creature types include Pirate due to Runed Stalactit
 ## Combo 1682-2079-2366-5702
 Cards: Springheart Nantuko + Dryad Arbor + Dictate of Karametra + Temur Ascendancy
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Dictate of Karametra (battlefield); Temur Ascendancy (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -2325,7 +2343,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 1682-2366-5702-6965
 Cards: Springheart Nantuko + Dryad Arbor + Dictate of Karametra + Frostcliff Siege
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Dictate of Karametra (battlefield); Frostcliff Siege (battlefield: with "Temur" chosen)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -2800,7 +2818,7 @@ Steps: Cast Dargo from the command zone by paying {R}, causing it to enter the b
 ## Combo 1719-2645-3430-3756
 Cards: Staff of Domination + Nyxbloom Ancient + Vizier of Tumbling Sands + Izzet Boilerworks
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite red mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite red mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Vizier of Tumbling Sands (battlefield); Izzet Boilerworks (battlefield)
 Prerequisites: Vizier of Tumbling Sands doesn't have summoning sickness.
 Steps: Activate Izzet Boilerworks by tapping it, adding {U}{U}{U}{R}{R}{R} due to Nyxbloom Ancient
@@ -2812,7 +2830,7 @@ Steps: Activate Izzet Boilerworks by tapping it, adding {U}{U}{U}{R}{R}{R} due t
 ## Combo 1719-2645-3430-5928
 Cards: Staff of Domination + Nyxbloom Ancient + Vizier of Tumbling Sands + Balduvian Trading Post
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite red mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite red mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Vizier of Tumbling Sands (battlefield); Balduvian Trading Post (battlefield)
 Prerequisites: Vizier of Tumbling Sands doesn't have summoning sickness.
 Steps: Activate Balduvian Trading Post by tapping it, adding {C}{C}{C}{R}{R}{R} due to Nyxbloom Ancient
@@ -3319,7 +3337,7 @@ Steps: Activate Saheeli by paying {U}{R} and tapping it, creating a token copy o
 
 ## Combo 1812-3525-3586
 Cards: Magus Lucea Kane + Prismite + Pemmin's Aura
-Color identity: GUR | Bracket: 3-4+ (Spicy) | Popularity: 7 | Commander: legal
+Color identity: GUR | Bracket: 3-4+ (Spicy) | Popularity: 8 | Commander: legal
 Produces: Infinite copies of spells with {X} in their cost; Infinite copies of abilities with {X} in their cost
 Start: Magus Lucea Kane (battlefield: without summoning sickness); Prismite (battlefield); Pemmin's Aura (battlefield: attached to Magus Lucea Kane)
 Steps: Activate Magus Lucea Kane by tapping it, adding {2} and causing you to copy the next ability you activate or spell you cast that has {X} in its cost.
@@ -3330,7 +3348,7 @@ Steps: Activate Magus Lucea Kane by tapping it, adding {2} and causing you to co
 
 ## Combo 1812-3586-4222
 Cards: Magus Lucea Kane + Prismite + Freed from the Real
-Color identity: GUR | Bracket: 3-4+ (Spicy) | Popularity: 10 | Commander: legal
+Color identity: GUR | Bracket: 3-4+ (Spicy) | Popularity: 11 | Commander: legal
 Produces: Infinite copies of spells with {X} in their cost; Infinite copies of abilities with {X} in their cost
 Start: Magus Lucea Kane (battlefield: without summoning sickness); Prismite (battlefield); Freed from the Real (battlefield: attached to Magus Lucea Kane)
 Steps: Activate Magus Lucea Kane by tapping it, adding {2} and causing you to copy the next ability you activate or spell you cast that has {X} in its cost.
@@ -4176,16 +4194,6 @@ Steps: Cause Leafkin Avenger to become an artifact using Neurok Transmuter.
   Activate Voltaic Construct by paying {2}, untapping Leafkin Avenger.
   Repeat from step 2.
 
-## Combo 1978-5527-5793
-Cards: Voltaic Construct + Five Hundred Year Diary + Bello, Bard of the Brambles
-Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite blue mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
-Start: Voltaic Construct (battlefield); Five Hundred Year Diary (battlefield: without summoning sickness); Bello, Bard of the Brambles (battlefield)
-Prerequisites: You control at least three Clues.
-Steps: Activate Five Hundred Year Diary by tapping it, adding {U} for each Clue you control
-  Activate Voltaic Construct by paying {2}, untapping Five Hundred Year Diary.
-  Repeat
-
 ## Combo 1987-2020-4477
 Cards: Ghostly Flicker + Vadrik, Astral Archmage + Greenwarden of Murasa
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -4523,7 +4531,7 @@ Steps: Activate Budoka Gardener // Dokai, Weaver of Life by tapping it, putting 
 ## Combo 2026-2645-3430-3756
 Cards: Staff of Domination + Nyxbloom Ancient + Voyaging Satyr + Izzet Boilerworks
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Voyaging Satyr (battlefield); Izzet Boilerworks (battlefield)
 Prerequisites: Voyaging Satyr doesn't have summoning sickness.
 Steps: Activate Izzet Boilerworks by tapping it, adding {U}{U}{U}{R}{R}{R} due to Nyxbloom Ancient
@@ -4625,7 +4633,7 @@ Notes: You'll create double as many Squirrels each loop. All Squirrels beyond th
 ## Combo 2034-2366-5003-6517
 Cards: Nim Deathmantle + Ashnod's Altar + Dryad Arbor + Dragonback Assault
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}
-Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Dryad Arbor (battlefield); Dragonback Assault (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Dryad Arbor, adding {C}{C}.
   When Dryad Arbor dies, Nim Deathmantle triggers, causing you to pay {4} to return Dryad Arbor from your graveyard to the battlefield, and attaching Nim Deathmantle to it.
@@ -4897,7 +4905,7 @@ Steps: Declare the creature with Breath of Fury attached and Éomer of the Ridde
 ## Combo 2079-2203-2366-5702
 Cards: Springheart Nantuko + Dryad Arbor + Temur Ascendancy + Vorinclex, Voice of Hunger
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Temur Ascendancy (battlefield); Vorinclex, Voice of Hunger (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -4910,7 +4918,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2079-2366-3322-5702
 Cards: Springheart Nantuko + Dryad Arbor + Temur Ascendancy + Nikya of the Old Ways
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Temur Ascendancy (battlefield); Nikya of the Old Ways (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -4923,7 +4931,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2079-2366-3430-5702
 Cards: Springheart Nantuko + Dryad Arbor + Temur Ascendancy + Nyxbloom Ancient
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Temur Ascendancy (battlefield); Nyxbloom Ancient (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -4935,7 +4943,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2079-2366-3512-5702
 Cards: Springheart Nantuko + Dryad Arbor + Temur Ascendancy + Mana Flare
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Temur Ascendancy (battlefield); Mana Flare (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -4948,7 +4956,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2079-2366-3688-5702
 Cards: Springheart Nantuko + Dryad Arbor + Temur Ascendancy + Zhur-Taa Ancient
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Temur Ascendancy (battlefield); Zhur-Taa Ancient (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -4961,7 +4969,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2079-2366-4178-5702
 Cards: Springheart Nantuko + Dryad Arbor + Nissa, Who Shakes the World + Temur Ascendancy
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {2}{G}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor ); Dryad Arbor (battlefield); Nissa, Who Shakes the World (battlefield); Temur Ascendancy (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -4988,7 +4996,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2079-2366-4974-5702
 Cards: Springheart Nantuko + Dryad Arbor + Temur Ascendancy + Zendikar Resurgent
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Temur Ascendancy (battlefield); Zendikar Resurgent (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5001,7 +5009,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2079-2366-5175-5702
 Cards: Springheart Nantuko + Dryad Arbor + Temur Ascendancy + Caged Sun
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Temur Ascendancy (battlefield); Caged Sun (battlefield: with [color] chosen)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5014,7 +5022,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2079-2366-5234-5702
 Cards: Springheart Nantuko + Dryad Arbor + Temur Ascendancy + Heartbeat of Spring
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Temur Ascendancy (battlefield); Heartbeat of Spring (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5027,7 +5035,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2079-2366-5702-7288
 Cards: Springheart Nantuko + Dryad Arbor + Temur Ascendancy + Groundchuck & Dirtbag
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Temur Ascendancy (battlefield); Groundchuck & Dirtbag (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5566,7 +5574,7 @@ Notes: You'll create double as many Squirrels each loop. All Squirrels beyond th
 ## Combo 2085-2645-3430-3756
 Cards: Staff of Domination + Nyxbloom Ancient + Kelpie Guide + Izzet Boilerworks
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite red mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite red mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Kelpie Guide (battlefield); Izzet Boilerworks (battlefield)
 Prerequisites: Kelpie Guide doesn't have summoning sickness.
 Steps: Activate Izzet Boilerworks by tapping it, adding {U}{U}{U}{R}{R}{R} due to Nyxbloom Ancient
@@ -5578,7 +5586,7 @@ Steps: Activate Izzet Boilerworks by tapping it, adding {U}{U}{U}{R}{R}{R} due t
 ## Combo 2085-2645-3430-5928
 Cards: Staff of Domination + Nyxbloom Ancient + Kelpie Guide + Balduvian Trading Post
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite red mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite red mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Kelpie Guide (battlefield); Balduvian Trading Post (battlefield)
 Prerequisites: Kelpie Guide doesn't have summoning sickness.
 Steps: Activate Balduvian Trading Post by tapping it, adding {C}{C}{C}{R}{R}{R} due to Nyxbloom Ancient
@@ -5914,7 +5922,7 @@ Steps: Activate Gilder Bairn's ability from Utopia Vow by tapping it, adding {G/
 
 ## Combo 2092-4687-6006
 Cards: Gilder Bairn + Agatha of the Vile Cauldron + Enduring Vitality
-Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal
+Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
 Produces: Infinite proliferate for permanents
 Start: Gilder Bairn (battlefield); Agatha of the Vile Cauldron (battlefield); Enduring Vitality (battlefield)
 Prerequisites: Gilder Bairn does not have summoning sickness.
@@ -6717,10 +6725,10 @@ Steps: Declare The Incredible Hulk and Éomer of the Riddermark as attackers.
   Repeat each combat phase.
 
 ## Combo 2169-2981-4694-7306
-Cards: The Ooze + Megatog + Zameck Guildmage + March of the Machines
+Cards: The Ooze + Zameck Guildmage + Megatog + March of the Machines
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {G}{U}
 Produces: Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Megatog (battlefield); Zameck Guildmage (battlefield); March of the Machines (battlefield)
+Start: The Ooze (battlefield); Zameck Guildmage (battlefield); Megatog (battlefield); March of the Machines (battlefield)
 Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Zameck Guildmage's first ability by paying {U}{G}, causing each creature you control to enter with an additional +1/+1 counter this turn.
   Activate Megatog by sacrificing a creature with a +1/+1 counter on it.
@@ -6768,10 +6776,10 @@ Steps: Activate Zameck Guildmage's first ability by paying {U}{G}, causing each 
   Repeat from step 2.
 
 ## Combo 2169-4694-5226-7306
-Cards: The Ooze + Lithatog + Zameck Guildmage + March of the Machines
+Cards: The Ooze + Zameck Guildmage + March of the Machines + Lithatog
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {G}{U}
 Produces: Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Lithatog (battlefield); Zameck Guildmage (battlefield); March of the Machines (battlefield)
+Start: The Ooze (battlefield); Zameck Guildmage (battlefield); March of the Machines (battlefield); Lithatog (battlefield)
 Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Zameck Guildmage's first ability by paying {U}{G}, causing each creature you control to enter with an additional +1/+1 counter this turn.
   Activate Lithatog by sacrificing a creature with a +1/+1 counter on it.
@@ -6806,10 +6814,10 @@ Steps: Activate Zameck Guildmage's first ability by paying {U}{G}, causing each 
   Repeat from step 2.
 
 ## Combo 2169-4694-5330-7306
-Cards: The Ooze + Atog + Zameck Guildmage + March of the Machines
+Cards: The Ooze + Zameck Guildmage + March of the Machines + Atog
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {G}{U}
 Produces: Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Atog (battlefield); Zameck Guildmage (battlefield); March of the Machines (battlefield)
+Start: The Ooze (battlefield); Zameck Guildmage (battlefield); March of the Machines (battlefield); Atog (battlefield)
 Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Zameck Guildmage's first ability by paying {U}{G}, causing each creature you control to enter with an additional +1/+1 counter this turn.
   Activate Atog by sacrificing a creature with a +1/+1 counter on it.
@@ -6844,7 +6852,7 @@ Steps: Activate Zameck Guildmage's first ability by paying {G}{U}.
 ## Combo 2174-2645-3430-3756
 Cards: Staff of Domination + Nyxbloom Ancient + Juniper Order Druid + Izzet Boilerworks
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Juniper Order Druid (battlefield); Izzet Boilerworks (battlefield)
 Prerequisites: Juniper Order Druid doesn't have summoning sickness.
 Steps: Activate Izzet Boilerworks by tapping it, adding {U}{U}{U}{R}{R}{R} due to Nyxbloom Ancient
@@ -6984,7 +6992,7 @@ Steps: Activate Bloodshot Cyclops by tapping it and sacrificing Reef Worm.
 ## Combo 2203-2366-5702-6965
 Cards: Springheart Nantuko + Dryad Arbor + Vorinclex, Voice of Hunger + Frostcliff Siege
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Vorinclex, Voice of Hunger (battlefield); Frostcliff Siege (battlefield: with "Temur" chosen)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -7306,7 +7314,7 @@ Steps: Activate Mana Vault by tapping it, adding {C}{C}{C}
 ## Combo 2366-3322-5702-6965
 Cards: Springheart Nantuko + Dryad Arbor + Nikya of the Old Ways + Frostcliff Siege
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nikya of the Old Ways (battlefield); Frostcliff Siege (battlefield: with "Temur" chosen)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -7319,7 +7327,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3430-5702-6965
 Cards: Springheart Nantuko + Dryad Arbor + Nyxbloom Ancient + Frostcliff Siege
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nyxbloom Ancient (battlefield); Frostcliff Siege (battlefield: with "Temur" chosen)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -7331,7 +7339,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3512-5702-6965
 Cards: Springheart Nantuko + Dryad Arbor + Mana Flare + Frostcliff Siege
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Mana Flare (battlefield); Frostcliff Siege (battlefield: with "Temur" chosen)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -7344,7 +7352,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3688-5702-6965
 Cards: Springheart Nantuko + Dryad Arbor + Zhur-Taa Ancient + Frostcliff Siege
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Zhur-Taa Ancient (battlefield); Frostcliff Siege (battlefield: with "Temur" chosen)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -7357,7 +7365,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4178-5702-6965
 Cards: Springheart Nantuko + Dryad Arbor + Nissa, Who Shakes the World + Frostcliff Siege
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {2}{G}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor ); Dryad Arbor (battlefield); Nissa, Who Shakes the World (battlefield); Frostcliff Siege (battlefield: with "Temur" chosen)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -7384,7 +7392,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4974-5702-6965
 Cards: Springheart Nantuko + Dryad Arbor + Zendikar Resurgent + Frostcliff Siege
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Zendikar Resurgent (battlefield); Frostcliff Siege (battlefield: with "Temur" chosen)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -7412,7 +7420,7 @@ Steps: Play Dryad Arbor.
 ## Combo 2366-5175-5702-6965
 Cards: Springheart Nantuko + Dryad Arbor + Caged Sun + Frostcliff Siege
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Caged Sun (battlefield: with [color] chosen); Frostcliff Siege (battlefield: with "Temur" chosen)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -7453,7 +7461,7 @@ Steps: Play Dryad Arbor.
 ## Combo 2366-5234-5702-6965
 Cards: Springheart Nantuko + Dryad Arbor + Heartbeat of Spring + Frostcliff Siege
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Heartbeat of Spring (battlefield); Frostcliff Siege (battlefield: with "Temur" chosen)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -7481,7 +7489,7 @@ Steps: Play Dryad Arbor.
 ## Combo 2366-5702-6965-7288
 Cards: Springheart Nantuko + Dryad Arbor + Frostcliff Siege + Groundchuck & Dirtbag
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Frostcliff Siege (battlefield: with "Temur" chosen); Groundchuck & Dirtbag (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -8154,10 +8162,10 @@ Steps: Declare The Incredible Hulk as an attacker.
   Repeat from step 2.
 
 ## Combo 2486-2981-4694-7306
-Cards: The Ooze + Megatog + Master Chef + March of the Machines
+Cards: The Ooze + Master Chef + Megatog + March of the Machines
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Megatog (battlefield); Master Chef (battlefield); March of the Machines (battlefield)
+Start: The Ooze (battlefield); Master Chef (battlefield); Megatog (battlefield); March of the Machines (battlefield)
 Prerequisites: You control your commander.
   You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Megatog by sacrificing a creature with a +1/+1 counter on it.
@@ -8193,10 +8201,10 @@ Steps: Activate Goblin Bombardment by sacrificing a creature with a +1/+1 counte
   Repeat from step 1.
 
 ## Combo 2486-4694-5226-7306
-Cards: The Ooze + Lithatog + Master Chef + March of the Machines
+Cards: The Ooze + Master Chef + March of the Machines + Lithatog
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Lithatog (battlefield); Master Chef (battlefield); March of the Machines (battlefield)
+Start: The Ooze (battlefield); Master Chef (battlefield); March of the Machines (battlefield); Lithatog (battlefield)
 Prerequisites: You control your commander.
   You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Lithatog by sacrificing a creature with a +1/+1 counter on it.
@@ -8231,10 +8239,10 @@ Steps: Activate Ravenous Intruder by sacrificing a creature with a +1/+1 counter
   Repeat from step 1.
 
 ## Combo 2486-4694-5330-7306
-Cards: The Ooze + Atog + Master Chef + March of the Machines
+Cards: The Ooze + Master Chef + March of the Machines + Atog
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Atog (battlefield); Master Chef (battlefield); March of the Machines (battlefield)
+Start: The Ooze (battlefield); Master Chef (battlefield); March of the Machines (battlefield); Atog (battlefield)
 Prerequisites: You control your commander.
   You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Atog by sacrificing a creature with a +1/+1 counter on it.
@@ -8704,7 +8712,7 @@ Steps: Activate Lithatog's first ability by sacrificing Sword of the Meek.
 
 ## Combo 2573-3308-3946
 Cards: Glacial Chasm + Crucible of Worlds + Song of Creation
-Color identity: GUR | Bracket: 3-4+ (Spicy) | Popularity: 700 | Commander: legal
+Color identity: GUR | Bracket: 3-4+ (Spicy) | Popularity: 710 | Commander: legal
 Produces: Prevent all damage that would be dealt to you; Lock
 Start: Glacial Chasm (battlefield); Crucible of Worlds (battlefield); Song of Creation (battlefield)
 Prerequisites: You control another land.
@@ -8747,7 +8755,7 @@ Steps: Activate Whirler Virtuoso by paying {E}{E}{E}, creating two 1/1 Thopter a
 ## Combo 2583-4636-7810
 Cards: Gonti's Aether Heart + Whirler Virtuoso + Tippy-Toe, Terrific Partner
 Color identity: GUR | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
-Produces: Infinite creature tokens; Infinite Food tokens; Infinite creature ETB; Infinite energy counters
+Produces: Infinite creature tokens; Infinite Food tokens; Infinite artifact ETB; Infinite creature ETB; Infinite energy counters
 Start: Gonti's Aether Heart (battlefield); Whirler Virtuoso (battlefield); Tippy-Toe, Terrific Partner (battlefield)
 Prerequisites: You have at least {E}{E}{E}.
 Steps: Activate Whirler Virtuoso by paying {E}{E}{E}, creating a 1/1 Thopter artifact creature token and a Food artifact token due to Tippy-Toe.
@@ -8785,10 +8793,10 @@ Steps: Activate Winding Canyons by paying {2} and tapping it, allowing you to ca
   Repeat from step 4.
 
 ## Combo 2595-2981-4694-7306
-Cards: The Ooze + Megatog + Combine Guildmage + March of the Machines
+Cards: The Ooze + Combine Guildmage + Megatog + March of the Machines
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Megatog (battlefield); Combine Guildmage (battlefield); March of the Machines (battlefield)
+Start: The Ooze (battlefield); Combine Guildmage (battlefield); Megatog (battlefield); March of the Machines (battlefield)
 Prerequisites: Combine Guildmage does not have summoning sickness.
   You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Combine Guildmage's first ability by paying {1}{G} and tapping it, causing each creature you control to enter with an additional +1/+1 counter this turn.
@@ -8839,10 +8847,10 @@ Steps: Activate Combine Guildmage's first ability by paying {1}{G} and tapping i
   Repeat from step 2.
 
 ## Combo 2595-4694-5226-7306
-Cards: The Ooze + Lithatog + Combine Guildmage + March of the Machines
+Cards: The Ooze + Combine Guildmage + March of the Machines + Lithatog
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Lithatog (battlefield); Combine Guildmage (battlefield); March of the Machines (battlefield)
+Start: The Ooze (battlefield); Combine Guildmage (battlefield); March of the Machines (battlefield); Lithatog (battlefield)
 Prerequisites: Combine Guildmage does not have summoning sickness.
   You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Combine Guildmage's first ability by paying {1}{G} and tapping it, causing each creature you control to enter with an additional +1/+1 counter this turn.
@@ -8880,10 +8888,10 @@ Steps: Activate Combine Guildmage's first ability by paying {1}{G} and tapping i
   Repeat from step 2.
 
 ## Combo 2595-4694-5330-7306
-Cards: The Ooze + Atog + Combine Guildmage + March of the Machines
+Cards: The Ooze + Combine Guildmage + March of the Machines + Atog
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Atog (battlefield); Combine Guildmage (battlefield); March of the Machines (battlefield)
+Start: The Ooze (battlefield); Combine Guildmage (battlefield); March of the Machines (battlefield); Atog (battlefield)
 Prerequisites: Combine Guildmage does not have summoning sickness.
   You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Combine Guildmage's first ability by paying {1}{G} and tapping it, causing each creature you control to enter with an additional +1/+1 counter this turn.
@@ -9428,7 +9436,7 @@ Steps: Cause a creature or land to enter under your control.
 ## Combo 2645-2872-3430-3756
 Cards: Staff of Domination + Nyxbloom Ancient + Clever Conjurer + Izzet Boilerworks
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite red mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite red mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Clever Conjurer (battlefield); Izzet Boilerworks (battlefield)
 Prerequisites: Clever Conjurer doesn't have summoning sickness.
 Steps: Activate Izzet Boilerworks by tapping it, adding {U}{U}{U}{R}{R}{R} due to Nyxbloom Ancient
@@ -9440,7 +9448,7 @@ Steps: Activate Izzet Boilerworks by tapping it, adding {U}{U}{U}{R}{R}{R} due t
 ## Combo 2645-2872-3430-5928
 Cards: Staff of Domination + Nyxbloom Ancient + Clever Conjurer + Balduvian Trading Post
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite red mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite red mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Clever Conjurer (battlefield); Balduvian Trading Post (battlefield)
 Prerequisites: Clever Conjurer doesn't have summoning sickness.
 Steps: Activate Balduvian Trading Post by tapping it, adding {C}{C}{C}{R}{R}{R} due to Nyxbloom Ancient
@@ -9452,7 +9460,7 @@ Steps: Activate Balduvian Trading Post by tapping it, adding {C}{C}{C}{R}{R}{R} 
 ## Combo 2645-2930-3430-3756
 Cards: Staff of Domination + Nyxbloom Ancient + Portent Tracker + Izzet Boilerworks
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Portent Tracker (battlefield); Izzet Boilerworks (battlefield)
 Prerequisites: Portent Tracker doesn't have summoning sickness.
 Steps: Activate Izzet Boilerworks by tapping it, adding {U}{U}{U}{R}{R}{R} due to Nyxbloom Ancient
@@ -9464,7 +9472,7 @@ Steps: Activate Izzet Boilerworks by tapping it, adding {U}{U}{U}{R}{R}{R} due t
 ## Combo 2645-3181-3430-3756
 Cards: Staff of Domination + Nyxbloom Ancient + Krosan Restorer + Izzet Boilerworks
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Krosan Restorer (battlefield); Izzet Boilerworks (battlefield)
 Prerequisites: Krosan Restorer doesn't have summoning sickness.
 Steps: Activate Izzet Boilerworks by tapping it, adding {U}{U}{U}{R}{R}{R} due to Nyxbloom Ancient
@@ -9476,7 +9484,7 @@ Steps: Activate Izzet Boilerworks by tapping it, adding {U}{U}{U}{R}{R}{R} due t
 ## Combo 2645-3430-3756-4348
 Cards: Staff of Domination + Nyxbloom Ancient + Izzet Boilerworks + Ley Druid
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Izzet Boilerworks (battlefield); Ley Druid (battlefield)
 Prerequisites: Ley Druid doesn't have summoning sickness.
 Steps: Activate Izzet Boilerworks by tapping it, adding {U}{U}{U}{R}{R}{R} due to Nyxbloom Ancient
@@ -9488,7 +9496,7 @@ Steps: Activate Izzet Boilerworks by tapping it, adding {U}{U}{U}{R}{R}{R} due t
 ## Combo 2645-3430-3756-4644
 Cards: Staff of Domination + Nyxbloom Ancient + Izzet Boilerworks + Tidewater Minion
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite red mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite red mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Izzet Boilerworks (battlefield); Tidewater Minion (battlefield)
 Prerequisites: Tidewater Minion doesn't have summoning sickness.
 Steps: Activate Izzet Boilerworks by tapping it, adding {U}{U}{U}{R}{R}{R} due to Nyxbloom Ancient
@@ -9500,7 +9508,7 @@ Steps: Activate Izzet Boilerworks by tapping it, adding {U}{U}{U}{R}{R}{R} due t
 ## Combo 2645-3430-3756-5475
 Cards: Staff of Domination + Nyxbloom Ancient + Izzet Boilerworks + Forensic Researcher
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite red mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite red mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Izzet Boilerworks (battlefield); Forensic Researcher (battlefield)
 Prerequisites: Forensic Researcher doesn't have summoning sickness.
 Steps: Activate Izzet Boilerworks by tapping it, adding {U}{U}{U}{R}{R}{R} due to Nyxbloom Ancient
@@ -9512,7 +9520,7 @@ Steps: Activate Izzet Boilerworks by tapping it, adding {U}{U}{U}{R}{R}{R} due t
 ## Combo 2645-3430-3756-7014
 Cards: Staff of Domination + Nyxbloom Ancient + Izzet Boilerworks + North Pole Patrol
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite red mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite red mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Izzet Boilerworks (battlefield); North Pole Patrol (battlefield)
 Prerequisites: North Pole Patrol doesn't have summoning sickness.
 Steps: Activate Izzet Boilerworks by tapping it, adding {U}{U}{U}{R}{R}{R} due to Nyxbloom Ancient
@@ -9524,7 +9532,7 @@ Steps: Activate Izzet Boilerworks by tapping it, adding {U}{U}{U}{R}{R}{R} due t
 ## Combo 2645-3430-4644-5928
 Cards: Staff of Domination + Nyxbloom Ancient + Tidewater Minion + Balduvian Trading Post
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite red mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite red mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Tidewater Minion (battlefield); Balduvian Trading Post (battlefield)
 Prerequisites: Tidewater Minion doesn't have summoning sickness.
 Steps: Activate Balduvian Trading Post by tapping it, adding {C}{C}{C}{R}{R}{R} due to Nyxbloom Ancient
@@ -9536,7 +9544,7 @@ Steps: Activate Balduvian Trading Post by tapping it, adding {C}{C}{C}{R}{R}{R} 
 ## Combo 2645-3430-5475-5928
 Cards: Staff of Domination + Nyxbloom Ancient + Forensic Researcher + Balduvian Trading Post
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite red mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite red mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Forensic Researcher (battlefield); Balduvian Trading Post (battlefield)
 Prerequisites: Forensic Researcher doesn't have summoning sickness.
 Steps: Activate Balduvian Trading Post by tapping it, adding {C}{C}{C}{R}{R}{R} due to Nyxbloom Ancient
@@ -9548,7 +9556,7 @@ Steps: Activate Balduvian Trading Post by tapping it, adding {C}{C}{C}{R}{R}{R} 
 ## Combo 2645-3430-5928-7014
 Cards: Staff of Domination + Nyxbloom Ancient + Balduvian Trading Post + North Pole Patrol
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite red mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite red mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Balduvian Trading Post (battlefield); North Pole Patrol (battlefield)
 Prerequisites: North Pole Patrol doesn't have summoning sickness.
 Steps: Activate Balduvian Trading Post by tapping it, adding {C}{C}{C}{R}{R}{R} due to Nyxbloom Ancient
@@ -10618,7 +10626,7 @@ Steps: Cast Kiri-Onna by paying {U}.
 
 ## Combo 2816-3430-3586
 Cards: Magus Lucea Kane + Umbral Mantle + Nyxbloom Ancient
-Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 92 | Commander: legal
+Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 93 | Commander: legal
 Produces: Infinite colorless mana; Infinite copies of spells with {X} in their cost; Infinite mana creatures you control can produce; Infinite copies of abilities with {X} in their cost; Infinitely large creature until end of turn; Infinite untap of creatures you control
 Start: Magus Lucea Kane (battlefield); Umbral Mantle (battlefield); Nyxbloom Ancient (battlefield)
 Prerequisites: Umbral Mantle attached to Magus Lucea Kane.
@@ -12287,7 +12295,7 @@ Steps: Activate Karametra's Acolyte by tapping it, adding at least {G}{G}.
 
 ## Combo 3308-3946-4426
 Cards: Glacial Chasm + Song of Creation + Ramunap Excavator
-Color identity: GUR | Bracket: 3-4+ (Spicy) | Popularity: 740 | Commander: legal
+Color identity: GUR | Bracket: 3-4+ (Spicy) | Popularity: 750 | Commander: legal
 Produces: Prevent all damage that would be dealt to you; Lock
 Start: Glacial Chasm (battlefield); Song of Creation (battlefield); Ramunap Excavator (battlefield)
 Prerequisites: You control another land.
@@ -12323,7 +12331,7 @@ Steps: Play Glacial Chasm either from your hand or from your graveyard.
 
 ## Combo 3308-3946-7705
 Cards: Glacial Chasm + Song of Creation + Mole Man, Moloid Master
-Color identity: GUR | Bracket: 3-4+ (Spicy) | Popularity: 65 | Commander: legal
+Color identity: GUR | Bracket: 3-4+ (Spicy) | Popularity: 66 | Commander: legal
 Produces: Lock; Prevent all damage that would be dealt to you
 Start: Glacial Chasm (battlefield); Song of Creation (battlefield); Mole Man, Moloid Master (battlefield)
 Prerequisites: You control another land.
@@ -12480,7 +12488,7 @@ Steps: Activate Thermopod's second ability by sacrificing Moritte of the Frost, 
 
 ## Combo 3388-5147--5
 Cards: Moritte of the Frost + Goblin Bombardment
-Color identity: GUR | Bracket: 3-4+ (Spicy) | Popularity: 71 | Commander: legal
+Color identity: GUR | Bracket: 3-4+ (Spicy) | Popularity: 73 | Commander: legal
 Produces: Infinite damage; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Requires: Persist Creature (battlefield)
 Start: Moritte of the Frost (battlefield: as a copy of the creature with persist.); Goblin Bombardment (battlefield)
@@ -13048,7 +13056,7 @@ Steps: Activate Black Market Tycoon by tapping it, creating a Treasure token.
 
 ## Combo 3525-4028-4289
 Cards: Zhur-Taa Druid + Pemmin's Aura + Cryptolith Rite
-Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal
+Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal
 Produces: Infinite damage
 Start: Zhur-Taa Druid (battlefield: without summoning sickness); Pemmin's Aura (battlefield: attached to Zhur-Taa Druid); Cryptolith Rite (battlefield)
 Steps: Activate Zhur-Taa Druid by tapping it, adding {U}.
@@ -13182,7 +13190,7 @@ Steps: Activate Spireside Infiltrator by tapping it, adding {U}.
 
 ## Combo 3525-5343
 Cards: Bigger on the Inside + Pemmin's Aura
-Color identity: GUR | Bracket: 4+ (Ruthless) | Popularity: 60 | Commander: legal
+Color identity: GUR | Bracket: 4+ (Ruthless) | Popularity: 61 | Commander: legal
 Produces: Infinite colored mana; Infinite cascade with mana value equal to the next spell you cast
 Start: Bigger on the Inside (battlefield: attached to an artifact creature you control that does not have summoning sickness); Pemmin's Aura (battlefield: attached to the same creature that has Bigger on the Inside attached)
 Steps: Activate the creature with Bigger on the Inside and Pemmin's Aura attached by tapping it, adding {U}{U} and causing the next spell you cast this turn to have cascade.
@@ -14043,7 +14051,7 @@ Steps: Cast Mystic Speculation by paying {U} due to Temur Battlecrier.
 ## Combo 3941-4331-4993-6556
 Cards: Drafna, Founder of Lat-Nam + Manifold Key + Coveted Jewel + Temur Battlecrier
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite artifact ETB; Infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
+Produces: Infinite card draw; Near-infinite artifact ETB; Near-infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
 Start: Drafna, Founder of Lat-Nam (battlefield); Manifold Key (battlefield); Coveted Jewel (battlefield); Temur Battlecrier (battlefield)
 Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
   Activate Manifold Key by paying {1} and tapping it, untapping Coveted Jewel.
@@ -15364,10 +15372,10 @@ Steps: Activate Goblin Bombardment by sacrificing a creature with a +1/+1 counte
   Repeat from step 1.
 
 ## Combo 4381-4694-5226-7306
-Cards: The Ooze + Lithatog + Grumgully, the Generous + March of the Machines
+Cards: The Ooze + Grumgully, the Generous + March of the Machines + Lithatog
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Lithatog (battlefield); Grumgully, the Generous (battlefield); March of the Machines (battlefield)
+Start: The Ooze (battlefield); Grumgully, the Generous (battlefield); March of the Machines (battlefield); Lithatog (battlefield)
 Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Lithatog by sacrificing a creature with a +1/+1 counter on it.
   When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
@@ -15411,10 +15419,10 @@ Steps: Activate Ravenous Intruder by sacrificing a creature with a +1/+1 counter
   Repeat from step 1.
 
 ## Combo 4381-4694-5330-7306
-Cards: The Ooze + Atog + Grumgully, the Generous + March of the Machines
+Cards: The Ooze + Grumgully, the Generous + March of the Machines + Atog
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Atog (battlefield); Grumgully, the Generous (battlefield); March of the Machines (battlefield)
+Start: The Ooze (battlefield); Grumgully, the Generous (battlefield); March of the Machines (battlefield); Atog (battlefield)
 Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Atog by sacrificing a creature with a +1/+1 counter on it.
   When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
@@ -15617,10 +15625,10 @@ Steps: Activate Goblin Bombardment by sacrificing a creature with a +1/+1 counte
   Repeat from step 1.
 
 ## Combo 4419-4694-5226-7306
-Cards: The Ooze + Lithatog + Renata, Called to the Hunt + March of the Machines
+Cards: The Ooze + Renata, Called to the Hunt + March of the Machines + Lithatog
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Lithatog (battlefield); Renata, Called to the Hunt (battlefield); March of the Machines (battlefield)
+Start: The Ooze (battlefield); Renata, Called to the Hunt (battlefield); March of the Machines (battlefield); Lithatog (battlefield)
 Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Lithatog by sacrificing a creature with a +1/+1 counter on it.
   When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
@@ -15652,10 +15660,10 @@ Steps: Activate Ravenous Intruder by sacrificing a creature with a +1/+1 counter
   Repeat from step 1.
 
 ## Combo 4419-4694-5330-7306
-Cards: The Ooze + Atog + Renata, Called to the Hunt + March of the Machines
+Cards: The Ooze + Renata, Called to the Hunt + March of the Machines + Atog
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Atog (battlefield); Renata, Called to the Hunt (battlefield); March of the Machines (battlefield)
+Start: The Ooze (battlefield); Renata, Called to the Hunt (battlefield); March of the Machines (battlefield); Atog (battlefield)
 Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Atog by sacrificing a creature with a +1/+1 counter on it.
   When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
@@ -16556,10 +16564,10 @@ Steps: Activate Goblin Bombardment by sacrificing a creature with a +1/+1 counte
   Repeat from step 1.
 
 ## Combo 4694-4802-5226-7306
-Cards: The Ooze + Lithatog + March of the Machines + Master Biomancer
+Cards: The Ooze + March of the Machines + Master Biomancer + Lithatog
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite artifact tokens; Infinitely large creature until end of turn; Infinite Mutagen tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Lithatog (battlefield); March of the Machines (battlefield); Master Biomancer (battlefield)
+Start: The Ooze (battlefield); March of the Machines (battlefield); Master Biomancer (battlefield); Lithatog (battlefield)
 Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Lithatog by sacrificing a creature with a +1/+1 counter on it.
   When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
@@ -16591,10 +16599,10 @@ Steps: Activate Ravenous Intruder by sacrificing a creature with a +1/+1 counter
   Repeat from step 1.
 
 ## Combo 4694-4802-5330-7306
-Cards: The Ooze + Atog + March of the Machines + Master Biomancer
+Cards: The Ooze + March of the Machines + Master Biomancer + Atog
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite artifact tokens; Infinitely large creature until end of turn; Infinite Mutagen tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Atog (battlefield); March of the Machines (battlefield); Master Biomancer (battlefield)
+Start: The Ooze (battlefield); March of the Machines (battlefield); Master Biomancer (battlefield); Atog (battlefield)
 Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Atog by sacrificing a creature with a +1/+1 counter on it.
   When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
@@ -16615,10 +16623,10 @@ Steps: Activate Goblin Bombardment by sacrificing a creature with a +1/+1 counte
   Repeat from step 1.
 
 ## Combo 4694-5226-6258-7306
-Cards: The Ooze + Lithatog + March of the Machines + Thunderous Velocipede
+Cards: The Ooze + March of the Machines + Lithatog + Thunderous Velocipede
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Lithatog (battlefield); March of the Machines (battlefield); Thunderous Velocipede (battlefield)
+Start: The Ooze (battlefield); March of the Machines (battlefield); Lithatog (battlefield); Thunderous Velocipede (battlefield)
 Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Lithatog by sacrificing a creature with a +1/+1 counter on it.
   When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
@@ -16650,10 +16658,10 @@ Steps: Activate Ravenous Intruder by sacrificing a creature with a +1/+1 counter
   Repeat from step 1.
 
 ## Combo 4694-5330-6258-7306
-Cards: The Ooze + Atog + March of the Machines + Thunderous Velocipede
+Cards: The Ooze + March of the Machines + Atog + Thunderous Velocipede
 Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Atog (battlefield); March of the Machines (battlefield); Thunderous Velocipede (battlefield)
+Start: The Ooze (battlefield); March of the Machines (battlefield); Atog (battlefield); Thunderous Velocipede (battlefield)
 Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Atog by sacrificing a creature with a +1/+1 counter on it.
   When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
@@ -17982,7 +17990,7 @@ Steps: Declare The Incredible Hulk and Smaug the Magnificent as attackers.
 
 ## Combo 7124-7653-7769
 Cards: Bruce Banner // The Incredible Hulk + Desert + Pip-Boy 3000
-Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 270 | Commander: legal
+Color identity: GUR | Bracket: 1+ (Exhibition) | Popularity: 280 | Commander: legal
 Produces: Infinite combat phases; Infinite mana lands you control can produce; Infinite +1/+1 counters on a creature; Infinite untap of lands you control
 Start: Bruce Banner // The Incredible Hulk (battlefield: without summoning sickness); Desert (battlefield); Pip-Boy 3000 (battlefield: attached to The Incredible Hulk)
 Prerequisites: An opponent cannot block and kill The Incredible Hulk.

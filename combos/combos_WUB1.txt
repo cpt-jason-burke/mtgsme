@@ -944,7 +944,7 @@ Steps: At the beginning of your end step, Thassa triggers, blinking Wernog.
 
 ## Combo 67-997-2525
 Cards: Reveillark + Body Double + Woe Strider
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 70 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 71 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite scry 1
 Start: Reveillark (graveyard); Body Double (battlefield: as a copy of Reveillark); Woe Strider (battlefield)
 Steps: Activate Woe Strider by sacrificing Body Double.
@@ -984,7 +984,7 @@ Steps: Activate Bloodflow Connoisseur by sacrificing Body Double.
 
 ## Combo 67-2525-2921
 Cards: Reveillark + Body Double + Bartolomé del Presidio
-Color identity: WUB | Bracket: 2-3+ (Oddball) | Popularity: 89 | Commander: legal
+Color identity: WUB | Bracket: 2-3+ (Oddball) | Popularity: 90 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Reveillark (graveyard); Body Double (battlefield: as a copy of Reveillark); Bartolomé del Presidio (battlefield)
 Steps: Activate Bartolomé del Presidio by sacrificing Body Double.
@@ -1493,18 +1493,6 @@ Steps: Activate any number of permanents you control by tapping them, adding at 
   Repeat.
 Notes: You can repeat this combo as desired during your turns to continually wipe out opponents' permanents.
 
-## Combo 101-1805-4067-6281
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Vampire Charmseeker + Pyramid of the Pantheon
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Vampire Charmseeker (hand); Pyramid of the Pantheon (battlefield: with three or more brick counters on it)
-Steps: Activate Pyramid of the Pantheon by tapping it, adding {U}{U}{U}.
-  Activate Mind Over Matter by discarding Vampire Charmseeker.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Vampire Charmseeker that is a 4/4 Zombie.
-  When the Vampire Charmseeker token enters the battlefield, it triggers, returning Vampire Charmseeker from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping Pyramid of the Pantheon.
-  Repeat.
-
 ## Combo 101-1987-3110
 Cards: Ghostly Flicker + Vampire Charmseeker + Council of the Absolute
 Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -1689,19 +1677,6 @@ Steps: Activate Gilded Lotus by tapping it, adding {U}{U}{U}.
   Resolve the Mind Over Matter ability, untapping Gilded Lotus.
   Repeat.
 
-## Combo 101-4067-5527-6281
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Vampire Charmseeker + Five Hundred Year Diary
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite blue mana; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Vampire Charmseeker (hand); Five Hundred Year Diary (battlefield)
-Prerequisites: You control at least three Clues.
-Steps: Activate Five Hundred Year Diary by tapping it, adding at least {U}{U}{U}.
-  Activate Mind Over Matter by discarding Vampire Charmseeker.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Vampire Charmseeker that is a 4/4 Zombie.
-  When the Vampire Charmseeker token enters the battlefield, it triggers, returning Vampire Charmseeker from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping Five Hundred Year Diary.
-  Repeat.
-
 ## Combo 101-4067-6281-6893
 Cards: Hashaton, Scarab's Fist + Mind Over Matter + Vampire Charmseeker + The Eternity Elevator
 Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -1713,19 +1688,6 @@ Steps: Activate The Eternity Elevator by tapping it, adding at least twenty {U}.
   Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Vampire Charmseeker that is a 4/4 Zombie.
   When the Vampire Charmseeker token enters the battlefield, it triggers, returning Vampire Charmseeker from your graveyard to your hand.
   Resolve the Mind Over Matter ability, untapping The Eternity Elevator.
-  Repeat.
-
-## Combo 101-4067-6281-7013
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Vampire Charmseeker + White Lotus Tile
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite colored mana; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Vampire Charmseeker (hand); White Lotus Tile (battlefield)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Activate White Lotus Tile by tapping it, adding at least {U}{U}{U}.
-  Activate Mind Over Matter by discarding Vampire Charmseeker.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Vampire Charmseeker that is a 4/4 Zombie.
-  When the Vampire Charmseeker token enters the battlefield, it triggers, returning Vampire Charmseeker from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping White Lotus Tile.
   Repeat.
 
 ## Combo 101-4377-5144
@@ -1790,7 +1752,7 @@ Steps: Cast Graf Reaver by paying {0}.
 
 ## Combo 104-1786-2541
 Cards: Benthic Biomancer + Queza, Augur of Agonies + Cleric Class
-Color identity: WUB | Bracket: 3-4+ (Spicy) | Popularity: 11 | Commander: legal | Mana needed: {1}{U}
+Color identity: WUB | Bracket: 3-4+ (Spicy) | Popularity: 12 | Commander: legal | Mana needed: {1}{U}
 Produces: Near-infinite lifegain; Near-infinite lifeloss; Near-infinite lifegain triggers; Infinite looting; Near-infinite +1/+1 counters on a creature; Infinite self-discard triggers; Infinite draw triggers
 Start: Benthic Biomancer (battlefield: without a +1/+1 counter on it); Queza, Augur of Agonies (battlefield); Cleric Class (battlefield: is at least level 2)
 Steps: Activate Benthic Biomancer by paying {1}{U}, putting a +1/+1 counter on it.
@@ -1860,18 +1822,6 @@ Steps: Activate Empowered Autogenerator by tapping it, putting a charge counter 
   Resolve the Mind Over Matter ability, untapping Empowered Autogenerator.
   Repeat.
 
-## Combo 136-1805-4067-6281
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Cadaver Imp + Pyramid of the Pantheon
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Cadaver Imp (hand); Pyramid of the Pantheon (battlefield: with three or more brick counters on it)
-Steps: Activate Pyramid of the Pantheon by tapping it, adding {U}{U}{U}.
-  Activate Mind Over Matter by discarding Cadaver Imp.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Cadaver Imp that is a 4/4 Zombie.
-  When the Cadaver Imp token enters the battlefield, it triggers, returning Cadaver Imp from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping Pyramid of the Pantheon.
-  Repeat.
-
 ## Combo 136-2593-4067-6281
 Cards: Hashaton, Scarab's Fist + Mind Over Matter + Cadaver Imp + Astral Cornucopia
 Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -1934,19 +1884,6 @@ Steps: Activate Gilded Lotus by tapping it, adding {U}{U}{U}.
   Resolve the Mind Over Matter ability, untapping Gilded Lotus.
   Repeat.
 
-## Combo 136-4067-5527-6281
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Cadaver Imp + Five Hundred Year Diary
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite blue mana; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Cadaver Imp (hand); Five Hundred Year Diary (battlefield)
-Prerequisites: You control at least three Clues.
-Steps: Activate Five Hundred Year Diary by tapping it, adding at least {U}{U}{U}.
-  Activate Mind Over Matter by discarding Cadaver Imp.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Cadaver Imp that is a 4/4 Zombie.
-  When the Cadaver Imp token enters the battlefield, it triggers, returning Cadaver Imp from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping Five Hundred Year Diary.
-  Repeat.
-
 ## Combo 136-4067-6281-6893
 Cards: Hashaton, Scarab's Fist + Mind Over Matter + Cadaver Imp + The Eternity Elevator
 Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -1958,19 +1895,6 @@ Steps: Activate The Eternity Elevator by tapping it, adding at least twenty {U}.
   Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Cadaver Imp that is a 4/4 Zombie.
   When the Cadaver Imp token enters the battlefield, it triggers, returning Cadaver Imp from your graveyard to your hand.
   Resolve the Mind Over Matter ability, untapping The Eternity Elevator.
-  Repeat.
-
-## Combo 136-4067-6281-7013
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Cadaver Imp + White Lotus Tile
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite colored mana; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Cadaver Imp (hand); White Lotus Tile (battlefield)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Activate White Lotus Tile by tapping it, adding at least {U}{U}{U}.
-  Activate Mind Over Matter by discarding Cadaver Imp.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Cadaver Imp that is a 4/4 Zombie.
-  When the Cadaver Imp token enters the battlefield, it triggers, returning Cadaver Imp from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping White Lotus Tile.
   Repeat.
 
 ## Combo 141-167-2921
@@ -4683,7 +4607,7 @@ Steps: Activate Aminatou's first loyalty ability by putting a loyalty counter on
 
 ## Combo 193-703-1434
 Cards: Aminatou, the Fateshifter + Astral Dragon + Mirror Box
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal
 Produces: Infinite copies of a specific planeswalker; Infinite creature tokens; Infinite draw triggers; Infinite creature ETB; Infinite creature LTB
 Start: Aminatou, the Fateshifter (battlefield); Astral Dragon (battlefield); Mirror Box (battlefield)
 Prerequisites: Aminatou has at least two loyalty counters on it.
@@ -4716,7 +4640,7 @@ Steps: Activate Aminatou's second loyalty ability by removing a loyalty counter 
 
 ## Combo 193-787-3908-4235
 Cards: Aminatou, the Fateshifter + Spark Double + Rings of Brighthearth + Teferi, Temporal Archmage
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 520 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 530 | Commander: legal
 Produces: Infinite card draw; Infinite mana permanents you control can produce; Infinite untap of permanents you control; Infinite blinking
 Start: Aminatou, the Fateshifter (battlefield); Spark Double (battlefield); Rings of Brighthearth (battlefield); Teferi, Temporal Archmage (battlefield)
 Prerequisites: You control up to four permanents that can tap to produce at least {2}.
@@ -5076,7 +5000,7 @@ Steps: Activate Animatou's second loyalty ability by removing a loyalty counter 
 
 ## Combo 193-2003-2247-4883
 Cards: Aminatou, the Fateshifter + Teferi, Master of Time + Contagion Engine + Contagion Clasp
-Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 64 | Commander: legal | Mana needed: {8} each turn
+Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 63 | Commander: legal | Mana needed: {8} each turn
 Produces: Infinite turns; Lock
 Start: Aminatou, the Fateshifter (battlefield); Teferi, Master of Time (battlefield); Contagion Engine (battlefield); Contagion Clasp (battlefield)
 Prerequisites: Teferi has at least eight loyalty counters on it.
@@ -5108,7 +5032,7 @@ Notes: Mystic Sanctuary can be tapped for mana before casting Capture of Jingzho
 
 ## Combo 193-2104-2369-4423
 Cards: Mystic Sanctuary + Aminatou, the Fateshifter + Temporal Manipulation + Oath of Teferi
-Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 30 | Commander: legal | Mana needed: {3}{U}{U} each turn
+Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 29 | Commander: legal | Mana needed: {3}{U}{U} each turn
 Produces: Infinite turns; Lock; Skip your draw steps
 Start: Mystic Sanctuary (hand); Aminatou, the Fateshifter (battlefield); Temporal Manipulation (hand); Oath of Teferi (battlefield)
 Prerequisites: You control three Islands.
@@ -5896,7 +5820,7 @@ Steps: Activate Marneus by paying {6}.
 
 ## Combo 245-2034-4365
 Cards: Marneus Calgar + Ashnod's Altar + Mondrak, Glory Dominus
-Color identity: WUB | Bracket: 3-4+ (Spicy) | Popularity: 5200 | Commander: legal | Mana needed: {6}
+Color identity: WUB | Bracket: 3-4+ (Spicy) | Popularity: 5300 | Commander: legal | Mana needed: {6}
 Produces: Infinite card draw; Near-infinite colorless mana; Near-infinite creature tokens; Infinite draw triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers
 Start: Marneus Calgar (battlefield); Ashnod's Altar (battlefield); Mondrak, Glory Dominus (battlefield)
 Steps: Activate Marneus by paying {6}, creating four creature tokens due to Mondrak.
@@ -6216,7 +6140,7 @@ Steps: Activate Ashnod's Altar by sacrificing Wretched Throng, adding {C}{C}.
 
 ## Combo 277-774-3861
 Cards: Patron of the Moon + Tiller Engine + Orzhov Basilica
-Color identity: WUB | Bracket: 3-4+ (Spicy) | Popularity: 97 | Commander: legal | Mana needed: {1}
+Color identity: WUB | Bracket: 3-4+ (Spicy) | Popularity: 98 | Commander: legal | Mana needed: {1}
 Produces: Infinite black mana; Infinite white mana; Infinite landfall triggers
 Start: Patron of the Moon (battlefield); Tiller Engine (battlefield); Orzhov Basilica (hand)
 Steps: Pay {1} to activate Patron of the Moon, putting Orzhov Basilica from your hand onto the battlefield.
@@ -6795,7 +6719,7 @@ Steps: Activate Ghostly Pilferer by discarding a card.
 
 ## Combo 325-1786-4067-6282
 Cards: Ketramose, the New Dawn + Toluz, Clever Conductor + Queza, Augur of Agonies + Mind Over Matter
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal
 Produces: Near-infinite lifeloss; Near-infinite mana permanents you control can produce; Near-infinite lifegain triggers; Near-infinite untap of permanents you control; Infinite rummaging; Infinite self-discard triggers; Infinite draw triggers; Exile your library
 Start: Ketramose, the New Dawn (battlefield); Toluz, Clever Conductor (battlefield); Queza, Augur of Agonies (battlefield); Mind Over Matter (battlefield)
 Prerequisites: Your life total is at least 2.
@@ -7246,7 +7170,7 @@ Steps: Move to your cleanup step, causing you to discard cards down to your maxi
 ## Combo 328-338-1409-2060
 Cards: Crystalline Crawler + Light of Promise + Deadeye Navigator + Gray Merchant of Asphodel
 Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{U}
-Produces: Infinite colored mana; Infinite lifegain; Infinite lifeloss; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB
+Produces: Each opponent loses the game; Infinite colored mana; Infinite lifegain; Infinite lifeloss; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB
 Start: Crystalline Crawler (battlefield); Light of Promise (battlefield); Deadeye Navigator (battlefield); Gray Merchant of Asphodel (battlefield)
 Prerequisites: Light of Promise attached to Crystalline Crawler.
   Deadeye Navigator is paired with Gray Merchant of Asphodel.
@@ -7288,7 +7212,7 @@ Steps: At the beginning of your end step, Teleportation Circle triggers, blinkin
 ## Combo 328-1409-2060-4017
 Cards: Crystalline Crawler + Sunbond + Deadeye Navigator + Gray Merchant of Asphodel
 Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{U}
-Produces: Infinite colored mana; Infinite lifegain; Infinite lifeloss; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB
+Produces: Each opponent loses the game; Infinite colored mana; Infinite lifegain; Infinite lifeloss; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite blinking; Infinite creature ETB; Infinite creature LTB
 Start: Crystalline Crawler (battlefield); Sunbond (battlefield); Deadeye Navigator (battlefield); Gray Merchant of Asphodel (battlefield)
 Prerequisites: Sunbond attached to Crystalline Crawler.
   Deadeye Navigator is paired with Gray Merchant of Asphodel.
@@ -7403,7 +7327,7 @@ Steps: Activate Necrotic Ooze using Kwain's ability by tapping it, allowing each
 
 ## Combo 338-1786-2541
 Cards: Benthic Biomancer + Queza, Augur of Agonies + Light of Promise
-Color identity: WUB | Bracket: 3-4+ (Spicy) | Popularity: 5 | Commander: legal | Mana needed: {1}{U}
+Color identity: WUB | Bracket: 3-4+ (Spicy) | Popularity: 6 | Commander: legal | Mana needed: {1}{U}
 Produces: Near-infinite lifegain; Near-infinite lifeloss; Near-infinite lifegain triggers; Infinite looting; Near-infinite +1/+1 counters on a creature; Infinite self-discard triggers; Infinite draw triggers
 Start: Benthic Biomancer (battlefield: without a +1/+1 counter on it); Queza, Augur of Agonies (battlefield); Light of Promise (battlefield: attached to Benthic Biomancer)
 Steps: Activate Benthic Biomancer by paying {1}{U}, putting a +1/+1 counter on it.
@@ -8612,7 +8536,7 @@ Notes: If you are currently venturing in a dungeon when starting the combo, you 
 
 ## Combo 390-670-1619-5361
 Cards: Sefris of the Hidden Ways + Radiant Solar + Hulking Metamorph + Auton Soldier
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Near-infinite lifeloss for all players; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Sefris of the Hidden Ways (battlefield); Radiant Solar (battlefield); Hulking Metamorph (battlefield: as a copy of Radiant Solar); Auton Soldier (battlefield: as a copy of Radiant Solar)
 Prerequisites: You have a way to cause a creature to enter the battlefield under your control.
@@ -8680,7 +8604,7 @@ Notes: If you are currently venturing in a dungeon when starting the combo, you 
 
 ## Combo 390-670-1619-6913
 Cards: Sefris of the Hidden Ways + Radiant Solar + Hulking Metamorph + Chameleon, Master of Disguise
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
 Produces: Near-infinite lifeloss for all players; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Sefris of the Hidden Ways (battlefield); Radiant Solar (battlefield); Hulking Metamorph (battlefield: as a copy of Radiant Solar); Chameleon, Master of Disguise (battlefield: as a copy of Radiant Solar)
 Prerequisites: You have a way to cause a creature to enter the battlefield under your control.
@@ -8714,7 +8638,7 @@ Notes: If you are currently venturing in a dungeon when starting the combo, you 
 
 ## Combo 390-670-1619-7936
 Cards: Sefris of the Hidden Ways + Radiant Solar + Hulking Metamorph + Dominion Saboteur
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Near-infinite lifeloss for all players; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: Sefris of the Hidden Ways (battlefield); Radiant Solar (battlefield); Hulking Metamorph (battlefield: as a copy of Radiant Solar); Dominion Saboteur (battlefield: as a copy of Radiant Solar)
 Prerequisites: You have a way to cause a creature to enter the battlefield under your control.
@@ -9089,7 +9013,7 @@ Steps: Activate Cauldron of Souls by tapping it, giving Arsenal Thresher persist
 ## Combo 413-1636-2018-2838
 Cards: Luminous Broodmoth + Intruder Alarm + Blasting Station + Soul Diviner
 Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Near-infinite untap of all creatures; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
+Produces: Infinite card draw; Near-infinite damage; Near-infinite untap of all creatures; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: Luminous Broodmoth (battlefield); Intruder Alarm (battlefield); Blasting Station (battlefield); Soul Diviner (battlefield)
 Prerequisites: Soul Diviner doesn't have summoning sickness.
   You control another nontoken creature that doesn't have flying.
@@ -9758,7 +9682,7 @@ Steps: Draw a card.
 
 ## Combo 444-3965
 Cards: Drogskol Reaver + Curse of Fool's Wisdom
-Color identity: WUB | Bracket: 3-4+ (Spicy) | Popularity: 89 | Commander: legal
+Color identity: WUB | Bracket: 3-4+ (Spicy) | Popularity: 88 | Commander: legal
 Produces: Infinite card draw; Near-infinite lifegain triggers; Infinite draw triggers
 Start: Drogskol Reaver (battlefield); Curse of Fool's Wisdom (battlefield)
 Prerequisites: Curse of Fool's Wisdom attached to yourself.
@@ -11822,7 +11746,7 @@ Notes: Once your opponents control no creature, you can have Vish Kal give itsel
 ## Combo 574-1636-2018-2838
 Cards: Luminous Broodmoth + Intruder Alarm + Vish Kal, Blood Arbiter + Soul Diviner
 Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Near-infinite untap of all creatures; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
+Produces: Infinite card draw; Near-infinite untap of all creatures; Near-infinite +1/+1 counters on a creature; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: Luminous Broodmoth (battlefield); Intruder Alarm (battlefield); Vish Kal, Blood Arbiter (battlefield); Soul Diviner (battlefield)
 Prerequisites: Soul Diviner doesn't have summoning sickness.
   You control another nontoken creature that doesn't have flying.
@@ -11836,7 +11760,7 @@ Steps: Activate Vish Kal by sacrificing the additional creature
 ## Combo 574-1636-2018-6609
 Cards: Luminous Broodmoth + Intruder Alarm + Vish Kal, Blood Arbiter + O'aka, Traveling Merchant
 Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Near-infinite untap of all creatures; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
+Produces: Infinite card draw; Near-infinite untap of all creatures; Near-infinite +1/+1 counters on a creature; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: Luminous Broodmoth (battlefield); Intruder Alarm (battlefield); Vish Kal, Blood Arbiter (battlefield); O'aka, Traveling Merchant (battlefield)
 Prerequisites: O'aka doesn't have summoning sickness.
   You control another nontoken creature that doesn't have flying.
@@ -12289,7 +12213,7 @@ Notes: If you are currently venturing in a dungeon when starting the combo, you 
 
 ## Combo 624-670-1619-3175-4349
 Cards: Sefris of the Hidden Ways + Radiant Solar + Sun Titan + Fell Stinger + Phantasmal Image
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 47 | Commander: legal | Mana needed: {4}{W}{W}
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 46 | Commander: legal | Mana needed: {4}{W}{W}
 Produces: Near-infinite card draw for any number of players; Near-infinite lifeloss; Near-infinite death triggers; Near-infinite draw triggers for any number of players; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers
 Start: Sefris of the Hidden Ways (battlefield); Radiant Solar (battlefield); Sun Titan (hand); Fell Stinger (graveyard); Phantasmal Image (battlefield: as a copy of Radiant Solar)
 Prerequisites: You are not currently venturing in a dungeon.
@@ -13167,7 +13091,7 @@ Steps: Activate Grimgrin by sacrificing Brotherhood Outcast.
 
 ## Combo 654-774-3861
 Cards: Patron of the Moon + Amulet of Vigor + Orzhov Basilica
-Color identity: WUB | Bracket: 3-4+ (Spicy) | Popularity: 130 | Commander: legal | Mana needed: {1}
+Color identity: WUB | Bracket: 3-4+ (Spicy) | Popularity: 140 | Commander: legal | Mana needed: {1}
 Produces: Infinite black mana; Infinite white mana; Infinite landfall triggers
 Start: Patron of the Moon (battlefield); Amulet of Vigor (battlefield); Orzhov Basilica (hand)
 Steps: Activate Patron of the Moon by paying {1}, putting Orzhov Basilica from your hand onto the battlefield.
@@ -13179,7 +13103,7 @@ Steps: Activate Patron of the Moon by paying {1}, putting Orzhov Basilica from y
 
 ## Combo 661-4112
 Cards: Sharuum the Hegemon + Sculpting Steel
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 5300 | Commander: legal | Mana needed: {3}
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 5400 | Commander: legal | Mana needed: {3}
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB
 Start: Sharuum the Hegemon (battlefield); Sculpting Steel (hand)
 Steps: Cast Sculpting Steel by paying {3}.
@@ -13838,7 +13762,7 @@ Notes: If you are currently venturing in a dungeon when starting the combo, you 
 
 ## Combo 670-804-1619-4089
 Cards: Sefris of the Hidden Ways + Radiant Solar + Sakashima the Impostor + Glasspool Mimic // Glasspool Shore
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 430 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 420 | Commander: legal
 Produces: Near-infinite lifeloss for all players; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Sefris of the Hidden Ways (battlefield); Radiant Solar (battlefield); Sakashima the Impostor (battlefield: as a copy of Radiant Solar); Glasspool Mimic // Glasspool Shore (battlefield: as a copy of Radiant Solar)
 Prerequisites: You have a way to cause a creature to enter the battlefield under your control.
@@ -18206,7 +18130,7 @@ Notes: If you are currently venturing in a dungeon when starting the combo, you 
 
 ## Combo 670-1619-3734-4753
 Cards: Sefris of the Hidden Ways + Radiant Solar + Phyrexian Metamorph + Clever Impersonator
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 78 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 79 | Commander: legal
 Produces: Near-infinite lifeloss for all players; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Sefris of the Hidden Ways (battlefield); Radiant Solar (battlefield); Phyrexian Metamorph (battlefield: as a copy of Radiant Solar); Clever Impersonator (battlefield: as a copy of Radiant Solar)
 Prerequisites: You have a way to cause a creature to enter the battlefield under your control.
@@ -18308,7 +18232,7 @@ Notes: If you are currently venturing in a dungeon when starting the combo, you 
 
 ## Combo 670-1619-3734-6558
 Cards: Sefris of the Hidden Ways + Radiant Solar + Phyrexian Metamorph + Naga Fleshcrafter
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal
 Produces: Near-infinite lifeloss for all players; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Sefris of the Hidden Ways (battlefield); Radiant Solar (battlefield); Phyrexian Metamorph (battlefield: as a copy of Radiant Solar); Naga Fleshcrafter (battlefield: as a copy of Radiant Solar)
 Prerequisites: You have a way to cause a creature to enter the battlefield under your control.
@@ -20647,7 +20571,7 @@ Notes: If you are currently venturing in a dungeon when starting the combo, you 
 
 ## Combo 670-1619-5361-6913
 Cards: Sefris of the Hidden Ways + Radiant Solar + Auton Soldier + Chameleon, Master of Disguise
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
 Produces: Near-infinite lifeloss for all players; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Sefris of the Hidden Ways (battlefield); Radiant Solar (battlefield); Auton Soldier (battlefield: as a copy of Radiant Solar); Chameleon, Master of Disguise (battlefield: as a copy of Radiant Solar)
 Prerequisites: You have a way to cause a creature to enter the battlefield under your control.
@@ -20681,7 +20605,7 @@ Notes: If you are currently venturing in a dungeon when starting the combo, you 
 
 ## Combo 670-1619-5361-7936
 Cards: Sefris of the Hidden Ways + Radiant Solar + Auton Soldier + Dominion Saboteur
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Near-infinite lifeloss for all players; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: Sefris of the Hidden Ways (battlefield); Radiant Solar (battlefield); Auton Soldier (battlefield: as a copy of Radiant Solar); Dominion Saboteur (battlefield: as a copy of Radiant Solar)
 Prerequisites: You have a way to cause a creature to enter the battlefield under your control.
@@ -21570,7 +21494,7 @@ Notes: If you are currently venturing in a dungeon when starting the combo, you 
 
 ## Combo 670-1619-6913-7936
 Cards: Sefris of the Hidden Ways + Radiant Solar + Chameleon, Master of Disguise + Dominion Saboteur
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Near-infinite lifeloss for all players; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: Sefris of the Hidden Ways (battlefield); Radiant Solar (battlefield); Chameleon, Master of Disguise (battlefield: as a copy of Radiant Solar); Dominion Saboteur (battlefield: as a copy of Radiant Solar)
 Prerequisites: You have a way to cause a creature to enter the battlefield under your control.
@@ -23483,7 +23407,7 @@ Notes: The chosen anthem effect must boost Visionary Augmenter's toughness by at
 ## Combo 728-1636-2018-2838
 Cards: Luminous Broodmoth + Intruder Alarm + Grimgrin, Corpse-Born + Soul Diviner
 Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Near-infinite untap of all creatures; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
+Produces: Infinite card draw; Near-infinite untap of all creatures; Near-infinite +1/+1 counters on a creature; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: Luminous Broodmoth (battlefield); Intruder Alarm (battlefield); Grimgrin, Corpse-Born (battlefield); Soul Diviner (battlefield)
 Prerequisites: Soul Diviner doesn't have summoning sickness.
   You control another nontoken creature that doesn't have flying.
@@ -23497,7 +23421,7 @@ Steps: Activate Grimgrin by sacrificing the additional creature
 ## Combo 728-1636-2018-6609
 Cards: Luminous Broodmoth + Intruder Alarm + Grimgrin, Corpse-Born + O'aka, Traveling Merchant
 Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Near-infinite untap of all creatures; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
+Produces: Infinite card draw; Near-infinite untap of all creatures; Near-infinite +1/+1 counters on a creature; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Start: Luminous Broodmoth (battlefield); Intruder Alarm (battlefield); Grimgrin, Corpse-Born (battlefield); O'aka, Traveling Merchant (battlefield)
 Prerequisites: O'aka doesn't have summoning sickness.
   You control another nontoken creature that doesn't have flying.
@@ -26104,7 +26028,7 @@ Steps: Activate all your lands by tapping them, adding at least enough mana to c
 
 ## Combo 814-1558
 Cards: Myrel, Shield of Argive + Time Sieve
-Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 720 | Commander: legal
+Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 730 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Myrel, Shield of Argive (battlefield); Time Sieve (battlefield)
 Prerequisites: Myrel does not have summoning sickness and cannot be blocked and killed by an opponent.
@@ -27608,31 +27532,6 @@ Steps: During your upkeep, activate Cavern Harpy by paying 1 life.
   Activate Magus of the Mirror by tapping and sacrificing it, exchanging your life total with an opponent.
   The opponent loses the game due to having zero life.
 
-## Combo 942-1805-4067-6281
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Samwise the Stouthearted + Pyramid of the Pantheon
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite creature ETB; Infinite self-discard triggers; Infinite creature LTB; Infinite death triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Samwise the Stouthearted (hand); Pyramid of the Pantheon (battlefield: with three or more brick counters on it)
-Steps: Activate Pyramid of the Pantheon by tapping it, adding {U}{U}{U}.
-  Activate Mind Over Matter by discarding Samwise the Stouthearted.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Samwise the Stouthearted that is a 4/4 Zombie.
-  When the Samwise the Stouthearted token enters the battlefield, it triggers, returning Samwise the Stouthearted from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping Pyramid of the Pantheon.
-  Repeat.
-
-## Combo 942-4067-6281-7013
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Samwise the Stouthearted + White Lotus Tile
-Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite creature ETB; Infinite self-discard triggers; Infinite creature LTB; Infinite death triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Samwise the Stouthearted (hand); White Lotus Tile (battlefield)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Activate White Lotus Tile by tapping it, adding at least {U}{U}{U}.
-  Activate Mind Over Matter by discarding Samwise the Stouthearted.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Samwise the Stouthearted that is a 4/4 Zombie.
-  When the Samwise the Stouthearted token enters the battlefield, it triggers, returning Samwise the Stouthearted from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping White Lotus Tile.
-  Repeat.
-
 ## Combo 944-2921-4484-4871-5643
 Cards: Geralf, the Fleshwright + Pitiless Plunderer + Ebondeath, Dracolich + Planar Gate + Bartolomé del Presidio
 Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B}{B}
@@ -28452,4 +28351,124 @@ Start: Loyal Retainers (battlefield); Karmic Guide (battlefield); Woe Strider (b
 Steps: Activate Loyal Retainers by sacrificing it, returning Chameleon from your graveyard to the battlefield as a copy of Karmic Guide.
   When Chameleon enters the battlefield, it triggers, returning Loyal Retainers from your graveyard to the battlefield.
   Activate Woe Strider by sacrificing Chameleon.
+  Repeat.
+
+## Combo 997-2724-3194-3582
+Cards: Kaya the Inexorable + Wormfang Manta + Hushwing Gryff + Woe Strider
+Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {5}{U}{U} each turn
+Produces: Infinite turns; Lock
+Start: Kaya the Inexorable (battlefield); Wormfang Manta (battlefield); Hushwing Gryff (battlefield); Woe Strider (battlefield)
+Steps: Activate Kaya the Inexorable's first ability by putting a loyalty counter on it, putting a ghostform counter on Wormfang Manta.
+  Activate Woe Strider by sacrificing Wormfang Manta.
+  When Wormfang Manta dies, its second ability and its ghostform ability trigger.
+  Resolve the ghostform trigger, returning Wormfang Manta from your graveyard to your hand and creating a 1/1 Spirit creature token.
+  Resolve the second trigger, causing you to take an extra turn after this one.
+  Resolve the Woe Strider ability, causing you to scry 1.
+  Cast Wormfang Manta by paying {5}{U}{U}.
+  Wormfang Manta's first ability does not trigger due to Hushwing Gryff.
+  Repeat each turn.
+
+## Combo 997-2724-3217-3582
+Cards: Kaya the Inexorable + Wormfang Manta + Tocatli Honor Guard + Woe Strider
+Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {5}{U}{U} each turn
+Produces: Infinite turns; Lock
+Start: Kaya the Inexorable (battlefield); Wormfang Manta (battlefield); Tocatli Honor Guard (battlefield); Woe Strider (battlefield)
+Steps: Activate Kaya the Inexorable's first ability by putting a loyalty counter on it, putting a ghostform counter on Wormfang Manta.
+  Activate Woe Strider by sacrificing Wormfang Manta.
+  When Wormfang Manta dies, its second ability and its ghostform ability trigger.
+  Resolve the ghostform trigger, returning Wormfang Manta from your graveyard to your hand and creating a 1/1 Spirit creature token.
+  Resolve the second trigger, causing you to take an extra turn after this one.
+  Resolve the Woe Strider ability, causing you to scry 1.
+  Cast Wormfang Manta by paying {5}{U}{U}.
+  Wormfang Manta's first ability does not trigger due to Tocatli Honor Guard.
+  Repeat each turn.
+
+## Combo 997-2724-3582-3987
+Cards: Kaya the Inexorable + Wormfang Manta + Torpor Orb + Woe Strider
+Color identity: WUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal | Mana needed: {5}{U}{U} each turn
+Produces: Infinite turns; Lock
+Start: Kaya the Inexorable (battlefield); Wormfang Manta (battlefield); Torpor Orb (battlefield); Woe Strider (battlefield)
+Steps: Activate Kaya the Inexorable's first ability by putting a loyalty counter on it, putting a ghostform counter on Wormfang Manta.
+  Activate Woe Strider by sacrificing Wormfang Manta.
+  When Wormfang Manta dies, its second ability and its ghostform ability trigger.
+  Resolve the ghostform trigger, returning Wormfang Manta from your graveyard to your hand and creating a 1/1 Spirit creature token.
+  Resolve the second trigger, causing you to take an extra turn after this one.
+  Resolve the Woe Strider ability, causing you to scry 1.
+  Cast Wormfang Manta by paying {5}{U}{U}.
+  Wormfang Manta's first ability does not trigger due to Torpor Orb.
+  Repeat each turn.
+
+## Combo 997-2728-4153-7957
+Cards: Genestealer Patriarch + Woe Strider + Resourceful Defense + Rikku, Resourceful Guardian
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
+Start: Genestealer Patriarch (battlefield); Woe Strider (battlefield); Resourceful Defense (battlefield); Rikku, Resourceful Guardian (battlefield)
+Prerequisites: Genestealer Patriarch does not have summoning sickness.
+  An opponent controls a creature.
+  Rikku does not have summoning sickness.
+  You control at least two additional creatures.
+Steps: Declare Genestealer Patriarch as an attacker.
+  Genestealer Patriarch's first ability triggers, putting an infection counter on a creature an opponent controls.
+  Activate Rikku's ability by paying its cost, moving the infection counter from the opponent's creature onto a creature you control.
+  Activate Woe Strider by sacrificing the creature with an infection counter on it.
+  When the creature dies, Resourceful Defense and Genestealer Patriarch's second ability trigger.
+  Resolve the Resourceful Defense trigger, putting an infection counter onto another creature you control.
+  Resolve the Genestealer Patriarch trigger, causing you to create a token copy of the sacrificed creature that is a Tyranid in addition to its other types.
+  Resolve the Woe Strider ability.
+  Repeat from step 4.
+
+## Combo 997-2728-6012-7957
+Cards: Genestealer Patriarch + Woe Strider + Reluctant Role Model + Rikku, Resourceful Guardian
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
+Start: Genestealer Patriarch (battlefield); Woe Strider (battlefield); Reluctant Role Model (battlefield); Rikku, Resourceful Guardian (battlefield)
+Prerequisites: Genestealer Patriarch does not have summoning sickness.
+  An opponent controls a creature.
+  Rikku does not have summoning sickness.
+  You control at least two additional creatures.
+Steps: Declare Genestealer Patriarch as an attacker.
+  Genestealer Patriarch's first ability triggers, putting an infection counter on a creature an opponent controls.
+  Activate Rikku's ability by paying its cost, moving the infection counter from the opponent's creature onto a creature you control.
+  Activate Woe Strider by sacrificing the creature with an infection counter on it.
+  When the creature dies, Reluctant Role Model and Genestealer Patriarch's second ability trigger.
+  Resolve the Reluctant Role Model trigger, putting an infection counter onto another creature you control.
+  Resolve the Genestealer Patriarch trigger, causing you to create a token copy of the sacrificed creature that is a Tyranid in addition to its other types.
+  Resolve the Woe Strider ability.
+  Repeat from step 4.
+
+## Combo 997-2869-3184--173
+Cards: Yomiji, Who Bars the Way + Leyline of Singularity + Woe Strider
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1; Infinite storm count
+Requires: Creature castable for {0} that survives (battlefield)
+Start: Yomiji, Who Bars the Way (battlefield); Leyline of Singularity (battlefield); Woe Strider (battlefield)
+Steps: Activate Woe Strider by sacrificing the creature that costs {0}.
+  Yomiji triggers, returning that creature from your graveyard to your hand.
+  Resolve the Woe Strider ability.
+  Cast that creature by paying {0}.
+  Repeat.
+
+## Combo 997-2908-4986--44
+Cards: Teshar, Ancestor's Apostle + Woe Strider + Dream Stalker
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite scry 1; Infinite storm count
+Requires: 2x Artifact Castable for {0} that survives (hand, battlefield)
+Start: Teshar, Ancestor's Apostle (battlefield); Woe Strider (battlefield); Dream Stalker (graveyard)
+Steps: Cast an artifact in your hand by paying {0}.
+  Teshar triggers, returning Dream Stalker from your graveyard to the battlefield.
+  When Dream Stalker enters, it triggers, returning another artifact that can be cast for {0} from the battlefield to your hand.
+  Resolve the artifact spell cast in step 1.
+  Activate Woe Strider by sacrificing Dream Stalker
+  Repeat.
+Notes: One of the {0} cost artifacts must be in your hand with the other on the battlefield.
+
+## Combo 997-2961-3175
+Cards: Sun Titan + Woe Strider + False Demise
+Color identity: WUB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite scry 1
+Start: Sun Titan (battlefield); Woe Strider (battlefield); False Demise (battlefield: attached to Sun Titan)
+Steps: Activate Woe Strider by sacrificing Sun Titan.
+  When Sun Titan dies, False Demise triggers, returning Sun Titan from your graveyard to the battlefield.
+  When Sun Titan enters, it triggers, returning False Demise from your graveyard to the battlefield attached to Sun Titan.
+  Resolve the Woe Strider ability.
   Repeat.

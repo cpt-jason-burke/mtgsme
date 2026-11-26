@@ -723,7 +723,7 @@ Steps: Activate Polluted Mire's cycling ability by paying {0} and discarding it.
 
 ## Combo 65-717-864-875-2628
 Cards: Escape Protocol + Fluctuator + Bone Miser + Eternal Witness + Fetid Pools
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 55 | Commander: legal
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 56 | Commander: legal
 Produces: Infinite black mana; Infinite card draw; Infinite creature ETB; Infinite creature LTB
 Start: Escape Protocol (battlefield); Fluctuator (battlefield); Bone Miser (battlefield); Eternal Witness (battlefield); Fetid Pools (hand)
 Steps: Activate Fetid Pools's cycling ability by paying {0} and discarding it.
@@ -762,7 +762,7 @@ Steps: Activate Remote Isle's cycling ability by paying {0} and discarding it.
 
 ## Combo 65-717-864-2628-4310
 Cards: Escape Protocol + Fluctuator + Bone Miser + Eternal Witness + Blasted Landscape
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 32 | Commander: legal
 Produces: Infinite black mana; Infinite card draw; Infinite creature ETB; Infinite creature LTB
 Start: Escape Protocol (battlefield); Fluctuator (battlefield); Bone Miser (battlefield); Eternal Witness (battlefield); Blasted Landscape (hand)
 Steps: Activate Blasted Landscape's cycling ability by paying {0} and discarding it.
@@ -1082,7 +1082,7 @@ Notes: Once you have infinite mana, you may untap any other land except Golgari 
 
 ## Combo 81-800-4116
 Cards: Volrath, the Shapestealer + Knacksaw Clique + Kami of Whispered Hopes
-Color identity: BGU | Bracket: 3-4+ (Spicy) | Popularity: 47 | Commander: legal | Mana needed: {1}
+Color identity: BGU | Bracket: 3-4+ (Spicy) | Popularity: 46 | Commander: legal | Mana needed: {1}
 Produces: Infinite colored mana; Exile each opponent's library with the ability to play the exiled cards until end of turn
 Start: Volrath, the Shapestealer (battlefield: without summoning sickness); Knacksaw Clique (battlefield); Kami of Whispered Hopes (battlefield)
 Steps: Activate Volrath by paying {1}, causing it to become a copy of Kami of Whispered Hopes.
@@ -1118,7 +1118,7 @@ Steps: Activate Volrath by paying {1}, turning Volrath into a 7/5 copy of Kami o
 
 ## Combo 81-3812-6287
 Cards: Mimeoplasm, Revered One + Kami of Whispered Hopes + Simic Ragworm
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal | Mana needed: {2}
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal | Mana needed: {2}
 Produces: Infinite colored mana
 Start: Mimeoplasm, Revered One (battlefield); Kami of Whispered Hopes (exile); Simic Ragworm (exile)
 Prerequisites: Mimeoplasm does not have summoning sickness and has power 6 or greater.
@@ -1634,7 +1634,7 @@ Steps: Activate Jetfire, Air Guardian by paying {3}, converting it and putting f
 ## Combo 116-280-2645-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Kiora's Follower + Golgari Rot Farm
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
-Produces: Infinite black mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite black mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Kiora's Follower (battlefield); Golgari Rot Farm (battlefield)
 Prerequisites: Kiora's Follower doesn't have summoning sickness.
 Steps: Activate Golgari Rot Farm by tapping it, adding {B}{B}{B}{G}{G}{G} due to Nyxbloom Ancient
@@ -1738,7 +1738,7 @@ Steps: Activate Kiora's Follower by tapping it, targeting Evil Twin.
 ## Combo 116-2645-3430-3478
 Cards: Staff of Domination + Nyxbloom Ancient + Kiora's Follower + Dimir Aqueduct
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
-Produces: Infinite black mana; Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite black mana; Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Kiora's Follower (battlefield); Dimir Aqueduct (battlefield)
 Prerequisites: Kiora's Follower doesn't have summoning sickness.
 Steps: Activate Dimir Aqueduct by tapping it, adding {U}{U}{U}{B}{B}{B} due to Nyxbloom Ancient
@@ -1750,7 +1750,7 @@ Steps: Activate Dimir Aqueduct by tapping it, adding {U}{U}{U}{B}{B}{B} due to N
 ## Combo 116-2645-3430-5873
 Cards: Staff of Domination + Nyxbloom Ancient + Kiora's Follower + Everglades
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite black mana; Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite black mana; Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Kiora's Follower (battlefield); Everglades (battlefield)
 Prerequisites: Kiora's Follower doesn't have summoning sickness.
 Steps: Activate Everglades by tapping it, adding {C}{C}{C}{B}{B}{B} due to Nyxbloom Ancient
@@ -1904,30 +1904,6 @@ Prerequisites: Myr Welder does not have summoning sickness.
 Steps: Activate Myr Welder using Gilded Lotus's ability by tapping it, adding at least {2}{G/U}.
   Activate Myr Welder using Gilder Bairn's ability by paying {2}{G/U} and untapping it, targeting any permanent.
   Repeat.
-
-## Combo 132-549-4687-5527
-Cards: Myr Welder + Gilder Bairn + Biotransference + Five Hundred Year Diary
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite blue mana; Infinite proliferate for permanents
-Start: Myr Welder (battlefield); Gilder Bairn (exile: exiled by Myr Welder); Biotransference (battlefield); Five Hundred Year Diary (exile: exiled by Myr Welder)
-Prerequisites: Myr Welder does not have summoning sickness.
-  You control at least three Clues.
-Steps: Activate Myr Welder using Five Hundred Year Diary's ability by tapping it, adding at least {2}{G/U}.
-  Activate Myr Welder using Gilder Bairn's ability by paying {2}{G/U} and untapping it, targeting any permanent.
-  Repeat.
-Notes: This combo only produces infinite mana if you control at least four Clues.
-
-## Combo 132-549-4687-7013
-Cards: Myr Welder + Gilder Bairn + Biotransference + White Lotus Tile
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite proliferate for permanents
-Start: Myr Welder (battlefield); Gilder Bairn (exile: exiled by Myr Welder); Biotransference (battlefield); White Lotus Tile (exile: exiled by Myr Welder)
-Prerequisites: Myr Welder does not have summoning sickness.
-  You control at least three creatures that share a creature type.
-Steps: Activate Myr Welder using White Lotus Tile's ability by tapping it, adding at least {2}{G/U}.
-  Activate Myr Welder using Gilder Bairn's ability by paying {2}{G/U} and untapping it, targeting any permanent.
-  Repeat.
-Notes: This combo only produces infinite mana if you control at least four creatures that share a creature type.
 
 ## Combo 141-413-6816
 Cards: Blasting Station + Infuse with Vitality + Naru Meha, Master Wizard
@@ -2494,10 +2470,10 @@ Steps: Activate Zimone's first ability by paying {1} and tapping it, putting Gol
   Repeat.
 
 ## Combo 224-280-1772-5478
-Cards: Zimone, Quandrix Prodigy + Retreat to Coralhelm + Spelunking + Golgari Rot Farm
+Cards: Zimone, Quandrix Prodigy + Spelunking + Retreat to Coralhelm + Golgari Rot Farm
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 610 | Commander: legal | Mana needed: {1}
 Produces: Infinite green mana; Infinite black mana; Infinite landfall triggers
-Start: Zimone, Quandrix Prodigy (battlefield: without summoning sickness); Retreat to Coralhelm (battlefield); Spelunking (battlefield); Golgari Rot Farm (hand)
+Start: Zimone, Quandrix Prodigy (battlefield: without summoning sickness); Spelunking (battlefield); Retreat to Coralhelm (battlefield); Golgari Rot Farm (hand)
 Steps: Activate Zimone's first ability by paying {1} and tapping it, putting Golgari Rot Farm from your hand onto the battlefield untapped due to Spelunking.
   When Golgari Rot Farm enters the battlefield, it and Retreat to Coralhelm trigger.
   Holding priority, activate Golgari Rot Farm by tapping it, adding {B}{G}.
@@ -2507,7 +2483,7 @@ Steps: Activate Zimone's first ability by paying {1} and tapping it, putting Gol
 
 ## Combo 224-280-1772-6763
 Cards: Zimone, Quandrix Prodigy + Retreat to Coralhelm + Golgari Rot Farm + Horizon Explorer
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 67 | Commander: legal | Mana needed: {1}
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 68 | Commander: legal | Mana needed: {1}
 Produces: Infinite green mana; Infinite black mana; Infinite landfall triggers
 Start: Zimone, Quandrix Prodigy (battlefield: without summoning sickness); Retreat to Coralhelm (battlefield); Golgari Rot Farm (hand); Horizon Explorer (battlefield)
 Steps: Activate Zimone's first ability by paying {1} and tapping it, putting Golgari Rot Farm from your hand onto the battlefield untapped due to Horizon Explorer.
@@ -2885,7 +2861,7 @@ Steps: Activate Zimone and Dina by tapping it and sacrificing Bloodghast, causin
 
 ## Combo 224-1525-1659-4913
 Cards: Zimone and Dina + Abundance + Retreat to Coralhelm + Seed the Land
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 23 | Commander: legal
 Produces: Arrange your library in any order; Put all lands from your hand and library onto the battlefield tapped
 Start: Zimone and Dina (battlefield); Abundance (battlefield); Retreat to Coralhelm (battlefield); Seed the Land (battlefield)
 Prerequisites: Zimone and Dina does not have summoning sickness.
@@ -2976,10 +2952,10 @@ Steps: Activate Zimone and Dina by tapping it and sacrificing another creature, 
   Repeat.
 
 ## Combo 224-1525-4913-5310
-Cards: Zimone and Dina + Bloodghast + Retreat to Coralhelm + Abundance
+Cards: Zimone and Dina + Bloodghast + Abundance + Retreat to Coralhelm
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 1200 | Commander: legal
 Produces: Put all lands from your hand and library onto the battlefield; Near-infinite landfall triggers
-Start: Zimone and Dina (battlefield); Bloodghast (battlefield); Retreat to Coralhelm (battlefield); Abundance (hand)
+Start: Zimone and Dina (battlefield); Bloodghast (battlefield); Abundance (hand); Retreat to Coralhelm (battlefield)
 Prerequisites: Zimone and Dina does not have summoning sickness.
 Steps: Activate Zimone and Dina by tapping it and sacrificing Bloodghast, causing you to reveal cards from the top of your library until you reveal a land card, put that card into your hand, and then put that card onto the battlefield, and draw a card and put up to one land from your hand onto the battlefield if you control eight or more lands.
   When the land(s) enter the battlefield, Bloodghast and Retreat to Coralhelm trigger that many times.
@@ -3041,7 +3017,7 @@ Steps: Activate Zimone and Dina by tapping it and sacrificing another creature, 
 
 ## Combo 224-1525-4913-7705
 Cards: Zimone and Dina + Abundance + Retreat to Coralhelm + Mole Man, Moloid Master
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 87 | Commander: legal
 Produces: Arrange your library in any order; Put all lands from your hand and library onto the battlefield tapped
 Start: Zimone and Dina (battlefield); Abundance (battlefield); Retreat to Coralhelm (battlefield); Mole Man, Moloid Master (battlefield)
 Prerequisites: Zimone and Dina does not have summoning sickness.
@@ -3106,8 +3082,8 @@ Steps: Activate Zimone and Dina by tapping it and sacrificing another creature, 
 
 ## Combo 224-1659-5627
 Cards: Wight of the Reliquary + Retreat to Coralhelm + Seed the Land
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal
-Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal
+Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); Retreat to Coralhelm (battlefield); Seed the Land (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
   You control at least one additional creature.
@@ -3191,10 +3167,10 @@ Steps: Activate Zimone's first ability by paying {1} and tapping it, putting Dim
   Repeat.
 
 ## Combo 224-1772-3478-5478
-Cards: Zimone, Quandrix Prodigy + Retreat to Coralhelm + Spelunking + Dimir Aqueduct
+Cards: Zimone, Quandrix Prodigy + Spelunking + Retreat to Coralhelm + Dimir Aqueduct
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 580 | Commander: legal | Mana needed: {1}
 Produces: Infinite blue mana; Infinite black mana; Infinite landfall triggers
-Start: Zimone, Quandrix Prodigy (battlefield: without summoning sickness); Retreat to Coralhelm (battlefield); Spelunking (battlefield); Dimir Aqueduct (hand)
+Start: Zimone, Quandrix Prodigy (battlefield: without summoning sickness); Spelunking (battlefield); Retreat to Coralhelm (battlefield); Dimir Aqueduct (hand)
 Steps: Activate Zimone's first ability by paying {1} and tapping it, putting Dimir Aqueduct from your hand onto the battlefield untapped due to Spelunking.
   When Dimir Aqueduct enters the battlefield, it and Retreat to Coralhelm trigger.
   Holding priority, activate Dimir Aqueduct by tapping it, adding {U}{B}.
@@ -3204,7 +3180,7 @@ Steps: Activate Zimone's first ability by paying {1} and tapping it, putting Dim
 
 ## Combo 224-1772-3478-6763
 Cards: Zimone, Quandrix Prodigy + Retreat to Coralhelm + Dimir Aqueduct + Horizon Explorer
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal | Mana needed: {1}
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 62 | Commander: legal | Mana needed: {1}
 Produces: Infinite blue mana; Infinite black mana; Infinite landfall triggers
 Start: Zimone, Quandrix Prodigy (battlefield: without summoning sickness); Retreat to Coralhelm (battlefield); Dimir Aqueduct (hand); Horizon Explorer (battlefield)
 Steps: Activate Zimone's first ability by paying {1} and tapping it, putting Dimir Aqueduct from your hand onto the battlefield untapped due to Horizon Explorer.
@@ -3313,7 +3289,7 @@ Steps: Activate Zimone and Dina by tapping it and sacrificing Bloodghast, causin
 ## Combo 224-3534-5627
 Cards: Wight of the Reliquary + Retreat to Coralhelm + Field of the Dead
 Color identity: BGU | Bracket: 3+ (Powerful) | Popularity: 1300 | Commander: legal
-Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
+Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); Retreat to Coralhelm (battlefield); Field of the Dead (battlefield)
 Prerequisites: You control seven or more lands with different names.
   Wight of the Reliquary does not have summoning sickness.
@@ -3327,7 +3303,7 @@ Steps: Activate Wight of the Reliquary by tapping it and sacrificing another cre
 ## Combo 224-3585-5627
 Cards: Wight of the Reliquary + Retreat to Coralhelm + Greensleeves, Maro-Sorcerer
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 400 | Commander: legal
-Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
+Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); Retreat to Coralhelm (battlefield); Greensleeves, Maro-Sorcerer (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
   You control at least one additional creature.
@@ -3340,7 +3316,7 @@ Steps: Activate Wight of the Reliquary by tapping it and sacrificing another cre
 ## Combo 224-3703-5627
 Cards: Wight of the Reliquary + Retreat to Coralhelm + Sporemound
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 410 | Commander: legal
-Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
+Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); Retreat to Coralhelm (battlefield); Sporemound (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
   You control at least one additional creature.
@@ -3380,7 +3356,7 @@ Steps: Activate a basic land by tapping it, adding {1}.
 ## Combo 224-4488-5627
 Cards: Wight of the Reliquary + Retreat to Coralhelm + Rampaging Baloths
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 1200 | Commander: legal
-Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
+Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); Retreat to Coralhelm (battlefield); Rampaging Baloths (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
   You control at least one additional creature.
@@ -3393,7 +3369,7 @@ Steps: Activate Wight of the Reliquary by tapping it and sacrificing another cre
 ## Combo 224-4677-5627
 Cards: Wight of the Reliquary + Retreat to Coralhelm + Zendikar's Roil
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 770 | Commander: legal
-Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
+Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); Retreat to Coralhelm (battlefield); Zendikar's Roil (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
   You control at least one additional creature.
@@ -3416,10 +3392,10 @@ Steps: Activate Zimone and Dina by tapping it and sacrificing Bloodghast, causin
   Repeat.
 
 ## Combo 224-5310-5627
-Cards: Wight of the Reliquary + Retreat to Coralhelm + Bloodghast
+Cards: Wight of the Reliquary + Bloodghast + Retreat to Coralhelm
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 1700 | Commander: legal
 Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
-Start: Wight of the Reliquary (battlefield); Retreat to Coralhelm (battlefield); Bloodghast (battlefield)
+Start: Wight of the Reliquary (battlefield); Bloodghast (battlefield); Retreat to Coralhelm (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
   You control at least one additional creature.
 Steps: Activate Wight of the Reliquary by tapping it and sacrificing Bloodghast, causing you to search your library for a land card and put it onto the battlefield tapped.
@@ -3431,7 +3407,7 @@ Steps: Activate Wight of the Reliquary by tapping it and sacrificing Bloodghast,
 ## Combo 224-5627-5702
 Cards: Wight of the Reliquary + Retreat to Coralhelm + Springheart Nantuko
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 1400 | Commander: legal
-Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
+Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); Retreat to Coralhelm (battlefield); Springheart Nantuko (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
   You control at least one additional creature.
@@ -3444,7 +3420,7 @@ Steps: Activate Wight of the Reliquary by tapping it and sacrificing another cre
 ## Combo 224-5627-6528
 Cards: Wight of the Reliquary + Retreat to Coralhelm + Elfsworn Giant
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 200 | Commander: legal
-Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
+Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); Retreat to Coralhelm (battlefield); Elfsworn Giant (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
   You control at least one additional creature.
@@ -3457,7 +3433,7 @@ Steps: Activate Wight of the Reliquary by tapping it and sacrificing another cre
 ## Combo 224-5627-6662
 Cards: Wight of the Reliquary + Retreat to Coralhelm + Chocobo Racetrack
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 230 | Commander: legal
-Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
+Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); Retreat to Coralhelm (battlefield); Chocobo Racetrack (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
   You control at least one additional creature.
@@ -3470,7 +3446,7 @@ Steps: Activate Wight of the Reliquary by tapping it and sacrificing another cre
 ## Combo 224-5627-7201
 Cards: Wight of the Reliquary + Retreat to Coralhelm + Sapling Nursery
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 94 | Commander: legal
-Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
+Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); Retreat to Coralhelm (battlefield); Sapling Nursery (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
   You control at least one additional creature.
@@ -3483,7 +3459,7 @@ Steps: Activate Wight of the Reliquary by tapping it and sacrificing another cre
 ## Combo 224-5627-7705
 Cards: Wight of the Reliquary + Retreat to Coralhelm + Mole Man, Moloid Master
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 290 | Commander: legal
-Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
+Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); Retreat to Coralhelm (battlefield); Mole Man, Moloid Master (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
   You control at least one additional creature.
@@ -3749,7 +3725,7 @@ Notes: If you can generate infinite {C} once you have all the lands on the battl
 ## Combo 225-2645-3430-3478
 Cards: Staff of Domination + Nyxbloom Ancient + Stone-Seeder Hierophant + Dimir Aqueduct
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite black mana; Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite black mana; Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Stone-Seeder Hierophant (battlefield); Dimir Aqueduct (battlefield)
 Prerequisites: Stone-Seeder Hierophant doesn't have summoning sickness.
 Steps: Activate Dimir Aqueduct by tapping it, adding {U}{U}{U}{B}{B}{B} due to Nyxbloom Ancient
@@ -4993,7 +4969,7 @@ Steps: Cast PuPu UFO by paying {2}.
 
 ## Combo 280-433-7857
 Cards: Golgari Rot Farm + Llanowar Scout + Elven Raft-Steerer
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 230 | Commander: legal
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 240 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Golgari Rot Farm (hand); Llanowar Scout (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Steps: Activate Llanowar Scout by tapping it, putting Golgari Rot Farm from your hand onto the battlefield.
@@ -5202,7 +5178,7 @@ Steps: Activate Scaled Herbalist by tapping it, putting Golgari Rot Farm from yo
 ## Combo 280-950-2645-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Golgari Rot Farm + Fatestitcher
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite black mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite black mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Golgari Rot Farm (battlefield); Fatestitcher (battlefield)
 Prerequisites: Fatestitcher doesn't have summoning sickness.
 Steps: Activate Golgari Rot Farm by tapping it, adding {B}{B}{B}{G}{G}{G} due to Nyxbloom Ancient
@@ -5286,7 +5262,7 @@ Steps: Activate Oko's first loyalty ability by putting two loyalty counters on i
 ## Combo 280-1432-2645-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Golgari Rot Farm + Ioreth of the Healing House
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
-Produces: Infinite black mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite black mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Golgari Rot Farm (battlefield); Ioreth of the Healing House (battlefield)
 Prerequisites: Ioreth of the Healing House doesn't have summoning sickness.
 Steps: Activate Golgari Rot Farm by tapping it, adding {B}{B}{B}{G}{G}{G} due to Nyxbloom Ancient
@@ -5349,7 +5325,7 @@ Steps: Play Golgari Rot Farm.
 
 ## Combo 280-1479-4493
 Cards: Kodama of the East Tree + Irenicus's Vile Duplication + Golgari Rot Farm
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal | Mana needed: {6}{U}{U}
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal | Mana needed: {6}{U}{U}
 Produces: Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Irenicus's Vile Duplication (hand); Golgari Rot Farm (hand)
 Steps: Cast Irenicus's Vile Duplication by paying {3}{U}, creating a token copy of Kodama of the East Tree that isn't legendary.
@@ -5582,7 +5558,7 @@ Steps: Activate Zimone and Dina by tapping it and sacrificing Bloodghast, causin
 ## Combo 280-1719-2645-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Golgari Rot Farm + Vizier of Tumbling Sands
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite black mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite black mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Golgari Rot Farm (battlefield); Vizier of Tumbling Sands (battlefield)
 Prerequisites: Vizier of Tumbling Sands doesn't have summoning sickness.
 Steps: Activate Golgari Rot Farm by tapping it, adding {B}{B}{B}{G}{G}{G} due to Nyxbloom Ancient
@@ -5618,7 +5594,7 @@ Steps: Activate Budoka Gardener // Dokai, Weaver of Life by tapping it, putting 
 ## Combo 280-2085-2645-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Golgari Rot Farm + Kelpie Guide
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
-Produces: Infinite black mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite black mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Golgari Rot Farm (battlefield); Kelpie Guide (battlefield)
 Prerequisites: Kelpie Guide doesn't have summoning sickness.
 Steps: Activate Golgari Rot Farm by tapping it, adding {B}{B}{B}{G}{G}{G} due to Nyxbloom Ancient
@@ -5672,7 +5648,7 @@ Steps: Activate Skyshroud Ranger by tapping it, putting Golgari Rot Farm from yo
 ## Combo 280-2645-2872-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Golgari Rot Farm + Clever Conjurer
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite black mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite black mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Golgari Rot Farm (battlefield); Clever Conjurer (battlefield)
 Prerequisites: Clever Conjurer doesn't have summoning sickness.
 Steps: Activate Golgari Rot Farm by tapping it, adding {B}{B}{B}{G}{G}{G} due to Nyxbloom Ancient
@@ -5684,7 +5660,7 @@ Steps: Activate Golgari Rot Farm by tapping it, adding {B}{B}{B}{G}{G}{G} due to
 ## Combo 280-2645-3430-4644
 Cards: Staff of Domination + Nyxbloom Ancient + Golgari Rot Farm + Tidewater Minion
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite black mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite black mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Golgari Rot Farm (battlefield); Tidewater Minion (battlefield)
 Prerequisites: Tidewater Minion doesn't have summoning sickness.
 Steps: Activate Golgari Rot Farm by tapping it, adding {B}{B}{B}{G}{G}{G} due to Nyxbloom Ancient
@@ -5696,7 +5672,7 @@ Steps: Activate Golgari Rot Farm by tapping it, adding {B}{B}{B}{G}{G}{G} due to
 ## Combo 280-2645-3430-5475
 Cards: Staff of Domination + Nyxbloom Ancient + Golgari Rot Farm + Forensic Researcher
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite black mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite black mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Golgari Rot Farm (battlefield); Forensic Researcher (battlefield)
 Prerequisites: Forensic Researcher doesn't have summoning sickness.
 Steps: Activate Golgari Rot Farm by tapping it, adding {B}{B}{B}{G}{G}{G} due to Nyxbloom Ancient
@@ -5708,7 +5684,7 @@ Steps: Activate Golgari Rot Farm by tapping it, adding {B}{B}{B}{G}{G}{G} due to
 ## Combo 280-2645-3430-7014
 Cards: Staff of Domination + Nyxbloom Ancient + Golgari Rot Farm + North Pole Patrol
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite black mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite black mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Golgari Rot Farm (battlefield); North Pole Patrol (battlefield)
 Prerequisites: North Pole Patrol doesn't have summoning sickness.
 Steps: Activate Golgari Rot Farm by tapping it, adding {B}{B}{B}{G}{G}{G} due to Nyxbloom Ancient
@@ -5735,7 +5711,7 @@ Steps: Cast Animate Land by paying {G}, causing Golgari Rot Farm to become a cre
 
 ## Combo 280-3177-7857
 Cards: Golgari Rot Farm + Sakura-Tribe Scout + Elven Raft-Steerer
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 250 | Commander: legal
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 260 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Golgari Rot Farm (hand); Sakura-Tribe Scout (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Steps: Activate Sakura-Tribe Scout by tapping it, putting Golgari Rot Farm from your hand onto the battlefield.
@@ -5785,7 +5761,7 @@ Steps: Play Golgari Rot Farm. When it enters untapped due to Archelos, Golgari R
 
 ## Combo 280-4826-5451-5702
 Cards: Springheart Nantuko + Golgari Rot Farm + Archelos, Lagoon Mystic + Wayward Swordtooth
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 57 | Commander: legal
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 58 | Commander: legal
 Produces: Infinite creature tokens; Infinite landfall triggers; Infinite creature ETB
 Start: Springheart Nantuko (battlefield: attached to Wayward Swordtooth); Golgari Rot Farm (hand); Archelos, Lagoon Mystic (battlefield: untapped); Wayward Swordtooth (battlefield)
 Prerequisites: You are able to play a land this turn
@@ -5798,7 +5774,7 @@ Steps: Play Golgari Rot Farm. When it enters untapped due to Archelos, Golgari R
 
 ## Combo 280-4826-5702-6850
 Cards: Springheart Nantuko + Golgari Rot Farm + Archelos, Lagoon Mystic + Icetill Explorer
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 160 | Commander: legal
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 170 | Commander: legal
 Produces: Infinite self-mill; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Icetill Explorer); Golgari Rot Farm (hand); Archelos, Lagoon Mystic (battlefield: untapped); Icetill Explorer (battlefield)
 Prerequisites: You are able to play a land this turn
@@ -5837,7 +5813,7 @@ Steps: Activate Zimone and Dina by tapping it and sacrificing Bloodghast, causin
 
 ## Combo 280-5449-5702-8345
 Cards: Springheart Nantuko + Golgari Rot Farm + Oracle of Mul Daya + Warp Speed
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Oracle of Mul Daya); Golgari Rot Farm (hand); Oracle of Mul Daya (battlefield); Warp Speed (battlefield)
 Prerequisites: You are able to play a land this turn
@@ -6534,7 +6510,7 @@ Steps: Activate Gwenna by tapping it, adding {U}{U} that can only be spent to ca
 ## Combo 341-3941-4331-4993
 Cards: Drafna, Founder of Lat-Nam + Manifold Key + Coveted Jewel + Umori, the Collector
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite artifact ETB; Infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
+Produces: Infinite card draw; Near-infinite artifact ETB; Near-infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
 Start: Drafna, Founder of Lat-Nam (battlefield); Manifold Key (battlefield); Coveted Jewel (battlefield); Umori, the Collector (battlefield: with "Artifact" chosen)
 Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
   Activate Manifold Key by paying {1} and tapping it, untapping Coveted Jewel.
@@ -6826,7 +6802,7 @@ Steps: Activate Grim Poppet by removing a -1/-1 counter from it, putting a -1/-1
 ## Combo 391-2645-3430-3478
 Cards: Staff of Domination + Nyxbloom Ancient + Blossom Dryad + Dimir Aqueduct
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite black mana; Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite black mana; Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Blossom Dryad (battlefield); Dimir Aqueduct (battlefield)
 Prerequisites: Blossom Dryad doesn't have summoning sickness.
 Steps: Activate Dimir Aqueduct by tapping it, adding {U}{U}{U}{B}{B}{B} due to Nyxbloom Ancient
@@ -7763,7 +7739,7 @@ Steps: Activate Blasting Station by tapping it and sacrificing the creature that
 
 ## Combo 413-5544-6462
 Cards: Forsaken Miner + Kheru Goldkeeper + Blasting Station
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal | Mana needed: {B}
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal | Mana needed: {B}
 Produces: Infinite damage; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Forsaken Miner (battlefield); Kheru Goldkeeper (battlefield); Blasting Station (battlefield)
 Steps: Activate Blasting Station by tapping it and sacrificing Forsaken Miner, targeting any opponent.
@@ -8449,7 +8425,7 @@ Steps: Cast Phyrexian Scriptures by paying {2}{B}{B}. When it enters, its first 
 
 ## Combo 457-1409-2499
 Cards: Urza, Lord High Artificer + Deadeye Navigator + Yarok, the Desecrated
-Color identity: BGU | Bracket: 3-4+ (Spicy) | Popularity: 75 | Commander: legal | Mana needed: {1}{U}
+Color identity: BGU | Bracket: 3-4+ (Spicy) | Popularity: 76 | Commander: legal | Mana needed: {1}{U}
 Produces: Infinite tapped creature tokens; Infinite creature LTB; Infinite creature ETB
 Start: Urza, Lord High Artificer (battlefield); Deadeye Navigator (battlefield); Yarok, the Desecrated (battlefield)
 Prerequisites: Deadeye Navigator paired with Urza.
@@ -8665,7 +8641,7 @@ Steps: At the beginning of your upkeep, Mechanized Production triggers.
 
 ## Combo 500-851-2743
 Cards: Biovisionary + Saw in Half + Adrix and Nev, Twincasters
-Color identity: BGU | Bracket: 3-4+ (Spicy) | Popularity: 59 | Commander: legal | Mana needed: {2}{B}
+Color identity: BGU | Bracket: 3-4+ (Spicy) | Popularity: 62 | Commander: legal | Mana needed: {2}{B}
 Produces: Win the game
 Start: Biovisionary (battlefield); Saw in Half (hand); Adrix and Nev, Twincasters (battlefield)
 Steps: Cast Saw in Half by paying {2}{B}, destroying Biovisionary and creating four token copies of it with base power equal to half the destroyed creature's power and base toughness equal to half the destroyed creature's toughness, rounding up each time.
@@ -8780,7 +8756,7 @@ Steps: At the beginning of your upkeep, Mechanized Production triggers.
 
 ## Combo 500-2557-2743
 Cards: Biovisionary + Saw in Half + Parallel Lives
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal | Mana needed: {2}{B}
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal | Mana needed: {2}{B}
 Produces: Win the game
 Start: Biovisionary (battlefield); Saw in Half (hand); Parallel Lives (battlefield)
 Steps: Cast Saw in Half by paying {2}{B}, destroying Biovisionary and creating four token copies of it with base power equal to half the destroyed creature's power and base toughness equal to half the destroyed creature's toughness, rounding up each time.
@@ -8856,7 +8832,7 @@ Steps: Activate Fungal Bloom by paying {G}{G}, putting two spore counters on a F
 
 ## Combo 513-527-4927
 Cards: Hullbreaker Horror + Selvala, Heart of the Wilds + Tyvar, Jubilant Brawler
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 100 | Commander: legal | Mana needed: {G}
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 99 | Commander: legal | Mana needed: {G}
 Produces: Infinite colored mana; Infinite creature LTB; Infinite creature ETB; Infinite storm count
 Start: Hullbreaker Horror (battlefield); Selvala, Heart of the Wilds (battlefield); Tyvar, Jubilant Brawler (battlefield)
 Prerequisites: You have a creature card in hand that can be cast using only colored mana.
@@ -8939,7 +8915,7 @@ Steps: Activate Volrath by paying {1}, causing it to become a copy of Selvala.
 
 ## Combo 527-979-3812
 Cards: Likeness Looter + Selvala, Heart of the Wilds + Simic Ragworm
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal | Mana needed: {3}{G}
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal | Mana needed: {3}{G}
 Produces: Infinite colored mana
 Start: Likeness Looter (battlefield); Selvala, Heart of the Wilds (graveyard); Simic Ragworm (graveyard)
 Prerequisites: You control a creature with power 9 or greater.
@@ -9074,7 +9050,7 @@ Steps: Activate Havengul Lich by paying {1}, targeting Selvala.
 
 ## Combo 527-3812-6287
 Cards: Mimeoplasm, Revered One + Selvala, Heart of the Wilds + Simic Ragworm
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal | Mana needed: {2}{G}
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal | Mana needed: {2}{G}
 Produces: Infinite colored mana
 Start: Mimeoplasm, Revered One (battlefield); Selvala, Heart of the Wilds (exile); Simic Ragworm (exile)
 Prerequisites: You control a creature with power 7 or greater.
@@ -11799,7 +11775,7 @@ Steps: Cast Splendid Reclamation by paying {3}{G}.
 
 ## Combo 681-1637-2167-4423-4826
 Cards: Archelos, Lagoon Mystic + Mystic Sanctuary + Splendid Reclamation + Squandered Resources + Aesi, Tyrant of Gyre Strait
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 69 | Commander: legal
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 68 | Commander: legal
 Produces: Infinite card draw; Infinite lifegain; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite landfall triggers; Infinite magecraft triggers; Infinite storm count
 Start: Archelos, Lagoon Mystic (battlefield); Mystic Sanctuary (battlefield); Splendid Reclamation (hand); Squandered Resources (battlefield); Aesi, Tyrant of Gyre Strait (battlefield)
 Prerequisites: You control at least one Forest and two additional lands.
@@ -11830,7 +11806,7 @@ Steps: Activate Mystic Sanctuary, a Forest and two other lands by tapping them, 
 
 ## Combo 681-1644-2167-4423-4826
 Cards: Archelos, Lagoon Mystic + Mystic Sanctuary + Splendid Reclamation + Squandered Resources + Tatyova, Benthic Druid
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 89 | Commander: legal
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 88 | Commander: legal
 Produces: Infinite card draw; Near-infinite lifegain; Near-infinite mana lands you control can produce; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite landfall triggers; Near-infinite magecraft triggers; Near-infinite storm count
 Start: Archelos, Lagoon Mystic (battlefield); Mystic Sanctuary (battlefield); Splendid Reclamation (hand); Squandered Resources (battlefield); Tatyova, Benthic Druid (battlefield)
 Prerequisites: You control at least one Forest and two additional lands.
@@ -11907,7 +11883,7 @@ Steps: Cast Tajuru Archer by paying {2}{G}.
 
 ## Combo 717-864-2628--38
 Cards: Escape Protocol + Bone Miser + Eternal Witness
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 65 | Commander: legal
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 66 | Commander: legal
 Produces: Infinite card draw; Near-infinite creature ETB; Near-infinite creature LTB
 Requires: Land with Cycling Cost that can be paid using one colored mana (hand)
 Start: Escape Protocol (battlefield); Bone Miser (battlefield); Eternal Witness (battlefield)
@@ -11935,7 +11911,7 @@ Notes: You can discard down to maximum hand size at end of turn to trigger Bone 
 
 ## Combo 717-1062-2628--38
 Cards: Escape Protocol + Bone Miser + Slogurk, the Overslime
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite card draw; Near-infinite creature ETB; Near-infinite creature LTB; Return all land cards from your graveyard to your hand
 Requires: Land with Cycling Cost that can be paid using one colored mana (hand)
 Start: Escape Protocol (battlefield); Bone Miser (battlefield); Slogurk, the Overslime (battlefield)
@@ -13605,7 +13581,7 @@ Steps: During your precombat main phase, activate Grimgrin by sacrificing the ad
 ## Combo 728-1659-7084
 Cards: Beifong's Bounty Hunters + Grimgrin, Corpse-Born + Seed the Land
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Grimgrin, Corpse-Born (battlefield); Seed the Land (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -15321,7 +15297,7 @@ Steps: Activate a basic land by tapping it, adding one mana.
 ## Combo 728-2907-7084
 Cards: Beifong's Bounty Hunters + Grimgrin, Corpse-Born + Scute Swarm
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Grimgrin, Corpse-Born (battlefield); Scute Swarm (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -17034,7 +17010,7 @@ Steps: Activate Grimgrin by tapping it, adding {1}.
 ## Combo 728-3534-7084
 Cards: Beifong's Bounty Hunters + Field of the Dead + Grimgrin, Corpse-Born
 Color identity: BGU | Bracket: 3+ (Powerful) | Popularity: 5 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Field of the Dead (battlefield); Grimgrin, Corpse-Born (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -17077,7 +17053,7 @@ Notes: You can tap as many nontoken Merfolk as able each iteration by repeating 
 ## Combo 728-3585-7084
 Cards: Beifong's Bounty Hunters + Grimgrin, Corpse-Born + Greensleeves, Maro-Sorcerer
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Grimgrin, Corpse-Born (battlefield); Greensleeves, Maro-Sorcerer (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -17093,7 +17069,7 @@ Steps: Activate Grimgrin by sacrificing another nonland creature you control.
 ## Combo 728-3703-7084
 Cards: Beifong's Bounty Hunters + Grimgrin, Corpse-Born + Sporemound
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Grimgrin, Corpse-Born (battlefield); Sporemound (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -17248,7 +17224,7 @@ Steps: Activate Grimgrin by sacrificing a creature with a +1/+1 counter on it.
 ## Combo 728-4488-7084
 Cards: Beifong's Bounty Hunters + Grimgrin, Corpse-Born + Rampaging Baloths
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Grimgrin, Corpse-Born (battlefield); Rampaging Baloths (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -17277,7 +17253,7 @@ Steps: Activate Grimgrin by sacrificing Ancient Adamantoise.
 ## Combo 728-4677-7084
 Cards: Beifong's Bounty Hunters + Grimgrin, Corpse-Born + Zendikar's Roil
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Grimgrin, Corpse-Born (battlefield); Zendikar's Roil (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -17572,7 +17548,7 @@ Steps: Activate Grimgrin by sacrificing the persist creature that has a +1/+1 co
 ## Combo 728-5702-7084
 Cards: Beifong's Bounty Hunters + Grimgrin, Corpse-Born + Springheart Nantuko
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Grimgrin, Corpse-Born (battlefield); Springheart Nantuko (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -17642,7 +17618,7 @@ Steps: Activate Grimgrin by sacrificing the persist creature.
 ## Combo 728-6528-7084
 Cards: Beifong's Bounty Hunters + Grimgrin, Corpse-Born + Elfsworn Giant
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Grimgrin, Corpse-Born (battlefield); Elfsworn Giant (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -17658,7 +17634,7 @@ Steps: Activate Grimgrin by sacrificing another nonland creature you control.
 ## Combo 728-6529-7084
 Cards: Beifong's Bounty Hunters + Grimgrin, Corpse-Born + Curse of the Restless Dead
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Grimgrin, Corpse-Born (battlefield); Curse of the Restless Dead (battlefield: attached to you)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -17684,10 +17660,10 @@ Steps: Activate Grimgrin by sacrificing the persist creature.
   Repeat
 
 ## Combo 728-6662-7084
-Cards: Beifong's Bounty Hunters + Grimgrin, Corpse-Born + Chocobo Racetrack
+Cards: Beifong's Bounty Hunters + Chocobo Racetrack + Grimgrin, Corpse-Born
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
-Start: Beifong's Bounty Hunters (battlefield); Grimgrin, Corpse-Born (battlefield); Chocobo Racetrack (battlefield)
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinitely powerful Bird tokens you control until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Start: Beifong's Bounty Hunters (battlefield); Chocobo Racetrack (battlefield); Grimgrin, Corpse-Born (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
 Steps: Activate Grimgrin by sacrificing another nonland creature you control.
@@ -17702,7 +17678,7 @@ Steps: Activate Grimgrin by sacrificing another nonland creature you control.
 ## Combo 728-6754-7084
 Cards: Beifong's Bounty Hunters + Grimgrin, Corpse-Born + Eusocial Engineering
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Grimgrin, Corpse-Born (battlefield); Eusocial Engineering (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -17779,7 +17755,7 @@ Steps: Activate Grimgrin by sacrificing the creature with persist.
 ## Combo 728-7084-7201
 Cards: Beifong's Bounty Hunters + Grimgrin, Corpse-Born + Sapling Nursery
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Grimgrin, Corpse-Born (battlefield); Sapling Nursery (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -17795,7 +17771,7 @@ Steps: Activate Grimgrin by sacrificing another nonland creature you control.
 ## Combo 728-7084-7705
 Cards: Beifong's Bounty Hunters + Grimgrin, Corpse-Born + Mole Man, Moloid Master
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Grimgrin, Corpse-Born (battlefield); Mole Man, Moloid Master (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -17811,7 +17787,7 @@ Steps: Activate Grimgrin by sacrificing another nonland creature you control.
 ## Combo 728-7084-7885
 Cards: Beifong's Bounty Hunters + Grimgrin, Corpse-Born + Down in the Valley
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Grimgrin, Corpse-Born (battlefield); Down in the Valley (battlefield: with two or more lore counters on it)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -17827,7 +17803,7 @@ Steps: Activate Grimgrin by sacrificing another nonland creature you control.
 ## Combo 728-7084-7889
 Cards: Beifong's Bounty Hunters + Grimgrin, Corpse-Born + Dancing from Dark to Dawn
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Grimgrin, Corpse-Born (battlefield); Dancing from Dark to Dawn (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -17843,7 +17819,7 @@ Steps: Activate Grimgrin by sacrificing another nonland creature you control.
 ## Combo 728-7084-7892
 Cards: Beifong's Bounty Hunters + Grimgrin, Corpse-Born + Thranduil the Strategist
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Grimgrin, Corpse-Born (battlefield); Thranduil the Strategist (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -17859,7 +17835,7 @@ Steps: Activate Grimgrin by sacrificing another nonland creature you control.
 ## Combo 728-7084-7893
 Cards: Beifong's Bounty Hunters + Grimgrin, Corpse-Born + Thranduil, Sindarin Liege // Silvan Rally
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Grimgrin, Corpse-Born (battlefield); Thranduil, Sindarin Liege // Silvan Rally (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -17929,7 +17905,7 @@ Steps: Activate Grimgrin by sacrificing the persist creature.
 
 ## Combo 728-7804--5
 Cards: Grimgrin, Corpse-Born + Captain Kathryn Janeway
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Grimgrin, Corpse-Born (battlefield); Captain Kathryn Janeway (battlefield)
@@ -18565,7 +18541,7 @@ Steps: During an opponent's turn, activate Ghost Town's first ability by tapping
 
 ## Combo 774-3470-3478
 Cards: Patron of the Moon + Lotus Cobra + Dimir Aqueduct
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 560 | Commander: legal | Mana needed: {1}
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 570 | Commander: legal | Mana needed: {1}
 Produces: Infinite landfall triggers
 Start: Patron of the Moon (battlefield); Lotus Cobra (battlefield); Dimir Aqueduct (hand)
 Steps: Activate Patron of the Moon by paying {1}, putting Dimir Aqueduct from your hand onto the battlefield tapped.
@@ -18599,7 +18575,7 @@ Steps: Pay {1} to activate Patron of the Moon, putting Dimir Aqueduct onto the b
 
 ## Combo 774-3478-5478
 Cards: Patron of the Moon + Spelunking + Dimir Aqueduct
-Color identity: BGU | Bracket: 3-4+ (Spicy) | Popularity: 280 | Commander: legal | Mana needed: {1}
+Color identity: BGU | Bracket: 3-4+ (Spicy) | Popularity: 290 | Commander: legal | Mana needed: {1}
 Produces: Infinite black mana; Infinite blue mana; Infinite landfall triggers
 Start: Patron of the Moon (battlefield); Spelunking (battlefield); Dimir Aqueduct (hand)
 Steps: Pay {1} to activate Patron of the Moon, putting Dimir Aqueduct from your hand onto the battlefield untapped due to Spelunking.
@@ -18821,7 +18797,7 @@ Steps: Cast Triumph of the Hordes by paying {2}{G}{G}, giving creatures you cont
 
 ## Combo 790-3862-4179
 Cards: Windfall + Orcish Bowmasters + Triumph of the Hordes
-Color identity: BGU | Bracket: 3+ (Powerful) | Popularity: 17 | Commander: legal | Mana needed: {4}{G}{G}{U}
+Color identity: BGU | Bracket: 3+ (Powerful) | Popularity: 16 | Commander: legal | Mana needed: {4}{G}{G}{U}
 Produces: Each opponent loses the game
 Start: Windfall (battlefield); Orcish Bowmasters (battlefield); Triumph of the Hordes (hand)
 Prerequisites: A player has a number of cards in hand that is greater than or equal to 10 minus the lowest amount of poison counters an opponent has.
@@ -22667,7 +22643,7 @@ Steps: Activate Experiment Kraj using Devoted Druid's second ability by putting 
 ## Combo 950-2645-3430-3478
 Cards: Staff of Domination + Nyxbloom Ancient + Fatestitcher + Dimir Aqueduct
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite black mana; Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite black mana; Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Fatestitcher (battlefield); Dimir Aqueduct (battlefield)
 Prerequisites: Fatestitcher doesn't have summoning sickness.
 Steps: Activate Dimir Aqueduct by tapping it, adding {U}{U}{U}{B}{B}{B} due to Nyxbloom Ancient
@@ -22679,7 +22655,7 @@ Steps: Activate Dimir Aqueduct by tapping it, adding {U}{U}{U}{B}{B}{B} due to N
 ## Combo 950-2645-3430-5873
 Cards: Staff of Domination + Nyxbloom Ancient + Fatestitcher + Everglades
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite black mana; Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite black mana; Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Fatestitcher (battlefield); Everglades (battlefield)
 Prerequisites: Fatestitcher doesn't have summoning sickness.
 Steps: Activate Everglades by tapping it, adding {C}{C}{C}{B}{B}{B} due to Nyxbloom Ancient
@@ -22898,7 +22874,7 @@ Steps: Activate Woe Strider by sacrificing Dryad Arbor.
 
 ## Combo 997-1445-4871-6351
 Cards: Tortured Existence + Pitiless Plunderer + Woe Strider + Teval, the Balanced Scale
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 120 | Commander: legal | Mana needed: {B}
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 130 | Commander: legal | Mana needed: {B}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1; Infinite self-discard triggers
 Start: Tortured Existence (battlefield); Pitiless Plunderer (battlefield); Woe Strider (battlefield); Teval, the Balanced Scale (battlefield)
 Prerequisites: You have a creature card in hand and a creature card in your graveyard.
@@ -23340,7 +23316,7 @@ Steps: Activate Woe Strider by sacrificing Nether Traitor.
 
 ## Combo 997-3240-6351-6462
 Cards: Nether Traitor + Kheru Goldkeeper + Woe Strider + Teval, the Balanced Scale
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal | Mana needed: {B}
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal | Mana needed: {B}
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite scry 1
 Start: Nether Traitor (battlefield); Kheru Goldkeeper (battlefield); Woe Strider (battlefield); Teval, the Balanced Scale (battlefield)
 Prerequisites: You control another creature.
@@ -23368,7 +23344,7 @@ Steps: Activate Woe Strider by sacrificing Nether Traitor.
 
 ## Combo 997-3388--5
 Cards: Moritte of the Frost + Woe Strider
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite scry 1
 Requires: Persist Creature (battlefield)
 Start: Moritte of the Frost (battlefield: as a copy of the creature with persist.); Woe Strider (battlefield)
@@ -23585,7 +23561,7 @@ Steps: Cast Infested Thrinax by paying {3}{B}{G}.
 
 ## Combo 997-5058-6351
 Cards: Screams from Within + Woe Strider + Teval, the Balanced Scale
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 42 | Commander: legal
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Start: Screams from Within (battlefield: attached to another creature you control); Woe Strider (battlefield); Teval, the Balanced Scale (battlefield)
 Prerequisites: You control an additional creature.
@@ -23658,7 +23634,7 @@ Steps: Activate Woe Strider by sacrificing another nonland creature.
 
 ## Combo 997-6351-7084
 Cards: Beifong's Bounty Hunters + Woe Strider + Teval, the Balanced Scale
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 83 | Commander: legal
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 84 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers; Infinite scry 1
 Start: Beifong's Bounty Hunters (battlefield); Woe Strider (battlefield); Teval, the Balanced Scale (battlefield)
 Prerequisites: You control a land.
@@ -23675,7 +23651,7 @@ Steps: Activate Woe Strider by sacrificing another nonland creature you control.
 ## Combo 997-7084-7892
 Cards: Beifong's Bounty Hunters + Woe Strider + Thranduil the Strategist
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers; Infinite scry 1
+Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers; Infinite scry 1
 Start: Beifong's Bounty Hunters (battlefield); Woe Strider (battlefield); Thranduil the Strategist (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -23691,7 +23667,7 @@ Steps: Activate Woe Strider by sacrificing another nonland creature you control.
 ## Combo 997-7084-7893
 Cards: Beifong's Bounty Hunters + Woe Strider + Thranduil, Sindarin Liege // Silvan Rally
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers; Infinite scry 1
+Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers; Infinite scry 1
 Start: Beifong's Bounty Hunters (battlefield); Woe Strider (battlefield); Thranduil, Sindarin Liege // Silvan Rally (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -24252,7 +24228,7 @@ Steps: Cast Clone Legion by paying {7}{U}{U}, causing you to create a token copy
 
 ## Combo 1018-5256-6490--88
 Cards: Kotis, Sibsig Champion + Altar of Dementia + Skullwinder
-Color identity: BGU | Bracket: 4+ (Ruthless) | Popularity: 19 | Commander: legal
+Color identity: BGU | Bracket: 4+ (Ruthless) | Popularity: 18 | Commander: legal
 Produces: Near-infinite turns; Lock
 Requires: Extra Turn Spell - GY on Resolution (hand)
 Start: Kotis, Sibsig Champion (battlefield); Altar of Dementia (battlefield); Skullwinder (battlefield)
@@ -24809,7 +24785,7 @@ Steps: Activate King Macar by tapping it, adding {U}.
 
 ## Combo 1074-3525-4289
 Cards: King Macar, the Gold-Cursed + Pemmin's Aura + Cryptolith Rite
-Color identity: BGU | Bracket: 3-4+ (Spicy) | Popularity: 35 | Commander: legal
+Color identity: BGU | Bracket: 3-4+ (Spicy) | Popularity: 34 | Commander: legal
 Produces: Near-infinite colored mana; Near-infinite Gold tokens; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Exile all creatures opponents control
 Start: King Macar, the Gold-Cursed (battlefield: without summoning sickness); Pemmin's Aura (battlefield: attached to King Macar); Cryptolith Rite (battlefield)
 Steps: Activate King Macar by tapping it, adding {U}.
@@ -24829,7 +24805,7 @@ Steps: Activate King Macar by tapping it, adding {U}.
 
 ## Combo 1074-3525-6006
 Cards: King Macar, the Gold-Cursed + Pemmin's Aura + Enduring Vitality
-Color identity: BGU | Bracket: 3-4+ (Spicy) | Popularity: 17 | Commander: legal
+Color identity: BGU | Bracket: 3-4+ (Spicy) | Popularity: 16 | Commander: legal
 Produces: Near-infinite colored mana; Near-infinite Gold tokens; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Exile all creatures opponents control
 Start: King Macar, the Gold-Cursed (battlefield: without summoning sickness); Pemmin's Aura (battlefield: attached to King Macar); Enduring Vitality (battlefield)
 Steps: Activate King Macar by tapping it, adding {U}.
@@ -24859,7 +24835,7 @@ Steps: Activate King Macar by tapping it, adding {U}.
 
 ## Combo 1074-4222-4289
 Cards: King Macar, the Gold-Cursed + Freed from the Real + Cryptolith Rite
-Color identity: BGU | Bracket: 3-4+ (Spicy) | Popularity: 93 | Commander: legal
+Color identity: BGU | Bracket: 3-4+ (Spicy) | Popularity: 92 | Commander: legal
 Produces: Near-infinite colored mana; Near-infinite Gold tokens; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Exile all creatures opponents control
 Start: King Macar, the Gold-Cursed (battlefield: without summoning sickness); Freed from the Real (battlefield: attached to King Macar); Cryptolith Rite (battlefield)
 Steps: Activate King Macar by tapping it, adding {U}.
@@ -24891,7 +24867,7 @@ Steps: Activate King Macar by tapping it, adding {U}.
 
 ## Combo 1074-4222-6006
 Cards: King Macar, the Gold-Cursed + Freed from the Real + Enduring Vitality
-Color identity: BGU | Bracket: 3-4+ (Spicy) | Popularity: 34 | Commander: legal
+Color identity: BGU | Bracket: 3-4+ (Spicy) | Popularity: 33 | Commander: legal
 Produces: Near-infinite colored mana; Near-infinite Gold tokens; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Exile all creatures opponents control
 Start: King Macar, the Gold-Cursed (battlefield: without summoning sickness); Freed from the Real (battlefield: attached to King Macar); Enduring Vitality (battlefield)
 Steps: Activate King Macar by tapping it, adding {U}.
@@ -24995,7 +24971,7 @@ Steps: Activate Grim Poppet by removing a -1/-1 counter from it, putting a -1/-1
 
 ## Combo 1084-3108-4116
 Cards: Volrath, the Shapestealer + Grim Poppet + Flourishing Defenses
-Color identity: BGU | Bracket: 3-4+ (Spicy) | Popularity: 75 | Commander: legal | Mana needed: {1}
+Color identity: BGU | Bracket: 3-4+ (Spicy) | Popularity: 76 | Commander: legal | Mana needed: {1}
 Produces: Infinite creature tokens; Infinite creature ETB
 Start: Volrath, the Shapestealer (battlefield); Grim Poppet (battlefield: with a -1/-1 counter on it); Flourishing Defenses (battlefield)
 Steps: Activate Volrath by paying {1}, causing it to become a copy of Grim Poppet until your next turn.
@@ -25118,7 +25094,7 @@ Steps: Cast Kasmina from your graveyard by paying {1}{U}{G}.
 
 ## Combo 1124-2032-2034-3323-4450
 Cards: Tevesh Szat, Doom of Fools + The Chain Veil + Carth the Lion + Kiora, Behemoth Beckoner + Ashnod's Altar
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite activations of most planeswalkers; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Tevesh Szat, Doom of Fools (battlefield); The Chain Veil (battlefield); Carth the Lion (battlefield); Kiora, Behemoth Beckoner (battlefield); Ashnod's Altar (battlefield)
 Steps: Activate Tevesh Szat's first loyalty ability by putting three loyalty counters on it, creating two 0/1 Thrull creature tokens.
@@ -26193,7 +26169,7 @@ Steps: Cast Whip Silk by paying {G}.
 
 ## Combo 1170-2478-5131
 Cards: Muldrotha, the Gravetide + Displacer Kitten + Mishra's Bauble
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 610 | Commander: legal
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 620 | Commander: legal
 Produces: Infinite card draw at the beginning of the next upkeep; Infinite draw triggers at the beginning of the next upkeep; Infinite storm count
 Start: Muldrotha, the Gravetide (battlefield); Displacer Kitten (battlefield); Mishra's Bauble (battlefield)
 Prerequisites: You have not cast an artifact spell using Muldrotha this turn.
@@ -26797,7 +26773,7 @@ Steps: Activate Tormod Crypt by tapping and sacrificing it, exiling all cards in
 
 ## Combo 1170-4659-5131--58
 Cards: Muldrotha, the Gravetide + Displacer Kitten + Krark-Clan Ironworks
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature LTB; Infinite creature ETB; Infinite storm count
 Requires: Noncreature Artifact Castable for {2} (graveyard)
 Start: Muldrotha, the Gravetide (battlefield); Displacer Kitten (battlefield); Krark-Clan Ironworks (battlefield)
@@ -27706,7 +27682,7 @@ Steps: Cast Harald Unties the Elves by paying {2}{B}{G}, causing it to enter the
 
 ## Combo 1263-2034-6462
 Cards: Kheru Goldkeeper + Ashnod's Altar + Bloodsoaked Champion
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal | Mana needed: {B}
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal | Mana needed: {B}
 Produces: Infinite colorless mana; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Kheru Goldkeeper (battlefield); Ashnod's Altar (battlefield); Bloodsoaked Champion (graveyard)
 Prerequisites: You have attacked this turn.
@@ -27742,7 +27718,7 @@ Steps: Activate Phyrexian Altar by sacrificing Bloodsoaked Champion, adding {B}.
 
 ## Combo 1268-3443
 Cards: Crab Umbra + Deathbloom Ritualist
-Color identity: BGU | Bracket: 3-4+ (Spicy) | Popularity: 26 | Commander: legal
+Color identity: BGU | Bracket: 3-4+ (Spicy) | Popularity: 27 | Commander: legal
 Produces: Infinite colored mana
 Start: Crab Umbra (battlefield: attached to Deathbloom Ritualist); Deathbloom Ritualist (battlefield: without summoning sickness)
 Prerequisites: You have at least four creature cards in your graveyard.
@@ -28336,7 +28312,7 @@ Steps: Activate Zuran Orb by sacrificing any land, causing you to gain 2 life.
 
 ## Combo 1315-5478-5531-5732
 Cards: Lumra, Bellow of the Woods + Port of Karfell + Spelunking + Zuran Orb
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 430 | Commander: legal
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 420 | Commander: legal
 Produces: Infinite lifegain; Infinite mana lands you control can produce; Infinite self-mill; Infinite lifegain triggers; Put all land cards from your library and graveyard onto the battlefield; Infinite death triggers; Infinite creature ETB; Infinite landfall triggers; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Lumra, Bellow of the Woods (graveyard); Port of Karfell (battlefield); Spelunking (battlefield); Zuran Orb (battlefield)
 Prerequisites: Lands you control excluding Port of Karfell can tap to produce at least {3}{U}{B}{B}.
@@ -28544,7 +28520,7 @@ Steps: Activate Experiment Kraj using Deathbloom Ritualist's ability by tapping 
 
 ## Combo 1336-3812-6287
 Cards: Mimeoplasm, Revered One + Heronblade Elite + Simic Ragworm
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal | Mana needed: {2}
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 32 | Commander: legal | Mana needed: {2}
 Produces: Infinite colored mana
 Start: Mimeoplasm, Revered One (battlefield); Heronblade Elite (exile); Simic Ragworm (exile)
 Prerequisites: Mimeoplasm does not have summoning sickness and has power 6 or greater.
@@ -29546,7 +29522,7 @@ Steps: Activate Nissa's first loyalty ability by putting a loyalty counter on it
 ## Combo 1432-2645-3430-3478
 Cards: Staff of Domination + Nyxbloom Ancient + Ioreth of the Healing House + Dimir Aqueduct
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
-Produces: Infinite black mana; Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite black mana; Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Ioreth of the Healing House (battlefield); Dimir Aqueduct (battlefield)
 Prerequisites: Ioreth of the Healing House doesn't have summoning sickness.
 Steps: Activate Dimir Aqueduct by tapping it, adding {U}{U}{U}{B}{B}{B} due to Nyxbloom Ancient
@@ -29558,7 +29534,7 @@ Steps: Activate Dimir Aqueduct by tapping it, adding {U}{U}{U}{B}{B}{B} due to N
 ## Combo 1432-2645-3430-5873
 Cards: Staff of Domination + Nyxbloom Ancient + Ioreth of the Healing House + Everglades
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite black mana; Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite black mana; Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Ioreth of the Healing House (battlefield); Everglades (battlefield)
 Prerequisites: Ioreth of the Healing House doesn't have summoning sickness.
 Steps: Activate Everglades by tapping it, adding {C}{C}{C}{B}{B}{B} due to Nyxbloom Ancient
@@ -29860,10 +29836,10 @@ Steps: Activate Viscera Seer by sacrificing a creature with a +1/+1 counter on i
   Repeat from step 1.
 
 ## Combo 1453-2438-4694-7306
-Cards: The Ooze + Carrion Feeder + Arwen, Weaver of Hope + March of the Machines
+Cards: The Ooze + Arwen, Weaver of Hope + Carrion Feeder + March of the Machines
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite artifact tokens; Infinite Mutagen tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Carrion Feeder (battlefield); Arwen, Weaver of Hope (battlefield); March of the Machines (battlefield)
+Start: The Ooze (battlefield); Arwen, Weaver of Hope (battlefield); Carrion Feeder (battlefield); March of the Machines (battlefield)
 Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Carrion Feeder by sacrificing a creature with a +1/+1 counter on it.
   When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
@@ -29872,10 +29848,10 @@ Steps: Activate Carrion Feeder by sacrificing a creature with a +1/+1 counter on
   Repeat from step 1.
 
 ## Combo 1453-2511-4694-7306
-Cards: The Ooze + Bloodflow Connoisseur + Arwen, Weaver of Hope + March of the Machines
+Cards: The Ooze + Arwen, Weaver of Hope + Bloodflow Connoisseur + March of the Machines
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite artifact tokens; Infinite Mutagen tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Bloodflow Connoisseur (battlefield); Arwen, Weaver of Hope (battlefield); March of the Machines (battlefield)
+Start: The Ooze (battlefield); Arwen, Weaver of Hope (battlefield); Bloodflow Connoisseur (battlefield); March of the Machines (battlefield)
 Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Bloodflow Connoisseur by sacrificing a creature with a +1/+1 counter on it.
   When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
@@ -29884,10 +29860,10 @@ Steps: Activate Bloodflow Connoisseur by sacrificing a creature with a +1/+1 cou
   Repeat from step 1.
 
 ## Combo 1453-3967-4694-7306
-Cards: The Ooze + Yahenni, Undying Partisan + Arwen, Weaver of Hope + March of the Machines
+Cards: The Ooze + Arwen, Weaver of Hope + Yahenni, Undying Partisan + March of the Machines
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite artifact tokens; Infinite Mutagen tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Yahenni, Undying Partisan (battlefield); Arwen, Weaver of Hope (battlefield); March of the Machines (battlefield)
+Start: The Ooze (battlefield); Arwen, Weaver of Hope (battlefield); Yahenni, Undying Partisan (battlefield); March of the Machines (battlefield)
 Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Yahenni by sacrificing a creature with a +1/+1 counter on it.
   When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
@@ -29896,10 +29872,10 @@ Steps: Activate Yahenni by sacrificing a creature with a +1/+1 counter on it.
   Repeat from step 1.
 
 ## Combo 1453-4247-4694-7306
-Cards: The Ooze + Bloodthrone Vampire + Arwen, Weaver of Hope + March of the Machines
+Cards: The Ooze + Arwen, Weaver of Hope + Bloodthrone Vampire + March of the Machines
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite artifact tokens; Infinitely large creature until end of turn; Infinite Mutagen tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Bloodthrone Vampire (battlefield); Arwen, Weaver of Hope (battlefield); March of the Machines (battlefield)
+Start: The Ooze (battlefield); Arwen, Weaver of Hope (battlefield); Bloodthrone Vampire (battlefield); March of the Machines (battlefield)
 Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Bloodthrone Vampire by sacrificing a creature with a +1/+1 counter on it.
   When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
@@ -29908,10 +29884,10 @@ Steps: Activate Bloodthrone Vampire by sacrificing a creature with a +1/+1 count
   Repeat from step 1.
 
 ## Combo 1453-4694-6797-7306
-Cards: The Ooze + Phantom Train + Arwen, Weaver of Hope + March of the Machines
+Cards: The Ooze + Arwen, Weaver of Hope + March of the Machines + Phantom Train
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite artifact tokens; Infinite Mutagen tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Phantom Train (battlefield); Arwen, Weaver of Hope (battlefield); March of the Machines (battlefield)
+Start: The Ooze (battlefield); Arwen, Weaver of Hope (battlefield); March of the Machines (battlefield); Phantom Train (battlefield)
 Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Phantom Train by sacrificing a creature with a +1/+1 counter on it.
   When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
@@ -29932,10 +29908,10 @@ Steps: Activate Umbral Collar Zealot by sacrificing a creature with a +1/+1 coun
   Repeat from step 1.
 
 ## Combo 1453-4694-7306-8095
-Cards: The Ooze + Hammerhead, Maggia Boss + Arwen, Weaver of Hope + March of the Machines
+Cards: The Ooze + Arwen, Weaver of Hope + March of the Machines + Hammerhead, Maggia Boss
 Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite artifact tokens; Infinite Mutagen tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Hammerhead, Maggia Boss (battlefield); Arwen, Weaver of Hope (battlefield); March of the Machines (battlefield)
+Start: The Ooze (battlefield); Arwen, Weaver of Hope (battlefield); March of the Machines (battlefield); Hammerhead, Maggia Boss (battlefield)
 Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Hammerhead by sacrificing a creature with a +1/+1 counter on it.
   When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
@@ -30197,7 +30173,7 @@ Steps: Activate Extruder by sacrificing Tom, Bert, and William.
 
 ## Combo 1479-1659-3478
 Cards: Kodama of the East Tree + Seed the Land + Dimir Aqueduct
-Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 24 | Commander: legal
+Color identity: BGU | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Seed the Land (battlefield); Dimir Aqueduct (hand)
 Prerequisites: You are able to play a land this turn.

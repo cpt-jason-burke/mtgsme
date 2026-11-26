@@ -1,27 +1,3 @@
-## Combo 2034-4352-5003
-Cards: Nim Deathmantle + Ashnod's Altar + Maulfist Squad
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {2}
-Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
-Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Maulfist Squad (battlefield)
-Steps: Activate Ashnod's Altar by sacrificing Maulfist Squad, adding {C}{C}.
-  When Maulfist Squad dies, Nim Deathmantle triggers, causing you to pay {4} to return Maulfist Squad from your graveyard to the battlefield, and attach Nim Deathmantle to it.
-  When Maulfist Squad enters the battlefield, its fabricate ability triggers, creating a 1/1 Servo artifact creature token.
-  Activate Ashnod's Altar by sacrificing the Servo, adding {C}{C}.
-  Repeat.
-
-## Combo 2034-4417-5708-5944
-Cards: Unstoppable Slasher + Hex Parasite + Ashnod's Altar + Vein Ripper
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal
-Produces: Infinite lifeloss; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinitely powerful creature until end of turn
-Start: Unstoppable Slasher (battlefield); Hex Parasite (battlefield); Ashnod's Altar (battlefield); Vein Ripper (battlefield)
-Prerequisites: Unstoppable Slasher does not have a counter on it.
-Steps: Activate Ashnod's Altar by sacrificing Unstoppable Slasher, adding {C}{C}.
-  When Unstoppable Slasher dies, its second ability and Vein Ripper trigger.
-  Resolve the Unstoppable Slasher trigger, returning itself from your graveyard to the battlefield with two stun counters on it.
-  Resolve the Vein Ripper trigger, causing you to gain 2 life and an opponent to lose 2 life.
-  Activate Hex Parasite by paying {2} and 2 life, removing both stun counters from Unstoppable Slasher and giving Hex Parasite +2/+0 until end of turn.
-  Repeat.
-
 ## Combo 2034-4446-5170-6132
 Cards: Junji, the Midnight Sky + Ashnod's Altar + Relic Vial + Metamorphosis Fanatic
 Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
@@ -178,7 +154,7 @@ Steps: Activate Ashnod's Altar by sacrificing another creature, adding {C}{C}.
 
 ## Combo 2034-4881-5011
 Cards: Cavalier of Night + Activated Sleeper + Ashnod's Altar
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 540 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 550 | Commander: legal
 Produces: Infinite colorless mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Cavalier of Night (battlefield); Activated Sleeper (graveyard); Ashnod's Altar (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Cavalier of Night, adding {C}{C}.
@@ -228,7 +204,7 @@ Steps: Activate Ashnod's Altar by sacrificing another nontoken creature, adding 
 
 ## Combo 2034-5003-6199
 Cards: Nim Deathmantle + Ashnod's Altar + Marionette Apprentice
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 7200 | Commander: legal | Mana needed: {2}
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 7300 | Commander: legal | Mana needed: {2}
 Produces: Infinite lifeloss; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Marionette Apprentice (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Marionette Apprentice, adding {C}{C}.
@@ -285,7 +261,7 @@ Steps: Activate Ashnod's Altar by sacrificing HYDRA Troopers, adding {C}{C}.
 
 ## Combo 2034-5003-7699
 Cards: Nim Deathmantle + Ashnod's Altar + Dread Drone
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal | Mana needed: {2}
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal | Mana needed: {2}
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Dread Drone (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Dread Drone, adding {C}{C}.
@@ -369,7 +345,7 @@ Steps: Activate Ashnod's Altar by sacrificing Golgari Thug.
 
 ## Combo 2034-5035-5104
 Cards: Plague of Vermin + Ashnod's Altar + Nadier's Nightblade
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 540 | Commander: legal | Mana needed: {6}{B}
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 530 | Commander: legal | Mana needed: {6}{B}
 Produces: Near-infinite creature tokens for all players; Near-infinite lifeloss; Near-infinite colorless mana; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Plague of Vermin (hand); Ashnod's Altar (battlefield); Nadier's Nightblade (battlefield)
 Steps: Cast Plague of Vermin by paying {6}{B} and choosing to pay any amount of life, creating that many 1/1 Rat creature tokens.
@@ -693,7 +669,7 @@ Steps: Activate Krark-Clan Ironworks by sacrificing any other artifact you contr
 
 ## Combo 2095-2173-3189-3255-4740
 Cards: Doomsday + Commander's Sphere + Bolas's Citadel + Aetherflux Reservoir + Black Sun's Zenith
-Color identity: B | Bracket: 3+ (Powerful) | Popularity: 150 | Commander: legal | Mana needed: {3}{B}{B}{B}{B}{B}{B}
+Color identity: B | Bracket: 3+ (Powerful) | Popularity: 160 | Commander: legal | Mana needed: {3}{B}{B}{B}{B}{B}{B}
 Produces: Infinite damage; Infinite lifegain; Infinite lifegain triggers; Infinite storm count
 Start: Doomsday (hand); Commander's Sphere (battlefield); Bolas's Citadel (graveyard, library); Aetherflux Reservoir (graveyard, library); Black Sun's Zenith (graveyard, library)
 Prerequisites: You have at least 11 life.
@@ -757,7 +733,7 @@ Steps: Cast Buried Alive by paying {2} and two life, searching for Chainer, Visc
 
 ## Combo 2129-2607
 Cards: Scytheclaw + Archfiend of Despair
-Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 740 | Commander: legal
+Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 750 | Commander: legal
 Produces: Near-infinite lifeloss for target opponent; Target opponent loses the game
 Start: Scytheclaw (battlefield); Archfiend of Despair (battlefield)
 Prerequisites: Scytheclaw attached to a creature that does not have summoning sickness.
@@ -1326,7 +1302,7 @@ Steps: Cast Scrap Trawler by paying {0}.
 
 ## Combo 2146-3054-4050
 Cards: Oathsworn Vampire + Phyrexian Altar + Cloud Key
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Oathsworn Vampire (battlefield); Phyrexian Altar (battlefield); Cloud Key (battlefield: with "Creature" chosen)
 Prerequisites: You have gained life this turn.
@@ -1423,7 +1399,7 @@ Steps: Activate Scion of the Swarm by using Walking Ballista's ability by removi
 
 ## Combo 2163-5065
 Cards: Helm of Obedience + Leyline of the Void
-Color identity: B | Bracket: 4+ (Ruthless) | Popularity: 2500 | Commander: legal | Mana needed: {1}
+Color identity: B | Bracket: 4+ (Ruthless) | Popularity: 2600 | Commander: legal | Mana needed: {1}
 Produces: Exile target opponent's library
 Start: Helm of Obedience (battlefield); Leyline of the Void (battlefield)
 Steps: Activate Helm of Obedience by paying {1} and tapping it, causing target opponent to mill a card.
@@ -3256,7 +3232,7 @@ Steps: Activate Umbral Collar Zealot by sacrificing Golgari Thug.
 
 ## Combo 2173-5078-5796
 Cards: Sensei's Divining Top + Starving Revenant + Bolas's Citadel
-Color identity: B | Bracket: 3+ (Powerful) | Popularity: 320 | Commander: legal
+Color identity: B | Bracket: 3+ (Powerful) | Popularity: 330 | Commander: legal
 Produces: Infinite card draw; Near-infinite lifeloss; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Starving Revenant (battlefield); Bolas's Citadel (battlefield)
 Prerequisites: You have at least eight permanent cards in your graveyard.
@@ -3355,7 +3331,7 @@ Steps: Activate Umbral Collar Zealot by sacrificing Fear of Lost Teeth.
 
 ## Combo 2178-2274-4265
 Cards: Royal Assassin + Orb of Dreams + Thornbite Staff
-Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 5 | Commander: legal
+Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 4 | Commander: legal
 Produces: Destroy each creature that enters the battlefield under an opponent's control; Lock
 Start: Royal Assassin (battlefield); Orb of Dreams (battlefield); Thornbite Staff (battlefield)
 Prerequisites: Royal Assassin does not have summoning sickness.
@@ -3367,7 +3343,7 @@ Steps: Whenever a creature enters the battlefield under an opponent's control, i
 
 ## Combo 2178-2292-2380
 Cards: Thornbite Staff + Viscera Seer + Bloodline Keeper // Lord of Lineage
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Start: Thornbite Staff (battlefield); Viscera Seer (battlefield); Bloodline Keeper // Lord of Lineage (battlefield)
 Prerequisites: Bloodline Keeper // Lord of Lineage doesn't have summoning sickness.
@@ -3380,7 +3356,7 @@ Steps: Activate Bloodline Keeper // Lord of Lineage by tapping it, creating a cr
 
 ## Combo 2178-2292-4170-4871
 Cards: Fain, the Broker + Thornbite Staff + Pitiless Plunderer + Viscera Seer
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Start: Fain, the Broker (battlefield); Thornbite Staff (battlefield); Pitiless Plunderer (battlefield); Viscera Seer (battlefield)
 Prerequisites: Thornbite Staff attached to Fain.
@@ -3494,7 +3470,7 @@ Steps: Activate Bloodline Keeper // Lord of Lineage by tapping it, creating a cr
 
 ## Combo 2178-2380-3967
 Cards: Thornbite Staff + Bloodline Keeper // Lord of Lineage + Yahenni, Undying Partisan
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Thornbite Staff (battlefield); Bloodline Keeper // Lord of Lineage (battlefield); Yahenni, Undying Partisan (battlefield)
 Prerequisites: Bloodline Keeper // Lord of Lineage doesn't have summoning sickness.
@@ -3518,7 +3494,7 @@ Steps: Activate Bloodline Keeper // Lord of Lineage by tapping it, creating a cr
 
 ## Combo 2178-2380-4247
 Cards: Thornbite Staff + Bloodline Keeper // Lord of Lineage + Bloodthrone Vampire
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
 Produces: Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Thornbite Staff (battlefield); Bloodline Keeper // Lord of Lineage (battlefield); Bloodthrone Vampire (battlefield)
 Prerequisites: Bloodline Keeper // Lord of Lineage doesn't have summoning sickness.
@@ -3583,7 +3559,7 @@ Steps: Activate Bloodline Keeper // Lord of Lineage by tapping it, creating a cr
 
 ## Combo 2178-2438-4170-4871
 Cards: Fain, the Broker + Thornbite Staff + Pitiless Plunderer + Carrion Feeder
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Fain, the Broker (battlefield); Thornbite Staff (battlefield); Pitiless Plunderer (battlefield); Carrion Feeder (battlefield)
 Prerequisites: Thornbite Staff attached to Fain.
@@ -4910,7 +4886,7 @@ Steps: Activate Viscera Seer by sacrificing Tenacious Dead.
 
 ## Combo 2292-2738-4871-6112
 Cards: Tenacious Dead + Pitiless Plunderer + Viscera Seer + Fumulus, the Infestation
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal
 Produces: Infinite colored mana; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Start: Tenacious Dead (battlefield); Pitiless Plunderer (battlefield); Viscera Seer (battlefield); Fumulus, the Infestation (battlefield)
 Steps: Activate Viscera Seer by sacrificing Tenacious Dead.
@@ -5228,7 +5204,7 @@ Steps: Activate Viscera Seer by sacrifice Su-Chi.
 
 ## Combo 2292-4338-4875
 Cards: Rotlung Reanimator + Viscera Seer + Conspiracy
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 24 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite scry 1
 Start: Rotlung Reanimator (battlefield); Viscera Seer (battlefield); Conspiracy (battlefield: with "Cleric" chosen)
 Prerequisites: You control an additional creature.
@@ -5733,7 +5709,7 @@ Steps: Cast Viscera Seer by paying its mana cost.
 
 ## Combo 2292-6132-6981
 Cards: Perigee Beckoner + Viscera Seer + Metamorphosis Fanatic
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 73 | Commander: legal | Mana needed: {1}{B}
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal | Mana needed: {1}{B}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Start: Perigee Beckoner (hand); Viscera Seer (battlefield); Metamorphosis Fanatic (battlefield)
 Steps: Cast Perigee Beckoner for its warp cost by paying {1}{B}.
@@ -5760,7 +5736,7 @@ Steps: Activate Viscera Seer by sacrificing the creature with persist.
 ## Combo 2347-2645-3918
 Cards: Trazyn the Infinite + Staff of Domination + Firemind Vessel
 Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal
-Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Trazyn the Infinite (battlefield); Staff of Domination (graveyard); Firemind Vessel (graveyard)
 Prerequisites: Trazyn the Infinite does not have summoning sickness.
 Steps: Activate Trazyn the Infinite using Firemind Vessel's ability by tapping it, adding two mana of differing colors.
@@ -5916,7 +5892,7 @@ Steps: Cast Hangarback Walker either from your hand by paying {0} or from the to
 ## Combo 2364-2645-3918
 Cards: Trazyn the Infinite + Staff of Domination + Mana Vault
 Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 990 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Trazyn the Infinite (battlefield: without summoning sickness); Staff of Domination (graveyard); Mana Vault (graveyard)
 Steps: Activate Trazyn using Mana Vault's ability by tapping it, adding {C}{C}{C}.
   Activate Trazyn using Staff of Domination's first ability by paying {1}, untapping it.
@@ -6107,7 +6083,7 @@ Steps: Activate Yawgmoth by paying 1 life and sacrificing the undying creature.
 
 ## Combo 2393-3025-4279--216
 Cards: Yawgmoth, Thran Physician + Sifter of Skulls + Bastion of Remembrance
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 6200 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 6300 | Commander: legal
 Produces: Infinite card draw; Near-infinite lifeloss; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Requires: Creature with Undying (battlefield)
 Start: Yawgmoth, Thran Physician (battlefield); Sifter of Skulls (battlefield); Bastion of Remembrance (battlefield)
@@ -6884,7 +6860,7 @@ Steps: Cast Faceless Butcher by paying its mana cost.
 
 ## Combo 2438-4338-4875
 Cards: Rotlung Reanimator + Carrion Feeder + Conspiracy
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 28 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Rotlung Reanimator (battlefield); Carrion Feeder (battlefield); Conspiracy (battlefield: with "Cleric" chosen)
 Prerequisites: You control an additional creature.
@@ -7562,7 +7538,7 @@ Steps: Cast Phyrexian Dreadnought from the top of your library by paying 1 life.
 ## Combo 2479-2645
 Cards: Magus of the Coffers + Staff of Domination
 Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 1100 | Commander: legal | Mana needed: {2}
-Produces: Infinite black mana; Infinite lifegain; Infinite card draw; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite untap of creatures you control; Infinite draw triggers
+Produces: Infinite black mana; Infinite lifegain; Infinite card draw; Infinite mana creatures you control can produce; Infinite lifegain triggers; Tap all creatures opponents control; Infinite untap of creatures you control; Infinite draw triggers
 Start: Magus of the Coffers (battlefield); Staff of Domination (battlefield)
 Prerequisites: Magus of the Coffers does not have summoning sickness.
   At least seven Swamps under your control.
@@ -7665,7 +7641,7 @@ Steps: Activate Koh by paying 1 life.
 
 ## Combo 2498-4691-7688
 Cards: Sheoldred, the Apocalypse + Vilis, Broker of Blood + M.O.D.O.K.
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 1000 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 1100 | Commander: legal
 Produces: Infinite card draw; Near-infinite lifegain; Near-infinite +1/+1 counters on a creature; Near-infinite lifegain triggers; Near-infinite looting; Infinite draw triggers; Near-infinite draw triggers; Near-infinite self-discard triggers
 Start: Sheoldred, the Apocalypse (battlefield); Vilis, Broker of Blood (battlefield); M.O.D.O.K. (battlefield)
 Prerequisites: Your life total is at least 4.
@@ -7723,7 +7699,7 @@ Steps: Activate Phyrexian Altar by sacrificing Oathsworn Vampire, adding {B}.
 
 ## Combo 2510-5173-5553-5626
 Cards: Chthonian Nightmare + Greedy Freebooter + Shambling Ghast + Semblance Anvil
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 23 | Commander: legal | Mana needed: {B}
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 24 | Commander: legal | Mana needed: {B}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1; Infinite storm count; Infinite energy counters
 Start: Chthonian Nightmare (hand); Greedy Freebooter (battlefield); Shambling Ghast (graveyard); Semblance Anvil (battlefield)
 Prerequisites: There is an enchantment card exiled with Semblance Anvil.
@@ -8859,7 +8835,7 @@ Steps: Activate Phyrexian Altar by sacrificing Cult Conscript, adding {B}
 
 ## Combo 2530-2946-4050-6578
 Cards: Carnival of Souls + Cult Conscript + Phyrexian Altar + Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 62 | Commander: legal | Mana needed: {1}
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 63 | Commander: legal | Mana needed: {1}
 Produces: Infinite lifeloss; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Carnival of Souls (battlefield); Cult Conscript (battlefield); Phyrexian Altar (battlefield); Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel (battlefield)
 Prerequisites: You either have Sephiroth, Fabled SOLDIER on the battlefield or have the emblem granted by Sephiroth, One-Winged Angel.
@@ -8884,7 +8860,7 @@ Steps: Activate Phyrexian Altar by sacrificing Cult Conscript, adding {B}
 
 ## Combo 2530-2946-4050-6794
 Cards: Carnival of Souls + Cult Conscript + Phyrexian Altar + Susurian Voidborn
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal | Mana needed: {1}
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal | Mana needed: {1}
 Produces: Infinite lifeloss; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Carnival of Souls (battlefield); Cult Conscript (battlefield); Phyrexian Altar (battlefield); Susurian Voidborn (battlefield)
 Prerequisites: A non-Skeleton creature has died under your control this turn.
@@ -8896,7 +8872,7 @@ Steps: Activate Phyrexian Altar by sacrificing Cult Conscript, adding {B}
 
 ## Combo 2530-2946-4050-7192
 Cards: Carnival of Souls + Cult Conscript + Phyrexian Altar + Grave Venerations
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}
 Produces: Infinite lifeloss; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Carnival of Souls (battlefield); Cult Conscript (battlefield); Phyrexian Altar (battlefield); Grave Venerations (battlefield)
 Prerequisites: A non-Skeleton creature has died under your control this turn.
@@ -9546,7 +9522,7 @@ Steps: Activate Helm of Obedience by paying {1} and tapping it, causing target o
 ## Combo 2585-2645-3918
 Cards: Trazyn the Infinite + Staff of Domination + Grim Monolith
 Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 670 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Trazyn the Infinite (battlefield: without summoning sickness); Staff of Domination (graveyard); Grim Monolith (graveyard)
 Steps: Activate Trazyn using Grim Monolith's ability by tapping it, adding {C}{C}{C}.
   Activate Trazyn using Staff of Domination's first ability by paying {1}, untapping it.
@@ -9583,38 +9559,6 @@ Steps: Activate Trazyn using Nyx Lotus's ability by tapping it, adding at least 
   Activate Trazyn using Grim Monolith's ability by paying {4}, untapping Trazyn.
   Repeat.
 Notes: Once you have extra mana, Grim Monolith's ability can be used instead to add mana.
-
-## Combo 2585-3918-6893
-Cards: Trazyn the Infinite + Grim Monolith + The Eternity Elevator
-Color identity: B | Bracket: 3+ (Powerful) | Popularity: 50 | Commander: legal
-Produces: Infinite colored mana; Infinite colorless mana
-Start: Trazyn the Infinite (battlefield: without summoning sickness); Grim Monolith (graveyard); The Eternity Elevator (graveyard)
-Prerequisites: Trazyn has twenty or more charge counters on it.
-Steps: Activate Trazyn using The Eternity Elevator's ability by tapping it, adding at least twenty mana of any color.
-  Activate Trazyn using Grim Monolith's ability by paying {4}, untapping Trazyn.
-  Repeat.
-Notes: Once you have extra mana, Grim Monolith's ability can be used instead to add mana.
-
-## Combo 2585-3918-7013
-Cards: Trazyn the Infinite + Grim Monolith + White Lotus Tile
-Color identity: B | Bracket: 3+ (Powerful) | Popularity: 6 | Commander: legal
-Produces: Infinite colored mana; Infinite colorless mana
-Start: Trazyn the Infinite (battlefield: without summoning sickness); Grim Monolith (graveyard); White Lotus Tile (graveyard)
-Prerequisites: You control at least five creatures that share a creature type.
-Steps: Activate Trazyn using White Lotus Tile's ability by tapping it, adding at least five mana of any color.
-  Activate Trazyn using Grim Monolith's ability by paying {4}, untapping Trazyn.
-  Repeat.
-Notes: Once you have extra mana, Grim Monolith's ability can be used instead to add mana.
-
-## Combo 2585-3918-7826
-Cards: Trazyn the Infinite + Grim Monolith + Bag End Banquet
-Color identity: B | Bracket: 3+ (Powerful) | Popularity: 1 | Commander: legal
-Produces: Infinite colorless mana
-Start: Trazyn the Infinite (battlefield: without summoning sickness); Grim Monolith (graveyard); Bag End Banquet (graveyard)
-Prerequisites: You control at least five Foods.
-Steps: Activate Trazyn using Bag End Banquet's ability by tapping it, adding at least {C}{C}{C}{C}{C}
-  Activate Trazyn using Grim Monolith's ability by paying {4}, untapping Trazyn.
-  Repeat.
 
 ## Combo 2607-2615
 Cards: Tree of Perdition + Archfiend of Despair
@@ -9656,7 +9600,7 @@ Steps: Cast Dire Fleet Ravager by paying {3}{B}{B}.
 
 ## Combo 2607-3354
 Cards: Raving Dead + Archfiend of Despair
-Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 570 | Commander: legal
+Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 580 | Commander: legal
 Produces: Near-infinite lifeloss for target opponent; Target opponent loses the game
 Start: Raving Dead (battlefield); Archfiend of Despair (battlefield)
 Prerequisites: Raving Dead does not have summoning sickness.
@@ -9736,7 +9680,7 @@ Steps: Deal damage to the opponent that has Grievous Wound attached to them.
 
 ## Combo 2607-6765
 Cards: Alpharael, Stonechosen + Archfiend of Despair
-Color identity: B | Bracket: 4+ (Ruthless) | Popularity: 910 | Commander: legal
+Color identity: B | Bracket: 4+ (Ruthless) | Popularity: 920 | Commander: legal
 Produces: Target opponent loses the game; Infinite lifeloss for target opponent
 Start: Alpharael, Stonechosen (battlefield: without summoning sickness); Archfiend of Despair (battlefield)
 Prerequisites: A nonland permanent has left the battlefield this turn, or a spell has been warped this turn.
@@ -9837,7 +9781,7 @@ Steps: Activate Trazyn using Jinxed Choker's ability three times by paying {9}, 
 ## Combo 2645-3053-3918
 Cards: Trazyn the Infinite + Staff of Domination + Prismatic Geoscope
 Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
-Produces: Infinite colored mana; Infinite lifegain; Infinite card draw; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite untap of creatures you control; Infinite draw triggers
+Produces: Infinite colored mana; Infinite lifegain; Infinite card draw; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite untap of creatures you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Trazyn the Infinite (battlefield: without summoning sickness without summoning sickness); Staff of Domination (graveyard); Prismatic Geoscope (graveyard)
 Prerequisites: There are at least two basic land types among lands you control
 Steps: Activate Trazyn using Prismatic Geoscope's ability by tapping it, adding at least two mana of any color(s).
@@ -9848,7 +9792,7 @@ Notes: Once you have infinite mana, you can use Staff of Domination's other abil
 ## Combo 2645-3436-3918
 Cards: Trazyn the Infinite + Staff of Domination + Worn Powerstone
 Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 350 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Trazyn the Infinite (battlefield: without summoning sickness); Staff of Domination (graveyard); Worn Powerstone (graveyard)
 Steps: Activate Trazyn using Worn Powerstone's ability by tapping it, adding {C}{C}.
   Activate Trazyn using Staff of Domination's first ability by paying {1}, untapping it.
@@ -9858,7 +9802,7 @@ Notes: Once you have infinite mana, you can use Staff of Domination's other abil
 ## Combo 2645-3918-3941
 Cards: Trazyn the Infinite + Staff of Domination + Coveted Jewel
 Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 280 | Commander: legal
-Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Trazyn the Infinite (battlefield: without summoning sickness); Staff of Domination (graveyard); Coveted Jewel (graveyard)
 Steps: Activate Trazyn using Coveted Jewel's ability by tapping it, adding three mana of any color.
   Activate Trazyn using Staff of Domination's first ability by paying {1}, untapping it.
@@ -9868,7 +9812,7 @@ Notes: Once you have infinite mana, you can use Staff of Domination's other abil
 ## Combo 2645-3918-3980
 Cards: Trazyn the Infinite + Staff of Domination + Sisay's Ring
 Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 59 | Commander: legal
-Produces: Infinite colorless mana; Infinite lifegain; Infinite card draw; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite untap of creatures you control; Infinite draw triggers
+Produces: Infinite colorless mana; Infinite lifegain; Infinite card draw; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite untap of creatures you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Trazyn the Infinite (battlefield: without summoning sickness); Staff of Domination (graveyard); Sisay's Ring (graveyard)
 Steps: Activate Trazyn using Sisay's Ring's ability by tapping it, adding {C}{C}.
   Activate Trazyn using Staff of Domination's first ability by paying {1}, untapping it.
@@ -9877,8 +9821,8 @@ Notes: Once you have infinite mana, you can use Staff of Domination's other abil
 
 ## Combo 2645-3918-4002
 Cards: Trazyn the Infinite + Staff of Domination + Sceptre of Eternal Glory
-Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 1800 | Commander: legal
-Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
+Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 1900 | Commander: legal
+Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Trazyn the Infinite (battlefield: without summoning sickness); Staff of Domination (graveyard); Sceptre of Eternal Glory (graveyard)
 Prerequisites: You control three or more lands that share a name.
 Steps: Activate Trazyn using Sceptre of Eternal Glory's ability by tapping it, adding three mana of any color.
@@ -9889,7 +9833,7 @@ Notes: Once you have infinite mana, you can use Staff of Domination's other abil
 ## Combo 2645-3918-4045
 Cards: Trazyn the Infinite + Staff of Domination + Ur-Golem's Eye
 Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 16 | Commander: legal
-Produces: Infinite colorless mana; Infinite lifegain; Infinite card draw; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite untap of creatures you control; Infinite draw triggers
+Produces: Infinite colorless mana; Infinite lifegain; Infinite card draw; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite untap of creatures you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Trazyn the Infinite (battlefield: without summoning sickness); Staff of Domination (graveyard); Ur-Golem's Eye (graveyard)
 Steps: Activate Trazyn using Ur-Golem's Eye's ability by tapping it, adding {C}{C}.
   Activate Trazyn using Staff of Domination's first ability by paying {1}, untapping it.
@@ -9899,7 +9843,7 @@ Notes: Once you have infinite mana, you can use Staff of Domination's other abil
 ## Combo 2645-3918-4131
 Cards: Trazyn the Infinite + Staff of Domination + Basalt Monolith
 Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 2000 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Trazyn the Infinite (battlefield: without summoning sickness); Staff of Domination (graveyard); Basalt Monolith (graveyard)
 Steps: Activate Trazyn using Basalt Monolith's ability by tapping it, adding {C}{C}{C}.
   Activate Trazyn using Staff of Domination's first ability by paying {1}, untapping it.
@@ -9919,7 +9863,7 @@ Notes: Once you have infinite mana, you can use Staff of Domination's other abil
 ## Combo 2645-3918-5034
 Cards: Trazyn the Infinite + Staff of Domination + Sol Ring
 Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 3300 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Trazyn the Infinite (battlefield: without summoning sickness); Staff of Domination (graveyard); Sol Ring (graveyard)
 Steps: Activate Trazyn using Sol Ring's ability by tapping it, adding {C}{C}.
   Activate Trazyn using Staff of Domination's first ability by paying {1}, untapping it.
@@ -9929,7 +9873,7 @@ Notes: Once you have infinite mana, you can use Staff of Domination's other abil
 ## Combo 2645-3918-5116
 Cards: Trazyn the Infinite + Staff of Domination + Gilded Lotus
 Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 1900 | Commander: legal
-Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Trazyn the Infinite (battlefield: without summoning sickness); Staff of Domination (battlefield); Gilded Lotus (graveyard)
 Steps: Activate Trazyn using Gilded Lotus's ability by tapping it, adding three mana of any color.
   Activate Trazyn using Staff of Domination's first ability by paying {1}, untapping it.
@@ -9939,7 +9883,7 @@ Notes: Once you have infinite mana, you can use Staff of Domination's other abil
 ## Combo 2645-3918-6893
 Cards: Trazyn the Infinite + Staff of Domination + The Eternity Elevator
 Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 280 | Commander: legal
-Produces: Infinite colorless mana; Infinite lifegain; Infinite card draw; Infinite lifegain triggers; Infinite untap of creatures you control; Infinite draw triggers
+Produces: Infinite colorless mana; Infinite lifegain; Infinite card draw; Infinite lifegain triggers; Infinite untap of creatures you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Trazyn the Infinite (battlefield: without summoning sickness without summoning sickness); Staff of Domination (graveyard); The Eternity Elevator (graveyard)
 Steps: Activate Trazyn using The Eternity Elevator's ability by tapping it, adding {C}{C}{C}.
   Activate Trazyn using Staff of Domination's first ability by paying {1}, untapping it.
@@ -9949,7 +9893,7 @@ Notes: Once you have infinite mana, you can use Staff of Domination's other abil
 ## Combo 2645-3918-7013
 Cards: Trazyn the Infinite + Staff of Domination + White Lotus Tile
 Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
-Produces: Infinite colored mana; Infinite lifegain; Infinite card draw; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite untap of creatures you control; Infinite draw triggers
+Produces: Infinite colored mana; Infinite lifegain; Infinite card draw; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite untap of creatures you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Trazyn the Infinite (battlefield: without summoning sickness); Staff of Domination (battlefield, graveyard); White Lotus Tile (graveyard)
 Prerequisites: You control at least two creatures that share a creature type if Staff of Domination is in your graveyard, or five creatures that share a creature type otherwise.
 Steps: Activate Trazyn using White Lotus Tile's ability by tapping it, adding at least five mana of any color
@@ -9962,7 +9906,7 @@ Notes: Once you have infinite mana, you can use Staff of Domination's other abil
 ## Combo 2645-3918-7434
 Cards: Trazyn the Infinite + Staff of Domination + Brass Infiniscope
 Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 5 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Near-infinite lifegain; Infinite lifegain triggers; Near-infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Near-infinite lifegain; Infinite lifegain triggers; Near-infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Trazyn the Infinite (battlefield: without summoning sickness); Staff of Domination (graveyard); Brass Infiniscope (graveyard)
 Steps: Activate Trazyn using Brass Infiniscope's ability by tapping it, adding {C}{C}.
   Activate Trazyn using Staff of Domination's first ability by paying {1}, untapping it.
@@ -9972,8 +9916,8 @@ Notes: Once you have infinite mana, you can use Staff of Domination's other abil
 
 ## Combo 2645-3918-7685
 Cards: Trazyn the Infinite + Staff of Domination + Arc Reactor
-Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 50 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
+Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 52 | Commander: legal
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Trazyn the Infinite (battlefield: without summoning sickness); Staff of Domination (graveyard); Arc Reactor (graveyard)
 Steps: Activate Trazyn using Arc Reactor's ability by tapping it, adding {C}{C}{C}
   Activate Trazyn using Staff of Domination's first ability by paying {1}, untapping it.
@@ -10284,7 +10228,7 @@ Steps: Activate Yahenni by sacrificing Tenacious Dead.
 
 ## Combo 2738-3967-4871-4976
 Cards: Tenacious Dead + Pitiless Plunderer + Yahenni, Undying Partisan + Open the Graves
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 26 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal
 Produces: Infinite colored mana; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Tenacious Dead (battlefield); Pitiless Plunderer (battlefield); Yahenni, Undying Partisan (battlefield); Open the Graves (battlefield)
 Steps: Activate Yahenni by sacrificing Tenacious Dead.
@@ -10416,7 +10360,7 @@ Steps: Activate Phantom Train by sacrificing Tenacious Dead.
 
 ## Combo 2738-4314-4871-6798
 Cards: Tenacious Dead + Pitiless Plunderer + Umbral Collar Zealot + Pawn of Ulamog
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 210 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 220 | Commander: legal
 Produces: Infinite colored mana; Infinite surveil; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Tenacious Dead (battlefield); Pitiless Plunderer (battlefield); Umbral Collar Zealot (battlefield); Pawn of Ulamog (battlefield)
 Steps: Activate Umbral Collar Zealot by sacrificing Tenacious Dead.
@@ -10637,7 +10581,7 @@ Steps: Activate Phantom Train by sacrificing Tenacious Dead.
 
 ## Combo 2738-4871-6112-6798
 Cards: Tenacious Dead + Pitiless Plunderer + Umbral Collar Zealot + Fumulus, the Infestation
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
 Produces: Infinite colored mana; Infinite surveil; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Tenacious Dead (battlefield); Pitiless Plunderer (battlefield); Umbral Collar Zealot (battlefield); Fumulus, the Infestation (battlefield)
 Steps: Activate Umbral Collar Zealot by sacrificing Tenacious Dead.
@@ -10986,17 +10930,6 @@ Produces: Infinite creature tokens; Infinite mana among colors with which you ha
 Start: Trazyn the Infinite (battlefield: without summoning sickness); Retrofitter Foundry (graveyard); Nyx Lotus (graveyard)
 Prerequisites: Your devotion to any color is at least four.
 Steps: Activate Trazyn using Nyx Lotus's ability by tapping it, adding at least four mana of any color.
-  Activate Trazyn using Retrofitter Foundry's ability by paying {3}, untapping it.
-  Repeat.
-Notes: Once you have infinite mana, you can use Retrofitter Foundry's other abilities via Trazyn.
-
-## Combo 2797-3918-7013
-Cards: Trazyn the Infinite + Retrofitter Foundry + White Lotus Tile
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite colored mana; Infinite creature tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Trazyn the Infinite (battlefield: without summoning sickness); Retrofitter Foundry (graveyard); White Lotus Tile (graveyard)
-Prerequisites: You control at least four creatures that share a creature type.
-Steps: Activate Trazyn using White Lotus Tile's ability by tapping it, adding at least four mana of any color.
   Activate Trazyn using Retrofitter Foundry's ability by paying {3}, untapping it.
   Repeat.
 Notes: Once you have infinite mana, you can use Retrofitter Foundry's other abilities via Trazyn.
@@ -11600,7 +11533,7 @@ Steps: Activate Yahenni by sacrificing a creature with mana value 1 or less.
 
 ## Combo 2932-4050-4504-4871
 Cards: Endless Cockroaches + Pitiless Plunderer + Phyrexian Altar + Bontu's Monument
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 680 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 690 | Commander: legal
 Produces: Infinite lifegain; Infinite lifeloss; Infinite lifegain triggers; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Endless Cockroaches (battlefield); Pitiless Plunderer (battlefield); Phyrexian Altar (battlefield); Bontu's Monument (battlefield)
 Steps: Activate Phyrexian Altar by sacrificing Endless Cockroaches, adding {B}.
@@ -11658,7 +11591,7 @@ Steps: Activate Phantom Train by sacrificing a creature with mana value 1 or les
 
 ## Combo 2932-5220-6798-6900
 Cards: Mortuary + Umbral Collar Zealot + Bontu's Monument + Gwenom, Remorseless
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 520 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 530 | Commander: legal
 Produces: Infinite lifeloss; Infinite surveil; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Mortuary (battlefield); Umbral Collar Zealot (battlefield); Bontu's Monument (battlefield); Gwenom, Remorseless (battlefield)
 Prerequisites: Your life total is at least 2.
@@ -11684,7 +11617,7 @@ Steps: Gain life.
 
 ## Combo 2939-5306-6649
 Cards: Disciple of Griselbrand + Defiant Bloodlord + Aettir and Priwen
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {1}
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {1}
 Produces: Near-infinite lifegain; Near-infinite lifeloss for target opponent
 Start: Disciple of Griselbrand (battlefield); Defiant Bloodlord (battlefield); Aettir and Priwen (battlefield: attached to a creature you control except Defiant Bloodlord)
 Prerequisites: Your life total is higher than or equal to an opponent's.
@@ -11800,7 +11733,7 @@ Steps: Activate Yahenni by sacrificing Cult Conscript.
 
 ## Combo 2946-4050-4556
 Cards: Phyrexian Altar + Cult Conscript + Blight Mound
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 600 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 590 | Commander: legal
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Phyrexian Altar (battlefield); Cult Conscript (battlefield); Blight Mound (battlefield)
 Steps: Activate Phyrexian Altar by sacrificing Cult Conscript, adding {B}.
@@ -11848,7 +11781,7 @@ Steps: Activate Phyrexian Altar by sacrificing Cult Conscript, adding {B}.
 
 ## Combo 2946-4446-4871-5670
 Cards: Warren Soultrader + Pitiless Plunderer + Cult Conscript + Relic Vial
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal
 Produces: Infinite lifeloss; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Warren Soultrader (battlefield); Pitiless Plunderer (battlefield); Cult Conscript (battlefield); Relic Vial (battlefield)
 Prerequisites: Your life total is 2 or higher.
@@ -12122,7 +12055,7 @@ Steps: Activate Warren Soultrader by paying 1 life and sacrificing Cult Conscrip
 
 ## Combo 2946-4871-5670-6578
 Cards: Warren Soultrader + Pitiless Plunderer + Cult Conscript + Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 950 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 960 | Commander: legal
 Produces: Infinite lifeloss; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Warren Soultrader (battlefield); Pitiless Plunderer (battlefield); Cult Conscript (battlefield); Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel (battlefield)
 Prerequisites: You either have Sephiroth, Fabled SOLDIER on the battlefield or have the emblem granted by Sephiroth, One-Winged Angel.
@@ -12187,7 +12120,7 @@ Steps: Activate Warren Soultrader by paying 1 life and sacrificing Cult Conscrip
 
 ## Combo 2946-4871-5670-7286
 Cards: Warren Soultrader + Pitiless Plunderer + Cult Conscript + South Wind Avatar
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 50 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 51 | Commander: legal
 Produces: Infinite lifegain; Infinite lifeloss; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Warren Soultrader (battlefield); Pitiless Plunderer (battlefield); Cult Conscript (battlefield); South Wind Avatar (battlefield)
 Prerequisites: Your life total is 2 or higher.
@@ -13213,7 +13146,7 @@ Steps: Activate Phyrexian Altar by sacrificing any other creature you control, a
 
 ## Combo 3490-4050-7135
 Cards: Animation Module + Phyrexian Altar + Super Shredder
-Color identity: B | Bracket: 2-3+ (Oddball) | Popularity: 270 | Commander: legal
+Color identity: B | Bracket: 2-3+ (Oddball) | Popularity: 280 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Phyrexian Altar (battlefield); Super Shredder (battlefield)
 Prerequisites: You control an additional creature.
@@ -13270,7 +13203,7 @@ Steps: Activate Krark-Clan Ironworks by sacrificing any other creature you contr
 
 ## Combo 3490-4659-7135
 Cards: Animation Module + Krark-Clan Ironworks + Super Shredder
-Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 36 | Commander: legal
+Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 37 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Krark-Clan Ironworks (battlefield); Super Shredder (battlefield)
 Prerequisites: You control an additional creature.
@@ -13320,7 +13253,7 @@ Steps: Activate Phantom Train by sacrificing another creature.
 
 ## Combo 3490-4871-8095
 Cards: Animation Module + Pitiless Plunderer + Hammerhead, Maggia Boss
-Color identity: B | Bracket: 2-3+ (Oddball) | Popularity: 41 | Commander: legal
+Color identity: B | Bracket: 2-3+ (Oddball) | Popularity: 42 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Animation Module (battlefield); Pitiless Plunderer (battlefield); Hammerhead, Maggia Boss (battlefield)
 Prerequisites: You control an additional creature.
@@ -13865,7 +13798,7 @@ Steps: Activate Summoning Station by tapping it, creating a 2/2 Pincher creature
 
 ## Combo 3764-4871-5256
 Cards: Summoning Station + Pitiless Plunderer + Altar of Dementia
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 150 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 160 | Commander: legal
 Produces: Infinite colored mana; Infinite mill; Infinite self-mill; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Summoning Station (battlefield); Pitiless Plunderer (battlefield); Altar of Dementia (battlefield)
 Steps: Activate Summoning Station by tapping it, creating a 2/2 Pincher creature token.
@@ -13999,7 +13932,7 @@ Steps: Cast Chthonian Nightmare by paying {1}{B}.
 
 ## Combo 3899-4871-6291
 Cards: Pitiless Plunderer + Spawning Pit + Stridehangar Automaton
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 460 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 470 | Commander: legal
 Produces: Infinite Treasure tokens; Infinite colored mana; Infinite creature tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite charge counters on a permanent; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Pitiless Plunderer (battlefield); Spawning Pit (battlefield); Stridehangar Automaton (battlefield)
 Prerequisites: You control another creature.
@@ -14226,7 +14159,7 @@ Notes: Each activation of Brass Infiniscope adds a delayed triggered ability tha
 
 ## Combo 3918-4038-7685
 Cards: Trazyn the Infinite + Farmstead Gleaner + Arc Reactor
-Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 43 | Commander: legal
+Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 44 | Commander: legal
 Produces: Infinite colorless mana; Infinite +1/+1 counters on a creature
 Start: Trazyn the Infinite (battlefield: without summoning sickness); Farmstead Gleaner (graveyard); Arc Reactor (graveyard)
 Steps: Activate Trazyn using Arc Reactor's ability by tapping it, adding {C}{C}{C}
@@ -14240,39 +14173,6 @@ Produces: Infinite colorless mana; Infinite mana among colors with which you hav
 Start: Trazyn the Infinite (battlefield: without summoning sickness); Nyx Lotus (graveyard); Basalt Monolith (graveyard)
 Prerequisites: Your devotion to any color is at least 4.
 Steps: Activate Trazyn using Nyx Lotus's ability by tapping it, adding at least four mana of any color.
-  Activate Trazyn using Basalt Monolith's ability by paying {3}, untapping Trazyn.
-  Repeat.
-Notes: Once you have extra mana, Basalt Monolith's ability can be used instead to add mana.
-
-## Combo 3918-4131-6893
-Cards: Trazyn the Infinite + Basalt Monolith + The Eternity Elevator
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 210 | Commander: legal
-Produces: Infinite colored mana; Infinite colorless mana
-Start: Trazyn the Infinite (battlefield: without summoning sickness); Basalt Monolith (graveyard); The Eternity Elevator (graveyard)
-Prerequisites: Trazyn has twenty or more charge counters on it.
-Steps: Activate Trazyn using The Eternity Elevator's ability by tapping it, adding at least twenty mana of any color.
-  Activate Trazyn using Basalt Monolith's ability by paying {3}, untapping Trazyn.
-  Repeat.
-Notes: Once you have extra mana, Basalt Monolith's ability can be used instead to add mana.
-
-## Combo 3918-4131-7013
-Cards: Trazyn the Infinite + Basalt Monolith + White Lotus Tile
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal
-Produces: Infinite colored mana; Infinite colorless mana
-Start: Trazyn the Infinite (battlefield: without summoning sickness); Basalt Monolith (graveyard); White Lotus Tile (graveyard)
-Prerequisites: You control at least four creatures that share a creature type.
-Steps: Activate Trazyn using White Lotus Tile's ability by tapping it, adding at least four mana of any color.
-  Activate Trazyn using Basalt Monolith's ability by paying {3}, untapping Trazyn.
-  Repeat.
-Notes: Once you have extra mana, Basalt Monolith's ability can be used instead to add mana.
-
-## Combo 3918-4131-7826
-Cards: Trazyn the Infinite + Basalt Monolith + Bag End Banquet
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite colorless mana
-Start: Trazyn the Infinite (battlefield: without summoning sickness); Basalt Monolith (graveyard); Bag End Banquet (graveyard)
-Prerequisites: You control at least four Foods.
-Steps: Activate Trazyn using Bag End Banquet's ability by tapping it, adding at least {C}{C}{C}
   Activate Trazyn using Basalt Monolith's ability by paying {3}, untapping Trazyn.
   Repeat.
 Notes: Once you have extra mana, Basalt Monolith's ability can be used instead to add mana.
@@ -14641,7 +14541,7 @@ Notes: Your starting life total will need to be at least a certain number depend
 
 ## Combo 3967-4871-5544-6011
 Cards: Forsaken Miner + Pitiless Plunderer + Scavenger's Talent + Yahenni, Undying Partisan
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal | Mana needed: {B}
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 42 | Commander: legal | Mana needed: {B}
 Produces: Infinite mill; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Forsaken Miner (battlefield); Pitiless Plunderer (battlefield); Scavenger's Talent (battlefield); Yahenni, Undying Partisan (battlefield)
 Prerequisites: Scavenger's Talent is at least level 2.
@@ -14895,7 +14795,7 @@ Steps: Cast Perigee Beckoner for its warp cost by paying {1}{B}.
 
 ## Combo 3967-7841--5
 Cards: Yahenni, Undying Partisan + Darksteel Angel
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 78 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 79 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Yahenni, Undying Partisan (battlefield); Darksteel Angel (battlefield)
@@ -15674,7 +15574,7 @@ Notes: If Timeline Culler is in your hand, you can instead cast it normally and 
 
 ## Combo 4050-6112-6115
 Cards: Ozox, the Clattering King + Phyrexian Altar + Fumulus, the Infestation
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 280 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 290 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Ozox, the Clattering King (battlefield); Phyrexian Altar (battlefield); Fumulus, the Infestation (battlefield)
 Steps: Activate Phyrexian Altar by sacrificing Ozox, adding {1}.
@@ -16255,7 +16155,7 @@ Steps: Activate Yawgmoth by paying 1 life and sacrificing the undying creature.
 
 ## Combo 4279-4976-6634--216
 Cards: Yawgmoth, Thran Physician + Open the Graves + Al Bhed Salvagers
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 65 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 68 | Commander: legal
 Produces: Infinite card draw; Near-infinite lifeloss; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Requires: Creature with Undying (battlefield)
 Start: Yawgmoth, Thran Physician (battlefield); Open the Graves (battlefield); Al Bhed Salvagers (battlefield)
@@ -16811,7 +16711,7 @@ Steps: Activate Yawgmoth by paying 1 life and sacrificing the undying creature.
 
 ## Combo 4279-6578-7316--216
 Cards: Yawgmoth, Thran Physician + Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel + Rat King, Pale Piper
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 140 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 150 | Commander: legal
 Produces: Infinite card draw; Near-infinite lifeloss; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers; Near-infinite death triggers
 Requires: Creature with Undying (battlefield)
 Start: Yawgmoth, Thran Physician (battlefield); Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel (battlefield); Rat King, Pale Piper (battlefield)
@@ -17639,7 +17539,7 @@ Steps: Activate Altar of Dementia by sacrificing any other creature.
 
 ## Combo 4740-5078-6900
 Cards: Sensei's Divining Top + Aetherflux Reservoir + Gwenom, Remorseless
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 6300 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 6400 | Commander: legal
 Produces: Near-infinite damage; Infinite card draw; Near-infinite lifegain; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Aetherflux Reservoir (battlefield); Gwenom, Remorseless (battlefield)
 Prerequisites: Your life total is at least 2.
@@ -17966,7 +17866,7 @@ Steps: Cast Chthonian Nightmare by paying {1}{B}.
 
 ## Combo 4871-5256-5544
 Cards: Forsaken Miner + Pitiless Plunderer + Altar of Dementia
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 3700 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 3800 | Commander: legal
 Produces: Infinite mill; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Forsaken Miner (battlefield); Pitiless Plunderer (battlefield); Altar of Dementia (battlefield)
 Steps: Activate Altar of Dementia by sacrificing Forsaken Miner, targeting any opponent.
@@ -18066,7 +17966,7 @@ Steps: Cast Chthonian Nightmare by paying {1}{B}.
 
 ## Combo 4871-5626-6415-6798
 Cards: Pitiless Plunderer + Wriggling Grub + Chthonian Nightmare + Umbral Collar Zealot
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 820 | Commander: legal | Mana needed: {1}{B}
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 830 | Commander: legal | Mana needed: {1}{B}
 Produces: Infinite colored mana; Infinite creature tokens; Infinite Treasure tokens; Infinite surveil; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count; Infinite energy counters
 Start: Pitiless Plunderer (battlefield); Wriggling Grub (graveyard); Chthonian Nightmare (hand); Umbral Collar Zealot (battlefield)
 Steps: Cast Chthonian Nightmare by paying {1}{B}.
@@ -18874,7 +18774,7 @@ Steps: Activate Phantom Train by sacrificing Metamorphosis Fanatic.
 
 ## Combo 5170-6132-6794-6798
 Cards: Junji, the Midnight Sky + Umbral Collar Zealot + Metamorphosis Fanatic + Susurian Voidborn
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 24 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 23 | Commander: legal
 Produces: Infinite lifeloss; Infinite surveil; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Junji, the Midnight Sky (battlefield); Umbral Collar Zealot (battlefield); Metamorphosis Fanatic (battlefield); Susurian Voidborn (battlefield)
 Steps: Activate Umbral Collar Zealot by sacrificing Metamorphosis Fanatic.
@@ -19295,7 +19195,7 @@ Steps: Declare Alpharael as an attacker, triggering its ability, causing the def
 
 ## Combo 5342-7319
 Cards: Shredder, Shadow Master + Bloodletter of Aclazotz
-Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 3400 | Commander: legal
+Color identity: B | Bracket: 3-4+ (Spicy) | Popularity: 3500 | Commander: legal
 Produces: Each opponent loses the game; Infinite lifeloss
 Start: Shredder, Shadow Master (battlefield: without summoning sickness); Bloodletter of Aclazotz (battlefield)
 Prerequisites: Opponents cannot block creatures you control.
@@ -19493,7 +19393,7 @@ Steps: Activate Warren Soultrader by paying 1 life and sacrificing another creat
 
 ## Combo 5670-6291-6794
 Cards: Warren Soultrader + Stridehangar Automaton + Susurian Voidborn
-Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 340 | Commander: legal
+Color identity: B | Bracket: 1+ (Exhibition) | Popularity: 350 | Commander: legal
 Produces: Infinite colored mana; Infinite lifeloss; Infinite Treasure tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Warren Soultrader (battlefield); Stridehangar Automaton (battlefield); Susurian Voidborn (battlefield)
 Prerequisites: You control at least one additional creature.

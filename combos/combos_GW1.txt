@@ -549,7 +549,7 @@ Steps: Activate Mirage Mirror by paying {2}, causing it to become a copy of Myth
 
 ## Combo 7-876-7070
 Cards: Monk Gyatso + Hamza, Guardian of Arashin + Lightning Greaves
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 40 | Commander: legal
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite storm count
 Start: Monk Gyatso (battlefield); Hamza, Guardian of Arashin (battlefield); Lightning Greaves (battlefield)
 Prerequisites: You control another nontoken creature.
@@ -1096,6 +1096,17 @@ Steps: Activate Altar of Dementia by sacrificing Alabaster Dragon.
   Resolve the Altar of Dementia ability from step 1, causing target player to mill cards equal to Alabaster Dragon's power.
   Repeat.
 
+## Combo 49-723-1167
+Cards: Captain Sisay + Mindslaver + Soldevi Digger
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {6} the first turn, with {12} available each following turn
+Produces: You control one opponent on their turn each turn cycle; Lock
+Start: Captain Sisay (battlefield); Mindslaver (battlefield); Soldevi Digger (battlefield)
+Steps: Activate Mindslaver by paying {4}, tapping and sacrificing it, causing you to gain control of target opponent during their next turn.
+  Activate Soldevi Digger by paying {2}, putting Mindslaver from your graveyard onto the bottom of your library
+  During your next turn, activate Captain Sisay by tapping it, searching your library for Mindslaver and putting it into your hand.
+  Cast Mindslaver by paying {6}.
+  Repeat.
+
 ## Combo 50-2284-2335
 Cards: Glare of Subdual + Solitary Sanctuary + Barrenton Medic
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -1289,7 +1300,7 @@ Notes: You can forego step 4 to simply put infinite +1/+1 counters on Triskelion
 
 ## Combo 81-1909-4486
 Cards: Wirewood Symbiote + Mirror Entity + Kami of Whispered Hopes
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 77 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 78 | Commander: legal
 Produces: Infinite colored mana; Infinitely large creatures you control until end of turn; Infinite creature LTB; Infinite creature ETB; Infinite storm count
 Start: Wirewood Symbiote (hand); Mirror Entity (battlefield); Kami of Whispered Hopes (battlefield)
 Prerequisites: Kami of Whispered Hopes does not have summoning sickness.
@@ -1434,7 +1445,7 @@ Steps: Gain any amount of life.
 
 ## Combo 104-261-3197
 Cards: Cleric Class + Suture Priest + Herd Baloth
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 370 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 380 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Cleric Class (battlefield: is at least level 2); Suture Priest (battlefield); Herd Baloth (battlefield)
 Prerequisites: You have a way to gain life.
@@ -1446,7 +1457,7 @@ Steps: Gain life.
 
 ## Combo 104-261-4186
 Cards: Cleric Class + Suture Priest + Scurry Oak
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 940 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 950 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Cleric Class (battlefield: is at least level 2); Suture Priest (battlefield); Scurry Oak (battlefield)
 Prerequisites: You have a way to gain life.
@@ -1548,10 +1559,10 @@ Steps: Cause an artifact to enter the battlefield under your control.
   Once you have infinite Foods, you may sacrifice them to Peregrin Took's ability.
 
 ## Combo 104-475-3197-7810
-Cards: Cleric Class + Leonin Elder + Herd Baloth + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Cleric Class + Leonin Elder + Herd Baloth
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Cleric Class (battlefield: is at least level 2); Leonin Elder (battlefield); Herd Baloth (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Cleric Class (battlefield: is at least level 2); Leonin Elder (battlefield); Herd Baloth (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Cleric Class triggers, putting a +1/+1 counter on Herd Baloth.
@@ -1599,10 +1610,10 @@ Steps: Cause an artifact to enter the battlefield under your control.
   Once you have infinite Foods, you may sacrifice them to Peregrin Took's ability.
 
 ## Combo 104-475-4186-7810
-Cards: Cleric Class + Leonin Elder + Scurry Oak + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Cleric Class + Leonin Elder + Scurry Oak
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Cleric Class (battlefield: is at least level 2); Leonin Elder (battlefield); Scurry Oak (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Cleric Class (battlefield: is at least level 2); Leonin Elder (battlefield); Scurry Oak (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Cleric Class triggers, putting a +1/+1 counter on Scurry Oak.
@@ -1611,10 +1622,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 104-475-5641-7810
-Cards: Basking Broodscale + Cleric Class + Leonin Elder + Tippy-Toe, Terrific Partner
+Cards: Basking Broodscale + Tippy-Toe, Terrific Partner + Cleric Class + Leonin Elder
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Basking Broodscale (battlefield); Cleric Class (battlefield: is at least level 2); Leonin Elder (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Basking Broodscale (battlefield); Tippy-Toe, Terrific Partner (battlefield); Cleric Class (battlefield: is at least level 2); Leonin Elder (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Cleric Class triggers, putting a +1/+1 counter on Basking Broodscale.
@@ -1725,7 +1736,7 @@ Steps: Gain life.
 
 ## Combo 104-671-4186
 Cards: Cleric Class + Daxos, Blessed by the Sun + Scurry Oak
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 750 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 760 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Cleric Class (battlefield: is at least level 2); Daxos, Blessed by the Sun (battlefield); Scurry Oak (battlefield)
 Prerequisites: You have a way to gain life.
@@ -1910,7 +1921,7 @@ Steps: Gain life.
 
 ## Combo 104-1545-4186
 Cards: Cleric Class + Trostani, Selesnya's Voice + Scurry Oak
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 870 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 880 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Cleric Class (battlefield: is at least level 2); Trostani, Selesnya's Voice (battlefield); Scurry Oak (battlefield)
 Prerequisites: You have a way to gain life.
@@ -1922,7 +1933,7 @@ Steps: Gain life.
 
 ## Combo 104-1545-5641
 Cards: Basking Broodscale + Cleric Class + Trostani, Selesnya's Voice
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 410 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 420 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite colorless mana; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Cleric Class (battlefield: is at least level 2); Trostani, Selesnya's Voice (battlefield)
 Prerequisites: You have a way to gain life.
@@ -2031,7 +2042,7 @@ Steps: Gain life.
 
 ## Combo 104-1939-4186
 Cards: Cleric Class + Lunarch Veteran // Luminous Phantom + Scurry Oak
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 440 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 450 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Cleric Class (battlefield: is at least level 2); Lunarch Veteran // Luminous Phantom (battlefield); Scurry Oak (battlefield)
 Prerequisites: You have a way to gain life.
@@ -2055,7 +2066,7 @@ Steps: Gain life.
 
 ## Combo 104-2034-2086
 Cards: Kitchen Finks + Ashnod's Altar + Cleric Class
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 64 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 65 | Commander: legal
 Produces: Infinite lifegain; Infinite colorless mana; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Kitchen Finks (battlefield: without a -1/-1 counter on it); Ashnod's Altar (battlefield); Cleric Class (battlefield: is at least level 2)
 Steps: Activate Ashnod's Altar by sacrificing Kitchen Finks.
@@ -2253,10 +2264,10 @@ Steps: Gain life in any way.
   Repeat from step 2.
 
 ## Combo 104-2685-3197-7810
-Cards: Cleric Class + Teething Wurmlet + Herd Baloth + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Cleric Class + Teething Wurmlet + Herd Baloth
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Cleric Class (battlefield: is at least level 2); Teething Wurmlet (battlefield); Herd Baloth (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Cleric Class (battlefield: is at least level 2); Teething Wurmlet (battlefield); Herd Baloth (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Cleric Class triggers, putting a +1/+1 counter on Herd Baloth.
@@ -2289,10 +2300,10 @@ Steps: Gain life in any way.
   Repeat from step 2.
 
 ## Combo 104-2685-4186-7810
-Cards: Cleric Class + Teething Wurmlet + Scurry Oak + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Cleric Class + Teething Wurmlet + Scurry Oak
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Cleric Class (battlefield: is at least level 2); Teething Wurmlet (battlefield); Scurry Oak (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Cleric Class (battlefield: is at least level 2); Teething Wurmlet (battlefield); Scurry Oak (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Cleric Class triggers, putting a +1/+1 counter on Scurry Oak.
@@ -2301,10 +2312,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 104-2685-5641-7810
-Cards: Basking Broodscale + Cleric Class + Teething Wurmlet + Tippy-Toe, Terrific Partner
+Cards: Basking Broodscale + Tippy-Toe, Terrific Partner + Cleric Class + Teething Wurmlet
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Basking Broodscale (battlefield); Cleric Class (battlefield: is at least level 2); Teething Wurmlet (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Basking Broodscale (battlefield); Tippy-Toe, Terrific Partner (battlefield); Cleric Class (battlefield: is at least level 2); Teething Wurmlet (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Cleric Class triggers, putting a +1/+1 counter on Basking Broodscale.
@@ -2378,7 +2389,7 @@ Steps: Gain life.
 
 ## Combo 104-2741-7690--165
 Cards: Invisible Woman, Sue Storm + Cleric Class + Essence Warden
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Cleric Class (battlefield: is at least level 2); Essence Warden (battlefield)
@@ -2590,7 +2601,7 @@ Steps: Gain life.
 
 ## Combo 104-3197-4716
 Cards: Cleric Class + Herd Baloth + Prosperous Innkeeper
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 530 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 540 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Cleric Class (battlefield: is at least level 2); Herd Baloth (battlefield); Prosperous Innkeeper (battlefield)
 Prerequisites: You have a way to gain life.
@@ -2650,7 +2661,7 @@ Steps: Gain life.
 
 ## Combo 104-3197-6720
 Cards: Cleric Class + Herd Baloth + Case of the Uneaten Feast
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 96 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 97 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Cleric Class (battlefield: is at least level 2); Herd Baloth (battlefield); Case of the Uneaten Feast (battlefield)
 Prerequisites: You have a way to gain life.
@@ -2807,7 +2818,7 @@ Steps: Gain life.
 
 ## Combo 104-3641-5641
 Cards: Basking Broodscale + Cleric Class + Distinguished Conjurer
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 100 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 110 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite colorless mana; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Cleric Class (battlefield: is at least level 2); Distinguished Conjurer (battlefield)
 Prerequisites: You have a way to gain life.
@@ -2903,7 +2914,7 @@ Steps: Gain life.
 
 ## Combo 104-4186-5789
 Cards: Cleric Class + Scurry Oak + Lifecreed Duo
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 120 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 130 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Cleric Class (battlefield: is at least level 2); Scurry Oak (battlefield); Lifecreed Duo (battlefield)
 Prerequisites: You have a way to gain life.
@@ -2951,7 +2962,7 @@ Steps: Gain life.
 
 ## Combo 104-4186-6752
 Cards: Cleric Class + Scurry Oak + Haliya, Guided by Light
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 700 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 710 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Cleric Class (battlefield: is at least level 2); Scurry Oak (battlefield); Haliya, Guided by Light (battlefield)
 Prerequisites: You have a way to gain life.
@@ -3011,7 +3022,7 @@ Steps: Activate Triskelavus by paying {1} and removing a +1/+1 counter from it, 
 
 ## Combo 104-4716-5641
 Cards: Basking Broodscale + Cleric Class + Prosperous Innkeeper
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 670 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 680 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite colorless mana; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Cleric Class (battlefield: is at least level 2); Prosperous Innkeeper (battlefield)
 Prerequisites: You have a way to gain life.
@@ -3023,7 +3034,7 @@ Steps: Gain life.
 
 ## Combo 104-4716-7690--165
 Cards: Invisible Woman, Sue Storm + Cleric Class + Prosperous Innkeeper
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Cleric Class (battlefield: is at least level 2); Prosperous Innkeeper (battlefield)
@@ -3048,7 +3059,7 @@ Steps: Gain life.
 
 ## Combo 104-5641-5789
 Cards: Basking Broodscale + Cleric Class + Lifecreed Duo
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 91 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 94 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite colorless mana; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Cleric Class (battlefield: is at least level 2); Lifecreed Duo (battlefield)
 Prerequisites: You have a way to gain life.
@@ -3060,7 +3071,7 @@ Steps: Gain life.
 
 ## Combo 104-5641-6097
 Cards: Basking Broodscale + Cleric Class + Hinterland Sanctifier
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 180 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 190 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite colorless mana; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Cleric Class (battlefield: is at least level 2); Hinterland Sanctifier (battlefield)
 Prerequisites: You have a way to gain life.
@@ -3120,7 +3131,7 @@ Steps: Gain life.
 
 ## Combo 104-7173-7690--165
 Cards: Invisible Woman, Sue Storm + Cleric Class + Virulent Emissary
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Cleric Class (battlefield: is at least level 2); Virulent Emissary (battlefield)
@@ -3265,7 +3276,7 @@ Steps: Activate Emiel the Blessed by paying {3}, blinking Eyeless Watcher.
 
 ## Combo 108-4013-4365
 Cards: Eldrazi Displacer + Eyeless Watcher + Mondrak, Glory Dominus
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 770 | Commander: legal | Mana needed: {2}{C}
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 760 | Commander: legal | Mana needed: {2}{C}
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite blinking of most creatures; Infinite blinking
 Start: Eldrazi Displacer (battlefield); Eyeless Watcher (battlefield); Mondrak, Glory Dominus (battlefield)
 Steps: Activate Eldrazi Displacer by paying {2}{C}, blinking Eyeless Watcher.
@@ -3467,7 +3478,7 @@ Steps: Activate Serra's Sanctum by tapping it, adding at least {W}{W}{W}{W}
 ## Combo 145-2645-6474
 Cards: Steward of the Harvest + Staff of Domination + Serra's Sanctum
 Color identity: GW | Bracket: 3+ (Powerful) | Popularity: 0 | Commander: legal
-Produces: Infinite lifegain; Infinite card draw; Infinite mana creatures you control can produce; Infinite white mana; Infinite lifegain triggers; Infinite untap of creatures you control; Infinite draw triggers
+Produces: Infinite lifegain; Infinite card draw; Infinite mana creatures you control can produce; Infinite white mana; Infinite lifegain triggers; Tap all creatures opponents control; Infinite untap of creatures you control; Infinite draw triggers
 Start: Steward of the Harvest (battlefield); Staff of Domination (battlefield); Serra's Sanctum (exile: exiled by Steward of the Harvest)
 Prerequisites: You control at least five enchantments.
 Steps: Activate a creature using Serra's Sanctum's ability by tapping it, adding at least {W}{W}{W}{W}{W}.
@@ -4240,7 +4251,7 @@ Notes: Alternate the colors of mana you add each time. If you start adding {W}, 
 
 ## Combo 225-433-539-907
 Cards: Ashaya, Soul of the Wild + Stone-Seeder Hierophant + Llanowar Scout + Selesnya Sanctuary
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 92 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 93 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Ashaya, Soul of the Wild (battlefield); Stone-Seeder Hierophant (battlefield: without summoning sickness); Llanowar Scout (battlefield: without summoning sickness); Selesnya Sanctuary (hand)
 Steps: Activate Llanowar Scout by tapping it, putting Selesnya Sanctuary from your hand onto the battlefield.
@@ -4264,7 +4275,7 @@ Steps: Activate Scaled Herbalist by tapping it, putting Selesnya Sanctuary from 
 
 ## Combo 225-539-907-1257
 Cards: Ashaya, Soul of the Wild + Stone-Seeder Hierophant + Selesnya Sanctuary + Walking Atlas
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 84 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 85 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Ashaya, Soul of the Wild (battlefield); Stone-Seeder Hierophant (battlefield: without summoning sickness); Selesnya Sanctuary (hand); Walking Atlas (battlefield: without summoning sickness)
 Steps: Activate Walking Atlas by tapping it, putting Selesnya Sanctuary from your hand onto the battlefield.
@@ -4499,7 +4510,7 @@ Notes: Once you have infinite mana, Stone-Seeder Hierophant can either tap for {
 
 ## Combo 225-730-880
 Cards: Perilous Forays + Stone-Seeder Hierophant + Emeria Angel
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 53 | Commander: legal | Mana needed: {1}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal | Mana needed: {1}
 Produces: Put all lands with a basic land type from your library onto the battlefield tapped
 Start: Perilous Forays (battlefield); Stone-Seeder Hierophant (battlefield); Emeria Angel (battlefield)
 Prerequisites: Stone-Seeder Hierophant does not have summoning sickness.
@@ -4581,7 +4592,7 @@ Steps: Activate Perilous Forays by paying {1} and sacrificing a creature you con
 ## Combo 225-907-2645-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Stone-Seeder Hierophant + Selesnya Sanctuary
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
-Produces: Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Stone-Seeder Hierophant (battlefield); Selesnya Sanctuary (battlefield)
 Prerequisites: Stone-Seeder Hierophant doesn't have summoning sickness.
 Steps: Activate Selesnya Sanctuary by tapping it, adding {G}{G}{G}{W}{W}{W} due to Nyxbloom Ancient
@@ -4975,7 +4986,7 @@ Steps: Play Petrified Field.
 ## Combo 225-1662-2645-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Stone-Seeder Hierophant + Karoo
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Stone-Seeder Hierophant (battlefield); Karoo (battlefield)
 Prerequisites: Stone-Seeder Hierophant doesn't have summoning sickness.
 Steps: Activate Karoo by tapping it, adding {C}{C}{C}{W}{W}{W} due to Nyxbloom Ancient
@@ -4987,7 +4998,7 @@ Steps: Activate Karoo by tapping it, adding {C}{C}{C}{W}{W}{W} due to Nyxbloom A
 ## Combo 225-1669-5531-5702
 Cards: Lumra, Bellow of the Woods + Springheart Nantuko + Stone-Seeder Hierophant + Thaumatog
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite self-mill; Infinite mana lands you control can produce; Infinite colored mana; Infinitely large creature until end of turn; Infinite untap of lands you control; Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers; Put all lands from your library and graveyard onto the battlefield tapped
+Produces: Infinite creature tokens; Infinite self-mill; Infinite mana lands you control can produce; Infinite colored mana; Infinitely large creature until end of turn; Infinite untap of lands you control; Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers; Put all lands from your library and graveyard onto the battlefield tapped
 Start: Lumra, Bellow of the Woods (battlefield); Springheart Nantuko (battlefield: attached to Lumra); Stone-Seeder Hierophant (battlefield: without summoning sickness); Thaumatog (battlefield)
 Prerequisites: You have at least two lands between the battlefield and your graveyard.
   You have a land card in hand.
@@ -5407,7 +5418,7 @@ Steps: Activate Saurian Explorer by paying {6}, creating eight tapped New Planet
 ## Combo 225-5413-5531-5702
 Cards: Lumra, Bellow of the Woods + Springheart Nantuko + Stone-Seeder Hierophant + Trenching Steed
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite self-mill; Infinite mana lands you control can produce; Infinite colored mana; Infinite untap of lands you control; Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers; Put all lands from your library and graveyard onto the battlefield tapped
+Produces: Infinite creature tokens; Infinite self-mill; Infinite mana lands you control can produce; Infinite colored mana; Infinite untap of lands you control; Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers; Put all lands from your library and graveyard onto the battlefield tapped
 Start: Lumra, Bellow of the Woods (battlefield); Springheart Nantuko (battlefield: attached to Lumra); Stone-Seeder Hierophant (battlefield: without summoning sickness); Trenching Steed (battlefield)
 Prerequisites: You have at least two lands between the battlefield and your graveyard.
   You have a land card in hand.
@@ -5469,7 +5480,7 @@ Steps: Activate Trenching Steed by sacrificing any land except Shifting Woodland
 ## Combo 225-5414-5531-5702
 Cards: Lumra, Bellow of the Woods + Springheart Nantuko + Stone-Seeder Hierophant + Troubled Healer
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite self-mill; Infinite mana lands you control can produce; Infinite colored mana; Infinite untap of lands you control; Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers; Put all lands from your library and graveyard onto the battlefield tapped
+Produces: Infinite creature tokens; Infinite self-mill; Infinite mana lands you control can produce; Infinite colored mana; Infinite untap of lands you control; Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers; Put all lands from your library and graveyard onto the battlefield tapped
 Start: Lumra, Bellow of the Woods (battlefield); Springheart Nantuko (battlefield: attached to Lumra); Stone-Seeder Hierophant (battlefield: without summoning sickness); Troubled Healer (battlefield)
 Prerequisites: You have at least two lands between the battlefield and your graveyard.
   You have a land card in hand.
@@ -5712,7 +5723,7 @@ Steps: Gain life.
 
 ## Combo 261-1274-4186
 Cards: Suture Priest + Heliod, Sun-Crowned + Scurry Oak
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 770 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 780 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Suture Priest (battlefield); Heliod, Sun-Crowned (battlefield); Scurry Oak (battlefield)
 Prerequisites: You have a way to gain life.
@@ -5724,7 +5735,7 @@ Steps: Gain life.
 
 ## Combo 261-1274-5641
 Cards: Basking Broodscale + Suture Priest + Heliod, Sun-Crowned
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 400 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 410 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite colorless mana; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Suture Priest (battlefield); Heliod, Sun-Crowned (battlefield)
 Prerequisites: You have a way to gain life.
@@ -5808,7 +5819,7 @@ Steps: Put a +1/+1 counter on Basking Broodscale.
 
 ## Combo 261-3197-4017
 Cards: Suture Priest + Herd Baloth + Sunbond
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 75 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 76 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Start: Suture Priest (battlefield); Herd Baloth (battlefield); Sunbond (battlefield: attached to Herd Baloth)
 Prerequisites: You have a way to gain life.
@@ -5820,7 +5831,7 @@ Steps: Gain life.
 
 ## Combo 261-3197-6824
 Cards: Suture Priest + Herd Baloth + Spider-Man, Peter Parker
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 23 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 24 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Suture Priest (battlefield); Herd Baloth (battlefield); Spider-Man, Peter Parker (battlefield)
 Prerequisites: You have a way to gain life.
@@ -5870,7 +5881,7 @@ Steps: Gain life.
 
 ## Combo 261-4017-4186
 Cards: Suture Priest + Sunbond + Scurry Oak
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 96 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 97 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Suture Priest (battlefield); Sunbond (battlefield: attached to Scurry Oak); Scurry Oak (battlefield)
 Prerequisites: You have a way to gain life.
@@ -5882,7 +5893,7 @@ Steps: Gain life.
 
 ## Combo 261-4017-5641
 Cards: Basking Broodscale + Suture Priest + Sunbond
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 64 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 65 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite colorless mana; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Suture Priest (battlefield); Sunbond (battlefield: attached to Basking Broodscale)
 Prerequisites: You have a way to gain life.
@@ -5906,7 +5917,7 @@ Steps: Gain life.
 
 ## Combo 261-4186-6824
 Cards: Suture Priest + Scurry Oak + Spider-Man, Peter Parker
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 36 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 37 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Suture Priest (battlefield); Scurry Oak (battlefield); Spider-Man, Peter Parker (battlefield)
 Prerequisites: You have a way to gain life.
@@ -5957,7 +5968,7 @@ Steps: Cast Stonecloaker by paying its mana cost.
 
 ## Combo 261-4499-8160
 Cards: Kwia Vigorbloom + Suture Priest + Emiel the Blessed
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 630 | Commander: legal | Mana needed: {3}
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 640 | Commander: legal | Mana needed: {3}
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB
 Start: Kwia Vigorbloom (battlefield); Suture Priest (battlefield); Emiel the Blessed (battlefield)
 Steps: Activate Emiel the Blessed by paying {3}, blinking Kwia.
@@ -6000,7 +6011,7 @@ Notes: Once you have infinite mana, you can forego sacrificing the Lotus tokens 
 
 ## Combo 261-5641-6824
 Cards: Basking Broodscale + Suture Priest + Spider-Man, Peter Parker
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 35 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 36 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite colorless mana; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Suture Priest (battlefield); Spider-Man, Peter Parker (battlefield)
 Prerequisites: You have a way to gain life.
@@ -6036,7 +6047,7 @@ Steps: Gain life.
 
 ## Combo 261-7684-7690
 Cards: Invisible Woman, Sue Storm + Tigra, Feline Fury + Suture Priest
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 6 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 7 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Start: Invisible Woman, Sue Storm (battlefield); Tigra, Feline Fury (battlefield); Suture Priest (battlefield)
 Prerequisites: You have a way to gain life.
@@ -6737,7 +6748,7 @@ Steps: Activate Saurian Explorer by paying {6}, creating eight tapped New Planet
 ## Combo 277-2653-2692-2893
 Cards: Fertilid + Tiller Engine + Nissa, Resurgent Animist + Felidar Retreat
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal | Mana needed: {1}{G}
-Produces: Near-infinite landfall triggers; Put all basic lands from your library onto the battlefield tapped
+Produces: Near-infinite creature tokens; Near-infinite creature ETB; Near-infinite landfall triggers; Put all basic lands from your library onto the battlefield tapped
 Start: Fertilid (battlefield: with a +1/+1 counter on it); Tiller Engine (battlefield); Nissa, Resurgent Animist (battlefield); Felidar Retreat (battlefield)
 Steps: Activate Fertilid by paying {1}{G} and removing a +1/+1 counter from it, causing you to search your library for a basic land card and put it on the battlefield untapped due to Tiller Engine.
   When the basic land enters, Tiller Engine, Nissa and Felidar Retreat trigger.
@@ -6750,7 +6761,7 @@ Steps: Activate Fertilid by paying {1}{G} and removing a +1/+1 counter from it, 
 ## Combo 277-2692-2893-3470
 Cards: Fertilid + Tiller Engine + Felidar Retreat + Lotus Cobra
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal | Mana needed: {1}{G}
-Produces: Near-infinite landfall triggers; Put all basic lands from your library onto the battlefield tapped
+Produces: Near-infinite creature tokens; Near-infinite creature ETB; Near-infinite landfall triggers; Put all basic lands from your library onto the battlefield tapped
 Start: Fertilid (battlefield: with a +1/+1 counter on it); Tiller Engine (battlefield); Felidar Retreat (battlefield); Lotus Cobra (battlefield)
 Steps: Activate Fertilid by paying {1}{G} and removing a +1/+1 counter from it, causing you to search your library for a basic land card and put it on the battlefield untapped due to Tiller Engine.
   When the basic land enters, Tiller Engine, Lotus Cobra and Felidar Retreat trigger.
@@ -6763,7 +6774,7 @@ Steps: Activate Fertilid by paying {1}{G} and removing a +1/+1 counter from it, 
 ## Combo 277-2692-2893-3875
 Cards: Fertilid + Tiller Engine + Felidar Retreat + Tireless Provisioner
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal | Mana needed: {1}{G}
-Produces: Near-infinite landfall triggers; Put all basic lands from your library onto the battlefield tapped
+Produces: Near-infinite creature tokens; Near-infinite creature ETB; Near-infinite landfall triggers; Put all basic lands from your library onto the battlefield tapped
 Start: Fertilid (battlefield: with a +1/+1 counter on it); Tiller Engine (battlefield); Felidar Retreat (battlefield); Tireless Provisioner (battlefield)
 Steps: Activate Fertilid by paying {1}{G} and removing a +1/+1 counter from it, causing you to search your library for a basic land card and put it on the battlefield untapped due to Tiller Engine.
   When the basic land enters, Tiller Engine, Tireless Provisioner and Felidar Retreat trigger.
@@ -7352,7 +7363,7 @@ Steps: Animate Isochron Scepter using Tough Cookie.
 ## Combo 305-342-2645-5903
 Cards: Sam, Loyal Attendant + Gourmand's Talent + Staff of Domination + Llanowar Tribe
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite lifegain; Infinite card draw; Infinite green mana; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite untap of creatures you control; Infinite draw triggers
+Produces: Infinite lifegain; Infinite card draw; Infinite green mana; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite untap of creatures you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Sam, Loyal Attendant (battlefield); Gourmand's Talent (battlefield); Staff of Domination (battlefield); Llanowar Tribe (battlefield)
 Prerequisites: Llanowar Tribe does not have summoning sickness.
 Steps: Activate Llanowar Tribe by tapping it, adding {G}{G}{G}.
@@ -7401,7 +7412,7 @@ Steps: Activate Ashnod's Altar by sacrificing Metallic Sliver, adding {C}{C}.
 
 ## Combo 333-413-2281
 Cards: Saffi Eriksdotter + Blasting Station + Shepherd of the Cosmos
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 68 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 70 | Commander: legal
 Produces: Infinite damage; Infinite creature ETB; Infinite creature LTB; Infinite death triggers
 Start: Saffi Eriksdotter (battlefield); Blasting Station (battlefield); Shepherd of the Cosmos (battlefield)
 Steps: Activate Saffi by sacrificing it, targeting Shepherd of the Cosmos
@@ -7415,7 +7426,7 @@ Steps: Activate Saffi by sacrificing it, targeting Shepherd of the Cosmos
 
 ## Combo 333-2034-2281
 Cards: Saffi Eriksdotter + Ashnod's Altar + Shepherd of the Cosmos
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 63 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 65 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature ETB; Infinite creature LTB; Infinite death triggers
 Start: Saffi Eriksdotter (battlefield); Ashnod's Altar (battlefield); Shepherd of the Cosmos (battlefield)
 Steps: Activate Saffi by sacrificing it, targeting Shepherd of the Cosmos
@@ -7438,7 +7449,7 @@ Steps: Activate Saffi by sacrificing it, targeting Shepherd of the Cosmos
 
 ## Combo 333-2281-4050
 Cards: Saffi Eriksdotter + Phyrexian Altar + Shepherd of the Cosmos
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 42 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 44 | Commander: legal
 Produces: Infinite colored mana; Infinite creature ETB; Infinite creature LTB; Infinite death triggers
 Start: Saffi Eriksdotter (battlefield); Phyrexian Altar (battlefield); Shepherd of the Cosmos (battlefield)
 Steps: Activate Saffi by sacrificing it, targeting Shepherd of the Cosmos
@@ -7449,7 +7460,7 @@ Steps: Activate Saffi by sacrificing it, targeting Shepherd of the Cosmos
 
 ## Combo 333-2281-5256
 Cards: Saffi Eriksdotter + Altar of Dementia + Shepherd of the Cosmos
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 71 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 73 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite creature ETB; Infinite creature LTB; Infinite death triggers
 Start: Saffi Eriksdotter (battlefield); Altar of Dementia (battlefield); Shepherd of the Cosmos (battlefield)
 Steps: Activate Saffi by sacrificing it, targeting Shepherd of the Cosmos
@@ -7473,7 +7484,7 @@ Steps: Gain life.
 
 ## Combo 338-360-4186
 Cards: Light of Promise + Soul Warden + Scurry Oak
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 620 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 630 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Light of Promise (battlefield: attached to Scurry Oak); Soul Warden (battlefield); Scurry Oak (battlefield)
 Prerequisites: You have a way to gain life.
@@ -7527,10 +7538,10 @@ Steps: Gain life in any way.
   Repeat from step 2.
 
 ## Combo 338-475-3197-7810
-Cards: Light of Promise + Leonin Elder + Herd Baloth + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Light of Promise + Leonin Elder + Herd Baloth
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Light of Promise (battlefield: attached to Herd Baloth); Leonin Elder (battlefield); Herd Baloth (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Light of Promise (battlefield: attached to Herd Baloth); Leonin Elder (battlefield); Herd Baloth (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Light of Promise triggers, putting a +1/+1 counter on Herd Baloth.
@@ -7563,10 +7574,10 @@ Steps: Gain life in any way.
   Repeat from step 2.
 
 ## Combo 338-475-4186-7810
-Cards: Light of Promise + Leonin Elder + Scurry Oak + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Light of Promise + Leonin Elder + Scurry Oak
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Light of Promise (battlefield: attached to Scurry Oak); Leonin Elder (battlefield); Scurry Oak (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Light of Promise (battlefield: attached to Scurry Oak); Leonin Elder (battlefield); Scurry Oak (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Light of Promise triggers, putting a +1/+1 counter on Scurry Oak.
@@ -7575,10 +7586,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 338-475-5641-7810
-Cards: Basking Broodscale + Light of Promise + Leonin Elder + Tippy-Toe, Terrific Partner
+Cards: Basking Broodscale + Tippy-Toe, Terrific Partner + Light of Promise + Leonin Elder
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Basking Broodscale (battlefield); Light of Promise (battlefield: attached to Basking Broodscale); Leonin Elder (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Basking Broodscale (battlefield); Tippy-Toe, Terrific Partner (battlefield); Light of Promise (battlefield: attached to Basking Broodscale); Leonin Elder (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Light of Promise triggers, putting a +1/+1 counter on Basking Broodscale.
@@ -7684,7 +7695,7 @@ Steps: Gain life.
 
 ## Combo 338-671-5641
 Cards: Basking Broodscale + Light of Promise + Daxos, Blessed by the Sun
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 140 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 150 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite colorless mana; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Light of Promise (battlefield: attached to Basking Broodscale); Daxos, Blessed by the Sun (battlefield)
 Prerequisites: You have a way to gain life.
@@ -8207,10 +8218,10 @@ Steps: Gain life in any way.
   Repeat from step 2.
 
 ## Combo 338-2685-3197-7810
-Cards: Light of Promise + Teething Wurmlet + Herd Baloth + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Light of Promise + Teething Wurmlet + Herd Baloth
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Light of Promise (battlefield: attached to Herd Baloth); Teething Wurmlet (battlefield); Herd Baloth (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Light of Promise (battlefield: attached to Herd Baloth); Teething Wurmlet (battlefield); Herd Baloth (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Light of Promise triggers, putting a +1/+1 counter on Herd Baloth.
@@ -8243,10 +8254,10 @@ Steps: Gain life in any way.
   Repeat from step 2.
 
 ## Combo 338-2685-4186-7810
-Cards: Light of Promise + Teething Wurmlet + Scurry Oak + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Light of Promise + Teething Wurmlet + Scurry Oak
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Light of Promise (battlefield: attached to Scurry Oak); Teething Wurmlet (battlefield); Scurry Oak (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Light of Promise (battlefield: attached to Scurry Oak); Teething Wurmlet (battlefield); Scurry Oak (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Light of Promise triggers, putting a +1/+1 counter on Scurry Oak.
@@ -8255,10 +8266,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 338-2685-5641-7810
-Cards: Basking Broodscale + Light of Promise + Teething Wurmlet + Tippy-Toe, Terrific Partner
+Cards: Basking Broodscale + Tippy-Toe, Terrific Partner + Light of Promise + Teething Wurmlet
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Basking Broodscale (battlefield); Light of Promise (battlefield: attached to Basking Broodscale); Teething Wurmlet (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Basking Broodscale (battlefield); Tippy-Toe, Terrific Partner (battlefield); Light of Promise (battlefield: attached to Basking Broodscale); Teething Wurmlet (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Light of Promise triggers, putting a +1/+1 counter on Basking Broodscale.
@@ -8332,7 +8343,7 @@ Steps: Gain life.
 
 ## Combo 338-2741-7690--165
 Cards: Invisible Woman, Sue Storm + Light of Promise + Essence Warden
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Light of Promise (battlefield: attached to the other Hero); Essence Warden (battlefield)
@@ -8530,7 +8541,7 @@ Steps: Gain life.
 
 ## Combo 338-3197-4476
 Cards: Light of Promise + Herd Baloth + Answered Prayers
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Light of Promise (battlefield: attached to Herd Baloth); Herd Baloth (battlefield); Answered Prayers (battlefield)
 Prerequisites: You have a way to gain life.
@@ -8542,7 +8553,7 @@ Steps: Gain life.
 
 ## Combo 338-3197-4506
 Cards: Light of Promise + Herd Baloth + Auriok Champion
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 62 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Light of Promise (battlefield: attached to Herd Baloth); Herd Baloth (battlefield); Auriok Champion (battlefield)
 Prerequisites: You have a way to gain life.
@@ -8566,7 +8577,7 @@ Steps: Gain life.
 
 ## Combo 338-3197-5070
 Cards: Light of Promise + Herd Baloth + Angelic Chorus
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 40 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Light of Promise (battlefield: attached to Herd Baloth); Herd Baloth (battlefield); Angelic Chorus (battlefield)
 Prerequisites: You have a way to gain life.
@@ -8590,7 +8601,7 @@ Steps: Gain life.
 
 ## Combo 338-3197-6097
 Cards: Light of Promise + Herd Baloth + Hinterland Sanctifier
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 73 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 74 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Light of Promise (battlefield: attached to Herd Baloth); Herd Baloth (battlefield); Hinterland Sanctifier (battlefield)
 Prerequisites: You have a way to gain life.
@@ -8614,7 +8625,7 @@ Steps: Gain life.
 
 ## Combo 338-3197-6720
 Cards: Light of Promise + Herd Baloth + Case of the Uneaten Feast
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Light of Promise (battlefield: attached to Herd Baloth); Herd Baloth (battlefield); Case of the Uneaten Feast (battlefield)
 Prerequisites: You have a way to gain life.
@@ -8626,7 +8637,7 @@ Steps: Gain life.
 
 ## Combo 338-3197-6752
 Cards: Light of Promise + Herd Baloth + Haliya, Guided by Light
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 71 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 73 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Light of Promise (battlefield: attached to Herd Baloth); Herd Baloth (battlefield); Haliya, Guided by Light (battlefield)
 Prerequisites: You have a way to gain life.
@@ -8791,7 +8802,7 @@ Steps: Gain life.
 
 ## Combo 338-4186-4476
 Cards: Light of Promise + Scurry Oak + Answered Prayers
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Light of Promise (battlefield: attached to Scurry Oak); Scurry Oak (battlefield); Answered Prayers (battlefield)
 Prerequisites: You have a way to gain life.
@@ -8827,7 +8838,7 @@ Steps: Gain life.
 
 ## Combo 338-4186-5070
 Cards: Light of Promise + Scurry Oak + Angelic Chorus
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Light of Promise (battlefield: attached to Scurry Oak); Scurry Oak (battlefield); Angelic Chorus (battlefield)
 Prerequisites: You have a way to gain life.
@@ -8839,7 +8850,7 @@ Steps: Gain life.
 
 ## Combo 338-4186-5789
 Cards: Light of Promise + Scurry Oak + Lifecreed Duo
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 69 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 70 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Light of Promise (battlefield: attached to Scurry Oak); Scurry Oak (battlefield); Lifecreed Duo (battlefield)
 Prerequisites: You have a way to gain life.
@@ -8851,7 +8862,7 @@ Steps: Gain life.
 
 ## Combo 338-4186-6097
 Cards: Light of Promise + Scurry Oak + Hinterland Sanctifier
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 120 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 130 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Light of Promise (battlefield: attached to Scurry Oak); Scurry Oak (battlefield); Hinterland Sanctifier (battlefield)
 Prerequisites: You have a way to gain life.
@@ -8875,7 +8886,7 @@ Steps: Gain life.
 
 ## Combo 338-4186-6720
 Cards: Light of Promise + Scurry Oak + Case of the Uneaten Feast
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Light of Promise (battlefield: attached to Scurry Oak); Scurry Oak (battlefield); Case of the Uneaten Feast (battlefield)
 Prerequisites: You have a way to gain life.
@@ -8911,7 +8922,7 @@ Steps: Gain life.
 
 ## Combo 338-4476-5641
 Cards: Basking Broodscale + Light of Promise + Answered Prayers
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite colorless mana; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Light of Promise (battlefield: attached to Basking Broodscale); Answered Prayers (battlefield)
 Prerequisites: You have a way to gain life.
@@ -8923,7 +8934,7 @@ Steps: Gain life.
 
 ## Combo 338-4506-5641
 Cards: Basking Broodscale + Light of Promise + Auriok Champion
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 70 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 71 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite colorless mana; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Light of Promise (battlefield: attached to Basking Broodscale); Auriok Champion (battlefield)
 Prerequisites: You have a way to gain life.
@@ -8959,7 +8970,7 @@ Steps: Gain life.
 
 ## Combo 338-4716-7690--165
 Cards: Invisible Woman, Sue Storm + Light of Promise + Prosperous Innkeeper
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Light of Promise (battlefield: attached to the other Hero); Prosperous Innkeeper (battlefield)
@@ -8986,7 +8997,7 @@ Steps: If needed, animate the land, causing it to become a creature.
 
 ## Combo 338-5070-5641
 Cards: Basking Broodscale + Light of Promise + Angelic Chorus
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite colorless mana; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Light of Promise (battlefield: attached to Basking Broodscale); Angelic Chorus (battlefield)
 Prerequisites: You have a way to gain life.
@@ -9025,7 +9036,7 @@ Steps: Gain life.
 
 ## Combo 338-5641-6097
 Cards: Basking Broodscale + Light of Promise + Hinterland Sanctifier
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 82 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 83 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite colorless mana; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Light of Promise (battlefield: attached to Basking Broodscale); Hinterland Sanctifier (battlefield)
 Prerequisites: You have a way to gain life.
@@ -9049,7 +9060,7 @@ Steps: Gain life.
 
 ## Combo 338-5641-6720
 Cards: Basking Broodscale + Light of Promise + Case of the Uneaten Feast
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 46 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite colorless mana; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Light of Promise (battlefield: attached to Basking Broodscale); Case of the Uneaten Feast (battlefield)
 Prerequisites: You have a way to gain life.
@@ -9061,7 +9072,7 @@ Steps: Gain life.
 
 ## Combo 338-5641-6752
 Cards: Basking Broodscale + Light of Promise + Haliya, Guided by Light
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 94 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 96 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite colorless mana; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Light of Promise (battlefield: attached to Basking Broodscale); Haliya, Guided by Light (battlefield)
 Prerequisites: You have a way to gain life.
@@ -9073,7 +9084,7 @@ Steps: Gain life.
 
 ## Combo 338-5641-7173
 Cards: Basking Broodscale + Light of Promise + Virulent Emissary
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 55 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 56 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Basking Broodscale (battlefield); Light of Promise (battlefield: attached to Basking Broodscale); Virulent Emissary (battlefield)
 Prerequisites: You have a way to gain life.
@@ -9085,7 +9096,7 @@ Steps: Gain life.
 
 ## Combo 338-7173-7690--165
 Cards: Invisible Woman, Sue Storm + Light of Promise + Virulent Emissary
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Light of Promise (battlefield: attached to the other Hero); Virulent Emissary (battlefield)
@@ -9127,7 +9138,7 @@ Steps: Activate Prize Pig by tapping it, adding {1}.
 ## Combo 342-2645-3990-5903
 Cards: Sam, Loyal Attendant + Gourmand's Talent + Staff of Domination + Incubation Druid
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite lifegain; Infinite mana lands you control can produce; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite untap of creatures you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite lifegain; Infinite mana lands you control can produce; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite untap of creatures you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Sam, Loyal Attendant (battlefield); Gourmand's Talent (battlefield); Staff of Domination (battlefield); Incubation Druid (battlefield: without summoning sickness and with a +1/+1 counter on it)
 Prerequisites: You control a mana-producing land.
 Steps: Activate Incubation Druid by tapping it, adding three mana of any color a land you control can produce.
@@ -9138,7 +9149,7 @@ Steps: Activate Incubation Druid by tapping it, adding three mana of any color a
 ## Combo 342-2645-4667-5903
 Cards: Sam, Loyal Attendant + Gourmand's Talent + Staff of Domination + Elvish Aberration
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite lifegain; Infinite card draw; Infinite green mana; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite untap of creatures you control; Infinite draw triggers
+Produces: Infinite lifegain; Infinite card draw; Infinite green mana; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite untap of creatures you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Sam, Loyal Attendant (battlefield); Gourmand's Talent (battlefield); Staff of Domination (battlefield); Elvish Aberration (battlefield)
 Prerequisites: Elvish Aberration does not have summoning sickness.
 Steps: Activate Elvish Aberration by tapping it, adding {G}{G}{G}.
@@ -9158,7 +9169,7 @@ Steps: Activate Basalt Monolith's first ability by tapping it, adding {C}{C}{C}.
 ## Combo 343-654-2692-2893
 Cards: Fertilid + Amulet of Vigor + Felidar Retreat + Regal Behemoth
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Near-infinite +1/+1 counters on creatures you control; Near-infinite landfall triggers; Put all basic lands from your library onto the battlefield
+Produces: Near-infinite creature tokens; Near-infinite +1/+1 counters on creatures you control; Near-infinite creature ETB; Near-infinite landfall triggers; Put all basic lands from your library onto the battlefield
 Start: Fertilid (battlefield); Amulet of Vigor (battlefield); Felidar Retreat (battlefield); Regal Behemoth (battlefield)
 Prerequisites: Fertilid has at least two +1/+1 counters on it.
   You are the monarch.
@@ -9453,7 +9464,7 @@ Steps: Activate Zopandrel using Myojin of Blooming Dawn's ability by removing an
 
 ## Combo 360-3197-4017
 Cards: Soul Warden + Herd Baloth + Sunbond
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 190 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 200 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Soul Warden (battlefield); Herd Baloth (battlefield); Sunbond (battlefield: attached to Herd Baloth)
 Prerequisites: You have a way to gain life.
@@ -9465,7 +9476,7 @@ Steps: Gain life.
 
 ## Combo 360-3197-6824
 Cards: Soul Warden + Herd Baloth + Spider-Man, Peter Parker
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 48 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 49 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Soul Warden (battlefield); Herd Baloth (battlefield); Spider-Man, Peter Parker (battlefield)
 Prerequisites: You have a way to gain life.
@@ -9489,7 +9500,7 @@ Steps: Gain life.
 
 ## Combo 360-3197-7743
 Cards: Soul Warden + Herd Baloth + Heroic Feast
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 100 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 110 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Start: Soul Warden (battlefield); Herd Baloth (battlefield); Heroic Feast (battlefield)
 Prerequisites: You have a way to gain life.
@@ -9551,7 +9562,7 @@ Steps: Gain life.
 
 ## Combo 360-4186-6824
 Cards: Soul Warden + Scurry Oak + Spider-Man, Peter Parker
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 87 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 88 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Soul Warden (battlefield); Scurry Oak (battlefield); Spider-Man, Peter Parker (battlefield)
 Prerequisites: You have a way to gain life.
@@ -9575,7 +9586,7 @@ Steps: Gain life.
 
 ## Combo 360-4186-7743
 Cards: Soul Warden + Scurry Oak + Heroic Feast
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 220 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 230 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Start: Soul Warden (battlefield); Scurry Oak (battlefield); Heroic Feast (battlefield)
 Prerequisites: You have a way to gain life.
@@ -9645,7 +9656,7 @@ Notes: Once you have infinite mana, you can forego sacrificing the Lotus tokens 
 
 ## Combo 360-5641-6824
 Cards: Basking Broodscale + Soul Warden + Spider-Man, Peter Parker
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 73 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 74 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite colorless mana; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Soul Warden (battlefield); Spider-Man, Peter Parker (battlefield)
 Prerequisites: You have a way to gain life.
@@ -9681,7 +9692,7 @@ Steps: Gain life.
 
 ## Combo 360-7684-7690
 Cards: Invisible Woman, Sue Storm + Tigra, Feline Fury + Soul Warden
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 21 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 23 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Start: Invisible Woman, Sue Storm (battlefield); Tigra, Feline Fury (battlefield); Soul Warden (battlefield)
 Prerequisites: You have a way to gain life.
@@ -9693,7 +9704,7 @@ Steps: Gain life.
 
 ## Combo 360-7690-7743--165
 Cards: Invisible Woman, Sue Storm + Soul Warden + Heroic Feast
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Soul Warden (battlefield); Heroic Feast (battlefield)
@@ -10312,7 +10323,7 @@ Notes: Due to differences in card templating between the various banisher effect
 
 ## Combo 372-1938-1971
 Cards: Abdel Adrian, Gorion's Ward + Yannik, Scavenging Sentinel + Glorious Protector
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 410 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 420 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
 Produces: Infinite +1/+1 counters on creatures you control; Infinite creature tokens; Infinite blinking of nonland permanents; Infinite creature ETB; Infinite creature LTB
 Start: Abdel Adrian, Gorion's Ward (hand, battlefield, exile: Exiled by the creature on the battlefield); Yannik, Scavenging Sentinel (hand, battlefield, exile: Exiled by the creature on the battlefield); Glorious Protector (hand, battlefield, exile: Exiled by the creature on the battlefield)
 Prerequisites: Glorious Protector must be exiled by Yannik, and Abdel Adrian must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
@@ -10328,7 +10339,7 @@ Notes: Due to differences in card templating between the various banisher effect
 
 ## Combo 372-1971-2781
 Cards: Abdel Adrian, Gorion's Ward + Yannik, Scavenging Sentinel + Felidar Guardian
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 400 | Commander: legal | Mana needed: {4}{W} plus enough mana to pay for command tax, if applicable
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 410 | Commander: legal | Mana needed: {4}{W} plus enough mana to pay for command tax, if applicable
 Produces: Infinite creature tokens; Infinite +1/+1 counters on creatures you control; Infinite creature LTB; Infinite creature ETB; Infinite blinking of nonland permanents
 Start: Abdel Adrian, Gorion's Ward (hand); Yannik, Scavenging Sentinel (battlefield); Felidar Guardian (exile)
 Prerequisites: Felidar Guardian exiled by Yannik
@@ -10375,7 +10386,7 @@ Steps: Cast Yannik either from your hand or from the command zone by paying its 
 
 ## Combo 372-1971-4344
 Cards: Abdel Adrian, Gorion's Ward + Yannik, Scavenging Sentinel + Lumbering Battlement
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 300 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 310 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
 Produces: Infinite +1/+1 counters on creatures you control; Infinite creature tokens; Infinite blinking of nonland permanents; Infinite creature ETB; Infinite creature LTB
 Start: Abdel Adrian, Gorion's Ward (hand, battlefield, exile: Exiled by the creature on the battlefield); Yannik, Scavenging Sentinel (hand, battlefield, exile: Exiled by the creature on the battlefield); Lumbering Battlement (hand, battlefield, exile: Exiled by the creature on the battlefield)
 Prerequisites: Lumbering Battlement must be exiled by Yannik, and Abdel Adrian must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
@@ -10585,7 +10596,7 @@ Steps: Cast Cloudshift by paying its mana cost, blinking Abdel Adrian.
 
 ## Combo 372-3603-4823
 Cards: Abdel Adrian, Gorion's Ward + Cloudshift + Timeless Witness
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 430 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 440 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature LTB; Infinite creature ETB; Infinite storm count; Infinite blinking of nonland permanents; Infinite magecraft triggers
 Start: Abdel Adrian, Gorion's Ward (battlefield); Cloudshift (hand); Timeless Witness (exile)
 Prerequisites: You have any number of other nonland permanents that enter the battlefield untapped, and that can collectively tap to produce enough mana to cast Cloudshift exiled by Abdel Adrian.
@@ -10722,7 +10733,7 @@ Steps: Activate Emiel by paying {3}, blinking Basilica Shepherd.
 ## Combo 391-907-2645-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Blossom Dryad + Selesnya Sanctuary
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Blossom Dryad (battlefield); Selesnya Sanctuary (battlefield)
 Prerequisites: Blossom Dryad doesn't have summoning sickness.
 Steps: Activate Selesnya Sanctuary by tapping it, adding {G}{G}{G}{W}{W}{W} due to Nyxbloom Ancient
@@ -10734,7 +10745,7 @@ Steps: Activate Selesnya Sanctuary by tapping it, adding {G}{G}{G}{W}{W}{W} due 
 ## Combo 391-1662-2645-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Blossom Dryad + Karoo
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Blossom Dryad (battlefield); Karoo (battlefield)
 Prerequisites: Blossom Dryad doesn't have summoning sickness.
 Steps: Activate Karoo by tapping it, adding {C}{C}{C}{W}{W}{W} due to Nyxbloom Ancient
@@ -12196,7 +12207,7 @@ Steps: Gain life in any way.
 
 ## Combo 475-1274-3197-4321
 Cards: Peregrin Took + Leonin Elder + Heliod, Sun-Crowned + Herd Baloth
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite card draw; Infinite artifact tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite creature ETB; Infinite draw triggers; Infinite Food tokens
 Start: Peregrin Took (battlefield); Leonin Elder (battlefield); Heliod, Sun-Crowned (battlefield); Herd Baloth (battlefield)
 Prerequisites: You have a way to gain life.
@@ -12207,10 +12218,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 475-1274-3197-7810
-Cards: Leonin Elder + Heliod, Sun-Crowned + Herd Baloth + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Leonin Elder + Heliod, Sun-Crowned + Herd Baloth
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Leonin Elder (battlefield); Heliod, Sun-Crowned (battlefield); Herd Baloth (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Leonin Elder (battlefield); Heliod, Sun-Crowned (battlefield); Herd Baloth (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Heliod triggers, putting a +1/+1 counter on Herd Baloth.
@@ -12244,7 +12255,7 @@ Steps: Gain life in any way.
 
 ## Combo 475-1274-4186-4321
 Cards: Peregrin Took + Leonin Elder + Heliod, Sun-Crowned + Scurry Oak
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite card draw; Infinite artifact tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite creature ETB; Infinite draw triggers; Infinite Food tokens
 Start: Peregrin Took (battlefield); Leonin Elder (battlefield); Heliod, Sun-Crowned (battlefield); Scurry Oak (battlefield)
 Prerequisites: You have a way to gain life.
@@ -12255,10 +12266,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 475-1274-4186-7810
-Cards: Leonin Elder + Heliod, Sun-Crowned + Scurry Oak + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Leonin Elder + Heliod, Sun-Crowned + Scurry Oak
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Leonin Elder (battlefield); Heliod, Sun-Crowned (battlefield); Scurry Oak (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Leonin Elder (battlefield); Heliod, Sun-Crowned (battlefield); Scurry Oak (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Heliod triggers, putting a +1/+1 counter on Scurry Oak.
@@ -12267,10 +12278,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 475-1274-5641-7810
-Cards: Basking Broodscale + Leonin Elder + Heliod, Sun-Crowned + Tippy-Toe, Terrific Partner
+Cards: Basking Broodscale + Tippy-Toe, Terrific Partner + Leonin Elder + Heliod, Sun-Crowned
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Basking Broodscale (battlefield); Leonin Elder (battlefield); Heliod, Sun-Crowned (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Basking Broodscale (battlefield); Tippy-Toe, Terrific Partner (battlefield); Leonin Elder (battlefield); Heliod, Sun-Crowned (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Heliod triggers, putting a +1/+1 counter on Basking Broodscale.
@@ -12303,10 +12314,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 475-2919-3197-7810
-Cards: Archangel of Thune + Leonin Elder + Herd Baloth + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Archangel of Thune + Leonin Elder + Herd Baloth
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite +1/+1 counters on creatures you control; Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Archangel of Thune (battlefield); Leonin Elder (battlefield); Herd Baloth (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Archangel of Thune (battlefield); Leonin Elder (battlefield); Herd Baloth (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Archangel of Thune triggers, putting a +1/+1 counter on each creature you control.
@@ -12351,10 +12362,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 475-2919-4186-7810
-Cards: Archangel of Thune + Leonin Elder + Scurry Oak + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Archangel of Thune + Leonin Elder + Scurry Oak
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite +1/+1 counters on creatures you control; Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Archangel of Thune (battlefield); Leonin Elder (battlefield); Scurry Oak (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Archangel of Thune (battlefield); Leonin Elder (battlefield); Scurry Oak (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Archangel of Thune triggers, putting a +1/+1 counter on each creature you control.
@@ -12363,10 +12374,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 475-2919-5641-7810
-Cards: Basking Broodscale + Archangel of Thune + Leonin Elder + Tippy-Toe, Terrific Partner
+Cards: Basking Broodscale + Tippy-Toe, Terrific Partner + Archangel of Thune + Leonin Elder
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite +1/+1 counters on creatures you control; Infinite colorless mana; Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Basking Broodscale (battlefield); Archangel of Thune (battlefield); Leonin Elder (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Basking Broodscale (battlefield); Tippy-Toe, Terrific Partner (battlefield); Archangel of Thune (battlefield); Leonin Elder (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Archangel of Thune triggers, putting a +1/+1 counter on each creature you control.
@@ -12423,10 +12434,10 @@ Steps: Gain life in any way.
   Repeat from step 2.
 
 ## Combo 475-3197-4017-7810
-Cards: Leonin Elder + Herd Baloth + Sunbond + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Leonin Elder + Herd Baloth + Sunbond
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Leonin Elder (battlefield); Herd Baloth (battlefield); Sunbond (battlefield: attached to Herd Baloth); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Leonin Elder (battlefield); Herd Baloth (battlefield); Sunbond (battlefield: attached to Herd Baloth)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Sunbond triggers, putting a +1/+1 counter on Herd Baloth.
@@ -12447,10 +12458,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 475-3197-6824-7810
-Cards: Leonin Elder + Herd Baloth + Spider-Man, Peter Parker + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Leonin Elder + Herd Baloth + Spider-Man, Peter Parker
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Leonin Elder (battlefield); Herd Baloth (battlefield); Spider-Man, Peter Parker (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Leonin Elder (battlefield); Herd Baloth (battlefield); Spider-Man, Peter Parker (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Spider-Man triggers, putting a +1/+1 counter on Herd Baloth.
@@ -12459,10 +12470,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 475-3197-6996-7810
-Cards: Leonin Elder + Herd Baloth + The Destined White Mage + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Leonin Elder + Herd Baloth + The Destined White Mage
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Leonin Elder (battlefield); Herd Baloth (battlefield); The Destined White Mage (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Leonin Elder (battlefield); Herd Baloth (battlefield); The Destined White Mage (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   The Destined White Mage triggers, putting a +1/+1 counter on Herd Baloth.
@@ -12471,10 +12482,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 475-3197-7743-7810
-Cards: Leonin Elder + Herd Baloth + Heroic Feast + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Leonin Elder + Herd Baloth + Heroic Feast
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Leonin Elder (battlefield); Herd Baloth (battlefield); Heroic Feast (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Leonin Elder (battlefield); Herd Baloth (battlefield); Heroic Feast (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Heroic Feast triggers, putting a +1/+1 counter on Herd Baloth.
@@ -12579,10 +12590,10 @@ Steps: Gain life in any way.
   Repeat from step 2.
 
 ## Combo 475-4017-4186-7810
-Cards: Leonin Elder + Sunbond + Scurry Oak + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Leonin Elder + Sunbond + Scurry Oak
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Leonin Elder (battlefield); Sunbond (battlefield: attached to Scurry Oak); Scurry Oak (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Leonin Elder (battlefield); Sunbond (battlefield: attached to Scurry Oak); Scurry Oak (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Sunbond triggers, putting a +1/+1 counter on Scurry Oak.
@@ -12591,10 +12602,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 475-4017-5641-7810
-Cards: Basking Broodscale + Leonin Elder + Sunbond + Tippy-Toe, Terrific Partner
+Cards: Basking Broodscale + Tippy-Toe, Terrific Partner + Leonin Elder + Sunbond
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Basking Broodscale (battlefield); Leonin Elder (battlefield); Sunbond (battlefield: attached to Basking Broodscale); Tippy-Toe, Terrific Partner (battlefield)
+Start: Basking Broodscale (battlefield); Tippy-Toe, Terrific Partner (battlefield); Leonin Elder (battlefield); Sunbond (battlefield: attached to Basking Broodscale)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Sunbond triggers, putting a +1/+1 counter on Basking Broodscale.
@@ -12615,10 +12626,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 475-4186-6824-7810
-Cards: Leonin Elder + Scurry Oak + Spider-Man, Peter Parker + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Leonin Elder + Scurry Oak + Spider-Man, Peter Parker
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Leonin Elder (battlefield); Scurry Oak (battlefield); Spider-Man, Peter Parker (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Leonin Elder (battlefield); Scurry Oak (battlefield); Spider-Man, Peter Parker (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Spider-Man triggers, putting a +1/+1 counter on Scurry Oak.
@@ -12627,10 +12638,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 475-4186-6996-7810
-Cards: Leonin Elder + Scurry Oak + The Destined White Mage + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Leonin Elder + Scurry Oak + The Destined White Mage
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Leonin Elder (battlefield); Scurry Oak (battlefield); The Destined White Mage (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Leonin Elder (battlefield); Scurry Oak (battlefield); The Destined White Mage (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   The Destined White Mage triggers, putting a +1/+1 counter on Scurry Oak.
@@ -12639,10 +12650,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 475-4186-7743-7810
-Cards: Leonin Elder + Scurry Oak + Heroic Feast + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Leonin Elder + Scurry Oak + Heroic Feast
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Leonin Elder (battlefield); Scurry Oak (battlefield); Heroic Feast (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Leonin Elder (battlefield); Scurry Oak (battlefield); Heroic Feast (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Heroic Feast triggers, putting a +1/+1 counter on Scurry Oak.
@@ -12663,10 +12674,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 475-5641-6824-7810
-Cards: Basking Broodscale + Leonin Elder + Spider-Man, Peter Parker + Tippy-Toe, Terrific Partner
+Cards: Basking Broodscale + Tippy-Toe, Terrific Partner + Leonin Elder + Spider-Man, Peter Parker
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Basking Broodscale (battlefield); Leonin Elder (battlefield); Spider-Man, Peter Parker (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Basking Broodscale (battlefield); Tippy-Toe, Terrific Partner (battlefield); Leonin Elder (battlefield); Spider-Man, Peter Parker (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Spider-Man triggers, putting a +1/+1 counter on Basking Broodscale.
@@ -12675,10 +12686,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 475-5641-6996-7810
-Cards: Basking Broodscale + Leonin Elder + The Destined White Mage + Tippy-Toe, Terrific Partner
+Cards: Basking Broodscale + Tippy-Toe, Terrific Partner + Leonin Elder + The Destined White Mage
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Basking Broodscale (battlefield); Leonin Elder (battlefield); The Destined White Mage (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Basking Broodscale (battlefield); Tippy-Toe, Terrific Partner (battlefield); Leonin Elder (battlefield); The Destined White Mage (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   The Destined White Mage triggers, putting a +1/+1 counter on Basking Broodscale.
@@ -12687,10 +12698,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 475-5641-7743-7810
-Cards: Basking Broodscale + Leonin Elder + Heroic Feast + Tippy-Toe, Terrific Partner
+Cards: Basking Broodscale + Tippy-Toe, Terrific Partner + Leonin Elder + Heroic Feast
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Basking Broodscale (battlefield); Leonin Elder (battlefield); Heroic Feast (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Basking Broodscale (battlefield); Tippy-Toe, Terrific Partner (battlefield); Leonin Elder (battlefield); Heroic Feast (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Heroic Feast triggers, putting a +1/+1 counter on Basking Broodscale.
@@ -14325,7 +14336,7 @@ Steps: Activate Selvala by paying {G} and tapping it, adding at least {3}{G}
 
 ## Combo 527-4499-5295
 Cards: Selvala, Heart of the Wilds + Emiel the Blessed + Thousand-Year Elixir
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 730 | Commander: legal | Mana needed: {G}
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 720 | Commander: legal | Mana needed: {G}
 Produces: Infinite colored mana; Infinite creature LTB; Infinite creature ETB; Infinite blinking
 Start: Selvala, Heart of the Wilds (battlefield); Emiel the Blessed (battlefield); Thousand-Year Elixir (battlefield)
 Steps: Activate Selvala by paying {G} and tapping it, adding at least {3}{G}
@@ -14375,7 +14386,7 @@ Steps: Animate Spawning Pit using Living Brain.
 
 ## Combo 539-570-4657
 Cards: Ashaya, Soul of the Wild + Magus of the Candelabra + Faeburrow Elder
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 90 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 89 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite green mana; Infinite mana of colors among permanents you control; Infinite mana nontoken creatures you control can produce; Infinite untap of nontoken creatures you control; Infinite untap of lands you control
 Start: Ashaya, Soul of the Wild (battlefield); Magus of the Candelabra (battlefield: without summoning sickness); Faeburrow Elder (battlefield: without summoning sickness)
 Prerequisites: There are at least three colors among permanents you control.
@@ -14386,7 +14397,7 @@ Steps: Activate Faeburrow Elder by tapping it, adding at least {1}{G}{W}.
 ## Combo 539-730-2034-5003
 Cards: Nim Deathmantle + Ashnod's Altar + Ashaya, Soul of the Wild + Emeria Angel
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}
-Produces: Infinite colorless mana; Infinite green mana; Infinite death triggers; Infinite creature ETB; Infinite landfall triggers; Infinite creature LTB; Infinite creature sacrifice triggers
+Produces: Infinite creature tokens; Infinite colorless mana; Infinite green mana; Infinite death triggers; Infinite creature ETB; Infinite landfall triggers; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Ashaya, Soul of the Wild (battlefield); Emeria Angel (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Ashaya, adding {C}{C}.
   When Ashaya dies, Nim Deathmantle triggers, causing you to pay {4} to return Ashaya from your graveyard to the battlefield, and attaching Nim Deathmantle to it.
@@ -14587,7 +14598,7 @@ Steps: Cast Memnite by paying {0}.
 ## Combo 539-2034-2374-5003
 Cards: Nim Deathmantle + Ashnod's Altar + Ashaya, Soul of the Wild + Maja, Bretagard Protector
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}
-Produces: Infinite colorless mana; Infinite green mana; Infinite death triggers; Infinite creature ETB; Infinite landfall triggers; Infinite creature LTB; Infinite creature sacrifice triggers
+Produces: Infinite creature tokens; Infinite colorless mana; Infinite green mana; Infinite death triggers; Infinite creature ETB; Infinite landfall triggers; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Ashaya, Soul of the Wild (battlefield); Maja, Bretagard Protector (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Ashaya, adding {C}{C}.
   When Ashaya dies, Nim Deathmantle triggers, causing you to pay {4} to return Ashaya from your graveyard to the battlefield, and attaching Nim Deathmantle to it.
@@ -14599,7 +14610,7 @@ Steps: Activate Ashnod's Altar by sacrificing Ashaya, adding {C}{C}.
 ## Combo 539-2034-2692-5003
 Cards: Nim Deathmantle + Ashnod's Altar + Ashaya, Soul of the Wild + Felidar Retreat
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {2}
-Produces: Infinite colorless mana; Infinite green mana; Infinite death triggers; Infinite creature ETB; Infinite landfall triggers; Infinite creature LTB; Infinite creature sacrifice triggers
+Produces: Infinite creature tokens; Infinite colorless mana; Infinite green mana; Infinite death triggers; Infinite creature ETB; Infinite landfall triggers; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Ashaya, Soul of the Wild (battlefield); Felidar Retreat (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Ashaya, adding {C}{C}.
   When Ashaya dies, Nim Deathmantle triggers, causing you to pay {4} to return Ashaya from your graveyard to the battlefield, and attaching Nim Deathmantle to it.
@@ -14638,7 +14649,7 @@ Steps: Activate Order of Whiteclay by tapping it, adding {W}{W}.
 ## Combo 539-2034-3678-5003
 Cards: Nim Deathmantle + Ashnod's Altar + Ashaya, Soul of the Wild + Retreat to Emeria
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}
-Produces: Infinite colorless mana; Infinite green mana; Infinite death triggers; Infinite creature ETB; Infinite landfall triggers; Infinite creature LTB; Infinite creature sacrifice triggers
+Produces: Infinite creature tokens; Infinite colorless mana; Infinite green mana; Infinite death triggers; Infinite creature ETB; Infinite landfall triggers; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Ashaya, Soul of the Wild (battlefield); Retreat to Emeria (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Ashaya, adding {C}{C}.
   When Ashaya dies, Nim Deathmantle triggers, causing you to pay {4} to return Ashaya from your graveyard to the battlefield, and attaching Nim Deathmantle to it.
@@ -16043,7 +16054,7 @@ Steps: Fetch a land using Maestros Theater.
 ## Combo 561-3678-6879
 Cards: Retreat to Emeria + Haru, Hidden Talent + Maestros Theater
 Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 110 | Commander: legal
-Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite creature ETB; Near-infinite landfall triggers; Infinite landfall triggers; Put all basic Mountains from your library onto the battlefield tapped; Put all basic Islands from your library onto the battlefield tapped; Put all basic Swamps from your library onto the battlefield tapped
+Produces: Near-infinite creature tokens; Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Near-infinite creature ETB; Infinite creature ETB; Near-infinite landfall triggers; Infinite landfall triggers; Put all basic Mountains from your library onto the battlefield tapped; Put all basic Islands from your library onto the battlefield tapped; Put all basic Swamps from your library onto the battlefield tapped
 Start: Retreat to Emeria (battlefield); Haru, Hidden Talent (battlefield); Maestros Theater (hand)
 Prerequisites: You are able to play a land this turn.
 Steps: Play Maestros Theater.
@@ -16103,7 +16114,7 @@ Steps: Gain any amount of life.
 
 ## Combo 567-1274-5641
 Cards: Basking Broodscale + Soul's Attendant + Heliod, Sun-Crowned
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 900 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 910 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite colorless mana; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Soul's Attendant (battlefield); Heliod, Sun-Crowned (battlefield)
 Prerequisites: You have a way to gain life.
@@ -16208,7 +16219,7 @@ Steps: Gain life.
 
 ## Combo 567-2919-5641
 Cards: Basking Broodscale + Archangel of Thune + Soul's Attendant
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 650 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 660 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite colorless mana; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Archangel of Thune (battlefield); Soul's Attendant (battlefield)
 Prerequisites: You have a way to put a +1/+1 counter on Basking Broodscale.
@@ -16245,7 +16256,7 @@ Steps: Gain life.
 
 ## Combo 567-3197-6824
 Cards: Soul's Attendant + Herd Baloth + Spider-Man, Peter Parker
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 44 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 45 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Soul's Attendant (battlefield); Herd Baloth (battlefield); Spider-Man, Peter Parker (battlefield)
 Prerequisites: You have a way to gain life.
@@ -16331,7 +16342,7 @@ Steps: Gain life.
 
 ## Combo 567-4186-6824
 Cards: Soul's Attendant + Scurry Oak + Spider-Man, Peter Parker
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 72 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 73 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Soul's Attendant (battlefield); Scurry Oak (battlefield); Spider-Man, Peter Parker (battlefield)
 Prerequisites: You have a way to gain life.
@@ -16425,7 +16436,7 @@ Notes: Once you have infinite mana, you can forego sacrificing the Lotus tokens 
 
 ## Combo 567-5641-6824
 Cards: Basking Broodscale + Soul's Attendant + Spider-Man, Peter Parker
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 58 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 59 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite colorless mana; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Soul's Attendant (battlefield); Spider-Man, Peter Parker (battlefield)
 Prerequisites: You have a way to gain life.
@@ -16461,7 +16472,7 @@ Steps: Gain life.
 
 ## Combo 567-7684-7690
 Cards: Invisible Woman, Sue Storm + Tigra, Feline Fury + Soul's Attendant
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 10 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 12 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Start: Invisible Woman, Sue Storm (battlefield); Tigra, Feline Fury (battlefield); Soul's Attendant (battlefield)
 Prerequisites: You have a way to gain life.
@@ -16473,7 +16484,7 @@ Steps: Gain life.
 
 ## Combo 567-7690-7743--165
 Cards: Invisible Woman, Sue Storm + Soul's Attendant + Heroic Feast
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Soul's Attendant (battlefield); Heroic Feast (battlefield)
@@ -16536,7 +16547,7 @@ Steps: Activate Lightning Greaves' equip ability by paying {0}, targeting Faebur
 
 ## Combo 570-1247-5963
 Cards: Marvin, Murderous Mimic + Pili-Pala + Faeburrow Elder
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 190 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 200 | Commander: legal
 Produces: Infinite colored mana
 Start: Marvin, Murderous Mimic (battlefield: without summoning sickness); Pili-Pala (battlefield); Faeburrow Elder (battlefield)
 Steps: Activate Marvin using Faeburrow Elder's ability by tapping it, adding at least {G}{W}.
@@ -16635,7 +16646,7 @@ Steps: Cast Planewide Celebration by paying {5}{G}{G}, creating at least one 2/2
 ## Combo 570-2645
 Cards: Staff of Domination + Faeburrow Elder
 Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 4100 | Commander: legal
-Produces: Infinite lifegain; Infinite card draw; Infinite mana creatures you control can produce; Infinite colored mana; Infinite lifegain triggers; Infinite untap of creatures you control; Infinite draw triggers
+Produces: Infinite lifegain; Infinite card draw; Infinite mana creatures you control can produce; Infinite colored mana; Infinite lifegain triggers; Tap all creatures opponents control; Infinite untap of creatures you control; Infinite draw triggers
 Start: Staff of Domination (battlefield); Faeburrow Elder (battlefield)
 Prerequisites: Faeburrow Elder does not have summoning sickness. You control a permanent of each color.
 Steps: Activate Faeburrow Elder by tapping it, adding {W}{U}{B}{R}{G}.
@@ -16655,7 +16666,7 @@ Steps: Activate Marvin using Faeburrow Elder's ability by tapping it, adding at 
 
 ## Combo 570-5200
 Cards: Sword of the Paruns + Faeburrow Elder
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 550 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 560 | Commander: legal
 Produces: Infinite mana creatures you control can produce; Infinite mana of colors among permanents you control; Infinite untap of creatures you control
 Start: Sword of the Paruns (battlefield: attached to Faeburrow Elder); Faeburrow Elder (battlefield: without summoning sickness)
 Prerequisites: There are at least four colors among permanents you control.
@@ -17145,7 +17156,7 @@ Steps: Cause Brigid to become an artifact using Ashnod's Transmogrant
 ## Combo 630-654-2692-2893
 Cards: Fertilid + Amulet of Vigor + Felidar Retreat + Keeper of Progenitus
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Near-infinite +1/+1 counters on creatures you control; Near-infinite landfall triggers; Put all basic Forests from your library onto the battlefield
+Produces: Near-infinite creature tokens; Near-infinite +1/+1 counters on creatures you control; Near-infinite landfall triggers; Put all basic Forests from your library onto the battlefield; Near-infinite creature ETB
 Start: Fertilid (battlefield); Amulet of Vigor (battlefield); Felidar Retreat (battlefield); Keeper of Progenitus (battlefield)
 Prerequisites: Fertilid has at least two +1/+1 counters on it.
 Steps: Activate Fertilid, searching your library for a basic Forest card, putting it onto the battlefield tapped.
@@ -17618,7 +17629,7 @@ Steps: Cast Splendid Reclamation by paying {3}{G}.
 
 ## Combo 654-730-880
 Cards: Perilous Forays + Amulet of Vigor + Emeria Angel
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 100 | Commander: legal | Mana needed: {1}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 110 | Commander: legal | Mana needed: {1}
 Produces: Put all lands with a basic land type from your library onto the battlefield tapped
 Start: Perilous Forays (battlefield); Amulet of Vigor (battlefield); Emeria Angel (battlefield)
 Prerequisites: You control at least one additional creature.
@@ -18134,7 +18145,7 @@ Steps: Activate Ashnod's Altar by sacrificing Ancient Adamantoise, adding {C}{C}
 ## Combo 654-2203-2692-2893
 Cards: Fertilid + Amulet of Vigor + Felidar Retreat + Vorinclex, Voice of Hunger
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}{G}
-Produces: Near-infinite +1/+1 counters on creatures you control; Near-infinite landfall triggers; Put all basic Forests from your library onto the battlefield
+Produces: Near-infinite creature tokens; Near-infinite +1/+1 counters on creatures you control; Near-infinite landfall triggers; Put all basic Forests from your library onto the battlefield; Near-infinite creature ETB
 Start: Fertilid (battlefield); Amulet of Vigor (battlefield); Felidar Retreat (battlefield); Vorinclex, Voice of Hunger (battlefield)
 Prerequisites: Fertilid has at least two +1/+1 counters on it.
 Steps: Activate Fertilid, searching your library for a basic Forest card, putting it onto the battlefield tapped.
@@ -18249,7 +18260,7 @@ Steps: Activate Saurian Explorer by paying {6}, creating eight tapped New Planet
 ## Combo 654-2653-2692-2893
 Cards: Fertilid + Amulet of Vigor + Felidar Retreat + Nissa, Resurgent Animist
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal | Mana needed: {1}{G}
-Produces: Near-infinite +1/+1 counters on creatures you control; Near-infinite landfall triggers; Put all basic lands from your library onto the battlefield; Put all basic lands from your library onto the battlefield tapped
+Produces: Near-infinite creature tokens; Near-infinite +1/+1 counters on creatures you control; Near-infinite landfall triggers; Put all basic lands from your library onto the battlefield; Put all basic lands from your library onto the battlefield tapped; Near-infinite creature ETB
 Start: Fertilid (battlefield); Amulet of Vigor (battlefield); Felidar Retreat (battlefield); Nissa, Resurgent Animist (battlefield)
 Prerequisites: Fertilid has 2 or more +1/+1 counters on it.
 Steps: Activate Fertilid, searching your library for a basic land card, putting it onto the battlefield tapped.
@@ -18274,7 +18285,7 @@ Steps: Activate Terramorphic Expanse by tapping and sacrificing it.
 ## Combo 654-2692-2893-3430
 Cards: Fertilid + Amulet of Vigor + Felidar Retreat + Nyxbloom Ancient
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}{G}
-Produces: Near-infinite colored mana; Near-infinite +1/+1 counters on creatures you control; Near-infinite landfall triggers; Put all basic lands from your library onto the battlefield
+Produces: Near-infinite colored mana; Near-infinite creature tokens; Near-infinite +1/+1 counters on creatures you control; Near-infinite landfall triggers; Put all basic lands from your library onto the battlefield; Near-infinite creature ETB
 Start: Fertilid (battlefield); Amulet of Vigor (battlefield); Felidar Retreat (battlefield); Nyxbloom Ancient (battlefield)
 Prerequisites: Fertilid has at least two +1/+1 counters on it.
 Steps: Activate Fertilid, searching your library for a basic Forest card, putting it onto the battlefield tapped.
@@ -18287,7 +18298,7 @@ Steps: Activate Fertilid, searching your library for a basic Forest card, puttin
 ## Combo 654-2692-2893-3470
 Cards: Fertilid + Amulet of Vigor + Felidar Retreat + Lotus Cobra
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal | Mana needed: {1}{G}
-Produces: Near-infinite +1/+1 counters on creatures you control; Near-infinite landfall triggers; Put all basic lands from your library onto the battlefield; Put all basic lands from your library onto the battlefield tapped
+Produces: Near-infinite creature tokens; Near-infinite +1/+1 counters on creatures you control; Near-infinite creature ETB; Near-infinite landfall triggers; Put all basic lands from your library onto the battlefield; Put all basic lands from your library onto the battlefield tapped
 Start: Fertilid (battlefield); Amulet of Vigor (battlefield); Felidar Retreat (battlefield); Lotus Cobra (battlefield)
 Prerequisites: Fertilid has 2 or more +1/+1 counters on it.
 Steps: Activate Fertilid, searching your library for a basic land card, putting it onto the battlefield tapped.
@@ -18300,7 +18311,7 @@ Steps: Activate Fertilid, searching your library for a basic land card, putting 
 ## Combo 654-2692-2893-3875
 Cards: Fertilid + Amulet of Vigor + Felidar Retreat + Tireless Provisioner
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal | Mana needed: {1}{G}
-Produces: Near-infinite landfall triggers; Put all basic lands from your library onto the battlefield tapped
+Produces: Near-infinite creature tokens; Near-infinite creature ETB; Near-infinite landfall triggers; Put all basic lands from your library onto the battlefield tapped
 Start: Fertilid (battlefield: with a +1/+1 counter on it); Amulet of Vigor (battlefield); Felidar Retreat (battlefield); Tireless Provisioner (battlefield)
 Steps: Activate Fertilid by paying {1}{G} and removing a +1/+1 counter from it, causing you to search your library for a basic land card and put it on the battlefield untapped due to Amulet of Vigor.
   When the basic land enters, Amulet of Vigor, Tireless Provisioner and Felidar Retreat trigger.
@@ -18314,7 +18325,7 @@ Steps: Activate Fertilid by paying {1}{G} and removing a +1/+1 counter from it, 
 ## Combo 654-2692-2893-5234
 Cards: Fertilid + Amulet of Vigor + Felidar Retreat + Heartbeat of Spring
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Near-infinite +1/+1 counters on creatures you control; Near-infinite landfall triggers; Put all basic Forests from your library onto the battlefield
+Produces: Near-infinite creature tokens; Near-infinite +1/+1 counters on creatures you control; Near-infinite landfall triggers; Put all basic Forests from your library onto the battlefield; Near-infinite creature ETB
 Start: Fertilid (battlefield); Amulet of Vigor (battlefield); Felidar Retreat (battlefield); Heartbeat of Spring (battlefield)
 Prerequisites: Fertilid has at least two +1/+1 counters on it.
 Steps: Activate Fertilid, searching your library for a basic Forest card, putting it onto the battlefield tapped.
@@ -18850,7 +18861,7 @@ Steps: Gain life.
 
 ## Combo 671-3197-6824
 Cards: Daxos, Blessed by the Sun + Herd Baloth + Spider-Man, Peter Parker
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 19 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 20 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Daxos, Blessed by the Sun (battlefield); Herd Baloth (battlefield); Spider-Man, Peter Parker (battlefield)
 Prerequisites: You have a way to gain life.
@@ -18898,7 +18909,7 @@ Steps: Gain life.
 
 ## Combo 671-4017-5641
 Cards: Basking Broodscale + Daxos, Blessed by the Sun + Sunbond
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 77 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 78 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite colorless mana; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Daxos, Blessed by the Sun (battlefield); Sunbond (battlefield: attached to Basking Broodscale)
 Prerequisites: You have a way to gain life.
@@ -18910,7 +18921,7 @@ Steps: Gain life.
 
 ## Combo 671-4186-6824
 Cards: Daxos, Blessed by the Sun + Scurry Oak + Spider-Man, Peter Parker
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 27 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 28 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Daxos, Blessed by the Sun (battlefield); Scurry Oak (battlefield); Spider-Man, Peter Parker (battlefield)
 Prerequisites: You have a way to gain life.
@@ -19028,7 +19039,7 @@ Steps: Gain life.
 
 ## Combo 671-7684-7690
 Cards: Invisible Woman, Sue Storm + Tigra, Feline Fury + Daxos, Blessed by the Sun
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 8 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 9 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Start: Invisible Woman, Sue Storm (battlefield); Tigra, Feline Fury (battlefield); Daxos, Blessed by the Sun (battlefield)
 Prerequisites: You have a way to gain life.
@@ -19842,6 +19853,28 @@ Steps: Activate Mindslaver by paying {4}, tapping and sacrificing it, causing yo
   Cast Mindslaver by paying {6}.
   Repeat.
 
+## Combo 723-1167-2048
+Cards: Captain Sisay + Mindslaver + Epitaph Golem
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {6} the first turn, with {12} available each following turn
+Produces: You control one opponent on their turn each turn cycle; Lock
+Start: Captain Sisay (battlefield); Mindslaver (battlefield); Epitaph Golem (battlefield)
+Steps: Activate Mindslaver by paying {4}, tapping and sacrificing it, causing you to gain control of target opponent during their next turn.
+  Activate Epitaph Golem by paying {2}, putting Mindslaver from your graveyard onto the bottom of your library
+  During your next turn, activate Captain Sisay by tapping it, searching your library for Mindslaver and putting it into your hand.
+  Cast Mindslaver by paying {6}.
+  Repeat.
+
+## Combo 723-1167-2455
+Cards: Captain Sisay + Mindslaver + Reito Sentinel
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {7} the first turn, with {13} available each following turn
+Produces: You control one opponent on their turn each turn cycle; Lock
+Start: Captain Sisay (battlefield); Mindslaver (battlefield); Reito Sentinel (battlefield)
+Steps: Activate Mindslaver by paying {4}, tapping and sacrificing it, causing you to gain control of target opponent during their next turn.
+  Activate Reito Sentinel by paying {3}, putting Mindslaver from your graveyard onto the bottom of your library
+  During your next turn, activate Captain Sisay by tapping it, searching your library for Mindslaver and putting it into your hand.
+  Cast Mindslaver by paying {6}.
+  Repeat.
+
 ## Combo 723-1167-2660
 Cards: Captain Sisay + Mindslaver + Wheel of Sun and Moon
 Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 16 | Commander: legal | Mana needed: {4} the first turn, with {10} available each following turn
@@ -19851,6 +19884,72 @@ Prerequisites: Wheel of Sun and Moon attached to you.
 Steps: Activate Mindslaver by paying {4}, tapping and sacrificing it.
   Mindslaver is put onto the bottom of your library instead of into your graveyard due to Wheel of Sun and Moon.
   Resolve the Mindslaver ability, causing you to gain control of target opponent during their next turn.
+  During your next turn, activate Captain Sisay by tapping it, searching your library for Mindslaver and putting it into your hand.
+  Cast Mindslaver by paying {6}.
+  Repeat.
+
+## Combo 723-1167-5496
+Cards: Captain Sisay + Mindslaver + Tomb Trawler
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {6} the first turn, with {12} available each following turn
+Produces: You control one opponent on their turn each turn cycle; Lock
+Start: Captain Sisay (battlefield); Mindslaver (battlefield); Tomb Trawler (battlefield)
+Steps: Activate Mindslaver by paying {4}, tapping and sacrificing it, causing you to gain control of target opponent during their next turn.
+  Activate Tomb Trawler by paying {2}, putting Mindslaver from your graveyard onto the bottom of your library
+  During your next turn, activate Captain Sisay by tapping it, searching your library for Mindslaver and putting it into your hand.
+  Cast Mindslaver by paying {6}.
+  Repeat.
+
+## Combo 723-1167-5497
+Cards: Captain Sisay + Mindslaver + Hoverstone Pilgrim
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {6} the first turn, with {12} available each following turn
+Produces: You control one opponent on their turn each turn cycle; Lock
+Start: Captain Sisay (battlefield); Mindslaver (battlefield); Hoverstone Pilgrim (battlefield)
+Steps: Activate Mindslaver by paying {4}, tapping and sacrificing it, causing you to gain control of target opponent during their next turn.
+  Activate Hoverstone Pilgrim by paying {2}, putting Mindslaver from your graveyard onto the bottom of your library
+  During your next turn, activate Captain Sisay by tapping it, searching your library for Mindslaver and putting it into your hand.
+  Cast Mindslaver by paying {6}.
+  Repeat.
+
+## Combo 723-1167-5498
+Cards: Captain Sisay + Mindslaver + Reito Lantern
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {7} the first turn, with {13} available each following turn
+Produces: You control one opponent on their turn each turn cycle; Lock
+Start: Captain Sisay (battlefield); Mindslaver (battlefield); Reito Lantern (battlefield)
+Steps: Activate Mindslaver by paying {4}, tapping and sacrificing it, causing you to gain control of target opponent during their next turn.
+  Activate Reito Lantern by paying {3}, putting Mindslaver from your graveyard onto the bottom of your library
+  During your next turn, activate Captain Sisay by tapping it, searching your library for Mindslaver and putting it into your hand.
+  Cast Mindslaver by paying {6}.
+  Repeat.
+
+## Combo 723-1167-5795
+Cards: Captain Sisay + Mindslaver + Barkform Harvester
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {6} the first turn, with {12} available each following turn
+Produces: You control one opponent on their turn each turn cycle; Lock
+Start: Captain Sisay (battlefield); Mindslaver (battlefield); Barkform Harvester (battlefield)
+Steps: Activate Mindslaver by paying {4}, tapping and sacrificing it, causing you to gain control of target opponent during their next turn.
+  Activate Barkform Harvester by paying {2}, putting Mindslaver from your graveyard onto the bottom of your library
+  During your next turn, activate Captain Sisay by tapping it, searching your library for Mindslaver and putting it into your hand.
+  Cast Mindslaver by paying {6}.
+  Repeat.
+
+## Combo 723-1167-6005
+Cards: Captain Sisay + Mindslaver + Malevolent Chandelier
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {6} the first turn, with {12} available each following turn
+Produces: You control one opponent on their turn each turn cycle; Lock
+Start: Captain Sisay (battlefield); Mindslaver (battlefield); Malevolent Chandelier (battlefield)
+Steps: Activate Mindslaver by paying {4}, tapping and sacrificing it, causing you to gain control of target opponent during their next turn.
+  Activate Malevolent Chandelier by paying {2}, putting Mindslaver from your graveyard onto the bottom of your library
+  During your next turn, activate Captain Sisay by tapping it, searching your library for Mindslaver and putting it into your hand.
+  Cast Mindslaver by paying {6}.
+  Repeat.
+
+## Combo 723-1167-7654
+Cards: Captain Sisay + Mindslaver + Sundering Archaic
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {6} the first turn, with {12} available each following turn
+Produces: You control one opponent on their turn each turn cycle; Lock
+Start: Captain Sisay (battlefield); Mindslaver (battlefield); Sundering Archaic (battlefield)
+Steps: Activate Mindslaver by paying {4}, tapping and sacrificing it, causing you to gain control of target opponent during their next turn.
+  Activate Sundering Archaic by paying {2}, putting Mindslaver from your graveyard onto the bottom of your library
   During your next turn, activate Captain Sisay by tapping it, searching your library for Mindslaver and putting it into your hand.
   Cast Mindslaver by paying {6}.
   Repeat.
@@ -20255,7 +20354,7 @@ Steps: Fetch a land using Windswept Heath.
 
 ## Combo 730-1479-2841-8103
 Cards: Kodama of the East Tree + Ghost Town + Emeria Angel + Verdant Catacombs
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Ghost Town (hand); Emeria Angel (battlefield); Verdant Catacombs (battlefield)
 Prerequisites: It is not your turn.
@@ -20402,7 +20501,7 @@ Steps: Play Petrified Field.
 ## Combo 730-2034-2366-5003
 Cards: Nim Deathmantle + Ashnod's Altar + Dryad Arbor + Emeria Angel
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {2}
-Produces: Infinite death triggers; Infinite creature ETB; Infinite landfall triggers; Infinite creature LTB; Infinite creature sacrifice triggers
+Produces: Infinite colorless mana; Infinite creature tokens; Infinite death triggers; Infinite creature ETB; Infinite landfall triggers; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Dryad Arbor (battlefield); Emeria Angel (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Dryad Arbor, adding {C}{C}.
   When Dryad Arbor dies, Nim Deathmantle triggers, causing you to pay {4} to return Dryad Arbor from your graveyard to the battlefield, and attaching Nim Deathmantle to it.
@@ -20545,7 +20644,7 @@ Steps: Activate Emiel the Blessed by paying {3}, blinking Jewel Thief.
 
 ## Combo 783-3678-6879
 Cards: Retreat to Emeria + Haru, Hidden Talent + Jungle Basin
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 12 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 13 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite creature ETB; Infinite landfall triggers
 Start: Retreat to Emeria (battlefield); Haru, Hidden Talent (battlefield); Jungle Basin (hand)
 Prerequisites: You are able to play a land this turn.
@@ -20559,7 +20658,7 @@ Steps: Play Jungle Basin.
 
 ## Combo 810-7299
 Cards: Biorhythm + Magus of the Disk
-Color identity: GW | Bracket: 3+ (Powerful) | Popularity: 14 | Commander: legal | Mana needed: {7}{G}{G}
+Color identity: GW | Bracket: 3+ (Powerful) | Popularity: 15 | Commander: legal | Mana needed: {7}{G}{G}
 Produces: Draw the game; Each opponent loses the game
 Start: Biorhythm (hand); Magus of the Disk (battlefield: without summoning sickness)
 Steps: Activate Magus of the Disk by paying {1} and tapping it, destroying all creatures, enchantments and artifacts.
@@ -20734,7 +20833,7 @@ Steps: During your precombat main phase, activate Lurking Roper using Shu Farmer
 
 ## Combo 860-1305-3663
 Cards: Calix, Guided by Fate + Three Blind Mice + Barbara Wright
-Color identity: GW | Bracket: 2-3+ (Oddball) | Popularity: 820 | Commander: legal
+Color identity: GW | Bracket: 2-3+ (Oddball) | Popularity: 830 | Commander: legal
 Produces: Infinite copies of a specific enchantment
 Start: Calix, Guided by Fate (battlefield: without summoning sickness and cannot be blocked by an opponent); Three Blind Mice (battlefield); Barbara Wright (battlefield)
 Steps: Deal combat damage to an opponent using Calix.
@@ -21021,7 +21120,7 @@ Steps: Activate Lightning Greaves' equip ability by paying {0}, targeting Wirewo
 
 ## Combo 876-2034-2816-4289-5251
 Cards: Emmara, Soul of the Accord + Ashnod's Altar + Cryptolith Rite + Umbral Mantle + Lightning Greaves
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal
 Produces: Infinite colored mana; Infinite colorless mana; Infinite creature tokens; Infinitely large creature; Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite untap of creatures you control; Infinite death triggers
 Start: Emmara, Soul of the Accord (battlefield); Ashnod's Altar (battlefield); Cryptolith Rite (battlefield); Umbral Mantle (battlefield); Lightning Greaves (battlefield)
 Prerequisites: Umbral Mantle attached to Emmara, Soul of the Accord.
@@ -21059,7 +21158,7 @@ Steps: Use Cryptolith Rite to tap Emmara, Soul of the Accord for {1}.
 
 ## Combo 876-2034-4289-5200-5251
 Cards: Emmara, Soul of the Accord + Ashnod's Altar + Cryptolith Rite + Sword of the Paruns + Lightning Greaves
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
 Produces: Infinite colored mana; Infinite colorless mana; Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite untap of creatures you control; Infinite death triggers
 Start: Emmara, Soul of the Accord (battlefield); Ashnod's Altar (battlefield); Cryptolith Rite (battlefield); Sword of the Paruns (battlefield); Lightning Greaves (battlefield)
 Prerequisites: Sword of the Paruns attached to Emmara, Soul of the Accord.
@@ -21695,7 +21794,7 @@ Steps: Activate Perilous Forays by paying {1} and sacrificing a creature, causin
 
 ## Combo 880-2692-3875
 Cards: Perilous Forays + Felidar Retreat + Tireless Provisioner
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 980 | Commander: legal | Mana needed: {1}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 970 | Commander: legal | Mana needed: {1}
 Produces: Put all lands with a basic land type from your library onto the battlefield tapped
 Start: Perilous Forays (battlefield); Felidar Retreat (battlefield); Tireless Provisioner (battlefield)
 Prerequisites: You control an additional creature.
@@ -22222,7 +22321,7 @@ Steps: Play Selesnya Sanctuary.
 
 ## Combo 907-1479-7885
 Cards: Kodama of the East Tree + Selesnya Sanctuary + Down in the Valley
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 7 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 6 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Selesnya Sanctuary (hand); Down in the Valley (battlefield: with two or more lore counters on it)
 Steps: Play Selesnya Sanctuary.
@@ -22279,7 +22378,7 @@ Steps: Play Selesnya Sanctuary.
 ## Combo 907-2026-2645-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Selesnya Sanctuary + Voyaging Satyr
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Selesnya Sanctuary (battlefield); Voyaging Satyr (battlefield)
 Prerequisites: Voyaging Satyr doesn't have summoning sickness.
 Steps: Activate Selesnya Sanctuary by tapping it, adding {G}{G}{G}{W}{W}{W} due to Nyxbloom Ancient
@@ -22291,7 +22390,7 @@ Steps: Activate Selesnya Sanctuary by tapping it, adding {G}{G}{G}{W}{W}{W} due 
 ## Combo 907-2174-2645-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Selesnya Sanctuary + Juniper Order Druid
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Selesnya Sanctuary (battlefield); Juniper Order Druid (battlefield)
 Prerequisites: Juniper Order Druid doesn't have summoning sickness.
 Steps: Activate Selesnya Sanctuary by tapping it, adding {G}{G}{G}{W}{W}{W} due to Nyxbloom Ancient
@@ -22303,7 +22402,7 @@ Steps: Activate Selesnya Sanctuary by tapping it, adding {G}{G}{G}{W}{W}{W} due 
 ## Combo 907-2645-2930-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Selesnya Sanctuary + Portent Tracker
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Selesnya Sanctuary (battlefield); Portent Tracker (battlefield)
 Prerequisites: Portent Tracker doesn't have summoning sickness.
 Steps: Activate Selesnya Sanctuary by tapping it, adding {G}{G}{G}{W}{W}{W} due to Nyxbloom Ancient
@@ -22315,7 +22414,7 @@ Steps: Activate Selesnya Sanctuary by tapping it, adding {G}{G}{G}{W}{W}{W} due 
 ## Combo 907-2645-3181-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Selesnya Sanctuary + Krosan Restorer
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Selesnya Sanctuary (battlefield); Krosan Restorer (battlefield)
 Prerequisites: Krosan Restorer doesn't have summoning sickness.
 Steps: Activate Selesnya Sanctuary by tapping it, adding {G}{G}{G}{W}{W}{W} due to Nyxbloom Ancient
@@ -22327,7 +22426,7 @@ Steps: Activate Selesnya Sanctuary by tapping it, adding {G}{G}{G}{W}{W}{W} due 
 ## Combo 907-2645-3430-4348
 Cards: Staff of Domination + Nyxbloom Ancient + Selesnya Sanctuary + Ley Druid
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Selesnya Sanctuary (battlefield); Ley Druid (battlefield)
 Prerequisites: Ley Druid doesn't have summoning sickness.
 Steps: Activate Selesnya Sanctuary by tapping it, adding {G}{G}{G}{W}{W}{W} due to Nyxbloom Ancient
@@ -22351,7 +22450,7 @@ Notes: You can remove as many +1/+1 counters from Mossborn Hydra to then place c
 
 ## Combo 907-4572-5478-5702
 Cards: Springheart Nantuko + Spelunking + Selesnya Sanctuary + Dryad of the Ilysian Grove
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 2900 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 3000 | Commander: legal
 Produces: Infinite creature tokens; Infinite green mana; Infinite white mana; Infinite landfall triggers; Infinite creature ETB
 Start: Springheart Nantuko (battlefield: attached to Dryad of the Ilysian Grove); Spelunking (battlefield); Selesnya Sanctuary (hand); Dryad of the Ilysian Grove (battlefield)
 Prerequisites: You are able to play a land this turn
@@ -22364,7 +22463,7 @@ Steps: Play Selesnya Sanctuary. When it enters untapped due to Spelunking, Seles
 
 ## Combo 907-4572-5702-6763
 Cards: Springheart Nantuko + Selesnya Sanctuary + Dryad of the Ilysian Grove + Horizon Explorer
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 520 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 530 | Commander: legal
 Produces: Infinite creature tokens; Infinite landfall triggers; Infinite creature ETB
 Start: Springheart Nantuko (battlefield: attached to Dryad of the Ilysian Grove); Selesnya Sanctuary (hand); Dryad of the Ilysian Grove (battlefield); Horizon Explorer (battlefield)
 Prerequisites: You are able to play a land this turn
@@ -22403,7 +22502,7 @@ Steps: Play Selesnya Sanctuary. When it enters untapped due to Horizon Explorer,
 
 ## Combo 907-5451-5478-5702
 Cards: Springheart Nantuko + Spelunking + Selesnya Sanctuary + Wayward Swordtooth
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 580 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 590 | Commander: legal
 Produces: Infinite creature tokens; Infinite green mana; Infinite white mana; Infinite landfall triggers; Infinite creature ETB
 Start: Springheart Nantuko (battlefield: attached to Wayward Swordtooth); Spelunking (battlefield); Selesnya Sanctuary (hand); Wayward Swordtooth (battlefield)
 Prerequisites: You are able to play a land this turn
@@ -22442,7 +22541,7 @@ Steps: Play Selesnya Sanctuary. When it enters untapped due to Spelunking, Seles
 
 ## Combo 907-5702-6763-6850
 Cards: Springheart Nantuko + Selesnya Sanctuary + Horizon Explorer + Icetill Explorer
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 620 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 630 | Commander: legal
 Produces: Infinite self-mill; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Icetill Explorer); Selesnya Sanctuary (hand); Horizon Explorer (battlefield); Icetill Explorer (battlefield)
 Prerequisites: You are able to play a land this turn
@@ -22800,7 +22899,7 @@ Steps: Activate Tromell by paying {1} and tapping it, causing you to put at leas
 
 ## Combo 978-4762
 Cards: Devoted Druid + Vizier of Remedies
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 5100 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 5200 | Commander: legal
 Produces: Infinite green mana
 Start: Devoted Druid (battlefield); Vizier of Remedies (battlefield)
 Prerequisites: Devoted Druid does not have summoning sickness.
@@ -24253,7 +24352,7 @@ Steps: Activate Marvin using Selvala's ability by tapping it, adding at least th
 
 ## Combo 1247-5963-7203
 Cards: Marvin, Murderous Mimic + Pili-Pala + Brigid, Clachan's Heart // Brigid, Doun's Mind
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 53 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 54 | Commander: legal
 Produces: Infinite colored mana
 Start: Marvin, Murderous Mimic (battlefield: without summoning sickness); Pili-Pala (battlefield); Brigid, Clachan's Heart // Brigid, Doun's Mind (battlefield)
 Steps: Activate Marvin using Brigid's ability by tapping it, adding at least {G}{G} or {W}{W}.
@@ -24591,7 +24690,7 @@ Steps: Play a land.
 
 ## Combo 1270-3875-5702-6973
 Cards: Springheart Nantuko + Mutable Explorer + Ojer Taq, Deepest Foundation // Temple of Civilization + Tireless Provisioner
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 24 | Commander: legal | Mana needed: {1}{G}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite Mutavault land tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Mutable Explorer); Mutable Explorer (battlefield); Ojer Taq, Deepest Foundation // Temple of Civilization (battlefield); Tireless Provisioner (battlefield)
 Prerequisites: You have a land card in hand.
@@ -24791,7 +24890,7 @@ Steps: Gain life.
 
 ## Combo 1274-1545-3197
 Cards: Heliod, Sun-Crowned + Trostani, Selesnya's Voice + Herd Baloth
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 320 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 330 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Heliod, Sun-Crowned (battlefield); Trostani, Selesnya's Voice (battlefield); Herd Baloth (battlefield)
 Prerequisites: You have a way to gain life.
@@ -25173,10 +25272,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 1274-2685-3197-7810
-Cards: Heliod, Sun-Crowned + Teething Wurmlet + Herd Baloth + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Heliod, Sun-Crowned + Teething Wurmlet + Herd Baloth
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Heliod, Sun-Crowned (battlefield); Teething Wurmlet (battlefield); Herd Baloth (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Heliod, Sun-Crowned (battlefield); Teething Wurmlet (battlefield); Herd Baloth (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Heliod triggers, putting a +1/+1 counter on Herd Baloth.
@@ -25221,10 +25320,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 1274-2685-4186-7810
-Cards: Heliod, Sun-Crowned + Teething Wurmlet + Scurry Oak + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Heliod, Sun-Crowned + Teething Wurmlet + Scurry Oak
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Heliod, Sun-Crowned (battlefield); Teething Wurmlet (battlefield); Scurry Oak (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Heliod, Sun-Crowned (battlefield); Teething Wurmlet (battlefield); Scurry Oak (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Heliod triggers, putting a +1/+1 counter on Scurry Oak.
@@ -25233,10 +25332,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 1274-2685-5641-7810
-Cards: Basking Broodscale + Heliod, Sun-Crowned + Teething Wurmlet + Tippy-Toe, Terrific Partner
+Cards: Basking Broodscale + Tippy-Toe, Terrific Partner + Heliod, Sun-Crowned + Teething Wurmlet
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Basking Broodscale (battlefield); Heliod, Sun-Crowned (battlefield); Teething Wurmlet (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Basking Broodscale (battlefield); Tippy-Toe, Terrific Partner (battlefield); Heliod, Sun-Crowned (battlefield); Teething Wurmlet (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Heliod triggers, putting a +1/+1 counter on Basking Broodscale.
@@ -25298,7 +25397,7 @@ Steps: Gain life.
 
 ## Combo 1274-2741-5641
 Cards: Basking Broodscale + Heliod, Sun-Crowned + Essence Warden
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 1000 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 1100 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite colorless mana; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Heliod, Sun-Crowned (battlefield); Essence Warden (battlefield)
 Prerequisites: You have a way to gain life.
@@ -25310,7 +25409,7 @@ Steps: Gain life.
 
 ## Combo 1274-2741-7690--165
 Cards: Invisible Woman, Sue Storm + Heliod, Sun-Crowned + Essence Warden
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Heliod, Sun-Crowned (battlefield); Essence Warden (battlefield)
@@ -25347,7 +25446,7 @@ Steps: Gain life.
 
 ## Combo 1274-2999-5641
 Cards: Basking Broodscale + Heliod, Sun-Crowned + Impassioned Orator
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 68 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 69 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite colorless mana; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Heliod, Sun-Crowned (battlefield); Impassioned Orator (battlefield)
 Prerequisites: You have a way to gain life.
@@ -25556,7 +25655,7 @@ Steps: Gain life.
 
 ## Combo 1274-3197-6097
 Cards: Heliod, Sun-Crowned + Herd Baloth + Hinterland Sanctifier
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 87 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 88 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Heliod, Sun-Crowned (battlefield); Herd Baloth (battlefield); Hinterland Sanctifier (battlefield)
 Prerequisites: You have a way to gain life.
@@ -25580,7 +25679,7 @@ Steps: Gain life.
 
 ## Combo 1274-3197-6720
 Cards: Heliod, Sun-Crowned + Herd Baloth + Case of the Uneaten Feast
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 57 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 58 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Heliod, Sun-Crowned (battlefield); Herd Baloth (battlefield); Case of the Uneaten Feast (battlefield)
 Prerequisites: You have a way to gain life.
@@ -25592,7 +25691,7 @@ Steps: Gain life.
 
 ## Combo 1274-3197-6752
 Cards: Heliod, Sun-Crowned + Herd Baloth + Haliya, Guided by Light
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 200 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 210 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Heliod, Sun-Crowned (battlefield); Herd Baloth (battlefield); Haliya, Guided by Light (battlefield)
 Prerequisites: You have a way to gain life.
@@ -25604,7 +25703,7 @@ Steps: Gain life.
 
 ## Combo 1274-3197-6823
 Cards: Heliod, Sun-Crowned + Herd Baloth + Aunt May
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 37 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 38 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Heliod, Sun-Crowned (battlefield); Herd Baloth (battlefield); Aunt May (battlefield)
 Prerequisites: You have a way to gain life.
@@ -25893,7 +25992,7 @@ Steps: Gain life.
 
 ## Combo 1274-4186-6752
 Cards: Heliod, Sun-Crowned + Scurry Oak + Haliya, Guided by Light
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 680 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 690 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Heliod, Sun-Crowned (battlefield); Scurry Oak (battlefield); Haliya, Guided by Light (battlefield)
 Prerequisites: You have a way to gain life.
@@ -25965,7 +26064,7 @@ Steps: Activate Triskelavus by paying {1} and removing a +1/+1 counter from it, 
 
 ## Combo 1274-4716-5641
 Cards: Basking Broodscale + Heliod, Sun-Crowned + Prosperous Innkeeper
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 540 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 550 | Commander: legal
 Produces: Infinite lifegain; Infinite creature tokens; Infinite colorless mana; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Basking Broodscale (battlefield); Heliod, Sun-Crowned (battlefield); Prosperous Innkeeper (battlefield)
 Prerequisites: You have a way to gain life.
@@ -25977,7 +26076,7 @@ Steps: Gain life.
 
 ## Combo 1274-4716-7690--165
 Cards: Invisible Woman, Sue Storm + Heliod, Sun-Crowned + Prosperous Innkeeper
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Heliod, Sun-Crowned (battlefield); Prosperous Innkeeper (battlefield)
@@ -26074,7 +26173,7 @@ Steps: Gain life.
 
 ## Combo 1274-7173-7690--165
 Cards: Invisible Woman, Sue Storm + Heliod, Sun-Crowned + Virulent Emissary
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
 Produces: Infinite creature tokens; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB
 Requires: Hero Creature (battlefield)
 Start: Invisible Woman, Sue Storm (battlefield); Heliod, Sun-Crowned (battlefield); Virulent Emissary (battlefield)
@@ -26419,7 +26518,7 @@ Steps: Cast Rancor by paying {G}, attaching it to any other creature you control
 ## Combo 1300-2645-4050-4459
 Cards: Weaver of Harmony + Staff of Domination + Go-Shintai of Shared Purpose + Phyrexian Altar
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite card draw; Infinite colored mana; Infinite creature tokens; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite death triggers; Infinite draw triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite colored mana; Infinite creature tokens; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Tap all creatures opponents control; Infinite death triggers; Infinite draw triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite untap of creatures you control
 Start: Weaver of Harmony (battlefield); Staff of Domination (battlefield); Go-Shintai of Shared Purpose (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: Weaver of Harmony does not have summoning sickness.
   You control at least six other Shrines.
@@ -26448,7 +26547,7 @@ Steps: At the beginning of your end step, Go-Shintai triggers.
 
 ## Combo 1300-5855
 Cards: Weaver of Harmony + Virtue of Loyalty // Ardenvale Fealty
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 800 | Commander: legal
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 790 | Commander: legal
 Produces: Infinite mana creatures you control can produce; Infinite +1/+1 counters on creatures you control; Infinite untap of creatures you control
 Start: Weaver of Harmony (battlefield); Virtue of Loyalty // Ardenvale Fealty (battlefield)
 Prerequisites: Creatures you control can tap to produce at least {G}.
@@ -27609,7 +27708,7 @@ Notes: The number of Wolves and/or Werewolves you'll control after performing st
 
 ## Combo 1308-6753-7858
 Cards: Hollowhenge Overlord + Anointed Procession + Exalted Sunborn
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 63 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 64 | Commander: legal
 Produces: Near-infinite creature tokens; Near-infinite creature ETB
 Start: Hollowhenge Overlord (battlefield); Anointed Procession (battlefield); Exalted Sunborn (battlefield)
 Steps: At the beginning of your upkeep, Hollowhenge Overlord triggers, creating four 2/2 Wolf creature tokens for each Wolf and/or Werewolf you control due to Anointed Procession and Exalted Sunborn.
@@ -27898,7 +27997,7 @@ Steps: Use Cryptolith Rite to tap Emmara, Soul of the Accord for {1}.
 ## Combo 1322-2366-2800-5702
 Cards: Springheart Nantuko + Dryad Arbor + Concordant Crossroads + Mirari's Wake
 Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 33 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Concordant Crossroads (battlefield); Mirari's Wake (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -28628,7 +28727,7 @@ Steps: Tap Famished Paladin to create a 1/1 creature token.
 
 ## Combo 1424-4762-5303
 Cards: Devoted Druid + Presence of Gond + Sigil of the Nayan Gods
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 84 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 83 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB
 Start: Devoted Druid (battlefield); Presence of Gond (battlefield); Sigil of the Nayan Gods (battlefield)
 Prerequisites: Presence of Gond and Sigil of the Nayan Gods attached to Devoted Druid.
@@ -28940,7 +29039,7 @@ Steps: Activate Ashnod's Altar by sacrificing any other modified creature you co
 
 ## Combo 1475-2034-4535
 Cards: One with the Kami + Good-Fortune Unicorn + Ashnod's Altar
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 46 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 47 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: One with the Kami (battlefield); Good-Fortune Unicorn (battlefield); Ashnod's Altar (battlefield)
 Prerequisites: You control at least one other modified creature with power one or greater.
@@ -28974,7 +29073,7 @@ Steps: Activate Altar of Dementia by sacrificing any other modified creature you
 
 ## Combo 1475-4050-4535
 Cards: One with the Kami + Good-Fortune Unicorn + Phyrexian Altar
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 24 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal
 Produces: Infinite colored mana; Infinite creature tokens; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: One with the Kami (battlefield); Good-Fortune Unicorn (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: You control at least one other modified creature with power one or greater.
@@ -29511,7 +29610,7 @@ Steps: Fetch a land using Riveteers Overlook.
 
 ## Combo 1479-2443-2692-2841
 Cards: Kodama of the East Tree + Ghost Town + Evolving Wilds + Felidar Retreat
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 480 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 490 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Ghost Town (hand); Evolving Wilds (battlefield); Felidar Retreat (battlefield)
 Prerequisites: It is not your turn.
@@ -29583,7 +29682,7 @@ Steps: Fetch a land using Evolving Wilds.
 
 ## Combo 1479-2692-2841-3318
 Cards: Kodama of the East Tree + Ghost Town + Felidar Retreat + Fabled Passage
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 530 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 540 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Ghost Town (hand); Felidar Retreat (battlefield); Fabled Passage (battlefield)
 Prerequisites: It is not your turn.
@@ -29674,7 +29773,7 @@ Steps: Fetch a land using Bant Panorama.
 
 ## Combo 1479-2692-2841-6159
 Cards: Kodama of the East Tree + Ghost Town + Felidar Retreat + Bloodstained Mire
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 93 | Commander: legal
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 94 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Ghost Town (hand); Felidar Retreat (battlefield); Bloodstained Mire (battlefield)
 Prerequisites: It is not your turn.
@@ -31260,7 +31359,7 @@ Notes: You can forego step 4 to simply put infinite +1/+1 counters on Triskelion
 
 ## Combo 1495-2313-6919
 Cards: Strength of Will + Triskelion + Conclave Mentor
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 71 | Commander: legal | Mana needed: {1}{G}
+Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite damage; Infinite +1/+1 counters on a creature
 Start: Strength of Will (hand); Triskelion (battlefield: with a +1/+1 counter on it); Conclave Mentor (battlefield)
 Steps: Cast Strength of Will by paying {1}{G}, targeting Triskelion.
@@ -31625,7 +31724,7 @@ Notes: You can forego step 4 to simply put infinite +1/+1 counters on Triskelion
 
 ## Combo 1495-6260-6919
 Cards: Strength of Will + Triskelion + Caradora, Heart of Alacria
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 9 | Commander: legal | Mana needed: {1}{G}
+Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 10 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite damage; Infinite +1/+1 counters on a creature
 Start: Strength of Will (hand); Triskelion (battlefield: with a +1/+1 counter on it); Caradora, Heart of Alacria (battlefield)
 Steps: Cast Strength of Will by paying {1}{G}, targeting Triskelion.
@@ -32418,116 +32517,3 @@ Steps: Gain life.
   The Destined White Mage triggers. Holding priority, activate Ashnod's Altar by sacrificing the Servo, adding {C}{C}.
   Resolve the The Destined White Mage trigger, putting a +1/+1 counter on a creature you control 
   Repeat from step 3.
-
-## Combo 1545-2034-4399-4518
-Cards: Trostani, Selesnya's Voice + Defiler of Faith + Kor Skyfisher + Ashnod's Altar
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {1}{W/P}
-Produces: Infinite colorless mana; Infinite creature tokens; Infinite lifegain; Infinite lifegain triggers; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
-Start: Trostani, Selesnya's Voice (battlefield); Defiler of Faith (battlefield); Kor Skyfisher (hand); Ashnod's Altar (battlefield)
-Steps: Cast Kor Skyfisher by paying {1} and either {W} or two life.
-  Defiler of Faith triggers, creating a 1/1 Soldier creature token.
-  The Soldier enters the battlefield, triggering Trostani, causing you to gain 1 life.
-  Resolve Kor Skyfisher, causing it to enter the battlefield, triggering itself and Trostani.
-  Resolve the Kor Skyfisher trigger, returning it from the battlefield to your hand.
-  Resolve the Trostani trigger, causing you to gain three life.
-  Activate Ashnod's Altar by sacrificing the Spirit token, adding {C}{C}.
-  Repeat.
-
-## Combo 1545-2034-4399-4770
-Cards: Trostani, Selesnya's Voice + Defiler of Faith + Whitemane Lion + Ashnod's Altar
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {1}{W/P}
-Produces: Infinite colorless mana; Infinite creature tokens; Infinite lifegain; Infinite lifegain triggers; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
-Start: Trostani, Selesnya's Voice (battlefield); Defiler of Faith (battlefield); Whitemane Lion (hand); Ashnod's Altar (battlefield)
-Steps: Cast Whitemane Lion by paying {1} and either {W} or two life.
-  Defiler of Faith triggers, creating a 1/1 Soldier creature token.
-  The Soldier enters the battlefield, triggering Trostani, causing you to gain 1 life.
-  Resolve Whitemane Lion, causing it to enter the battlefield, triggering itself and Trostani.
-  Resolve the Whitemane Lion trigger, returning it from the battlefield to your hand.
-  Resolve the Trostani trigger, causing you to gain two life.
-  Activate Ashnod's Altar by sacrificing the Spirit token, adding {C}{C}.
-  Repeat.
-
-## Combo 1545-2034-4593-6291
-Cards: Mite Overseer + Ashnod's Altar + Trostani, Selesnya's Voice + Stridehangar Automaton
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {3}{W/P}
-Produces: Infinite lifegain; Infinite colorless mana; Infinite creature tokens; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Mite Overseer (battlefield); Ashnod's Altar (battlefield); Trostani, Selesnya's Voice (battlefield); Stridehangar Automaton (battlefield)
-Steps: Activate Mite Overseer by paying {3}{W/P}, creating two creature tokens.
-  When the creature tokens enter the battlefield, Trostani triggers twice, causing you to gain 2 life.
-  Activate Ashnod's Altar twice by sacrificing the creature tokens, adding {C}{C}{C}{C}.
-  Repeat.
-Notes: Once you have infinite mana, you may forego sacrificing the creature tokens
-
-## Combo 1545-2034-4593-6705
-Cards: Mite Overseer + Ashnod's Altar + Quina, Qu Gourmet + Trostani, Selesnya's Voice
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {3}{W/P}
-Produces: Infinite lifegain; Infinite colorless mana; Infinite creature tokens; Infinite lifegain triggers; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Mite Overseer (battlefield); Ashnod's Altar (battlefield); Quina, Qu Gourmet (battlefield); Trostani, Selesnya's Voice (battlefield)
-Steps: Activate Mite Overseer by paying {3}{W/P}, creating two creature tokens.
-  When the creature tokens enter the battlefield, Trostani triggers twice, causing you to gain 2 life.
-  Activate Ashnod's Altar twice by sacrificing the creature tokens, adding {C}{C}{C}{C}.
-  Repeat.
-Notes: Once you have infinite mana, you may forego sacrificing the creature tokens
-
-## Combo 1545-2060-4499-7107
-Cards: Nykthos Paragon + Emiel the Blessed + Crystalline Crawler + Trostani, Selesnya's Voice
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {3}
-Produces: Infinite colored mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite blinking
-Start: Nykthos Paragon (battlefield); Emiel the Blessed (battlefield); Crystalline Crawler (battlefield); Trostani, Selesnya's Voice (battlefield)
-Steps: Activate Emiel by paying {3}, blinking Nykthos Paragon.
-  When Nykthos Paragon enters, Trostani triggers, causing you to gain life equal to Nykthos Paragon's toughness.
-  Nykthos Paragon triggers, causing you to put that many +1/+1 counters on each creature you control.
-  Activate Crystalline Crawler three times by removing three +1/+1 counters from it, adding {3}.
-  Repeat.
-
-## Combo 1545-2919-3197
-Cards: Archangel of Thune + Trostani, Selesnya's Voice + Herd Baloth
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 370 | Commander: legal
-Produces: Infinite lifegain; Infinite creature tokens; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature ETB
-Start: Archangel of Thune (battlefield); Trostani, Selesnya's Voice (battlefield); Herd Baloth (battlefield)
-Prerequisites: You have a way to gain life.
-Steps: Gain life.
-  Archangel of Thune triggers, putting a +1/+1 counter on each creature you control.
-  Herd Baloth triggers, creating a creature token.
-  When the creature token enters the battlefield, Trostani triggers, causing you to gain 4 life.
-  Repeat from step 2.
-
-## Combo 1545-2919-3490-4050
-Cards: Animation Module + Archangel of Thune + Trostani, Selesnya's Voice + Phyrexian Altar
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {1}
-Produces: Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Animation Module (battlefield); Archangel of Thune (battlefield); Trostani, Selesnya's Voice (battlefield); Phyrexian Altar (battlefield)
-Prerequisites: You have a way to gain life.
-Steps: Gain life.
-  Archangel of Thune triggers, putting a +1/+1 counter on each creature you control.
-  Animation Module triggers, causing you to pay {1} to create a 1/1 Servo artifact creature token.
-  When the Servo enters, Trostani triggers, causing you to gain life.
-  Archangel of Thune triggers. Holding priority, activate Phyrexian Altar by sacrificing the Servo, adding {1}.
-  Resolve the Archangel of Thune trigger, putting a +1/+1 counter on each creature you control 
-  Repeat from step 3.
-
-## Combo 1545-2919-3490-4659
-Cards: Animation Module + Archangel of Thune + Krark-Clan Ironworks + Trostani, Selesnya's Voice
-Color identity: GW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
-Produces: Infinite colorless mana; Infinite lifegain; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Animation Module (battlefield); Archangel of Thune (battlefield); Krark-Clan Ironworks (battlefield); Trostani, Selesnya's Voice (battlefield)
-Prerequisites: You have a way to gain life.
-Steps: Gain life.
-  Archangel of Thune triggers, putting a +1/+1 counter on each creature you control.
-  Animation Module triggers, causing you to pay {1} to create a 1/1 Servo artifact creature token.
-  When the Servo enters, Trostani triggers, causing you to gain life.
-  Archangel of Thune triggers. Holding priority, activate Krark-Clan Ironworks by sacrificing the Servo, adding {C}{C}.
-  Resolve the Archangel of Thune trigger, putting a +1/+1 counter on each creature you control 
-  Repeat from step 3.
-
-## Combo 1545-2919-4186
-Cards: Archangel of Thune + Trostani, Selesnya's Voice + Scurry Oak
-Color identity: GW | Bracket: 3-4+ (Spicy) | Popularity: 850 | Commander: legal
-Produces: Infinite lifegain; Infinite creature tokens; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite creature ETB
-Start: Archangel of Thune (battlefield); Trostani, Selesnya's Voice (battlefield); Scurry Oak (battlefield)
-Prerequisites: You have a way to gain life.
-Steps: Gain life.
-  Archangel of Thune triggers, putting a +1/+1 counter on each creature you control.
-  Scurry Oak triggers, creating a creature token.
-  When the creature token enters the battlefield, Trostani triggers, causing you to gain 1 life.
-  Repeat from step 2.

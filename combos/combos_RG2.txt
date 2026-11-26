@@ -1,3 +1,14 @@
+## Combo 1887-5254-5256
+Cards: Warbeast of Gorgoroth + Altar of Dementia + Vorinclex, Monstrous Raider
+Color identity: RG | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Produces: Infinite mill; Infinite self-mill; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Warbeast of Gorgoroth (battlefield); Altar of Dementia (battlefield); Vorinclex, Monstrous Raider (battlefield)
+Prerequisites: You control another creature with power 4 or greater.
+Steps: Activate Altar of Dementia by sacrificing the creature with power 4 or greater.
+  When the creature dies, Warbeast of Gorgoroth triggers, creating a 0/0 Army creature token if you don't control one, then putting four +1/+1 counters on an Army you control.
+  Resolve the Altar of Dementia ability, causing a player to mill card(s)
+  Repeat.
+
 ## Combo 1899-2232-2459-2600
 Cards: Rograkh, Son of Rohgahh + Cloudstone Curio + Beastcaller Savant + Bosk Banneret
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
@@ -408,7 +419,7 @@ Steps: Activate Prismatic Geoscope by tapping it, adding at least three mana of 
 
 ## Combo 1978-3099-3139-5793
 Cards: Bello, Bard of the Brambles + Voltaic Construct + Leyline of Abundance + The Great Henge
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal
 Produces: Infinite lifegain; Infinite mana artifact creatures you control can produce; Infinite mana most artifacts you control can produce; Infinite +1/+1 counters on creatures you control; Infinite green mana; Infinite mana artifacts you control can produce; Infinite lifegain triggers; Infinite untap of artifacts you control
 Start: Bello, Bard of the Brambles (battlefield); Voltaic Construct (battlefield); Leyline of Abundance (battlefield); The Great Henge (battlefield)
 Steps: Activate The Great Henge by tapping it, adding two mana and gaining 2 life.
@@ -675,16 +686,6 @@ Steps: Activate Brass Infiniscope by tapping it, adding two mana.
   Repeat any number of times.
 Notes: Each activation of Brass Infiniscope adds a delayed triggered ability that can draw you cards and gain life if you cast a spell with {X} in its cost. If you wish to use these abilities, you'll want to stop the combo before getting too many triggers such that you'll deck yourself and lose the game. To gain life, you must spend at least {2} for X when casting the spell.
 
-## Combo 1978-5793-7013
-Cards: Voltaic Construct + Bello, Bard of the Brambles + White Lotus Tile
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal
-Produces: Infinite colored mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
-Start: Voltaic Construct (battlefield); Bello, Bard of the Brambles (battlefield); White Lotus Tile (battlefield)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Activate White Lotus Tile by tapping it, adding at least three mana of any color.
-  Activate Voltaic Construct by paying {2}, untapping White Lotus Tile.
-  Repeat
-
 ## Combo 1978-5793-7434--148
 Cards: Brass Infiniscope + Voltaic Construct + Bello, Bard of the Brambles
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
@@ -702,23 +703,13 @@ Notes: Each activation of Brass Infiniscope adds a delayed triggered ability tha
 
 ## Combo 1978-5793-7685
 Cards: Voltaic Construct + Bello, Bard of the Brambles + Arc Reactor
-Color identity: RG | Bracket: 3-4+ (Spicy) | Popularity: 9 | Commander: legal
+Color identity: RG | Bracket: 3-4+ (Spicy) | Popularity: 10 | Commander: legal
 Produces: Infinite colorless mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
 Start: Voltaic Construct (battlefield); Bello, Bard of the Brambles (battlefield); Arc Reactor (battlefield)
 Steps: Animate Arc Reactor using Bello.
   Activate Arc Reactor by tapping it, adding {C}{C}{C}
   Activate Voltaic Construct by paying {2}, untapping Arc Reactor.
   Repeat from step 2.
-
-## Combo 1978-5793-7826
-Cards: Voltaic Construct + Bello, Bard of the Brambles + Bag End Banquet
-Color identity: RG | Bracket: 3-4+ (Spicy) | Popularity: 2 | Commander: legal
-Produces: Infinite colorless mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
-Start: Voltaic Construct (battlefield); Bello, Bard of the Brambles (battlefield); Bag End Banquet (battlefield)
-Prerequisites: You control at least three Foods.
-Steps: Activate Bag End Banquet by tapping it, adding {C}{C}{C}
-  Activate Voltaic Construct by paying {2}, untapping Bag End Banquet.
-  Repeat
 
 ## Combo 1988-2034-3192
 Cards: Ulasht, the Hate Seed + Blade of the Bloodchief + Ashnod's Altar
@@ -770,7 +761,7 @@ Steps: Activate Ulasht by paying {1} and removing a +1/+1 counter from it, creat
 
 ## Combo 1988-3197-5147
 Cards: Blade of the Bloodchief + Herd Baloth + Goblin Bombardment
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 53 | Commander: legal
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal
 Produces: Infinite damage; Infinite +1/+1 counters on a creature; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Blade of the Bloodchief (battlefield); Herd Baloth (battlefield); Goblin Bombardment (battlefield)
 Prerequisites: Blade of the Bloodchief attached to Herd Baloth.
@@ -783,7 +774,7 @@ Steps: Activate Goblin Bombardment by sacrificing another creature.
 
 ## Combo 1988-4186-5147
 Cards: Blade of the Bloodchief + Scurry Oak + Goblin Bombardment
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 88 | Commander: legal
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 91 | Commander: legal
 Produces: Infinite damage; Infinite +1/+1 counters on a creature; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Blade of the Bloodchief (battlefield); Scurry Oak (battlefield); Goblin Bombardment (battlefield)
 Prerequisites: Blade of the Bloodchief attached to Scurry Oak.
@@ -1011,7 +1002,7 @@ Steps: Activate Budoka Gardener by tapping it, putting Arid Archway from your ha
 ## Combo 2026-2645-3430-5928
 Cards: Staff of Domination + Nyxbloom Ancient + Voyaging Satyr + Balduvian Trading Post
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Voyaging Satyr (battlefield); Balduvian Trading Post (battlefield)
 Prerequisites: Voyaging Satyr doesn't have summoning sickness.
 Steps: Activate Balduvian Trading Post by tapping it, adding {C}{C}{C}{R}{R}{R} due to Nyxbloom Ancient
@@ -1537,7 +1528,7 @@ Steps: Activate Ashnod's Altar by sacrificing Dryad Arbor, adding {C}{C}.
 ## Combo 2034-2366-4862-5003
 Cards: Nim Deathmantle + Ashnod's Altar + Dryad Arbor + Omnath, Locus of Rage
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {2}
-Produces: Infinite damage; Infinite death triggers; Infinite creature ETB; Infinite landfall triggers; Infinite creature LTB; Infinite creature sacrifice triggers
+Produces: Infinite colorless mana; Infinite creature tokens; Infinite damage; Infinite death triggers; Infinite creature ETB; Infinite landfall triggers; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Dryad Arbor (battlefield); Omnath, Locus of Rage (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Dryad Arbor, adding {C}{C}.
   When Dryad Arbor dies, Nim Deathmantle triggers, causing you to pay {4} to return Dryad Arbor from your graveyard to the battlefield, and attaching Nim Deathmantle to it.
@@ -2610,10 +2601,10 @@ Steps: Cast Abby from the command zone by paying {1}{R}{G} plus commander tax if
   Repeat from step 1.
 
 ## Combo 2034-4690-4790
-Cards: Phylath, World Sculptor + Dino DNA + Ashnod's Altar
+Cards: Dino DNA + Ashnod's Altar + Phylath, World Sculptor
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {6}
 Produces: Infinite colorless mana; Infinite copies of cards exiled with Dino DNA; Infinite creature tokens; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
-Start: Phylath, World Sculptor (exile: exiled by Dino DNA); Dino DNA (battlefield); Ashnod's Altar (battlefield)
+Start: Dino DNA (battlefield); Ashnod's Altar (battlefield); Phylath, World Sculptor (exile: exiled by Dino DNA)
 Prerequisites: You control at least two basic lands.
 Steps: Activate Dino DNA by paying {6}, creating a token copy of Phylath that is a 6/6 Dinosaur.
   When the Phylath token enters the battlefield, its first ability triggers, creating at least two 0/1 Plant creature tokens.
@@ -2709,7 +2700,7 @@ Steps: Activate Ashnod's Altar by sacrificing Palani's Hatcher, adding {C}{C}.
 
 ## Combo 2034-5003-8162
 Cards: Nim Deathmantle + Ashnod's Altar + Aerid Konstrari
-Color identity: RG | Bracket: 2-3+ (Oddball) | Popularity: 58 | Commander: legal | Mana needed: {1}
+Color identity: RG | Bracket: 2-3+ (Oddball) | Popularity: 61 | Commander: legal | Mana needed: {1}
 Produces: Infinite tapped artifact tokens; Infinite artifact ETB; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite tapped Heartwood tokens
 Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Aerid Konstrari (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Aerid, adding {C}{C}.
@@ -3304,7 +3295,7 @@ Steps: Cast Abby from the command zone by paying {1}{R}{G} plus commander tax if
 ## Combo 2037-2474-3059
 Cards: Minsc & Boo, Timeless Heroes + Malignus + City on Fire
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 110 | Commander: legal
-Produces: Target opponent loses the game; Near-infinite damage to one opponent
+Produces: Near-infinite damage to one opponent; Target opponent loses the game
 Start: Minsc & Boo, Timeless Heroes (battlefield); Malignus (battlefield); City on Fire (battlefield)
 Prerequisites: Minsc & Boo has at least two loyalty counters on it.
 Steps: Activate Minsc & Boo's second loyalty ability by removing two loyalty counters from it, sacrificing Malignus and dealing damage equal to three times Malignus's power to target opponent.
@@ -3313,7 +3304,7 @@ Steps: Activate Minsc & Boo's second loyalty ability by removing two loyalty cou
 ## Combo 2037-2942-3059
 Cards: Minsc & Boo, Timeless Heroes + Malignus + Fiery Emancipation
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 230 | Commander: legal
-Produces: Target opponent loses the game; Near-infinite damage to one opponent
+Produces: Near-infinite damage to one opponent; Target opponent loses the game
 Start: Minsc & Boo, Timeless Heroes (battlefield); Malignus (battlefield); Fiery Emancipation (battlefield)
 Prerequisites: Minsc & Boo has at least two loyalty counters on it.
 Steps: Activate Minsc & Boo's second loyalty ability by removing two loyalty counters from it, sacrificing Malignus and dealing damage equal to three times Malignus's power to target opponent.
@@ -3321,7 +3312,7 @@ Steps: Activate Minsc & Boo's second loyalty ability by removing two loyalty cou
 ## Combo 2037-3059-3231
 Cards: Minsc & Boo, Timeless Heroes + Malignus + Dictate of the Twin Gods
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 42 | Commander: legal
-Produces: Target opponent loses the game; Near-infinite damage to one opponent
+Produces: Near-infinite damage to one opponent; Target opponent loses the game
 Start: Minsc & Boo, Timeless Heroes (battlefield); Malignus (battlefield); Dictate of the Twin Gods (battlefield)
 Prerequisites: Minsc & Boo has at least two loyalty counters on it.
 Steps: Activate Minsc & Boo's second loyalty ability by removing two loyalty counters from it, sacrificing Malignus and dealing damage equal to two times Malignus's power to target opponent.
@@ -3329,7 +3320,7 @@ Steps: Activate Minsc & Boo's second loyalty ability by removing two loyalty cou
 ## Combo 2037-3059-4847
 Cards: Minsc & Boo, Timeless Heroes + Malignus + Solphim, Mayhem Dominus
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 150 | Commander: legal
-Produces: Target opponent loses the game; Near-infinite damage to one opponent
+Produces: Near-infinite damage to one opponent; Target opponent loses the game
 Start: Minsc & Boo, Timeless Heroes (battlefield); Malignus (battlefield); Solphim, Mayhem Dominus (battlefield)
 Prerequisites: Minsc & Boo has at least two loyalty counters on it.
 Steps: Activate Minsc & Boo's second loyalty ability by removing two loyalty counters from it, sacrificing Malignus and dealing damage equal to two times Malignus's power to target opponent.
@@ -3361,7 +3352,7 @@ Steps: Declare the creature with Breath of Fury attached and Ogre Chitterlord as
 
 ## Combo 2051-2546-2657-3178
 Cards: Life from the Loam + Surly Badgersaur + Ayula's Influence + Forgotten Cave
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 150 | Commander: legal | Mana needed: {R}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 160 | Commander: legal | Mana needed: {R}
 Produces: Infinite self-mill; Near-infinite creature tokens; Near-infinite creature ETB; Near-infinite magecraft triggers; Near-infinite self-discard triggers; Near-infinite storm count
 Start: Life from the Loam (graveyard); Surly Badgersaur (battlefield); Ayula's Influence (battlefield); Forgotten Cave (hand)
 Prerequisites: You have at least two additional land cards in hand.
@@ -3395,7 +3386,7 @@ Steps: Activate Tranquil Thicket's cycling ability by paying {G} and discarding 
 
 ## Combo 2051-2546-3178-3872
 Cards: Life from the Loam + Surly Badgersaur + Land's Edge + Forgotten Cave
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 78 | Commander: legal | Mana needed: {R}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 80 | Commander: legal | Mana needed: {R}
 Produces: Infinite self-mill; Near-infinite damage; Near-infinite magecraft triggers; Near-infinite self-discard triggers; Near-infinite storm count
 Start: Life from the Loam (graveyard); Surly Badgersaur (battlefield); Land's Edge (battlefield); Forgotten Cave (hand)
 Prerequisites: You have at least two additional land cards in hand.
@@ -3429,7 +3420,7 @@ Steps: Activate Forgotten Cave's cycling ability by paying {R} and discarding it
 
 ## Combo 2051-2546-3872-4578
 Cards: Life from the Loam + Surly Badgersaur + Land's Edge + Tranquil Thicket
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 74 | Commander: legal | Mana needed: {G}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 76 | Commander: legal | Mana needed: {G}
 Produces: Infinite self-mill; Near-infinite damage; Near-infinite magecraft triggers; Near-infinite self-discard triggers; Near-infinite storm count
 Start: Life from the Loam (graveyard); Surly Badgersaur (battlefield); Land's Edge (battlefield); Tranquil Thicket (hand)
 Prerequisites: You have at least two additional land cards in hand.
@@ -3446,7 +3437,7 @@ Steps: Activate Tranquil Thicket's cycling ability by paying {G} and discarding 
 
 ## Combo 2051-2546-4298-4578
 Cards: Borborygmos Enraged + Life from the Loam + Surly Badgersaur + Tranquil Thicket
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 670 | Commander: legal | Mana needed: {G}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 680 | Commander: legal | Mana needed: {G}
 Produces: Infinite self-mill; Near-infinite damage; Near-infinite magecraft triggers; Near-infinite self-discard triggers; Near-infinite storm count
 Start: Borborygmos Enraged (battlefield); Life from the Loam (graveyard); Surly Badgersaur (battlefield); Tranquil Thicket (hand)
 Prerequisites: You have at least two additional land cards in hand.
@@ -3834,7 +3825,7 @@ Notes: Once you have infinite mana, you may tap and untap any other land(s) you 
 ## Combo 2092-2645-4657
 Cards: Agatha of the Vile Cauldron + Magus of the Candelabra + Staff of Domination
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 1400 | Commander: legal
-Produces: Infinite card draw; Infinite lifegain; Infinite power and toughness for most creatures you control until end of turn; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite lifegain; Infinite power and toughness for most creatures you control until end of turn; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Tap all creatures opponents control; Infinite draw triggers; Infinite untap of creatures you control
 Start: Agatha of the Vile Cauldron (battlefield); Magus of the Candelabra (battlefield); Staff of Domination (battlefield)
 Prerequisites: Agatha of the Vile Cauldron has power 5 or greater.
   You control up to six lands that can tap to produce at least {6}.
@@ -4481,7 +4472,7 @@ Steps: Activate Reflection of KIki-Jiki by paying {1} and tapping it, creating a
 
 ## Combo 2105-3337-5608
 Cards: Fable of the Mirror-Breaker // Reflection of Kiki-Jiki + Combat Celebrant + Radha, Heir to Keld
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal | Mana needed: {1}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal | Mana needed: {1}
 Produces: Infinite combat phases; Infinite creature tokens with haste; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Fable of the Mirror-Breaker // Reflection of Kiki-Jiki (battlefield); Combat Celebrant (battlefield); Radha, Heir to Keld (battlefield)
 Prerequisites: Reflection of Kiki-Jiki does not have summoning sickness.
@@ -4669,7 +4660,7 @@ Steps: Declare the creature with Breath of Fury attached and Éomer of the Ridde
 ## Combo 2174-2645-3430-5928
 Cards: Staff of Domination + Nyxbloom Ancient + Juniper Order Druid + Balduvian Trading Post
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Juniper Order Druid (battlefield); Balduvian Trading Post (battlefield)
 Prerequisites: Juniper Order Druid doesn't have summoning sickness.
 Steps: Activate Balduvian Trading Post by tapping it, adding {C}{C}{C}{R}{R}{R} due to Nyxbloom Ancient
@@ -4928,7 +4919,7 @@ Steps: Cast Cursed Mirror by paying {2}{R}, choosing to have it enter the battle
 ## Combo 2203-2366-3480-5702
 Cards: Springheart Nantuko + Dryad Arbor + Vorinclex, Voice of Hunger + Purphoros, Bronze-Blooded
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Vorinclex, Voice of Hunger (battlefield); Purphoros, Bronze-Blooded (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -4941,7 +4932,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2203-2366-4068-5702
 Cards: Springheart Nantuko + Dryad Arbor + Vorinclex, Voice of Hunger + Anger
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Vorinclex, Voice of Hunger (battlefield); Anger (graveyard)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -4955,7 +4946,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2203-2366-4478-5702
 Cards: Springheart Nantuko + Dryad Arbor + Vorinclex, Voice of Hunger + Roar of Resistance
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Vorinclex, Voice of Hunger (battlefield); Roar of Resistance (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -4968,7 +4959,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2203-2366-4885-5702
 Cards: Springheart Nantuko + Dryad Arbor + Vorinclex, Voice of Hunger + Tuktuk Rubblefort
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Vorinclex, Voice of Hunger (battlefield); Tuktuk Rubblefort (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -4981,7 +4972,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2203-2366-5223-5702
 Cards: Springheart Nantuko + Dryad Arbor + Vorinclex, Voice of Hunger + Fires of Yavimaya
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Vorinclex, Voice of Hunger (battlefield); Fires of Yavimaya (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -4994,7 +4985,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2203-2366-5434-5702
 Cards: Springheart Nantuko + Dryad Arbor + Vorinclex, Voice of Hunger + Yarus, Roar of the Old Gods
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Vorinclex, Voice of Hunger (battlefield); Yarus, Roar of the Old Gods (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5007,7 +4998,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2203-2366-5702-6633
 Cards: Springheart Nantuko + Dryad Arbor + Vorinclex, Voice of Hunger + The Fire Crystal
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Vorinclex, Voice of Hunger (battlefield); The Fire Crystal (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5020,7 +5011,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2203-2366-5702-6791
 Cards: Springheart Nantuko + Dryad Arbor + Vorinclex, Voice of Hunger + Tannuk, Steadfast Second
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Vorinclex, Voice of Hunger (battlefield); Tannuk, Steadfast Second (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5033,7 +5024,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2203-2366-5702-6968
 Cards: Springheart Nantuko + Dryad Arbor + Vorinclex, Voice of Hunger + Kratos, God of War
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Vorinclex, Voice of Hunger (battlefield); Kratos, God of War (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5046,7 +5037,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2203-2366-5702-7060
 Cards: Springheart Nantuko + Dryad Arbor + Vorinclex, Voice of Hunger + Smellerbee, Rebel Fighter
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Vorinclex, Voice of Hunger (battlefield); Smellerbee, Rebel Fighter (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5295,7 +5286,7 @@ Notes: If you can generate infinite {C} once you have all the lands on the battl
 
 ## Combo 2249-3192-4050
 Cards: Ulasht, the Hate Seed + Death's Presence + Phyrexian Altar
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 55 | Commander: legal | Mana needed: {1}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal | Mana needed: {1}
 Produces: Infinite creature sacrifice triggers; Infinite death triggers; Infinite creature ETB; Infinite creature LTB
 Start: Ulasht, the Hate Seed (battlefield); Death's Presence (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: Ulasht has at least two +1/+1 counters on it.
@@ -5546,7 +5537,7 @@ Steps: Cast Mana Vault by paying its mana cost.
 ## Combo 2366-3322-3480-5702
 Cards: Springheart Nantuko + Dryad Arbor + Nikya of the Old Ways + Purphoros, Bronze-Blooded
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nikya of the Old Ways (battlefield); Purphoros, Bronze-Blooded (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5559,7 +5550,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3322-3499-5702
 Cards: Springheart Nantuko + Dryad Arbor + Nikya of the Old Ways + Akroma's Memorial
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nikya of the Old Ways (battlefield); Akroma's Memorial (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5572,7 +5563,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3322-4068-5702
 Cards: Springheart Nantuko + Dryad Arbor + Nikya of the Old Ways + Anger
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nikya of the Old Ways (battlefield); Anger (graveyard)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5586,7 +5577,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3322-4478-5702
 Cards: Springheart Nantuko + Dryad Arbor + Nikya of the Old Ways + Roar of Resistance
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nikya of the Old Ways (battlefield); Roar of Resistance (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5599,7 +5590,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3322-4885-5702
 Cards: Springheart Nantuko + Dryad Arbor + Nikya of the Old Ways + Tuktuk Rubblefort
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nikya of the Old Ways (battlefield); Tuktuk Rubblefort (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5612,7 +5603,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3322-5223-5702
 Cards: Springheart Nantuko + Dryad Arbor + Nikya of the Old Ways + Fires of Yavimaya
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nikya of the Old Ways (battlefield); Fires of Yavimaya (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5625,7 +5616,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3322-5295-5702
 Cards: Springheart Nantuko + Dryad Arbor + Nikya of the Old Ways + Thousand-Year Elixir
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nikya of the Old Ways (battlefield); Thousand-Year Elixir (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5638,7 +5629,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3322-5434-5702
 Cards: Springheart Nantuko + Dryad Arbor + Nikya of the Old Ways + Yarus, Roar of the Old Gods
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nikya of the Old Ways (battlefield); Yarus, Roar of the Old Gods (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5651,7 +5642,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3322-5702-6633
 Cards: Springheart Nantuko + Dryad Arbor + Nikya of the Old Ways + The Fire Crystal
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nikya of the Old Ways (battlefield); The Fire Crystal (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5664,7 +5655,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3322-5702-6791
 Cards: Springheart Nantuko + Dryad Arbor + Nikya of the Old Ways + Tannuk, Steadfast Second
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nikya of the Old Ways (battlefield); Tannuk, Steadfast Second (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5677,7 +5668,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3322-5702-6968
 Cards: Springheart Nantuko + Dryad Arbor + Nikya of the Old Ways + Kratos, God of War
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nikya of the Old Ways (battlefield); Kratos, God of War (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5690,7 +5681,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3322-5702-7060
 Cards: Springheart Nantuko + Dryad Arbor + Nikya of the Old Ways + Smellerbee, Rebel Fighter
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nikya of the Old Ways (battlefield); Smellerbee, Rebel Fighter (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5703,7 +5694,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3430-3480-5702
 Cards: Springheart Nantuko + Dryad Arbor + Nyxbloom Ancient + Purphoros, Bronze-Blooded
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nyxbloom Ancient (battlefield); Purphoros, Bronze-Blooded (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5715,7 +5706,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3430-4068-5702
 Cards: Springheart Nantuko + Dryad Arbor + Nyxbloom Ancient + Anger
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nyxbloom Ancient (battlefield); Anger (graveyard)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5728,7 +5719,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3430-4885-5702
 Cards: Springheart Nantuko + Dryad Arbor + Nyxbloom Ancient + Tuktuk Rubblefort
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nyxbloom Ancient (battlefield); Tuktuk Rubblefort (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5740,7 +5731,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3430-5223-5702
 Cards: Springheart Nantuko + Dryad Arbor + Nyxbloom Ancient + Fires of Yavimaya
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nyxbloom Ancient (battlefield); Fires of Yavimaya (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5752,7 +5743,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3430-5434-5702
 Cards: Springheart Nantuko + Dryad Arbor + Nyxbloom Ancient + Yarus, Roar of the Old Gods
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nyxbloom Ancient (battlefield); Yarus, Roar of the Old Gods (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5764,7 +5755,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3430-5702-6633
 Cards: Springheart Nantuko + Dryad Arbor + Nyxbloom Ancient + The Fire Crystal
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nyxbloom Ancient (battlefield); The Fire Crystal (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5776,7 +5767,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3430-5702-6791
 Cards: Springheart Nantuko + Dryad Arbor + Nyxbloom Ancient + Tannuk, Steadfast Second
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nyxbloom Ancient (battlefield); Tannuk, Steadfast Second (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5788,7 +5779,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3430-5702-6968
 Cards: Springheart Nantuko + Dryad Arbor + Nyxbloom Ancient + Kratos, God of War
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nyxbloom Ancient (battlefield); Kratos, God of War (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5800,7 +5791,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3430-5702-7060
 Cards: Springheart Nantuko + Dryad Arbor + Nyxbloom Ancient + Smellerbee, Rebel Fighter
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nyxbloom Ancient (battlefield); Smellerbee, Rebel Fighter (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5812,7 +5803,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3430-5702-8296
 Cards: Springheart Nantuko + Dryad Arbor + Nyxbloom Ancient + Hit It!
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite tapped Forest tokens; Infinite creature tokens with haste; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nyxbloom Ancient (battlefield); Hit It! (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5824,7 +5815,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3480-3512-5702
 Cards: Springheart Nantuko + Dryad Arbor + Purphoros, Bronze-Blooded + Mana Flare
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Purphoros, Bronze-Blooded (battlefield); Mana Flare (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5837,7 +5828,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3480-3688-5702
 Cards: Springheart Nantuko + Dryad Arbor + Purphoros, Bronze-Blooded + Zhur-Taa Ancient
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Purphoros, Bronze-Blooded (battlefield); Zhur-Taa Ancient (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5850,7 +5841,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3480-4178-5702
 Cards: Springheart Nantuko + Dryad Arbor + Nissa, Who Shakes the World + Purphoros, Bronze-Blooded
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {2}{G}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor ); Dryad Arbor (battlefield); Nissa, Who Shakes the World (battlefield); Purphoros, Bronze-Blooded (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5877,7 +5868,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3480-4974-5702
 Cards: Springheart Nantuko + Dryad Arbor + Purphoros, Bronze-Blooded + Zendikar Resurgent
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Purphoros, Bronze-Blooded (battlefield); Zendikar Resurgent (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5890,7 +5881,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3480-5175-5702
 Cards: Springheart Nantuko + Dryad Arbor + Purphoros, Bronze-Blooded + Caged Sun
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Purphoros, Bronze-Blooded (battlefield); Caged Sun (battlefield: with [color] chosen)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5903,7 +5894,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3480-5234-5702
 Cards: Springheart Nantuko + Dryad Arbor + Purphoros, Bronze-Blooded + Heartbeat of Spring
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Purphoros, Bronze-Blooded (battlefield); Heartbeat of Spring (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5916,7 +5907,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3480-5702-7288
 Cards: Springheart Nantuko + Dryad Arbor + Purphoros, Bronze-Blooded + Groundchuck & Dirtbag
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Purphoros, Bronze-Blooded (battlefield); Groundchuck & Dirtbag (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5929,7 +5920,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3499-3512-5702
 Cards: Springheart Nantuko + Dryad Arbor + Akroma's Memorial + Mana Flare
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Akroma's Memorial (battlefield); Mana Flare (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5942,7 +5933,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3499-3688-5702
 Cards: Springheart Nantuko + Dryad Arbor + Akroma's Memorial + Zhur-Taa Ancient
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Akroma's Memorial (battlefield); Zhur-Taa Ancient (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5955,7 +5946,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3512-4068-5702
 Cards: Springheart Nantuko + Dryad Arbor + Mana Flare + Anger
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Mana Flare (battlefield); Anger (graveyard)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5969,7 +5960,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3512-4478-5702
 Cards: Springheart Nantuko + Dryad Arbor + Mana Flare + Roar of Resistance
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Mana Flare (battlefield); Roar of Resistance (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5982,7 +5973,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3512-4885-5702
 Cards: Springheart Nantuko + Dryad Arbor + Mana Flare + Tuktuk Rubblefort
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Mana Flare (battlefield); Tuktuk Rubblefort (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5995,7 +5986,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3512-5223-5702
 Cards: Springheart Nantuko + Dryad Arbor + Mana Flare + Fires of Yavimaya
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Mana Flare (battlefield); Fires of Yavimaya (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6008,7 +5999,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3512-5295-5702
 Cards: Springheart Nantuko + Dryad Arbor + Mana Flare + Thousand-Year Elixir
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Mana Flare (battlefield); Thousand-Year Elixir (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6021,7 +6012,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3512-5434-5702
 Cards: Springheart Nantuko + Dryad Arbor + Mana Flare + Yarus, Roar of the Old Gods
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Mana Flare (battlefield); Yarus, Roar of the Old Gods (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6034,7 +6025,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3512-5702-6633
 Cards: Springheart Nantuko + Dryad Arbor + Mana Flare + The Fire Crystal
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Mana Flare (battlefield); The Fire Crystal (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6047,7 +6038,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3512-5702-6791
 Cards: Springheart Nantuko + Dryad Arbor + Mana Flare + Tannuk, Steadfast Second
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Mana Flare (battlefield); Tannuk, Steadfast Second (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6060,7 +6051,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3512-5702-6968
 Cards: Springheart Nantuko + Dryad Arbor + Mana Flare + Kratos, God of War
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Mana Flare (battlefield); Kratos, God of War (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6073,7 +6064,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3512-5702-7060
 Cards: Springheart Nantuko + Dryad Arbor + Mana Flare + Smellerbee, Rebel Fighter
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Mana Flare (battlefield); Smellerbee, Rebel Fighter (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6086,7 +6077,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3688-4068-5702
 Cards: Springheart Nantuko + Dryad Arbor + Zhur-Taa Ancient + Anger
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Zhur-Taa Ancient (battlefield); Anger (graveyard)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6100,7 +6091,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3688-4478-5702
 Cards: Springheart Nantuko + Dryad Arbor + Zhur-Taa Ancient + Roar of Resistance
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Zhur-Taa Ancient (battlefield); Roar of Resistance (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6113,7 +6104,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3688-4885-5702
 Cards: Springheart Nantuko + Dryad Arbor + Zhur-Taa Ancient + Tuktuk Rubblefort
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Zhur-Taa Ancient (battlefield); Tuktuk Rubblefort (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6126,7 +6117,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3688-5223-5702
 Cards: Springheart Nantuko + Dryad Arbor + Zhur-Taa Ancient + Fires of Yavimaya
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Zhur-Taa Ancient (battlefield); Fires of Yavimaya (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6139,7 +6130,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3688-5295-5702
 Cards: Springheart Nantuko + Dryad Arbor + Zhur-Taa Ancient + Thousand-Year Elixir
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Zhur-Taa Ancient (battlefield); Thousand-Year Elixir (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6152,7 +6143,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3688-5434-5702
 Cards: Springheart Nantuko + Dryad Arbor + Zhur-Taa Ancient + Yarus, Roar of the Old Gods
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Zhur-Taa Ancient (battlefield); Yarus, Roar of the Old Gods (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6165,7 +6156,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3688-5702-6633
 Cards: Springheart Nantuko + Dryad Arbor + Zhur-Taa Ancient + The Fire Crystal
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Zhur-Taa Ancient (battlefield); The Fire Crystal (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6178,7 +6169,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3688-5702-6791
 Cards: Springheart Nantuko + Dryad Arbor + Zhur-Taa Ancient + Tannuk, Steadfast Second
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Zhur-Taa Ancient (battlefield); Tannuk, Steadfast Second (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6191,7 +6182,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3688-5702-6968
 Cards: Springheart Nantuko + Dryad Arbor + Zhur-Taa Ancient + Kratos, God of War
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Zhur-Taa Ancient (battlefield); Kratos, God of War (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6204,7 +6195,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3688-5702-7060
 Cards: Springheart Nantuko + Dryad Arbor + Zhur-Taa Ancient + Smellerbee, Rebel Fighter
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Zhur-Taa Ancient (battlefield); Smellerbee, Rebel Fighter (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6217,7 +6208,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4068-4178-5702
 Cards: Springheart Nantuko + Dryad Arbor + Nissa, Who Shakes the World + Anger
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal | Mana needed: {2}{G}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor ); Dryad Arbor (battlefield); Nissa, Who Shakes the World (battlefield); Anger (graveyard)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6245,7 +6236,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4068-4974-5702
 Cards: Springheart Nantuko + Dryad Arbor + Anger + Zendikar Resurgent
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Anger (graveyard); Zendikar Resurgent (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6259,7 +6250,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4068-5175-5702
 Cards: Springheart Nantuko + Dryad Arbor + Anger + Caged Sun
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Anger (graveyard); Caged Sun (battlefield: with [color] chosen)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6273,7 +6264,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4068-5234-5702
 Cards: Springheart Nantuko + Dryad Arbor + Anger + Heartbeat of Spring
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Anger (graveyard); Heartbeat of Spring (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6287,7 +6278,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4068-5702-7288
 Cards: Springheart Nantuko + Dryad Arbor + Anger + Groundchuck & Dirtbag
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Anger (graveyard); Groundchuck & Dirtbag (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6301,7 +6292,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4178-4478-5702
 Cards: Springheart Nantuko + Dryad Arbor + Nissa, Who Shakes the World + Roar of Resistance
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {2}{G}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor ); Dryad Arbor (battlefield); Nissa, Who Shakes the World (battlefield); Roar of Resistance (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6328,7 +6319,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4178-4885-5702
 Cards: Springheart Nantuko + Dryad Arbor + Nissa, Who Shakes the World + Tuktuk Rubblefort
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{G}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor ); Dryad Arbor (battlefield); Nissa, Who Shakes the World (battlefield); Tuktuk Rubblefort (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6355,7 +6346,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4178-5223-5702
 Cards: Springheart Nantuko + Dryad Arbor + Nissa, Who Shakes the World + Fires of Yavimaya
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {2}{G}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor ); Dryad Arbor (battlefield); Nissa, Who Shakes the World (battlefield); Fires of Yavimaya (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6382,7 +6373,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4178-5434-5702
 Cards: Springheart Nantuko + Dryad Arbor + Nissa, Who Shakes the World + Yarus, Roar of the Old Gods
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{G}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor ); Dryad Arbor (battlefield); Nissa, Who Shakes the World (battlefield); Yarus, Roar of the Old Gods (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6409,7 +6400,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4178-5702-6633
 Cards: Springheart Nantuko + Dryad Arbor + Nissa, Who Shakes the World + The Fire Crystal
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {2}{G}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor ); Dryad Arbor (battlefield); Nissa, Who Shakes the World (battlefield); The Fire Crystal (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6436,7 +6427,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4178-5702-6791
 Cards: Springheart Nantuko + Dryad Arbor + Nissa, Who Shakes the World + Tannuk, Steadfast Second
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {2}{G}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite landfall triggers; Infinite creature ETB
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite landfall triggers; Infinite creature ETB
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor ); Dryad Arbor (battlefield); Nissa, Who Shakes the World (battlefield); Tannuk, Steadfast Second (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6463,7 +6454,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4178-5702-6968
 Cards: Springheart Nantuko + Dryad Arbor + Nissa, Who Shakes the World + Kratos, God of War
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{G}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor ); Dryad Arbor (battlefield); Nissa, Who Shakes the World (battlefield); Kratos, God of War (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6490,7 +6481,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4178-5702-7060
 Cards: Springheart Nantuko + Dryad Arbor + Nissa, Who Shakes the World + Smellerbee, Rebel Fighter
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {2}{G}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor ); Dryad Arbor (battlefield); Nissa, Who Shakes the World (battlefield); Smellerbee, Rebel Fighter (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6517,7 +6508,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4478-4974-5702
 Cards: Springheart Nantuko + Dryad Arbor + Roar of Resistance + Zendikar Resurgent
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Roar of Resistance (battlefield); Zendikar Resurgent (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6530,7 +6521,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4478-5175-5702
 Cards: Springheart Nantuko + Dryad Arbor + Roar of Resistance + Caged Sun
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Roar of Resistance (battlefield); Caged Sun (battlefield: with [color] chosen)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6543,7 +6534,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4478-5234-5702
 Cards: Springheart Nantuko + Dryad Arbor + Roar of Resistance + Heartbeat of Spring
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Roar of Resistance (battlefield); Heartbeat of Spring (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6556,7 +6547,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4478-5702-7288
 Cards: Springheart Nantuko + Dryad Arbor + Roar of Resistance + Groundchuck & Dirtbag
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Roar of Resistance (battlefield); Groundchuck & Dirtbag (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6569,7 +6560,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4885-4974-5702
 Cards: Springheart Nantuko + Dryad Arbor + Tuktuk Rubblefort + Zendikar Resurgent
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Tuktuk Rubblefort (battlefield); Zendikar Resurgent (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6582,7 +6573,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4885-5175-5702
 Cards: Springheart Nantuko + Dryad Arbor + Tuktuk Rubblefort + Caged Sun
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Tuktuk Rubblefort (battlefield); Caged Sun (battlefield: with [color] chosen)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6595,7 +6586,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4885-5234-5702
 Cards: Springheart Nantuko + Dryad Arbor + Tuktuk Rubblefort + Heartbeat of Spring
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Tuktuk Rubblefort (battlefield); Heartbeat of Spring (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6608,7 +6599,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4885-5702-7288
 Cards: Springheart Nantuko + Dryad Arbor + Tuktuk Rubblefort + Groundchuck & Dirtbag
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Tuktuk Rubblefort (battlefield); Groundchuck & Dirtbag (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6621,7 +6612,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4974-5223-5702
 Cards: Springheart Nantuko + Dryad Arbor + Zendikar Resurgent + Fires of Yavimaya
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Zendikar Resurgent (battlefield); Fires of Yavimaya (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6634,7 +6625,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4974-5434-5702
 Cards: Springheart Nantuko + Dryad Arbor + Zendikar Resurgent + Yarus, Roar of the Old Gods
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Zendikar Resurgent (battlefield); Yarus, Roar of the Old Gods (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6647,7 +6638,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4974-5702-6633
 Cards: Springheart Nantuko + Dryad Arbor + Zendikar Resurgent + The Fire Crystal
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Zendikar Resurgent (battlefield); The Fire Crystal (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6660,7 +6651,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4974-5702-6791
 Cards: Springheart Nantuko + Dryad Arbor + Zendikar Resurgent + Tannuk, Steadfast Second
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Zendikar Resurgent (battlefield); Tannuk, Steadfast Second (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6673,7 +6664,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4974-5702-6968
 Cards: Springheart Nantuko + Dryad Arbor + Zendikar Resurgent + Kratos, God of War
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Zendikar Resurgent (battlefield); Kratos, God of War (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6686,7 +6677,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4974-5702-7060
 Cards: Springheart Nantuko + Dryad Arbor + Zendikar Resurgent + Smellerbee, Rebel Fighter
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Zendikar Resurgent (battlefield); Smellerbee, Rebel Fighter (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6699,7 +6690,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-5175-5223-5702
 Cards: Springheart Nantuko + Dryad Arbor + Caged Sun + Fires of Yavimaya
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Caged Sun (battlefield: with [color] chosen); Fires of Yavimaya (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6712,7 +6703,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-5175-5434-5702
 Cards: Springheart Nantuko + Dryad Arbor + Caged Sun + Yarus, Roar of the Old Gods
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Caged Sun (battlefield: with "Green" chosen); Yarus, Roar of the Old Gods (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6725,7 +6716,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-5175-5702-6633
 Cards: Springheart Nantuko + Dryad Arbor + Caged Sun + The Fire Crystal
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Caged Sun (battlefield: with [color] chosen); The Fire Crystal (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6738,7 +6729,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-5175-5702-6791
 Cards: Springheart Nantuko + Dryad Arbor + Caged Sun + Tannuk, Steadfast Second
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Caged Sun (battlefield: with [color] chosen); Tannuk, Steadfast Second (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6751,7 +6742,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-5175-5702-6968
 Cards: Springheart Nantuko + Dryad Arbor + Caged Sun + Kratos, God of War
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Caged Sun (battlefield: with [color] chosen); Kratos, God of War (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6764,7 +6755,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-5175-5702-7060
 Cards: Springheart Nantuko + Dryad Arbor + Caged Sun + Smellerbee, Rebel Fighter
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Caged Sun (battlefield: with [color] chosen); Smellerbee, Rebel Fighter (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6777,7 +6768,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-5223-5234-5702
 Cards: Springheart Nantuko + Dryad Arbor + Fires of Yavimaya + Heartbeat of Spring
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Fires of Yavimaya (battlefield); Heartbeat of Spring (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6790,7 +6781,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-5223-5702-7288
 Cards: Springheart Nantuko + Dryad Arbor + Fires of Yavimaya + Groundchuck & Dirtbag
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Fires of Yavimaya (battlefield); Groundchuck & Dirtbag (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6803,7 +6794,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-5234-5434-5702
 Cards: Springheart Nantuko + Dryad Arbor + Heartbeat of Spring + Yarus, Roar of the Old Gods
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Heartbeat of Spring (battlefield); Yarus, Roar of the Old Gods (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6816,7 +6807,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-5234-5702-6633
 Cards: Springheart Nantuko + Dryad Arbor + Heartbeat of Spring + The Fire Crystal
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Heartbeat of Spring (battlefield); The Fire Crystal (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6829,7 +6820,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-5234-5702-6791
 Cards: Springheart Nantuko + Dryad Arbor + Heartbeat of Spring + Tannuk, Steadfast Second
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Heartbeat of Spring (battlefield); Tannuk, Steadfast Second (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6842,7 +6833,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-5234-5702-6968
 Cards: Springheart Nantuko + Dryad Arbor + Heartbeat of Spring + Kratos, God of War
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Heartbeat of Spring (battlefield); Kratos, God of War (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6855,7 +6846,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-5234-5702-7060
 Cards: Springheart Nantuko + Dryad Arbor + Heartbeat of Spring + Smellerbee, Rebel Fighter
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Heartbeat of Spring (battlefield); Smellerbee, Rebel Fighter (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6868,7 +6859,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-5434-5702-7288
 Cards: Springheart Nantuko + Dryad Arbor + Yarus, Roar of the Old Gods + Groundchuck & Dirtbag
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Yarus, Roar of the Old Gods (battlefield); Groundchuck & Dirtbag (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6881,7 +6872,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-5702-6633-7288
 Cards: Springheart Nantuko + Dryad Arbor + The Fire Crystal + Groundchuck & Dirtbag
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); The Fire Crystal (battlefield); Groundchuck & Dirtbag (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6894,7 +6885,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-5702-6791-7288
 Cards: Springheart Nantuko + Dryad Arbor + Tannuk, Steadfast Second + Groundchuck & Dirtbag
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Tannuk, Steadfast Second (battlefield); Groundchuck & Dirtbag (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6907,7 +6898,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-5702-6968-7288
 Cards: Springheart Nantuko + Dryad Arbor + Kratos, God of War + Groundchuck & Dirtbag
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Kratos, God of War (battlefield); Groundchuck & Dirtbag (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6920,7 +6911,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-5702-7060-7288
 Cards: Springheart Nantuko + Dryad Arbor + Smellerbee, Rebel Fighter + Groundchuck & Dirtbag
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Smellerbee, Rebel Fighter (battlefield); Groundchuck & Dirtbag (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6933,7 +6924,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-5702-7175-7288
 Cards: Springheart Nantuko + Dryad Arbor + Lavaleaper + Groundchuck & Dirtbag
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Lavaleaper (battlefield); Groundchuck & Dirtbag (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -6980,7 +6971,7 @@ Steps: Activate Spawning Pit by sacrificing the persist creature.
 
 ## Combo 2376-4050--5
 Cards: Phyrexian Altar + Rhythm of the Wild
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 9500 | Commander: legal
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 9600 | Commander: legal
 Produces: Infinite colored mana; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Requires: Persist Creature (battlefield: without a -1/-1 counter on it)
 Start: Phyrexian Altar (battlefield); Rhythm of the Wild (battlefield)
@@ -7068,7 +7059,7 @@ Notes: If the other land that is recurred doesn't produce mana, you must control
 
 ## Combo 2404-6507-6763-7115
 Cards: Toph, Hardheaded Teacher + Gaea's Cradle + Constant Mists + Horizon Explorer
-Color identity: RG | Bracket: 3+ (Powerful) | Popularity: 140 | Commander: legal
+Color identity: RG | Bracket: 3+ (Powerful) | Popularity: 150 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite green mana; Infinite storm count; Infinite magecraft triggers; Infinite landfall triggers
 Start: Toph, Hardheaded Teacher (battlefield); Gaea's Cradle (battlefield); Constant Mists (hand); Horizon Explorer (battlefield)
 Prerequisites: You control at least two additional lands.
@@ -7225,7 +7216,7 @@ Steps: Activate Ulasht by paying {1} and removing a +1/+1 counter from it, creat
 
 ## Combo 2440-3209
 Cards: Sprout Swarm + Mana Echoes
-Color identity: RG | Bracket: 3-4+ (Spicy) | Popularity: 84 | Commander: legal | Mana needed: {4}{G}
+Color identity: RG | Bracket: 3-4+ (Spicy) | Popularity: 85 | Commander: legal | Mana needed: {4}{G}
 Produces: Infinite colorless mana; Infinite tapped creature tokens
 Start: Sprout Swarm (hand); Mana Echoes (battlefield)
 Prerequisites: You control at least three Saprolings.
@@ -9127,7 +9118,7 @@ Steps: Activate Atog by sacrificing Sword of the Meek.
 
 ## Combo 2558-5226-5346-5433
 Cards: Krenko, Baron of Tin Street + Crime Novelist + Sword of the Meek + Lithatog
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite creature tokens with haste; Infinitely large creature until end of turn; Infinite +1/+1 counters on a creature; Infinite creature ETB
 Start: Krenko, Baron of Tin Street (battlefield); Crime Novelist (battlefield); Sword of the Meek (battlefield); Lithatog (battlefield)
 Steps: Activate Lithatog by sacrificing Sword of the Meek.
@@ -9222,7 +9213,7 @@ Steps: At the beginning of your combat phase, Xenagos triggers, giving Malignus 
 
 ## Combo 2560-6323
 Cards: Chandra's Ignition + Jumbo Cactuar
-Color identity: RG | Bracket: 3-4+ (Spicy) | Popularity: 5700 | Commander: legal | Mana needed: {3}{R}{R}
+Color identity: RG | Bracket: 3-4+ (Spicy) | Popularity: 5800 | Commander: legal | Mana needed: {3}{R}{R}
 Produces: Near-infinite damage
 Start: Chandra's Ignition (hand); Jumbo Cactuar (battlefield)
 Prerequisites: Jumbo Cactuar does not have summoning sickness.
@@ -9259,7 +9250,7 @@ Steps: Cast Strength of Will by paying {1}{G}, targeting Herd Baloth.
 
 ## Combo 2584-3356
 Cards: Polyraptor + Pandemonium
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 190 | Commander: legal | Mana needed: {6}{G}{G}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 180 | Commander: legal | Mana needed: {6}{G}{G}
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB
 Start: Polyraptor (hand); Pandemonium (battlefield)
 Steps: Cast Polyraptor by paying {6}{G}{G}.
@@ -9475,7 +9466,7 @@ Notes: If you want to repeat this loop on subsequent turns, you'll need to provi
 ## Combo 2645-2930-3430-5928
 Cards: Staff of Domination + Nyxbloom Ancient + Portent Tracker + Balduvian Trading Post
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Portent Tracker (battlefield); Balduvian Trading Post (battlefield)
 Prerequisites: Portent Tracker doesn't have summoning sickness.
 Steps: Activate Balduvian Trading Post by tapping it, adding {C}{C}{C}{R}{R}{R} due to Nyxbloom Ancient
@@ -9487,7 +9478,7 @@ Steps: Activate Balduvian Trading Post by tapping it, adding {C}{C}{C}{R}{R}{R} 
 ## Combo 2645-3181-3430-5928
 Cards: Staff of Domination + Nyxbloom Ancient + Krosan Restorer + Balduvian Trading Post
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Krosan Restorer (battlefield); Balduvian Trading Post (battlefield)
 Prerequisites: Krosan Restorer doesn't have summoning sickness.
 Steps: Activate Balduvian Trading Post by tapping it, adding {C}{C}{C}{R}{R}{R} due to Nyxbloom Ancient
@@ -9499,7 +9490,7 @@ Steps: Activate Balduvian Trading Post by tapping it, adding {C}{C}{C}{R}{R}{R} 
 ## Combo 2645-3322-4657
 Cards: Nikya of the Old Ways + Magus of the Candelabra + Staff of Domination
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
-Produces: Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Nikya of the Old Ways (battlefield); Magus of the Candelabra (battlefield); Staff of Domination (battlefield)
 Prerequisites: Magus of the Candelabra does not have summoning sickness.
   You control at least five mana-producing lands.
@@ -9514,7 +9505,7 @@ Steps: Activate five lands by tapping them, adding at least {5}.
 ## Combo 2645-3430-4348-5928
 Cards: Staff of Domination + Nyxbloom Ancient + Ley Druid + Balduvian Trading Post
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Ley Druid (battlefield); Balduvian Trading Post (battlefield)
 Prerequisites: Ley Druid doesn't have summoning sickness.
 Steps: Activate Balduvian Trading Post by tapping it, adding {C}{C}{C}{R}{R}{R} due to Nyxbloom Ancient
@@ -9526,7 +9517,7 @@ Steps: Activate Balduvian Trading Post by tapping it, adding {C}{C}{C}{R}{R}{R} 
 ## Combo 2645-3512-4657
 Cards: Magus of the Candelabra + Staff of Domination + Mana Flare
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 4100 | Commander: legal
-Produces: Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Magus of the Candelabra (battlefield); Staff of Domination (battlefield); Mana Flare (battlefield)
 Prerequisites: Magus of the Candelabra does not have summoning sickness.
   You control at least five mana-producing lands.
@@ -9541,7 +9532,7 @@ Steps: Activate five lands by tapping them, adding at least {5}.
 ## Combo 2645-3688-4657
 Cards: Magus of the Candelabra + Staff of Domination + Zhur-Taa Ancient
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 3800 | Commander: legal
-Produces: Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Magus of the Candelabra (battlefield); Staff of Domination (battlefield); Zhur-Taa Ancient (battlefield)
 Prerequisites: Magus of the Candelabra does not have summoning sickness.
   You control at least five mana-producing lands.
@@ -9556,7 +9547,7 @@ Steps: Activate five lands by tapping them, adding at least {5}.
 ## Combo 2645-5343
 Cards: Bigger on the Inside + Staff of Domination
 Color identity: RG | Bracket: 4+ (Ruthless) | Popularity: 850 | Commander: legal
-Produces: Infinite card draw; Infinite cascade with mana value equal to the next spell you cast; Infinite colored mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite cascade with mana value equal to the next spell you cast; Infinite colored mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Bigger on the Inside (battlefield); Staff of Domination (battlefield)
 Prerequisites: Bigger on the Inside attached to Staff of Domination.
 Steps: Activate Staff of Domination by tapping it, adding two mana of any color and causing the next spell you cast this turn to have cascade.
@@ -9567,7 +9558,7 @@ Steps: Activate Staff of Domination by tapping it, adding two mana of any color 
 ## Combo 2645-5704
 Cards: Staff of Domination + Leafkin Avenger
 Color identity: RG | Bracket: 3-4+ (Spicy) | Popularity: 1100 | Commander: legal
-Produces: Infinite lifegain; Infinite card draw; Infinite mana creatures you control can produce; Infinite green mana; Infinite lifegain triggers; Infinite untap of creatures you control; Infinite draw triggers
+Produces: Infinite lifegain; Infinite card draw; Infinite mana creatures you control can produce; Infinite green mana; Infinite lifegain triggers; Tap all creatures opponents control; Infinite untap of creatures you control; Infinite draw triggers
 Start: Staff of Domination (battlefield); Leafkin Avenger (battlefield)
 Prerequisites: Leafkin Avenger does not have summoning sickness. You control at least five creatures with power 4 or greater.
 Steps: Activate Leafkin Avenger by tapping it, adding at least {G}{G}{G}{G}{G}.
@@ -9747,7 +9738,7 @@ Steps: Cast Encroaching Dragonstorm by paying {3}{G}.
 ## Combo 2653-5226-5531-5702
 Cards: Lumra, Bellow of the Woods + Springheart Nantuko + Nissa, Resurgent Animist + Lithatog
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 23 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite self-mill; Infinite mana lands you control can produce; Infinite colored mana; Infinitely large creature until end of turn; Infinite untap of lands you control; Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers; Put all lands from your library and graveyard onto the battlefield tapped
+Produces: Infinite creature tokens; Infinite self-mill; Infinite mana lands you control can produce; Infinite colored mana; Infinitely large creature until end of turn; Infinite untap of lands you control; Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers; Put all lands from your library and graveyard onto the battlefield tapped
 Start: Lumra, Bellow of the Woods (battlefield); Springheart Nantuko (battlefield: attached to Lumra); Nissa, Resurgent Animist (battlefield); Lithatog (battlefield)
 Prerequisites: You have at least two lands between the battlefield and your graveyard.
   You have a land card in hand.
@@ -9766,7 +9757,7 @@ Steps: Play any land.
 
 ## Combo 2653-5226-5720-5721
 Cards: Shifting Woodland + Aftermath Analyst + Nissa, Resurgent Animist + Lithatog
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal | Mana needed: {5}{G}{G}{G}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal | Mana needed: {5}{G}{G}{G}
 Produces: Infinite colored mana; Infinitely large creature until end of turn; Infinite death triggers; Infinite landfall triggers; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Shifting Woodland (battlefield); Aftermath Analyst (graveyard); Nissa, Resurgent Animist (battlefield); Lithatog (battlefield)
 Prerequisites: There are at least four card types among cards in your graveyard.
@@ -9782,7 +9773,7 @@ Steps: Activate Lithatog's second ability by sacrificing any land except Shiftin
 ## Combo 2653-5411-5531-5702
 Cards: Lumra, Bellow of the Woods + Springheart Nantuko + Nissa, Resurgent Animist + Need for Speed
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 360 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite self-mill; Infinite mana lands you control can produce; Infinite colored mana; Infinite untap of lands you control; Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers; Put all lands from your library and graveyard onto the battlefield tapped
+Produces: Infinite creature tokens; Infinite self-mill; Infinite mana lands you control can produce; Infinite colored mana; Infinite untap of lands you control; Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers; Put all lands from your library and graveyard onto the battlefield tapped
 Start: Lumra, Bellow of the Woods (battlefield); Springheart Nantuko (battlefield: attached to Lumra); Nissa, Resurgent Animist (battlefield); Need for Speed (battlefield)
 Prerequisites: You have at least two lands between the battlefield and your graveyard.
   You have a land card in hand.
@@ -9801,7 +9792,7 @@ Steps: Play any land.
 
 ## Combo 2653-5411-5720-5721
 Cards: Shifting Woodland + Aftermath Analyst + Nissa, Resurgent Animist + Need for Speed
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 610 | Commander: legal | Mana needed: {5}{G}{G}{G}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 620 | Commander: legal | Mana needed: {5}{G}{G}{G}
 Produces: Infinite colored mana; Infinite death triggers; Infinite landfall triggers; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Shifting Woodland (battlefield); Aftermath Analyst (graveyard); Nissa, Resurgent Animist (battlefield); Need for Speed (battlefield)
 Prerequisites: There are at least four card types among cards in your graveyard.
@@ -10184,7 +10175,7 @@ Steps: Declare the creature with Breath of Fury attached and Hanweir Garrison as
 
 ## Combo 2773-3046
 Cards: Overgrown Armasaur + Warstorm Surge
-Color identity: RG | Bracket: 3-4+ (Spicy) | Popularity: 210 | Commander: legal
+Color identity: RG | Bracket: 3-4+ (Spicy) | Popularity: 220 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB
 Start: Overgrown Armasaur (battlefield); Warstorm Surge (battlefield)
 Prerequisites: You have a way to give Overgrown Armasaur indestructible.
@@ -10876,7 +10867,7 @@ Steps: Activate Phyrexian Altar by sacrificing the creature with power 4 or grea
 
 ## Combo 3129-4659-5346-7311
 Cards: Improvised Arsenal + Crime Novelist + Krark-Clan Ironworks + Primal Vigor
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {4}{R}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {4}{R}
 Produces: Infinite colorless mana; Infinite red mana; Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers
 Start: Improvised Arsenal (battlefield); Crime Novelist (battlefield); Krark-Clan Ironworks (battlefield); Primal Vigor (battlefield)
 Steps: Activate Improvised Arsenal by paying {4}{R}, creating two token copies of it due to Primal Vigor.
@@ -12365,7 +12356,7 @@ Steps: Cast Early Harvest by paying {1}{G}{G}.
 
 ## Combo 3368-5647-7680
 Cards: Roxanne, Starfall Savant + Reiterate + Rootcast Apprenticeship
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 94 | Commander: legal | Mana needed: {7}{R}{R}{G}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 96 | Commander: legal | Mana needed: {7}{R}{R}{G}
 Produces: Infinite damage; Infinite tapped Meteorite tokens; Infinite artifact ETB; Infinite magecraft triggers; Infinite storm count
 Start: Roxanne, Starfall Savant (battlefield: must be your commander); Reiterate (hand); Rootcast Apprenticeship (hand)
 Prerequisites: You control a Meteorite.
@@ -12945,7 +12936,7 @@ Notes: If you get infinite mana, you can repeat steps 2-5 infinitely to untap an
 
 ## Combo 3464-4702
 Cards: Splinter Twin + Hyrax Tower Scout
-Color identity: RG | Bracket: 4+ (Ruthless) | Popularity: 540 | Commander: legal
+Color identity: RG | Bracket: 4+ (Ruthless) | Popularity: 550 | Commander: legal
 Produces: Infinite creature tokens with haste; Infinite creature ETB
 Start: Splinter Twin (battlefield); Hyrax Tower Scout (battlefield)
 Prerequisites: Splinter Twin attached to Hyrax Tower Scout.
@@ -12956,7 +12947,7 @@ Steps: Activate Hyrax Tower Scout by tapping it, creating a token copy of itself
 ## Combo 3470-5226-5531-5702
 Cards: Lumra, Bellow of the Woods + Springheart Nantuko + Lotus Cobra + Lithatog
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite self-mill; Infinite mana lands you control can produce; Infinite colored mana; Infinitely large creature until end of turn; Infinite untap of lands you control; Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers; Put all lands from your library and graveyard onto the battlefield tapped
+Produces: Infinite creature tokens; Infinite self-mill; Infinite mana lands you control can produce; Infinite colored mana; Infinitely large creature until end of turn; Infinite untap of lands you control; Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers; Put all lands from your library and graveyard onto the battlefield tapped
 Start: Lumra, Bellow of the Woods (battlefield); Springheart Nantuko (battlefield: attached to Lumra); Lotus Cobra (battlefield); Lithatog (battlefield)
 Prerequisites: You have at least two lands between the battlefield and your graveyard.
   You have a land card in hand.
@@ -12975,7 +12966,7 @@ Steps: Play any land.
 
 ## Combo 3470-5226-5720-5721
 Cards: Shifting Woodland + Aftermath Analyst + Lotus Cobra + Lithatog
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 69 | Commander: legal | Mana needed: {5}{G}{G}{G}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 71 | Commander: legal | Mana needed: {5}{G}{G}{G}
 Produces: Infinite colored mana; Infinitely large creature until end of turn; Infinite death triggers; Infinite landfall triggers; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Shifting Woodland (battlefield); Aftermath Analyst (graveyard); Lotus Cobra (battlefield); Lithatog (battlefield)
 Prerequisites: There are at least four card types among cards in your graveyard.
@@ -12991,7 +12982,7 @@ Steps: Activate Lithatog's second ability by sacrificing any land except Shiftin
 ## Combo 3470-5411-5531-5702
 Cards: Lumra, Bellow of the Woods + Springheart Nantuko + Lotus Cobra + Need for Speed
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 570 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite self-mill; Infinite mana lands you control can produce; Infinite colored mana; Infinite untap of lands you control; Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers; Put all lands from your library and graveyard onto the battlefield tapped
+Produces: Infinite creature tokens; Infinite self-mill; Infinite mana lands you control can produce; Infinite colored mana; Infinite untap of lands you control; Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers; Put all lands from your library and graveyard onto the battlefield tapped
 Start: Lumra, Bellow of the Woods (battlefield); Springheart Nantuko (battlefield: attached to Lumra); Lotus Cobra (battlefield); Need for Speed (battlefield)
 Prerequisites: You have at least two lands between the battlefield and your graveyard.
   You have a land card in hand.
@@ -14769,7 +14760,7 @@ Steps: Cast Whip Silk for {G}, targeting Goldspan Dragon.
 ## Combo 3875-5226-5531-5702
 Cards: Lumra, Bellow of the Woods + Springheart Nantuko + Tireless Provisioner + Lithatog
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite self-mill; Infinite mana lands you control can produce; Infinite colored mana; Infinite lifegain; Infinite Treasure tokens; Infinite artifact tokens; Infinitely large creature until end of turn; Infinite lifegain triggers; Infinite untap of lands you control; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers; Put all lands from your library and graveyard onto the battlefield tapped; Infinite Food tokens
+Produces: Infinite creature tokens; Infinite self-mill; Infinite mana lands you control can produce; Infinite colored mana; Infinite lifegain; Infinite Treasure tokens; Infinite artifact tokens; Infinitely large creature until end of turn; Infinite lifegain triggers; Infinite untap of lands you control; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers; Put all lands from your library and graveyard onto the battlefield tapped; Infinite Food tokens
 Start: Lumra, Bellow of the Woods (battlefield); Springheart Nantuko (battlefield: attached to Lumra); Tireless Provisioner (battlefield); Lithatog (battlefield)
 Prerequisites: You have at least two lands between the battlefield and your graveyard.
   You have a land card in hand.
@@ -14789,7 +14780,7 @@ Steps: Play any land.
 
 ## Combo 3875-5226-5720-5721
 Cards: Shifting Woodland + Aftermath Analyst + Tireless Provisioner + Lithatog
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 73 | Commander: legal | Mana needed: {5}{G}{G}{G}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 74 | Commander: legal | Mana needed: {5}{G}{G}{G}
 Produces: Infinite colored mana; Infinite lifegain; Infinite Treasure tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite death triggers; Infinite Food tokens; Infinite landfall triggers; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Shifting Woodland (battlefield); Aftermath Analyst (graveyard); Tireless Provisioner (battlefield); Lithatog (battlefield)
 Prerequisites: There are at least four card types among cards in your graveyard.
@@ -14806,7 +14797,7 @@ Steps: Activate Lithatog's second ability by sacrificing any land except Shiftin
 ## Combo 3875-5411-5531-5702
 Cards: Lumra, Bellow of the Woods + Springheart Nantuko + Tireless Provisioner + Need for Speed
 Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 490 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite self-mill; Infinite mana lands you control can produce; Infinite colored mana; Infinite lifegain; Infinite Treasure tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite untap of lands you control; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers; Put all lands from your library and graveyard onto the battlefield tapped; Infinite Food tokens
+Produces: Infinite creature tokens; Infinite self-mill; Infinite mana lands you control can produce; Infinite colored mana; Infinite lifegain; Infinite Treasure tokens; Infinite artifact tokens; Infinite lifegain triggers; Infinite untap of lands you control; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers; Put all lands from your library and graveyard onto the battlefield tapped; Infinite Food tokens
 Start: Lumra, Bellow of the Woods (battlefield); Springheart Nantuko (battlefield: attached to Lumra); Tireless Provisioner (battlefield); Need for Speed (battlefield)
 Prerequisites: You have at least two lands between the battlefield and your graveyard.
   You have a land card in hand.
@@ -15238,7 +15229,7 @@ Steps: Cast Circle of the Land Druid from your graveyard for its retrace cost by
 
 ## Combo 4068-4289-7686
 Cards: The Unbeatable Squirrel Girl + Cryptolith Rite + Anger
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 42 | Commander: legal | Mana needed: {1}{G}{G}{G}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal | Mana needed: {1}{G}{G}{G}
 Produces: Infinite colored mana; Infinite creature tokens with haste; Infinite creature ETB
 Start: The Unbeatable Squirrel Girl (battlefield); Cryptolith Rite (battlefield); Anger (graveyard)
 Prerequisites: You control four or more Squirrels.
@@ -15738,10 +15729,10 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
   Repeat
 
 ## Combo 4321-6213-6737
-Cards: Dan Lewis + Peregrin Took + Barret, Avalanche Leader
+Cards: Peregrin Took + Dan Lewis + Barret, Avalanche Leader
 Color identity: RG | Bracket: 3-4+ (Spicy) | Popularity: 130 | Commander: legal
 Produces: Draw the game; Infinite card draw; Infinite creature tokens; Infinite creature ETB; Infinite Food tokens; Infinite draw triggers; Infinite artifact ETB
-Start: Dan Lewis (battlefield); Peregrin Took (battlefield); Barret, Avalanche Leader (battlefield)
+Start: Peregrin Took (battlefield); Dan Lewis (battlefield); Barret, Avalanche Leader (battlefield)
 Steps: Cause a noncreature artifact to enter the battlefield under your control, which will be an Equipment due to Dan Lewis if it isn't an Equipment already, causing Barret to trigger.
   Resolve Barret's first ability, creating a 2/2 red Rebel creature token plus an additional artifact token through Peregrin Took, which will be an Equipment due to Dan Lewis. Each relevant ability of Barret triggers.
   Repeat from step 2.
@@ -15793,7 +15784,7 @@ Steps: Activate Altar of Dementia by sacrificing the persist creature.
 
 ## Combo 4381-5641-7306
 Cards: The Ooze + Basking Broodscale + Grumgully, the Generous
-Color identity: RG | Bracket: 2-3+ (Oddball) | Popularity: 18 | Commander: legal | Mana needed: {1}{G}
+Color identity: RG | Bracket: 2-3+ (Oddball) | Popularity: 17 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: The Ooze (battlefield); Basking Broodscale (hand); Grumgully, the Generous (battlefield)
 Steps: Cast Basking Broodscale by paying {1}{G}.
@@ -15960,7 +15951,7 @@ Notes: You'll create double as many Squirrels each loop. All Squirrels beyond th
 
 ## Combo 4477-7493-7494
 Cards: Choreographed Sparks + Blazing Firesinger // Seething Song + Greenwarden of Murasa
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {6}{R}{R}{R}{G}{G}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {6}{R}{R}{R}{G}{G}
 Produces: Infinite creature tokens with haste; Infinite red mana; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite magecraft triggers; Infinite creature sacrifice triggers; Infinite storm count
 Start: Choreographed Sparks (hand); Blazing Firesinger // Seething Song (battlefield); Greenwarden of Murasa (hand)
 Prerequisites: Blazing Firesinger is prepared.
@@ -16196,7 +16187,7 @@ Steps: Activate Thermopod's second ability by sacrificing Phylath, adding {R}.
 
 ## Combo 4702-7895
 Cards: Splinter Twin + Little Bear
-Color identity: RG | Bracket: 4+ (Ruthless) | Popularity: 70 | Commander: legal
+Color identity: RG | Bracket: 4+ (Ruthless) | Popularity: 71 | Commander: legal
 Produces: Infinite creature tokens with haste; Infinite creature ETB
 Start: Splinter Twin (battlefield); Little Bear (battlefield)
 Prerequisites: Splinter Twin attached to Little Bear.
@@ -16712,7 +16703,7 @@ Steps: Cast Brass's Bounty by paying {6}{R}, creating at least eight Treasure to
 
 ## Combo 5109-8161
 Cards: Hexhaven Invigorator + Volcano Hellion
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 88 | Commander: legal | Mana needed: {2}{R}{R}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 89 | Commander: legal | Mana needed: {2}{R}{R}
 Produces: Near-infinite landfall triggers; Put most land cards from your library onto the battlefield tapped
 Start: Hexhaven Invigorator (battlefield); Volcano Hellion (hand)
 Prerequisites: Your life total is 2 or higher.
@@ -16837,7 +16828,7 @@ Steps: Activate Goblin Bombardment by sacrificing the persist creature.
 
 ## Combo 5147-7388--5
 Cards: Goblin Bombardment + Rocksteady, Mutant Marauder
-Color identity: RG | Bracket: 3-4+ (Spicy) | Popularity: 33 | Commander: legal
+Color identity: RG | Bracket: 3-4+ (Spicy) | Popularity: 34 | Commander: legal
 Produces: Infinite damage; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Requires: Persist Creature (battlefield)
 Start: Goblin Bombardment (battlefield); Rocksteady, Mutant Marauder (battlefield)
@@ -16862,7 +16853,7 @@ Steps: Activate Goblin Bombardment by sacrificing the persist creature.
 
 ## Combo 5147-7940--5
 Cards: Goblin Bombardment + Support Mission
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
 Produces: Infinite damage; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Requires: Persist Creature (battlefield)
 Start: Goblin Bombardment (battlefield); Support Mission (battlefield)
@@ -16945,7 +16936,7 @@ Steps: Activate any number of other lands by tapping them, adding at least {4}{C
 
 ## Combo 5226-5478-5720-5721
 Cards: Shifting Woodland + Aftermath Analyst + Lithatog + Spelunking
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 64 | Commander: legal | Mana needed: {5}{G}{G}{G}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 65 | Commander: legal | Mana needed: {5}{G}{G}{G}
 Produces: Infinite mana lands you control can produce; Infinitely large creature until end of turn; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Shifting Woodland (battlefield); Aftermath Analyst (graveyard); Lithatog (battlefield); Spelunking (battlefield)
 Prerequisites: There are at least four card types among cards in your graveyard.
@@ -17206,7 +17197,7 @@ Steps: Activate Need for Speed by sacrificing any land except Shifting Woodland.
 
 ## Combo 5411-5531-6621-6763
 Cards: Lumra, Bellow of the Woods + Mirrorpool + Need for Speed + Horizon Explorer
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 180 | Commander: legal
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 190 | Commander: legal
 Produces: Infinite self-mill; Infinite mana lands you control can produce; Put all land cards from your library and graveyard onto the battlefield; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers
 Start: Lumra, Bellow of the Woods (battlefield); Mirrorpool (battlefield); Need for Speed (battlefield); Horizon Explorer (battlefield)
 Prerequisites: Other lands you control can tap to produce at least {4}{C}.
@@ -17432,7 +17423,7 @@ Steps: Activate Anzrag by paying {3}{R}{R}{G}{G}, causing opponents to block Anz
 
 ## Combo 6006-6633-7686
 Cards: The Unbeatable Squirrel Girl + Enduring Vitality + The Fire Crystal
-Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal | Mana needed: {1}{G}{G}{G}
+Color identity: RG | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal | Mana needed: {1}{G}{G}{G}
 Produces: Infinite colored mana; Infinite creature tokens with haste; Infinite creature ETB
 Start: The Unbeatable Squirrel Girl (battlefield); Enduring Vitality (battlefield); The Fire Crystal (battlefield)
 Prerequisites: You control four or more Squirrels.

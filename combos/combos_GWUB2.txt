@@ -1,152 +1,3 @@
-## Combo 2921-3497-4484-4871-5643
-Cards: Geralf, the Fleshwright + Pitiless Plunderer + Ebondeath, Dracolich + Bartolomé del Presidio + Ezzaroot Channeler
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B}{B}
-Produces: Infinite +1/+1 counters on a creature token; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
-Start: Geralf, the Fleshwright (battlefield); Pitiless Plunderer (battlefield); Ebondeath, Dracolich (graveyard); Bartolomé del Presidio (battlefield); Ezzaroot Channeler (battlefield)
-Prerequisites: A creature not named Ebondeath, Dracolich has died this turn.
-  You've cast a spell this turn.
-  You've gained at least 2 life this turn.
-Steps: Cast Ebondeath from your graveyard by paying {B}{B}.
-  Geralf's first ability triggers, creating a 2/2 Zombie Rogue creature token.
-  When the Zombie Rogue enters the battlefield, Geralf's second ability triggers,  putting a number of +1/+1 counters on the Zombie Rogue equal to the number of other Zombies that entered the battlefield under your control.
-  When Ebondeath enters the battlefield, Geralf's second ability triggers, putting a number of +1/+1 counters on Ebondeath equal to the number of other Zombies that entered the battlefield under your control.
-  Activate Bartolomé del Presidio twice by sacrificing the Zombie Rogue and Ebondeath.
-  When the Zombie Rogue and Ebondeath die, Pitiless Plunderer triggers twice, creating two Treasure tokens.
-  Resolve both Bartolomé del Presidio abilities.
-  Activate the Treasures by tapping and sacrificing them, adding {B}{B}.
-  Repeat.
-Notes: This combo will steadily put more +1/+1 counters on Ebondeath and the Zombie Rogue token, eventually resulting in an infinite number of them.
-
-## Combo 2921-3564-4275-5329
-Cards: Kumena, Tyrant of Orazca + Deeproot Pilgrimage + Faces of the Past + Bartolomé del Presidio
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite creature tokens; Infinite card draw; Infinite +1/+1 counters on a creature; Infinite +1/+1 counters on Merfolk you control; Infinite untap of all Merfolk; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite draw triggers
-Start: Kumena, Tyrant of Orazca (battlefield); Deeproot Pilgrimage (battlefield); Faces of the Past (battlefield); Bartolomé del Presidio (battlefield)
-Prerequisites: You control another untapped nontoken Merfolk.
-Steps: Activate Kumena's first ability by tapping another nontoken Merfolk you control.
-  Deeproot Pilgrimage triggers, creating a 1/1 Merfolk creature token.
-  Resolve the Kumena ability.
-  Activate Bartolomé del Presidio by sacrificing the Merfolk token.
-  When the Merfolk dies, Faces of the Past triggers, untapping all Merfolk.
-  Resolve the Bartolomé del Presidio ability.
-  Repeat.
-Notes: You can tap as many nontoken Merfolk as able each iteration by repeating steps 1 through 3 for each Merfolk. They will all be untapped by Faces of the Past.
-
-## Combo 2921-3908-5365
-Cards: Lonis, Genetics Expert + Bartolomé del Presidio + Spark Double
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on creatures you control; Infinite artifact tokens; Infinite Clue tokens
-Start: Lonis, Genetics Expert (battlefield); Bartolomé del Presidio (battlefield); Spark Double (battlefield)
-Prerequisites: You control at least one Clue token.
-  Spark Double on the battlefield as a copy of Lonis.
-Steps: Activate Bartolomé del Presidio by sacrificing a Clue.
-  Lonis and Spark Double's second abilities trigger.
-  Resolve the Lonis trigger, putting a +1/+1 counter on Spark Double.
-  Spark Double's first ability triggers, creating a Clue artifact token.
-  Resolve the Spark Double trigger from step 2, putting a +1/+1 counter on Lonis.
-  Lonis' first ability triggers, creating a Clue artifact token.
-  Resolve the Bartolomé del Presidio ability.
-  Repeat.
-Notes: You may optionally target any other creature using one of the triggers to put infinite +1/+1 counters on that creature.
-
-## Combo 2921-4186-6566--196
-Cards: Bartolomé del Presidio + Scurry Oak + Yuna, Grand Summoner
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Requires: Gives +1/+1 counter to creatures that enter (battlefield)
-Start: Bartolomé del Presidio (battlefield); Scurry Oak (hand); Yuna, Grand Summoner (battlefield)
-Steps: Cast Scurry Oak by paying its mana cost.
-  When Scurry Oak enters, the effect that adds +1/+1 counters to entering creatures triggers or applies its replacement effect, putting at least one +1/+1 counter on Scurry Oak.
-  Scurry Oak triggers, creating a creature token.
-  When the creature token enters, that same effect causes you to place at least one +1/+1 counter on it.
-  Activate Bartolomé del Presidio by sacrificing the creature token.
-  When the creature token dies, Yuna triggers, putting at least one +1/+1 counter on Scurry Oak
-  Repeat steps 3 and 4 once.
-  Resolve the Bartolomé del Presidio ability.
-  Repeat from step 5.
-
-## Combo 2921-4215-6730
-Cards: Sin, Unending Cataclysm + Verdant Succession + Bartolomé del Presidio
-Color identity: GWUB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on creatures you control; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Sin, Unending Cataclysm (battlefield); Verdant Succession (battlefield); Bartolomé del Presidio (battlefield)
-Steps: Activate Bartolomé del Presidio by sacrificing Sin.
-  When Sin dies, it and Verdant Succession trigger.
-  Resolve the Sin trigger, moving any counters from it onto another creature you control, and then shuffling Sin into your library.
-  Resolve the Verdant Succession trigger, searching your library for Sin and putting it onto the battlefield.
-  Resolve the Bartolomé del Presidio ability.
-  Repeat.
-Notes: In order to get infinite +1/+1 counters, remove as many counters as possible when Sin enters, putting twice that many +1/+1 counters on Sin as it enters. Those counters can then be moved to another creature when Sin dies.
-
-## Combo 2921-4275-5003-7892
-Cards: Thranduil the Strategist + Faces of the Past + Nim Deathmantle + Bartolomé del Presidio
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite blue mana; Infinite green mana; Infinite +1/+1 counters on a creature; Infinite untap of all creatures of a certain creature type; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Thranduil the Strategist (battlefield); Faces of the Past (battlefield); Nim Deathmantle (battlefield); Bartolomé del Presidio (battlefield)
-Prerequisites: You control at least four other Elves that do not have summoning sickness.
-Steps: Activate at least four Elves other than Thranduil by tapping them, adding at least four in any combination of {G} and/or {U}.
-  Activate Bartolomé del Presidio by sacrificing Thranduil.
-  When Thranduil dies, Nim Deathmantle and Faces of the Past trigger.
-  Resolve the Nim Deathmantle trigger, causing you to pay {4} to return Thranduil from your graveyard to the battlefield and attach Nim Deathmantle to it.
-  Resolve the Faces of the Past trigger, untapping all Elves and Nobles.
-  Resolve the Bartolomé del Presidio ability.
-  Repeat.
-
-## Combo 2921-4419-4694-7306
-Cards: The Ooze + Bartolomé del Presidio + Renata, Called to the Hunt + March of the Machines
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Bartolomé del Presidio (battlefield); Renata, Called to the Hunt (battlefield); March of the Machines (battlefield)
-Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
-Steps: Activate Bartolomé del Presidio by sacrificing a creature with a +1/+1 counter on it.
-  When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
-  Each Mutagen artifact creature token enters with at least one +1/+1 counter on it due to Renata.
-  Resolve the Bartolomé del Presidio ability, putting a +1/+1 counter on them.
-  Repeat from step 1.
-
-## Combo 2921-4493-5365
-Cards: Lonis, Genetics Expert + Bartolomé del Presidio + Irenicus's Vile Duplication
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on creatures you control; Infinite artifact tokens; Infinite Clue tokens
-Start: Lonis, Genetics Expert (battlefield); Bartolomé del Presidio (battlefield); Irenicus's Vile Duplication (hand)
-Prerequisites: You control at least one Clue token.
-  You have enough mana to cast Irenicus's Vile Duplication
-Steps: Cast Irenicus's Vile Duplication by paying its mana cost, creating a token copy of Lonis that isn't legendary.
-  Activate Bartolomé del Presidio by sacrificing a Clue.
-  Lonis and the Lonis token's second abilities trigger.
-  Resolve the nontoken Lonis trigger, putting a +1/+1 counter on the token Lonis.
-  The token Lonis's first ability triggers, creating a Clue artifact token.
-  Resolve the token Lonis's trigger from step 2, putting a +1/+1 counter on the nontoken Lonis.
-  The nontoken Lonis's first ability triggers, creating a Clue artifact token.
-  Resolve the Bartolomé del Presidio ability.
-  Repeat from step 2.
-Notes: You may optionally target any other creature using one of the triggers to put infinite +1/+1 counters on that creature.
-
-## Combo 2921-4559-4802-7306
-Cards: Metalwork Colossus + The Ooze + Bartolomé del Presidio + Master Biomancer
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite Mutagen tokens; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count
-Start: Metalwork Colossus (hand); The Ooze (battlefield); Bartolomé del Presidio (battlefield); Master Biomancer (battlefield)
-Prerequisites: Noncreature artifacts you control have total mana value 11 or greater.
-Steps: Cast Metalwork Colossus by paying {0}, which enters with at least two +1/+1 counters on it due to Master Biomancer.
-  Activate Bartolomé del Presidio by sacrificing Metalwork Colossus.
-  When Metalwork Colossus dies, The Ooze triggers, creating a Mutagen token for each +1/+1 counter Metalwork Colossus had.
-  Resolve the Bartolomé del Presidio ability.
-  Activate Metalwork Colossus by sacrificing two Mutagens, returning it from your graveyard to your hand.
-  Repeat.
-
-## Combo 2921-4694-4802-7306
-Cards: The Ooze + Bartolomé del Presidio + March of the Machines + Master Biomancer
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite artifact tokens; Infinite Mutagen tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Bartolomé del Presidio (battlefield); March of the Machines (battlefield); Master Biomancer (battlefield)
-Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
-Steps: Activate Bartolomé del Presidio by sacrificing a creature with a +1/+1 counter on it.
-  When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
-  Each Mutagen artifact creature token enters with at least one +1/+1 counter on it due to Master Biomancer.
-  Resolve the Bartolomé del Presidio ability, putting a +1/+1 counter on them.
-  Repeat from step 1.
-
 ## Combo 2921-4694-6258-7306
 Cards: The Ooze + Bartolomé del Presidio + March of the Machines + Thunderous Velocipede
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -441,7 +292,7 @@ Steps: Activate Bartolomé del Presidio by sacrificing the additional creature.
 ## Combo 2921-7084-7892
 Cards: Beifong's Bounty Hunters + Bartolomé del Presidio + Thranduil the Strategist
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers
 Start: Beifong's Bounty Hunters (battlefield); Bartolomé del Presidio (battlefield); Thranduil the Strategist (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -457,7 +308,7 @@ Steps: Activate Bartolomé del Presidio by sacrificing another nonland creature 
 ## Combo 2921-7084-7893
 Cards: Beifong's Bounty Hunters + Bartolomé del Presidio + Thranduil, Sindarin Liege // Silvan Rally
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers
 Start: Beifong's Bounty Hunters (battlefield); Bartolomé del Presidio (battlefield); Thranduil, Sindarin Liege // Silvan Rally (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -638,7 +489,7 @@ Steps: Activate Prismatic Geoscope by tapping it, adding at least {U}{U}{U}.
 ## Combo 3078-3819-5671
 Cards: The Necrobloom + Cultivator Colossus + Soldevi Excavations
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {4}{G}{G}{G}
-Produces: Infinite self-mill; Near-infinite landfall triggers; Put most lands from your library and graveyard onto the battlefield tapped
+Produces: Near-infinite creature tokens; Infinite self-mill; Near-infinite creature ETB; Near-infinite landfall triggers; Put most lands from your library and graveyard onto the battlefield tapped
 Start: The Necrobloom (battlefield); Cultivator Colossus (hand); Soldevi Excavations (hand)
 Steps: Cast Cultivator Colossus by paying {4}{G}{G}{G}.
   When Cultivator Colossus enters, it triggers, attempting to put Soldevi Excavations from your hand onto the battlefield. Choose to instead put Soldevi Excavations into your graveyard.
@@ -1759,7 +1610,7 @@ Steps: Activate Shilgengar by sacrificing Moritte of the Frost.
 
 ## Combo 3388-6972
 Cards: Moritte of the Frost + Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 81 | Commander: legal | Mana needed: {2}{G}{U}{U}
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 80 | Commander: legal | Mana needed: {2}{G}{U}{U}
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers
 Start: Moritte of the Frost (hand); Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight (battlefield)
 Steps: Cast Moritte by paying {2}{G}{U}{U}. Choose to have it enter as a copy of Isilu.
@@ -1984,7 +1835,7 @@ Notes: You can use this combo as a lock, destroying any lands you wish as they e
 ## Combo 3678-5627-7857
 Cards: Wight of the Reliquary + Retreat to Emeria + Elven Raft-Steerer
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
+Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); Retreat to Emeria (battlefield); Elven Raft-Steerer (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
   You control at least one additional creature.
@@ -2044,7 +1895,7 @@ Steps: Cast Cavern Harpy by paying {U}{B}.
 
 ## Combo 3859-5674-5870
 Cards: Primal Prayers + Guide of Souls + Cavern Harpy
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal
 Produces: Infinite lifegain; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
 Start: Primal Prayers (battlefield); Guide of Souls (battlefield); Cavern Harpy (hand)
 Prerequisites: You have at least {E} or enough mana to cast Cavern Harpy
@@ -2650,19 +2501,6 @@ Steps: Activate Gilded Lotus by tapping it, adding {U}{U}{U}.
   Resolve the Mind Over Matter ability, untapping Gilded Lotus.
   Repeat.
 
-## Combo 4067-4477-5527-6281
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Greenwarden of Murasa + Five Hundred Year Diary
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite blue mana; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Greenwarden of Murasa (hand); Five Hundred Year Diary (battlefield)
-Prerequisites: You control at least three Clues.
-Steps: Activate Five Hundred Year Diary by tapping it, adding at least {U}{U}{U}.
-  Activate Mind Over Matter by discarding Greenwarden of Murasa.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Greenwarden of Murasa that is a 4/4 Zombie.
-  When the Greenwarden of Murasa token enters the battlefield, it triggers, returning Greenwarden of Murasa from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping Five Hundred Year Diary.
-  Repeat.
-
 ## Combo 4067-4477-6281-6893
 Cards: Hashaton, Scarab's Fist + Mind Over Matter + Greenwarden of Murasa + The Eternity Elevator
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -2674,19 +2512,6 @@ Steps: Activate The Eternity Elevator by tapping it, adding at least twenty {U}.
   Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Greenwarden of Murasa that is a 4/4 Zombie.
   When the Greenwarden of Murasa token enters the battlefield, it triggers, returning Greenwarden of Murasa from your graveyard to your hand.
   Resolve the Mind Over Matter ability, untapping The Eternity Elevator.
-  Repeat.
-
-## Combo 4067-4477-6281-7013
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Greenwarden of Murasa + White Lotus Tile
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite colored mana; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Greenwarden of Murasa (hand); White Lotus Tile (battlefield)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Activate White Lotus Tile by tapping it, adding at least {U}{U}{U}.
-  Activate Mind Over Matter by discarding Greenwarden of Murasa.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Greenwarden of Murasa that is a 4/4 Zombie.
-  When the Greenwarden of Murasa token enters the battlefield, it triggers, returning Greenwarden of Murasa from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping White Lotus Tile.
   Repeat.
 
 ## Combo 4067-4823-5116-6281
@@ -2701,19 +2526,6 @@ Steps: Activate Gilded Lotus by tapping it, adding {U}{U}{U}.
   Resolve the Mind Over Matter ability, untapping Gilded Lotus.
   Repeat.
 
-## Combo 4067-4823-5527-6281
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Timeless Witness + Five Hundred Year Diary
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite blue mana; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Timeless Witness (hand); Five Hundred Year Diary (battlefield)
-Prerequisites: You control at least three Clues.
-Steps: Activate Five Hundred Year Diary by tapping it, adding at least {U}{U}{U}.
-  Activate Mind Over Matter by discarding Timeless Witness.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Timeless Witness that is a 4/4 Zombie.
-  When the Timeless Witness token enters the battlefield, it triggers, returning Timeless Witness from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping Five Hundred Year Diary.
-  Repeat.
-
 ## Combo 4067-4823-6281-6893
 Cards: Hashaton, Scarab's Fist + Mind Over Matter + Timeless Witness + The Eternity Elevator
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -2725,19 +2537,6 @@ Steps: Activate The Eternity Elevator by tapping it, adding at least twenty {U}.
   Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Timeless Witness that is a 4/4 Zombie.
   When the Timeless Witness token enters the battlefield, it triggers, returning Timeless Witness from your graveyard to your hand.
   Resolve the Mind Over Matter ability, untapping The Eternity Elevator.
-  Repeat.
-
-## Combo 4067-4823-6281-7013
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Timeless Witness + White Lotus Tile
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite colored mana; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Timeless Witness (hand); White Lotus Tile (battlefield)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Activate White Lotus Tile by tapping it, adding at least {U}{U}{U}.
-  Activate Mind Over Matter by discarding Timeless Witness.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Timeless Witness that is a 4/4 Zombie.
-  When the Timeless Witness token enters the battlefield, it triggers, returning Timeless Witness from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping White Lotus Tile.
   Repeat.
 
 ## Combo 4067-5116-5181-6281
@@ -2826,19 +2625,6 @@ Steps: Activate Gilded Lotus by tapping it, adding {U}{U}{U}.
   Resolve the Mind Over Matter ability, untapping Gilded Lotus.
   Repeat.
 
-## Combo 4067-5181-5527-6281
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Golgari Findbroker + Five Hundred Year Diary
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite blue mana; Infinite tapped creature tokens; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Golgari Findbroker (hand); Five Hundred Year Diary (battlefield)
-Prerequisites: You control at least three Clues.
-Steps: Activate Five Hundred Year Diary by tapping it, adding at least {U}{U}{U}.
-  Activate Mind Over Matter by discarding Golgari Findbroker.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Golgari Findbroker that is a 4/4 Zombie.
-  When the Golgari Findbroker token enters the battlefield, it triggers, returning Golgari Findbroker from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping Five Hundred Year Diary.
-  Repeat.
-
 ## Combo 4067-5181-6281-6893
 Cards: Hashaton, Scarab's Fist + Mind Over Matter + Golgari Findbroker + The Eternity Elevator
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -2852,19 +2638,6 @@ Steps: Activate The Eternity Elevator by tapping it, adding {U} for each charge 
   Resolve the Mind Over Matter ability, untapping The Eternity Elevator.
   Repeat.
 
-## Combo 4067-5181-6281-7013
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Golgari Findbroker + White Lotus Tile
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite tapped creature tokens; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Golgari Findbroker (hand); White Lotus Tile (battlefield)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Activate White Lotus Tile by tapping it, adding at least {U}{U}{U}.
-  Activate Mind Over Matter by discarding Golgari Findbroker.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Golgari Findbroker that is a 4/4 Zombie.
-  When the Golgari Findbroker token enters the battlefield, it triggers, returning Golgari Findbroker from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping White Lotus Tile.
-  Repeat.
-
 ## Combo 4067-5457-5672
 Cards: Tasigur, the Golden Fang + Mind Over Matter + Selvala, Eager Trailblazer
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -2875,72 +2648,6 @@ Prerequisites: You have a nonland card in hand.
 Steps: Activate Selvala by tapping it, adding at least {G}{G}{G}{G}.
   Activate Mind Over Matter by discarding a card, untapping Selvala.
   Activate Tasigur by paying {2}{G/U}{G/U}, causing you to mill two cards and return a nonland card from your graveyard to your hand.
-  Repeat.
-
-## Combo 4067-5527-6100-6281
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Five Hundred Year Diary + Elvish Regrower
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite blue mana; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Five Hundred Year Diary (battlefield); Elvish Regrower (hand)
-Prerequisites: You control at least three Clues.
-Steps: Activate Five Hundred Year Diary by tapping it, adding at least {U}{U}{U}.
-  Activate Mind Over Matter by discarding Elvish Regrower.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Elvish Regrower that is a 4/4 Zombie.
-  When the Elvish Regrower token enters the battlefield, it triggers, returning Elvish Regrower from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping Five Hundred Year Diary.
-  Repeat.
-
-## Combo 4067-5527-6281-6927
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Five Hundred Year Diary + Damage Control Crew
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite blue mana; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Five Hundred Year Diary (battlefield); Damage Control Crew (hand)
-Prerequisites: You control at least three Clues.
-Steps: Activate Five Hundred Year Diary by tapping it, adding at least {U}{U}{U}.
-  Activate Mind Over Matter by discarding Damage Control Crew.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Damage Control Crew that is a 4/4 Zombie.
-  When the Damage Control Crew token enters the battlefield, it triggers, returning Damage Control Crew from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping Five Hundred Year Diary.
-  Repeat.
-
-## Combo 4067-5527-6281-7206
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Five Hundred Year Diary + Dundoolin Weaver
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite blue mana; Infinite tapped creature tokens; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Five Hundred Year Diary (battlefield); Dundoolin Weaver (hand)
-Prerequisites: You control two or more creatures.
-  You control at least three Clues.
-Steps: Activate Five Hundred Year Diary by tapping it, adding at least {U}{U}{U}.
-  Activate Mind Over Matter by discarding Dundoolin Weaver.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Dundoolin Weaver that is a 4/4 Zombie.
-  When the Dundoolin Weaver token enters the battlefield, it triggers, returning Dundoolin Weaver from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping Five Hundred Year Diary.
-  Repeat.
-
-## Combo 4067-5527-6281-7252
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Grave Sifter + Five Hundred Year Diary
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite blue mana; Infinite tapped creature tokens; Each opponent returns all creature cards from their graveyard to their hand; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Grave Sifter (hand); Five Hundred Year Diary (battlefield)
-Prerequisites: You control at least three Clues.
-Steps: Activate Five Hundred Year Diary by tapping it, adding at least {U}{U}{U}.
-  Activate Mind Over Matter by discarding Grave Sifter.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Grave Sifter that is a 4/4 Zombie.
-  When the Grave Sifter token enters the battlefield, it triggers, returning Grave Sifter from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping Five Hundred Year Diary.
-  Repeat.
-
-## Combo 4067-5527-6281-7327
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Five Hundred Year Diary + Ragamuffin Raptor
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite blue mana; Infinite tapped creature tokens; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Five Hundred Year Diary (battlefield); Ragamuffin Raptor (hand)
-Prerequisites: You control at least three Clues.
-Steps: Activate Five Hundred Year Diary by tapping it, adding at least {U}{U}{U}.
-  Activate Mind Over Matter by discarding Ragamuffin Raptor.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Ragamuffin Raptor that is a 4/4 Zombie.
-  When the Ragamuffin Raptor token enters the battlefield, it triggers, returning Ragamuffin Raptor from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping Five Hundred Year Diary.
   Repeat.
 
 ## Combo 4067-5672-7203
@@ -2968,19 +2675,6 @@ Steps: Activate The Eternity Elevator by tapping it, adding at least twenty {U}.
   Resolve the Mind Over Matter ability, untapping The Eternity Elevator.
   Repeat.
 
-## Combo 4067-6100-6281-7013
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Elvish Regrower + White Lotus Tile
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite colored mana; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Elvish Regrower (hand); White Lotus Tile (battlefield)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Activate White Lotus Tile by tapping it, adding at least {U}{U}{U}.
-  Activate Mind Over Matter by discarding Elvish Regrower.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Elvish Regrower that is a 4/4 Zombie.
-  When the Elvish Regrower token enters the battlefield, it triggers, returning Elvish Regrower from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping White Lotus Tile.
-  Repeat.
-
 ## Combo 4067-6281-6435-6893
 Cards: Hashaton, Scarab's Fist + Mind Over Matter + Coati Scavenger + The Eternity Elevator
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -2993,20 +2687,6 @@ Steps: Activate The Eternity Elevator by tapping it, adding at least twenty {U}.
   Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Coati Scavenger that is a 4/4 Zombie.
   When the Coati Scavenger token enters the battlefield, it triggers, returning Coati Scavenger from your graveyard to your hand.
   Resolve the Mind Over Matter ability, untapping The Eternity Elevator.
-  Repeat.
-
-## Combo 4067-6281-6435-7013
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Coati Scavenger + White Lotus Tile
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite colored mana; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Coati Scavenger (hand); White Lotus Tile (battlefield)
-Prerequisites: There are four or more permanent cards in your graveyard.
-  You control at least three creatures that share a creature type.
-Steps: Activate White Lotus Tile by tapping it, adding at least {U}{U}{U}.
-  Activate Mind Over Matter by discarding Coati Scavenger.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Coati Scavenger that is a 4/4 Zombie.
-  When the Coati Scavenger token enters the battlefield, it triggers, returning Coati Scavenger from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping White Lotus Tile.
   Repeat.
 
 ## Combo 4067-6281-6893-7206
@@ -3047,58 +2727,6 @@ Steps: Activate The Eternity Elevator by tapping it, adding at least twenty {U}.
   Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Ragamuffin Raptor that is a 4/4 Zombie.
   When the Ragamuffin Raptor token enters the battlefield, it triggers, returning Ragamuffin Raptor from your graveyard to your hand.
   Resolve the Mind Over Matter ability, untapping The Eternity Elevator.
-  Repeat.
-
-## Combo 4067-6281-6927-7013
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Damage Control Crew + White Lotus Tile
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite tapped creature tokens; Infinite colored mana; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Damage Control Crew (hand); White Lotus Tile (battlefield)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Activate White Lotus Tile by tapping it, adding at least {U}{U}{U}.
-  Activate Mind Over Matter by discarding Damage Control Crew.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Damage Control Crew that is a 4/4 Zombie.
-  When the Damage Control Crew token enters the battlefield, it triggers, returning Damage Control Crew from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping White Lotus Tile.
-  Repeat.
-
-## Combo 4067-6281-7013-7206
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + White Lotus Tile + Dundoolin Weaver
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite tapped creature tokens; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); White Lotus Tile (battlefield); Dundoolin Weaver (hand)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Activate White Lotus Tile by tapping it, adding at least {U}{U}{U}.
-  Activate Mind Over Matter by discarding Dundoolin Weaver.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Dundoolin Weaver that is a 4/4 Zombie.
-  When the Dundoolin Weaver token enters the battlefield, it triggers, returning Dundoolin Weaver from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping White Lotus Tile.
-  Repeat.
-
-## Combo 4067-6281-7013-7252
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + Grave Sifter + White Lotus Tile
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite tapped creature tokens; Each opponent returns all creature cards from their graveyard to their hand; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); Grave Sifter (hand); White Lotus Tile (battlefield)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Activate White Lotus Tile by tapping it, adding at least {U}{U}{U}.
-  Activate Mind Over Matter by discarding Grave Sifter.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Grave Sifter that is a 4/4 Zombie.
-  When the Grave Sifter token enters the battlefield, it triggers, returning Grave Sifter from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping White Lotus Tile.
-  Repeat.
-
-## Combo 4067-6281-7013-7327
-Cards: Hashaton, Scarab's Fist + Mind Over Matter + White Lotus Tile + Ragamuffin Raptor
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite tapped creature tokens; Infinite creature ETB; Infinite self-discard triggers
-Start: Hashaton, Scarab's Fist (battlefield); Mind Over Matter (battlefield); White Lotus Tile (battlefield); Ragamuffin Raptor (hand)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Activate White Lotus Tile by tapping it, adding at least {U}{U}{U}.
-  Activate Mind Over Matter by discarding Ragamuffin Raptor.
-  Hashaton triggers, causing you to pay {2}{U} to create a tapped token copy of Ragamuffin Raptor that is a 4/4 Zombie.
-  When the Ragamuffin Raptor token enters the battlefield, it triggers, returning Ragamuffin Raptor from your graveyard to your hand.
-  Resolve the Mind Over Matter ability, untapping White Lotus Tile.
   Repeat.
 
 ## Combo 4094-4365-4772-4826-7942
@@ -4820,7 +4448,7 @@ Steps: Defeat Invasion of Amonkhet
 ## Combo 5627-5671-7857
 Cards: Wight of the Reliquary + The Necrobloom + Elven Raft-Steerer
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
-Produces: Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers
+Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); The Necrobloom (battlefield); Elven Raft-Steerer (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
   You control at least one additional creature.
@@ -4960,7 +4588,7 @@ Steps: Activate Shilgengar by sacrificing the additional creature.
 ## Combo 5686-7084-7892
 Cards: Beifong's Bounty Hunters + Shilgengar, Sire of Famine + Thranduil the Strategist
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite artifact tokens; Infinite Blood tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers
+Produces: Infinite creature tokens; Infinite artifact tokens; Infinite Blood tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers
 Start: Beifong's Bounty Hunters (battlefield); Shilgengar, Sire of Famine (battlefield); Thranduil the Strategist (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -4976,7 +4604,7 @@ Steps: Activate Shilgengar by sacrificing another nonland creature you control.
 ## Combo 5686-7084-7893
 Cards: Beifong's Bounty Hunters + Shilgengar, Sire of Famine + Thranduil, Sindarin Liege // Silvan Rally
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite artifact tokens; Infinite Blood tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers
+Produces: Infinite creature tokens; Infinite artifact tokens; Infinite Blood tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers
 Start: Beifong's Bounty Hunters (battlefield); Shilgengar, Sire of Famine (battlefield); Thranduil, Sindarin Liege // Silvan Rally (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -5147,7 +4775,7 @@ Steps: Cast Spider-Byte by paying its mana cost.
 ## Combo 7084-7272-7892
 Cards: Beifong's Bounty Hunters + Reaper of Flight Moonsilver + Thranduil the Strategist
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Reaper of Flight Moonsilver (battlefield); Thranduil the Strategist (battlefield)
 Prerequisites: You control a land.
   You have at least four card types in your graveyard.
@@ -5164,7 +4792,7 @@ Steps: Activate Reaper of Flight Moonsilver by sacrificing another nonland creat
 ## Combo 7084-7272-7893
 Cards: Beifong's Bounty Hunters + Reaper of Flight Moonsilver + Thranduil, Sindarin Liege // Silvan Rally
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Reaper of Flight Moonsilver (battlefield); Thranduil, Sindarin Liege // Silvan Rally (battlefield)
 Prerequisites: You control a land.
   You have at least four card types in your graveyard.

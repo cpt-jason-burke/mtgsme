@@ -1,36 +1,3 @@
-## Combo 957-1517-4935
-Cards: The Mirari Conjecture + Conduit of Worlds + Time Stretch
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 1 | Commander: legal | Mana needed: {8}{U}{U} at most each turn
-Produces: Infinite turns; Lock
-Start: The Mirari Conjecture (battlefield: with two lore counters on it); Conduit of Worlds (battlefield); Time Stretch (hand)
-Steps: At the beginning of your precombat main phase. The Mirari Conjecture triggers, putting a lore counter on it. Its third chapter ability then triggers, copying instant and sorcery spells you cast this turn.
-  Cast Time Stretch by paying {8}{U}{U}.
-  The Mirari Conjecture triggers, copying Time Stretch.
-  Resolve both Time Stretches, causing you to get four extra turns after this one.
-  Move to your first extra turn.
-  Activate Conduit of Worlds by tapping it, targeting The Mirari Conjecture and causing you to pay {4}{U} to cast it from your graveyard.
-  The Mirari Conjecture enters with a lore counter on it, triggering its first chapter ability, returning an instant card from your graveyard to your hand.
-  Move to your second extra turn. At the beginning of your precombat main phase. The Mirari Conjecture triggers, putting a lore counter on it. Its second chapter ability then triggers, returning Time Stretch from your graveyard to your hand.
-  Move to your third extra turn and repeat from step 1.
-Notes: During the first extra turn, you will not be able to cast other spells, but you can during the remaining turns as desired.
-
-## Combo 957-1987-4423-4477
-Cards: Ghostly Flicker + Mystic Sanctuary + Time Stretch + Greenwarden of Murasa
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 3 | Commander: legal | Mana needed: {8}{U} at most each turn
-Produces: Infinite turns; Skip your draw steps; Lock
-Start: Ghostly Flicker (hand); Mystic Sanctuary (battlefield); Time Stretch (hand); Greenwarden of Murasa (battlefield)
-Prerequisites: You control at least four Islands.
-Steps: Activate Mystic Sanctuary by tapping it, adding {U}.
-  Cast Time Stretch by paying its mana cost, causing you to take two extra turns after this one.
-  Move to your first extra turn.
-  Activate Mystic Sanctuary by tapping it, adding {U}.
-  Cast Ghostly Flicker by paying {2}{U}, blinking Mystic Sanctuary and Greenwarden of Murasa.
-  When Greenwarden of Murasa and Mystic Sanctuary enter the battlefield, they trigger.
-  Resolve the Greenwarden of Murasa trigger, returning Ghostly Flicker from your graveyard to your hand.
-  Resolve the Mystic Sanctuary trigger, putting Time Stretch from your graveyard onto the top of your library.
-  Move to your next turn, drawing Time Stretch during your draw step.
-  Repeat.
-
 ## Combo 957-1987-4423-4823
 Cards: Ghostly Flicker + Mystic Sanctuary + Time Stretch + Timeless Witness
 Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 11 | Commander: legal | Mana needed: {8}{U} at most each turn
@@ -564,7 +531,7 @@ Steps: Activate Inga and Esika by tapping Gilder Bairn, producing its effect.
 
 ## Combo 971-3525-4312
 Cards: Vorel of the Hull Clade + Pemmin's Aura + Pentad Prism
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 88 | Commander: legal | Mana needed: {G}{U}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 89 | Commander: legal | Mana needed: {G}{U}
 Produces: Infinite colored mana
 Start: Vorel of the Hull Clade (battlefield); Pemmin's Aura (battlefield); Pentad Prism (battlefield)
 Prerequisites: Pemmin's Aura attached to Vorel.
@@ -600,7 +567,7 @@ Steps: Activate Elven Chorus by tapping Gilder Bairn, adding one mana.
 
 ## Combo 971-4213-4687
 Cards: Gilder Bairn + Pentad Prism + Hankyu
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
 Produces: Infinite colored mana; Infinite damage; Infinite proliferate for permanents
 Start: Gilder Bairn (battlefield); Pentad Prism (battlefield); Hankyu (battlefield: attached to Gilder Bairn)
 Prerequisites: Pentad Prism has at least four counters on it.
@@ -672,7 +639,7 @@ Steps: Activate Gilder Bairn using its ability from Utopia Vow by tapping it, ad
 
 ## Combo 971-4687-6006
 Cards: Gilder Bairn + Pentad Prism + Enduring Vitality
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
 Produces: Infinite colored mana; Infinite proliferate for permanents
 Start: Gilder Bairn (battlefield); Pentad Prism (battlefield); Enduring Vitality (battlefield)
 Prerequisites: Pentad Prism has at least four counters on it.
@@ -843,7 +810,7 @@ Notes: If the seven lands can tap to produce {5}{U}{U} or more, this combo will 
 ## Combo 983-1432-2645-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Temple of the False God + Ioreth of the Healing House
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Temple of the False God (battlefield); Ioreth of the Healing House (battlefield)
 Prerequisites: Ioreth of the Healing House doesn't have summoning sickness.
   You control at least five lands.
@@ -882,7 +849,7 @@ Steps: Activate Temple of the False God and Mystic Sanctuary by tapping them, ad
 ## Combo 983-1719-2645-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Temple of the False God + Vizier of Tumbling Sands
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Temple of the False God (battlefield); Vizier of Tumbling Sands (battlefield)
 Prerequisites: Vizier of Tumbling Sands doesn't have summoning sickness.
   You control at least five lands.
@@ -895,7 +862,7 @@ Steps: Activate Temple of the False God by tapping it, adding six {C} due to Nyx
 ## Combo 983-2085-2645-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Temple of the False God + Kelpie Guide
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Temple of the False God (battlefield); Kelpie Guide (battlefield)
 Prerequisites: Kelpie Guide doesn't have summoning sickness.
   You control at least five lands.
@@ -908,7 +875,7 @@ Steps: Activate Temple of the False God by tapping it, adding six {C} due to Nyx
 ## Combo 983-2645-2872-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Temple of the False God + Clever Conjurer
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Temple of the False God (battlefield); Clever Conjurer (battlefield)
 Prerequisites: Clever Conjurer doesn't have summoning sickness.
   You control at least five lands.
@@ -921,7 +888,7 @@ Steps: Activate Temple of the False God by tapping it, adding six {C} due to Nyx
 ## Combo 983-2645-3430-4644
 Cards: Staff of Domination + Nyxbloom Ancient + Temple of the False God + Tidewater Minion
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Temple of the False God (battlefield); Tidewater Minion (battlefield)
 Prerequisites: Tidewater Minion doesn't have summoning sickness.
   You control at least five lands.
@@ -934,7 +901,7 @@ Steps: Activate Temple of the False God by tapping it, adding six {C} due to Nyx
 ## Combo 983-2645-3430-5475
 Cards: Staff of Domination + Nyxbloom Ancient + Temple of the False God + Forensic Researcher
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Temple of the False God (battlefield); Forensic Researcher (battlefield)
 Prerequisites: Forensic Researcher doesn't have summoning sickness.
   You control at least five lands.
@@ -947,7 +914,7 @@ Steps: Activate Temple of the False God by tapping it, adding six {C} due to Nyx
 ## Combo 983-2645-3430-7014
 Cards: Staff of Domination + Nyxbloom Ancient + Temple of the False God + North Pole Patrol
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Temple of the False God (battlefield); North Pole Patrol (battlefield)
 Prerequisites: North Pole Patrol doesn't have summoning sickness.
   You control at least five lands.
@@ -959,7 +926,7 @@ Steps: Activate Temple of the False God by tapping it, adding six {C} due to Nyx
 
 ## Combo 985-1289-5078-5864
 Cards: Valley Floodcaller + Sensei's Divining Top + Birds of Paradise + Mystic Forge
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 88 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 89 | Commander: legal
 Produces: Infinite card draw; Near-infinite power and toughness for certain creatures until end of turn; Near-infinite untap of some creatures you control; Infinite draw triggers; Near-infinite storm count
 Start: Valley Floodcaller (battlefield); Sensei's Divining Top (battlefield, library); Birds of Paradise (battlefield); Mystic Forge (battlefield)
 Prerequisites: Birds of Paradise does not have summoning sickness.
@@ -1752,7 +1719,7 @@ Steps: Draw a card.
 
 ## Combo 1017-4052-4186
 Cards: Wizard Class + Kindred Discovery + Scurry Oak
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal
 Produces: Infinite card draw; Near-infinite creature tokens; Near-infinite +1/+1 counters on a creature; Infinite draw triggers; Near-infinite creature ETB
 Start: Wizard Class (battlefield); Kindred Discovery (battlefield); Scurry Oak (battlefield)
 Prerequisites: "Squirrel" chosen with Kindred Discovery.
@@ -1766,7 +1733,7 @@ Steps: Draw a card.
 
 ## Combo 1017-4186-7687
 Cards: Mister Fantastic, Reed Richards + Wizard Class + Scurry Oak
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 50 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 51 | Commander: legal
 Produces: Infinite card draw; Near-infinite creature tokens; Near-infinite +1/+1 counters on certain creatures; Infinite draw triggers; Near-infinite creature ETB
 Start: Mister Fantastic, Reed Richards (battlefield); Wizard Class (battlefield: is level 3); Scurry Oak (battlefield)
 Prerequisites: You have a way to draw a card.
@@ -2271,7 +2238,7 @@ Steps: Cast Temporal Manipulation by paying its mana cost, causing you to take a
 
 ## Combo 1018-2564-4231-4598
 Cards: Lonis, Cryptozoologist + Academy Manufactor + Skullwinder + Essence Flux
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 53 | Commander: legal | Mana needed: {U}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 52 | Commander: legal | Mana needed: {U}
 Produces: Infinite artifact tokens; Infinite Clue tokens; Infinite creature ETB; Infinite Food tokens; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count; Target opponent returns all cards in their graveyard to their hand
 Start: Lonis, Cryptozoologist (battlefield); Academy Manufactor (battlefield); Skullwinder (battlefield); Essence Flux (hand)
 Steps: Cast Essence Flux by paying {U}, blinking Skullwinder.
@@ -3224,7 +3191,7 @@ Notes: You can untap a creature using Tolarian Kraken's third trigger - although
 
 ## Combo 1029-5028-7908
 Cards: Arcanis the Omnipotent + Tolarian Kraken + The Notary Hobbits
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 2 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal
 Produces: Infinite card draw; Near-infinite mana creatures you control can produce; Near-infinite untap of creatures you control; Infinite draw triggers
 Start: Arcanis the Omnipotent (battlefield: without summoning sickness); Tolarian Kraken (battlefield); The Notary Hobbits (battlefield)
 Prerequisites: You control at least two Halflings.
@@ -4651,7 +4618,7 @@ Steps: Activate Harabaz Druid by tapping it, adding at least five mana of any co
 ## Combo 1129-7500
 Cards: Harabaz Druid + Ringing Strike Mastery
 Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal
-Produces: Infinite colored mana; Infinite mana creatures you control can produce; Infinite untap of creatures you control
+Produces: Infinite colored mana
 Start: Harabaz Druid (battlefield: without summoning sickness); Ringing Strike Mastery (battlefield: attached to Harabaz Druid)
 Prerequisites: You control at least six Allies.
 Steps: Activate Harabaz Druid by tapping it, adding at least six mana of any color
@@ -5942,7 +5909,7 @@ Steps: Cast Channel by paying {G}{G}.
 
 ## Combo 1174-1479-1659
 Cards: Kodama of the East Tree + Oboro Breezecaller + Seed the Land
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Oboro Breezecaller (battlefield); Seed the Land (battlefield)
 Prerequisites: You are able to play a land this turn.
@@ -6143,7 +6110,7 @@ Steps: Activate two lands by tapping them, adding at least {2}.
 
 ## Combo 1174-1479-6528
 Cards: Kodama of the East Tree + Oboro Breezecaller + Elfsworn Giant
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Oboro Breezecaller (battlefield); Elfsworn Giant (battlefield)
 Prerequisites: You are able to play a land this turn.
@@ -6685,7 +6652,7 @@ Steps: Activate Quicksilver Elemental twice by paying {U}{U}, causing it to gain
 
 ## Combo 1247-1912-2757
 Cards: Pili-Pala + Earthcraft + Biomancer's Familiar
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 85 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 88 | Commander: legal
 Produces: Infinite colored mana; Infinite untap of basic lands you control
 Start: Pili-Pala (battlefield); Earthcraft (battlefield); Biomancer's Familiar (battlefield)
 Prerequisites: You control at least one basic land.
@@ -6717,7 +6684,7 @@ Steps: Activate Pili-Pala by tapping it, adding {1}.
 
 ## Combo 1247-2757-4893
 Cards: Pili-Pala + Earthcraft + Training Grounds
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 83 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal
 Produces: Infinite colored mana; Infinite untap of basic lands you control
 Start: Pili-Pala (battlefield); Earthcraft (battlefield); Training Grounds (battlefield)
 Prerequisites: You control at least one basic land.
@@ -6749,7 +6716,7 @@ Steps: Activate Marvin using Arixmethes's ability by tapping it, adding {G}{U}
 
 ## Combo 1247-4289-4893
 Cards: Pili-Pala + Cryptolith Rite + Training Grounds
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 990 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 1000 | Commander: legal
 Produces: Infinite colored mana
 Start: Pili-Pala (battlefield); Cryptolith Rite (battlefield); Training Grounds (battlefield)
 Prerequisites: Pili-Pala does not have summoning sickness.
@@ -7036,7 +7003,7 @@ Steps: Activate the creature with Crab Umbra attached using Tolarian Academy's a
 
 ## Combo 1268-4188
 Cards: Crab Umbra + Accomplished Alchemist
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 43 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 44 | Commander: legal
 Produces: Infinite colored mana
 Start: Crab Umbra (battlefield: attached to Accomplished Alchemist); Accomplished Alchemist (battlefield: without summoning sickness)
 Prerequisites: You have gained at least 4 life this turn.
@@ -7067,7 +7034,7 @@ Steps: Activate Arbor Adherent by tapping it, adding at least {U}{U}{U}{U}.
 
 ## Combo 1268-7066
 Cards: Crab Umbra + The Legend of Kyoshi // Avatar Kyoshi
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 15 | Commander: legal
+Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 16 | Commander: legal
 Produces: Infinite colored mana
 Start: Crab Umbra (battlefield: attached to Avatar Kyoshi); The Legend of Kyoshi // Avatar Kyoshi (battlefield: without summoning sickness)
 Steps: Activate Avatar Kyoshi by tapping it, adding at least {U}{U}{U}{U}{U}.
@@ -7076,7 +7043,7 @@ Steps: Activate Avatar Kyoshi by tapping it, adding at least {U}{U}{U}{U}{U}.
 
 ## Combo 1268-7308
 Cards: Crab Umbra + Mona Lisa, Science Geek
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 52 | Commander: legal
+Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 54 | Commander: legal
 Produces: Infinite colored mana
 Start: Crab Umbra (battlefield: attached to Mona Lisa); Mona Lisa, Science Geek (battlefield: without summoning sickness and with power 4 or greater)
 Steps: Activate Mona Lisa by tapping it, adding at least {U}{U}{U}{U}
@@ -7441,7 +7408,7 @@ Steps: Activate Birds of Paradise by tapping it, adding {1}.
 
 ## Combo 1289-1661-5078-5864
 Cards: Valley Floodcaller + Sensei's Divining Top + Birds of Paradise + Magus of the Future
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
 Produces: Infinite card draw; Near-infinite power and toughness for certain creatures until end of turn; Near-infinite untap of some creatures you control; Infinite draw triggers; Near-infinite storm count
 Start: Valley Floodcaller (battlefield); Sensei's Divining Top (battlefield, library); Birds of Paradise (battlefield); Magus of the Future (battlefield)
 Prerequisites: Birds of Paradise does not have summoning sickness.
@@ -7453,7 +7420,7 @@ Steps: Activate Birds of Paradise by tapping it, adding {1}.
 
 ## Combo 1289-4311-5078-5864
 Cards: Valley Floodcaller + Sensei's Divining Top + Birds of Paradise + Future Sight
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal
 Produces: Infinite card draw; Near-infinite power and toughness for certain creatures until end of turn; Near-infinite untap of some creatures you control; Infinite draw triggers; Near-infinite storm count
 Start: Valley Floodcaller (battlefield); Sensei's Divining Top (battlefield, library); Birds of Paradise (battlefield); Future Sight (battlefield)
 Prerequisites: Birds of Paradise does not have summoning sickness.
@@ -7820,7 +7787,7 @@ Steps: Cast a creature card from your hand by paying its mana cost.
 ## Combo 1300-2645-4387-4992
 Cards: Weaver of Harmony + Staff of Domination + Carpet of Flowers + Stormtide Leviathan
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {G}
-Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Tap all creatures opponents control; Infinite draw triggers; Infinite untap of creatures you control
 Start: Weaver of Harmony (battlefield); Staff of Domination (battlefield); Carpet of Flowers (battlefield); Stormtide Leviathan (battlefield)
 Prerequisites: Weaver of Harmony does not have summoning sickness.
   An opponent controls at least six lands.
@@ -8101,7 +8068,7 @@ Steps: Activate up to five lands by tapping them, adding at least {2}{G}{U}.
 
 ## Combo 1309-5352
 Cards: Doppelgang + Salvager of Secrets
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 93 | Commander: legal | Mana needed: {15}{G}{U}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 94 | Commander: legal | Mana needed: {15}{G}{U}
 Produces: Infinite creature tokens; Infinite copies of all permanents; Infinite mana permanents you control can produce; Infinite creature ETB; Infinite storm count; Infinite magecraft triggers; Infinite landfall triggers; Return all instant and sorcery cards from your graveyard to your hand
 Start: Doppelgang (hand); Salvager of Secrets (battlefield)
 Prerequisites: There are four permanents on the battlefield that can collectively tap to produce at least {2}{G}{U}.
@@ -8176,7 +8143,7 @@ Steps: Play Dryad Arbor.
 
 ## Combo 1315-5531-6621-8345
 Cards: Lumra, Bellow of the Woods + Mirrorpool + Zuran Orb + Warp Speed
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal
 Produces: Infinite lifegain; Infinite mana lands you control can produce; Infinite self-mill; Infinite lifegain triggers; Put all land cards from your library and graveyard onto the battlefield; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers
 Start: Lumra, Bellow of the Woods (battlefield); Mirrorpool (battlefield); Zuran Orb (battlefield); Warp Speed (battlefield)
 Prerequisites: Other lands you control can tap to produce at least {4}{C}.
@@ -9874,7 +9841,7 @@ Steps: Activate Marvin using Heronblade Elite's ability by tapping it, adding at
 
 ## Combo 1336-5090
 Cards: Heronblade Elite + Singing Bell Strike
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 10 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 11 | Commander: legal
 Produces: Infinite colored mana
 Start: Heronblade Elite (battlefield: untapped); Singing Bell Strike (battlefield)
 Prerequisites: Singing Bell Strike attached to Heronblade Elite.
@@ -9907,7 +9874,7 @@ Steps: Activate Heronblade Elite by tapping it, adding at least five mana of any
 ## Combo 1336-7500
 Cards: Heronblade Elite + Ringing Strike Mastery
 Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 13 | Commander: legal
-Produces: Infinite colored mana; Infinite mana creatures you control can produce; Infinite untap of creatures you control
+Produces: Infinite colored mana
 Start: Heronblade Elite (battlefield: without summoning sickness and with power 6 or greater); Ringing Strike Mastery (battlefield: attached to Heronblade Elite)
 Steps: Activate Heronblade Elite by tapping it, adding at least six mana of any color
   Activate Ringing Strike Mastery by paying {5}, untapping Heronblade Elite.
@@ -10151,7 +10118,7 @@ Steps: Activate Sanctum Weaver by tapping it, adding at least five mana of any c
 ## Combo 1355-7500
 Cards: Sanctum Weaver + Ringing Strike Mastery
 Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 90 | Commander: legal
-Produces: Infinite colored mana; Infinite mana creatures you control can produce; Infinite untap of creatures you control
+Produces: Infinite colored mana
 Start: Sanctum Weaver (battlefield: without summoning sickness); Ringing Strike Mastery (battlefield: attached to Sanctum Weaver)
 Prerequisites: You control at least six enchantments.
 Steps: Activate Sanctum Weaver by tapping it, adding at least six mana of any color
@@ -10326,7 +10293,7 @@ Steps: Play Oboro, Palace in the Clouds.
 
 ## Combo 1362-1479-3875
 Cards: Kodama of the East Tree + Tireless Provisioner + Oboro, Palace in the Clouds
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 4500 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 4600 | Commander: legal
 Produces: Infinite Treasure tokens; Infinite colored mana; Infinite lifegain; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite Food tokens; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Tireless Provisioner (battlefield); Oboro, Palace in the Clouds (hand)
 Steps: Play Oboro, Palace in the Clouds.
@@ -10390,7 +10357,7 @@ Steps: Create a nonlegendary copy of Kodama of the East Tree using Irenicus's Vi
 
 ## Combo 1362-1479-4677
 Cards: Kodama of the East Tree + Oboro, Palace in the Clouds + Zendikar's Roil
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 950 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 960 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Oboro, Palace in the Clouds (hand); Zendikar's Roil (battlefield)
 Steps: Play Oboro, Palace in the Clouds.
@@ -10530,7 +10497,7 @@ Steps: Play Oboro, Palace in the Clouds.
 
 ## Combo 1362-1479-7889
 Cards: Kodama of the East Tree + Oboro, Palace in the Clouds + Dancing from Dark to Dawn
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 75 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 76 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Oboro, Palace in the Clouds (hand); Dancing from Dark to Dawn (battlefield)
 Steps: Play Oboro, Palace in the Clouds.
@@ -12799,7 +12766,7 @@ Steps: Activate Deadeye Navigator by tapping it, adding {U}.
 
 ## Combo 1409-3099-4289-5295
 Cards: Deadeye Navigator + Leyline of Abundance + Cryptolith Rite + Thousand-Year Elixir
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB
 Start: Deadeye Navigator (battlefield: is paired with another creature); Leyline of Abundance (battlefield); Cryptolith Rite (battlefield); Thousand-Year Elixir (battlefield)
 Steps: Activate Deadeye Navigator by tapping it, adding {U}.
@@ -12810,7 +12777,7 @@ Steps: Activate Deadeye Navigator by tapping it, adding {U}.
 
 ## Combo 1409-3099-4289-7730
 Cards: Deadeye Navigator + Leyline of Abundance + Cryptolith Rite + Shang-Chi, Master of Kung Fu
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB
 Start: Deadeye Navigator (battlefield: is paired with another creature); Leyline of Abundance (battlefield); Cryptolith Rite (battlefield); Shang-Chi, Master of Kung Fu (battlefield)
 Steps: Activate Deadeye Navigator by tapping it, adding {U}.
@@ -12821,7 +12788,7 @@ Steps: Activate Deadeye Navigator by tapping it, adding {U}.
 
 ## Combo 1409-3099-5295-6006
 Cards: Deadeye Navigator + Leyline of Abundance + Thousand-Year Elixir + Enduring Vitality
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB
 Start: Deadeye Navigator (battlefield: is paired with another creature); Leyline of Abundance (battlefield); Thousand-Year Elixir (battlefield); Enduring Vitality (battlefield)
 Steps: Activate Deadeye Navigator by tapping it, adding {U}.
@@ -12843,7 +12810,7 @@ Steps: Activate Deadeye Navigator by tapping it, adding {U}.
 
 ## Combo 1409-3099-6006-7730
 Cards: Deadeye Navigator + Leyline of Abundance + Enduring Vitality + Shang-Chi, Master of Kung Fu
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 70 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 71 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB
 Start: Deadeye Navigator (battlefield: is paired with another creature); Leyline of Abundance (battlefield); Enduring Vitality (battlefield); Shang-Chi, Master of Kung Fu (battlefield)
 Steps: Activate Deadeye Navigator by tapping it, adding {U}.
@@ -13052,7 +13019,7 @@ Steps: Activate Prosperous Innkeeper by paying {1}{U}, blinking it.
 
 ## Combo 1409-4716-5921
 Cards: Deadeye Navigator + Prosperous Innkeeper + Mirror Room // Fractured Realm
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal | Mana needed: {1}{U}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 40 | Commander: legal | Mana needed: {1}{U}
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB
 Start: Deadeye Navigator (battlefield: is paired with Prosperous Innkeeper); Prosperous Innkeeper (battlefield); Mirror Room // Fractured Realm (battlefield)
 Prerequisites: Fractured Realm is unlocked.
@@ -13516,7 +13483,7 @@ Steps: Cast Mirror Image by paying {0}, choosing to have it enter the battlefiel
 
 ## Combo 1432-1434-3388
 Cards: Moritte of the Frost + Ioreth of the Healing House + Mirror Box
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal
 Produces: Infinite mana legendary creatures you control can produce; Infinite untap of legendary creatures you control
 Start: Moritte of the Frost (battlefield: as a copy of Ioreth of the Healing House); Ioreth of the Healing House (battlefield); Mirror Box (battlefield)
 Prerequisites: All permanents do not have summoning sickness.
@@ -13529,7 +13496,7 @@ Steps: Activate Moritte's second ability by tapping it, untapping Ioreth and ano
 ## Combo 1432-1556-2645-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Ioreth of the Healing House + Scorched Ruins
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Ioreth of the Healing House (battlefield); Scorched Ruins (battlefield)
 Prerequisites: Ioreth of the Healing House doesn't have summoning sickness.
 Steps: Activate Scorched Ruins by tapping it, adding twelve {C} due to Nyxbloom Ancient.
@@ -13552,7 +13519,7 @@ Steps: Activate Arixmethes by tapping it, adding {G}{U}.
 ## Combo 1432-1671-2645-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Ioreth of the Healing House + Simic Growth Chamber
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite blue mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Ioreth of the Healing House (battlefield); Simic Growth Chamber (battlefield)
 Prerequisites: Ioreth of the Healing House doesn't have summoning sickness.
 Steps: Activate Simic Growth Chamber by tapping it, adding {G}{G}{G}{U}{U}{U} due to Nyxbloom Ancient
@@ -13610,7 +13577,7 @@ Steps: Activate Marwyn by tapping it, adding at least {G}{G}.
 ## Combo 1432-2645-3230-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Ioreth of the Healing House + Coral Atoll
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite blue mana; Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Ioreth of the Healing House (battlefield); Coral Atoll (battlefield)
 Prerequisites: Ioreth of the Healing House doesn't have summoning sickness.
 Steps: Activate Coral Atoll by tapping it, adding {C}{C}{C}{U}{U}{U} due to Nyxbloom Ancient
@@ -13622,7 +13589,7 @@ Steps: Activate Coral Atoll by tapping it, adding {C}{C}{C}{U}{U}{U} due to Nyxb
 ## Combo 1432-2645-3430-3664
 Cards: Staff of Domination + Nyxbloom Ancient + Ioreth of the Healing House + Lotus Field
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal
-Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Ioreth of the Healing House (battlefield); Lotus Field (battlefield)
 Prerequisites: Ioreth of the Healing House doesn't have summoning sickness.
 Steps: Activate Lotus Field by tapping it, adding nine mana of any color due to Nyxbloom Ancient
@@ -13634,7 +13601,7 @@ Steps: Activate Lotus Field by tapping it, adding nine mana of any color due to 
 ## Combo 1432-2645-3430-4717
 Cards: Staff of Domination + Nyxbloom Ancient + Ioreth of the Healing House + City of Traitors
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Ioreth of the Healing House (battlefield); City of Traitors (battlefield)
 Prerequisites: Ioreth of the Healing House doesn't have summoning sickness.
 Steps: Activate City of Traitors by tapping it, adding six {C} due to Nyxbloom Ancient.
@@ -13646,7 +13613,7 @@ Steps: Activate City of Traitors by tapping it, adding six {C} due to Nyxbloom A
 ## Combo 1432-2645-3430-5621
 Cards: Staff of Domination + Nyxbloom Ancient + Ioreth of the Healing House + Arid Archway
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Ioreth of the Healing House (battlefield); Arid Archway (battlefield)
 Prerequisites: Ioreth of the Healing House doesn't have summoning sickness.
 Steps: Activate Arid Archway by tapping it, adding six {C} due to Nyxbloom Ancient.
@@ -13658,7 +13625,7 @@ Steps: Activate Arid Archway by tapping it, adding six {C} due to Nyxbloom Ancie
 ## Combo 1432-2645-3430-6256
 Cards: Staff of Domination + Nyxbloom Ancient + Ioreth of the Healing House + Muraganda Raceway
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Ioreth of the Healing House (battlefield); Muraganda Raceway (battlefield)
 Prerequisites: Ioreth of the Healing House doesn't have summoning sickness.
   You have max speed.
@@ -13671,7 +13638,7 @@ Steps: Activate Muraganda Raceway by tapping it, adding six {C} due to Nyxbloom 
 ## Combo 1432-2645-3430-7069
 Cards: Staff of Domination + Nyxbloom Ancient + Ioreth of the Healing House + Tectonic Split
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Ioreth of the Healing House (battlefield); Tectonic Split (battlefield)
 Prerequisites: You control an untapped land.
   Ioreth of the Healing House doesn't have summoning sickness.
@@ -13683,7 +13650,7 @@ Steps: Activate a land by using the land granted to it by Tectonic Split by tapp
 
 ## Combo 1432-2661-4513
 Cards: Gwenna, Eyes of Gaea + Ioreth of the Healing House + Saryth, the Viper's Fang
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 180 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 170 | Commander: legal
 Produces: Infinite mana legendary creatures you control can produce; Infinite untap of legendary creatures you control
 Start: Gwenna, Eyes of Gaea (battlefield); Ioreth of the Healing House (battlefield); Saryth, the Viper's Fang (battlefield)
 Prerequisites: All permanents do not have summoning sickness.
@@ -14046,7 +14013,7 @@ Steps: Cast Glasspool Mimic by paying {0}, choosing to have it enter the battlef
 
 ## Combo 1437-1892
 Cards: Myojin of Cryptic Dreams + Contagious Vorrac
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 69 | Commander: legal | Mana needed: {2}{G}
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 70 | Commander: legal | Mana needed: {2}{G}
 Produces: Infinite creature tokens; Infinite copies of permanent spells you control; Infinite proliferate; Infinite creature ETB
 Start: Myojin of Cryptic Dreams (battlefield); Contagious Vorrac (hand)
 Prerequisites: Myojin of Cryptic Dreams has at least two indestructible counters on it.
@@ -14059,7 +14026,7 @@ Notes: This combo results in infinite copies of the Contagious Vorrac spell on t
 
 ## Combo 1437-2743
 Cards: Myojin of Cryptic Dreams + Biovisionary
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 210 | Commander: legal | Mana needed: {1}{G}{U}
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 220 | Commander: legal | Mana needed: {1}{G}{U}
 Produces: Win the game
 Start: Myojin of Cryptic Dreams (battlefield); Biovisionary (hand)
 Prerequisites: Myojin of Cryptic Dreams has at least one indestructible counter on it.
@@ -14227,10 +14194,10 @@ Steps: Activate Ashnod's Altar by sacrificing a creature with a +1/+1 counter on
   Repeat from step 1.
 
 ## Combo 1453-2829-4694-7306
-Cards: The Ooze + Arcbound Ravager + Arwen, Weaver of Hope + March of the Machines
+Cards: The Ooze + Arwen, Weaver of Hope + Arcbound Ravager + March of the Machines
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite artifact tokens; Infinite Mutagen tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Arcbound Ravager (battlefield); Arwen, Weaver of Hope (battlefield); March of the Machines (battlefield)
+Start: The Ooze (battlefield); Arwen, Weaver of Hope (battlefield); Arcbound Ravager (battlefield); March of the Machines (battlefield)
 Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Arcbound Ravager by sacrificing a creature with a +1/+1 counter on it.
   When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
@@ -15074,7 +15041,7 @@ Steps: Activate Extruder by sacrificing another artifact.
 
 ## Combo 1479-1659-1671
 Cards: Kodama of the East Tree + Seed the Land + Simic Growth Chamber
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 73 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 74 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Seed the Land (battlefield); Simic Growth Chamber (hand)
 Prerequisites: You are able to play a land this turn.
@@ -15797,7 +15764,7 @@ Steps: Fetch a land using Terramorphic Expanse.
 
 ## Combo 1479-2841-3897-7893
 Cards: Kodama of the East Tree + Ghost Town + Terramorphic Expanse + Thranduil, Sindarin Liege // Silvan Rally
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Ghost Town (hand); Terramorphic Expanse (battlefield); Thranduil, Sindarin Liege // Silvan Rally (battlefield)
 Prerequisites: It is not your turn.
@@ -16245,7 +16212,7 @@ Steps: Fetch a land using Wooded Foothills.
 
 ## Combo 1479-2841-7893-8102
 Cards: Kodama of the East Tree + Ghost Town + Thranduil, Sindarin Liege // Silvan Rally + Windswept Heath
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Ghost Town (hand); Thranduil, Sindarin Liege // Silvan Rally (battlefield); Windswept Heath (battlefield)
 Prerequisites: It is not your turn.
@@ -16561,7 +16528,7 @@ Steps: Play Arid Archway.
 
 ## Combo 1479-4300
 Cards: Kodama of the East Tree + Meloku the Clouded Mirror
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 7900 | Commander: legal | Mana needed: {1}
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 8000 | Commander: legal | Mana needed: {1}
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Kodama of the East Tree (battlefield); Meloku the Clouded Mirror (battlefield)
 Prerequisites: You control a land that enters the battlefield untapped.
@@ -18870,7 +18837,7 @@ Steps: Activate Vorel of the Hull Clade by paying {G}{U} and tapping it, doublin
 ## Combo 1556-1719-2645-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Scorched Ruins + Vizier of Tumbling Sands
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Scorched Ruins (battlefield); Vizier of Tumbling Sands (battlefield)
 Prerequisites: Vizier of Tumbling Sands doesn't have summoning sickness.
 Steps: Activate Scorched Ruins by tapping it, adding twelve {C} due to Nyxbloom Ancient.
@@ -18882,7 +18849,7 @@ Steps: Activate Scorched Ruins by tapping it, adding twelve {C} due to Nyxbloom 
 ## Combo 1556-2085-2645-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Scorched Ruins + Kelpie Guide
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Scorched Ruins (battlefield); Kelpie Guide (battlefield)
 Prerequisites: Kelpie Guide doesn't have summoning sickness.
 Steps: Activate Scorched Ruins by tapping it, adding twelve {C} due to Nyxbloom Ancient.
@@ -18894,7 +18861,7 @@ Steps: Activate Scorched Ruins by tapping it, adding twelve {C} due to Nyxbloom 
 ## Combo 1556-2645-2872-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Scorched Ruins + Clever Conjurer
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Scorched Ruins (battlefield); Clever Conjurer (battlefield)
 Prerequisites: Clever Conjurer doesn't have summoning sickness.
 Steps: Activate Scorched Ruins by tapping it, adding twelve {C} due to Nyxbloom Ancient.
@@ -18906,7 +18873,7 @@ Steps: Activate Scorched Ruins by tapping it, adding twelve {C} due to Nyxbloom 
 ## Combo 1556-2645-3430-4644
 Cards: Staff of Domination + Nyxbloom Ancient + Scorched Ruins + Tidewater Minion
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Scorched Ruins (battlefield); Tidewater Minion (battlefield)
 Prerequisites: Tidewater Minion doesn't have summoning sickness.
 Steps: Activate Scorched Ruins by tapping it, adding twelve {C} due to Nyxbloom Ancient.
@@ -18918,7 +18885,7 @@ Steps: Activate Scorched Ruins by tapping it, adding twelve {C} due to Nyxbloom 
 ## Combo 1556-2645-3430-5475
 Cards: Staff of Domination + Nyxbloom Ancient + Scorched Ruins + Forensic Researcher
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Scorched Ruins (battlefield); Forensic Researcher (battlefield)
 Prerequisites: Forensic Researcher doesn't have summoning sickness.
 Steps: Activate Scorched Ruins by tapping it, adding twelve {C} due to Nyxbloom Ancient.
@@ -18930,7 +18897,7 @@ Steps: Activate Scorched Ruins by tapping it, adding twelve {C} due to Nyxbloom 
 ## Combo 1556-2645-3430-7014
 Cards: Staff of Domination + Nyxbloom Ancient + Scorched Ruins + North Pole Patrol
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Scorched Ruins (battlefield); North Pole Patrol (battlefield)
 Prerequisites: North Pole Patrol doesn't have summoning sickness.
 Steps: Activate Scorched Ruins by tapping it, adding twelve {C} due to Nyxbloom Ancient.
@@ -20775,7 +20742,7 @@ Steps: Play Glacial Chasm either from your hand or from your graveyard.
 
 ## Combo 1637-3946-4935
 Cards: Glacial Chasm + Aesi, Tyrant of Gyre Strait + Conduit of Worlds
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 3300 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 3400 | Commander: legal
 Produces: Prevent all damage that would be dealt to you; Lock
 Start: Glacial Chasm (battlefield); Aesi, Tyrant of Gyre Strait (battlefield); Conduit of Worlds (battlefield)
 Prerequisites: You control another land.
@@ -20799,7 +20766,7 @@ Steps: Play Glacial Chasm either from your hand or from your graveyard.
 
 ## Combo 1637-3946-7705
 Cards: Glacial Chasm + Aesi, Tyrant of Gyre Strait + Mole Man, Moloid Master
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 670 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 680 | Commander: legal
 Produces: Lock; Prevent all damage that would be dealt to you
 Start: Glacial Chasm (battlefield); Aesi, Tyrant of Gyre Strait (battlefield); Mole Man, Moloid Master (battlefield)
 Prerequisites: You control another land.
@@ -20928,7 +20895,7 @@ Steps: Cast Doppelgang by paying {12}{G}{U}, creating four token copies of Mysti
 
 ## Combo 1644-1987-2404-4423
 Cards: Tatyova, Benthic Druid + Ghostly Flicker + Mystic Sanctuary + Gaea's Cradle
-Color identity: GU | Bracket: 3+ (Powerful) | Popularity: 350 | Commander: legal
+Color identity: GU | Bracket: 3+ (Powerful) | Popularity: 340 | Commander: legal
 Produces: Infinite card draw; Near-infinite lifegain; Near-infinite mana lands you control can produce; Near-infinite lifegain triggers; Infinite draw triggers; Near-infinite landfall triggers; Near-infinite magecraft triggers; Near-infinite storm count
 Start: Tatyova, Benthic Druid (battlefield); Ghostly Flicker (hand); Mystic Sanctuary (battlefield); Gaea's Cradle (battlefield)
 Prerequisites: You control at least three other Islands.
@@ -21639,7 +21606,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 ## Combo 1671-1719-2645-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Simic Growth Chamber + Vizier of Tumbling Sands
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite blue mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Simic Growth Chamber (battlefield); Vizier of Tumbling Sands (battlefield)
 Prerequisites: Vizier of Tumbling Sands doesn't have summoning sickness.
 Steps: Activate Simic Growth Chamber by tapping it, adding {G}{G}{G}{U}{U}{U} due to Nyxbloom Ancient
@@ -21650,7 +21617,7 @@ Steps: Activate Simic Growth Chamber by tapping it, adding {G}{G}{G}{U}{U}{U} du
 
 ## Combo 1671-1719-3525
 Cards: Pemmin's Aura + Vizier of Tumbling Sands + Simic Growth Chamber
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 870 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 880 | Commander: legal
 Produces: Infinite green mana; Infinite mana permanents you control can produce; Infinite untap of permanents you control
 Start: Pemmin's Aura (battlefield); Vizier of Tumbling Sands (battlefield); Simic Growth Chamber (battlefield)
 Prerequisites: Vizier of Tumbling Sands does not have summoning sickness.
@@ -21699,7 +21666,7 @@ Steps: Activate Budoka Gardener // Dokai, Weaver of Life by tapping it, putting 
 ## Combo 1671-2026-2645-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Simic Growth Chamber + Voyaging Satyr
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite blue mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Simic Growth Chamber (battlefield); Voyaging Satyr (battlefield)
 Prerequisites: Voyaging Satyr doesn't have summoning sickness.
 Steps: Activate Simic Growth Chamber by tapping it, adding {G}{G}{G}{U}{U}{U} due to Nyxbloom Ancient
@@ -21735,7 +21702,7 @@ Steps: Activate Simic Growth Chamber by tapping it, adding {U}{G}.
 ## Combo 1671-2085-2645-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Simic Growth Chamber + Kelpie Guide
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite blue mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Simic Growth Chamber (battlefield); Kelpie Guide (battlefield)
 Prerequisites: Kelpie Guide doesn't have summoning sickness.
 Steps: Activate Simic Growth Chamber by tapping it, adding {G}{G}{G}{U}{U}{U} due to Nyxbloom Ancient
@@ -21747,7 +21714,7 @@ Steps: Activate Simic Growth Chamber by tapping it, adding {G}{G}{G}{U}{U}{U} du
 ## Combo 1671-2174-2645-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Simic Growth Chamber + Juniper Order Druid
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite blue mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Simic Growth Chamber (battlefield); Juniper Order Druid (battlefield)
 Prerequisites: Juniper Order Druid doesn't have summoning sickness.
 Steps: Activate Simic Growth Chamber by tapping it, adding {G}{G}{G}{U}{U}{U} due to Nyxbloom Ancient
@@ -21798,7 +21765,7 @@ Steps: Activate Simic Growth Chamber and another land by tapping them, adding at
 
 ## Combo 1671-2248-7857
 Cards: Simic Growth Chamber + Skyshroud Ranger + Elven Raft-Steerer
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 600 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 610 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Simic Growth Chamber (hand); Skyshroud Ranger (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Steps: Activate Skyshroud Ranger by tapping it, putting Simic Growth Chamber from your hand onto the battlefield.
@@ -21810,7 +21777,7 @@ Steps: Activate Skyshroud Ranger by tapping it, putting Simic Growth Chamber fro
 ## Combo 1671-2645-2872-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Simic Growth Chamber + Clever Conjurer
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite blue mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Simic Growth Chamber (battlefield); Clever Conjurer (battlefield)
 Prerequisites: Clever Conjurer doesn't have summoning sickness.
 Steps: Activate Simic Growth Chamber by tapping it, adding {G}{G}{G}{U}{U}{U} due to Nyxbloom Ancient
@@ -21822,7 +21789,7 @@ Steps: Activate Simic Growth Chamber by tapping it, adding {G}{G}{G}{U}{U}{U} du
 ## Combo 1671-2645-2930-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Simic Growth Chamber + Portent Tracker
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite blue mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Simic Growth Chamber (battlefield); Portent Tracker (battlefield)
 Prerequisites: Portent Tracker doesn't have summoning sickness.
 Steps: Activate Simic Growth Chamber by tapping it, adding {G}{G}{G}{U}{U}{U} due to Nyxbloom Ancient
@@ -21834,7 +21801,7 @@ Steps: Activate Simic Growth Chamber by tapping it, adding {G}{G}{G}{U}{U}{U} du
 ## Combo 1671-2645-3181-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Simic Growth Chamber + Krosan Restorer
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite blue mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Simic Growth Chamber (battlefield); Krosan Restorer (battlefield)
 Prerequisites: Krosan Restorer doesn't have summoning sickness.
 Steps: Activate Simic Growth Chamber by tapping it, adding {G}{G}{G}{U}{U}{U} due to Nyxbloom Ancient
@@ -21846,7 +21813,7 @@ Steps: Activate Simic Growth Chamber by tapping it, adding {G}{G}{G}{U}{U}{U} du
 ## Combo 1671-2645-3430-4348
 Cards: Staff of Domination + Nyxbloom Ancient + Simic Growth Chamber + Ley Druid
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite blue mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Simic Growth Chamber (battlefield); Ley Druid (battlefield)
 Prerequisites: Ley Druid doesn't have summoning sickness.
 Steps: Activate Simic Growth Chamber by tapping it, adding {G}{G}{G}{U}{U}{U} due to Nyxbloom Ancient
@@ -21858,7 +21825,7 @@ Steps: Activate Simic Growth Chamber by tapping it, adding {G}{G}{G}{U}{U}{U} du
 ## Combo 1671-2645-3430-4644
 Cards: Staff of Domination + Nyxbloom Ancient + Simic Growth Chamber + Tidewater Minion
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite blue mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Simic Growth Chamber (battlefield); Tidewater Minion (battlefield)
 Prerequisites: Tidewater Minion doesn't have summoning sickness.
 Steps: Activate Simic Growth Chamber by tapping it, adding {G}{G}{G}{U}{U}{U} due to Nyxbloom Ancient
@@ -21870,7 +21837,7 @@ Steps: Activate Simic Growth Chamber by tapping it, adding {G}{G}{G}{U}{U}{U} du
 ## Combo 1671-2645-3430-5475
 Cards: Staff of Domination + Nyxbloom Ancient + Simic Growth Chamber + Forensic Researcher
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite blue mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Simic Growth Chamber (battlefield); Forensic Researcher (battlefield)
 Prerequisites: Forensic Researcher doesn't have summoning sickness.
 Steps: Activate Simic Growth Chamber by tapping it, adding {G}{G}{G}{U}{U}{U} due to Nyxbloom Ancient
@@ -21882,7 +21849,7 @@ Steps: Activate Simic Growth Chamber by tapping it, adding {G}{G}{G}{U}{U}{U} du
 ## Combo 1671-2645-3430-7014
 Cards: Staff of Domination + Nyxbloom Ancient + Simic Growth Chamber + North Pole Patrol
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite blue mana; Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Simic Growth Chamber (battlefield); North Pole Patrol (battlefield)
 Prerequisites: North Pole Patrol doesn't have summoning sickness.
 Steps: Activate Simic Growth Chamber by tapping it, adding {G}{G}{G}{U}{U}{U} due to Nyxbloom Ancient
@@ -21908,7 +21875,7 @@ Steps: Cast Animate Land by paying {G}, causing Simic Growth Chamber to become a
 
 ## Combo 1671-3177-7857
 Cards: Simic Growth Chamber + Sakura-Tribe Scout + Elven Raft-Steerer
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 860 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 870 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Simic Growth Chamber (hand); Sakura-Tribe Scout (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Steps: Activate Sakura-Tribe Scout by tapping it, putting Simic Growth Chamber from your hand onto the battlefield.
@@ -21919,7 +21886,7 @@ Steps: Activate Sakura-Tribe Scout by tapping it, putting Simic Growth Chamber f
 
 ## Combo 1671-3525-3932
 Cards: Pemmin's Aura + Hope Tender + Simic Growth Chamber
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 69 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 70 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite green mana; Infinite blue mana; Infinite untap of lands you control
 Start: Pemmin's Aura (battlefield); Hope Tender (battlefield); Simic Growth Chamber (battlefield)
 Prerequisites: Hope Tender does not have summoning sickness.
@@ -21970,7 +21937,7 @@ Notes: You can remove as many +1/+1 counters from Mossborn Hydra to then place c
 
 ## Combo 1671-3932-4222
 Cards: Freed from the Real + Hope Tender + Simic Growth Chamber
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 83 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 84 | Commander: legal
 Produces: Infinite green mana
 Start: Freed from the Real (battlefield); Hope Tender (battlefield); Simic Growth Chamber (battlefield)
 Prerequisites: Hope Tender does not have summoning sickness.
@@ -22034,7 +22001,7 @@ Steps: Play Simic Growth Chamber. When it enters untapped due to Horizon Explore
 
 ## Combo 1671-4572-5702-8345
 Cards: Springheart Nantuko + Simic Growth Chamber + Dryad of the Ilysian Grove + Warp Speed
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 23 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad of the Ilysian Grove); Simic Growth Chamber (hand); Dryad of the Ilysian Grove (battlefield); Warp Speed (battlefield)
 Prerequisites: You are able to play a land this turn
@@ -22060,7 +22027,7 @@ Steps: Play Simic Growth Chamber. When it enters untapped due to Spelunking, Sim
 
 ## Combo 1671-5449-5702-6763
 Cards: Springheart Nantuko + Simic Growth Chamber + Oracle of Mul Daya + Horizon Explorer
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 680 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 690 | Commander: legal
 Produces: Infinite creature tokens; Infinite landfall triggers; Infinite creature ETB
 Start: Springheart Nantuko (battlefield: attached to Oracle of Mul Daya); Simic Growth Chamber (hand); Oracle of Mul Daya (battlefield); Horizon Explorer (battlefield)
 Prerequisites: You are able to play a land this turn
@@ -22073,7 +22040,7 @@ Steps: Play Simic Growth Chamber. When it enters untapped due to Horizon Explore
 
 ## Combo 1671-5449-5702-8345
 Cards: Springheart Nantuko + Simic Growth Chamber + Oracle of Mul Daya + Warp Speed
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Oracle of Mul Daya); Simic Growth Chamber (hand); Oracle of Mul Daya (battlefield); Warp Speed (battlefield)
 Prerequisites: You are able to play a land this turn
@@ -22179,7 +22146,7 @@ Steps: Play Simic Growth Chamber. When it enters untapped due to Horizon Explore
 
 ## Combo 1671-5702-6850-8345
 Cards: Springheart Nantuko + Simic Growth Chamber + Icetill Explorer + Warp Speed
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 33 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
 Produces: Infinite self-mill; Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Icetill Explorer); Simic Growth Chamber (hand); Icetill Explorer (battlefield); Warp Speed (battlefield)
 Prerequisites: You are able to play a land this turn
@@ -22580,7 +22547,7 @@ Steps: Activate a mana-producing permanent by tapping it, adding at least {1}.
 ## Combo 1719-2645-3230-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Vizier of Tumbling Sands + Coral Atoll
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite blue mana; Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Vizier of Tumbling Sands (battlefield); Coral Atoll (battlefield)
 Prerequisites: Vizier of Tumbling Sands doesn't have summoning sickness.
 Steps: Activate Coral Atoll by tapping it, adding {C}{C}{C}{U}{U}{U} due to Nyxbloom Ancient
@@ -22592,7 +22559,7 @@ Steps: Activate Coral Atoll by tapping it, adding {C}{C}{C}{U}{U}{U} due to Nyxb
 ## Combo 1719-2645-3430-3664
 Cards: Staff of Domination + Nyxbloom Ancient + Vizier of Tumbling Sands + Lotus Field
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal
-Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Vizier of Tumbling Sands (battlefield); Lotus Field (battlefield)
 Prerequisites: Vizier of Tumbling Sands doesn't have summoning sickness.
 Steps: Activate Lotus Field by tapping it, adding nine mana of any color due to Nyxbloom Ancient
@@ -22604,7 +22571,7 @@ Steps: Activate Lotus Field by tapping it, adding nine mana of any color due to 
 ## Combo 1719-2645-3430-4717
 Cards: Staff of Domination + Nyxbloom Ancient + Vizier of Tumbling Sands + City of Traitors
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Vizier of Tumbling Sands (battlefield); City of Traitors (battlefield)
 Prerequisites: Vizier of Tumbling Sands doesn't have summoning sickness.
 Steps: Activate City of Traitors by tapping it, adding six {C} due to Nyxbloom Ancient.
@@ -22616,7 +22583,7 @@ Steps: Activate City of Traitors by tapping it, adding six {C} due to Nyxbloom A
 ## Combo 1719-2645-3430-5621
 Cards: Staff of Domination + Nyxbloom Ancient + Vizier of Tumbling Sands + Arid Archway
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Vizier of Tumbling Sands (battlefield); Arid Archway (battlefield)
 Prerequisites: Vizier of Tumbling Sands doesn't have summoning sickness.
 Steps: Activate Arid Archway by tapping it, adding six {C} due to Nyxbloom Ancient.
@@ -22628,7 +22595,7 @@ Steps: Activate Arid Archway by tapping it, adding six {C} due to Nyxbloom Ancie
 ## Combo 1719-2645-3430-6256
 Cards: Staff of Domination + Nyxbloom Ancient + Vizier of Tumbling Sands + Muraganda Raceway
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Vizier of Tumbling Sands (battlefield); Muraganda Raceway (battlefield)
 Prerequisites: Vizier of Tumbling Sands doesn't have summoning sickness.
   You have max speed.
@@ -22641,7 +22608,7 @@ Steps: Activate Muraganda Raceway by tapping it, adding six {C} due to Nyxbloom 
 ## Combo 1719-2645-3430-7069
 Cards: Staff of Domination + Nyxbloom Ancient + Vizier of Tumbling Sands + Tectonic Split
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Vizier of Tumbling Sands (battlefield); Tectonic Split (battlefield)
 Prerequisites: You control an untapped land.
   Vizier of Tumbling Sands doesn't have summoning sickness.
@@ -22797,7 +22764,7 @@ Notes: The mana cost can be reduced if you tap combo pieces or other applicable 
 
 ## Combo 1722-2034-2835
 Cards: Nadir Kraken + Ashnod's Altar + Fecundity
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
 Produces: Infinite card draw; Infinite colorless mana; Infinitely large creature; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Nadir Kraken (battlefield); Ashnod's Altar (battlefield); Fecundity (battlefield)
 Prerequisites: You control an additional creature.
@@ -22988,7 +22955,7 @@ Steps: Activate The Core by tapping it, adding at least {G}{G}{G} or {U}{U}{U}.
 
 ## Combo 1744-2021-3112
 Cards: Slurrk, All-Ingesting + Simic Ascendancy + Rite of Replication
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 85 | Commander: legal | Mana needed: {7}{U}{U}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 84 | Commander: legal | Mana needed: {7}{U}{U}
 Produces: Win the game at the beginning of your next upkeep
 Start: Slurrk, All-Ingesting (battlefield); Simic Ascendancy (battlefield); Rite of Replication (hand)
 Steps: Cast Rite of Replication kicked by paying {7}{U}{U}, creating five token copies of Slurrk.
@@ -23690,7 +23657,7 @@ Steps: Cast High Tide by paying {U}.
 ## Combo 1846-2645-4657
 Cards: Magus of the Candelabra + Staff of Domination + High Tide
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal | Mana needed: {U}
-Produces: Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Magus of the Candelabra (battlefield); Staff of Domination (battlefield); High Tide (hand)
 Prerequisites: Magus of the Candelabra does not have summoning sickness.
   You control at least five Islands.
@@ -23943,7 +23910,7 @@ Steps: Cast Replication Technique by paying {4}{U}, targeting Doubling Season.
 
 ## Combo 1887-2021-2060-2265
 Cards: Crystalline Crawler + Simic Ascendancy + Vorinclex, Monstrous Raider + Hardened Scales
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 730 | Commander: legal | Mana needed: {1}{G}{U}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 740 | Commander: legal | Mana needed: {1}{G}{U}
 Produces: Infinite +1/+1 counters on creatures you control; Infinite colored mana; Win the game at the beginning of your next upkeep
 Start: Crystalline Crawler (battlefield); Simic Ascendancy (battlefield); Vorinclex, Monstrous Raider (battlefield); Hardened Scales (battlefield)
 Steps: Activate Simic Ascendancy by paying {1}{G}{U}, putting four +1/+1 counters on Crystalline Crawler.
@@ -24020,7 +23987,7 @@ Steps: Activate Simic Ascendancy by paying {1}{G}{U}, putting four +1/+1 counter
 
 ## Combo 1887-2021-2060-5902
 Cards: Crystalline Crawler + Simic Ascendancy + Vorinclex, Monstrous Raider + Innkeeper's Talent
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 440 | Commander: legal | Mana needed: {1}{G}{U}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 450 | Commander: legal | Mana needed: {1}{G}{U}
 Produces: Infinite +1/+1 counters on creatures you control; Infinite colored mana; Win the game at the beginning of your next upkeep
 Start: Crystalline Crawler (battlefield); Simic Ascendancy (battlefield); Vorinclex, Monstrous Raider (battlefield); Innkeeper's Talent (battlefield: is level 3)
 Steps: Activate Simic Ascendancy by paying {1}{G}{U}, putting four +1/+1 counters on Crystalline Crawler.
@@ -24064,7 +24031,7 @@ Steps: Activate Simic Ascendancy by paying {1}{G}{U}, putting four +1/+1 counter
 
 ## Combo 1887-2021-2060-7267
 Cards: Crystalline Crawler + Simic Ascendancy + Vorinclex, Monstrous Raider + Michelangelo, Weirdness to 11
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal | Mana needed: {1}{G}{U}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal | Mana needed: {1}{G}{U}
 Produces: Infinite +1/+1 counters on creatures you control; Infinite colored mana; Win the game at the beginning of your next upkeep
 Start: Crystalline Crawler (battlefield); Simic Ascendancy (battlefield); Vorinclex, Monstrous Raider (battlefield); Michelangelo, Weirdness to 11 (battlefield)
 Steps: Activate Simic Ascendancy by paying {1}{G}{U}, putting four +1/+1 counters on Crystalline Crawler.
@@ -24086,7 +24053,7 @@ Steps: Activate Simic Ascendancy by paying {1}{G}{U}, putting four +1/+1 counter
 
 ## Combo 1887-2021-2060-7704
 Cards: Crystalline Crawler + Simic Ascendancy + Vorinclex, Monstrous Raider + Doc Samson, Super Psychiatrist
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal | Mana needed: {1}{G}{U}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal | Mana needed: {1}{G}{U}
 Produces: Infinite +1/+1 counters on creatures you control; Infinite colored mana; Win the game at the beginning of your next upkeep
 Start: Crystalline Crawler (battlefield); Simic Ascendancy (battlefield); Vorinclex, Monstrous Raider (battlefield); Doc Samson, Super Psychiatrist (battlefield)
 Steps: Activate Simic Ascendancy by paying {1}{G}{U}, putting four +1/+1 counters on Crystalline Crawler.
@@ -24124,7 +24091,7 @@ Steps: Put a +1/+1 counter on a creature you control.
 
 ## Combo 1887-2122-6822
 Cards: Mindless Automaton + Vorinclex, Monstrous Raider + Lyla, Holographic Assistant
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 8 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 9 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers
 Start: Mindless Automaton (battlefield: with three or more +1/+1 counters on it); Vorinclex, Monstrous Raider (battlefield); Lyla, Holographic Assistant (battlefield)
 Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causing you to draw a card.
@@ -24133,7 +24100,7 @@ Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causi
 
 ## Combo 1887-2122-7737
 Cards: Mindless Automaton + Vorinclex, Monstrous Raider + Stark's Ingenuity
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers
 Start: Mindless Automaton (battlefield: with three or more +1/+1 counters on it); Vorinclex, Monstrous Raider (battlefield); Stark's Ingenuity (battlefield: attached to Mindless Automaton)
 Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causing you to draw a card.
@@ -24142,7 +24109,7 @@ Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causi
 
 ## Combo 1887-2122-7811
 Cards: Mindless Automaton + Vorinclex, Monstrous Raider + Iron Man, Armored Avenger
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers
 Start: Mindless Automaton (battlefield: with three or more +1/+1 counters on it); Vorinclex, Monstrous Raider (battlefield); Iron Man, Armored Avenger (battlefield)
 Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causing you to draw a card.
@@ -24367,7 +24334,7 @@ Steps: Activate Wirewood Channeler by tapping it, adding at least five mana of a
 ## Combo 1902-7500
 Cards: Wirewood Channeler + Ringing Strike Mastery
 Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 15 | Commander: legal
-Produces: Infinite colored mana; Infinite mana creatures you control can produce; Infinite untap of creatures you control
+Produces: Infinite colored mana
 Start: Wirewood Channeler (battlefield: without summoning sickness); Ringing Strike Mastery (battlefield: attached to Wirewood Channeler)
 Prerequisites: There are at least six Elves on the battlefield.
 Steps: Activate Wirewood Channeler by tapping it, adding at least six mana of any color.
@@ -24852,7 +24819,7 @@ Steps: Activate Gilder Bairn's ability from Utopia Vow by tapping it, adding {G/
 
 ## Combo 1912-4687-6006
 Cards: Gilder Bairn + Biomancer's Familiar + Enduring Vitality
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 32 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 33 | Commander: legal
 Produces: Infinite proliferate for permanents
 Start: Gilder Bairn (battlefield); Biomancer's Familiar (battlefield); Enduring Vitality (battlefield)
 Prerequisites: Gilder Bairn does not have summoning sickness.
@@ -26374,7 +26341,7 @@ Steps: Activate Patchwork Crawler using Budoka Gardener's ability by tapping it,
 
 ## Combo 1993-4270-7857
 Cards: Trade Routes + Budoka Gardener // Dokai, Weaver of Life + Elven Raft-Steerer
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Trade Routes (battlefield); Budoka Gardener // Dokai, Weaver of Life (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Prerequisites: You control a land that enters the battlefield untapped and can tap to produce at least {1}.
@@ -26387,7 +26354,7 @@ Steps: Activate the land by tapping it, adding at least {1}.
 
 ## Combo 1993-4300-7857
 Cards: Meloku the Clouded Mirror + Budoka Gardener // Dokai, Weaver of Life + Elven Raft-Steerer
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 68 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 67 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Meloku the Clouded Mirror (battlefield); Budoka Gardener // Dokai, Weaver of Life (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Prerequisites: You control eight or fewer lands.
@@ -26400,7 +26367,7 @@ Steps: Activate Budoka Gardener by tapping it, putting the land from your hand o
 
 ## Combo 1993-5621-7857
 Cards: Budoka Gardener // Dokai, Weaver of Life + Arid Archway + Elven Raft-Steerer
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 37 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Budoka Gardener // Dokai, Weaver of Life (battlefield: without summoning sickness); Arid Archway (hand); Elven Raft-Steerer (battlefield)
 Prerequisites: You control eight or fewer lands.
@@ -26505,7 +26472,7 @@ Steps: Activate Simic Ascendancy by paying {1}{G}{U}, putting four +1/+1 counter
 
 ## Combo 2021-2060-2265-6774
 Cards: Crystalline Crawler + Simic Ascendancy + Hardened Scales + Loading Zone
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 360 | Commander: legal | Mana needed: {1}{G}{U}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 370 | Commander: legal | Mana needed: {1}{G}{U}
 Produces: Infinite +1/+1 counters on creatures you control; Infinite colored mana; Win the game at the beginning of your next upkeep
 Start: Crystalline Crawler (battlefield); Simic Ascendancy (battlefield); Hardened Scales (battlefield); Loading Zone (battlefield)
 Steps: Activate Simic Ascendancy by paying {1}{G}{U}, putting four +1/+1 counters on Crystalline Crawler.
@@ -26571,7 +26538,7 @@ Steps: Activate Simic Ascendancy by paying {1}{G}{U}, putting four +1/+1 counter
 
 ## Combo 2021-2060-2445-4772
 Cards: Crystalline Crawler + Simic Ascendancy + Branching Evolution + Doubling Season
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 750 | Commander: legal | Mana needed: {1}{G}{U}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 760 | Commander: legal | Mana needed: {1}{G}{U}
 Produces: Infinite +1/+1 counters on creatures you control; Infinite colored mana; Win the game at the beginning of your next upkeep
 Start: Crystalline Crawler (battlefield); Simic Ascendancy (battlefield); Branching Evolution (battlefield); Doubling Season (battlefield)
 Steps: Activate Simic Ascendancy by paying {1}{G}{U}, putting four +1/+1 counters on Crystalline Crawler.
@@ -26626,7 +26593,7 @@ Steps: Activate Simic Ascendancy by paying {1}{G}{U}, putting four +1/+1 counter
 
 ## Combo 2021-2060-2445-7267
 Cards: Crystalline Crawler + Simic Ascendancy + Branching Evolution + Michelangelo, Weirdness to 11
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 52 | Commander: legal | Mana needed: {1}{G}{U}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 53 | Commander: legal | Mana needed: {1}{G}{U}
 Produces: Infinite +1/+1 counters on creatures you control; Infinite colored mana; Win the game at the beginning of your next upkeep
 Start: Crystalline Crawler (battlefield); Simic Ascendancy (battlefield); Branching Evolution (battlefield); Michelangelo, Weirdness to 11 (battlefield)
 Steps: Activate Simic Ascendancy by paying {1}{G}{U}, putting four +1/+1 counters on Crystalline Crawler.
@@ -26648,7 +26615,7 @@ Steps: Activate Simic Ascendancy by paying {1}{G}{U}, putting four +1/+1 counter
 
 ## Combo 2021-2060-2445-7704
 Cards: Crystalline Crawler + Simic Ascendancy + Branching Evolution + Doc Samson, Super Psychiatrist
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal | Mana needed: {1}{G}{U}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal | Mana needed: {1}{G}{U}
 Produces: Infinite +1/+1 counters on creatures you control; Infinite colored mana; Win the game at the beginning of your next upkeep
 Start: Crystalline Crawler (battlefield); Simic Ascendancy (battlefield); Branching Evolution (battlefield); Doc Samson, Super Psychiatrist (battlefield)
 Steps: Activate Simic Ascendancy by paying {1}{G}{U}, putting four +1/+1 counters on Crystalline Crawler.
@@ -27039,7 +27006,7 @@ Steps: Activate Simic Ascendancy by paying {1}{G}{U}, putting four +1/+1 counter
 
 ## Combo 2021-2060-4772-7267
 Cards: Crystalline Crawler + Simic Ascendancy + Doubling Season + Michelangelo, Weirdness to 11
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 24 | Commander: legal | Mana needed: {1}{G}{U}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 25 | Commander: legal | Mana needed: {1}{G}{U}
 Produces: Infinite +1/+1 counters on creatures you control; Infinite colored mana; Win the game at the beginning of your next upkeep
 Start: Crystalline Crawler (battlefield); Simic Ascendancy (battlefield); Doubling Season (battlefield); Michelangelo, Weirdness to 11 (battlefield)
 Steps: Activate Simic Ascendancy by paying {1}{G}{U}, putting four +1/+1 counters on Crystalline Crawler.
@@ -27061,7 +27028,7 @@ Steps: Activate Simic Ascendancy by paying {1}{G}{U}, putting four +1/+1 counter
 
 ## Combo 2021-2060-4772-7704
 Cards: Crystalline Crawler + Simic Ascendancy + Doubling Season + Doc Samson, Super Psychiatrist
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal | Mana needed: {1}{G}{U}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal | Mana needed: {1}{G}{U}
 Produces: Infinite +1/+1 counters on creatures you control; Infinite colored mana; Win the game at the beginning of your next upkeep
 Start: Crystalline Crawler (battlefield); Simic Ascendancy (battlefield); Doubling Season (battlefield); Doc Samson, Super Psychiatrist (battlefield)
 Steps: Activate Simic Ascendancy by paying {1}{G}{U}, putting four +1/+1 counters on Crystalline Crawler.
@@ -27094,7 +27061,7 @@ Steps: Activate Simic Ascendancy by paying {1}{G}{U}, putting four +1/+1 counter
 
 ## Combo 2021-2060-5902-6774
 Cards: Crystalline Crawler + Simic Ascendancy + Innkeeper's Talent + Loading Zone
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 150 | Commander: legal | Mana needed: {1}{G}{U}
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 160 | Commander: legal | Mana needed: {1}{G}{U}
 Produces: Infinite +1/+1 counters on creatures you control; Infinite colored mana; Win the game at the beginning of your next upkeep
 Start: Crystalline Crawler (battlefield); Simic Ascendancy (battlefield); Innkeeper's Talent (battlefield: is level 3); Loading Zone (battlefield)
 Steps: Activate Simic Ascendancy by paying {1}{G}{U}, putting four +1/+1 counters on Crystalline Crawler.
@@ -27380,7 +27347,7 @@ Steps: Activate Lotus Vale by tapping it, adding {U}{U}{U}.
 ## Combo 2026-2645-3230-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Voyaging Satyr + Coral Atoll
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite blue mana; Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Voyaging Satyr (battlefield); Coral Atoll (battlefield)
 Prerequisites: Voyaging Satyr doesn't have summoning sickness.
 Steps: Activate Coral Atoll by tapping it, adding {C}{C}{C}{U}{U}{U} due to Nyxbloom Ancient
@@ -27415,7 +27382,7 @@ Steps: Activate Soldevi Excavations by tapping it, adding {C}{U}.
 
 ## Combo 2026-3201-3525
 Cards: Pemmin's Aura + Voyaging Satyr + Arixmethes, Slumbering Isle
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 580 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 590 | Commander: legal
 Produces: Infinite green mana
 Start: Pemmin's Aura (battlefield); Voyaging Satyr (battlefield); Arixmethes, Slumbering Isle (battlefield)
 Prerequisites: Voyaging Satyr does not have summoning sickness.
@@ -27991,7 +27958,7 @@ Steps: Play Dryad Arbor.
 ## Combo 2034-2366-5003-7892
 Cards: Nim Deathmantle + Ashnod's Altar + Dryad Arbor + Thranduil the Strategist
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}
-Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers
+Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers
 Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Dryad Arbor (battlefield); Thranduil the Strategist (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Dryad Arbor, adding {C}{C}.
   When Dryad Arbor dies, Nim Deathmantle triggers, causing you to pay {4} to return Dryad Arbor from your graveyard to the battlefield, and attaching Nim Deathmantle to it.
@@ -28002,7 +27969,7 @@ Steps: Activate Ashnod's Altar by sacrificing Dryad Arbor, adding {C}{C}.
 ## Combo 2034-2366-5003-7893
 Cards: Nim Deathmantle + Ashnod's Altar + Dryad Arbor + Thranduil, Sindarin Liege // Silvan Rally
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}
-Produces: Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers
+Produces: Infinite colorless mana; Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers
 Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Dryad Arbor (battlefield); Thranduil, Sindarin Liege // Silvan Rally (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Dryad Arbor, adding {C}{C}.
   When Dryad Arbor dies, Nim Deathmantle triggers, causing you to pay {4} to return Dryad Arbor from your graveyard to the battlefield, and attaching Nim Deathmantle to it.
@@ -28510,7 +28477,7 @@ Steps: Activate Golgari Brownscale's cycling ability by paying {0} and discardin
 
 ## Combo 2047-3340
 Cards: Bootleggers' Stash + Mechanized Production
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 3600 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 3700 | Commander: legal
 Produces: Win the game at the beginning of your next upkeep
 Start: Bootleggers' Stash (battlefield); Mechanized Production (battlefield)
 Prerequisites: You control at least eight in any combination of lands and/or Treasure tokens.
@@ -28565,7 +28532,7 @@ Steps: Activate Arbor Elf by tapping it, untapping a Forest you control.
 
 ## Combo 2050-2953-4222
 Cards: Arbor Elf + Freed from the Real + Dawn's Reflection
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 520 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 530 | Commander: legal
 Produces: Infinite colored mana
 Start: Arbor Elf (battlefield); Freed from the Real (battlefield); Dawn's Reflection (battlefield)
 Prerequisites: Freed from the Real attached to Arbor Elf.
@@ -28653,7 +28620,7 @@ Steps: Activate Arbor Elf by tapping it, untapping the enchanted forest.
 
 ## Combo 2050-3525-4495
 Cards: Arbor Elf + Pemmin's Aura + New Horizons
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 61 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 62 | Commander: legal
 Produces: Infinite colored mana
 Start: Arbor Elf (battlefield); Pemmin's Aura (battlefield); New Horizons (battlefield)
 Prerequisites: Pemmin's Aura attached to Arbor Elf.
@@ -29199,7 +29166,7 @@ Steps: Activate Berta using Crystalline Crawler's last activated ability by tapp
 
 ## Combo 2060-4213-4687
 Cards: Gilder Bairn + Crystalline Crawler + Hankyu
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
 Produces: Infinite colored mana; Infinite damage; Infinite proliferate for permanents; Infinite +1/+1 counters on a creature
 Start: Gilder Bairn (battlefield); Crystalline Crawler (battlefield); Hankyu (battlefield: attached to Gilder Bairn)
 Prerequisites: Crystalline Crawler has at least four counters on it.
@@ -29331,7 +29298,7 @@ Steps: Activate Gilder Bairn using its ability from Utopia Vow by tapping it, ad
 
 ## Combo 2060-4687-6006
 Cards: Gilder Bairn + Crystalline Crawler + Enduring Vitality
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal
 Produces: Infinite colored mana; Infinite proliferate for permanents; Infinite +1/+1 counters on a creature
 Start: Gilder Bairn (battlefield); Crystalline Crawler (battlefield); Enduring Vitality (battlefield)
 Prerequisites: Crystalline Crawler has at least four counters on it.
@@ -29652,7 +29619,7 @@ Steps: Activate the basic land with Fertile Ground attached by tapping it, addin
 
 ## Combo 2066-2872-3525
 Cards: Clever Conjurer + Pemmin's Aura + Fertile Ground
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 110 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 100 | Commander: legal
 Produces: Infinite mana permanents you control can produce; Infinite untap of permanents you control
 Start: Clever Conjurer (battlefield); Pemmin's Aura (battlefield); Fertile Ground (battlefield)
 Prerequisites: Pemmin's Aura attached to Clever Conjurer.
@@ -29789,7 +29756,7 @@ Steps: Cast Replicate by paying its mana cost, creating a token copy of Mirror-M
 ## Combo 2085-2645-3230-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Kelpie Guide + Coral Atoll
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite blue mana; Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Kelpie Guide (battlefield); Coral Atoll (battlefield)
 Prerequisites: Kelpie Guide doesn't have summoning sickness.
 Steps: Activate Coral Atoll by tapping it, adding {C}{C}{C}{U}{U}{U} due to Nyxbloom Ancient
@@ -29801,7 +29768,7 @@ Steps: Activate Coral Atoll by tapping it, adding {C}{C}{C}{U}{U}{U} due to Nyxb
 ## Combo 2085-2645-3430-3664
 Cards: Staff of Domination + Nyxbloom Ancient + Kelpie Guide + Lotus Field
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal
-Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Kelpie Guide (battlefield); Lotus Field (battlefield)
 Prerequisites: Kelpie Guide doesn't have summoning sickness.
 Steps: Activate Lotus Field by tapping it, adding nine mana of any color due to Nyxbloom Ancient
@@ -29813,7 +29780,7 @@ Steps: Activate Lotus Field by tapping it, adding nine mana of any color due to 
 ## Combo 2085-2645-3430-4717
 Cards: Staff of Domination + Nyxbloom Ancient + Kelpie Guide + City of Traitors
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Kelpie Guide (battlefield); City of Traitors (battlefield)
 Prerequisites: Kelpie Guide doesn't have summoning sickness.
 Steps: Activate City of Traitors by tapping it, adding six {C} due to Nyxbloom Ancient.
@@ -29825,7 +29792,7 @@ Steps: Activate City of Traitors by tapping it, adding six {C} due to Nyxbloom A
 ## Combo 2085-2645-3430-5621
 Cards: Staff of Domination + Nyxbloom Ancient + Kelpie Guide + Arid Archway
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Kelpie Guide (battlefield); Arid Archway (battlefield)
 Prerequisites: Kelpie Guide doesn't have summoning sickness.
 Steps: Activate Arid Archway by tapping it, adding six {C} due to Nyxbloom Ancient.
@@ -29837,7 +29804,7 @@ Steps: Activate Arid Archway by tapping it, adding six {C} due to Nyxbloom Ancie
 ## Combo 2085-2645-3430-6256
 Cards: Staff of Domination + Nyxbloom Ancient + Kelpie Guide + Muraganda Raceway
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Kelpie Guide (battlefield); Muraganda Raceway (battlefield)
 Prerequisites: Kelpie Guide doesn't have summoning sickness.
   You have max speed.
@@ -29850,7 +29817,7 @@ Steps: Activate Muraganda Raceway by tapping it, adding six {C} due to Nyxbloom 
 ## Combo 2085-2645-3430-7069
 Cards: Staff of Domination + Nyxbloom Ancient + Kelpie Guide + Tectonic Split
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Kelpie Guide (battlefield); Tectonic Split (battlefield)
 Prerequisites: You control an untapped land.
   Kelpie Guide doesn't have summoning sickness.
@@ -30383,7 +30350,7 @@ Steps: Cast Temporal Manipulation by paying its mana cost, causing you to take a
 
 ## Combo 2104-2856-3554
 Cards: Seasons Past + Temporal Manipulation + Mystical Tutor
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 580 | Commander: legal | Mana needed: {4}{G}{G}{U} plus {3}{U}{U} each turn
+Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 570 | Commander: legal | Mana needed: {4}{G}{G}{U} plus {3}{U}{U} each turn
 Produces: Infinite turns; Skip your draw steps; Lock
 Start: Seasons Past (hand); Temporal Manipulation (hand); Mystical Tutor (graveyard)
 Steps: Cast Temporal Manipulation by paying its mana cost, causing you to take an extra turn after this one
@@ -31047,7 +31014,7 @@ Steps: Activate Traxos by tapping it, adding {1}.
 
 ## Combo 2122-2265-6822
 Cards: Mindless Automaton + Hardened Scales + Lyla, Holographic Assistant
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 45 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 46 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers
 Start: Mindless Automaton (battlefield: with three or more +1/+1 counters on it); Hardened Scales (battlefield); Lyla, Holographic Assistant (battlefield)
 Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causing you to draw a card.
@@ -31056,7 +31023,7 @@ Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causi
 
 ## Combo 2122-2265-7737
 Cards: Mindless Automaton + Hardened Scales + Stark's Ingenuity
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers
 Start: Mindless Automaton (battlefield: with three or more +1/+1 counters on it); Hardened Scales (battlefield); Stark's Ingenuity (battlefield: attached to Mindless Automaton)
 Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causing you to draw a card.
@@ -31065,7 +31032,7 @@ Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causi
 
 ## Combo 2122-2265-7811
 Cards: Mindless Automaton + Hardened Scales + Iron Man, Armored Avenger
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 22 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 23 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers
 Start: Mindless Automaton (battlefield: with three or more +1/+1 counters on it); Hardened Scales (battlefield); Iron Man, Armored Avenger (battlefield)
 Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causing you to draw a card.
@@ -31074,7 +31041,7 @@ Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causi
 
 ## Combo 2122-2445-6822
 Cards: Mindless Automaton + Branching Evolution + Lyla, Holographic Assistant
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 28 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 29 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers
 Start: Mindless Automaton (battlefield: with three or more +1/+1 counters on it); Branching Evolution (battlefield); Lyla, Holographic Assistant (battlefield)
 Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causing you to draw a card.
@@ -31083,7 +31050,7 @@ Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causi
 
 ## Combo 2122-2445-7737
 Cards: Mindless Automaton + Branching Evolution + Stark's Ingenuity
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers
 Start: Mindless Automaton (battlefield: with three or more +1/+1 counters on it); Branching Evolution (battlefield); Stark's Ingenuity (battlefield: attached to Mindless Automaton)
 Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causing you to draw a card.
@@ -31092,7 +31059,7 @@ Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causi
 
 ## Combo 2122-2445-7811
 Cards: Mindless Automaton + Branching Evolution + Iron Man, Armored Avenger
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 16 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 17 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers
 Start: Mindless Automaton (battlefield: with three or more +1/+1 counters on it); Branching Evolution (battlefield); Iron Man, Armored Avenger (battlefield)
 Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causing you to draw a card.
@@ -31236,7 +31203,7 @@ Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causi
 
 ## Combo 2122-5902-6822
 Cards: Mindless Automaton + Innkeeper's Talent + Lyla, Holographic Assistant
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 25 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 26 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers
 Start: Mindless Automaton (battlefield: with three or more +1/+1 counters on it); Innkeeper's Talent (battlefield: is level 3); Lyla, Holographic Assistant (battlefield)
 Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causing you to draw a card.
@@ -31245,7 +31212,7 @@ Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causi
 
 ## Combo 2122-5902-7737
 Cards: Mindless Automaton + Innkeeper's Talent + Stark's Ingenuity
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers
 Start: Mindless Automaton (battlefield: with three or more +1/+1 counters on it); Innkeeper's Talent (battlefield: is level 3); Stark's Ingenuity (battlefield: attached to Mindless Automaton)
 Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causing you to draw a card.
@@ -31254,7 +31221,7 @@ Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causi
 
 ## Combo 2122-5902-7811
 Cards: Mindless Automaton + Innkeeper's Talent + Iron Man, Armored Avenger
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 8 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 9 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers
 Start: Mindless Automaton (battlefield: with three or more +1/+1 counters on it); Innkeeper's Talent (battlefield: is level 3); Iron Man, Armored Avenger (battlefield)
 Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causing you to draw a card.
@@ -31570,10 +31537,10 @@ Steps: Attack with Auton Soldier.
   At the beginning of the next player's end step, each copy of Biovisionary triggers, causing you to win the game.
 
 ## Combo 2169-2829-4694-7306
-Cards: The Ooze + Arcbound Ravager + Zameck Guildmage + March of the Machines
+Cards: The Ooze + Zameck Guildmage + Arcbound Ravager + March of the Machines
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {G}{U}
 Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Arcbound Ravager (battlefield); Zameck Guildmage (battlefield); March of the Machines (battlefield)
+Start: The Ooze (battlefield); Zameck Guildmage (battlefield); Arcbound Ravager (battlefield); March of the Machines (battlefield)
 Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Zameck Guildmage's first ability by paying {U}{G}, causing each creature you control to enter with an additional +1/+1 counter this turn.
   Activate Arcbound Ravager by sacrificing a creature with a +1/+1 counter on it.
@@ -31756,7 +31723,7 @@ Steps: Activate Lotus Vale by tapping it, adding {U}{U}{U}.
 ## Combo 2174-2645-3230-3430
 Cards: Staff of Domination + Nyxbloom Ancient + Juniper Order Druid + Coral Atoll
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite blue mana; Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite blue mana; Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Juniper Order Druid (battlefield); Coral Atoll (battlefield)
 Prerequisites: Juniper Order Druid doesn't have summoning sickness.
 Steps: Activate Coral Atoll by tapping it, adding {C}{C}{C}{U}{U}{U} due to Nyxbloom Ancient
@@ -32772,7 +32739,7 @@ Steps: During an opponent's turn, activate Earthcraft by tapping a blue creature
 
 ## Combo 2351-3304
 Cards: The Watcher in the Water + Greater Good
-Color identity: GU | Bracket: 2-3+ (Oddball) | Popularity: 210 | Commander: legal
+Color identity: GU | Bracket: 2-3+ (Oddball) | Popularity: 200 | Commander: legal
 Produces: Near-infinite untap of some creatures you control; Infinite draw triggers; Infinite self-discard triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers
 Start: The Watcher in the Water (battlefield); Greater Good (battlefield)
 Prerequisites: It is not your turn.
@@ -33077,7 +33044,7 @@ Steps: Activate Marwyn by tapping it, adding at least {G}{G}{G}
 
 ## Combo 2436-5090
 Cards: Marwyn, the Nurturer + Singing Bell Strike
-Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 26 | Commander: legal
+Color identity: GU | Bracket: 3-4+ (Spicy) | Popularity: 27 | Commander: legal
 Produces: Infinite green mana
 Start: Marwyn, the Nurturer (battlefield: untapped); Singing Bell Strike (battlefield)
 Prerequisites: Singing Bell Strike attached to Marwyn.
@@ -33099,7 +33066,7 @@ Steps: Activate Marwyn by tapping it, adding at least {G}{G}{G}{G}{G}
 
 ## Combo 2436-7500
 Cards: Marwyn, the Nurturer + Ringing Strike Mastery
-Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 52 | Commander: legal
+Color identity: GU | Bracket: 4+ (Ruthless) | Popularity: 53 | Commander: legal
 Produces: Infinite green mana
 Start: Marwyn, the Nurturer (battlefield: without summoning sickness and with power 6 or greater); Ringing Strike Mastery (battlefield: attached to Marwyn)
 Steps: Activate Marwyn by tapping it, adding at least six {G}
@@ -33175,7 +33142,7 @@ Notes: Once you have infinite green mana, you may activate Leyline of Abundance 
 
 ## Combo 2464-3099-4222
 Cards: Song of Freyalise + Freed from the Real + Leyline of Abundance
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal
 Produces: Infinite green mana; Infinite +1/+1 counters on creatures you control
 Start: Song of Freyalise (battlefield); Freed from the Real (battlefield); Leyline of Abundance (battlefield)
 Prerequisites: Freed from the Real attached to a creature that does not have summoning sickness.
@@ -33188,7 +33155,7 @@ Steps: Activate the creature with Freed from the Real attached by tapping it, ad
 
 ## Combo 2464-3430-3995
 Cards: Song of Freyalise + Nyxbloom Ancient + Horseshoe Crab
-Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal
 Produces: Infinite colored mana
 Start: Song of Freyalise (battlefield); Nyxbloom Ancient (battlefield); Horseshoe Crab (battlefield)
 Prerequisites: Horseshoe Crab doesn't have summoning sickness.
@@ -33299,6 +33266,18 @@ Cards: Sensei's Divining Top + Song of Freyalise + Steelfin Whale + The Reality 
 Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite card draw; Near-infinite artifact ETB; Near-infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Song of Freyalise (battlefield); Steelfin Whale (battlefield: without summoning sickness); The Reality Chip (battlefield: attached to a creature you control)
+Prerequisites: Song of Freyalise's first or second chapter ability has triggered this turn.
+Steps: Activate Battered Golem by tapping it, adding {1}.
+  Activate Sensei's Divining Top's second ability by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
+  Cast Sensei's Divining Top from the top of your library by paying {1}.
+  When Sensei's Divining Top enters, Battered Golem triggers, untapping Battered Golem.
+  Repeat.
+
+## Combo 2464-3713-5078-5741
+Cards: Sensei's Divining Top + Song of Freyalise + Steelfin Whale + Crystal Skull, Isu Spyglass
+Color identity: GU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite card draw; Near-infinite artifact ETB; Near-infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
+Start: Sensei's Divining Top (battlefield); Song of Freyalise (battlefield); Steelfin Whale (battlefield: without summoning sickness); Crystal Skull, Isu Spyglass (battlefield)
 Prerequisites: Song of Freyalise's first or second chapter ability has triggered this turn.
 Steps: Activate Battered Golem by tapping it, adding {1}.
   Activate Sensei's Divining Top's second ability by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.

@@ -1756,7 +1756,7 @@ Steps: Cast Clockspinning with buyback by paying {U}.
 ## Combo 122-328-728-2732
 Cards: Prowling Geistcatcher + Phyrexian Delver + Gray Merchant of Asphodel + Grimgrin, Corpse-Born
 Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
-Produces: Infinite lifegain; Infinite lifeloss; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Produces: Infinite lifegain; Infinite lifeloss; Each opponent loses the game; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Prowling Geistcatcher (battlefield); Phyrexian Delver (battlefield); Gray Merchant of Asphodel (battlefield); Grimgrin, Corpse-Born (battlefield)
 Steps: Activate Grimgrin twice by sacrificing Phyrexian Delver and Gray Merchant.
   When Phyrexian Delver and Gray Merchant die, Prowling Geistcatcher's first ability triggers twice, exiling Phyrexian Delver and Gray Merchant from your graveyard.
@@ -4134,7 +4134,7 @@ Steps: Cast Fake Your Own Death by paying {1}{B}, targeting any creature.
 
 ## Combo 141-1269-2034
 Cards: Exhume + Ashnod's Altar + Naru Meha, Master Wizard
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal | Mana needed: {3}{U}{U}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal | Mana needed: {3}{U}{U}{B}
 Produces: Infinite colorless mana; Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite magecraft triggers; Each opponent returns all creature cards from their graveyard to the battlefield; Infinite creature sacrifice triggers
 Start: Exhume (hand); Ashnod's Altar (battlefield); Naru Meha, Master Wizard (hand)
 Prerequisites: You have a creature card in your graveyard.
@@ -4925,7 +4925,7 @@ Steps: Cast Lively Dirge by paying {1}{B} plus an additional {2} to select its s
 
 ## Combo 141-2034-8129
 Cards: Ashnod's Altar + Naru Meha, Master Wizard + Stitch Together
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal | Mana needed: {2}{U}{U}{B}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal | Mana needed: {2}{U}{U}{B}{B}
 Produces: Infinite colorless mana; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite magecraft triggers
 Start: Ashnod's Altar (battlefield); Naru Meha, Master Wizard (hand); Stitch Together (hand)
 Prerequisites: There's a creature card in your graveyard.
@@ -6210,7 +6210,7 @@ Steps: Cast Victimize by paying its mana cost
 
 ## Combo 141-3125-5256
 Cards: Altar of Dementia + Naru Meha, Master Wizard + Victimize
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal | Mana needed: {4}{U}{U}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal | Mana needed: {4}{U}{U}{B}
 Produces: Infinite mill; Infinite self-mill; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite magecraft triggers; Infinite creature sacrifice triggers
 Start: Altar of Dementia (battlefield); Naru Meha, Master Wizard (hand); Victimize (hand)
 Prerequisites: You control another nontoken creature.
@@ -8084,7 +8084,7 @@ Steps: Whenever a creature enters the battlefield under an opponent's control, i
 
 ## Combo 162-2178-4265
 Cards: Royal Assassin + Frozen Aether + Thornbite Staff
-Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 16 | Commander: legal
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 15 | Commander: legal
 Produces: Destroy each creature that enters the battlefield under an opponent's control; Lock
 Start: Royal Assassin (battlefield); Frozen Aether (battlefield); Thornbite Staff (battlefield)
 Prerequisites: Royal Assassin does not have summoning sickness.
@@ -8167,7 +8167,7 @@ Steps: Cast Not Dead After All by paying {B}, targeting Mnemonic Wall.
 
 ## Combo 167-2974-4871
 Cards: Pitiless Plunderer + Repository Skaab + Not Dead After All
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal | Mana needed: {3}{U}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal | Mana needed: {3}{U}{B}
 Produces: Infinite lifeloss; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count; Infinite magecraft triggers
 Start: Pitiless Plunderer (battlefield); Repository Skaab (hand); Not Dead After All (hand)
 Steps: Cast Repository Skaab by paying {3}{U}.
@@ -9842,7 +9842,7 @@ Steps: Declare Great Whale and Biting-Palm Ninja as attackers.
 
 ## Combo 307-2792-4307
 Cards: Yuriko, the Tiger's Shadow + Thousand-Faced Shadow + Great Whale
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 810 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 820 | Commander: legal
 Produces: Infinite combat damage to one opponent; Infinite creature tokens; Infinite mana lands you control can produce; Infinite untap of lands you control; Infinite creature ETB; Infinite creature LTB
 Start: Yuriko, the Tiger's Shadow (battlefield); Thousand-Faced Shadow (hand); Great Whale (battlefield)
 Prerequisites: Yuriko and Great Whale do not have summoning sickness.
@@ -10368,7 +10368,7 @@ Steps: Cast Sidisi by paying {0}.
 ## Combo 328-598-2452-5670
 Cards: Liliana, Untouched by Death + Gray Merchant of Asphodel + Rooftop Storm + Warren Soultrader
 Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 2500 | Commander: legal
-Produces: Infinite lifegain; Infinite lifeloss; Infinite Treasure tokens; Infinite colored mana; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite death triggers; Infinite storm count; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers
+Produces: Infinite lifegain; Infinite lifeloss; Infinite Treasure tokens; Infinite colored mana; Each opponent loses the game; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite death triggers; Infinite storm count; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers
 Start: Liliana, Untouched by Death (battlefield: with at least three loyalty counters on it); Gray Merchant of Asphodel (graveyard); Rooftop Storm (battlefield); Warren Soultrader (battlefield)
 Steps: Activate Liliana's third loyalty ability by removing three loyalty counters from it, allowing you to cast Zombie spells from your graveyard this turn.
   Cast Gray Merchant from your graveyard by paying {0} due to Rooftop Storm.
@@ -10415,7 +10415,7 @@ Steps: At the beginning of your end step, Thassa triggers, blinking Gray Merchan
 
 ## Combo 328-1056-2397
 Cards: Araumi of the Dead Tide + Panharmonicon + Gray Merchant of Asphodel
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 930 | Commander: legal | Mana needed: {3}{B}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 940 | Commander: legal | Mana needed: {3}{B}{B}
 Produces: Near-infinite lifegain; Near-infinite lifeloss; Near-infinite lifegain triggers
 Start: Araumi of the Dead Tide (battlefield); Panharmonicon (battlefield); Gray Merchant of Asphodel (battlefield)
 Prerequisites: Gray Merchant in your graveyard.Araumi does not have summoning sickness.
@@ -10472,7 +10472,7 @@ Steps: Cast Sidisi by paying {0}.
 ## Combo 328-2452-3249-5670
 Cards: Havengul Lich + Rooftop Storm + Warren Soultrader + Gray Merchant of Asphodel
 Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 2300 | Commander: legal | Mana needed: {1}
-Produces: Infinite lifegain; Infinite lifeloss; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
+Produces: Infinite lifegain; Infinite lifeloss; Each opponent loses the game; Infinite lifegain triggers; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Havengul Lich (battlefield); Rooftop Storm (battlefield); Warren Soultrader (battlefield); Gray Merchant of Asphodel (graveyard)
 Steps: Activate Havengul Lich by paying {1}, allowing you to cast Gray Merchant from your graveyard this turn.
   Cast Gray Merchant from your graveyard by paying {0} due to Rooftop Storm.
@@ -10509,7 +10509,7 @@ Steps: Declare Skullsnatcher as an attacker.
 
 ## Combo 344-3489-3542
 Cards: Satoru Umezawa + Palinchron + Skullsnatcher
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 150 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 160 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite untap of lands you control; Infinite creature ETB; Infinite creature LTB
 Start: Satoru Umezawa (battlefield); Palinchron (hand); Skullsnatcher (battlefield)
 Prerequisites: Skullsnatcher does not have summoning sickness and cannot be blocked by an opponent.
@@ -11238,7 +11238,7 @@ Steps: At the beginning of your upkeep, Panoptic Mirror triggers.
 
 ## Combo 407-2196-2821-5803
 Cards: Kitsa, Otterball Elite + Frantic Search + Minamo, School at Water's Edge + Cabal Coffers
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 75 | Commander: legal | Mana needed: {3}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 76 | Commander: legal | Mana needed: {3}
 Produces: Near-infinite mana lands you control can produce; Infinite looting; Near-infinite untap of lands you control; Infinite self-discard triggers; Infinite draw triggers; Near-infinite magecraft triggers
 Start: Kitsa, Otterball Elite (battlefield); Frantic Search (hand); Minamo, School at Water's Edge (battlefield); Cabal Coffers (battlefield)
 Prerequisites: You control a land that can tap to produce at least {U}.
@@ -12383,7 +12383,7 @@ Notes: If you control an artifact creature, it can be untapped by the second Sew
 
 ## Combo 457-1329-6798-7340
 Cards: Emry, Lurker of the Loch + Sewer-veillance Cam + Urza, Lord High Artificer + Umbral Collar Zealot
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal | Mana needed: {U}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 28 | Commander: legal | Mana needed: {U}
 Produces: Cast all spells in your library; Infinite blue mana; Infinite mana creatures you control can produce; Infinite surveil; Infinite card draw; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Exile your library; Infinite storm count; Infinite untap of creatures you control; Infinite draw triggers
 Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Sewer-veillance Cam (graveyard); Urza, Lord High Artificer (battlefield); Umbral Collar Zealot (battlefield)
 Steps: Activate Emry by tapping it, allowing you to cast Sewer-veillance Cam from your graveyard this turn.
@@ -13274,7 +13274,7 @@ Steps: Cast Culling the Weak by paying {B} and sacrificing another creature, add
 
 ## Combo 500-2081-2556
 Cards: Saw in Half + Culling the Weak + Mnemonic Wall
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal | Mana needed: {B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 28 | Commander: legal | Mana needed: {B}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite storm count; Infinite magecraft triggers
 Start: Saw in Half (hand); Culling the Weak (hand); Mnemonic Wall (battlefield)
 Prerequisites: You control an additional creature.
@@ -13352,7 +13352,7 @@ Steps: Cast Culling the Weak by paying {B} and sacrificing another creature, add
 
 ## Combo 500-2187-4923
 Cards: Saw in Half + Cabal Ritual + Possessed Skaab
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {1}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {1}{B}
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite magecraft triggers; Infinite storm count
 Start: Saw in Half (hand); Cabal Ritual (hand); Possessed Skaab (battlefield)
 Prerequisites: You have at least seven cards in your graveyard.
@@ -13965,17 +13965,6 @@ Steps: Activate Unnatural Selection by paying {1}, causing Trazyn to become a Sl
   Activate Trazyn by paying {2}, untapping it.
   Repeat from step 2.
 
-## Combo 585-3767-3918-5527
-Cards: Scuttling Sliver + Trazyn the Infinite + Unnatural Selection + Five Hundred Year Diary
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
-Produces: Infinite mana creatures you control can produce; Infinite blue mana; Infinite untap of creatures you control
-Start: Scuttling Sliver (battlefield); Trazyn the Infinite (battlefield: without summoning sickness); Unnatural Selection (battlefield); Five Hundred Year Diary (graveyard)
-Prerequisites: You control at least three Clues.
-Steps: Activate Unnatural Selection by paying {1}, causing Trazyn to become a Sliver until end of turn.
-  Activate Trazyn using Five Hundred Year Diary's ability by tapping it, adding at least {U}{U}{U}.
-  Activate Trazyn by paying {2}, untapping it.
-  Repeat from step 2.
-
 ## Combo 585-3767-3918-6893
 Cards: Scuttling Sliver + Trazyn the Infinite + The Eternity Elevator + Unnatural Selection
 Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
@@ -13983,17 +13972,6 @@ Produces: Infinite colorless mana; Infinite untap of creatures you control
 Start: Scuttling Sliver (battlefield); Trazyn the Infinite (battlefield: without summoning sickness); The Eternity Elevator (graveyard); Unnatural Selection (battlefield)
 Steps: Activate Unnatural Selection by paying {1}, causing Trazyn to become a Sliver until end of turn.
   Activate Trazyn using The Eternity Elevator's ability by tapping it, adding {C}{C}{C}
-  Activate Trazyn by paying {2}, untapping it.
-  Repeat from step 2.
-
-## Combo 585-3767-3918-7013
-Cards: Scuttling Sliver + Trazyn the Infinite + Unnatural Selection + White Lotus Tile
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
-Produces: Infinite mana creatures you control can produce; Infinite colored mana; Infinite untap of creatures you control
-Start: Scuttling Sliver (battlefield); Trazyn the Infinite (battlefield: without summoning sickness); Unnatural Selection (battlefield); White Lotus Tile (graveyard)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Activate Unnatural Selection by paying {1}, causing Trazyn to become a Sliver until end of turn.
-  Activate Trazyn using White Lotus Tile's ability by tapping it, adding at least three mana of any color.
   Activate Trazyn by paying {2}, untapping it.
   Repeat from step 2.
 
@@ -15338,7 +15316,7 @@ Steps: Activate Woe Strider by sacrificing Glen Elendra Guardian.
 
 ## Combo 628-997-7936
 Cards: Dominion Saboteur + Mikaeus, the Unhallowed + Woe Strider
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Start: Dominion Saboteur (battlefield: without a +1/+1 counter on it and not copying a Human); Mikaeus, the Unhallowed (battlefield); Woe Strider (battlefield)
 Prerequisites: You control a non-Human creature other than Dominion Saboteur that has a -1/-1 counter on it.
@@ -16666,32 +16644,12 @@ Steps: Activate Trazyn using Gilded Lotus's ability by tapping it, adding three 
   Activate Trazyn by paying {2}, untapping it.
   Repeat.
 
-## Combo 643-3767-3918-5527
-Cards: Scuttling Sliver + Trazyn the Infinite + Maskwood Nexus + Five Hundred Year Diary
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite blue mana; Infinite mana creatures you control can produce; Infinite untap of creatures you control
-Start: Scuttling Sliver (battlefield); Trazyn the Infinite (battlefield: without summoning sickness); Maskwood Nexus (battlefield); Five Hundred Year Diary (graveyard)
-Prerequisites: You control at least three Clues.
-Steps: Activate Trazyn using Five Hundred Year Diary's ability by tapping it, adding at least {U}{U}{U}.
-  Activate Trazyn by paying {2}, untapping it.
-  Repeat.
-
 ## Combo 643-3767-3918-6893
 Cards: Scuttling Sliver + Trazyn the Infinite + The Eternity Elevator + Maskwood Nexus
 Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite colorless mana; Infinite untap of creatures you control
 Start: Scuttling Sliver (battlefield); Trazyn the Infinite (battlefield: without summoning sickness); The Eternity Elevator (graveyard); Maskwood Nexus (battlefield)
 Steps: Activate Trazyn using The Eternity Elevator's ability by tapping it, adding {C}{C}{C}
-  Activate Trazyn by paying {2}, untapping it.
-  Repeat.
-
-## Combo 643-3767-3918-7013
-Cards: Scuttling Sliver + Trazyn the Infinite + Maskwood Nexus + White Lotus Tile
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite mana creatures you control can produce; Infinite untap of creatures you control
-Start: Scuttling Sliver (battlefield); Trazyn the Infinite (battlefield: without summoning sickness); Maskwood Nexus (battlefield); White Lotus Tile (graveyard)
-Prerequisites: You control at least three creatures
-Steps: Activate Trazyn using White Lotus Tile's ability by tapping it, adding at least three mana of any color.
   Activate Trazyn by paying {2}, untapping it.
   Repeat.
 
@@ -16739,7 +16697,7 @@ Steps: Cast Sacrifice by paying {B} and sacrificing Scholar of the Ages, adding 
 
 ## Combo 654-774-3478
 Cards: Patron of the Moon + Amulet of Vigor + Dimir Aqueduct
-Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 360 | Commander: legal | Mana needed: {1}
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 370 | Commander: legal | Mana needed: {1}
 Produces: Infinite black mana; Infinite blue mana; Infinite landfall triggers
 Start: Patron of the Moon (battlefield); Amulet of Vigor (battlefield); Dimir Aqueduct (hand)
 Steps: Activate Patron of the Moon by paying {1}, putting Dimir Aqueduct from your hand onto the battlefield.
@@ -16751,7 +16709,7 @@ Steps: Activate Patron of the Moon by paying {1}, putting Dimir Aqueduct from yo
 
 ## Combo 654-1257-3478-3525
 Cards: Walking Atlas + Amulet of Vigor + Pemmin's Aura + Dimir Aqueduct
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal
 Produces: Infinite black mana; Infinite landfall triggers
 Start: Walking Atlas (battlefield); Amulet of Vigor (battlefield); Pemmin's Aura (battlefield); Dimir Aqueduct (hand)
 Prerequisites: Pemmin's Aura attached to Walking Atlas.
@@ -16864,7 +16822,7 @@ Steps: Cast Donate by paying {2}{U}, giving an opponent control of Lich's Master
 ## Combo 696-2645-2751-2872
 Cards: Black Market + Strionic Resonator + Clever Conjurer + Staff of Domination
 Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}
-Produces: Infinite black mana; Infinite card draw; Infinite lifegain; Infinite mana artifacts you control can produce; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of artifacts you control; Infinite untap of creatures you control
+Produces: Infinite black mana; Infinite card draw; Infinite lifegain; Infinite mana artifacts you control can produce; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of artifacts you control; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Black Market (battlefield); Strionic Resonator (battlefield); Clever Conjurer (battlefield); Staff of Domination (battlefield)
 Prerequisites: Black Market has at least seven charge counters on it.
   Clever Conjurer does not have summoning sickness.
@@ -16880,7 +16838,7 @@ Steps: At the beginning of your precombat main phase, Black Market's second abil
 ## Combo 696-2645-2751-4091
 Cards: Black Market + Strionic Resonator + Aphetto Alchemist + Staff of Domination
 Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}
-Produces: Infinite black mana; Infinite card draw; Infinite lifegain; Infinite mana artifacts you control can produce; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of artifacts you control; Infinite untap of creatures you control
+Produces: Infinite black mana; Infinite card draw; Infinite lifegain; Infinite mana artifacts you control can produce; Infinite mana creatures you control can produce; Infinite lifegain triggers; Tap all creatures opponents control; Infinite draw triggers; Infinite untap of artifacts you control; Infinite untap of creatures you control
 Start: Black Market (battlefield); Strionic Resonator (battlefield); Aphetto Alchemist (battlefield); Staff of Domination (battlefield)
 Prerequisites: Black Market has at least seven charge counters on it.
   Aphetto Alchemist does not have summoning sickness.
@@ -16896,7 +16854,7 @@ Steps: At the beginning of your precombat main phase, Black Market's second abil
 ## Combo 696-2645-2872-3094
 Cards: Black Market + Lithoform Engine + Clever Conjurer + Staff of Domination
 Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}
-Produces: Infinite black mana; Infinite card draw; Infinite lifegain; Infinite mana artifacts you control can produce; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of artifacts you control; Infinite untap of creatures you control
+Produces: Infinite black mana; Infinite card draw; Infinite lifegain; Infinite mana artifacts you control can produce; Infinite mana creatures you control can produce; Infinite lifegain triggers; Tap all creatures opponents control; Infinite draw triggers; Infinite untap of artifacts you control; Infinite untap of creatures you control
 Start: Black Market (battlefield); Lithoform Engine (battlefield); Clever Conjurer (battlefield); Staff of Domination (battlefield)
 Prerequisites: Black Market has at least seven charge counters on it.
   Clever Conjurer does not have summoning sickness.
@@ -16912,7 +16870,7 @@ Steps: At the beginning of your precombat main phase, Black Market's second abil
 ## Combo 696-2645-3094-4091
 Cards: Black Market + Lithoform Engine + Aphetto Alchemist + Staff of Domination
 Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}
-Produces: Infinite black mana; Infinite card draw; Infinite lifegain; Infinite mana artifacts you control can produce; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of artifacts you control; Infinite untap of creatures you control
+Produces: Infinite black mana; Infinite card draw; Infinite lifegain; Infinite mana artifacts you control can produce; Infinite mana creatures you control can produce; Infinite lifegain triggers; Tap all creatures opponents control; Infinite draw triggers; Infinite untap of artifacts you control; Infinite untap of creatures you control
 Start: Black Market (battlefield); Lithoform Engine (battlefield); Aphetto Alchemist (battlefield); Staff of Domination (battlefield)
 Prerequisites: Black Market has at least seven charge counters on it.
   Aphetto Alchemist does not have summoning sickness.
@@ -17762,32 +17720,12 @@ Steps: Activate Trazyn using Gilded Lotus's ability by tapping it, adding three 
   Activate Trazyn by paying {2}, untapping it.
   Repeat.
 
-## Combo 719-3767-3918-5527
-Cards: Scuttling Sliver + Trazyn the Infinite + Xenograft + Five Hundred Year Diary
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite blue mana; Infinite mana creatures you control can produce; Infinite untap of creatures you control
-Start: Scuttling Sliver (battlefield); Trazyn the Infinite (battlefield, graveyard: without summoning sickness); Xenograft (battlefield: with "Sliver" chosen); Five Hundred Year Diary (graveyard)
-Prerequisites: You control at least three Clues.
-Steps: Activate Trazyn using Five Hundred Year Diary's ability by tapping it, adding at least {U}{U}{U}.
-  Activate Trazyn by paying {2}, untapping it.
-  Repeat.
-
 ## Combo 719-3767-3918-6893
 Cards: Scuttling Sliver + Trazyn the Infinite + The Eternity Elevator + Xenograft
 Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite colorless mana; Infinite untap of creatures you control
 Start: Scuttling Sliver (battlefield); Trazyn the Infinite (battlefield: without summoning sickness); The Eternity Elevator (graveyard); Xenograft (battlefield: with "Sliver" chosen)
 Steps: Activate Trazyn using The Eternity Elevator's ability by tapping it, adding {C}{C}{C}
-  Activate Trazyn by paying {2}, untapping it.
-  Repeat.
-
-## Combo 719-3767-3918-7013
-Cards: Scuttling Sliver + Trazyn the Infinite + Xenograft + White Lotus Tile
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite mana creatures you control can produce; Infinite untap of creatures you control
-Start: Scuttling Sliver (battlefield); Trazyn the Infinite (battlefield: without summoning sickness); Xenograft (battlefield: with "Sliver" chosen); White Lotus Tile (graveyard)
-Prerequisites: You control at least three creatures
-Steps: Activate Trazyn using White Lotus Tile's ability by tapping it, adding at least three mana of any color.
   Activate Trazyn by paying {2}, untapping it.
   Repeat.
 
@@ -20014,7 +19952,7 @@ Steps: Cause an opponent to discard at least one card.
 
 ## Combo 742-1061
 Cards: Demonic Consultation + Timestream Navigator
-Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 670 | Commander: legal | Mana needed: {4}{U}{U}{U}{B} the first turn, with {3}{U}{U}{U} each extra turn
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 680 | Commander: legal | Mana needed: {4}{U}{U}{U}{B} the first turn, with {3}{U}{U}{U} each extra turn
 Produces: Infinite turns; Exile your library; Skip your draw steps; Lock
 Start: Demonic Consultation (hand); Timestream Navigator (battlefield: without summoning sickness)
 Prerequisites: You have six or more cards in your library.
@@ -20122,7 +20060,7 @@ Steps: Activate Skirga Familiar by discarding Shrieking Drake, adding {B}.
 
 ## Combo 751-1063-4067
 Cards: Oskar, Rubbish Reclaimer + Shrieking Drake + Mind Over Matter
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite self-discard triggers; Infinite storm count
 Start: Oskar, Rubbish Reclaimer (battlefield); Shrieking Drake (hand); Mind Over Matter (battlefield)
 Prerequisites: You control a permanent that can tap to produce at least {U}.
@@ -21211,32 +21149,12 @@ Steps: Activate Trazyn using Gilded Lotus's ability by tapping it, adding three 
   Activate Trazyn by paying {2}, untapping it.
   Repeat.
 
-## Combo 803-3767-3918-5527
-Cards: Scuttling Sliver + Trazyn the Infinite + Arcane Adaptation + Five Hundred Year Diary
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite blue mana; Infinite mana creatures you control can produce; Infinite untap of creatures you control
-Start: Scuttling Sliver (battlefield); Trazyn the Infinite (battlefield: without summoning sickness); Arcane Adaptation (battlefield: with "Sliver" chosen); Five Hundred Year Diary (graveyard)
-Prerequisites: You control at least three Clues.
-Steps: Activate Trazyn using Five Hundred Year Diary's ability by tapping it, adding at least {U}{U}{U}.
-  Activate Trazyn by paying {2}, untapping it.
-  Repeat.
-
 ## Combo 803-3767-3918-6893
 Cards: Scuttling Sliver + Trazyn the Infinite + The Eternity Elevator + Arcane Adaptation
 Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite colorless mana; Infinite untap of creatures you control
 Start: Scuttling Sliver (battlefield); Trazyn the Infinite (battlefield: without summoning sickness); The Eternity Elevator (graveyard); Arcane Adaptation (battlefield: with "Sliver" chosen)
 Steps: Activate Trazyn using The Eternity Elevator's ability by tapping it, adding {C}{C}{C}
-  Activate Trazyn by paying {2}, untapping it.
-  Repeat.
-
-## Combo 803-3767-3918-7013
-Cards: Scuttling Sliver + Trazyn the Infinite + Arcane Adaptation + White Lotus Tile
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite mana creatures you control can produce; Infinite untap of creatures you control
-Start: Scuttling Sliver (battlefield); Trazyn the Infinite (battlefield: without summoning sickness); Arcane Adaptation (battlefield: with "Sliver" chosen); White Lotus Tile (graveyard)
-Prerequisites: You control at least three creatures
-Steps: Activate Trazyn using White Lotus Tile's ability by tapping it, adding at least three mana of any color.
   Activate Trazyn by paying {2}, untapping it.
   Repeat.
 
@@ -21365,7 +21283,7 @@ Steps: Cast Sacrifice by paying {B} and sacrificing Scholar of the Ages, adding 
 
 ## Combo 813-1170-2196-2701
 Cards: Displacer Kitten + Frantic Search + Dark Ritual + Scholar of the Ages
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 94 | Commander: legal | Mana needed: {B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 95 | Commander: legal | Mana needed: {B}
 Produces: Near-infinite mana lands you control can produce; Near-infinite black mana; Infinite looting; Near-infinite untap of lands you control; Infinite self-discard triggers; Near-infinite creature ETB; Infinite draw triggers; Near-infinite storm count; Near-infinite creature LTB; Near-infinite magecraft triggers; Return all instant and sorcery cards from your graveyard to your hand
 Start: Displacer Kitten (battlefield); Frantic Search (graveyard); Dark Ritual (hand); Scholar of the Ages (battlefield)
 Prerequisites: You control up to three lands that can tap to produce at least {U}.
@@ -21592,7 +21510,7 @@ Steps: Cast Culling the Weak by paying {B} and sacrificing Scholar of the Ages, 
 
 ## Combo 813-2081-8129
 Cards: Scholar of the Ages + Culling the Weak + Stitch Together
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 63 | Commander: legal | Mana needed: {B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 62 | Commander: legal | Mana needed: {B}
 Produces: Infinite black mana; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite magecraft triggers; Infinite storm count; Return all instant and sorcery cards from your graveyard to your hand
 Start: Scholar of the Ages (battlefield); Culling the Weak (hand); Stitch Together (hand)
 Prerequisites: There are at least seven cards in your graveyard.
@@ -21759,17 +21677,6 @@ Steps: Activate Amoeboid Changeling by tapping it, causing Trazyn to become a Sl
   Activate Trazyn by paying {2}, untapping it.
   Repeat from step 2.
 
-## Combo 826-3767-3918-5527
-Cards: Scuttling Sliver + Trazyn the Infinite + Amoeboid Changeling + Five Hundred Year Diary
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite blue mana; Infinite untap of some creatures you control
-Start: Scuttling Sliver (battlefield); Trazyn the Infinite (battlefield: without summoning sickness); Amoeboid Changeling (battlefield: without summoning sickness); Five Hundred Year Diary (graveyard)
-Prerequisites: You control at least three Clues.
-Steps: Activate Amoeboid Changeling by tapping it, causing Trazyn to become a Sliver until end of turn.
-  Activate Trazyn using Five Hundred Year Diary's ability by tapping it, adding at least {U}{U}{U}.
-  Activate Trazyn by paying {2}, untapping it.
-  Repeat from step 2.
-
 ## Combo 826-3767-3918-6893
 Cards: Scuttling Sliver + Trazyn the Infinite + The Eternity Elevator + Amoeboid Changeling
 Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -21777,17 +21684,6 @@ Produces: Infinite colorless mana; Infinite untap of some creatures you control
 Start: Scuttling Sliver (battlefield); Trazyn the Infinite (battlefield: without summoning sickness); The Eternity Elevator (graveyard); Amoeboid Changeling (battlefield: without summoning sickness)
 Steps: Activate Amoeboid Changeling by tapping it, causing Trazyn to become a Sliver until end of turn.
   Activate Trazyn using The Eternity Elevator's ability by tapping it, adding {C}{C}{C}
-  Activate Trazyn by paying {2}, untapping it.
-  Repeat from step 2.
-
-## Combo 826-3767-3918-7013
-Cards: Scuttling Sliver + Trazyn the Infinite + Amoeboid Changeling + White Lotus Tile
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite untap of some creatures you control
-Start: Scuttling Sliver (battlefield); Trazyn the Infinite (battlefield: without summoning sickness); Amoeboid Changeling (battlefield: without summoning sickness); White Lotus Tile (graveyard)
-Prerequisites: You control at least three creatures that share a creature type.
-Steps: Activate Amoeboid Changeling by tapping it, causing Trazyn to become a Sliver until end of turn.
-  Activate Trazyn using White Lotus Tile's ability by tapping it, adding at least three mana of any color.
   Activate Trazyn by paying {2}, untapping it.
   Repeat from step 2.
 
@@ -22212,7 +22108,7 @@ Steps: Activate Myr Turbine by tapping it and five Myr, searching your library f
 
 ## Combo 904-2770-4126
 Cards: Despotic Scepter + Nefarious Lich + Donate
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 41 | Commander: legal | Mana needed: {2}{U}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 42 | Commander: legal | Mana needed: {2}{U}
 Produces: Target opponent loses the game
 Start: Despotic Scepter (battlefield); Nefarious Lich (battlefield); Donate (hand)
 Steps: Cast Donate by paying {2}{U}, giving an opponent control of Nefarious Lich.
@@ -22249,7 +22145,7 @@ Steps: Activate Ioreth's second ability by tapping it, untapping Norritt and ano
 
 ## Combo 908-4639
 Cards: Unctus, Grand Metatect + Norritt
-Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 74 | Commander: legal | Mana needed: {U/P}
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 73 | Commander: legal | Mana needed: {U/P}
 Produces: Infinite looting; Infinite draw triggers; Infinite self-discard triggers
 Start: Unctus, Grand Metatect (battlefield); Norritt (battlefield: without summoning sickness)
 Steps: Activate Unctus by paying {U/P}, causing Norritt to become a blue artifact until end of turn.
@@ -22406,17 +22302,6 @@ Start: Synod Artificer (exile: exiled by Hazel's Brewmaster); Hazel's Brewmaster
 Prerequisites: You control a Food.
 Steps: Activate Gilded Lotus by tapping it, adding at least three mana of any color.
   Activate a Food using Synod Artificer's second ability by paying {2} and tapping it, untapping the Food and Gilded Lotus.
-  Repeat.
-
-## Combo 915-5527-5856
-Cards: Synod Artificer + Hazel's Brewmaster + Five Hundred Year Diary
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite blue mana; Infinite mana noncreature artifacts you control can produce; Infinite untap of noncreature artifacts you control
-Start: Synod Artificer (exile: exiled by Hazel's Brewmaster); Hazel's Brewmaster (battlefield); Five Hundred Year Diary (battlefield)
-Prerequisites: You control at least three Clues.
-  You control a Food.
-Steps: Activate Five Hundred Year Diary by tapping it, adding at least {U}{U}{U}.
-  Activate a Food using Synod Artificer's second ability by paying {2} and tapping it, untapping the Food and Five Hundred Year Diary.
   Repeat.
 
 ## Combo 915-5856-6893
@@ -22800,16 +22685,6 @@ Steps: Activate Trazyn using Gilded Lotus's ability by tapping it, adding three 
   Activate Trazyn by paying {2}, untapping it.
   Repeat.
 
-## Combo 934-3767-3918-5527
-Cards: Scuttling Sliver + Trazyn the Infinite + Amorphous Axe + Five Hundred Year Diary
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite blue mana; Infinite untap of some creatures you control
-Start: Scuttling Sliver (battlefield); Trazyn the Infinite (battlefield: without summoning sickness); Amorphous Axe (battlefield: attached to Trazyn); Five Hundred Year Diary (graveyard)
-Prerequisites: You control at least three Clues.
-Steps: Activate Trazyn using Five Hundred Year Diary's ability by tapping it, adding at least {U}{U}{U}.
-  Activate Trazyn by paying {2}, untapping it.
-  Repeat.
-
 ## Combo 934-3767-3918-6893
 Cards: Scuttling Sliver + Trazyn the Infinite + The Eternity Elevator + Amorphous Axe
 Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -22818,16 +22693,6 @@ Start: Scuttling Sliver (battlefield); Trazyn the Infinite (battlefield: without
 Steps: Activate Trazyn using The Eternity Elevator's ability by tapping it, adding {C}{C}{C}
   Activate Trazyn by paying {2}, untapping it.
   Repeat
-
-## Combo 934-3767-3918-7013
-Cards: Scuttling Sliver + Trazyn the Infinite + Amorphous Axe + White Lotus Tile
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite untap of some creatures you control
-Start: Scuttling Sliver (battlefield); Trazyn the Infinite (battlefield: without summoning sickness); Amorphous Axe (battlefield: attached to Trazyn); White Lotus Tile (graveyard)
-Prerequisites: You control at least X creatures that share a creature type.
-Steps: Activate Trazyn using White Lotus Tile's ability by tapping it, adding three mana of any color.
-  Activate Trazyn by paying {2}, untapping it.
-  Repeat.
 
 ## Combo 934-3767-3918-7685
 Cards: Scuttling Sliver + Trazyn the Infinite + Amorphous Axe + Arc Reactor
@@ -23406,7 +23271,7 @@ Steps: Activate Servant of Tymaret using Fatestitcher's ability by tapping it, u
 
 ## Combo 953-1371-2152
 Cards: Hive Mind + Enter the Infinite + Fate Unraveler
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 31 | Commander: legal | Mana needed: {8}{U}{U}{U}{U}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal | Mana needed: {8}{U}{U}{U}{U}
 Produces: Each opponent loses the game; Infinite card draw for all players; Near-infinite damage; Infinite draw triggers for all players
 Start: Hive Mind (battlefield); Enter the Infinite (hand); Fate Unraveler (battlefield)
 Prerequisites: Each opponent's life total is less than or equal to their deck size.
@@ -23419,7 +23284,7 @@ Steps: Cast Enter the Infinite by paying {8}{U}{U}{U}{U}.
 
 ## Combo 953-1371-2720
 Cards: Hive Mind + Enter the Infinite + Underworld Dreams
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal | Mana needed: {8}{U}{U}{U}{U}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal | Mana needed: {8}{U}{U}{U}{U}
 Produces: Each opponent loses the game; Infinite card draw for all players; Near-infinite damage; Infinite draw triggers for all players
 Start: Hive Mind (battlefield); Enter the Infinite (hand); Underworld Dreams (battlefield)
 Prerequisites: Each opponent's life total is less than or equal to their deck size.
@@ -23432,7 +23297,7 @@ Steps: Cast Enter the Infinite by paying {8}{U}{U}{U}{U}.
 
 ## Combo 957-1170-6333
 Cards: Displacer Kitten + Emet-Selch, Unsundered // Hades, Sorcerer of Eld + Time Stretch
-Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 66 | Commander: legal
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 65 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Displacer Kitten (battlefield); Emet-Selch, Unsundered // Hades, Sorcerer of Eld (battlefield); Time Stretch (graveyard)
 Prerequisites: You have at least thirteen cards in your graveyard.
@@ -23550,7 +23415,7 @@ Steps: Cast Ugin's Nexus by paying {5}.
 
 ## Combo 970-1369-1742
 Cards: Asmodeus the Archfiend + Quicksilver Elemental + Skirge Familiar
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 87 | Commander: legal | Mana needed: {U}{B}{B}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal | Mana needed: {U}{B}{B}{B}
 Produces: Near-infinite black mana; Near-infinite card draw; Infinite looting; Infinite self-discard triggers; Infinite draw triggers
 Start: Asmodeus the Archfiend (battlefield); Quicksilver Elemental (battlefield); Skirge Familiar (battlefield)
 Prerequisites: You have a way to remove Asmodeus from the battlefield.
@@ -24720,7 +24585,7 @@ Steps: Donate Blightbeetle to an opponent
 
 ## Combo 997-7936--5
 Cards: Dominion Saboteur + Woe Strider
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite scry 1
 Requires: Persist Creature (battlefield)
 Start: Dominion Saboteur (battlefield: as a copy of the creature with persist); Woe Strider (battlefield)
@@ -24881,7 +24746,7 @@ Steps: Activate Emry by tapping it, allowing you to cast Phyrexian Walker from y
 
 ## Combo 1003-2034-3249
 Cards: Havengul Lich + Ashnod's Altar + Phyrexian Walker
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal
 Produces: Infinite colorless mana; Infinite artifact ETB; Infinite artifact LTB; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Havengul Lich (battlefield); Ashnod's Altar (battlefield); Phyrexian Walker (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Phyrexian Walker, adding {C}{C}.
@@ -24901,7 +24766,7 @@ Steps: Activate Phyrexian Altar by sacrificing Phyrexian Walker, adding one mana
 
 ## Combo 1003-3249-4659
 Cards: Havengul Lich + Krark-Clan Ironworks + Phyrexian Walker
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
 Produces: Infinite colorless mana; Infinite artifact ETB; Infinite artifact LTB; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Havengul Lich (battlefield); Krark-Clan Ironworks (battlefield); Phyrexian Walker (battlefield)
 Steps: Activate Krark-Clan Ironworks by sacrificing Phyrexian Walker, adding {C}{C}.
@@ -25341,7 +25206,7 @@ Steps: Activate King Macar by tapping it, causing a player to mill cards equal t
 
 ## Combo 1055-1074-4222
 Cards: Phenax, God of Deception + Freed from the Real + King Macar, the Gold-Cursed
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 640 | Commander: legal | Mana needed: {U}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 630 | Commander: legal | Mana needed: {U}
 Produces: Near-infinite mill; Near-infinite self-mill; Exile all creatures opponents control
 Start: Phenax, God of Deception (battlefield); Freed from the Real (battlefield); King Macar, the Gold-Cursed (battlefield)
 Prerequisites: Freed from the Real attached to King Macar.
@@ -25378,7 +25243,7 @@ Notes: This combo can be repeated each turn as mana allows.
 
 ## Combo 1055-1438
 Cards: Phenax, God of Deception + Eater of the Dead
-Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 5100 | Commander: legal
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 5200 | Commander: legal
 Produces: Near-infinite mill; Near-infinite self-mill
 Start: Phenax, God of Deception (battlefield); Eater of the Dead (battlefield: without summoning sickness)
 Steps: Activate Eater of the Dead by tapping it, causing a player to mill cards equal to its toughness.
@@ -25844,7 +25709,7 @@ Steps: Activate King Macar using Clever Conjurer's ability by tapping it, untapp
 
 ## Combo 1074-3525-4474
 Cards: King Macar, the Gold-Cursed + Pemmin's Aura + Paradise Mantle
-Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 66 | Commander: legal
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 64 | Commander: legal
 Produces: Near-infinite colored mana; Near-infinite Gold tokens; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Exile all creatures opponents control
 Start: King Macar, the Gold-Cursed (battlefield: without summoning sickness); Pemmin's Aura (battlefield: attached to King Macar); Paradise Mantle (battlefield: attached to King Macar)
 Steps: Activate King Macar by tapping it, adding {U}.
@@ -25877,7 +25742,7 @@ Steps: Activate King Macar using Aphetto Alchemist's ability by tapping it, unta
 
 ## Combo 1074-4222-4474
 Cards: King Macar, the Gold-Cursed + Freed from the Real + Paradise Mantle
-Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 110 | Commander: legal
+Color identity: UB | Bracket: 3-4+ (Spicy) | Popularity: 100 | Commander: legal
 Produces: Near-infinite colored mana; Near-infinite Gold tokens; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Exile all creatures opponents control
 Start: King Macar, the Gold-Cursed (battlefield: without summoning sickness); Freed from the Real (battlefield: attached to King Macar); Paradise Mantle (battlefield: attached to King Macar)
 Steps: Activate King Macar by tapping it, adding {U}.
@@ -25936,7 +25801,7 @@ Steps: Activate King Macar using North Pole Patrol's ability by tapping it, unta
 
 ## Combo 1077-1165-2861
 Cards: Archfiend of the Dross + Heartless Act + Wrong Turn
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 430 | Commander: legal | Mana needed: {3}{U}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 440 | Commander: legal | Mana needed: {3}{U}{B}
 Produces: Target opponent loses the game at the beginning of their next upkeep
 Start: Archfiend of the Dross (battlefield); Heartless Act (hand); Wrong Turn (hand)
 Prerequisites: Archfiend of the Dross has no more than four oil counters on it.
@@ -26435,7 +26300,7 @@ Steps: Activate The Chain Veil by paying {4} and tapping it, allowing an additio
 
 ## Combo 1124-1636-2034-3323-4091
 Cards: Tevesh Szat, Doom of Fools + The Chain Veil + Ashnod's Altar + Aphetto Alchemist + Intruder Alarm
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite activations of most planeswalkers; Infinite mana artifacts you control can produce; Infinite mana creatures you control can produce; Infinite untap of creatures; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite untap of artifacts you control
 Start: Tevesh Szat, Doom of Fools (battlefield); The Chain Veil (battlefield); Ashnod's Altar (battlefield); Aphetto Alchemist (battlefield); Intruder Alarm (battlefield)
 Prerequisites: Aphetto Alchemist does not have summoning sickness.
@@ -26620,7 +26485,7 @@ Steps: Cast Donate Giving control of Wall of Blood to an opponent.
 
 ## Combo 1170-1309-2196-2701
 Cards: Displacer Kitten + Frantic Search + Dark Ritual + Salvager of Secrets
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal | Mana needed: {B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal | Mana needed: {B}
 Produces: Near-infinite mana lands you control can produce; Near-infinite black mana; Infinite looting; Near-infinite untap of lands you control; Infinite self-discard triggers; Near-infinite creature ETB; Infinite draw triggers; Near-infinite storm count; Near-infinite creature LTB; Near-infinite magecraft triggers
 Start: Displacer Kitten (battlefield); Frantic Search (graveyard); Dark Ritual (hand); Salvager of Secrets (battlefield)
 Prerequisites: You control up to three lands that can tap to produce at least {U}.
@@ -26734,7 +26599,7 @@ Steps: Cast Dark Ritual by paying {B}.
 
 ## Combo 1170-2196-2556-2701
 Cards: Displacer Kitten + Frantic Search + Dark Ritual + Mnemonic Wall
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 59 | Commander: legal | Mana needed: {B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal | Mana needed: {B}
 Produces: Near-infinite mana lands you control can produce; Near-infinite black mana; Infinite looting; Near-infinite untap of lands you control; Infinite self-discard triggers; Near-infinite creature ETB; Infinite draw triggers; Near-infinite storm count; Near-infinite creature LTB; Near-infinite magecraft triggers
 Start: Displacer Kitten (battlefield); Frantic Search (graveyard); Dark Ritual (hand); Mnemonic Wall (battlefield)
 Prerequisites: You control up to three lands that can tap to produce at least {U}.
@@ -27215,7 +27080,7 @@ Steps: Activate Machine God's Effigy by tapping it, adding {U}.
 ## Combo 1242-1656-2838
 Cards: Necrotic Ooze + Cinderhaze Wretch + Soul Diviner
 Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal
-Produces: Infinite card draw
+Produces: Infinite card draw; Infinite draw triggers
 Start: Necrotic Ooze (battlefield); Cinderhaze Wretch (graveyard); Soul Diviner (graveyard)
 Prerequisites: Necrotic Ooze does not have summoning sickness.
 Steps: Activate Necrotic Ooze by putting a -1/-1 counter on it, untapping it.
@@ -27224,7 +27089,7 @@ Steps: Activate Necrotic Ooze by putting a -1/-1 counter on it, untapping it.
 
 ## Combo 1247-1656-3772
 Cards: Necrotic Ooze + Pili-Pala + Omen Hawker
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 220 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 230 | Commander: legal
 Produces: Infinite colored mana; Infinite colorless mana that can only be spent to activate abilities
 Start: Necrotic Ooze (battlefield); Pili-Pala (graveyard); Omen Hawker (graveyard)
 Prerequisites: Necrotic Ooze does not have summoning sickness.
@@ -27863,7 +27728,7 @@ Steps: Declare Inquisitor Eisenhorn as an attacker.
 
 ## Combo 1303-1574-1769
 Cards: Necroduality + Rot Hulk + Rot-Tide Gargantua
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal | Mana needed: {5}{B}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 48 | Commander: legal | Mana needed: {5}{B}{B}
 Produces: Infinite creature tokens; Each opponent sacrifices all creatures they control; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Return some creature cards from your graveyard to the battlefield
 Start: Necroduality (battlefield); Rot Hulk (hand); Rot-Tide Gargantua (graveyard)
 Steps: Cast Rot Hulk by paying {5}{B}{B}.
@@ -27951,7 +27816,7 @@ Steps: Cast Rot Hulk by paying {5}{B}{B}.
 
 ## Combo 1303-1769-2974
 Cards: Necroduality + Rot Hulk + Repository Skaab
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 910 | Commander: legal | Mana needed: {5}{B}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 920 | Commander: legal | Mana needed: {5}{B}{B}
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Return all instant and sorcery cards from your graveyard to your hand; Return some creature cards from your graveyard to the battlefield
 Start: Necroduality (battlefield); Rot Hulk (hand); Repository Skaab (graveyard)
 Steps: Cast Rot Hulk by paying {5}{B}{B}.
@@ -28137,7 +28002,7 @@ Steps: Activate Havengul Lich by paying {1}, allowing you to cast Shambling Ghas
 
 ## Combo 1303-2438-3249-5173
 Cards: Havengul Lich + Necroduality + Shambling Ghast + Carrion Feeder
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 690 | Commander: legal | Mana needed: {1}{B}
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 700 | Commander: legal | Mana needed: {1}{B}
 Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count
 Start: Havengul Lich (battlefield); Necroduality (battlefield); Shambling Ghast (graveyard); Carrion Feeder (battlefield)
 Steps: Activate Havengul Lich by paying {1}, allowing you to cast Shambling Ghast card from your graveyard this turn.
@@ -28902,7 +28767,7 @@ Steps: Activate Emry by tapping it, allowing you to cast Sewer-veillance Cam fro
 
 ## Combo 1329-6798-7340
 Cards: Emry, Lurker of the Loch + Sewer-veillance Cam + Umbral Collar Zealot
-Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 80 | Commander: legal
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 79 | Commander: legal
 Produces: Infinite surveil; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite storm count
 Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Sewer-veillance Cam (graveyard); Umbral Collar Zealot (battlefield)
 Prerequisites: You control a creature that can tap to produce at least {U}.
@@ -31751,7 +31616,7 @@ Steps: Declare Terror of Towashi as an attacker.
 
 ## Combo 1558-1692-2740-4231
 Cards: Time Sieve + Tamiyo's Journal + Academy Manufactor + Helm of the Host
-Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 170 | Commander: legal
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 160 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Time Sieve (battlefield); Tamiyo's Journal (battlefield); Academy Manufactor (battlefield); Helm of the Host (battlefield)
 Prerequisites: Helm of the Host attached to Academy Manufactor.
@@ -31811,7 +31676,7 @@ Steps: At the beginning of your combat step, Helm of the Host triggers, creating
 
 ## Combo 1558-1692-4840
 Cards: Time Sieve + Myr Battlesphere + Helm of the Host
-Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 260 | Commander: legal
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 250 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Time Sieve (battlefield); Myr Battlesphere (battlefield); Helm of the Host (battlefield)
 Prerequisites: Helm of the Host attached to Myr Battlesphere.
@@ -31892,7 +31757,7 @@ Steps: Attack with a creatue you control.
 
 ## Combo 1558-2361-4840
 Cards: Time Sieve + Myr Battlesphere + Sword of Light and Shadow
-Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 23 | Commander: legal | Mana needed: {7} each turn
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 22 | Commander: legal | Mana needed: {7} each turn
 Produces: Infinite turns; Lock
 Start: Time Sieve (battlefield); Myr Battlesphere (graveyard); Sword of Light and Shadow (battlefield)
 Prerequisites: Sword of Light and Shadow attached to a creature you control that does not have summoning sickness and that cannot be blocked by an opponent.
@@ -32302,3 +32167,133 @@ Steps: Cast Myr Battlesphere by paying {7}.
   Resolve the Time Sieve ability, causing you to take an extra turn after this one.
   Move to your next turn, drawing Myr Battlesphere during your draw step.
   Repeat.
+
+## Combo 1558-4840-6911
+Cards: Impostor Syndrome + Time Sieve + Myr Battlesphere
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 16 | Commander: legal
+Produces: Infinite turns; Lock
+Start: Impostor Syndrome (battlefield); Time Sieve (battlefield); Myr Battlesphere (battlefield: without summoning sickness)
+Prerequisites: An opponent cannot block Myr Battlesphere.
+Steps: Deal combat damage to an opponent using Myr Battlesphere, triggering Impostor Syndrome, creating a token copy of Myr Battlesphere.
+  When the Myr Battlesphere token enters, it triggers, creating four 1/1 Myr artifact creature tokens.
+  Activate Time Sieve by tapping it, sacrificing the four Myr tokens and sacrificing the Myr Battlesphere token, causing you to take an extra turn after this one.
+  Repeat each turn.
+
+## Combo 1558-4840-7631
+Cards: Echocasting Symposium + Myr Battlesphere + Time Sieve
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 11 | Commander: legal | Mana needed: {4}{U}{U}
+Produces: Infinite turns; Lock
+Start: Echocasting Symposium (hand); Myr Battlesphere (battlefield); Time Sieve (battlefield)
+Steps: Cast Echocasting Symposium by paying {4}{U}{U}, creating a token copy of Myr Battlesphere and exiling Echocasting Symposium.
+  When Myr Battlesphere enters, it triggers, creating four 1/1 Myr artifact creature tokens.
+  Activate Time Sieve by tapping it, sacrificing the Myr Battlesphere token and the four Myr tokens, causing you to take an extra turn after this one.
+  Move to your next turn. At the beginning of your precombat main phase, Echocasting Symposium's paradigm ability triggers, causing you to cast a copy of it from exile. Resolve the copy, creating a token copy of Myr Battlesphere.
+  Repeat from step 2.
+
+## Combo 1558-4840-7650
+Cards: Time Sieve + Myr Battlesphere + Bilbo, Thief in the Night
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 11 | Commander: legal | Mana needed: {6} each turn
+Produces: Infinite turns; Lock
+Start: Time Sieve (battlefield); Myr Battlesphere (graveyard); Bilbo, Thief in the Night (battlefield: without summoning sickness)
+Prerequisites: An opponent cannot block and kill Bilbo.
+Steps: Declare Bilbo as an attacker, triggering its ability, causing you to cast Myr Battlesphere from your graveyard by paying {6}.
+  When Myr Battlesphere enters, it triggers, creating four 1/1 Myr creature tokens.
+  Activate Time Sieve by tapping it, sacrificing Myr Battlesphere and sacrificing the four Myr tokens, causing you to take an extra turn after this one.
+  Repeat each turn.
+
+## Combo 1558-4840-8193
+Cards: Time Sieve + Myr Battlesphere + Avacyn, Angel of Horror
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 4 | Commander: legal | Mana needed: {7}
+Produces: Infinite turns; Lock
+Start: Time Sieve (battlefield); Myr Battlesphere (hand); Avacyn, Angel of Horror (battlefield)
+Steps: Cast Myr Battlesphere by paying {7}.
+  When Myr Battlesphere enters, it triggers, creating four 1/1 Myr creature tokens.
+  Activate Time Sieve by tapping it, sacrificing Myr Battlesphere and sacrificing the four Myr tokens, causing you to take an extra turn after this one.
+  At the beginning of your end step, Avacyn triggers, returning Myr Battlesphere from your graveyard to the battlefield.
+  When Myr Battlesphere enters, it triggers, creating four 1/1 Myr creature tokens.
+  Repeat from step 3 each turn.
+
+## Combo 1558-5146
+Cards: Thopter Assembly + Time Sieve
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 6400 | Commander: legal | Mana needed: {6}
+Produces: Infinite turns; Lock
+Start: Thopter Assembly (battlefield); Time Sieve (battlefield)
+Prerequisites: Thopter Assembly is your only thopter.
+Steps: At the beginning of your upkeep, Thopter Assembly triggers, returning itself it your hand and creating 5 Thopter tokens .Sacrifice those tokens to Time Sieve to take an extra turn.
+  Cast Thopter Assembly for {6}.
+  Repeat for infinite turns.
+
+## Combo 1558-5325
+Cards: Time Sieve + Exsanguinator Cavalry
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 130 | Commander: legal
+Produces: Infinite turns; Lock
+Start: Time Sieve (battlefield); Exsanguinator Cavalry (battlefield)
+Prerequisites: You control at least five Knights that do not have summoning sickness and that cannot be blocked by an opponent.
+Steps: Deal combat damage using at least five Knights.
+  Exsanguinator Cavalry triggers, putting a +1/+1 counter on each attacking Knight and creating that many Blood artifact tokens.
+  Activate Time Sieve by tapping it and sacrificing five Bloods, causing you to take an extra turn after this one.
+  Repeat.
+
+## Combo 1558-5395
+Cards: Piper Wright, Publick Reporter + Time Sieve
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 2000 | Commander: legal
+Produces: Infinite turns; Lock
+Start: Piper Wright, Publick Reporter (battlefield); Time Sieve (battlefield)
+Prerequisites: An opponent cannot block Piper Wright.
+  Piper Wright has power 5 or greater.
+Steps: Deal combat damage to an opponent using Piper Wright.
+  Piper Wright's first ability triggers, creating at least five Clue artifact tokens.
+  Activate Time Sieve by tapping it and sacrificing five Clues.
+  Piper Wright's second ability triggers five times, putting five +1/+1 counters on a creature you control.
+  Resolve the Time Sieve ability, causing you to take an extra turn after this one.
+  Repeat each turn.
+
+## Combo 1558-6307
+Cards: Time Sieve + Luxurious Locomotive
+Color identity: UB | Bracket: 4+ (Ruthless) | Popularity: 550 | Commander: legal
+Produces: Infinite turns; Lock
+Start: Time Sieve (battlefield); Luxurious Locomotive (battlefield)
+Prerequisites: You control at least five creatures with total power 1 or greater.
+  An opponent cannot block and kill Luxurious Locomotive.
+Steps: Activate Luxurious Locomotive's crew ability by tapping five creatures you control with total power 1 or greater, causing Luxurious Locomotive to become an artifact creature until end of turn.
+  Declare Luxurious Locomotive as an attacker.
+  Luxurious Locomotive triggers, creating at least five Treasure tokens.
+  Activate Time Sieve by tapping it and sacrificing five Treasures, causing you to take an extra turn after this one.
+  Repeat each turn.
+
+## Combo 1561-2836-6624
+Cards: Sea Gate Restoration // Sea Gate, Reborn + Peer into the Abyss + Laboratory Maniac
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 710 | Commander: legal | Mana needed: {8}{U}{U}{U}{B}{B}{B}
+Produces: Win the game; Infinite card draw; Infinite draw triggers
+Start: Sea Gate Restoration // Sea Gate, Reborn (hand); Peer into the Abyss (hand); Laboratory Maniac (battlefield)
+Prerequisites: Your life total is 2 or higher.
+Steps: Cast Peer into the Abyss by paying {4}{B}{B}{B}, causing you to draw half your library and lose half your life total, rounding up each time.
+  Cast Sea Gate Restoration by paying {4}{U}{U}{U}, causing you to draw a number of cards equal to the number of cards in your hand. When you attempt to draw from an empty library this way, you will win the game due to Laboratory Maniac.
+
+## Combo 1561-3096-6624
+Cards: Sea Gate Restoration // Sea Gate, Reborn + Peer into the Abyss + Jace, Wielder of Mysteries
+Color identity: UB | Bracket: 1+ (Exhibition) | Popularity: 460 | Commander: legal | Mana needed: {8}{U}{U}{U}{B}{B}{B}
+Produces: Win the game; Infinite card draw; Infinite draw triggers
+Start: Sea Gate Restoration // Sea Gate, Reborn (hand); Peer into the Abyss (hand); Jace, Wielder of Mysteries (battlefield)
+Prerequisites: Your life total is 2 or higher.
+Steps: Cast Peer into the Abyss by paying {4}{B}{B}{B}, causing you to draw half your library and lose half your life total, rounding up each time.
+  Cast Sea Gate Restoration by paying {4}{U}{U}{U}, causing you to draw a number of cards equal to the number of cards in your hand. When you attempt to draw from an empty library this way, you will win the game due to Jace.
+
+## Combo 1561-3384
+Cards: Peer into the Abyss + Thought Reflection
+Color identity: UB | Bracket: 2-3+ (Oddball) | Popularity: 380 | Commander: legal | Mana needed: {4}{B}{B}{B}
+Produces: Infinite card draw; Infinite draw triggers
+Start: Peer into the Abyss (hand); Thought Reflection (battlefield)
+Prerequisites: Your life total is at least 2.
+  Your deck size is even.
+Steps: Cast Peer into the Abyss by paying {4}{B}{B}{B}, causing you to lose half your life total rounded up and draw your library due to Thought Reflection.
+
+## Combo 1561-4032
+Cards: Peer into the Abyss + Psychic Corrosion
+Color identity: UB | Bracket: 2-3+ (Oddball) | Popularity: 3300 | Commander: legal | Mana needed: {4}{B}{B}{B}
+Produces: Infinite mill
+Start: Peer into the Abyss (hand); Psychic Corrosion (battlefield)
+Prerequisites: Number of cards in library greater than or equal to the number of cards in each opponent's library.
+Steps: Cast Peer into the Abyss, targeting yourself.
+  Psychich Corrosion triggers for each card you've drawn, milling each opponent's libary completely.
+  Pass the turn to your opponent; They will lose when they attempt to draw a card on their turns.

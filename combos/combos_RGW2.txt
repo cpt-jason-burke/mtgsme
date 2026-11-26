@@ -1,3 +1,30 @@
+## Combo 1981-2415-7272-8319
+Cards: Darien, King of Kjeldor + Havoc Jester + Reaper of Flight Moonsilver + Greenhouse Propagator
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite lifegain triggers; Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Darien, King of Kjeldor (battlefield); Havoc Jester (battlefield); Reaper of Flight Moonsilver (battlefield); Greenhouse Propagator (battlefield)
+Prerequisites: You control another creature.
+  You have 2 or more life.
+  You have at least four card types in your graveyard.
+Steps: Activate Reaper of Flight Moonsilver by sacrificing a creature.
+  When the creature dies, Havoc Jester triggers, dealing 1 damage to you.
+  Darien triggers, creating a 1/1 Soldier creature token.
+  When the Soldier enters, Greenhouse Propagator triggers, causing you to gain 1 life
+  Resolve the Reaper of Flight Moonsilver ability.
+  Repeat.
+
+## Combo 1981-2741-5147
+Cards: Darien, King of Kjeldor + Essence Warden + Goblin Bombardment
+Color identity: RGW | Bracket: 2-3+ (Oddball) | Popularity: 15 | Commander: legal
+Produces: Infinite lifegain triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Start: Darien, King of Kjeldor (battlefield); Essence Warden (battlefield); Goblin Bombardment (battlefield)
+Prerequisites: You control an additional creature.
+  Your life total is at least 2.
+Steps: Activate Goblin Bombardment by sacrificing any other creature you control, dealing 1 damage to yourself.
+  Darien triggers, causing you to create a 1/1 Soldier creature token.
+  When the Soldier enters, Essence Warden triggers, causing you to gain 1 life.
+  Repeat.
+
 ## Combo 1981-3188-5147
 Cards: Darien, King of Kjeldor + Social Climber + Goblin Bombardment
 Color identity: RGW | Bracket: 2-3+ (Oddball) | Popularity: 1 | Commander: legal
@@ -66,7 +93,7 @@ Steps: Activate Sunforger by paying {R}{W} and unattaching it, searching your li
 
 ## Combo 1990-8194-8195
 Cards: Dack Fayden, Helping Hand + Venser, Fervent Forger + Worldly Tutor
-Color identity: RGW | Bracket: 3+ (Powerful) | Popularity: 65 | Commander: legal | Mana needed: {4}{G}{W}{W}
+Color identity: RGW | Bracket: 3+ (Powerful) | Popularity: 69 | Commander: legal | Mana needed: {4}{G}{W}{W}
 Produces: Infinite creature tokens with haste; Infinite artifact tokens; Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Start: Dack Fayden, Helping Hand (hand); Venser, Fervent Forger (library); Worldly Tutor (hand)
 Steps: Cast Worldly Tutor by paying {G}, searching your library for Venser and revealing it, then shuffling your library and putting that card on top.
@@ -301,7 +328,7 @@ Notes: You should alternate what color you add with Redshift to ensure that you'
 ## Combo 2026-2645-3430-5233
 Cards: Staff of Domination + Nyxbloom Ancient + Voyaging Satyr + Boros Garrison
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Voyaging Satyr (battlefield); Boros Garrison (battlefield)
 Prerequisites: Voyaging Satyr doesn't have summoning sickness.
 Steps: Activate Boros Garrison by tapping it, adding {R}{R}{R}{W}{W}{W} due to Nyxbloom Ancient
@@ -1160,7 +1187,7 @@ Steps: Cast Firdoch Core by paying {3}.
 ## Combo 2037-4658
 Cards: Minsc & Boo, Timeless Heroes + Soul of Eternity
 Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 26 | Commander: legal
-Produces: Target opponent loses the game; Near-infinite damage to one opponent
+Produces: Near-infinite damage to one opponent; Target opponent loses the game
 Start: Minsc & Boo, Timeless Heroes (battlefield); Soul of Eternity (battlefield)
 Prerequisites: Minsc & Boo has at least two loyalty counters on it.
   Your life total is higher than or equal to an opponent's.
@@ -2554,7 +2581,7 @@ Steps: Cast a copy of Seething Song from exile by paying no more than {1}{R}, ad
 
 ## Combo 2154-8194-8195
 Cards: Dack Fayden, Helping Hand + Venser, Fervent Forger + Sylvan Tutor
-Color identity: RGW | Bracket: 2+ (Core) | Popularity: 12 | Commander: legal | Mana needed: {4}{G}{W}{W}
+Color identity: RGW | Bracket: 2+ (Core) | Popularity: 13 | Commander: legal | Mana needed: {4}{G}{W}{W}
 Produces: Infinite creature tokens with haste; Infinite artifact tokens; Infinite copies of permanents opponents control; Infinite artifact ETB; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Start: Dack Fayden, Helping Hand (hand); Venser, Fervent Forger (library); Sylvan Tutor (hand)
 Steps: Cast Sylvan Tutor by paying {G}, searching your library for Venser and revealing it, then shuffling your library and putting that card on top.
@@ -2571,7 +2598,7 @@ Steps: Cast Sylvan Tutor by paying {G}, searching your library for Venser and re
 ## Combo 2174-2645-3430-5233
 Cards: Staff of Domination + Nyxbloom Ancient + Juniper Order Druid + Boros Garrison
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Juniper Order Druid (battlefield); Boros Garrison (battlefield)
 Prerequisites: Juniper Order Druid doesn't have summoning sickness.
 Steps: Activate Boros Garrison by tapping it, adding {R}{R}{R}{W}{W}{W} due to Nyxbloom Ancient
@@ -2657,7 +2684,7 @@ Steps: Activate Ghired by tapping it, creating a token copy of any creature toke
 
 ## Combo 2178-5147-5470
 Cards: Ghired, Mirror of the Wilds + Thornbite Staff + Goblin Bombardment
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 190 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 200 | Commander: legal
 Produces: Infinite damage; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Ghired, Mirror of the Wilds (battlefield); Thornbite Staff (battlefield); Goblin Bombardment (battlefield)
 Prerequisites: Thornbite Staff attached to Ghired.
@@ -3298,7 +3325,7 @@ Steps: Cast Circle of the Land Druid from your graveyard for its retrace cost by
 
 ## Combo 2281-2466-3604
 Cards: Saffi Eriksdotter + Cadric, Soul Kindler + Honor-Worn Shaku
-Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 64 | Commander: legal | Mana needed: {G}{W}
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 63 | Commander: legal | Mana needed: {G}{W}
 Produces: Infinite colorless mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Saffi Eriksdotter (hand); Cadric, Soul Kindler (battlefield); Honor-Worn Shaku (battlefield)
 Steps: Cast Saffi Eriksdotter by paying {G}{W}.
@@ -3369,7 +3396,7 @@ Steps: Cast Saffi by paying {G}{W}.
 
 ## Combo 2281-3604-4549
 Cards: Saffi Eriksdotter + Cadric, Soul Kindler + Relic of Legends
-Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 820 | Commander: legal | Mana needed: {G/W}
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 810 | Commander: legal | Mana needed: {G/W}
 Produces: Infinite colored mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Saffi Eriksdotter (hand); Cadric, Soul Kindler (battlefield); Relic of Legends (battlefield)
 Steps: Activate Relic of Legends' first ability by tapping it, adding {G/W}.
@@ -3672,7 +3699,7 @@ Steps: Cast a copy of Seething Song from exile by paying no more than {1}{R}, ad
 ## Combo 2366-2800-3480-5702
 Cards: Springheart Nantuko + Dryad Arbor + Mirari's Wake + Purphoros, Bronze-Blooded
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Mirari's Wake (battlefield); Purphoros, Bronze-Blooded (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -3685,7 +3712,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-2800-4068-5702
 Cards: Springheart Nantuko + Dryad Arbor + Mirari's Wake + Anger
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Mirari's Wake (battlefield); Anger (graveyard)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -3699,7 +3726,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-2800-4478-5702
 Cards: Springheart Nantuko + Dryad Arbor + Mirari's Wake + Roar of Resistance
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Mirari's Wake (battlefield); Roar of Resistance (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -3712,7 +3739,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-2800-4885-5702
 Cards: Springheart Nantuko + Dryad Arbor + Mirari's Wake + Tuktuk Rubblefort
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Mirari's Wake (battlefield); Tuktuk Rubblefort (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -3725,7 +3752,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-2800-5223-5702
 Cards: Springheart Nantuko + Dryad Arbor + Mirari's Wake + Fires of Yavimaya
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Mirari's Wake (battlefield); Fires of Yavimaya (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -3738,7 +3765,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-2800-5434-5702
 Cards: Springheart Nantuko + Dryad Arbor + Mirari's Wake + Yarus, Roar of the Old Gods
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Mirari's Wake (battlefield); Yarus, Roar of the Old Gods (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -3751,7 +3778,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-2800-5702-6633
 Cards: Springheart Nantuko + Dryad Arbor + Mirari's Wake + The Fire Crystal
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Mirari's Wake (battlefield); The Fire Crystal (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -3764,7 +3791,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-2800-5702-6791
 Cards: Springheart Nantuko + Dryad Arbor + Mirari's Wake + Tannuk, Steadfast Second
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Mirari's Wake (battlefield); Tannuk, Steadfast Second (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -3777,7 +3804,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-2800-5702-6968
 Cards: Springheart Nantuko + Dryad Arbor + Mirari's Wake + Kratos, God of War
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Mirari's Wake (battlefield); Kratos, God of War (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -3790,7 +3817,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-2800-5702-7060
 Cards: Springheart Nantuko + Dryad Arbor + Mirari's Wake + Smellerbee, Rebel Fighter
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Mirari's Wake (battlefield); Smellerbee, Rebel Fighter (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -3803,7 +3830,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3430-4742-5702
 Cards: Springheart Nantuko + Dryad Arbor + Nyxbloom Ancient + Nahiri's Resolve
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nyxbloom Ancient (battlefield); Nahiri's Resolve (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -5995,7 +6022,7 @@ Steps: Cast a copy of Seething Song from exile by paying no more than {1}{R}, ad
 ## Combo 2645-2930-3430-5233
 Cards: Staff of Domination + Nyxbloom Ancient + Portent Tracker + Boros Garrison
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Portent Tracker (battlefield); Boros Garrison (battlefield)
 Prerequisites: Portent Tracker doesn't have summoning sickness.
 Steps: Activate Boros Garrison by tapping it, adding {R}{R}{R}{W}{W}{W} due to Nyxbloom Ancient
@@ -6007,7 +6034,7 @@ Steps: Activate Boros Garrison by tapping it, adding {R}{R}{R}{W}{W}{W} due to N
 ## Combo 2645-3181-3430-5233
 Cards: Staff of Domination + Nyxbloom Ancient + Krosan Restorer + Boros Garrison
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
-Produces: Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Krosan Restorer (battlefield); Boros Garrison (battlefield)
 Prerequisites: Krosan Restorer doesn't have summoning sickness.
 Steps: Activate Boros Garrison by tapping it, adding {R}{R}{R}{W}{W}{W} due to Nyxbloom Ancient
@@ -6019,7 +6046,7 @@ Steps: Activate Boros Garrison by tapping it, adding {R}{R}{R}{W}{W}{W} due to N
 ## Combo 2645-3430-4348-5233
 Cards: Staff of Domination + Nyxbloom Ancient + Ley Druid + Boros Garrison
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite white mana; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite untap of lands you control; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Ley Druid (battlefield); Boros Garrison (battlefield)
 Prerequisites: Ley Druid doesn't have summoning sickness.
 Steps: Activate Boros Garrison by tapping it, adding {R}{R}{R}{W}{W}{W} due to Nyxbloom Ancient
@@ -6031,7 +6058,7 @@ Steps: Activate Boros Garrison by tapping it, adding {R}{R}{R}{W}{W}{W} due to N
 ## Combo 2645-3664-5963-6871-7115
 Cards: Marvin, Murderous Mimic + Toph, Hardheaded Teacher + Toph, the First Metalbender + Staff of Domination + Lotus Field
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 23 | Commander: legal | Mana needed: {5}
-Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Marvin, Murderous Mimic (hand); Toph, Hardheaded Teacher (battlefield); Toph, the First Metalbender (battlefield); Staff of Domination (battlefield); Lotus Field (battlefield)
 Steps: Cast Staff of Domination by paying {3}.
   Toph, Hardheaded Teacher triggers, earthbending Lotus Field.
@@ -6045,7 +6072,7 @@ Steps: Cast Staff of Domination by paying {3}.
 ## Combo 2645-3990-5640
 Cards: Ertha Jo, Frontier Mentor + Staff of Domination + Incubation Druid
 Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 7 | Commander: legal | Mana needed: {3}
-Produces: Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Ertha Jo, Frontier Mentor (battlefield); Staff of Domination (battlefield); Incubation Druid (battlefield: with a +1/+1 counter on it)
 Prerequisites: You control a land that can tap to produce mana.
   Incubation Druid doesn't have summoning sickness.
@@ -6061,7 +6088,7 @@ Steps: Activate Staff of Domination's third ability by paying {3}, targeting Inc
 ## Combo 2645-4667-5640
 Cards: Ertha Jo, Frontier Mentor + Staff of Domination + Elvish Aberration
 Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {3}
-Produces: Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Ertha Jo, Frontier Mentor (battlefield); Staff of Domination (battlefield); Elvish Aberration (battlefield)
 Prerequisites: Elvish Aberration doesn't have summoning sickness.
 Steps: Activate Staff of Domination's third ability by paying {3}, targeting Elvish Aberration.
@@ -6076,7 +6103,7 @@ Steps: Activate Staff of Domination's third ability by paying {3}, targeting Elv
 ## Combo 2645-4717-5963-6871-7115
 Cards: Marvin, Murderous Mimic + Toph, Hardheaded Teacher + Toph, the First Metalbender + Staff of Domination + City of Traitors
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {5}
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Marvin, Murderous Mimic (hand); Toph, Hardheaded Teacher (battlefield); Toph, the First Metalbender (battlefield); Staff of Domination (hand); City of Traitors (battlefield)
 Steps: Cast Staff of Domination by paying {3}.
   Toph, Hardheaded Teacher triggers, earthbending City of Traitors.
@@ -6090,7 +6117,7 @@ Steps: Cast Staff of Domination by paying {3}.
 ## Combo 2645-5233-5963-6871-7115
 Cards: Marvin, Murderous Mimic + Toph, Hardheaded Teacher + Toph, the First Metalbender + Staff of Domination + Boros Garrison
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal | Mana needed: {5}
-Produces: Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite white mana; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite white mana; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Marvin, Murderous Mimic (hand); Toph, Hardheaded Teacher (battlefield); Toph, the First Metalbender (battlefield); Staff of Domination (hand); Boros Garrison (battlefield)
 Steps: Cast Staff of Domination by paying {3}.
   Toph, Hardheaded Teacher triggers, earthbending Boros Garrison.
@@ -6104,7 +6131,7 @@ Steps: Cast Staff of Domination by paying {3}.
 ## Combo 2645-5621-5963-6871-7115
 Cards: Marvin, Murderous Mimic + Toph, Hardheaded Teacher + Toph, the First Metalbender + Staff of Domination + Arid Archway
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {5}
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Marvin, Murderous Mimic (hand); Toph, Hardheaded Teacher (battlefield); Toph, the First Metalbender (battlefield); Staff of Domination (hand); Arid Archway (battlefield)
 Steps: Cast Staff of Domination by paying {3}.
   Toph, Hardheaded Teacher triggers, earthbending Arid Archway.
@@ -6118,7 +6145,7 @@ Steps: Cast Staff of Domination by paying {3}.
 ## Combo 2645-5640-7935
 Cards: Ertha Jo, Frontier Mentor + Staff of Domination + Gumato
 Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal | Mana needed: {3}
-Produces: Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite green mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Ertha Jo, Frontier Mentor (battlefield); Staff of Domination (battlefield); Gumato (battlefield)
 Prerequisites: Gumato doesn't have summoning sickness.
 Steps: Activate Staff of Domination's third ability by paying {3}, targeting Gumato.
@@ -6133,7 +6160,7 @@ Steps: Activate Staff of Domination's third ability by paying {3}, targeting Gum
 ## Combo 2645-5928-5963-6871-7115
 Cards: Marvin, Murderous Mimic + Toph, Hardheaded Teacher + Toph, the First Metalbender + Staff of Domination + Balduvian Trading Post
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {5}
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Marvin, Murderous Mimic (hand); Toph, Hardheaded Teacher (battlefield); Toph, the First Metalbender (battlefield); Staff of Domination (hand); Balduvian Trading Post (battlefield)
 Steps: Cast Staff of Domination by paying {3}.
   Toph, Hardheaded Teacher triggers, earthbending Balduvian Trading Post.
@@ -6147,7 +6174,7 @@ Steps: Cast Staff of Domination by paying {3}.
 ## Combo 2645-5963-6256-6871-7115
 Cards: Marvin, Murderous Mimic + Toph, Hardheaded Teacher + Toph, the First Metalbender + Staff of Domination + Muraganda Raceway
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {5}
-Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Marvin, Murderous Mimic (hand); Toph, Hardheaded Teacher (battlefield); Toph, the First Metalbender (battlefield); Staff of Domination (hand); Muraganda Raceway (battlefield)
 Prerequisites: You have max speed.
 Steps: Cast Staff of Domination by paying {3}.
@@ -6162,7 +6189,7 @@ Steps: Cast Staff of Domination by paying {3}.
 ## Combo 2645-5963-6871-7069-7115
 Cards: Marvin, Murderous Mimic + Toph, Hardheaded Teacher + Toph, the First Metalbender + Staff of Domination + Tectonic Split
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {5}
-Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite card draw; Infinite colored mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Marvin, Murderous Mimic (hand); Toph, Hardheaded Teacher (battlefield); Toph, the First Metalbender (battlefield); Staff of Domination (battlefield); Tectonic Split (battlefield)
 Prerequisites: You control an untapped land.
 Steps: Cast Staff of Domination by paying {3}.
@@ -6242,7 +6269,7 @@ Steps: Activate Fertilid by paying {1}{G} and removing a +1/+1 counter from it, 
 ## Combo 2653-5702-6871
 Cards: Toph, the First Metalbender + Springheart Nantuko + Nissa, Resurgent Animist
 Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 1100 | Commander: legal | Mana needed: {2}{G}{G}
-Produces: Infinite tapped land tokens; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite tapped land tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Toph, the First Metalbender (battlefield); Springheart Nantuko (battlefield); Nissa, Resurgent Animist (battlefield)
 Prerequisites: You have a land card in hand.
   You control a land that enters untapped and that can tap to produce at least {1}.
@@ -6257,7 +6284,7 @@ Steps: At the beginning of your end step, Toph triggers, animating a land you co
 
 ## Combo 2713-2757-4499
 Cards: Emiel the Blessed + Earthcraft + Zirda, the Dawnwaker
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 40 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB
 Start: Emiel the Blessed (battlefield); Earthcraft (battlefield); Zirda, the Dawnwaker (battlefield)
 Prerequisites: You control a basic land.
@@ -7473,10 +7500,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 2919-3197-6890-7810
-Cards: Archangel of Thune + Arbaaz Mir + Herd Baloth + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Archangel of Thune + Arbaaz Mir + Herd Baloth
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite +1/+1 counters on creatures you control; Infinite creature tokens; Infinite damage; Infinite lifegain; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Archangel of Thune (battlefield); Arbaaz Mir (battlefield); Herd Baloth (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Archangel of Thune (battlefield); Arbaaz Mir (battlefield); Herd Baloth (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Archangel of Thune triggers, putting a +1/+1 counter on each creature you control.
@@ -7525,10 +7552,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 2919-4186-6890-7810
-Cards: Archangel of Thune + Arbaaz Mir + Scurry Oak + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Archangel of Thune + Arbaaz Mir + Scurry Oak
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite +1/+1 counters on creatures you control; Infinite creature tokens; Infinite damage; Infinite lifegain; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Archangel of Thune (battlefield: attached to Scurry Oak); Arbaaz Mir (battlefield); Scurry Oak (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Archangel of Thune (battlefield: attached to Scurry Oak); Arbaaz Mir (battlefield); Scurry Oak (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Archangel of Thune triggers, putting a +1/+1 counter on each creature you control.
@@ -7587,10 +7614,10 @@ Steps: Activate Triskelavus by paying {1} and removing a +1/+1 counter from it, 
   Repeat from step 1.
 
 ## Combo 2919-5641-6890-7810
-Cards: Basking Broodscale + Archangel of Thune + Arbaaz Mir + Tippy-Toe, Terrific Partner
+Cards: Basking Broodscale + Tippy-Toe, Terrific Partner + Archangel of Thune + Arbaaz Mir
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite +1/+1 counters on creatures you control; Infinite colorless mana; Infinite creature tokens; Infinite damage; Infinite lifegain; Infinite artifact tokens; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Basking Broodscale (battlefield); Archangel of Thune (battlefield); Arbaaz Mir (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Basking Broodscale (battlefield); Tippy-Toe, Terrific Partner (battlefield); Archangel of Thune (battlefield); Arbaaz Mir (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Archangel of Thune triggers, putting a +1/+1 counter on each creature you control.
@@ -8181,10 +8208,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 3197-4017-6890-7810
-Cards: Arbaaz Mir + Herd Baloth + Sunbond + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Arbaaz Mir + Herd Baloth + Sunbond
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite damage; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Arbaaz Mir (battlefield); Herd Baloth (battlefield); Sunbond (battlefield: attached to Herd Baloth); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Arbaaz Mir (battlefield); Herd Baloth (battlefield); Sunbond (battlefield: attached to Herd Baloth)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Sunbond triggers, putting a +1/+1 counter on Herd Baloth.
@@ -8267,10 +8294,10 @@ Steps: Cast Herd Baloth by paying its mana cost.
   Repeat from step 5.
 
 ## Combo 3197-6824-6890-7810
-Cards: Arbaaz Mir + Herd Baloth + Spider-Man, Peter Parker + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Arbaaz Mir + Herd Baloth + Spider-Man, Peter Parker
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite damage; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Arbaaz Mir (battlefield); Herd Baloth (battlefield); Spider-Man, Peter Parker (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Arbaaz Mir (battlefield); Herd Baloth (battlefield); Spider-Man, Peter Parker (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Spider-Man triggers, putting a +1/+1 counter on Herd Baloth.
@@ -8279,10 +8306,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 3197-6890-6996-7810
-Cards: Arbaaz Mir + Herd Baloth + The Destined White Mage + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Arbaaz Mir + Herd Baloth + The Destined White Mage
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite damage; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Arbaaz Mir (battlefield); Herd Baloth (battlefield); The Destined White Mage (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Arbaaz Mir (battlefield); Herd Baloth (battlefield); The Destined White Mage (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   The Destined White Mage triggers, putting a +1/+1 counter on Herd Baloth.
@@ -8291,10 +8318,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 3197-6890-7743-7810
-Cards: Arbaaz Mir + Herd Baloth + Heroic Feast + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Arbaaz Mir + Herd Baloth + Heroic Feast
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite damage; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Arbaaz Mir (battlefield); Herd Baloth (battlefield); Heroic Feast (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Arbaaz Mir (battlefield); Herd Baloth (battlefield); Heroic Feast (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Heroic Feast triggers, putting a +1/+1 counter on Herd Baloth.
@@ -9240,7 +9267,7 @@ Steps: Declare the creature with Breath of Fury attached and Ghalta and Mavren a
 
 ## Combo 3259-4373-6633
 Cards: Breath of Fury + Ghalta and Mavren + The Fire Crystal
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
 Produces: Infinite combat damage; Infinite combat phases; Infinite mana creatures you control can produce; Infinite creature tokens with haste; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite untap of creatures you control
 Start: Breath of Fury (battlefield: attached to another creature you control); Ghalta and Mavren (battlefield); The Fire Crystal (battlefield)
 Prerequisites: An opponent cannot block creatures you control.
@@ -10587,7 +10614,7 @@ Steps: Activate Boommobile's crew ability by tapping Battered Golem, causing Boo
 
 ## Combo 3459-5470
 Cards: Ghired, Mirror of the Wilds + Battered Golem
-Color identity: RGW | Bracket: 2-3+ (Oddball) | Popularity: 220 | Commander: legal
+Color identity: RGW | Bracket: 2-3+ (Oddball) | Popularity: 230 | Commander: legal
 Produces: Infinite copies of artifact tokens you control that entered the battlefield this turn
 Start: Ghired, Mirror of the Wilds (battlefield); Battered Golem (battlefield)
 Prerequisites: You have a way to create an artifact token this turn.
@@ -10599,7 +10626,7 @@ Steps: Create an artifact token.
 
 ## Combo 3464-5470
 Cards: Ghired, Mirror of the Wilds + Hyrax Tower Scout
-Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 340 | Commander: legal
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 350 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB
 Start: Ghired, Mirror of the Wilds (battlefield); Hyrax Tower Scout (battlefield)
 Prerequisites: You have a way to create a token copy of Hyrax Tower Scout.
@@ -10626,7 +10653,7 @@ Steps: Activate a mana-producing creature by tapping it, adding at least {1}.
 ## Combo 3470-5702-6871
 Cards: Toph, the First Metalbender + Springheart Nantuko + Lotus Cobra
 Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 5400 | Commander: legal | Mana needed: {2}{G}{G}
-Produces: Infinite tapped land tokens; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite tapped land tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Toph, the First Metalbender (battlefield); Springheart Nantuko (battlefield); Lotus Cobra (battlefield)
 Prerequisites: You have a land card in hand.
   You control a land that enters untapped and that can tap to produce at least {1}.
@@ -12452,7 +12479,7 @@ Notes: The mana needed varies based on Casey Jones' power when starting the comb
 ## Combo 3875-5702-6871
 Cards: Toph, the First Metalbender + Springheart Nantuko + Tireless Provisioner
 Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 5000 | Commander: legal | Mana needed: {2}{G}{G}
-Produces: Infinite tapped land tokens; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite tapped land tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Toph, the First Metalbender (battlefield); Springheart Nantuko (battlefield); Tireless Provisioner (battlefield)
 Prerequisites: You have a land card in hand.
   You control a land that enters untapped and that can tap to produce at least {1}.
@@ -12567,10 +12594,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 4017-4186-6890-7810
-Cards: Arbaaz Mir + Sunbond + Scurry Oak + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Arbaaz Mir + Sunbond + Scurry Oak
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite damage; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Arbaaz Mir (battlefield); Sunbond (battlefield: attached to Scurry Oak); Scurry Oak (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Arbaaz Mir (battlefield); Sunbond (battlefield: attached to Scurry Oak); Scurry Oak (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Sunbond triggers, putting a +1/+1 counter on Scurry Oak.
@@ -12627,10 +12654,10 @@ Steps: Activate Triskelavus by paying {1} and removing a +1/+1 counter from it, 
   Repeat from step 1.
 
 ## Combo 4017-5641-6890-7810
-Cards: Basking Broodscale + Arbaaz Mir + Sunbond + Tippy-Toe, Terrific Partner
+Cards: Basking Broodscale + Tippy-Toe, Terrific Partner + Arbaaz Mir + Sunbond
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite damage; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Basking Broodscale (battlefield); Arbaaz Mir (battlefield); Sunbond (battlefield: attached to Basking Broodscale); Tippy-Toe, Terrific Partner (battlefield)
+Start: Basking Broodscale (battlefield); Tippy-Toe, Terrific Partner (battlefield); Arbaaz Mir (battlefield); Sunbond (battlefield: attached to Basking Broodscale)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Sunbond triggers, putting a +1/+1 counter on Basking Broodscale.
@@ -13144,10 +13171,10 @@ Steps: Cast Scurry Oak by paying its mana cost.
   Repeat from step 5.
 
 ## Combo 4186-6824-6890-7810
-Cards: Arbaaz Mir + Scurry Oak + Spider-Man, Peter Parker + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Arbaaz Mir + Scurry Oak + Spider-Man, Peter Parker
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite damage; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Arbaaz Mir (battlefield); Scurry Oak (battlefield); Spider-Man, Peter Parker (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Arbaaz Mir (battlefield); Scurry Oak (battlefield); Spider-Man, Peter Parker (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Spider-Man triggers, putting a +1/+1 counter on Scurry Oak.
@@ -13156,10 +13183,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 4186-6890-6996-7810
-Cards: Arbaaz Mir + Scurry Oak + The Destined White Mage + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Arbaaz Mir + Scurry Oak + The Destined White Mage
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite damage; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Arbaaz Mir (battlefield); Scurry Oak (battlefield); The Destined White Mage (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Arbaaz Mir (battlefield); Scurry Oak (battlefield); The Destined White Mage (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   The Destined White Mage triggers, putting a +1/+1 counter on Scurry Oak.
@@ -13168,10 +13195,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 4186-6890-7743-7810
-Cards: Arbaaz Mir + Scurry Oak + Heroic Feast + Tippy-Toe, Terrific Partner
+Cards: Tippy-Toe, Terrific Partner + Arbaaz Mir + Scurry Oak + Heroic Feast
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite creature tokens; Infinite damage; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB
-Start: Arbaaz Mir (battlefield); Scurry Oak (battlefield); Heroic Feast (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Tippy-Toe, Terrific Partner (battlefield); Arbaaz Mir (battlefield); Scurry Oak (battlefield); Heroic Feast (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Heroic Feast triggers, putting a +1/+1 counter on Scurry Oak.
@@ -14082,7 +14109,7 @@ Notes: Additional mana and/or prerequisites may be required depending on the met
 
 ## Combo 4490-7816--210
 Cards: Shalai and Hallar + Titanbones, Towering Heart
-Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 31 | Commander: legal
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 32 | Commander: legal
 Produces: Infinite damage; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers
 Requires: Card That Gives Lifelink (hand, battlefield)
 Start: Shalai and Hallar (battlefield); Titanbones, Towering Heart (battlefield)
@@ -14110,7 +14137,7 @@ Notes: Additional mana and/or prerequisites may be required depending on the met
 
 ## Combo 4490-8173--210
 Cards: Shalai and Hallar + Lyra, Archangel of Dawn
-Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 140 | Commander: legal
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 150 | Commander: legal
 Produces: Infinite damage; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite +1/+1 counters on certain creatures; Infinite lifegain triggers
 Requires: Card That Gives Lifelink (hand, battlefield)
 Start: Shalai and Hallar (battlefield); Lyra, Archangel of Dawn (battlefield)
@@ -14124,7 +14151,7 @@ Notes: Additional mana and/or prerequisites may be required depending on the met
 
 ## Combo 4490-8206--210
 Cards: Shalai and Hallar + Unflinching Hortimancer
-Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 49 | Commander: legal
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 51 | Commander: legal
 Produces: Infinite damage; Infinite lifegain; Infinite +1/+1 counters on a creature; Infinite lifegain triggers
 Requires: Card That Gives Lifelink (hand, battlefield)
 Start: Shalai and Hallar (battlefield); Unflinching Hortimancer (battlefield)
@@ -14416,7 +14443,7 @@ Steps: Cast Cursor Mirror by paying {2}{R}.
 
 ## Combo 4499-5195-7494
 Cards: Blazing Firesinger // Seething Song + Emiel the Blessed + Storm-Kiln Artist
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 73 | Commander: legal | Mana needed: {2}{R}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 77 | Commander: legal | Mana needed: {2}{R}
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
 Start: Blazing Firesinger // Seething Song (battlefield); Emiel the Blessed (battlefield); Storm-Kiln Artist (battlefield)
 Steps: Cast a copy of Seething Song from exile by paying no more than {1}{R}, adding {R}{R}{R}{R}{R}.
@@ -14517,7 +14544,7 @@ Steps: Cast a copy of Seething Song from exile by paying no more than {1}{R}, ad
 
 ## Combo 4499-7356-7494
 Cards: Blazing Firesinger // Seething Song + Emiel the Blessed + Longshot, Rebel Bowman
-Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 3 | Commander: legal | Mana needed: {1}{R}
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 4 | Commander: legal | Mana needed: {1}{R}
 Produces: Infinite damage; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
 Start: Blazing Firesinger // Seething Song (battlefield); Emiel the Blessed (battlefield); Longshot, Rebel Bowman (battlefield)
 Steps: Cast a copy of Seething Song from exile by paying no more than {1}{R}, adding {R}{R}{R}{R}{R}.
@@ -14597,7 +14624,7 @@ Steps: Cast Nature's Rhythm from your hand by paying {5}{G}{G} or from your grav
 
 ## Combo 4605-4681-5147-7261
 Cards: Preston, the Vanisher + Goblin Bombardment + Karmic Guide + Chord of Calling
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {5}{G}{G}{G} at most
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {5}{G}{G}{G} at most
 Produces: Infinite creature tokens; Infinite damage; Infinite recursion of creature cards in your graveyard; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Preston, the Vanisher (battlefield); Goblin Bombardment (battlefield); Karmic Guide (hand); Chord of Calling (hand)
 Steps: Cast Chord of Calling by paying at most {5}{G}{G}{G}, searching your library for Karmic Guide and putting it onto the battlefield.
@@ -16933,7 +16960,7 @@ Steps: Create a token copy of Fear of Missing Out.
 
 ## Combo 5470-7895
 Cards: Ghired, Mirror of the Wilds + Little Bear
-Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 54 | Commander: legal
+Color identity: RGW | Bracket: 3-4+ (Spicy) | Popularity: 55 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB
 Start: Ghired, Mirror of the Wilds (battlefield); Little Bear (battlefield)
 Prerequisites: You have a way to create a token copy of Little Bear.
@@ -16944,7 +16971,7 @@ Steps: Create a token copy of Little Bear.
 
 ## Combo 5640-5917-7895
 Cards: The Jolly Balloon Man + Ertha Jo, Frontier Mentor + Little Bear
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal
 Produces: Infinite creature tokens with haste; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Start: The Jolly Balloon Man (battlefield); Ertha Jo, Frontier Mentor (battlefield); Little Bear (battlefield)
 Prerequisites: You control a creature that can tap to produce at least {1}.
@@ -16958,10 +16985,10 @@ Steps: Activate a mana-producing creature by tapping it, adding at least {1}.
   Repeat from step 2.
 
 ## Combo 5641-6824-6890-7810
-Cards: Basking Broodscale + Arbaaz Mir + Spider-Man, Peter Parker + Tippy-Toe, Terrific Partner
+Cards: Basking Broodscale + Tippy-Toe, Terrific Partner + Arbaaz Mir + Spider-Man, Peter Parker
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite damage; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Basking Broodscale (battlefield); Arbaaz Mir (battlefield); Spider-Man, Peter Parker (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Basking Broodscale (battlefield); Tippy-Toe, Terrific Partner (battlefield); Arbaaz Mir (battlefield); Spider-Man, Peter Parker (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Spider-Man triggers, putting a +1/+1 counter on Basking Broodscale.
@@ -16970,10 +16997,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 5641-6890-6996-7810
-Cards: Basking Broodscale + Arbaaz Mir + The Destined White Mage + Tippy-Toe, Terrific Partner
+Cards: Basking Broodscale + Tippy-Toe, Terrific Partner + Arbaaz Mir + The Destined White Mage
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite damage; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Basking Broodscale (battlefield); Arbaaz Mir (battlefield); The Destined White Mage (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Basking Broodscale (battlefield); Tippy-Toe, Terrific Partner (battlefield); Arbaaz Mir (battlefield); The Destined White Mage (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   The Destined White Mage triggers, putting a +1/+1 counter on Basking Broodscale.
@@ -16982,10 +17009,10 @@ Steps: Gain life.
   Repeat from step 2.
 
 ## Combo 5641-6890-7743-7810
-Cards: Basking Broodscale + Arbaaz Mir + Heroic Feast + Tippy-Toe, Terrific Partner
+Cards: Basking Broodscale + Tippy-Toe, Terrific Partner + Arbaaz Mir + Heroic Feast
 Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite damage; Infinite lifegain; Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite lifegain triggers; Infinite artifact ETB; Infinite Food tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Basking Broodscale (battlefield); Arbaaz Mir (battlefield); Heroic Feast (battlefield); Tippy-Toe, Terrific Partner (battlefield)
+Start: Basking Broodscale (battlefield); Tippy-Toe, Terrific Partner (battlefield); Arbaaz Mir (battlefield); Heroic Feast (battlefield)
 Prerequisites: You have a way to gain life.
 Steps: Gain life.
   Heroic Feast triggers, putting a +1/+1 counter on Basking Broodscale.
@@ -16995,7 +17022,7 @@ Steps: Gain life.
 
 ## Combo 5641-8174
 Cards: Mabel, Valley Hero + Basking Broodscale
-Color identity: RGW | Bracket: 4+ (Ruthless) | Popularity: 61 | Commander: legal | Mana needed: {1}{G}
+Color identity: RGW | Bracket: 4+ (Ruthless) | Popularity: 62 | Commander: legal | Mana needed: {1}{G}
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Mabel, Valley Hero (battlefield); Basking Broodscale (hand)
 Steps: Cast Basking Broodscale by paying its mana cost.
@@ -17131,7 +17158,7 @@ Steps: Cast Stonework Puma by paying {3}.
 
 ## Combo 6620-6871-6879-7298
 Cards: Toph, the First Metalbender + Haru, Hidden Talent + Firdoch Core + Sylvan Safekeeper
-Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 22 | Commander: legal | Mana needed: {3}
+Color identity: RGW | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal | Mana needed: {3}
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers
 Start: Toph, the First Metalbender (battlefield); Haru, Hidden Talent (battlefield); Firdoch Core (hand); Sylvan Safekeeper (battlefield)
 Steps: Cast Firdoch Core by paying {3}.

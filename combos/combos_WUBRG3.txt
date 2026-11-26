@@ -1,3 +1,11 @@
+## Combo 2871-7117
+Cards: Avatar Aang // Aang, Master of Elements + Seething Anger
+Color identity: WUBRG | Bracket: 4+ (Ruthless) | Popularity: 110 | Commander: legal
+Produces: Infinitely powerful creatures you control until end of turn; Infinite storm count; Infinite magecraft triggers
+Start: Avatar Aang // Aang, Master of Elements (battlefield); Seething Anger (hand)
+Steps: Cast Seething Anger with buyback by paying {0} due to Aang's cost reduction, giving a creature +3/+0 until end of turn and returning Seething Anger to your hand.
+  Repeat.
+
 ## Combo 2872-3480-5921-5970
 Cards: Marina Vendrell + Mirror Room // Fractured Realm + Clever Conjurer + Purphoros, Bronze-Blooded
 Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -913,7 +921,7 @@ Steps: Cast any artifact creature by paying its mana cost.
 ## Combo 2921-6517-7084
 Cards: Beifong's Bounty Hunters + Bartolomé del Presidio + Dragonback Assault
 Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Beifong's Bounty Hunters (battlefield); Bartolomé del Presidio (battlefield); Dragonback Assault (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -1517,7 +1525,7 @@ Steps: Declare Altaïr as an attacker, triggering its ability, exiling Éomer fr
 
 ## Combo 3129-4050-4385
 Cards: Sliver Queen + Phyrexian Altar + Primal Vigor
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 28 | Commander: legal | Mana needed: {2}
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal | Mana needed: {2}
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Sliver Queen (battlefield); Phyrexian Altar (battlefield); Primal Vigor (battlefield)
 Steps: Activate Sliver Queen by paying {2}, creating two 1/1 Sliver creature tokens.
@@ -4344,7 +4352,7 @@ Steps: Cast Greenwarden of Murasa for its evoke cost by paying {4}.
 
 ## Combo 3519-6072-7182
 Cards: Ashling, the Limitless + Food Chain + Graveshifter
-Color identity: WUBRG | Bracket: 3-4+ (Spicy) | Popularity: 550 | Commander: legal | Mana needed: {4}
+Color identity: WUBRG | Bracket: 3-4+ (Spicy) | Popularity: 560 | Commander: legal | Mana needed: {4}
 Produces: Infinite colored mana that can only be spent to cast creature spells; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count; Return all cards from your graveyard to your hand
 Start: Ashling, the Limitless (battlefield); Food Chain (battlefield); Graveshifter (hand)
 Steps: Cast Graveshifter for its evoke cost by paying {4}.
@@ -4891,31 +4899,12 @@ Steps: Activate Trazyn using Gilded Lotus's ability by tapping it, adding three 
   Activate Trazyn by paying {2}, untapping it.
   Repeat.
 
-## Combo 3767-3918-4452-5527
-Cards: Scuttling Sliver + Trazyn the Infinite + Rukarumel, Biologist + Five Hundred Year Diary
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite blue mana; Infinite mana creatures you control can produce; Infinite untap of creatures you control
-Start: Scuttling Sliver (battlefield); Trazyn the Infinite (battlefield: without summoning sickness); Rukarumel, Biologist (battlefield: with "Sliver" chosen); Five Hundred Year Diary (graveyard)
-Prerequisites: You control at least three Clues.
-Steps: Activate Trazyn using Five Hundred Year Diary's ability by tapping it, adding at least {U}{U}{U}.
-  Activate Trazyn by paying {2}, untapping it.
-  Repeat.
-
 ## Combo 3767-3918-4452-6893
 Cards: Scuttling Sliver + Trazyn the Infinite + The Eternity Elevator + Rukarumel, Biologist
 Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinite colorless mana; Infinite untap of creatures you control
 Start: Scuttling Sliver (battlefield); Trazyn the Infinite (battlefield: without summoning sickness); The Eternity Elevator (graveyard); Rukarumel, Biologist (battlefield: with "Sliver" chosen)
 Steps: Activate Trazyn using The Eternity Elevator's ability by tapping it, adding {C}{C}{C}
-  Activate Trazyn by paying {2}, untapping it.
-  Repeat.
-
-## Combo 3767-3918-4452-7013
-Cards: Scuttling Sliver + Trazyn the Infinite + Rukarumel, Biologist + White Lotus Tile
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite colored mana; Infinite mana creatures you control can produce; Infinite untap of creatures you control
-Start: Scuttling Sliver (battlefield); Trazyn the Infinite (battlefield: without summoning sickness); Rukarumel, Biologist (battlefield: with "Sliver" chosen); White Lotus Tile (graveyard)
-Steps: Activate Trazyn using White Lotus Tile's ability by tapping it, adding at least three mana of any color.
   Activate Trazyn by paying {2}, untapping it.
   Repeat.
 
@@ -5959,7 +5948,7 @@ Steps: Cast Infinite Guideline Station either from your hand or from the command
 
 ## Combo 4050-4365-4385
 Cards: Sliver Queen + Phyrexian Altar + Mondrak, Glory Dominus
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 68 | Commander: legal | Mana needed: {2}
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 69 | Commander: legal | Mana needed: {2}
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Sliver Queen (battlefield); Phyrexian Altar (battlefield); Mondrak, Glory Dominus (battlefield)
 Steps: Activate Sliver Queen by paying {2}, creating two 1/1 Sliver creature tokens.
@@ -7270,7 +7259,7 @@ Notes: The chosen Saga must have no more than four chapter abilities. Once you h
 
 ## Combo 4153-6575-7296--136
 Cards: Terra, Magical Adept // Esper Terra + Resourceful Defense + Gimli's Reckless Might
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {4}{R}{G}
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {4}{R}{G}
 Produces: Infinite colored mana; Infinite self-mill; Infinite creature ETB; Infinite creature LTB; Infinite token copies of nonlegendary enchantments you control
 Requires: Nonlegendary Saga (battlefield)
 Start: Terra, Magical Adept // Esper Terra (battlefield); Resourceful Defense (battlefield); Gimli's Reckless Might (battlefield)
@@ -7327,7 +7316,7 @@ Notes: The chosen Saga must have no more than four chapter abilities. Once you h
 
 ## Combo 4218-4452
 Cards: The World Tree + Rukarumel, Biologist
-Color identity: WUBRG | Bracket: 2+ (Core) | Popularity: 5200 | Commander: legal | Mana needed: {W}{W}{U}{U}{B}{B}{R}{R}{G}{G}
+Color identity: WUBRG | Bracket: 2+ (Core) | Popularity: 5300 | Commander: legal | Mana needed: {W}{W}{U}{U}{B}{B}{R}{R}{G}{G}
 Produces: Put all creature cards from your library onto the battlefield
 Start: The World Tree (battlefield); Rukarumel, Biologist (battlefield: with "God" chosen)
 Steps: Activate The World Tree's second ability by paying {W}{W}{U}{U}{B}{B}{R}{R}{G}{G}, tapping and sacrificing it, causing you to search for all creatures in your library, as they are all Gods due to Rukarumel and put them onto the battlefield.
@@ -8989,7 +8978,7 @@ Steps: Activate a creature you control that has a +1/+1 counter on it by tapping
 
 ## Combo 4613-4893-4929-5140
 Cards: Kenrith, the Returned King + Cryptic Trilobite + Agatha's Soul Cauldron + Training Grounds
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal | Mana needed: {1}
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal | Mana needed: {1}
 Produces: Infinite lifegain; Infinite card draw for any number of players; Infinite +1/+1 counters on creatures you control; Infinite lifegain triggers; Infinite colorless mana that can only be spent to activate abilities; Return all creature cards from all graveyards to the battlefield under your control; Infinite colored mana that can only be spent to activate abilities; Infinite draw triggers for any number of opponents
 Start: Kenrith, the Returned King (battlefield); Cryptic Trilobite (battlefield); Agatha's Soul Cauldron (battlefield); Training Grounds (battlefield)
 Steps: Activate Kenrith's second ability by paying {1}, putting a +1/+1 counter on Cryptic Trilobite.
@@ -9358,7 +9347,7 @@ Notes: If the opponent can pay for Smothering Tithe's trigger more times, you ca
 
 ## Combo 4682-4893-7132
 Cards: Super-Skrull + Smothering Tithe + Training Grounds
-Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 660 | Commander: legal | Mana needed: {3}{U}
+Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 670 | Commander: legal | Mana needed: {3}{U}
 Produces: Infinite card draw for any number of opponents; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Infinite draw triggers for any number of opponents
 Start: Super-Skrull (battlefield); Smothering Tithe (battlefield); Training Grounds (battlefield)
 Prerequisites: An opponent cannot pay for Smothering Tithe's trigger.
@@ -9442,7 +9431,7 @@ Notes: Eventually the opponent will lose the game due to drawing from an empty l
 
 ## Combo 4682-5184-7132
 Cards: Super-Skrull + Smothering Tithe + Xorn
-Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 8 | Commander: legal | Mana needed: {5}{U}
+Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 9 | Commander: legal | Mana needed: {5}{U}
 Produces: Infinite card draw for any number of opponents; Near-infinite Treasure tokens; Near-infinite card draw; Near-infinite colored mana; Near-infinite creature tokens; Near-infinitely large creature until end of turn; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Infinite draw triggers for any number of opponents; Near-infinite creature ETB; Near-infinite draw triggers
 Start: Super-Skrull (battlefield); Smothering Tithe (battlefield); Xorn (battlefield)
 Prerequisites: An opponent cannot pay for Smothering Tithe's trigger more than once.
@@ -9649,7 +9638,7 @@ Steps: Declare Overlord of the Hauntwoods as an attacker.
 
 ## Combo 4772-5902-6575--85
 Cards: Terra, Magical Adept // Esper Terra + Doubling Season + Innkeeper's Talent
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 70 | Commander: legal | Mana needed: {4}{R}{G}
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 69 | Commander: legal | Mana needed: {4}{R}{G}
 Produces: Infinite colored mana; Infinite self-mill; Infinite creature LTB; Infinite creature ETB
 Requires: Haste Enabler (battlefield)
 Start: Terra, Magical Adept // Esper Terra (battlefield); Doubling Season (battlefield); Innkeeper's Talent (battlefield)
@@ -9679,7 +9668,7 @@ Steps: Activate Saurian Explorer by paying {6}, creating eight untapped New Plan
 
 ## Combo 4772-6575-6774--85
 Cards: Terra, Magical Adept // Esper Terra + Doubling Season + Loading Zone
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal | Mana needed: {4}{R}{G}
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal | Mana needed: {4}{R}{G}
 Produces: Infinite colored mana; Infinite self-mill; Infinite creature LTB; Infinite creature ETB
 Requires: Haste Enabler (battlefield)
 Start: Terra, Magical Adept // Esper Terra (battlefield); Doubling Season (battlefield); Loading Zone (battlefield)
@@ -11678,7 +11667,7 @@ Steps: Cast any artifact creature by paying its mana cost.
 ## Combo 5686-6517-7084
 Cards: Beifong's Bounty Hunters + Shilgengar, Sire of Famine + Dragonback Assault
 Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
-Produces: Infinite artifact tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers; Infinite Blood tokens
+Produces: Infinite creature tokens; Infinite artifact tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers; Infinite Blood tokens
 Start: Beifong's Bounty Hunters (battlefield); Shilgengar, Sire of Famine (battlefield); Dragonback Assault (battlefield)
 Prerequisites: You control a land.
   You control another nonland creature.
@@ -11786,7 +11775,7 @@ Notes: You can perform this combo if half the basic lands in your library aren't
 
 ## Combo 5720-5721-6620-6664
 Cards: Shifting Woodland + Aftermath Analyst + Sylvan Safekeeper + The Wandering Minstrel
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 3000 | Commander: legal | Mana needed: {5}{G}{G}{G}
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 3100 | Commander: legal | Mana needed: {5}{G}{G}{G}
 Produces: Infinite mana lands you control can produce; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Shifting Woodland (battlefield); Aftermath Analyst (graveyard); Sylvan Safekeeper (battlefield); The Wandering Minstrel (battlefield)
 Prerequisites: There are at least four card types among cards in your graveyard.
@@ -11830,7 +11819,7 @@ Notes: Alternate adding {G} and {U} each time. Start by adding the opposite of w
 
 ## Combo 5902-6575-6774--85
 Cards: Terra, Magical Adept // Esper Terra + Innkeeper's Talent + Loading Zone
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {4}{R}{G}
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {4}{R}{G}
 Produces: Infinite colored mana; Infinite self-mill; Infinite creature LTB; Infinite creature ETB
 Requires: Haste Enabler (battlefield)
 Start: Terra, Magical Adept // Esper Terra (battlefield); Innkeeper's Talent (battlefield); Loading Zone (battlefield)
@@ -12142,10 +12131,10 @@ Steps: Activate Evereth by sacrificing the additional creature.
   Repeat.
 
 ## Combo 6517-7084-7272
-Cards: Beifong's Bounty Hunters + Reaper of Flight Moonsilver + Dragonback Assault
+Cards: Beifong's Bounty Hunters + Dragonback Assault + Reaper of Flight Moonsilver
 Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
-Start: Beifong's Bounty Hunters (battlefield); Reaper of Flight Moonsilver (battlefield); Dragonback Assault (battlefield)
+Produces: Infinite creature tokens; Infinitely large creature until end of turn; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Start: Beifong's Bounty Hunters (battlefield); Dragonback Assault (battlefield); Reaper of Flight Moonsilver (battlefield)
 Prerequisites: You control a land.
   You have at least four card types in your graveyard.
   You control another nonland creature.
@@ -12475,7 +12464,7 @@ Steps: Cast Ember Island Production by paying {3}{U}{U}, creating a token copy o
 
 ## Combo 6575-7936
 Cards: Terra, Magical Adept // Esper Terra + Dominion Saboteur
-Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 12 | Commander: legal | Mana needed: {4}{U}
+Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 13 | Commander: legal | Mana needed: {4}{U}
 Produces: Infinite colored mana; Infinite creature tokens with haste; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Terra, Magical Adept // Esper Terra (battlefield); Dominion Saboteur (hand)
 Steps: Cast Dominion Saboteur by paying its mana cost, choosing to have it enter the battlefield as a copy of Esper Terra that isn't legendary. This will cause it to enter the battlefield with a lore counter as it will be a Saga.

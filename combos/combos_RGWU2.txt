@@ -1,36 +1,3 @@
-## Combo 2275-3532-3536-5078
-Cards: Falco Spara, Pactweaver + Sensei's Divining Top + Shabraz, the Skyshark + Cheering Fanatic
-Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Near-infinite lifegain; Near-infinite lifegain triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
-Start: Falco Spara, Pactweaver (battlefield); Sensei's Divining Top (battlefield); Shabraz, the Skyshark (battlefield); Cheering Fanatic (battlefield: without summoning sickness)
-Steps: Declare Cheering Fanatic as an attacker. When it triggers, choose to name "Sensei's Divining Top".
-  Activate Sensei's Divining Top's second ability by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
-  Shabraz triggers, putting a +1/+1 counter on it.
-  Cast Sensei's Divining Top from the top of your library by paying {0} and removing a counter from a creature you control.
-  Repeat from step 2
-
-## Combo 2275-3532-3581-5078
-Cards: Falco Spara, Pactweaver + Sensei's Divining Top + Shabraz, the Skyshark + Kykar, Wind's Fury
-Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}
-Produces: Infinite card draw; Near-infinite lifegain; Near-infinite lifegain triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite creature ETB; Infinite draw triggers; Near-infinite storm count; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
-Start: Falco Spara, Pactweaver (battlefield); Sensei's Divining Top (battlefield); Shabraz, the Skyshark (battlefield); Kykar, Wind's Fury (battlefield)
-Steps: Activate Sensei's Divining Top's second ability by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
-  Shabraz triggers, putting a +1/+1 counter on it and causing you to gain 1 life.
-  Cast Sensei's Divining Top from the top of your library by paying {1} and removing a counter from a creature you control.
-  Kykar triggers, creating a 1/1 Spirit creature token.
-  Activate Kykar by sacrificing the Spirit, adding {R}.
-  Repeat.
-
-## Combo 2275-3532-4908-5078
-Cards: Falco Spara, Pactweaver + Sensei's Divining Top + Shabraz, the Skyshark + Enthusiastic Mechanaut
-Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Near-infinite lifegain; Near-infinite lifegain triggers; Near-infinite artifact ETB; Near-infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
-Start: Falco Spara, Pactweaver (battlefield); Sensei's Divining Top (battlefield); Shabraz, the Skyshark (battlefield); Enthusiastic Mechanaut (battlefield)
-Steps: Activate Sensei's Divining Top's second ability by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
-  Shabraz triggers, putting a +1/+1 counter on it and causing you to gain 1 life.
-  Cast Sensei's Divining Top from the top of your library by paying {0} and removing a counter from a creature you control.
-  Repeat.
-
 ## Combo 2275-3532-5078-5901
 Cards: Falco Spara, Pactweaver + Sensei's Divining Top + Shabraz, the Skyshark + Artist's Talent
 Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
@@ -202,7 +169,7 @@ Steps: Activate Mana Vault by tapping it, adding {C}{C}{C}
 ## Combo 2366-2800-4785-5702
 Cards: Springheart Nantuko + Dryad Arbor + Mirari's Wake + Dynaheir, Invoker Adept
 Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Mirari's Wake (battlefield); Dynaheir, Invoker Adept (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -215,7 +182,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-2800-5702-6965
 Cards: Springheart Nantuko + Dryad Arbor + Mirari's Wake + Frostcliff Siege
 Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens with haste; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Mirari's Wake (battlefield); Frostcliff Siege (battlefield: with "Temur" chosen)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -228,7 +195,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3322-4785-5702
 Cards: Springheart Nantuko + Dryad Arbor + Nikya of the Old Ways + Dynaheir, Invoker Adept
 Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nikya of the Old Ways (battlefield); Dynaheir, Invoker Adept (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -241,7 +208,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3430-4785-5702
 Cards: Springheart Nantuko + Dryad Arbor + Nyxbloom Ancient + Dynaheir, Invoker Adept
 Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Nyxbloom Ancient (battlefield); Dynaheir, Invoker Adept (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -253,7 +220,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3512-4785-5702
 Cards: Springheart Nantuko + Dryad Arbor + Mana Flare + Dynaheir, Invoker Adept
 Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Mana Flare (battlefield); Dynaheir, Invoker Adept (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -266,7 +233,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-3688-4785-5702
 Cards: Springheart Nantuko + Dryad Arbor + Zhur-Taa Ancient + Dynaheir, Invoker Adept
 Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Zhur-Taa Ancient (battlefield); Dynaheir, Invoker Adept (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -279,7 +246,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4178-4785-5702
 Cards: Springheart Nantuko + Dryad Arbor + Nissa, Who Shakes the World + Dynaheir, Invoker Adept
 Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{G}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor ); Dryad Arbor (battlefield); Nissa, Who Shakes the World (battlefield); Dynaheir, Invoker Adept (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -306,7 +273,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4785-4974-5702
 Cards: Springheart Nantuko + Dryad Arbor + Dynaheir, Invoker Adept + Zendikar Resurgent
 Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Dynaheir, Invoker Adept (battlefield); Zendikar Resurgent (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -319,7 +286,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4785-5175-5702
 Cards: Springheart Nantuko + Dryad Arbor + Dynaheir, Invoker Adept + Caged Sun
 Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Dynaheir, Invoker Adept (battlefield); Caged Sun (battlefield: with [color] chosen)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -332,7 +299,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4785-5234-5702
 Cards: Springheart Nantuko + Dryad Arbor + Dynaheir, Invoker Adept + Heartbeat of Spring
 Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Dynaheir, Invoker Adept (battlefield); Heartbeat of Spring (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -345,7 +312,7 @@ Steps: Play a land. When the land enters, Springheart Nantuko triggers, causing 
 ## Combo 2366-4785-5702-7288
 Cards: Springheart Nantuko + Dryad Arbor + Dynaheir, Invoker Adept + Groundchuck & Dirtbag
 Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{G}
-Produces: Infinite tapped Forest tokens; Infinite tapped creature tokens; Infinite creature ETB; Infinite landfall triggers
+Produces: Infinite creature tokens; Infinite tapped Forest tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Springheart Nantuko (battlefield: attached to Dryad Arbor); Dryad Arbor (battlefield); Dynaheir, Invoker Adept (battlefield); Groundchuck & Dirtbag (battlefield)
 Prerequisites: You have a land card in hand.
   You are able to play a land this turn.
@@ -1672,7 +1639,7 @@ Steps: Activate any number of lands by tapping them, adding at least {3}{U}{R}.
 ## Combo 2645-2872-3430-5233
 Cards: Staff of Domination + Nyxbloom Ancient + Clever Conjurer + Boros Garrison
 Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite lifegain; Infinite red mana; Infinite white mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite lifegain; Infinite red mana; Infinite white mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Clever Conjurer (battlefield); Boros Garrison (battlefield)
 Prerequisites: Clever Conjurer doesn't have summoning sickness.
 Steps: Activate Boros Garrison by tapping it, adding {R}{R}{R}{W}{W}{W} due to Nyxbloom Ancient
@@ -1684,7 +1651,7 @@ Steps: Activate Boros Garrison by tapping it, adding {R}{R}{R}{W}{W}{W} due to N
 ## Combo 2645-3147-5963-6871-7115
 Cards: Marvin, Murderous Mimic + Toph, Hardheaded Teacher + Toph, the First Metalbender + Staff of Domination + Azorius Chancery
 Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {5}
-Produces: Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite white mana; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite white mana; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Marvin, Murderous Mimic (hand); Toph, Hardheaded Teacher (battlefield); Toph, the First Metalbender (battlefield); Staff of Domination (hand); Azorius Chancery (battlefield)
 Steps: Cast Staff of Domination by paying {3}.
   Toph, Hardheaded Teacher triggers, earthbending Azorius Chancery.
@@ -1698,7 +1665,7 @@ Steps: Cast Staff of Domination by paying {3}.
 ## Combo 2645-3230-5963-6871-7115
 Cards: Marvin, Murderous Mimic + Toph, Hardheaded Teacher + Toph, the First Metalbender + Staff of Domination + Coral Atoll
 Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {5}
-Produces: Infinite blue mana; Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite blue mana; Infinite card draw; Infinite colorless mana; Infinite lifegain; Infinite mana creatures you control can produce; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Marvin, Murderous Mimic (hand); Toph, Hardheaded Teacher (battlefield); Toph, the First Metalbender (battlefield); Staff of Domination (hand); Coral Atoll (battlefield)
 Steps: Cast Staff of Domination by paying {3}.
   Toph, Hardheaded Teacher triggers, earthbending Coral Atoll.
@@ -1712,7 +1679,7 @@ Steps: Cast Staff of Domination by paying {3}.
 ## Combo 2645-3430-4644-5233
 Cards: Staff of Domination + Nyxbloom Ancient + Tidewater Minion + Boros Garrison
 Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite lifegain; Infinite red mana; Infinite white mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite lifegain; Infinite red mana; Infinite white mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Tidewater Minion (battlefield); Boros Garrison (battlefield)
 Prerequisites: Tidewater Minion doesn't have summoning sickness.
 Steps: Activate Boros Garrison by tapping it, adding {R}{R}{R}{W}{W}{W} due to Nyxbloom Ancient
@@ -1724,7 +1691,7 @@ Steps: Activate Boros Garrison by tapping it, adding {R}{R}{R}{W}{W}{W} due to N
 ## Combo 2645-3430-5233-5475
 Cards: Staff of Domination + Nyxbloom Ancient + Boros Garrison + Forensic Researcher
 Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite lifegain; Infinite red mana; Infinite white mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite lifegain; Infinite red mana; Infinite white mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Boros Garrison (battlefield); Forensic Researcher (battlefield)
 Prerequisites: Forensic Researcher doesn't have summoning sickness.
 Steps: Activate Boros Garrison by tapping it, adding {R}{R}{R}{W}{W}{W} due to Nyxbloom Ancient
@@ -1736,7 +1703,7 @@ Steps: Activate Boros Garrison by tapping it, adding {R}{R}{R}{W}{W}{W} due to N
 ## Combo 2645-3430-5233-7014
 Cards: Staff of Domination + Nyxbloom Ancient + Boros Garrison + North Pole Patrol
 Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite lifegain; Infinite red mana; Infinite white mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers
+Produces: Infinite card draw; Infinite lifegain; Infinite red mana; Infinite white mana; Infinite mana permanents you control can produce; Infinite lifegain triggers; Infinite untap of permanents you control; Infinite draw triggers; Tap all creatures opponents control
 Start: Staff of Domination (battlefield); Nyxbloom Ancient (battlefield); Boros Garrison (battlefield); North Pole Patrol (battlefield)
 Prerequisites: North Pole Patrol doesn't have summoning sickness.
 Steps: Activate Boros Garrison by tapping it, adding {R}{R}{R}{W}{W}{W} due to Nyxbloom Ancient
@@ -1748,7 +1715,7 @@ Steps: Activate Boros Garrison by tapping it, adding {R}{R}{R}{W}{W}{W} due to N
 ## Combo 2645-3756-5963-6871-7115
 Cards: Marvin, Murderous Mimic + Toph, Hardheaded Teacher + Toph, the First Metalbender + Staff of Domination + Izzet Boilerworks
 Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {5}
-Produces: Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control
+Produces: Infinite blue mana; Infinite card draw; Infinite lifegain; Infinite mana creatures you control can produce; Infinite red mana; Infinite lifegain triggers; Infinite draw triggers; Infinite untap of creatures you control; Tap all creatures opponents control
 Start: Marvin, Murderous Mimic (hand); Toph, Hardheaded Teacher (battlefield); Toph, the First Metalbender (battlefield); Staff of Domination (hand); Izzet Boilerworks (battlefield)
 Steps: Cast Staff of Domination by paying {3}.
   Toph, Hardheaded Teacher triggers, earthbending Izzet Boilerworks.
@@ -2058,7 +2025,7 @@ Steps: Activate Gilder Bairn's ability from Utopia Vow by tapping it, adding {G/
 
 ## Combo 2713-4687-6006
 Cards: Gilder Bairn + Zirda, the Dawnwaker + Enduring Vitality
-Color identity: RGWU | Bracket: 2-3+ (Oddball) | Popularity: 10 | Commander: legal
+Color identity: RGWU | Bracket: 2-3+ (Oddball) | Popularity: 11 | Commander: legal
 Produces: Infinite proliferate for permanents
 Start: Gilder Bairn (battlefield); Zirda, the Dawnwaker (battlefield); Enduring Vitality (battlefield)
 Prerequisites: Gilder Bairn does not have summoning sickness.
@@ -4237,18 +4204,6 @@ Steps: Cast Cultural Exchange by paying {4}{U}{U}, exchanging control of a creat
   Activate Soltari Guerrillas an arbitrarily large number of times by paying {0}, targeting Old Fat Spider.
   Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
 
-## Combo 3140-8411-8415
-Cards: Soltari Guerrillas + Old Fat Spider + Djinn of Infinite Deceits
-Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw for target opponent; Target opponent loses the game; Infinite draw triggers for target opponent
-Start: Soltari Guerrillas (battlefield); Old Fat Spider (battlefield); Djinn of Infinite Deceits (battlefield)
-Prerequisites: Djinn of Infinite Deeds must not have summoning sickness.
-  It must not be a combat phase.
-  An opponent must control a creature.
-Steps: Activate Djinn of Infinite Deeds by tapping it, exchanging control of a creature an opponent controls and Old Fat Spider.
-  Activate Soltari Guerrillas an arbitrarily large number of times by paying {0}, targeting Old Fat Spider.
-  Altanak triggers that many times, causing its controller to draw that many cards and lose the game due to drawing from an empty library.
-
 ## Combo 3140-8411-8416
 Cards: Soltari Guerrillas + Old Fat Spider + Legerdemain
 Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {2}{U}{U}
@@ -5538,7 +5493,7 @@ Steps: Activate Kilo by tapping it, adding {U}.
 
 ## Combo 3525-4289-6702
 Cards: Kilo, Apogee Mind + Pemmin's Aura + Cryptolith Rite
-Color identity: RGWU | Bracket: 2-3+ (Oddball) | Popularity: 11 | Commander: legal
+Color identity: RGWU | Bracket: 2-3+ (Oddball) | Popularity: 12 | Commander: legal
 Produces: Infinite proliferate
 Start: Kilo, Apogee Mind (battlefield); Pemmin's Aura (battlefield: attached to Kilo); Cryptolith Rite (battlefield)
 Steps: Activate Kilo by tapping it, adding {U}.
@@ -9362,7 +9317,7 @@ Steps: At the beginning of your combat phase, Inspirit triggers, putting four ch
 
 ## Combo 3609-5902-6750
 Cards: Inspirit, Flagship Vessel + Magistrate's Scepter + Innkeeper's Talent
-Color identity: RGWU | Bracket: 4+ (Ruthless) | Popularity: 22 | Commander: legal
+Color identity: RGWU | Bracket: 4+ (Ruthless) | Popularity: 21 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Inspirit, Flagship Vessel (battlefield); Magistrate's Scepter (battlefield); Innkeeper's Talent (battlefield)
 Prerequisites: Innkeeper's Talent is level 3.
@@ -10026,7 +9981,7 @@ Steps: Cast Mystic Speculation with buyback by paying {U}.
 ## Combo 3941-4331-4993-6259
 Cards: Drafna, Founder of Lat-Nam + Manifold Key + Coveted Jewel + Samut, the Driving Force
 Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Infinite artifact ETB; Infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
+Produces: Infinite card draw; Near-infinite artifact ETB; Near-infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
 Start: Drafna, Founder of Lat-Nam (battlefield); Manifold Key (battlefield); Coveted Jewel (battlefield); Samut, the Driving Force (battlefield)
 Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
   Activate Manifold Key by paying {1} and tapping it, untapping Coveted Jewel.
@@ -10362,7 +10317,7 @@ Steps: Cast Airbender's Reversal by paying its mana cost reduced by Temur Battle
 
 ## Combo 4222-4289-6702
 Cards: Kilo, Apogee Mind + Freed from the Real + Cryptolith Rite
-Color identity: RGWU | Bracket: 2-3+ (Oddball) | Popularity: 19 | Commander: legal
+Color identity: RGWU | Bracket: 2-3+ (Oddball) | Popularity: 20 | Commander: legal
 Produces: Infinite proliferate
 Start: Kilo, Apogee Mind (battlefield); Freed from the Real (battlefield: attached to Kilo); Cryptolith Rite (battlefield)
 Steps: Activate Kilo by tapping it, adding {U}.
@@ -10721,10 +10676,10 @@ Steps: Cast Walk the Aeons for its buyback cost by paying {4}{U}{U} and sacrific
   Repeat each turn.
 
 ## Combo 4381-4694-7272-7306
-Cards: The Ooze + Reaper of Flight Moonsilver + Grumgully, the Generous + March of the Machines
+Cards: The Ooze + Grumgully, the Generous + March of the Machines + Reaper of Flight Moonsilver
 Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
 Produces: Infinitely large creature until end of turn; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Reaper of Flight Moonsilver (battlefield); Grumgully, the Generous (battlefield); March of the Machines (battlefield)
+Start: The Ooze (battlefield); Grumgully, the Generous (battlefield); March of the Machines (battlefield); Reaper of Flight Moonsilver (battlefield)
 Prerequisites: You have at least four card types in your graveyard.
   You control at least one additional creature with a +1/+1 counter on it.
 Steps: Activate Reaper of Flight Moonsilver by sacrificing a creature with a +1/+1 counter on it.
@@ -10859,7 +10814,7 @@ Steps: Create a token copy of Corridor Monitor.
 
 ## Combo 4423-4637-5352
 Cards: Omnath, Locus of Creation + Doppelgang + Mystic Sanctuary
-Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 94 | Commander: legal | Mana needed: {6}{G}{U}
+Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 95 | Commander: legal | Mana needed: {6}{G}{U}
 Produces: Infinite card draw; Near-infinite blue mana; Near-infinite copies of all permanents; Near-infinite damage; Near-infinite green mana; Near-infinite lifegain; Near-infinite mana permanents you control can produce; Near-infinite red mana; Near-infinite white mana; Near-infinite lifegain triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite landfall triggers; Near-infinite magecraft triggers
 Start: Omnath, Locus of Creation (battlefield); Doppelgang (hand); Mystic Sanctuary (battlefield)
 Steps: Cast Doppelgang by paying {6}{G}{U}, creating two token copies of Omnath and Mystic Sanctuary.
@@ -11103,7 +11058,7 @@ Steps: Activate Emiel by paying {3}, blinking Niko.
 
 ## Combo 4499-5465-7494
 Cards: Blazing Firesinger // Seething Song + Emiel the Blessed + Doc Aurlock, Grizzled Genius
-Color identity: RGWU | Bracket: 3-4+ (Spicy) | Popularity: 41 | Commander: legal | Mana needed: {R}
+Color identity: RGWU | Bracket: 3-4+ (Spicy) | Popularity: 42 | Commander: legal | Mana needed: {R}
 Produces: Infinite red mana; Infinite creature ETB; Infinite creature LTB; Infinite blinking; Infinite magecraft triggers; Infinite storm count
 Start: Blazing Firesinger // Seething Song (battlefield); Emiel the Blessed (battlefield); Doc Aurlock, Grizzled Genius (battlefield)
 Steps: Cast a copy of Seething Song from exile by paying {R}, adding {R}{R}{R}{R}{R}.
@@ -11298,7 +11253,7 @@ Steps: Cast a copy of Seething Song from exile by paying no more than {1}{R}, ad
 
 ## Combo 4499-7445-7494
 Cards: Blazing Firesinger // Seething Song + Emiel the Blessed + Dirgur Focusmage // Braingeyser
-Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal | Mana needed: {1}{R}
+Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 48 | Commander: legal | Mana needed: {1}{R}
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
 Start: Blazing Firesinger // Seething Song (battlefield); Emiel the Blessed (battlefield); Dirgur Focusmage // Braingeyser (battlefield)
 Steps: Cast a copy of Seething Song from exile by paying no more than {1}{R}, adding {R}{R}{R}{R}{R}.
@@ -11316,7 +11271,7 @@ Steps: Cast a copy of Seething Song from exile by paying no more than {1}{R}, ad
 
 ## Combo 4499-7494-7650
 Cards: Blazing Firesinger // Seething Song + Emiel the Blessed + Bilbo, Thief in the Night
-Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal | Mana needed: {1}{R}
+Color identity: RGWU | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal | Mana needed: {1}{R}
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
 Start: Blazing Firesinger // Seething Song (battlefield); Emiel the Blessed (battlefield); Bilbo, Thief in the Night (battlefield)
 Steps: Cast a copy of Seething Song from exile by paying no more than {1}{R}, adding {R}{R}{R}{R}{R}.
