@@ -1,3 +1,109 @@
+## Combo 2816-3371-5149-5385
+Cards: Aura Finesse + Codie, Vociferous Codex + Umbral Mantle + Power Artifact
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {4}{U}
+Produces: Infinite colored mana; Infinite mana creatures you control can produce; Cast a subset of spells in your library; Infinitely large creature until end of turn; Infinite untap of creatures you control
+Start: Aura Finesse (hand); Codie, Vociferous Codex (battlefield); Umbral Mantle (battlefield); Power Artifact (battlefield)
+Prerequisites: Codie does not have summoning sickness.
+  Umbral Mantle attached to Codie.
+  Power Artifact attached to any artifact.
+  Any additional nonpermanent card in hand with mana to cast it.
+Steps: Cast Aura Finesse by paying {U}, attaching Power Artifact to Codie and drawing a card.
+  Activate Codie by paying {4} and tapping it, adding {W}{U}{B}{R}{G}.
+  Activate Codie using the ability from Umbral Mantle by paying {1} and untapping it, giving it +2/+2 until end of turn.
+  Repeat.
+  Once you have an arbitrarily large number of Codie triggers, you may cast any instant or sorcery spell by paying its mana cost.
+  Codie triggers for each time you activated its ability.
+  Resolve the first trigger, causing you to exile cards from the top of your library until you exile an instant or sorcery spell with lesser mana value, and allowing you to cast that spell without paying its mana cost.
+  Repeat step 7 for each remaining trigger.
+Notes: Step 1 is necessary because you cannot cast Power Artifact once Codie is on the battlefield.
+
+## Combo 2816-3918-4851
+Cards: Trazyn the Infinite + Umbral Mantle + Timeless Lotus
+Color identity: WUBRG | Bracket: 3-4+ (Spicy) | Popularity: 1 | Commander: legal
+Produces: Infinite colored mana; Infinite mana creatures you control can produce; Infinitely large creature until end of turn; Infinite untap of creatures you control
+Start: Trazyn the Infinite (battlefield: without summoning sickness); Umbral Mantle (battlefield: attached to Trazyn); Timeless Lotus (graveyard)
+Steps: Activate Trazyn using Timeless Lotus's ability by tapping it, adding {W}{U}{B}{R}{G}.
+  Activate Trazyn by paying {3} and untapping it, giving it +2/+2 until end of turn.
+  Repeat.
+
+## Combo 2816-4050-7026
+Cards: Hei Bai, Forest Guardian + Phyrexian Altar + Umbral Mantle
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal | Mana needed: {W}{U}{B}{R}{G}
+Produces: Infinite colored mana; Infinite creature tokens; Infinite mana creatures you control can produce; Infinitely large creature until end of turn; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite untap of creatures you control
+Start: Hei Bai, Forest Guardian (battlefield: without summoning sickness); Phyrexian Altar (battlefield); Umbral Mantle (battlefield: attached to Hei Bai)
+Prerequisites: You control at least eight legendary enchantments.
+Steps: Activate Hei Bai by paying {W}{U}{B}{R}{G} and tapping it, creating a 1/1 Spirit creature token for each legendary enchantment you control.
+  Activate Phyrexian Altar eight times by sacrificing eight Spirits, adding {3}{W}{U}{B}{R}{G}.
+  Activate Hei Bai by paying {3} and untapping it, giving it +2/+2 until end of turn.
+  Repeat.
+
+## Combo 2821-3821-5921-5970-6120
+Cards: Marina Vendrell + Bottomless Pool // Locker Room + Mirror Room // Fractured Realm + Minamo, School at Water's Edge + Peregrine Drake
+Color identity: WUBRG | Bracket: 3-4+ (Spicy) | Popularity: 5 | Commander: legal | Mana needed: {2} at most
+Produces: Infinite creature tokens; Infinite mana lands you control can produce; Infinite copies of creatures you control; Infinite mana legendary permanents you control can produce; Infinite untap of legendary permanents you control; Infinite unlocking of Rooms you control; Infinite untap of lands you control; Infinite creature LTB; Infinite creature ETB; Infinite storm count
+Start: Marina Vendrell (battlefield); Bottomless Pool // Locker Room (hand, battlefield); Mirror Room // Fractured Realm (battlefield); Minamo, School at Water's Edge (battlefield); Peregrine Drake (hand)
+Prerequisites: You control up to four other lands that can tap to produce at least {2}{U}.
+  Fractured Realm is unlocked.
+Steps: Activate up to four lands by tapping them, adding at least {2}{U}.
+  Cast Peregrine Drake by paying {4}{U}.
+  When Peregrine Drake enters the battlefield, it triggers twice.
+  Resolve the first trigger, untapping Minamo and up to four other lands.
+  Holding priority, activate Minamo and up to four other lands by tapping them, adding at least {2}{U}{U}.
+  Resolve the second Peregrine Drake trigger, untapping Minamo and up to four other lands.
+  Activate Marina by tapping it, locking Bottomless Pool.
+  Activate Minamo's second ability by paying {U} and tapping it, untapping Marina.
+  Activate Bottomless Pool by paying {U}, unlocking it.
+  Bottomless Pool triggers twice.
+  Resolve the first trigger, returning Peregrine Drake from the battlefield to your hand.
+  Resolve the second trigger, choosing not to return anything to your hand.
+  Repeat.
+
+## Combo 2829-4452-6871-6879
+Cards: Toph, the First Metalbender + Haru, Hidden Talent + Arcbound Ravager + Rukarumel, Biologist
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
+Start: Toph, the First Metalbender (battlefield); Haru, Hidden Talent (battlefield); Arcbound Ravager (battlefield); Rukarumel, Biologist (battlefield)
+Prerequisites: Rukarumel has "Ally" chosen.
+  You have an artifact creature in hand with the mana to cast it.
+Steps: Cast any artifact creature by paying its mana cost.
+  When the artifact creature enters as an Ally due to Rukarumel, Haru triggers, earthbending the artifact creature, as it's a land due to Toph.
+  Activate Arcbound Ravager by sacrificing the artifact creature.
+  When the creature dies, Haru triggers, returning the creature from your graveyard to the battlefield.
+  When the creature enters as an Ally due to Rukarumel, Haru triggers, earthbending the creature, as it's a land due to Toph.
+  Resolve the Arcbound Ravager ability, putting a +1/+1 counter on Arcbound Ravager.
+  Repeat from step 3.
+
+## Combo 2835-3180-5220
+Cards: Mortuary + Fecundity + Chamber Sentry
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite storm count; Infinite draw triggers
+Start: Mortuary (battlefield); Fecundity (battlefield); Chamber Sentry (hand)
+Steps: Cast Chamber Sentry by paying {0}.
+  Chamber Sentry enters and dies as a state-based action due to having 0 toughness, triggering Mortuary and Fecundity.
+  Resolve the Mortuary trigger, putting Chamber Sentry from your graveyard onto the top of your library.
+  Resolve the Fecundity trigger, causing you to draw a card, thus drawing Chamber Sentry from your library.
+  Repeat.
+
+## Combo 2845-3296-3556-3584
+Cards: Quintorius Kand + Flicker + Thousand-Year Storm + Hag Hedge-Mage
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {1}{W}
+Produces: Infinite damage; Infinite lifegain; Infinite mana lands you control can produce; Infinite lifegain triggers; Infinite blinking of permanents; Infinite creature ETB; Infinite landfall triggers; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count
+Start: Quintorius Kand (battlefield); Flicker (hand); Thousand-Year Storm (battlefield); Hag Hedge-Mage (battlefield)
+Prerequisites: You have cast at least one instant or sorcery this turn.
+  You control at least two Forests.
+Steps: Cast Flicker by paying {1}{W}, targeting Hag Hedge-Mage.
+  Thousand-Year Storm triggers, copying Flicker at least once, with each copy targeting Quintorius Kand.
+  Resolve the first copy of Flicker, blinking Quintorius Kand.
+  Any remaining copies of Flicker fizzle due to having no legal target.
+  Resolve the original Flicker, blinking Hag Hedge-Mage.
+  When Hag Hedge-Mage enters the battlefield, its second ability triggers, putting Flicker on top of your library from your graveyard.
+  Activate Quintorius Kand's second loyalty ability by removing three loyalty counters from it, causing you to exile Flicker from the top of your library and cast it without paying its mana cost, targeting Hag Hedge-Mage.
+  Quintorius Kand and Thousand-Year Storm trigger.
+  Resolve the Quintorius Kand trigger, dealing 2 damage to each opponent and causing you to gain 2 life.
+  Resolve the Thousand-Year Storm trigger, copying Flicker at least twice, with each copy targeting Quintorius Kand.
+  Repeat from step 3.
+  You may optionally target any permanent using the additional Flicker copies to blink them.
+
 ## Combo 2871-7117
 Cards: Avatar Aang // Aang, Master of Elements + Seething Anger
 Color identity: WUBRG | Bracket: 4+ (Ruthless) | Popularity: 110 | Commander: legal
@@ -141,7 +247,7 @@ Steps: Activate Marina by tapping it, unlocking Mirror Room.
 
 ## Combo 2872-5295-5921-5970
 Cards: Marina Vendrell + Mirror Room // Fractured Realm + Clever Conjurer + Thousand-Year Elixir
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal
 Produces: Infinite tapped creature tokens; Infinite creature ETB
 Start: Marina Vendrell (battlefield); Mirror Room // Fractured Realm (battlefield: with Mirror Room locked and Fractured Realm unlocked); Clever Conjurer (battlefield: without summoning sickness); Thousand-Year Elixir (battlefield)
 Steps: Activate Marina by tapping it, unlocking Mirror Room.
@@ -965,7 +1071,7 @@ Steps: Declare The Incredible Hulk and Maestros Diabolist as attackers.
 
 ## Combo 2928-5657-6489
 Cards: Ulalek, Fused Atrocity + Drowner of Truth // Drowned Jungle + Tidal Barracuda
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal | Mana needed: {4}{C}{C}{C}{G/U}{G/U} plus enough mana to cast the additional Eldrazi spell
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal | Mana needed: {4}{C}{C}{C}{G/U}{G/U} plus enough mana to cast the additional Eldrazi spell
 Produces: Infinite creature tokens; Infinite copies of abilities you control on the stack; Infinite copies of a specific creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Ulalek, Fused Atrocity (battlefield); Drowner of Truth // Drowned Jungle (hand); Tidal Barracuda (battlefield)
 Prerequisites: You have another Eldrazi creature card in hand.
@@ -1056,7 +1162,7 @@ Steps: Cast any artifact creature by paying its mana cost.
 
 ## Combo 2997-5657-6489
 Cards: Ulalek, Fused Atrocity + Drowner of Truth // Drowned Jungle + Vivien, Champion of the Wilds
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 54 | Commander: legal | Mana needed: {4}{C}{C}{C}{G/U}{G/U} plus enough mana to cast the additional Eldrazi spell
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 56 | Commander: legal | Mana needed: {4}{C}{C}{C}{G/U}{G/U} plus enough mana to cast the additional Eldrazi spell
 Produces: Infinite creature tokens; Infinite copies of abilities you control on the stack; Infinite copies of a specific creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Ulalek, Fused Atrocity (battlefield); Drowner of Truth // Drowned Jungle (hand); Vivien, Champion of the Wilds (battlefield)
 Prerequisites: You have another Eldrazi creature card in hand.
@@ -1211,7 +1317,7 @@ Steps: Activate Terra, Magical Adept by paying {4}{R}{G} and tapping it, exiling
 
 ## Combo 3068-3525-4893
 Cards: Jenson Carthalion, Druid Exile + Training Grounds + Pemmin's Aura
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 91 | Commander: legal | Mana needed: {3}
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 90 | Commander: legal | Mana needed: {3}
 Produces: Infinite black mana; Infinite green mana; Infinite red mana; Infinite white mana
 Start: Jenson Carthalion, Druid Exile (battlefield); Training Grounds (battlefield); Pemmin's Aura (battlefield)
 Prerequisites: Pemmin's Aura attached to Jenson.
@@ -1433,7 +1539,7 @@ Steps: Cast an Eldrazi from your hand by paying its mana cost.
 
 ## Combo 3094-5657-5664
 Cards: Ulalek, Fused Atrocity + Writhing Chrysalis + Lithoform Engine
-Color identity: WUBRG | Bracket: 2-3+ (Oddball) | Popularity: 510 | Commander: legal | Mana needed: {4}{C}{C}{R}{G}
+Color identity: WUBRG | Bracket: 2-3+ (Oddball) | Popularity: 500 | Commander: legal | Mana needed: {4}{C}{C}{R}{G}
 Produces: Infinite +1/+1 counters on an infinite number of creature tokens; Infinite copies of abilities you control on the stack; Infinite creature tokens; Infinite colorless mana; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Ulalek, Fused Atrocity (battlefield); Writhing Chrysalis (hand); Lithoform Engine (battlefield)
 Steps: Cast Writhing Chrysalis by paying {2}{R}{G}.
@@ -3646,7 +3752,7 @@ Steps: Activate Marina by tapping it, unlocking Mirror Room.
 
 ## Combo 3457-5295-5921-5970
 Cards: Marina Vendrell + Mirror Room // Fractured Realm + Seeker of Skybreak + Thousand-Year Elixir
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 50 | Commander: legal
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal
 Produces: Infinite tapped creature tokens; Infinite creature ETB
 Start: Marina Vendrell (battlefield); Mirror Room // Fractured Realm (battlefield: with Mirror Room locked and Fractured Realm unlocked); Seeker of Skybreak (battlefield: without summoning sickness); Thousand-Year Elixir (battlefield)
 Steps: Activate Marina by tapping it, unlocking Mirror Room.
@@ -4241,7 +4347,7 @@ Steps: Cast Graveshifter for its evoke cost by paying {0} due to Ezzaroot Channe
 
 ## Combo 3497-7182-7252
 Cards: Ashling, the Limitless + Grave Sifter + Ezzaroot Channeler
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
 Produces: Infinite creature tokens with haste; Each opponent returns all creature cards from their graveyard to their hand; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count; Return all cards from your graveyard to your hand
 Start: Ashling, the Limitless (battlefield); Grave Sifter (hand); Ezzaroot Channeler (battlefield)
 Prerequisites: You've gained at least 4 life this turn.
@@ -4403,7 +4509,7 @@ Steps: Activate up to five lands by tapping them, adding at least {2}{U}{U}.
 
 ## Combo 3525-4050-5969-5970
 Cards: Marina Vendrell + Pemmin's Aura + Spiked Corridor // Torture Pit + Phyrexian Altar
-Color identity: WUBRG | Bracket: 3-4+ (Spicy) | Popularity: 40 | Commander: legal
+Color identity: WUBRG | Bracket: 3-4+ (Spicy) | Popularity: 41 | Commander: legal
 Produces: Infinite colored mana; Infinite damage; Infinite creature tokens; Infinite unlocking of Rooms you control; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Marina Vendrell (battlefield); Pemmin's Aura (battlefield); Spiked Corridor // Torture Pit (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: Pemmin's Aura attached to Marina.
@@ -4688,7 +4794,7 @@ Steps: Cause an artifact to enter the battlefield under your control.
 
 ## Combo 3678-6664-6681-6879
 Cards: Retreat to Emeria + Haru, Hidden Talent + Strip Mine + The Wandering Minstrel
-Color identity: WUBRG | Bracket: 4+ (Ruthless) | Popularity: 2 | Commander: legal
+Color identity: WUBRG | Bracket: 4+ (Ruthless) | Popularity: 3 | Commander: legal
 Produces: Infinite creature tokens; Infinite landfall triggers; Destroy all lands opponents control; Destroy all lands that enter the battlefield under an opponent's control; Infinite creature ETB; Lock; Mass Land Denial
 Start: Retreat to Emeria (battlefield); Haru, Hidden Talent (battlefield); Strip Mine (hand); The Wandering Minstrel (hand)
 Prerequisites: You are able to play a land this turn.
@@ -5070,7 +5176,7 @@ Notes: Eventually the opponent will lose the game due to drawing from an empty l
 
 ## Combo 3809-4682-4772-5140
 Cards: Kenrith, the Returned King + Smothering Tithe + Goldspan Dragon + Doubling Season
-Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 74 | Commander: legal | Mana needed: {3}{U}
+Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 75 | Commander: legal | Mana needed: {3}{U}
 Produces: Infinite card draw for any number of opponents; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Infinite draw triggers for any number of opponents
 Start: Kenrith, the Returned King (battlefield); Smothering Tithe (battlefield); Goldspan Dragon (battlefield); Doubling Season (battlefield)
 Prerequisites: An opponent cannot pay for Smothering Tithe's trigger.
@@ -5898,7 +6004,7 @@ Steps: Cast any artifact creature by paying its mana cost.
 
 ## Combo 4050-4222-5969-5970
 Cards: Marina Vendrell + Freed from the Real + Spiked Corridor // Torture Pit + Phyrexian Altar
-Color identity: WUBRG | Bracket: 3-4+ (Spicy) | Popularity: 28 | Commander: legal
+Color identity: WUBRG | Bracket: 3-4+ (Spicy) | Popularity: 29 | Commander: legal
 Produces: Infinite colored mana; Infinite damage; Infinite creature tokens; Infinite unlocking of Rooms you control; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Marina Vendrell (battlefield); Freed from the Real (battlefield); Spiked Corridor // Torture Pit (battlefield); Phyrexian Altar (battlefield)
 Prerequisites: Freed from the Real attached to Marina.
@@ -7221,7 +7327,7 @@ Notes: The chosen Saga must have no more than four chapter abilities. Once you h
 
 ## Combo 4153-6575-7060--136
 Cards: Terra, Magical Adept // Esper Terra + Resourceful Defense + Smellerbee, Rebel Fighter
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {4}{R}{G}
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {4}{R}{G}
 Produces: Infinite colored mana; Infinite self-mill; Infinite creature LTB; Infinite creature ETB; Infinite token copies of nonlegendary enchantments you control
 Requires: Nonlegendary Saga (battlefield)
 Start: Terra, Magical Adept // Esper Terra (battlefield); Resourceful Defense (battlefield); Smellerbee, Rebel Fighter (battlefield)
@@ -7710,7 +7816,7 @@ Notes: Eventually the opponent will lose the game due to drawing from an empty l
 
 ## Combo 4365-4682-5140-6441
 Cards: Kenrith, the Returned King + Smothering Tithe + Mondrak, Glory Dominus + Elspeth, Storm Slayer
-Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 75 | Commander: legal | Mana needed: {3}{U}
+Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 77 | Commander: legal | Mana needed: {3}{U}
 Produces: Infinite card draw for any number of opponents; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Infinite draw triggers for any number of opponents
 Start: Kenrith, the Returned King (battlefield); Smothering Tithe (battlefield); Mondrak, Glory Dominus (battlefield); Elspeth, Storm Slayer (battlefield)
 Prerequisites: An opponent cannot pay for Smothering Tithe's trigger.
@@ -7722,7 +7828,7 @@ Notes: Eventually the opponent will lose the game due to drawing from an empty l
 
 ## Combo 4365-4682-5140-6753
 Cards: Kenrith, the Returned King + Smothering Tithe + Mondrak, Glory Dominus + Exalted Sunborn
-Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 37 | Commander: legal | Mana needed: {3}{U}
+Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 38 | Commander: legal | Mana needed: {3}{U}
 Produces: Infinite card draw for any number of opponents; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Infinite draw triggers for any number of opponents
 Start: Kenrith, the Returned King (battlefield); Smothering Tithe (battlefield); Mondrak, Glory Dominus (battlefield); Exalted Sunborn (battlefield)
 Prerequisites: An opponent cannot pay for Smothering Tithe's trigger.
@@ -7974,7 +8080,7 @@ Steps: Cast Everquill Phoenix for its mutate cost by paying {3}{R}, putting it u
 
 ## Combo 4449-4893-4949
 Cards: Tazri, Stalwart Survivor + Hateflayer + Training Grounds
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 210 | Commander: legal
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 220 | Commander: legal
 Produces: Infinite damage
 Start: Tazri, Stalwart Survivor (battlefield); Hateflayer (battlefield); Training Grounds (battlefield)
 Prerequisites: Hateflayer does not have summoning sickness.
@@ -9286,7 +9392,7 @@ Notes: If you do not control other nonlegendary enchantments, this combo creates
 
 ## Combo 4682-4772-5140-5184
 Cards: Kenrith, the Returned King + Smothering Tithe + Doubling Season + Xorn
-Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 63 | Commander: legal | Mana needed: {3}{U}
+Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 64 | Commander: legal | Mana needed: {3}{U}
 Produces: Infinite card draw for any number of opponents; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Infinite draw triggers for any number of opponents
 Start: Kenrith, the Returned King (battlefield); Smothering Tithe (battlefield); Doubling Season (battlefield); Xorn (battlefield)
 Prerequisites: An opponent cannot pay for Smothering Tithe's trigger.
@@ -9310,7 +9416,7 @@ Notes: Eventually the opponent will lose the game due to drawing from an empty l
 
 ## Combo 4682-4772-5140-6753
 Cards: Kenrith, the Returned King + Smothering Tithe + Doubling Season + Exalted Sunborn
-Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 39 | Commander: legal | Mana needed: {3}{U}
+Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 40 | Commander: legal | Mana needed: {3}{U}
 Produces: Infinite card draw for any number of opponents; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Infinite draw triggers for any number of opponents
 Start: Kenrith, the Returned King (battlefield); Smothering Tithe (battlefield); Doubling Season (battlefield); Exalted Sunborn (battlefield)
 Prerequisites: An opponent cannot pay for Smothering Tithe's trigger.
@@ -9334,7 +9440,7 @@ Notes: Eventually the opponent will lose the game due to drawing from an empty l
 
 ## Combo 4682-4772-7132
 Cards: Super-Skrull + Smothering Tithe + Doubling Season
-Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 45 | Commander: legal | Mana needed: {5}{U}
+Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 46 | Commander: legal | Mana needed: {5}{U}
 Produces: Infinite card draw for any number of opponents; Near-infinite Treasure tokens; Near-infinite card draw; Near-infinite colored mana; Near-infinite creature tokens; Near-infinitely large creature until end of turn; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Infinite draw triggers for any number of opponents; Near-infinite creature ETB; Near-infinite draw triggers
 Start: Super-Skrull (battlefield); Smothering Tithe (battlefield); Doubling Season (battlefield)
 Prerequisites: An opponent cannot pay for Smothering Tithe's trigger more than once.
@@ -9395,7 +9501,7 @@ Notes: Eventually the opponent will lose the game due to drawing from an empty l
 
 ## Combo 4682-5140-6441-6753
 Cards: Kenrith, the Returned King + Smothering Tithe + Elspeth, Storm Slayer + Exalted Sunborn
-Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 41 | Commander: legal | Mana needed: {3}{U}
+Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 42 | Commander: legal | Mana needed: {3}{U}
 Produces: Infinite card draw for any number of opponents; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers; Infinite draw triggers for any number of opponents
 Start: Kenrith, the Returned King (battlefield); Smothering Tithe (battlefield); Elspeth, Storm Slayer (battlefield); Exalted Sunborn (battlefield)
 Prerequisites: An opponent cannot pay for Smothering Tithe's trigger.
@@ -10065,7 +10171,7 @@ Steps: Cast Chromatic Sphere from your graveyard by paying {0} and discarding a 
 
 ## Combo 4910-5657-6489
 Cards: Ulalek, Fused Atrocity + Drowner of Truth // Drowned Jungle + Alchemist's Refuge
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 490 | Commander: legal | Mana needed: {4}{C}{C}{C}{G}{G/U}{G/U}{U} plus enough mana to cast the additional Eldrazi spell
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 500 | Commander: legal | Mana needed: {4}{C}{C}{C}{G}{G/U}{G/U}{U} plus enough mana to cast the additional Eldrazi spell
 Produces: Infinite creature tokens; Infinite copies of abilities you control on the stack; Infinite copies of a specific creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Ulalek, Fused Atrocity (battlefield); Drowner of Truth // Drowned Jungle (hand); Alchemist's Refuge (battlefield)
 Prerequisites: You have another Eldrazi creature card in hand.
@@ -10297,7 +10403,7 @@ Steps: Declare Overlord of the Hauntwoods as an attacker.
 
 ## Combo 5049-5657-6489
 Cards: Ulalek, Fused Atrocity + Drowner of Truth // Drowned Jungle + Leyline of Anticipation
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 360 | Commander: legal | Mana needed: {4}{C}{C}{C}{G/U}{G/U} plus enough mana to cast the additional Eldrazi spell
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 370 | Commander: legal | Mana needed: {4}{C}{C}{C}{G/U}{G/U} plus enough mana to cast the additional Eldrazi spell
 Produces: Infinite creature tokens; Infinite copies of abilities you control on the stack; Infinite copies of a specific creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Ulalek, Fused Atrocity (battlefield); Drowner of Truth // Drowned Jungle (hand); Leyline of Anticipation (battlefield)
 Prerequisites: You have another Eldrazi creature card in hand.
@@ -10481,7 +10587,7 @@ Steps: Activate Terra, Magical Adept by paying {4}{R}{G} and tapping it, exiling
 
 ## Combo 5223-6575-6685
 Cards: Terra, Magical Adept // Esper Terra + Mesmerizing Dose + Fires of Yavimaya
-Color identity: WUBRG | Bracket: 3-4+ (Spicy) | Popularity: 23 | Commander: legal | Mana needed: {4}{R}{G}
+Color identity: WUBRG | Bracket: 3-4+ (Spicy) | Popularity: 24 | Commander: legal | Mana needed: {4}{R}{G}
 Produces: Infinite colored mana; Infinite self-mill; Infinite proliferate; Infinite creature LTB; Infinite creature ETB
 Start: Terra, Magical Adept // Esper Terra (battlefield); Mesmerizing Dose (battlefield: attached to any creature except Terra); Fires of Yavimaya (battlefield)
 Steps: Activate Terra, Magical Adept by paying {4}{R}{G} and tapping it, exiling it and returning it to the battlefield as Esper Terra.
@@ -11621,7 +11727,7 @@ Steps: Cast any other Eldrazi except Drowner of Truth by paying its mana cost, t
 
 ## Combo 5657-6108-6489
 Cards: Ulalek, Fused Atrocity + Drowner of Truth // Drowned Jungle + High Fae Trickster
-Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 63 | Commander: legal | Mana needed: {4}{C}{C}{C}{G/U}{G/U} plus enough mana to cast the additional Eldrazi spell
+Color identity: WUBRG | Bracket: 1+ (Exhibition) | Popularity: 64 | Commander: legal | Mana needed: {4}{C}{C}{C}{G/U}{G/U} plus enough mana to cast the additional Eldrazi spell
 Produces: Infinite creature tokens; Infinite copies of abilities you control on the stack; Infinite copies of a specific creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
 Start: Ulalek, Fused Atrocity (battlefield); Drowner of Truth // Drowned Jungle (hand); High Fae Trickster (battlefield)
 Prerequisites: You have another Eldrazi creature card in hand.
@@ -12362,7 +12468,7 @@ Steps: Activate Terra, Magical Adept by paying {4}{R}{G} and tapping it, exiling
 
 ## Combo 6575-6685-6965
 Cards: Terra, Magical Adept // Esper Terra + Mesmerizing Dose + Frostcliff Siege
-Color identity: WUBRG | Bracket: 3-4+ (Spicy) | Popularity: 25 | Commander: legal | Mana needed: {4}{R}{G}
+Color identity: WUBRG | Bracket: 3-4+ (Spicy) | Popularity: 26 | Commander: legal | Mana needed: {4}{R}{G}
 Produces: Infinite colored mana; Infinite self-mill; Infinite proliferate; Infinite creature LTB; Infinite creature ETB
 Start: Terra, Magical Adept // Esper Terra (battlefield); Mesmerizing Dose (battlefield: attached to any creature except Terra); Frostcliff Siege (battlefield: with "Temur" chosen)
 Steps: Activate Terra, Magical Adept by paying {4}{R}{G} and tapping it, exiling it and returning it to the battlefield as Esper Terra.
@@ -12451,7 +12557,7 @@ Steps: Activate Terra, Magical Adept by paying {4}{R}{G} and tapping it, exiling
 
 ## Combo 6575-7063
 Cards: Ember Island Production + Terra, Magical Adept // Esper Terra
-Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 66 | Commander: legal | Mana needed: {3}{U}{U}
+Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 67 | Commander: legal | Mana needed: {3}{U}{U}
 Produces: Infinite colored mana; Infinite creature tokens with haste; Infinite creature ETB; Infinite creature LTB; Infinite creature copies of nonlegendary enchantments you control; Infinite death triggers; Infinite creature sacrifice triggers
 Start: Ember Island Production (hand); Terra, Magical Adept // Esper Terra (battlefield)
 Steps: Cast Ember Island Production by paying {3}{U}{U}, creating a token copy of Esper Terra that isn't legendary and will enter with a lore counter on it.
@@ -12464,7 +12570,7 @@ Steps: Cast Ember Island Production by paying {3}{U}{U}, creating a token copy o
 
 ## Combo 6575-7936
 Cards: Terra, Magical Adept // Esper Terra + Dominion Saboteur
-Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 13 | Commander: legal | Mana needed: {4}{U}
+Color identity: WUBRG | Bracket: 3+ (Powerful) | Popularity: 15 | Commander: legal | Mana needed: {4}{U}
 Produces: Infinite colored mana; Infinite creature tokens with haste; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
 Start: Terra, Magical Adept // Esper Terra (battlefield); Dominion Saboteur (hand)
 Steps: Cast Dominion Saboteur by paying its mana cost, choosing to have it enter the battlefield as a copy of Esper Terra that isn't legendary. This will cause it to enter the battlefield with a lore counter as it will be a Saga.
@@ -12503,7 +12609,7 @@ Steps: Cast Appa by paying {W}{W}.
 
 ## Combo 6867-6884-7117
 Cards: Appa, Steadfast Guardian + Avatar Aang // Aang, Master of Elements + Aang, the Last Airbender
-Color identity: WUBRG | Bracket: 3-4+ (Spicy) | Popularity: 8000 | Commander: legal | Mana needed: {W}
+Color identity: WUBRG | Bracket: 3-4+ (Spicy) | Popularity: 8100 | Commander: legal | Mana needed: {W}
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Appa, Steadfast Guardian (hand); Avatar Aang // Aang, Master of Elements (battlefield); Aang, the Last Airbender (hand)
 Steps: Cast Appa by paying {W}
@@ -12542,7 +12648,7 @@ Steps: Cast Appa by paying {W}
 
 ## Combo 7253-7254-7255
 Cards: Mass of Mysteries + Prismabasher + Twinflame Travelers
-Color identity: WUBRG | Bracket: 3-4+ (Spicy) | Popularity: 1200 | Commander: legal
+Color identity: WUBRG | Bracket: 3-4+ (Spicy) | Popularity: 1300 | Commander: legal
 Produces: Near-infinite combat damage
 Start: Mass of Mysteries (battlefield); Prismabasher (battlefield: without summoning sickness); Twinflame Travelers (battlefield)
 Prerequisites: You have two or more opponents.

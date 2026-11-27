@@ -1430,7 +1430,7 @@ Steps: Cast Fractured Identity by paying {3}{W}{U}, exiling Old Fat Spider and c
 
 ## Combo 193-1543-1887-1940
 Cards: Aminatou, the Fateshifter + Ichormoon Gauntlet + Vorinclex, Monstrous Raider + Liliana, Dreadhorde General
-Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 970 | Commander: legal
+Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 980 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Aminatou, the Fateshifter (battlefield); Ichormoon Gauntlet (battlefield); Vorinclex, Monstrous Raider (battlefield); Liliana, Dreadhorde General (battlefield)
 Prerequisites: You control at least one additional planeswalker.
@@ -2093,7 +2093,7 @@ Steps: Cast the creature in your hand by paying its mana cost.
 
 ## Combo 224-907-4913-5310
 Cards: Zimone and Dina + Bloodghast + Retreat to Coralhelm + Selesnya Sanctuary
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
 Produces: Infinite card draw; Put all lands from your hand and library onto the battlefield; Near-infinite creature ETB; Infinite draw triggers; Near-infinite landfall triggers; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Zimone and Dina (battlefield: without summoning sickness); Bloodghast (battlefield); Retreat to Coralhelm (battlefield); Selesnya Sanctuary (hand)
 Steps: Activate Zimone and Dina by tapping it and sacrificing Bloodghast, causing you to draw a card and put Selesnya Sanctuary from your hand onto the battlefield, and then repeat this process once if you control eight or more lands, putting any other land from your hand onto the battlefield instead.
@@ -2417,7 +2417,7 @@ Steps: Cast the creature in your hand by paying its mana cost.
 
 ## Combo 224-3147-4913-5310
 Cards: Zimone and Dina + Bloodghast + Retreat to Coralhelm + Azorius Chancery
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
 Produces: Infinite card draw; Put all lands from your hand and library onto the battlefield; Near-infinite creature ETB; Infinite draw triggers; Near-infinite landfall triggers; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Zimone and Dina (battlefield: without summoning sickness); Bloodghast (battlefield); Retreat to Coralhelm (battlefield); Azorius Chancery (hand)
 Steps: Activate Zimone and Dina by tapping it and sacrificing Bloodghast, causing you to draw a card and put Azorius Chancery from your hand onto the battlefield, and then repeat this process once if you control eight or more lands, putting any other land from your hand onto the battlefield instead.
@@ -2453,7 +2453,7 @@ Steps: Activate Wight of the Reliquary by tapping it and sacrificing another cre
 
 ## Combo 224-3861-4913-5310
 Cards: Zimone and Dina + Bloodghast + Retreat to Coralhelm + Orzhov Basilica
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
 Produces: Infinite card draw; Put all lands from your hand and library onto the battlefield; Near-infinite creature ETB; Infinite draw triggers; Near-infinite landfall triggers; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite creature sacrifice triggers
 Start: Zimone and Dina (battlefield: without summoning sickness); Bloodghast (battlefield); Retreat to Coralhelm (battlefield); Orzhov Basilica (hand)
 Steps: Activate Zimone and Dina by tapping it and sacrificing Bloodghast, causing you to draw a card and put Orzhov Basilica from your hand onto the battlefield, and then repeat this process once if you control eight or more lands, putting any other land from your hand onto the battlefield instead.
@@ -2465,7 +2465,7 @@ Steps: Activate Zimone and Dina by tapping it and sacrificing Bloodghast, causin
 
 ## Combo 224-5627-5671
 Cards: Wight of the Reliquary + Retreat to Coralhelm + The Necrobloom
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 150 | Commander: legal
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 160 | Commander: legal
 Produces: Near-infinite creature tokens; Put all lands from your library onto the battlefield tapped; Near-infinite landfall triggers; Near-infinite creature ETB
 Start: Wight of the Reliquary (battlefield); Retreat to Coralhelm (battlefield); The Necrobloom (battlefield)
 Prerequisites: Wight of the Reliquary does not have summoning sickness.
@@ -3723,6 +3723,20 @@ Steps: Play Golgari Rot Farm.
   Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
   Repeat each turn.
 
+## Combo 280-1558-2638-4231-8091
+Cards: Time Sieve + Academy Manufactor + Golgari Rot Farm + Tireless Tracker + Case of the Pilfered Proof
+Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
+Produces: Infinite turns; Lock
+Start: Time Sieve (battlefield); Academy Manufactor (battlefield); Golgari Rot Farm (hand); Tireless Tracker (battlefield); Case of the Pilfered Proof (battlefield)
+Prerequisites: You are able to play a land this turn.
+  Case of the Pilfered Proof has been solved.
+Steps: Play Golgari Rot Farm.
+  When Golgari Rot Farm enters, it and Tireless Tracker trigger
+  Resolve the Golgari Rot Farm trigger, returning it from the battlefield to your hand.
+  Resolve the Tireless Tracker trigger, creating two Treasure, two Clue and two Food artifact tokens due to Academy Manufactor and Case of the Pilfered Proof.
+  Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
+  Repeat each turn.
+
 ## Combo 280-1558-3875-4231-4365
 Cards: Time Sieve + Academy Manufactor + Golgari Rot Farm + Tireless Provisioner + Mondrak, Glory Dominus
 Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 1 | Commander: legal
@@ -3772,6 +3786,20 @@ Steps: Play Golgari Rot Farm.
   When Golgari Rot Farm enters, it and Tireless Provisioner trigger
   Resolve the Golgari Rot Farm trigger, returning it from the battlefield to your hand.
   Resolve the Tireless Provisioner trigger, creating two Treasure, two Clue and two Food artifact tokens due to Academy Manufactor and Bard.
+  Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
+  Repeat each turn.
+
+## Combo 280-1558-3875-4231-8091
+Cards: Time Sieve + Academy Manufactor + Golgari Rot Farm + Tireless Provisioner + Case of the Pilfered Proof
+Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
+Produces: Infinite turns; Lock
+Start: Time Sieve (battlefield); Academy Manufactor (battlefield); Golgari Rot Farm (hand); Tireless Provisioner (battlefield); Case of the Pilfered Proof (battlefield)
+Prerequisites: You are able to play a land this turn.
+  Case of the Pilfered Proof has been solved.
+Steps: Play Golgari Rot Farm.
+  When Golgari Rot Farm enters, it and Tireless Provisioner trigger
+  Resolve the Golgari Rot Farm trigger, returning it from the battlefield to your hand.
+  Resolve the Tireless Provisioner trigger, creating two Treasure, two Clue and two Food artifact tokens due to Academy Manufactor and Case of the Pilfered Proof.
   Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
   Repeat each turn.
 
@@ -5093,7 +5121,7 @@ Steps: Activate Deadeye Navigator by paying {1}{U}, blinking it.
 
 ## Combo 407-2608-4499
 Cards: Derevi, Empyrial Tactician + Emiel the Blessed + Cabal Coffers
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal
 Produces: Infinite black mana; Infinite mana permanents you control can produce; Infinite untap of permanents you control; Infinite creature LTB; Infinite creature ETB; Infinite blinking
 Start: Derevi, Empyrial Tactician (battlefield); Emiel the Blessed (battlefield); Cabal Coffers (battlefield)
 Prerequisites: You control at least five Swamps.
@@ -5392,7 +5420,7 @@ Steps: Activate Kaya's second loyalty ability by removing two loyalty counters f
 
 ## Combo 433-3861-7857
 Cards: Llanowar Scout + Orzhov Basilica + Elven Raft-Steerer
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 33 | Commander: legal
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Llanowar Scout (battlefield: without summoning sickness); Orzhov Basilica (hand); Elven Raft-Steerer (battlefield)
 Steps: Activate Llanowar Scout by tapping it, putting Orzhov Basilica from your hand onto the battlefield.
@@ -14189,6 +14217,20 @@ Steps: Play Guildless Commons.
   Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
   Repeat each turn.
 
+## Combo 765-1558-2638-4231-8091
+Cards: Time Sieve + Academy Manufactor + Guildless Commons + Tireless Tracker + Case of the Pilfered Proof
+Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
+Produces: Infinite turns; Lock
+Start: Time Sieve (battlefield); Academy Manufactor (battlefield); Guildless Commons (hand); Tireless Tracker (battlefield); Case of the Pilfered Proof (battlefield)
+Prerequisites: You are able to play a land this turn.
+  Case of the Pilfered Proof has been solved.
+Steps: Play Guildless Commons.
+  When Guildless Commons enters, it and Tireless Tracker trigger
+  Resolve the Guildless Commons trigger, returning it from the battlefield to your hand.
+  Resolve the Tireless Tracker trigger, creating two Treasure, two Clue and two Food artifact tokens due to Academy Manufactor and Case of the Pilfered Proof.
+  Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
+  Repeat each turn.
+
 ## Combo 765-1558-3875-4231-4365
 Cards: Time Sieve + Academy Manufactor + Guildless Commons + Tireless Provisioner + Mondrak, Glory Dominus
 Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
@@ -14238,6 +14280,20 @@ Steps: Play Guildless Commons.
   When Guildless Commons enters, it and Tireless Provisioner trigger
   Resolve the Guildless Commons trigger, returning it from the battlefield to your hand.
   Resolve the Tireless Provisioner trigger, creating two Treasure, two Clue and two Food artifact tokens due to Academy Manufactor and Bard.
+  Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
+  Repeat each turn.
+
+## Combo 765-1558-3875-4231-8091
+Cards: Time Sieve + Academy Manufactor + Guildless Commons + Tireless Provisioner + Case of the Pilfered Proof
+Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
+Produces: Infinite turns; Lock
+Start: Time Sieve (battlefield); Academy Manufactor (battlefield); Guildless Commons (hand); Tireless Provisioner (battlefield); Case of the Pilfered Proof (battlefield)
+Prerequisites: You are able to play a land this turn.
+  Case of the Pilfered Proof has been solved.
+Steps: Play Guildless Commons.
+  When Guildless Commons enters, it and Tireless Provisioner trigger
+  Resolve the Guildless Commons trigger, returning it from the battlefield to your hand.
+  Resolve the Tireless Provisioner trigger, creating two Treasure, two Clue and two Food artifact tokens due to Academy Manufactor and Case of the Pilfered Proof.
   Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
   Repeat each turn.
 
@@ -15166,7 +15222,7 @@ Steps: Play Orzhov Basilica.
 
 ## Combo 851-1977-4499
 Cards: Emiel the Blessed + Tivit, Seller of Secrets + Adrix and Nev, Twincasters
-Color identity: GWUB | Bracket: 3-4+ (Spicy) | Popularity: 9 | Commander: legal | Mana needed: {3}
+Color identity: GWUB | Bracket: 3-4+ (Spicy) | Popularity: 10 | Commander: legal | Mana needed: {3}
 Produces: Infinite colored mana; Infinite card draw; Infinite Treasure tokens; Infinite artifact tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite draw triggers; Infinite blinking; Infinite Clue tokens
 Start: Emiel the Blessed (battlefield); Tivit, Seller of Secrets (battlefield); Adrix and Nev, Twincasters (battlefield)
 Steps: Activate Emiel by paying {3}, blinking Tivit.
@@ -16106,7 +16162,7 @@ Steps: Activate The Eternity Elevator by tapping it, adding at least twenty {U}.
 
 ## Combo 872-3861-7857
 Cards: Scaled Herbalist + Orzhov Basilica + Elven Raft-Steerer
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Scaled Herbalist (battlefield: without summoning sickness); Orzhov Basilica (hand); Elven Raft-Steerer (battlefield)
 Steps: Activate Scaled Herbalist by tapping it, putting Orzhov Basilica from your hand onto the battlefield.
@@ -16348,6 +16404,20 @@ Steps: Play Selesnya Sanctuary.
   Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
   Repeat each turn.
 
+## Combo 907-1558-2638-4231-8091
+Cards: Time Sieve + Academy Manufactor + Selesnya Sanctuary + Tireless Tracker + Case of the Pilfered Proof
+Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
+Produces: Infinite turns; Lock
+Start: Time Sieve (battlefield); Academy Manufactor (battlefield); Selesnya Sanctuary (hand); Tireless Tracker (battlefield); Case of the Pilfered Proof (battlefield)
+Prerequisites: You are able to play a land this turn.
+  Case of the Pilfered Proof has been solved.
+Steps: Play Selesnya Sanctuary.
+  When Selesnya Sanctuary enters, it and Tireless Tracker trigger
+  Resolve the Selesnya Sanctuary trigger, returning it from the battlefield to your hand.
+  Resolve the Tireless Tracker trigger, creating two Treasure, two Clue and two Food artifact tokens due to Academy Manufactor and Case of the Pilfered Proof.
+  Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
+  Repeat each turn.
+
 ## Combo 907-1558-3129-3875-4231
 Cards: Time Sieve + Academy Manufactor + Selesnya Sanctuary + Primal Vigor + Tireless Provisioner
 Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
@@ -16452,6 +16522,20 @@ Steps: Play Selesnya Sanctuary.
   Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
   Repeat each turn.
 
+## Combo 907-1558-3875-4231-8091
+Cards: Time Sieve + Academy Manufactor + Selesnya Sanctuary + Tireless Provisioner + Case of the Pilfered Proof
+Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
+Produces: Infinite turns; Lock
+Start: Time Sieve (battlefield); Academy Manufactor (battlefield); Selesnya Sanctuary (hand); Tireless Provisioner (battlefield); Case of the Pilfered Proof (battlefield)
+Prerequisites: You are able to play a land this turn.
+  Case of the Pilfered Proof has been solved.
+Steps: Play Selesnya Sanctuary.
+  When Selesnya Sanctuary enters, it and Tireless Provisioner trigger
+  Resolve the Selesnya Sanctuary trigger, returning it from the battlefield to your hand.
+  Resolve the Tireless Provisioner trigger, creating two Treasure, two Clue and two Food artifact tokens due to Academy Manufactor and Case of the Pilfered Proof.
+  Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
+  Repeat each turn.
+
 ## Combo 907-4572-4826-5702
 Cards: Springheart Nantuko + Selesnya Sanctuary + Dryad of the Ilysian Grove + Archelos, Lagoon Mystic
 Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal
@@ -16520,7 +16604,7 @@ Steps: Play Selesnya Sanctuary. When it enters untapped due to Archelos, Selesny
 
 ## Combo 907-4913-5310-7857
 Cards: Zimone and Dina + Bloodghast + Selesnya Sanctuary + Elven Raft-Steerer
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal
 Produces: Infinite card draw; Put all lands from your hand and library onto the battlefield; Infinite draw triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite death triggers; Near-infinite landfall triggers; Near-infinite creature sacrifice triggers
 Start: Zimone and Dina (battlefield: without summoning sickness); Bloodghast (battlefield); Selesnya Sanctuary (hand); Elven Raft-Steerer (battlefield)
 Steps: Activate Zimone and Dina by tapping it and sacrificing Bloodghast, causing you to draw a card and put Selesnya Sanctuary from your hand onto the battlefield, and then repeat this process once if you control eight or more lands, putting any other land from your hand onto the battlefield instead.
@@ -21762,6 +21846,20 @@ Steps: Play Simic Growth Chamber.
   Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
   Repeat each turn.
 
+## Combo 1558-1671-2638-4231-8091
+Cards: Time Sieve + Academy Manufactor + Simic Growth Chamber + Tireless Tracker + Case of the Pilfered Proof
+Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
+Produces: Infinite turns; Lock
+Start: Time Sieve (battlefield); Academy Manufactor (battlefield); Simic Growth Chamber (hand); Tireless Tracker (battlefield); Case of the Pilfered Proof (battlefield)
+Prerequisites: You are able to play a land this turn.
+  Case of the Pilfered Proof has been solved.
+Steps: Play Simic Growth Chamber.
+  When Simic Growth Chamber enters, it and Tireless Tracker trigger
+  Resolve the Simic Growth Chamber trigger, returning it from the battlefield to your hand.
+  Resolve the Tireless Tracker trigger, creating two Treasure, two Clue and two Food artifact tokens due to Academy Manufactor and Case of the Pilfered Proof.
+  Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
+  Repeat each turn.
+
 ## Combo 1558-1671-3875-4231-4365
 Cards: Time Sieve + Academy Manufactor + Simic Growth Chamber + Tireless Provisioner + Mondrak, Glory Dominus
 Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 1 | Commander: legal
@@ -21811,6 +21909,20 @@ Steps: Play Simic Growth Chamber.
   When Simic Growth Chamber enters, it and Tireless Provisioner trigger
   Resolve the Simic Growth Chamber trigger, returning it from the battlefield to your hand.
   Resolve the Tireless Provisioner trigger, creating two Treasure, two Clue and two Food artifact tokens due to Academy Manufactor and Bard.
+  Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
+  Repeat each turn.
+
+## Combo 1558-1671-3875-4231-8091
+Cards: Time Sieve + Academy Manufactor + Simic Growth Chamber + Tireless Provisioner + Case of the Pilfered Proof
+Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
+Produces: Infinite turns; Lock
+Start: Time Sieve (battlefield); Academy Manufactor (battlefield); Simic Growth Chamber (hand); Tireless Provisioner (battlefield); Case of the Pilfered Proof (battlefield)
+Prerequisites: You are able to play a land this turn.
+  Case of the Pilfered Proof has been solved.
+Steps: Play Simic Growth Chamber.
+  When Simic Growth Chamber enters, it and Tireless Provisioner trigger
+  Resolve the Simic Growth Chamber trigger, returning it from the battlefield to your hand.
+  Resolve the Tireless Provisioner trigger, creating two Treasure, two Clue and two Food artifact tokens due to Academy Manufactor and Case of the Pilfered Proof.
   Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
   Repeat each turn.
 
@@ -22067,6 +22179,20 @@ Steps: Play Azorius Chancery.
   Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
   Repeat each turn.
 
+## Combo 1558-2638-3147-4231-8091
+Cards: Time Sieve + Academy Manufactor + Tireless Tracker + Azorius Chancery + Case of the Pilfered Proof
+Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
+Produces: Infinite turns; Lock
+Start: Time Sieve (battlefield); Academy Manufactor (battlefield); Tireless Tracker (battlefield); Azorius Chancery (hand); Case of the Pilfered Proof (battlefield)
+Prerequisites: You are able to play a land this turn.
+  Case of the Pilfered Proof has been solved.
+Steps: Play Azorius Chancery.
+  When Azorius Chancery enters, it and Tireless Tracker trigger
+  Resolve the Azorius Chancery trigger, returning it from the battlefield to your hand.
+  Resolve the Tireless Tracker trigger, creating two Treasure, two Clue and two Food artifact tokens due to Academy Manufactor and Case of the Pilfered Proof.
+  Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
+  Repeat each turn.
+
 ## Combo 1558-2638-3478-4231-4365
 Cards: Time Sieve + Academy Manufactor + Tireless Tracker + Dimir Aqueduct + Mondrak, Glory Dominus
 Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 1 | Commander: legal
@@ -22116,6 +22242,20 @@ Steps: Play Dimir Aqueduct.
   When Dimir Aqueduct enters, it and Tireless Tracker trigger
   Resolve the Dimir Aqueduct trigger, returning it from the battlefield to your hand.
   Resolve the Tireless Tracker trigger, creating two Treasure, two Clue and two Food artifact tokens due to Academy Manufactor and Bard.
+  Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
+  Repeat each turn.
+
+## Combo 1558-2638-3478-4231-8091
+Cards: Time Sieve + Academy Manufactor + Tireless Tracker + Dimir Aqueduct + Case of the Pilfered Proof
+Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
+Produces: Infinite turns; Lock
+Start: Time Sieve (battlefield); Academy Manufactor (battlefield); Tireless Tracker (battlefield); Dimir Aqueduct (hand); Case of the Pilfered Proof (battlefield)
+Prerequisites: You are able to play a land this turn.
+  Case of the Pilfered Proof has been solved.
+Steps: Play Dimir Aqueduct.
+  When Dimir Aqueduct enters, it and Tireless Tracker trigger
+  Resolve the Dimir Aqueduct trigger, returning it from the battlefield to your hand.
+  Resolve the Tireless Tracker trigger, creating two Treasure, two Clue and two Food artifact tokens due to Academy Manufactor and Case of the Pilfered Proof.
   Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
   Repeat each turn.
 
@@ -22210,6 +22350,20 @@ Steps: Play Orzhov Basilica.
   Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
   Repeat each turn.
 
+## Combo 1558-2638-3861-4231-8091
+Cards: Time Sieve + Academy Manufactor + Tireless Tracker + Orzhov Basilica + Case of the Pilfered Proof
+Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
+Produces: Infinite turns; Lock
+Start: Time Sieve (battlefield); Academy Manufactor (battlefield); Tireless Tracker (battlefield); Orzhov Basilica (hand); Case of the Pilfered Proof (battlefield)
+Prerequisites: You are able to play a land this turn.
+  Case of the Pilfered Proof has been solved.
+Steps: Play Orzhov Basilica.
+  When Orzhov Basilica enters, it and Tireless Tracker trigger
+  Resolve the Orzhov Basilica trigger, returning it from the battlefield to your hand.
+  Resolve the Tireless Tracker trigger, creating two Treasure, two Clue and two Food artifact tokens due to Academy Manufactor and Case of the Pilfered Proof.
+  Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
+  Repeat each turn.
+
 ## Combo 1558-2638-4231-4365-5621
 Cards: Time Sieve + Academy Manufactor + Tireless Tracker + Mondrak, Glory Dominus + Arid Archway
 Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
@@ -22259,6 +22413,20 @@ Steps: Play Arid Archway.
   When Arid Archway enters, it and Tireless Tracker trigger
   Resolve the Arid Archway trigger, returning it from the battlefield to your hand.
   Resolve the Tireless Tracker trigger, creating two Treasure, two Clue and two Food artifact tokens due to Academy Manufactor and Bard.
+  Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
+  Repeat each turn.
+
+## Combo 1558-2638-4231-5621-8091
+Cards: Time Sieve + Academy Manufactor + Tireless Tracker + Arid Archway + Case of the Pilfered Proof
+Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
+Produces: Infinite turns; Lock
+Start: Time Sieve (battlefield); Academy Manufactor (battlefield); Tireless Tracker (battlefield); Arid Archway (hand); Case of the Pilfered Proof (battlefield)
+Prerequisites: You are able to play a land this turn.
+  Case of the Pilfered Proof has been solved.
+Steps: Play Arid Archway.
+  When Arid Archway enters, it and Tireless Tracker trigger
+  Resolve the Arid Archway trigger, returning it from the battlefield to your hand.
+  Resolve the Tireless Tracker trigger, creating two Treasure, two Clue and two Food artifact tokens due to Academy Manufactor and Case of the Pilfered Proof.
   Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
   Repeat each turn.
 
@@ -22431,6 +22599,20 @@ Steps: Play Azorius Chancery.
   Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
   Repeat each turn.
 
+## Combo 1558-3147-3875-4231-8091
+Cards: Time Sieve + Academy Manufactor + Azorius Chancery + Tireless Provisioner + Case of the Pilfered Proof
+Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
+Produces: Infinite turns; Lock
+Start: Time Sieve (battlefield); Academy Manufactor (battlefield); Azorius Chancery (hand); Tireless Provisioner (battlefield); Case of the Pilfered Proof (battlefield)
+Prerequisites: You are able to play a land this turn.
+  Case of the Pilfered Proof has been solved.
+Steps: Play Azorius Chancery.
+  When Azorius Chancery enters, it and Tireless Provisioner trigger
+  Resolve the Azorius Chancery trigger, returning it from the battlefield to your hand.
+  Resolve the Tireless Provisioner trigger, creating two Treasure, two Clue and two Food artifact tokens due to Academy Manufactor and Case of the Pilfered Proof.
+  Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
+  Repeat each turn.
+
 ## Combo 1558-3478-3875-4231-4365
 Cards: Time Sieve + Academy Manufactor + Dimir Aqueduct + Tireless Provisioner + Mondrak, Glory Dominus
 Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 1 | Commander: legal
@@ -22480,6 +22662,20 @@ Steps: Play Dimir Aqueduct.
   When Dimir Aqueduct enters, it and Tireless Provisioner trigger
   Resolve the Dimir Aqueduct trigger, returning it from the battlefield to your hand.
   Resolve the Tireless Provisioner trigger, creating two Treasure, two Clue and two Food artifact tokens due to Academy Manufactor and Bard.
+  Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
+  Repeat each turn.
+
+## Combo 1558-3478-3875-4231-8091
+Cards: Time Sieve + Academy Manufactor + Dimir Aqueduct + Tireless Provisioner + Case of the Pilfered Proof
+Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
+Produces: Infinite turns; Lock
+Start: Time Sieve (battlefield); Academy Manufactor (battlefield); Dimir Aqueduct (hand); Tireless Provisioner (battlefield); Case of the Pilfered Proof (battlefield)
+Prerequisites: You are able to play a land this turn.
+  Case of the Pilfered Proof has been solved.
+Steps: Play Dimir Aqueduct.
+  When Dimir Aqueduct enters, it and Tireless Provisioner trigger
+  Resolve the Dimir Aqueduct trigger, returning it from the battlefield to your hand.
+  Resolve the Tireless Provisioner trigger, creating two Treasure, two Clue and two Food artifact tokens due to Academy Manufactor and Case of the Pilfered Proof.
   Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
   Repeat each turn.
 
@@ -22574,6 +22770,20 @@ Steps: Play Orzhov Basilica.
   Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
   Repeat each turn.
 
+## Combo 1558-3861-3875-4231-8091
+Cards: Time Sieve + Academy Manufactor + Orzhov Basilica + Tireless Provisioner + Case of the Pilfered Proof
+Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
+Produces: Infinite turns; Lock
+Start: Time Sieve (battlefield); Academy Manufactor (battlefield); Orzhov Basilica (hand); Tireless Provisioner (battlefield); Case of the Pilfered Proof (battlefield)
+Prerequisites: You are able to play a land this turn.
+  Case of the Pilfered Proof has been solved.
+Steps: Play Orzhov Basilica.
+  When Orzhov Basilica enters, it and Tireless Provisioner trigger
+  Resolve the Orzhov Basilica trigger, returning it from the battlefield to your hand.
+  Resolve the Tireless Provisioner trigger, creating two Treasure, two Clue and two Food artifact tokens due to Academy Manufactor and Case of the Pilfered Proof.
+  Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
+  Repeat each turn.
+
 ## Combo 1558-3875-4231-4365-5621
 Cards: Time Sieve + Academy Manufactor + Tireless Provisioner + Mondrak, Glory Dominus + Arid Archway
 Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
@@ -22623,6 +22833,20 @@ Steps: Play Arid Archway.
   When Arid Archway enters, it and Tireless Provisioner trigger
   Resolve the Arid Archway trigger, returning it from the battlefield to your hand.
   Resolve the Tireless Provisioner trigger, creating two Treasure, two Clue and two Food artifact tokens due to Academy Manufactor and Bard.
+  Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
+  Repeat each turn.
+
+## Combo 1558-3875-4231-5621-8091
+Cards: Time Sieve + Academy Manufactor + Tireless Provisioner + Arid Archway + Case of the Pilfered Proof
+Color identity: GWUB | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
+Produces: Infinite turns; Lock
+Start: Time Sieve (battlefield); Academy Manufactor (battlefield); Tireless Provisioner (battlefield); Arid Archway (hand); Case of the Pilfered Proof (battlefield)
+Prerequisites: You are able to play a land this turn.
+  Case of the Pilfered Proof has been solved.
+Steps: Play Arid Archway.
+  When Arid Archway enters, it and Tireless Provisioner trigger
+  Resolve the Arid Archway trigger, returning it from the battlefield to your hand.
+  Resolve the Tireless Provisioner trigger, creating two Treasure, two Clue and two Food artifact tokens due to Academy Manufactor and Case of the Pilfered Proof.
   Activate Time Sieve by tapping it and sacrificing five of the artifact tokens, causing you to take an extra turn after this one.
   Repeat each turn.
 
@@ -24702,7 +24926,7 @@ Notes: Due to differences in card templating between the various banisher effect
 
 ## Combo 1916-3839-4142
 Cards: Changeling Titan + Changeling Hero + Hostage Taker
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {0} plus the mana cost of the creature in your hand
 Produces: Infinite creature ETB; Infinite creature LTB
 Start: Changeling Titan (hand, battlefield, exile: Exiled by the creature on the battlefield); Changeling Hero (hand, battlefield, exile: Exiled by the creature on the battlefield); Hostage Taker (hand, battlefield, exile: Exiled by the creature on the battlefield)
 Prerequisites: Hostage Taker must be exiled by Changeling Hero, and Changeling Titan must begin in hand. (This starting order is not fixed, and their initial positions may be interchanged as necessary.)
@@ -25491,7 +25715,7 @@ Steps: Activate Shilgengar by sacrificing another creature.
 
 ## Combo 1993-3861-7857
 Cards: Budoka Gardener // Dokai, Weaver of Life + Orzhov Basilica + Elven Raft-Steerer
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Budoka Gardener // Dokai, Weaver of Life (battlefield: without summoning sickness); Orzhov Basilica (hand); Elven Raft-Steerer (battlefield)
 Prerequisites: You control eight or fewer lands.
@@ -26558,7 +26782,7 @@ Steps: Activate Xavier Sal's second ability by tapping it and sacrificing anothe
 
 ## Combo 2248-3861-7857
 Cards: Skyshroud Ranger + Orzhov Basilica + Elven Raft-Steerer
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 23 | Commander: legal
+Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 24 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Skyshroud Ranger (battlefield: without summoning sickness); Orzhov Basilica (hand); Elven Raft-Steerer (battlefield)
 Steps: Activate Skyshroud Ranger by tapping it, putting Orzhov Basilica from your hand onto the battlefield.
@@ -29522,205 +29746,3 @@ Steps: Activate Bartolomé del Presidio by sacrificing Moritte of the Frost.
   Remove one +1/+1 counter and one -1/-1 counter from Moritte of the Frost as a state-based action.
   Resolve the activated ability from step 1, putting a +1/+1 counter on Bartolomé del Presidio.
   Repeat.
-
-## Combo 2921-3388-3607
-Cards: Moritte of the Frost + River Kelpie + Bartolomé del Presidio
-Color identity: GWUB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
-Produces: Infinite card draw; Near-infinite +1/+1 counters on a creature; Infinite draw triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers
-Start: Moritte of the Frost (battlefield: as a copy of River Kelpie); River Kelpie (battlefield); Bartolomé del Presidio (battlefield)
-Steps: Activate Bartolomé del Presidio by sacrificing Moritte of the Frost.
-  When Moritte of the Frost dies, its persist ability triggers, returning it from your graveyard to the battlefield as a copy of River Kelpie with one +1/+1 counter on it due to its persist ability and its static effect.
-  When Moritte of the Frost enters the battlefield, it and River Kelpie's first ability triggers, causing you to draw two cards.
-  Resolve the Bartolomé del Presidio ability from step 1, putting a +1/+1 counter on it. 
-  Repeat.
-
-## Combo 2921-3490-4455-7426
-Cards: Berta, Wise Extrapolator + Animation Module + Bartolomé del Presidio + Ghost Lantern // Bind Spirit
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Berta, Wise Extrapolator (battlefield); Animation Module (battlefield); Bartolomé del Presidio (battlefield); Ghost Lantern // Bind Spirit (battlefield: attached to Berta)
-Prerequisites: You control another creature.
-  You have a way to put a +1/+1 counter on Berta.
-Steps: Activate Bartolomé del Presidio by sacrificing another creature.
-  When the creature dies, Ghost Lantern triggers, putting a +1/+1 counter on Berta.
-  Berta and Animation Module trigger.
-  Resolve the Berta trigger, adding {1}.
-  Resolve the Animation Module trigger, causing you to pay {1} to create a 1/1 Servo artifact creature token.
-  Resolve the Bartolomé del Presidio ability.
-  Repeat
-
-## Combo 2921-3490-4613-7426
-Cards: Berta, Wise Extrapolator + Animation Module + Agatha's Soul Cauldron + Bartolomé del Presidio
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Berta, Wise Extrapolator (battlefield: with a +1/+1 counter on it); Animation Module (battlefield); Agatha's Soul Cauldron (battlefield); Bartolomé del Presidio (exile: exiled by Agatha's Soul Cauldron)
-Prerequisites: You control another creature.
-Steps: Activate Berta using Bartolomé del Presidio's ability by sacrificing a creature, putting a +1/+1 counter on Berta.
-  Berta and Animation Module trigger.
-  Resolve the Berta trigger, adding {1}.
-  Resolve the Animation Module trigger, causing you to pay {1} to create a 1/1 Servo artifact creature token.
-  Repeat
-
-## Combo 2921-3490-5445-7426
-Cards: Berta, Wise Extrapolator + Animation Module + Bartolomé del Presidio + Tarrian's Soulcleaver
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Berta, Wise Extrapolator (battlefield); Animation Module (battlefield); Bartolomé del Presidio (battlefield); Tarrian's Soulcleaver (battlefield: attached to Berta)
-Prerequisites: You control another creature or artifact.
-  You have a way to put a +1/+1 counter on Berta.
-Steps: Activate Bartolomé del Presidio by sacrificing another artifact or creature.
-  Tarrian's Soulcleaver triggers, putting a +1/+1 counter on Berta.
-  Berta and Animation Module trigger.
-  Resolve the Berta trigger, adding {1}.
-  Resolve the Animation Module trigger, causing you to pay {1} to create a 1/1 Servo artifact creature token.
-  Resolve the Bartolomé del Presidio ability.
-  Repeat
-
-## Combo 2921-3497-4484-4871-5643
-Cards: Geralf, the Fleshwright + Pitiless Plunderer + Ebondeath, Dracolich + Bartolomé del Presidio + Ezzaroot Channeler
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal | Mana needed: {B}{B}
-Produces: Infinite +1/+1 counters on a creature token; Infinite +1/+1 counters on a creature; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count
-Start: Geralf, the Fleshwright (battlefield); Pitiless Plunderer (battlefield); Ebondeath, Dracolich (graveyard); Bartolomé del Presidio (battlefield); Ezzaroot Channeler (battlefield)
-Prerequisites: A creature not named Ebondeath, Dracolich has died this turn.
-  You've cast a spell this turn.
-  You've gained at least 2 life this turn.
-Steps: Cast Ebondeath from your graveyard by paying {B}{B}.
-  Geralf's first ability triggers, creating a 2/2 Zombie Rogue creature token.
-  When the Zombie Rogue enters the battlefield, Geralf's second ability triggers,  putting a number of +1/+1 counters on the Zombie Rogue equal to the number of other Zombies that entered the battlefield under your control.
-  When Ebondeath enters the battlefield, Geralf's second ability triggers, putting a number of +1/+1 counters on Ebondeath equal to the number of other Zombies that entered the battlefield under your control.
-  Activate Bartolomé del Presidio twice by sacrificing the Zombie Rogue and Ebondeath.
-  When the Zombie Rogue and Ebondeath die, Pitiless Plunderer triggers twice, creating two Treasure tokens.
-  Resolve both Bartolomé del Presidio abilities.
-  Activate the Treasures by tapping and sacrificing them, adding {B}{B}.
-  Repeat.
-Notes: This combo will steadily put more +1/+1 counters on Ebondeath and the Zombie Rogue token, eventually resulting in an infinite number of them.
-
-## Combo 2921-3564-4275-5329
-Cards: Kumena, Tyrant of Orazca + Deeproot Pilgrimage + Faces of the Past + Bartolomé del Presidio
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite creature tokens; Infinite card draw; Infinite +1/+1 counters on a creature; Infinite +1/+1 counters on Merfolk you control; Infinite untap of all Merfolk; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite draw triggers
-Start: Kumena, Tyrant of Orazca (battlefield); Deeproot Pilgrimage (battlefield); Faces of the Past (battlefield); Bartolomé del Presidio (battlefield)
-Prerequisites: You control another untapped nontoken Merfolk.
-Steps: Activate Kumena's first ability by tapping another nontoken Merfolk you control.
-  Deeproot Pilgrimage triggers, creating a 1/1 Merfolk creature token.
-  Resolve the Kumena ability.
-  Activate Bartolomé del Presidio by sacrificing the Merfolk token.
-  When the Merfolk dies, Faces of the Past triggers, untapping all Merfolk.
-  Resolve the Bartolomé del Presidio ability.
-  Repeat.
-Notes: You can tap as many nontoken Merfolk as able each iteration by repeating steps 1 through 3 for each Merfolk. They will all be untapped by Faces of the Past.
-
-## Combo 2921-3908-5365
-Cards: Lonis, Genetics Expert + Bartolomé del Presidio + Spark Double
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on creatures you control; Infinite artifact tokens; Infinite Clue tokens
-Start: Lonis, Genetics Expert (battlefield); Bartolomé del Presidio (battlefield); Spark Double (battlefield)
-Prerequisites: You control at least one Clue token.
-  Spark Double on the battlefield as a copy of Lonis.
-Steps: Activate Bartolomé del Presidio by sacrificing a Clue.
-  Lonis and Spark Double's second abilities trigger.
-  Resolve the Lonis trigger, putting a +1/+1 counter on Spark Double.
-  Spark Double's first ability triggers, creating a Clue artifact token.
-  Resolve the Spark Double trigger from step 2, putting a +1/+1 counter on Lonis.
-  Lonis' first ability triggers, creating a Clue artifact token.
-  Resolve the Bartolomé del Presidio ability.
-  Repeat.
-Notes: You may optionally target any other creature using one of the triggers to put infinite +1/+1 counters on that creature.
-
-## Combo 2921-4186-6566--196
-Cards: Bartolomé del Presidio + Scurry Oak + Yuna, Grand Summoner
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Requires: Gives +1/+1 counter to creatures that enter (battlefield)
-Start: Bartolomé del Presidio (battlefield); Scurry Oak (hand); Yuna, Grand Summoner (battlefield)
-Steps: Cast Scurry Oak by paying its mana cost.
-  When Scurry Oak enters, the effect that adds +1/+1 counters to entering creatures triggers or applies its replacement effect, putting at least one +1/+1 counter on Scurry Oak.
-  Scurry Oak triggers, creating a creature token.
-  When the creature token enters, that same effect causes you to place at least one +1/+1 counter on it.
-  Activate Bartolomé del Presidio by sacrificing the creature token.
-  When the creature token dies, Yuna triggers, putting at least one +1/+1 counter on Scurry Oak
-  Repeat steps 3 and 4 once.
-  Resolve the Bartolomé del Presidio ability.
-  Repeat from step 5.
-
-## Combo 2921-4215-6730
-Cards: Sin, Unending Cataclysm + Verdant Succession + Bartolomé del Presidio
-Color identity: GWUB | Bracket: 3-4+ (Spicy) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on creatures you control; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: Sin, Unending Cataclysm (battlefield); Verdant Succession (battlefield); Bartolomé del Presidio (battlefield)
-Steps: Activate Bartolomé del Presidio by sacrificing Sin.
-  When Sin dies, it and Verdant Succession trigger.
-  Resolve the Sin trigger, moving any counters from it onto another creature you control, and then shuffling Sin into your library.
-  Resolve the Verdant Succession trigger, searching your library for Sin and putting it onto the battlefield.
-  Resolve the Bartolomé del Presidio ability.
-  Repeat.
-Notes: In order to get infinite +1/+1 counters, remove as many counters as possible when Sin enters, putting twice that many +1/+1 counters on Sin as it enters. Those counters can then be moved to another creature when Sin dies.
-
-## Combo 2921-4275-5003-7892
-Cards: Thranduil the Strategist + Faces of the Past + Nim Deathmantle + Bartolomé del Presidio
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite blue mana; Infinite green mana; Infinite +1/+1 counters on a creature; Infinite untap of all creatures of a certain creature type; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
-Start: Thranduil the Strategist (battlefield); Faces of the Past (battlefield); Nim Deathmantle (battlefield); Bartolomé del Presidio (battlefield)
-Prerequisites: You control at least four other Elves that do not have summoning sickness.
-Steps: Activate at least four Elves other than Thranduil by tapping them, adding at least four in any combination of {G} and/or {U}.
-  Activate Bartolomé del Presidio by sacrificing Thranduil.
-  When Thranduil dies, Nim Deathmantle and Faces of the Past trigger.
-  Resolve the Nim Deathmantle trigger, causing you to pay {4} to return Thranduil from your graveyard to the battlefield and attach Nim Deathmantle to it.
-  Resolve the Faces of the Past trigger, untapping all Elves and Nobles.
-  Resolve the Bartolomé del Presidio ability.
-  Repeat.
-
-## Combo 2921-4419-4694-7306
-Cards: The Ooze + Bartolomé del Presidio + Renata, Called to the Hunt + March of the Machines
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Bartolomé del Presidio (battlefield); Renata, Called to the Hunt (battlefield); March of the Machines (battlefield)
-Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
-Steps: Activate Bartolomé del Presidio by sacrificing a creature with a +1/+1 counter on it.
-  When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
-  Each Mutagen artifact creature token enters with at least one +1/+1 counter on it due to Renata.
-  Resolve the Bartolomé del Presidio ability, putting a +1/+1 counter on them.
-  Repeat from step 1.
-
-## Combo 2921-4493-5365
-Cards: Lonis, Genetics Expert + Bartolomé del Presidio + Irenicus's Vile Duplication
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite +1/+1 counters on creatures you control; Infinite artifact tokens; Infinite Clue tokens
-Start: Lonis, Genetics Expert (battlefield); Bartolomé del Presidio (battlefield); Irenicus's Vile Duplication (hand)
-Prerequisites: You control at least one Clue token.
-  You have enough mana to cast Irenicus's Vile Duplication
-Steps: Cast Irenicus's Vile Duplication by paying its mana cost, creating a token copy of Lonis that isn't legendary.
-  Activate Bartolomé del Presidio by sacrificing a Clue.
-  Lonis and the Lonis token's second abilities trigger.
-  Resolve the nontoken Lonis trigger, putting a +1/+1 counter on the token Lonis.
-  The token Lonis's first ability triggers, creating a Clue artifact token.
-  Resolve the token Lonis's trigger from step 2, putting a +1/+1 counter on the nontoken Lonis.
-  The nontoken Lonis's first ability triggers, creating a Clue artifact token.
-  Resolve the Bartolomé del Presidio ability.
-  Repeat from step 2.
-Notes: You may optionally target any other creature using one of the triggers to put infinite +1/+1 counters on that creature.
-
-## Combo 2921-4559-4802-7306
-Cards: Metalwork Colossus + The Ooze + Bartolomé del Presidio + Master Biomancer
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite artifact tokens; Infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite Mutagen tokens; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count
-Start: Metalwork Colossus (hand); The Ooze (battlefield); Bartolomé del Presidio (battlefield); Master Biomancer (battlefield)
-Prerequisites: Noncreature artifacts you control have total mana value 11 or greater.
-Steps: Cast Metalwork Colossus by paying {0}, which enters with at least two +1/+1 counters on it due to Master Biomancer.
-  Activate Bartolomé del Presidio by sacrificing Metalwork Colossus.
-  When Metalwork Colossus dies, The Ooze triggers, creating a Mutagen token for each +1/+1 counter Metalwork Colossus had.
-  Resolve the Bartolomé del Presidio ability.
-  Activate Metalwork Colossus by sacrificing two Mutagens, returning it from your graveyard to your hand.
-  Repeat.
-
-## Combo 2921-4694-4802-7306
-Cards: The Ooze + Bartolomé del Presidio + March of the Machines + Master Biomancer
-Color identity: GWUB | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
-Produces: Infinite creature tokens; Infinite +1/+1 counters on a creature; Infinite artifact tokens; Infinite Mutagen tokens; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
-Start: The Ooze (battlefield); Bartolomé del Presidio (battlefield); March of the Machines (battlefield); Master Biomancer (battlefield)
-Prerequisites: You control at least one additional creature with a +1/+1 counter on it.
-Steps: Activate Bartolomé del Presidio by sacrificing a creature with a +1/+1 counter on it.
-  When that creature dies, The Ooze triggers, creating a Mutagen artifact token for each +1/+1 counter on the sacrificed creature. These artifacts are also 0/0 creatures due to March of the Machines.
-  Each Mutagen artifact creature token enters with at least one +1/+1 counter on it due to Master Biomancer.
-  Resolve the Bartolomé del Presidio ability, putting a +1/+1 counter on them.
-  Repeat from step 1.

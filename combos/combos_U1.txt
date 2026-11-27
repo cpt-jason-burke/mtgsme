@@ -42,7 +42,7 @@ Steps: Cast Petals of Insight by discarding Man-o'-War.
 
 ## Combo 1-4067-5078
 Cards: Mind Over Matter + Sensei's Divining Top + Containment Construct
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 46 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal
 Produces: Exile your library with the ability to play the exiled cards until end of turn; Infinite rummaging; Infinite self-discard triggers; Infinite draw triggers; Near-infinite storm count
 Start: Mind Over Matter (battlefield); Sensei's Divining Top (battlefield); Containment Construct (battlefield)
 Prerequisites: You control a mana-producing permanent.
@@ -193,7 +193,7 @@ Steps: Activate all mana-producing creatures you control by tapping them, adding
 
 ## Combo 2-1636-4938
 Cards: Chief Engineer + Ancestral Statue + Intruder Alarm
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal
 Produces: Infinite mana creatures you control can produce; Infinite untap of creatures; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Chief Engineer (battlefield); Ancestral Statue (hand); Intruder Alarm (battlefield)
 Prerequisites: You control at least four creatures.
@@ -355,7 +355,7 @@ Steps: Activate Chromatic Orrery by tapping it, adding {5}.
 
 ## Combo 11-1357-4821
 Cards: Errant, Street Artist + Dramatic Reversal + Narset's Reversal
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 480 | Commander: legal | Mana needed: {U}{U}{U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 490 | Commander: legal | Mana needed: {U}{U}{U}
 Produces: Infinite mana nonland permanents you control can produce; Infinite untap of nonland permanents you control; Infinite magecraft triggers
 Start: Errant, Street Artist (battlefield); Dramatic Reversal (hand); Narset's Reversal (hand)
 Prerequisites: Nonland permanents you control can tap to produce at least {2}{U}.
@@ -494,7 +494,7 @@ Steps: Cast Frantic Search by paying {2}{U}.
 
 ## Combo 11-2539
 Cards: Twinning Staff + Narset's Reversal
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 24000 | Commander: legal | Mana needed: {7}{U}{U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 25000 | Commander: legal | Mana needed: {7}{U}{U}
 Produces: Infinite magecraft triggers
 Start: Twinning Staff (battlefield); Narset's Reversal (hand)
 Prerequisites: an instant or sorcery spell in hand.
@@ -533,6 +533,18 @@ Steps: Cast Temporal Trespass by paying its mana cost.
   Temporal Trespass's suspend ability triggers, causing you to cast it from exile without paying its mana cost.
   Repeat from step 2.
 Notes: You can use Clockspinning as a way to cast a spell before starting the combo if needed. Since you need to ensure Temporal Trespass is always the second spell cast each extra turn after Clockspinning, it is recommended to not have any other suspended cards when beginning the combo. Otherwise, you can ensure Temporal Trespass is second by casting Clockspinning with the other suspend abilities on the stack during your upkeep.
+
+## Combo 32-1164-1329
+Cards: Mirror of Fate + Temporal Trespass + Emry, Lurker of the Loch
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 3 | Commander: legal | Mana needed: {8}{U}{U}{U} each turn plus {5} each turn beyond the first
+Produces: Infinite turns; Lock
+Start: Mirror of Fate (battlefield); Temporal Trespass (hand); Emry, Lurker of the Loch (battlefield)
+Steps: Cast Temporal Trespass by paying its mana cost, causing you to take an extra turn after this one and exile Temporal Trespass
+  Activate Mirror of Fate by tapping and sacrificing it, choosing Temporal Trespass and up to six other exiled cards, then exiling your library and putting the chosen cards on top of your library. Ensure Temporal Trespass is the top card of your library.
+  Move to your next turn, drawing Temporal Trespass from your library during your draw step.
+  Activate Emry by tapping it, allowing you to cast Mirror of Fate from your graveyard this turn.
+  Cast Mirror of Fate from your graveyard by paying {5}.
+  Repeat.
 
 ## Combo 32-1271-3212
 Cards: God-Eternal Kefnet + Scroll Rack + Temporal Trespass
@@ -1147,7 +1159,7 @@ Steps: Activate Sisay's Ring by tapping it, adding {C}{C}.
 
 ## Combo 74-617-4002
 Cards: Voltaic Key + The Enigma Jewel // Locus of Enlightenment + Sceptre of Eternal Glory
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 91 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 92 | Commander: legal
 Produces: Infinite colored mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
 Start: Voltaic Key (battlefield); The Enigma Jewel // Locus of Enlightenment (battlefield); Sceptre of Eternal Glory (battlefield)
 Prerequisites: You control three or more lands that share a name.
@@ -1586,7 +1598,7 @@ Notes: If the targeted opponent has an odd number of cards in their library, the
 
 ## Combo 95-7268
 Cards: Bruvac the Grandiloquent + Kitsune's Technique
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 7900 | Commander: legal | Mana needed: {4}{U}{U} at most
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 8000 | Commander: legal | Mana needed: {4}{U}{U} at most
 Produces: Infinite mill for target opponent
 Start: Bruvac the Grandiloquent (battlefield); Kitsune's Technique (hand)
 Steps: Cast Kitsune's Technique by paying its mana cost, causing an opponent to mill their library due to Bruvac.
@@ -1841,7 +1853,7 @@ Notes: You can use Clockspinning as a way to cast a spell before starting the co
 
 ## Combo 112-957-6496
 Cards: Taigam, Master Opportunist + Clockspinning + Time Stretch
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 930 | Commander: legal | Mana needed: {14}{U}{U}{U}{U} the first turn with {9}{U}{U}{U} each other turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 940 | Commander: legal | Mana needed: {14}{U}{U}{U}{U} the first turn with {9}{U}{U}{U} each other turn
 Produces: Infinite turns; Lock
 Start: Taigam, Master Opportunist (battlefield); Clockspinning (hand); Time Stretch (hand)
 Prerequisites: You've cast exactly one spell this turn.
@@ -1910,7 +1922,7 @@ Steps: Cast Clockspinning with buyback by paying {3}{U}, targeting Gonti's Aethe
 
 ## Combo 112-1494
 Cards: Sage of Hours + Clockspinning
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 330 | Commander: legal | Mana needed: {9}{U}{U}{U} every turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 340 | Commander: legal | Mana needed: {9}{U}{U}{U} every turn
 Produces: Infinite turns; Lock
 Start: Sage of Hours (battlefield); Clockspinning (hand)
 Steps: Cast Clockspinning with buyback by paying {3}{U}, targeting Sage of Hours.
@@ -1977,7 +1989,7 @@ Steps: Cast Capture of Jingzhou by paying its mana cost, causing you to take an 
 
 ## Combo 112-2104-6496
 Cards: Taigam, Master Opportunist + Clockspinning + Temporal Manipulation
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 530 | Commander: legal | Mana needed: {9}{U}{U}{U}{U} the first turn with {9}{U}{U}{U} each other turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 540 | Commander: legal | Mana needed: {9}{U}{U}{U}{U} the first turn with {9}{U}{U}{U} each other turn
 Produces: Infinite turns; Lock
 Start: Taigam, Master Opportunist (battlefield); Clockspinning (hand); Temporal Manipulation (hand)
 Prerequisites: You've cast exactly one spell this turn.
@@ -2237,7 +2249,7 @@ Notes: You can use Clockspinning as a way to cast a spell before starting the co
 
 ## Combo 112-4872-7757
 Cards: Doom's Time Platform + Clockspinning + Time Warp
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 210 | Commander: legal | Mana needed: {3}{U}{U} the first turn with {3}{U} each extra turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 220 | Commander: legal | Mana needed: {3}{U}{U} the first turn with {3}{U} each extra turn
 Produces: Infinite turns; Lock
 Start: Doom's Time Platform (battlefield); Clockspinning (hand); Time Warp (hand)
 Prerequisites: You control a creature that can attack and that cannot be blocked or killed by an opponent.
@@ -2407,7 +2419,7 @@ Steps: Use {6} to activate Planar Portal to find Beacon of Tomorrows.
 
 ## Combo 131-721-2724
 Cards: Wormfang Manta + Scroll of Fate + Umbilicus
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 3 | Commander: legal | Mana needed: {5}{U}{U} each turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 2 | Commander: legal | Mana needed: {5}{U}{U} each turn
 Produces: Infinite turns; Lock
 Start: Wormfang Manta (battlefield); Scroll of Fate (battlefield); Umbilicus (battlefield)
 Steps: At the beginning of your upkeep, Umbilicus triggers, allowing you to return Wormfang Manta from the battlefield to your hand.
@@ -3148,7 +3160,7 @@ Steps: Cast Self-Reflection by paying its mana cost, targeting a creature you co
 
 ## Combo 141-6471
 Cards: Naru Meha, Master Wizard + Will of the Temur
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 250 | Commander: legal | Mana needed: {2}{U}{U} plus enough mana to pay for commander tax, if applicable
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 260 | Commander: legal | Mana needed: {2}{U}{U} plus enough mana to pay for commander tax, if applicable
 Produces: Infinite card draw for any number of players; Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite magecraft triggers; Infinite draw triggers for any number of players
 Start: Naru Meha, Master Wizard (hand, command zone); Will of the Temur (hand)
 Prerequisites: You control at least one creature.
@@ -3914,7 +3926,7 @@ Notes: You can reduce the mana cost by {1} if Empowered Autogenerator has any ch
 
 ## Combo 198-2341-2495
 Cards: Tezzeret the Seeker + The Peregrine Dynamo + Empowered Autogenerator
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 61 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 62 | Commander: legal
 Produces: Infinite colored mana; Infinite mana artifacts you control can produce; Infinite charge counters on a permanent; Infinite untap of artifacts you control
 Start: Tezzeret the Seeker (battlefield); The Peregrine Dynamo (battlefield); Empowered Autogenerator (battlefield: with X or more charge counters on it)
 Steps: Activate Tezzeret's first loyalty ability by putting a loyalty counter on it, targeting Empowered Autogenerator and The Peregrine Dynamo.
@@ -3971,7 +3983,7 @@ Steps: Activate Empowered Autogenerator by tapping it, putting a charge counter 
 
 ## Combo 198-4222-5089
 Cards: Karn, the Great Creator + Freed from the Real + Empowered Autogenerator
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 76 | Commander: legal | Mana needed: {2}{U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 77 | Commander: legal | Mana needed: {2}{U}
 Produces: Infinite colored mana; Infinite charge counters on a permanent
 Start: Karn, the Great Creator (battlefield); Freed from the Real (hand); Empowered Autogenerator (battlefield)
 Prerequisites: Empowered Autogenerator does not have summoning sickness.
@@ -4148,7 +4160,7 @@ Steps: Activate Walking Atlas by tapping it, putting Guildless Commons from your
 
 ## Combo 224-765-6628
 Cards: Retreat to Coralhelm + Guildless Commons + PuPu UFO
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 2000 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 2100 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Retreat to Coralhelm (battlefield); Guildless Commons (hand); PuPu UFO (battlefield: without summoning sickness)
 Steps: Activate PuPu UFO by tapping it, putting Guildless Commons from your hand onto the battlefield.
@@ -4632,7 +4644,7 @@ Steps: Activate PuPu UFO by tapping it, putting a land card from your hand onto 
 
 ## Combo 224-5621-6628
 Cards: Retreat to Coralhelm + Arid Archway + PuPu UFO
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1700 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1800 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Retreat to Coralhelm (battlefield); Arid Archway (hand); PuPu UFO (battlefield: without summoning sickness)
 Steps: Activate PuPu UFO by tapping it, putting Arid Archway from your hand onto the battlefield.
@@ -4657,7 +4669,7 @@ Steps: Activate Dreamscape Artist by paying {2}{U}, tapping it, discarding a car
 
 ## Combo 226-1371-3367
 Cards: Hive Mind + Paradigm Shift + Soul-Guide Lantern
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 48 | Commander: legal | Mana needed: {1}{U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal | Mana needed: {1}{U}
 Produces: Exile each opponent's library
 Start: Hive Mind (battlefield); Paradigm Shift (hand); Soul-Guide Lantern (battlefield)
 Steps: Tap and Exile Soul-Guide Lantern to exile each opponent's graveyard.
@@ -5225,7 +5237,7 @@ Steps: Activate Mystic Sanctuary and Hedron Archive by tapping them, adding {C}{
 
 ## Combo 270-2341-2495
 Cards: Tezzeret the Seeker + The Peregrine Dynamo + Hedron Archive
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 43 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 44 | Commander: legal
 Produces: Infinite colorless mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
 Start: Tezzeret the Seeker (battlefield); The Peregrine Dynamo (battlefield); Hedron Archive (battlefield)
 Steps: Activate Tezzeret's first loyalty ability by putting a loyalty counter on it, targeting Hedron Archive and The Peregrine Dynamo.
@@ -5506,7 +5518,7 @@ Steps: Cast Sensei's Divining Top by paying {0} due to Gran-Gran.
 
 ## Combo 275-5078-7692
 Cards: Sensei's Divining Top + Transplant Theorist + Shuri, Wakandan Inventor
-Color identity: U | Bracket: 2-3+ (Oddball) | Popularity: 89 | Commander: legal
+Color identity: U | Bracket: 2-3+ (Oddball) | Popularity: 90 | Commander: legal
 Produces: Infinite looting; Infinite draw triggers; Infinite self-discard triggers; Near-infinite storm count
 Start: Sensei's Divining Top (hand); Transplant Theorist (battlefield); Shuri, Wakandan Inventor (battlefield)
 Steps: Cast Sensei's Divining Top by paying {0} due to Shuri.
@@ -5528,7 +5540,7 @@ Steps: Cast Sensei's Divining Top by paying {0} due to Valeria Richards.
 
 ## Combo 275-5078-8176
 Cards: Sensei's Divining Top + Transplant Theorist + Geist of Saint Thalia
-Color identity: U | Bracket: 2-3+ (Oddball) | Popularity: 48 | Commander: legal
+Color identity: U | Bracket: 2-3+ (Oddball) | Popularity: 49 | Commander: legal
 Produces: Infinite looting; Infinite draw triggers; Infinite self-discard triggers; Near-infinite storm count
 Start: Sensei's Divining Top (hand); Transplant Theorist (battlefield); Geist of Saint Thalia (battlefield)
 Steps: Cast Sensei's Divining Top by paying {0} due to Geist of Saint Thalia.
@@ -5657,7 +5669,7 @@ Steps: Activate any mana-producing permanent by tapping it, adding at least {1}.
 
 ## Combo 283-2364-3930
 Cards: Rimewind Taskmage + Illusionist's Bracers + Mana Vault
-Color identity: U | Bracket: 3+ (Powerful) | Popularity: 12 | Commander: legal
+Color identity: U | Bracket: 3+ (Powerful) | Popularity: 13 | Commander: legal
 Produces: Infinite mana permanents you control can produce; Infinite untap of permanents you control
 Start: Rimewind Taskmage (battlefield); Illusionist's Bracers (battlefield); Mana Vault (battlefield)
 Prerequisites: Illusionist's Bracers attached to Rimewind Taskmage.
@@ -5671,7 +5683,7 @@ Steps: Activate Mana Vault by tapping it, adding {C}{C}{C}.
 
 ## Combo 283-2954-4067
 Cards: Ormos, Archive Keeper + Mind Over Matter + Illusionist's Bracers
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 11 | Commander: legal | Mana needed: {1}{U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal | Mana needed: {1}{U}
 Produces: Infinite card draw; Near-infinite mana permanents you control can produce; Near-infinite +1/+1 counters on a creature; Near-infinite untap of permanents you control; Infinite draw triggers; Infinite self-discard triggers
 Start: Ormos, Archive Keeper (battlefield); Mind Over Matter (battlefield); Illusionist's Bracers (battlefield)
 Prerequisites: Illusionist's Bracers attached to Ormos.
@@ -6007,7 +6019,7 @@ Steps: Activate Dreamstone Hedron by tapping it, adding at least two mana which 
 
 ## Combo 290-2341-2495
 Cards: Tezzeret the Seeker + The Peregrine Dynamo + Dreamstone Hedron
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 26 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 27 | Commander: legal
 Produces: Infinite colorless mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
 Start: Tezzeret the Seeker (battlefield); The Peregrine Dynamo (battlefield); Dreamstone Hedron (battlefield)
 Steps: Activate Tezzeret's first loyalty ability by putting a loyalty counter on it, targeting Dreamstone Hedron and The Peregrine Dynamo.
@@ -6152,7 +6164,7 @@ Steps: Cast Time Warp by paying {3}{U}{U}, taking an extra turn after this one.
 
 ## Combo 306-3363
 Cards: The One Ring + Cache Raiders
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 13 | Commander: legal | Mana needed: {4} each turn
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 14 | Commander: legal | Mana needed: {4} each turn
 Produces: Lock; Prevent all damage that would be dealt to you; You have protection from everything
 Start: The One Ring (hand); Cache Raiders (battlefield)
 Steps: Cast The One Ring by paying {4}.
@@ -6253,7 +6265,7 @@ Steps: Declare Great Whale and Moonsnare Specialist as attackers.
 
 ## Combo 307-1807-3542
 Cards: Thousand-Faced Shadow + Palinchron + Moonsnare Specialist
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 120 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 110 | Commander: legal
 Produces: Infinite combat damage to one opponent; Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Return any number of creatures to their owners' hands
 Start: Thousand-Faced Shadow (hand); Palinchron (battlefield); Moonsnare Specialist (battlefield)
 Prerequisites: Moonsnare Specialist and Palinchron do not have summoning sickness.
@@ -6476,7 +6488,7 @@ Steps: Declare Great Whale and Mist-Syndicate Naga as attackers.
 
 ## Combo 307-3010-3542
 Cards: Thousand-Faced Shadow + Palinchron + Moonblade Shinobi
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 52 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 51 | Commander: legal
 Produces: Infinite combat damage to one opponent; Infinite creature tokens; Infinite creature ETB; Infinite creature LTB
 Start: Thousand-Faced Shadow (hand); Palinchron (battlefield); Moonblade Shinobi (battlefield)
 Prerequisites: Moonblade Shinobi and Palinchron do not have summoning sickness.
@@ -6899,7 +6911,7 @@ Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
 
 ## Combo 364-1987-2493-4714
 Cards: Ghostly Flicker + Arcane Melee + Archaeomancer + Mana Geode
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite scry 1; Infinite storm count; Infinite landfall triggers
 Start: Ghostly Flicker (hand); Arcane Melee (battlefield); Archaeomancer (battlefield); Mana Geode (battlefield)
 Steps: Activate Mana Geode by tapping it, adding {U}.
@@ -6931,7 +6943,7 @@ Steps: Activate Gilded Lotus by tapping it, adding {U}{U}{U}.
 
 ## Combo 364-1987-2556
 Cards: Ghostly Flicker + Arcane Melee + Mnemonic Wall
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 58 | Commander: legal | Mana needed: {U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 57 | Commander: legal | Mana needed: {U}
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count; Infinite landfall triggers; Infinite magecraft triggers
 Start: Ghostly Flicker (hand); Arcane Melee (battlefield); Mnemonic Wall (battlefield)
 Prerequisites: You control an artifact or land that enters the battlefield untapped and can produce {U}.
@@ -6964,7 +6976,7 @@ Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
 
 ## Combo 364-1987-2556-4714
 Cards: Ghostly Flicker + Arcane Melee + Mnemonic Wall + Mana Geode
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 3 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite scry 1; Infinite storm count; Infinite landfall triggers
 Start: Ghostly Flicker (hand); Arcane Melee (battlefield); Mnemonic Wall (battlefield); Mana Geode (battlefield)
 Steps: Activate Mana Geode by tapping it, adding {U}.
@@ -7196,7 +7208,7 @@ Steps: Activate Phyrexian Altar by sacrificing Iridescent Drake, adding one mana
 
 ## Combo 369-1258-5256
 Cards: Iridescent Drake + Abduction + Altar of Dementia
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 40 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Iridescent Drake (battlefield); Abduction (battlefield); Altar of Dementia (battlefield)
 Prerequisites: Abduction attached to Iridescent Drake.
@@ -7327,7 +7339,7 @@ Steps: Cast Hulking Metamorph by paying its mana cost. Choose to have it enter a
 
 ## Combo 390-5282-7149
 Cards: Princess Yue + Wormfang Newt + Hulking Metamorph
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 410 | Commander: legal | Mana needed: {2}{U}{U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 420 | Commander: legal | Mana needed: {2}{U}{U}
 Produces: Infinite creature LTB; Infinite creature ETB; Infinite death triggers; Infinite landfall triggers
 Start: Princess Yue (battlefield: is not a land); Wormfang Newt (battlefield); Hulking Metamorph (hand)
 Steps: Cast Hulking Metamorph for its prototype cost by paying {2}{U}{U}. Choose to have it enter as a copy of Princess Yue.
@@ -7587,7 +7599,7 @@ Steps: Activate Blasting Station by tapping it and sacrificing Academy Researche
 
 ## Combo 413-3783-4300
 Cards: Meloku the Clouded Mirror + Minn, Wily Illusionist + Blasting Station
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 600 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 590 | Commander: legal
 Produces: Infinite damage; Infinite death triggers; Infinite creature ETB; Infinite landfall triggers; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Meloku the Clouded Mirror (battlefield); Minn, Wily Illusionist (battlefield); Blasting Station (battlefield)
 Prerequisites: You control a land that enters the battlefield untapped and can tap to produce at least {1}.
@@ -7966,7 +7978,7 @@ Steps: If Aether Spellbomb is in your graveyard, activate Emry by tapping it, ta
 
 ## Combo 457-777-1458-4404
 Cards: Urza, Lord High Artificer + Corridor Monitor + Banishing Knack + Foundry Inspector
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal | Mana needed: {U}{U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal | Mana needed: {U}{U}
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Urza, Lord High Artificer (battlefield); Corridor Monitor (hand); Banishing Knack (hand); Foundry Inspector (battlefield)
 Prerequisites: You control a creature that doesn't have summoning sickness.
@@ -8408,7 +8420,7 @@ Steps: If Sewer-veillance Cam is in your graveyard, activate Emry by tapping it,
 
 ## Combo 457-1409-1418
 Cards: Urza, Lord High Artificer + Deadeye Navigator + Virtue of Knowledge // Vantress Visions
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 840 | Commander: legal | Mana needed: {1}{U}
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 850 | Commander: legal | Mana needed: {1}{U}
 Produces: Infinite tapped creature tokens; Infinite creature LTB; Infinite creature ETB
 Start: Urza, Lord High Artificer (battlefield); Deadeye Navigator (battlefield); Virtue of Knowledge // Vantress Visions (battlefield)
 Prerequisites: Deadeye Navigator paired with Urza.
@@ -8789,7 +8801,7 @@ Steps: Cast Banishing Knack by paying {U}, targeting a creature you control that
 
 ## Combo 457-1458-1976-4404
 Cards: Urza, Lord High Artificer + Corridor Monitor + Banishing Knack + Etherium Sculptor
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 29 | Commander: legal | Mana needed: {U}{U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 30 | Commander: legal | Mana needed: {U}{U}
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Urza, Lord High Artificer (battlefield); Corridor Monitor (hand); Banishing Knack (hand); Etherium Sculptor (battlefield)
 Prerequisites: You control a creature that doesn't have summoning sickness.
@@ -8802,7 +8814,7 @@ Steps: Cast Banishing Knack by paying {U}, targeting a creature you control that
 
 ## Combo 457-1458-2146-4404
 Cards: Urza, Lord High Artificer + Corridor Monitor + Banishing Knack + Cloud Key
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 12 | Commander: legal | Mana needed: {U}{U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 13 | Commander: legal | Mana needed: {U}{U}
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Urza, Lord High Artificer (battlefield); Corridor Monitor (hand); Banishing Knack (hand); Cloud Key (battlefield: with "Artifact" chosen)
 Prerequisites: You control a creature that doesn't have summoning sickness.
@@ -8828,7 +8840,7 @@ Steps: Cast Banishing Knack by paying {U}, targeting a creature you control that
 
 ## Combo 457-1458-2510-4404
 Cards: Urza, Lord High Artificer + Corridor Monitor + Banishing Knack + Semblance Anvil
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1 | Commander: legal | Mana needed: {U}{U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 2 | Commander: legal | Mana needed: {U}{U}
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Urza, Lord High Artificer (battlefield); Corridor Monitor (hand); Banishing Knack (hand); Semblance Anvil (battlefield)
 Prerequisites: You control a creature that doesn't have summoning sickness.
@@ -8934,7 +8946,7 @@ Steps: Cast Banishing Knack by paying {U}, targeting a creature you control that
 
 ## Combo 457-1458-4404-7692
 Cards: Urza, Lord High Artificer + Corridor Monitor + Banishing Knack + Shuri, Wakandan Inventor
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {U}{U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {U}{U}
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Urza, Lord High Artificer (battlefield); Corridor Monitor (hand); Banishing Knack (hand); Shuri, Wakandan Inventor (battlefield)
 Prerequisites: You control a creature that doesn't have summoning sickness.
@@ -9065,7 +9077,7 @@ Steps: Cast Retraction Helix by paying {U}, targeting a creature you control tha
 
 ## Combo 457-1792-2510-4404
 Cards: Urza, Lord High Artificer + Corridor Monitor + Retraction Helix + Semblance Anvil
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal | Mana needed: {U}{U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal | Mana needed: {U}{U}
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Urza, Lord High Artificer (battlefield); Corridor Monitor (hand); Retraction Helix (hand); Semblance Anvil (battlefield)
 Prerequisites: You control a creature that doesn't have summoning sickness.
@@ -9118,7 +9130,7 @@ Steps: Cast Retraction Helix by paying {U}, targeting a creature you control tha
 
 ## Combo 457-1792-4404-6000
 Cards: Urza, Lord High Artificer + Corridor Monitor + Retraction Helix + Sapphire Medallion
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 21 | Commander: legal | Mana needed: {U}{U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal | Mana needed: {U}{U}
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Urza, Lord High Artificer (battlefield); Corridor Monitor (hand); Retraction Helix (hand); Sapphire Medallion (battlefield)
 Prerequisites: You control a creature that doesn't have summoning sickness.
@@ -9171,7 +9183,7 @@ Steps: Cast Retraction Helix by paying {U}, targeting a creature you control tha
 
 ## Combo 457-1792-4404-7692
 Cards: Urza, Lord High Artificer + Corridor Monitor + Retraction Helix + Shuri, Wakandan Inventor
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal | Mana needed: {U}{U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 10 | Commander: legal | Mana needed: {U}{U}
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Urza, Lord High Artificer (battlefield); Corridor Monitor (hand); Retraction Helix (hand); Shuri, Wakandan Inventor (battlefield)
 Prerequisites: You control a creature that doesn't have summoning sickness.
@@ -9184,7 +9196,7 @@ Steps: Cast Retraction Helix by paying {U}, targeting a creature you control tha
 
 ## Combo 457-1792-7340
 Cards: Urza, Lord High Artificer + Sewer-veillance Cam + Retraction Helix
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1600 | Commander: legal | Mana needed: {U}{U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1700 | Commander: legal | Mana needed: {U}{U}
 Produces: Cast all spells in your library; Infinite blue mana; Infinite mana creatures you control can produce; Infinite artifact ETB; Infinite artifact LTB; Exile your library; Infinite storm count; Infinite untap of creatures you control
 Start: Urza, Lord High Artificer (battlefield); Sewer-veillance Cam (hand); Retraction Helix (hand)
 Prerequisites: You control a creature that doesn't have summoning sickness.
@@ -9446,7 +9458,7 @@ Steps: Activate Urza's first ability by tapping Moonfolk Puzzlemaker, adding {U}
 
 ## Combo 457-4038-5390
 Cards: Urza, Lord High Artificer + Farmstead Gleaner + Forensic Gadgeteer
-Color identity: U | Bracket: 2-3+ (Oddball) | Popularity: 34 | Commander: legal
+Color identity: U | Bracket: 2-3+ (Oddball) | Popularity: 33 | Commander: legal
 Produces: Infinite +1/+1 counters on a creature
 Start: Urza, Lord High Artificer (battlefield); Farmstead Gleaner (battlefield); Forensic Gadgeteer (battlefield)
 Steps: Activate Urza's first ability by tapping Farmstead Gleaner, adding {U}.
@@ -9515,7 +9527,7 @@ Notes: Once you have infinite mana, you may use it to activate Urza's ability.
 
 ## Combo 457-4659-6465
 Cards: James, Wandering Dad // Follow Him + Urza, Lord High Artificer + Krark-Clan Ironworks
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 42 | Commander: legal | Mana needed: {3}{U}{U} plus {1} for each time you've cast James / Follow Him from the command zone this game, plus commander tax if applicable
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 43 | Commander: legal | Mana needed: {3}{U}{U} plus {1} for each time you've cast James / Follow Him from the command zone this game, plus commander tax if applicable
 Produces: Infinite colorless mana; Infinite card draw; Infinite blue mana; Cast all spells in your library; Infinite artifact tokens; Infinite commander casts; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite storm count; Infinite draw triggers; Infinite magecraft triggers; Exile your library; Infinite Clue tokens
 Start: James, Wandering Dad // Follow Him (hand, command zone: must be your commander); Urza, Lord High Artificer (battlefield); Krark-Clan Ironworks (battlefield)
 Steps: Cast Follow Him either from your hand or from the command zone by paying {3}{U}{U} plus {1} for each time you've cast James / Follow Him from the command zone this game, plus commander tax, if applicable.
@@ -10566,7 +10578,7 @@ Steps: Pay {U}{U} and tap Wall of Kelp to create a 0/1 Kelp token.
 
 ## Combo 486-1978-3784
 Cards: Voltaic Construct + Liquimetal Torque + Vhal, Candlekeep Researcher
-Color identity: U | Bracket: 2-3+ (Oddball) | Popularity: 27 | Commander: legal
+Color identity: U | Bracket: 2-3+ (Oddball) | Popularity: 28 | Commander: legal
 Produces: Infinite colorless mana that can't be spent to cast spells from your hand; Infinite untap of artifact creatures you control
 Start: Voltaic Construct (battlefield); Liquimetal Torque (battlefield); Vhal, Candlekeep Researcher (battlefield: without summoning sickness)
 Steps: Cause Vhal to become an artifact using Liquimetal Torque.
@@ -10637,7 +10649,7 @@ Steps: Activate Timestream Navigator by paying {2}{U}{U}, tapping it and putting
 
 ## Combo 493-803-1061
 Cards: Higure, the Still Wind + Timestream Navigator + Arcane Adaptation
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 17 | Commander: legal | Mana needed: {3}{U}{U}{U} each turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 18 | Commander: legal | Mana needed: {3}{U}{U}{U} each turn
 Produces: Infinite turns; Lock
 Start: Higure, the Still Wind (battlefield); Timestream Navigator (battlefield); Arcane Adaptation (battlefield)
 Prerequisites: Higure and Timesteam Navigator do not have summoning sickness.
@@ -11011,7 +11023,7 @@ Steps: Activate Sol Ring by tapping it, adding {C} {C}.
 
 ## Combo 513-5034-5282
 Cards: Hullbreaker Horror + Sol Ring + Wormfang Newt
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 270 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 280 | Commander: legal
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite creature ETB; Infinite creature LTB; Infinite landfall triggers; Infinite storm count
 Start: Hullbreaker Horror (battlefield); Sol Ring (battlefield); Wormfang Newt (hand)
 Prerequisites: You control a land that enters untapped and that can be tapped to produce at least {U}.
@@ -11715,7 +11727,7 @@ Steps: During the end step before your turn, activate Isochron Scepter by paying
 
 ## Combo 548-3212-4377-5261
 Cards: God-Eternal Kefnet + Isochron Scepter + Brainstorm + Walk the Aeons
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 130 | Commander: legal | Mana needed: {2} plus {4}{U}{U} available each other turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 120 | Commander: legal | Mana needed: {2} plus {4}{U}{U} available each other turn
 Produces: Infinite turns; Lock
 Start: God-Eternal Kefnet (battlefield); Isochron Scepter (battlefield); Brainstorm (exile: exiled by Isochron Scepter); Walk the Aeons (hand)
 Steps: During the end step before your turn, activate Isochron Scepter by paying {2} and tapping it, casting a copy of Brainstorm without paying its mana cost.
@@ -12672,7 +12684,7 @@ Steps: Activate Metalworker by tapping it and revealing at least one artifact ca
 
 ## Combo 578-1812-3525
 Cards: Metalworker + Pemmin's Aura + Prismite
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
 Produces: Infinite colored mana; Infinite colorless mana
 Start: Metalworker (battlefield); Pemmin's Aura (battlefield); Prismite (battlefield)
 Prerequisites: Pemmin's Aura attached to Metalworker.
@@ -12685,7 +12697,7 @@ Steps: Activate Metalworker by tapping it, causing you to reveal at least two ar
 
 ## Combo 578-1812-4222
 Cards: Metalworker + Freed from the Real + Prismite
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 6 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
 Produces: Infinite colored mana; Infinite colorless mana
 Start: Metalworker (battlefield); Freed from the Real (battlefield); Prismite (battlefield)
 Prerequisites: Freed from the Real attached to Metalworker.
@@ -12722,7 +12734,7 @@ Steps: Activate Metalworker by tapping it and revealing at least one artifact ca
 
 ## Combo 578-3525-4720
 Cards: Metalworker + Pemmin's Aura + Stonework Packbeast
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
 Produces: Infinite colored mana; Infinite colorless mana
 Start: Metalworker (battlefield); Pemmin's Aura (battlefield); Stonework Packbeast (battlefield)
 Prerequisites: Pemmin's Aura attached to Metalworker.
@@ -12762,7 +12774,7 @@ Steps: Activate Metalworker by tapping it, causing you to reveal at least two ar
 
 ## Combo 578-4222-4720
 Cards: Metalworker + Freed from the Real + Stonework Packbeast
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 4 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 5 | Commander: legal
 Produces: Infinite colored mana; Infinite colorless mana
 Start: Metalworker (battlefield); Freed from the Real (battlefield); Stonework Packbeast (battlefield)
 Prerequisites: Freed from the Real attached to Metalworker.
@@ -12931,7 +12943,7 @@ Steps: Activate Nyx Lotus's first ability by tapping it, adding {U}{U}{U}{U}{U}.
 
 ## Combo 624-703-7149
 Cards: Princess Yue + Astral Dragon + Phantasmal Image
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 450 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 460 | Commander: legal
 Produces: Infinite creature token copies of all noncreature permanents; Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Start: Princess Yue (battlefield: is not a land); Astral Dragon (battlefield); Phantasmal Image (battlefield)
 Steps: Cast Phantasmal Image by paying its mana cost. Choose to have it enter as a copy of Princess Yue.
@@ -13027,7 +13039,7 @@ Steps: Activate Ashnod's Transmogrant by tapping and sacrificing it, causing Kit
 
 ## Combo 635-2351-4549
 Cards: The Watcher in the Water + Drowned Rusalka + Relic of Legends
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 71 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 72 | Commander: legal
 Produces: Infinite rummaging; Infinite draw triggers; Infinite self-discard triggers; Near-infinite death triggers; Near-infinite creature ETB; Near-infinite creature LTB; Near-infinite creature sacrifice triggers
 Start: The Watcher in the Water (battlefield); Drowned Rusalka (battlefield); Relic of Legends (battlefield)
 Prerequisites: You control at least one Tentacle.
@@ -13434,7 +13446,7 @@ Steps: Activate two lands by tapping them, adding at least {2}.
 
 ## Combo 654-774-5249
 Cards: Patron of the Moon + Icebreaker Kraken + Amulet of Vigor
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 120 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 130 | Commander: legal
 Produces: Infinite mana snow lands you control can produce; Infinite landfall triggers
 Start: Patron of the Moon (battlefield); Icebreaker Kraken (battlefield); Amulet of Vigor (battlefield)
 Prerequisites: You control at least three basic snow lands.
@@ -13502,7 +13514,7 @@ Steps: Cast Emry by paying {U} plus commander tax (if applicable).
 
 ## Combo 661-1418-1615
 Cards: Virtue of Knowledge // Vantress Visions + Lucky Clover + Sculpting Steel
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 50 | Commander: legal | Mana needed: {1}{U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal | Mana needed: {1}{U}
 Produces: Infinite magecraft triggers
 Start: Virtue of Knowledge // Vantress Visions (hand); Lucky Clover (battlefield); Sculpting Steel (battlefield: as a copy of Lucky Clover)
 Prerequisites: You have a way to put an activated or triggered ability on the stack under your control.
@@ -13573,7 +13585,7 @@ Steps: Cast Sculpting Steel by paying {2} due to Valeria Richards. Choose to hav
 
 ## Combo 662-1978-3784
 Cards: Voltaic Construct + Liquimetal Coating + Vhal, Candlekeep Researcher
-Color identity: U | Bracket: 2-3+ (Oddball) | Popularity: 14 | Commander: legal
+Color identity: U | Bracket: 2-3+ (Oddball) | Popularity: 15 | Commander: legal
 Produces: Infinite colorless mana that can't be spent to cast spells from your hand; Infinite untap of artifact creatures you control
 Start: Voltaic Construct (battlefield); Liquimetal Coating (battlefield); Vhal, Candlekeep Researcher (battlefield: without summoning sickness)
 Steps: Cause Vhal to become an artifact using Liquimetal Coating.
@@ -13633,7 +13645,7 @@ Steps: Activate Liquimetal Coating by tapping it, turning an opponent's land int
 
 ## Combo 666-3542
 Cards: Palinchron + Extraplanar Lens
-Color identity: U | Bracket: 2-3+ (Oddball) | Popularity: 990 | Commander: legal | Mana needed: {5}{U}{U}
+Color identity: U | Bracket: 2-3+ (Oddball) | Popularity: 1000 | Commander: legal | Mana needed: {5}{U}{U}
 Produces: Infinite mana lands you control can produce; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Palinchron (hand); Extraplanar Lens (battlefield)
 Prerequisites: An Island exiled by Extraplanar Lens.
@@ -13781,7 +13793,7 @@ Notes: The additional triggers can copy whatever noncreature permanent(s) you de
 
 ## Combo 703-1430-7149
 Cards: Princess Yue + Astral Dragon + Mirror Image
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 390 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 400 | Commander: legal
 Produces: Infinite creature token copies of all noncreature permanents; Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Start: Princess Yue (battlefield: is not a land); Astral Dragon (battlefield); Mirror Image (battlefield)
 Steps: Cast Mirror Image by paying its mana cost. Choose to have it enter as a copy of Princess Yue.
@@ -13934,7 +13946,7 @@ Notes: The additional triggers can copy whatever noncreature permanent(s) you de
 
 ## Combo 703-4284-7149
 Cards: Princess Yue + Astral Dragon + Clone
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 350 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 360 | Commander: legal
 Produces: Infinite creature token copies of all noncreature permanents; Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Start: Princess Yue (battlefield: is not a land); Astral Dragon (battlefield); Clone (battlefield)
 Steps: Cast Clone by paying its mana cost. Choose to have it enter as a copy of Princess Yue.
@@ -14018,7 +14030,7 @@ Notes: The additional triggers can copy whatever noncreature permanent(s) you de
 
 ## Combo 703-5399-7149
 Cards: Princess Yue + Astral Dragon + Pirated Copy
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 39 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 40 | Commander: legal
 Produces: Infinite creature token copies of all noncreature permanents; Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Start: Princess Yue (battlefield: is not a land); Astral Dragon (battlefield); Pirated Copy (battlefield)
 Steps: Cast Pirated Copy by paying its mana cost. Choose to have it enter as a copy of Princess Yue.
@@ -14032,7 +14044,7 @@ Notes: The additional triggers can copy whatever noncreature permanent(s) you de
 
 ## Combo 703-5400-7149
 Cards: Princess Yue + Astral Dragon + Synth Infiltrator
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 93 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 94 | Commander: legal
 Produces: Infinite creature token copies of all noncreature permanents; Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers
 Start: Princess Yue (battlefield: is not a land); Astral Dragon (battlefield); Synth Infiltrator (battlefield)
 Steps: Cast Synth Infiltrator by paying its mana cost. Choose to have it enter as a copy of Princess Yue.
@@ -14136,7 +14148,7 @@ Steps: Activate Fallowsage by tapping it, adding {U}.
 
 ## Combo 712-1562-3995
 Cards: Machine God's Effigy + Horseshoe Crab + Wake Thrasher
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 46 | Commander: legal | Mana needed: {4}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 45 | Commander: legal | Mana needed: {4}
 Produces: Infinitely large creature until end of turn
 Start: Machine God's Effigy (hand); Horseshoe Crab (battlefield); Wake Thrasher (battlefield)
 Steps: Cast Machine God's Effigy by paying {4}, choosing to have it enter the battlefield as a copy of Horseshoe Crab that is an artifact.
@@ -14179,7 +14191,7 @@ Steps: Activate Aphetto Alchemist by tapping it, untapping itself.
 
 ## Combo 712-4131
 Cards: Wake Thrasher + Basalt Monolith
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 250 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 260 | Commander: legal
 Produces: Infinitely large creature until end of turn
 Start: Wake Thrasher (battlefield); Basalt Monolith (battlefield)
 Steps: Activate Basalt Monolith's first ability by tapping it, adding {3}.
@@ -14435,7 +14447,7 @@ Steps: Activate Scroll of Fate by tapping it, manifesting Wormfang Manta from yo
 
 ## Combo 721-2724-3879
 Cards: Wormfang Manta + Scroll of Fate + Portal of Sanctuary
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 11 | Commander: legal | Mana needed: {6}{U}{U} each turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 10 | Commander: legal | Mana needed: {6}{U}{U} each turn
 Produces: Infinite turns; Lock
 Start: Wormfang Manta (hand); Scroll of Fate (battlefield); Portal of Sanctuary (battlefield)
 Steps: Activate Scroll of Fate by tapping it, manifesting Wormfang Manta from your hand.
@@ -14494,7 +14506,7 @@ Steps: At the beginning of your upkeep, Blood Clock triggers, allowing you to re
 
 ## Combo 721-2724-5278
 Cards: Wormfang Manta + Scroll of Fate + Obelisk of Undoing
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 2 | Commander: legal | Mana needed: {11}{U}{U} each turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 1 | Commander: legal | Mana needed: {11}{U}{U} each turn
 Produces: Infinite turns; Lock
 Start: Wormfang Manta (hand); Scroll of Fate (battlefield); Obelisk of Undoing (battlefield)
 Steps: Activate Scroll of Fate by tapping it, manifesting Wormfang Manta from your hand.
@@ -14661,7 +14673,7 @@ Steps: Activate Krark-Clan Ironworks by sacrificing the artifact creature castab
 
 ## Combo 725-1432-3784
 Cards: Ioreth of the Healing House + Aura of Dominion + Vhal, Candlekeep Researcher
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal
 Produces: Infinite mana legendary creatures you control can produce; Infinite untap of legendary creatures you control; Infinite colorless mana that can't be spent to cast spells from your hand
 Start: Ioreth of the Healing House (battlefield: without summoning sickness); Aura of Dominion (battlefield: attached to Ioreth); Vhal, Candlekeep Researcher (battlefield: without summoning sickness)
 Prerequisites: You control another legendary creature.
@@ -14922,7 +14934,7 @@ Steps: Cast Peregrine Drake by paying {4}{U}.
 
 ## Combo 751-1636
 Cards: Intruder Alarm + Shrieking Drake
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 6700 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 6800 | Commander: legal
 Produces: Infinite mana creatures you control can produce; Infinite untap of creatures; Infinite storm count; Infinite creature ETB; Infinite creature LTB
 Start: Intruder Alarm (battlefield); Shrieking Drake (hand)
 Prerequisites: Creatures you control can tap to produce at least {U}.
@@ -15024,7 +15036,7 @@ Steps: Cast Shrieking Drake by paying {U}.
 
 ## Combo 751-2397-2792
 Cards: Great Whale + Shrieking Drake + Panharmonicon
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 140 | Commander: legal | Mana needed: {3}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 150 | Commander: legal | Mana needed: {3}
 Produces: Infinite mana lands you control can produce; Infinite untap of lands you control; Infinite creature LTB; Infinite creature ETB; Infinite storm count
 Start: Great Whale (hand); Shrieking Drake (hand); Panharmonicon (battlefield)
 Prerequisites: You control up to seven lands that can tap to produce at least {2}{U}{U}.
@@ -15076,7 +15088,7 @@ Steps: Activate up to seven lands by tapping them, adding at least {2}{U}{U}.
 
 ## Combo 751-2792-6751
 Cards: Great Whale + Shrieking Drake + Starfield Vocalist
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 96 | Commander: legal | Mana needed: {3}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 97 | Commander: legal | Mana needed: {3}
 Produces: Infinite mana lands you control can produce; Infinite untap of lands you control; Infinite creature LTB; Infinite creature ETB; Infinite storm count
 Start: Great Whale (hand); Shrieking Drake (hand); Starfield Vocalist (battlefield)
 Prerequisites: You control up to seven lands that can tap to produce at least {2}{U}{U}.
@@ -15167,7 +15179,7 @@ Steps: Cast Shrieking Drake by paying {U}.
 
 ## Combo 751-3821-5334
 Cards: Peregrine Drake + Shrieking Drake + Roaming Throne
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 420 | Commander: legal | Mana needed: {4}{U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 430 | Commander: legal | Mana needed: {4}{U}
 Produces: Infinite mana lands you control can produce; Infinite blue mana; Infinite untap of lands you control; Infinite creature LTB; Infinite creature ETB; Infinite storm count
 Start: Peregrine Drake (hand); Shrieking Drake (hand); Roaming Throne (battlefield)
 Prerequisites: "Drake" chosen with Roaming Throne.
@@ -15246,7 +15258,7 @@ Steps: Cast Shrieking Drake by paying {U}.
 
 ## Combo 757-943-4235
 Cards: Magosi, the Waterveil + Rings of Brighthearth + Deserted Temple
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 230 | Commander: legal | Mana needed: {3}{U} each turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 240 | Commander: legal | Mana needed: {3}{U} each turn
 Produces: Infinite turns; Lock
 Start: Magosi, the Waterveil (battlefield); Rings of Brighthearth (battlefield); Deserted Temple (battlefield)
 Steps: Activate Magosi's second ability by paying {U} and tapping it.
@@ -15308,7 +15320,7 @@ Steps: Activate Magosi's second activated ability by paying {U} and tapping it, 
 
 ## Combo 757-1432-3094
 Cards: Magosi, the Waterveil + Ioreth of the Healing House + Lithoform Engine
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 93 | Commander: legal | Mana needed: {2}{U} each turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 94 | Commander: legal | Mana needed: {2}{U} each turn
 Produces: Infinite turns; Lock
 Start: Magosi, the Waterveil (battlefield); Ioreth of the Healing House (battlefield: without summoning sickness); Lithoform Engine (battlefield)
 Steps: Activate Magosi's second activated ability by paying {U} and tapping it, putting an eon counter on Magosi and skipping your next turn.
@@ -15595,7 +15607,7 @@ Steps: Activate Magosi's second activated ability by tapping it and paying {U}.
 
 ## Combo 757-4235-4644
 Cards: Magosi, the Waterveil + Rings of Brighthearth + Tidewater Minion
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 17 | Commander: legal | Mana needed: {2}{U} each turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 16 | Commander: legal | Mana needed: {2}{U} each turn
 Produces: Infinite turns; Lock
 Start: Magosi, the Waterveil (battlefield); Rings of Brighthearth (battlefield); Tidewater Minion (battlefield)
 Prerequisites: Tidewater Minion does not have summoning sickness.
@@ -15732,7 +15744,7 @@ Steps: Activate Guildless Commons and another land by tapping them, adding at le
 
 ## Combo 765-6628-7857
 Cards: Guildless Commons + PuPu UFO + Elven Raft-Steerer
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 670 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 680 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Guildless Commons (hand); PuPu UFO (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Steps: Activate PuPu UFO by tapping it, putting Guildless Commons from your hand onto the battlefield.
@@ -15773,7 +15785,7 @@ Steps: Cast Peregrine Drake by paying {4}{U}.
 
 ## Combo 774-2137-4276
 Cards: Patron of the Moon + Uyo, Silent Prophet + Turnabout
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 360 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 370 | Commander: legal
 Produces: Infinite colored mana; Infinite colorless mana; Infinite landfall triggers
 Start: Patron of the Moon (battlefield); Uyo, Silent Prophet (battlefield); Turnabout (hand)
 Prerequisites: 6 mana worth of lands.
@@ -15867,7 +15879,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 777-1805-4331-4993
 Cards: Drafna, Founder of Lat-Nam + Manifold Key + Foundry Inspector + Pyramid of the Pantheon
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 7 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite storm count
 Start: Drafna, Founder of Lat-Nam (battlefield); Manifold Key (battlefield); Foundry Inspector (battlefield); Pyramid of the Pantheon (battlefield: with three or more brick counters on it)
 Steps: Activate Pyramid of the Pantheon by tapping it, adding {U}{U}{U}.
@@ -15878,7 +15890,7 @@ Steps: Activate Pyramid of the Pantheon by tapping it, adding {U}{U}{U}.
 
 ## Combo 777-3941-4331-4993
 Cards: Drafna, Founder of Lat-Nam + Manifold Key + Coveted Jewel + Foundry Inspector
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 160 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 170 | Commander: legal
 Produces: Infinite card draw; Near-infinite artifact ETB; Near-infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
 Start: Drafna, Founder of Lat-Nam (battlefield); Manifold Key (battlefield); Coveted Jewel (battlefield); Foundry Inspector (battlefield)
 Steps: Activate Coveted Jewel by tapping it, adding {U}{U}{U}.
@@ -16257,6 +16269,18 @@ Steps: Activate up to two lands by tapping them, adding at least {1}{U}.
   When Quickling or Faerie Impostor enters the battlefield, it triggers, returning Cloud of Faeries from the battlefield to your hand.
   Repeat.
 
+## Combo 799-1164-1329
+Cards: Mirror of Fate + Karn's Temporal Sundering + Emry, Lurker of the Loch
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 5 | Commander: legal | Mana needed: {4}{U}{U} each turn plus {5} each turn beyond the first
+Produces: Infinite turns; Lock
+Start: Mirror of Fate (battlefield); Karn's Temporal Sundering (hand); Emry, Lurker of the Loch (battlefield)
+Steps: Cast Karn's Temporal Sundering by paying its mana cost, causing you to take an extra turn after this one and exile Karn's Temporal Sundering
+  Activate Mirror of Fate by tapping and sacrificing it, choosing Karn's Temporal Sundering and up to six other exiled cards, then exiling your library and putting the chosen cards on top of your library. Ensure Karn's Temporal Sundering is the top card of your library.
+  Move to your next turn, drawing Karn's Temporal Sundering from your library during your draw step.
+  Activate Emry by tapping it, allowing you to cast Mirror of Fate from your graveyard this turn.
+  Cast Mirror of Fate from your graveyard by paying {5}.
+  Repeat.
+
 ## Combo 799-1271-3212
 Cards: God-Eternal Kefnet + Scroll Rack + Karn's Temporal Sundering
 Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 230 | Commander: legal | Mana needed: {3}{U}{U} each turn
@@ -16269,7 +16293,7 @@ Steps: Tap Scroll Rack and pay {1} to activate it, putting Karn's Temporal Sunde
 
 ## Combo 799-1702-3212
 Cards: God-Eternal Kefnet + Jace, the Mind Sculptor + Karn's Temporal Sundering
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 200 | Commander: legal | Mana needed: {2}{U}{U} each turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 190 | Commander: legal | Mana needed: {2}{U}{U} each turn
 Produces: Infinite turns; Lock
 Start: God-Eternal Kefnet (battlefield); Jace, the Mind Sculptor (battlefield); Karn's Temporal Sundering (hand)
 Steps: Activate Jace's zero loyalty ability, putting Karn's Temporal Sundering on top of your library.
@@ -16545,7 +16569,7 @@ Steps: Activate Nykthos's second ability by paying {2} and tapping it, adding at
 
 ## Combo 804-3546-3783-4300-6200
 Cards: Minn, Wily Illusionist + Meloku the Clouded Mirror + High Market + Three Tree City + Sakashima the Impostor
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 27 | Commander: legal | Mana needed: {2}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 28 | Commander: legal | Mana needed: {2}
 Produces: Infinite colored mana; Infinite creature tokens; Infinite creature LTB; Infinite creature ETB; Infinite creature sacrifice triggers; Infinite death triggers; Infinite landfall triggers
 Start: Minn, Wily Illusionist (battlefield); Meloku the Clouded Mirror (battlefield); High Market (battlefield); Three Tree City (battlefield); Sakashima the Impostor (battlefield: as a copy of Minn)
 Prerequisites: You control at least four creatures of the type chosen with Three Tree City.
@@ -17067,7 +17091,7 @@ Steps: Cast Capture of Jingzhou by paying its mana cost, causing you to take an 
 
 ## Combo 813-1987-2104
 Cards: Ghostly Flicker + Scholar of the Ages + Temporal Manipulation
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 150 | Commander: legal | Mana needed: {5}{U}{U}{U} each turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 160 | Commander: legal | Mana needed: {5}{U}{U}{U} each turn
 Produces: Infinite turns; Lock
 Start: Ghostly Flicker (hand); Scholar of the Ages (battlefield); Temporal Manipulation (hand)
 Steps: Cast Temporal Manipulation by paying its mana cost, causing you to take an extra turn after this one.
@@ -17247,7 +17271,7 @@ Steps: Cast Time Walk by paying its mana cost, causing you to take an extra turn
 
 ## Combo 813-1987-3821
 Cards: Ghostly Flicker + Peregrine Drake + Scholar of the Ages
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1800 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1900 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite untap of lands you control; Infinite creature LTB; Infinite creature ETB; Infinite storm count; Infinite magecraft triggers; Infinite blinking; Infinite landfall triggers; Return all instant and sorcery cards from your graveyard to your hand
 Start: Ghostly Flicker (hand); Peregrine Drake (battlefield); Scholar of the Ages (battlefield)
 Prerequisites: You control up to five lands that can tap to produce at least {2}{U}.
@@ -17271,7 +17295,7 @@ Steps: Cast Walk the Aeons by paying its mana cost, causing you to take an extra
 
 ## Combo 813-1987-4872
 Cards: Ghostly Flicker + Scholar of the Ages + Time Warp
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 260 | Commander: legal | Mana needed: {5}{U}{U}{U} each turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 270 | Commander: legal | Mana needed: {5}{U}{U}{U} each turn
 Produces: Infinite turns; Lock
 Start: Ghostly Flicker (hand); Scholar of the Ages (battlefield); Time Warp (hand)
 Steps: Cast Time Warp by paying its mana cost, causing you to take an extra turn after this one.
@@ -17543,7 +17567,7 @@ Steps: Cast Temporal Manipulation by paying its mana cost, taking an extra turn.
 
 ## Combo 813-2104-3647
 Cards: Scholar of the Ages + Temporal Manipulation + Displace
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 71 | Commander: legal
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 72 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Scholar of the Ages (battlefield); Temporal Manipulation (hand); Displace (hand)
 Prerequisites: You have enough mana available each turn to cast Temporal Manipulation and Displace.
@@ -18020,7 +18044,7 @@ Steps: Cast Time Walk by paying its mana cost, causing you to take an extra turn
 
 ## Combo 813-3647-3821
 Cards: Displace + Scholar of the Ages + Peregrine Drake
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 940 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 950 | Commander: legal
 Produces: Infinite mana lands you control can produce; Infinite untap of lands you control; Infinite creature LTB; Infinite creature ETB; Infinite storm count; Infinite magecraft triggers; Infinite blinking; Infinite landfall triggers; Return all instant and sorcery cards from your graveyard to your hand
 Start: Displace (hand); Scholar of the Ages (battlefield); Peregrine Drake (hand)
 Prerequisites: You control up to five lands that can tap to produce at least {2}{U}.
@@ -18034,7 +18058,7 @@ Notes: If you control five lands that can tap to produce at least {3}{U}, this c
 
 ## Combo 813-3647-4377
 Cards: Scholar of the Ages + Walk the Aeons + Displace
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 96 | Commander: legal | Mana needed: {6}{U}{U}{U}
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 97 | Commander: legal | Mana needed: {6}{U}{U}{U}
 Produces: Infinite turns; Lock
 Start: Scholar of the Ages (battlefield); Walk the Aeons (graveyard); Displace (hand)
 Steps: Cast Walk the Aeons by paying {4}{U}{U}, taking an extra turn.
@@ -18044,7 +18068,7 @@ Steps: Cast Walk the Aeons by paying {4}{U}{U}, taking an extra turn.
 
 ## Combo 813-3647-4872
 Cards: Scholar of the Ages + Displace + Time Warp
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 120 | Commander: legal
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 130 | Commander: legal
 Produces: Infinite turns; Lock
 Start: Scholar of the Ages (battlefield); Displace (hand); Time Warp (hand)
 Prerequisites: You have enough mana available each turn to cast Time Warp and Displace.
@@ -18819,7 +18843,7 @@ Steps: If needed, activate Lightning Greaves' equip ability by paying {0}, attac
 
 ## Combo 876-1741-1914
 Cards: Cowardice + Lightning Greaves + Cloud of Faeries
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal | Mana needed: {1}{U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal | Mana needed: {1}{U}
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Cowardice (battlefield); Lightning Greaves (battlefield); Cloud of Faeries (hand)
 Prerequisites: You control up to two lands that can tap to produce at least {1}{U}.
@@ -19170,7 +19194,7 @@ Steps: Activate Karn, targeting Myr Turbine.
 
 ## Combo 893-1636-5089
 Cards: Karn, the Great Creator + Myr Turbine + Intruder Alarm
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 64 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 63 | Commander: legal
 Produces: Infinite creature tokens; Infinite mana creatures you control can produce; Infinite creature ETB; Infinite untap of creatures you control
 Start: Karn, the Great Creator (battlefield); Myr Turbine (battlefield); Intruder Alarm (battlefield)
 Prerequisites: Myr Turbine does not have summoning sickness.
@@ -19444,7 +19468,7 @@ Steps: Activate Nyx Lotus by tapping it, adding at least {U}{U}{U}.
 
 ## Combo 915-4222-5116
 Cards: Synod Artificer + Freed from the Real + Gilded Lotus
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 56 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 57 | Commander: legal
 Produces: Infinite colored mana; Infinite mana artifacts you control can produce; Infinite untap of artifacts you control
 Start: Synod Artificer (battlefield); Freed from the Real (battlefield); Gilded Lotus (battlefield)
 Prerequisites: Freed from the Real attached to Synod Artificer.
@@ -19568,7 +19592,7 @@ Steps: Cast Temporal Manipulation by paying {3}{U}{U}, taking an extra turn afte
 
 ## Combo 933-1367-4628
 Cards: Kaho, Minamo Historian + Nexus of Fate + Conjurer's Closet
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 55 | Commander: legal | Mana needed: {7} each turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 56 | Commander: legal | Mana needed: {7} each turn
 Produces: Infinite turns; Lock
 Start: Kaho, Minamo Historian (battlefield); Nexus of Fate (exile: exiled by Kaho); Conjurer's Closet (battlefield)
 Prerequisites: Kaho does not have summoning sickness.
@@ -19643,7 +19667,7 @@ Steps: Cast Time Walk by paying {3}{U}{U}, taking an extra turn after this one.
 
 ## Combo 933-2493-4377
 Cards: Conjurer's Closet + Archaeomancer + Walk the Aeons
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 310 | Commander: legal | Mana needed: {4}{U}{U}
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 320 | Commander: legal | Mana needed: {4}{U}{U}
 Produces: Infinite turns; Infinite creature ETB; Infinite creature LTB; Lock
 Start: Conjurer's Closet (battlefield); Archaeomancer (battlefield); Walk the Aeons (hand)
 Steps: Cast Walk the Aeons by paying {3}{U}{U}, taking an extra turn after this one.
@@ -19673,7 +19697,7 @@ Steps: Cast Time Walk by paying {3}{U}{U}, taking an extra turn after this one.
 
 ## Combo 933-2556-4377
 Cards: Conjurer's Closet + Mnemonic Wall + Walk the Aeons
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 96 | Commander: legal | Mana needed: {4}{U}{U}
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 97 | Commander: legal | Mana needed: {4}{U}{U}
 Produces: Infinite turns; Infinite creature ETB; Infinite creature LTB; Lock
 Start: Conjurer's Closet (battlefield); Mnemonic Wall (battlefield); Walk the Aeons (hand)
 Steps: Cast Walk the Aeons by paying {3}{U}{U}, taking an extra turn after this one.
@@ -19721,7 +19745,7 @@ Steps: At the beginning of your end step, Conjurer's Closet triggers, blinking W
 
 ## Combo 933-3908-7009
 Cards: The Legend of Kuruk // Avatar Kuruk + Conjurer's Closet + Spark Double
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 200 | Commander: legal | Mana needed: {20} minus {1} for each creature and artifact you control each turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 210 | Commander: legal | Mana needed: {20} minus {1} for each creature and artifact you control each turn
 Produces: Infinite turns; Lock
 Start: The Legend of Kuruk // Avatar Kuruk (battlefield); Conjurer's Closet (battlefield); Spark Double (battlefield: as a copy of Avatar Kuruk)
 Steps: Activate Spark Double using Avatar Kuruk's ability by paying {20} minus {1} for each creature and/or artifact you can tap while activating it, causing you to take an extra turn after this one.
@@ -20013,7 +20037,7 @@ Steps: Activate Fatestitcher by tapping it, targeting Ioreth of the Healing Hous
 
 ## Combo 950-1584-3525
 Cards: Pemmin's Aura + Fatestitcher + Teferi's Isle
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 58 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 59 | Commander: legal
 Produces: Infinite blue mana; Infinite mana permanents you control can produce; Infinite untap of permanents you control
 Start: Pemmin's Aura (battlefield); Fatestitcher (battlefield); Teferi's Isle (battlefield)
 Prerequisites: Fatestitcher does not have summoning sickness.
@@ -20025,7 +20049,7 @@ Steps: Activate Teferi's Isle by tapping it, adding {U}{U}.
 
 ## Combo 950-1584-4222
 Cards: Freed from the Real + Fatestitcher + Teferi's Isle
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 56 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 57 | Commander: legal
 Produces: Infinite blue mana; Infinite mana permanents you control can produce; Infinite untap of permanents you control
 Start: Freed from the Real (battlefield); Fatestitcher (battlefield); Teferi's Isle (battlefield)
 Prerequisites: Fatestitcher does not have summoning sickness.
@@ -20081,7 +20105,7 @@ Steps: Cast High Tide by paying {U}.
 
 ## Combo 950-2085-4639
 Cards: Unctus, Grand Metatect + Fatestitcher + Kelpie Guide
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1700 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1800 | Commander: legal
 Produces: Infinite looting; Infinite self-discard triggers; Infinite draw triggers
 Start: Unctus, Grand Metatect (battlefield); Fatestitcher (battlefield); Kelpie Guide (battlefield)
 Prerequisites: Fatestitcher and Kelpie Guide do not have summoning sickness.
@@ -20171,7 +20195,7 @@ Steps: Activate Coral Atoll by tapping it, adding {C}{U}.
 
 ## Combo 950-3230-4222
 Cards: Freed from the Real + Fatestitcher + Coral Atoll
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 420 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 430 | Commander: legal
 Produces: Infinite colorless mana; Infinite mana permanents you control can produce; Infinite untap of permanents you control
 Start: Freed from the Real (battlefield); Fatestitcher (battlefield); Coral Atoll (battlefield)
 Prerequisites: Fatestitcher does not have summoning sickness.
@@ -20222,7 +20246,7 @@ Steps: Activate Tolarian Academy by tapping it, adding at least {U}{U}.
 
 ## Combo 950-3664-4222
 Cards: Freed from the Real + Fatestitcher + Lotus Field
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 790 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 800 | Commander: legal
 Produces: Infinite colored mana; Infinite mana permanents you control can produce; Infinite untap of permanents you control
 Start: Freed from the Real (battlefield); Fatestitcher (battlefield); Lotus Field (battlefield)
 Prerequisites: Fatestitcher does not have summoning sickness.
@@ -20259,7 +20283,7 @@ Steps: Activate the nontoken Merfolk using Fatestitcher's ability by tapping it.
 
 ## Combo 950-4613-6210
 Cards: Agatha's Soul Cauldron + Neerdiv, Devious Diver + Fatestitcher
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 320 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 330 | Commander: legal
 Produces: Infinite mill; Infinite self-mill
 Start: Agatha's Soul Cauldron (battlefield); Neerdiv, Devious Diver (battlefield); Fatestitcher (exile: exiled by Agatha's Soul Cauldron)
 Prerequisites: Neerdiv has a +1/+1 counter on it.
@@ -20400,7 +20424,7 @@ Steps: Cast Enter the Infinite by paying {8}{U}{U}{U}{U}, causing you to draw yo
 
 ## Combo 953-8266
 Cards: Fblthp, Impossibly Lost + Enter the Infinite
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 670 | Commander: legal | Mana needed: {8}{U}{U}{U}{U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 680 | Commander: legal | Mana needed: {8}{U}{U}{U}{U}
 Produces: Infinite card draw; Win the game; Infinite draw triggers
 Start: Fblthp, Impossibly Lost (battlefield); Enter the Infinite (hand)
 Prerequisites: You control a creature that doesn't have summoning sickness and that cannot be blocked by an opponent.
@@ -20644,7 +20668,7 @@ Steps: Cast Time Stretch by paying {8}{U}{U}, getting two extra turns after this
 
 ## Combo 957-2493-7879
 Cards: Jin-Gitaxias // The Great Synthesis + Time Stretch + Archaeomancer
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 460 | Commander: legal | Mana needed: {3}{U} each other turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 470 | Commander: legal | Mana needed: {3}{U} each other turn
 Produces: Near-infinite turns; Lock
 Start: Jin-Gitaxias // The Great Synthesis (battlefield: with two lore counters on it); Time Stretch (hand); Archaeomancer (battlefield)
 Prerequisites: You have at least eight cards in hand.
@@ -20982,7 +21006,7 @@ Steps: Cast Saheeli's Artistry by paying its mana cost, creating a token copy of
 
 ## Combo 972-2084
 Cards: Mirror-Mad Phantasm + Saheeli's Artistry
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 10 | Commander: legal | Mana needed: {1}{U} plus enough mana to cast the copy spell
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 11 | Commander: legal | Mana needed: {1}{U} plus enough mana to cast the copy spell
 Produces: Infinite self-mill
 Start: Mirror-Mad Phantasm (battlefield); Saheeli's Artistry (hand)
 Steps: Cast Saheeli's Artistry by paying its mana cost, creating a token copy of Mirror-Mad Phantasm.
@@ -21334,7 +21358,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 985-5078-7650
 Cards: Sensei's Divining Top + Mystic Forge + Bilbo, Thief in the Night
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 910 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 920 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Mystic Forge (battlefield); Bilbo, Thief in the Night (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -21343,7 +21367,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 985-5078-7692
 Cards: Sensei's Divining Top + Mystic Forge + Shuri, Wakandan Inventor
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 3700 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 3800 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Mystic Forge (battlefield); Shuri, Wakandan Inventor (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -22096,7 +22120,7 @@ Steps: If you have six or more cards in hand, activate Prognostic Sphinx by disc
 
 ## Combo 1017-2122-3384
 Cards: Mindless Automaton + Wizard Class + Thought Reflection
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 20 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers
 Start: Mindless Automaton (battlefield: with three or more +1/+1 counters on it); Wizard Class (battlefield: is level 3); Thought Reflection (battlefield)
 Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causing you to draw two cards.
@@ -22105,7 +22129,7 @@ Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causi
 
 ## Combo 1017-2122-4435
 Cards: Mindless Automaton + Wizard Class + Alhammarret's Archive
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 34 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers
 Start: Mindless Automaton (battlefield: with three or more +1/+1 counters on it); Wizard Class (battlefield: is level 3); Alhammarret's Archive (battlefield)
 Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causing you to draw two cards.
@@ -22123,7 +22147,7 @@ Steps: Activate Mindless Automaton by removing two +1/+1 counters from it, causi
 
 ## Combo 1017-2122-6254
 Cards: Mindless Automaton + Wizard Class + Vnwxt, Verbose Host
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 65 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 66 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers
 Start: Mindless Automaton (battlefield: with three or more +1/+1 counters on it); Wizard Class (battlefield: is level 3); Vnwxt, Verbose Host (battlefield)
 Prerequisites: You have max speed.
@@ -22213,7 +22237,7 @@ Steps: Activate Ashnod's Altar by sacrificing Junk Diver, adding {C}{C}.
 
 ## Combo 1020-1117-4659-4814
 Cards: Mirrodin Besieged + Myr Retriever + Junk Diver + Krark-Clan Ironworks
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1500 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1600 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature tokens; Infinite artifact ETB; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite storm count
 Start: Mirrodin Besieged (battlefield); Myr Retriever (graveyard); Junk Diver (battlefield); Krark-Clan Ironworks (battlefield)
 Prerequisites: "Mirran" chosen with Mirrodin Besieged.
@@ -22387,7 +22411,7 @@ Steps: Activate Phyrexian Altar by sacrificing Myr Retriever, adding one mana of
 
 ## Combo 1020-2866-4050-7692
 Cards: Scrap Trawler + Myr Retriever + Phyrexian Altar + Shuri, Wakandan Inventor
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 59 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 60 | Commander: legal
 Produces: Infinite colored mana; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count
 Start: Scrap Trawler (graveyard); Myr Retriever (battlefield); Phyrexian Altar (battlefield); Shuri, Wakandan Inventor (battlefield)
 Steps: Activate Phyrexian Altar by sacrificing Myr Retriever, adding {C}{C}.
@@ -22460,7 +22484,7 @@ Steps: Activate Krark-Clan Ironworks by sacrificing Myr Retriever, adding {C}{C}
 
 ## Combo 1020-2866-4659-7692
 Cards: Scrap Trawler + Myr Retriever + Krark-Clan Ironworks + Shuri, Wakandan Inventor
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 750 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 760 | Commander: legal
 Produces: Infinite colorless mana; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count
 Start: Scrap Trawler (graveyard); Myr Retriever (battlefield); Krark-Clan Ironworks (battlefield); Shuri, Wakandan Inventor (battlefield)
 Steps: Activate Krark-Clan Ironworks by sacrificing Myr Retriever, adding {C}{C}.
@@ -22488,7 +22512,7 @@ Steps: Activate Krark-Clan Ironworks by sacrificing Workshop Assistant, adding {
 
 ## Combo 1025-1111
 Cards: Temporal Adept + Stasis
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 72 | Commander: legal | Mana needed: {1}{U}{U}{U}{U} each turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 73 | Commander: legal | Mana needed: {1}{U}{U}{U}{U} each turn
 Produces: Mass Land Denial; Lock; Opponents skip their untap steps
 Start: Temporal Adept (battlefield); Stasis (battlefield)
 Steps: On the end step before your turn, activate Temporal Adept by paying {U}{U}{U} and tapping it, returning Stasis from the battlefield to your hand.
@@ -22647,7 +22671,7 @@ Steps: Activate Gran-Gran by tapping it, adding {1}.
 
 ## Combo 1029-4549-7010
 Cards: Gran-Gran + Tolarian Kraken + Relic of Legends
-Color identity: U | Bracket: 2-3+ (Oddball) | Popularity: 82 | Commander: legal
+Color identity: U | Bracket: 2-3+ (Oddball) | Popularity: 81 | Commander: legal
 Produces: Infinite looting; Infinite draw triggers; Infinite self-discard triggers
 Start: Gran-Gran (battlefield); Tolarian Kraken (battlefield); Relic of Legends (battlefield)
 Steps: Activate Relic of Legends' second ability by tapping Gran-Gran, adding {1}
@@ -23515,7 +23539,7 @@ Steps: Cast Leveler by paying {5}.
 
 ## Combo 1068-8266
 Cards: Fblthp, Impossibly Lost + Leveler
-Color identity: U | Bracket: 2-3+ (Oddball) | Popularity: 860 | Commander: legal | Mana needed: {5}
+Color identity: U | Bracket: 2-3+ (Oddball) | Popularity: 870 | Commander: legal | Mana needed: {5}
 Produces: Win the game; Exile your library
 Start: Fblthp, Impossibly Lost (battlefield); Leveler (hand)
 Prerequisites: You control a creature that doesn't have summoning sickness and that cannot be blocked by an opponent.
@@ -23524,7 +23548,7 @@ Steps: Cast Leveler by paying {5}. When it enters, it triggers, exiling your lib
 
 ## Combo 1083-1170-1414-1492
 Cards: Displacer Kitten + Archaeomender + Welding Jar + Lotus Petal
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal
 Produces: Infinite colored mana; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Displacer Kitten (battlefield); Archaeomender (battlefield); Welding Jar (hand); Lotus Petal (graveyard)
 Steps: Cast Welding Jar by paying {0}.
@@ -23539,7 +23563,7 @@ Steps: Cast Welding Jar by paying {0}.
 
 ## Combo 1089-1495-6822
 Cards: Lyla, Holographic Assistant + Curiosity + Triskelion
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 75 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 76 | Commander: legal
 Produces: Near-infinite damage; Infinite card draw; Infinite draw triggers
 Start: Lyla, Holographic Assistant (battlefield); Curiosity (battlefield: attached to Triskelion); Triskelion (battlefield: with a +1/+1 counter on it)
 Steps: Activate Triskelion by removing a +1/+1 counter from it, dealing 1 damage to an opponent.
@@ -23623,7 +23647,7 @@ Steps: During an opponent's turn, after their upkeep step, activate all lands yo
 
 ## Combo 1121-4276
 Cards: Mischievous Quanar + Turnabout
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 88 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 87 | Commander: legal
 Produces: Infinite copies of instant and sorcery spells on the stack; Infinite mana permanents you control can produce; Infinite untap of permanents you control; Infinite magecraft triggers
 Start: Mischievous Quanar (battlefield: face down); Turnabout (hand)
 Prerequisites: Lands you control can tap to produce at least {5}{U}{U}{U}{U}.
@@ -23706,6 +23730,66 @@ Steps: Activate Mirror of Fate by tapping and sacrificing it, exiling your libra
   Cast Thassa's Oracle by paying {U}{U}.
   Thassa's Oracle enters the battlefield, causing you to win the game.
 
+## Combo 1164-1329-2365
+Cards: Mirror of Fate + Emry, Lurker of the Loch + Expropriate
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 5 | Commander: legal | Mana needed: {7}{U}{U} each turn plus {5} each turn beyond the first
+Produces: Infinite turns; Lock
+Start: Mirror of Fate (battlefield); Emry, Lurker of the Loch (battlefield); Expropriate (hand)
+Steps: Cast Expropriate by paying its mana cost, causing you to take at least one extra turn after this one
+  Activate Mirror of Fate by tapping and sacrificing it, choosing Expropriate and up to six other exiled cards, then exiling your library and putting the chosen cards on top of your library. Ensure Expropriate is the top card of your library.
+  Move to your next turn, drawing Expropriate from your library during your draw step.
+  Activate Emry by tapping it, allowing you to cast Mirror of Fate from your graveyard this turn.
+  Cast Mirror of Fate from your graveyard by paying {5}.
+  Repeat.
+
+## Combo 1164-1329-2575
+Cards: Mirror of Fate + Emry, Lurker of the Loch + Temporal Mastery
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 16 | Commander: legal | Mana needed: {5}{U}{U} each turn plus {5} each turn beyond the first
+Produces: Infinite turns; Lock
+Start: Mirror of Fate (battlefield); Emry, Lurker of the Loch (battlefield); Temporal Mastery (hand)
+Steps: Cast Temporal Mastery by paying its mana cost, causing you to take an extra turn after this one and exile Temporal Mastery
+  Activate Mirror of Fate by tapping and sacrificing it, choosing Temporal Mastery and up to six other exiled cards, then exiling your library and putting the chosen cards on top of your library. Ensure Temporal Mastery is the top card of your library.
+  Move to your next turn, drawing Temporal Mastery from your library during your draw step.
+  Activate Emry by tapping it, allowing you to cast Mirror of Fate from your graveyard this turn.
+  Cast Mirror of Fate from your graveyard by paying {5}.
+  Repeat.
+
+## Combo 1164-1329-2631
+Cards: Mirror of Fate + Emry, Lurker of the Loch + Alrund's Epiphany
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 4 | Commander: legal | Mana needed: {5}{U}{U} each turn plus {5} each turn beyond the first
+Produces: Infinite turns; Lock
+Start: Mirror of Fate (battlefield); Emry, Lurker of the Loch (battlefield); Alrund's Epiphany (hand)
+Steps: Cast Alrund's Epiphany by paying its mana cost, creating two 1/1 Bird creature tokens, then causing you to take an extra turn after this one and exile Alrund's Epiphany
+  Activate Mirror of Fate by tapping and sacrificing it, choosing Alrund's Epiphany and up to six other exiled cards, then exiling your library and putting the chosen cards on top of your library. Ensure Alrund's Epiphany is the top card of your library.
+  Move to your next turn, drawing Alrund's Epiphany from your library during your draw step.
+  Activate Emry by tapping it, allowing you to cast Mirror of Fate from your graveyard this turn.
+  Cast Mirror of Fate from your graveyard by paying {5}.
+  Repeat.
+
+## Combo 1164-1329-3528
+Cards: Mirror of Fate + Emry, Lurker of the Loch + Rise of the Eldrazi
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 1 | Commander: legal | Mana needed: {9}{C}{C}{C} each turn plus {5} each turn beyond the first
+Produces: Infinite turns; Lock
+Start: Mirror of Fate (battlefield); Emry, Lurker of the Loch (battlefield); Rise of the Eldrazi (hand)
+Steps: Cast Rise of the Eldrazi by paying its mana cost, causing you to take an extra turn after this one and exile Rise of the Eldrazi
+  Activate Mirror of Fate by tapping and sacrificing it, choosing Rise of the Eldrazi and up to six other exiled cards, then exiling your library and putting the chosen cards on top of your library. Ensure Rise of the Eldrazi is the top card of your library.
+  Move to your next turn, drawing Rise of the Eldrazi from your library during your draw step.
+  Activate Emry by tapping it, allowing you to cast Mirror of Fate from your graveyard this turn.
+  Cast Mirror of Fate from your graveyard by paying {5}.
+  Repeat.
+
+## Combo 1164-1329-4084
+Cards: Mirror of Fate + Emry, Lurker of the Loch + Part the Waterveil
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 3 | Commander: legal | Mana needed: {4}{U}{U} each turn plus {5} each turn beyond the first
+Produces: Infinite turns; Lock
+Start: Mirror of Fate (battlefield); Emry, Lurker of the Loch (battlefield); Part the Waterveil (hand)
+Steps: Cast Part the Waterveil by paying its mana cost, causing you to take an extra turn after this one and exile Part the Waterveil
+  Activate Mirror of Fate by tapping and sacrificing it, choosing Part the Waterveil and up to six other exiled cards, then exiling your library and putting the chosen cards on top of your library. Ensure Part the Waterveil is the top card of your library.
+  Move to your next turn, drawing Part the Waterveil from your library during your draw step.
+  Activate Emry by tapping it, allowing you to cast Mirror of Fate from your graveyard this turn.
+  Cast Mirror of Fate from your graveyard by paying {5}.
+  Repeat.
+
 ## Combo 1164-2025-4398-4483
 Cards: Eye of the Storm + Mind's Desire + Mirror of Fate + Echo Storm
 Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 19 | Commander: legal | Mana needed: {4}{U}{U}
@@ -23741,7 +23825,7 @@ Steps: Activate Mirror of Fate to exile your library, choosing to place 0 cards 
 
 ## Combo 1164-8266
 Cards: Fblthp, Impossibly Lost + Mirror of Fate
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 270 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 280 | Commander: legal
 Produces: Win the game; Exile your library
 Start: Fblthp, Impossibly Lost (battlefield); Mirror of Fate (battlefield)
 Prerequisites: You control a creature that doesn't have summoning sickness and that cannot be blocked by an opponent.
@@ -23869,7 +23953,7 @@ Steps: Activate Sensei's Divining Top's second ability by tapping it, causing yo
 
 ## Combo 1170-1177-2146-5078
 Cards: Sensei's Divining Top + Displacer Kitten + Narset, Parter of Veils + Cloud Key
-Color identity: U | Bracket: 3+ (Powerful) | Popularity: 830 | Commander: legal
+Color identity: U | Bracket: 3+ (Powerful) | Popularity: 840 | Commander: legal
 Produces: Infinite card draw; Near-infinite artifact ETB; Near-infinite artifact LTB; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); Displacer Kitten (battlefield); Narset, Parter of Veils (battlefield: with three or more loyalty counters on it); Cloud Key (battlefield: with "Artifact" chosen)
 Steps: Activate Sensei's Divining Top's second ability by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -24098,7 +24182,7 @@ Steps: Cast Mana Crypt by paying {0}.
 
 ## Combo 1170-1319-2364-5034
 Cards: Brinelin, the Moon Kraken + Displacer Kitten + Sol Ring + Mana Vault
-Color identity: U | Bracket: 3+ (Powerful) | Popularity: 28 | Commander: legal
+Color identity: U | Bracket: 3+ (Powerful) | Popularity: 29 | Commander: legal
 Produces: Infinite colorless mana; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Brinelin, the Moon Kraken (battlefield); Displacer Kitten (battlefield); Sol Ring (battlefield); Mana Vault (hand)
 Steps: Activate Sol Ring by tapping it, adding {C}{C}.
@@ -24113,7 +24197,7 @@ Steps: Activate Sol Ring by tapping it, adding {C}{C}.
 
 ## Combo 1170-1319-3682-5034
 Cards: Brinelin, the Moon Kraken + Displacer Kitten + Sol Ring + Mox Amber
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 17 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 18 | Commander: legal
 Produces: Infinite colorless mana; Infinite mana among colors of legendary creatures and planeswalkers you control; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Brinelin, the Moon Kraken (battlefield); Displacer Kitten (battlefield); Sol Ring (battlefield); Mox Amber (hand)
 Steps: Activate Sol Ring by tapping it, adding {C}{C}.
@@ -24638,7 +24722,7 @@ Steps: Activate Emry by tapping it, allowing you to cast Lion's Eye Diamond from
 
 ## Combo 1170-1329-3499-4211
 Cards: Emry, Lurker of the Loch + Displacer Kitten + Akroma's Memorial + Tormod's Crypt
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 53 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 52 | Commander: legal
 Produces: Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
 Start: Emry, Lurker of the Loch (battlefield); Displacer Kitten (battlefield); Akroma's Memorial (battlefield); Tormod's Crypt (battlefield)
 Steps: Activate Emry by tapping it, allowing you to cast Tormod's Crypt from your graveyard.
@@ -24662,7 +24746,7 @@ Steps: Activate Emry by tapping it, allowing you to cast Dark Sphere from your g
 
 ## Combo 1170-1329-3518-4404
 Cards: Emry, Lurker of the Loch + Displacer Kitten + Lion's Eye Diamond + Corridor Monitor
-Color identity: U | Bracket: 3+ (Powerful) | Popularity: 120 | Commander: legal
+Color identity: U | Bracket: 3+ (Powerful) | Popularity: 130 | Commander: legal
 Produces: Infinite colored mana; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature LTB; Infinite creature ETB; Infinite storm count
 Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Displacer Kitten (battlefield); Lion's Eye Diamond (graveyard); Corridor Monitor (battlefield)
 Steps: Activate Emry by tapping it, targeting Lion's Eye Diamond.
@@ -25249,7 +25333,7 @@ Steps: Cast Sensei's Divining Top by paying {0}.
 
 ## Combo 1170-3363-4622
 Cards: The One Ring + Displacer Kitten + Jace, the Living Guildpact
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 69 | Commander: legal | Mana needed: {4} each turn
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 70 | Commander: legal | Mana needed: {4} each turn
 Produces: Prevent all damage that would be dealt to you; You have protection from everything; Lock
 Start: The One Ring (hand); Displacer Kitten (battlefield); Jace, the Living Guildpact (battlefield)
 Steps: Cast The One Ring by paying {4}.
@@ -25317,7 +25401,7 @@ Steps: Cast Sensei's Divining Top by paying {0}.
 
 ## Combo 1170-3363-5078-8176
 Cards: Displacer Kitten + The One Ring + Sensei's Divining Top + Geist of Saint Thalia
-Color identity: U | Bracket: 3+ (Powerful) | Popularity: 580 | Commander: legal
+Color identity: U | Bracket: 3+ (Powerful) | Popularity: 590 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Displacer Kitten (battlefield); The One Ring (battlefield); Sensei's Divining Top (hand); Geist of Saint Thalia (battlefield)
 Steps: Cast Sensei's Divining Top by paying {0}.
@@ -25386,7 +25470,7 @@ Steps: Activate up to seven lands you control by tapping them, adding at least {
 
 ## Combo 1170-3634-4563
 Cards: Venser, Shaper Savant + Displacer Kitten + Everflowing Chalice
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 640 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 650 | Commander: legal
 Produces: Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Venser, Shaper Savant (battlefield); Displacer Kitten (battlefield); Everflowing Chalice (hand)
 Steps: Cast Everflowing Chalice by paying {0}.
@@ -25497,7 +25581,7 @@ Notes: As long as you have cards in your hand, you can target other players with
 
 ## Combo 1170-4113-7495
 Cards: Displacer Kitten + Skycoach Conductor // All Aboard + Invasion of Segovia // Caetus, Sea Tyrant of Segovia
-Color identity: U | Bracket: 2-3+ (Oddball) | Popularity: 51 | Commander: legal | Mana needed: {U}
+Color identity: U | Bracket: 2-3+ (Oddball) | Popularity: 52 | Commander: legal | Mana needed: {U}
 Produces: Infinite casts of a specific spell; Infinite creature ETB; Infinite creature LTB; Infinite magecraft triggers; Infinite storm count; Infinite blinking of most creatures
 Start: Displacer Kitten (battlefield); Skycoach Conductor // All Aboard (battlefield); Invasion of Segovia // Caetus, Sea Tyrant of Segovia (battlefield)
 Steps: Cast All Aboard using the convoke ability from Invasion of Segovia // Caetus, Sea Tyrant of Segovia by tapping Skycoach Conductor.
@@ -25942,7 +26026,7 @@ Steps: Activate Grand Architect's first activated ability by paying {U}, making 
 
 ## Combo 1247-3784-5963
 Cards: Marvin, Murderous Mimic + Pili-Pala + Vhal, Candlekeep Researcher
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 59 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 60 | Commander: legal
 Produces: Infinite colored mana; Infinite colorless mana that can't be spent to cast spells from your hand
 Start: Marvin, Murderous Mimic (battlefield: without summoning sickness); Pili-Pala (battlefield); Vhal, Candlekeep Researcher (battlefield: without summoning sickness)
 Steps: Activate Marvin using Vhal's ability by tapping it, adding at least {C}{C}{C} that cannot be spent to cast spells from your hand.
@@ -25951,7 +26035,7 @@ Steps: Activate Marvin using Vhal's ability by tapping it, adding at least {C}{C
 
 ## Combo 1247-3793-5963
 Cards: Marvin, Murderous Mimic + Apprentice Wizard + Pili-Pala
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 48 | Commander: legal | Mana needed: {U}
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 49 | Commander: legal | Mana needed: {U}
 Produces: Infinite colorless mana
 Start: Marvin, Murderous Mimic (battlefield: without summoning sickness); Apprentice Wizard (battlefield); Pili-Pala (battlefield)
 Steps: Activate Marvin using Apprentice Wizard's ability by paying {U} and tapping it, adding {C}{C}{C}.
@@ -25960,7 +26044,7 @@ Steps: Activate Marvin using Apprentice Wizard's ability by paying {U} and tappi
 
 ## Combo 1247-4474-4893
 Cards: Pili-Pala + Paradise Mantle + Training Grounds
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 690 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 700 | Commander: legal
 Produces: Infinite colored mana
 Start: Pili-Pala (battlefield); Paradise Mantle (battlefield); Training Grounds (battlefield)
 Prerequisites: Paradise Mantle attached to Pili-Pala.
@@ -26026,7 +26110,7 @@ Steps: Activate Patchwork Crawler using Walking Atlas's ability by tapping it, p
 
 ## Combo 1257-4270-7857
 Cards: Trade Routes + Walking Atlas + Elven Raft-Steerer
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 610 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 620 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Trade Routes (battlefield); Walking Atlas (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Prerequisites: You control a land that enters the battlefield untapped and can tap to produce at least {1}.
@@ -26038,7 +26122,7 @@ Steps: Activate the land by tapping it, adding at least {1}.
 
 ## Combo 1257-4300-7857
 Cards: Meloku the Clouded Mirror + Walking Atlas + Elven Raft-Steerer
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 650 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 660 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite landfall triggers
 Start: Meloku the Clouded Mirror (battlefield); Walking Atlas (battlefield: without summoning sickness); Elven Raft-Steerer (battlefield)
 Prerequisites: You have a land card in hand that enters the battlefield untapped and can tap to produce at least {1}.
@@ -26050,7 +26134,7 @@ Steps: Activate Walking Atlas by tapping it, putting the land from your hand ont
 
 ## Combo 1257-5621-7857
 Cards: Walking Atlas + Arid Archway + Elven Raft-Steerer
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 590 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 600 | Commander: legal
 Produces: Infinite landfall triggers
 Start: Walking Atlas (battlefield: without summoning sickness); Arid Archway (hand); Elven Raft-Steerer (battlefield)
 Steps: Activate Walking Atlas by tapping it, putting Arid Archway from your hand onto the battlefield.
@@ -26189,7 +26273,7 @@ Steps: Tap Scroll Rack and pay {1} to activate it, putting Expropriate on top of
 
 ## Combo 1271-2575-3212
 Cards: God-Eternal Kefnet + Scroll Rack + Temporal Mastery
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 440 | Commander: legal | Mana needed: {4}{U}{U} each turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 430 | Commander: legal | Mana needed: {4}{U}{U} each turn
 Produces: Infinite turns; Skip your draw steps; Lock
 Start: God-Eternal Kefnet (battlefield); Scroll Rack (battlefield); Temporal Mastery (hand)
 Steps: Tap Scroll Rack and pay {1} to activate it, putting Temporal Mastery on top of your library.
@@ -26285,7 +26369,7 @@ Steps: Cast Time Warp by paying {3}{U}{U}, taking an extra turn after this one.
 
 ## Combo 1280-4447
 Cards: Assault Suit + Marjhan
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 17 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 18 | Commander: legal
 Produces: Draw the game
 Start: Assault Suit (battlefield); Marjhan (battlefield)
 Prerequisites: Assault Suit attached to Marjhan.
@@ -26954,7 +27038,7 @@ Steps: Tap Chromatic Orrery for {C}{C}{C}{C}{C}.
 
 ## Combo 1283-2544
 Cards: Filigree Sages + Chromatic Orrery
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 3900 | Commander: legal
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 4000 | Commander: legal
 Produces: Infinite card draw; Infinite colored mana; Infinite colorless mana; Infinite draw triggers; Infinite untap of artifacts you control
 Start: Filigree Sages (battlefield); Chromatic Orrery (battlefield)
 Steps: Activate Chromatic Orrery by tapping it, adding {C}{C}{C}{C}{C}
@@ -26963,7 +27047,7 @@ Steps: Activate Chromatic Orrery by tapping it, adding {C}{C}{C}{C}{C}
 
 ## Combo 1283-2544-2751-4176
 Cards: Karn, Legacy Reforged + Strionic Resonator + Filigree Sages + Chromatic Orrery
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 8 | Commander: legal | Mana needed: {2}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 9 | Commander: legal | Mana needed: {2}
 Produces: Infinite card draw; Infinite colored mana; Infinite colorless mana; Infinite colorless mana that can't be spent to cast nonartifact spells; Infinite untap of artifacts you control; Infinite draw triggers
 Start: Karn, Legacy Reforged (battlefield); Strionic Resonator (battlefield); Filigree Sages (battlefield); Chromatic Orrery (battlefield)
 Prerequisites: You control at least two additional artifacts.
@@ -27044,7 +27128,7 @@ Steps: Activate Chromatic Orrery's first ability by tapping it, adding {5}.
 
 ## Combo 1283-2816-4091
 Cards: Aphetto Alchemist + Umbral Mantle + Chromatic Orrery
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 98 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 99 | Commander: legal
 Produces: Infinite card draw; Infinite colored mana; Infinite colorless mana; Infinitely large creature until end of turn; Infinite draw triggers; Infinite untap of artifacts and creatures you control; Infinite untap of creatures you control
 Start: Aphetto Alchemist (battlefield); Umbral Mantle (battlefield); Chromatic Orrery (battlefield)
 Prerequisites: Umbral Mantle attached to Aphetto Alchemist.
@@ -27114,7 +27198,7 @@ Steps: Activate Vhal by tapping it, adding at least {3} that cannot be spent to 
 
 ## Combo 1283-3525-3793
 Cards: Apprentice Wizard + Pemmin's Aura + Chromatic Orrery
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 35 | Commander: legal | Mana needed: {1}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 36 | Commander: legal | Mana needed: {1}
 Produces: Infinite colored mana; Infinite colorless mana
 Start: Apprentice Wizard (battlefield); Pemmin's Aura (battlefield); Chromatic Orrery (battlefield)
 Prerequisites: Pemmin's Aura attached to Apprentice Wizard.
@@ -27196,7 +27280,7 @@ Steps: Activate Karn's first ability by putting a loyalty counter on it, causing
 
 ## Combo 1283-4067
 Cards: Mind Over Matter + Chromatic Orrery
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 2400 | Commander: legal | Mana needed: {5}
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 2500 | Commander: legal | Mana needed: {5}
 Produces: Near-infinite colorless mana; Near-infinite colored mana; Near-infinite card draw; Near-infinite mana permanents you control can produce; Infinite looting; Near-infinite untap of permanents you control; Infinite self-discard triggers; Infinite draw triggers
 Start: Mind Over Matter (battlefield); Chromatic Orrery (battlefield)
 Prerequisites: There are at least two colors among permanents you control.
@@ -27386,7 +27470,7 @@ Steps: Cast Paradigm Shift by paying {1}{U}, exiling your library and shuffling 
 
 ## Combo 1295-4008-4297
 Cards: Junktroller + Tunnel Vision + Thassa's Oracle
-Color identity: U | Bracket: 3+ (Powerful) | Popularity: 43 | Commander: legal | Mana needed: {5}{U}{U}{U}
+Color identity: U | Bracket: 3+ (Powerful) | Popularity: 44 | Commander: legal | Mana needed: {5}{U}{U}{U}
 Produces: Win the game
 Start: Junktroller (battlefield); Tunnel Vision (hand); Thassa's Oracle (hand)
 Prerequisites: Junktroller does not have summoning sickness.
@@ -27408,7 +27492,7 @@ Steps: Play Oracle.
 
 ## Combo 1303-2232-2452
 Cards: Necroduality + Rooftop Storm + Cloudstone Curio
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 98 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 99 | Commander: legal
 Produces: Infinite creature tokens; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Necroduality (battlefield); Rooftop Storm (battlefield); Cloudstone Curio (battlefield)
 Prerequisites: You have a nonlegendary, nonartifact Zombie card in hand.
@@ -27777,7 +27861,7 @@ Steps: Activate Mystic Sanctuary by tapping it, adding {U}.
 
 ## Combo 1309-1987-2104-4423
 Cards: Ghostly Flicker + Mystic Sanctuary + Salvager of Secrets + Temporal Manipulation
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 110 | Commander: legal | Mana needed: {5}{U}{U} each turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 120 | Commander: legal | Mana needed: {5}{U}{U} each turn
 Produces: Infinite turns; Skip your draw steps; Lock
 Start: Ghostly Flicker (hand); Mystic Sanctuary (battlefield); Salvager of Secrets (battlefield); Temporal Manipulation (hand)
 Prerequisites: You control at least four Islands.
@@ -27939,7 +28023,7 @@ Steps: Activate Gilded Lotus by tapping it, adding {U}{U}{U}.
 
 ## Combo 1309-1987-2556-4276
 Cards: Turnabout + Ghostly Flicker + Salvager of Secrets + Mnemonic Wall
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 81 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 83 | Commander: legal
 Produces: Infinite mana permanents you control can produce; Infinite untap of permanents you control; Infinite creature LTB; Infinite creature ETB; Infinite storm count; Infinite magecraft triggers; Infinite blinking; Infinite landfall triggers
 Start: Turnabout (hand); Ghostly Flicker (hand); Salvager of Secrets (battlefield); Mnemonic Wall (battlefield)
 Prerequisites: Lands you control can tap to produce at least {4}{U}{U}{U}.
@@ -28060,7 +28144,7 @@ Notes: If lands you control can tap to produce at least {5}{U}{U}{U}, this combo
 
 ## Combo 1309-1987-4377-4423
 Cards: Ghostly Flicker + Mystic Sanctuary + Salvager of Secrets + Walk the Aeons
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 87 | Commander: legal | Mana needed: {6}{U}{U} each turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 88 | Commander: legal | Mana needed: {6}{U}{U} each turn
 Produces: Infinite turns; Skip your draw steps; Lock
 Start: Ghostly Flicker (hand); Mystic Sanctuary (battlefield); Salvager of Secrets (battlefield); Walk the Aeons (hand)
 Prerequisites: You control at least four Islands.
@@ -28722,7 +28806,7 @@ Steps: Cast Beacon of Tomorrows by paying {6}{U}{U}, causing you to take an extr
 
 ## Combo 1329-1379-2363-4853
 Cards: Emry, Lurker of the Loch + Dross Scorpion + Encroaching Mycosynth + Hangarback Walker
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 44 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Emry, Lurker of the Loch (battlefield); Dross Scorpion (battlefield); Encroaching Mycosynth (battlefield); Hangarback Walker (graveyard)
 Prerequisites: Emry does not have summoning sickness.
@@ -28734,7 +28818,7 @@ Steps: Activate Emry by tapping it, allowing you to cast Hangarback Walker from 
 
 ## Combo 1329-1379-3693-4853
 Cards: Emry, Lurker of the Loch + Dross Scorpion + Encroaching Mycosynth + Walking Ballista
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 41 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 43 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Emry, Lurker of the Loch (battlefield); Dross Scorpion (battlefield); Encroaching Mycosynth (battlefield); Walking Ballista (graveyard)
 Prerequisites: Emry does not have summoning sickness.
@@ -29493,7 +29577,7 @@ Steps: Activate Emry by tapping it, allowing you to cast Phyrexian Marauder from
 
 ## Combo 1329-2178-4659
 Cards: Emry, Lurker of the Loch + Thornbite Staff + Krark-Clan Ironworks
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 250 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 260 | Commander: legal
 Produces: Infinite colorless mana; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers; Infinite storm count
 Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Thornbite Staff (battlefield: attached to Emry); Krark-Clan Ironworks (battlefield)
 Prerequisites: You have a nontoken artifact creature in your graveyard that can be cast using at most {C}{C}, with the mana to cast it.
@@ -29593,7 +29677,7 @@ Steps: Activate Emry by tapping it, targeting Mishra's Bauble.
 
 ## Combo 1329-2478-3338
 Cards: Emry, Lurker of the Loch + Mirran Spy + Mishra's Bauble
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 6900 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 7000 | Commander: legal
 Produces: Infinite card draw at the beginning of the next upkeep; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite storm count; Infinite draw triggers at the beginning of the next upkeep
 Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Mirran Spy (battlefield); Mishra's Bauble (graveyard)
 Steps: Activate Emry by tapping it, targeting Mishra's Bauble.
@@ -29616,7 +29700,7 @@ Steps: Activate Emry by tapping it, targeting Lantern of Insight.
 
 ## Combo 1329-2510-3338-6504
 Cards: Emry, Lurker of the Loch + Mirran Spy + Semblance Anvil + Conjurer's Bauble
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 450 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 460 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers
 Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Mirran Spy (battlefield); Semblance Anvil (battlefield); Conjurer's Bauble (graveyard)
 Prerequisites: There is an artifact card exiled with Semblance Anvil.
@@ -29885,7 +29969,7 @@ Steps: Activate Emry by tapping it, targeting Urza's Bauble.
 
 ## Combo 1329-3263-3693-4853
 Cards: Emry, Lurker of the Loch + Dross Scorpion + Mycosynth Lattice + Walking Ballista
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 47 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 48 | Commander: legal
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite storm count
 Start: Emry, Lurker of the Loch (battlefield); Dross Scorpion (battlefield); Mycosynth Lattice (battlefield); Walking Ballista (graveyard)
 Prerequisites: Emry does not have summoning sickness.
@@ -30019,7 +30103,7 @@ Steps: Activate Emry by tapping it, targeting Conjurer's Bauble.
 
 ## Combo 1329-3338-4211
 Cards: Emry, Lurker of the Loch + Mirran Spy + Tormod's Crypt
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 3900 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 4000 | Commander: legal
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite storm count
 Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Mirran Spy (battlefield); Tormod's Crypt (graveyard)
 Steps: Activate Emry by tapping it, targeting Tormod's Crypt.
@@ -30030,7 +30114,7 @@ Steps: Activate Emry by tapping it, targeting Tormod's Crypt.
 
 ## Combo 1329-3338-4659--31
 Cards: Emry, Lurker of the Loch + Mirran Spy + Krark-Clan Ironworks
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 3200 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 3300 | Commander: legal
 Produces: Infinite colorless mana; Infinite storm count
 Requires: Artifact with MV<=2 that has a generic mana cost (battlefield)
 Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Mirran Spy (battlefield); Krark-Clan Ironworks (battlefield)
@@ -30196,7 +30280,7 @@ Steps: Activate Emry by tapping it, targeting Conjurer's Bauble.
 
 ## Combo 1329-3338-6504-7650
 Cards: Emry, Lurker of the Loch + Mirran Spy + Conjurer's Bauble + Bilbo, Thief in the Night
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 69 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 70 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers
 Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Mirran Spy (battlefield); Conjurer's Bauble (graveyard); Bilbo, Thief in the Night (battlefield)
 Steps: Activate Emry by tapping it, targeting Conjurer's Bauble.
@@ -30207,7 +30291,7 @@ Steps: Activate Emry by tapping it, targeting Conjurer's Bauble.
 
 ## Combo 1329-3338-6504-7692
 Cards: Emry, Lurker of the Loch + Mirran Spy + Conjurer's Bauble + Shuri, Wakandan Inventor
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 140 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 150 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers
 Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Mirran Spy (battlefield); Conjurer's Bauble (graveyard); Shuri, Wakandan Inventor (battlefield)
 Steps: Activate Emry by tapping it, targeting Conjurer's Bauble.
@@ -30229,7 +30313,7 @@ Steps: Activate Emry by tapping it, targeting Conjurer's Bauble.
 
 ## Combo 1329-3338-6504-8176
 Cards: Emry, Lurker of the Loch + Mirran Spy + Conjurer's Bauble + Geist of Saint Thalia
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 86 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 89 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count; Near-infinite artifact ETB; Near-infinite artifact LTB; Near-infinite artifact sacrifice triggers
 Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Mirran Spy (battlefield); Conjurer's Bauble (graveyard); Geist of Saint Thalia (battlefield)
 Steps: Activate Emry by tapping it, targeting Conjurer's Bauble.
@@ -30240,7 +30324,7 @@ Steps: Activate Emry by tapping it, targeting Conjurer's Bauble.
 
 ## Combo 1329-3363-3698
 Cards: Emry, Lurker of the Loch + The One Ring + Grinding Station
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 2800 | Commander: legal | Mana needed: {4} during each of your turns
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 2900 | Commander: legal | Mana needed: {4} during each of your turns
 Produces: Lock; Prevent all damage that would be dealt to you; You have protection from everything
 Start: Emry, Lurker of the Loch (battlefield); The One Ring (battlefield); Grinding Station (battlefield)
 Prerequisites: Emry does not have summoning sickness.
@@ -30291,7 +30375,7 @@ Steps: Activate Black Lotus by tapping and sacrificing it, adding three mana of 
 
 ## Combo 1329-3698-7340
 Cards: Emry, Lurker of the Loch + Sewer-veillance Cam + Grinding Station
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1100 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1200 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite storm count
 Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Sewer-veillance Cam (graveyard); Grinding Station (battlefield)
 Prerequisites: You control a creature that can tap to produce at least {U}.
@@ -30348,7 +30432,7 @@ Steps: Activate Black Lotus by tapping and sacrificing it, adding three mana of 
 
 ## Combo 1329-6766-7340-7681
 Cards: Emry, Lurker of the Loch + Technodrome + Sewer-veillance Cam + Mm'menon, the Right Hand
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 39 | Commander: legal | Mana needed: {U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 38 | Commander: legal | Mana needed: {U}
 Produces: Infinite card draw; Near-infinite +1/+1 counters on a creature; Infinite artifact ETB; Infinite artifact LTB; Infinite artifact sacrifice triggers; Infinite draw triggers; Near-infinite storm count
 Start: Emry, Lurker of the Loch (battlefield: without summoning sickness); Technodrome (battlefield: without summoning sickness); Sewer-veillance Cam (hand, graveyard); Mm'menon, the Right Hand (battlefield)
 Steps: If Sewer-veillance Cam is in your graveyard, activate Emry by tapping it, targeting Sewer-veillance Cam.
@@ -30520,7 +30604,7 @@ Notes: If you control creature(s) that can tap to produce mana, you can use that
 
 ## Combo 1363-3363
 Cards: The One Ring + Tradewind Rider
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 96 | Commander: legal | Mana needed: {4} each turn
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 99 | Commander: legal | Mana needed: {4} each turn
 Produces: You have protection from everything; Lock; Prevent all damage that would be dealt to you
 Start: The One Ring (battlefield); Tradewind Rider (battlefield)
 Prerequisites: Tradewind Rider does not have summoning sickness.
@@ -30941,7 +31025,7 @@ Steps: Activate Summoning Station by tapping it, creating a 2/2 Pincher creature
 
 ## Combo 1379-3764-5256
 Cards: Summoning Station + Encroaching Mycosynth + Altar of Dementia
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 15 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 16 | Commander: legal
 Produces: Infinite mill; Infinite self-mill; Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Summoning Station (battlefield); Encroaching Mycosynth (battlefield); Altar of Dementia (battlefield)
 Steps: Activate Summoning Station by tapping it, creating a 2/2 Pincher creature token.
@@ -30975,7 +31059,7 @@ Steps: Cast Whim of Volrath with buyback by paying {U}, targeting Sage of Hours.
 
 ## Combo 1393-2034-5003
 Cards: Nim Deathmantle + Ashnod's Altar + Aether Channeler
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 91 | Commander: legal | Mana needed: {2}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 90 | Commander: legal | Mana needed: {2}
 Produces: Infinite death triggers; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers
 Start: Nim Deathmantle (battlefield); Ashnod's Altar (battlefield); Aether Channeler (battlefield)
 Steps: Activate Ashnod's Altar by sacrificing Aether Channeler, adding {C}{C}.
@@ -31036,7 +31120,7 @@ Steps: Activate Avatar Kuruk by paying {20} minus {1} for each creature and/or a
 
 ## Combo 1409-1636
 Cards: Intruder Alarm + Deadeye Navigator
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 5600 | Commander: legal | Mana needed: {1}{U}
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 5700 | Commander: legal | Mana needed: {1}{U}
 Produces: Infinite mana creatures you control can produce; Infinite untap of most creatures you control; Infinite blinking; Infinite creature ETB; Infinite creature LTB
 Start: Intruder Alarm (battlefield); Deadeye Navigator (battlefield)
 Prerequisites: Deadeye Navigator paired with another creature.
@@ -31102,7 +31186,7 @@ Steps: Activate Burdened Aerialist by paying {1}{U}, blinking it.
 
 ## Combo 1409-2060-2431
 Cards: Deepglow Skate + Deadeye Navigator + Crystalline Crawler
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 83 | Commander: legal | Mana needed: {1}{U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 82 | Commander: legal | Mana needed: {1}{U}
 Produces: Infinite colored mana; Infinite +1/+1 counters on a creature; Infinite proliferate; Infinite blinking; Infinite creature ETB; Infinite creature LTB
 Start: Deepglow Skate (battlefield); Deadeye Navigator (battlefield); Crystalline Crawler (battlefield)
 Prerequisites: Crystalline Crawler has at least three +1/+1 counters on it.
@@ -31183,7 +31267,7 @@ Steps: Activate Lord of Change by paying {1}{U}, blinking it.
 
 ## Combo 1409-2719-7009
 Cards: The Legend of Kuruk // Avatar Kuruk + Deadeye Navigator + Sakashima of a Thousand Faces
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 76 | Commander: legal | Mana needed: {1}{U} plus {20} minus {1} for each creature and artifact you control each turn
+Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 77 | Commander: legal | Mana needed: {1}{U} plus {20} minus {1} for each creature and artifact you control each turn
 Produces: Infinite turns; Lock
 Start: The Legend of Kuruk // Avatar Kuruk (battlefield); Deadeye Navigator (battlefield: is paired with Sakashima); Sakashima of a Thousand Faces (battlefield: as a copy of Avatar Kuruk)
 Steps: Activate Sakashima using Avatar Kuruk's ability by paying {20} minus {1} for each creature and/or artifact you can tap while activating it, causing you to take an extra turn after this one.
@@ -31901,7 +31985,7 @@ Steps: Activate Glasspool Mimic's second ability by tapping it, untapping Ioreth
 
 ## Combo 1432-4091--80
 Cards: Ioreth of the Healing House + Aphetto Alchemist
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 14000 | Commander: legal
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 15000 | Commander: legal
 Produces: Infinite mana legendary creatures you control can produce; Infinite untap of legendary creatures you control
 Requires: Card with "The Ring tempts you" (hand)
 Start: Ioreth of the Healing House (battlefield); Aphetto Alchemist (battlefield)
@@ -31925,7 +32009,7 @@ Steps: Activate Clone's second ability by tapping it, untapping Ioreth and anoth
 
 ## Combo 1432-4613-5329
 Cards: Agatha's Soul Cauldron + Deeproot Pilgrimage + Ioreth of the Healing House
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 59 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 60 | Commander: legal
 Produces: Infinite creature tokens; Infinite mana legendary creatures you control can produce; Infinite untap of legendary creatures you control; Infinite creature ETB
 Start: Agatha's Soul Cauldron (battlefield); Deeproot Pilgrimage (battlefield); Ioreth of the Healing House (exile: exiled by Agatha's Soul Cauldron)
 Prerequisites: You control a nontoken Merfolk and at least one additional creature that each have a +1/+1 counter on them.
@@ -32158,7 +32242,7 @@ Notes: This combo results in infinite copies of the Gitaxian Anatomist spell on 
 
 ## Combo 1437-6962
 Cards: Myojin of Cryptic Dreams + Glistening Sphere
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 810 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 820 | Commander: legal
 Produces: Infinite creature tokens; Infinite copies of permanent spells you control; Infinite proliferate; Infinite creature ETB
 Start: Myojin of Cryptic Dreams (battlefield); Glistening Sphere (hand)
 Prerequisites: Myojin of Cryptic Dreams has at least two indestructible counters on it.
@@ -32311,7 +32395,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 1456-1987-2364-4423
 Cards: Ghostly Flicker + Mystic Sanctuary + One with the Multiverse + Mana Vault
-Color identity: U | Bracket: 3+ (Powerful) | Popularity: 40 | Commander: legal
+Color identity: U | Bracket: 3+ (Powerful) | Popularity: 39 | Commander: legal
 Produces: Infinite colorless mana; Infinite blue mana; Infinite artifact ETB; Infinite artifact LTB; Infinite storm count; Infinite magecraft triggers; Infinite landfall triggers
 Start: Ghostly Flicker (hand, library: on top of your library ); Mystic Sanctuary (battlefield); One with the Multiverse (battlefield); Mana Vault (battlefield)
 Prerequisites: You control three additional Islands.
@@ -32631,7 +32715,7 @@ Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card 
 
 ## Combo 1456-5078-7692
 Cards: Sensei's Divining Top + One with the Multiverse + Shuri, Wakandan Inventor
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 64 | Commander: legal
+Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 65 | Commander: legal
 Produces: Infinite card draw; Infinite draw triggers; Near-infinite storm count
 Start: Sensei's Divining Top (battlefield); One with the Multiverse (battlefield); Shuri, Wakandan Inventor (battlefield)
 Steps: Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.
@@ -32691,7 +32775,7 @@ Steps: Cast Banishing Knack by paying {U}, targeting any non-mana producing crea
 
 ## Combo 1458-2142
 Cards: Zephyr Scribe + Banishing Knack
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 310 | Commander: legal | Mana needed: {U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 320 | Commander: legal | Mana needed: {U}
 Produces: Infinite storm count
 Start: Zephyr Scribe (battlefield); Banishing Knack (hand)
 Prerequisites: Zephyr Scribe does not have summoning sickness.
@@ -32748,7 +32832,7 @@ Notes: You will only get infinite ETB and LTB triggers if you choose a creature 
 
 ## Combo 1458-3338--44
 Cards: Mirran Spy + Banishing Knack
-Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1400 | Commander: legal | Mana needed: {U}
+Color identity: U | Bracket: 1+ (Exhibition) | Popularity: 1500 | Commander: legal | Mana needed: {U}
 Produces: Infinite artifact ETB; Infinite artifact LTB; Infinite creature LTB; Infinite creature ETB; Infinite storm count
 Requires: Artifact Castable for {0} that survives (hand)
 Start: Mirran Spy (battlefield); Banishing Knack (hand)
@@ -33200,113 +33284,3 @@ Steps: If you have six or more cards in hand, activate Aeromoeba by discarding a
   Stark's Ingenuity triggers for each card drawn, putting that many +1/+1 counters on Sage of Hours.
   Activate Sage of Hours by removing all +1/+1 counters from it, causing you to take at least one extra turn after this one.
   Repeat each turn.
-
-## Combo 1494-3365-7720-7811
-Cards: Sage of Hours + The Ten Rings + Aeromoeba + Iron Man, Armored Avenger
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
-Produces: Near-infinite turns; Lock
-Start: Sage of Hours (battlefield); The Ten Rings (battlefield); Aeromoeba (battlefield); Iron Man, Armored Avenger (battlefield)
-Steps: If you have six or more cards in hand, activate Aeromoeba by discarding a card.
-  Repeat step 1 until you have five or fewer cards in hand.
-  At the beginning of your end step, The Ten Rings triggers, causing you to draw cards until you have ten cards in your hand.
-  Iron Man triggers for each card drawn, putting that many +1/+1 counters on Sage of Hours.
-  Activate Sage of Hours by removing all +1/+1 counters from it, causing you to take at least one extra turn after this one.
-  Repeat each turn.
-
-## Combo 1494-4067-6822-7720
-Cards: Sage of Hours + The Ten Rings + Mind Over Matter + Lyla, Holographic Assistant
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 1 | Commander: legal
-Produces: Near-infinite turns; Lock
-Start: Sage of Hours (battlefield); The Ten Rings (battlefield); Mind Over Matter (battlefield); Lyla, Holographic Assistant (battlefield)
-Steps: If you have six or more cards in hand, activate Mind Over Matter by discarding a card.
-  Repeat step 1 until you have five or fewer cards in hand.
-  At the beginning of your end step, The Ten Rings triggers, causing you to draw cards until you have ten cards in your hand.
-  Lyla triggers for each card drawn, putting that many +1/+1 counters on Sage of Hours.
-  Activate Sage of Hours by removing all +1/+1 counters from it, causing you to take at least one extra turn after this one.
-  Repeat each turn.
-
-## Combo 1494-4067-7720-7737
-Cards: Sage of Hours + The Ten Rings + Mind Over Matter + Stark's Ingenuity
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 1 | Commander: legal
-Produces: Near-infinite turns; Lock
-Start: Sage of Hours (battlefield); The Ten Rings (battlefield); Mind Over Matter (battlefield); Stark's Ingenuity (battlefield: attached to Sage of Hours)
-Steps: If you have six or more cards in hand, activate Mind Over Matter by discarding a card.
-  Repeat step 1 until you have five or fewer cards in hand.
-  At the beginning of your end step, The Ten Rings triggers, causing you to draw cards until you have ten cards in your hand.
-  Stark's Ingenuity triggers for each card drawn, putting that many +1/+1 counters on Sage of Hours.
-  Activate Sage of Hours by removing all +1/+1 counters from it, causing you to take at least one extra turn after this one.
-  Repeat each turn.
-
-## Combo 1494-4067-7720-7811
-Cards: Sage of Hours + The Ten Rings + Mind Over Matter + Iron Man, Armored Avenger
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 1 | Commander: legal
-Produces: Near-infinite turns; Lock
-Start: Sage of Hours (battlefield); The Ten Rings (battlefield); Mind Over Matter (battlefield); Iron Man, Armored Avenger (battlefield)
-Steps: If you have six or more cards in hand, activate Mind Over Matter by discarding a card.
-  Repeat step 1 until you have five or fewer cards in hand.
-  At the beginning of your end step, The Ten Rings triggers, causing you to draw cards until you have ten cards in your hand.
-  Iron Man triggers for each card drawn, putting that many +1/+1 counters on Sage of Hours.
-  Activate Sage of Hours by removing all +1/+1 counters from it, causing you to take at least one extra turn after this one.
-  Repeat each turn.
-
-## Combo 1494-5395
-Cards: Piper Wright, Publick Reporter + Sage of Hours
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 610 | Commander: legal | Mana needed: {10} each turn
-Produces: Near-infinite turns; Lock
-Start: Piper Wright, Publick Reporter (battlefield); Sage of Hours (battlefield)
-Prerequisites: Piper has power 5 or greater.
-  Piper does not have summoning sickness and cannot be blocked by an opponent.
-Steps: Deal combat damage to an opponent using Piper.
-  Piper's first ability triggers, creating at least five Clue tokens.
-  Activate a Clue by paying {2} and sacrificing it.
-  Piper's second ability triggers, putting a +1/+1 counter on Sage of Hours.
-  Resolve the Clue ability, causing you to draw a card.
-  Repeat from step 3 four additional times.
-  Activate Sage of Hours by removing all +1/+1 counters from it, causing you to take an extra turn after this one.
-  Repeat each turn.
-
-## Combo 1494-5437-6822-7720
-Cards: Sage of Hours + The Ten Rings + Prognostic Sphinx + Lyla, Holographic Assistant
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
-Produces: Near-infinite turns; Lock
-Start: Sage of Hours (battlefield); The Ten Rings (battlefield); Prognostic Sphinx (battlefield); Lyla, Holographic Assistant (battlefield)
-Steps: If you have six or more cards in hand, activate Prognostic Sphinx by discarding a card.
-  Repeat step 1 until you have five or fewer cards in hand.
-  At the beginning of your end step, The Ten Rings triggers, causing you to draw cards until you have ten cards in your hand.
-  Lyla triggers for each card drawn, putting that many +1/+1 counters on Sage of Hours.
-  Activate Sage of Hours by removing all +1/+1 counters from it, causing you to take at least one extra turn after this one.
-  Repeat each turn.
-
-## Combo 1494-5437-7720-7737
-Cards: Sage of Hours + The Ten Rings + Prognostic Sphinx + Stark's Ingenuity
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
-Produces: Near-infinite turns; Lock
-Start: Sage of Hours (battlefield); The Ten Rings (battlefield); Prognostic Sphinx (battlefield); Stark's Ingenuity (battlefield: attached to Sage of Hours)
-Steps: If you have six or more cards in hand, activate Prognostic Sphinx by discarding a card.
-  Repeat step 1 until you have five or fewer cards in hand.
-  At the beginning of your end step, The Ten Rings triggers, causing you to draw cards until you have ten cards in your hand.
-  Stark's Ingenuity triggers for each card drawn, putting that many +1/+1 counters on Sage of Hours.
-  Activate Sage of Hours by removing all +1/+1 counters from it, causing you to take at least one extra turn after this one.
-  Repeat each turn.
-
-## Combo 1494-5437-7720-7811
-Cards: Sage of Hours + The Ten Rings + Prognostic Sphinx + Iron Man, Armored Avenger
-Color identity: U | Bracket: 4+ (Ruthless) | Popularity: 0 | Commander: legal
-Produces: Near-infinite turns; Lock
-Start: Sage of Hours (battlefield); The Ten Rings (battlefield); Prognostic Sphinx (battlefield); Iron Man, Armored Avenger (battlefield)
-Steps: If you have six or more cards in hand, activate Prognostic Sphinx by discarding a card.
-  Repeat step 1 until you have five or fewer cards in hand.
-  At the beginning of your end step, The Ten Rings triggers, causing you to draw cards until you have ten cards in your hand.
-  Iron Man triggers for each card drawn, putting that many +1/+1 counters on Sage of Hours.
-  Activate Sage of Hours by removing all +1/+1 counters from it, causing you to take at least one extra turn after this one.
-  Repeat each turn.
-
-## Combo 1495-2396-6822
-Cards: Lyla, Holographic Assistant + Triskelion + Ophidian Eye
-Color identity: U | Bracket: 3-4+ (Spicy) | Popularity: 38 | Commander: legal
-Produces: Near-infinite damage; Infinite card draw; Infinite draw triggers
-Start: Lyla, Holographic Assistant (battlefield); Triskelion (battlefield: with a +1/+1 counter on it); Ophidian Eye (battlefield: attached to Triskelion)
-Steps: Activate Triskelion by removing a +1/+1 counter from it, dealing 1 damage to an opponent.
-  Ophidian Eye triggers, causing you to draw a card.
-  Lyla triggers, putting a +1/+1 counter on Triskelion.
-  Repeat.

@@ -1,3 +1,84 @@
+## Combo 6797-7096--5
+Cards: Phantom Train + Bioengineered Future
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 14 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
+Requires: Persist Creature (battlefield)
+Start: Phantom Train (battlefield); Bioengineered Future (battlefield)
+Prerequisites: You've had at least one land enter this turn.
+Steps: Activate Phantom Train by sacrificing the persist creature.
+  When the persist creature dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it and at least one +1/+1 counter on it due to Bioengineered Future.
+  Remove a -1/-1 counter and a +1/+1 counter from that creature as a state-based action.
+  Resolve the Phantom Train ability.
+  Repeat
+
+## Combo 6797-7388--5
+Cards: Phantom Train + Rocksteady, Mutant Marauder
+Color identity: BG | Bracket: 2-3+ (Oddball) | Popularity: 18 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Requires: Persist Creature (battlefield)
+Start: Phantom Train (battlefield); Rocksteady, Mutant Marauder (battlefield)
+Steps: Activate Phantom Train by sacrificing the persist creature.
+  When the persist creature dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
+  When the persist creature enters, Rocksteady triggers, putting a +1/+1 counter on that creature.
+  Resolve the Phantom Train ability.
+  Repeat
+
+## Combo 6797-7430--5
+Cards: Gorma, the Gullet + Phantom Train
+Color identity: BG | Bracket: 2-3+ (Oddball) | Popularity: 55 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
+Requires: Persist Creature (battlefield: without a -1/-1 counter on it)
+Start: Gorma, the Gullet (battlefield); Phantom Train (battlefield)
+Steps: Activate Phantom Train by sacrificing the persist creature.
+  When the persist creature dies, its persist ability and Gorma trigger.
+  Resolve the Gorma trigger, putting a +1/+1 counter on it.
+  Resolve the persist trigger, returning it from your graveyard to the battlefield with at least one +1/+1 counter on it due to Gorma.
+  Remove a +1/+1 and a -1/-1 counter from that creature as a state-based action.
+  Resolve the Phantom Train ability.
+  Repeat
+Notes: Each loop, Gorma will place an additional +1/+1 counter on the persist creature compared to the previous loop. This'll eventually result in both the persist creature and Gorma having infinite +1/+1 counters on them.
+
+## Combo 6797-7804--5
+Cards: Phantom Train + Captain Kathryn Janeway
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
+Requires: Persist Creature (battlefield)
+Start: Phantom Train (battlefield); Captain Kathryn Janeway (battlefield)
+Prerequisites: The top card of your library is a nonland card.
+Steps: Activate Phantom Train by sacrificing the persist creature.
+  When the persist creature dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
+  When the persist creature enters, Captain Kathryn Janeway triggers, putting a +1/+1 counter on that creature.
+  Resolve the Phantom Train ability.
+  Repeat
+
+## Combo 6797-7940--5
+Cards: Phantom Train + Support Mission
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 0 | Commander: legal
+Produces: Infinite +1/+1 counters on a creature; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
+Requires: Persist Creature (battlefield)
+Start: Phantom Train (battlefield); Support Mission (battlefield)
+Steps: Activate Phantom Train by sacrificing the persist creature.
+  When the persist creature dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.
+  When the persist creature enters, Support Mission triggers, putting a +1/+1 counter on that creature.
+  Resolve the Phantom Train ability.
+  Repeat
+
+## Combo 6798-6854--5--195
+Cards: Umbral Collar Zealot + Host of the Hereafter
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 1300 | Commander: legal
+Produces: Infinite surveil; Infinite creature ETB; Infinite creature LTB; Infinite creature sacrifice triggers; Infinite death triggers
+Requires: 2x Persist Creature (battlefield)
+Requires: Increases +1/+1 Counter Placement but not -1/-1 (battlefield)
+Start: Umbral Collar Zealot (battlefield); Host of the Hereafter (battlefield)
+Prerequisites: At least one persist creature has a +1/+1 counter on it.
+Steps: Activate Umbral Collar Zealot by sacrificing the persist creature that has a +1/+1 counter on it.
+  When that creature dies, its persist ability and Host of the Hereafter trigger.
+  Resolve Host of the Hereafter's ability, putting at least two +1/+1 counters onto the surviving persist creature due to the counter-increasing effect.
+  If that creature had a -1/-1 counter on it, remove that and one of the +1/+1 counters from it as a state-based action.
+  Resolve the persist ability from step 2, returning the persist creature from your graveyard to the battlefield with a -1/-1 counter.
+  Resolve the Umbral Collar Zealot ability from step 1.
+  Repeat.
+
 ## Combo 6798-6872--5
 Cards: Long Feng, Grand Secretariat + Umbral Collar Zealot
 Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 1100 | Commander: legal
@@ -61,7 +142,7 @@ Steps: Activate Umbral Collar Zealot by sacrificing another nonland creature you
 
 ## Combo 6798-7084-7201
 Cards: Beifong's Bounty Hunters + Umbral Collar Zealot + Sapling Nursery
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 49 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 50 | Commander: legal
 Produces: Infinite creature tokens; Infinite surveil; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers
 Start: Beifong's Bounty Hunters (battlefield); Umbral Collar Zealot (battlefield); Sapling Nursery (battlefield)
 Prerequisites: You control a land.
@@ -94,7 +175,7 @@ Steps: Activate Umbral Collar Zealot by sacrificing another nonland creature.
 
 ## Combo 6798-7084-7705
 Cards: Beifong's Bounty Hunters + Umbral Collar Zealot + Mole Man, Moloid Master
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 180 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 190 | Commander: legal
 Produces: Infinite creature tokens; Infinite surveil; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite landfall triggers; Infinite creature sacrifice triggers
 Start: Beifong's Bounty Hunters (battlefield); Umbral Collar Zealot (battlefield); Mole Man, Moloid Master (battlefield)
 Prerequisites: You control a land.
@@ -198,7 +279,7 @@ Notes: Each loop, Gorma will place an additional +1/+1 counter on the persist cr
 
 ## Combo 6798-7804--5
 Cards: Umbral Collar Zealot + Captain Kathryn Janeway
-Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 73 | Commander: legal
+Color identity: BG | Bracket: 1+ (Exhibition) | Popularity: 78 | Commander: legal
 Produces: Infinite surveil; Infinite creature ETB; Infinite creature LTB; Infinite death triggers; Infinite creature sacrifice triggers
 Requires: Persist Creature (battlefield)
 Start: Umbral Collar Zealot (battlefield); Captain Kathryn Janeway (battlefield)
